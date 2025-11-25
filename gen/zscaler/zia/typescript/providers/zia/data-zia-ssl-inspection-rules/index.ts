@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/ssl_inspection_rules
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/ssl_inspection_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZiaSslInspectionRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/ssl_inspection_rules#id DataZiaSslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/ssl_inspection_rules#id DataZiaSslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataZiaSslInspectionRulesConfig extends cdktf.TerraformMetaArgu
   /**
   * The name of the SSL Inspection rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/ssl_inspection_rules#name DataZiaSslInspectionRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/ssl_inspection_rules#name DataZiaSslInspectionRules#name}
   */
   readonly name?: string;
   /**
   * List of URL categories for which rule must be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/ssl_inspection_rules#url_categories DataZiaSslInspectionRules#url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/ssl_inspection_rules#url_categories DataZiaSslInspectionRules#url_categories}
   */
   readonly urlCategories?: string[];
 }
@@ -2125,7 +2125,7 @@ export class DataZiaSslInspectionRulesZpaAppSegmentsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/ssl_inspection_rules zia_ssl_inspection_rules}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/ssl_inspection_rules zia_ssl_inspection_rules}
 */
 export class DataZiaSslInspectionRules extends cdktf.TerraformDataSource {
 
@@ -2141,7 +2141,7 @@ export class DataZiaSslInspectionRules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaSslInspectionRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaSslInspectionRules to import
-  * @param importFromId The id of the existing DataZiaSslInspectionRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/ssl_inspection_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaSslInspectionRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/ssl_inspection_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaSslInspectionRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2153,7 +2153,7 @@ export class DataZiaSslInspectionRules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/ssl_inspection_rules zia_ssl_inspection_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/ssl_inspection_rules zia_ssl_inspection_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2164,8 +2164,8 @@ export class DataZiaSslInspectionRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_ssl_inspection_rules',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

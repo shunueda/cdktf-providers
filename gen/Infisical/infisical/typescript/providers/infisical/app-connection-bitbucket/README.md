@@ -1,3 +1,3 @@
 # `infisical_app_connection_bitbucket`
 
-Refer to the Terraform Registry for docs: [`infisical_app_connection_bitbucket`](https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/app_connection_bitbucket).
+Refer to the Terraform Registry for docs: [`infisical_app_connection_bitbucket`](https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_bitbucket).

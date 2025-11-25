@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/bandwidth_classes
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface BandwidthClassesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the bandwidth class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/bandwidth_classes#name BandwidthClasses#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes#name BandwidthClasses#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/bandwidth_classes#url_categories BandwidthClasses#url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes#url_categories BandwidthClasses#url_categories}
   */
   readonly urlCategories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/bandwidth_classes#urls BandwidthClasses#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes#urls BandwidthClasses#urls}
   */
   readonly urls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/bandwidth_classes#web_applications BandwidthClasses#web_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes#web_applications BandwidthClasses#web_applications}
   */
   readonly webApplications?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/bandwidth_classes zia_bandwidth_classes}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes zia_bandwidth_classes}
 */
 export class BandwidthClasses extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class BandwidthClasses extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BandwidthClasses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BandwidthClasses to import
-  * @param importFromId The id of the existing BandwidthClasses that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/bandwidth_classes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BandwidthClasses that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BandwidthClasses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class BandwidthClasses extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/bandwidth_classes zia_bandwidth_classes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes zia_bandwidth_classes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class BandwidthClasses extends cdktf.TerraformResource {
       terraformResourceType: 'zia_bandwidth_classes',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

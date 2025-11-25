@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/mediasources
+// https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/mediasources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVergeioMediasourcesConfig extends cdktf.TerraformMetaArgume
   /**
   * Filter by name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/mediasources#filter_name DataVergeioMediasources#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/mediasources#filter_name DataVergeioMediasources#filter_name}
   */
   readonly filterName?: string;
 }
@@ -106,7 +106,7 @@ export class DataVergeioMediasourcesMediasourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/mediasources vergeio_mediasources}
+* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/mediasources vergeio_mediasources}
 */
 export class DataVergeioMediasources extends cdktf.TerraformDataSource {
 
@@ -122,7 +122,7 @@ export class DataVergeioMediasources extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVergeioMediasources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVergeioMediasources to import
-  * @param importFromId The id of the existing DataVergeioMediasources that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/mediasources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVergeioMediasources that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/mediasources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVergeioMediasources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class DataVergeioMediasources extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/mediasources vergeio_mediasources} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/mediasources vergeio_mediasources} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class DataVergeioMediasources extends cdktf.TerraformDataSource {
       terraformResourceType: 'vergeio_mediasources',
       terraformGeneratorMetadata: {
         providerName: 'vergeio',
-        providerVersion: '2.7.1',
-        providerVersionConstraint: '2.7.1'
+        providerVersion: '2.7.2',
+        providerVersionConstraint: '2.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

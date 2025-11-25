@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface IssueAlertConfig extends cdktf.TerraformMetaArguments {
   /**
   * Trigger actions when an event is captured by Sentry and `any` or `all` of the specified conditions happen. Valid values are: `all`, and `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#action_match IssueAlert#action_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#action_match IssueAlert#action_match}
   */
   readonly actionMatch: string;
   /**
   * **Deprecated** in favor of `actions_v2`. A list of actions that take place when all required conditions and filters for the rule are met. In JSON string format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#actions IssueAlert#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#actions IssueAlert#actions}
   */
   readonly actions?: string;
   /**
   * A list of actions that take place when all required conditions and filters for the rule are met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#actions_v2 IssueAlert#actions_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#actions_v2 IssueAlert#actions_v2}
   */
   readonly actionsV2?: IssueAlertActionsV2[] | cdktf.IResolvable;
   /**
   * **Deprecated** in favor of `conditions_v2`. A list of triggers that determine when the rule fires. In JSON string format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#conditions IssueAlert#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#conditions IssueAlert#conditions}
   */
   readonly conditions?: string;
   /**
   * A list of triggers that determine when the rule fires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#conditions_v2 IssueAlert#conditions_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#conditions_v2 IssueAlert#conditions_v2}
   */
   readonly conditionsV2?: IssueAlertConditionsV2[] | cdktf.IResolvable;
   /**
   * Perform issue alert in a specific environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#environment IssueAlert#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#environment IssueAlert#environment}
   */
   readonly environment?: string;
   /**
   * A string determining which filters need to be true before any actions take place. Required when a value is provided for `filters`. Valid values are: `all`, `any`, and `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#filter_match IssueAlert#filter_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#filter_match IssueAlert#filter_match}
   */
   readonly filterMatch?: string;
   /**
   * **Deprecated** in favor of `filters_v2`. A list of filters that determine if a rule fires after the necessary conditions have been met. In JSON string format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#filters IssueAlert#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#filters IssueAlert#filters}
   */
   readonly filters?: string;
   /**
   * A list of filters that determine if a rule fires after the necessary conditions have been met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#filters_v2 IssueAlert#filters_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#filters_v2 IssueAlert#filters_v2}
   */
   readonly filtersV2?: IssueAlertFiltersV2[] | cdktf.IResolvable;
   /**
   * Perform actions at most once every `X` minutes for this issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#frequency IssueAlert#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#frequency IssueAlert#frequency}
   */
   readonly frequency: number;
   /**
   * The issue alert name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#name IssueAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#name IssueAlert#name}
   */
   readonly name: string;
   /**
   * The organization of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#organization IssueAlert#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#organization IssueAlert#organization}
   */
   readonly organization: string;
   /**
   * The ID of the team or user that owns the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#owner IssueAlert#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#owner IssueAlert#owner}
   */
   readonly owner?: string;
   /**
   * The project of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#project IssueAlert#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#project IssueAlert#project}
   */
   readonly project: string;
 }
@@ -96,19 +96,19 @@ export interface IssueAlertActionsV2AzureDevopsCreateTicket {
   /**
   * The integration ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#integration IssueAlert#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#integration IssueAlert#integration}
   */
   readonly integration: string;
   /**
   * The ID of the Azure DevOps project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#project IssueAlert#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#project IssueAlert#project}
   */
   readonly project: string;
   /**
   * The type of work item to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#work_item_type IssueAlert#work_item_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#work_item_type IssueAlert#work_item_type}
   */
   readonly workItemType: string;
 }
@@ -258,19 +258,19 @@ export interface IssueAlertActionsV2DiscordNotifyService {
   /**
   * The ID of the channel to send the notification to. You must enter either a channel ID or a channel URL, not a channel name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#channel_id IssueAlert#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#channel_id IssueAlert#channel_id}
   */
   readonly channelId: string;
   /**
   * The integration ID associated with the Discord server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#server IssueAlert#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#server IssueAlert#server}
   */
   readonly server: string;
   /**
   * A string of tags to show in the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#tags IssueAlert#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#tags IssueAlert#tags}
   */
   readonly tags?: string[];
 }
@@ -423,25 +423,25 @@ export interface IssueAlertActionsV2GithubCreateTicket {
   /**
   * The GitHub user to assign the issue to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#assignee IssueAlert#assignee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#assignee IssueAlert#assignee}
   */
   readonly assignee?: string;
   /**
   * The integration ID associated with GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#integration IssueAlert#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#integration IssueAlert#integration}
   */
   readonly integration: string;
   /**
   * A list of labels to assign to the issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#labels IssueAlert#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#labels IssueAlert#labels}
   */
   readonly labels?: string[];
   /**
   * The name of the repository to create the issue in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#repo IssueAlert#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#repo IssueAlert#repo}
   */
   readonly repo: string;
 }
@@ -623,25 +623,25 @@ export interface IssueAlertActionsV2GithubEnterpriseCreateTicket {
   /**
   * The GitHub user to assign the issue to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#assignee IssueAlert#assignee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#assignee IssueAlert#assignee}
   */
   readonly assignee?: string;
   /**
   * The integration ID associated with GitHub Enterprise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#integration IssueAlert#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#integration IssueAlert#integration}
   */
   readonly integration: string;
   /**
   * A list of labels to assign to the issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#labels IssueAlert#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#labels IssueAlert#labels}
   */
   readonly labels?: string[];
   /**
   * The name of the repository to create the issue in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#repo IssueAlert#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#repo IssueAlert#repo}
   */
   readonly repo: string;
 }
@@ -823,19 +823,19 @@ export interface IssueAlertActionsV2JiraCreateTicket {
   /**
   * The integration ID associated with Jira.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#integration IssueAlert#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#integration IssueAlert#integration}
   */
   readonly integration: string;
   /**
   * The ID of the type of issue that the ticket should be created as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#issue_type IssueAlert#issue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#issue_type IssueAlert#issue_type}
   */
   readonly issueType: string;
   /**
   * The ID of the Jira project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#project IssueAlert#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#project IssueAlert#project}
   */
   readonly project: string;
 }
@@ -985,19 +985,19 @@ export interface IssueAlertActionsV2JiraServerCreateTicket {
   /**
   * The integration ID associated with Jira Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#integration IssueAlert#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#integration IssueAlert#integration}
   */
   readonly integration: string;
   /**
   * The ID of the type of issue that the ticket should be created as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#issue_type IssueAlert#issue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#issue_type IssueAlert#issue_type}
   */
   readonly issueType: string;
   /**
   * The ID of the Jira Server project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#project IssueAlert#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#project IssueAlert#project}
   */
   readonly project: string;
 }
@@ -1147,13 +1147,13 @@ export interface IssueAlertActionsV2MsteamsNotifyService {
   /**
   * The name of the channel to send the notification to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#channel IssueAlert#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#channel IssueAlert#channel}
   */
   readonly channel: string;
   /**
   * The integration ID associated with the Microsoft Teams team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#team IssueAlert#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#team IssueAlert#team}
   */
   readonly team: string;
 }
@@ -1282,19 +1282,19 @@ export interface IssueAlertActionsV2NotifyEmail {
   /**
   * Who the notification should be sent to if there are no suggested assignees. Valid values are: `AllMembers`, `ActiveMembers`, and `NoOne`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#fallthrough_type IssueAlert#fallthrough_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#fallthrough_type IssueAlert#fallthrough_type}
   */
   readonly fallthroughType?: string;
   /**
   * The ID of the Member or Team the notification should be sent to. Only required when `target_type` is `Team` or `Member`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#target_identifier IssueAlert#target_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#target_identifier IssueAlert#target_identifier}
   */
   readonly targetIdentifier?: string;
   /**
   * Valid values are: `IssueOwners`, `Team`, and `Member`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#target_type IssueAlert#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#target_type IssueAlert#target_type}
   */
   readonly targetType: string;
 }
@@ -1512,11 +1512,11 @@ export class IssueAlertActionsV2NotifyEventOutputReference extends cdktf.Complex
 }
 export interface IssueAlertActionsV2NotifyEventSentryApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#sentry_app_installation_uuid IssueAlert#sentry_app_installation_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#sentry_app_installation_uuid IssueAlert#sentry_app_installation_uuid}
   */
   readonly sentryAppInstallationUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#settings IssueAlert#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#settings IssueAlert#settings}
   */
   readonly settings?: { [key: string]: string };
 }
@@ -1643,7 +1643,7 @@ export interface IssueAlertActionsV2NotifyEventService {
   /**
   * The slug of the integration service. Sourced from `https://terraform-provider-sentry.sentry.io/settings/developer-settings/<service>/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#service IssueAlert#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#service IssueAlert#service}
   */
   readonly service: string;
 }
@@ -1739,15 +1739,15 @@ export class IssueAlertActionsV2NotifyEventServiceOutputReference extends cdktf.
 }
 export interface IssueAlertActionsV2OpsgenieNotifyTeam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#account IssueAlert#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#account IssueAlert#account}
   */
   readonly account: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#priority IssueAlert#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#priority IssueAlert#priority}
   */
   readonly priority: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#team IssueAlert#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#team IssueAlert#team}
   */
   readonly team: string;
 }
@@ -1895,15 +1895,15 @@ export class IssueAlertActionsV2OpsgenieNotifyTeamOutputReference extends cdktf.
 }
 export interface IssueAlertActionsV2PagerdutyNotifyService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#account IssueAlert#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#account IssueAlert#account}
   */
   readonly account: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#service IssueAlert#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#service IssueAlert#service}
   */
   readonly service: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#severity IssueAlert#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#severity IssueAlert#severity}
   */
   readonly severity: string;
 }
@@ -2053,25 +2053,25 @@ export interface IssueAlertActionsV2SlackNotifyService {
   /**
   * The name of the channel to send the notification to (e.g., #critical, Jane Schmidt).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#channel IssueAlert#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#channel IssueAlert#channel}
   */
   readonly channel: string;
   /**
   * Text to show alongside the notification. To @ a user, include their user id like `@<USER_ID>`. To include a clickable link, format the link and title like `<http://example.com|Click Here>`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#notes IssueAlert#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#notes IssueAlert#notes}
   */
   readonly notes?: string;
   /**
   * A string of tags to show in the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#tags IssueAlert#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#tags IssueAlert#tags}
   */
   readonly tags?: string[];
   /**
   * The integration ID associated with the Slack workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#workspace IssueAlert#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#workspace IssueAlert#workspace}
   */
   readonly workspace: string;
 }
@@ -2258,85 +2258,85 @@ export interface IssueAlertActionsV2 {
   /**
   * Create an Azure DevOps work item in `integration`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#azure_devops_create_ticket IssueAlert#azure_devops_create_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#azure_devops_create_ticket IssueAlert#azure_devops_create_ticket}
   */
   readonly azureDevopsCreateTicket?: IssueAlertActionsV2AzureDevopsCreateTicket;
   /**
   * Send a notification to the `server` Discord server in the channel with ID or URL: `channel_id` and show tags `tags` in the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#discord_notify_service IssueAlert#discord_notify_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#discord_notify_service IssueAlert#discord_notify_service}
   */
   readonly discordNotifyService?: IssueAlertActionsV2DiscordNotifyService;
   /**
   * Create a GitHub issue in `integration`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#github_create_ticket IssueAlert#github_create_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#github_create_ticket IssueAlert#github_create_ticket}
   */
   readonly githubCreateTicket?: IssueAlertActionsV2GithubCreateTicket;
   /**
   * Create a GitHub Enterprise issue in `integration`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#github_enterprise_create_ticket IssueAlert#github_enterprise_create_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#github_enterprise_create_ticket IssueAlert#github_enterprise_create_ticket}
   */
   readonly githubEnterpriseCreateTicket?: IssueAlertActionsV2GithubEnterpriseCreateTicket;
   /**
   * Create a Jira issue in `integration`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#jira_create_ticket IssueAlert#jira_create_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#jira_create_ticket IssueAlert#jira_create_ticket}
   */
   readonly jiraCreateTicket?: IssueAlertActionsV2JiraCreateTicket;
   /**
   * Create a Jira Server issue in `integration`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#jira_server_create_ticket IssueAlert#jira_server_create_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#jira_server_create_ticket IssueAlert#jira_server_create_ticket}
   */
   readonly jiraServerCreateTicket?: IssueAlertActionsV2JiraServerCreateTicket;
   /**
   * Send a notification to the `team` Team to `channel`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#msteams_notify_service IssueAlert#msteams_notify_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#msteams_notify_service IssueAlert#msteams_notify_service}
   */
   readonly msteamsNotifyService?: IssueAlertActionsV2MsteamsNotifyService;
   /**
   * Send a notification to `target_type` and if none can be found then send a notification to `fallthrough_type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#notify_email IssueAlert#notify_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#notify_email IssueAlert#notify_email}
   */
   readonly notifyEmail?: IssueAlertActionsV2NotifyEmail;
   /**
   * Send a notification to all legacy integrations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#notify_event IssueAlert#notify_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#notify_event IssueAlert#notify_event}
   */
   readonly notifyEvent?: IssueAlertActionsV2NotifyEvent;
   /**
   * Send a notification to a Sentry app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#notify_event_sentry_app IssueAlert#notify_event_sentry_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#notify_event_sentry_app IssueAlert#notify_event_sentry_app}
   */
   readonly notifyEventSentryApp?: IssueAlertActionsV2NotifyEventSentryApp;
   /**
   * Send a notification via an integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#notify_event_service IssueAlert#notify_event_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#notify_event_service IssueAlert#notify_event_service}
   */
   readonly notifyEventService?: IssueAlertActionsV2NotifyEventService;
   /**
   * Send a notification to Opsgenie account `account` and team `team` with `priority` priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#opsgenie_notify_team IssueAlert#opsgenie_notify_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#opsgenie_notify_team IssueAlert#opsgenie_notify_team}
   */
   readonly opsgenieNotifyTeam?: IssueAlertActionsV2OpsgenieNotifyTeam;
   /**
   * Send a notification to PagerDuty account `account` and service `service` with `severity` severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#pagerduty_notify_service IssueAlert#pagerduty_notify_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#pagerduty_notify_service IssueAlert#pagerduty_notify_service}
   */
   readonly pagerdutyNotifyService?: IssueAlertActionsV2PagerdutyNotifyService;
   /**
   * Send a notification to the `workspace` Slack workspace to `channel` (optionally, an ID: `channel_id`) and show tags `tags` and notes `notes` in notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#slack_notify_service IssueAlert#slack_notify_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#slack_notify_service IssueAlert#slack_notify_service}
   */
   readonly slackNotifyService?: IssueAlertActionsV2SlackNotifyService;
 }
@@ -2831,23 +2831,23 @@ export interface IssueAlertConditionsV2EventFrequency {
   /**
   * `m` for minutes, `h` for hours, `d` for days, and `w` for weeks. Valid values are: `5m`, `15m`, `1h`, `1d`, `1w`, and `30d`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#comparison_interval IssueAlert#comparison_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#comparison_interval IssueAlert#comparison_interval}
   */
   readonly comparisonInterval?: string;
   /**
   * Valid values are: `count`, and `percent`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#comparison_type IssueAlert#comparison_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#comparison_type IssueAlert#comparison_type}
   */
   readonly comparisonType: string;
   /**
   * `m` for minutes, `h` for hours, `d` for days, and `w` for weeks. Valid values are: `1m`, `5m`, `15m`, `1h`, `1d`, `1w`, and `30d`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#interval IssueAlert#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#interval IssueAlert#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#value IssueAlert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#value IssueAlert#value}
   */
   readonly value: number;
 }
@@ -3029,23 +3029,23 @@ export interface IssueAlertConditionsV2EventFrequencyPercent {
   /**
   * `m` for minutes, `h` for hours, `d` for days, and `w` for weeks. Valid values are: `5m`, `15m`, `1h`, `1d`, `1w`, and `30d`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#comparison_interval IssueAlert#comparison_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#comparison_interval IssueAlert#comparison_interval}
   */
   readonly comparisonInterval?: string;
   /**
   * Valid values are: `count`, and `percent`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#comparison_type IssueAlert#comparison_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#comparison_type IssueAlert#comparison_type}
   */
   readonly comparisonType: string;
   /**
   * `m` for minutes, `h` for hours. Valid values are: `5m`, `10m`, `30m`, and `1h`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#interval IssueAlert#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#interval IssueAlert#interval}
   */
   readonly interval: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#value IssueAlert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#value IssueAlert#value}
   */
   readonly value: number;
 }
@@ -3224,23 +3224,23 @@ export interface IssueAlertConditionsV2EventUniqueUserFrequency {
   /**
   * `m` for minutes, `h` for hours, `d` for days, and `w` for weeks. Valid values are: `5m`, `15m`, `1h`, `1d`, `1w`, and `30d`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#comparison_interval IssueAlert#comparison_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#comparison_interval IssueAlert#comparison_interval}
   */
   readonly comparisonInterval?: string;
   /**
   * Valid values are: `count`, and `percent`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#comparison_type IssueAlert#comparison_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#comparison_type IssueAlert#comparison_type}
   */
   readonly comparisonType: string;
   /**
   * `m` for minutes, `h` for hours, `d` for days, and `w` for weeks. Valid values are: `1m`, `5m`, `15m`, `1h`, `1d`, `1w`, and `30d`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#interval IssueAlert#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#interval IssueAlert#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#value IssueAlert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#value IssueAlert#value}
   */
   readonly value: number;
 }
@@ -3742,49 +3742,49 @@ export interface IssueAlertConditionsV2 {
   /**
   * When the `comparison_type` is `count`, the number of events in an issue is more than `value` in `interval`. When the `comparison_type` is `percent`, the number of events in an issue is `value` % higher in `interval` compared to `comparison_interval` ago.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#event_frequency IssueAlert#event_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#event_frequency IssueAlert#event_frequency}
   */
   readonly eventFrequency?: IssueAlertConditionsV2EventFrequency;
   /**
   * When the `comparison_type` is `count`, the percent of sessions affected by an issue is more than `value` in `interval`. When the `comparison_type` is `percent`, the percent of sessions affected by an issue is `value` % higher in `interval` compared to `comparison_interval` ago.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#event_frequency_percent IssueAlert#event_frequency_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#event_frequency_percent IssueAlert#event_frequency_percent}
   */
   readonly eventFrequencyPercent?: IssueAlertConditionsV2EventFrequencyPercent;
   /**
   * When the `comparison_type` is `count`, the number of users affected by an issue is more than `value` in `interval`. When the `comparison_type` is `percent`, the number of users affected by an issue is `value` % higher in `interval` compared to `comparison_interval` ago.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#event_unique_user_frequency IssueAlert#event_unique_user_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#event_unique_user_frequency IssueAlert#event_unique_user_frequency}
   */
   readonly eventUniqueUserFrequency?: IssueAlertConditionsV2EventUniqueUserFrequency;
   /**
   * Sentry marks an existing issue as high priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#existing_high_priority_issue IssueAlert#existing_high_priority_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#existing_high_priority_issue IssueAlert#existing_high_priority_issue}
   */
   readonly existingHighPriorityIssue?: IssueAlertConditionsV2ExistingHighPriorityIssue;
   /**
   * A new issue is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#first_seen_event IssueAlert#first_seen_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#first_seen_event IssueAlert#first_seen_event}
   */
   readonly firstSeenEvent?: IssueAlertConditionsV2FirstSeenEvent;
   /**
   * Sentry marks a new issue as high priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#new_high_priority_issue IssueAlert#new_high_priority_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#new_high_priority_issue IssueAlert#new_high_priority_issue}
   */
   readonly newHighPriorityIssue?: IssueAlertConditionsV2NewHighPriorityIssue;
   /**
   * The issue changes state from ignored to unresolved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#reappeared_event IssueAlert#reappeared_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#reappeared_event IssueAlert#reappeared_event}
   */
   readonly reappearedEvent?: IssueAlertConditionsV2ReappearedEvent;
   /**
   * The issue changes state from resolved to unresolved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#regression_event IssueAlert#regression_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#regression_event IssueAlert#regression_event}
   */
   readonly regressionEvent?: IssueAlertConditionsV2RegressionEvent;
 }
@@ -4105,17 +4105,17 @@ export interface IssueAlertFiltersV2AgeComparison {
   /**
   * Valid values are: `older`, and `newer`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#comparison_type IssueAlert#comparison_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#comparison_type IssueAlert#comparison_type}
   */
   readonly comparisonType: string;
   /**
   * Valid values are: `minute`, `hour`, `day`, and `week`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#time IssueAlert#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#time IssueAlert#time}
   */
   readonly time: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#value IssueAlert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#value IssueAlert#value}
   */
   readonly value: number;
 }
@@ -4265,13 +4265,13 @@ export interface IssueAlertFiltersV2AssignedTo {
   /**
   * The target's ID. Only required when `target_type` is `Team` or `Member`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#target_identifier IssueAlert#target_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#target_identifier IssueAlert#target_identifier}
   */
   readonly targetIdentifier?: string;
   /**
   * Valid values are: `Unassigned`, `Team`, and `Member`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#target_type IssueAlert#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#target_type IssueAlert#target_type}
   */
   readonly targetType: string;
 }
@@ -4398,17 +4398,17 @@ export interface IssueAlertFiltersV2EventAttribute {
   /**
   * Valid values are: `message`, `platform`, `environment`, `type`, `error.handled`, `error.unhandled`, `error.main_thread`, `exception.type`, `exception.value`, `user.id`, `user.email`, `user.username`, `user.ip_address`, `http.method`, `http.url`, `http.status_code`, `sdk.name`, `stacktrace.code`, `stacktrace.module`, `stacktrace.filename`, `stacktrace.abs_path`, `stacktrace.package`, `unreal.crash_type`, `app.in_foreground`, `os.distribution_name`, `os.distribution_version`, `symbolicated_in_app`, `ota_updates.channel`, `ota_updates.runtime_version`, and `ota_updates.update_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#attribute IssueAlert#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#attribute IssueAlert#attribute}
   */
   readonly attribute: string;
   /**
   * The comparison operator. Valid values are: `CONTAINS`, `ENDS_WITH`, `EQUAL`, `GREATER_OR_EQUAL`, `GREATER`, `IS_SET`, `IS_IN`, `LESS_OR_EQUAL`, `LESS`, `NOT_CONTAINS`, `NOT_ENDS_WITH`, `NOT_EQUAL`, `NOT_SET`, `NOT_STARTS_WITH`, `NOT_IN`, and `STARTS_WITH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#match IssueAlert#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#match IssueAlert#match}
   */
   readonly match: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#value IssueAlert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#value IssueAlert#value}
   */
   readonly value?: string;
 }
@@ -4559,9 +4559,9 @@ export class IssueAlertFiltersV2EventAttributeOutputReference extends cdktf.Comp
 }
 export interface IssueAlertFiltersV2IssueCategory {
   /**
-  * Valid values are: `Error`, `Performance`, `Profile`, `Cron`, `Replay`, `Feedback`, `Uptime`, `Metric_Alert`, `Test_Notification`, `Outage`, `Metric`, `Db_Query`, `Http_Client`, `Frontend`, and `Mobile`.
+  * Valid values are: `Error`, `Performance`, `Profile`, `Cron`, `Replay`, `Feedback`, `Uptime`, `Metric_Alert`, `Test_Notification`, `Outage`, `Metric`, `Db_Query`, `Http_Client`, `Frontend`, `Mobile`, and `Ai_Detected`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#value IssueAlert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#value IssueAlert#value}
   */
   readonly value: string;
 }
@@ -4657,7 +4657,7 @@ export class IssueAlertFiltersV2IssueCategoryOutputReference extends cdktf.Compl
 }
 export interface IssueAlertFiltersV2IssueOccurrences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#value IssueAlert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#value IssueAlert#value}
   */
   readonly value: number;
 }
@@ -4753,19 +4753,19 @@ export class IssueAlertFiltersV2IssueOccurrencesOutputReference extends cdktf.Co
 }
 export interface IssueAlertFiltersV2LatestAdoptedRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#environment IssueAlert#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#environment IssueAlert#environment}
   */
   readonly environment: string;
   /**
   * Valid values are: `older`, and `newer`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#older_or_newer IssueAlert#older_or_newer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#older_or_newer IssueAlert#older_or_newer}
   */
   readonly olderOrNewer: string;
   /**
   * Valid values are: `oldest`, and `newest`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#oldest_or_newest IssueAlert#oldest_or_newest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#oldest_or_newest IssueAlert#oldest_or_newest}
   */
   readonly oldestOrNewest: string;
 }
@@ -4979,13 +4979,13 @@ export interface IssueAlertFiltersV2Level {
   /**
   * Valid values are: `sample`, `debug`, `info`, `warning`, `error`, and `fatal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#level IssueAlert#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#level IssueAlert#level}
   */
   readonly level: string;
   /**
   * The comparison operator. Valid values are: `EQUAL`, `GREATER_OR_EQUAL`, and `LESS_OR_EQUAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#match IssueAlert#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#match IssueAlert#match}
   */
   readonly match: string;
 }
@@ -5109,17 +5109,17 @@ export interface IssueAlertFiltersV2TaggedEvent {
   /**
   * The tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#key IssueAlert#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#key IssueAlert#key}
   */
   readonly key: string;
   /**
   * The comparison operator. Valid values are: `CONTAINS`, `ENDS_WITH`, `EQUAL`, `GREATER_OR_EQUAL`, `GREATER`, `IS_SET`, `IS_IN`, `LESS_OR_EQUAL`, `LESS`, `NOT_CONTAINS`, `NOT_ENDS_WITH`, `NOT_EQUAL`, `NOT_SET`, `NOT_STARTS_WITH`, `NOT_IN`, and `STARTS_WITH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#match IssueAlert#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#match IssueAlert#match}
   */
   readonly match: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#value IssueAlert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#value IssueAlert#value}
   */
   readonly value?: string;
 }
@@ -5272,55 +5272,55 @@ export interface IssueAlertFiltersV2 {
   /**
   * The issue is older or newer than `value` `time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#age_comparison IssueAlert#age_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#age_comparison IssueAlert#age_comparison}
   */
   readonly ageComparison?: IssueAlertFiltersV2AgeComparison;
   /**
   * The issue is assigned to no one, team, or member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#assigned_to IssueAlert#assigned_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#assigned_to IssueAlert#assigned_to}
   */
   readonly assignedTo?: IssueAlertFiltersV2AssignedTo;
   /**
   * The event's `attribute` value `match` `value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#event_attribute IssueAlert#event_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#event_attribute IssueAlert#event_attribute}
   */
   readonly eventAttribute?: IssueAlertFiltersV2EventAttribute;
   /**
   * The issue's category is equal to `value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#issue_category IssueAlert#issue_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#issue_category IssueAlert#issue_category}
   */
   readonly issueCategory?: IssueAlertFiltersV2IssueCategory;
   /**
   * The issue has happened at least `value` times (Note: this is approximate).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#issue_occurrences IssueAlert#issue_occurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#issue_occurrences IssueAlert#issue_occurrences}
   */
   readonly issueOccurrences?: IssueAlertFiltersV2IssueOccurrences;
   /**
   * The {oldest_or_newest} adopted release associated with the event's issue is {older_or_newer} than the latest adopted release in {environment}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#latest_adopted_release IssueAlert#latest_adopted_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#latest_adopted_release IssueAlert#latest_adopted_release}
   */
   readonly latestAdoptedRelease?: IssueAlertFiltersV2LatestAdoptedRelease;
   /**
   * The event is from the latest release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#latest_release IssueAlert#latest_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#latest_release IssueAlert#latest_release}
   */
   readonly latestRelease?: IssueAlertFiltersV2LatestRelease;
   /**
   * The event's level is `match` `level`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#level IssueAlert#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#level IssueAlert#level}
   */
   readonly level?: IssueAlertFiltersV2Level;
   /**
   * The event's tags match `key` `match` `value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#tagged_event IssueAlert#tagged_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#tagged_event IssueAlert#tagged_event}
   */
   readonly taggedEvent?: IssueAlertFiltersV2TaggedEvent;
 }
@@ -5668,7 +5668,7 @@ export class IssueAlertFiltersV2List extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert sentry_issue_alert}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert sentry_issue_alert}
 */
 export class IssueAlert extends cdktf.TerraformResource {
 
@@ -5684,7 +5684,7 @@ export class IssueAlert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IssueAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IssueAlert to import
-  * @param importFromId The id of the existing IssueAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IssueAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IssueAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5696,7 +5696,7 @@ export class IssueAlert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/issue_alert sentry_issue_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/issue_alert sentry_issue_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5707,8 +5707,8 @@ export class IssueAlert extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_issue_alert',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

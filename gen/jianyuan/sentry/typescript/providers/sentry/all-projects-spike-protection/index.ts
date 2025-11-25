@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/all_projects_spike_protection
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/all_projects_spike_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AllProjectsSpikeProtectionConfig extends cdktf.TerraformMetaArg
   /**
   * Toggle the browser-extensions, localhost, filtered-transaction, or web-crawlers filter on or off for all projects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/all_projects_spike_protection#enabled AllProjectsSpikeProtection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/all_projects_spike_protection#enabled AllProjectsSpikeProtection#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The organization of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/all_projects_spike_protection#organization AllProjectsSpikeProtection#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/all_projects_spike_protection#organization AllProjectsSpikeProtection#organization}
   */
   readonly organization: string;
   /**
   * The slugs of the projects to enable or disable spike protection for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/all_projects_spike_protection#projects AllProjectsSpikeProtection#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/all_projects_spike_protection#projects AllProjectsSpikeProtection#projects}
   */
   readonly projects: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/all_projects_spike_protection sentry_all_projects_spike_protection}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/all_projects_spike_protection sentry_all_projects_spike_protection}
 */
 export class AllProjectsSpikeProtection extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AllProjectsSpikeProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AllProjectsSpikeProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AllProjectsSpikeProtection to import
-  * @param importFromId The id of the existing AllProjectsSpikeProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/all_projects_spike_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AllProjectsSpikeProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/all_projects_spike_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AllProjectsSpikeProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AllProjectsSpikeProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/all_projects_spike_protection sentry_all_projects_spike_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/all_projects_spike_protection sentry_all_projects_spike_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class AllProjectsSpikeProtection extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_all_projects_spike_protection',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

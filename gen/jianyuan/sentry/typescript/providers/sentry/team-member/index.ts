@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/team_member
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/team_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface TeamMemberConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the member to add to the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/team_member#member_id TeamMember#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/team_member#member_id TeamMember#member_id}
   */
   readonly memberId: string;
   /**
   * The organization of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/team_member#organization TeamMember#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/team_member#organization TeamMember#organization}
   */
   readonly organization: string;
   /**
   * The role of the member in the team. When not set, resolve to the minimum team role given by this member's organization role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/team_member#role TeamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/team_member#role TeamMember#role}
   */
   readonly role?: string;
   /**
   * The slug of the team to add the member to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/team_member#team TeamMember#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/team_member#team TeamMember#team}
   */
   readonly team: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/team_member sentry_team_member}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/team_member sentry_team_member}
 */
 export class TeamMember extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class TeamMember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamMember to import
-  * @param importFromId The id of the existing TeamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/team_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/team_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class TeamMember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/team_member sentry_team_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/team_member sentry_team_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class TeamMember extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_team_member',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

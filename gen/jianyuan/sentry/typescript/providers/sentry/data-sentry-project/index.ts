@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/project
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataSentryProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The organization the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/project#organization DataSentryProject#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/project#organization DataSentryProject#organization}
   */
   readonly organization: string;
   /**
   * The project the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/project#slug DataSentryProject#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/project#slug DataSentryProject#slug}
   */
   readonly slug: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/project sentry_project}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/project sentry_project}
 */
 export class DataSentryProject extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataSentryProject extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSentryProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSentryProject to import
-  * @param importFromId The id of the existing DataSentryProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSentryProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSentryProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataSentryProject extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/project sentry_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/project sentry_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataSentryProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'sentry_project',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

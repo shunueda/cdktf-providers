@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2
+// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkingVpcsubnetV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2#cidr NetworkingVpcsubnetV2#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2#cidr NetworkingVpcsubnetV2#cidr}
   */
   readonly cidr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2#name NetworkingVpcsubnetV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2#name NetworkingVpcsubnetV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2#region NetworkingVpcsubnetV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2#region NetworkingVpcsubnetV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2#routingtable_id NetworkingVpcsubnetV2#routingtable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2#routingtable_id NetworkingVpcsubnetV2#routingtable_id}
   */
   readonly routingtableId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2#tenant_id NetworkingVpcsubnetV2#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2#tenant_id NetworkingVpcsubnetV2#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2#vpc_id NetworkingVpcsubnetV2#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2#vpc_id NetworkingVpcsubnetV2#vpc_id}
   */
   readonly vpcId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2#timeouts NetworkingVpcsubnetV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2#timeouts NetworkingVpcsubnetV2#timeouts}
   */
   readonly timeouts?: NetworkingVpcsubnetV2Timeouts;
 }
@@ -140,11 +140,11 @@ export class NetworkingVpcsubnetV2RoutesList extends cdktf.ComplexList {
 }
 export interface NetworkingVpcsubnetV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2#create NetworkingVpcsubnetV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2#create NetworkingVpcsubnetV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2#delete NetworkingVpcsubnetV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2#delete NetworkingVpcsubnetV2#delete}
   */
   readonly delete?: string;
 }
@@ -267,7 +267,7 @@ export class NetworkingVpcsubnetV2TimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2 nhncloud_networking_vpcsubnet_v2}
+* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2 nhncloud_networking_vpcsubnet_v2}
 */
 export class NetworkingVpcsubnetV2 extends cdktf.TerraformResource {
 
@@ -283,7 +283,7 @@ export class NetworkingVpcsubnetV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingVpcsubnetV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingVpcsubnetV2 to import
-  * @param importFromId The id of the existing NetworkingVpcsubnetV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingVpcsubnetV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingVpcsubnetV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class NetworkingVpcsubnetV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_vpcsubnet_v2 nhncloud_networking_vpcsubnet_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_vpcsubnet_v2 nhncloud_networking_vpcsubnet_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class NetworkingVpcsubnetV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nhncloud_networking_vpcsubnet_v2',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6',
-        providerVersionConstraint: '1.0.6'
+        providerVersion: '1.0.7',
+        providerVersionConstraint: '1.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

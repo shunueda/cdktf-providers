@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_edm_schema
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/dlp_edm_schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZiaDlpEdmSchemaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_edm_schema#id DataZiaDlpEdmSchema#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/dlp_edm_schema#id DataZiaDlpEdmSchema#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataZiaDlpEdmSchemaConfig extends cdktf.TerraformMetaArguments 
   /**
   * The EDM schema (i.e., EDM template) name. This attribute is ignored by PUT requests, but required for POST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_edm_schema#project_name DataZiaDlpEdmSchema#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/dlp_edm_schema#project_name DataZiaDlpEdmSchema#project_name}
   */
   readonly projectName?: string;
   /**
   * The identifier (1-65519) for the EDM schema (i.e., EDM template) that is unique within the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_edm_schema#schema_id DataZiaDlpEdmSchema#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/dlp_edm_schema#schema_id DataZiaDlpEdmSchema#schema_id}
   */
   readonly schemaId?: number;
 }
@@ -482,7 +482,7 @@ export class DataZiaDlpEdmSchemaTokenListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_edm_schema zia_dlp_edm_schema}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/dlp_edm_schema zia_dlp_edm_schema}
 */
 export class DataZiaDlpEdmSchema extends cdktf.TerraformDataSource {
 
@@ -498,7 +498,7 @@ export class DataZiaDlpEdmSchema extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaDlpEdmSchema resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaDlpEdmSchema to import
-  * @param importFromId The id of the existing DataZiaDlpEdmSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_edm_schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaDlpEdmSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/dlp_edm_schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaDlpEdmSchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -510,7 +510,7 @@ export class DataZiaDlpEdmSchema extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_edm_schema zia_dlp_edm_schema} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/dlp_edm_schema zia_dlp_edm_schema} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -521,8 +521,8 @@ export class DataZiaDlpEdmSchema extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_dlp_edm_schema',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

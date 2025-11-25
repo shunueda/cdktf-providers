@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group
+// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * asps.list of group's email addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group#aliases Group#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group#aliases Group#aliases}
   */
   readonly aliases?: string[];
   /**
   * An extended description to help users determine the purpose of a group.For example, you can include information about who should join the group,the types of messages to send to the group, links to FAQs about the group, or related groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
   * The group's email address. If your account has multiple domains,select the appropriate domain for the email address. The email must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group#email Group#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group#email Group#email}
   */
   readonly email: string;
   /**
   * The group's display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group#name Group#name}
   */
   readonly name?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group#timeouts Group#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group#timeouts Group#timeouts}
   */
   readonly timeouts?: GroupTimeouts;
 }
 export interface GroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group#create Group#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group#create Group#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group#update Group#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group#update Group#update}
   */
   readonly update?: string;
 }
@@ -167,7 +167,7 @@ export class GroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group googleworkspace_group}
+* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group googleworkspace_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -183,7 +183,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -195,7 +195,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group googleworkspace_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group googleworkspace_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -206,8 +206,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'googleworkspace_group',
       terraformGeneratorMetadata: {
         providerName: 'googleworkspace',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

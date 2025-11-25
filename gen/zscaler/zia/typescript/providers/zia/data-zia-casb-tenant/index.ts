@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataZiaCasbTenantConfig extends cdktf.TerraformMetaArguments {
   /**
   * Return only active tenants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant#active_only DataZiaCasbTenant#active_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant#active_only DataZiaCasbTenant#active_only}
   */
   readonly activeOnly?: boolean | cdktf.IResolvable;
   /**
   * Filter tenants by application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant#app DataZiaCasbTenant#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant#app DataZiaCasbTenant#app}
   */
   readonly app?: string;
   /**
   * Filter tenants by application type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant#app_type DataZiaCasbTenant#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant#app_type DataZiaCasbTenant#app_type}
   */
   readonly appType?: string;
   /**
   * Filter tenants by supported features
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant#filter_by_feature DataZiaCasbTenant#filter_by_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant#filter_by_feature DataZiaCasbTenant#filter_by_feature}
   */
   readonly filterByFeature?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant#id DataZiaCasbTenant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant#id DataZiaCasbTenant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface DataZiaCasbTenantConfig extends cdktf.TerraformMetaArguments {
   /**
   * Include S3 tenants ready for bucket creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant#include_bucket_ready_s3_tenants DataZiaCasbTenant#include_bucket_ready_s3_tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant#include_bucket_ready_s3_tenants DataZiaCasbTenant#include_bucket_ready_s3_tenants}
   */
   readonly includeBucketReadyS3Tenants?: boolean | cdktf.IResolvable;
   /**
   * Include deleted tenants in the results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant#include_deleted DataZiaCasbTenant#include_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant#include_deleted DataZiaCasbTenant#include_deleted}
   */
   readonly includeDeleted?: boolean | cdktf.IResolvable;
   /**
   * Return only tenants with scan config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant#scan_config_tenants_only DataZiaCasbTenant#scan_config_tenants_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant#scan_config_tenants_only DataZiaCasbTenant#scan_config_tenants_only}
   */
   readonly scanConfigTenantsOnly?: boolean | cdktf.IResolvable;
   /**
   * SaaS Security API email label ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant#tenant_id DataZiaCasbTenant#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant#tenant_id DataZiaCasbTenant#tenant_id}
   */
   readonly tenantId?: number;
   /**
   * SaaS Security API email label name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant#tenant_name DataZiaCasbTenant#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant#tenant_name DataZiaCasbTenant#tenant_name}
   */
   readonly tenantName?: string;
 }
@@ -151,7 +151,7 @@ export class DataZiaCasbTenantZscalerAppTenantIdList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant zia_casb_tenant}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant zia_casb_tenant}
 */
 export class DataZiaCasbTenant extends cdktf.TerraformDataSource {
 
@@ -167,7 +167,7 @@ export class DataZiaCasbTenant extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaCasbTenant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaCasbTenant to import
-  * @param importFromId The id of the existing DataZiaCasbTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaCasbTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaCasbTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class DataZiaCasbTenant extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/casb_tenant zia_casb_tenant} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/casb_tenant zia_casb_tenant} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class DataZiaCasbTenant extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_casb_tenant',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

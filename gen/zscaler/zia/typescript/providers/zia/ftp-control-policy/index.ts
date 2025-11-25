@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ftp_control_policy
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ftp_control_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FtpControlPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether to enable native FTP. When enabled, users can connect to native FTP sites and download files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ftp_control_policy#ftp_enabled FtpControlPolicy#ftp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ftp_control_policy#ftp_enabled FtpControlPolicy#ftp_enabled}
   */
   readonly ftpEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to enable FTP over HTTP. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ftp_control_policy#ftp_over_http_enabled FtpControlPolicy#ftp_over_http_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ftp_control_policy#ftp_over_http_enabled FtpControlPolicy#ftp_over_http_enabled}
   */
   readonly ftpOverHttpEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ftp_control_policy#id FtpControlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ftp_control_policy#id FtpControlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,19 +31,19 @@ export interface FtpControlPolicyConfig extends cdktf.TerraformMetaArguments {
   * 				See the URL Categories API for the list of available categories:
   * 				https://help.zscaler.com/zia/url-categories#/urlCategories-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ftp_control_policy#url_categories FtpControlPolicy#url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ftp_control_policy#url_categories FtpControlPolicy#url_categories}
   */
   readonly urlCategories?: string[];
   /**
   * Domains or URLs included for the FTP Control settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ftp_control_policy#urls FtpControlPolicy#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ftp_control_policy#urls FtpControlPolicy#urls}
   */
   readonly urls?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ftp_control_policy zia_ftp_control_policy}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ftp_control_policy zia_ftp_control_policy}
 */
 export class FtpControlPolicy extends cdktf.TerraformResource {
 
@@ -59,7 +59,7 @@ export class FtpControlPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FtpControlPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FtpControlPolicy to import
-  * @param importFromId The id of the existing FtpControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ftp_control_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FtpControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ftp_control_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FtpControlPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class FtpControlPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ftp_control_policy zia_ftp_control_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ftp_control_policy zia_ftp_control_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class FtpControlPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'zia_ftp_control_policy',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

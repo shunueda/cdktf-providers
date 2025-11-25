@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user_delegate
+// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user_delegate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface UserDelegateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The email address of the delegate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user_delegate#delegate_email UserDelegate#delegate_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user_delegate#delegate_email UserDelegate#delegate_email}
   */
   readonly delegateEmail: string;
   /**
   * The user's email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user_delegate#user_id UserDelegate#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user_delegate#user_id UserDelegate#user_id}
   */
   readonly userId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user_delegate#timeouts UserDelegate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user_delegate#timeouts UserDelegate#timeouts}
   */
   readonly timeouts?: UserDelegateTimeouts;
 }
 export interface UserDelegateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user_delegate#create UserDelegate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user_delegate#create UserDelegate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user_delegate#update UserDelegate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user_delegate#update UserDelegate#update}
   */
   readonly update?: string;
 }
@@ -155,7 +155,7 @@ export class UserDelegateTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user_delegate googleworkspace_user_delegate}
+* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user_delegate googleworkspace_user_delegate}
 */
 export class UserDelegate extends cdktf.TerraformResource {
 
@@ -171,7 +171,7 @@ export class UserDelegate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserDelegate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserDelegate to import
-  * @param importFromId The id of the existing UserDelegate that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user_delegate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserDelegate that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user_delegate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserDelegate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class UserDelegate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user_delegate googleworkspace_user_delegate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user_delegate googleworkspace_user_delegate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class UserDelegate extends cdktf.TerraformResource {
       terraformResourceType: 'googleworkspace_user_delegate',
       terraformGeneratorMetadata: {
         providerName: 'googleworkspace',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

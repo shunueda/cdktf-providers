@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check
+// https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface CheckConfig extends cdktf.TerraformMetaArguments {
   /**
   * Desired container state (e.g. running).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check#desired_state Check#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check#desired_state Check#desired_state}
   */
   readonly desiredState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check#endpoint_id Check#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check#endpoint_id Check#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check#id Check#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check#id Check#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,41 +27,41 @@ export interface CheckConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum retries for each service check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check#max_retries Check#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check#max_retries Check#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Expected revision (image tag) of running containers/services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check#revision Check#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check#revision Check#revision}
   */
   readonly revision: string;
   /**
   * Comma-separated list of service names (without stack prefix).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check#services_list Check#services_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check#services_list Check#services_list}
   */
   readonly servicesList: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check#stack_name Check#stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check#stack_name Check#stack_name}
   */
   readonly stackName: string;
   /**
   * Initial wait before the first check (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check#wait Check#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check#wait Check#wait}
   */
   readonly wait?: number;
   /**
   * Wait time between retry checks (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check#wait_between_checks Check#wait_between_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check#wait_between_checks Check#wait_between_checks}
   */
   readonly waitBetweenChecks?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check portainer_check}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check portainer_check}
 */
 export class Check extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class Check extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Check resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Check to import
-  * @param importFromId The id of the existing Check that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Check that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Check to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class Check extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/check portainer_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/check portainer_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class Check extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_check',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

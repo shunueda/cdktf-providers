@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2
+// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkingAddressscopeV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2#id NetworkingAddressscopeV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2#id NetworkingAddressscopeV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2#ip_version NetworkingAddressscopeV2#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2#ip_version NetworkingAddressscopeV2#ip_version}
   */
   readonly ipVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2#name NetworkingAddressscopeV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2#name NetworkingAddressscopeV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2#project_id NetworkingAddressscopeV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2#project_id NetworkingAddressscopeV2#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2#region NetworkingAddressscopeV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2#region NetworkingAddressscopeV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2#shared NetworkingAddressscopeV2#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2#shared NetworkingAddressscopeV2#shared}
   */
   readonly shared?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2#timeouts NetworkingAddressscopeV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2#timeouts NetworkingAddressscopeV2#timeouts}
   */
   readonly timeouts?: NetworkingAddressscopeV2Timeouts;
 }
 export interface NetworkingAddressscopeV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2#create NetworkingAddressscopeV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2#create NetworkingAddressscopeV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2#delete NetworkingAddressscopeV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2#delete NetworkingAddressscopeV2#delete}
   */
   readonly delete?: string;
 }
@@ -170,7 +170,7 @@ export class NetworkingAddressscopeV2TimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2 nhncloud_networking_addressscope_v2}
+* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2 nhncloud_networking_addressscope_v2}
 */
 export class NetworkingAddressscopeV2 extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class NetworkingAddressscopeV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingAddressscopeV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingAddressscopeV2 to import
-  * @param importFromId The id of the existing NetworkingAddressscopeV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingAddressscopeV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingAddressscopeV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class NetworkingAddressscopeV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/networking_addressscope_v2 nhncloud_networking_addressscope_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/networking_addressscope_v2 nhncloud_networking_addressscope_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class NetworkingAddressscopeV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nhncloud_networking_addressscope_v2',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6',
-        providerVersionConstraint: '1.0.6'
+        providerVersion: '1.0.7',
+        providerVersionConstraint: '1.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/team_membership
+// https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/team_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TeamMembershipConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/team_membership#id TeamMembership#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/team_membership#id TeamMembership#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface TeamMembershipConfig extends cdktf.TerraformMetaArguments {
   /**
   * Membership role: 1 = team leader, 2 = regular member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/team_membership#role TeamMembership#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/team_membership#role TeamMembership#role}
   */
   readonly role: number;
   /**
   * ID of the team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/team_membership#team_id TeamMembership#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/team_membership#team_id TeamMembership#team_id}
   */
   readonly teamId: number;
   /**
   * ID of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/team_membership#user_id TeamMembership#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/team_membership#user_id TeamMembership#user_id}
   */
   readonly userId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/team_membership portainer_team_membership}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/team_membership portainer_team_membership}
 */
 export class TeamMembership extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class TeamMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamMembership to import
-  * @param importFromId The id of the existing TeamMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/team_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/team_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class TeamMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/team_membership portainer_team_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/team_membership portainer_team_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class TeamMembership extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_team_membership',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

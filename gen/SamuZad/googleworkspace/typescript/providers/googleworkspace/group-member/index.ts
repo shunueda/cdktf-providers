@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_member
+// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface GroupMemberConfig extends cdktf.TerraformMetaArguments {
   * 	- `DISABLED`: Remove subscription.
   * 	- `NONE`: No messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_member#delivery_settings GroupMember#delivery_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_member#delivery_settings GroupMember#delivery_settings}
   */
   readonly deliverySettings?: string;
   /**
   * The member's email address. A member can be a user or another group. This property is required when adding a member to a group. The email must be unique and cannot be an alias of another group. If the email address is changed, the API automatically reflects the email address changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_member#email GroupMember#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_member#email GroupMember#email}
   */
   readonly email: string;
   /**
   * Identifies the group in the API request. The value can be the group's email address, group alias, or the unique group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_member#group_id GroupMember#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_member#group_id GroupMember#group_id}
   */
   readonly groupId: string;
   /**
@@ -36,7 +36,7 @@ export interface GroupMemberConfig extends cdktf.TerraformMetaArguments {
   * 	- `MEMBER`: This role can subscribe to a group, view discussion archives, and view the group's membership list.
   * 	- `OWNER`: This role can send messages to the group, add or remove members, change member roles, change group's settings, and delete the group. An OWNER must be a member of the group. A group can have more than one OWNER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_member#role GroupMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_member#role GroupMember#role}
   */
   readonly role?: string;
   /**
@@ -45,23 +45,23 @@ export interface GroupMemberConfig extends cdktf.TerraformMetaArguments {
   * 	- `GROUP`: The member is another group. 
   * 	- `USER`: The member is a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_member#type GroupMember#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_member#type GroupMember#type}
   */
   readonly type?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_member#timeouts GroupMember#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_member#timeouts GroupMember#timeouts}
   */
   readonly timeouts?: GroupMemberTimeouts;
 }
 export interface GroupMemberTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_member#create GroupMember#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_member#create GroupMember#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_member#update GroupMember#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_member#update GroupMember#update}
   */
   readonly update?: string;
 }
@@ -184,7 +184,7 @@ export class GroupMemberTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_member googleworkspace_group_member}
+* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_member googleworkspace_group_member}
 */
 export class GroupMember extends cdktf.TerraformResource {
 
@@ -200,7 +200,7 @@ export class GroupMember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupMember to import
-  * @param importFromId The id of the existing GroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -212,7 +212,7 @@ export class GroupMember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_member googleworkspace_group_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_member googleworkspace_group_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,8 +223,8 @@ export class GroupMember extends cdktf.TerraformResource {
       terraformResourceType: 'googleworkspace_group_member',
       terraformGeneratorMetadata: {
         providerName: 'googleworkspace',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/chat
+// https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/chat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface ChatConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/chat#context Chat#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/chat#context Chat#context}
   */
   readonly context: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/chat#environment_id Chat#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/chat#environment_id Chat#environment_id}
   */
   readonly environmentId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/chat#id Chat#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/chat#id Chat#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/chat#message Chat#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/chat#message Chat#message}
   */
   readonly message: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/chat#model Chat#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/chat#model Chat#model}
   */
   readonly model?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/chat portainer_chat}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/chat portainer_chat}
 */
 export class Chat extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class Chat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Chat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Chat to import
-  * @param importFromId The id of the existing Chat that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/chat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Chat that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/chat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Chat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class Chat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/chat portainer_chat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/chat portainer_chat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class Chat extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_chat',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

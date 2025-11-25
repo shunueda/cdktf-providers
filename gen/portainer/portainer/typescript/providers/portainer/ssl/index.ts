@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/ssl
+// https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/ssl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SslConfig extends cdktf.TerraformMetaArguments {
   /**
   * SSL certificate content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/ssl#cert Ssl#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/ssl#cert Ssl#cert}
   */
   readonly cert: string;
   /**
   * SSL client certificate content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/ssl#client_cert Ssl#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/ssl#client_cert Ssl#client_cert}
   */
   readonly clientCert?: string;
   /**
   * Whether HTTP should be enabled (true) or disabled (false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/ssl#http_enabled Ssl#http_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/ssl#http_enabled Ssl#http_enabled}
   */
   readonly httpEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/ssl#id Ssl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/ssl#id Ssl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface SslConfig extends cdktf.TerraformMetaArguments {
   /**
   * SSL private key content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/ssl#key Ssl#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/ssl#key Ssl#key}
   */
   readonly key: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/ssl portainer_ssl}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/ssl portainer_ssl}
 */
 export class Ssl extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Ssl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ssl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ssl to import
-  * @param importFromId The id of the existing Ssl that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/ssl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ssl that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/ssl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ssl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Ssl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/ssl portainer_ssl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/ssl portainer_ssl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class Ssl extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_ssl',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface ProjectSymbolSourceConfig extends cdktf.TerraformMetaArguments 
   /**
   * The AWS Access Key.Required for S3 sources, invalid for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#access_key ProjectSymbolSource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#access_key ProjectSymbolSource#access_key}
   */
   readonly accessKey?: string;
   /**
   * The App Store Connect Issuer ID. Required for AppStoreConnect sources, invalid for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#app_connect_issuer ProjectSymbolSource#app_connect_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#app_connect_issuer ProjectSymbolSource#app_connect_issuer}
   */
   readonly appConnectIssuer?: string;
   /**
   * The App Store Connect API Private Key. Required for AppStoreConnect sources, invalid for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#app_connect_private_key ProjectSymbolSource#app_connect_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#app_connect_private_key ProjectSymbolSource#app_connect_private_key}
   */
   readonly appConnectPrivateKey?: string;
   /**
   * The App Store Connect App ID. Required for AppStoreConnect sources, invalid for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#app_id ProjectSymbolSource#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#app_id ProjectSymbolSource#app_id}
   */
   readonly appId?: string;
   /**
   * The GCS or S3 bucket where the source resides. Required for GCS and S3 sourcse, invalid for HTTP and AppStoreConnect sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#bucket ProjectSymbolSource#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#bucket ProjectSymbolSource#bucket}
   */
   readonly bucket?: string;
   /**
   * The GCS email address for authentication. Required for GCS sources, invalid for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#client_email ProjectSymbolSource#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#client_email ProjectSymbolSource#client_email}
   */
   readonly clientEmail?: string;
   /**
   * Layout settings for the source. This is required for HTTP, GCS, and S3 sources and invalid for AppStoreConnect sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#layout ProjectSymbolSource#layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#layout ProjectSymbolSource#layout}
   */
   readonly layout?: ProjectSymbolSourceLayout;
   /**
   * The human-readable name of the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#name ProjectSymbolSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#name ProjectSymbolSource#name}
   */
   readonly name: string;
   /**
   * The organization of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#organization ProjectSymbolSource#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#organization ProjectSymbolSource#organization}
   */
   readonly organization: string;
   /**
   * The password for accessing the source. Optional for HTTP sources, invalid for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#password ProjectSymbolSource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#password ProjectSymbolSource#password}
   */
   readonly password?: string;
   /**
   * The GCS or S3 prefix. Optional for GCS and S3 sourcse, invalid for HTTP and AppStoreConnect sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#prefix ProjectSymbolSource#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#prefix ProjectSymbolSource#prefix}
   */
   readonly prefix?: string;
   /**
   * The GCS private key. Required for GCS sources, invalid for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#private_key ProjectSymbolSource#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#private_key ProjectSymbolSource#private_key}
   */
   readonly privateKey?: string;
   /**
   * The project of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#project ProjectSymbolSource#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#project ProjectSymbolSource#project}
   */
   readonly project: string;
   /**
   * The source's S3 region. Required for S3 sources, invalid for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#region ProjectSymbolSource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#region ProjectSymbolSource#region}
   */
   readonly region?: string;
   /**
   * The AWS Secret Access Key.Required for S3 sources, invalid for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#secret_key ProjectSymbolSource#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#secret_key ProjectSymbolSource#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The type of symbol source. One of `appStoreConnect` (App Store Connect), `http` (SymbolServer (HTTP)), `gcs` (Google Cloud Storage), `s3` (Amazon S3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#type ProjectSymbolSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#type ProjectSymbolSource#type}
   */
   readonly type: string;
   /**
   * The source's URL. Optional for HTTP sources, invalid for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#url ProjectSymbolSource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#url ProjectSymbolSource#url}
   */
   readonly url?: string;
   /**
   * The user name for accessing the source. Optional for HTTP sources, invalid for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#username ProjectSymbolSource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#username ProjectSymbolSource#username}
   */
   readonly username?: string;
 }
@@ -120,13 +120,13 @@ export interface ProjectSymbolSourceLayout {
   /**
   * The casing of the symbol source layout. The layout of the folder structure. The options are: `default` - Default (mixed case), `uppercase` - Uppercase, `lowercase` - Lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#casing ProjectSymbolSource#casing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#casing ProjectSymbolSource#casing}
   */
   readonly casing: string;
   /**
   * The layout of the folder structure. The options are: `native` - Platform-Specific (SymStore / GDB / LLVM), `symstore` - Microsoft SymStore, `symstore_index2` - Microsoft SymStore (with index2.txt), `ssqp` - Microsoft SSQP, `unified` - Unified Symbol Server Layout, `debuginfod` - debuginfod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#type ProjectSymbolSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#type ProjectSymbolSource#type}
   */
   readonly type: string;
 }
@@ -243,7 +243,7 @@ export class ProjectSymbolSourceLayoutOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source sentry_project_symbol_source}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source sentry_project_symbol_source}
 */
 export class ProjectSymbolSource extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class ProjectSymbolSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectSymbolSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectSymbolSource to import
-  * @param importFromId The id of the existing ProjectSymbolSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectSymbolSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectSymbolSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class ProjectSymbolSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_symbol_source sentry_project_symbol_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_symbol_source sentry_project_symbol_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class ProjectSymbolSource extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_project_symbol_source',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

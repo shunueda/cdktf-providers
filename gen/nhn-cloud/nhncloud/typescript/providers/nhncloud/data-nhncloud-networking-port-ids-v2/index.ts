@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2
+// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface DataNhncloudNetworkingPortIdsV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#admin_state_up DataNhncloudNetworkingPortIdsV2#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#admin_state_up DataNhncloudNetworkingPortIdsV2#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#description DataNhncloudNetworkingPortIdsV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#description DataNhncloudNetworkingPortIdsV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#device_id DataNhncloudNetworkingPortIdsV2#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#device_id DataNhncloudNetworkingPortIdsV2#device_id}
   */
   readonly deviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#device_owner DataNhncloudNetworkingPortIdsV2#device_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#device_owner DataNhncloudNetworkingPortIdsV2#device_owner}
   */
   readonly deviceOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#dns_name DataNhncloudNetworkingPortIdsV2#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#dns_name DataNhncloudNetworkingPortIdsV2#dns_name}
   */
   readonly dnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#fixed_ip DataNhncloudNetworkingPortIdsV2#fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#fixed_ip DataNhncloudNetworkingPortIdsV2#fixed_ip}
   */
   readonly fixedIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#id DataNhncloudNetworkingPortIdsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#id DataNhncloudNetworkingPortIdsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#mac_address DataNhncloudNetworkingPortIdsV2#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#mac_address DataNhncloudNetworkingPortIdsV2#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#name DataNhncloudNetworkingPortIdsV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#name DataNhncloudNetworkingPortIdsV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#network_id DataNhncloudNetworkingPortIdsV2#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#network_id DataNhncloudNetworkingPortIdsV2#network_id}
   */
   readonly networkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#project_id DataNhncloudNetworkingPortIdsV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#project_id DataNhncloudNetworkingPortIdsV2#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#region DataNhncloudNetworkingPortIdsV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#region DataNhncloudNetworkingPortIdsV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#security_group_ids DataNhncloudNetworkingPortIdsV2#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#security_group_ids DataNhncloudNetworkingPortIdsV2#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#sort_direction DataNhncloudNetworkingPortIdsV2#sort_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#sort_direction DataNhncloudNetworkingPortIdsV2#sort_direction}
   */
   readonly sortDirection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#sort_key DataNhncloudNetworkingPortIdsV2#sort_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#sort_key DataNhncloudNetworkingPortIdsV2#sort_key}
   */
   readonly sortKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#status DataNhncloudNetworkingPortIdsV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#status DataNhncloudNetworkingPortIdsV2#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#tags DataNhncloudNetworkingPortIdsV2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#tags DataNhncloudNetworkingPortIdsV2#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#tenant_id DataNhncloudNetworkingPortIdsV2#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#tenant_id DataNhncloudNetworkingPortIdsV2#tenant_id}
   */
   readonly tenantId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2 nhncloud_networking_port_ids_v2}
+* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2 nhncloud_networking_port_ids_v2}
 */
 export class DataNhncloudNetworkingPortIdsV2 extends cdktf.TerraformDataSource {
 
@@ -101,7 +101,7 @@ export class DataNhncloudNetworkingPortIdsV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNhncloudNetworkingPortIdsV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNhncloudNetworkingPortIdsV2 to import
-  * @param importFromId The id of the existing DataNhncloudNetworkingPortIdsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNhncloudNetworkingPortIdsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNhncloudNetworkingPortIdsV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class DataNhncloudNetworkingPortIdsV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_port_ids_v2 nhncloud_networking_port_ids_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_port_ids_v2 nhncloud_networking_port_ids_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class DataNhncloudNetworkingPortIdsV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'nhncloud_networking_port_ids_v2',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6',
-        providerVersionConstraint: '1.0.6'
+        providerVersion: '1.0.7',
+        providerVersionConstraint: '1.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

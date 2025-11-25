@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2
+// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface BlockstorageQuotasetV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#backup_gigabytes BlockstorageQuotasetV2#backup_gigabytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#backup_gigabytes BlockstorageQuotasetV2#backup_gigabytes}
   */
   readonly backupGigabytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#backups BlockstorageQuotasetV2#backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#backups BlockstorageQuotasetV2#backups}
   */
   readonly backups?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#gigabytes BlockstorageQuotasetV2#gigabytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#gigabytes BlockstorageQuotasetV2#gigabytes}
   */
   readonly gigabytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#groups BlockstorageQuotasetV2#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#groups BlockstorageQuotasetV2#groups}
   */
   readonly groups?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#id BlockstorageQuotasetV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#id BlockstorageQuotasetV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#per_volume_gigabytes BlockstorageQuotasetV2#per_volume_gigabytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#per_volume_gigabytes BlockstorageQuotasetV2#per_volume_gigabytes}
   */
   readonly perVolumeGigabytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#project_id BlockstorageQuotasetV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#project_id BlockstorageQuotasetV2#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#region BlockstorageQuotasetV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#region BlockstorageQuotasetV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#snapshots BlockstorageQuotasetV2#snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#snapshots BlockstorageQuotasetV2#snapshots}
   */
   readonly snapshots?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#volume_type_quota BlockstorageQuotasetV2#volume_type_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#volume_type_quota BlockstorageQuotasetV2#volume_type_quota}
   */
   readonly volumeTypeQuota?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#volumes BlockstorageQuotasetV2#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#volumes BlockstorageQuotasetV2#volumes}
   */
   readonly volumes?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#timeouts BlockstorageQuotasetV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#timeouts BlockstorageQuotasetV2#timeouts}
   */
   readonly timeouts?: BlockstorageQuotasetV2Timeouts;
 }
 export interface BlockstorageQuotasetV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#create BlockstorageQuotasetV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#create BlockstorageQuotasetV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#delete BlockstorageQuotasetV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#delete BlockstorageQuotasetV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#update BlockstorageQuotasetV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#update BlockstorageQuotasetV2#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class BlockstorageQuotasetV2TimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2 nhncloud_blockstorage_quotaset_v2}
+* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2 nhncloud_blockstorage_quotaset_v2}
 */
 export class BlockstorageQuotasetV2 extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class BlockstorageQuotasetV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockstorageQuotasetV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockstorageQuotasetV2 to import
-  * @param importFromId The id of the existing BlockstorageQuotasetV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockstorageQuotasetV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockstorageQuotasetV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class BlockstorageQuotasetV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_quotaset_v2 nhncloud_blockstorage_quotaset_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_quotaset_v2 nhncloud_blockstorage_quotaset_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class BlockstorageQuotasetV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nhncloud_blockstorage_quotaset_v2',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6',
-        providerVersionConstraint: '1.0.6'
+        providerVersion: '1.0.7',
+        providerVersionConstraint: '1.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

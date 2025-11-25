@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check
+// https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface SyntheticMonitoringCheckConfig extends cdktf.TerraformMetaArgum
   /**
   * Can be set to `none`, `low`, `medium`, or `high` to correspond to the check [alert levels](https://grafana.com/docs/grafana-cloud/testing/synthetic-monitoring/configure-alerts/synthetic-monitoring-alerting/). Defaults to `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#alert_sensitivity SyntheticMonitoringCheck#alert_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#alert_sensitivity SyntheticMonitoringCheck#alert_sensitivity}
   */
   readonly alertSensitivity?: string;
   /**
   * Metrics are reduced by default. Set this to `false` if you'd like to publish all metrics. We maintain a [full list of metrics](https://github.com/grafana/synthetic-monitoring-agent/tree/main/internal/scraper/testdata) collected for each. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#basic_metrics_only SyntheticMonitoringCheck#basic_metrics_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#basic_metrics_only SyntheticMonitoringCheck#basic_metrics_only}
   */
   readonly basicMetricsOnly?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the check. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#enabled SyntheticMonitoringCheck#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#enabled SyntheticMonitoringCheck#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * How often the check runs in milliseconds (the value is not truly a "frequency" but a "period"). The minimum acceptable value is 1 second (1000 ms), and the maximum is 1 hour (3600000 ms). Defaults to `60000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#frequency SyntheticMonitoringCheck#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#frequency SyntheticMonitoringCheck#frequency}
   */
   readonly frequency?: number;
   /**
   * Name used for job label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#job SyntheticMonitoringCheck#job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#job SyntheticMonitoringCheck#job}
   */
   readonly job: string;
   /**
   * Custom labels to be included with collected metrics and logs. The maximum number of labels that can be specified per check is 5. These are applied, along with the probe-specific labels, to the outgoing metrics. The names and values of the labels cannot be empty, and the maximum length is 32 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#labels SyntheticMonitoringCheck#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#labels SyntheticMonitoringCheck#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * List of probe location IDs where this target will be checked from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#probes SyntheticMonitoringCheck#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#probes SyntheticMonitoringCheck#probes}
   */
   readonly probes: number[];
   /**
   * Hostname to ping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#target SyntheticMonitoringCheck#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#target SyntheticMonitoringCheck#target}
   */
   readonly target: string;
   /**
   * Specifies the maximum running time for the check in milliseconds. The minimum acceptable value is 1 second (1000 ms), and the maximum 180 seconds (180000 ms). Defaults to `3000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#timeout SyntheticMonitoringCheck#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#timeout SyntheticMonitoringCheck#timeout}
   */
   readonly timeout?: number;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#settings SyntheticMonitoringCheck#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#settings SyntheticMonitoringCheck#settings}
   */
   readonly settings: SyntheticMonitoringCheckSettings;
 }
 export interface SyntheticMonitoringCheckSettingsBrowser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#script SyntheticMonitoringCheck#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#script SyntheticMonitoringCheck#script}
   */
   readonly script: string;
 }
@@ -153,13 +153,13 @@ export interface SyntheticMonitoringCheckSettingsDnsValidateAdditionalRrs {
   /**
   * Fail if value matches regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#fail_if_matches_regexp SyntheticMonitoringCheck#fail_if_matches_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#fail_if_matches_regexp SyntheticMonitoringCheck#fail_if_matches_regexp}
   */
   readonly failIfMatchesRegexp?: string[];
   /**
   * Fail if value does not match regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#fail_if_not_matches_regexp SyntheticMonitoringCheck#fail_if_not_matches_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#fail_if_not_matches_regexp SyntheticMonitoringCheck#fail_if_not_matches_regexp}
   */
   readonly failIfNotMatchesRegexp?: string[];
 }
@@ -306,13 +306,13 @@ export interface SyntheticMonitoringCheckSettingsDnsValidateAnswerRrs {
   /**
   * Fail if value matches regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#fail_if_matches_regexp SyntheticMonitoringCheck#fail_if_matches_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#fail_if_matches_regexp SyntheticMonitoringCheck#fail_if_matches_regexp}
   */
   readonly failIfMatchesRegexp?: string[];
   /**
   * Fail if value does not match regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#fail_if_not_matches_regexp SyntheticMonitoringCheck#fail_if_not_matches_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#fail_if_not_matches_regexp SyntheticMonitoringCheck#fail_if_not_matches_regexp}
   */
   readonly failIfNotMatchesRegexp?: string[];
 }
@@ -427,13 +427,13 @@ export interface SyntheticMonitoringCheckSettingsDnsValidateAuthorityRrs {
   /**
   * Fail if value matches regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#fail_if_matches_regexp SyntheticMonitoringCheck#fail_if_matches_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#fail_if_matches_regexp SyntheticMonitoringCheck#fail_if_matches_regexp}
   */
   readonly failIfMatchesRegexp?: string[];
   /**
   * Fail if value does not match regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#fail_if_not_matches_regexp SyntheticMonitoringCheck#fail_if_not_matches_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#fail_if_not_matches_regexp SyntheticMonitoringCheck#fail_if_not_matches_regexp}
   */
   readonly failIfNotMatchesRegexp?: string[];
 }
@@ -548,61 +548,61 @@ export interface SyntheticMonitoringCheckSettingsDns {
   /**
   * Options are `V4`, `V6`, `Any`. Specifies whether the corresponding check will be performed using IPv4 or IPv6. The `Any` value indicates that IPv6 should be used, falling back to IPv4 if that's not available. Defaults to `V4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#ip_version SyntheticMonitoringCheck#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#ip_version SyntheticMonitoringCheck#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * Port to target. Defaults to `53`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#port SyntheticMonitoringCheck#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#port SyntheticMonitoringCheck#port}
   */
   readonly port?: number;
   /**
   * `TCP` or `UDP`. Defaults to `UDP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#protocol SyntheticMonitoringCheck#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#protocol SyntheticMonitoringCheck#protocol}
   */
   readonly protocol?: string;
   /**
   * One of `ANY`, `A`, `AAAA`, `CNAME`, `MX`, `NS`, `PTR`, `SOA`, `SRV`, `TXT`. Defaults to `A`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#record_type SyntheticMonitoringCheck#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#record_type SyntheticMonitoringCheck#record_type}
   */
   readonly recordType?: string;
   /**
   * DNS server address to target. Defaults to `8.8.8.8`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#server SyntheticMonitoringCheck#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#server SyntheticMonitoringCheck#server}
   */
   readonly server?: string;
   /**
   * Source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#source_ip_address SyntheticMonitoringCheck#source_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#source_ip_address SyntheticMonitoringCheck#source_ip_address}
   */
   readonly sourceIpAddress?: string;
   /**
   * List of valid response codes. Options include `NOERROR`, `BADALG`, `BADMODE`, `BADKEY`, `BADCOOKIE`, `BADNAME`, `BADSIG`, `BADTIME`, `BADTRUNC`, `BADVERS`, `FORMERR`, `NOTIMP`, `NOTAUTH`, `NOTZONE`, `NXDOMAIN`, `NXRRSET`, `REFUSED`, `SERVFAIL`, `YXDOMAIN`, `YXRRSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#valid_r_codes SyntheticMonitoringCheck#valid_r_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#valid_r_codes SyntheticMonitoringCheck#valid_r_codes}
   */
   readonly validRCodes?: string[];
   /**
   * validate_additional_rrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#validate_additional_rrs SyntheticMonitoringCheck#validate_additional_rrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#validate_additional_rrs SyntheticMonitoringCheck#validate_additional_rrs}
   */
   readonly validateAdditionalRrs?: SyntheticMonitoringCheckSettingsDnsValidateAdditionalRrs[] | cdktf.IResolvable;
   /**
   * validate_answer_rrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#validate_answer_rrs SyntheticMonitoringCheck#validate_answer_rrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#validate_answer_rrs SyntheticMonitoringCheck#validate_answer_rrs}
   */
   readonly validateAnswerRrs?: SyntheticMonitoringCheckSettingsDnsValidateAnswerRrs;
   /**
   * validate_authority_rrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#validate_authority_rrs SyntheticMonitoringCheck#validate_authority_rrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#validate_authority_rrs SyntheticMonitoringCheck#validate_authority_rrs}
   */
   readonly validateAuthorityRrs?: SyntheticMonitoringCheckSettingsDnsValidateAuthorityRrs;
 }
@@ -949,31 +949,31 @@ export interface SyntheticMonitoringCheckSettingsGrpcTlsConfig {
   /**
   * CA certificate in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#ca_cert SyntheticMonitoringCheck#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#ca_cert SyntheticMonitoringCheck#ca_cert}
   */
   readonly caCert?: string;
   /**
   * Client certificate in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#client_cert SyntheticMonitoringCheck#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#client_cert SyntheticMonitoringCheck#client_cert}
   */
   readonly clientCert?: string;
   /**
   * Client key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#client_key SyntheticMonitoringCheck#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#client_key SyntheticMonitoringCheck#client_key}
   */
   readonly clientKey?: string;
   /**
   * Disable target certificate validation. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#insecure_skip_verify SyntheticMonitoringCheck#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#insecure_skip_verify SyntheticMonitoringCheck#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#server_name SyntheticMonitoringCheck#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#server_name SyntheticMonitoringCheck#server_name}
   */
   readonly serverName?: string;
 }
@@ -1175,25 +1175,25 @@ export interface SyntheticMonitoringCheckSettingsGrpc {
   /**
   * Options are `V4`, `V6`, `Any`. Specifies whether the corresponding check will be performed using IPv4 or IPv6. The `Any` value indicates that IPv6 should be used, falling back to IPv4 if that's not available. Defaults to `V4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#ip_version SyntheticMonitoringCheck#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#ip_version SyntheticMonitoringCheck#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * gRPC service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#service SyntheticMonitoringCheck#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#service SyntheticMonitoringCheck#service}
   */
   readonly service?: string;
   /**
   * Whether or not TLS is used when the connection is initiated. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#tls SyntheticMonitoringCheck#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#tls SyntheticMonitoringCheck#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#tls_config SyntheticMonitoringCheck#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#tls_config SyntheticMonitoringCheck#tls_config}
   */
   readonly tlsConfig?: SyntheticMonitoringCheckSettingsGrpcTlsConfig;
 }
@@ -1366,13 +1366,13 @@ export interface SyntheticMonitoringCheckSettingsHttpBasicAuth {
   /**
   * Basic auth password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#password SyntheticMonitoringCheck#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#password SyntheticMonitoringCheck#password}
   */
   readonly password: string;
   /**
   * Basic auth username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#username SyntheticMonitoringCheck#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#username SyntheticMonitoringCheck#username}
   */
   readonly username: string;
 }
@@ -1481,19 +1481,19 @@ export interface SyntheticMonitoringCheckSettingsHttpFailIfHeaderMatchesRegexp {
   /**
   * Allow header to be missing from responses. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#allow_missing SyntheticMonitoringCheck#allow_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#allow_missing SyntheticMonitoringCheck#allow_missing}
   */
   readonly allowMissing?: boolean | cdktf.IResolvable;
   /**
   * Header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#header SyntheticMonitoringCheck#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#header SyntheticMonitoringCheck#header}
   */
   readonly header: string;
   /**
   * Regex that header value should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#regexp SyntheticMonitoringCheck#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#regexp SyntheticMonitoringCheck#regexp}
   */
   readonly regexp: string;
 }
@@ -1663,19 +1663,19 @@ export interface SyntheticMonitoringCheckSettingsHttpFailIfHeaderNotMatchesRegex
   /**
   * Allow header to be missing from responses. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#allow_missing SyntheticMonitoringCheck#allow_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#allow_missing SyntheticMonitoringCheck#allow_missing}
   */
   readonly allowMissing?: boolean | cdktf.IResolvable;
   /**
   * Header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#header SyntheticMonitoringCheck#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#header SyntheticMonitoringCheck#header}
   */
   readonly header: string;
   /**
   * Regex that header value should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#regexp SyntheticMonitoringCheck#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#regexp SyntheticMonitoringCheck#regexp}
   */
   readonly regexp: string;
 }
@@ -1845,31 +1845,31 @@ export interface SyntheticMonitoringCheckSettingsHttpTlsConfig {
   /**
   * CA certificate in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#ca_cert SyntheticMonitoringCheck#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#ca_cert SyntheticMonitoringCheck#ca_cert}
   */
   readonly caCert?: string;
   /**
   * Client certificate in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#client_cert SyntheticMonitoringCheck#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#client_cert SyntheticMonitoringCheck#client_cert}
   */
   readonly clientCert?: string;
   /**
   * Client key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#client_key SyntheticMonitoringCheck#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#client_key SyntheticMonitoringCheck#client_key}
   */
   readonly clientKey?: string;
   /**
   * Disable target certificate validation. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#insecure_skip_verify SyntheticMonitoringCheck#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#insecure_skip_verify SyntheticMonitoringCheck#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#server_name SyntheticMonitoringCheck#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#server_name SyntheticMonitoringCheck#server_name}
   */
   readonly serverName?: string;
 }
@@ -2071,121 +2071,121 @@ export interface SyntheticMonitoringCheckSettingsHttp {
   /**
   * Token for use with bearer authorization header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#bearer_token SyntheticMonitoringCheck#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#bearer_token SyntheticMonitoringCheck#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * The body of the HTTP request used in probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#body SyntheticMonitoringCheck#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#body SyntheticMonitoringCheck#body}
   */
   readonly body?: string;
   /**
   * The name of the query parameter used to prevent the server from using a cached response. Each probe will assign a random value to this parameter each time a request is made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#cache_busting_query_param_name SyntheticMonitoringCheck#cache_busting_query_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#cache_busting_query_param_name SyntheticMonitoringCheck#cache_busting_query_param_name}
   */
   readonly cacheBustingQueryParamName?: string;
   /**
   * Check fails if the response body is not compressed using this compression algorithm. One of `none`, `identity`, `br`, `gzip`, `deflate`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#compression SyntheticMonitoringCheck#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#compression SyntheticMonitoringCheck#compression}
   */
   readonly compression?: string;
   /**
   * List of regexes. If any match the response body, the check will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#fail_if_body_matches_regexp SyntheticMonitoringCheck#fail_if_body_matches_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#fail_if_body_matches_regexp SyntheticMonitoringCheck#fail_if_body_matches_regexp}
   */
   readonly failIfBodyMatchesRegexp?: string[];
   /**
   * List of regexes. If any do not match the response body, the check will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#fail_if_body_not_matches_regexp SyntheticMonitoringCheck#fail_if_body_not_matches_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#fail_if_body_not_matches_regexp SyntheticMonitoringCheck#fail_if_body_not_matches_regexp}
   */
   readonly failIfBodyNotMatchesRegexp?: string[];
   /**
   * Fail if SSL is not present. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#fail_if_not_ssl SyntheticMonitoringCheck#fail_if_not_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#fail_if_not_ssl SyntheticMonitoringCheck#fail_if_not_ssl}
   */
   readonly failIfNotSsl?: boolean | cdktf.IResolvable;
   /**
   * Fail if SSL is present. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#fail_if_ssl SyntheticMonitoringCheck#fail_if_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#fail_if_ssl SyntheticMonitoringCheck#fail_if_ssl}
   */
   readonly failIfSsl?: boolean | cdktf.IResolvable;
   /**
   * The HTTP headers set for the probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#headers SyntheticMonitoringCheck#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#headers SyntheticMonitoringCheck#headers}
   */
   readonly headers?: string[];
   /**
   * Options are `V4`, `V6`, `Any`. Specifies whether the corresponding check will be performed using IPv4 or IPv6. The `Any` value indicates that IPv6 should be used, falling back to IPv4 if that's not available. Defaults to `V4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#ip_version SyntheticMonitoringCheck#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#ip_version SyntheticMonitoringCheck#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * Request method. One of `GET`, `CONNECT`, `DELETE`, `HEAD`, `OPTIONS`, `POST`, `PUT`, `TRACE` Defaults to `GET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#method SyntheticMonitoringCheck#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#method SyntheticMonitoringCheck#method}
   */
   readonly method?: string;
   /**
   * Do not follow redirects. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#no_follow_redirects SyntheticMonitoringCheck#no_follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#no_follow_redirects SyntheticMonitoringCheck#no_follow_redirects}
   */
   readonly noFollowRedirects?: boolean | cdktf.IResolvable;
   /**
   * The HTTP headers sent to the proxy URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#proxy_connect_headers SyntheticMonitoringCheck#proxy_connect_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#proxy_connect_headers SyntheticMonitoringCheck#proxy_connect_headers}
   */
   readonly proxyConnectHeaders?: string[];
   /**
   * Proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#proxy_url SyntheticMonitoringCheck#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#proxy_url SyntheticMonitoringCheck#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * List of valid HTTP versions. Options include `HTTP/1.0`, `HTTP/1.1`, `HTTP/2.0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#valid_http_versions SyntheticMonitoringCheck#valid_http_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#valid_http_versions SyntheticMonitoringCheck#valid_http_versions}
   */
   readonly validHttpVersions?: string[];
   /**
   * Accepted status codes. If unset, defaults to 2xx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#valid_status_codes SyntheticMonitoringCheck#valid_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#valid_status_codes SyntheticMonitoringCheck#valid_status_codes}
   */
   readonly validStatusCodes?: number[];
   /**
   * basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#basic_auth SyntheticMonitoringCheck#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#basic_auth SyntheticMonitoringCheck#basic_auth}
   */
   readonly basicAuth?: SyntheticMonitoringCheckSettingsHttpBasicAuth;
   /**
   * fail_if_header_matches_regexp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#fail_if_header_matches_regexp SyntheticMonitoringCheck#fail_if_header_matches_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#fail_if_header_matches_regexp SyntheticMonitoringCheck#fail_if_header_matches_regexp}
   */
   readonly failIfHeaderMatchesRegexp?: SyntheticMonitoringCheckSettingsHttpFailIfHeaderMatchesRegexp[] | cdktf.IResolvable;
   /**
   * fail_if_header_not_matches_regexp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#fail_if_header_not_matches_regexp SyntheticMonitoringCheck#fail_if_header_not_matches_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#fail_if_header_not_matches_regexp SyntheticMonitoringCheck#fail_if_header_not_matches_regexp}
   */
   readonly failIfHeaderNotMatchesRegexp?: SyntheticMonitoringCheckSettingsHttpFailIfHeaderNotMatchesRegexp[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#tls_config SyntheticMonitoringCheck#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#tls_config SyntheticMonitoringCheck#tls_config}
   */
   readonly tlsConfig?: SyntheticMonitoringCheckSettingsHttpTlsConfig;
 }
@@ -2822,31 +2822,31 @@ export interface SyntheticMonitoringCheckSettingsMultihttpEntriesAssertions {
   /**
   * The condition of the assertion: NOT_CONTAINS, EQUALS, STARTS_WITH, ENDS_WITH, TYPE_OF, CONTAINS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#condition SyntheticMonitoringCheck#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#condition SyntheticMonitoringCheck#condition}
   */
   readonly condition?: string;
   /**
   * The expression of the assertion. Should start with $.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#expression SyntheticMonitoringCheck#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#expression SyntheticMonitoringCheck#expression}
   */
   readonly expression?: string;
   /**
   * The subject of the assertion: RESPONSE_HEADERS, HTTP_STATUS_CODE, RESPONSE_BODY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#subject SyntheticMonitoringCheck#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#subject SyntheticMonitoringCheck#subject}
   */
   readonly subject?: string;
   /**
   * The type of assertion to make: TEXT, JSON_PATH_VALUE, JSON_PATH_ASSERTION, REGEX_ASSERTION
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#type SyntheticMonitoringCheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#type SyntheticMonitoringCheck#type}
   */
   readonly type: string;
   /**
   * The value of the assertion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#value SyntheticMonitoringCheck#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#value SyntheticMonitoringCheck#value}
   */
   readonly value?: string;
 }
@@ -3077,19 +3077,19 @@ export interface SyntheticMonitoringCheckSettingsMultihttpEntriesRequestBody {
   /**
   * The content encoding of the body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#content_encoding SyntheticMonitoringCheck#content_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#content_encoding SyntheticMonitoringCheck#content_encoding}
   */
   readonly contentEncoding?: string;
   /**
   * The content type of the body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#content_type SyntheticMonitoringCheck#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#content_type SyntheticMonitoringCheck#content_type}
   */
   readonly contentType?: string;
   /**
   * The body payload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#payload SyntheticMonitoringCheck#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#payload SyntheticMonitoringCheck#payload}
   */
   readonly payload?: string;
 }
@@ -3265,13 +3265,13 @@ export interface SyntheticMonitoringCheckSettingsMultihttpEntriesRequestHeaders 
   /**
   * Name of the header to send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#name SyntheticMonitoringCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#name SyntheticMonitoringCheck#name}
   */
   readonly name: string;
   /**
   * Value of the header to send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#value SyntheticMonitoringCheck#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#value SyntheticMonitoringCheck#value}
   */
   readonly value: string;
 }
@@ -3412,13 +3412,13 @@ export interface SyntheticMonitoringCheckSettingsMultihttpEntriesRequestQueryFie
   /**
   * Name of the query field to send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#name SyntheticMonitoringCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#name SyntheticMonitoringCheck#name}
   */
   readonly name: string;
   /**
   * Value of the query field to send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#value SyntheticMonitoringCheck#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#value SyntheticMonitoringCheck#value}
   */
   readonly value: string;
 }
@@ -3559,31 +3559,31 @@ export interface SyntheticMonitoringCheckSettingsMultihttpEntriesRequest {
   /**
   * The HTTP method to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#method SyntheticMonitoringCheck#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#method SyntheticMonitoringCheck#method}
   */
   readonly method: string;
   /**
   * The URL for the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#url SyntheticMonitoringCheck#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#url SyntheticMonitoringCheck#url}
   */
   readonly url: string;
   /**
   * body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#body SyntheticMonitoringCheck#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#body SyntheticMonitoringCheck#body}
   */
   readonly body?: SyntheticMonitoringCheckSettingsMultihttpEntriesRequestBody[] | cdktf.IResolvable;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#headers SyntheticMonitoringCheck#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#headers SyntheticMonitoringCheck#headers}
   */
   readonly headers?: SyntheticMonitoringCheckSettingsMultihttpEntriesRequestHeaders[] | cdktf.IResolvable;
   /**
   * query_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#query_fields SyntheticMonitoringCheck#query_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#query_fields SyntheticMonitoringCheck#query_fields}
   */
   readonly queryFields?: SyntheticMonitoringCheckSettingsMultihttpEntriesRequestQueryFields[] | cdktf.IResolvable;
 }
@@ -3779,25 +3779,25 @@ export interface SyntheticMonitoringCheckSettingsMultihttpEntriesVariables {
   /**
   * The attribute to use when finding the variable value. Only used when type is CSS_SELECTOR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#attribute SyntheticMonitoringCheck#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#attribute SyntheticMonitoringCheck#attribute}
   */
   readonly attribute?: string;
   /**
   * The expression to when finding the variable. Should start with $. Only use when type is JSON_PATH or REGEX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#expression SyntheticMonitoringCheck#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#expression SyntheticMonitoringCheck#expression}
   */
   readonly expression?: string;
   /**
   * The name of the variable to extract
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#name SyntheticMonitoringCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#name SyntheticMonitoringCheck#name}
   */
   readonly name?: string;
   /**
   * The method of finding the variable value to extract. JSON_PATH, REGEX, CSS_SELECTOR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#type SyntheticMonitoringCheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#type SyntheticMonitoringCheck#type}
   */
   readonly type: string;
 }
@@ -3999,19 +3999,19 @@ export interface SyntheticMonitoringCheckSettingsMultihttpEntries {
   /**
   * assertions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#assertions SyntheticMonitoringCheck#assertions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#assertions SyntheticMonitoringCheck#assertions}
   */
   readonly assertions?: SyntheticMonitoringCheckSettingsMultihttpEntriesAssertions[] | cdktf.IResolvable;
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#request SyntheticMonitoringCheck#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#request SyntheticMonitoringCheck#request}
   */
   readonly request?: SyntheticMonitoringCheckSettingsMultihttpEntriesRequest;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#variables SyntheticMonitoringCheck#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#variables SyntheticMonitoringCheck#variables}
   */
   readonly variables?: SyntheticMonitoringCheckSettingsMultihttpEntriesVariables[] | cdktf.IResolvable;
 }
@@ -4187,7 +4187,7 @@ export interface SyntheticMonitoringCheckSettingsMultihttp {
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#entries SyntheticMonitoringCheck#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#entries SyntheticMonitoringCheck#entries}
   */
   readonly entries?: SyntheticMonitoringCheckSettingsMultihttpEntries[] | cdktf.IResolvable;
 }
@@ -4273,25 +4273,25 @@ export interface SyntheticMonitoringCheckSettingsPing {
   /**
   * Set the DF-bit in the IP-header. Only works with ipV4. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#dont_fragment SyntheticMonitoringCheck#dont_fragment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#dont_fragment SyntheticMonitoringCheck#dont_fragment}
   */
   readonly dontFragment?: boolean | cdktf.IResolvable;
   /**
   * Options are `V4`, `V6`, `Any`. Specifies whether the corresponding check will be performed using IPv4 or IPv6. The `Any` value indicates that IPv6 should be used, falling back to IPv4 if that's not available. Defaults to `V4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#ip_version SyntheticMonitoringCheck#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#ip_version SyntheticMonitoringCheck#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * Payload size. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#payload_size SyntheticMonitoringCheck#payload_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#payload_size SyntheticMonitoringCheck#payload_size}
   */
   readonly payloadSize?: number;
   /**
   * Source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#source_ip_address SyntheticMonitoringCheck#source_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#source_ip_address SyntheticMonitoringCheck#source_ip_address}
   */
   readonly sourceIpAddress?: string;
 }
@@ -4462,7 +4462,7 @@ export class SyntheticMonitoringCheckSettingsPingOutputReference extends cdktf.C
 }
 export interface SyntheticMonitoringCheckSettingsScripted {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#script SyntheticMonitoringCheck#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#script SyntheticMonitoringCheck#script}
   */
   readonly script: string;
 }
@@ -4545,19 +4545,19 @@ export interface SyntheticMonitoringCheckSettingsTcpQueryResponse {
   /**
   * Response to expect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#expect SyntheticMonitoringCheck#expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#expect SyntheticMonitoringCheck#expect}
   */
   readonly expect: string;
   /**
   * Data to send.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#send SyntheticMonitoringCheck#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#send SyntheticMonitoringCheck#send}
   */
   readonly send: string;
   /**
   * Upgrade TCP connection to TLS. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#start_tls SyntheticMonitoringCheck#start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#start_tls SyntheticMonitoringCheck#start_tls}
   */
   readonly startTls?: boolean | cdktf.IResolvable;
 }
@@ -4727,31 +4727,31 @@ export interface SyntheticMonitoringCheckSettingsTcpTlsConfig {
   /**
   * CA certificate in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#ca_cert SyntheticMonitoringCheck#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#ca_cert SyntheticMonitoringCheck#ca_cert}
   */
   readonly caCert?: string;
   /**
   * Client certificate in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#client_cert SyntheticMonitoringCheck#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#client_cert SyntheticMonitoringCheck#client_cert}
   */
   readonly clientCert?: string;
   /**
   * Client key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#client_key SyntheticMonitoringCheck#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#client_key SyntheticMonitoringCheck#client_key}
   */
   readonly clientKey?: string;
   /**
   * Disable target certificate validation. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#insecure_skip_verify SyntheticMonitoringCheck#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#insecure_skip_verify SyntheticMonitoringCheck#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#server_name SyntheticMonitoringCheck#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#server_name SyntheticMonitoringCheck#server_name}
   */
   readonly serverName?: string;
 }
@@ -4953,31 +4953,31 @@ export interface SyntheticMonitoringCheckSettingsTcp {
   /**
   * Options are `V4`, `V6`, `Any`. Specifies whether the corresponding check will be performed using IPv4 or IPv6. The `Any` value indicates that IPv6 should be used, falling back to IPv4 if that's not available. Defaults to `V4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#ip_version SyntheticMonitoringCheck#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#ip_version SyntheticMonitoringCheck#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * Source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#source_ip_address SyntheticMonitoringCheck#source_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#source_ip_address SyntheticMonitoringCheck#source_ip_address}
   */
   readonly sourceIpAddress?: string;
   /**
   * Whether or not TLS is used when the connection is initiated. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#tls SyntheticMonitoringCheck#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#tls SyntheticMonitoringCheck#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
   * query_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#query_response SyntheticMonitoringCheck#query_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#query_response SyntheticMonitoringCheck#query_response}
   */
   readonly queryResponse?: SyntheticMonitoringCheckSettingsTcpQueryResponse[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#tls_config SyntheticMonitoringCheck#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#tls_config SyntheticMonitoringCheck#tls_config}
   */
   readonly tlsConfig?: SyntheticMonitoringCheckSettingsTcpTlsConfig;
 }
@@ -5179,19 +5179,19 @@ export interface SyntheticMonitoringCheckSettingsTraceroute {
   /**
   * Maximum TTL for the trace Defaults to `64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#max_hops SyntheticMonitoringCheck#max_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#max_hops SyntheticMonitoringCheck#max_hops}
   */
   readonly maxHops?: number;
   /**
   * Maximum number of hosts to travers that give no response Defaults to `15`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#max_unknown_hops SyntheticMonitoringCheck#max_unknown_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#max_unknown_hops SyntheticMonitoringCheck#max_unknown_hops}
   */
   readonly maxUnknownHops?: number;
   /**
   * Reverse lookup hostnames from IP addresses Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#ptr_lookup SyntheticMonitoringCheck#ptr_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#ptr_lookup SyntheticMonitoringCheck#ptr_lookup}
   */
   readonly ptrLookup?: boolean | cdktf.IResolvable;
 }
@@ -5335,55 +5335,55 @@ export interface SyntheticMonitoringCheckSettings {
   /**
   * browser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#browser SyntheticMonitoringCheck#browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#browser SyntheticMonitoringCheck#browser}
   */
   readonly browser?: SyntheticMonitoringCheckSettingsBrowser;
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#dns SyntheticMonitoringCheck#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#dns SyntheticMonitoringCheck#dns}
   */
   readonly dns?: SyntheticMonitoringCheckSettingsDns;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#grpc SyntheticMonitoringCheck#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#grpc SyntheticMonitoringCheck#grpc}
   */
   readonly grpc?: SyntheticMonitoringCheckSettingsGrpc;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#http SyntheticMonitoringCheck#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#http SyntheticMonitoringCheck#http}
   */
   readonly http?: SyntheticMonitoringCheckSettingsHttp;
   /**
   * multihttp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#multihttp SyntheticMonitoringCheck#multihttp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#multihttp SyntheticMonitoringCheck#multihttp}
   */
   readonly multihttp?: SyntheticMonitoringCheckSettingsMultihttp;
   /**
   * ping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#ping SyntheticMonitoringCheck#ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#ping SyntheticMonitoringCheck#ping}
   */
   readonly ping?: SyntheticMonitoringCheckSettingsPing;
   /**
   * scripted block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#scripted SyntheticMonitoringCheck#scripted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#scripted SyntheticMonitoringCheck#scripted}
   */
   readonly scripted?: SyntheticMonitoringCheckSettingsScripted;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#tcp SyntheticMonitoringCheck#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#tcp SyntheticMonitoringCheck#tcp}
   */
   readonly tcp?: SyntheticMonitoringCheckSettingsTcp;
   /**
   * traceroute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#traceroute SyntheticMonitoringCheck#traceroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#traceroute SyntheticMonitoringCheck#traceroute}
   */
   readonly traceroute?: SyntheticMonitoringCheckSettingsTraceroute;
 }
@@ -5699,7 +5699,7 @@ export class SyntheticMonitoringCheckSettingsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check grafana_synthetic_monitoring_check}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check grafana_synthetic_monitoring_check}
 */
 export class SyntheticMonitoringCheck extends cdktf.TerraformResource {
 
@@ -5715,7 +5715,7 @@ export class SyntheticMonitoringCheck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SyntheticMonitoringCheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SyntheticMonitoringCheck to import
-  * @param importFromId The id of the existing SyntheticMonitoringCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SyntheticMonitoringCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SyntheticMonitoringCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5727,7 +5727,7 @@ export class SyntheticMonitoringCheck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/synthetic_monitoring_check grafana_synthetic_monitoring_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/synthetic_monitoring_check grafana_synthetic_monitoring_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5738,8 +5738,8 @@ export class SyntheticMonitoringCheck extends cdktf.TerraformResource {
       terraformResourceType: 'grafana_synthetic_monitoring_check',
       terraformGeneratorMetadata: {
         providerName: 'grafana',
-        providerVersion: '4.17.0',
-        providerVersionConstraint: '4.17.0'
+        providerVersion: '4.18.0',
+        providerVersionConstraint: '4.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

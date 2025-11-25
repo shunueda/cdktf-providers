@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user
+// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,181 +10,181 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * asps.list of the user's alias email addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#aliases User#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#aliases User#aliases}
   */
   readonly aliases?: string[];
   /**
   * Indicates if user is archived.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#archived User#archived}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#archived User#archived}
   */
   readonly archived?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the user is forced to change their password at next login. This setting doesn't apply when the user signs in via a third-party identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#change_password_at_next_login User#change_password_at_next_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#change_password_at_next_login User#change_password_at_next_login}
   */
   readonly changePasswordAtNextLogin?: boolean | cdktf.IResolvable;
   /**
   * Stores the hash format of the password property. We recommend sending the password property value as a base 16 bit hexadecimal-encoded hash value. Set the hashFunction values as either the SHA-1, MD5, or crypt hash format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#hash_function User#hash_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#hash_function User#hash_function}
   */
   readonly hashFunction?: string;
   /**
   * Defaults to `true`. Indicates if the user's profile is visible in the Google Workspace global address list when the contact sharing feature is enabled for the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#include_in_global_address_list User#include_in_global_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#include_in_global_address_list User#include_in_global_address_list}
   */
   readonly includeInGlobalAddressList?: boolean | cdktf.IResolvable;
   /**
   * If true, the user's IP address is added to the allow list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#ip_allowlist User#ip_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#ip_allowlist User#ip_allowlist}
   */
   readonly ipAllowlist?: boolean | cdktf.IResolvable;
   /**
   * Indicates a user with super admininistrator privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#is_admin User#is_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#is_admin User#is_admin}
   */
   readonly isAdmin?: boolean | cdktf.IResolvable;
   /**
   * The full path of the parent organization associated with the user. If the parent organization is the top-level, it is represented as a forward slash (/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#org_unit_path User#org_unit_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#org_unit_path User#org_unit_path}
   */
   readonly orgUnitPath?: string;
   /**
   * Stores the password for the user account. A password can contain any combination of ASCII characters. A minimum of 8 characters is required. The maximum length is 100 characters. As the API does not return the value of password, this field is write-only, and the value stored in the state will be what is provided in the configuration. The field is required on create and will be empty on import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#password User#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#password User#password}
   */
   readonly password?: string;
   /**
   * The user's primary email address. The primaryEmail must be unique and cannot be an alias of another user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#primary_email User#primary_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#primary_email User#primary_email}
   */
   readonly primaryEmail: string;
   /**
   * Recovery email of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#recovery_email User#recovery_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#recovery_email User#recovery_email}
   */
   readonly recoveryEmail?: string;
   /**
   * Recovery phone of the user. The phone number must be in the E.164 format, starting with the plus sign (+). Example: +16506661212.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#recovery_phone User#recovery_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#recovery_phone User#recovery_phone}
   */
   readonly recoveryPhone?: string;
   /**
   * Indicates if user is suspended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#suspended User#suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#suspended User#suspended}
   */
   readonly suspended?: boolean | cdktf.IResolvable;
   /**
   * addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#addresses User#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#addresses User#addresses}
   */
   readonly addresses?: UserAddresses[] | cdktf.IResolvable;
   /**
   * custom_schemas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_schemas User#custom_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_schemas User#custom_schemas}
   */
   readonly customSchemas?: UserCustomSchemas[] | cdktf.IResolvable;
   /**
   * emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#emails User#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#emails User#emails}
   */
   readonly emails?: UserEmails[] | cdktf.IResolvable;
   /**
   * external_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#external_ids User#external_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#external_ids User#external_ids}
   */
   readonly externalIds?: UserExternalIds[] | cdktf.IResolvable;
   /**
   * ims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#ims User#ims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#ims User#ims}
   */
   readonly ims?: UserIms[] | cdktf.IResolvable;
   /**
   * keywords block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#keywords User#keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#keywords User#keywords}
   */
   readonly keywords?: UserKeywords[] | cdktf.IResolvable;
   /**
   * languages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#languages User#languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#languages User#languages}
   */
   readonly languages?: UserLanguages[] | cdktf.IResolvable;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#locations User#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#locations User#locations}
   */
   readonly locations?: UserLocations[] | cdktf.IResolvable;
   /**
   * name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#name User#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#name User#name}
   */
   readonly name: UserName;
   /**
   * on_delete_data_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#on_delete_data_transfer User#on_delete_data_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#on_delete_data_transfer User#on_delete_data_transfer}
   */
   readonly onDeleteDataTransfer?: UserOnDeleteDataTransfer;
   /**
   * organizations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#organizations User#organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#organizations User#organizations}
   */
   readonly organizations?: UserOrganizations[] | cdktf.IResolvable;
   /**
   * phones block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#phones User#phones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#phones User#phones}
   */
   readonly phones?: UserPhones[] | cdktf.IResolvable;
   /**
   * posix_accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#posix_accounts User#posix_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#posix_accounts User#posix_accounts}
   */
   readonly posixAccounts?: UserPosixAccounts[] | cdktf.IResolvable;
   /**
   * relations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#relations User#relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#relations User#relations}
   */
   readonly relations?: UserRelations[] | cdktf.IResolvable;
   /**
   * ssh_public_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#ssh_public_keys User#ssh_public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#ssh_public_keys User#ssh_public_keys}
   */
   readonly sshPublicKeys?: UserSshPublicKeys[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#timeouts User#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#timeouts User#timeouts}
   */
   readonly timeouts?: UserTimeouts;
   /**
   * websites block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#websites User#websites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#websites User#websites}
   */
   readonly websites?: UserWebsites[] | cdktf.IResolvable;
 }
@@ -192,79 +192,79 @@ export interface UserAddresses {
   /**
   * Country
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#country User#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#country User#country}
   */
   readonly country?: string;
   /**
   * The country code. Uses the ISO 3166-1 standard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#country_code User#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#country_code User#country_code}
   */
   readonly countryCode?: string;
   /**
   * If the address type is custom, this property contains the custom value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_type User#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_type User#custom_type}
   */
   readonly customType?: string;
   /**
   * For extended addresses, such as an address that includes a sub-region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#extended_address User#extended_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#extended_address User#extended_address}
   */
   readonly extendedAddress?: string;
   /**
   * A full and unstructured postal address. This is not synced with the structured address fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#formatted User#formatted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#formatted User#formatted}
   */
   readonly formatted?: string;
   /**
   * The town or city of the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#locality User#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#locality User#locality}
   */
   readonly locality?: string;
   /**
   * The post office box, if present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#po_box User#po_box}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#po_box User#po_box}
   */
   readonly poBox?: string;
   /**
   * The ZIP or postal code, if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#postal_code User#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#postal_code User#postal_code}
   */
   readonly postalCode?: string;
   /**
   * If this is the user's primary address. The addresses list may contain only one primary address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#primary User#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#primary User#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * The abbreviated province or state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#region User#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#region User#region}
   */
   readonly region?: string;
   /**
   * Indicates if the user-supplied address was formatted. Formatted addresses are not currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#source_is_structured User#source_is_structured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#source_is_structured User#source_is_structured}
   */
   readonly sourceIsStructured?: boolean | cdktf.IResolvable;
   /**
   * The street address, such as 1600 Amphitheatre Parkway. Whitespace within the string is ignored; however, newlines are significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#street_address User#street_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#street_address User#street_address}
   */
   readonly streetAddress?: string;
   /**
   * The address type. Acceptable values: `custom`, `home`, `other`, `work`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#type User#type}
   */
   readonly type: string;
 }
@@ -727,13 +727,13 @@ export interface UserCustomSchemas {
   /**
   * The name of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#schema_name User#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#schema_name User#schema_name}
   */
   readonly schemaName: string;
   /**
   * JSON encoded map that represents key/value pairs that correspond to the given schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#schema_values User#schema_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#schema_values User#schema_values}
   */
   readonly schemaValues: { [key: string]: string };
 }
@@ -874,25 +874,25 @@ export interface UserEmails {
   /**
   * The user's email address. Also serves as the email ID. This value can be the user's primary email address or an alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#address User#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#address User#address}
   */
   readonly address?: string;
   /**
   * If the value of type is custom, this property contains the custom type string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_type User#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_type User#custom_type}
   */
   readonly customType?: string;
   /**
   * Defaults to `false`. Indicates if this is the user's primary email. Only one entry can be marked as primary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#primary User#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#primary User#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * The type of the email account. Acceptable values: `custom`, `home`, `other`, `work`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#type User#type}
   */
   readonly type: string;
 }
@@ -1094,19 +1094,19 @@ export interface UserExternalIds {
   /**
   * If the external ID type is custom, this property contains the custom value and must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_type User#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_type User#custom_type}
   */
   readonly customType?: string;
   /**
   * The type of external ID. If set to custom, customType must also be set. Acceptable values: `account`, `custom`, `customer`, `login_id`, `network`, `organization`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#type User#type}
   */
   readonly type: string;
   /**
   * The value of the ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#value User#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#value User#value}
   */
   readonly value: string;
 }
@@ -1276,37 +1276,37 @@ export interface UserIms {
   /**
   * If the protocol value is custom_protocol, this property holds the custom protocol's string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_protocol User#custom_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_protocol User#custom_protocol}
   */
   readonly customProtocol?: string;
   /**
   * If the IM type is custom, this property holds the custom type string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_type User#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_type User#custom_type}
   */
   readonly customType?: string;
   /**
   * The user's IM network ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#im User#im}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#im User#im}
   */
   readonly im?: string;
   /**
   * If this is the user's primary IM. Only one entry in the IM list can have a value of true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#primary User#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#primary User#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * An IM protocol identifies the IM network. The value can be a custom network or the standard network. Acceptable values: `aim`, `custom_protocol`, `gtalk`, `icq`, `jabber`, `msn`, `net_meeting`, `qq`, `skype`, `yahoo`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#protocol User#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#protocol User#protocol}
   */
   readonly protocol: string;
   /**
   * Acceptable values: `custom`, `home`, `other`, `work`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#type User#type}
   */
   readonly type: string;
 }
@@ -1563,19 +1563,19 @@ export interface UserKeywords {
   /**
   * Custom Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_type User#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_type User#custom_type}
   */
   readonly customType?: string;
   /**
   * Each entry can have a type which indicates standard type of that entry. For example, keyword could be of type occupation or outlook. In addition to the standard type, an entry can have a custom type and can give it any name. Such types should have the CUSTOM value as type and also have a customType value. Acceptable values: `custom`, `mission`, `occupation`, `outlook`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#type User#type}
   */
   readonly type: string;
   /**
   * Keyword.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#value User#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#value User#value}
   */
   readonly value: string;
 }
@@ -1745,19 +1745,19 @@ export interface UserLanguages {
   /**
   * Other language. A user can provide their own language name if there is no corresponding Google III language code. If this is set, LanguageCode can't be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_language User#custom_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_language User#custom_language}
   */
   readonly customLanguage?: string;
   /**
   * Defaults to `en`. Language Code. Should be used for storing Google III LanguageCode string representation for language. Illegal values cause SchemaException.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#language_code User#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#language_code User#language_code}
   */
   readonly languageCode?: string;
   /**
   * Defaults to `preferred`. If present, controls whether the specified languageCode is the user's preferred language. Allowed values are `preferred` and `not_preferred`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#preference User#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#preference User#preference}
   */
   readonly preference?: string;
 }
@@ -1933,43 +1933,43 @@ export interface UserLocations {
   /**
   * Textual location. This is most useful for display purposes to concisely describe the location. For example, Mountain View, CA or Near Seattle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#area User#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#area User#area}
   */
   readonly area?: string;
   /**
   * Building identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#building_id User#building_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#building_id User#building_id}
   */
   readonly buildingId?: string;
   /**
   * If the location type is custom, this property contains the custom value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_type User#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_type User#custom_type}
   */
   readonly customType?: string;
   /**
   * Most specific textual code of individual desk location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#desk_code User#desk_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#desk_code User#desk_code}
   */
   readonly deskCode?: string;
   /**
   * Floor name/number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#floor_name User#floor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#floor_name User#floor_name}
   */
   readonly floorName?: string;
   /**
   * Floor section. More specific location within the floor. For example, if a floor is divided into sections A, B, and C, this field would identify one of those values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#floor_section User#floor_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#floor_section User#floor_section}
   */
   readonly floorSection?: string;
   /**
   * The location type. Acceptable values: `custom`, `default`, `desk`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#type User#type}
   */
   readonly type: string;
 }
@@ -2258,13 +2258,13 @@ export interface UserName {
   /**
   * The user's last name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#family_name User#family_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#family_name User#family_name}
   */
   readonly familyName: string;
   /**
   * The user's first name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#given_name User#given_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#given_name User#given_name}
   */
   readonly givenName?: string;
 }
@@ -2381,43 +2381,43 @@ export interface UserOnDeleteDataTransfer {
   /**
   * Defaults to `FALSE`. Indicates if the user's calendar resources are released.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#calendar_release_resources User#calendar_release_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#calendar_release_resources User#calendar_release_resources}
   */
   readonly calendarReleaseResources?: string;
   /**
   * Defaults to `true`. Indicates if the user's calendar data is transferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#calendar_transfer User#calendar_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#calendar_transfer User#calendar_transfer}
   */
   readonly calendarTransfer?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `SHARED`. The privacy level of the transferred Drive and Docs data. Acceptable values: `PRIVATE`, `SHARED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#drive_and_docs_privacy_level User#drive_and_docs_privacy_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#drive_and_docs_privacy_level User#drive_and_docs_privacy_level}
   */
   readonly driveAndDocsPrivacyLevel?: string;
   /**
   * Defaults to `true`. Indicates if the user's Drive and Docs data is transferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#drive_and_docs_transfer User#drive_and_docs_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#drive_and_docs_transfer User#drive_and_docs_transfer}
   */
   readonly driveAndDocsTransfer?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `SHARED`. The privacy level of the transferred Looker Studio data. Acceptable values: `PRIVATE`, `SHARED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#looker_studio_privacy_level User#looker_studio_privacy_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#looker_studio_privacy_level User#looker_studio_privacy_level}
   */
   readonly lookerStudioPrivacyLevel?: string;
   /**
   * Defaults to `true`. Indicates if the user's Looker Studio data is transferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#looker_studio_transfer User#looker_studio_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#looker_studio_transfer User#looker_studio_transfer}
   */
   readonly lookerStudioTransfer?: boolean | cdktf.IResolvable;
   /**
   * The email of the recipient of the transferred data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#new_data_owner_email User#new_data_owner_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#new_data_owner_email User#new_data_owner_email}
   */
   readonly newDataOwnerEmail: string;
 }
@@ -2674,73 +2674,73 @@ export interface UserOrganizations {
   /**
   * The cost center of the user's organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#cost_center User#cost_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#cost_center User#cost_center}
   */
   readonly costCenter?: string;
   /**
   * If the value of type is custom, this property contains the custom value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_type User#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_type User#custom_type}
   */
   readonly customType?: string;
   /**
   * Specifies the department within the organization, such as sales or engineering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#department User#department}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#department User#department}
   */
   readonly department?: string;
   /**
   * The description of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#description User#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#description User#description}
   */
   readonly description?: string;
   /**
   * The domain the organization belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#domain User#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#domain User#domain}
   */
   readonly domain?: string;
   /**
   * The full-time equivalent millipercent within the organization (100000 = 100%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#full_time_equivalent User#full_time_equivalent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#full_time_equivalent User#full_time_equivalent}
   */
   readonly fullTimeEquivalent?: number;
   /**
   * The physical location of the organization. This does not need to be a fully qualified address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#location User#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#location User#location}
   */
   readonly location?: string;
   /**
   * The name of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#name User#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#name User#name}
   */
   readonly name?: string;
   /**
   * Indicates if this is the user's primary organization. A user may only have one primary organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#primary User#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#primary User#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * Text string symbol of the organization. For example, the text symbol for Google is GOOG.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#symbol User#symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#symbol User#symbol}
   */
   readonly symbol?: string;
   /**
   * The user's title within the organization. For example, member or engineer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#title User#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#title User#title}
   */
   readonly title?: string;
   /**
   * The type of organization. Acceptable values: `domain_only`, `school`, `unknown`, `work`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#type User#type}
   */
   readonly type: string;
 }
@@ -3174,25 +3174,25 @@ export interface UserPhones {
   /**
   * If the phone number type is custom, this property contains the custom value and must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_type User#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_type User#custom_type}
   */
   readonly customType?: string;
   /**
   * Indicates if this is the user's primary phone number. A user may only have one primary phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#primary User#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#primary User#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * The type of phone number. Acceptable values: `assistant`, `callback`, `car`, `company_main` , `custom`, `grand_central`, `home`, `home_fax`, `isdn`, `main`, `mobile`, `other`, `other_fax`, `pager`, `radio`, `telex`, `tty_tdd`, `work`, `work_fax`, `work_mobile`, `work_pager`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#type User#type}
   */
   readonly type: string;
   /**
   * A human-readable phone number. It may be in any telephone number format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#value User#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#value User#value}
   */
   readonly value: string;
 }
@@ -3391,61 +3391,61 @@ export interface UserPosixAccounts {
   /**
   * A POSIX account field identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#account_id User#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#account_id User#account_id}
   */
   readonly accountId?: string;
   /**
   * The GECOS (user information) for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#gecos User#gecos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#gecos User#gecos}
   */
   readonly gecos?: string;
   /**
   * The default group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#gid User#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#gid User#gid}
   */
   readonly gid?: string;
   /**
   * The path to the home directory for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#home_directory User#home_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#home_directory User#home_directory}
   */
   readonly homeDirectory?: string;
   /**
   * The operating system type for this account. Acceptable values: `linux`, `unspecified`, `windows`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#operating_system_type User#operating_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#operating_system_type User#operating_system_type}
   */
   readonly operatingSystemType?: string;
   /**
   * If this is user's primary account within the SystemId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#primary User#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#primary User#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * The path to the login shell for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#shell User#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#shell User#shell}
   */
   readonly shell?: string;
   /**
   * System identifier for which account Username or Uid apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#system_id User#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#system_id User#system_id}
   */
   readonly systemId?: string;
   /**
   * The POSIX compliant user ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#uid User#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#uid User#uid}
   */
   readonly uid?: string;
   /**
   * The username of the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#username User#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#username User#username}
   */
   readonly username?: string;
 }
@@ -3824,19 +3824,19 @@ export interface UserRelations {
   /**
   * If the value of type is custom, this property contains the custom type string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_type User#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_type User#custom_type}
   */
   readonly customType?: string;
   /**
   * The type of relation. Acceptable values: `admin_assistant`, `assistant`, `brother`, `child`, `custom`, `domestic_partner`, `dotted_line_manager`, `exec_assistant`, `father`, `friend`, `manager`, `mother`, `parent`, `partner`, `referred_by`, `relative`, `sister`, `spouse`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#type User#type}
   */
   readonly type: string;
   /**
   * The name of the person the user is related to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#value User#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#value User#value}
   */
   readonly value: string;
 }
@@ -4006,13 +4006,13 @@ export interface UserSshPublicKeys {
   /**
   * An expiration time in microseconds since epoch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#expiration_time_usec User#expiration_time_usec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#expiration_time_usec User#expiration_time_usec}
   */
   readonly expirationTimeUsec?: string;
   /**
   * An SSH public key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#key User#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#key User#key}
   */
   readonly key: string;
 }
@@ -4159,15 +4159,15 @@ export class UserSshPublicKeysList extends cdktf.ComplexList {
 }
 export interface UserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#create User#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#create User#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#delete User#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#delete User#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#update User#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#update User#update}
   */
   readonly update?: string;
 }
@@ -4321,25 +4321,25 @@ export interface UserWebsites {
   /**
   * The custom type. Only used if the type is custom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#custom_type User#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#custom_type User#custom_type}
   */
   readonly customType?: string;
   /**
   * If this is user's primary website or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#primary User#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#primary User#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * The type or purpose of the website. For example, a website could be labeled as home or blog. Alternatively, an entry can have a custom type Custom types must have a customType value. Acceptable values: `app_install_page`, `blog`, `custom`, `ftp` , `home`, `home_page`, `other`, `profile`, `reservations`, `resume`, `work`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#type User#type}
   */
   readonly type: string;
   /**
   * The URL of the website.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#value User#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#value User#value}
   */
   readonly value: string;
 }
@@ -4536,7 +4536,7 @@ export class UserWebsitesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user googleworkspace_user}
+* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user googleworkspace_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -4552,7 +4552,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4564,7 +4564,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/user googleworkspace_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/user googleworkspace_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4575,8 +4575,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'googleworkspace_user',
       terraformGeneratorMetadata: {
         providerName: 'googleworkspace',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

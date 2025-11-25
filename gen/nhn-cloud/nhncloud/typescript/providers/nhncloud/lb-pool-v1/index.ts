@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1
+// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface LbPoolV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#id LbPoolV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#id LbPoolV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#lb_method LbPoolV1#lb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#lb_method LbPoolV1#lb_method}
   */
   readonly lbMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#lb_provider LbPoolV1#lb_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#lb_provider LbPoolV1#lb_provider}
   */
   readonly lbProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#member LbPoolV1#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#member LbPoolV1#member}
   */
   readonly member?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#monitor_ids LbPoolV1#monitor_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#monitor_ids LbPoolV1#monitor_ids}
   */
   readonly monitorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#name LbPoolV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#name LbPoolV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#protocol LbPoolV1#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#protocol LbPoolV1#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#region LbPoolV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#region LbPoolV1#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#subnet_id LbPoolV1#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#subnet_id LbPoolV1#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#tenant_id LbPoolV1#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#tenant_id LbPoolV1#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#timeouts LbPoolV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#timeouts LbPoolV1#timeouts}
   */
   readonly timeouts?: LbPoolV1Timeouts;
 }
 export interface LbPoolV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#create LbPoolV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#create LbPoolV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#delete LbPoolV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#delete LbPoolV1#delete}
   */
   readonly delete?: string;
 }
@@ -186,7 +186,7 @@ export class LbPoolV1TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1 nhncloud_lb_pool_v1}
+* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1 nhncloud_lb_pool_v1}
 */
 export class LbPoolV1 extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class LbPoolV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbPoolV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbPoolV1 to import
-  * @param importFromId The id of the existing LbPoolV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbPoolV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbPoolV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class LbPoolV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/lb_pool_v1 nhncloud_lb_pool_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/lb_pool_v1 nhncloud_lb_pool_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class LbPoolV1 extends cdktf.TerraformResource {
       terraformResourceType: 'nhncloud_lb_pool_v1',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6',
-        providerVersionConstraint: '1.0.6'
+        providerVersion: '1.0.7',
+        providerVersionConstraint: '1.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

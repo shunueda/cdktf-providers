@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_opsgenie
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_opsgenie
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IntegrationOpsgenieConfig extends cdktf.TerraformMetaArguments 
   /**
   * The ID of the Opsgenie integration. Source from the URL `https://<organization>.sentry.io/settings/integrations/opsgenie/<integration-id>/` or use the `sentry_organization_integration` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_opsgenie#integration_id IntegrationOpsgenie#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_opsgenie#integration_id IntegrationOpsgenie#integration_id}
   */
   readonly integrationId: string;
   /**
   * The integration key of the Opsgenie service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_opsgenie#integration_key IntegrationOpsgenie#integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_opsgenie#integration_key IntegrationOpsgenie#integration_key}
   */
   readonly integrationKey: string;
   /**
   * The organization of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_opsgenie#organization IntegrationOpsgenie#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_opsgenie#organization IntegrationOpsgenie#organization}
   */
   readonly organization: string;
   /**
   * The name of the Opsgenie team. In Sentry, this is called Label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_opsgenie#team IntegrationOpsgenie#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_opsgenie#team IntegrationOpsgenie#team}
   */
   readonly team: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_opsgenie sentry_integration_opsgenie}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_opsgenie sentry_integration_opsgenie}
 */
 export class IntegrationOpsgenie extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class IntegrationOpsgenie extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationOpsgenie resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationOpsgenie to import
-  * @param importFromId The id of the existing IntegrationOpsgenie that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_opsgenie#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationOpsgenie that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_opsgenie#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationOpsgenie to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class IntegrationOpsgenie extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_opsgenie sentry_integration_opsgenie} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_opsgenie sentry_integration_opsgenie} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class IntegrationOpsgenie extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_integration_opsgenie',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

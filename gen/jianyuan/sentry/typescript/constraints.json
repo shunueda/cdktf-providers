@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "sentry": "0.14.6"
+    "sentry": "0.14.7"
   }
 }

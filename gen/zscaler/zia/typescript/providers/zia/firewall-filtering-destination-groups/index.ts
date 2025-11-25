@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/firewall_filtering_destination_groups
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/firewall_filtering_destination_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface FirewallFilteringDestinationGroupsConfig extends cdktf.Terrafor
   /**
   * Destination IP addresses within the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/firewall_filtering_destination_groups#addresses FirewallFilteringDestinationGroups#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/firewall_filtering_destination_groups#addresses FirewallFilteringDestinationGroups#addresses}
   */
   readonly addresses?: string[];
   /**
   * Destination countries for which the rule is applicable. If not set, the rule is not restricted to specific destination countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/firewall_filtering_destination_groups#countries FirewallFilteringDestinationGroups#countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/firewall_filtering_destination_groups#countries FirewallFilteringDestinationGroups#countries}
   */
   readonly countries?: string[];
   /**
   * Additional information about the destination IP group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/firewall_filtering_destination_groups#description FirewallFilteringDestinationGroups#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/firewall_filtering_destination_groups#description FirewallFilteringDestinationGroups#description}
   */
   readonly description?: string;
   /**
   * List of URL categories for which rule must be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/firewall_filtering_destination_groups#ip_categories FirewallFilteringDestinationGroups#ip_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/firewall_filtering_destination_groups#ip_categories FirewallFilteringDestinationGroups#ip_categories}
   */
   readonly ipCategories?: string[];
   /**
   * Destination IP group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/firewall_filtering_destination_groups#name FirewallFilteringDestinationGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/firewall_filtering_destination_groups#name FirewallFilteringDestinationGroups#name}
   */
   readonly name: string;
   /**
   * Destination IP group type (i.e., the group can contain destination IP addresses or FQDNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/firewall_filtering_destination_groups#type FirewallFilteringDestinationGroups#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/firewall_filtering_destination_groups#type FirewallFilteringDestinationGroups#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/firewall_filtering_destination_groups zia_firewall_filtering_destination_groups}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/firewall_filtering_destination_groups zia_firewall_filtering_destination_groups}
 */
 export class FirewallFilteringDestinationGroups extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class FirewallFilteringDestinationGroups extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a FirewallFilteringDestinationGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallFilteringDestinationGroups to import
-  * @param importFromId The id of the existing FirewallFilteringDestinationGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/firewall_filtering_destination_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallFilteringDestinationGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/firewall_filtering_destination_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallFilteringDestinationGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class FirewallFilteringDestinationGroups extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/firewall_filtering_destination_groups zia_firewall_filtering_destination_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/firewall_filtering_destination_groups zia_firewall_filtering_destination_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class FirewallFilteringDestinationGroups extends cdktf.TerraformResource 
       terraformResourceType: 'zia_firewall_filtering_destination_groups',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

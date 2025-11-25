@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/endpoint_snapshot
+// https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/endpoint_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EndpointSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the endpoint to snapshot. If omitted, all endpoints will be snapshotted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/endpoint_snapshot#endpoint_id EndpointSnapshot#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/endpoint_snapshot#endpoint_id EndpointSnapshot#endpoint_id}
   */
   readonly endpointId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/endpoint_snapshot#id EndpointSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/endpoint_snapshot#id EndpointSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface EndpointSnapshotConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/endpoint_snapshot portainer_endpoint_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/endpoint_snapshot portainer_endpoint_snapshot}
 */
 export class EndpointSnapshot extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class EndpointSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EndpointSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EndpointSnapshot to import
-  * @param importFromId The id of the existing EndpointSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/endpoint_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EndpointSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/endpoint_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EndpointSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class EndpointSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/endpoint_snapshot portainer_endpoint_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/endpoint_snapshot portainer_endpoint_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class EndpointSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_endpoint_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

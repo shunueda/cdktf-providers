@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,207 +10,207 @@ export interface TrafficCaptureRulesConfig extends cdktf.TerraformMetaArguments 
   /**
   * The action to be enforced when the traffic matches the rule criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#action TrafficCaptureRules#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#action TrafficCaptureRules#action}
   */
   readonly action?: string;
   /**
   * If set to true, the default rule is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#default_rule TrafficCaptureRules#default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#default_rule TrafficCaptureRules#default_rule}
   */
   readonly defaultRule?: boolean | cdktf.IResolvable;
   /**
   * Additional information about the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#description TrafficCaptureRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#description TrafficCaptureRules#description}
   */
   readonly description?: string;
   /**
   * Destination addresses. Supports IPv4, FQDNs, or wildcard FQDNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#dest_addresses TrafficCaptureRules#dest_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#dest_addresses TrafficCaptureRules#dest_addresses}
   */
   readonly destAddresses?: string[];
   /**
   * Destination countries for which the rule is applicable. If not set, the rule is not restricted to specific destination countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#dest_countries TrafficCaptureRules#dest_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#dest_countries TrafficCaptureRules#dest_countries}
   */
   readonly destCountries?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#dest_ip_categories TrafficCaptureRules#dest_ip_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#dest_ip_categories TrafficCaptureRules#dest_ip_categories}
   */
   readonly destIpCategories?: string[];
   /**
   * List of device trust levels for which the rule must be applied. This field is applicable for devices that are managed using Zscaler Client Connector. The trust levels are assigned to the devices based on your posture configurations in the Zscaler Client Connector Portal. If no value is set, this field is ignored during the policy evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#device_trust_levels TrafficCaptureRules#device_trust_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#device_trust_levels TrafficCaptureRules#device_trust_levels}
   */
   readonly deviceTrustLevels?: string[];
   /**
   * Name of the Firewall Filtering policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#name TrafficCaptureRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#name TrafficCaptureRules#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#nw_applications TrafficCaptureRules#nw_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#nw_applications TrafficCaptureRules#nw_applications}
   */
   readonly nwApplications?: string[];
   /**
   * Rule order number. If omitted, the rule will be added to the end of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#order TrafficCaptureRules#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#order TrafficCaptureRules#order}
   */
   readonly order: number;
   /**
   * If set to true, a predefined rule is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#predefined TrafficCaptureRules#predefined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#predefined TrafficCaptureRules#predefined}
   */
   readonly predefined?: boolean | cdktf.IResolvable;
   /**
   * Admin rank of the Firewall Filtering policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#rank TrafficCaptureRules#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#rank TrafficCaptureRules#rank}
   */
   readonly rank?: number;
   /**
   * Destination countries for which the rule is applicable. If not set, the rule is not restricted to specific destination countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#source_countries TrafficCaptureRules#source_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#source_countries TrafficCaptureRules#source_countries}
   */
   readonly sourceCountries?: string[];
   /**
   * User-defined source IP addresses for which the rule is applicable. If not set, the rule is not restricted to a specific source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#src_ips TrafficCaptureRules#src_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#src_ips TrafficCaptureRules#src_ips}
   */
   readonly srcIps?: string[];
   /**
   * Determines whether the Firewall Filtering policy rule is enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#state TrafficCaptureRules#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#state TrafficCaptureRules#state}
   */
   readonly state?: string;
   /**
   * The percentage of connections sampled for capturing each time the rule is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#txn_sampling TrafficCaptureRules#txn_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#txn_sampling TrafficCaptureRules#txn_sampling}
   */
   readonly txnSampling?: string;
   /**
   * The maximum size of traffic to capture per connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#txn_size_limit TrafficCaptureRules#txn_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#txn_size_limit TrafficCaptureRules#txn_size_limit}
   */
   readonly txnSizeLimit?: string;
   /**
   * app_service_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#app_service_groups TrafficCaptureRules#app_service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#app_service_groups TrafficCaptureRules#app_service_groups}
   */
   readonly appServiceGroups?: TrafficCaptureRulesAppServiceGroups;
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#departments TrafficCaptureRules#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#departments TrafficCaptureRules#departments}
   */
   readonly departments?: TrafficCaptureRulesDepartments;
   /**
   * dest_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#dest_ip_groups TrafficCaptureRules#dest_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#dest_ip_groups TrafficCaptureRules#dest_ip_groups}
   */
   readonly destIpGroups?: TrafficCaptureRulesDestIpGroups;
   /**
   * device_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#device_groups TrafficCaptureRules#device_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#device_groups TrafficCaptureRules#device_groups}
   */
   readonly deviceGroups?: TrafficCaptureRulesDeviceGroups;
   /**
   * devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#devices TrafficCaptureRules#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#devices TrafficCaptureRules#devices}
   */
   readonly devices?: TrafficCaptureRulesDevices;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#groups TrafficCaptureRules#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#groups TrafficCaptureRules#groups}
   */
   readonly groups?: TrafficCaptureRulesGroups;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#labels TrafficCaptureRules#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#labels TrafficCaptureRules#labels}
   */
   readonly labels?: TrafficCaptureRulesLabels;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#location_groups TrafficCaptureRules#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#location_groups TrafficCaptureRules#location_groups}
   */
   readonly locationGroups?: TrafficCaptureRulesLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#locations TrafficCaptureRules#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#locations TrafficCaptureRules#locations}
   */
   readonly locations?: TrafficCaptureRulesLocations;
   /**
   * nw_application_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#nw_application_groups TrafficCaptureRules#nw_application_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#nw_application_groups TrafficCaptureRules#nw_application_groups}
   */
   readonly nwApplicationGroups?: TrafficCaptureRulesNwApplicationGroups;
   /**
   * nw_service_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#nw_service_groups TrafficCaptureRules#nw_service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#nw_service_groups TrafficCaptureRules#nw_service_groups}
   */
   readonly nwServiceGroups?: TrafficCaptureRulesNwServiceGroups;
   /**
   * nw_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#nw_services TrafficCaptureRules#nw_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#nw_services TrafficCaptureRules#nw_services}
   */
   readonly nwServices?: TrafficCaptureRulesNwServices;
   /**
   * src_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#src_ip_groups TrafficCaptureRules#src_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#src_ip_groups TrafficCaptureRules#src_ip_groups}
   */
   readonly srcIpGroups?: TrafficCaptureRulesSrcIpGroups;
   /**
   * time_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#time_windows TrafficCaptureRules#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#time_windows TrafficCaptureRules#time_windows}
   */
   readonly timeWindows?: TrafficCaptureRulesTimeWindows;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#timeouts TrafficCaptureRules#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#timeouts TrafficCaptureRules#timeouts}
   */
   readonly timeouts?: TrafficCaptureRulesTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#users TrafficCaptureRules#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#users TrafficCaptureRules#users}
   */
   readonly users?: TrafficCaptureRulesUsers;
   /**
   * workload_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#workload_groups TrafficCaptureRules#workload_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#workload_groups TrafficCaptureRules#workload_groups}
   */
   readonly workloadGroups?: TrafficCaptureRulesWorkloadGroups[] | cdktf.IResolvable;
 }
 export interface TrafficCaptureRulesAppServiceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -297,7 +297,7 @@ export class TrafficCaptureRulesAppServiceGroupsOutputReference extends cdktf.Co
 }
 export interface TrafficCaptureRulesDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -384,7 +384,7 @@ export class TrafficCaptureRulesDepartmentsOutputReference extends cdktf.Complex
 }
 export interface TrafficCaptureRulesDestIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -471,7 +471,7 @@ export class TrafficCaptureRulesDestIpGroupsOutputReference extends cdktf.Comple
 }
 export interface TrafficCaptureRulesDeviceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -558,7 +558,7 @@ export class TrafficCaptureRulesDeviceGroupsOutputReference extends cdktf.Comple
 }
 export interface TrafficCaptureRulesDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -645,7 +645,7 @@ export class TrafficCaptureRulesDevicesOutputReference extends cdktf.ComplexObje
 }
 export interface TrafficCaptureRulesGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -732,7 +732,7 @@ export class TrafficCaptureRulesGroupsOutputReference extends cdktf.ComplexObjec
 }
 export interface TrafficCaptureRulesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -819,7 +819,7 @@ export class TrafficCaptureRulesLabelsOutputReference extends cdktf.ComplexObjec
 }
 export interface TrafficCaptureRulesLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -906,7 +906,7 @@ export class TrafficCaptureRulesLocationGroupsOutputReference extends cdktf.Comp
 }
 export interface TrafficCaptureRulesLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -993,7 +993,7 @@ export class TrafficCaptureRulesLocationsOutputReference extends cdktf.ComplexOb
 }
 export interface TrafficCaptureRulesNwApplicationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1080,7 +1080,7 @@ export class TrafficCaptureRulesNwApplicationGroupsOutputReference extends cdktf
 }
 export interface TrafficCaptureRulesNwServiceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1167,7 +1167,7 @@ export class TrafficCaptureRulesNwServiceGroupsOutputReference extends cdktf.Com
 }
 export interface TrafficCaptureRulesNwServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1254,7 +1254,7 @@ export class TrafficCaptureRulesNwServicesOutputReference extends cdktf.ComplexO
 }
 export interface TrafficCaptureRulesSrcIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1341,7 +1341,7 @@ export class TrafficCaptureRulesSrcIpGroupsOutputReference extends cdktf.Complex
 }
 export interface TrafficCaptureRulesTimeWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1428,11 +1428,11 @@ export class TrafficCaptureRulesTimeWindowsOutputReference extends cdktf.Complex
 }
 export interface TrafficCaptureRulesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#create TrafficCaptureRules#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#create TrafficCaptureRules#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#update TrafficCaptureRules#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#update TrafficCaptureRules#update}
   */
   readonly update?: string;
 }
@@ -1555,7 +1555,7 @@ export class TrafficCaptureRulesTimeoutsOutputReference extends cdktf.ComplexObj
 }
 export interface TrafficCaptureRulesUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1644,7 +1644,7 @@ export interface TrafficCaptureRulesWorkloadGroups {
   /**
   * The unique identifier for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#id TrafficCaptureRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1653,7 +1653,7 @@ export interface TrafficCaptureRulesWorkloadGroups {
   /**
   * The name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#name TrafficCaptureRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#name TrafficCaptureRules#name}
   */
   readonly name?: string;
 }
@@ -1795,7 +1795,7 @@ export class TrafficCaptureRulesWorkloadGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules zia_traffic_capture_rules}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules zia_traffic_capture_rules}
 */
 export class TrafficCaptureRules extends cdktf.TerraformResource {
 
@@ -1811,7 +1811,7 @@ export class TrafficCaptureRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrafficCaptureRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrafficCaptureRules to import
-  * @param importFromId The id of the existing TrafficCaptureRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrafficCaptureRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrafficCaptureRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1823,7 +1823,7 @@ export class TrafficCaptureRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_capture_rules zia_traffic_capture_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/traffic_capture_rules zia_traffic_capture_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1834,8 +1834,8 @@ export class TrafficCaptureRules extends cdktf.TerraformResource {
       terraformResourceType: 'zia_traffic_capture_rules',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

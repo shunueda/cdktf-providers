@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface KeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The JavaScript loader script configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key#javascript_loader_script Key#javascript_loader_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key#javascript_loader_script Key#javascript_loader_script}
   */
   readonly javascriptLoaderScript?: KeyJavascriptLoaderScript;
   /**
   * The name of the client key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key#name Key#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key#name Key#name}
   */
   readonly name: string;
   /**
   * The organization of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key#organization Key#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key#organization Key#organization}
   */
   readonly organization: string;
   /**
   * The project of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key#project Key#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key#project Key#project}
   */
   readonly project: string;
   /**
   * Number of events that can be reported within the rate limit window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key#rate_limit_count Key#rate_limit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key#rate_limit_count Key#rate_limit_count}
   */
   readonly rateLimitCount?: number;
   /**
   * Length of time in seconds that will be considered when checking the rate limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key#rate_limit_window Key#rate_limit_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key#rate_limit_window Key#rate_limit_window}
   */
   readonly rateLimitWindow?: number;
 }
@@ -48,25 +48,25 @@ export interface KeyJavascriptLoaderScript {
   /**
   * The version of the browser SDK to load.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key#browser_sdk_version Key#browser_sdk_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key#browser_sdk_version Key#browser_sdk_version}
   */
   readonly browserSdkVersion?: string;
   /**
   * Whether debug bundles & logging are enabled for this key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key#debug_enabled Key#debug_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key#debug_enabled Key#debug_enabled}
   */
   readonly debugEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether performance monitoring is enabled for this key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key#performance_monitoring_enabled Key#performance_monitoring_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key#performance_monitoring_enabled Key#performance_monitoring_enabled}
   */
   readonly performanceMonitoringEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether session replay is enabled for this key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key#session_replay_enabled Key#session_replay_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key#session_replay_enabled Key#session_replay_enabled}
   */
   readonly sessionReplayEnabled?: boolean | cdktf.IResolvable;
 }
@@ -247,7 +247,7 @@ export class KeyJavascriptLoaderScriptOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key sentry_key}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key sentry_key}
 */
 export class Key extends cdktf.TerraformResource {
 
@@ -263,7 +263,7 @@ export class Key extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Key resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Key to import
-  * @param importFromId The id of the existing Key that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Key that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Key to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class Key extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/key sentry_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/key sentry_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,8 +286,8 @@ export class Key extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_key',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

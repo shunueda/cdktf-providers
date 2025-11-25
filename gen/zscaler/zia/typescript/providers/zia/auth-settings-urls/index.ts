@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/auth_settings_urls
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/auth_settings_urls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface AuthSettingsUrlsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/auth_settings_urls#id AuthSettingsUrls#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/auth_settings_urls#id AuthSettingsUrls#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/auth_settings_urls#urls AuthSettingsUrls#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/auth_settings_urls#urls AuthSettingsUrls#urls}
   */
   readonly urls?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/auth_settings_urls zia_auth_settings_urls}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/auth_settings_urls zia_auth_settings_urls}
 */
 export class AuthSettingsUrls extends cdktf.TerraformResource {
 
@@ -37,7 +37,7 @@ export class AuthSettingsUrls extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthSettingsUrls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthSettingsUrls to import
-  * @param importFromId The id of the existing AuthSettingsUrls that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/auth_settings_urls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthSettingsUrls that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/auth_settings_urls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthSettingsUrls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class AuthSettingsUrls extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/auth_settings_urls zia_auth_settings_urls} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/auth_settings_urls zia_auth_settings_urls} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class AuthSettingsUrls extends cdktf.TerraformResource {
       terraformResourceType: 'zia_auth_settings_urls',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.5/docs/data-sources/users
+// https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.6/docs/data-sources/users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataPagerdutyUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.5/docs/data-sources/users#team_ids DataPagerdutyUsers#team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.6/docs/data-sources/users#team_ids DataPagerdutyUsers#team_ids}
   */
   readonly teamIds?: string[];
 }
@@ -124,7 +124,7 @@ export class DataPagerdutyUsersUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.5/docs/data-sources/users pagerduty_users}
+* Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.6/docs/data-sources/users pagerduty_users}
 */
 export class DataPagerdutyUsers extends cdktf.TerraformDataSource {
 
@@ -140,7 +140,7 @@ export class DataPagerdutyUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPagerdutyUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPagerdutyUsers to import
-  * @param importFromId The id of the existing DataPagerdutyUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.5/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPagerdutyUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.6/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPagerdutyUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class DataPagerdutyUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.5/docs/data-sources/users pagerduty_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.6/docs/data-sources/users pagerduty_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class DataPagerdutyUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'pagerduty_users',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '3.30.5',
-        providerVersionConstraint: '3.30.5'
+        providerVersion: '3.30.6',
+        providerVersionConstraint: '3.30.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface UrlFilteringRulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Action taken when traffic matches rule criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#action UrlFilteringRules#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#action UrlFilteringRules#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#block_override UrlFilteringRules#block_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#block_override UrlFilteringRules#block_override}
   */
   readonly blockOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#browser_eun_template_id UrlFilteringRules#browser_eun_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#browser_eun_template_id UrlFilteringRules#browser_eun_template_id}
   */
   readonly browserEunTemplateId?: number;
   /**
   * If set to true, the CIPA Compliance rule is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#ciparule UrlFilteringRules#ciparule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#ciparule UrlFilteringRules#ciparule}
   */
   readonly ciparule?: boolean | cdktf.IResolvable;
   /**
   * Additional information about the URL Filtering rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#description UrlFilteringRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#description UrlFilteringRules#description}
   */
   readonly description?: string;
   /**
   * List of device trust levels for which the rule must be applied. This field is applicable for devices that are managed using Zscaler Client Connector. The trust levels are assigned to the devices based on your posture configurations in the Zscaler Client Connector Portal. If no value is set, this field is ignored during the policy evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#device_trust_levels UrlFilteringRules#device_trust_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#device_trust_levels UrlFilteringRules#device_trust_levels}
   */
   readonly deviceTrustLevels?: string[];
   /**
   * URL of end user notification page to be displayed when the rule is matched. Not applicable if either 'overrideUsers' or 'overrideGroups' is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#end_user_notification_url UrlFilteringRules#end_user_notification_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#end_user_notification_url UrlFilteringRules#end_user_notification_url}
   */
   readonly endUserNotificationUrl?: string;
   /**
   * Enforce a set a validity time period for the URL Filtering rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#enforce_time_validity UrlFilteringRules#enforce_time_validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#enforce_time_validity UrlFilteringRules#enforce_time_validity}
   */
   readonly enforceTimeValidity?: boolean | cdktf.IResolvable;
   /**
   * Rule Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#name UrlFilteringRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#name UrlFilteringRules#name}
   */
   readonly name: string;
   /**
   * Order of execution of rule with respect to other URL Filtering rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#order UrlFilteringRules#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#order UrlFilteringRules#order}
   */
   readonly order: number;
   /**
   * Supported Protocol criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#protocols UrlFilteringRules#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#protocols UrlFilteringRules#protocols}
   */
   readonly protocols: string[];
   /**
   * Admin rank of the Firewall Filtering policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#rank UrlFilteringRules#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#rank UrlFilteringRules#rank}
   */
   readonly rank?: number;
   /**
   * Request method for which the rule must be applied. If not set, rule will be applied to all methods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#request_methods UrlFilteringRules#request_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#request_methods UrlFilteringRules#request_methods}
   */
   readonly requestMethods?: string[];
   /**
   * Size quota in KB beyond which the URL Filtering rule is applied. If not set, no quota is enforced. If a policy rule action is set to 'BLOCK', this field is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#size_quota UrlFilteringRules#size_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#size_quota UrlFilteringRules#size_quota}
   */
   readonly sizeQuota?: number;
   /**
   * Destination countries for which the rule is applicable. If not set, the rule is not restricted to specific destination countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#source_countries UrlFilteringRules#source_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#source_countries UrlFilteringRules#source_countries}
   */
   readonly sourceCountries?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#state UrlFilteringRules#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#state UrlFilteringRules#state}
   */
   readonly state?: string;
   /**
   * Time quota in minutes, after which the URL Filtering rule is applied. If not set, no quota is enforced. If a policy rule action is set to 'BLOCK', this field is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#time_quota UrlFilteringRules#time_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#time_quota UrlFilteringRules#time_quota}
   */
   readonly timeQuota?: number;
   /**
@@ -108,143 +108,143 @@ export interface UrlFilteringRulesConfig extends cdktf.TerraformMetaArguments {
   * 				See the URL Categories API for the list of available categories:
   * 				https://help.zscaler.com/zia/url-categories#/urlCategories-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#url_categories UrlFilteringRules#url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#url_categories UrlFilteringRules#url_categories}
   */
   readonly urlCategories?: string[];
   /**
   * Supported User Agent Types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#user_agent_types UrlFilteringRules#user_agent_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#user_agent_types UrlFilteringRules#user_agent_types}
   */
   readonly userAgentTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#user_risk_score_levels UrlFilteringRules#user_risk_score_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#user_risk_score_levels UrlFilteringRules#user_risk_score_levels}
   */
   readonly userRiskScoreLevels?: string[];
   /**
   * If enforceTimeValidity is set to true, the URL Filtering rule ceases to be valid on this end date and time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#validity_end_time UrlFilteringRules#validity_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#validity_end_time UrlFilteringRules#validity_end_time}
   */
   readonly validityEndTime?: string;
   /**
   * If enforceTimeValidity is set to true, the URL Filtering rule is valid starting on this date and time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#validity_start_time UrlFilteringRules#validity_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#validity_start_time UrlFilteringRules#validity_start_time}
   */
   readonly validityStartTime?: string;
   /**
   * If enforceTimeValidity is set to true, the URL Filtering rule date and time is valid based on this time zone ID.
   * 				Use IANA Format TimeZone. Visit https://nodatime.org/TimeZones for the complete IANA timezone list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#validity_time_zone_id UrlFilteringRules#validity_time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#validity_time_zone_id UrlFilteringRules#validity_time_zone_id}
   */
   readonly validityTimeZoneId?: string;
   /**
   * cbi_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#cbi_profile UrlFilteringRules#cbi_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#cbi_profile UrlFilteringRules#cbi_profile}
   */
   readonly cbiProfile?: UrlFilteringRulesCbiProfile[] | cdktf.IResolvable;
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#departments UrlFilteringRules#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#departments UrlFilteringRules#departments}
   */
   readonly departments?: UrlFilteringRulesDepartments;
   /**
   * device_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#device_groups UrlFilteringRules#device_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#device_groups UrlFilteringRules#device_groups}
   */
   readonly deviceGroups?: UrlFilteringRulesDeviceGroups;
   /**
   * devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#devices UrlFilteringRules#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#devices UrlFilteringRules#devices}
   */
   readonly devices?: UrlFilteringRulesDevices;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#groups UrlFilteringRules#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#groups UrlFilteringRules#groups}
   */
   readonly groups?: UrlFilteringRulesGroups;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#labels UrlFilteringRules#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#labels UrlFilteringRules#labels}
   */
   readonly labels?: UrlFilteringRulesLabels;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#location_groups UrlFilteringRules#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#location_groups UrlFilteringRules#location_groups}
   */
   readonly locationGroups?: UrlFilteringRulesLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#locations UrlFilteringRules#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#locations UrlFilteringRules#locations}
   */
   readonly locations?: UrlFilteringRulesLocations;
   /**
   * override_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#override_groups UrlFilteringRules#override_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#override_groups UrlFilteringRules#override_groups}
   */
   readonly overrideGroups?: UrlFilteringRulesOverrideGroups;
   /**
   * override_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#override_users UrlFilteringRules#override_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#override_users UrlFilteringRules#override_users}
   */
   readonly overrideUsers?: UrlFilteringRulesOverrideUsers;
   /**
   * source_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#source_ip_groups UrlFilteringRules#source_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#source_ip_groups UrlFilteringRules#source_ip_groups}
   */
   readonly sourceIpGroups?: UrlFilteringRulesSourceIpGroups;
   /**
   * time_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#time_windows UrlFilteringRules#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#time_windows UrlFilteringRules#time_windows}
   */
   readonly timeWindows?: UrlFilteringRulesTimeWindows;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#timeouts UrlFilteringRules#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#timeouts UrlFilteringRules#timeouts}
   */
   readonly timeouts?: UrlFilteringRulesTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#users UrlFilteringRules#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#users UrlFilteringRules#users}
   */
   readonly users?: UrlFilteringRulesUsers;
   /**
   * workload_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#workload_groups UrlFilteringRules#workload_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#workload_groups UrlFilteringRules#workload_groups}
   */
   readonly workloadGroups?: UrlFilteringRulesWorkloadGroups[] | cdktf.IResolvable;
 }
 export interface UrlFilteringRulesCbiProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#name UrlFilteringRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#name UrlFilteringRules#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#url UrlFilteringRules#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#url UrlFilteringRules#url}
   */
   readonly url?: string;
 }
@@ -418,7 +418,7 @@ export class UrlFilteringRulesCbiProfileList extends cdktf.ComplexList {
 }
 export interface UrlFilteringRulesDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -505,7 +505,7 @@ export class UrlFilteringRulesDepartmentsOutputReference extends cdktf.ComplexOb
 }
 export interface UrlFilteringRulesDeviceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -592,7 +592,7 @@ export class UrlFilteringRulesDeviceGroupsOutputReference extends cdktf.ComplexO
 }
 export interface UrlFilteringRulesDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -679,7 +679,7 @@ export class UrlFilteringRulesDevicesOutputReference extends cdktf.ComplexObject
 }
 export interface UrlFilteringRulesGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -766,7 +766,7 @@ export class UrlFilteringRulesGroupsOutputReference extends cdktf.ComplexObject 
 }
 export interface UrlFilteringRulesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -853,7 +853,7 @@ export class UrlFilteringRulesLabelsOutputReference extends cdktf.ComplexObject 
 }
 export interface UrlFilteringRulesLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -940,7 +940,7 @@ export class UrlFilteringRulesLocationGroupsOutputReference extends cdktf.Comple
 }
 export interface UrlFilteringRulesLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1027,7 +1027,7 @@ export class UrlFilteringRulesLocationsOutputReference extends cdktf.ComplexObje
 }
 export interface UrlFilteringRulesOverrideGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1114,7 +1114,7 @@ export class UrlFilteringRulesOverrideGroupsOutputReference extends cdktf.Comple
 }
 export interface UrlFilteringRulesOverrideUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1201,7 +1201,7 @@ export class UrlFilteringRulesOverrideUsersOutputReference extends cdktf.Complex
 }
 export interface UrlFilteringRulesSourceIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1288,7 +1288,7 @@ export class UrlFilteringRulesSourceIpGroupsOutputReference extends cdktf.Comple
 }
 export interface UrlFilteringRulesTimeWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1375,11 +1375,11 @@ export class UrlFilteringRulesTimeWindowsOutputReference extends cdktf.ComplexOb
 }
 export interface UrlFilteringRulesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#create UrlFilteringRules#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#create UrlFilteringRules#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#update UrlFilteringRules#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#update UrlFilteringRules#update}
   */
   readonly update?: string;
 }
@@ -1502,7 +1502,7 @@ export class UrlFilteringRulesTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 export interface UrlFilteringRulesUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1591,7 +1591,7 @@ export interface UrlFilteringRulesWorkloadGroups {
   /**
   * The unique identifier for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#id UrlFilteringRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1600,7 +1600,7 @@ export interface UrlFilteringRulesWorkloadGroups {
   /**
   * The name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#name UrlFilteringRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#name UrlFilteringRules#name}
   */
   readonly name?: string;
 }
@@ -1742,7 +1742,7 @@ export class UrlFilteringRulesWorkloadGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules zia_url_filtering_rules}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules zia_url_filtering_rules}
 */
 export class UrlFilteringRules extends cdktf.TerraformResource {
 
@@ -1758,7 +1758,7 @@ export class UrlFilteringRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UrlFilteringRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UrlFilteringRules to import
-  * @param importFromId The id of the existing UrlFilteringRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UrlFilteringRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UrlFilteringRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1770,7 +1770,7 @@ export class UrlFilteringRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_filtering_rules zia_url_filtering_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/url_filtering_rules zia_url_filtering_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1781,8 +1781,8 @@ export class UrlFilteringRules extends cdktf.TerraformResource {
       terraformResourceType: 'zia_url_filtering_rules',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

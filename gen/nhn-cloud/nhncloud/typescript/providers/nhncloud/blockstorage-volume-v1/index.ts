@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1
+// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface BlockstorageVolumeV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#availability_zone BlockstorageVolumeV1#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#availability_zone BlockstorageVolumeV1#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#description BlockstorageVolumeV1#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#description BlockstorageVolumeV1#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#id BlockstorageVolumeV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#id BlockstorageVolumeV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#image_id BlockstorageVolumeV1#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#image_id BlockstorageVolumeV1#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#metadata BlockstorageVolumeV1#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#metadata BlockstorageVolumeV1#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#name BlockstorageVolumeV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#name BlockstorageVolumeV1#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#region BlockstorageVolumeV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#region BlockstorageVolumeV1#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#size BlockstorageVolumeV1#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#size BlockstorageVolumeV1#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#snapshot_id BlockstorageVolumeV1#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#snapshot_id BlockstorageVolumeV1#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#source_vol_id BlockstorageVolumeV1#source_vol_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#source_vol_id BlockstorageVolumeV1#source_vol_id}
   */
   readonly sourceVolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#volume_type BlockstorageVolumeV1#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#volume_type BlockstorageVolumeV1#volume_type}
   */
   readonly volumeType?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#timeouts BlockstorageVolumeV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#timeouts BlockstorageVolumeV1#timeouts}
   */
   readonly timeouts?: BlockstorageVolumeV1Timeouts;
 }
@@ -148,11 +148,11 @@ export class BlockstorageVolumeV1AttachmentList extends cdktf.ComplexList {
 }
 export interface BlockstorageVolumeV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#create BlockstorageVolumeV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#create BlockstorageVolumeV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#delete BlockstorageVolumeV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#delete BlockstorageVolumeV1#delete}
   */
   readonly delete?: string;
 }
@@ -275,7 +275,7 @@ export class BlockstorageVolumeV1TimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1 nhncloud_blockstorage_volume_v1}
+* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1 nhncloud_blockstorage_volume_v1}
 */
 export class BlockstorageVolumeV1 extends cdktf.TerraformResource {
 
@@ -291,7 +291,7 @@ export class BlockstorageVolumeV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockstorageVolumeV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockstorageVolumeV1 to import
-  * @param importFromId The id of the existing BlockstorageVolumeV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockstorageVolumeV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockstorageVolumeV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -303,7 +303,7 @@ export class BlockstorageVolumeV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/blockstorage_volume_v1 nhncloud_blockstorage_volume_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/blockstorage_volume_v1 nhncloud_blockstorage_volume_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -314,8 +314,8 @@ export class BlockstorageVolumeV1 extends cdktf.TerraformResource {
       terraformResourceType: 'nhncloud_blockstorage_volume_v1',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6',
-        providerVersionConstraint: '1.0.6'
+        providerVersion: '1.0.7',
+        providerVersionConstraint: '1.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

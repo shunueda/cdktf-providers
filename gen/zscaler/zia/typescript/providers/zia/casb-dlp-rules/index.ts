@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,271 +10,271 @@ export interface CasbDlpRulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The configured action for the policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#action CasbDlpRules#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#action CasbDlpRules#action}
   */
   readonly action?: string;
   /**
   * A user who inspect their buckets for sensitive data. When you choose a user, their buckets are available in the Buckets field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#bucket_owner CasbDlpRules#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#bucket_owner CasbDlpRules#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
   * Collaboration scope for the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#collaboration_scope CasbDlpRules#collaboration_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#collaboration_scope CasbDlpRules#collaboration_scope}
   */
   readonly collaborationScope?: string[];
   /**
   * List of components for which the rule is applied. Zscaler service inspects these components for sensitive data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#components CasbDlpRules#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#components CasbDlpRules#components}
   */
   readonly components?: string[];
   /**
   * The location for the content that the Zscaler service inspects for sensitive data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#content_location CasbDlpRules#content_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#content_location CasbDlpRules#content_location}
   */
   readonly contentLocation?: string;
   /**
   * An admin editable text-based description of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#description CasbDlpRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#description CasbDlpRules#description}
   */
   readonly description?: string;
   /**
   * The domain for the external organization sharing the channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#domains CasbDlpRules#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#domains CasbDlpRules#domains}
   */
   readonly domains?: string[];
   /**
   * Email address of the external auditor to whom the DLP email alerts are sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#external_auditor_email CasbDlpRules#external_auditor_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#external_auditor_email CasbDlpRules#external_auditor_email}
   */
   readonly externalAuditorEmail?: string;
   /**
   * File type categories for which the policy is applied. If not set, the rule is applied across all file types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#file_types CasbDlpRules#file_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#file_types CasbDlpRules#file_types}
   */
   readonly fileTypes?: string[];
   /**
   * If true, criteriaDomainProfiles is included as part of the criteria, else they are excluded from the criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#include_criteria_domain_profile CasbDlpRules#include_criteria_domain_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#include_criteria_domain_profile CasbDlpRules#include_criteria_domain_profile}
   */
   readonly includeCriteriaDomainProfile?: boolean | cdktf.IResolvable;
   /**
   * If true, emailRecipientProfiles is included as part of the criteria, else they are excluded from the criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#include_email_recipient_profile CasbDlpRules#include_email_recipient_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#include_email_recipient_profile CasbDlpRules#include_email_recipient_profile}
   */
   readonly includeEmailRecipientProfile?: boolean | cdktf.IResolvable;
   /**
   * If true, entityGroups is included as part of the criteria, else are excluded from the criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#include_entity_groups CasbDlpRules#include_entity_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#include_entity_groups CasbDlpRules#include_entity_groups}
   */
   readonly includeEntityGroups?: boolean | cdktf.IResolvable;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#name CasbDlpRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#name CasbDlpRules#name}
   */
   readonly name?: string;
   /**
   * Order of rule execution with respect to other SaaS Security Data at Rest Scanning DLP rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#order CasbDlpRules#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#order CasbDlpRules#order}
   */
   readonly order: number;
   /**
   * Location where all the quarantined files are moved and necessary actions are taken by either deleting or restoring the data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#quarantine_location CasbDlpRules#quarantine_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#quarantine_location CasbDlpRules#quarantine_location}
   */
   readonly quarantineLocation?: string;
   /**
   * Admin rank that is assigned to this rule. Mandatory when admin rank-based access restriction is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#rank CasbDlpRules#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#rank CasbDlpRules#rank}
   */
   readonly rank?: number;
   /**
   * Specifies if the email recipient is internal or external
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#recipient CasbDlpRules#recipient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#recipient CasbDlpRules#recipient}
   */
   readonly recipient?: string;
   /**
   * The severity level of the incidents that match the policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#severity CasbDlpRules#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#severity CasbDlpRules#severity}
   */
   readonly severity?: string;
   /**
   * Administrative state of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#state CasbDlpRules#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#state CasbDlpRules#state}
   */
   readonly state?: string;
   /**
   * The type of SaaS Security Data at Rest Scanning DLP rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#type CasbDlpRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#type CasbDlpRules#type}
   */
   readonly type?: string;
   /**
   * Specifies whether to delete an old version of the watermarked file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#watermark_delete_old_version CasbDlpRules#watermark_delete_old_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#watermark_delete_old_version CasbDlpRules#watermark_delete_old_version}
   */
   readonly watermarkDeleteOldVersion?: boolean | cdktf.IResolvable;
   /**
   * If true, Content Matching is set to None
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#without_content_inspection CasbDlpRules#without_content_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#without_content_inspection CasbDlpRules#without_content_inspection}
   */
   readonly withoutContentInspection?: boolean | cdktf.IResolvable;
   /**
   * auditor_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#auditor_notification CasbDlpRules#auditor_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#auditor_notification CasbDlpRules#auditor_notification}
   */
   readonly auditorNotification?: CasbDlpRulesAuditorNotification[] | cdktf.IResolvable;
   /**
   * buckets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#buckets CasbDlpRules#buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#buckets CasbDlpRules#buckets}
   */
   readonly buckets?: CasbDlpRulesBuckets;
   /**
   * casb_email_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#casb_email_label CasbDlpRules#casb_email_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#casb_email_label CasbDlpRules#casb_email_label}
   */
   readonly casbEmailLabel?: CasbDlpRulesCasbEmailLabel[] | cdktf.IResolvable;
   /**
   * casb_tombstone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#casb_tombstone_template CasbDlpRules#casb_tombstone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#casb_tombstone_template CasbDlpRules#casb_tombstone_template}
   */
   readonly casbTombstoneTemplate?: CasbDlpRulesCasbTombstoneTemplate[] | cdktf.IResolvable;
   /**
   * cloud_app_tenants block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#cloud_app_tenants CasbDlpRules#cloud_app_tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#cloud_app_tenants CasbDlpRules#cloud_app_tenants}
   */
   readonly cloudAppTenants?: CasbDlpRulesCloudAppTenants;
   /**
   * criteria_domain_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#criteria_domain_profiles CasbDlpRules#criteria_domain_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#criteria_domain_profiles CasbDlpRules#criteria_domain_profiles}
   */
   readonly criteriaDomainProfiles?: CasbDlpRulesCriteriaDomainProfiles;
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#departments CasbDlpRules#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#departments CasbDlpRules#departments}
   */
   readonly departments?: CasbDlpRulesDepartments;
   /**
   * dlp_engines block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#dlp_engines CasbDlpRules#dlp_engines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#dlp_engines CasbDlpRules#dlp_engines}
   */
   readonly dlpEngines?: CasbDlpRulesDlpEngines;
   /**
   * email_recipient_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#email_recipient_profiles CasbDlpRules#email_recipient_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#email_recipient_profiles CasbDlpRules#email_recipient_profiles}
   */
   readonly emailRecipientProfiles?: CasbDlpRulesEmailRecipientProfiles;
   /**
   * entity_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#entity_groups CasbDlpRules#entity_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#entity_groups CasbDlpRules#entity_groups}
   */
   readonly entityGroups?: CasbDlpRulesEntityGroups;
   /**
   * excluded_domain_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#excluded_domain_profiles CasbDlpRules#excluded_domain_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#excluded_domain_profiles CasbDlpRules#excluded_domain_profiles}
   */
   readonly excludedDomainProfiles?: CasbDlpRulesExcludedDomainProfiles;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#groups CasbDlpRules#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#groups CasbDlpRules#groups}
   */
   readonly groups?: CasbDlpRulesGroups;
   /**
   * included_domain_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#included_domain_profiles CasbDlpRules#included_domain_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#included_domain_profiles CasbDlpRules#included_domain_profiles}
   */
   readonly includedDomainProfiles?: CasbDlpRulesIncludedDomainProfiles;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#labels CasbDlpRules#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#labels CasbDlpRules#labels}
   */
   readonly labels?: CasbDlpRulesLabels;
   /**
   * object_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#object_types CasbDlpRules#object_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#object_types CasbDlpRules#object_types}
   */
   readonly objectTypes?: CasbDlpRulesObjectTypes;
   /**
   * receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#receiver CasbDlpRules#receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#receiver CasbDlpRules#receiver}
   */
   readonly receiver?: CasbDlpRulesReceiver;
   /**
   * redaction_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#redaction_profile CasbDlpRules#redaction_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#redaction_profile CasbDlpRules#redaction_profile}
   */
   readonly redactionProfile?: CasbDlpRulesRedactionProfile[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#tag CasbDlpRules#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#tag CasbDlpRules#tag}
   */
   readonly tag?: CasbDlpRulesTag[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#timeouts CasbDlpRules#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#timeouts CasbDlpRules#timeouts}
   */
   readonly timeouts?: CasbDlpRulesTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#users CasbDlpRules#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#users CasbDlpRules#users}
   */
   readonly users?: CasbDlpRulesUsers;
   /**
   * watermark_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#watermark_profile CasbDlpRules#watermark_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#watermark_profile CasbDlpRules#watermark_profile}
   */
   readonly watermarkProfile?: CasbDlpRulesWatermarkProfile[] | cdktf.IResolvable;
   /**
   * zscaler_incident_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#zscaler_incident_receiver CasbDlpRules#zscaler_incident_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#zscaler_incident_receiver CasbDlpRules#zscaler_incident_receiver}
   */
   readonly zscalerIncidentReceiver?: CasbDlpRulesZscalerIncidentReceiver[] | cdktf.IResolvable;
 }
 export interface CasbDlpRulesAuditorNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -393,7 +393,7 @@ export class CasbDlpRulesAuditorNotificationList extends cdktf.ComplexList {
 }
 export interface CasbDlpRulesBuckets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -480,7 +480,7 @@ export class CasbDlpRulesBucketsOutputReference extends cdktf.ComplexObject {
 }
 export interface CasbDlpRulesCasbEmailLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -599,7 +599,7 @@ export class CasbDlpRulesCasbEmailLabelList extends cdktf.ComplexList {
 }
 export interface CasbDlpRulesCasbTombstoneTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -718,7 +718,7 @@ export class CasbDlpRulesCasbTombstoneTemplateList extends cdktf.ComplexList {
 }
 export interface CasbDlpRulesCloudAppTenants {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -805,7 +805,7 @@ export class CasbDlpRulesCloudAppTenantsOutputReference extends cdktf.ComplexObj
 }
 export interface CasbDlpRulesCriteriaDomainProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -892,7 +892,7 @@ export class CasbDlpRulesCriteriaDomainProfilesOutputReference extends cdktf.Com
 }
 export interface CasbDlpRulesDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -979,7 +979,7 @@ export class CasbDlpRulesDepartmentsOutputReference extends cdktf.ComplexObject 
 }
 export interface CasbDlpRulesDlpEngines {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1066,7 +1066,7 @@ export class CasbDlpRulesDlpEnginesOutputReference extends cdktf.ComplexObject {
 }
 export interface CasbDlpRulesEmailRecipientProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1153,7 +1153,7 @@ export class CasbDlpRulesEmailRecipientProfilesOutputReference extends cdktf.Com
 }
 export interface CasbDlpRulesEntityGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1240,7 +1240,7 @@ export class CasbDlpRulesEntityGroupsOutputReference extends cdktf.ComplexObject
 }
 export interface CasbDlpRulesExcludedDomainProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1327,7 +1327,7 @@ export class CasbDlpRulesExcludedDomainProfilesOutputReference extends cdktf.Com
 }
 export interface CasbDlpRulesGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1414,7 +1414,7 @@ export class CasbDlpRulesGroupsOutputReference extends cdktf.ComplexObject {
 }
 export interface CasbDlpRulesIncludedDomainProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1501,7 +1501,7 @@ export class CasbDlpRulesIncludedDomainProfilesOutputReference extends cdktf.Com
 }
 export interface CasbDlpRulesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1588,7 +1588,7 @@ export class CasbDlpRulesLabelsOutputReference extends cdktf.ComplexObject {
 }
 export interface CasbDlpRulesObjectTypes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1677,7 +1677,7 @@ export interface CasbDlpRulesReceiverTenant {
   /**
   * Unique identifier for the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1686,7 +1686,7 @@ export interface CasbDlpRulesReceiverTenant {
   /**
   * Name of the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#name CasbDlpRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#name CasbDlpRules#name}
   */
   readonly name?: string;
 }
@@ -1801,7 +1801,7 @@ export interface CasbDlpRulesReceiver {
   /**
   * Unique identifier for the receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1810,19 +1810,19 @@ export interface CasbDlpRulesReceiver {
   /**
   * Name of the receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#name CasbDlpRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#name CasbDlpRules#name}
   */
   readonly name?: string;
   /**
   * Type of the receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#type CasbDlpRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#type CasbDlpRules#type}
   */
   readonly type?: string;
   /**
   * tenant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#tenant CasbDlpRules#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#tenant CasbDlpRules#tenant}
   */
   readonly tenant?: CasbDlpRulesReceiverTenant;
 }
@@ -1990,7 +1990,7 @@ export class CasbDlpRulesReceiverOutputReference extends cdktf.ComplexObject {
 }
 export interface CasbDlpRulesRedactionProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2109,7 +2109,7 @@ export class CasbDlpRulesRedactionProfileList extends cdktf.ComplexList {
 }
 export interface CasbDlpRulesTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2228,11 +2228,11 @@ export class CasbDlpRulesTagList extends cdktf.ComplexList {
 }
 export interface CasbDlpRulesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#create CasbDlpRules#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#create CasbDlpRules#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#update CasbDlpRules#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#update CasbDlpRules#update}
   */
   readonly update?: string;
 }
@@ -2355,7 +2355,7 @@ export class CasbDlpRulesTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface CasbDlpRulesUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2442,7 +2442,7 @@ export class CasbDlpRulesUsersOutputReference extends cdktf.ComplexObject {
 }
 export interface CasbDlpRulesWatermarkProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2561,7 +2561,7 @@ export class CasbDlpRulesWatermarkProfileList extends cdktf.ComplexList {
 }
 export interface CasbDlpRulesZscalerIncidentReceiver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#id CasbDlpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2680,7 +2680,7 @@ export class CasbDlpRulesZscalerIncidentReceiverList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules zia_casb_dlp_rules}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules zia_casb_dlp_rules}
 */
 export class CasbDlpRules extends cdktf.TerraformResource {
 
@@ -2696,7 +2696,7 @@ export class CasbDlpRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CasbDlpRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CasbDlpRules to import
-  * @param importFromId The id of the existing CasbDlpRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CasbDlpRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CasbDlpRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2708,7 +2708,7 @@ export class CasbDlpRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/casb_dlp_rules zia_casb_dlp_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/casb_dlp_rules zia_casb_dlp_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2719,8 +2719,8 @@ export class CasbDlpRules extends cdktf.TerraformResource {
       terraformResourceType: 'zia_casb_dlp_rules',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

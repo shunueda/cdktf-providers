@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_pagerduty
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_pagerduty
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IntegrationPagerdutyConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the PagerDuty integration. Source from the URL `https://<organization>.sentry.io/settings/integrations/pagerduty/<integration-id>/` or use the `sentry_organization_integration` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_pagerduty#integration_id IntegrationPagerduty#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_pagerduty#integration_id IntegrationPagerduty#integration_id}
   */
   readonly integrationId: string;
   /**
   * The integration key of the PagerDuty service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_pagerduty#integration_key IntegrationPagerduty#integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_pagerduty#integration_key IntegrationPagerduty#integration_key}
   */
   readonly integrationKey: string;
   /**
   * The organization of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_pagerduty#organization IntegrationPagerduty#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_pagerduty#organization IntegrationPagerduty#organization}
   */
   readonly organization: string;
   /**
   * The name of the PagerDuty service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_pagerduty#service IntegrationPagerduty#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_pagerduty#service IntegrationPagerduty#service}
   */
   readonly service: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_pagerduty sentry_integration_pagerduty}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_pagerduty sentry_integration_pagerduty}
 */
 export class IntegrationPagerduty extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class IntegrationPagerduty extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationPagerduty resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationPagerduty to import
-  * @param importFromId The id of the existing IntegrationPagerduty that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_pagerduty#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationPagerduty that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_pagerduty#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationPagerduty to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class IntegrationPagerduty extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/integration_pagerduty sentry_integration_pagerduty} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/integration_pagerduty sentry_integration_pagerduty} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class IntegrationPagerduty extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_integration_pagerduty',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

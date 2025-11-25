@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm
+// https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,261 +12,261 @@ export interface VmConfig extends cdktf.TerraformMetaArguments {
   * ', e.g. 'tag1=val1
   * tag2=val2'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#advanced Vm#advanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#advanced Vm#advanced}
   */
   readonly advanced?: string;
   /**
   * Allow hotplug
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#allow_hotplug Vm#allow_hotplug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#allow_hotplug Vm#allow_hotplug}
   */
   readonly allowHotplug?: boolean | cdktf.IResolvable;
   /**
   * Boot delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#boot_delay Vm#boot_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#boot_delay Vm#boot_delay}
   */
   readonly bootDelay?: number;
   /**
   * Boot order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#boot_order Vm#boot_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#boot_order Vm#boot_order}
   */
   readonly bootOrder?: string;
   /**
   * Cloudinit datasource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#cloudinit_datasource Vm#cloudinit_datasource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#cloudinit_datasource Vm#cloudinit_datasource}
   */
   readonly cloudinitDatasource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#cloudinit_files Vm#cloudinit_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#cloudinit_files Vm#cloudinit_files}
   */
   readonly cloudinitFiles?: VmCloudinitFiles[] | cdktf.IResolvable;
   /**
   * Cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#cluster Vm#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#cluster Vm#cluster}
   */
   readonly cluster?: string;
   /**
   * Console
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#console Vm#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#console Vm#console}
   */
   readonly console?: string;
   /**
   * Console pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#console_pass Vm#console_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#console_pass Vm#console_pass}
   */
   readonly consolePass?: string;
   /**
   * Console pass enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#console_pass_enabled Vm#console_pass_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#console_pass_enabled Vm#console_pass_enabled}
   */
   readonly consolePassEnabled?: boolean | cdktf.IResolvable;
   /**
   * CPU cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#cpu_cores Vm#cpu_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#cpu_cores Vm#cpu_cores}
   */
   readonly cpuCores?: number;
   /**
   * CPU type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#cpu_type Vm#cpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#cpu_type Vm#cpu_type}
   */
   readonly cpuType?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#description Vm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#description Vm#description}
   */
   readonly description?: string;
   /**
   * Disable hypervisor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#disable_hypervisor Vm#disable_hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#disable_hypervisor Vm#disable_hypervisor}
   */
   readonly disableHypervisor?: boolean | cdktf.IResolvable;
   /**
   * Disable powercycle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#disable_powercycle Vm#disable_powercycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#disable_powercycle Vm#disable_powercycle}
   */
   readonly disablePowercycle?: boolean | cdktf.IResolvable;
   /**
   * Display
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#display Vm#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#display Vm#display}
   */
   readonly display?: string;
   /**
   * VM state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#enabled Vm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#enabled Vm#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Guest agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#guest_agent Vm#guest_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#guest_agent Vm#guest_agent}
   */
   readonly guestAgent?: boolean | cdktf.IResolvable;
   /**
   * Guest agent Ips
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#guest_agent_ips Vm#guest_agent_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#guest_agent_ips Vm#guest_agent_ips}
   */
   readonly guestAgentIps?: string[];
   /**
   * HA group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#ha_group Vm#ha_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#ha_group Vm#ha_group}
   */
   readonly haGroup?: string;
   /**
   * Ignored guest ips (CIDR)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#ignored_guest_ips Vm#ignored_guest_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#ignored_guest_ips Vm#ignored_guest_ips}
   */
   readonly ignoredGuestIps?: string;
   /**
-  * Machine type
+  * Machine type (validated dynamically against VergeOS API)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#machine_type Vm#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#machine_type Vm#machine_type}
   */
   readonly machineType?: string;
   /**
   * Unique vm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#name Vm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#name Vm#name}
   */
   readonly name: string;
   /**
   * Nested virtualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#nested_virtualization Vm#nested_virtualization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#nested_virtualization Vm#nested_virtualization}
   */
   readonly nestedVirtualization?: boolean | cdktf.IResolvable;
   /**
   * OS description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#os_description Vm#os_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#os_description Vm#os_description}
   */
   readonly osDescription?: string;
   /**
   * USB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#os_family Vm#os_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#os_family Vm#os_family}
   */
   readonly osFamily?: string;
   /**
   * Power state of the vm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#powerstate Vm#powerstate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#powerstate Vm#powerstate}
   */
   readonly powerstate?: boolean | cdktf.IResolvable;
   /**
   * Preferred node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#preferred_node Vm#preferred_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#preferred_node Vm#preferred_node}
   */
   readonly preferredNode?: string;
   /**
   * RAM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#ram Vm#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#ram Vm#ram}
   */
   readonly ram?: number;
   /**
   * RTC base
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#rtc_base Vm#rtc_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#rtc_base Vm#rtc_base}
   */
   readonly rtcBase?: string;
   /**
   * Secure boot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#secure_boot Vm#secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#secure_boot Vm#secure_boot}
   */
   readonly secureBoot?: boolean | cdktf.IResolvable;
   /**
   * Serial port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#serial_port Vm#serial_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#serial_port Vm#serial_port}
   */
   readonly serialPort?: boolean | cdktf.IResolvable;
   /**
   * Snapshot profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#snapshot_profile Vm#snapshot_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#snapshot_profile Vm#snapshot_profile}
   */
   readonly snapshotProfile?: string;
   /**
   * Sound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#sound Vm#sound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#sound Vm#sound}
   */
   readonly sound?: string;
   /**
   * UEFI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#uefi Vm#uefi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#uefi Vm#uefi}
   */
   readonly uefi?: boolean | cdktf.IResolvable;
   /**
   * USB tablet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#usb_tablet Vm#usb_tablet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#usb_tablet Vm#usb_tablet}
   */
   readonly usbTablet?: boolean | cdktf.IResolvable;
   /**
   * Video
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#video Vm#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#video Vm#video}
   */
   readonly video?: string;
   /**
   * Wait time in seconds for guest agent to be ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#wait_for_guest_agent_info Vm#wait_for_guest_agent_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#wait_for_guest_agent_info Vm#wait_for_guest_agent_info}
   */
   readonly waitForGuestAgentInfo?: number;
   /**
   * Wait time in seconds for guest ip to be ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#wait_for_guest_ip_timeout Vm#wait_for_guest_ip_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#wait_for_guest_ip_timeout Vm#wait_for_guest_ip_timeout}
   */
   readonly waitForGuestIpTimeout?: number;
   /**
   * vergeio_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#vergeio_device Vm#vergeio_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#vergeio_device Vm#vergeio_device}
   */
   readonly vergeioDevice?: VmVergeioDevice[] | cdktf.IResolvable;
   /**
   * vergeio_drive block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#vergeio_drive Vm#vergeio_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#vergeio_drive Vm#vergeio_drive}
   */
   readonly vergeioDrive?: VmVergeioDrive[] | cdktf.IResolvable;
   /**
   * vergeio_nic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#vergeio_nic Vm#vergeio_nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#vergeio_nic Vm#vergeio_nic}
   */
   readonly vergeioNic?: VmVergeioNic[] | cdktf.IResolvable;
 }
 export interface VmCloudinitFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#contents Vm#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#contents Vm#contents}
   */
   readonly contents: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#name Vm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#name Vm#name}
   */
   readonly name: string;
 }
@@ -405,35 +405,35 @@ export class VmCloudinitFilesList extends cdktf.ComplexList {
 }
 export interface VmVergeioDeviceNvidiaVgpuSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#disable_vnc Vm#disable_vnc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#disable_vnc Vm#disable_vnc}
   */
   readonly disableVnc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#enable_debugging Vm#enable_debugging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#enable_debugging Vm#enable_debugging}
   */
   readonly enableDebugging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#enable_profiling Vm#enable_profiling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#enable_profiling Vm#enable_profiling}
   */
   readonly enableProfiling?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#enable_uvm Vm#enable_uvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#enable_uvm Vm#enable_uvm}
   */
   readonly enableUvm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#frame_rate_limiter Vm#frame_rate_limiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#frame_rate_limiter Vm#frame_rate_limiter}
   */
   readonly frameRateLimiter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#key Vm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#key Vm#key}
   */
   readonly key?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#machine_device Vm#machine_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#machine_device Vm#machine_device}
   */
   readonly machineDevice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#profile_type Vm#profile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#profile_type Vm#profile_type}
   */
   readonly profileType?: string;
 }
@@ -730,19 +730,19 @@ export class VmVergeioDeviceNvidiaVgpuSettingsOutputReference extends cdktf.Comp
 }
 export interface VmVergeioDeviceTpmSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#key Vm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#key Vm#key}
   */
   readonly key?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#machine_device Vm#machine_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#machine_device Vm#machine_device}
   */
   readonly machineDevice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#model Vm#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#model Vm#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#version Vm#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#version Vm#version}
   */
   readonly version?: string;
 }
@@ -923,19 +923,19 @@ export class VmVergeioDeviceTpmSettingsOutputReference extends cdktf.ComplexObje
 }
 export interface VmVergeioDeviceUsbSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#guest_reset Vm#guest_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#guest_reset Vm#guest_reset}
   */
   readonly guestReset?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#guest_resets_all Vm#guest_resets_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#guest_resets_all Vm#guest_resets_all}
   */
   readonly guestResetsAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#key Vm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#key Vm#key}
   */
   readonly key?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#machine_device Vm#machine_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#machine_device Vm#machine_device}
   */
   readonly machineDevice?: number;
 }
@@ -1116,53 +1116,53 @@ export class VmVergeioDeviceUsbSettingsOutputReference extends cdktf.ComplexObje
 }
 export interface VmVergeioDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#description Vm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#description Vm#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#enabled Vm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#enabled Vm#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#key Vm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#key Vm#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#machine Vm#machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#machine Vm#machine}
   */
   readonly machine?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#name Vm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#name Vm#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#nvidia_vgpu_settings Vm#nvidia_vgpu_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#nvidia_vgpu_settings Vm#nvidia_vgpu_settings}
   */
   readonly nvidiaVgpuSettings?: VmVergeioDeviceNvidiaVgpuSettings;
   /**
   * Resource group of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#resource_group Vm#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#resource_group Vm#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * Status of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#status Vm#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#status Vm#status}
   */
   readonly status?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#tpm_settings Vm#tpm_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#tpm_settings Vm#tpm_settings}
   */
   readonly tpmSettings?: VmVergeioDeviceTpmSettings;
   /**
   * Type of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#type Vm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#type Vm#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#usb_settings Vm#usb_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#usb_settings Vm#usb_settings}
   */
   readonly usbSettings?: VmVergeioDeviceUsbSettings;
 }
@@ -1565,63 +1565,63 @@ export class VmVergeioDeviceList extends cdktf.ComplexList {
 }
 export interface VmVergeioDrive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#asset Vm#asset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#asset Vm#asset}
   */
   readonly asset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#description Vm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#description Vm#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#disksize Vm#disksize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#disksize Vm#disksize}
   */
   readonly disksize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#enabled Vm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#enabled Vm#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#interface Vm#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#interface Vm#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#key Vm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#key Vm#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#machine Vm#machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#machine Vm#machine}
   */
   readonly machine?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#media Vm#media}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#media Vm#media}
   */
   readonly media?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#media_source Vm#media_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#media_source Vm#media_source}
   */
   readonly mediaSource?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#name Vm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#name Vm#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#orderid Vm#orderid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#orderid Vm#orderid}
   */
   readonly orderid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#preferred_tier Vm#preferred_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#preferred_tier Vm#preferred_tier}
   */
   readonly preferredTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#preserve_drive_format Vm#preserve_drive_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#preserve_drive_format Vm#preserve_drive_format}
   */
   readonly preserveDriveFormat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#readonly Vm#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#readonly Vm#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#serial Vm#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#serial Vm#serial}
   */
   readonly serial?: string;
 }
@@ -2140,68 +2140,68 @@ export class VmVergeioDriveList extends cdktf.ComplexList {
 }
 export interface VmVergeioNic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#asset Vm#asset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#asset Vm#asset}
   */
   readonly asset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#assign_ipaddress Vm#assign_ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#assign_ipaddress Vm#assign_ipaddress}
   */
   readonly assignIpaddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#description Vm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#description Vm#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#driver Vm#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#driver Vm#driver}
   */
   readonly driver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#enabled Vm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#enabled Vm#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#id Vm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#id Vm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#interface Vm#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#interface Vm#interface}
   */
   readonly interface?: string;
   /**
   * IP address assigned to nic. For this attribute to be set, `assign_ip_address` must be set to `true` and vent id should be set to an Internal Vnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#ipaddress Vm#ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#ipaddress Vm#ipaddress}
   */
   readonly ipaddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#macaddress Vm#macaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#macaddress Vm#macaddress}
   */
   readonly macaddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#machine Vm#machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#machine Vm#machine}
   */
   readonly machine?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#model Vm#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#model Vm#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#name Vm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#name Vm#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#port Vm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#port Vm#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#vendor Vm#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#vendor Vm#vendor}
   */
   readonly vendor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#vnet Vm#vnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#vnet Vm#vnet}
   */
   readonly vnet?: number;
 }
@@ -2723,7 +2723,7 @@ export class VmVergeioNicList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm vergeio_vm}
+* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm vergeio_vm}
 */
 export class Vm extends cdktf.TerraformResource {
 
@@ -2739,7 +2739,7 @@ export class Vm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vm to import
-  * @param importFromId The id of the existing Vm that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vm that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2751,7 +2751,7 @@ export class Vm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/resources/vm vergeio_vm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/vm vergeio_vm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2762,8 +2762,8 @@ export class Vm extends cdktf.TerraformResource {
       terraformResourceType: 'vergeio_vm',
       terraformGeneratorMetadata: {
         providerName: 'vergeio',
-        providerVersion: '2.7.1',
-        providerVersionConstraint: '2.7.1'
+        providerVersion: '2.7.2',
+        providerVersionConstraint: '2.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

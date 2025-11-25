@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/organization_integration
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/organization_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataSentryOrganizationIntegrationConfig extends cdktf.Terraform
   /**
   * The name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/organization_integration#name DataSentryOrganizationIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/organization_integration#name DataSentryOrganizationIntegration#name}
   */
   readonly name: string;
   /**
   * The organization the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/organization_integration#organization DataSentryOrganizationIntegration#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/organization_integration#organization DataSentryOrganizationIntegration#organization}
   */
   readonly organization: string;
   /**
   * Specific integration provider to filter by such as `slack`. See [the list of supported providers](https://docs.sentry.io/product/integrations/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/organization_integration#provider_key DataSentryOrganizationIntegration#provider_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/organization_integration#provider_key DataSentryOrganizationIntegration#provider_key}
   */
   readonly providerKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/organization_integration sentry_organization_integration}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/organization_integration sentry_organization_integration}
 */
 export class DataSentryOrganizationIntegration extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataSentryOrganizationIntegration extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataSentryOrganizationIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSentryOrganizationIntegration to import
-  * @param importFromId The id of the existing DataSentryOrganizationIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/organization_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSentryOrganizationIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/organization_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSentryOrganizationIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataSentryOrganizationIntegration extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/data-sources/organization_integration sentry_organization_integration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/data-sources/organization_integration sentry_organization_integration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataSentryOrganizationIntegration extends cdktf.TerraformDataSource
       terraformResourceType: 'sentry_organization_integration',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/organization_code_mapping
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/organization_code_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OrganizationCodeMappingConfig extends cdktf.TerraformMetaArgume
   /**
   * Default branch of your code we fall back to if you do not have commit tracking set up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/organization_code_mapping#default_branch OrganizationCodeMapping#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/organization_code_mapping#default_branch OrganizationCodeMapping#default_branch}
   */
   readonly defaultBranch: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/organization_code_mapping#id OrganizationCodeMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/organization_code_mapping#id OrganizationCodeMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface OrganizationCodeMappingConfig extends cdktf.TerraformMetaArgume
   /**
   * Sentry Organization Integration ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/organization_code_mapping#integration_id OrganizationCodeMapping#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/organization_code_mapping#integration_id OrganizationCodeMapping#integration_id}
   */
   readonly integrationId: string;
   /**
   * The slug of the organization the code mapping is under.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/organization_code_mapping#organization OrganizationCodeMapping#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/organization_code_mapping#organization OrganizationCodeMapping#organization}
   */
   readonly organization: string;
   /**
   * Sentry Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/organization_code_mapping#project_id OrganizationCodeMapping#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/organization_code_mapping#project_id OrganizationCodeMapping#project_id}
   */
   readonly projectId: string;
   /**
   * Sentry Organization Repository ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/organization_code_mapping#repository_id OrganizationCodeMapping#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/organization_code_mapping#repository_id OrganizationCodeMapping#repository_id}
   */
   readonly repositoryId: string;
   /**
   * https://docs.sentry.io/product/integrations/source-code-mgmt/github/#stack-trace-linking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/organization_code_mapping#source_root OrganizationCodeMapping#source_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/organization_code_mapping#source_root OrganizationCodeMapping#source_root}
   */
   readonly sourceRoot?: string;
   /**
   * https://docs.sentry.io/product/integrations/source-code-mgmt/github/#stack-trace-linking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/organization_code_mapping#stack_root OrganizationCodeMapping#stack_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/organization_code_mapping#stack_root OrganizationCodeMapping#stack_root}
   */
   readonly stackRoot?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/organization_code_mapping sentry_organization_code_mapping}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/organization_code_mapping sentry_organization_code_mapping}
 */
 export class OrganizationCodeMapping extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class OrganizationCodeMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationCodeMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationCodeMapping to import
-  * @param importFromId The id of the existing OrganizationCodeMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/organization_code_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationCodeMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/organization_code_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationCodeMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class OrganizationCodeMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/organization_code_mapping sentry_organization_code_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/organization_code_mapping sentry_organization_code_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class OrganizationCodeMapping extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_organization_code_mapping',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

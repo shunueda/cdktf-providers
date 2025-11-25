@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/advanced_settings
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/advanced_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZiaAdvancedSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/advanced_settings#id DataZiaAdvancedSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/advanced_settings#id DataZiaAdvancedSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataZiaAdvancedSettingsConfig extends cdktf.TerraformMetaArgume
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/advanced_settings zia_advanced_settings}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/advanced_settings zia_advanced_settings}
 */
 export class DataZiaAdvancedSettings extends cdktf.TerraformDataSource {
 
@@ -33,7 +33,7 @@ export class DataZiaAdvancedSettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaAdvancedSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaAdvancedSettings to import
-  * @param importFromId The id of the existing DataZiaAdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/advanced_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaAdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/advanced_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaAdvancedSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -45,7 +45,7 @@ export class DataZiaAdvancedSettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/advanced_settings zia_advanced_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/advanced_settings zia_advanced_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -56,8 +56,8 @@ export class DataZiaAdvancedSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_advanced_settings',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

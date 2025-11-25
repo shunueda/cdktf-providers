@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema
+// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SchemaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Display name for the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#display_name Schema#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#display_name Schema#display_name}
   */
   readonly displayName?: string;
   /**
   * The schema's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#schema_name Schema#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#schema_name Schema#schema_name}
   */
   readonly schemaName: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#fields Schema#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#fields Schema#fields}
   */
   readonly fields: SchemaFields[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#timeouts Schema#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#timeouts Schema#timeouts}
   */
   readonly timeouts?: SchemaTimeouts;
 }
@@ -36,13 +36,13 @@ export interface SchemaFieldsNumericIndexingSpec {
   /**
   * Maximum value of this field. This is meant to be indicative rather than enforced. Values outside this range will still be indexed, but search may not be as performant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#max_value Schema#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#max_value Schema#max_value}
   */
   readonly maxValue?: number;
   /**
   * Minimum value of this field. This is meant to be indicative rather than enforced. Values outside this range will still be indexed, but search may not be as performant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#min_value Schema#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#min_value Schema#min_value}
   */
   readonly minValue?: number;
 }
@@ -157,13 +157,13 @@ export interface SchemaFields {
   /**
   * Display Name of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#display_name Schema#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#display_name Schema#display_name}
   */
   readonly displayName?: string;
   /**
   * The name of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#field_name Schema#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#field_name Schema#field_name}
   */
   readonly fieldName: string;
   /**
@@ -176,19 +176,19 @@ export interface SchemaFields {
   * 	- `PHONE`
   * 	- `STRING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#field_type Schema#field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#field_type Schema#field_type}
   */
   readonly fieldType: string;
   /**
   * Defaults to `true`. Boolean specifying whether the field is indexed or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#indexed Schema#indexed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#indexed Schema#indexed}
   */
   readonly indexed?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `false`. A boolean specifying whether this is a multi-valued field or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#multi_valued Schema#multi_valued}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#multi_valued Schema#multi_valued}
   */
   readonly multiValued?: boolean | cdktf.IResolvable;
   /**
@@ -197,13 +197,13 @@ export interface SchemaFields {
   * 	- `ALL_DOMAIN_USERS`
   * 	Note: It may take up to 24 hours for changes to this field to be reflected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#read_access_type Schema#read_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#read_access_type Schema#read_access_type}
   */
   readonly readAccessType?: string;
   /**
   * numeric_indexing_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#numeric_indexing_spec Schema#numeric_indexing_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#numeric_indexing_spec Schema#numeric_indexing_spec}
   */
   readonly numericIndexingSpec?: SchemaFieldsNumericIndexingSpec;
 }
@@ -497,15 +497,15 @@ export class SchemaFieldsList extends cdktf.ComplexList {
 }
 export interface SchemaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#create Schema#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#create Schema#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#delete Schema#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#delete Schema#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#update Schema#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#update Schema#update}
   */
   readonly update?: string;
 }
@@ -657,7 +657,7 @@ export class SchemaTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema googleworkspace_schema}
+* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema googleworkspace_schema}
 */
 export class Schema extends cdktf.TerraformResource {
 
@@ -673,7 +673,7 @@ export class Schema extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Schema resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Schema to import
-  * @param importFromId The id of the existing Schema that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Schema that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Schema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -685,7 +685,7 @@ export class Schema extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/schema googleworkspace_schema} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/schema googleworkspace_schema} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -696,8 +696,8 @@ export class Schema extends cdktf.TerraformResource {
       terraformResourceType: 'googleworkspace_schema',
       terraformGeneratorMetadata: {
         providerName: 'googleworkspace',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

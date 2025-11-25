@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "googleworkspace": "0.11.0"
+    "googleworkspace": "0.11.1"
   }
 }

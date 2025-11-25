@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/notification_action
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/notification_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface NotificationActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the integration that is used for sending the notification. Use the `sentry_organization_integration` data source to retrieve an integration. Required if `service_type` is `slack`, `pagerduty` or `opsgenie`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/notification_action#integration_id NotificationAction#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/notification_action#integration_id NotificationAction#integration_id}
   */
   readonly integrationId?: string;
   /**
   * The organization of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/notification_action#organization NotificationAction#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/notification_action#organization NotificationAction#organization}
   */
   readonly organization: string;
   /**
   * The list of project slugs that the Notification Action is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/notification_action#projects NotificationAction#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/notification_action#projects NotificationAction#projects}
   */
   readonly projects: string[];
   /**
   * The service that is used for sending the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/notification_action#service_type NotificationAction#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/notification_action#service_type NotificationAction#service_type}
   */
   readonly serviceType: string;
   /**
   * The display name of the target that is used for sending the notification (e.g. Slack channel name). Required if `service_type` is `slack` or `opsgenie`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/notification_action#target_display NotificationAction#target_display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/notification_action#target_display NotificationAction#target_display}
   */
   readonly targetDisplay?: string;
   /**
   * The identifier of the target that is used for sending the notification (e.g. Slack channel ID). Required if `service_type` is `slack` or `opsgenie`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/notification_action#target_identifier NotificationAction#target_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/notification_action#target_identifier NotificationAction#target_identifier}
   */
   readonly targetIdentifier?: string;
   /**
   * The type of trigger that will activate this action. Valid values are `spike-protection`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/notification_action#trigger_type NotificationAction#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/notification_action#trigger_type NotificationAction#trigger_type}
   */
   readonly triggerType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/notification_action sentry_notification_action}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/notification_action sentry_notification_action}
 */
 export class NotificationAction extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class NotificationAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationAction to import
-  * @param importFromId The id of the existing NotificationAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/notification_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/notification_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class NotificationAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/notification_action sentry_notification_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/notification_action sentry_notification_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class NotificationAction extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_notification_action',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1
+// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectstorageObjectV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#container_name ObjectstorageObjectV1#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#container_name ObjectstorageObjectV1#container_name}
   */
   readonly containerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#content ObjectstorageObjectV1#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#content ObjectstorageObjectV1#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#content_disposition ObjectstorageObjectV1#content_disposition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#content_disposition ObjectstorageObjectV1#content_disposition}
   */
   readonly contentDisposition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#content_encoding ObjectstorageObjectV1#content_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#content_encoding ObjectstorageObjectV1#content_encoding}
   */
   readonly contentEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#content_type ObjectstorageObjectV1#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#content_type ObjectstorageObjectV1#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#copy_from ObjectstorageObjectV1#copy_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#copy_from ObjectstorageObjectV1#copy_from}
   */
   readonly copyFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#delete_after ObjectstorageObjectV1#delete_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#delete_after ObjectstorageObjectV1#delete_after}
   */
   readonly deleteAfter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#delete_at ObjectstorageObjectV1#delete_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#delete_at ObjectstorageObjectV1#delete_at}
   */
   readonly deleteAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#detect_content_type ObjectstorageObjectV1#detect_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#detect_content_type ObjectstorageObjectV1#detect_content_type}
   */
   readonly detectContentType?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#etag ObjectstorageObjectV1#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#etag ObjectstorageObjectV1#etag}
   */
   readonly etag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#id ObjectstorageObjectV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#id ObjectstorageObjectV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#metadata ObjectstorageObjectV1#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#metadata ObjectstorageObjectV1#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#name ObjectstorageObjectV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#name ObjectstorageObjectV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#object_manifest ObjectstorageObjectV1#object_manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#object_manifest ObjectstorageObjectV1#object_manifest}
   */
   readonly objectManifest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#region ObjectstorageObjectV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#region ObjectstorageObjectV1#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#source ObjectstorageObjectV1#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#source ObjectstorageObjectV1#source}
   */
   readonly source?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1 nhncloud_objectstorage_object_v1}
+* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1 nhncloud_objectstorage_object_v1}
 */
 export class ObjectstorageObjectV1 extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class ObjectstorageObjectV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectstorageObjectV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectstorageObjectV1 to import
-  * @param importFromId The id of the existing ObjectstorageObjectV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectstorageObjectV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectstorageObjectV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class ObjectstorageObjectV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/resources/objectstorage_object_v1 nhncloud_objectstorage_object_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/resources/objectstorage_object_v1 nhncloud_objectstorage_object_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class ObjectstorageObjectV1 extends cdktf.TerraformResource {
       terraformResourceType: 'nhncloud_objectstorage_object_v1',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6',
-        providerVersionConstraint: '1.0.6'
+        providerVersion: '1.0.7',
+        providerVersionConstraint: '1.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

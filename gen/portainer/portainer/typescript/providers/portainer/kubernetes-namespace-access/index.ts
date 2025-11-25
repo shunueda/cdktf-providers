@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_namespace_access
+// https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_namespace_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface KubernetesNamespaceAccessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_namespace_access#endpoint_id KubernetesNamespaceAccess#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_namespace_access#endpoint_id KubernetesNamespaceAccess#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_namespace_access#id KubernetesNamespaceAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_namespace_access#id KubernetesNamespaceAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_namespace_access#namespace_id KubernetesNamespaceAccess#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_namespace_access#namespace_id KubernetesNamespaceAccess#namespace_id}
   */
   readonly namespaceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_namespace_access#teams_to_add KubernetesNamespaceAccess#teams_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_namespace_access#teams_to_add KubernetesNamespaceAccess#teams_to_add}
   */
   readonly teamsToAdd?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_namespace_access#teams_to_remove KubernetesNamespaceAccess#teams_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_namespace_access#teams_to_remove KubernetesNamespaceAccess#teams_to_remove}
   */
   readonly teamsToRemove?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_namespace_access#users_to_add KubernetesNamespaceAccess#users_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_namespace_access#users_to_add KubernetesNamespaceAccess#users_to_add}
   */
   readonly usersToAdd?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_namespace_access#users_to_remove KubernetesNamespaceAccess#users_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_namespace_access#users_to_remove KubernetesNamespaceAccess#users_to_remove}
   */
   readonly usersToRemove?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_namespace_access portainer_kubernetes_namespace_access}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_namespace_access portainer_kubernetes_namespace_access}
 */
 export class KubernetesNamespaceAccess extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class KubernetesNamespaceAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesNamespaceAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesNamespaceAccess to import
-  * @param importFromId The id of the existing KubernetesNamespaceAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_namespace_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesNamespaceAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_namespace_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesNamespaceAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class KubernetesNamespaceAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_namespace_access portainer_kubernetes_namespace_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_namespace_access portainer_kubernetes_namespace_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class KubernetesNamespaceAccess extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_kubernetes_namespace_access',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

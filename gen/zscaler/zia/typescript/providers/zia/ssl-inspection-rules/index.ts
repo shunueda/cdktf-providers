@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,55 +13,55 @@ export interface SslInspectionRulesConfig extends cdktf.TerraformMetaArguments {
   * 				https://registry.terraform.io/providers/zscaler/zia/latest/docs/data-sources/zia_cloud_applications
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#cloud_applications SslInspectionRules#cloud_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#cloud_applications SslInspectionRules#cloud_applications}
   */
   readonly cloudApplications?: string[];
   /**
   * Additional information about the SSL Inspection rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#description SslInspectionRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#description SslInspectionRules#description}
   */
   readonly description?: string;
   /**
   * List of device trust levels for which the rule must be applied. This field is applicable for devices that are managed using Zscaler Client Connector. The trust levels are assigned to the devices based on your posture configurations in the Zscaler Client Connector Portal. If no value is set, this field is ignored during the policy evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#device_trust_levels SslInspectionRules#device_trust_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#device_trust_levels SslInspectionRules#device_trust_levels}
   */
   readonly deviceTrustLevels?: string[];
   /**
   * The name of the SSL Inspection rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#name SslInspectionRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#name SslInspectionRules#name}
   */
   readonly name: string;
   /**
   * The rule order of execution for the  SSL Inspection rules with respect to other rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#order SslInspectionRules#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#order SslInspectionRules#order}
   */
   readonly order: number;
   /**
   * Supported Protocol criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#platforms SslInspectionRules#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#platforms SslInspectionRules#platforms}
   */
   readonly platforms?: string[];
   /**
   * Admin rank of the admin who creates this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#rank SslInspectionRules#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#rank SslInspectionRules#rank}
   */
   readonly rank?: number;
   /**
   * When set to true, the rule is applied to remote users that use PAC with Kerberos authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#road_warrior_for_kerberos SslInspectionRules#road_warrior_for_kerberos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#road_warrior_for_kerberos SslInspectionRules#road_warrior_for_kerberos}
   */
   readonly roadWarriorForKerberos?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables the SSL Inspection rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#state SslInspectionRules#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#state SslInspectionRules#state}
   */
   readonly state?: string;
   /**
@@ -69,139 +69,139 @@ export interface SslInspectionRulesConfig extends cdktf.TerraformMetaArguments {
   * 				See the URL Categories API for the list of available categories:
   * 				https://help.zscaler.com/zia/url-categories#/urlCategories-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#url_categories SslInspectionRules#url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#url_categories SslInspectionRules#url_categories}
   */
   readonly urlCategories?: string[];
   /**
   * Supported User Agent Types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#user_agent_types SslInspectionRules#user_agent_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#user_agent_types SslInspectionRules#user_agent_types}
   */
   readonly userAgentTypes?: string[];
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#action SslInspectionRules#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#action SslInspectionRules#action}
   */
   readonly action?: SslInspectionRulesAction[] | cdktf.IResolvable;
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#departments SslInspectionRules#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#departments SslInspectionRules#departments}
   */
   readonly departments?: SslInspectionRulesDepartments;
   /**
   * dest_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#dest_ip_groups SslInspectionRules#dest_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#dest_ip_groups SslInspectionRules#dest_ip_groups}
   */
   readonly destIpGroups?: SslInspectionRulesDestIpGroups;
   /**
   * device_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#device_groups SslInspectionRules#device_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#device_groups SslInspectionRules#device_groups}
   */
   readonly deviceGroups?: SslInspectionRulesDeviceGroups;
   /**
   * devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#devices SslInspectionRules#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#devices SslInspectionRules#devices}
   */
   readonly devices?: SslInspectionRulesDevices;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#groups SslInspectionRules#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#groups SslInspectionRules#groups}
   */
   readonly groups?: SslInspectionRulesGroups;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#labels SslInspectionRules#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#labels SslInspectionRules#labels}
   */
   readonly labels?: SslInspectionRulesLabels;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#location_groups SslInspectionRules#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#location_groups SslInspectionRules#location_groups}
   */
   readonly locationGroups?: SslInspectionRulesLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#locations SslInspectionRules#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#locations SslInspectionRules#locations}
   */
   readonly locations?: SslInspectionRulesLocations;
   /**
   * proxy_gateways block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#proxy_gateways SslInspectionRules#proxy_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#proxy_gateways SslInspectionRules#proxy_gateways}
   */
   readonly proxyGateways?: SslInspectionRulesProxyGateways;
   /**
   * source_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#source_ip_groups SslInspectionRules#source_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#source_ip_groups SslInspectionRules#source_ip_groups}
   */
   readonly sourceIpGroups?: SslInspectionRulesSourceIpGroups;
   /**
   * time_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#time_windows SslInspectionRules#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#time_windows SslInspectionRules#time_windows}
   */
   readonly timeWindows?: SslInspectionRulesTimeWindows;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#timeouts SslInspectionRules#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#timeouts SslInspectionRules#timeouts}
   */
   readonly timeouts?: SslInspectionRulesTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#users SslInspectionRules#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#users SslInspectionRules#users}
   */
   readonly users?: SslInspectionRulesUsers;
   /**
   * workload_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#workload_groups SslInspectionRules#workload_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#workload_groups SslInspectionRules#workload_groups}
   */
   readonly workloadGroups?: SslInspectionRulesWorkloadGroups[] | cdktf.IResolvable;
   /**
   * zpa_app_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#zpa_app_segments SslInspectionRules#zpa_app_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#zpa_app_segments SslInspectionRules#zpa_app_segments}
   */
   readonly zpaAppSegments?: SslInspectionRulesZpaAppSegments[] | cdktf.IResolvable;
 }
 export interface SslInspectionRulesActionDecryptSubActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#block_ssl_traffic_with_no_sni_enabled SslInspectionRules#block_ssl_traffic_with_no_sni_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#block_ssl_traffic_with_no_sni_enabled SslInspectionRules#block_ssl_traffic_with_no_sni_enabled}
   */
   readonly blockSslTrafficWithNoSniEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#block_undecrypt SslInspectionRules#block_undecrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#block_undecrypt SslInspectionRules#block_undecrypt}
   */
   readonly blockUndecrypt?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#http2_enabled SslInspectionRules#http2_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#http2_enabled SslInspectionRules#http2_enabled}
   */
   readonly http2Enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#min_client_tls_version SslInspectionRules#min_client_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#min_client_tls_version SslInspectionRules#min_client_tls_version}
   */
   readonly minClientTlsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#min_server_tls_version SslInspectionRules#min_server_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#min_server_tls_version SslInspectionRules#min_server_tls_version}
   */
   readonly minServerTlsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#ocsp_check SslInspectionRules#ocsp_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#ocsp_check SslInspectionRules#ocsp_check}
   */
   readonly ocspCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#server_certificates SslInspectionRules#server_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#server_certificates SslInspectionRules#server_certificates}
   */
   readonly serverCertificates?: string;
 }
@@ -491,23 +491,23 @@ export class SslInspectionRulesActionDecryptSubActionsList extends cdktf.Complex
 }
 export interface SslInspectionRulesActionDoNotDecryptSubActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#block_ssl_traffic_with_no_sni_enabled SslInspectionRules#block_ssl_traffic_with_no_sni_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#block_ssl_traffic_with_no_sni_enabled SslInspectionRules#block_ssl_traffic_with_no_sni_enabled}
   */
   readonly blockSslTrafficWithNoSniEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#bypass_other_policies SslInspectionRules#bypass_other_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#bypass_other_policies SslInspectionRules#bypass_other_policies}
   */
   readonly bypassOtherPolicies?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#min_tls_version SslInspectionRules#min_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#min_tls_version SslInspectionRules#min_tls_version}
   */
   readonly minTlsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#ocsp_check SslInspectionRules#ocsp_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#ocsp_check SslInspectionRules#ocsp_check}
   */
   readonly ocspCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#server_certificates SslInspectionRules#server_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#server_certificates SslInspectionRules#server_certificates}
   */
   readonly serverCertificates?: string;
 }
@@ -739,7 +739,7 @@ export class SslInspectionRulesActionDoNotDecryptSubActionsList extends cdktf.Co
 }
 export interface SslInspectionRulesActionSslInterceptionCert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -858,37 +858,37 @@ export class SslInspectionRulesActionSslInterceptionCertList extends cdktf.Compl
 }
 export interface SslInspectionRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#override_default_certificate SslInspectionRules#override_default_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#override_default_certificate SslInspectionRules#override_default_certificate}
   */
   readonly overrideDefaultCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#show_eun SslInspectionRules#show_eun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#show_eun SslInspectionRules#show_eun}
   */
   readonly showEun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#show_eunatp SslInspectionRules#show_eunatp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#show_eunatp SslInspectionRules#show_eunatp}
   */
   readonly showEunatp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#type SslInspectionRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#type SslInspectionRules#type}
   */
   readonly type?: string;
   /**
   * decrypt_sub_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#decrypt_sub_actions SslInspectionRules#decrypt_sub_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#decrypt_sub_actions SslInspectionRules#decrypt_sub_actions}
   */
   readonly decryptSubActions?: SslInspectionRulesActionDecryptSubActions[] | cdktf.IResolvable;
   /**
   * do_not_decrypt_sub_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#do_not_decrypt_sub_actions SslInspectionRules#do_not_decrypt_sub_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#do_not_decrypt_sub_actions SslInspectionRules#do_not_decrypt_sub_actions}
   */
   readonly doNotDecryptSubActions?: SslInspectionRulesActionDoNotDecryptSubActions[] | cdktf.IResolvable;
   /**
   * ssl_interception_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#ssl_interception_cert SslInspectionRules#ssl_interception_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#ssl_interception_cert SslInspectionRules#ssl_interception_cert}
   */
   readonly sslInterceptionCert?: SslInspectionRulesActionSslInterceptionCert[] | cdktf.IResolvable;
 }
@@ -1178,7 +1178,7 @@ export class SslInspectionRulesActionList extends cdktf.ComplexList {
 }
 export interface SslInspectionRulesDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1265,7 +1265,7 @@ export class SslInspectionRulesDepartmentsOutputReference extends cdktf.ComplexO
 }
 export interface SslInspectionRulesDestIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1352,7 +1352,7 @@ export class SslInspectionRulesDestIpGroupsOutputReference extends cdktf.Complex
 }
 export interface SslInspectionRulesDeviceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1439,7 +1439,7 @@ export class SslInspectionRulesDeviceGroupsOutputReference extends cdktf.Complex
 }
 export interface SslInspectionRulesDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1526,7 +1526,7 @@ export class SslInspectionRulesDevicesOutputReference extends cdktf.ComplexObjec
 }
 export interface SslInspectionRulesGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1613,7 +1613,7 @@ export class SslInspectionRulesGroupsOutputReference extends cdktf.ComplexObject
 }
 export interface SslInspectionRulesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1700,7 +1700,7 @@ export class SslInspectionRulesLabelsOutputReference extends cdktf.ComplexObject
 }
 export interface SslInspectionRulesLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1787,7 +1787,7 @@ export class SslInspectionRulesLocationGroupsOutputReference extends cdktf.Compl
 }
 export interface SslInspectionRulesLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1874,7 +1874,7 @@ export class SslInspectionRulesLocationsOutputReference extends cdktf.ComplexObj
 }
 export interface SslInspectionRulesProxyGateways {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1961,7 +1961,7 @@ export class SslInspectionRulesProxyGatewaysOutputReference extends cdktf.Comple
 }
 export interface SslInspectionRulesSourceIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2048,7 +2048,7 @@ export class SslInspectionRulesSourceIpGroupsOutputReference extends cdktf.Compl
 }
 export interface SslInspectionRulesTimeWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2135,11 +2135,11 @@ export class SslInspectionRulesTimeWindowsOutputReference extends cdktf.ComplexO
 }
 export interface SslInspectionRulesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#create SslInspectionRules#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#create SslInspectionRules#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#update SslInspectionRules#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#update SslInspectionRules#update}
   */
   readonly update?: string;
 }
@@ -2262,7 +2262,7 @@ export class SslInspectionRulesTimeoutsOutputReference extends cdktf.ComplexObje
 }
 export interface SslInspectionRulesUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2351,7 +2351,7 @@ export interface SslInspectionRulesWorkloadGroups {
   /**
   * The unique identifier for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#id SslInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2360,7 +2360,7 @@ export interface SslInspectionRulesWorkloadGroups {
   /**
   * The name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#name SslInspectionRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#name SslInspectionRules#name}
   */
   readonly name?: string;
 }
@@ -2504,13 +2504,13 @@ export interface SslInspectionRulesZpaAppSegments {
   /**
   * External ID of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#external_id SslInspectionRules#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#external_id SslInspectionRules#external_id}
   */
   readonly externalId: string;
   /**
   * Name of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#name SslInspectionRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#name SslInspectionRules#name}
   */
   readonly name: string;
 }
@@ -2649,7 +2649,7 @@ export class SslInspectionRulesZpaAppSegmentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules zia_ssl_inspection_rules}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules zia_ssl_inspection_rules}
 */
 export class SslInspectionRules extends cdktf.TerraformResource {
 
@@ -2665,7 +2665,7 @@ export class SslInspectionRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslInspectionRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslInspectionRules to import
-  * @param importFromId The id of the existing SslInspectionRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslInspectionRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslInspectionRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2677,7 +2677,7 @@ export class SslInspectionRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/ssl_inspection_rules zia_ssl_inspection_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/ssl_inspection_rules zia_ssl_inspection_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2688,8 +2688,8 @@ export class SslInspectionRules extends cdktf.TerraformResource {
       terraformResourceType: 'zia_ssl_inspection_rules',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

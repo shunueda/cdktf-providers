@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,229 +10,229 @@ export interface AdvancedSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cloud applications that are exempted from cookie authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#auth_bypass_apps AdvancedSettings#auth_bypass_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#auth_bypass_apps AdvancedSettings#auth_bypass_apps}
   */
   readonly authBypassApps?: string[];
   /**
   * URL categories that are exempted from cookie authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#auth_bypass_url_categories AdvancedSettings#auth_bypass_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#auth_bypass_url_categories AdvancedSettings#auth_bypass_url_categories}
   */
   readonly authBypassUrlCategories?: string[];
   /**
   * Custom URLs that are exempted from cookie authentication for users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#auth_bypass_urls AdvancedSettings#auth_bypass_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#auth_bypass_urls AdvancedSettings#auth_bypass_urls}
   */
   readonly authBypassUrls?: string[];
   /**
   * Cloud applications that are exempted from Basic authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#basic_bypass_apps AdvancedSettings#basic_bypass_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#basic_bypass_apps AdvancedSettings#basic_bypass_apps}
   */
   readonly basicBypassApps?: string[];
   /**
   * URL categories that are exempted from Basic authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#basic_bypass_url_categories AdvancedSettings#basic_bypass_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#basic_bypass_url_categories AdvancedSettings#basic_bypass_url_categories}
   */
   readonly basicBypassUrlCategories?: string[];
   /**
   * Value indicating whether CONNECT host and SNI mismatch (i.e., CONNECT host doesn't match the SSL/TLS client hello SNI) is blocked or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#block_connect_host_sni_mismatch AdvancedSettings#block_connect_host_sni_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#block_connect_host_sni_mismatch AdvancedSettings#block_connect_host_sni_mismatch}
   */
   readonly blockConnectHostSniMismatch?: boolean | cdktf.IResolvable;
   /**
   * Applications which are subjected to Domain Fronting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#block_domain_fronting_apps AdvancedSettings#block_domain_fronting_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#block_domain_fronting_apps AdvancedSettings#block_domain_fronting_apps}
   */
   readonly blockDomainFrontingApps?: string[];
   /**
   * Value indicating whether to block or allow HTTP/S transactions in which the FQDN of the request URL is different than the FQDN of the request's host header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#block_domain_fronting_on_host_header AdvancedSettings#block_domain_fronting_on_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#block_domain_fronting_on_host_header AdvancedSettings#block_domain_fronting_on_host_header}
   */
   readonly blockDomainFrontingOnHostHeader?: boolean | cdktf.IResolvable;
   /**
   * Value indicating whether HTTP CONNECT method requests to non-standard ports are allowed or not (i.e., requests directed to ports other than the standard HTTP/S ports 80 and 443)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#block_http_tunnel_on_non_http_ports AdvancedSettings#block_http_tunnel_on_non_http_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#block_http_tunnel_on_non_http_ports AdvancedSettings#block_http_tunnel_on_non_http_ports}
   */
   readonly blockHttpTunnelOnNonHttpPorts?: boolean | cdktf.IResolvable;
   /**
   * Value indicating whether to allow or block traffic that is not compliant with RFC HTTP protocol standards
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#block_non_compliant_http_request_on_http_ports AdvancedSettings#block_non_compliant_http_request_on_http_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#block_non_compliant_http_request_on_http_ports AdvancedSettings#block_non_compliant_http_request_on_http_ports}
   */
   readonly blockNonCompliantHttpRequestOnHttpPorts?: boolean | cdktf.IResolvable;
   /**
   * Value indicating whether non-HTTP Traffic on HTTP/S ports are allowed or blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#block_non_http_on_http_port_enabled AdvancedSettings#block_non_http_on_http_port_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#block_non_http_on_http_port_enabled AdvancedSettings#block_non_http_on_http_port_enabled}
   */
   readonly blockNonHttpOnHttpPortEnabled?: boolean | cdktf.IResolvable;
   /**
   * Value indicating whether to apply the URL Filtering policy even when the Cloud App Control policy already allows a transaction explicitly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#cascade_url_filtering AdvancedSettings#cascade_url_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#cascade_url_filtering AdvancedSettings#cascade_url_filtering}
   */
   readonly cascadeUrlFiltering?: boolean | cdktf.IResolvable;
   /**
   * Cloud applications that are exempted from Digest authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#digest_auth_bypass_apps AdvancedSettings#digest_auth_bypass_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#digest_auth_bypass_apps AdvancedSettings#digest_auth_bypass_apps}
   */
   readonly digestAuthBypassApps?: string[];
   /**
   * URL categories that are exempted from Digest authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#digest_auth_bypass_url_categories AdvancedSettings#digest_auth_bypass_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#digest_auth_bypass_url_categories AdvancedSettings#digest_auth_bypass_url_categories}
   */
   readonly digestAuthBypassUrlCategories?: string[];
   /**
   * Custom URLs that are exempted from Digest authentication. Cloud applications that are exempted from Digest authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#digest_auth_bypass_urls AdvancedSettings#digest_auth_bypass_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#digest_auth_bypass_urls AdvancedSettings#digest_auth_bypass_urls}
   */
   readonly digestAuthBypassUrls?: string[];
   /**
   * Cloud applications to which DNS optimization on transparent proxy mode applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_apps AdvancedSettings#dns_resolution_on_transparent_proxy_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_apps AdvancedSettings#dns_resolution_on_transparent_proxy_apps}
   */
   readonly dnsResolutionOnTransparentProxyApps?: string[];
   /**
   * Cloud applications that are excluded from DNS optimization on transparent proxy mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_exempt_apps AdvancedSettings#dns_resolution_on_transparent_proxy_exempt_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_exempt_apps AdvancedSettings#dns_resolution_on_transparent_proxy_exempt_apps}
   */
   readonly dnsResolutionOnTransparentProxyExemptApps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_exempt_url_categories AdvancedSettings#dns_resolution_on_transparent_proxy_exempt_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_exempt_url_categories AdvancedSettings#dns_resolution_on_transparent_proxy_exempt_url_categories}
   */
   readonly dnsResolutionOnTransparentProxyExemptUrlCategories?: string[];
   /**
   * URLs that are excluded from DNS optimization on transparent proxy mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_exempt_urls AdvancedSettings#dns_resolution_on_transparent_proxy_exempt_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_exempt_urls AdvancedSettings#dns_resolution_on_transparent_proxy_exempt_urls}
   */
   readonly dnsResolutionOnTransparentProxyExemptUrls?: string[];
   /**
   * Cloud applications to which DNS optimization for IPv6 addresses on transparent proxy mode applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_ipv6_apps AdvancedSettings#dns_resolution_on_transparent_proxy_ipv6_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_ipv6_apps AdvancedSettings#dns_resolution_on_transparent_proxy_ipv6_apps}
   */
   readonly dnsResolutionOnTransparentProxyIpv6Apps?: string[];
   /**
   * Cloud applications that are excluded from DNS optimization for IPv6 addresses on transparent proxy mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_ipv6_exempt_apps AdvancedSettings#dns_resolution_on_transparent_proxy_ipv6_exempt_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_ipv6_exempt_apps AdvancedSettings#dns_resolution_on_transparent_proxy_ipv6_exempt_apps}
   */
   readonly dnsResolutionOnTransparentProxyIpv6ExemptApps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_ipv6_exempt_url_categories AdvancedSettings#dns_resolution_on_transparent_proxy_ipv6_exempt_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_ipv6_exempt_url_categories AdvancedSettings#dns_resolution_on_transparent_proxy_ipv6_exempt_url_categories}
   */
   readonly dnsResolutionOnTransparentProxyIpv6ExemptUrlCategories?: string[];
   /**
   * IPv6 URL categories to which DNS optimization on transparent proxy mode applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_ipv6_url_categories AdvancedSettings#dns_resolution_on_transparent_proxy_ipv6_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_ipv6_url_categories AdvancedSettings#dns_resolution_on_transparent_proxy_ipv6_url_categories}
   */
   readonly dnsResolutionOnTransparentProxyIpv6UrlCategories?: string[];
   /**
   * URL categories to which DNS optimization on transparent proxy mode applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_url_categories AdvancedSettings#dns_resolution_on_transparent_proxy_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_url_categories AdvancedSettings#dns_resolution_on_transparent_proxy_url_categories}
   */
   readonly dnsResolutionOnTransparentProxyUrlCategories?: string[];
   /**
   * URLs to which DNS optimization on transparent proxy mode applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_urls AdvancedSettings#dns_resolution_on_transparent_proxy_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#dns_resolution_on_transparent_proxy_urls AdvancedSettings#dns_resolution_on_transparent_proxy_urls}
   */
   readonly dnsResolutionOnTransparentProxyUrls?: string[];
   /**
   * URL categories that are exempted from domain fronting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#domain_fronting_bypass_url_categories AdvancedSettings#domain_fronting_bypass_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#domain_fronting_bypass_url_categories AdvancedSettings#domain_fronting_bypass_url_categories}
   */
   readonly domainFrontingBypassUrlCategories?: string[];
   /**
   * Value indicating whether to dynamically update user risk score by tracking risky user activities in real time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#dynamic_user_risk_enabled AdvancedSettings#dynamic_user_risk_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#dynamic_user_risk_enabled AdvancedSettings#dynamic_user_risk_enabled}
   */
   readonly dynamicUserRiskEnabled?: boolean | cdktf.IResolvable;
   /**
   * Value indicating whether or not to include the ECS option in all DNS queries, originating from all locations and remote users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#ecs_for_all_enabled AdvancedSettings#ecs_for_all_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#ecs_for_all_enabled AdvancedSettings#ecs_for_all_enabled}
   */
   readonly ecsForAllEnabled?: boolean | cdktf.IResolvable;
   /**
   * Value indicating whether ranks are enabled for admins to allow admin ranks in policy configuration and management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#enable_admin_rank_access AdvancedSettings#enable_admin_rank_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#enable_admin_rank_access AdvancedSettings#enable_admin_rank_access}
   */
   readonly enableAdminRankAccess?: boolean | cdktf.IResolvable;
   /**
   * Value indicating whether DNS optimization is enabled or disabled for Z-Tunnel 2.0 and transparent proxy mode traffic (e.g., traffic via GRE or IPSec tunnels without a PAC file).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#enable_dns_resolution_on_transparent_proxy AdvancedSettings#enable_dns_resolution_on_transparent_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#enable_dns_resolution_on_transparent_proxy AdvancedSettings#enable_dns_resolution_on_transparent_proxy}
   */
   readonly enableDnsResolutionOnTransparentProxy?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable DNS optimization for all IPv6 transparent proxy traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#enable_evaluate_policy_on_global_ssl_bypass AdvancedSettings#enable_evaluate_policy_on_global_ssl_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#enable_evaluate_policy_on_global_ssl_bypass AdvancedSettings#enable_evaluate_policy_on_global_ssl_bypass}
   */
   readonly enableEvaluatePolicyOnGlobalSslBypass?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable DNS optimization for all IPv6 transparent proxy traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#enable_ipv6_dns_optimization_on_all_transparent_proxy AdvancedSettings#enable_ipv6_dns_optimization_on_all_transparent_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#enable_ipv6_dns_optimization_on_all_transparent_proxy AdvancedSettings#enable_ipv6_dns_optimization_on_all_transparent_proxy}
   */
   readonly enableIpv6DnsOptimizationOnAllTransparentProxy?: boolean | cdktf.IResolvable;
   /**
   * Value indicating whether DNS optimization is enabled or disabled for IPv6 connections to dual-stack or IPv6-only destinations sent via Z-Tunnel 2.0 and transparent proxy proxy mode (e.g., traffic via GRE or IPSec tunnels without a PAC file).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#enable_ipv6_dns_resolution_on_transparent_proxy AdvancedSettings#enable_ipv6_dns_resolution_on_transparent_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#enable_ipv6_dns_resolution_on_transparent_proxy AdvancedSettings#enable_ipv6_dns_resolution_on_transparent_proxy}
   */
   readonly enableIpv6DnsResolutionOnTransparentProxy?: boolean | cdktf.IResolvable;
   /**
   * Value indicating whether Microsoft Office 365 One Click Configuration is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#enable_office365 AdvancedSettings#enable_office365}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#enable_office365 AdvancedSettings#enable_office365}
   */
   readonly enableOffice365?: boolean | cdktf.IResolvable;
   /**
   * Value indicating whether policies that include user and department criteria can be configured and applied for unauthenticated traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#enable_policy_for_unauthenticated_traffic AdvancedSettings#enable_policy_for_unauthenticated_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#enable_policy_for_unauthenticated_traffic AdvancedSettings#enable_policy_for_unauthenticated_traffic}
   */
   readonly enablePolicyForUnauthenticatedTraffic?: boolean | cdktf.IResolvable;
   /**
   * Enforce Surrogate IP authentication for Windows app traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#enforce_surrogate_ip_for_windows_app AdvancedSettings#enforce_surrogate_ip_for_windows_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#enforce_surrogate_ip_for_windows_app AdvancedSettings#enforce_surrogate_ip_for_windows_app}
   */
   readonly enforceSurrogateIpForWindowsApp?: boolean | cdktf.IResolvable;
   /**
   * Value indicating whether or not HTTP/2 should be the default web protocol for accessing various applications at your organizational level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#http2_nonbrowser_traffic_enabled AdvancedSettings#http2_nonbrowser_traffic_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#http2_nonbrowser_traffic_enabled AdvancedSettings#http2_nonbrowser_traffic_enabled}
   */
   readonly http2NonbrowserTrafficEnabled?: boolean | cdktf.IResolvable;
   /**
   * URL categories for which HTTP range headers must be removed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#http_range_header_remove_url_categories AdvancedSettings#http_range_header_remove_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#http_range_header_remove_url_categories AdvancedSettings#http_range_header_remove_url_categories}
   */
   readonly httpRangeHeaderRemoveUrlCategories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#id AdvancedSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#id AdvancedSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -241,73 +241,73 @@ export interface AdvancedSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cloud applications that are exempted from Kerberos authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#kerberos_bypass_apps AdvancedSettings#kerberos_bypass_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#kerberos_bypass_apps AdvancedSettings#kerberos_bypass_apps}
   */
   readonly kerberosBypassApps?: string[];
   /**
   * URL categories that are exempted from Kerberos authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#kerberos_bypass_url_categories AdvancedSettings#kerberos_bypass_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#kerberos_bypass_url_categories AdvancedSettings#kerberos_bypass_url_categories}
   */
   readonly kerberosBypassUrlCategories?: string[];
   /**
   * Custom URLs that are exempted from Kerberos authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#kerberos_bypass_urls AdvancedSettings#kerberos_bypass_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#kerberos_bypass_urls AdvancedSettings#kerberos_bypass_urls}
   */
   readonly kerberosBypassUrls?: string[];
   /**
   * Value indicating whether to log internal IP address present in X-Forwarded-For (XFF) proxy header or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#log_internal_ip AdvancedSettings#log_internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#log_internal_ip AdvancedSettings#log_internal_ip}
   */
   readonly logInternalIp?: boolean | cdktf.IResolvable;
   /**
   * Value indicating whether or not to use the SSL/TLS client hello SNI for DNS resolution instead of the CONNECT host for forward proxy connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#prefer_sni_over_conn_host AdvancedSettings#prefer_sni_over_conn_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#prefer_sni_over_conn_host AdvancedSettings#prefer_sni_over_conn_host}
   */
   readonly preferSniOverConnHost?: boolean | cdktf.IResolvable;
   /**
   * Applications that are exempted from the preferSniOverConnHost setting (i.e., prefer SSL/TLS client hello SNI for DNS resolution instead of the CONNECT host for forward proxy connections)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#prefer_sni_over_conn_host_apps AdvancedSettings#prefer_sni_over_conn_host_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#prefer_sni_over_conn_host_apps AdvancedSettings#prefer_sni_over_conn_host_apps}
   */
   readonly preferSniOverConnHostApps?: string[];
   /**
   * Value indicating whether or not to insert XFF header to all traffic forwarded from ZIA to ZPA, including source IP-anchored and ZIA-inspected ZPA application traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#sipa_xff_header_enabled AdvancedSettings#sipa_xff_header_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#sipa_xff_header_enabled AdvancedSettings#sipa_xff_header_enabled}
   */
   readonly sipaXffHeaderEnabled?: boolean | cdktf.IResolvable;
   /**
   * URL categories that are excluded from the preferSniOverConnHost setting (i.e., prefer SSL/TLS client hello SNI for DNS resolution instead of the CONNECT host for forward proxy connections)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#sni_dns_optimization_bypass_url_categories AdvancedSettings#sni_dns_optimization_bypass_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#sni_dns_optimization_bypass_url_categories AdvancedSettings#sni_dns_optimization_bypass_url_categories}
   */
   readonly sniDnsOptimizationBypassUrlCategories?: string[];
   /**
   * Value indicating whether to apply configured policies on tunneled HTTP traffic sent via a CONNECT method request on port 80
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#track_http_tunnel_on_http_ports AdvancedSettings#track_http_tunnel_on_http_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#track_http_tunnel_on_http_ports AdvancedSettings#track_http_tunnel_on_http_ports}
   */
   readonly trackHttpTunnelOnHttpPorts?: boolean | cdktf.IResolvable;
   /**
   * Specifies the login session timeout for admins accessing the ZIA Admin Portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#ui_session_timeout AdvancedSettings#ui_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#ui_session_timeout AdvancedSettings#ui_session_timeout}
   */
   readonly uiSessionTimeout?: number;
   /**
   * Value indicating whether to apply the Firewall rules configured without a specified location criteria (or with the Road Warrior location) to remote user traffic forwarded via Z-Tunnel 1.0 or PAC files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#zscaler_client_connector_1_and_pac_road_warrior_in_firewall AdvancedSettings#zscaler_client_connector_1_and_pac_road_warrior_in_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#zscaler_client_connector_1_and_pac_road_warrior_in_firewall AdvancedSettings#zscaler_client_connector_1_and_pac_road_warrior_in_firewall}
   */
   readonly zscalerClientConnector1AndPacRoadWarriorInFirewall?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings zia_advanced_settings}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings zia_advanced_settings}
 */
 export class AdvancedSettings extends cdktf.TerraformResource {
 
@@ -323,7 +323,7 @@ export class AdvancedSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdvancedSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdvancedSettings to import
-  * @param importFromId The id of the existing AdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdvancedSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -335,7 +335,7 @@ export class AdvancedSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_settings zia_advanced_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/advanced_settings zia_advanced_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -346,8 +346,8 @@ export class AdvancedSettings extends cdktf.TerraformResource {
       terraformResourceType: 'zia_advanced_settings',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

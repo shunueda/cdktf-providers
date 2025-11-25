@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/data-sources/group_member
+// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/data-sources/group_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataGoogleworkspaceGroupMemberConfig extends cdktf.TerraformMet
   /**
   * The member's email address. A member can be a user or another group. This property is required when adding a member to a group. The email must be unique and cannot be an alias of another group. If the email address is changed, the API automatically reflects the email address changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/data-sources/group_member#email DataGoogleworkspaceGroupMember#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/data-sources/group_member#email DataGoogleworkspaceGroupMember#email}
   */
   readonly email?: string;
   /**
   * Identifies the group in the API request. The value can be the group's email address, group alias, or the unique group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/data-sources/group_member#group_id DataGoogleworkspaceGroupMember#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/data-sources/group_member#group_id DataGoogleworkspaceGroupMember#group_id}
   */
   readonly groupId: string;
   /**
   * The unique ID of the group member. A member id can be used as a member request URI's memberKey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/data-sources/group_member#member_id DataGoogleworkspaceGroupMember#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/data-sources/group_member#member_id DataGoogleworkspaceGroupMember#member_id}
   */
   readonly memberId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/data-sources/group_member googleworkspace_group_member}
+* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/data-sources/group_member googleworkspace_group_member}
 */
 export class DataGoogleworkspaceGroupMember extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataGoogleworkspaceGroupMember extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGoogleworkspaceGroupMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGoogleworkspaceGroupMember to import
-  * @param importFromId The id of the existing DataGoogleworkspaceGroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/data-sources/group_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGoogleworkspaceGroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/data-sources/group_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGoogleworkspaceGroupMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataGoogleworkspaceGroupMember extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/data-sources/group_member googleworkspace_group_member} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/data-sources/group_member googleworkspace_group_member} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataGoogleworkspaceGroupMember extends cdktf.TerraformDataSource {
       terraformResourceType: 'googleworkspace_group_member',
       terraformGeneratorMetadata: {
         providerName: 'googleworkspace',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings
+// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `false`. Identifies whether members external to your organization can join the group. If true, Google Workspace users external to your organization can become members of this group. If false, users not belonging to the organization are not allowed to become members of this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#allow_external_members GroupSettings#allow_external_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#allow_external_members GroupSettings#allow_external_members}
   */
   readonly allowExternalMembers?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `true`. Allows posting from web. If true, allows any member to post to the group forum. If false, Members only use Gmail to communicate with the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#allow_web_posting GroupSettings#allow_web_posting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#allow_web_posting GroupSettings#allow_web_posting}
   */
   readonly allowWebPosting?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `false`. Allows the group to be archived only. If true, Group is archived and the group is inactive. New messages to this group are rejected. The older archived messages are browsable and searchable. If true, the `who_can_post_message` property is set to `NONE_CAN_POST`. If reverted from true to false, `who_can_post_message` is set to `ALL_MANAGERS_CAN_POST`. If false, The group is active and can receive messages. When false, updating `who_can_post_message` to `NONE_CAN_POST`, results in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#archive_only GroupSettings#archive_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#archive_only GroupSettings#archive_only}
   */
   readonly archiveOnly?: boolean | cdktf.IResolvable;
   /**
   * Set the content of custom footer text. The maximum number of characters is 1,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#custom_footer_text GroupSettings#custom_footer_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#custom_footer_text GroupSettings#custom_footer_text}
   */
   readonly customFooterText?: string;
   /**
   * An email address used when replying to a message if the `reply_to` property is set to `REPLY_TO_CUSTOM`. This address is defined by an account administrator. When the group's `reply_to` property is set to `REPLY_TO_CUSTOM`, the `custom_reply_to` property holds a custom email address used when replying to a message, the `custom_reply_to` property must have a text value or an error is returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#custom_reply_to GroupSettings#custom_reply_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#custom_reply_to GroupSettings#custom_reply_to}
   */
   readonly customReplyTo?: string;
   /**
   * When a message is rejected, this is text for the rejection notification sent to the message's author. By default, this property is empty and has no value in the API's response body. The maximum notification text size is 10,000 characters. Requires `send_message_deny_notification` property to be true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#default_message_deny_notification_text GroupSettings#default_message_deny_notification_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#default_message_deny_notification_text GroupSettings#default_message_deny_notification_text}
   */
   readonly defaultMessageDenyNotificationText?: string;
   /**
   * The group's email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#email GroupSettings#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#email GroupSettings#email}
   */
   readonly email: string;
   /**
   * Defaults to `false`. Specifies whether a collaborative inbox will remain turned on for the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#enable_collaborative_inbox GroupSettings#enable_collaborative_inbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#enable_collaborative_inbox GroupSettings#enable_collaborative_inbox}
   */
   readonly enableCollaborativeInbox?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `false`. Whether to include custom footer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#include_custom_footer GroupSettings#include_custom_footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#include_custom_footer GroupSettings#include_custom_footer}
   */
   readonly includeCustomFooter?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `true`. Enables the group to be included in the Global Address List. If true, the group is included in the Global Address List. If false, it is not included in the Global Address List.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#include_in_global_address_list GroupSettings#include_in_global_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#include_in_global_address_list GroupSettings#include_in_global_address_list}
   */
   readonly includeInGlobalAddressList?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `false`. Allows the Group contents to be archived. If true, archive messages sent to the group. If false, Do not keep an archive of messages sent to this group. If false, previously archived messages remain in the archive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#is_archived GroupSettings#is_archived}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#is_archived GroupSettings#is_archived}
   */
   readonly isArchived?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `false`. Enables members to post messages as the group. If true, group member can post messages using the group's email address instead of their own email address. Message appear to originate from the group itself. Any message moderation settings on individual users or new members do not apply to posts made on behalf of the group. If false, members can not post in behalf of the group's email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#members_can_post_as_the_group GroupSettings#members_can_post_as_the_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#members_can_post_as_the_group GroupSettings#members_can_post_as_the_group}
   */
   readonly membersCanPostAsTheGroup?: boolean | cdktf.IResolvable;
   /**
@@ -87,13 +87,13 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `MODERATE_NONE`: No moderator approval is required. Messages are delivered directly to the group.
   * 	Note: When the `who_can_post_message` is set to `ANYONE_CAN_POST`, we recommend the `message_moderation_level` be set to `MODERATE_NON_MEMBERS` to protect the group from possible spam.When `member_can_post_as_the_group` is true, any message moderation settings on individual users or new members will not apply to posts made on behalf of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#message_moderation_level GroupSettings#message_moderation_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#message_moderation_level GroupSettings#message_moderation_level}
   */
   readonly messageModerationLevel?: string;
   /**
   * Defaults to `en_US`. The primary language for group. For a group's primary language use the language tags from the Google Workspace languages found at Google Workspace Email Settings API Email Language Tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#primary_language GroupSettings#primary_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#primary_language GroupSettings#primary_language}
   */
   readonly primaryLanguage?: string;
   /**
@@ -105,13 +105,13 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `REPLY_TO_IGNORE`: Group users individually decide where the message reply is sent. 
   * 	- `REPLY_TO_MANAGERS`: This reply message is sent to the group's managers, which includes all managers and the group owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#reply_to GroupSettings#reply_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#reply_to GroupSettings#reply_to}
   */
   readonly replyTo?: string;
   /**
   * Defaults to `false`. Allows a member to be notified if the member's message to the group is denied by the group owner. If true, when a message is rejected, send the deny message notification to the message author. The `default_message_deny_notification_text` property is dependent on the `send_message_deny_notification` property being true. If false, when a message is rejected, no notification is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#send_message_deny_notification GroupSettings#send_message_deny_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#send_message_deny_notification GroupSettings#send_message_deny_notification}
   */
   readonly sendMessageDenyNotification?: boolean | cdktf.IResolvable;
   /**
@@ -121,7 +121,7 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `SILENTLY_MODERATE`: Send the message to the moderation queue, but do not send notification to moderators. 
   * 	- `REJECT`: Immediately reject the message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#spam_moderation_level GroupSettings#spam_moderation_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#spam_moderation_level GroupSettings#spam_moderation_level}
   */
   readonly spamModerationLevel?: string;
   /**
@@ -132,7 +132,7 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `OWNERS_ONLY`
   * 	- `NONE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#who_can_assist_content GroupSettings#who_can_assist_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#who_can_assist_content GroupSettings#who_can_assist_content}
   */
   readonly whoCanAssistContent?: string;
   /**
@@ -143,7 +143,7 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `ANYONE_CAN_CONTACT`
   * 	- `ALL_OWNERS_CAN_CONTACT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#who_can_contact_owner GroupSettings#who_can_contact_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#who_can_contact_owner GroupSettings#who_can_contact_owner}
   */
   readonly whoCanContactOwner?: string;
   /**
@@ -152,7 +152,7 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `ALL_IN_DOMAIN_CAN_DISCOVER`
   * 	- `ALL_MEMBERS_CAN_DISCOVER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#who_can_discover_group GroupSettings#who_can_discover_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#who_can_discover_group GroupSettings#who_can_discover_group}
   */
   readonly whoCanDiscoverGroup?: string;
   /**
@@ -162,7 +162,7 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `INVITED_CAN_JOIN`: Candidates for membership can be invited to join. 
   * 	- `CAN_REQUEST_TO_JOIN`: Non members can request an invitation to join.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#who_can_join GroupSettings#who_can_join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#who_can_join GroupSettings#who_can_join}
   */
   readonly whoCanJoin?: string;
   /**
@@ -172,7 +172,7 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `ALL_MEMBERS_CAN_LEAVE`
   * 	- `NONE_CAN_LEAVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#who_can_leave_group GroupSettings#who_can_leave_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#who_can_leave_group GroupSettings#who_can_leave_group}
   */
   readonly whoCanLeaveGroup?: string;
   /**
@@ -182,7 +182,7 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `OWNERS_ONLY`
   * 	- `NONE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#who_can_moderate_content GroupSettings#who_can_moderate_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#who_can_moderate_content GroupSettings#who_can_moderate_content}
   */
   readonly whoCanModerateContent?: string;
   /**
@@ -192,7 +192,7 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `OWNERS_ONLY`
   * 	- `NONE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#who_can_moderate_members GroupSettings#who_can_moderate_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#who_can_moderate_members GroupSettings#who_can_moderate_members}
   */
   readonly whoCanModerateMembers?: string;
   /**
@@ -205,7 +205,7 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `ANYONE_CAN_POST`: Any Internet user who outside your account can access your Google Groups service and post a message. 
   * 	*Note: When `who_can_post_message` is set to `ANYONE_CAN_POST`, we recommend the`message_moderation_level` be set to `MODERATE_NON_MEMBERS` to protect the group from possible spam. Users not belonging to the organization are not allowed to become members of this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#who_can_post_message GroupSettings#who_can_post_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#who_can_post_message GroupSettings#who_can_post_message}
   */
   readonly whoCanPostMessage?: string;
   /**
@@ -216,7 +216,7 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `ALL_MANAGERS_CAN_VIEW`: Any group manager can view this group's messages. 
   * 	- `ALL_OWNERS_CAN_VIEW`: The group owners can view this group's messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#who_can_view_group GroupSettings#who_can_view_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#who_can_view_group GroupSettings#who_can_view_group}
   */
   readonly whoCanViewGroup?: string;
   /**
@@ -226,23 +226,23 @@ export interface GroupSettingsConfig extends cdktf.TerraformMetaArguments {
   * 	- `ALL_MANAGERS_CAN_VIEW`: The group managers can view group members list. 
   * 	- `ALL_OWNERS_CAN_VIEW`: The group owners can view group members list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#who_can_view_membership GroupSettings#who_can_view_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#who_can_view_membership GroupSettings#who_can_view_membership}
   */
   readonly whoCanViewMembership?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#timeouts GroupSettings#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#timeouts GroupSettings#timeouts}
   */
   readonly timeouts?: GroupSettingsTimeouts;
 }
 export interface GroupSettingsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#create GroupSettings#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#create GroupSettings#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#update GroupSettings#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#update GroupSettings#update}
   */
   readonly update?: string;
 }
@@ -365,7 +365,7 @@ export class GroupSettingsTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings googleworkspace_group_settings}
+* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings googleworkspace_group_settings}
 */
 export class GroupSettings extends cdktf.TerraformResource {
 
@@ -381,7 +381,7 @@ export class GroupSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupSettings to import
-  * @param importFromId The id of the existing GroupSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class GroupSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/group_settings googleworkspace_group_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/group_settings googleworkspace_group_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class GroupSettings extends cdktf.TerraformResource {
       terraformResourceType: 'googleworkspace_group_settings',
       terraformGeneratorMetadata: {
         providerName: 'googleworkspace',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

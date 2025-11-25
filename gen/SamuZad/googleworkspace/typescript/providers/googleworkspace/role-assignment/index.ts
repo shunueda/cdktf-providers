@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/role_assignment
+// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/role_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface RoleAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique ID of the user this role is assigned to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/role_assignment#assigned_to RoleAssignment#assigned_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/role_assignment#assigned_to RoleAssignment#assigned_to}
   */
   readonly assignedTo: string;
   /**
   * Defaults to `USER`. The type of the assignee (USER or GROUP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/role_assignment#assignee_type RoleAssignment#assignee_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/role_assignment#assignee_type RoleAssignment#assignee_type}
   */
   readonly assigneeType?: string;
   /**
   * If the role is restricted to an organization unit, this contains the ID for the organization unit the exercise of this role is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/role_assignment#org_unit_id RoleAssignment#org_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/role_assignment#org_unit_id RoleAssignment#org_unit_id}
   */
   readonly orgUnitId?: string;
   /**
   * The ID of the role that is assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/role_assignment#role_id RoleAssignment#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/role_assignment#role_id RoleAssignment#role_id}
   */
   readonly roleId: string;
   /**
@@ -36,13 +36,13 @@ export interface RoleAssignmentConfig extends cdktf.TerraformMetaArguments {
   * 	- `CUSTOMER`
   * 	- `ORG_UNIT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/role_assignment#scope_type RoleAssignment#scope_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/role_assignment#scope_type RoleAssignment#scope_type}
   */
   readonly scopeType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/role_assignment googleworkspace_role_assignment}
+* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/role_assignment googleworkspace_role_assignment}
 */
 export class RoleAssignment extends cdktf.TerraformResource {
 
@@ -58,7 +58,7 @@ export class RoleAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoleAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoleAssignment to import
-  * @param importFromId The id of the existing RoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/role_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/role_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoleAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class RoleAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/role_assignment googleworkspace_role_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/role_assignment googleworkspace_role_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class RoleAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'googleworkspace_role_assignment',
       terraformGeneratorMetadata: {
         providerName: 'googleworkspace',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `grafana_role_assignment`
 
-Refer to the Terraform Registry for docs: [`grafana_role_assignment`](https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/role_assignment).
+Refer to the Terraform Registry for docs: [`grafana_role_assignment`](https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/role_assignment).

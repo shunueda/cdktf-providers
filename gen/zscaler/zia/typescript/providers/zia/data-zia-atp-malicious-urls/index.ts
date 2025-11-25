@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/atp_malicious_urls
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/atp_malicious_urls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZiaAtpMaliciousUrlsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/atp_malicious_urls#id DataZiaAtpMaliciousUrls#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/atp_malicious_urls#id DataZiaAtpMaliciousUrls#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataZiaAtpMaliciousUrlsConfig extends cdktf.TerraformMetaArgume
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/atp_malicious_urls zia_atp_malicious_urls}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/atp_malicious_urls zia_atp_malicious_urls}
 */
 export class DataZiaAtpMaliciousUrls extends cdktf.TerraformDataSource {
 
@@ -33,7 +33,7 @@ export class DataZiaAtpMaliciousUrls extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaAtpMaliciousUrls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaAtpMaliciousUrls to import
-  * @param importFromId The id of the existing DataZiaAtpMaliciousUrls that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/atp_malicious_urls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaAtpMaliciousUrls that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/atp_malicious_urls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaAtpMaliciousUrls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -45,7 +45,7 @@ export class DataZiaAtpMaliciousUrls extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/atp_malicious_urls zia_atp_malicious_urls} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/atp_malicious_urls zia_atp_malicious_urls} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -56,8 +56,8 @@ export class DataZiaAtpMaliciousUrls extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_atp_malicious_urls',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

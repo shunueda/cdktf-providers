@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume
+// https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DockerVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#driver DockerVolume#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#driver DockerVolume#driver}
   */
   readonly driver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#driver_opts DockerVolume#driver_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#driver_opts DockerVolume#driver_opts}
   */
   readonly driverOpts?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#endpoint_id DockerVolume#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#endpoint_id DockerVolume#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#id DockerVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#id DockerVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#labels DockerVolume#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#labels DockerVolume#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#name DockerVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#name DockerVolume#name}
   */
   readonly name: string;
   /**
   * cluster_volume_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#cluster_volume_spec DockerVolume#cluster_volume_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#cluster_volume_spec DockerVolume#cluster_volume_spec}
   */
   readonly clusterVolumeSpec?: DockerVolumeClusterVolumeSpec[] | cdktf.IResolvable;
 }
 export interface DockerVolumeClusterVolumeSpecAccessMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#mount_volume DockerVolume#mount_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#mount_volume DockerVolume#mount_volume}
   */
   readonly mountVolume?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#scope DockerVolume#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#scope DockerVolume#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#sharing DockerVolume#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#sharing DockerVolume#sharing}
   */
   readonly sharing?: string;
 }
@@ -193,11 +193,11 @@ export class DockerVolumeClusterVolumeSpecAccessModeOutputReference extends cdkt
 }
 export interface DockerVolumeClusterVolumeSpecAccessibilityRequirementsPreferred {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#property1 DockerVolume#property1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#property1 DockerVolume#property1}
   */
   readonly property1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#property2 DockerVolume#property2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#property2 DockerVolume#property2}
   */
   readonly property2?: string;
 }
@@ -342,11 +342,11 @@ export class DockerVolumeClusterVolumeSpecAccessibilityRequirementsPreferredList
 }
 export interface DockerVolumeClusterVolumeSpecAccessibilityRequirementsRequisite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#property1 DockerVolume#property1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#property1 DockerVolume#property1}
   */
   readonly property1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#property2 DockerVolume#property2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#property2 DockerVolume#property2}
   */
   readonly property2?: string;
 }
@@ -493,13 +493,13 @@ export interface DockerVolumeClusterVolumeSpecAccessibilityRequirements {
   /**
   * preferred block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#preferred DockerVolume#preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#preferred DockerVolume#preferred}
   */
   readonly preferred?: DockerVolumeClusterVolumeSpecAccessibilityRequirementsPreferred[] | cdktf.IResolvable;
   /**
   * requisite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#requisite DockerVolume#requisite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#requisite DockerVolume#requisite}
   */
   readonly requisite?: DockerVolumeClusterVolumeSpecAccessibilityRequirementsRequisite[] | cdktf.IResolvable;
 }
@@ -612,11 +612,11 @@ export class DockerVolumeClusterVolumeSpecAccessibilityRequirementsOutputReferen
 }
 export interface DockerVolumeClusterVolumeSpecCapacityRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#limit_bytes DockerVolume#limit_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#limit_bytes DockerVolume#limit_bytes}
   */
   readonly limitBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#required_bytes DockerVolume#required_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#required_bytes DockerVolume#required_bytes}
   */
   readonly requiredBytes?: number;
 }
@@ -729,11 +729,11 @@ export class DockerVolumeClusterVolumeSpecCapacityRangeOutputReference extends c
 }
 export interface DockerVolumeClusterVolumeSpecSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#key DockerVolume#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#key DockerVolume#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#secret DockerVolume#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#secret DockerVolume#secret}
   */
   readonly secret: string;
 }
@@ -872,35 +872,35 @@ export class DockerVolumeClusterVolumeSpecSecretsList extends cdktf.ComplexList 
 }
 export interface DockerVolumeClusterVolumeSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#availability DockerVolume#availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#availability DockerVolume#availability}
   */
   readonly availability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#group DockerVolume#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#group DockerVolume#group}
   */
   readonly group?: string;
   /**
   * access_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#access_mode DockerVolume#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#access_mode DockerVolume#access_mode}
   */
   readonly accessMode?: DockerVolumeClusterVolumeSpecAccessMode;
   /**
   * accessibility_requirements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#accessibility_requirements DockerVolume#accessibility_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#accessibility_requirements DockerVolume#accessibility_requirements}
   */
   readonly accessibilityRequirements?: DockerVolumeClusterVolumeSpecAccessibilityRequirements;
   /**
   * capacity_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#capacity_range DockerVolume#capacity_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#capacity_range DockerVolume#capacity_range}
   */
   readonly capacityRange?: DockerVolumeClusterVolumeSpecCapacityRange;
   /**
   * secrets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#secrets DockerVolume#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#secrets DockerVolume#secrets}
   */
   readonly secrets?: DockerVolumeClusterVolumeSpecSecrets[] | cdktf.IResolvable;
 }
@@ -1161,7 +1161,7 @@ export class DockerVolumeClusterVolumeSpecList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume portainer_docker_volume}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume portainer_docker_volume}
 */
 export class DockerVolume extends cdktf.TerraformResource {
 
@@ -1177,7 +1177,7 @@ export class DockerVolume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DockerVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DockerVolume to import
-  * @param importFromId The id of the existing DockerVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DockerVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DockerVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1189,7 +1189,7 @@ export class DockerVolume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/docker_volume portainer_docker_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/docker_volume portainer_docker_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1200,8 +1200,8 @@ export class DockerVolume extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_docker_volume',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

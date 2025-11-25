@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role
+// https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ProjectRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description for the new role. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#description ProjectRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#description ProjectRole#description}
   */
   readonly description?: string;
   /**
   * The name for the new role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#name ProjectRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#name ProjectRole#name}
   */
   readonly name: string;
   /**
   * (DEPRECATED, USE permissions_v2. Refer to the migration guide in https://infisical.com/docs/internals/permissions#migrating-from-permission-v1-to-permission-v2) The permissions assigned to the project role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#permissions ProjectRole#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#permissions ProjectRole#permissions}
   */
   readonly permissions?: ProjectRolePermissions[] | cdktf.IResolvable;
   /**
   * The permissions assigned to the project role. Refer to the documentation here https://infisical.com/docs/internals/permissions for its usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#permissions_v2 ProjectRole#permissions_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#permissions_v2 ProjectRole#permissions_v2}
   */
   readonly permissionsV2?: ProjectRolePermissionsV2[] | cdktf.IResolvable;
   /**
   * The slug of the project to create role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#project_slug ProjectRole#project_slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#project_slug ProjectRole#project_slug}
   */
   readonly projectSlug: string;
   /**
   * The slug for the new role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#slug ProjectRole#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#slug ProjectRole#slug}
   */
   readonly slug: string;
 }
@@ -48,13 +48,13 @@ export interface ProjectRolePermissionsConditions {
   /**
   * The environment slug this permission should allow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#environment ProjectRole#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#environment ProjectRole#environment}
   */
   readonly environment?: string;
   /**
   * The secret path this permission should be scoped to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#secret_path ProjectRole#secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#secret_path ProjectRole#secret_path}
   */
   readonly secretPath?: string;
 }
@@ -179,19 +179,19 @@ export interface ProjectRolePermissions {
   /**
   * Describe what action an entity can take. Enum: create,edit,delete,read
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#action ProjectRole#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#action ProjectRole#action}
   */
   readonly action: string;
   /**
   * The conditions to scope permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#conditions ProjectRole#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#conditions ProjectRole#conditions}
   */
   readonly conditions?: ProjectRolePermissionsConditions;
   /**
   * Describe what action an entity can take. Enum: role,member,groups,settings,integrations,webhooks,service-tokens,environments,tags,audit-logs,ip-allowlist,workspace,secrets,secret-rollback,secret-approval,secret-rotation,identity,certificate-authorities,certificates,certificate-templates,kms,pki-alerts,pki-collections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#subject ProjectRole#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#subject ProjectRole#subject}
   */
   readonly subject: string;
 }
@@ -361,25 +361,25 @@ export interface ProjectRolePermissionsV2 {
   /**
   * Describe what actions an entity can take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#action ProjectRole#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#action ProjectRole#action}
   */
   readonly action: string[];
   /**
   * When specified, only matching conditions will be allowed to access given resource. Refer to the documentation in https://infisical.com/docs/internals/permissions#conditions for the complete list of supported properties and operators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#conditions ProjectRole#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#conditions ProjectRole#conditions}
   */
   readonly conditions?: string;
   /**
   * Whether rule forbids. Set this to true if permission forbids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#inverted ProjectRole#inverted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#inverted ProjectRole#inverted}
   */
   readonly inverted?: boolean | cdktf.IResolvable;
   /**
   * Describe the entity the permission pertains to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#subject ProjectRole#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#subject ProjectRole#subject}
   */
   readonly subject: string;
 }
@@ -576,7 +576,7 @@ export class ProjectRolePermissionsV2List extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role infisical_project_role}
+* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role infisical_project_role}
 */
 export class ProjectRole extends cdktf.TerraformResource {
 
@@ -592,7 +592,7 @@ export class ProjectRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectRole to import
-  * @param importFromId The id of the existing ProjectRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -604,7 +604,7 @@ export class ProjectRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/project_role infisical_project_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/project_role infisical_project_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -615,8 +615,8 @@ export class ProjectRole extends cdktf.TerraformResource {
       terraformResourceType: 'infisical_project_role',
       terraformGeneratorMetadata: {
         providerName: 'infisical',
-        providerVersion: '0.15.47',
-        providerVersionConstraint: '0.15.47'
+        providerVersion: '0.15.48',
+        providerVersionConstraint: '0.15.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

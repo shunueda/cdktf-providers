@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_inbound_data_filter
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_inbound_data_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ProjectInboundDataFilterConfig extends cdktf.TerraformMetaArgum
   /**
   * Toggle the browser-extensions, localhost, filtered-transaction, or web-crawlers filter on or off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_inbound_data_filter#active ProjectInboundDataFilter#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_inbound_data_filter#active ProjectInboundDataFilter#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The type of filter toggle to update. See the [Sentry documentation](https://docs.sentry.io/api/projects/update-an-inbound-data-filter/) for a list of available filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_inbound_data_filter#filter_id ProjectInboundDataFilter#filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_inbound_data_filter#filter_id ProjectInboundDataFilter#filter_id}
   */
   readonly filterId: string;
   /**
   * The organization of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_inbound_data_filter#organization ProjectInboundDataFilter#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_inbound_data_filter#organization ProjectInboundDataFilter#organization}
   */
   readonly organization: string;
   /**
   * The project of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_inbound_data_filter#project ProjectInboundDataFilter#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_inbound_data_filter#project ProjectInboundDataFilter#project}
   */
   readonly project: string;
   /**
   * Specifies which legacy browser filters should be active. Anything excluded from the list will be disabled. See the [Sentry documentation](https://docs.sentry.io/api/projects/update-an-inbound-data-filter/) for a list of available subfilters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_inbound_data_filter#subfilters ProjectInboundDataFilter#subfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_inbound_data_filter#subfilters ProjectInboundDataFilter#subfilters}
   */
   readonly subfilters?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_inbound_data_filter sentry_project_inbound_data_filter}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_inbound_data_filter sentry_project_inbound_data_filter}
 */
 export class ProjectInboundDataFilter extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class ProjectInboundDataFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectInboundDataFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectInboundDataFilter to import
-  * @param importFromId The id of the existing ProjectInboundDataFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_inbound_data_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectInboundDataFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_inbound_data_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectInboundDataFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class ProjectInboundDataFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/project_inbound_data_filter sentry_project_inbound_data_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/project_inbound_data_filter sentry_project_inbound_data_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class ProjectInboundDataFilter extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_project_inbound_data_filter',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

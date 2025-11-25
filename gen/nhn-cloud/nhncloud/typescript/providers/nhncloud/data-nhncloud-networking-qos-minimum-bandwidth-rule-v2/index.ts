@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2
+// https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataNhncloudNetworkingQosMinimumBandwidthRuleV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2#direction DataNhncloudNetworkingQosMinimumBandwidthRuleV2#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2#direction DataNhncloudNetworkingQosMinimumBandwidthRuleV2#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2#id DataNhncloudNetworkingQosMinimumBandwidthRuleV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2#id DataNhncloudNetworkingQosMinimumBandwidthRuleV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2#min_kbps DataNhncloudNetworkingQosMinimumBandwidthRuleV2#min_kbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2#min_kbps DataNhncloudNetworkingQosMinimumBandwidthRuleV2#min_kbps}
   */
   readonly minKbps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2#qos_policy_id DataNhncloudNetworkingQosMinimumBandwidthRuleV2#qos_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2#qos_policy_id DataNhncloudNetworkingQosMinimumBandwidthRuleV2#qos_policy_id}
   */
   readonly qosPolicyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2#region DataNhncloudNetworkingQosMinimumBandwidthRuleV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2#region DataNhncloudNetworkingQosMinimumBandwidthRuleV2#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2 nhncloud_networking_qos_minimum_bandwidth_rule_v2}
+* Represents a {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2 nhncloud_networking_qos_minimum_bandwidth_rule_v2}
 */
 export class DataNhncloudNetworkingQosMinimumBandwidthRuleV2 extends cdktf.TerraformDataSource {
 
@@ -49,7 +49,7 @@ export class DataNhncloudNetworkingQosMinimumBandwidthRuleV2 extends cdktf.Terra
   * Generates CDKTF code for importing a DataNhncloudNetworkingQosMinimumBandwidthRuleV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNhncloudNetworkingQosMinimumBandwidthRuleV2 to import
-  * @param importFromId The id of the existing DataNhncloudNetworkingQosMinimumBandwidthRuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNhncloudNetworkingQosMinimumBandwidthRuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNhncloudNetworkingQosMinimumBandwidthRuleV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class DataNhncloudNetworkingQosMinimumBandwidthRuleV2 extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.6/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2 nhncloud_networking_qos_minimum_bandwidth_rule_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nhn-cloud/nhncloud/1.0.7/docs/data-sources/networking_qos_minimum_bandwidth_rule_v2 nhncloud_networking_qos_minimum_bandwidth_rule_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class DataNhncloudNetworkingQosMinimumBandwidthRuleV2 extends cdktf.Terra
       terraformResourceType: 'nhncloud_networking_qos_minimum_bandwidth_rule_v2',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6',
-        providerVersionConstraint: '1.0.6'
+        providerVersion: '1.0.7',
+        providerVersionConstraint: '1.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

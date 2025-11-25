@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "vergeio": "2.7.1"
+    "vergeio": "2.7.2"
   }
 }

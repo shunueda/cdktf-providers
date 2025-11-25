@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/app_connection_render
+// https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_render
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AppConnectionRenderConfig extends cdktf.TerraformMetaArguments 
   /**
   * The credentials for the Render App Connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/app_connection_render#credentials AppConnectionRender#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_render#credentials AppConnectionRender#credentials}
   */
   readonly credentials: AppConnectionRenderCredentials;
   /**
   * An optional description for the Render App Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/app_connection_render#description AppConnectionRender#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_render#description AppConnectionRender#description}
   */
   readonly description?: string;
   /**
   * The method used to authenticate with Render. Possible values are: api-key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/app_connection_render#method AppConnectionRender#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_render#method AppConnectionRender#method}
   */
   readonly method: string;
   /**
   * The name of the Render App Connection to create. Must be slug-friendly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/app_connection_render#name AppConnectionRender#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_render#name AppConnectionRender#name}
   */
   readonly name: string;
 }
@@ -36,7 +36,7 @@ export interface AppConnectionRenderCredentials {
   /**
   * The API key to use for authentication. For more details, refer to the documentation here infisical.com/docs/integrations/app-connections/render
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/app_connection_render#api_key AppConnectionRender#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_render#api_key AppConnectionRender#api_key}
   */
   readonly apiKey: string;
 }
@@ -127,7 +127,7 @@ export class AppConnectionRenderCredentialsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/app_connection_render infisical_app_connection_render}
+* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_render infisical_app_connection_render}
 */
 export class AppConnectionRender extends cdktf.TerraformResource {
 
@@ -143,7 +143,7 @@ export class AppConnectionRender extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppConnectionRender resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppConnectionRender to import
-  * @param importFromId The id of the existing AppConnectionRender that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/app_connection_render#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppConnectionRender that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_render#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppConnectionRender to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -155,7 +155,7 @@ export class AppConnectionRender extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/app_connection_render infisical_app_connection_render} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.48/docs/resources/app_connection_render infisical_app_connection_render} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -166,8 +166,8 @@ export class AppConnectionRender extends cdktf.TerraformResource {
       terraformResourceType: 'infisical_app_connection_render',
       terraformGeneratorMetadata: {
         providerName: 'infisical',
-        providerVersion: '0.15.47',
-        providerVersionConstraint: '0.15.47'
+        providerVersion: '0.15.48',
+        providerVersionConstraint: '0.15.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

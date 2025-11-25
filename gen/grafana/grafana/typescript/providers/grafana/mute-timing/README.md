@@ -1,3 +1,3 @@
 # `grafana_mute_timing`
 
-Refer to the Terraform Registry for docs: [`grafana_mute_timing`](https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/mute_timing).
+Refer to the Terraform Registry for docs: [`grafana_mute_timing`](https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/mute_timing).

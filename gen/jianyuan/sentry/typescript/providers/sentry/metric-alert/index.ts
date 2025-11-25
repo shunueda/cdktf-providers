@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert
+// https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface MetricAlertConfig extends cdktf.TerraformMetaArguments {
   /**
   * The aggregation criteria to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#aggregate MetricAlert#aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#aggregate MetricAlert#aggregate}
   */
   readonly aggregate: string;
   /**
   * An optional int representing the time delta to use as the comparison period, in minutes. Required when using a percentage change threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#comparison_delta MetricAlert#comparison_delta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#comparison_delta MetricAlert#comparison_delta}
   */
   readonly comparisonDelta?: number;
   /**
   * The Sentry Alert category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#dataset MetricAlert#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#dataset MetricAlert#dataset}
   */
   readonly dataset?: string;
   /**
   * Perform Alert rule in a specific environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#environment MetricAlert#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#environment MetricAlert#environment}
   */
   readonly environment?: string;
   /**
   * The events type of dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#event_types MetricAlert#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#event_types MetricAlert#event_types}
   */
   readonly eventTypes?: string[];
   /**
   * The metric alert name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#name MetricAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#name MetricAlert#name}
   */
   readonly name: string;
   /**
   * The slug of the organization the metric alert belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#organization MetricAlert#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#organization MetricAlert#organization}
   */
   readonly organization: string;
   /**
   * Specifies the owner id of this Alert rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#owner MetricAlert#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#owner MetricAlert#owner}
   */
   readonly owner?: string;
   /**
   * The slug of the project to create the metric alert for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#project MetricAlert#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#project MetricAlert#project}
   */
   readonly project: string;
   /**
   * The query filter to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#query MetricAlert#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#query MetricAlert#query}
   */
   readonly query: string;
   /**
   * The value at which the Alert rule resolves
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#resolve_threshold MetricAlert#resolve_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#resolve_threshold MetricAlert#resolve_threshold}
   */
   readonly resolveThreshold?: number;
   /**
   * The type of threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#threshold_type MetricAlert#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#threshold_type MetricAlert#threshold_type}
   */
   readonly thresholdType: number;
   /**
   * The period to evaluate the Alert rule in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#time_window MetricAlert#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#time_window MetricAlert#time_window}
   */
   readonly timeWindow: number;
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#trigger MetricAlert#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#trigger MetricAlert#trigger}
   */
   readonly trigger: MetricAlertTrigger[] | cdktf.IResolvable;
 }
@@ -96,23 +96,23 @@ export interface MetricAlertTriggerAction {
   /**
   * Slack channel ID to avoid rate-limiting, see [here](https://docs.sentry.io/product/integrations/notification-incidents/slack/#rate-limiting-error)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#input_channel_id MetricAlert#input_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#input_channel_id MetricAlert#input_channel_id}
   */
   readonly inputChannelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#integration_id MetricAlert#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#integration_id MetricAlert#integration_id}
   */
   readonly integrationId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#target_identifier MetricAlert#target_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#target_identifier MetricAlert#target_identifier}
   */
   readonly targetIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#target_type MetricAlert#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#target_type MetricAlert#target_type}
   */
   readonly targetType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#type MetricAlert#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#type MetricAlert#type}
   */
   readonly type: string;
 }
@@ -343,25 +343,25 @@ export class MetricAlertTriggerActionList extends cdktf.ComplexList {
 }
 export interface MetricAlertTrigger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#alert_threshold MetricAlert#alert_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#alert_threshold MetricAlert#alert_threshold}
   */
   readonly alertThreshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#label MetricAlert#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#label MetricAlert#label}
   */
   readonly label: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#resolve_threshold MetricAlert#resolve_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#resolve_threshold MetricAlert#resolve_threshold}
   */
   readonly resolveThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#threshold_type MetricAlert#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#threshold_type MetricAlert#threshold_type}
   */
   readonly thresholdType: number;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#action MetricAlert#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#action MetricAlert#action}
   */
   readonly action: MetricAlertTriggerAction[] | cdktf.IResolvable;
 }
@@ -586,7 +586,7 @@ export class MetricAlertTriggerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert sentry_metric_alert}
+* Represents a {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert sentry_metric_alert}
 */
 export class MetricAlert extends cdktf.TerraformResource {
 
@@ -602,7 +602,7 @@ export class MetricAlert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetricAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetricAlert to import
-  * @param importFromId The id of the existing MetricAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetricAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetricAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -614,7 +614,7 @@ export class MetricAlert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.6/docs/resources/metric_alert sentry_metric_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jianyuan/sentry/0.14.7/docs/resources/metric_alert sentry_metric_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -625,8 +625,8 @@ export class MetricAlert extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_metric_alert',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6',
-        providerVersionConstraint: '0.14.6'
+        providerVersion: '0.14.7',
+        providerVersionConstraint: '0.14.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

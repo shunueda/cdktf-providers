@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/groups
+// https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVergeioGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Filter by name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/groups#filter_name DataVergeioGroups#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/groups#filter_name DataVergeioGroups#filter_name}
   */
   readonly filterName?: string;
 }
@@ -106,7 +106,7 @@ export class DataVergeioGroupsGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/groups vergeio_groups}
+* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/groups vergeio_groups}
 */
 export class DataVergeioGroups extends cdktf.TerraformDataSource {
 
@@ -122,7 +122,7 @@ export class DataVergeioGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVergeioGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVergeioGroups to import
-  * @param importFromId The id of the existing DataVergeioGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVergeioGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVergeioGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class DataVergeioGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/groups vergeio_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/groups vergeio_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class DataVergeioGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'vergeio_groups',
       terraformGeneratorMetadata: {
         providerName: 'vergeio',
-        providerVersion: '2.7.1',
-        providerVersionConstraint: '2.7.1'
+        providerVersion: '2.7.2',
+        providerVersionConstraint: '2.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

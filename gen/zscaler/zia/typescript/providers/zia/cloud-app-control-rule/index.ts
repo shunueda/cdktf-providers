@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CloudAppControlRuleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Actions allowed for the specified type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#actions CloudAppControlRule#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#actions CloudAppControlRule#actions}
   */
   readonly actions?: string[];
   /**
@@ -19,214 +19,214 @@ export interface CloudAppControlRuleConfig extends cdktf.TerraformMetaArguments 
   * 				https://registry.terraform.io/providers/zscaler/zia/latest/docs/data-sources/zia_cloud_applications
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#applications CloudAppControlRule#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#applications CloudAppControlRule#applications}
   */
   readonly applications?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#browser_eun_template_id CloudAppControlRule#browser_eun_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#browser_eun_template_id CloudAppControlRule#browser_eun_template_id}
   */
   readonly browserEunTemplateId?: number;
   /**
   * Enforce the URL Filtering policy on a transaction, even after it is explicitly allowed by the Cloud App Control policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#cascading_enabled CloudAppControlRule#cascading_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#cascading_enabled CloudAppControlRule#cascading_enabled}
   */
   readonly cascadingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Additional information about the forwarding rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#description CloudAppControlRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#description CloudAppControlRule#description}
   */
   readonly description?: string;
   /**
   * List of device trust levels for which the rule must be applied. This field is applicable for devices that are managed using Zscaler Client Connector. The trust levels are assigned to the devices based on your posture configurations in the Zscaler Client Connector Portal. If no value is set, this field is ignored during the policy evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#device_trust_levels CloudAppControlRule#device_trust_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#device_trust_levels CloudAppControlRule#device_trust_levels}
   */
   readonly deviceTrustLevels?: string[];
   /**
   * Enforce a set a validity time period for the URL Filtering rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#enforce_time_validity CloudAppControlRule#enforce_time_validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#enforce_time_validity CloudAppControlRule#enforce_time_validity}
   */
   readonly enforceTimeValidity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#eun_enabled CloudAppControlRule#eun_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#eun_enabled CloudAppControlRule#eun_enabled}
   */
   readonly eunEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#eun_template_id CloudAppControlRule#eun_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#eun_template_id CloudAppControlRule#eun_template_id}
   */
   readonly eunTemplateId?: number;
   /**
   * The name of the forwarding rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#name CloudAppControlRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#name CloudAppControlRule#name}
   */
   readonly name?: string;
   /**
   * The order of execution for the forwarding rule order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#order CloudAppControlRule#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#order CloudAppControlRule#order}
   */
   readonly order: number;
   /**
   * Admin rank assigned to the forwarding rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#rank CloudAppControlRule#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#rank CloudAppControlRule#rank}
   */
   readonly rank?: number;
   /**
   * Size quota in KB beyond which the URL Filtering rule is applied. If not set, no quota is enforced. If a policy rule action is set to 'BLOCK', this field is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#size_quota CloudAppControlRule#size_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#size_quota CloudAppControlRule#size_quota}
   */
   readonly sizeQuota?: number;
   /**
   * Determines whether the Firewall Filtering policy rule is enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#state CloudAppControlRule#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#state CloudAppControlRule#state}
   */
   readonly state?: string;
   /**
   * Time quota in minutes, after which the URL Filtering rule is applied. If not set, no quota is enforced. If a policy rule action is set to 'BLOCK', this field is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#time_quota CloudAppControlRule#time_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#time_quota CloudAppControlRule#time_quota}
   */
   readonly timeQuota?: number;
   /**
   * Supported App Control Types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#type CloudAppControlRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#type CloudAppControlRule#type}
   */
   readonly type?: string;
   /**
   * Supported User Agent Types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#user_agent_types CloudAppControlRule#user_agent_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#user_agent_types CloudAppControlRule#user_agent_types}
   */
   readonly userAgentTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#user_risk_score_levels CloudAppControlRule#user_risk_score_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#user_risk_score_levels CloudAppControlRule#user_risk_score_levels}
   */
   readonly userRiskScoreLevels?: string[];
   /**
   * If enforceTimeValidity is set to true, the URL Filtering rule ceases to be valid on this end date and time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#validity_end_time CloudAppControlRule#validity_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#validity_end_time CloudAppControlRule#validity_end_time}
   */
   readonly validityEndTime?: string;
   /**
   * If enforceTimeValidity is set to true, the URL Filtering rule is valid starting on this date and time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#validity_start_time CloudAppControlRule#validity_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#validity_start_time CloudAppControlRule#validity_start_time}
   */
   readonly validityStartTime?: string;
   /**
   * If enforceTimeValidity is set to true, the URL Filtering rule date and time is valid based on this time zone ID. Use IANA Format TimeZone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#validity_time_zone_id CloudAppControlRule#validity_time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#validity_time_zone_id CloudAppControlRule#validity_time_zone_id}
   */
   readonly validityTimeZoneId?: string;
   /**
   * cbi_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#cbi_profile CloudAppControlRule#cbi_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#cbi_profile CloudAppControlRule#cbi_profile}
   */
   readonly cbiProfile?: CloudAppControlRuleCbiProfile[] | cdktf.IResolvable;
   /**
   * cloud_app_instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#cloud_app_instances CloudAppControlRule#cloud_app_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#cloud_app_instances CloudAppControlRule#cloud_app_instances}
   */
   readonly cloudAppInstances?: CloudAppControlRuleCloudAppInstances;
   /**
   * cloud_app_risk_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#cloud_app_risk_profile CloudAppControlRule#cloud_app_risk_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#cloud_app_risk_profile CloudAppControlRule#cloud_app_risk_profile}
   */
   readonly cloudAppRiskProfile?: CloudAppControlRuleCloudAppRiskProfile[] | cdktf.IResolvable;
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#departments CloudAppControlRule#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#departments CloudAppControlRule#departments}
   */
   readonly departments?: CloudAppControlRuleDepartments;
   /**
   * device_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#device_groups CloudAppControlRule#device_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#device_groups CloudAppControlRule#device_groups}
   */
   readonly deviceGroups?: CloudAppControlRuleDeviceGroups;
   /**
   * devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#devices CloudAppControlRule#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#devices CloudAppControlRule#devices}
   */
   readonly devices?: CloudAppControlRuleDevices;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#groups CloudAppControlRule#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#groups CloudAppControlRule#groups}
   */
   readonly groups?: CloudAppControlRuleGroups;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#labels CloudAppControlRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#labels CloudAppControlRule#labels}
   */
   readonly labels?: CloudAppControlRuleLabels;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#location_groups CloudAppControlRule#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#location_groups CloudAppControlRule#location_groups}
   */
   readonly locationGroups?: CloudAppControlRuleLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#locations CloudAppControlRule#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#locations CloudAppControlRule#locations}
   */
   readonly locations?: CloudAppControlRuleLocations;
   /**
   * tenancy_profile_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#tenancy_profile_ids CloudAppControlRule#tenancy_profile_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#tenancy_profile_ids CloudAppControlRule#tenancy_profile_ids}
   */
   readonly tenancyProfileIds?: CloudAppControlRuleTenancyProfileIds;
   /**
   * time_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#time_windows CloudAppControlRule#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#time_windows CloudAppControlRule#time_windows}
   */
   readonly timeWindows?: CloudAppControlRuleTimeWindows;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#timeouts CloudAppControlRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#timeouts CloudAppControlRule#timeouts}
   */
   readonly timeouts?: CloudAppControlRuleTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#users CloudAppControlRule#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#users CloudAppControlRule#users}
   */
   readonly users?: CloudAppControlRuleUsers;
 }
 export interface CloudAppControlRuleCbiProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#name CloudAppControlRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#name CloudAppControlRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#url CloudAppControlRule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#url CloudAppControlRule#url}
   */
   readonly url?: string;
 }
@@ -400,7 +400,7 @@ export class CloudAppControlRuleCbiProfileList extends cdktf.ComplexList {
 }
 export interface CloudAppControlRuleCloudAppInstances {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -487,7 +487,7 @@ export class CloudAppControlRuleCloudAppInstancesOutputReference extends cdktf.C
 }
 export interface CloudAppControlRuleCloudAppRiskProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -606,7 +606,7 @@ export class CloudAppControlRuleCloudAppRiskProfileList extends cdktf.ComplexLis
 }
 export interface CloudAppControlRuleDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -693,7 +693,7 @@ export class CloudAppControlRuleDepartmentsOutputReference extends cdktf.Complex
 }
 export interface CloudAppControlRuleDeviceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -780,7 +780,7 @@ export class CloudAppControlRuleDeviceGroupsOutputReference extends cdktf.Comple
 }
 export interface CloudAppControlRuleDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -867,7 +867,7 @@ export class CloudAppControlRuleDevicesOutputReference extends cdktf.ComplexObje
 }
 export interface CloudAppControlRuleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -954,7 +954,7 @@ export class CloudAppControlRuleGroupsOutputReference extends cdktf.ComplexObjec
 }
 export interface CloudAppControlRuleLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1041,7 +1041,7 @@ export class CloudAppControlRuleLabelsOutputReference extends cdktf.ComplexObjec
 }
 export interface CloudAppControlRuleLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1128,7 +1128,7 @@ export class CloudAppControlRuleLocationGroupsOutputReference extends cdktf.Comp
 }
 export interface CloudAppControlRuleLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1215,7 +1215,7 @@ export class CloudAppControlRuleLocationsOutputReference extends cdktf.ComplexOb
 }
 export interface CloudAppControlRuleTenancyProfileIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1302,7 +1302,7 @@ export class CloudAppControlRuleTenancyProfileIdsOutputReference extends cdktf.C
 }
 export interface CloudAppControlRuleTimeWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1389,11 +1389,11 @@ export class CloudAppControlRuleTimeWindowsOutputReference extends cdktf.Complex
 }
 export interface CloudAppControlRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#create CloudAppControlRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#create CloudAppControlRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#update CloudAppControlRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#update CloudAppControlRule#update}
   */
   readonly update?: string;
 }
@@ -1516,7 +1516,7 @@ export class CloudAppControlRuleTimeoutsOutputReference extends cdktf.ComplexObj
 }
 export interface CloudAppControlRuleUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#id CloudAppControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1603,7 +1603,7 @@ export class CloudAppControlRuleUsersOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule zia_cloud_app_control_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule zia_cloud_app_control_rule}
 */
 export class CloudAppControlRule extends cdktf.TerraformResource {
 
@@ -1619,7 +1619,7 @@ export class CloudAppControlRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudAppControlRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudAppControlRule to import
-  * @param importFromId The id of the existing CloudAppControlRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudAppControlRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudAppControlRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1631,7 +1631,7 @@ export class CloudAppControlRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_app_control_rule zia_cloud_app_control_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_app_control_rule zia_cloud_app_control_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1642,8 +1642,8 @@ export class CloudAppControlRule extends cdktf.TerraformResource {
       terraformResourceType: 'zia_cloud_app_control_rule',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

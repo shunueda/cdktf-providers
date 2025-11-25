@@ -22,9 +22,6 @@ Object.defineProperty(exports, 'computeQuotasetV2', { get: function () { return 
 Object.defineProperty(exports, 'computeSecgroupV2', { get: function () { return require('./compute-secgroup-v2'); } });
 Object.defineProperty(exports, 'computeServergroupV2', { get: function () { return require('./compute-servergroup-v2'); } });
 Object.defineProperty(exports, 'computeVolumeAttachV2', { get: function () { return require('./compute-volume-attach-v2'); } });
-Object.defineProperty(exports, 'containerinfraClusterV1', { get: function () { return require('./containerinfra-cluster-v1'); } });
-Object.defineProperty(exports, 'containerinfraClustertemplateV1', { get: function () { return require('./containerinfra-clustertemplate-v1'); } });
-Object.defineProperty(exports, 'containerinfraNodegroupV1', { get: function () { return require('./containerinfra-nodegroup-v1'); } });
 Object.defineProperty(exports, 'dbConfigurationV1', { get: function () { return require('./db-configuration-v1'); } });
 Object.defineProperty(exports, 'dbDatabaseV1', { get: function () { return require('./db-database-v1'); } });
 Object.defineProperty(exports, 'dbInstanceV1', { get: function () { return require('./db-instance-v1'); } });
@@ -52,6 +49,11 @@ Object.defineProperty(exports, 'imagesImageV2', { get: function () { return requ
 Object.defineProperty(exports, 'keymanagerContainerV1', { get: function () { return require('./keymanager-container-v1'); } });
 Object.defineProperty(exports, 'keymanagerOrderV1', { get: function () { return require('./keymanager-order-v1'); } });
 Object.defineProperty(exports, 'keymanagerSecretV1', { get: function () { return require('./keymanager-secret-v1'); } });
+Object.defineProperty(exports, 'kubernetesClusterResizeV1', { get: function () { return require('./kubernetes-cluster-resize-v1'); } });
+Object.defineProperty(exports, 'kubernetesClusterV1', { get: function () { return require('./kubernetes-cluster-v1'); } });
+Object.defineProperty(exports, 'kubernetesClustertemplateV1', { get: function () { return require('./kubernetes-clustertemplate-v1'); } });
+Object.defineProperty(exports, 'kubernetesNodegroupUpgradeV1', { get: function () { return require('./kubernetes-nodegroup-upgrade-v1'); } });
+Object.defineProperty(exports, 'kubernetesNodegroupV1', { get: function () { return require('./kubernetes-nodegroup-v1'); } });
 Object.defineProperty(exports, 'lbL7PolicyV2', { get: function () { return require('./lb-l7policy-v2'); } });
 Object.defineProperty(exports, 'lbL7RuleV2', { get: function () { return require('./lb-l7rule-v2'); } });
 Object.defineProperty(exports, 'lbListenerV2', { get: function () { return require('./lb-listener-v2'); } });
@@ -118,9 +120,6 @@ Object.defineProperty(exports, 'dataNhncloudComputeInstanceV2', { get: function 
 Object.defineProperty(exports, 'dataNhncloudComputeKeypairV2', { get: function () { return require('./data-nhncloud-compute-keypair-v2'); } });
 Object.defineProperty(exports, 'dataNhncloudComputeLimitsV2', { get: function () { return require('./data-nhncloud-compute-limits-v2'); } });
 Object.defineProperty(exports, 'dataNhncloudComputeQuotasetV2', { get: function () { return require('./data-nhncloud-compute-quotaset-v2'); } });
-Object.defineProperty(exports, 'dataNhncloudContainerinfraClusterV1', { get: function () { return require('./data-nhncloud-containerinfra-cluster-v1'); } });
-Object.defineProperty(exports, 'dataNhncloudContainerinfraClustertemplateV1', { get: function () { return require('./data-nhncloud-containerinfra-clustertemplate-v1'); } });
-Object.defineProperty(exports, 'dataNhncloudContainerinfraNodegroupV1', { get: function () { return require('./data-nhncloud-containerinfra-nodegroup-v1'); } });
 Object.defineProperty(exports, 'dataNhncloudDnsZoneV2', { get: function () { return require('./data-nhncloud-dns-zone-v2'); } });
 Object.defineProperty(exports, 'dataNhncloudFwPolicyV1', { get: function () { return require('./data-nhncloud-fw-policy-v1'); } });
 Object.defineProperty(exports, 'dataNhncloudIdentityAuthScopeV3', { get: function () { return require('./data-nhncloud-identity-auth-scope-v3'); } });
@@ -134,6 +133,9 @@ Object.defineProperty(exports, 'dataNhncloudImagesImageIdsV2', { get: function (
 Object.defineProperty(exports, 'dataNhncloudImagesImageV2', { get: function () { return require('./data-nhncloud-images-image-v2'); } });
 Object.defineProperty(exports, 'dataNhncloudKeymanagerContainerV1', { get: function () { return require('./data-nhncloud-keymanager-container-v1'); } });
 Object.defineProperty(exports, 'dataNhncloudKeymanagerSecretV1', { get: function () { return require('./data-nhncloud-keymanager-secret-v1'); } });
+Object.defineProperty(exports, 'dataNhncloudKubernetesClusterV1', { get: function () { return require('./data-nhncloud-kubernetes-cluster-v1'); } });
+Object.defineProperty(exports, 'dataNhncloudKubernetesClustertemplateV1', { get: function () { return require('./data-nhncloud-kubernetes-clustertemplate-v1'); } });
+Object.defineProperty(exports, 'dataNhncloudKubernetesNodegroupV1', { get: function () { return require('./data-nhncloud-kubernetes-nodegroup-v1'); } });
 Object.defineProperty(exports, 'dataNhncloudNetworkingAddressscopeV2', { get: function () { return require('./data-nhncloud-networking-addressscope-v2'); } });
 Object.defineProperty(exports, 'dataNhncloudNetworkingFloatingipV2', { get: function () { return require('./data-nhncloud-networking-floatingip-v2'); } });
 Object.defineProperty(exports, 'dataNhncloudNetworkingNetworkV2', { get: function () { return require('./data-nhncloud-networking-network-v2'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed
+// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   /**
   * Policy action filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#action_filter CloudNssFeed#action_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#action_filter CloudNssFeed#action_filter}
   */
   readonly actionFilter?: string;
   /**
@@ -18,13 +18,13 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#activity CloudNssFeed#activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#activity CloudNssFeed#activity}
   */
   readonly activity?: string[];
   /**
   * Filter based on custom user agent strings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#adv_user_agents CloudNssFeed#adv_user_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#adv_user_agents CloudNssFeed#adv_user_agents}
   */
   readonly advUserAgents?: string[];
   /**
@@ -32,38 +32,38 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#advanced_threats CloudNssFeed#advanced_threats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#advanced_threats CloudNssFeed#advanced_threats}
   */
   readonly advancedThreats?: string[];
   /**
   * Alert filter
   * 				Supported Values: CRITICAL, WARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#alerts CloudNssFeed#alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#alerts CloudNssFeed#alerts}
   */
   readonly alerts?: string[];
   /**
   * Audit log type filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#audit_log_type CloudNssFeed#audit_log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#audit_log_type CloudNssFeed#audit_log_type}
   */
   readonly auditLogType?: string[];
   /**
   * The authentication token value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#authentication_token CloudNssFeed#authentication_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#authentication_token CloudNssFeed#authentication_token}
   */
   readonly authenticationToken?: string;
   /**
   * Authentication URL applicable when SIEM type is set to Azure Sentinel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#authentication_url CloudNssFeed#authentication_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#authentication_url CloudNssFeed#authentication_url}
   */
   readonly authenticationUrl?: string;
   /**
   * Base64-encoded certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#base64_encoded_certificate CloudNssFeed#base64_encoded_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#base64_encoded_certificate CloudNssFeed#base64_encoded_certificate}
   */
   readonly base64EncodedCertificate?: string;
   /**
@@ -71,7 +71,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#casb_action CloudNssFeed#casb_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#casb_action CloudNssFeed#casb_action}
   */
   readonly casbAction?: string[];
   /**
@@ -79,7 +79,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#casb_applications CloudNssFeed#casb_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#casb_applications CloudNssFeed#casb_applications}
   */
   readonly casbApplications?: string[];
   /**
@@ -87,7 +87,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#casb_file_type CloudNssFeed#casb_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#casb_file_type CloudNssFeed#casb_file_type}
   */
   readonly casbFileType?: string[];
   /**
@@ -95,81 +95,81 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#casb_file_type_super_categories CloudNssFeed#casb_file_type_super_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#casb_file_type_super_categories CloudNssFeed#casb_file_type_super_categories}
   */
   readonly casbFileTypeSuperCategories?: string[];
   /**
   * CASB policy type filter
   * 				Supported Values: MALWARE, DLP, ALL_INCIDENT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#casb_policy_types CloudNssFeed#casb_policy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#casb_policy_types CloudNssFeed#casb_policy_types}
   */
   readonly casbPolicyTypes?: string[];
   /**
   * Zscaler's Cloud Access Security Broker (CASB) severity filter
   * 				Supported Values: RULE_SEVERITY_HIGH, RULE_SEVERITY_MEDIUM, RULE_SEVERITY_LOW, RULE_SEVERITY_INFO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#casb_severity CloudNssFeed#casb_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#casb_severity CloudNssFeed#casb_severity}
   */
   readonly casbSeverity?: string[];
   /**
   * Collaboration channel name filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#channel_name CloudNssFeed#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#channel_name CloudNssFeed#channel_name}
   */
   readonly channelName?: string[];
   /**
   * Client's destination IPv4 addresses in Firewall policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#client_destination_ips CloudNssFeed#client_destination_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#client_destination_ips CloudNssFeed#client_destination_ips}
   */
   readonly clientDestinationIps?: string[];
   /**
   * Firewall logs filter based on a client's destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#client_destination_ports CloudNssFeed#client_destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#client_destination_ports CloudNssFeed#client_destination_ports}
   */
   readonly clientDestinationPorts?: string[];
   /**
   * Client ID applicable when SIEM type is set to S3 or Azure Sentinel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#client_id CloudNssFeed#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#client_id CloudNssFeed#client_id}
   */
   readonly clientId?: string;
   /**
   * Filter to limit the logs based on a client's public IPv4 addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#client_ips CloudNssFeed#client_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#client_ips CloudNssFeed#client_ips}
   */
   readonly clientIps?: string[];
   /**
   * Client secret applicable when SIEM type is set to S3 or Azure Sentinel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#client_secret CloudNssFeed#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#client_secret CloudNssFeed#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Client source IPs configured for NSS feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#client_source_ips CloudNssFeed#client_source_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#client_source_ips CloudNssFeed#client_source_ips}
   */
   readonly clientSourceIps?: string[];
   /**
   * Firewall log filter based on a client's source ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#client_source_ports CloudNssFeed#client_source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#client_source_ports CloudNssFeed#client_source_ports}
   */
   readonly clientSourcePorts?: string[];
   /**
   * The HTTP Connection headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#connection_headers CloudNssFeed#connection_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#connection_headers CloudNssFeed#connection_headers}
   */
   readonly connectionHeaders?: string[];
   /**
   * The HTTPS URL of the SIEM log collection API endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#connection_url CloudNssFeed#connection_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#connection_url CloudNssFeed#connection_url}
   */
   readonly connectionUrl?: string;
   /**
@@ -177,25 +177,25 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#countries CloudNssFeed#countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#countries CloudNssFeed#countries}
   */
   readonly countries?: string[];
   /**
   * Characters that need to be encoded using hex when they appear in URL, Host, or Referrer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#custom_escaped_character CloudNssFeed#custom_escaped_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#custom_escaped_character CloudNssFeed#custom_escaped_character}
   */
   readonly customEscapedCharacter?: string[];
   /**
   * Traffic direction filter specifying inbound or outbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#direction CloudNssFeed#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#direction CloudNssFeed#direction}
   */
   readonly direction?: string;
   /**
   * DNS Control policy action filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#dns_actions CloudNssFeed#dns_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#dns_actions CloudNssFeed#dns_actions}
   */
   readonly dnsActions?: string[];
   /**
@@ -206,51 +206,51 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				DNSREQ_MB, DNSREQ_AFSDB, DNSREQ_HIP, DNSREQ_SRV, DNSREQ_DS, DNSREQ_NAPTR,
   * 				DNSREQ_NSEC, DNSREQ_DNSKEY, DNSREQ_HTTPS, DNSREQ_UNKNOWN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#dns_request_types CloudNssFeed#dns_request_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#dns_request_types CloudNssFeed#dns_request_types}
   */
   readonly dnsRequestTypes?: string[];
   /**
   * DNS response types filter
   * 				Supported Values: ANY, DNSRES_ZSCODE, DNSRES_CNAME, DNSRES_IPV6, DNSRES_SRV_CODE, DNSRES_IPV4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#dns_response_types CloudNssFeed#dns_response_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#dns_response_types CloudNssFeed#dns_response_types}
   */
   readonly dnsResponseTypes?: string[];
   /**
   * DNS responses filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#dns_responses CloudNssFeed#dns_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#dns_responses CloudNssFeed#dns_responses}
   */
   readonly dnsResponses?: string[];
   /**
   * Filter to limit the logs to sessions associated with specific domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#domains CloudNssFeed#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#domains CloudNssFeed#domains}
   */
   readonly domains?: string[];
   /**
   * Download time filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#download_time CloudNssFeed#download_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#download_time CloudNssFeed#download_time}
   */
   readonly downloadTime?: string[];
   /**
   * Filter based on time durations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#durations CloudNssFeed#durations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#durations CloudNssFeed#durations}
   */
   readonly durations?: string[];
   /**
   * Email DLP record type filter
   * 				Supported Values: EPDLP_SCAN_AGGREGATE, EPDLP_SENSITIVE_ACTIVITY, EPDLP_DLP_INCIDENT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#email_dlp_log_type CloudNssFeed#email_dlp_log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#email_dlp_log_type CloudNssFeed#email_dlp_log_type}
   */
   readonly emailDlpLogType?: string[];
   /**
   * Action filter for Email DLP log type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#email_dlp_policy_action CloudNssFeed#email_dlp_policy_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#email_dlp_policy_action CloudNssFeed#email_dlp_policy_action}
   */
   readonly emailDlpPolicyAction?: string;
   /**
@@ -258,49 +258,49 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#end_point_dlp_log_type CloudNssFeed#end_point_dlp_log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#end_point_dlp_log_type CloudNssFeed#end_point_dlp_log_type}
   */
   readonly endPointDlpLogType?: string[];
   /**
   * Event per second limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#eps_rate_limit CloudNssFeed#eps_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#eps_rate_limit CloudNssFeed#eps_rate_limit}
   */
   readonly epsRateLimit?: number;
   /**
   * CASB event filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#event CloudNssFeed#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#event CloudNssFeed#event}
   */
   readonly event?: string;
   /**
   * Output format used for the feed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#feed_output_format CloudNssFeed#feed_output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#feed_output_format CloudNssFeed#feed_output_format}
   */
   readonly feedOutputFormat?: string;
   /**
   * The status of the feed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#feed_status CloudNssFeed#feed_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#feed_status CloudNssFeed#feed_status}
   */
   readonly feedStatus?: string;
   /**
   * Filter based on the file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#file_name CloudNssFeed#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#file_name CloudNssFeed#file_name}
   */
   readonly fileName?: string[];
   /**
   * File size filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#file_sizes CloudNssFeed#file_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#file_sizes CloudNssFeed#file_sizes}
   */
   readonly fileSizes?: string[];
   /**
   * Filter based on the file source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#file_source CloudNssFeed#file_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#file_source CloudNssFeed#file_source}
   */
   readonly fileSource?: string[];
   /**
@@ -308,7 +308,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#file_type_categories CloudNssFeed#file_type_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#file_type_categories CloudNssFeed#file_type_categories}
   */
   readonly fileTypeCategories?: string[];
   /**
@@ -316,7 +316,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#file_type_super_categories CloudNssFeed#file_type_super_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#file_type_super_categories CloudNssFeed#file_type_super_categories}
   */
   readonly fileTypeSuperCategories?: string[];
   /**
@@ -325,49 +325,49 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				IPS_BLOCK_DROP,IPS_BLOCK_RESET,ALLOW_INSUFFICIENT_APPDATA,
   * 				BLOCK_ABUSE_DROP,INT_ERR_DROP,CFG_BYPASSED,CFG_TIMEDOUT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#firewall_actions CloudNssFeed#firewall_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#firewall_actions CloudNssFeed#firewall_actions}
   */
   readonly firewallActions?: string[];
   /**
   * Filter based on the Firewall Filtering policy logging mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#firewall_logging_mode CloudNssFeed#firewall_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#firewall_logging_mode CloudNssFeed#firewall_logging_mode}
   */
   readonly firewallLoggingMode?: string;
   /**
   * Filter to limit the logs based on specific full URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#full_urls CloudNssFeed#full_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#full_urls CloudNssFeed#full_urls}
   */
   readonly fullUrls?: string[];
   /**
   * Grant type applicable when SIEM type is set to Azure Sentinel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#grant_type CloudNssFeed#grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#grant_type CloudNssFeed#grant_type}
   */
   readonly grantType?: string;
   /**
   * Filter to limit the logs based on specific hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#host_names CloudNssFeed#host_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#host_names CloudNssFeed#host_names}
   */
   readonly hostNames?: string[];
   /**
   * Filter based on inbound bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#in_bound_bytes CloudNssFeed#in_bound_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#in_bound_bytes CloudNssFeed#in_bound_bytes}
   */
   readonly inBoundBytes?: string[];
   /**
   * Filter based on internal IPv4 addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#internal_ips CloudNssFeed#internal_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#internal_ips CloudNssFeed#internal_ips}
   */
   readonly internalIps?: string[];
   /**
   * A Boolean value indicating whether streaming of logs in JSON array format (e.g., [{JSON1},{JSON2}]) is enabled or disabled for the JSON feed output type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#json_array_toggle CloudNssFeed#json_array_toggle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#json_array_toggle CloudNssFeed#json_array_toggle}
   */
   readonly jsonArrayToggle?: boolean | cdktf.IResolvable;
   /**
@@ -375,7 +375,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#malware_classes CloudNssFeed#malware_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#malware_classes CloudNssFeed#malware_classes}
   */
   readonly malwareClasses?: string[];
   /**
@@ -383,44 +383,44 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#malware_names CloudNssFeed#malware_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#malware_names CloudNssFeed#malware_names}
   */
   readonly malwareNames?: string[];
   /**
   * The maximum batch size in KB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#max_batch_size CloudNssFeed#max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#max_batch_size CloudNssFeed#max_batch_size}
   */
   readonly maxBatchSize?: number;
   /**
   * The name of the cloud NSS feed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#name CloudNssFeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#name CloudNssFeed#name}
   */
   readonly name?: string;
   /**
   * NAT Control policy actions filter
   * 				Supported Values: NONE, DNAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#nat_actions CloudNssFeed#nat_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#nat_actions CloudNssFeed#nat_actions}
   */
   readonly natActions?: string[];
   /**
   * NSS feed format type (e.g. CSV, syslog, Splunk Common Information Model (CIM), etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#nss_feed_type CloudNssFeed#nss_feed_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#nss_feed_type CloudNssFeed#nss_feed_type}
   */
   readonly nssFeedType?: string;
   /**
   * The type of NSS logs that are streamed (e.g. Web, Firewall, DNS, Alert, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#nss_log_type CloudNssFeed#nss_log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#nss_log_type CloudNssFeed#nss_log_type}
   */
   readonly nssLogType?: string;
   /**
   * NSS type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#nss_type CloudNssFeed#nss_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#nss_type CloudNssFeed#nss_type}
   */
   readonly nssType?: string;
   /**
@@ -429,7 +429,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#nw_applications CloudNssFeed#nw_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#nw_applications CloudNssFeed#nw_applications}
   */
   readonly nwApplications?: string[];
   /**
@@ -438,25 +438,25 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#nw_applications_exclude CloudNssFeed#nw_applications_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#nw_applications_exclude CloudNssFeed#nw_applications_exclude}
   */
   readonly nwApplicationsExclude?: string[];
   /**
   * A Boolean value indicating whether OAuth 2.0 authentication is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#oauth_authentication CloudNssFeed#oauth_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#oauth_authentication CloudNssFeed#oauth_authentication}
   */
   readonly oauthAuthentication?: boolean | cdktf.IResolvable;
   /**
   * CRM object name filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#object_name CloudNssFeed#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#object_name CloudNssFeed#object_name}
   */
   readonly objectName?: string[];
   /**
   * CRM object type filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#object_type CloudNssFeed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#object_type CloudNssFeed#object_type}
   */
   readonly objectType?: string[];
   /**
@@ -464,7 +464,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#object_type1 CloudNssFeed#object_type1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#object_type1 CloudNssFeed#object_type1}
   */
   readonly objectType1?: string[];
   /**
@@ -472,19 +472,19 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#object_type2 CloudNssFeed#object_type2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#object_type2 CloudNssFeed#object_type2}
   */
   readonly objectType2?: string[];
   /**
   * Filter based on outbound bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#out_bound_bytes CloudNssFeed#out_bound_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#out_bound_bytes CloudNssFeed#out_bound_bytes}
   */
   readonly outBoundBytes?: string[];
   /**
   * Page Risk Index filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#page_risk_indexes CloudNssFeed#page_risk_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#page_risk_indexes CloudNssFeed#page_risk_indexes}
   */
   readonly pageRiskIndexes?: string[];
   /**
@@ -492,32 +492,32 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#policy_reasons CloudNssFeed#policy_reasons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#policy_reasons CloudNssFeed#policy_reasons}
   */
   readonly policyReasons?: string[];
   /**
   * Repository project name filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#project_name CloudNssFeed#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#project_name CloudNssFeed#project_name}
   */
   readonly projectName?: string[];
   /**
   * Protocol types filter
   * 				Supported Values: TUNNEL, SSL, HTTP, HTTPS, FTP, FTPOVERHTTP, HTTP_PROXY, TUNNEL_SSL, DNSOVERHTTPS, WEBSOCKET, WEBSOCKET_SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#protocol_types CloudNssFeed#protocol_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#protocol_types CloudNssFeed#protocol_types}
   */
   readonly protocolTypes?: string[];
   /**
   * Referrer URL filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#referer_urls CloudNssFeed#referer_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#referer_urls CloudNssFeed#referer_urls}
   */
   readonly refererUrls?: string[];
   /**
   * Repository name filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#repo_name CloudNssFeed#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#repo_name CloudNssFeed#repo_name}
   */
   readonly repoName?: string[];
   /**
@@ -525,13 +525,13 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#request_methods CloudNssFeed#request_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#request_methods CloudNssFeed#request_methods}
   */
   readonly requestMethods?: string[];
   /**
   * Request size filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#request_sizes CloudNssFeed#request_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#request_sizes CloudNssFeed#request_sizes}
   */
   readonly requestSizes?: string[];
   /**
@@ -539,67 +539,67 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#response_codes CloudNssFeed#response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#response_codes CloudNssFeed#response_codes}
   */
   readonly responseCodes?: string[];
   /**
   * Request size filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#response_sizes CloudNssFeed#response_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#response_sizes CloudNssFeed#response_sizes}
   */
   readonly responseSizes?: string[];
   /**
   * Scan time filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#scan_time CloudNssFeed#scan_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#scan_time CloudNssFeed#scan_time}
   */
   readonly scanTime?: string[];
   /**
   * Scope applicable when SIEM type is set to Azure Sentinel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#scope CloudNssFeed#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#scope CloudNssFeed#scope}
   */
   readonly scope?: string;
   /**
   * Filter based on the server's destination IPv4 addresses in Firewall policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#server_destination_ips CloudNssFeed#server_destination_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#server_destination_ips CloudNssFeed#server_destination_ips}
   */
   readonly serverDestinationIps?: string[];
   /**
   * Filter to limit the logs based on the server's IPv4 addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#server_ips CloudNssFeed#server_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#server_ips CloudNssFeed#server_ips}
   */
   readonly serverIps?: string[];
   /**
   * Filter based on the server's source IPv4 addresses in Firewall policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#server_source_ips CloudNssFeed#server_source_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#server_source_ips CloudNssFeed#server_source_ips}
   */
   readonly serverSourceIps?: string[];
   /**
   * Firewall log filter based on the traffic destination name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#server_source_ports CloudNssFeed#server_source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#server_source_ports CloudNssFeed#server_source_ports}
   */
   readonly serverSourcePorts?: string[];
   /**
   * Firewall logs filter based on the number of sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#session_counts CloudNssFeed#session_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#session_counts CloudNssFeed#session_counts}
   */
   readonly sessionCounts?: string[];
   /**
   * Cloud NSS SIEM type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#siem_type CloudNssFeed#siem_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#siem_type CloudNssFeed#siem_type}
   */
   readonly siemType?: string;
   /**
   * Filter based on threat names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#threat_names CloudNssFeed#threat_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#threat_names CloudNssFeed#threat_names}
   */
   readonly threatNames?: string[];
   /**
@@ -607,51 +607,51 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#time_zone CloudNssFeed#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#time_zone CloudNssFeed#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Filter based on the firewall traffic forwarding method
   * 				Supported Values: ANY, NONE, PBF, GRE, IPSEC, Z_APP, ZAPP_GRE, ZAPP_IPSEC, EC, MTGRE, ZAPP_DIRECT, CCA, MTUN_PROXY, MTUN_CBI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#traffic_forwards CloudNssFeed#traffic_forwards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#traffic_forwards CloudNssFeed#traffic_forwards}
   */
   readonly trafficForwards?: string[];
   /**
   * Transaction size filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#transaction_sizes CloudNssFeed#transaction_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#transaction_sizes CloudNssFeed#transaction_sizes}
   */
   readonly transactionSizes?: string[];
   /**
   * Destination IPv4 addresses of tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#tunnel_dest_ips CloudNssFeed#tunnel_dest_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#tunnel_dest_ips CloudNssFeed#tunnel_dest_ips}
   */
   readonly tunnelDestIps?: string[];
   /**
   * Filter based on tunnel IPv4 addresses in Firewall policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#tunnel_ips CloudNssFeed#tunnel_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#tunnel_ips CloudNssFeed#tunnel_ips}
   */
   readonly tunnelIps?: string[];
   /**
   * Source IPv4 addresses of tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#tunnel_source_ips CloudNssFeed#tunnel_source_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#tunnel_source_ips CloudNssFeed#tunnel_source_ips}
   */
   readonly tunnelSourceIps?: string[];
   /**
   * Filter based on the tunnel source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#tunnel_source_port CloudNssFeed#tunnel_source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#tunnel_source_port CloudNssFeed#tunnel_source_port}
   */
   readonly tunnelSourcePort?: string[];
   /**
   * Tunnel type filter
   * 				Supported Values: GRE, IPSEC_IKEV1, IPSEC_IKEV2, SVPN, EXTRANET, ZUB, ZCB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#tunnel_types CloudNssFeed#tunnel_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#tunnel_types CloudNssFeed#tunnel_types}
   */
   readonly tunnelTypes?: string[];
   /**
@@ -659,7 +659,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#url_classes CloudNssFeed#url_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#url_classes CloudNssFeed#url_classes}
   */
   readonly urlClasses?: string[];
   /**
@@ -667,7 +667,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#url_super_categories CloudNssFeed#url_super_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#url_super_categories CloudNssFeed#url_super_categories}
   */
   readonly urlSuperCategories?: string[];
   /**
@@ -675,7 +675,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#user_agents CloudNssFeed#user_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#user_agents CloudNssFeed#user_agents}
   */
   readonly userAgents?: string[];
   /**
@@ -683,7 +683,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				See the [Cloud Nanolog Streaming Service (NSS) documentation
   * 				https://help.zscaler.com/zia/cloud-nanolog-streaming-service-nss#/nssFeeds-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#web_application_classes CloudNssFeed#web_application_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#web_application_classes CloudNssFeed#web_application_classes}
   */
   readonly webApplicationClasses?: string[];
   /**
@@ -692,7 +692,7 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				To obtain the list of cloud applications that can be specified in this attribute, use the GET /cloudApplications/lite request
   * 				To retrieve the list of cloud applications, use the data source: zia_cloud_applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#web_applications CloudNssFeed#web_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#web_applications CloudNssFeed#web_applications}
   */
   readonly webApplications?: string[];
   /**
@@ -701,122 +701,122 @@ export interface CloudNssFeedConfig extends cdktf.TerraformMetaArguments {
   * 				To obtain the list of cloud applications that can be specified in this attribute, use the GET /cloudApplications/lite request.
   * 				To retrieve the list of cloud applications, use the data source: zia_cloud_applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#web_applications_exclude CloudNssFeed#web_applications_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#web_applications_exclude CloudNssFeed#web_applications_exclude}
   */
   readonly webApplicationsExclude?: string[];
   /**
   * Filter based on the web traffic forwarding method
   * 				Supported Values: ANY, NONE, PBF, GRE, IPSEC, Z_APP, ZAPP_GRE, ZAPP_IPSEC, EC, MTGRE, ZAPP_DIRECT, CCA, MTUN_PROXY, MTUN_CBI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#web_traffic_forwards CloudNssFeed#web_traffic_forwards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#web_traffic_forwards CloudNssFeed#web_traffic_forwards}
   */
   readonly webTrafficForwards?: string[];
   /**
   * buckets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#buckets CloudNssFeed#buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#buckets CloudNssFeed#buckets}
   */
   readonly buckets?: CloudNssFeedBuckets;
   /**
   * casb_tenant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#casb_tenant CloudNssFeed#casb_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#casb_tenant CloudNssFeed#casb_tenant}
   */
   readonly casbTenant?: CloudNssFeedCasbTenant;
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#departments CloudNssFeed#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#departments CloudNssFeed#departments}
   */
   readonly departments?: CloudNssFeedDepartments;
   /**
   * dlp_dictionaries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#dlp_dictionaries CloudNssFeed#dlp_dictionaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#dlp_dictionaries CloudNssFeed#dlp_dictionaries}
   */
   readonly dlpDictionaries?: CloudNssFeedDlpDictionaries;
   /**
   * dlp_engines block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#dlp_engines CloudNssFeed#dlp_engines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#dlp_engines CloudNssFeed#dlp_engines}
   */
   readonly dlpEngines?: CloudNssFeedDlpEngines;
   /**
   * external_collaborators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#external_collaborators CloudNssFeed#external_collaborators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#external_collaborators CloudNssFeed#external_collaborators}
   */
   readonly externalCollaborators?: CloudNssFeedExternalCollaborators;
   /**
   * external_owners block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#external_owners CloudNssFeed#external_owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#external_owners CloudNssFeed#external_owners}
   */
   readonly externalOwners?: CloudNssFeedExternalOwners;
   /**
   * internal_collaborators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#internal_collaborators CloudNssFeed#internal_collaborators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#internal_collaborators CloudNssFeed#internal_collaborators}
   */
   readonly internalCollaborators?: CloudNssFeedInternalCollaborators;
   /**
   * itsm_object_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#itsm_object_type CloudNssFeed#itsm_object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#itsm_object_type CloudNssFeed#itsm_object_type}
   */
   readonly itsmObjectType?: CloudNssFeedItsmObjectType;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#location_groups CloudNssFeed#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#location_groups CloudNssFeed#location_groups}
   */
   readonly locationGroups?: CloudNssFeedLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#locations CloudNssFeed#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#locations CloudNssFeed#locations}
   */
   readonly locations?: CloudNssFeedLocations;
   /**
   * nw_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#nw_services CloudNssFeed#nw_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#nw_services CloudNssFeed#nw_services}
   */
   readonly nwServices?: CloudNssFeedNwServices;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#rules CloudNssFeed#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#rules CloudNssFeed#rules}
   */
   readonly rules?: CloudNssFeedRules;
   /**
   * sender_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#sender_name CloudNssFeed#sender_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#sender_name CloudNssFeed#sender_name}
   */
   readonly senderName?: CloudNssFeedSenderName;
   /**
   * url_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#url_categories CloudNssFeed#url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#url_categories CloudNssFeed#url_categories}
   */
   readonly urlCategories?: CloudNssFeedUrlCategories;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#users CloudNssFeed#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#users CloudNssFeed#users}
   */
   readonly users?: CloudNssFeedUsers;
   /**
   * vpn_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#vpn_credentials CloudNssFeed#vpn_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#vpn_credentials CloudNssFeed#vpn_credentials}
   */
   readonly vpnCredentials?: CloudNssFeedVpnCredentials;
 }
 export interface CloudNssFeedBuckets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -903,7 +903,7 @@ export class CloudNssFeedBucketsOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudNssFeedCasbTenant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -990,7 +990,7 @@ export class CloudNssFeedCasbTenantOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudNssFeedDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1077,7 +1077,7 @@ export class CloudNssFeedDepartmentsOutputReference extends cdktf.ComplexObject 
 }
 export interface CloudNssFeedDlpDictionaries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1164,7 +1164,7 @@ export class CloudNssFeedDlpDictionariesOutputReference extends cdktf.ComplexObj
 }
 export interface CloudNssFeedDlpEngines {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1251,7 +1251,7 @@ export class CloudNssFeedDlpEnginesOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudNssFeedExternalCollaborators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1338,7 +1338,7 @@ export class CloudNssFeedExternalCollaboratorsOutputReference extends cdktf.Comp
 }
 export interface CloudNssFeedExternalOwners {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1425,7 +1425,7 @@ export class CloudNssFeedExternalOwnersOutputReference extends cdktf.ComplexObje
 }
 export interface CloudNssFeedInternalCollaborators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1512,7 +1512,7 @@ export class CloudNssFeedInternalCollaboratorsOutputReference extends cdktf.Comp
 }
 export interface CloudNssFeedItsmObjectType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1599,7 +1599,7 @@ export class CloudNssFeedItsmObjectTypeOutputReference extends cdktf.ComplexObje
 }
 export interface CloudNssFeedLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1686,7 +1686,7 @@ export class CloudNssFeedLocationGroupsOutputReference extends cdktf.ComplexObje
 }
 export interface CloudNssFeedLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1773,7 +1773,7 @@ export class CloudNssFeedLocationsOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudNssFeedNwServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1860,7 +1860,7 @@ export class CloudNssFeedNwServicesOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudNssFeedRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1947,7 +1947,7 @@ export class CloudNssFeedRulesOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudNssFeedSenderName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2034,7 +2034,7 @@ export class CloudNssFeedSenderNameOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudNssFeedUrlCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2121,7 +2121,7 @@ export class CloudNssFeedUrlCategoriesOutputReference extends cdktf.ComplexObjec
 }
 export interface CloudNssFeedUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2208,7 +2208,7 @@ export class CloudNssFeedUsersOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudNssFeedVpnCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#id CloudNssFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2295,7 +2295,7 @@ export class CloudNssFeedVpnCredentialsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed zia_cloud_nss_feed}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed zia_cloud_nss_feed}
 */
 export class CloudNssFeed extends cdktf.TerraformResource {
 
@@ -2311,7 +2311,7 @@ export class CloudNssFeed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudNssFeed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudNssFeed to import
-  * @param importFromId The id of the existing CloudNssFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudNssFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudNssFeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2323,7 +2323,7 @@ export class CloudNssFeed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_nss_feed zia_cloud_nss_feed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/cloud_nss_feed zia_cloud_nss_feed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2334,8 +2334,8 @@ export class CloudNssFeed extends cdktf.TerraformResource {
       terraformResourceType: 'zia_cloud_nss_feed',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.3',
-        providerVersionConstraint: '4.6.3'
+        providerVersion: '4.6.4',
+        providerVersionConstraint: '4.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

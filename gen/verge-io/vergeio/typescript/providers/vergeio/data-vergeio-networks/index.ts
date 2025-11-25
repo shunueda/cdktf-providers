@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/networks
+// https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/networks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVergeioNetworksConfig extends cdktf.TerraformMetaArguments 
   /**
   * Filter by name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/networks#filter_name DataVergeioNetworks#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/networks#filter_name DataVergeioNetworks#filter_name}
   */
   readonly filterName?: string;
   /**
   * Filter by type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/networks#filter_type DataVergeioNetworks#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/networks#filter_type DataVergeioNetworks#filter_type}
   */
   readonly filterType?: string;
 }
@@ -107,7 +107,7 @@ export class DataVergeioNetworksNetworksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/networks vergeio_networks}
+* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/networks vergeio_networks}
 */
 export class DataVergeioNetworks extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataVergeioNetworks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVergeioNetworks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVergeioNetworks to import
-  * @param importFromId The id of the existing DataVergeioNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/networks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVergeioNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/networks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVergeioNetworks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataVergeioNetworks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.1/docs/data-sources/networks vergeio_networks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/networks vergeio_networks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataVergeioNetworks extends cdktf.TerraformDataSource {
       terraformResourceType: 'vergeio_networks',
       terraformGeneratorMetadata: {
         providerName: 'vergeio',
-        providerVersion: '2.7.1',
-        providerVersionConstraint: '2.7.1'
+        providerVersion: '2.7.2',
+        providerVersionConstraint: '2.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

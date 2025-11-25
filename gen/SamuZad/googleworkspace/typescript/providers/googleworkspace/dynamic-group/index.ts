@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/dynamic_group
+// https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/dynamic_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DynamicGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * An extended description to help users determine the purpose of a group.For example, you can include information about who should join the group,the types of messages to send to the group, links to FAQs about the group, or related groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/dynamic_group#description DynamicGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/dynamic_group#description DynamicGroup#description}
   */
   readonly description?: string;
   /**
   * The group's email address. If your account has multiple domains,select the appropriate domain for the email address. The email must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/dynamic_group#email DynamicGroup#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/dynamic_group#email DynamicGroup#email}
   */
   readonly email: string;
   /**
   * One or more label entries that apply to the Group. Currently supported labels contain a key with an empty value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/dynamic_group#labels DynamicGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/dynamic_group#labels DynamicGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The group's display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/dynamic_group#name DynamicGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/dynamic_group#name DynamicGroup#name}
   */
   readonly name?: string;
   /**
   * The dynamic group query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/dynamic_group#query DynamicGroup#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/dynamic_group#query DynamicGroup#query}
   */
   readonly query: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/dynamic_group#timeouts DynamicGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/dynamic_group#timeouts DynamicGroup#timeouts}
   */
   readonly timeouts?: DynamicGroupTimeouts;
 }
 export interface DynamicGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/dynamic_group#create DynamicGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/dynamic_group#create DynamicGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/dynamic_group#update DynamicGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/dynamic_group#update DynamicGroup#update}
   */
   readonly update?: string;
 }
@@ -173,7 +173,7 @@ export class DynamicGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/dynamic_group googleworkspace_dynamic_group}
+* Represents a {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/dynamic_group googleworkspace_dynamic_group}
 */
 export class DynamicGroup extends cdktf.TerraformResource {
 
@@ -189,7 +189,7 @@ export class DynamicGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicGroup to import
-  * @param importFromId The id of the existing DynamicGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/dynamic_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/dynamic_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class DynamicGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.0/docs/resources/dynamic_group googleworkspace_dynamic_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samuzad/googleworkspace/0.11.1/docs/resources/dynamic_group googleworkspace_dynamic_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class DynamicGroup extends cdktf.TerraformResource {
       terraformResourceType: 'googleworkspace_dynamic_group',
       terraformGeneratorMetadata: {
         providerName: 'googleworkspace',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
