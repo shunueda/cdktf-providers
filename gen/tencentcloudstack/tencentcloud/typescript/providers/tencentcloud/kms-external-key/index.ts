@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface KmsExternalKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of CMK. The name can only contain English letters, numbers, underscore and hyphen '-'. The first character must be a letter or number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key#alias KmsExternalKey#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key#alias KmsExternalKey#alias}
   */
   readonly alias: string;
   /**
   * Description of CMK. The maximum is 1024 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key#description KmsExternalKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key#description KmsExternalKey#description}
   */
   readonly description?: string;
   /**
   * The HSM cluster ID corresponding to KMS Advanced Edition (only valid for KMS Exclusive/Managed Edition service instances).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key#hsm_cluster_id KmsExternalKey#hsm_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key#hsm_cluster_id KmsExternalKey#hsm_cluster_id}
   */
   readonly hsmClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key#id KmsExternalKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key#id KmsExternalKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface KmsExternalKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify whether to archive key. Default value is `false`. This field is conflict with `is_enabled`, valid when key_state is `Enabled`, `Disabled`, `Archived`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key#is_archived KmsExternalKey#is_archived}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key#is_archived KmsExternalKey#is_archived}
   */
   readonly isArchived?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to enable key. Default value is `false`. This field is conflict with `is_archived`, valid when key_state is `Enabled`, `Disabled`, `Archived`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key#is_enabled KmsExternalKey#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key#is_enabled KmsExternalKey#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * The base64-encoded key material encrypted with the public_key. For regions using the national secret version, the length of the imported key material is required to be 128 bits, and for regions using the FIPS version, the length of the imported key material is required to be 256 bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key#key_material_base64 KmsExternalKey#key_material_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key#key_material_base64 KmsExternalKey#key_material_base64}
   */
   readonly keyMaterialBase64?: string;
   /**
   * Duration in days after which the key is deleted after destruction of the resource, must be between 7 and 30 days. Defaults to 7 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key#pending_delete_window_in_days KmsExternalKey#pending_delete_window_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key#pending_delete_window_in_days KmsExternalKey#pending_delete_window_in_days}
   */
   readonly pendingDeleteWindowInDays?: number;
   /**
   * Tags of CMK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key#tags KmsExternalKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key#tags KmsExternalKey#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * This value means the effective timestamp of the key material, 0 means it does not expire. Need to be greater than the current timestamp, the maximum support is 2147443200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key#valid_to KmsExternalKey#valid_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key#valid_to KmsExternalKey#valid_to}
   */
   readonly validTo?: number;
   /**
   * The algorithm for encrypting key material. Available values include `RSAES_PKCS1_V1_5`, `RSAES_OAEP_SHA_1` and `RSAES_OAEP_SHA_256`. Default value is `RSAES_PKCS1_V1_5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key#wrapping_algorithm KmsExternalKey#wrapping_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key#wrapping_algorithm KmsExternalKey#wrapping_algorithm}
   */
   readonly wrappingAlgorithm?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key tencentcloud_kms_external_key}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key tencentcloud_kms_external_key}
 */
 export class KmsExternalKey extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class KmsExternalKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsExternalKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsExternalKey to import
-  * @param importFromId The id of the existing KmsExternalKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsExternalKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsExternalKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class KmsExternalKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kms_external_key tencentcloud_kms_external_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_external_key tencentcloud_kms_external_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class KmsExternalKey extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_kms_external_key',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

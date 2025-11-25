@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_usage_plan_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_usage_plan_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ApiGatewayUsagePlanAttachmentConfig extends cdktf.TerraformMeta
   /**
   * Array of key IDs to be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_usage_plan_attachment#access_key_ids ApiGatewayUsagePlanAttachment#access_key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_usage_plan_attachment#access_key_ids ApiGatewayUsagePlanAttachment#access_key_ids}
   */
   readonly accessKeyIds?: string[];
   /**
   * ID of the API. This parameter will be required when `bind_type` is `API`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_usage_plan_attachment#api_id ApiGatewayUsagePlanAttachment#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_usage_plan_attachment#api_id ApiGatewayUsagePlanAttachment#api_id}
   */
   readonly apiId?: string;
   /**
   * Binding type. Valid values: `API`, `SERVICE`. Default value is `SERVICE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_usage_plan_attachment#bind_type ApiGatewayUsagePlanAttachment#bind_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_usage_plan_attachment#bind_type ApiGatewayUsagePlanAttachment#bind_type}
   */
   readonly bindType?: string;
   /**
   * The environment to be bound. Valid values: `test`, `prepub`, `release`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_usage_plan_attachment#environment ApiGatewayUsagePlanAttachment#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_usage_plan_attachment#environment ApiGatewayUsagePlanAttachment#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_usage_plan_attachment#id ApiGatewayUsagePlanAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_usage_plan_attachment#id ApiGatewayUsagePlanAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface ApiGatewayUsagePlanAttachmentConfig extends cdktf.TerraformMeta
   /**
   * ID of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_usage_plan_attachment#service_id ApiGatewayUsagePlanAttachment#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_usage_plan_attachment#service_id ApiGatewayUsagePlanAttachment#service_id}
   */
   readonly serviceId: string;
   /**
   * ID of the usage plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_usage_plan_attachment#usage_plan_id ApiGatewayUsagePlanAttachment#usage_plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_usage_plan_attachment#usage_plan_id ApiGatewayUsagePlanAttachment#usage_plan_id}
   */
   readonly usagePlanId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_usage_plan_attachment tencentcloud_api_gateway_usage_plan_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_usage_plan_attachment tencentcloud_api_gateway_usage_plan_attachment}
 */
 export class ApiGatewayUsagePlanAttachment extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ApiGatewayUsagePlanAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayUsagePlanAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayUsagePlanAttachment to import
-  * @param importFromId The id of the existing ApiGatewayUsagePlanAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_usage_plan_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayUsagePlanAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_usage_plan_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayUsagePlanAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ApiGatewayUsagePlanAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_usage_plan_attachment tencentcloud_api_gateway_usage_plan_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_usage_plan_attachment tencentcloud_api_gateway_usage_plan_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ApiGatewayUsagePlanAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_api_gateway_usage_plan_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

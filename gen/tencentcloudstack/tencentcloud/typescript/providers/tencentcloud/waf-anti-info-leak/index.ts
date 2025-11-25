@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface WafAntiInfoLeakConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rule Action, 0 (log), 1 (replace), 2 (only display the first four digits), 3 (only display the last four digits), 4 (deny).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak#action_type WafAntiInfoLeak#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak#action_type WafAntiInfoLeak#action_type}
   */
   readonly actionType: number;
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak#domain WafAntiInfoLeak#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak#domain WafAntiInfoLeak#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak#id WafAntiInfoLeak#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak#id WafAntiInfoLeak#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface WafAntiInfoLeakConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rule Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak#name WafAntiInfoLeak#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak#name WafAntiInfoLeak#name}
   */
   readonly name: string;
   /**
   * status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak#status WafAntiInfoLeak#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak#status WafAntiInfoLeak#status}
   */
   readonly status?: number;
   /**
   * Uri.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak#uri WafAntiInfoLeak#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak#uri WafAntiInfoLeak#uri}
   */
   readonly uri: string;
   /**
   * strategies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak#strategies WafAntiInfoLeak#strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak#strategies WafAntiInfoLeak#strategies}
   */
   readonly strategies: WafAntiInfoLeakStrategies[] | cdktf.IResolvable;
 }
@@ -60,13 +60,13 @@ export interface WafAntiInfoLeakStrategies {
   *           400 (status code 400), 403 (status code 403), 404 (status code 404), 4xx (other 4xx status codes), 500 (status code 500), 501 (status code 501), 502 (status code 502), 504 (status code 504), and 5xx (other 5xx status codes).
   *           When Field is set to keywords, users need to input the matching content themselves.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak#content WafAntiInfoLeak#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak#content WafAntiInfoLeak#content}
   */
   readonly content: string;
   /**
   * Matching Criteria, returncode (Response Code), keywords (Keywords), information (Sensitive Information).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak#field WafAntiInfoLeak#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak#field WafAntiInfoLeak#field}
   */
   readonly field: string;
 }
@@ -205,7 +205,7 @@ export class WafAntiInfoLeakStrategiesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak tencentcloud_waf_anti_info_leak}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak tencentcloud_waf_anti_info_leak}
 */
 export class WafAntiInfoLeak extends cdktf.TerraformResource {
 
@@ -221,7 +221,7 @@ export class WafAntiInfoLeak extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafAntiInfoLeak resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafAntiInfoLeak to import
-  * @param importFromId The id of the existing WafAntiInfoLeak that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafAntiInfoLeak that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafAntiInfoLeak to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class WafAntiInfoLeak extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_anti_info_leak tencentcloud_waf_anti_info_leak} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_anti_info_leak tencentcloud_waf_anti_info_leak} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class WafAntiInfoLeak extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_anti_info_leak',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

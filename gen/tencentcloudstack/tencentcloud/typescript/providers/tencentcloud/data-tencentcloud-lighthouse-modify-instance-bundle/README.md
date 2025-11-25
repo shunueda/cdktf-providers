@@ -1,3 +1,3 @@
 # `data_tencentcloud_lighthouse_modify_instance_bundle`
 
-Refer to the Terraform Registry for docs: [`data_tencentcloud_lighthouse_modify_instance_bundle`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/lighthouse_modify_instance_bundle).
+Refer to the Terraform Registry for docs: [`data_tencentcloud_lighthouse_modify_instance_bundle`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/lighthouse_modify_instance_bundle).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_cluster_native_node_pools
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/kubernetes_cluster_native_node_pools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudKubernetesClusterNativeNodePoolsConfig extends 
   /**
   * ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_cluster_native_node_pools#cluster_id DataTencentcloudKubernetesClusterNativeNodePools#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/kubernetes_cluster_native_node_pools#cluster_id DataTencentcloudKubernetesClusterNativeNodePools#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_cluster_native_node_pools#id DataTencentcloudKubernetesClusterNativeNodePools#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/kubernetes_cluster_native_node_pools#id DataTencentcloudKubernetesClusterNativeNodePools#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudKubernetesClusterNativeNodePoolsConfig extends 
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_cluster_native_node_pools#result_output_file DataTencentcloudKubernetesClusterNativeNodePools#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/kubernetes_cluster_native_node_pools#result_output_file DataTencentcloudKubernetesClusterNativeNodePools#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_cluster_native_node_pools#filters DataTencentcloudKubernetesClusterNativeNodePools#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/kubernetes_cluster_native_node_pools#filters DataTencentcloudKubernetesClusterNativeNodePools#filters}
   */
   readonly filters?: DataTencentcloudKubernetesClusterNativeNodePoolsFilters[] | cdktf.IResolvable;
 }
@@ -1370,13 +1370,13 @@ export interface DataTencentcloudKubernetesClusterNativeNodePoolsFilters {
   /**
   * The attribute name, if there are multiple filters, the relationship between the filters is a logical AND relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_cluster_native_node_pools#name DataTencentcloudKubernetesClusterNativeNodePools#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/kubernetes_cluster_native_node_pools#name DataTencentcloudKubernetesClusterNativeNodePools#name}
   */
   readonly name: string;
   /**
   * Attribute values, if there are multiple values in the same filter, the relationship between values under the same filter is a logical OR relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_cluster_native_node_pools#values DataTencentcloudKubernetesClusterNativeNodePools#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/kubernetes_cluster_native_node_pools#values DataTencentcloudKubernetesClusterNativeNodePools#values}
   */
   readonly values: string[];
 }
@@ -1515,7 +1515,7 @@ export class DataTencentcloudKubernetesClusterNativeNodePoolsFiltersList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_cluster_native_node_pools tencentcloud_kubernetes_cluster_native_node_pools}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/kubernetes_cluster_native_node_pools tencentcloud_kubernetes_cluster_native_node_pools}
 */
 export class DataTencentcloudKubernetesClusterNativeNodePools extends cdktf.TerraformDataSource {
 
@@ -1531,7 +1531,7 @@ export class DataTencentcloudKubernetesClusterNativeNodePools extends cdktf.Terr
   * Generates CDKTF code for importing a DataTencentcloudKubernetesClusterNativeNodePools resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudKubernetesClusterNativeNodePools to import
-  * @param importFromId The id of the existing DataTencentcloudKubernetesClusterNativeNodePools that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_cluster_native_node_pools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudKubernetesClusterNativeNodePools that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/kubernetes_cluster_native_node_pools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudKubernetesClusterNativeNodePools to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1543,7 +1543,7 @@ export class DataTencentcloudKubernetesClusterNativeNodePools extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_cluster_native_node_pools tencentcloud_kubernetes_cluster_native_node_pools} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/kubernetes_cluster_native_node_pools tencentcloud_kubernetes_cluster_native_node_pools} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1554,8 +1554,8 @@ export class DataTencentcloudKubernetesClusterNativeNodePools extends cdktf.Terr
       terraformResourceType: 'tencentcloud_kubernetes_cluster_native_node_pools',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

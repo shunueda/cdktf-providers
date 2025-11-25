@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dc_access_points
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dc_access_points
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDcAccessPointsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dc_access_points#id DataTencentcloudDcAccessPoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dc_access_points#id DataTencentcloudDcAccessPoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudDcAccessPointsConfig extends cdktf.TerraformMet
   /**
   * Access point region, which can be queried through `DescribeRegions`.You can call `DescribeRegions` to get the region ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dc_access_points#region_id DataTencentcloudDcAccessPoints#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dc_access_points#region_id DataTencentcloudDcAccessPoints#region_id}
   */
   readonly regionId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dc_access_points#result_output_file DataTencentcloudDcAccessPoints#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dc_access_points#result_output_file DataTencentcloudDcAccessPoints#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -235,7 +235,7 @@ export class DataTencentcloudDcAccessPointsAccessPointSetList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dc_access_points tencentcloud_dc_access_points}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dc_access_points tencentcloud_dc_access_points}
 */
 export class DataTencentcloudDcAccessPoints extends cdktf.TerraformDataSource {
 
@@ -251,7 +251,7 @@ export class DataTencentcloudDcAccessPoints extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDcAccessPoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDcAccessPoints to import
-  * @param importFromId The id of the existing DataTencentcloudDcAccessPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dc_access_points#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDcAccessPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dc_access_points#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDcAccessPoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -263,7 +263,7 @@ export class DataTencentcloudDcAccessPoints extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dc_access_points tencentcloud_dc_access_points} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dc_access_points tencentcloud_dc_access_points} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,8 +274,8 @@ export class DataTencentcloudDcAccessPoints extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dc_access_points',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface VodAdaptiveDynamicStreamingTemplateConfig extends cdktf.Terrafo
   /**
   * Template description. Length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#comment VodAdaptiveDynamicStreamingTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#comment VodAdaptiveDynamicStreamingTemplate#comment}
   */
   readonly comment?: string;
   /**
   * Whether to prohibit transcoding video from low bitrate to high bitrate. Valid values: `false`,`true`. `false`: no, `true`: yes. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#disable_higher_video_bitrate VodAdaptiveDynamicStreamingTemplate#disable_higher_video_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#disable_higher_video_bitrate VodAdaptiveDynamicStreamingTemplate#disable_higher_video_bitrate}
   */
   readonly disableHigherVideoBitrate?: boolean | cdktf.IResolvable;
   /**
   * Whether to prohibit transcoding from low resolution to high resolution. Valid values: `false`,`true`. `false`: no, `true`: yes. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#disable_higher_video_resolution VodAdaptiveDynamicStreamingTemplate#disable_higher_video_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#disable_higher_video_resolution VodAdaptiveDynamicStreamingTemplate#disable_higher_video_resolution}
   */
   readonly disableHigherVideoResolution?: boolean | cdktf.IResolvable;
   /**
   * DRM scheme type. Valid values: `SimpleAES`. If this field is an empty string, DRM will not be performed on the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#drm_type VodAdaptiveDynamicStreamingTemplate#drm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#drm_type VodAdaptiveDynamicStreamingTemplate#drm_type}
   */
   readonly drmType?: string;
   /**
   * Adaptive bitstream format. Valid values: `HLS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#format VodAdaptiveDynamicStreamingTemplate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#format VodAdaptiveDynamicStreamingTemplate#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#id VodAdaptiveDynamicStreamingTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#id VodAdaptiveDynamicStreamingTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ export interface VodAdaptiveDynamicStreamingTemplateConfig extends cdktf.Terrafo
   /**
   * Template name. Length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#name VodAdaptiveDynamicStreamingTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#name VodAdaptiveDynamicStreamingTemplate#name}
   */
   readonly name: string;
   /**
@@ -56,19 +56,19 @@ export interface VodAdaptiveDynamicStreamingTemplateConfig extends cdktf.Terrafo
   * - fmp4: fmp4 segment;
   * Default value: ts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#segment_type VodAdaptiveDynamicStreamingTemplate#segment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#segment_type VodAdaptiveDynamicStreamingTemplate#segment_type}
   */
   readonly segmentType?: string;
   /**
   * The VOD [application](https://intl.cloud.tencent.com/document/product/266/14574) ID. For customers who activate VOD service from December 25, 2023, if they want to access resources in a VOD application (whether it's the default application or a newly created one), they must fill in this field with the application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#sub_app_id VodAdaptiveDynamicStreamingTemplate#sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#sub_app_id VodAdaptiveDynamicStreamingTemplate#sub_app_id}
   */
   readonly subAppId?: number;
   /**
   * stream_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#stream_info VodAdaptiveDynamicStreamingTemplate#stream_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#stream_info VodAdaptiveDynamicStreamingTemplate#stream_info}
   */
   readonly streamInfo: VodAdaptiveDynamicStreamingTemplateStreamInfo[] | cdktf.IResolvable;
 }
@@ -76,25 +76,25 @@ export interface VodAdaptiveDynamicStreamingTemplateStreamInfoAudio {
   /**
   * Audio channel system. Valid values: mono, dual, stereo. Default value: dual.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#audio_channel VodAdaptiveDynamicStreamingTemplate#audio_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#audio_channel VodAdaptiveDynamicStreamingTemplate#audio_channel}
   */
   readonly audioChannel?: string;
   /**
   * Audio stream bitrate in Kbps. Value range: `0` and `[26, 256]`. If the value is `0`, the bitrate of the audio stream will be the same as that of the original audio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#bitrate VodAdaptiveDynamicStreamingTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#bitrate VodAdaptiveDynamicStreamingTemplate#bitrate}
   */
   readonly bitrate: number;
   /**
   * Audio stream encoder. Valid value are: `libfdk_aac` and `libmp3lame`. while `libfdk_aac` is recommended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#codec VodAdaptiveDynamicStreamingTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#codec VodAdaptiveDynamicStreamingTemplate#codec}
   */
   readonly codec: string;
   /**
   * Audio stream sample rate. Valid values: `32000`, `44100`, `48000`Hz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#sample_rate VodAdaptiveDynamicStreamingTemplate#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#sample_rate VodAdaptiveDynamicStreamingTemplate#sample_rate}
   */
   readonly sampleRate: number;
 }
@@ -258,7 +258,7 @@ export interface VodAdaptiveDynamicStreamingTemplateStreamInfoTehdConfig {
   /**
   * Video bitrate limit, which is valid when Type specifies extreme speed HD type. If you leave it empty or enter 0, there is no video bitrate limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#max_video_bitrate VodAdaptiveDynamicStreamingTemplate#max_video_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#max_video_bitrate VodAdaptiveDynamicStreamingTemplate#max_video_bitrate}
   */
   readonly maxVideoBitrate?: number;
   /**
@@ -266,7 +266,7 @@ export interface VodAdaptiveDynamicStreamingTemplateStreamInfoTehdConfig {
   * - TEHD-100: super high definition-100th;
   * - OFF: turn off Ultra High definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#type VodAdaptiveDynamicStreamingTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#type VodAdaptiveDynamicStreamingTemplate#type}
   */
   readonly type: string;
 }
@@ -378,13 +378,13 @@ export interface VodAdaptiveDynamicStreamingTemplateStreamInfoVideo {
   /**
   * Bitrate of video stream in Kbps. Value range: `0` and `[128, 35000]`. If the value is `0`, the bitrate of the video will be the same as that of the source video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#bitrate VodAdaptiveDynamicStreamingTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#bitrate VodAdaptiveDynamicStreamingTemplate#bitrate}
   */
   readonly bitrate: number;
   /**
   * Video stream encoder. Valid values: `libx264`,`libx265`,`av1`. `libx264`: H.264, `libx265`: H.265, `av1`: AOMedia Video 1. Currently, a resolution within 640x480 must be specified for `H.265`. and the `av1` container only supports mp4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#codec VodAdaptiveDynamicStreamingTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#codec VodAdaptiveDynamicStreamingTemplate#codec}
   */
   readonly codec: string;
   /**
@@ -393,31 +393,31 @@ export interface VodAdaptiveDynamicStreamingTemplateStreamInfoVideo {
   * - hev1: stands for the hev1 tag;
   * Default value: hvc1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#codec_tag VodAdaptiveDynamicStreamingTemplate#codec_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#codec_tag VodAdaptiveDynamicStreamingTemplate#codec_tag}
   */
   readonly codecTag?: string;
   /**
   * Fill type. Fill refers to the way of processing a screenshot when its aspect ratio is different from that of the source video. The following fill types are supported: `stretch`: stretch. The screenshot will be stretched frame by frame to match the aspect ratio of the source video, which may make the screenshot shorter or longer; `black`: fill with black. This option retains the aspect ratio of the source video for the screenshot and fills the unmatched area with black color blocks. Default value: black. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#fill_type VodAdaptiveDynamicStreamingTemplate#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#fill_type VodAdaptiveDynamicStreamingTemplate#fill_type}
   */
   readonly fillType?: string;
   /**
   * Video frame rate in Hz. Value range: `[0, 60]`. If the value is `0`, the frame rate will be the same as that of the source video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#fps VodAdaptiveDynamicStreamingTemplate#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#fps VodAdaptiveDynamicStreamingTemplate#fps}
   */
   readonly fps: number;
   /**
   * Interval between Keyframe I frames, value range: 0 and [1, 100000], unit: number of frames. When you fill in 0 or leave it empty, the gop length is automatically set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#gop VodAdaptiveDynamicStreamingTemplate#gop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#gop VodAdaptiveDynamicStreamingTemplate#gop}
   */
   readonly gop?: number;
   /**
   * Maximum value of the height (or short side) of a video stream in px. Value range: `0` and `[128, 4096]`. If both `width` and `height` are `0`, the resolution will be the same as that of the source video; If `width` is `0`, but `height` is not `0`, `width` will be proportionally scaled; If `width` is not `0`, but `height` is `0`, `height` will be proportionally scaled; If both `width` and `height` are not `0`, the custom resolution will be used. Default value: `0`. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#height VodAdaptiveDynamicStreamingTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#height VodAdaptiveDynamicStreamingTemplate#height}
   */
   readonly height?: number;
   /**
@@ -426,13 +426,13 @@ export interface VodAdaptiveDynamicStreamingTemplateStreamInfoVideo {
   * - OFF: regardless of whether the original file is HDR or SDR, the transcoding output is SDR;
   * Default value: OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#preserve_hdr_switch VodAdaptiveDynamicStreamingTemplate#preserve_hdr_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#preserve_hdr_switch VodAdaptiveDynamicStreamingTemplate#preserve_hdr_switch}
   */
   readonly preserveHdrSwitch?: string;
   /**
   * Resolution adaption. Valid values: `true`,`false`. `true`: enabled. In this case, `width` represents the long side of a video, while `height` the short side; `false`: disabled. In this case, `width` represents the width of a video, while `height` the height. Default value: `true`. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#resolution_adaptive VodAdaptiveDynamicStreamingTemplate#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#resolution_adaptive VodAdaptiveDynamicStreamingTemplate#resolution_adaptive}
   */
   readonly resolutionAdaptive?: boolean | cdktf.IResolvable;
   /**
@@ -442,13 +442,13 @@ export interface VodAdaptiveDynamicStreamingTemplateStreamInfoVideo {
   * - This field is required when the video stream encoding format is H.266. The recommended value is 28;
   * - If there are no special requirements, it is not recommended to specify this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#vcrf VodAdaptiveDynamicStreamingTemplate#vcrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#vcrf VodAdaptiveDynamicStreamingTemplate#vcrf}
   */
   readonly vcrf?: number;
   /**
   * Maximum value of the width (or long side) of a video stream in px. Value range: `0` and `[128, 4096]`. If both `width` and `height` are `0`, the resolution will be the same as that of the source video; If `width` is `0`, but `height` is not `0`, `width` will be proportionally scaled; If `width` is not `0`, but `height` is `0`, `height` will be proportionally scaled; If both `width` and `height` are not `0`, the custom resolution will be used. Default value: `0`. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#width VodAdaptiveDynamicStreamingTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#width VodAdaptiveDynamicStreamingTemplate#width}
   */
   readonly width?: number;
 }
@@ -815,31 +815,31 @@ export interface VodAdaptiveDynamicStreamingTemplateStreamInfo {
   /**
   * Whether to remove audio stream. Valid values: `false`: no, `true`: yes. `false` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#remove_audio VodAdaptiveDynamicStreamingTemplate#remove_audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#remove_audio VodAdaptiveDynamicStreamingTemplate#remove_audio}
   */
   readonly removeAudio?: boolean | cdktf.IResolvable;
   /**
   * Whether to remove video stream. Valid values: `false`: no, `true`: yes. `false` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#remove_video VodAdaptiveDynamicStreamingTemplate#remove_video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#remove_video VodAdaptiveDynamicStreamingTemplate#remove_video}
   */
   readonly removeVideo?: boolean | cdktf.IResolvable;
   /**
   * audio block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#audio VodAdaptiveDynamicStreamingTemplate#audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#audio VodAdaptiveDynamicStreamingTemplate#audio}
   */
   readonly audio: VodAdaptiveDynamicStreamingTemplateStreamInfoAudio;
   /**
   * tehd_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#tehd_config VodAdaptiveDynamicStreamingTemplate#tehd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#tehd_config VodAdaptiveDynamicStreamingTemplate#tehd_config}
   */
   readonly tehdConfig?: VodAdaptiveDynamicStreamingTemplateStreamInfoTehdConfig;
   /**
   * video block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#video VodAdaptiveDynamicStreamingTemplate#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#video VodAdaptiveDynamicStreamingTemplate#video}
   */
   readonly video: VodAdaptiveDynamicStreamingTemplateStreamInfoVideo;
 }
@@ -1065,7 +1065,7 @@ export class VodAdaptiveDynamicStreamingTemplateStreamInfoList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template tencentcloud_vod_adaptive_dynamic_streaming_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template tencentcloud_vod_adaptive_dynamic_streaming_template}
 */
 export class VodAdaptiveDynamicStreamingTemplate extends cdktf.TerraformResource {
 
@@ -1081,7 +1081,7 @@ export class VodAdaptiveDynamicStreamingTemplate extends cdktf.TerraformResource
   * Generates CDKTF code for importing a VodAdaptiveDynamicStreamingTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VodAdaptiveDynamicStreamingTemplate to import
-  * @param importFromId The id of the existing VodAdaptiveDynamicStreamingTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VodAdaptiveDynamicStreamingTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VodAdaptiveDynamicStreamingTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1093,7 +1093,7 @@ export class VodAdaptiveDynamicStreamingTemplate extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_adaptive_dynamic_streaming_template tencentcloud_vod_adaptive_dynamic_streaming_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_adaptive_dynamic_streaming_template tencentcloud_vod_adaptive_dynamic_streaming_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1104,8 +1104,8 @@ export class VodAdaptiveDynamicStreamingTemplate extends cdktf.TerraformResource
       terraformResourceType: 'tencentcloud_vod_adaptive_dynamic_streaming_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

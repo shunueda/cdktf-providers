@@ -12,6 +12,8 @@ Object.defineProperty(exports, 'backupPolicyBindings', { get: function () { retu
 Object.defineProperty(exports, 'billingCloudBinding', { get: function () { return require('./billing-cloud-binding'); } });
 Object.defineProperty(exports, 'cdnOriginGroup', { get: function () { return require('./cdn-origin-group'); } });
 Object.defineProperty(exports, 'cdnResource', { get: function () { return require('./cdn-resource'); } });
+Object.defineProperty(exports, 'cloudDesktopsDesktop', { get: function () { return require('./cloud-desktops-desktop'); } });
+Object.defineProperty(exports, 'cloudDesktopsDesktopGroup', { get: function () { return require('./cloud-desktops-desktop-group'); } });
 Object.defineProperty(exports, 'cloudregistryRegistry', { get: function () { return require('./cloudregistry-registry'); } });
 Object.defineProperty(exports, 'cloudregistryRegistryIamBinding', { get: function () { return require('./cloudregistry-registry-iam-binding'); } });
 Object.defineProperty(exports, 'cloudregistryRegistryIpPermission', { get: function () { return require('./cloudregistry-registry-ip-permission'); } });
@@ -204,6 +206,9 @@ Object.defineProperty(exports, 'dataYandexBillingCloudBinding', { get: function 
 Object.defineProperty(exports, 'dataYandexCdnOriginGroup', { get: function () { return require('./data-yandex-cdn-origin-group'); } });
 Object.defineProperty(exports, 'dataYandexCdnResource', { get: function () { return require('./data-yandex-cdn-resource'); } });
 Object.defineProperty(exports, 'dataYandexClientConfig', { get: function () { return require('./data-yandex-client-config'); } });
+Object.defineProperty(exports, 'dataYandexCloudDesktopsDesktop', { get: function () { return require('./data-yandex-cloud-desktops-desktop'); } });
+Object.defineProperty(exports, 'dataYandexCloudDesktopsDesktopGroup', { get: function () { return require('./data-yandex-cloud-desktops-desktop-group'); } });
+Object.defineProperty(exports, 'dataYandexCloudDesktopsImage', { get: function () { return require('./data-yandex-cloud-desktops-image'); } });
 Object.defineProperty(exports, 'dataYandexCloudregistryRegistry', { get: function () { return require('./data-yandex-cloudregistry-registry'); } });
 Object.defineProperty(exports, 'dataYandexCloudregistryRegistryIpPermission', { get: function () { return require('./data-yandex-cloudregistry-registry-ip-permission'); } });
 Object.defineProperty(exports, 'dataYandexCmCertificate', { get: function () { return require('./data-yandex-cm-certificate'); } });

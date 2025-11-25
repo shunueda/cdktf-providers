@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/cloudregistry_registry
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/cloudregistry_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataYandexCloudregistryRegistryConfig extends cdktf.TerraformMe
   /**
   * ID of the folder that the registry belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/cloudregistry_registry#folder_id DataYandexCloudregistryRegistry#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/cloudregistry_registry#folder_id DataYandexCloudregistryRegistry#folder_id}
   */
   readonly folderId?: string;
   /**
@@ -18,7 +18,7 @@ export interface DataYandexCloudregistryRegistryConfig extends cdktf.TerraformMe
   * 
   *  To get the registry ID use a [RegistryService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/cloudregistry_registry#id DataYandexCloudregistryRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/cloudregistry_registry#id DataYandexCloudregistryRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,11 +29,11 @@ export interface DataYandexCloudregistryRegistryConfig extends cdktf.TerraformMe
   * 
   *  To get the registry ID use a [RegistryService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/cloudregistry_registry#registry_id DataYandexCloudregistryRegistry#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/cloudregistry_registry#registry_id DataYandexCloudregistryRegistry#registry_id}
   */
   readonly registryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/cloudregistry_registry#timeouts DataYandexCloudregistryRegistry#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/cloudregistry_registry#timeouts DataYandexCloudregistryRegistry#timeouts}
   */
   readonly timeouts?: DataYandexCloudregistryRegistryTimeouts;
 }
@@ -41,25 +41,25 @@ export interface DataYandexCloudregistryRegistryTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/cloudregistry_registry#create DataYandexCloudregistryRegistry#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/cloudregistry_registry#create DataYandexCloudregistryRegistry#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/cloudregistry_registry#delete DataYandexCloudregistryRegistry#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/cloudregistry_registry#delete DataYandexCloudregistryRegistry#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/cloudregistry_registry#read DataYandexCloudregistryRegistry#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/cloudregistry_registry#read DataYandexCloudregistryRegistry#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/cloudregistry_registry#update DataYandexCloudregistryRegistry#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/cloudregistry_registry#update DataYandexCloudregistryRegistry#update}
   */
   readonly update?: string;
 }
@@ -240,7 +240,7 @@ export class DataYandexCloudregistryRegistryTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/cloudregistry_registry yandex_cloudregistry_registry}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/cloudregistry_registry yandex_cloudregistry_registry}
 */
 export class DataYandexCloudregistryRegistry extends cdktf.TerraformDataSource {
 
@@ -256,7 +256,7 @@ export class DataYandexCloudregistryRegistry extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexCloudregistryRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexCloudregistryRegistry to import
-  * @param importFromId The id of the existing DataYandexCloudregistryRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/cloudregistry_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexCloudregistryRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/cloudregistry_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexCloudregistryRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +268,7 @@ export class DataYandexCloudregistryRegistry extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/cloudregistry_registry yandex_cloudregistry_registry} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/cloudregistry_registry yandex_cloudregistry_registry} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,8 +279,8 @@ export class DataYandexCloudregistryRegistry extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_cloudregistry_registry',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

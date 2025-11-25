@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git
+// https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,137 +10,137 @@ export interface BootstrapGitConfig extends cdktf.TerraformMetaArguments {
   /**
   * The internal cluster domain. Defaults to `cluster.local`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#cluster_domain BootstrapGit#cluster_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#cluster_domain BootstrapGit#cluster_domain}
   */
   readonly clusterDomain?: string;
   /**
   * Toolkit components to include in the install manifests. Defaults to `[source-controller kustomize-controller helm-controller notification-controller]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#components BootstrapGit#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#components BootstrapGit#components}
   */
   readonly components?: string[];
   /**
   * List of extra components to include in the install manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#components_extra BootstrapGit#components_extra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#components_extra BootstrapGit#components_extra}
   */
   readonly componentsExtra?: string[];
   /**
   * Delete manifests from git repository. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#delete_git_manifests BootstrapGit#delete_git_manifests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#delete_git_manifests BootstrapGit#delete_git_manifests}
   */
   readonly deleteGitManifests?: boolean | cdktf.IResolvable;
   /**
   * Use the existing secret for flux controller and don't create one from bootstrap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#disable_secret_creation BootstrapGit#disable_secret_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#disable_secret_creation BootstrapGit#disable_secret_creation}
   */
   readonly disableSecretCreation?: boolean | cdktf.IResolvable;
   /**
   * When enabled, the Flux manifests will be extracted from the provider binary instead of being downloaded from GitHub.com. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#embedded_manifests BootstrapGit#embedded_manifests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#embedded_manifests BootstrapGit#embedded_manifests}
   */
   readonly embeddedManifests?: boolean | cdktf.IResolvable;
   /**
   * Kubernetes secret name used for pulling the toolkit images from a private registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#image_pull_secret BootstrapGit#image_pull_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#image_pull_secret BootstrapGit#image_pull_secret}
   */
   readonly imagePullSecret?: string;
   /**
   * Interval at which to reconcile from bootstrap repository. Defaults to `1m0s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#interval BootstrapGit#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#interval BootstrapGit#interval}
   */
   readonly interval?: string;
   /**
   * Keep the namespace after uninstalling Flux components. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#keep_namespace BootstrapGit#keep_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#keep_namespace BootstrapGit#keep_namespace}
   */
   readonly keepNamespace?: boolean | cdktf.IResolvable;
   /**
   * Kustomization to override configuration set by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#kustomization_override BootstrapGit#kustomization_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#kustomization_override BootstrapGit#kustomization_override}
   */
   readonly kustomizationOverride?: string;
   /**
   * Log level for toolkit components. Defaults to `info`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#log_level BootstrapGit#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#log_level BootstrapGit#log_level}
   */
   readonly logLevel?: string;
   /**
   * The install manifests are built from a GitHub release or kustomize overlay if using a local path. Defaults to `https://github.com/fluxcd/flux2/releases`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#manifests_path BootstrapGit#manifests_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#manifests_path BootstrapGit#manifests_path}
   */
   readonly manifestsPath?: string;
   /**
   * The namespace scope for install manifests. Defaults to `flux-system`. It will be created if it does not exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#namespace BootstrapGit#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#namespace BootstrapGit#namespace}
   */
   readonly namespace?: string;
   /**
   * Deny ingress access to the toolkit controllers from other namespaces using network policies. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#network_policy BootstrapGit#network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#network_policy BootstrapGit#network_policy}
   */
   readonly networkPolicy?: boolean | cdktf.IResolvable;
   /**
   * Path relative to the repository root, when specified the cluster sync will be scoped to this path (immutable).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#path BootstrapGit#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#path BootstrapGit#path}
   */
   readonly path?: string;
   /**
   * Configures the GitRepository source to initialize and include Git submodules in the artifact it produces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#recurse_submodules BootstrapGit#recurse_submodules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#recurse_submodules BootstrapGit#recurse_submodules}
   */
   readonly recurseSubmodules?: boolean | cdktf.IResolvable;
   /**
   * Container registry where the toolkit images are published. Defaults to `ghcr.io/fluxcd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#registry BootstrapGit#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#registry BootstrapGit#registry}
   */
   readonly registry?: string;
   /**
   * Container registry credentials in the format 'user:password'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#registry_credentials BootstrapGit#registry_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#registry_credentials BootstrapGit#registry_credentials}
   */
   readonly registryCredentials?: string;
   /**
   * Name of the secret the sync credentials can be found in or stored to. Defaults to `flux-system`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#secret_name BootstrapGit#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#secret_name BootstrapGit#secret_name}
   */
   readonly secretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#timeouts BootstrapGit#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#timeouts BootstrapGit#timeouts}
   */
   readonly timeouts?: BootstrapGitTimeouts;
   /**
   * List of toleration keys used to schedule the components pods onto nodes with matching taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#toleration_keys BootstrapGit#toleration_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#toleration_keys BootstrapGit#toleration_keys}
   */
   readonly tolerationKeys?: string[];
   /**
-  * Flux version. Defaults to `v2.7.3`. Has no effect when `embedded_manifests` is enabled.
+  * Flux version. Defaults to `v2.7.4`. Has no effect when `embedded_manifests` is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#version BootstrapGit#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#version BootstrapGit#version}
   */
   readonly version?: string;
   /**
   * If true watch for custom resources in all namespaces. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#watch_all_namespaces BootstrapGit#watch_all_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#watch_all_namespaces BootstrapGit#watch_all_namespaces}
   */
   readonly watchAllNamespaces?: boolean | cdktf.IResolvable;
 }
@@ -148,25 +148,25 @@ export interface BootstrapGitTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#create BootstrapGit#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#create BootstrapGit#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#delete BootstrapGit#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#delete BootstrapGit#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#read BootstrapGit#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#read BootstrapGit#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#update BootstrapGit#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#update BootstrapGit#update}
   */
   readonly update?: string;
 }
@@ -347,7 +347,7 @@ export class BootstrapGitTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git flux_bootstrap_git}
+* Represents a {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git flux_bootstrap_git}
 */
 export class BootstrapGit extends cdktf.TerraformResource {
 
@@ -363,7 +363,7 @@ export class BootstrapGit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BootstrapGit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BootstrapGit to import
-  * @param importFromId The id of the existing BootstrapGit that should be imported. Refer to the {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BootstrapGit that should be imported. Refer to the {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BootstrapGit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -375,7 +375,7 @@ export class BootstrapGit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs/resources/bootstrap_git flux_bootstrap_git} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs/resources/bootstrap_git flux_bootstrap_git} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,8 +386,8 @@ export class BootstrapGit extends cdktf.TerraformResource {
       terraformResourceType: 'flux_bootstrap_git',
       terraformGeneratorMetadata: {
         providerName: 'flux',
-        providerVersion: '1.7.4',
-        providerVersionConstraint: '1.7.4'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

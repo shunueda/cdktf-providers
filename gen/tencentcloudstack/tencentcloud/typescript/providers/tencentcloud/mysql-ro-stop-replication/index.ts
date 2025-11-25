@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_ro_stop_replication
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_ro_stop_replication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlRoStopReplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_ro_stop_replication#id MysqlRoStopReplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_ro_stop_replication#id MysqlRoStopReplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface MysqlRoStopReplicationConfig extends cdktf.TerraformMetaArgumen
   /**
   * Read-Only instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_ro_stop_replication#instance_id MysqlRoStopReplication#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_ro_stop_replication#instance_id MysqlRoStopReplication#instance_id}
   */
   readonly instanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_ro_stop_replication tencentcloud_mysql_ro_stop_replication}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_ro_stop_replication tencentcloud_mysql_ro_stop_replication}
 */
 export class MysqlRoStopReplication extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class MysqlRoStopReplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlRoStopReplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlRoStopReplication to import
-  * @param importFromId The id of the existing MysqlRoStopReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_ro_stop_replication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlRoStopReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_ro_stop_replication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlRoStopReplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class MysqlRoStopReplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_ro_stop_replication tencentcloud_mysql_ro_stop_replication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_ro_stop_replication tencentcloud_mysql_ro_stop_replication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class MysqlRoStopReplication extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_ro_stop_replication',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TimewebCloudProviderConfig {
   /**
   * Secret API token from https://timeweb.cloud/my/api-keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs#token TimewebCloudProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs#token TimewebCloudProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs#alias TimewebCloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs#alias TimewebCloudProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs timeweb-cloud}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs timeweb-cloud}
 */
 export class TimewebCloudProvider extends cdktf.TerraformProvider {
 
@@ -38,7 +38,7 @@ export class TimewebCloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a TimewebCloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TimewebCloudProvider to import
-  * @param importFromId The id of the existing TimewebCloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TimewebCloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TimewebCloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class TimewebCloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs timeweb-cloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs timeweb-cloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class TimewebCloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'timeweb-cloud',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6',
-        providerVersionConstraint: '1.6.6'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       terraformProviderSource: 'timeweb-cloud/timeweb-cloud'
     });

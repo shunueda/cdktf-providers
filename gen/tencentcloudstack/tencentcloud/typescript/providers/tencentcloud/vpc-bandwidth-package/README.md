@@ -1,3 +1,3 @@
 # `tencentcloud_vpc_bandwidth_package`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_vpc_bandwidth_package`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_bandwidth_package).
+Refer to the Terraform Registry for docs: [`tencentcloud_vpc_bandwidth_package`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vpc_bandwidth_package).

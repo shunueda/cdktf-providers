@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/eip
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataTencentcloudEipConfig extends cdktf.TerraformMetaArguments 
   /**
   * Whether the IP is arrears.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/eip#include_arrears DataTencentcloudEip#include_arrears}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eip#include_arrears DataTencentcloudEip#include_arrears}
   */
   readonly includeArrears?: boolean | cdktf.IResolvable;
   /**
   * Whether the IP is blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/eip#include_blocked DataTencentcloudEip#include_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eip#include_blocked DataTencentcloudEip#include_blocked}
   */
   readonly includeBlocked?: boolean | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/eip#filter DataTencentcloudEip#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eip#filter DataTencentcloudEip#filter}
   */
   readonly filter?: DataTencentcloudEipFilter[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface DataTencentcloudEipFilter {
   /**
   * Key of the filter, valid keys: `address-id`,`address-name`,`address-ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/eip#name DataTencentcloudEip#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eip#name DataTencentcloudEip#name}
   */
   readonly name: string;
   /**
   * Value of the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/eip#values DataTencentcloudEip#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eip#values DataTencentcloudEip#values}
   */
   readonly values: string[];
 }
@@ -175,7 +175,7 @@ export class DataTencentcloudEipFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/eip tencentcloud_eip}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eip tencentcloud_eip}
 */
 export class DataTencentcloudEip extends cdktf.TerraformDataSource {
 
@@ -191,7 +191,7 @@ export class DataTencentcloudEip extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudEip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudEip to import
-  * @param importFromId The id of the existing DataTencentcloudEip that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/eip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudEip that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudEip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -203,7 +203,7 @@ export class DataTencentcloudEip extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/eip tencentcloud_eip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eip tencentcloud_eip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,8 +214,8 @@ export class DataTencentcloudEip extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_eip',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

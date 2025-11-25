@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudAuditEventsConfig extends cdktf.TerraformMetaAr
   /**
   * End timestamp in seconds (the time range for query is less than 30 days).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events#end_time DataTencentcloudAuditEvents#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events#end_time DataTencentcloudAuditEvents#end_time}
   */
   readonly endTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events#id DataTencentcloudAuditEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events#id DataTencentcloudAuditEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudAuditEventsConfig extends cdktf.TerraformMetaAr
   /**
   * Whether to return the IP location. `1`: yes, `0`: no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events#is_return_location DataTencentcloudAuditEvents#is_return_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events#is_return_location DataTencentcloudAuditEvents#is_return_location}
   */
   readonly isReturnLocation?: number;
   /**
   * Max number of returned logs (up to 50).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events#max_results DataTencentcloudAuditEvents#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events#max_results DataTencentcloudAuditEvents#max_results}
   */
   readonly maxResults?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events#result_output_file DataTencentcloudAuditEvents#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events#result_output_file DataTencentcloudAuditEvents#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start timestamp in seconds (cannot be 90 days after the current time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events#start_time DataTencentcloudAuditEvents#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events#start_time DataTencentcloudAuditEvents#start_time}
   */
   readonly startTime: number;
   /**
   * lookup_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events#lookup_attributes DataTencentcloudAuditEvents#lookup_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events#lookup_attributes DataTencentcloudAuditEvents#lookup_attributes}
   */
   readonly lookupAttributes?: DataTencentcloudAuditEventsLookupAttributes[] | cdktf.IResolvable;
 }
@@ -292,14 +292,14 @@ export interface DataTencentcloudAuditEventsLookupAttributes {
   * Valid values: RequestId, EventName, ReadOnly, Username, ResourceType, ResourceName, AccessKeyId, and EventId
   * Note: `null` may be returned for this field, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events#attribute_key DataTencentcloudAuditEvents#attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events#attribute_key DataTencentcloudAuditEvents#attribute_key}
   */
   readonly attributeKey: string;
   /**
   * Value of `AttributeValue`
   * Note: `null` may be returned for this field, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events#attribute_value DataTencentcloudAuditEvents#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events#attribute_value DataTencentcloudAuditEvents#attribute_value}
   */
   readonly attributeValue?: string;
 }
@@ -441,7 +441,7 @@ export class DataTencentcloudAuditEventsLookupAttributesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events tencentcloud_audit_events}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events tencentcloud_audit_events}
 */
 export class DataTencentcloudAuditEvents extends cdktf.TerraformDataSource {
 
@@ -457,7 +457,7 @@ export class DataTencentcloudAuditEvents extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudAuditEvents resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudAuditEvents to import
-  * @param importFromId The id of the existing DataTencentcloudAuditEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudAuditEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudAuditEvents to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -469,7 +469,7 @@ export class DataTencentcloudAuditEvents extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/audit_events tencentcloud_audit_events} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/audit_events tencentcloud_audit_events} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -480,8 +480,8 @@ export class DataTencentcloudAuditEvents extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_audit_events',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

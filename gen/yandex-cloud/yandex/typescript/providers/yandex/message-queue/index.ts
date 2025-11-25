@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface MessageQueueConfig extends cdktf.TerraformMetaArguments {
   /**
   * The [access key](https://yandex.cloud/docs/iam/operations/sa/create-access-key) to use when applying changes. If omitted, `ymq_access_key` specified in provider config is used. For more information see [documentation](https://yandex.cloud/docs/message-queue/quickstart).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#access_key MessageQueue#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#access_key MessageQueue#access_key}
   */
   readonly accessKey?: string;
   /**
   * Enables [content-based deduplication](https://yandex.cloud/docs/message-queue/concepts/deduplication#content-based-deduplication). Can be used only if queue is [FIFO](https://yandex.cloud/docs/message-queue/concepts/queue#fifo-queues).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#content_based_deduplication MessageQueue#content_based_deduplication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#content_based_deduplication MessageQueue#content_based_deduplication}
   */
   readonly contentBasedDeduplication?: boolean | cdktf.IResolvable;
   /**
   * Number of seconds to [delay the message from being available for processing](https://yandex.cloud/docs/message-queue/concepts/delay-queues#delay-queues). Valid values: from 0 to 900 seconds (15 minutes). Default: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#delay_seconds MessageQueue#delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#delay_seconds MessageQueue#delay_seconds}
   */
   readonly delaySeconds?: number;
   /**
   * Is this queue [FIFO](https://yandex.cloud/docs/message-queue/concepts/queue#fifo-queues). If this parameter is not used, a standard queue is created. You cannot change the parameter value for a created queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#fifo_queue MessageQueue#fifo_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#fifo_queue MessageQueue#fifo_queue}
   */
   readonly fifoQueue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#id MessageQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#id MessageQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,67 +41,67 @@ export interface MessageQueueConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum message size in bytes. Valid values: from 1024 bytes (1 KB) to 262144 bytes (256 KB). Default: 262144 (256 KB). For more information see [documentation](https://yandex.cloud/docs/message-queue/api-ref/queue/CreateQueue).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#max_message_size MessageQueue#max_message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#max_message_size MessageQueue#max_message_size}
   */
   readonly maxMessageSize?: number;
   /**
   * The length of time in seconds to retain a message. Valid values: from 60 seconds (1 minute) to 1209600 seconds (14 days). Default: 345600 (4 days). For more information see [documentation](https://yandex.cloud/docs/message-queue/api-ref/queue/CreateQueue).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#message_retention_seconds MessageQueue#message_retention_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#message_retention_seconds MessageQueue#message_retention_seconds}
   */
   readonly messageRetentionSeconds?: number;
   /**
   * Queue name. The maximum length is 80 characters. You can use numbers, letters, underscores, and hyphens in the name. The name of a FIFO queue must end with the `.fifo` suffix. If not specified, random name will be generated. Conflicts with `name_prefix`. For more information see [documentation](https://yandex.cloud/docs/message-queue/api-ref/queue/CreateQueue).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#name MessageQueue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#name MessageQueue#name}
   */
   readonly name?: string;
   /**
   * Generates random name with the specified prefix. Conflicts with `name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#name_prefix MessageQueue#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#name_prefix MessageQueue#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Wait time for the [ReceiveMessage](https://yandex.cloud/docs/message-queue/api-ref/message/ReceiveMessage) method (for long polling), in seconds. Valid values: from 0 to 20 seconds. Default: 0. For more information about long polling see [documentation](https://yandex.cloud/docs/message-queue/concepts/long-polling).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#receive_wait_time_seconds MessageQueue#receive_wait_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#receive_wait_time_seconds MessageQueue#receive_wait_time_seconds}
   */
   readonly receiveWaitTimeSeconds?: number;
   /**
   * Message redrive policy in [Dead Letter Queue](https://yandex.cloud/docs/message-queue/concepts/dlq). The source queue and DLQ must be the same type: for FIFO queues, the DLQ must also be a FIFO queue. For more information about redrive policy see [documentation](https://yandex.cloud/docs/message-queue/api-ref/queue/CreateQueue). Also you can use example in this page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#redrive_policy MessageQueue#redrive_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#redrive_policy MessageQueue#redrive_policy}
   */
   readonly redrivePolicy?: string;
   /**
   * ID of the region where the message queue is located at. The default is 'ru-central1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#region_id MessageQueue#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#region_id MessageQueue#region_id}
   */
   readonly regionId?: string;
   /**
   * The [secret key](https://yandex.cloud/docs/iam/operations/sa/create-access-key) to use when applying changes. If omitted, `ymq_secret_key` specified in provider config is used. For more information see [documentation](https://yandex.cloud/docs/message-queue/quickstart).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#secret_key MessageQueue#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#secret_key MessageQueue#secret_key}
   */
   readonly secretKey?: string;
   /**
   * SQS tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#tags MessageQueue#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#tags MessageQueue#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * [Visibility timeout](https://yandex.cloud/docs/message-queue/concepts/visibility-timeout) for messages in a queue, specified in seconds. Valid values: from 0 to 43200 seconds (12 hours). Default: 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#visibility_timeout_seconds MessageQueue#visibility_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#visibility_timeout_seconds MessageQueue#visibility_timeout_seconds}
   */
   readonly visibilityTimeoutSeconds?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue yandex_message_queue}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue yandex_message_queue}
 */
 export class MessageQueue extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class MessageQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MessageQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MessageQueue to import
-  * @param importFromId The id of the existing MessageQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MessageQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MessageQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class MessageQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/message_queue yandex_message_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/message_queue yandex_message_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class MessageQueue extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_message_queue',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DataTwcPresetsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Availability zone for preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#availability_zone DataTwcPresets#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#availability_zone DataTwcPresets#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Network bandwidth capacity of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#bandwidth DataTwcPresets#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#bandwidth DataTwcPresets#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * CPU count of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#cpu DataTwcPresets#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#cpu DataTwcPresets#cpu}
   */
   readonly cpu?: number;
   /**
   * CPU frequency for the created server (`3.3`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#cpu_frequency DataTwcPresets#cpu_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#cpu_frequency DataTwcPresets#cpu_frequency}
   */
   readonly cpuFrequency?: string;
   /**
   * Short description of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#description_short DataTwcPresets#description_short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#description_short DataTwcPresets#description_short}
   */
   readonly descriptionShort?: string;
   /**
   * Disk size of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#disk DataTwcPresets#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#disk DataTwcPresets#disk}
   */
   readonly disk?: number;
   /**
   * Disk type for the created server (`ssd`, `nvme`, `hdd`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#disk_type DataTwcPresets#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#disk_type DataTwcPresets#disk_type}
   */
   readonly diskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#id DataTwcPresets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#id DataTwcPresets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,31 +59,31 @@ export interface DataTwcPresetsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flag that shows allowability local networks for specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#is_allowed_local_network DataTwcPresets#is_allowed_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#is_allowed_local_network DataTwcPresets#is_allowed_local_network}
   */
   readonly isAllowedLocalNetwork?: boolean | cdktf.IResolvable;
   /**
   * Location for the created server (`ru-1`, `ru-2`, `pl-1`, `kz-1`). When server was created all new presets or configuration may be only chosen from same location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#location DataTwcPresets#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#location DataTwcPresets#location}
   */
   readonly location?: string;
   /**
   * Preset type for the created server (`premium`, `standard`, `high_cpu`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#preset_type DataTwcPresets#preset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#preset_type DataTwcPresets#preset_type}
   */
   readonly presetType?: string;
   /**
   * RAM size of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#ram DataTwcPresets#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#ram DataTwcPresets#ram}
   */
   readonly ram?: number;
   /**
   * price_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#price_filter DataTwcPresets#price_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#price_filter DataTwcPresets#price_filter}
   */
   readonly priceFilter?: DataTwcPresetsPriceFilter;
 }
@@ -91,13 +91,13 @@ export interface DataTwcPresetsPriceFilter {
   /**
   * Minimum price (inclusive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#from DataTwcPresets#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#from DataTwcPresets#from}
   */
   readonly from: number;
   /**
   * Maximum price (inclusive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#to DataTwcPresets#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#to DataTwcPresets#to}
   */
   readonly to: number;
 }
@@ -204,7 +204,7 @@ export class DataTwcPresetsPriceFilterOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets twc_presets}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets twc_presets}
 */
 export class DataTwcPresets extends cdktf.TerraformDataSource {
 
@@ -220,7 +220,7 @@ export class DataTwcPresets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwcPresets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwcPresets to import
-  * @param importFromId The id of the existing DataTwcPresets that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwcPresets that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwcPresets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class DataTwcPresets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_presets twc_presets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_presets twc_presets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class DataTwcPresets extends cdktf.TerraformDataSource {
       terraformResourceType: 'twc_presets',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6',
-        providerVersionConstraint: '1.6.6'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

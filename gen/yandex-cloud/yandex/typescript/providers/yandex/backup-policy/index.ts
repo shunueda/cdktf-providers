@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface BackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of generated archives. Default `[Machine Name]-[Plan ID]-[Unique ID]a`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#archive_name BackupPolicy#archive_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#archive_name BackupPolicy#archive_name}
   */
   readonly archiveName?: string;
   /**
   * Configuration of Changed Block Tracking. Available values are: `USE_IF_ENABLED`, `ENABLED_AND_USE`, `DO_NOT_USE`. Default `DO_NOT_USE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#cbt BackupPolicy#cbt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#cbt BackupPolicy#cbt}
   */
   readonly cbt?: string;
   /**
   * Archive compression level. Affects CPU. Available values: `NORMAL`, `HIGH`, `MAX`, `OFF`. Default: `NORMAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#compression BackupPolicy#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#compression BackupPolicy#compression}
   */
   readonly compression?: string;
   /**
   * If true, determines whether a file has changed by the file size and timestamp. Otherwise, the entire file contents are compared to those stored in the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#fast_backup_enabled BackupPolicy#fast_backup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#fast_backup_enabled BackupPolicy#fast_backup_enabled}
   */
   readonly fastBackupEnabled?: boolean | cdktf.IResolvable;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#folder_id BackupPolicy#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#folder_id BackupPolicy#folder_id}
   */
   readonly folderId?: string;
   /**
   * Format of the backup. It's strongly recommend to leave this option empty or `AUTO`. Available values: `AUTO`, `VERSION_11`, `VERSION_12`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#format BackupPolicy#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#format BackupPolicy#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#id BackupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#id BackupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,103 +53,103 @@ export interface BackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * LVM will be used to create the volume snapshot. If LVM fails to create a snapshot (for example, because there is not enough free space), the software will create the snapshot itself. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#lvm_snapshotting_enabled BackupPolicy#lvm_snapshotting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#lvm_snapshotting_enabled BackupPolicy#lvm_snapshotting_enabled}
   */
   readonly lvmSnapshottingEnabled?: boolean | cdktf.IResolvable;
   /**
   * If true, snapshots of multiple volumes will be taken simultaneously. Default `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#multi_volume_snapshotting_enabled BackupPolicy#multi_volume_snapshotting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#multi_volume_snapshotting_enabled BackupPolicy#multi_volume_snapshotting_enabled}
   */
   readonly multiVolumeSnapshottingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#name BackupPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#name BackupPolicy#name}
   */
   readonly name: string;
   /**
   * Time windows for performance limitations of backup. Default `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#performance_window_enabled BackupPolicy#performance_window_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#performance_window_enabled BackupPolicy#performance_window_enabled}
   */
   readonly performanceWindowEnabled?: boolean | cdktf.IResolvable;
   /**
   * If true, a quiesced snapshot of the virtual machine will be taken. Default `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#preserve_file_security_settings BackupPolicy#preserve_file_security_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#preserve_file_security_settings BackupPolicy#preserve_file_security_settings}
   */
   readonly preserveFileSecuritySettings?: boolean | cdktf.IResolvable;
   /**
   * If true, a quiesced snapshot of the virtual machine will be taken. Default `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#quiesce_snapshotting_enabled BackupPolicy#quiesce_snapshotting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#quiesce_snapshotting_enabled BackupPolicy#quiesce_snapshotting_enabled}
   */
   readonly quiesceSnapshottingEnabled?: boolean | cdktf.IResolvable;
   /**
   * A sector-by-sector backup of a disk or volume creates a backup copy of all sectors of the disk or volume, including those that do not contain data. Therefore, the size of such a backup copy will be equal to the size of the original disk or volume. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#sector_by_sector BackupPolicy#sector_by_sector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#sector_by_sector BackupPolicy#sector_by_sector}
   */
   readonly sectorBySector?: boolean | cdktf.IResolvable;
   /**
   * If true, a user interaction will be avoided when possible. Default `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#silent_mode_enabled BackupPolicy#silent_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#silent_mode_enabled BackupPolicy#silent_mode_enabled}
   */
   readonly silentModeEnabled?: boolean | cdktf.IResolvable;
   /**
   * Determines the size to split backups. It's better to leave this option unchanged. Default `9223372036854775807`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#splitting_bytes BackupPolicy#splitting_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#splitting_bytes BackupPolicy#splitting_bytes}
   */
   readonly splittingBytes?: string;
   /**
   * Validation is a time-consuming process, even with incremental or differential backups of small amounts of data. This is because not only the data physically contained in the backup copy is verified, but all data restored when it is selected. This option requires access to previously created backup copies. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#validation_enabled BackupPolicy#validation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#validation_enabled BackupPolicy#validation_enabled}
   */
   readonly validationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Settings for the volume shadow copy service. Available values are: `NATIVE`, `TARGET_SYSTEM_DEFINED`. Default `NATIVE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#vss_provider BackupPolicy#vss_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#vss_provider BackupPolicy#vss_provider}
   */
   readonly vssProvider?: string;
   /**
   * file_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#file_filters BackupPolicy#file_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#file_filters BackupPolicy#file_filters}
   */
   readonly fileFilters?: BackupPolicyFileFilters;
   /**
   * reattempts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#reattempts BackupPolicy#reattempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#reattempts BackupPolicy#reattempts}
   */
   readonly reattempts: BackupPolicyReattempts;
   /**
   * retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#retention BackupPolicy#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#retention BackupPolicy#retention}
   */
   readonly retention: BackupPolicyRetention;
   /**
   * scheduling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#scheduling BackupPolicy#scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#scheduling BackupPolicy#scheduling}
   */
   readonly scheduling: BackupPolicyScheduling;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#timeouts BackupPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#timeouts BackupPolicy#timeouts}
   */
   readonly timeouts?: BackupPolicyTimeouts;
   /**
   * vm_snapshot_reattempts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#vm_snapshot_reattempts BackupPolicy#vm_snapshot_reattempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#vm_snapshot_reattempts BackupPolicy#vm_snapshot_reattempts}
   */
   readonly vmSnapshotReattempts: BackupPolicyVmSnapshotReattempts;
 }
@@ -157,13 +157,13 @@ export interface BackupPolicyFileFilters {
   /**
   * Do not backup files that match the following criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#exclusion_masks BackupPolicy#exclusion_masks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#exclusion_masks BackupPolicy#exclusion_masks}
   */
   readonly exclusionMasks?: string[];
   /**
   * Backup only files that match the following criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#inclusion_masks BackupPolicy#inclusion_masks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#inclusion_masks BackupPolicy#inclusion_masks}
   */
   readonly inclusionMasks?: string[];
 }
@@ -278,19 +278,19 @@ export interface BackupPolicyReattempts {
   /**
   * Enable flag. Default `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#enabled BackupPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#enabled BackupPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Retry interval. See `interval_type` for available values. Default: `5m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#interval BackupPolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#interval BackupPolicy#interval}
   */
   readonly interval?: string;
   /**
   * Maximum number of attempts before throwing an error. Default `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#max_attempts BackupPolicy#max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#max_attempts BackupPolicy#max_attempts}
   */
   readonly maxAttempts?: number;
 }
@@ -434,19 +434,19 @@ export interface BackupPolicyRetentionRules {
   /**
   * Deletes backups that older than `max_age`. Exactly one of `max_count` or `max_age` should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#max_age BackupPolicy#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#max_age BackupPolicy#max_age}
   */
   readonly maxAge?: string;
   /**
   * Deletes backups if it's count exceeds `max_count`. Exactly one of `max_count` or `max_age` should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#max_count BackupPolicy#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#max_count BackupPolicy#max_count}
   */
   readonly maxCount?: number;
   /**
   * Possible types: `REPEATE_PERIOD_UNSPECIFIED`, `HOURLY`, `DAILY`, `WEEKLY`, `MONTHLY`. Specifies repeat period of the backupset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#repeat_period BackupPolicy#repeat_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#repeat_period BackupPolicy#repeat_period}
   */
   readonly repeatPeriod?: string[];
 }
@@ -622,13 +622,13 @@ export interface BackupPolicyRetention {
   /**
   * Defines whether retention rule applies after creating backup or before.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#after_backup BackupPolicy#after_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#after_backup BackupPolicy#after_backup}
   */
   readonly afterBackup?: boolean | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#rules BackupPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#rules BackupPolicy#rules}
   */
   readonly rules?: BackupPolicyRetentionRules[] | cdktf.IResolvable;
 }
@@ -743,49 +743,49 @@ export interface BackupPolicySchedulingBackupSetsExecuteByTime {
   /**
   * If true, schedule will be applied on the last day of month. See `day_type` for available values. Default `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#include_last_day_of_month BackupPolicy#include_last_day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#include_last_day_of_month BackupPolicy#include_last_day_of_month}
   */
   readonly includeLastDayOfMonth?: boolean | cdktf.IResolvable;
   /**
   * List of days when schedule applies. Used in `MONTHLY` type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#monthdays BackupPolicy#monthdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#monthdays BackupPolicy#monthdays}
   */
   readonly monthdays?: number[];
   /**
   * Set of values. Allowed values form 1 to 12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#months BackupPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#months BackupPolicy#months}
   */
   readonly months?: number[];
   /**
   * List of time in format `HH:MM` (24-hours format), when the schedule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#repeat_at BackupPolicy#repeat_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#repeat_at BackupPolicy#repeat_at}
   */
   readonly repeatAt?: string[];
   /**
   * Frequency of backup repetition. See `interval_type` for available values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#repeat_every BackupPolicy#repeat_every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#repeat_every BackupPolicy#repeat_every}
   */
   readonly repeatEvery?: string;
   /**
   * If true and if the machine is off, launch missed tasks on boot up. Default `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#run_later BackupPolicy#run_later}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#run_later BackupPolicy#run_later}
   */
   readonly runLater?: boolean | cdktf.IResolvable;
   /**
   * Type of the scheduling. Available values are: `HOURLY`, `DAILY`, `WEEKLY`, `MONTHLY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#type BackupPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#type BackupPolicy#type}
   */
   readonly type: string;
   /**
   * List of weekdays when the backup will be applied. Used in `WEEKLY` type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#weekdays BackupPolicy#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#weekdays BackupPolicy#weekdays}
   */
   readonly weekdays?: string[];
 }
@@ -1103,19 +1103,19 @@ export interface BackupPolicySchedulingBackupSets {
   /**
   * Perform backup by interval, since last backup of the host. Maximum value is: 9999 days. See `interval_type` for available values. Exactly on of options should be set: `execute_by_interval` or `execute_by_time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#execute_by_interval BackupPolicy#execute_by_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#execute_by_interval BackupPolicy#execute_by_interval}
   */
   readonly executeByInterval?: number;
   /**
   * BackupSet type. See `backup_set_type` for available values. Default `TYPE_AUTO`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#type BackupPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#type BackupPolicy#type}
   */
   readonly type?: string;
   /**
   * execute_by_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#execute_by_time BackupPolicy#execute_by_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#execute_by_time BackupPolicy#execute_by_time}
   */
   readonly executeByTime?: BackupPolicySchedulingBackupSetsExecuteByTime[] | cdktf.IResolvable;
 }
@@ -1291,49 +1291,49 @@ export interface BackupPolicySchedulingExecuteByTime {
   /**
   * If true, schedule will be applied on the last day of month. See `day_type` for available values. Default `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#include_last_day_of_month BackupPolicy#include_last_day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#include_last_day_of_month BackupPolicy#include_last_day_of_month}
   */
   readonly includeLastDayOfMonth?: boolean | cdktf.IResolvable;
   /**
   * List of days when schedule applies. Used in `MONTHLY` type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#monthdays BackupPolicy#monthdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#monthdays BackupPolicy#monthdays}
   */
   readonly monthdays?: number[];
   /**
   * Set of values. Allowed values form 1 to 12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#months BackupPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#months BackupPolicy#months}
   */
   readonly months?: number[];
   /**
   * List of time in format `HH:MM` (24-hours format), when the schedule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#repeat_at BackupPolicy#repeat_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#repeat_at BackupPolicy#repeat_at}
   */
   readonly repeatAt?: string[];
   /**
   * Frequency of backup repetition. See `interval_type` for available values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#repeat_every BackupPolicy#repeat_every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#repeat_every BackupPolicy#repeat_every}
   */
   readonly repeatEvery?: string;
   /**
   * If true and if the machine is off, launch missed tasks on boot up. Default `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#run_later BackupPolicy#run_later}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#run_later BackupPolicy#run_later}
   */
   readonly runLater?: boolean | cdktf.IResolvable;
   /**
   * Type of the scheduling. Available values are: `HOURLY`, `DAILY`, `WEEKLY`, `MONTHLY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#type BackupPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#type BackupPolicy#type}
   */
   readonly type: string;
   /**
   * List of weekdays when the backup will be applied. Used in `WEEKLY` type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#weekdays BackupPolicy#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#weekdays BackupPolicy#weekdays}
   */
   readonly weekdays?: string[];
 }
@@ -1651,49 +1651,49 @@ export interface BackupPolicyScheduling {
   /**
   * Enables or disables scheduling. Default `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#enabled BackupPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#enabled BackupPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   *  Perform backup by interval, since last backup of the host. Maximum value is: 9999 days. See `interval_type` for available values. Exactly on of options should be set: `execute_by_interval` or `execute_by_time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#execute_by_interval BackupPolicy#execute_by_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#execute_by_interval BackupPolicy#execute_by_interval}
   */
   readonly executeByInterval?: number;
   /**
   * Maximum number of backup processes allowed to run in parallel. 0 for unlimited. Default `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#max_parallel_backups BackupPolicy#max_parallel_backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#max_parallel_backups BackupPolicy#max_parallel_backups}
   */
   readonly maxParallelBackups?: number;
   /**
   * Configuration of the random delay between the execution of parallel tasks. See `interval_type` for available values. Default `30m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#random_max_delay BackupPolicy#random_max_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#random_max_delay BackupPolicy#random_max_delay}
   */
   readonly randomMaxDelay?: string;
   /**
   * Scheme of the backups. Available values are: `ALWAYS_INCREMENTAL`, `ALWAYS_FULL`, `WEEKLY_FULL_DAILY_INCREMENTAL`, `WEEKLY_INCREMENTAL`. Default `ALWAYS_INCREMENTAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#scheme BackupPolicy#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#scheme BackupPolicy#scheme}
   */
   readonly scheme?: string;
   /**
   * A day of week to start weekly backups. See `day_type` for available values. Default `MONDAY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#weekly_backup_day BackupPolicy#weekly_backup_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#weekly_backup_day BackupPolicy#weekly_backup_day}
   */
   readonly weeklyBackupDay?: string;
   /**
   * backup_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#backup_sets BackupPolicy#backup_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#backup_sets BackupPolicy#backup_sets}
   */
   readonly backupSets?: BackupPolicySchedulingBackupSets[] | cdktf.IResolvable;
   /**
   * execute_by_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#execute_by_time BackupPolicy#execute_by_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#execute_by_time BackupPolicy#execute_by_time}
   */
   readonly executeByTime?: BackupPolicySchedulingExecuteByTime[] | cdktf.IResolvable;
 }
@@ -1980,19 +1980,19 @@ export class BackupPolicySchedulingOutputReference extends cdktf.ComplexObject {
 }
 export interface BackupPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#create BackupPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#create BackupPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#delete BackupPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#delete BackupPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#read BackupPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#read BackupPolicy#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#update BackupPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#update BackupPolicy#update}
   */
   readonly update?: string;
 }
@@ -2175,19 +2175,19 @@ export interface BackupPolicyVmSnapshotReattempts {
   /**
   * Enable flag. Default `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#enabled BackupPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#enabled BackupPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Retry interval. See `interval_type` for available values. Default: `5m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#interval BackupPolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#interval BackupPolicy#interval}
   */
   readonly interval?: string;
   /**
   * Maximum number of attempts before throwing an error. Default `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#max_attempts BackupPolicy#max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#max_attempts BackupPolicy#max_attempts}
   */
   readonly maxAttempts?: number;
 }
@@ -2329,7 +2329,7 @@ export class BackupPolicyVmSnapshotReattemptsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy yandex_backup_policy}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy yandex_backup_policy}
 */
 export class BackupPolicy extends cdktf.TerraformResource {
 
@@ -2345,7 +2345,7 @@ export class BackupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BackupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupPolicy to import
-  * @param importFromId The id of the existing BackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2357,7 +2357,7 @@ export class BackupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/backup_policy yandex_backup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy yandex_backup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2368,8 +2368,8 @@ export class BackupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

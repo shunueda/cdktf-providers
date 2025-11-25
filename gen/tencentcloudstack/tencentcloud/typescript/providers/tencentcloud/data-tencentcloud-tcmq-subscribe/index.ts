@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tcmq_subscribe
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcmq_subscribe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudTcmqSubscribeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tcmq_subscribe#id DataTencentcloudTcmqSubscribe#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcmq_subscribe#id DataTencentcloudTcmqSubscribe#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataTencentcloudTcmqSubscribeConfig extends cdktf.TerraformMeta
   /**
   * Number of topics to be returned per page in case of paginated return. If this parameter is not passed in, 20 will be used by default. Maximum value: 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tcmq_subscribe#limit DataTencentcloudTcmqSubscribe#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcmq_subscribe#limit DataTencentcloudTcmqSubscribe#limit}
   */
   readonly limit?: number;
   /**
   * Starting position of the list of topics to be returned on the current page in case of paginated return. If a value is entered, limit is required. If this parameter is left empty, 0 will be used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tcmq_subscribe#offset DataTencentcloudTcmqSubscribe#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcmq_subscribe#offset DataTencentcloudTcmqSubscribe#offset}
   */
   readonly offset?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tcmq_subscribe#result_output_file DataTencentcloudTcmqSubscribe#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcmq_subscribe#result_output_file DataTencentcloudTcmqSubscribe#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Fuzzy search by SubscriptionName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tcmq_subscribe#subscription_name DataTencentcloudTcmqSubscribe#subscription_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcmq_subscribe#subscription_name DataTencentcloudTcmqSubscribe#subscription_name}
   */
   readonly subscriptionName?: string;
   /**
   * Topic name, which must be unique in the same topic under the same account in the same region. It can contain up to 64 letters, digits, and hyphens and must begin with a letter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tcmq_subscribe#topic_name DataTencentcloudTcmqSubscribe#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcmq_subscribe#topic_name DataTencentcloudTcmqSubscribe#topic_name}
   */
   readonly topicName: string;
 }
@@ -177,7 +177,7 @@ export class DataTencentcloudTcmqSubscribeSubscriptionListStructList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tcmq_subscribe tencentcloud_tcmq_subscribe}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcmq_subscribe tencentcloud_tcmq_subscribe}
 */
 export class DataTencentcloudTcmqSubscribe extends cdktf.TerraformDataSource {
 
@@ -193,7 +193,7 @@ export class DataTencentcloudTcmqSubscribe extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudTcmqSubscribe resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTcmqSubscribe to import
-  * @param importFromId The id of the existing DataTencentcloudTcmqSubscribe that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tcmq_subscribe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTcmqSubscribe that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcmq_subscribe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTcmqSubscribe to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class DataTencentcloudTcmqSubscribe extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tcmq_subscribe tencentcloud_tcmq_subscribe} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcmq_subscribe tencentcloud_tcmq_subscribe} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class DataTencentcloudTcmqSubscribe extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_tcmq_subscribe',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

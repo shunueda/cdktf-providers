@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_lb_rule
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TwcLbRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Balancer incoming traffic TCP port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_lb_rule#balancer_port TwcLbRule#balancer_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb_rule#balancer_port TwcLbRule#balancer_port}
   */
   readonly balancerPort: number;
   /**
   * Balancer incoming traffic protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_lb_rule#balancer_proto TwcLbRule#balancer_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb_rule#balancer_proto TwcLbRule#balancer_proto}
   */
   readonly balancerProto: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_lb_rule#id TwcLbRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb_rule#id TwcLbRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface TwcLbRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of target balancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_lb_rule#lb_id TwcLbRule#lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb_rule#lb_id TwcLbRule#lb_id}
   */
   readonly lbId: number;
   /**
   * Server incoming traffic TCP port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_lb_rule#server_port TwcLbRule#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb_rule#server_port TwcLbRule#server_port}
   */
   readonly serverPort: number;
   /**
   * Server incoming traffic protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_lb_rule#server_proto TwcLbRule#server_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb_rule#server_proto TwcLbRule#server_proto}
   */
   readonly serverProto: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_lb_rule twc_lb_rule}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb_rule twc_lb_rule}
 */
 export class TwcLbRule extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TwcLbRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcLbRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcLbRule to import
-  * @param importFromId The id of the existing TwcLbRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_lb_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcLbRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcLbRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TwcLbRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_lb_rule twc_lb_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb_rule twc_lb_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class TwcLbRule extends cdktf.TerraformResource {
       terraformResourceType: 'twc_lb_rule',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6',
-        providerVersionConstraint: '1.6.6'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/antiddos_default_alarm_threshold
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_default_alarm_threshold
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AntiddosDefaultAlarmThresholdConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/antiddos_default_alarm_threshold#id AntiddosDefaultAlarmThreshold#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_default_alarm_threshold#id AntiddosDefaultAlarmThreshold#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface AntiddosDefaultAlarmThresholdConfig extends cdktf.TerraformMeta
   /**
   * Product type, value [bgp (represents advanced defense package product) bgpip (represents advanced defense IP product)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/antiddos_default_alarm_threshold#instance_type AntiddosDefaultAlarmThreshold#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_default_alarm_threshold#instance_type AntiddosDefaultAlarmThreshold#instance_type}
   */
   readonly instanceType: string;
   /**
   * default_alarm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/antiddos_default_alarm_threshold#default_alarm_config AntiddosDefaultAlarmThreshold#default_alarm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_default_alarm_threshold#default_alarm_config AntiddosDefaultAlarmThreshold#default_alarm_config}
   */
   readonly defaultAlarmConfig: AntiddosDefaultAlarmThresholdDefaultAlarmConfig;
 }
@@ -31,13 +31,13 @@ export interface AntiddosDefaultAlarmThresholdDefaultAlarmConfig {
   /**
   * Alarm threshold, in Mbps, with a value of&gt;=0; When used as an input parameter, setting 0 will delete the alarm threshold configuration;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/antiddos_default_alarm_threshold#alarm_threshold AntiddosDefaultAlarmThreshold#alarm_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_default_alarm_threshold#alarm_threshold AntiddosDefaultAlarmThreshold#alarm_threshold}
   */
   readonly alarmThreshold?: number;
   /**
   * Alarm threshold type, value [1 (incoming traffic alarm threshold) 2 (attack cleaning traffic alarm threshold)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/antiddos_default_alarm_threshold#alarm_type AntiddosDefaultAlarmThreshold#alarm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_default_alarm_threshold#alarm_type AntiddosDefaultAlarmThreshold#alarm_type}
   */
   readonly alarmType?: number;
 }
@@ -150,7 +150,7 @@ export class AntiddosDefaultAlarmThresholdDefaultAlarmConfigOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/antiddos_default_alarm_threshold tencentcloud_antiddos_default_alarm_threshold}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_default_alarm_threshold tencentcloud_antiddos_default_alarm_threshold}
 */
 export class AntiddosDefaultAlarmThreshold extends cdktf.TerraformResource {
 
@@ -166,7 +166,7 @@ export class AntiddosDefaultAlarmThreshold extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AntiddosDefaultAlarmThreshold resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AntiddosDefaultAlarmThreshold to import
-  * @param importFromId The id of the existing AntiddosDefaultAlarmThreshold that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/antiddos_default_alarm_threshold#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AntiddosDefaultAlarmThreshold that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_default_alarm_threshold#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AntiddosDefaultAlarmThreshold to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class AntiddosDefaultAlarmThreshold extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/antiddos_default_alarm_threshold tencentcloud_antiddos_default_alarm_threshold} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_default_alarm_threshold tencentcloud_antiddos_default_alarm_threshold} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class AntiddosDefaultAlarmThreshold extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_antiddos_default_alarm_threshold',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

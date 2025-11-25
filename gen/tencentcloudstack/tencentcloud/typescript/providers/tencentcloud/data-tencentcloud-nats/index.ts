@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/nats
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/nats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataTencentcloudNatsConfig extends cdktf.TerraformMetaArguments
   /**
   * The maximum public network output bandwidth of the gateway (unit: Mbps), for example: `10`, `20`, `50`, `100`, `200`, `500`, `1000`, `2000`, `5000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/nats#bandwidth DataTencentcloudNats#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/nats#bandwidth DataTencentcloudNats#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * The ID for NAT Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/nats#id DataTencentcloudNats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/nats#id DataTencentcloudNats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,25 +25,25 @@ export interface DataTencentcloudNatsConfig extends cdktf.TerraformMetaArguments
   /**
   * The upper limit of concurrent connection of NAT gateway, for example: `1000000`, `3000000`, `10000000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/nats#max_concurrent DataTencentcloudNats#max_concurrent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/nats#max_concurrent DataTencentcloudNats#max_concurrent}
   */
   readonly maxConcurrent?: number;
   /**
   * The name for NAT Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/nats#name DataTencentcloudNats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/nats#name DataTencentcloudNats#name}
   */
   readonly name?: string;
   /**
   * NAT gateway status. Valid values: 0, 1, 2. 0: Running, 1: Unavailable, 2: Be in arrears and out of service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/nats#state DataTencentcloudNats#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/nats#state DataTencentcloudNats#state}
   */
   readonly state?: number;
   /**
   * The VPC ID for NAT Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/nats#vpc_id DataTencentcloudNats#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/nats#vpc_id DataTencentcloudNats#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -159,7 +159,7 @@ export class DataTencentcloudNatsNatsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/nats tencentcloud_nats}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/nats tencentcloud_nats}
 */
 export class DataTencentcloudNats extends cdktf.TerraformDataSource {
 
@@ -175,7 +175,7 @@ export class DataTencentcloudNats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudNats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudNats to import
-  * @param importFromId The id of the existing DataTencentcloudNats that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/nats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudNats that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/nats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudNats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class DataTencentcloudNats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/nats tencentcloud_nats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/nats tencentcloud_nats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class DataTencentcloudNats extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_nats',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

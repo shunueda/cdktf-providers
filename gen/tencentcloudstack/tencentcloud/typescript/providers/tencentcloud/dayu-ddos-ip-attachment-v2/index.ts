@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_ddos_ip_attachment_v2
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_ddos_ip_attachment_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DayuDdosIpAttachmentV2Config extends cdktf.TerraformMetaArgumen
   /**
   * Anti-DDoS instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_ddos_ip_attachment_v2#bgp_instance_id DayuDdosIpAttachmentV2#bgp_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_ddos_ip_attachment_v2#bgp_instance_id DayuDdosIpAttachmentV2#bgp_instance_id}
   */
   readonly bgpInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_ddos_ip_attachment_v2#id DayuDdosIpAttachmentV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_ddos_ip_attachment_v2#id DayuDdosIpAttachmentV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DayuDdosIpAttachmentV2Config extends cdktf.TerraformMetaArgumen
   /**
   * bound_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_ddos_ip_attachment_v2#bound_ip_list DayuDdosIpAttachmentV2#bound_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_ddos_ip_attachment_v2#bound_ip_list DayuDdosIpAttachmentV2#bound_ip_list}
   */
   readonly boundIpList?: DayuDdosIpAttachmentV2BoundIpListStruct[] | cdktf.IResolvable;
 }
@@ -31,25 +31,25 @@ export interface DayuDdosIpAttachmentV2BoundIpListStruct {
   /**
   * Category of product that can be bound. Valid values: public (CVM and CLB), bm (BM), eni (ENI), vpngw (VPN gateway), natgw (NAT gateway), waf (WAF), fpc (financial products), gaap (GAAP), and other (hosted IP). This field is required when you perform binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_ddos_ip_attachment_v2#biz_type DayuDdosIpAttachmentV2#biz_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_ddos_ip_attachment_v2#biz_type DayuDdosIpAttachmentV2#biz_type}
   */
   readonly bizType?: string;
   /**
   * Sub-product category. Valid values: cvm (CVM), lb (Load balancer), eni (ENI), vpngw (VPN gateway), natgw (NAT gateway), waf (WAF), fpc (financial products), gaap (GAAP), eip (BM EIP) and other (managed IP). This field is required when you perform binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_ddos_ip_attachment_v2#device_type DayuDdosIpAttachmentV2#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_ddos_ip_attachment_v2#device_type DayuDdosIpAttachmentV2#device_type}
   */
   readonly deviceType?: string;
   /**
   * Anti-DDoS instance ID of the IP. This field is required only when the instance is bound to an IP. For example, this field InstanceId will be eni-* if the instance ID is bound to an ENI IP; none if there is no instance to bind to a managed IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_ddos_ip_attachment_v2#instance_id DayuDdosIpAttachmentV2#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_ddos_ip_attachment_v2#instance_id DayuDdosIpAttachmentV2#instance_id}
   */
   readonly instanceId?: string;
   /**
   * IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_ddos_ip_attachment_v2#ip DayuDdosIpAttachmentV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_ddos_ip_attachment_v2#ip DayuDdosIpAttachmentV2#ip}
   */
   readonly ip: string;
 }
@@ -249,7 +249,7 @@ export class DayuDdosIpAttachmentV2BoundIpListStructList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_ddos_ip_attachment_v2 tencentcloud_dayu_ddos_ip_attachment_v2}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_ddos_ip_attachment_v2 tencentcloud_dayu_ddos_ip_attachment_v2}
 */
 export class DayuDdosIpAttachmentV2 extends cdktf.TerraformResource {
 
@@ -265,7 +265,7 @@ export class DayuDdosIpAttachmentV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DayuDdosIpAttachmentV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DayuDdosIpAttachmentV2 to import
-  * @param importFromId The id of the existing DayuDdosIpAttachmentV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_ddos_ip_attachment_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DayuDdosIpAttachmentV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_ddos_ip_attachment_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DayuDdosIpAttachmentV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +277,7 @@ export class DayuDdosIpAttachmentV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_ddos_ip_attachment_v2 tencentcloud_dayu_ddos_ip_attachment_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_ddos_ip_attachment_v2 tencentcloud_dayu_ddos_ip_attachment_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +288,8 @@ export class DayuDdosIpAttachmentV2 extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dayu_ddos_ip_attachment_v2',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_sharded_postgresql_database
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_sharded_postgresql_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MdbShardedPostgresqlDatabaseConfig extends cdktf.TerraformMetaA
   /**
   * ID of the Sharded PostgreSQL cluster. Provided by the client when the user is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_sharded_postgresql_database#cluster_id MdbShardedPostgresqlDatabase#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_sharded_postgresql_database#cluster_id MdbShardedPostgresqlDatabase#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Name of the Sharded PostgreSQL user. Provided by the client when the user is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_sharded_postgresql_database#name MdbShardedPostgresqlDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_sharded_postgresql_database#name MdbShardedPostgresqlDatabase#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_sharded_postgresql_database#timeouts MdbShardedPostgresqlDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_sharded_postgresql_database#timeouts MdbShardedPostgresqlDatabase#timeouts}
   */
   readonly timeouts?: MdbShardedPostgresqlDatabaseTimeouts;
 }
@@ -28,19 +28,19 @@ export interface MdbShardedPostgresqlDatabaseTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_sharded_postgresql_database#create MdbShardedPostgresqlDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_sharded_postgresql_database#create MdbShardedPostgresqlDatabase#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_sharded_postgresql_database#delete MdbShardedPostgresqlDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_sharded_postgresql_database#delete MdbShardedPostgresqlDatabase#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_sharded_postgresql_database#update MdbShardedPostgresqlDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_sharded_postgresql_database#update MdbShardedPostgresqlDatabase#update}
   */
   readonly update?: string;
 }
@@ -192,7 +192,7 @@ export class MdbShardedPostgresqlDatabaseTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_sharded_postgresql_database yandex_mdb_sharded_postgresql_database}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_sharded_postgresql_database yandex_mdb_sharded_postgresql_database}
 */
 export class MdbShardedPostgresqlDatabase extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class MdbShardedPostgresqlDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbShardedPostgresqlDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbShardedPostgresqlDatabase to import
-  * @param importFromId The id of the existing MdbShardedPostgresqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_sharded_postgresql_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbShardedPostgresqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_sharded_postgresql_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbShardedPostgresqlDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class MdbShardedPostgresqlDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_sharded_postgresql_database yandex_mdb_sharded_postgresql_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_sharded_postgresql_database yandex_mdb_sharded_postgresql_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class MdbShardedPostgresqlDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_sharded_postgresql_database',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

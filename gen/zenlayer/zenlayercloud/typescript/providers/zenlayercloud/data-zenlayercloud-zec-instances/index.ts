@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataZenlayercloudZecInstancesConfig extends cdktf.TerraformMeta
   /**
   * The ID of zone that the bmc instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances#availability_zone DataZenlayercloudZecInstances#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances#availability_zone DataZenlayercloudZecInstances#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances#id DataZenlayercloudZecInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances#id DataZenlayercloudZecInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface DataZenlayercloudZecInstancesConfig extends cdktf.TerraformMeta
   /**
   * IDs of the ZEC instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances#ids DataZenlayercloudZecInstances#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances#ids DataZenlayercloudZecInstances#ids}
   */
   readonly ids?: string[];
   /**
   * The image of the ZEC instance to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances#image_id DataZenlayercloudZecInstances#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances#image_id DataZenlayercloudZecInstances#image_id}
   */
   readonly imageId?: string;
   /**
   * Status of the ZEC instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances#instance_status DataZenlayercloudZecInstances#instance_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances#instance_status DataZenlayercloudZecInstances#instance_status}
   */
   readonly instanceStatus?: string;
   /**
   * The ipv4 address of the ZEC instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances#ipv4_address DataZenlayercloudZecInstances#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances#ipv4_address DataZenlayercloudZecInstances#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * The ipv6 address of the ZEC instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances#ipv6_address DataZenlayercloudZecInstances#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances#ipv6_address DataZenlayercloudZecInstances#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * A regex string to filter results by instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances#name_regex DataZenlayercloudZecInstances#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances#name_regex DataZenlayercloudZecInstances#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * The ID of resource group that the ZEC instance grouped by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances#resource_group_id DataZenlayercloudZecInstances#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances#resource_group_id DataZenlayercloudZecInstances#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances#result_output_file DataZenlayercloudZecInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances#result_output_file DataZenlayercloudZecInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -327,7 +327,7 @@ export class DataZenlayercloudZecInstancesInstancesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances zenlayercloud_zec_instances}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances zenlayercloud_zec_instances}
 */
 export class DataZenlayercloudZecInstances extends cdktf.TerraformDataSource {
 
@@ -343,7 +343,7 @@ export class DataZenlayercloudZecInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudZecInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZecInstances to import
-  * @param importFromId The id of the existing DataZenlayercloudZecInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZecInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZecInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -355,7 +355,7 @@ export class DataZenlayercloudZecInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_instances zenlayercloud_zec_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_instances zenlayercloud_zec_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -366,8 +366,8 @@ export class DataZenlayercloudZecInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zec_instances',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.9',
-        providerVersionConstraint: '0.2.9'
+        providerVersion: '0.2.10',
+        providerVersionConstraint: '0.2.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

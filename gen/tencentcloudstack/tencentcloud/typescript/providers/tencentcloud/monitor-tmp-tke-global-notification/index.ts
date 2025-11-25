@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorTmpTkeGlobalNotificationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#id MonitorTmpTkeGlobalNotification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#id MonitorTmpTkeGlobalNotification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface MonitorTmpTkeGlobalNotificationConfig extends cdktf.TerraformMe
   /**
   * Instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#instance_id MonitorTmpTkeGlobalNotification#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#instance_id MonitorTmpTkeGlobalNotification#instance_id}
   */
   readonly instanceId: string;
   /**
   * notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#notification MonitorTmpTkeGlobalNotification#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#notification MonitorTmpTkeGlobalNotification#notification}
   */
   readonly notification: MonitorTmpTkeGlobalNotificationNotification;
 }
@@ -31,19 +31,19 @@ export interface MonitorTmpTkeGlobalNotificationNotificationAlertManager {
   /**
   * Cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#cluster_id MonitorTmpTkeGlobalNotification#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#cluster_id MonitorTmpTkeGlobalNotification#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Cluster type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#cluster_type MonitorTmpTkeGlobalNotification#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#cluster_type MonitorTmpTkeGlobalNotification#cluster_type}
   */
   readonly clusterType?: string;
   /**
   * Alert manager url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#url MonitorTmpTkeGlobalNotification#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#url MonitorTmpTkeGlobalNotification#url}
   */
   readonly url: string;
 }
@@ -216,85 +216,85 @@ export interface MonitorTmpTkeGlobalNotificationNotification {
   /**
   * Alarm notification switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#enabled MonitorTmpTkeGlobalNotification#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#enabled MonitorTmpTkeGlobalNotification#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Alarm notification method, Valid values: `SMS`, `EMAIL`, `CALL`, `WECHAT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#notify_way MonitorTmpTkeGlobalNotification#notify_way}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#notify_way MonitorTmpTkeGlobalNotification#notify_way}
   */
   readonly notifyWay?: string[];
   /**
   * Phone Alarm Reach Notification, NotifyWay is `CALL`, and this parameter is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#phone_arrive_notice MonitorTmpTkeGlobalNotification#phone_arrive_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#phone_arrive_notice MonitorTmpTkeGlobalNotification#phone_arrive_notice}
   */
   readonly phoneArriveNotice?: boolean | cdktf.IResolvable;
   /**
   * Telephone alarm off-wheel interval, NotifyWay is `CALL`, and this parameter is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#phone_circle_interval MonitorTmpTkeGlobalNotification#phone_circle_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#phone_circle_interval MonitorTmpTkeGlobalNotification#phone_circle_interval}
   */
   readonly phoneCircleInterval?: number;
   /**
   * Number of phone alerts (user group), NotifyWay is `CALL`, and this parameter is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#phone_circle_times MonitorTmpTkeGlobalNotification#phone_circle_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#phone_circle_times MonitorTmpTkeGlobalNotification#phone_circle_times}
   */
   readonly phoneCircleTimes?: number;
   /**
   * Interval between telephone alarm rounds, NotifyWay is `CALL`, and this parameter is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#phone_inner_interval MonitorTmpTkeGlobalNotification#phone_inner_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#phone_inner_interval MonitorTmpTkeGlobalNotification#phone_inner_interval}
   */
   readonly phoneInnerInterval?: number;
   /**
   * Phone alert sequence, NotifyWay is `CALL`, and this parameter is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#phone_notify_order MonitorTmpTkeGlobalNotification#phone_notify_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#phone_notify_order MonitorTmpTkeGlobalNotification#phone_notify_order}
   */
   readonly phoneNotifyOrder?: number[];
   /**
   * Alarm receiving group(user group).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#receiver_groups MonitorTmpTkeGlobalNotification#receiver_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#receiver_groups MonitorTmpTkeGlobalNotification#receiver_groups}
   */
   readonly receiverGroups?: string[];
   /**
   * Convergence time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#repeat_interval MonitorTmpTkeGlobalNotification#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#repeat_interval MonitorTmpTkeGlobalNotification#repeat_interval}
   */
   readonly repeatInterval?: string;
   /**
   * Effective end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#time_range_end MonitorTmpTkeGlobalNotification#time_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#time_range_end MonitorTmpTkeGlobalNotification#time_range_end}
   */
   readonly timeRangeEnd?: string;
   /**
   * Effective start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#time_range_start MonitorTmpTkeGlobalNotification#time_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#time_range_start MonitorTmpTkeGlobalNotification#time_range_start}
   */
   readonly timeRangeStart?: string;
   /**
   * Alarm notification type, Valid values: `amp`, `webhook`, `alertmanager`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#type MonitorTmpTkeGlobalNotification#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#type MonitorTmpTkeGlobalNotification#type}
   */
   readonly type: string;
   /**
   * Web hook, if Type is `webhook`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#web_hook MonitorTmpTkeGlobalNotification#web_hook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#web_hook MonitorTmpTkeGlobalNotification#web_hook}
   */
   readonly webHook?: string;
   /**
   * alert_manager block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#alert_manager MonitorTmpTkeGlobalNotification#alert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#alert_manager MonitorTmpTkeGlobalNotification#alert_manager}
   */
   readonly alertManager?: MonitorTmpTkeGlobalNotificationNotificationAlertManager[] | cdktf.IResolvable;
 }
@@ -749,7 +749,7 @@ export class MonitorTmpTkeGlobalNotificationNotificationOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification tencentcloud_monitor_tmp_tke_global_notification}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification tencentcloud_monitor_tmp_tke_global_notification}
 */
 export class MonitorTmpTkeGlobalNotification extends cdktf.TerraformResource {
 
@@ -765,7 +765,7 @@ export class MonitorTmpTkeGlobalNotification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorTmpTkeGlobalNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorTmpTkeGlobalNotification to import
-  * @param importFromId The id of the existing MonitorTmpTkeGlobalNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorTmpTkeGlobalNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorTmpTkeGlobalNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -777,7 +777,7 @@ export class MonitorTmpTkeGlobalNotification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_tmp_tke_global_notification tencentcloud_monitor_tmp_tke_global_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_tmp_tke_global_notification tencentcloud_monitor_tmp_tke_global_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -788,8 +788,8 @@ export class MonitorTmpTkeGlobalNotification extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_tmp_tke_global_notification',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

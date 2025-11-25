@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MariadbDedicatedclusterDbInstanceConfig extends cdktf.Terraform
   /**
   * dedicated cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#cluster_id MariadbDedicatedclusterDbInstance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#cluster_id MariadbDedicatedclusterDbInstance#cluster_id}
   */
   readonly clusterId: string;
   /**
   * db engine version, default to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#db_version_id MariadbDedicatedclusterDbInstance#db_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#db_version_id MariadbDedicatedclusterDbInstance#db_version_id}
   */
   readonly dbVersionId?: string;
   /**
   * number of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#goods_num MariadbDedicatedclusterDbInstance#goods_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#goods_num MariadbDedicatedclusterDbInstance#goods_num}
   */
   readonly goodsNum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#id MariadbDedicatedclusterDbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#id MariadbDedicatedclusterDbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface MariadbDedicatedclusterDbInstanceConfig extends cdktf.Terraform
   /**
   * name of this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#instance_name MariadbDedicatedclusterDbInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#instance_name MariadbDedicatedclusterDbInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * instance memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#memory MariadbDedicatedclusterDbInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#memory MariadbDedicatedclusterDbInstance#memory}
   */
   readonly memory: number;
   /**
   * project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#project_id MariadbDedicatedclusterDbInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#project_id MariadbDedicatedclusterDbInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * instance disk storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#storage MariadbDedicatedclusterDbInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#storage MariadbDedicatedclusterDbInstance#storage}
   */
   readonly storage: number;
   /**
   * subnet id, it&amp;#39;s required when vpcId is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#subnet_id MariadbDedicatedclusterDbInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#subnet_id MariadbDedicatedclusterDbInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#tags MariadbDedicatedclusterDbInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#tags MariadbDedicatedclusterDbInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * vip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#vip MariadbDedicatedclusterDbInstance#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#vip MariadbDedicatedclusterDbInstance#vip}
   */
   readonly vip?: string;
   /**
   * vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#vpc_id MariadbDedicatedclusterDbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#vpc_id MariadbDedicatedclusterDbInstance#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance tencentcloud_mariadb_dedicatedcluster_db_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance tencentcloud_mariadb_dedicatedcluster_db_instance}
 */
 export class MariadbDedicatedclusterDbInstance extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class MariadbDedicatedclusterDbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MariadbDedicatedclusterDbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MariadbDedicatedclusterDbInstance to import
-  * @param importFromId The id of the existing MariadbDedicatedclusterDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MariadbDedicatedclusterDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MariadbDedicatedclusterDbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class MariadbDedicatedclusterDbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_dedicatedcluster_db_instance tencentcloud_mariadb_dedicatedcluster_db_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_dedicatedcluster_db_instance tencentcloud_mariadb_dedicatedcluster_db_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class MariadbDedicatedclusterDbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mariadb_dedicatedcluster_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

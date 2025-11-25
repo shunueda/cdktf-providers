@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CamOidcSsoConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authorization request Endpoint, OpenID Connect identity provider authorization address. Corresponds to the value of the `authorization_endpoint` field in the Openid-configuration provided by the Enterprise IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso#authorization_endpoint CamOidcSso#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso#authorization_endpoint CamOidcSso#authorization_endpoint}
   */
   readonly authorizationEndpoint: string;
   /**
   * Client ID, the client ID registered with the OpenID Connect identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso#client_id CamOidcSso#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso#client_id CamOidcSso#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso#id CamOidcSso#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso#id CamOidcSso#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface CamOidcSsoConfig extends cdktf.TerraformMetaArguments {
   /**
   * The signature public key requires base64_encode. Verify the public key signed by the OpenID Connect identity provider ID Token. For the security of your account, we recommend that you rotate the signed public key regularly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso#identity_key CamOidcSso#identity_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso#identity_key CamOidcSso#identity_key}
   */
   readonly identityKey: string;
   /**
   * Identity provider URL. OpenID Connect identity provider identity.Corresponds to the value of the `issuer` field in the Openid-configuration provided by the Enterprise IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso#identity_url CamOidcSso#identity_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso#identity_url CamOidcSso#identity_url}
   */
   readonly identityUrl: string;
   /**
   * Map field names. Which field in the IdP's id_token maps to the user name of the subuser, usually the sub or name field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso#mapping_filed CamOidcSso#mapping_filed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso#mapping_filed CamOidcSso#mapping_filed}
   */
   readonly mappingFiled: string;
   /**
   * Authorize the request Forsonse mode. Authorization request return mode, form_post and frogment two optional modes, recommended to select form_post mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso#response_mode CamOidcSso#response_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso#response_mode CamOidcSso#response_mode}
   */
   readonly responseMode: string;
   /**
   * Authorization requests The Response type, with a fixed value id_token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso#response_type CamOidcSso#response_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso#response_type CamOidcSso#response_type}
   */
   readonly responseType: string;
   /**
   * Authorize the request Scope. openid; email; profile; Authorization request information scope. The default is required openid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso#scope CamOidcSso#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso#scope CamOidcSso#scope}
   */
   readonly scope?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso tencentcloud_cam_oidc_sso}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso tencentcloud_cam_oidc_sso}
 */
 export class CamOidcSso extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class CamOidcSso extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CamOidcSso resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CamOidcSso to import
-  * @param importFromId The id of the existing CamOidcSso that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CamOidcSso that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CamOidcSso to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class CamOidcSso extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_oidc_sso tencentcloud_cam_oidc_sso} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_oidc_sso tencentcloud_cam_oidc_sso} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class CamOidcSso extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cam_oidc_sso',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

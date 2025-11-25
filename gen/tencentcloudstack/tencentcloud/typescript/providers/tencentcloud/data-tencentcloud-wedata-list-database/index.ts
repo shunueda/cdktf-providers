@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_list_database
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_list_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudWedataListDatabaseConfig extends cdktf.Terrafor
   /**
   * Catalog name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_list_database#catalog_name DataTencentcloudWedataListDatabase#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_list_database#catalog_name DataTencentcloudWedataListDatabase#catalog_name}
   */
   readonly catalogName?: string;
   /**
   * Data source ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_list_database#datasource_id DataTencentcloudWedataListDatabase#datasource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_list_database#datasource_id DataTencentcloudWedataListDatabase#datasource_id}
   */
   readonly datasourceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_list_database#id DataTencentcloudWedataListDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_list_database#id DataTencentcloudWedataListDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataTencentcloudWedataListDatabaseConfig extends cdktf.Terrafor
   /**
   * Database name search keyword.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_list_database#keyword DataTencentcloudWedataListDatabase#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_list_database#keyword DataTencentcloudWedataListDatabase#keyword}
   */
   readonly keyword?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_list_database#result_output_file DataTencentcloudWedataListDatabase#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_list_database#result_output_file DataTencentcloudWedataListDatabase#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -141,7 +141,7 @@ export class DataTencentcloudWedataListDatabaseItemsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_list_database tencentcloud_wedata_list_database}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_list_database tencentcloud_wedata_list_database}
 */
 export class DataTencentcloudWedataListDatabase extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataTencentcloudWedataListDatabase extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudWedataListDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataListDatabase to import
-  * @param importFromId The id of the existing DataTencentcloudWedataListDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_list_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataListDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_list_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataListDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataTencentcloudWedataListDatabase extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_list_database tencentcloud_wedata_list_database} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_list_database tencentcloud_wedata_list_database} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataTencentcloudWedataListDatabase extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_wedata_list_database',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

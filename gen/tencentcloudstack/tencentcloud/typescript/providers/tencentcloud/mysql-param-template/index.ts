@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MysqlParamTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of parameter template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template#description MysqlParamTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template#description MysqlParamTemplate#description}
   */
   readonly description?: string;
   /**
   * The engine type of instance, optional value is InnoDB or RocksDB, default to InnoDB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template#engine_type MysqlParamTemplate#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template#engine_type MysqlParamTemplate#engine_type}
   */
   readonly engineType?: string;
   /**
   * The version of MySQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template#engine_version MysqlParamTemplate#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template#engine_version MysqlParamTemplate#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template#id MysqlParamTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template#id MysqlParamTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface MysqlParamTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of parameter template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template#name MysqlParamTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template#name MysqlParamTemplate#name}
   */
   readonly name: string;
   /**
   * The ID of source parameter template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template#template_id MysqlParamTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template#template_id MysqlParamTemplate#template_id}
   */
   readonly templateId?: number;
   /**
   * The default type of parameter template, supported value is HIGH_STABILITY or HIGH_PERFORMANCE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template#template_type MysqlParamTemplate#template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template#template_type MysqlParamTemplate#template_type}
   */
   readonly templateType?: string;
   /**
   * param_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template#param_list MysqlParamTemplate#param_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template#param_list MysqlParamTemplate#param_list}
   */
   readonly paramList?: MysqlParamTemplateParamListStruct[] | cdktf.IResolvable;
 }
@@ -61,13 +61,13 @@ export interface MysqlParamTemplateParamListStruct {
   /**
   * The value of parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template#current_value MysqlParamTemplate#current_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template#current_value MysqlParamTemplate#current_value}
   */
   readonly currentValue?: string;
   /**
   * The name of parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template#name MysqlParamTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template#name MysqlParamTemplate#name}
   */
   readonly name?: string;
 }
@@ -212,7 +212,7 @@ export class MysqlParamTemplateParamListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template tencentcloud_mysql_param_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template tencentcloud_mysql_param_template}
 */
 export class MysqlParamTemplate extends cdktf.TerraformResource {
 
@@ -228,7 +228,7 @@ export class MysqlParamTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlParamTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlParamTemplate to import
-  * @param importFromId The id of the existing MysqlParamTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlParamTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlParamTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class MysqlParamTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_param_template tencentcloud_mysql_param_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mysql_param_template tencentcloud_mysql_param_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class MysqlParamTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_param_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

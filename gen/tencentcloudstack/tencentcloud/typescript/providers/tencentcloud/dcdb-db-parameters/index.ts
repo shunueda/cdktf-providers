@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dcdb_db_parameters
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_db_parameters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DcdbDbParametersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dcdb_db_parameters#id DcdbDbParameters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_db_parameters#id DcdbDbParameters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DcdbDbParametersConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dcdb_db_parameters#instance_id DcdbDbParameters#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_db_parameters#instance_id DcdbDbParameters#instance_id}
   */
   readonly instanceId: string;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dcdb_db_parameters#params DcdbDbParameters#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_db_parameters#params DcdbDbParameters#params}
   */
   readonly params: DcdbDbParametersParams;
 }
@@ -31,13 +31,13 @@ export interface DcdbDbParametersParams {
   /**
   * The name of parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dcdb_db_parameters#param DcdbDbParameters#param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_db_parameters#param DcdbDbParameters#param}
   */
   readonly param: string;
   /**
   * The value of parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dcdb_db_parameters#value DcdbDbParameters#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_db_parameters#value DcdbDbParameters#value}
   */
   readonly value: string;
 }
@@ -144,7 +144,7 @@ export class DcdbDbParametersParamsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dcdb_db_parameters tencentcloud_dcdb_db_parameters}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_db_parameters tencentcloud_dcdb_db_parameters}
 */
 export class DcdbDbParameters extends cdktf.TerraformResource {
 
@@ -160,7 +160,7 @@ export class DcdbDbParameters extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcdbDbParameters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcdbDbParameters to import
-  * @param importFromId The id of the existing DcdbDbParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dcdb_db_parameters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcdbDbParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_db_parameters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcdbDbParameters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class DcdbDbParameters extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dcdb_db_parameters tencentcloud_dcdb_db_parameters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_db_parameters tencentcloud_dcdb_db_parameters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class DcdbDbParameters extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dcdb_db_parameters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

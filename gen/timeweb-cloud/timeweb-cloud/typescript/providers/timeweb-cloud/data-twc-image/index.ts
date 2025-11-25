@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_image
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataTwcImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_image#id DataTwcImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_image#id DataTwcImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,31 +19,31 @@ export interface DataTwcImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * That image is custom
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_image#is_custom DataTwcImage#is_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_image#is_custom DataTwcImage#is_custom}
   */
   readonly isCustom?: boolean | cdktf.IResolvable;
   /**
   * Location where image was created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_image#location DataTwcImage#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_image#location DataTwcImage#location}
   */
   readonly location?: string;
   /**
   * Name of specified image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_image#name DataTwcImage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_image#name DataTwcImage#name}
   */
   readonly name?: string;
   /**
   * OS of specified image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_image#os DataTwcImage#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_image#os DataTwcImage#os}
   */
   readonly os?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_image twc_image}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_image twc_image}
 */
 export class DataTwcImage extends cdktf.TerraformDataSource {
 
@@ -59,7 +59,7 @@ export class DataTwcImage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwcImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwcImage to import
-  * @param importFromId The id of the existing DataTwcImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwcImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwcImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class DataTwcImage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_image twc_image} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_image twc_image} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class DataTwcImage extends cdktf.TerraformDataSource {
       terraformResourceType: 'twc_image',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6',
-        providerVersionConstraint: '1.6.6'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cdh_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdh_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CdhInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The available zone for the CDH instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cdh_instance#availability_zone CdhInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdh_instance#availability_zone CdhInstance#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * The charge type of instance. Valid values are `PREPAID`. The default is `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cdh_instance#charge_type CdhInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdh_instance#charge_type CdhInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
   * The name of the CDH instance. The max length of host_name is 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cdh_instance#host_name CdhInstance#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdh_instance#host_name CdhInstance#host_name}
   */
   readonly hostName?: string;
   /**
   * The type of the CDH instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cdh_instance#host_type CdhInstance#host_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdh_instance#host_type CdhInstance#host_type}
   */
   readonly hostType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cdh_instance#id CdhInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdh_instance#id CdhInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface CdhInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The tenancy (time unit is month) of the prepaid instance, NOTE: it only works when charge_type is set to `PREPAID`. Valid values are `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `24`, `36`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cdh_instance#prepaid_period CdhInstance#prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdh_instance#prepaid_period CdhInstance#prepaid_period}
   */
   readonly prepaidPeriod?: number;
   /**
   * Auto renewal flag. Valid values: `NOTIFY_AND_AUTO_RENEW`: notify upon expiration and renew automatically, `NOTIFY_AND_MANUAL_RENEW`: notify upon expiration but do not renew automatically, `DISABLE_NOTIFY_AND_MANUAL_RENEW`: neither notify upon expiration nor renew automatically. Default value: `NOTIFY_AND_MANUAL_RENEW`. If this parameter is specified as `NOTIFY_AND_AUTO_RENEW`, the instance will be automatically renewed on a monthly basis if the account balance is sufficient. NOTE: it only works when charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cdh_instance#prepaid_renew_flag CdhInstance#prepaid_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdh_instance#prepaid_renew_flag CdhInstance#prepaid_renew_flag}
   */
   readonly prepaidRenewFlag?: string;
   /**
   * The project the instance belongs to, default to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cdh_instance#project_id CdhInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdh_instance#project_id CdhInstance#project_id}
   */
   readonly projectId?: number;
 }
@@ -164,7 +164,7 @@ export class CdhInstanceHostResourceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cdh_instance tencentcloud_cdh_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdh_instance tencentcloud_cdh_instance}
 */
 export class CdhInstance extends cdktf.TerraformResource {
 
@@ -180,7 +180,7 @@ export class CdhInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdhInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdhInstance to import
-  * @param importFromId The id of the existing CdhInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cdh_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdhInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdh_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdhInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -192,7 +192,7 @@ export class CdhInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cdh_instance tencentcloud_cdh_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdh_instance tencentcloud_cdh_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,8 +203,8 @@ export class CdhInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cdh_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

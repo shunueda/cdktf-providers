@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance_public_endpoint
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance_public_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MqttInstancePublicEndpointConfig extends cdktf.TerraformMetaArg
   /**
   * Bandwidth, unit: Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance_public_endpoint#bandwidth MqttInstancePublicEndpoint#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance_public_endpoint#bandwidth MqttInstancePublicEndpoint#bandwidth}
   */
   readonly bandwidth: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance_public_endpoint#id MqttInstancePublicEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance_public_endpoint#id MqttInstancePublicEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface MqttInstancePublicEndpointConfig extends cdktf.TerraformMetaArg
   /**
   * MQTT instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance_public_endpoint#instance_id MqttInstancePublicEndpoint#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance_public_endpoint#instance_id MqttInstancePublicEndpoint#instance_id}
   */
   readonly instanceId: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance_public_endpoint#rules MqttInstancePublicEndpoint#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance_public_endpoint#rules MqttInstancePublicEndpoint#rules}
   */
   readonly rules?: MqttInstancePublicEndpointRules[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface MqttInstancePublicEndpointRules {
   /**
   * IP network segment information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance_public_endpoint#ip_rule MqttInstancePublicEndpoint#ip_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance_public_endpoint#ip_rule MqttInstancePublicEndpoint#ip_rule}
   */
   readonly ipRule: string;
   /**
   * Remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance_public_endpoint#remark MqttInstancePublicEndpoint#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance_public_endpoint#remark MqttInstancePublicEndpoint#remark}
   */
   readonly remark?: string;
 }
@@ -185,7 +185,7 @@ export class MqttInstancePublicEndpointRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance_public_endpoint tencentcloud_mqtt_instance_public_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance_public_endpoint tencentcloud_mqtt_instance_public_endpoint}
 */
 export class MqttInstancePublicEndpoint extends cdktf.TerraformResource {
 
@@ -201,7 +201,7 @@ export class MqttInstancePublicEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MqttInstancePublicEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MqttInstancePublicEndpoint to import
-  * @param importFromId The id of the existing MqttInstancePublicEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance_public_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MqttInstancePublicEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance_public_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MqttInstancePublicEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -213,7 +213,7 @@ export class MqttInstancePublicEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance_public_endpoint tencentcloud_mqtt_instance_public_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance_public_endpoint tencentcloud_mqtt_instance_public_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,8 +224,8 @@ export class MqttInstancePublicEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mqtt_instance_public_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

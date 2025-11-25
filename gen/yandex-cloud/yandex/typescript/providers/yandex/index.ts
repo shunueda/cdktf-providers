@@ -12,6 +12,8 @@ export * as backupPolicyBindings from './backup-policy-bindings';
 export * as billingCloudBinding from './billing-cloud-binding';
 export * as cdnOriginGroup from './cdn-origin-group';
 export * as cdnResource from './cdn-resource';
+export * as cloudDesktopsDesktop from './cloud-desktops-desktop';
+export * as cloudDesktopsDesktopGroup from './cloud-desktops-desktop-group';
 export * as cloudregistryRegistry from './cloudregistry-registry';
 export * as cloudregistryRegistryIamBinding from './cloudregistry-registry-iam-binding';
 export * as cloudregistryRegistryIpPermission from './cloudregistry-registry-ip-permission';
@@ -204,6 +206,9 @@ export * as dataYandexBillingCloudBinding from './data-yandex-billing-cloud-bind
 export * as dataYandexCdnOriginGroup from './data-yandex-cdn-origin-group';
 export * as dataYandexCdnResource from './data-yandex-cdn-resource';
 export * as dataYandexClientConfig from './data-yandex-client-config';
+export * as dataYandexCloudDesktopsDesktop from './data-yandex-cloud-desktops-desktop';
+export * as dataYandexCloudDesktopsDesktopGroup from './data-yandex-cloud-desktops-desktop-group';
+export * as dataYandexCloudDesktopsImage from './data-yandex-cloud-desktops-image';
 export * as dataYandexCloudregistryRegistry from './data-yandex-cloudregistry-registry';
 export * as dataYandexCloudregistryRegistryIpPermission from './data-yandex-cloudregistry-registry-ip-permission';
 export * as dataYandexCmCertificate from './data-yandex-cm-certificate';

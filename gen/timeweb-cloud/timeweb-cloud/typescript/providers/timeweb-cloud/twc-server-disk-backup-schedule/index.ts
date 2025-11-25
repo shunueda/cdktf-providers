@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_server_disk_backup_schedule
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface TwcServerDiskBackupScheduleConfig extends cdktf.TerraformMetaAr
   /**
   * Maximum stored copy count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_server_disk_backup_schedule#copy_count TwcServerDiskBackupSchedule#copy_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup_schedule#copy_count TwcServerDiskBackupSchedule#copy_count}
   */
   readonly copyCount: number;
   /**
   * Creation date for first backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_server_disk_backup_schedule#creation_start_at TwcServerDiskBackupSchedule#creation_start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup_schedule#creation_start_at TwcServerDiskBackupSchedule#creation_start_at}
   */
   readonly creationStartAt: string;
   /**
   * Day of the week when auto backup should be created. Allowed only for week interval, counting starts from 1 (Monday)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_server_disk_backup_schedule#day_of_week TwcServerDiskBackupSchedule#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup_schedule#day_of_week TwcServerDiskBackupSchedule#day_of_week}
   */
   readonly dayOfWeek?: number;
   /**
   * Enable auto backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_server_disk_backup_schedule#enabled TwcServerDiskBackupSchedule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup_schedule#enabled TwcServerDiskBackupSchedule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_server_disk_backup_schedule#id TwcServerDiskBackupSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup_schedule#id TwcServerDiskBackupSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface TwcServerDiskBackupScheduleConfig extends cdktf.TerraformMetaAr
   /**
   * Interval between auto backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_server_disk_backup_schedule#interval TwcServerDiskBackupSchedule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup_schedule#interval TwcServerDiskBackupSchedule#interval}
   */
   readonly interval: string;
   /**
   * Disk ID for which backup should be configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_server_disk_backup_schedule#source_server_disk_id TwcServerDiskBackupSchedule#source_server_disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup_schedule#source_server_disk_id TwcServerDiskBackupSchedule#source_server_disk_id}
   */
   readonly sourceServerDiskId: number;
   /**
   * Server ID for which disk auto backups should be configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_server_disk_backup_schedule#source_server_id TwcServerDiskBackupSchedule#source_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup_schedule#source_server_id TwcServerDiskBackupSchedule#source_server_id}
   */
   readonly sourceServerId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_server_disk_backup_schedule twc_server_disk_backup_schedule}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup_schedule twc_server_disk_backup_schedule}
 */
 export class TwcServerDiskBackupSchedule extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class TwcServerDiskBackupSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcServerDiskBackupSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcServerDiskBackupSchedule to import
-  * @param importFromId The id of the existing TwcServerDiskBackupSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_server_disk_backup_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcServerDiskBackupSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcServerDiskBackupSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class TwcServerDiskBackupSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_server_disk_backup_schedule twc_server_disk_backup_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup_schedule twc_server_disk_backup_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class TwcServerDiskBackupSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'twc_server_disk_backup_schedule',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6',
-        providerVersionConstraint: '1.6.6'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

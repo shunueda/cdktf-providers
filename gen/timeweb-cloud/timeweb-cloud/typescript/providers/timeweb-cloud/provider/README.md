@@ -1,3 +1,3 @@
 # `provider`
 
-Refer to the Terraform Registry for docs: [`timeweb-cloud`](https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs).
+Refer to the Terraform Registry for docs: [`timeweb-cloud`](https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs).

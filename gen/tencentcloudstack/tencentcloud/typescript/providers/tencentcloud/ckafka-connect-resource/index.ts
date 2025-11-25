@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CkafkaConnectResourceConfig extends cdktf.TerraformMetaArgument
   /**
   * Connection source description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#description CkafkaConnectResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#description CkafkaConnectResource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#id CkafkaConnectResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#id CkafkaConnectResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,73 +23,73 @@ export interface CkafkaConnectResourceConfig extends cdktf.TerraformMetaArgument
   /**
   * connection source name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#resource_name CkafkaConnectResource#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#resource_name CkafkaConnectResource#resource_name}
   */
   readonly resourceName: string;
   /**
   * connection source type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#type CkafkaConnectResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#type CkafkaConnectResource#type}
   */
   readonly type: string;
   /**
   * clickhouse_connect_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#clickhouse_connect_param CkafkaConnectResource#clickhouse_connect_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#clickhouse_connect_param CkafkaConnectResource#clickhouse_connect_param}
   */
   readonly clickhouseConnectParam?: CkafkaConnectResourceClickhouseConnectParam;
   /**
   * doris_connect_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#doris_connect_param CkafkaConnectResource#doris_connect_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#doris_connect_param CkafkaConnectResource#doris_connect_param}
   */
   readonly dorisConnectParam?: CkafkaConnectResourceDorisConnectParam;
   /**
   * dts_connect_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#dts_connect_param CkafkaConnectResource#dts_connect_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#dts_connect_param CkafkaConnectResource#dts_connect_param}
   */
   readonly dtsConnectParam?: CkafkaConnectResourceDtsConnectParam;
   /**
   * es_connect_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#es_connect_param CkafkaConnectResource#es_connect_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#es_connect_param CkafkaConnectResource#es_connect_param}
   */
   readonly esConnectParam?: CkafkaConnectResourceEsConnectParam;
   /**
   * kafka_connect_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#kafka_connect_param CkafkaConnectResource#kafka_connect_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#kafka_connect_param CkafkaConnectResource#kafka_connect_param}
   */
   readonly kafkaConnectParam?: CkafkaConnectResourceKafkaConnectParam;
   /**
   * mariadb_connect_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#mariadb_connect_param CkafkaConnectResource#mariadb_connect_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#mariadb_connect_param CkafkaConnectResource#mariadb_connect_param}
   */
   readonly mariadbConnectParam?: CkafkaConnectResourceMariadbConnectParam;
   /**
   * mongodb_connect_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#mongodb_connect_param CkafkaConnectResource#mongodb_connect_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#mongodb_connect_param CkafkaConnectResource#mongodb_connect_param}
   */
   readonly mongodbConnectParam?: CkafkaConnectResourceMongodbConnectParam;
   /**
   * mysql_connect_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#mysql_connect_param CkafkaConnectResource#mysql_connect_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#mysql_connect_param CkafkaConnectResource#mysql_connect_param}
   */
   readonly mysqlConnectParam?: CkafkaConnectResourceMysqlConnectParam;
   /**
   * postgresql_connect_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#postgresql_connect_param CkafkaConnectResource#postgresql_connect_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#postgresql_connect_param CkafkaConnectResource#postgresql_connect_param}
   */
   readonly postgresqlConnectParam?: CkafkaConnectResourcePostgresqlConnectParam;
   /**
   * sqlserver_connect_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#sqlserver_connect_param CkafkaConnectResource#sqlserver_connect_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#sqlserver_connect_param CkafkaConnectResource#sqlserver_connect_param}
   */
   readonly sqlserverConnectParam?: CkafkaConnectResourceSqlserverConnectParam;
 }
@@ -97,49 +97,49 @@ export interface CkafkaConnectResourceClickhouseConnectParam {
   /**
   * Whether to update to the associated Datahub task, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
   */
   readonly isUpdate?: boolean | cdktf.IResolvable;
   /**
   * Password for Clickhouse connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
   */
   readonly password: string;
   /**
   * Clickhouse connection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
   */
   readonly port: number;
   /**
   * Instance resources for Click House connection sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
   */
   readonly resource: string;
   /**
   * Whether the Clickhouse connection source is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
   */
   readonly selfBuilt: boolean | cdktf.IResolvable;
   /**
   * Instance VIP of the ClickHouse connection source, when it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
   */
   readonly serviceVip?: string;
   /**
   * The vpc Id of the source of the ClickHouse connection, when it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * The username of the clickhouse connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
   */
   readonly userName: string;
 }
@@ -413,55 +413,55 @@ export interface CkafkaConnectResourceDorisConnectParam {
   /**
   * Doris http CLB port, Usually mapped to port 8040 of be.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#be_port CkafkaConnectResource#be_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#be_port CkafkaConnectResource#be_port}
   */
   readonly bePort?: number;
   /**
   * Whether to update to the associated Datahub task, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
   */
   readonly isUpdate?: boolean | cdktf.IResolvable;
   /**
   * Doris  password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
   */
   readonly password: string;
   /**
   * Doris jdbc CLB port, Usually mapped to port 9030 of fe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
   */
   readonly port: number;
   /**
   * Doris  instanceId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
   */
   readonly resource: string;
   /**
   * Doris Whether the connection source is a self-built cluster, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
   */
   readonly selfBuilt?: boolean | cdktf.IResolvable;
   /**
   * Doris vip, When it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
   */
   readonly serviceVip?: string;
   /**
   * Doris vpcId, When it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * Doris  The username of the connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
   */
   readonly userName: string;
 }
@@ -767,43 +767,43 @@ export interface CkafkaConnectResourceDtsConnectParam {
   /**
   * Id of the Dts consumption group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#group_id CkafkaConnectResource#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#group_id CkafkaConnectResource#group_id}
   */
   readonly groupId: string;
   /**
   * Whether to update to the associated Datahub task, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
   */
   readonly isUpdate?: boolean | cdktf.IResolvable;
   /**
   * The password of the Dts consumption group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
   */
   readonly password: string;
   /**
   * Dts port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
   */
   readonly port: number;
   /**
   * Dts instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
   */
   readonly resource: string;
   /**
   * Topic subscribed by Dts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#topic CkafkaConnectResource#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#topic CkafkaConnectResource#topic}
   */
   readonly topic: string;
   /**
   * The account number of the Dts consumption group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
   */
   readonly userName: string;
 }
@@ -1045,49 +1045,49 @@ export interface CkafkaConnectResourceEsConnectParam {
   /**
   * Whether to update to the associated Datahub task, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
   */
   readonly isUpdate?: boolean | cdktf.IResolvable;
   /**
   * Es The password of the connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
   */
   readonly password: string;
   /**
   * Es port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
   */
   readonly port: number;
   /**
   * Instance resource of Es connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
   */
   readonly resource: string;
   /**
   * Whether the Es connection source is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
   */
   readonly selfBuilt: boolean | cdktf.IResolvable;
   /**
   * The instance vip of the Es connection source, when it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
   */
   readonly serviceVip?: string;
   /**
   * The vpc Id of the Es connection source, when it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * Es The username of the connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
   */
   readonly userName: string;
 }
@@ -1361,31 +1361,31 @@ export interface CkafkaConnectResourceKafkaConnectParam {
   /**
   * Kafka broker ip, Mandatory when self-built.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#broker_address CkafkaConnectResource#broker_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#broker_address CkafkaConnectResource#broker_address}
   */
   readonly brokerAddress?: string;
   /**
   * Whether to update to the associated Dip task, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
   */
   readonly isUpdate?: boolean | cdktf.IResolvable;
   /**
   * CKafka instanceId region, Required when crossing regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#region CkafkaConnectResource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#region CkafkaConnectResource#region}
   */
   readonly region?: string;
   /**
   * Kafka instanceId, When it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
   */
   readonly resource?: string;
   /**
   * Whether it is a self-built cluster, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
   */
   readonly selfBuilt?: boolean | cdktf.IResolvable;
 }
@@ -1587,43 +1587,43 @@ export interface CkafkaConnectResourceMariadbConnectParam {
   /**
   * Whether to update to the associated Datahub task, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
   */
   readonly isUpdate?: boolean | cdktf.IResolvable;
   /**
   * MariaDB password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
   */
   readonly password: string;
   /**
   * MariaDB port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
   */
   readonly port: number;
   /**
   * MariaDB instanceId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
   */
   readonly resource: string;
   /**
   * The instance vip of the Maria DB connection source, when it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
   */
   readonly serviceVip?: string;
   /**
   * MariaDB vpcId, When it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * MariaDB The username of the connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
   */
   readonly userName: string;
 }
@@ -1871,49 +1871,49 @@ export interface CkafkaConnectResourceMongodbConnectParam {
   /**
   * Whether to update to the associated Datahub task, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
   */
   readonly isUpdate?: boolean | cdktf.IResolvable;
   /**
   * Password for the source of the Mongo DB connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
   */
   readonly password: string;
   /**
   * MongoDB port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
   */
   readonly port: number;
   /**
   * Instance resource of Mongo DB connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
   */
   readonly resource: string;
   /**
   * Whether the Mongo DB connection source is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
   */
   readonly selfBuilt: boolean | cdktf.IResolvable;
   /**
   * The instance VIP of the Mongo DB connection source, when it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
   */
   readonly serviceVip?: string;
   /**
   * The vpc Id of the Mongo DB connection source, which is required when it is a Tencent Cloud instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * The username of the Mongo DB connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
   */
   readonly userName: string;
 }
@@ -2187,55 +2187,55 @@ export interface CkafkaConnectResourceMysqlConnectParam {
   /**
   * Required when type is TDSQL C_MYSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#cluster_id CkafkaConnectResource#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#cluster_id CkafkaConnectResource#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Whether to update to the associated Datahub task, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
   */
   readonly isUpdate?: boolean | cdktf.IResolvable;
   /**
   * Mysql connection source password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
   */
   readonly password: string;
   /**
   * MySQL port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
   */
   readonly port: number;
   /**
   * Instance resource of My SQL connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
   */
   readonly resource: string;
   /**
   * Mysql Whether the connection source is a self-built cluster, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
   */
   readonly selfBuilt?: boolean | cdktf.IResolvable;
   /**
   * The instance vip of the MySQL connection source, when it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
   */
   readonly serviceVip?: string;
   /**
   * The vpc Id of the My SQL connection source, when it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * Username of Mysql connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
   */
   readonly userName: string;
 }
@@ -2541,55 +2541,55 @@ export interface CkafkaConnectResourcePostgresqlConnectParam {
   /**
   * Required when type is TDSQL C_POSTGRESQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#cluster_id CkafkaConnectResource#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#cluster_id CkafkaConnectResource#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Whether to update to the associated Datahub task, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
   */
   readonly isUpdate?: boolean | cdktf.IResolvable;
   /**
   * PostgreSQL password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
   */
   readonly password: string;
   /**
   * PostgreSQL port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
   */
   readonly port: number;
   /**
   * PostgreSQL instanceId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
   */
   readonly resource: string;
   /**
   * PostgreSQL Whether the connection source is a self-built cluster, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#self_built CkafkaConnectResource#self_built}
   */
   readonly selfBuilt?: boolean | cdktf.IResolvable;
   /**
   * The instance VIP of the Postgresql connection source, when it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
   */
   readonly serviceVip?: string;
   /**
   * The instance vpcId of the Postgresql connection source, when it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * PostgreSQL The username of the connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
   */
   readonly userName: string;
 }
@@ -2895,43 +2895,43 @@ export interface CkafkaConnectResourceSqlserverConnectParam {
   /**
   * Whether to update to the associated Dip task, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#is_update CkafkaConnectResource#is_update}
   */
   readonly isUpdate?: boolean | cdktf.IResolvable;
   /**
   * SQLServer password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#password CkafkaConnectResource#password}
   */
   readonly password: string;
   /**
   * SQLServer port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#port CkafkaConnectResource#port}
   */
   readonly port: number;
   /**
   * SQLServer instanceId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#resource CkafkaConnectResource#resource}
   */
   readonly resource: string;
   /**
   * SQLServer instance vip, When it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#service_vip CkafkaConnectResource#service_vip}
   */
   readonly serviceVip?: string;
   /**
   * SQLServer vpcId, When it is a Tencent Cloud instance, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#uniq_vpc_id CkafkaConnectResource#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * SQLServer The username of the connection source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#user_name CkafkaConnectResource#user_name}
   */
   readonly userName: string;
 }
@@ -3177,7 +3177,7 @@ export class CkafkaConnectResourceSqlserverConnectParamOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource tencentcloud_ckafka_connect_resource}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource tencentcloud_ckafka_connect_resource}
 */
 export class CkafkaConnectResource extends cdktf.TerraformResource {
 
@@ -3193,7 +3193,7 @@ export class CkafkaConnectResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CkafkaConnectResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CkafkaConnectResource to import
-  * @param importFromId The id of the existing CkafkaConnectResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CkafkaConnectResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CkafkaConnectResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3205,7 +3205,7 @@ export class CkafkaConnectResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_connect_resource tencentcloud_ckafka_connect_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_connect_resource tencentcloud_ckafka_connect_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3216,8 +3216,8 @@ export class CkafkaConnectResource extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ckafka_connect_resource',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

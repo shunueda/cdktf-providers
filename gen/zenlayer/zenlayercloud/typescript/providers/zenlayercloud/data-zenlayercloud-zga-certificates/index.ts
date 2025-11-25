@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_certificates
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_certificates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataZenlayercloudZgaCertificatesConfig extends cdktf.TerraformM
   /**
   * IDs of the certificates to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_certificates#certificate_ids DataZenlayercloudZgaCertificates#certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_certificates#certificate_ids DataZenlayercloudZgaCertificates#certificate_ids}
   */
   readonly certificateIds?: string[];
   /**
   * Label of the certificate to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_certificates#certificate_label DataZenlayercloudZgaCertificates#certificate_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_certificates#certificate_label DataZenlayercloudZgaCertificates#certificate_label}
   */
   readonly certificateLabel?: string;
   /**
   * DNS Name of the certificate to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_certificates#dns_name DataZenlayercloudZgaCertificates#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_certificates#dns_name DataZenlayercloudZgaCertificates#dns_name}
   */
   readonly dnsName?: string;
   /**
   * Whether the certificate has expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_certificates#expired DataZenlayercloudZgaCertificates#expired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_certificates#expired DataZenlayercloudZgaCertificates#expired}
   */
   readonly expired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_certificates#id DataZenlayercloudZgaCertificates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_certificates#id DataZenlayercloudZgaCertificates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface DataZenlayercloudZgaCertificatesConfig extends cdktf.TerraformM
   /**
   * The ID of resource group that the certificate grouped by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_certificates#resource_group_id DataZenlayercloudZgaCertificates#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_certificates#resource_group_id DataZenlayercloudZgaCertificates#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_certificates#result_output_file DataZenlayercloudZgaCertificates#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_certificates#result_output_file DataZenlayercloudZgaCertificates#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -183,7 +183,7 @@ export class DataZenlayercloudZgaCertificatesCertificatesList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_certificates zenlayercloud_zga_certificates}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_certificates zenlayercloud_zga_certificates}
 */
 export class DataZenlayercloudZgaCertificates extends cdktf.TerraformDataSource {
 
@@ -199,7 +199,7 @@ export class DataZenlayercloudZgaCertificates extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataZenlayercloudZgaCertificates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZgaCertificates to import
-  * @param importFromId The id of the existing DataZenlayercloudZgaCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_certificates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZgaCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_certificates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZgaCertificates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class DataZenlayercloudZgaCertificates extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_certificates zenlayercloud_zga_certificates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_certificates zenlayercloud_zga_certificates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class DataZenlayercloudZgaCertificates extends cdktf.TerraformDataSource 
       terraformResourceType: 'zenlayercloud_zga_certificates',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.9',
-        providerVersionConstraint: '0.2.9'
+        providerVersion: '0.2.10',
+        providerVersionConstraint: '0.2.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

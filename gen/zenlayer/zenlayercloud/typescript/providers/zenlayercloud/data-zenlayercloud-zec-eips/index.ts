@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataZenlayercloudZecEipsConfig extends cdktf.TerraformMetaArgum
   /**
   * The ID of associated resource to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#associated_id DataZenlayercloudZecEips#associated_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#associated_id DataZenlayercloudZecEips#associated_id}
   */
   readonly associatedId?: string;
   /**
   * The ID of cidr that the EIP allocated from to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#cidr_ids DataZenlayercloudZecEips#cidr_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#cidr_ids DataZenlayercloudZecEips#cidr_ids}
   */
   readonly cidrIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#id DataZenlayercloudZecEips#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#id DataZenlayercloudZecEips#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface DataZenlayercloudZecEipsConfig extends cdktf.TerraformMetaArgum
   /**
   * IDs of the EIPs to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#ids DataZenlayercloudZecEips#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#ids DataZenlayercloudZecEips#ids}
   */
   readonly ids?: string[];
   /**
   * Indicates whether it is the default EIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#is_default DataZenlayercloudZecEips#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#is_default DataZenlayercloudZecEips#is_default}
   */
   readonly isDefault?: string;
   /**
   * A regex string to apply to the elastic IP list returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#name_regex DataZenlayercloudZecEips#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#name_regex DataZenlayercloudZecEips#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * The private ipv4 address that the EIP attached to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#private_ip_address DataZenlayercloudZecEips#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#private_ip_address DataZenlayercloudZecEips#private_ip_address}
   */
   readonly privateIpAddress?: string;
   /**
   * The elastic ipv4 address to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#public_ip_address DataZenlayercloudZecEips#public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#public_ip_address DataZenlayercloudZecEips#public_ip_address}
   */
   readonly publicIpAddress?: string;
   /**
   * The region ID that the elastic IP locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#region_id DataZenlayercloudZecEips#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#region_id DataZenlayercloudZecEips#region_id}
   */
   readonly regionId?: string;
   /**
   * Resource group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#resource_group_id DataZenlayercloudZecEips#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#resource_group_id DataZenlayercloudZecEips#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#result_output_file DataZenlayercloudZecEips#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#result_output_file DataZenlayercloudZecEips#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Status of the elastic IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#status DataZenlayercloudZecEips#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#status DataZenlayercloudZecEips#status}
   */
   readonly status?: string;
 }
@@ -253,7 +253,7 @@ export class DataZenlayercloudZecEipsResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips zenlayercloud_zec_eips}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips zenlayercloud_zec_eips}
 */
 export class DataZenlayercloudZecEips extends cdktf.TerraformDataSource {
 
@@ -269,7 +269,7 @@ export class DataZenlayercloudZecEips extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudZecEips resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZecEips to import
-  * @param importFromId The id of the existing DataZenlayercloudZecEips that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZecEips that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZecEips to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -281,7 +281,7 @@ export class DataZenlayercloudZecEips extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_eips zenlayercloud_zec_eips} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_eips zenlayercloud_zec_eips} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -292,8 +292,8 @@ export class DataZenlayercloudZecEips extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zec_eips',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.9',
-        providerVersionConstraint: '0.2.9'
+        providerVersion: '0.2.10',
+        providerVersionConstraint: '0.2.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

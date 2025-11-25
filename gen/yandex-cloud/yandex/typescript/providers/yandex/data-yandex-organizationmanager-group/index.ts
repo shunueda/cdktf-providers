@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataYandexOrganizationmanagerGroupConfig extends cdktf.Terrafor
   /**
   * ID of a Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_group#group_id DataYandexOrganizationmanagerGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_group#group_id DataYandexOrganizationmanagerGroup#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_group#id DataYandexOrganizationmanagerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_group#id DataYandexOrganizationmanagerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataYandexOrganizationmanagerGroupConfig extends cdktf.Terrafor
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_group#name DataYandexOrganizationmanagerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_group#name DataYandexOrganizationmanagerGroup#name}
   */
   readonly name?: string;
   /**
   * Organization that the Group belongs to. If value is omitted, the default provider organization is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_group#organization_id DataYandexOrganizationmanagerGroup#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_group#organization_id DataYandexOrganizationmanagerGroup#organization_id}
   */
   readonly organizationId?: string;
 }
@@ -115,7 +115,7 @@ export class DataYandexOrganizationmanagerGroupMembersList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_group yandex_organizationmanager_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_group yandex_organizationmanager_group}
 */
 export class DataYandexOrganizationmanagerGroup extends cdktf.TerraformDataSource {
 
@@ -131,7 +131,7 @@ export class DataYandexOrganizationmanagerGroup extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataYandexOrganizationmanagerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexOrganizationmanagerGroup to import
-  * @param importFromId The id of the existing DataYandexOrganizationmanagerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexOrganizationmanagerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexOrganizationmanagerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +143,7 @@ export class DataYandexOrganizationmanagerGroup extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_group yandex_organizationmanager_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_group yandex_organizationmanager_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,8 +154,8 @@ export class DataYandexOrganizationmanagerGroup extends cdktf.TerraformDataSourc
       terraformResourceType: 'yandex_organizationmanager_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

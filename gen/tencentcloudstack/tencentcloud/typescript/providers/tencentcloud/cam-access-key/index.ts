@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_access_key
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_access_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CamAccessKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access_key is the access key identification, required when updating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_access_key#access_key CamAccessKey#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_access_key#access_key CamAccessKey#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_access_key#id CamAccessKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_access_key#id CamAccessKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface CamAccessKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Either a base-64 encoded PGP public key, or a keybase username in the form keybase:some_person_that_exists, for use in the encrypted_secret output attribute. If providing a base-64 encoded PGP public key, make sure to provide the "raw" version and not the "armored" one (e.g. avoid passing the -a option to gpg --export).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_access_key#pgp_key CamAccessKey#pgp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_access_key#pgp_key CamAccessKey#pgp_key}
   */
   readonly pgpKey?: string;
   /**
   * Key status, activated (Active) or inactive (Inactive), required when updating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_access_key#status CamAccessKey#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_access_key#status CamAccessKey#status}
   */
   readonly status?: string;
   /**
   * Specify user Uin, if not filled, the access key is created for the current user by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_access_key#target_uin CamAccessKey#target_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_access_key#target_uin CamAccessKey#target_uin}
   */
   readonly targetUin?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_access_key tencentcloud_cam_access_key}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_access_key tencentcloud_cam_access_key}
 */
 export class CamAccessKey extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class CamAccessKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CamAccessKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CamAccessKey to import
-  * @param importFromId The id of the existing CamAccessKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_access_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CamAccessKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_access_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CamAccessKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class CamAccessKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_access_key tencentcloud_cam_access_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cam_access_key tencentcloud_cam_access_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class CamAccessKey extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cam_access_key',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DayuL4RuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The destination port of the L4 rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#d_port DayuL4Rule#d_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#d_port DayuL4Rule#d_port}
   */
   readonly dPort: number;
   /**
   * Health threshold of health check, and the default is 3. If a success result is returned for the health check 3 consecutive times, indicates that the forwarding is normal. The value range is 2-10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#health_check_health_num DayuL4Rule#health_check_health_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#health_check_health_num DayuL4Rule#health_check_health_num}
   */
   readonly healthCheckHealthNum?: number;
   /**
   * Interval time of health check. The value range is 10-60 sec, and the default is 15 sec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#health_check_interval DayuL4Rule#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#health_check_interval DayuL4Rule#health_check_interval}
   */
   readonly healthCheckInterval?: number;
   /**
   * Indicates whether health check is enabled. The default is `false`. Only valid when source list has more than one source item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#health_check_switch DayuL4Rule#health_check_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#health_check_switch DayuL4Rule#health_check_switch}
   */
   readonly healthCheckSwitch?: boolean | cdktf.IResolvable;
   /**
   * HTTP Status Code. The default is 26 and value range is 2-60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#health_check_timeout DayuL4Rule#health_check_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#health_check_timeout DayuL4Rule#health_check_timeout}
   */
   readonly healthCheckTimeout?: number;
   /**
   * Unhealthy threshold of health check, and the default is 3. If the unhealthy result is returned 3 consecutive times, indicates that the forwarding is abnormal. The value range is 2-10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#health_check_unhealth_num DayuL4Rule#health_check_unhealth_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#health_check_unhealth_num DayuL4Rule#health_check_unhealth_num}
   */
   readonly healthCheckUnhealthNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#id DayuL4Rule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#id DayuL4Rule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,55 +53,55 @@ export interface DayuL4RuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the rule. When the `resource_type` is `net`, this field should be set with valid domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#name DayuL4Rule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#name DayuL4Rule#name}
   */
   readonly name: string;
   /**
   * Protocol of the rule. Valid values: `http`, `https`. When `source_type` is 1(host source), the value of this field can only set with `tcp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#protocol DayuL4Rule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#protocol DayuL4Rule#protocol}
   */
   readonly protocol: string;
   /**
   * ID of the resource that the layer 4 rule works for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#resource_id DayuL4Rule#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#resource_id DayuL4Rule#resource_id}
   */
   readonly resourceId: string;
   /**
   * Type of the resource that the layer 4 rule works for. Valid values: `bgpip` and `net`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#resource_type DayuL4Rule#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#resource_type DayuL4Rule#resource_type}
   */
   readonly resourceType: string;
   /**
   * The source port of the L4 rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#s_port DayuL4Rule#s_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#s_port DayuL4Rule#s_port}
   */
   readonly sPort: number;
   /**
   * Indicate that the session will keep or not, and default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#session_switch DayuL4Rule#session_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#session_switch DayuL4Rule#session_switch}
   */
   readonly sessionSwitch?: boolean | cdktf.IResolvable;
   /**
   * Session keep time, only valid when `session_switch` is true, the available value ranges from 1 to 300 and unit is second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#session_time DayuL4Rule#session_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#session_time DayuL4Rule#session_time}
   */
   readonly sessionTime?: number;
   /**
   * Source type, `1` for source of host, `2` for source of IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#source_type DayuL4Rule#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#source_type DayuL4Rule#source_type}
   */
   readonly sourceType: number;
   /**
   * source_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#source_list DayuL4Rule#source_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#source_list DayuL4Rule#source_list}
   */
   readonly sourceList: DayuL4RuleSourceListStruct[] | cdktf.IResolvable;
 }
@@ -109,13 +109,13 @@ export interface DayuL4RuleSourceListStruct {
   /**
   * Source IP or domain, valid format of ip is like `1.1.1.1` and valid format of host source is like `abc.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#source DayuL4Rule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#source DayuL4Rule#source}
   */
   readonly source: string;
   /**
   * Weight of the source, the valid value ranges from 0 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#weight DayuL4Rule#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#weight DayuL4Rule#weight}
   */
   readonly weight: number;
 }
@@ -254,7 +254,7 @@ export class DayuL4RuleSourceListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule tencentcloud_dayu_l4_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule tencentcloud_dayu_l4_rule}
 */
 export class DayuL4Rule extends cdktf.TerraformResource {
 
@@ -270,7 +270,7 @@ export class DayuL4Rule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DayuL4Rule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DayuL4Rule to import
-  * @param importFromId The id of the existing DayuL4Rule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DayuL4Rule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DayuL4Rule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -282,7 +282,7 @@ export class DayuL4Rule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l4_rule tencentcloud_dayu_l4_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l4_rule tencentcloud_dayu_l4_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -293,8 +293,8 @@ export class DayuL4Rule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dayu_l4_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

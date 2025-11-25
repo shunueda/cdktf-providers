@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PtsCronJobConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cron expression, When setting cron_expression at that time, frequency_type must be greater than 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job#cron_expression PtsCronJob#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job#cron_expression PtsCronJob#cron_expression}
   */
   readonly cronExpression: string;
   /**
   * End Time; type: Timestamp ISO8601.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job#end_time PtsCronJob#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job#end_time PtsCronJob#end_time}
   */
   readonly endTime?: string;
   /**
   * Execution frequency type, `1`: execute only once; `2`: daily granularity; `3`: weekly granularity; `4`: advanced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job#frequency_type PtsCronJob#frequency_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job#frequency_type PtsCronJob#frequency_type}
   */
   readonly frequencyType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job#id PtsCronJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job#id PtsCronJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface PtsCronJobConfig extends cdktf.TerraformMetaArguments {
   /**
   * Job Owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job#job_owner PtsCronJob#job_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job#job_owner PtsCronJob#job_owner}
   */
   readonly jobOwner: string;
   /**
   * Cron Job Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job#name PtsCronJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job#name PtsCronJob#name}
   */
   readonly name: string;
   /**
   * Note.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job#note PtsCronJob#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job#note PtsCronJob#note}
   */
   readonly note?: string;
   /**
   * Notice ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job#notice_id PtsCronJob#notice_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job#notice_id PtsCronJob#notice_id}
   */
   readonly noticeId?: string;
   /**
   * Project Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job#project_id PtsCronJob#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job#project_id PtsCronJob#project_id}
   */
   readonly projectId: string;
   /**
   * Scenario Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job#scenario_id PtsCronJob#scenario_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job#scenario_id PtsCronJob#scenario_id}
   */
   readonly scenarioId: string;
   /**
   * Scenario Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job#scenario_name PtsCronJob#scenario_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job#scenario_name PtsCronJob#scenario_name}
   */
   readonly scenarioName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job tencentcloud_pts_cron_job}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job tencentcloud_pts_cron_job}
 */
 export class PtsCronJob extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class PtsCronJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PtsCronJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PtsCronJob to import
-  * @param importFromId The id of the existing PtsCronJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PtsCronJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PtsCronJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class PtsCronJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_cron_job tencentcloud_pts_cron_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_cron_job tencentcloud_pts_cron_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class PtsCronJob extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_pts_cron_job',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

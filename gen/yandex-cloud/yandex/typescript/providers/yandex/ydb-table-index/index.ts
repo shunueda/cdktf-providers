@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface YdbTableIndexConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#columns YdbTableIndex#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#columns YdbTableIndex#columns}
   */
   readonly columns: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#connection_string YdbTableIndex#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#connection_string YdbTableIndex#connection_string}
   */
   readonly connectionString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#cover YdbTableIndex#cover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#cover YdbTableIndex#cover}
   */
   readonly cover?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#id YdbTableIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#id YdbTableIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#name YdbTableIndex#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#name YdbTableIndex#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#table_id YdbTableIndex#table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#table_id YdbTableIndex#table_id}
   */
   readonly tableId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#table_path YdbTableIndex#table_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#table_path YdbTableIndex#table_path}
   */
   readonly tablePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#type YdbTableIndex#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#type YdbTableIndex#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#timeouts YdbTableIndex#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#timeouts YdbTableIndex#timeouts}
   */
   readonly timeouts?: YdbTableIndexTimeouts;
 }
 export interface YdbTableIndexTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#create YdbTableIndex#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#create YdbTableIndex#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#default YdbTableIndex#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#default YdbTableIndex#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#delete YdbTableIndex#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#delete YdbTableIndex#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#read YdbTableIndex#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#read YdbTableIndex#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#update YdbTableIndex#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#update YdbTableIndex#update}
   */
   readonly update?: string;
 }
@@ -277,7 +277,7 @@ export class YdbTableIndexTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index yandex_ydb_table_index}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index yandex_ydb_table_index}
 */
 export class YdbTableIndex extends cdktf.TerraformResource {
 
@@ -293,7 +293,7 @@ export class YdbTableIndex extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a YdbTableIndex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YdbTableIndex to import
-  * @param importFromId The id of the existing YdbTableIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YdbTableIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YdbTableIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -305,7 +305,7 @@ export class YdbTableIndex extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/ydb_table_index yandex_ydb_table_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_index yandex_ydb_table_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -316,8 +316,8 @@ export class YdbTableIndex extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_ydb_table_index',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic_ipv4
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_vnic_ipv4
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ZecVnicIpv4Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic_ipv4#id ZecVnicIpv4#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_vnic_ipv4#id ZecVnicIpv4#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ZecVnicIpv4Config extends cdktf.TerraformMetaArguments {
   /**
   * Assign specified secondary private ipv4 address. This IP address must be an available IP address within the CIDR block of the subnet to which the vNIC belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic_ipv4#secondary_private_ip_addresses ZecVnicIpv4#secondary_private_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_vnic_ipv4#secondary_private_ip_addresses ZecVnicIpv4#secondary_private_ip_addresses}
   */
   readonly secondaryPrivateIpAddresses?: string[];
   /**
   * The number of newly-applied private IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic_ipv4#secondary_private_ip_count ZecVnicIpv4#secondary_private_ip_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_vnic_ipv4#secondary_private_ip_count ZecVnicIpv4#secondary_private_ip_count}
   */
   readonly secondaryPrivateIpCount?: number;
   /**
   * The ID of the vNIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic_ipv4#vnic_id ZecVnicIpv4#vnic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_vnic_ipv4#vnic_id ZecVnicIpv4#vnic_id}
   */
   readonly vnicId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic_ipv4 zenlayercloud_zec_vnic_ipv4}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_vnic_ipv4 zenlayercloud_zec_vnic_ipv4}
 */
 export class ZecVnicIpv4 extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ZecVnicIpv4 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecVnicIpv4 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecVnicIpv4 to import
-  * @param importFromId The id of the existing ZecVnicIpv4 that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic_ipv4#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecVnicIpv4 that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_vnic_ipv4#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecVnicIpv4 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ZecVnicIpv4 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic_ipv4 zenlayercloud_zec_vnic_ipv4} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_vnic_ipv4 zenlayercloud_zec_vnic_ipv4} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ZecVnicIpv4 extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_vnic_ipv4',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.9',
-        providerVersionConstraint: '0.2.9'
+        providerVersion: '0.2.10',
+        providerVersionConstraint: '0.2.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

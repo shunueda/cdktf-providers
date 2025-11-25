@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudMpsMediaMetaDataConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#id DataTencentcloudMpsMediaMetaData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#id DataTencentcloudMpsMediaMetaData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudMpsMediaMetaDataConfig extends cdktf.TerraformM
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#result_output_file DataTencentcloudMpsMediaMetaData#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#result_output_file DataTencentcloudMpsMediaMetaData#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#input_info DataTencentcloudMpsMediaMetaData#input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#input_info DataTencentcloudMpsMediaMetaData#input_info}
   */
   readonly inputInfo: DataTencentcloudMpsMediaMetaDataInputInfo;
 }
@@ -363,19 +363,19 @@ export interface DataTencentcloudMpsMediaMetaDataInputInfoCosInputInfo {
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#bucket DataTencentcloudMpsMediaMetaData#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#bucket DataTencentcloudMpsMediaMetaData#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#object DataTencentcloudMpsMediaMetaData#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#object DataTencentcloudMpsMediaMetaData#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#region DataTencentcloudMpsMediaMetaData#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#region DataTencentcloudMpsMediaMetaData#region}
   */
   readonly region: string;
 }
@@ -510,31 +510,31 @@ export interface DataTencentcloudMpsMediaMetaDataInputInfoS3InputInfo {
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#s3_bucket DataTencentcloudMpsMediaMetaData#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#s3_bucket DataTencentcloudMpsMediaMetaData#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#s3_object DataTencentcloudMpsMediaMetaData#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#s3_object DataTencentcloudMpsMediaMetaData#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#s3_region DataTencentcloudMpsMediaMetaData#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#s3_region DataTencentcloudMpsMediaMetaData#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#s3_secret_id DataTencentcloudMpsMediaMetaData#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#s3_secret_id DataTencentcloudMpsMediaMetaData#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#s3_secret_key DataTencentcloudMpsMediaMetaData#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#s3_secret_key DataTencentcloudMpsMediaMetaData#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -727,7 +727,7 @@ export interface DataTencentcloudMpsMediaMetaDataInputInfoUrlInputInfo {
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#url DataTencentcloudMpsMediaMetaData#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#url DataTencentcloudMpsMediaMetaData#url}
   */
   readonly url: string;
 }
@@ -810,25 +810,25 @@ export interface DataTencentcloudMpsMediaMetaDataInputInfo {
   /**
   * The input type. Valid values:`COS`: A COS bucket address.`URL`: A URL.`AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#type DataTencentcloudMpsMediaMetaData#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#type DataTencentcloudMpsMediaMetaData#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#cos_input_info DataTencentcloudMpsMediaMetaData#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#cos_input_info DataTencentcloudMpsMediaMetaData#cos_input_info}
   */
   readonly cosInputInfo?: DataTencentcloudMpsMediaMetaDataInputInfoCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#s3_input_info DataTencentcloudMpsMediaMetaData#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#s3_input_info DataTencentcloudMpsMediaMetaData#s3_input_info}
   */
   readonly s3InputInfo?: DataTencentcloudMpsMediaMetaDataInputInfoS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#url_input_info DataTencentcloudMpsMediaMetaData#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#url_input_info DataTencentcloudMpsMediaMetaData#url_input_info}
   */
   readonly urlInputInfo?: DataTencentcloudMpsMediaMetaDataInputInfoUrlInputInfo;
 }
@@ -996,7 +996,7 @@ export class DataTencentcloudMpsMediaMetaDataInputInfoOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data tencentcloud_mps_media_meta_data}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data tencentcloud_mps_media_meta_data}
 */
 export class DataTencentcloudMpsMediaMetaData extends cdktf.TerraformDataSource {
 
@@ -1012,7 +1012,7 @@ export class DataTencentcloudMpsMediaMetaData extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudMpsMediaMetaData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMpsMediaMetaData to import
-  * @param importFromId The id of the existing DataTencentcloudMpsMediaMetaData that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMpsMediaMetaData that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMpsMediaMetaData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1024,7 +1024,7 @@ export class DataTencentcloudMpsMediaMetaData extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mps_media_meta_data tencentcloud_mps_media_meta_data} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mps_media_meta_data tencentcloud_mps_media_meta_data} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1035,8 +1035,8 @@ export class DataTencentcloudMpsMediaMetaData extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_mps_media_meta_data',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

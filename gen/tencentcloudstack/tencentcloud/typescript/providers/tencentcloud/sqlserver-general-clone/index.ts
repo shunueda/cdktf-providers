@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_general_clone
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_clone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SqlserverGeneralCloneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_general_clone#id SqlserverGeneralClone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_clone#id SqlserverGeneralClone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface SqlserverGeneralCloneConfig extends cdktf.TerraformMetaArgument
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_general_clone#instance_id SqlserverGeneralClone#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_clone#instance_id SqlserverGeneralClone#instance_id}
   */
   readonly instanceId: string;
   /**
   * New database name. In offline migration, OldName will be used if NewName is left empty (OldName and NewName cannot be both empty). In database cloning, OldName and NewName must be both specified and cannot have the same value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_general_clone#new_name SqlserverGeneralClone#new_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_clone#new_name SqlserverGeneralClone#new_name}
   */
   readonly newName: string;
   /**
   * Database name. If the OldName database does not exist, a failure will be returned. It can be left empty in offline migration tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_general_clone#old_name SqlserverGeneralClone#old_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_clone#old_name SqlserverGeneralClone#old_name}
   */
   readonly oldName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_general_clone tencentcloud_sqlserver_general_clone}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_clone tencentcloud_sqlserver_general_clone}
 */
 export class SqlserverGeneralClone extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class SqlserverGeneralClone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverGeneralClone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverGeneralClone to import
-  * @param importFromId The id of the existing SqlserverGeneralClone that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_general_clone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverGeneralClone that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_clone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverGeneralClone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class SqlserverGeneralClone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_general_clone tencentcloud_sqlserver_general_clone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_clone tencentcloud_sqlserver_general_clone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class SqlserverGeneralClone extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_general_clone',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_restore_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_restore_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SqlserverRestoreInstanceConfig extends cdktf.TerraformMetaArgum
   /**
   * Backup file ID, which can be obtained through the Id field in the returned value of the DescribeBackups API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_restore_instance#backup_id SqlserverRestoreInstance#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_restore_instance#backup_id SqlserverRestoreInstance#backup_id}
   */
   readonly backupId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_restore_instance#id SqlserverRestoreInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_restore_instance#id SqlserverRestoreInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface SqlserverRestoreInstanceConfig extends cdktf.TerraformMetaArgum
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_restore_instance#instance_id SqlserverRestoreInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_restore_instance#instance_id SqlserverRestoreInstance#instance_id}
   */
   readonly instanceId: string;
   /**
   * rename_restore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_restore_instance#rename_restore SqlserverRestoreInstance#rename_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_restore_instance#rename_restore SqlserverRestoreInstance#rename_restore}
   */
   readonly renameRestore: SqlserverRestoreInstanceRenameRestore[] | cdktf.IResolvable;
 }
@@ -117,13 +117,13 @@ export interface SqlserverRestoreInstanceRenameRestore {
   /**
   * New database name. In offline migration, OldName will be used if NewName is left empty (OldName and NewName cannot be both empty). In database cloning, OldName and NewName must be both specified and cannot have the same value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_restore_instance#new_name SqlserverRestoreInstance#new_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_restore_instance#new_name SqlserverRestoreInstance#new_name}
   */
   readonly newName: string;
   /**
   * Database name. If the OldName database does not exist, a failure will be returned.It can be left empty in offline migration tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_restore_instance#old_name SqlserverRestoreInstance#old_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_restore_instance#old_name SqlserverRestoreInstance#old_name}
   */
   readonly oldName: string;
 }
@@ -262,7 +262,7 @@ export class SqlserverRestoreInstanceRenameRestoreList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_restore_instance tencentcloud_sqlserver_restore_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_restore_instance tencentcloud_sqlserver_restore_instance}
 */
 export class SqlserverRestoreInstance extends cdktf.TerraformResource {
 
@@ -278,7 +278,7 @@ export class SqlserverRestoreInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverRestoreInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverRestoreInstance to import
-  * @param importFromId The id of the existing SqlserverRestoreInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_restore_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverRestoreInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_restore_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverRestoreInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -290,7 +290,7 @@ export class SqlserverRestoreInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_restore_instance tencentcloud_sqlserver_restore_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_restore_instance tencentcloud_sqlserver_restore_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -301,8 +301,8 @@ export class SqlserverRestoreInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_restore_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

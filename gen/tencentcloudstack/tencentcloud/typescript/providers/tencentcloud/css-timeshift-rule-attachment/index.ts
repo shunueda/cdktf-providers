@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_rule_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_rule_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CssTimeshiftRuleAttachmentConfig extends cdktf.TerraformMetaArg
   /**
   * The push path, which should be the same as `AppName` in the push and playback URLs. The default value is `live`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_rule_attachment#app_name CssTimeshiftRuleAttachment#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_rule_attachment#app_name CssTimeshiftRuleAttachment#app_name}
   */
   readonly appName: string;
   /**
   * The push domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_rule_attachment#domain_name CssTimeshiftRuleAttachment#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_rule_attachment#domain_name CssTimeshiftRuleAttachment#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_rule_attachment#id CssTimeshiftRuleAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_rule_attachment#id CssTimeshiftRuleAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface CssTimeshiftRuleAttachmentConfig extends cdktf.TerraformMetaArg
   /**
   * The stream name.Note: If you pass in a non-empty string, the rule will only be applied to the specified stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_rule_attachment#stream_name CssTimeshiftRuleAttachment#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_rule_attachment#stream_name CssTimeshiftRuleAttachment#stream_name}
   */
   readonly streamName: string;
   /**
   * The template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_rule_attachment#template_id CssTimeshiftRuleAttachment#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_rule_attachment#template_id CssTimeshiftRuleAttachment#template_id}
   */
   readonly templateId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_rule_attachment tencentcloud_css_timeshift_rule_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_rule_attachment tencentcloud_css_timeshift_rule_attachment}
 */
 export class CssTimeshiftRuleAttachment extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class CssTimeshiftRuleAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssTimeshiftRuleAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssTimeshiftRuleAttachment to import
-  * @param importFromId The id of the existing CssTimeshiftRuleAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_rule_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssTimeshiftRuleAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_rule_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssTimeshiftRuleAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class CssTimeshiftRuleAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_rule_attachment tencentcloud_css_timeshift_rule_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_rule_attachment tencentcloud_css_timeshift_rule_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class CssTimeshiftRuleAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_timeshift_rule_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

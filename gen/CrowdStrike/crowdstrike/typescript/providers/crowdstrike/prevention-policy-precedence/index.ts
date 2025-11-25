@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/prevention_policy_precedence
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/prevention_policy_precedence
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PreventionPolicyPrecedenceConfig extends cdktf.TerraformMetaArg
   /**
   * The enforcement type for this resource. `strict` requires all non-default prevention policy ids for platform to be provided. `dynamic` will ensure the provided policies have precedence over others. When using dynamic, policy ids not included in `ids` will retain their current ordering after the managed ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/prevention_policy_precedence#enforcement PreventionPolicyPrecedence#enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/prevention_policy_precedence#enforcement PreventionPolicyPrecedence#enforcement}
   */
   readonly enforcement: string;
   /**
   * The policy ids in order. The first ID specified will have the highest precedence and the last ID specified will have the lowest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/prevention_policy_precedence#ids PreventionPolicyPrecedence#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/prevention_policy_precedence#ids PreventionPolicyPrecedence#ids}
   */
   readonly ids: string[];
   /**
   * That platform of the prevention policies. (Windows, Mac, Linux)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/prevention_policy_precedence#platform_name PreventionPolicyPrecedence#platform_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/prevention_policy_precedence#platform_name PreventionPolicyPrecedence#platform_name}
   */
   readonly platformName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/prevention_policy_precedence crowdstrike_prevention_policy_precedence}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/prevention_policy_precedence crowdstrike_prevention_policy_precedence}
 */
 export class PreventionPolicyPrecedence extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class PreventionPolicyPrecedence extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PreventionPolicyPrecedence resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PreventionPolicyPrecedence to import
-  * @param importFromId The id of the existing PreventionPolicyPrecedence that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/prevention_policy_precedence#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PreventionPolicyPrecedence that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/prevention_policy_precedence#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PreventionPolicyPrecedence to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class PreventionPolicyPrecedence extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/prevention_policy_precedence crowdstrike_prevention_policy_precedence} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/prevention_policy_precedence crowdstrike_prevention_policy_precedence} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class PreventionPolicyPrecedence extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_prevention_policy_precedence',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.47',
-        providerVersionConstraint: '0.0.47'
+        providerVersion: '0.0.48',
+        providerVersionConstraint: '0.0.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

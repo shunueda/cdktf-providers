@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface TwcDbPostgresConfig extends cdktf.TerraformMetaArguments {
   /**
   * Change ration before `ANALYZE` will be started
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#autovacuum_analyze_scale_factor TwcDbPostgres#autovacuum_analyze_scale_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#autovacuum_analyze_scale_factor TwcDbPostgres#autovacuum_analyze_scale_factor}
   */
   readonly autovacuumAnalyzeScaleFactor?: number;
   /**
   * Interval between background writes runs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#bgwriter_delay TwcDbPostgres#bgwriter_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#bgwriter_delay TwcDbPostgres#bgwriter_delay}
   */
   readonly bgwriterDelay?: number;
   /**
   * Maximum pages cache count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#bgwriter_lru_maxpages TwcDbPostgres#bgwriter_lru_maxpages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#bgwriter_lru_maxpages TwcDbPostgres#bgwriter_lru_maxpages}
   */
   readonly bgwriterLruMaxpages?: number;
   /**
   * Timeout between deadlock checking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#deadlock_timeout TwcDbPostgres#deadlock_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#deadlock_timeout TwcDbPostgres#deadlock_timeout}
   */
   readonly deadlockTimeout?: number;
   /**
   * Maximum write queue size of `GIN` index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#gin_pending_list_limit TwcDbPostgres#gin_pending_list_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#gin_pending_list_limit TwcDbPostgres#gin_pending_list_limit}
   */
   readonly ginPendingListLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#id TwcDbPostgres#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#id TwcDbPostgres#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,103 +47,103 @@ export interface TwcDbPostgresConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum idle time for opened transaction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#idle_in_transaction_session_timeout TwcDbPostgres#idle_in_transaction_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#idle_in_transaction_session_timeout TwcDbPostgres#idle_in_transaction_session_timeout}
   */
   readonly idleInTransactionSessionTimeout?: number;
   /**
   * Maximum idle time for session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#idle_session_timeout TwcDbPostgres#idle_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#idle_session_timeout TwcDbPostgres#idle_session_timeout}
   */
   readonly idleSessionTimeout?: number;
   /**
   * Flag that shows allowability database only by external IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#is_external_ip TwcDbPostgres#is_external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#is_external_ip TwcDbPostgres#is_external_ip}
   */
   readonly isExternalIp?: boolean | cdktf.IResolvable;
   /**
   * Threshold of elements in `FROM` that will be transformed to explicit `JOIN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#join_collapse_limit TwcDbPostgres#join_collapse_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#join_collapse_limit TwcDbPostgres#join_collapse_limit}
   */
   readonly joinCollapseLimit?: number;
   /**
   * Time for obtaining lock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#lock_timeout TwcDbPostgres#lock_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#lock_timeout TwcDbPostgres#lock_timeout}
   */
   readonly lockTimeout?: number;
   /**
   * Login for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#login TwcDbPostgres#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#login TwcDbPostgres#login}
   */
   readonly login?: string;
   /**
   * Determines the maximum number of concurrent connections to the database server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#max_connections TwcDbPostgres#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#max_connections TwcDbPostgres#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * Max count of stored prepared statements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#max_prepared_transactions TwcDbPostgres#max_prepared_transactions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#max_prepared_transactions TwcDbPostgres#max_prepared_transactions}
   */
   readonly maxPreparedTransactions?: number;
   /**
   * Name for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#name TwcDbPostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#name TwcDbPostgres#name}
   */
   readonly name: string;
   /**
   * Password for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#password TwcDbPostgres#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#password TwcDbPostgres#password}
   */
   readonly password: string;
   /**
   * Preset ID for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#preset_id TwcDbPostgres#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#preset_id TwcDbPostgres#preset_id}
   */
   readonly presetId: number;
   /**
   * Project ID for created DB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#project_id TwcDbPostgres#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#project_id TwcDbPostgres#project_id}
   */
   readonly projectId?: number;
   /**
   * Sets the number of shared memory buffers used by the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#shared_buffers TwcDbPostgres#shared_buffers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#shared_buffers TwcDbPostgres#shared_buffers}
   */
   readonly sharedBuffers?: number;
   /**
   * Sets the maximum number of temporary buffers used by each session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#temp_buffers TwcDbPostgres#temp_buffers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#temp_buffers TwcDbPostgres#temp_buffers}
   */
   readonly tempBuffers?: number;
   /**
   * Sets the number of disk-page buffers in shared memory for WAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#wal_buffers TwcDbPostgres#wal_buffers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#wal_buffers TwcDbPostgres#wal_buffers}
   */
   readonly walBuffers?: number;
   /**
   * Sets the maximum memory to be used by each autovacuum worker process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#work_mem TwcDbPostgres#work_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#work_mem TwcDbPostgres#work_mem}
   */
   readonly workMem?: number;
   /**
   * local_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#local_network TwcDbPostgres#local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#local_network TwcDbPostgres#local_network}
   */
   readonly localNetwork?: TwcDbPostgresLocalNetwork;
 }
@@ -231,7 +231,7 @@ export interface TwcDbPostgresLocalNetwork {
   /**
   * ID of VPC for assign address from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#id TwcDbPostgres#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#id TwcDbPostgres#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -240,7 +240,7 @@ export interface TwcDbPostgresLocalNetwork {
   /**
   * Address in VPC subnetwork for manual assign
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#ip TwcDbPostgres#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#ip TwcDbPostgres#ip}
   */
   readonly ip?: string;
 }
@@ -350,7 +350,7 @@ export class TwcDbPostgresLocalNetworkOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres twc_db_postgres}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres twc_db_postgres}
 */
 export class TwcDbPostgres extends cdktf.TerraformResource {
 
@@ -366,7 +366,7 @@ export class TwcDbPostgres extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcDbPostgres resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcDbPostgres to import
-  * @param importFromId The id of the existing TwcDbPostgres that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcDbPostgres that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcDbPostgres to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -378,7 +378,7 @@ export class TwcDbPostgres extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_postgres twc_db_postgres} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_postgres twc_db_postgres} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -389,8 +389,8 @@ export class TwcDbPostgres extends cdktf.TerraformResource {
       terraformResourceType: 'twc_db_postgres',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6',
-        providerVersionConstraint: '1.6.6'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

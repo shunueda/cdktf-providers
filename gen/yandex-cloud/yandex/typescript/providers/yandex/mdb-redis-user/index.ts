@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface MdbRedisUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the cluster to which user belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#cluster_id MdbRedisUser#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#cluster_id MdbRedisUser#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Is redis user enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#enabled MdbRedisUser#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#enabled MdbRedisUser#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#name MdbRedisUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#name MdbRedisUser#name}
   */
   readonly name: string;
   /**
   * Set of user passwords
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#passwords MdbRedisUser#passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#passwords MdbRedisUser#passwords}
   */
   readonly passwords: string[];
   /**
   * Set of permissions granted to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#permissions MdbRedisUser#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#permissions MdbRedisUser#permissions}
   */
   readonly permissions?: MdbRedisUserPermissions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#timeouts MdbRedisUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#timeouts MdbRedisUser#timeouts}
   */
   readonly timeouts?: MdbRedisUserTimeouts;
 }
@@ -46,31 +46,31 @@ export interface MdbRedisUserPermissions {
   /**
   * Command categories user has permissions to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#categories MdbRedisUser#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#categories MdbRedisUser#categories}
   */
   readonly categories?: string;
   /**
   * Commands user can execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#commands MdbRedisUser#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#commands MdbRedisUser#commands}
   */
   readonly commands?: string;
   /**
   * Keys patterns user has permission to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#patterns MdbRedisUser#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#patterns MdbRedisUser#patterns}
   */
   readonly patterns?: string;
   /**
   * Channel patterns user has permissions to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#pub_sub_channels MdbRedisUser#pub_sub_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#pub_sub_channels MdbRedisUser#pub_sub_channels}
   */
   readonly pubSubChannels?: string;
   /**
   * SanitizePayload parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#sanitize_payload MdbRedisUser#sanitize_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#sanitize_payload MdbRedisUser#sanitize_payload}
   */
   readonly sanitizePayload?: string;
 }
@@ -282,19 +282,19 @@ export interface MdbRedisUserTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#create MdbRedisUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#create MdbRedisUser#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#delete MdbRedisUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#delete MdbRedisUser#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#update MdbRedisUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#update MdbRedisUser#update}
   */
   readonly update?: string;
 }
@@ -446,7 +446,7 @@ export class MdbRedisUserTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user yandex_mdb_redis_user}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user yandex_mdb_redis_user}
 */
 export class MdbRedisUser extends cdktf.TerraformResource {
 
@@ -462,7 +462,7 @@ export class MdbRedisUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbRedisUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbRedisUser to import
-  * @param importFromId The id of the existing MdbRedisUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbRedisUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbRedisUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -474,7 +474,7 @@ export class MdbRedisUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_user yandex_mdb_redis_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_redis_user yandex_mdb_redis_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -485,8 +485,8 @@ export class MdbRedisUser extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_redis_user',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

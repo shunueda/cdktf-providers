@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EniConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the ENI, maximum length 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#description Eni#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#description Eni#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#id Eni#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#id Eni#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface EniConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of intranet IPv4s. When it is greater than 1, there is only one primary intranet IP. The others are auxiliary intranet IPs, which conflict with `ipv4s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#ipv4_count Eni#ipv4_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#ipv4_count Eni#ipv4_count}
   */
   readonly ipv4Count?: number;
   /**
   * Name of the ENI, maximum length 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#name Eni#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#name Eni#name}
   */
   readonly name: string;
   /**
   * List of security group IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#orderly_security_groups Eni#orderly_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#orderly_security_groups Eni#orderly_security_groups}
   */
   readonly orderlySecurityGroups?: string[];
   /**
   * A set of security group IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#security_groups Eni#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#security_groups Eni#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * ID of the subnet within this vpc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#subnet_id Eni#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#subnet_id Eni#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Tags of the ENI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#tags Eni#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#tags Eni#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * ID of the vpc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#vpc_id Eni#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#vpc_id Eni#vpc_id}
   */
   readonly vpcId: string;
   /**
   * ipv4s block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#ipv4s Eni#ipv4s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#ipv4s Eni#ipv4s}
   */
   readonly ipv4S?: EniIpv4S[] | cdktf.IResolvable;
 }
@@ -158,19 +158,19 @@ export interface EniIpv4S {
   /**
   * Description of the IP, maximum length 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#description Eni#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#description Eni#description}
   */
   readonly description?: string;
   /**
   * Intranet IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#ip Eni#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#ip Eni#ip}
   */
   readonly ip: string;
   /**
   * Indicates whether the IP is primary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#primary Eni#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#primary Eni#primary}
   */
   readonly primary: boolean | cdktf.IResolvable;
 }
@@ -338,7 +338,7 @@ export class EniIpv4SList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni tencentcloud_eni}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni tencentcloud_eni}
 */
 export class Eni extends cdktf.TerraformResource {
 
@@ -354,7 +354,7 @@ export class Eni extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Eni resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Eni to import
-  * @param importFromId The id of the existing Eni that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Eni that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Eni to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class Eni extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eni tencentcloud_eni} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni tencentcloud_eni} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class Eni extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_eni',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

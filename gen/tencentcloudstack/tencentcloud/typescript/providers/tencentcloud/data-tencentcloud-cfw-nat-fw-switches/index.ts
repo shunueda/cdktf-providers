@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cfw_nat_fw_switches
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cfw_nat_fw_switches
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudCfwNatFwSwitchesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cfw_nat_fw_switches#id DataTencentcloudCfwNatFwSwitches#id}
+  * Switch enable status, 1 open; 0 close.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cfw_nat_fw_switches#enable DataTencentcloudCfwNatFwSwitches#enable}
+  */
+  readonly enable?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cfw_nat_fw_switches#id DataTencentcloudCfwNatFwSwitches#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +23,19 @@ export interface DataTencentcloudCfwNatFwSwitchesConfig extends cdktf.TerraformM
   /**
   * Filter the NAT firewall instance to which the NAT firewall subnet switch belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cfw_nat_fw_switches#nat_ins_id DataTencentcloudCfwNatFwSwitches#nat_ins_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cfw_nat_fw_switches#nat_ins_id DataTencentcloudCfwNatFwSwitches#nat_ins_id}
   */
   readonly natInsId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cfw_nat_fw_switches#result_output_file DataTencentcloudCfwNatFwSwitches#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cfw_nat_fw_switches#result_output_file DataTencentcloudCfwNatFwSwitches#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Switch status, 1 open; 0 close.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cfw_nat_fw_switches#status DataTencentcloudCfwNatFwSwitches#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cfw_nat_fw_switches#status DataTencentcloudCfwNatFwSwitches#status}
   */
   readonly status?: number;
 }
@@ -190,7 +196,7 @@ export class DataTencentcloudCfwNatFwSwitchesDataList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cfw_nat_fw_switches tencentcloud_cfw_nat_fw_switches}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cfw_nat_fw_switches tencentcloud_cfw_nat_fw_switches}
 */
 export class DataTencentcloudCfwNatFwSwitches extends cdktf.TerraformDataSource {
 
@@ -206,7 +212,7 @@ export class DataTencentcloudCfwNatFwSwitches extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudCfwNatFwSwitches resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCfwNatFwSwitches to import
-  * @param importFromId The id of the existing DataTencentcloudCfwNatFwSwitches that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cfw_nat_fw_switches#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCfwNatFwSwitches that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cfw_nat_fw_switches#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCfwNatFwSwitches to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +224,7 @@ export class DataTencentcloudCfwNatFwSwitches extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cfw_nat_fw_switches tencentcloud_cfw_nat_fw_switches} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cfw_nat_fw_switches tencentcloud_cfw_nat_fw_switches} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +235,8 @@ export class DataTencentcloudCfwNatFwSwitches extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_cfw_nat_fw_switches',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -240,6 +246,7 @@ export class DataTencentcloudCfwNatFwSwitches extends cdktf.TerraformDataSource 
       connection: config.connection,
       forEach: config.forEach
     });
+    this._enable = config.enable;
     this._id = config.id;
     this._natInsId = config.natInsId;
     this._resultOutputFile = config.resultOutputFile;
@@ -254,6 +261,22 @@ export class DataTencentcloudCfwNatFwSwitches extends cdktf.TerraformDataSource 
   private _data = new DataTencentcloudCfwNatFwSwitchesDataList(this, "data", false);
   public get data() {
     return this._data;
+  }
+
+  // enable - computed: false, optional: true, required: false
+  private _enable?: number; 
+  public get enable() {
+    return this.getNumberAttribute('enable');
+  }
+  public set enable(value: number) {
+    this._enable = value;
+  }
+  public resetEnable() {
+    this._enable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableInput() {
+    return this._enable;
   }
 
   // id - computed: true, optional: true, required: false
@@ -326,6 +349,7 @@ export class DataTencentcloudCfwNatFwSwitches extends cdktf.TerraformDataSource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      enable: cdktf.numberToTerraform(this._enable),
       id: cdktf.stringToTerraform(this._id),
       nat_ins_id: cdktf.stringToTerraform(this._natInsId),
       result_output_file: cdktf.stringToTerraform(this._resultOutputFile),
@@ -335,6 +359,12 @@ export class DataTencentcloudCfwNatFwSwitches extends cdktf.TerraformDataSource 
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      enable: {
+        value: cdktf.numberToHclTerraform(this._enable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,

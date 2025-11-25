@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/key_pairs
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/key_pairs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZenlayercloudKeyPairsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/key_pairs#id DataZenlayercloudKeyPairs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/key_pairs#id DataZenlayercloudKeyPairs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataZenlayercloudKeyPairsConfig extends cdktf.TerraformMetaArgu
   /**
   * IDs of the key pair to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/key_pairs#key_ids DataZenlayercloudKeyPairs#key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/key_pairs#key_ids DataZenlayercloudKeyPairs#key_ids}
   */
   readonly keyIds?: string[];
   /**
   * Name of the key pair to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/key_pairs#key_name DataZenlayercloudKeyPairs#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/key_pairs#key_name DataZenlayercloudKeyPairs#key_name}
   */
   readonly keyName?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/key_pairs#result_output_file DataZenlayercloudKeyPairs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/key_pairs#result_output_file DataZenlayercloudKeyPairs#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -130,7 +130,7 @@ export class DataZenlayercloudKeyPairsKeyPairsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/key_pairs zenlayercloud_key_pairs}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/key_pairs zenlayercloud_key_pairs}
 */
 export class DataZenlayercloudKeyPairs extends cdktf.TerraformDataSource {
 
@@ -146,7 +146,7 @@ export class DataZenlayercloudKeyPairs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudKeyPairs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudKeyPairs to import
-  * @param importFromId The id of the existing DataZenlayercloudKeyPairs that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/key_pairs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudKeyPairs that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/key_pairs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudKeyPairs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class DataZenlayercloudKeyPairs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/key_pairs zenlayercloud_key_pairs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/key_pairs zenlayercloud_key_pairs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class DataZenlayercloudKeyPairs extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_key_pairs',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.9',
-        providerVersionConstraint: '0.2.9'
+        providerVersion: '0.2.10',
+        providerVersionConstraint: '0.2.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

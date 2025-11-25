@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_sg_snapshot_file_content
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_sg_snapshot_file_content
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudVpcSgSnapshotFileContentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_sg_snapshot_file_content#id DataTencentcloudVpcSgSnapshotFileContent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_sg_snapshot_file_content#id DataTencentcloudVpcSgSnapshotFileContent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudVpcSgSnapshotFileContentConfig extends cdktf.Te
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_sg_snapshot_file_content#result_output_file DataTencentcloudVpcSgSnapshotFileContent#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_sg_snapshot_file_content#result_output_file DataTencentcloudVpcSgSnapshotFileContent#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Security group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_sg_snapshot_file_content#security_group_id DataTencentcloudVpcSgSnapshotFileContent#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_sg_snapshot_file_content#security_group_id DataTencentcloudVpcSgSnapshotFileContent#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * Snapshot file ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_sg_snapshot_file_content#snapshot_file_id DataTencentcloudVpcSgSnapshotFileContent#snapshot_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_sg_snapshot_file_content#snapshot_file_id DataTencentcloudVpcSgSnapshotFileContent#snapshot_file_id}
   */
   readonly snapshotFileId: string;
   /**
   * Snapshot policy IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_sg_snapshot_file_content#snapshot_policy_id DataTencentcloudVpcSgSnapshotFileContent#snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_sg_snapshot_file_content#snapshot_policy_id DataTencentcloudVpcSgSnapshotFileContent#snapshot_policy_id}
   */
   readonly snapshotPolicyId: string;
 }
@@ -615,7 +615,7 @@ export class DataTencentcloudVpcSgSnapshotFileContentOriginalDataList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_sg_snapshot_file_content tencentcloud_vpc_sg_snapshot_file_content}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_sg_snapshot_file_content tencentcloud_vpc_sg_snapshot_file_content}
 */
 export class DataTencentcloudVpcSgSnapshotFileContent extends cdktf.TerraformDataSource {
 
@@ -631,7 +631,7 @@ export class DataTencentcloudVpcSgSnapshotFileContent extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudVpcSgSnapshotFileContent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudVpcSgSnapshotFileContent to import
-  * @param importFromId The id of the existing DataTencentcloudVpcSgSnapshotFileContent that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_sg_snapshot_file_content#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudVpcSgSnapshotFileContent that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_sg_snapshot_file_content#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudVpcSgSnapshotFileContent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -643,7 +643,7 @@ export class DataTencentcloudVpcSgSnapshotFileContent extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_sg_snapshot_file_content tencentcloud_vpc_sg_snapshot_file_content} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_sg_snapshot_file_content tencentcloud_vpc_sg_snapshot_file_content} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -654,8 +654,8 @@ export class DataTencentcloudVpcSgSnapshotFileContent extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_vpc_sg_snapshot_file_content',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

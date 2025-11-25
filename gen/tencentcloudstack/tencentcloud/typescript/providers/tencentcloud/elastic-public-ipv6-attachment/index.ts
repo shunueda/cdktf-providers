@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elastic_public_ipv6_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ElasticPublicIpv6AttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elastic_public_ipv6_attachment#id ElasticPublicIpv6Attachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6_attachment#id ElasticPublicIpv6Attachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface ElasticPublicIpv6AttachmentConfig extends cdktf.TerraformMetaAr
   /**
   * Elastic IPv6 unique ID, EIPv6 unique ID is like eipv6-11112222.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elastic_public_ipv6_attachment#ipv6_address_id ElasticPublicIpv6Attachment#ipv6_address_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6_attachment#ipv6_address_id ElasticPublicIpv6Attachment#ipv6_address_id}
   */
   readonly ipv6AddressId: string;
   /**
   * Whether to keep the Elastic Network Interface bound when unbinding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elastic_public_ipv6_attachment#keep_bind_with_eni ElasticPublicIpv6Attachment#keep_bind_with_eni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6_attachment#keep_bind_with_eni ElasticPublicIpv6Attachment#keep_bind_with_eni}
   */
   readonly keepBindWithEni?: boolean | cdktf.IResolvable;
   /**
   * Elastic Network Interface ID to bind. Elastic Network Interface ID is like eni-11112222. NetworkInterfaceId and InstanceId cannot be specified simultaneously. The Elastic Network Interface ID can be queried by logging in to the console, or obtained through the networkInterfaceId in the return value of the DescribeNetworkInterfaces interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elastic_public_ipv6_attachment#network_interface_id ElasticPublicIpv6Attachment#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6_attachment#network_interface_id ElasticPublicIpv6Attachment#network_interface_id}
   */
   readonly networkInterfaceId?: string;
   /**
   * The intranet IPv6 to bind. If NetworkInterfaceId is specified, PrivateIPv6Address must also be specified, which means that the EIP is bound to the specified private network IP of the specified Elastic Network Interface. Also ensure that the specified PrivateIPv6Address is an intranet IPv6 on the specified NetworkInterfaceId. The intranet IPv6 of the specified Elastic Network Interface can be queried by logging in to the console, or obtained through the Ipv6AddressSet.Address in the return value of the DescribeNetworkInterfaces interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elastic_public_ipv6_attachment#private_ipv6_address ElasticPublicIpv6Attachment#private_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6_attachment#private_ipv6_address ElasticPublicIpv6Attachment#private_ipv6_address}
   */
   readonly privateIpv6Address?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elastic_public_ipv6_attachment tencentcloud_elastic_public_ipv6_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6_attachment tencentcloud_elastic_public_ipv6_attachment}
 */
 export class ElasticPublicIpv6Attachment extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ElasticPublicIpv6Attachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticPublicIpv6Attachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticPublicIpv6Attachment to import
-  * @param importFromId The id of the existing ElasticPublicIpv6Attachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elastic_public_ipv6_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticPublicIpv6Attachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticPublicIpv6Attachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ElasticPublicIpv6Attachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elastic_public_ipv6_attachment tencentcloud_elastic_public_ipv6_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6_attachment tencentcloud_elastic_public_ipv6_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ElasticPublicIpv6Attachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_elastic_public_ipv6_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

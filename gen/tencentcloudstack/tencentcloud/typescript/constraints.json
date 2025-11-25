@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "tencentcloud": "1.82.37"
+    "tencentcloud": "1.82.38"
   }
 }

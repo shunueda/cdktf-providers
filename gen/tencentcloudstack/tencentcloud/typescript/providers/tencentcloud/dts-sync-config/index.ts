@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DtsSyncConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time period of automatic retry, can be set from 5 to 720 minutes, 0 means no retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#auto_retry_time_range_minutes DtsSyncConfig#auto_retry_time_range_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#auto_retry_time_range_minutes DtsSyncConfig#auto_retry_time_range_minutes}
   */
   readonly autoRetryTimeRangeMinutes?: number;
   /**
   * Target end access type, cdb (cloud database), cvm (cloud host self-built), vpc (private network), extranet (external network), vpncloud (vpn access), dcg (dedicated line access), ccn (cloud networking ), intranet (self-developed cloud), noProxy, note that the specific optional value depends on the current link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#dst_access_type DtsSyncConfig#dst_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#dst_access_type DtsSyncConfig#dst_access_type}
   */
   readonly dstAccessType: string;
   /**
   * Expected start time, when the value of RunMode is Timed, this value is required, such as: 2006-01-02 15:04:05.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#expect_run_time DtsSyncConfig#expect_run_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#expect_run_time DtsSyncConfig#expect_run_time}
   */
   readonly expectRunTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#id DtsSyncConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#id DtsSyncConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface DtsSyncConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Synchronization instance id (i.e. identifies a synchronization job).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#job_id DtsSyncConfig#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#job_id DtsSyncConfig#job_id}
   */
   readonly jobId: string;
   /**
   * The enumeration values are liteMode and fullMode, corresponding to lite mode or normal mode respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#job_mode DtsSyncConfig#job_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#job_mode DtsSyncConfig#job_mode}
   */
   readonly jobMode?: string;
   /**
   * Sync job name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#job_name DtsSyncConfig#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#job_name DtsSyncConfig#job_name}
   */
   readonly jobName?: string;
   /**
   * Operation mode, such as: Immediate (indicates immediate operation, the default value is this value), Timed (indicates scheduled operation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#run_mode DtsSyncConfig#run_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#run_mode DtsSyncConfig#run_mode}
   */
   readonly runMode?: string;
   /**
   * Source access type, cdb (cloud database), cvm (cloud host self-built), vpc (private network), extranet (external network), vpncloud (vpn access), dcg (dedicated line access), ccn (cloud networking ), intranet (self-developed cloud), noProxy, note that the specific optional value depends on the current link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#src_access_type DtsSyncConfig#src_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#src_access_type DtsSyncConfig#src_access_type}
   */
   readonly srcAccessType: string;
   /**
   * dst_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#dst_info DtsSyncConfig#dst_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#dst_info DtsSyncConfig#dst_info}
   */
   readonly dstInfo?: DtsSyncConfigDstInfo;
   /**
   * objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#objects DtsSyncConfig#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#objects DtsSyncConfig#objects}
   */
   readonly objects: DtsSyncConfigObjects;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#options DtsSyncConfig#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#options DtsSyncConfig#options}
   */
   readonly options?: DtsSyncConfigOptions;
   /**
   * src_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#src_info DtsSyncConfig#src_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#src_info DtsSyncConfig#src_info}
   */
   readonly srcInfo?: DtsSyncConfigSrcInfo;
 }
@@ -91,157 +91,157 @@ export interface DtsSyncConfigDstInfo {
   /**
   * The account to which the instance belongs. This field is required if it is a cross-account instance. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#account DtsSyncConfig#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#account DtsSyncConfig#account}
   */
   readonly account?: string;
   /**
   * The account to which the resource belongs is empty or self (represents resources within this account), other (represents cross-account resources). Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#account_mode DtsSyncConfig#account_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#account_mode DtsSyncConfig#account_mode}
   */
   readonly accountMode?: string;
   /**
   * The role during cross-account synchronization, only [a-zA-Z0-9-_]+ is allowed, if it is a cross-account instance, this field is required. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#account_role DtsSyncConfig#account_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#account_role DtsSyncConfig#account_role}
   */
   readonly accountRole?: string;
   /**
   * Cloud networking ID, which is required for the cloud networking access type. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#ccn_id DtsSyncConfig#ccn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#ccn_id DtsSyncConfig#ccn_id}
   */
   readonly ccnId?: string;
   /**
   * CVM instance short ID, which is the same as the instance ID displayed on the cloud server console page. If it is a self-built instance of CVM, this field needs to be passed. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#cvm_instance_id DtsSyncConfig#cvm_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#cvm_instance_id DtsSyncConfig#cvm_instance_id}
   */
   readonly cvmInstanceId?: string;
   /**
   * The network environment to which the database belongs. It is required when AccessType is Cloud Network (CCN). `UserIDC` represents the user IDC. `TencentVPC` represents Tencent Cloud VPC. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#database_net_env DtsSyncConfig#database_net_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#database_net_env DtsSyncConfig#database_net_env}
   */
   readonly databaseNetEnv?: string;
   /**
   * Database kernel type, used to distinguish different kernels in tdsql: percona, mariadb, mysql. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#db_kernel DtsSyncConfig#db_kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#db_kernel DtsSyncConfig#db_kernel}
   */
   readonly dbKernel?: string;
   /**
   * Database name, when the database is cdwpg, it needs to be provided. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#db_name DtsSyncConfig#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#db_name DtsSyncConfig#db_name}
   */
   readonly dbName?: string;
   /**
   * Whether to use encrypted transmission, UnEncrypted means not to use encrypted transmission, Encrypted means to use encrypted transmission, the default is UnEncrypted. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#encrypt_conn DtsSyncConfig#encrypt_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#encrypt_conn DtsSyncConfig#encrypt_conn}
   */
   readonly encryptConn?: string;
   /**
   * Database version, valid only when the instance is an RDS instance, ignored by other instances, the format is: 5.6 or 5.7, the default is 5.6. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#engine_version DtsSyncConfig#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#engine_version DtsSyncConfig#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * Database instance id. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#instance_id DtsSyncConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#instance_id DtsSyncConfig#instance_id}
   */
   readonly instanceId?: string;
   /**
   * The IP address of the instance, which is required when the access type is non-cdb. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#ip DtsSyncConfig#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#ip DtsSyncConfig#ip}
   */
   readonly ip?: string;
   /**
   * Password, required for instances that require username and password authentication for access. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#password DtsSyncConfig#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#password DtsSyncConfig#password}
   */
   readonly password?: string;
   /**
   * Instance port, this item is required when the access type is non-cdb. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#port DtsSyncConfig#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#port DtsSyncConfig#port}
   */
   readonly port?: number;
   /**
   * The english name of region. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#region DtsSyncConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#region DtsSyncConfig#region}
   */
   readonly region?: string;
   /**
   * The node type of tdsql mysql version, the enumeration value is proxy, set. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#role DtsSyncConfig#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#role DtsSyncConfig#role}
   */
   readonly role?: string;
   /**
   * External role id. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#role_external_id DtsSyncConfig#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#role_external_id DtsSyncConfig#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * The subnet ID under the private network, this item is required for the private network, leased line, and VPN access methods. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#subnet_id DtsSyncConfig#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#subnet_id DtsSyncConfig#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Cloud vendor type, when the instance is an RDS instance, fill in aliyun, in other cases fill in others, the default is others. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#supplier DtsSyncConfig#supplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#supplier DtsSyncConfig#supplier}
   */
   readonly supplier?: string;
   /**
   * Temporary key Id, required if it is a cross-account instance. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#tmp_secret_id DtsSyncConfig#tmp_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#tmp_secret_id DtsSyncConfig#tmp_secret_id}
   */
   readonly tmpSecretId?: string;
   /**
   * Temporary key Key, required if it is a cross-account instance. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#tmp_secret_key DtsSyncConfig#tmp_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#tmp_secret_key DtsSyncConfig#tmp_secret_key}
   */
   readonly tmpSecretKey?: string;
   /**
   * Temporary Token, required if it is a cross-account instance. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#tmp_token DtsSyncConfig#tmp_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#tmp_token DtsSyncConfig#tmp_token}
   */
   readonly tmpToken?: string;
   /**
   * Leased line gateway ID, which is required for the leased line access type. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#uniq_dcg_id DtsSyncConfig#uniq_dcg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#uniq_dcg_id DtsSyncConfig#uniq_dcg_id}
   */
   readonly uniqDcgId?: string;
   /**
   * VPN gateway ID, which is required for the VPN access type. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#uniq_vpn_gw_id DtsSyncConfig#uniq_vpn_gw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#uniq_vpn_gw_id DtsSyncConfig#uniq_vpn_gw_id}
   */
   readonly uniqVpnGwId?: string;
   /**
   * Username, required for instances that require username and password authentication for access. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#user DtsSyncConfig#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#user DtsSyncConfig#user}
   */
   readonly user?: string;
   /**
   * Private network ID, which is required for access methods of private network, leased line, and VPN. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#vpc_id DtsSyncConfig#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#vpc_id DtsSyncConfig#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -1052,19 +1052,19 @@ export interface DtsSyncConfigObjectsDatabasesTables {
   /**
   * Filter condition. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#filter_condition DtsSyncConfig#filter_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#filter_condition DtsSyncConfig#filter_condition}
   */
   readonly filterCondition?: string;
   /**
   * New table name. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#new_table_name DtsSyncConfig#new_table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#new_table_name DtsSyncConfig#new_table_name}
   */
   readonly newTableName?: string;
   /**
   * Table name. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#table_name DtsSyncConfig#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#table_name DtsSyncConfig#table_name}
   */
   readonly tableName?: string;
 }
@@ -1240,13 +1240,13 @@ export interface DtsSyncConfigObjectsDatabasesViews {
   /**
   * New view name. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#new_view_name DtsSyncConfig#new_view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#new_view_name DtsSyncConfig#new_view_name}
   */
   readonly newViewName?: string;
   /**
   * View name. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#view_name DtsSyncConfig#view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#view_name DtsSyncConfig#view_name}
   */
   readonly viewName?: string;
 }
@@ -1393,103 +1393,103 @@ export interface DtsSyncConfigObjectsDatabases {
   /**
   * DB selection mode: All (for all objects under the current object), Partial (for some objects), when the Mode is Partial, this item is required. Note that synchronization of advanced objects does not depend on this value. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#db_mode DtsSyncConfig#db_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#db_mode DtsSyncConfig#db_mode}
   */
   readonly dbMode?: string;
   /**
   * The name of the library that needs to be migrated or synchronized. This item is required when the ObjectMode is Partial. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#db_name DtsSyncConfig#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#db_name DtsSyncConfig#db_name}
   */
   readonly dbName?: string;
   /**
   * Event migration mode, all (for all objects under the current object), partial (partial objects). Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#event_mode DtsSyncConfig#event_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#event_mode DtsSyncConfig#event_mode}
   */
   readonly eventMode?: string;
   /**
   * When EventMode is partial, specify the name of the event to be migrated. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#events DtsSyncConfig#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#events DtsSyncConfig#events}
   */
   readonly events?: string[];
   /**
   * Select the mode to be synchronized, Partial is a part, all is an entire selection. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#function_mode DtsSyncConfig#function_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#function_mode DtsSyncConfig#function_mode}
   */
   readonly functionMode?: string;
   /**
   * Required when the FunctionMode value is Partial. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#functions DtsSyncConfig#functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#functions DtsSyncConfig#functions}
   */
   readonly functions?: string[];
   /**
   * The name of the library after migration or synchronization, which is the same as the source library by default. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#new_db_name DtsSyncConfig#new_db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#new_db_name DtsSyncConfig#new_db_name}
   */
   readonly newDbName?: string;
   /**
   * Schema name after migration or synchronization. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#new_schema_name DtsSyncConfig#new_schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#new_schema_name DtsSyncConfig#new_schema_name}
   */
   readonly newSchemaName?: string;
   /**
   * Select the mode to be synchronized, Partial is part, All is the whole selection. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#procedure_mode DtsSyncConfig#procedure_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#procedure_mode DtsSyncConfig#procedure_mode}
   */
   readonly procedureMode?: string;
   /**
   * Required when the value of ProcedureMode is Partial. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#procedures DtsSyncConfig#procedures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#procedures DtsSyncConfig#procedures}
   */
   readonly procedures?: string[];
   /**
   * Migrated or synchronized schemaNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#schema_name DtsSyncConfig#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#schema_name DtsSyncConfig#schema_name}
   */
   readonly schemaName?: string;
   /**
   * Table selection mode: All (for all objects under the current object), Partial (for some objects), this item is required when the DBMode is Partial. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#table_mode DtsSyncConfig#table_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#table_mode DtsSyncConfig#table_mode}
   */
   readonly tableMode?: string;
   /**
   * Trigger migration mode, all (for all objects under the current object), partial (partial objects). Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#trigger_mode DtsSyncConfig#trigger_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#trigger_mode DtsSyncConfig#trigger_mode}
   */
   readonly triggerMode?: string;
   /**
   * When TriggerMode is partial, specify the name of the trigger to be migrated. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#triggers DtsSyncConfig#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#triggers DtsSyncConfig#triggers}
   */
   readonly triggers?: string[];
   /**
   * View selection mode: All is all view objects under the current object, Partial is part of the view objects. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#view_mode DtsSyncConfig#view_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#view_mode DtsSyncConfig#view_mode}
   */
   readonly viewMode?: string;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#tables DtsSyncConfig#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#tables DtsSyncConfig#tables}
   */
   readonly tables?: DtsSyncConfigObjectsDatabasesTables[] | cdktf.IResolvable;
   /**
   * views block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#views DtsSyncConfig#views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#views DtsSyncConfig#views}
   */
   readonly views?: DtsSyncConfigObjectsDatabasesViews[] | cdktf.IResolvable;
 }
@@ -2071,7 +2071,7 @@ export interface DtsSyncConfigObjectsOnlineDdl {
   /**
   * status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#status DtsSyncConfig#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#status DtsSyncConfig#status}
   */
   readonly status?: string;
 }
@@ -2157,25 +2157,25 @@ export interface DtsSyncConfigObjects {
   /**
   * For advanced object types, such as function and procedure, when an advanced object needs to be synchronized, the initialization type must include the structure initialization type, that is, the value of the Options.InitType field is Structure or Full. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#advanced_objects DtsSyncConfig#advanced_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#advanced_objects DtsSyncConfig#advanced_objects}
   */
   readonly advancedObjects?: string[];
   /**
   * Migration object type Partial (partial object). Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#mode DtsSyncConfig#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#mode DtsSyncConfig#mode}
   */
   readonly mode?: string;
   /**
   * databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#databases DtsSyncConfig#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#databases DtsSyncConfig#databases}
   */
   readonly databases?: DtsSyncConfigObjectsDatabases[] | cdktf.IResolvable;
   /**
   * online_ddl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#online_ddl DtsSyncConfig#online_ddl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#online_ddl DtsSyncConfig#online_ddl}
   */
   readonly onlineDdl?: DtsSyncConfigObjectsOnlineDdl;
 }
@@ -2348,19 +2348,19 @@ export interface DtsSyncConfigOptionsConflictHandleOption {
   /**
   * Columns covered by the condition. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#condition_column DtsSyncConfig#condition_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#condition_column DtsSyncConfig#condition_column}
   */
   readonly conditionColumn?: string;
   /**
   * Conditional Override Operation. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#condition_operator DtsSyncConfig#condition_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#condition_operator DtsSyncConfig#condition_operator}
   */
   readonly conditionOperator?: string;
   /**
   * Conditional Override Priority Processing. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#condition_order_in_src_and_dst DtsSyncConfig#condition_order_in_src_and_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#condition_order_in_src_and_dst DtsSyncConfig#condition_order_in_src_and_dst}
   */
   readonly conditionOrderInSrcAndDst?: string;
 }
@@ -2504,13 +2504,13 @@ export interface DtsSyncConfigOptionsDdlOptions {
   /**
   * Ddl type, such as Database, Table, View, Index, etc. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#ddl_object DtsSyncConfig#ddl_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#ddl_object DtsSyncConfig#ddl_object}
   */
   readonly ddlObject?: string;
   /**
   * The specific value of ddl, the possible values for Database [Create,Drop,Alter].The possible values for Table [Create,Drop,Alter,Truncate,Rename].The possible values for View[Create,Drop].For the possible values of Index [Create, Drop]. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#ddl_value DtsSyncConfig#ddl_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#ddl_value DtsSyncConfig#ddl_value}
   */
   readonly ddlValue?: string[];
 }
@@ -2657,68 +2657,68 @@ export interface DtsSyncConfigOptionsRateLimitOption {
   /**
   * The full export Rps currently in effect. The value of this field can be adjusted when configuring the task. Note: If it is not set or set to 0, it means the current value is maintained. The maximum value is 50,000,000.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#current_dump_rps DtsSyncConfig#current_dump_rps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#current_dump_rps DtsSyncConfig#current_dump_rps}
   */
   readonly currentDumpRps: number;
   /**
   * The number of full export threads currently in effect. The value of this field can be adjusted when configuring the task. Note: If it is not set or set to 0, it means the current value is maintained. The maximum value is 16.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#current_dump_thread DtsSyncConfig#current_dump_thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#current_dump_thread DtsSyncConfig#current_dump_thread}
   */
   readonly currentDumpThread: number;
   /**
   * The full import Rps currently in effect. The value of this field can be adjusted when configuring the task. Note: If it is not set or set to 0, it means the current value is maintained. The maximum value is 50,000,000.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#current_load_rps DtsSyncConfig#current_load_rps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#current_load_rps DtsSyncConfig#current_load_rps}
   */
   readonly currentLoadRps: number;
   /**
   * The number of full import threads currently in effect. The value of this field can be adjusted when configuring the task. Note: If it is not set or set to 0, it means the current value is maintained. The maximum value is 16.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#current_load_thread DtsSyncConfig#current_load_thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#current_load_thread DtsSyncConfig#current_load_thread}
   */
   readonly currentLoadThread: number;
   /**
   * The number of incremental import threads currently in effect. The value of this field can be adjusted when configuring the task. Note: If it is not set or set to 0, it means the current value is maintained. The maximum value is 128.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#current_sinker_thread DtsSyncConfig#current_sinker_thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#current_sinker_thread DtsSyncConfig#current_sinker_thread}
   */
   readonly currentSinkerThread: number;
   /**
   * The default full export Rps. This field is only meaningful in the output parameter.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#default_dump_rps DtsSyncConfig#default_dump_rps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#default_dump_rps DtsSyncConfig#default_dump_rps}
   */
   readonly defaultDumpRps: number;
   /**
   * The default number of full export threads. This field is only meaningful in the output parameter.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#default_dump_thread DtsSyncConfig#default_dump_thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#default_dump_thread DtsSyncConfig#default_dump_thread}
   */
   readonly defaultDumpThread: number;
   /**
   * The default full import Rps. This field is only meaningful in the output parameter.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#default_load_rps DtsSyncConfig#default_load_rps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#default_load_rps DtsSyncConfig#default_load_rps}
   */
   readonly defaultLoadRps: number;
   /**
   * The default number of full import threads. This field is only meaningful in the output parameter.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#default_load_thread DtsSyncConfig#default_load_thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#default_load_thread DtsSyncConfig#default_load_thread}
   */
   readonly defaultLoadThread: number;
   /**
   * The default number of incremental import threads. This field is only meaningful in the output parameter.
   * Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#default_sinker_thread DtsSyncConfig#default_sinker_thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#default_sinker_thread DtsSyncConfig#default_sinker_thread}
   */
   readonly defaultSinkerThread: number;
   /**
   * enum:"no"/"yes", no: the user has not set a speed limit; yes: a speed limit has been set. This field is only meaningful in the output parameter.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#has_user_set_rate_limit DtsSyncConfig#has_user_set_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#has_user_set_rate_limit DtsSyncConfig#has_user_set_rate_limit}
   */
   readonly hasUserSetRateLimit: string;
 }
@@ -3061,49 +3061,49 @@ export interface DtsSyncConfigOptions {
   /**
   * Whether to add additional columns. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#add_additional_column DtsSyncConfig#add_additional_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#add_additional_column DtsSyncConfig#add_additional_column}
   */
   readonly addAdditionalColumn?: boolean | cdktf.IResolvable;
   /**
   * Conflict handling options, ReportError (error report, the default value), Ignore (ignore), Cover (cover), ConditionCover (condition coverage). Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#conflict_handle_type DtsSyncConfig#conflict_handle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#conflict_handle_type DtsSyncConfig#conflict_handle_type}
   */
   readonly conflictHandleType?: string;
   /**
   * The processing of the table with the same name, ReportErrorAfterCheck (pre-check and report error, default), InitializeAfterDelete (delete and re-initialize), ExecuteAfterIgnore (ignore and continue to execute). Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#deal_of_exist_same_table DtsSyncConfig#deal_of_exist_same_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#deal_of_exist_same_table DtsSyncConfig#deal_of_exist_same_table}
   */
   readonly dealOfExistSameTable?: string;
   /**
   * Synchronous initialization options, Data (full data initialization), Structure (structure initialization), Full (full data and structure initialization, default), None (incremental only). Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#init_type DtsSyncConfig#init_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#init_type DtsSyncConfig#init_type}
   */
   readonly initType?: string;
   /**
   * DML and DDL options to be synchronized, Insert (insert operation), Update (update operation), Delete (delete operation), DDL (structure synchronization), leave blank (not selected), PartialDDL (custom, work with DdlOptions). Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#op_types DtsSyncConfig#op_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#op_types DtsSyncConfig#op_types}
   */
   readonly opTypes?: string[];
   /**
   * conflict_handle_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#conflict_handle_option DtsSyncConfig#conflict_handle_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#conflict_handle_option DtsSyncConfig#conflict_handle_option}
   */
   readonly conflictHandleOption?: DtsSyncConfigOptionsConflictHandleOption;
   /**
   * ddl_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#ddl_options DtsSyncConfig#ddl_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#ddl_options DtsSyncConfig#ddl_options}
   */
   readonly ddlOptions?: DtsSyncConfigOptionsDdlOptions[] | cdktf.IResolvable;
   /**
   * rate_limit_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#rate_limit_option DtsSyncConfig#rate_limit_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#rate_limit_option DtsSyncConfig#rate_limit_option}
   */
   readonly rateLimitOption?: DtsSyncConfigOptionsRateLimitOption;
 }
@@ -3392,157 +3392,157 @@ export interface DtsSyncConfigSrcInfo {
   /**
   * The account to which the instance belongs. This field is required if it is a cross-account instance. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#account DtsSyncConfig#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#account DtsSyncConfig#account}
   */
   readonly account?: string;
   /**
   * The account to which the resource belongs is empty or self (represents resources within this account), other (represents cross-account resources). Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#account_mode DtsSyncConfig#account_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#account_mode DtsSyncConfig#account_mode}
   */
   readonly accountMode?: string;
   /**
   * The role during cross-account synchronization, only [a-zA-Z0-9-_]+ is allowed, if it is a cross-account instance, this field is required. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#account_role DtsSyncConfig#account_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#account_role DtsSyncConfig#account_role}
   */
   readonly accountRole?: string;
   /**
   * Cloud networking ID, which is required for the cloud networking access type. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#ccn_id DtsSyncConfig#ccn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#ccn_id DtsSyncConfig#ccn_id}
   */
   readonly ccnId?: string;
   /**
   * CVM instance short ID, which is the same as the instance ID displayed on the cloud server console page. If it is a self-built instance of CVM, this field needs to be passed. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#cvm_instance_id DtsSyncConfig#cvm_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#cvm_instance_id DtsSyncConfig#cvm_instance_id}
   */
   readonly cvmInstanceId?: string;
   /**
   * The network environment to which the database belongs. It is required when AccessType is Cloud Network (CCN). `UserIDC` represents the user IDC. `TencentVPC` represents Tencent Cloud VPC. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#database_net_env DtsSyncConfig#database_net_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#database_net_env DtsSyncConfig#database_net_env}
   */
   readonly databaseNetEnv?: string;
   /**
   * Database kernel type, used to distinguish different kernels in tdsql: percona, mariadb, mysql. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#db_kernel DtsSyncConfig#db_kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#db_kernel DtsSyncConfig#db_kernel}
   */
   readonly dbKernel?: string;
   /**
   * Database name, when the database is cdwpg, it needs to be provided. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#db_name DtsSyncConfig#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#db_name DtsSyncConfig#db_name}
   */
   readonly dbName?: string;
   /**
   * Whether to use encrypted transmission, UnEncrypted means not to use encrypted transmission, Encrypted means to use encrypted transmission, the default is UnEncrypted. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#encrypt_conn DtsSyncConfig#encrypt_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#encrypt_conn DtsSyncConfig#encrypt_conn}
   */
   readonly encryptConn?: string;
   /**
   * Database version, valid only when the instance is an RDS instance, ignored by other instances, the format is: 5.6 or 5.7, the default is 5.6. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#engine_version DtsSyncConfig#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#engine_version DtsSyncConfig#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * Database instance id. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#instance_id DtsSyncConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#instance_id DtsSyncConfig#instance_id}
   */
   readonly instanceId?: string;
   /**
   * The IP address of the instance, which is required when the access type is non-cdb. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#ip DtsSyncConfig#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#ip DtsSyncConfig#ip}
   */
   readonly ip?: string;
   /**
   * Password, required for instances that require username and password authentication for access. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#password DtsSyncConfig#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#password DtsSyncConfig#password}
   */
   readonly password?: string;
   /**
   * Instance port, this item is required when the access type is non-cdb. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#port DtsSyncConfig#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#port DtsSyncConfig#port}
   */
   readonly port?: number;
   /**
   * The english name of region. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#region DtsSyncConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#region DtsSyncConfig#region}
   */
   readonly region?: string;
   /**
   * The node type of tdsql mysql version, the enumeration value is proxy, set. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#role DtsSyncConfig#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#role DtsSyncConfig#role}
   */
   readonly role?: string;
   /**
   * External role id. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#role_external_id DtsSyncConfig#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#role_external_id DtsSyncConfig#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * The subnet ID under the private network, this item is required for the private network, leased line, and VPN access methods. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#subnet_id DtsSyncConfig#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#subnet_id DtsSyncConfig#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Cloud vendor type, when the instance is an RDS instance, fill in aliyun, in other cases fill in others, the default is others. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#supplier DtsSyncConfig#supplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#supplier DtsSyncConfig#supplier}
   */
   readonly supplier?: string;
   /**
   * Temporary key Id, required if it is a cross-account instance. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#tmp_secret_id DtsSyncConfig#tmp_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#tmp_secret_id DtsSyncConfig#tmp_secret_id}
   */
   readonly tmpSecretId?: string;
   /**
   * Temporary key Key, required if it is a cross-account instance. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#tmp_secret_key DtsSyncConfig#tmp_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#tmp_secret_key DtsSyncConfig#tmp_secret_key}
   */
   readonly tmpSecretKey?: string;
   /**
   * Temporary Token, required if it is a cross-account instance. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#tmp_token DtsSyncConfig#tmp_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#tmp_token DtsSyncConfig#tmp_token}
   */
   readonly tmpToken?: string;
   /**
   * Leased line gateway ID, which is required for the leased line access type. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#uniq_dcg_id DtsSyncConfig#uniq_dcg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#uniq_dcg_id DtsSyncConfig#uniq_dcg_id}
   */
   readonly uniqDcgId?: string;
   /**
   * VPN gateway ID, which is required for the VPN access type. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#uniq_vpn_gw_id DtsSyncConfig#uniq_vpn_gw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#uniq_vpn_gw_id DtsSyncConfig#uniq_vpn_gw_id}
   */
   readonly uniqVpnGwId?: string;
   /**
   * Username, required for instances that require username and password authentication for access. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#user DtsSyncConfig#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#user DtsSyncConfig#user}
   */
   readonly user?: string;
   /**
   * Private network ID, which is required for access methods of private network, leased line, and VPN. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#vpc_id DtsSyncConfig#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#vpc_id DtsSyncConfig#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -4351,7 +4351,7 @@ export class DtsSyncConfigSrcInfoOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config tencentcloud_dts_sync_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config tencentcloud_dts_sync_config}
 */
 export class DtsSyncConfig extends cdktf.TerraformResource {
 
@@ -4367,7 +4367,7 @@ export class DtsSyncConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtsSyncConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtsSyncConfig to import
-  * @param importFromId The id of the existing DtsSyncConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtsSyncConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtsSyncConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4379,7 +4379,7 @@ export class DtsSyncConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_sync_config tencentcloud_dts_sync_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_sync_config tencentcloud_dts_sync_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4390,8 +4390,8 @@ export class DtsSyncConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dts_sync_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

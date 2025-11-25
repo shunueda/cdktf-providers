@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_policies
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudCamPoliciesConfig extends cdktf.TerraformMetaAr
   /**
   * Mode of creation of policy strategy. Valid values: `1`, `2`. `1` means policy was created with console, and `2` means it was created by strategies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_policies#create_mode DataTencentcloudCamPolicies#create_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_policies#create_mode DataTencentcloudCamPolicies#create_mode}
   */
   readonly createMode?: number;
   /**
   * The description of the CAM policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_policies#description DataTencentcloudCamPolicies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_policies#description DataTencentcloudCamPolicies#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_policies#id DataTencentcloudCamPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_policies#id DataTencentcloudCamPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataTencentcloudCamPoliciesConfig extends cdktf.TerraformMetaAr
   /**
   * Name of the CAM policy to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_policies#name DataTencentcloudCamPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_policies#name DataTencentcloudCamPolicies#name}
   */
   readonly name?: string;
   /**
   * ID of CAM policy to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_policies#policy_id DataTencentcloudCamPolicies#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_policies#policy_id DataTencentcloudCamPolicies#policy_id}
   */
   readonly policyId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_policies#result_output_file DataTencentcloudCamPolicies#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_policies#result_output_file DataTencentcloudCamPolicies#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Type of the policy strategy. Valid values: `1`, `2`. `1` means customer strategy and `2` means preset strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_policies#type DataTencentcloudCamPolicies#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_policies#type DataTencentcloudCamPolicies#type}
   */
   readonly type?: number;
 }
@@ -163,7 +163,7 @@ export class DataTencentcloudCamPoliciesPolicyListStructList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_policies tencentcloud_cam_policies}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_policies tencentcloud_cam_policies}
 */
 export class DataTencentcloudCamPolicies extends cdktf.TerraformDataSource {
 
@@ -179,7 +179,7 @@ export class DataTencentcloudCamPolicies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCamPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCamPolicies to import
-  * @param importFromId The id of the existing DataTencentcloudCamPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCamPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCamPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -191,7 +191,7 @@ export class DataTencentcloudCamPolicies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_policies tencentcloud_cam_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_policies tencentcloud_cam_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -202,8 +202,8 @@ export class DataTencentcloudCamPolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cam_policies',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

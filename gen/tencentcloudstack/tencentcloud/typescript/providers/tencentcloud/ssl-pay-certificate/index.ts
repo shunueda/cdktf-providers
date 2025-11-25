@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SslPayCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Remark name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#alias SslPayCertificate#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#alias SslPayCertificate#alias}
   */
   readonly alias?: string;
   /**
   * The base64-encoded certificate confirmation file should be in jpg, jpeg, png, pdf, and the size should be between 1kb and 1.4M. Note: it only works when product_id is set to 8, 9 or 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#confirm_letter SslPayCertificate#confirm_letter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#confirm_letter SslPayCertificate#confirm_letter}
   */
   readonly confirmLetter?: string;
   /**
   * Number of domain names included in the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#domain_num SslPayCertificate#domain_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#domain_num SslPayCertificate#domain_num}
   */
   readonly domainNum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#id SslPayCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#id SslPayCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface SslPayCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Certificate commodity ID. Valid value ranges: (3~42). `3` means SecureSite enhanced Enterprise Edition (EV Pro), `4` means SecureSite enhanced (EV), `5` means SecureSite Enterprise Professional Edition (OV Pro), `6` means SecureSite Enterprise (OV), `7` means SecureSite Enterprise Type (OV) wildcard, `8` means Geotrust enhanced (EV), `9` means Geotrust enterprise (OV), `10` means Geotrust enterprise (OV) wildcard, `11` means TrustAsia domain type multi-domain SSL certificate, `12` means TrustAsia domain type ( DV) wildcard, `13` means TrustAsia enterprise wildcard (OV) SSL certificate (D3), `14` means TrustAsia enterprise (OV) SSL certificate (D3), `15` means TrustAsia enterprise multi-domain (OV) SSL certificate (D3), `16` means TrustAsia Enhanced (EV) SSL Certificate (D3), `17` means TrustAsia Enhanced Multiple Domain (EV) SSL Certificate (D3), `18` means GlobalSign Enterprise (OV) SSL Certificate, `19` means GlobalSign Enterprise Wildcard (OV) SSL Certificate, `20` means GlobalSign Enhanced (EV) SSL Certificate, `21` means TrustAsia Enterprise Wildcard Multiple Domain (OV) SSL Certificate (D3), `22` means GlobalSign Enterprise Multiple Domain (OV) SSL Certificate, `23` means GlobalSign Enterprise Multiple Wildcard Domain name (OV) SSL certificate, `24` means GlobalSign enhanced multi-domain (EV) SSL certificate, `25` means Wotrus domain type certificate, `26` means Wotrus domain type multi-domain certificate, `27` means Wotrus domain type wildcard certificate, `28` means Wotrus enterprise type certificate, `29` means Wotrus enterprise multi-domain certificate, `30` means Wotrus enterprise wildcard certificate, `31` means Wotrus enhanced certificate, `32` means Wotrus enhanced multi-domain certificate, `33` means WoTrus National Secret Domain name Certificate, `34` means WoTrus National Secret Domain name Certificate (multiple domain names), `35` WoTrus National Secret Domain name Certificate (wildcard), `37` means WoTrus State Secret Enterprise Certificate, `38` means WoTrus State Secret Enterprise Certificate (multiple domain names), `39` means WoTrus State Secret Enterprise Certificate (wildcard), `40` means WoTrus National secret enhanced certificate, `41` means WoTrus National Secret enhanced Certificate (multiple domain names), `42` means TrustAsia- Domain name Certificate (wildcard multiple domain names), `43` means DNSPod Enterprise (OV) SSL Certificate, `44` means DNSPod- Enterprise (OV) wildcard SSL certificate, `45` means DNSPod Enterprise (OV) Multi-domain name SSL Certificate, `46` means DNSPod enhanced (EV) SSL certificate, `47` means DNSPod enhanced (EV) multi-domain name SSL certificate, `48` means DNSPod Domain name Type (DV) SSL Certificate, `49` means DNSPod Domain name Type (DV) wildcard SSL certificate, `50` means DNSPod domain name type (DV) multi-domain name SSL certificate, `51` means DNSPod (State Secret) Enterprise (OV) SSL certificate, `52` DNSPod (National Secret) Enterprise (OV) wildcard SSL certificate, `53` means DNSPod (National Secret) Enterprise (OV) multi-domain SSL certificate, `54` means DNSPod (National Secret) Domain Name (DV) SSL certificate, `55` means DNSPod (National Secret) Domain Name Type (DV) wildcard SSL certificate, `56` means DNSPod (National Secret) Domain Name Type (DV) multi-domain SSL certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#product_id SslPayCertificate#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#product_id SslPayCertificate#product_id}
   */
   readonly productId: number;
   /**
   * The ID of project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#project_id SslPayCertificate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#project_id SslPayCertificate#project_id}
   */
   readonly projectId?: number;
   /**
   * Certificate period, currently only supports 1 year certificate purchase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#time_span SslPayCertificate#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#time_span SslPayCertificate#time_span}
   */
   readonly timeSpan?: number;
   /**
   * dv_auths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#dv_auths SslPayCertificate#dv_auths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#dv_auths SslPayCertificate#dv_auths}
   */
   readonly dvAuths?: SslPayCertificateDvAuths[] | cdktf.IResolvable;
   /**
   * information block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#information SslPayCertificate#information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#information SslPayCertificate#information}
   */
   readonly information: SslPayCertificateInformation;
 }
@@ -163,151 +163,151 @@ export interface SslPayCertificateInformation {
   /**
   * The administrator's email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#admin_email SslPayCertificate#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#admin_email SslPayCertificate#admin_email}
   */
   readonly adminEmail: string;
   /**
   * The first name of the administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#admin_first_name SslPayCertificate#admin_first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#admin_first_name SslPayCertificate#admin_first_name}
   */
   readonly adminFirstName: string;
   /**
   * The last name of the administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#admin_last_name SslPayCertificate#admin_last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#admin_last_name SslPayCertificate#admin_last_name}
   */
   readonly adminLastName: string;
   /**
   * Manager mobile phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#admin_phone_num SslPayCertificate#admin_phone_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#admin_phone_num SslPayCertificate#admin_phone_num}
   */
   readonly adminPhoneNum: string;
   /**
   * Manager position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#admin_position SslPayCertificate#admin_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#admin_position SslPayCertificate#admin_position}
   */
   readonly adminPosition: string;
   /**
   * Domain name for binding certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#certificate_domain SslPayCertificate#certificate_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#certificate_domain SslPayCertificate#certificate_domain}
   */
   readonly certificateDomain: string;
   /**
   * Contact email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#contact_email SslPayCertificate#contact_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#contact_email SslPayCertificate#contact_email}
   */
   readonly contactEmail: string;
   /**
   * Contact first name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#contact_first_name SslPayCertificate#contact_first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#contact_first_name SslPayCertificate#contact_first_name}
   */
   readonly contactFirstName: string;
   /**
   * Contact last name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#contact_last_name SslPayCertificate#contact_last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#contact_last_name SslPayCertificate#contact_last_name}
   */
   readonly contactLastName: string;
   /**
   * Contact phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#contact_number SslPayCertificate#contact_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#contact_number SslPayCertificate#contact_number}
   */
   readonly contactNumber: string;
   /**
   * Contact position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#contact_position SslPayCertificate#contact_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#contact_position SslPayCertificate#contact_position}
   */
   readonly contactPosition: string;
   /**
   * CSR content uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#csr_content SslPayCertificate#csr_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#csr_content SslPayCertificate#csr_content}
   */
   readonly csrContent?: string;
   /**
   * CSR generation method. Valid values: `online`, `parse`. `online` means online generation, `parse` means manual upload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#csr_type SslPayCertificate#csr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#csr_type SslPayCertificate#csr_type}
   */
   readonly csrType?: string;
   /**
   * Array of uploaded domain names, multi-domain certificates can be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#domain_list SslPayCertificate#domain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#domain_list SslPayCertificate#domain_list}
   */
   readonly domainList?: string[];
   /**
   * Private key password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#key_password SslPayCertificate#key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#key_password SslPayCertificate#key_password}
   */
   readonly keyPassword?: string;
   /**
   * Company address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#organization_address SslPayCertificate#organization_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#organization_address SslPayCertificate#organization_address}
   */
   readonly organizationAddress: string;
   /**
   * Company city.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#organization_city SslPayCertificate#organization_city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#organization_city SslPayCertificate#organization_city}
   */
   readonly organizationCity: string;
   /**
   * Country name, such as China: CN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#organization_country SslPayCertificate#organization_country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#organization_country SslPayCertificate#organization_country}
   */
   readonly organizationCountry: string;
   /**
   * Department name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#organization_division SslPayCertificate#organization_division}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#organization_division SslPayCertificate#organization_division}
   */
   readonly organizationDivision: string;
   /**
   * Company name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#organization_name SslPayCertificate#organization_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#organization_name SslPayCertificate#organization_name}
   */
   readonly organizationName: string;
   /**
   * The province where the company is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#organization_region SslPayCertificate#organization_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#organization_region SslPayCertificate#organization_region}
   */
   readonly organizationRegion: string;
   /**
   * Company landline area code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#phone_area_code SslPayCertificate#phone_area_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#phone_area_code SslPayCertificate#phone_area_code}
   */
   readonly phoneAreaCode: string;
   /**
   * Company landline number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#phone_number SslPayCertificate#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#phone_number SslPayCertificate#phone_number}
   */
   readonly phoneNumber: string;
   /**
   * Company postal code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#postal_code SslPayCertificate#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#postal_code SslPayCertificate#postal_code}
   */
   readonly postalCode: string;
   /**
   * Certificate verification method. Valid values: `DNS_AUTO`, `DNS`, `FILE`. `DNS_AUTO` means automatic DNS verification, this verification type is only supported for domain names resolved by Tencent Cloud and the resolution status is normal, `DNS` means manual DNS verification, `FILE` means file verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#verify_type SslPayCertificate#verify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#verify_type SslPayCertificate#verify_type}
   */
   readonly verifyType: string;
 }
@@ -1024,7 +1024,7 @@ export class SslPayCertificateInformationOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate tencentcloud_ssl_pay_certificate}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate tencentcloud_ssl_pay_certificate}
 */
 export class SslPayCertificate extends cdktf.TerraformResource {
 
@@ -1040,7 +1040,7 @@ export class SslPayCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslPayCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslPayCertificate to import
-  * @param importFromId The id of the existing SslPayCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslPayCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslPayCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1052,7 +1052,7 @@ export class SslPayCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssl_pay_certificate tencentcloud_ssl_pay_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssl_pay_certificate tencentcloud_ssl_pay_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1063,8 +1063,8 @@ export class SslPayCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ssl_pay_certificate',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

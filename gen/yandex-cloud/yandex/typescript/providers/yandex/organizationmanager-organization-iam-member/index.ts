@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_organization_iam_member
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_organization_iam_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -23,31 +23,31 @@ export interface OrganizationmanagerOrganizationIamMemberConfig extends cdktf.Te
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_organization_iam_member#member OrganizationmanagerOrganizationIamMember#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_organization_iam_member#member OrganizationmanagerOrganizationIamMember#member}
   */
   readonly member: string;
   /**
   * The ID of the compute `organization` to attach the policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_organization_iam_member#organization_id OrganizationmanagerOrganizationIamMember#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_organization_iam_member#organization_id OrganizationmanagerOrganizationIamMember#organization_id}
   */
   readonly organizationId: string;
   /**
   * The role that should be assigned. Only one yandex_organizationmanager_organization_iam_member can be used per role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_organization_iam_member#role OrganizationmanagerOrganizationIamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_organization_iam_member#role OrganizationmanagerOrganizationIamMember#role}
   */
   readonly role: string;
   /**
   * For test purposes, to compensate IAM operations delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_organization_iam_member#sleep_after OrganizationmanagerOrganizationIamMember#sleep_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_organization_iam_member#sleep_after OrganizationmanagerOrganizationIamMember#sleep_after}
   */
   readonly sleepAfter?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_organization_iam_member yandex_organizationmanager_organization_iam_member}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_organization_iam_member yandex_organizationmanager_organization_iam_member}
 */
 export class OrganizationmanagerOrganizationIamMember extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class OrganizationmanagerOrganizationIamMember extends cdktf.TerraformRes
   * Generates CDKTF code for importing a OrganizationmanagerOrganizationIamMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationmanagerOrganizationIamMember to import
-  * @param importFromId The id of the existing OrganizationmanagerOrganizationIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_organization_iam_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationmanagerOrganizationIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_organization_iam_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationmanagerOrganizationIamMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class OrganizationmanagerOrganizationIamMember extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_organization_iam_member yandex_organizationmanager_organization_iam_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_organization_iam_member yandex_organizationmanager_organization_iam_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class OrganizationmanagerOrganizationIamMember extends cdktf.TerraformRes
       terraformResourceType: 'yandex_organizationmanager_organization_iam_member',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

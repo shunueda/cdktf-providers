@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SsmSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Additional config for specific secret types in JSON string format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret#additional_config SsmSecret#additional_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret#additional_config SsmSecret#additional_config}
   */
   readonly additionalConfig?: string;
   /**
   * Description of secret. The maximum is 2048 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret#description SsmSecret#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret#description SsmSecret#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret#id SsmSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret#id SsmSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface SsmSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify whether to enable secret. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret#is_enabled SsmSecret#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret#is_enabled SsmSecret#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * KMS keyId used to encrypt secret. If it is empty, it means that the CMK created by SSM for you by default is used for encryption. You can also specify the KMS CMK created by yourself in the same region for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret#kms_key_id SsmSecret#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret#kms_key_id SsmSecret#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Specify the scheduled deletion date. Default value is `0` that means to delete immediately. 1-30 means the number of days reserved, completely deleted after this date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret#recovery_window_in_days SsmSecret#recovery_window_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret#recovery_window_in_days SsmSecret#recovery_window_in_days}
   */
   readonly recoveryWindowInDays?: number;
   /**
   * Name of secret which cannot be repeated in the same region. The maximum length is 128 bytes. The name can only contain English letters, numbers, underscore and hyphen '-'. The first character must be a letter or number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret#secret_name SsmSecret#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret#secret_name SsmSecret#secret_name}
   */
   readonly secretName: string;
   /**
   * Type of secret. `0`: user-defined secret. `4`: redis secret. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret#secret_type SsmSecret#secret_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret#secret_type SsmSecret#secret_type}
   */
   readonly secretType?: number;
   /**
   * Tags of secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret#tags SsmSecret#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret#tags SsmSecret#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret tencentcloud_ssm_secret}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret tencentcloud_ssm_secret}
 */
 export class SsmSecret extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class SsmSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SsmSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmSecret to import
-  * @param importFromId The id of the existing SsmSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class SsmSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ssm_secret tencentcloud_ssm_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ssm_secret tencentcloud_ssm_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class SsmSecret extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ssm_secret',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

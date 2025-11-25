@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TdmqRocketmqVipInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#id TdmqRocketmqVipInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#id TdmqRocketmqVipInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface TdmqRocketmqVipInstanceConfig extends cdktf.TerraformMetaArgume
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#name TdmqRocketmqVipInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#name TdmqRocketmqVipInstance#name}
   */
   readonly name: string;
   /**
   * Number of nodes, minimum 2, maximum 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#node_count TdmqRocketmqVipInstance#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#node_count TdmqRocketmqVipInstance#node_count}
   */
   readonly nodeCount: number;
   /**
   * Instance specification: Universal type, rocket-vip-basic-0, Basic type: `rocket-vip-basic-1`, Standard type: `rocket-vip-basic-2`, Advanced Type I: `rocket-vip-basic-3`, Advanced Type II: `rocket-vip-basic-4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#spec TdmqRocketmqVipInstance#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#spec TdmqRocketmqVipInstance#spec}
   */
   readonly spec: string;
   /**
   * Single node storage space, in GB, minimum 200GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#storage_size TdmqRocketmqVipInstance#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#storage_size TdmqRocketmqVipInstance#storage_size}
   */
   readonly storageSize: number;
   /**
   * Purchase period, in months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#time_span TdmqRocketmqVipInstance#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#time_span TdmqRocketmqVipInstance#time_span}
   */
   readonly timeSpan: number;
   /**
   * The Zone ID list for node deployment, such as Guangzhou Zone 1, is 100001. For details, please refer to the official website of Tencent Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#zone_ids TdmqRocketmqVipInstance#zone_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#zone_ids TdmqRocketmqVipInstance#zone_ids}
   */
   readonly zoneIds: string[];
   /**
   * ip_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#ip_rules TdmqRocketmqVipInstance#ip_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#ip_rules TdmqRocketmqVipInstance#ip_rules}
   */
   readonly ipRules?: TdmqRocketmqVipInstanceIpRules[] | cdktf.IResolvable;
   /**
   * vpc_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#vpc_info TdmqRocketmqVipInstance#vpc_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#vpc_info TdmqRocketmqVipInstance#vpc_info}
   */
   readonly vpcInfo: TdmqRocketmqVipInstanceVpcInfo;
 }
@@ -67,19 +67,19 @@ export interface TdmqRocketmqVipInstanceIpRules {
   /**
   * Whether to allow or deny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#allow TdmqRocketmqVipInstance#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#allow TdmqRocketmqVipInstance#allow}
   */
   readonly allow: boolean | cdktf.IResolvable;
   /**
   * IP address block information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#ip_rule TdmqRocketmqVipInstance#ip_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#ip_rule TdmqRocketmqVipInstance#ip_rule}
   */
   readonly ipRule: string;
   /**
   * Remark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#remark TdmqRocketmqVipInstance#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#remark TdmqRocketmqVipInstance#remark}
   */
   readonly remark: string;
 }
@@ -246,13 +246,13 @@ export interface TdmqRocketmqVipInstanceVpcInfo {
   /**
   * Subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#subnet_id TdmqRocketmqVipInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#subnet_id TdmqRocketmqVipInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#vpc_id TdmqRocketmqVipInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#vpc_id TdmqRocketmqVipInstance#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -359,7 +359,7 @@ export class TdmqRocketmqVipInstanceVpcInfoOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance tencentcloud_tdmq_rocketmq_vip_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance tencentcloud_tdmq_rocketmq_vip_instance}
 */
 export class TdmqRocketmqVipInstance extends cdktf.TerraformResource {
 
@@ -375,7 +375,7 @@ export class TdmqRocketmqVipInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqRocketmqVipInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqRocketmqVipInstance to import
-  * @param importFromId The id of the existing TdmqRocketmqVipInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqRocketmqVipInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqRocketmqVipInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -387,7 +387,7 @@ export class TdmqRocketmqVipInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_vip_instance tencentcloud_tdmq_rocketmq_vip_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_vip_instance tencentcloud_tdmq_rocketmq_vip_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -398,8 +398,8 @@ export class TdmqRocketmqVipInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_rocketmq_vip_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ClsDataTransformConfig extends cdktf.TerraformMetaArguments {
   /**
   * Task enable flag. `1`: enable, `2`: disable, Default is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform#enable_flag ClsDataTransform#enable_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform#enable_flag ClsDataTransform#enable_flag}
   */
   readonly enableFlag?: number;
   /**
   * Data transform content. If `func_type` is `2`, must use `log_auto_output`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform#etl_content ClsDataTransform#etl_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform#etl_content ClsDataTransform#etl_content}
   */
   readonly etlContent: string;
   /**
   * Task type. `1`: Specify the theme; `2`: Dynamic creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform#func_type ClsDataTransform#func_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform#func_type ClsDataTransform#func_type}
   */
   readonly funcType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform#id ClsDataTransform#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform#id ClsDataTransform#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface ClsDataTransformConfig extends cdktf.TerraformMetaArguments {
   /**
   * Task name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform#name ClsDataTransform#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform#name ClsDataTransform#name}
   */
   readonly name: string;
   /**
   * Source topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform#src_topic_id ClsDataTransform#src_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform#src_topic_id ClsDataTransform#src_topic_id}
   */
   readonly srcTopicId: string;
   /**
   * Task type. `1`: Use random data from the source log theme for processing preview; `2`: Use user-defined test data for processing preview; `3`: Create real machining tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform#task_type ClsDataTransform#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform#task_type ClsDataTransform#task_type}
   */
   readonly taskType: number;
   /**
   * dst_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform#dst_resources ClsDataTransform#dst_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform#dst_resources ClsDataTransform#dst_resources}
   */
   readonly dstResources?: ClsDataTransformDstResources[] | cdktf.IResolvable;
 }
@@ -61,13 +61,13 @@ export interface ClsDataTransformDstResources {
   /**
   * Alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform#alias ClsDataTransform#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform#alias ClsDataTransform#alias}
   */
   readonly alias: string;
   /**
   * Dst topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform#topic_id ClsDataTransform#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform#topic_id ClsDataTransform#topic_id}
   */
   readonly topicId: string;
 }
@@ -206,7 +206,7 @@ export class ClsDataTransformDstResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform tencentcloud_cls_data_transform}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform tencentcloud_cls_data_transform}
 */
 export class ClsDataTransform extends cdktf.TerraformResource {
 
@@ -222,7 +222,7 @@ export class ClsDataTransform extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClsDataTransform resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClsDataTransform to import
-  * @param importFromId The id of the existing ClsDataTransform that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClsDataTransform that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClsDataTransform to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class ClsDataTransform extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_data_transform tencentcloud_cls_data_transform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_data_transform tencentcloud_cls_data_transform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class ClsDataTransform extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_data_transform',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

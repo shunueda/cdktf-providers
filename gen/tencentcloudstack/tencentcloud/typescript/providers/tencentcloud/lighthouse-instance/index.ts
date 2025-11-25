@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface LighthouseInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the Lighthouse image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#blueprint_id LighthouseInstance#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#blueprint_id LighthouseInstance#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * ID of the Lighthouse package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#bundle_id LighthouseInstance#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#bundle_id LighthouseInstance#bundle_id}
   */
   readonly bundleId: string;
   /**
   * A unique string supplied by the client to ensure that the request is idempotent. Its maximum length is 64 ASCII characters. If this parameter is not specified, the idem-potency of the request cannot be guaranteed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#client_token LighthouseInstance#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#client_token LighthouseInstance#client_token}
   */
   readonly clientToken?: string;
   /**
   * Whether the request is a dry run only.true: dry run only. The request will not create instance(s). A dry run can check whether all the required parameters are specified, whether the request format is right, whether the request exceeds service limits, and whether the specified CVMs are available. If the dry run fails, the corresponding error code will be returned.If the dry run succeeds, the RequestId will be returned.false (default value): send a normal request and create instance(s) if all the requirements are met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#dry_run LighthouseInstance#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#dry_run LighthouseInstance#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
   * Firewall template ID. If this parameter is not specified, the default firewall policy is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#firewall_template_id LighthouseInstance#firewall_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#firewall_template_id LighthouseInstance#firewall_template_id}
   */
   readonly firewallTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#id LighthouseInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#id LighthouseInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,55 +47,55 @@ export interface LighthouseInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The display name of the Lighthouse instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#instance_name LighthouseInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#instance_name LighthouseInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Whether the voucher is deducted automatically when update bundle id. Value range: `true`: indicates automatic deduction of vouchers, `false`: does not automatically deduct vouchers. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#is_update_bundle_id_auto_voucher LighthouseInstance#is_update_bundle_id_auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#is_update_bundle_id_auto_voucher LighthouseInstance#is_update_bundle_id_auto_voucher}
   */
   readonly isUpdateBundleIdAutoVoucher?: boolean | cdktf.IResolvable;
   /**
   * Whether to return the mounted data disk. `true`: returns both the instance and the mounted data disk; `false`: returns the instance and no longer returns its mounted data disk. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#isolate_data_disk LighthouseInstance#isolate_data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#isolate_data_disk LighthouseInstance#isolate_data_disk}
   */
   readonly isolateDataDisk?: boolean | cdktf.IResolvable;
   /**
   * Subscription period in months. Valid values: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 24, 36, 48, 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#period LighthouseInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#period LighthouseInstance#period}
   */
   readonly period?: number;
   /**
   * Whether to allow login using the default key pair. `YES`: allow login; `NO`: disable login. Default: `YES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#permit_default_key_pair_login LighthouseInstance#permit_default_key_pair_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#permit_default_key_pair_login LighthouseInstance#permit_default_key_pair_login}
   */
   readonly permitDefaultKeyPairLogin?: string;
   /**
   * Auto-Renewal flag. Valid values: NOTIFY_AND_AUTO_RENEW: notify upon expiration and renew automatically; NOTIFY_AND_MANUAL_RENEW: notify upon expiration but do not renew automatically. You need to manually renew DISABLE_NOTIFY_AND_AUTO_RENEW: neither notify upon expiration nor renew automatically. Default value: NOTIFY_AND_MANUAL_RENEW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#renew_flag LighthouseInstance#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#renew_flag LighthouseInstance#renew_flag}
   */
   readonly renewFlag: string;
   /**
   * List of availability zones. A random AZ is selected by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#zone LighthouseInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#zone LighthouseInstance#zone}
   */
   readonly zone?: string;
   /**
   * containers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#containers LighthouseInstance#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#containers LighthouseInstance#containers}
   */
   readonly containers?: LighthouseInstanceContainers[] | cdktf.IResolvable;
   /**
   * login_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#login_configuration LighthouseInstance#login_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#login_configuration LighthouseInstance#login_configuration}
   */
   readonly loginConfiguration?: LighthouseInstanceLoginConfiguration;
 }
@@ -103,13 +103,13 @@ export interface LighthouseInstanceContainersEnvs {
   /**
   * Environment variable key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#key LighthouseInstance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#key LighthouseInstance#key}
   */
   readonly key: string;
   /**
   * Environment variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#value LighthouseInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#value LighthouseInstance#value}
   */
   readonly value: string;
 }
@@ -250,25 +250,25 @@ export interface LighthouseInstanceContainersPublishPorts {
   /**
   * Container port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#container_port LighthouseInstance#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#container_port LighthouseInstance#container_port}
   */
   readonly containerPort: number;
   /**
   * Host port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#host_port LighthouseInstance#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#host_port LighthouseInstance#host_port}
   */
   readonly hostPort: number;
   /**
   * External IP. It defaults to 0.0.0.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#ip LighthouseInstance#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#ip LighthouseInstance#ip}
   */
   readonly ip?: string;
   /**
   * The protocol defaults to tcp. Valid values: tcp, udp and sctp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#protocol LighthouseInstance#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#protocol LighthouseInstance#protocol}
   */
   readonly protocol?: string;
 }
@@ -467,13 +467,13 @@ export interface LighthouseInstanceContainersVolumes {
   /**
   * Container path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#container_path LighthouseInstance#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#container_path LighthouseInstance#container_path}
   */
   readonly containerPath: string;
   /**
   * Host path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#host_path LighthouseInstance#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#host_path LighthouseInstance#host_path}
   */
   readonly hostPath: string;
 }
@@ -614,37 +614,37 @@ export interface LighthouseInstanceContainers {
   /**
   * The command to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#command LighthouseInstance#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#command LighthouseInstance#command}
   */
   readonly command?: string;
   /**
   * Container image address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#container_image LighthouseInstance#container_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#container_image LighthouseInstance#container_image}
   */
   readonly containerImage?: string;
   /**
   * Container name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#container_name LighthouseInstance#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#container_name LighthouseInstance#container_name}
   */
   readonly containerName?: string;
   /**
   * envs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#envs LighthouseInstance#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#envs LighthouseInstance#envs}
   */
   readonly envs?: LighthouseInstanceContainersEnvs[] | cdktf.IResolvable;
   /**
   * publish_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#publish_ports LighthouseInstance#publish_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#publish_ports LighthouseInstance#publish_ports}
   */
   readonly publishPorts?: LighthouseInstanceContainersPublishPorts[] | cdktf.IResolvable;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#volumes LighthouseInstance#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#volumes LighthouseInstance#volumes}
   */
   readonly volumes?: LighthouseInstanceContainersVolumes[] | cdktf.IResolvable;
 }
@@ -907,13 +907,13 @@ export interface LighthouseInstanceLoginConfiguration {
   /**
   * whether auto generate password. if false, need set password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#auto_generate_password LighthouseInstance#auto_generate_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#auto_generate_password LighthouseInstance#auto_generate_password}
   */
   readonly autoGeneratePassword: string;
   /**
   * Login password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#password LighthouseInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#password LighthouseInstance#password}
   */
   readonly password?: string;
 }
@@ -1023,7 +1023,7 @@ export class LighthouseInstanceLoginConfigurationOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance tencentcloud_lighthouse_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance tencentcloud_lighthouse_instance}
 */
 export class LighthouseInstance extends cdktf.TerraformResource {
 
@@ -1039,7 +1039,7 @@ export class LighthouseInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LighthouseInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LighthouseInstance to import
-  * @param importFromId The id of the existing LighthouseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LighthouseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LighthouseInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1051,7 +1051,7 @@ export class LighthouseInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/lighthouse_instance tencentcloud_lighthouse_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_instance tencentcloud_lighthouse_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1062,8 +1062,8 @@ export class LighthouseInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_lighthouse_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

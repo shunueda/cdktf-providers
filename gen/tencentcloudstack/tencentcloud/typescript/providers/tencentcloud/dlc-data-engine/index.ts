@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,101 +10,101 @@ export interface DlcDataEngineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatic authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#auto_authorization DlcDataEngine#auto_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#auto_authorization DlcDataEngine#auto_authorization}
   */
   readonly autoAuthorization?: boolean | cdktf.IResolvable;
   /**
   * The auto-renewal status of the resource. For the postpaid mode, no renewal is required, and the value is fixed to `0`. For the prepaid mode, valid values are `0` (manual), `1` (auto), and `2` (no renewal). If this parameter is set to `0` for a key account in the prepaid mode, auto-renewal applies. It defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#auto_renew DlcDataEngine#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#auto_renew DlcDataEngine#auto_renew}
   */
   readonly autoRenew?: number;
   /**
   * Whether to automatically start the clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#auto_resume DlcDataEngine#auto_resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#auto_resume DlcDataEngine#auto_resume}
   */
   readonly autoResume: boolean | cdktf.IResolvable;
   /**
   * Whether to automatically suspend clusters. Valid values: `false` (default, no) and `true` (yes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#auto_suspend DlcDataEngine#auto_suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#auto_suspend DlcDataEngine#auto_suspend}
   */
   readonly autoSuspend?: boolean | cdktf.IResolvable;
   /**
   * The cluster auto-suspension time, which defaults to 10 min.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#auto_suspend_time DlcDataEngine#auto_suspend_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#auto_suspend_time DlcDataEngine#auto_suspend_time}
   */
   readonly autoSuspendTime?: number;
   /**
   * The VPC CIDR block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#cidr_block DlcDataEngine#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#cidr_block DlcDataEngine#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
   * The cluster type. Valid values: `spark_private`, `presto_private`, `presto_cu`, and `spark_cu`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#cluster_type DlcDataEngine#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#cluster_type DlcDataEngine#cluster_type}
   */
   readonly clusterType: string;
   /**
   * Whether to enable scheduled start and suspension of clusters. Valid values: `0` (disable) and `1` (enable). Note: This policy and the auto-suspension policy are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#crontab_resume_suspend DlcDataEngine#crontab_resume_suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#crontab_resume_suspend DlcDataEngine#crontab_resume_suspend}
   */
   readonly crontabResumeSuspend?: number;
   /**
   * The name of the virtual cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#data_engine_name DlcDataEngine#data_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#data_engine_name DlcDataEngine#data_engine_name}
   */
   readonly dataEngineName: string;
   /**
   * Whether it is the default virtual cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#default_data_engine DlcDataEngine#default_data_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#default_data_engine DlcDataEngine#default_data_engine}
   */
   readonly defaultDataEngine?: boolean | cdktf.IResolvable;
   /**
   * The upper limit (in CUs) for scaling of the monthly subscribed Spark job cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#elastic_limit DlcDataEngine#elastic_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#elastic_limit DlcDataEngine#elastic_limit}
   */
   readonly elasticLimit?: number;
   /**
   * Whether to enable the scaling feature for a monthly subscribed Spark job cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#elastic_switch DlcDataEngine#elastic_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#elastic_switch DlcDataEngine#elastic_switch}
   */
   readonly elasticSwitch?: boolean | cdktf.IResolvable;
   /**
   * The type of tasks to be executed by the engine, which defaults to SQL. Valid values: `SQL` and `BATCH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#engine_exec_type DlcDataEngine#engine_exec_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#engine_exec_type DlcDataEngine#engine_exec_type}
   */
   readonly engineExecType?: string;
   /**
   * Generation of the engine. SuperSQL means the supersql engine while Native means the standard engine. It is SuperSQL by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#engine_generation DlcDataEngine#engine_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#engine_generation DlcDataEngine#engine_generation}
   */
   readonly engineGeneration?: string;
   /**
   * Engine network ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#engine_network_id DlcDataEngine#engine_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#engine_network_id DlcDataEngine#engine_network_id}
   */
   readonly engineNetworkId?: string;
   /**
   * The engine type. Valid values: `spark` and `presto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#engine_type DlcDataEngine#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#engine_type DlcDataEngine#engine_type}
   */
   readonly engineType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#id DlcDataEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#id DlcDataEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,97 +113,97 @@ export interface DlcDataEngineConfig extends cdktf.TerraformMetaArguments {
   /**
   * The version name of cluster image, such as SuperSQL-P 1.1 and SuperSQL-S 3.2. If no value is passed in, a cluster is created using the latest image version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#image_version_name DlcDataEngine#image_version_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#image_version_name DlcDataEngine#image_version_name}
   */
   readonly imageVersionName?: string;
   /**
   * The primary cluster, which is specified when a failover cluster is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#main_cluster_name DlcDataEngine#main_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#main_cluster_name DlcDataEngine#main_cluster_name}
   */
   readonly mainClusterName?: string;
   /**
   * The maximum number of clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#max_clusters DlcDataEngine#max_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#max_clusters DlcDataEngine#max_clusters}
   */
   readonly maxClusters?: number;
   /**
   * The max task concurrency of a cluster, which defaults to 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#max_concurrency DlcDataEngine#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#max_concurrency DlcDataEngine#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#message DlcDataEngine#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#message DlcDataEngine#message}
   */
   readonly message?: string;
   /**
   * The minimum number of clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#min_clusters DlcDataEngine#min_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#min_clusters DlcDataEngine#min_clusters}
   */
   readonly minClusters?: number;
   /**
   * The billing mode. Valid values: `0` (shared engine), `1` (pay-as-you-go), and `2` (monthly subscription).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#mode DlcDataEngine#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#mode DlcDataEngine#mode}
   */
   readonly mode: number;
   /**
   * The pay mode. Valid value: `0` (postpaid, default) and `1` (prepaid) (currently not available).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#pay_mode DlcDataEngine#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#pay_mode DlcDataEngine#pay_mode}
   */
   readonly payMode?: number;
   /**
   * The resource type. Valid values: `Standard_CU` (standard) and `Memory_CU` (memory).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#resource_type DlcDataEngine#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#resource_type DlcDataEngine#resource_type}
   */
   readonly resourceType?: string;
   /**
   * Cluster size. Required when updating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#size DlcDataEngine#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#size DlcDataEngine#size}
   */
   readonly size?: number;
   /**
   * The usage duration of the resource. Postpaid: Fill in 3,600 as a fixed figure; prepaid: fill in a figure equal to or bigger than 1 which means purchasing resources for one month. The maximum figure is not bigger than 120. The default value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#time_span DlcDataEngine#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#time_span DlcDataEngine#time_span}
   */
   readonly timeSpan?: number;
   /**
   * The unit of the resource period. Valid values: `s` (default) for the postpaid mode and `m` for the prepaid mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#time_unit DlcDataEngine#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#time_unit DlcDataEngine#time_unit}
   */
   readonly timeUnit?: string;
   /**
   * The task queue time limit, which defaults to 0. When the actual queue time exceeds the value set here, scale-out may be triggered. Setting this parameter to 0 represents that scale-out may be triggered immediately after a task queues up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#tolerable_queue_time DlcDataEngine#tolerable_queue_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#tolerable_queue_time DlcDataEngine#tolerable_queue_time}
   */
   readonly tolerableQueueTime?: number;
   /**
   * crontab_resume_suspend_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#crontab_resume_suspend_strategy DlcDataEngine#crontab_resume_suspend_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#crontab_resume_suspend_strategy DlcDataEngine#crontab_resume_suspend_strategy}
   */
   readonly crontabResumeSuspendStrategy?: DlcDataEngineCrontabResumeSuspendStrategy;
   /**
   * data_engine_config_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#data_engine_config_pairs DlcDataEngine#data_engine_config_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#data_engine_config_pairs DlcDataEngine#data_engine_config_pairs}
   */
   readonly dataEngineConfigPairs?: DlcDataEngineDataEngineConfigPairs[] | cdktf.IResolvable;
   /**
   * session_resource_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#session_resource_template DlcDataEngine#session_resource_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#session_resource_template DlcDataEngine#session_resource_template}
   */
   readonly sessionResourceTemplate?: DlcDataEngineSessionResourceTemplate;
 }
@@ -211,19 +211,19 @@ export interface DlcDataEngineCrontabResumeSuspendStrategy {
   /**
   * Scheduled starting time, such as 8: 00 a.m. on Monday and Wednesday.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#resume_time DlcDataEngine#resume_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#resume_time DlcDataEngine#resume_time}
   */
   readonly resumeTime?: string;
   /**
   * The suspension setting. Valid values: `0` (suspension after task end, default) and `1` (force suspension).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#suspend_strategy DlcDataEngine#suspend_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#suspend_strategy DlcDataEngine#suspend_strategy}
   */
   readonly suspendStrategy?: number;
   /**
   * Scheduled suspension time, such as 8: 00 p.m. on Monday and Wednesday.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#suspend_time DlcDataEngine#suspend_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#suspend_time DlcDataEngine#suspend_time}
   */
   readonly suspendTime?: string;
 }
@@ -367,13 +367,13 @@ export interface DlcDataEngineDataEngineConfigPairs {
   /**
   * Configuration items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#config_item DlcDataEngine#config_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#config_item DlcDataEngine#config_item}
   */
   readonly configItem: string;
   /**
   * Configuration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#config_value DlcDataEngine#config_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#config_value DlcDataEngine#config_value}
   */
   readonly configValue: string;
 }
@@ -514,13 +514,13 @@ export interface DlcDataEngineSessionResourceTemplateRunningTimeParameters {
   /**
   * Configuration items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#config_item DlcDataEngine#config_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#config_item DlcDataEngine#config_item}
   */
   readonly configItem: string;
   /**
   * Configuration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#config_value DlcDataEngine#config_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#config_value DlcDataEngine#config_value}
   */
   readonly configValue: string;
 }
@@ -661,31 +661,31 @@ export interface DlcDataEngineSessionResourceTemplate {
   /**
   * The driver size. Valid values for the standard resource type: `small`, `medium`, `large`, and `xlarge`. Valid values for the memory resource type: `m.small`, `m.medium`, `m.large`, and `m.xlarge`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#driver_size DlcDataEngine#driver_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#driver_size DlcDataEngine#driver_size}
   */
   readonly driverSize?: string;
   /**
   * The maximum executor count (in dynamic mode). The minimum value is 1 and the maximum value is less than the cluster specification. If you set `ExecutorMaxNumbers` to a value smaller than that of `ExecutorNums`, the value of `ExecutorMaxNumbers` is automatically changed to that of `ExecutorNums`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#executor_max_numbers DlcDataEngine#executor_max_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#executor_max_numbers DlcDataEngine#executor_max_numbers}
   */
   readonly executorMaxNumbers?: number;
   /**
   * The executor count. The minimum value is 1 and the maximum value is less than the cluster specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#executor_nums DlcDataEngine#executor_nums}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#executor_nums DlcDataEngine#executor_nums}
   */
   readonly executorNums?: number;
   /**
   * The executor size. Valid values for the standard resource type: `small`, `medium`, `large`, and `xlarge`. Valid values for the memory resource type: `m.small`, `m.medium`, `m.large`, and `m.xlarge`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#executor_size DlcDataEngine#executor_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#executor_size DlcDataEngine#executor_size}
   */
   readonly executorSize?: string;
   /**
   * running_time_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#running_time_parameters DlcDataEngine#running_time_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#running_time_parameters DlcDataEngine#running_time_parameters}
   */
   readonly runningTimeParameters?: DlcDataEngineSessionResourceTemplateRunningTimeParameters[] | cdktf.IResolvable;
 }
@@ -885,7 +885,7 @@ export class DlcDataEngineSessionResourceTemplateOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine tencentcloud_dlc_data_engine}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine tencentcloud_dlc_data_engine}
 */
 export class DlcDataEngine extends cdktf.TerraformResource {
 
@@ -901,7 +901,7 @@ export class DlcDataEngine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlcDataEngine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlcDataEngine to import
-  * @param importFromId The id of the existing DlcDataEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlcDataEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlcDataEngine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -913,7 +913,7 @@ export class DlcDataEngine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_data_engine tencentcloud_dlc_data_engine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_data_engine tencentcloud_dlc_data_engine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -924,8 +924,8 @@ export class DlcDataEngine extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_data_engine',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

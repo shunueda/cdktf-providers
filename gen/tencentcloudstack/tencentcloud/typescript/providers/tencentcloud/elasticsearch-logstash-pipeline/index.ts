@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ElasticsearchLogstashPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#id ElasticsearchLogstashPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#id ElasticsearchLogstashPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ElasticsearchLogstashPipelineConfig extends cdktf.TerraformMeta
   /**
   * Logstash instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#instance_id ElasticsearchLogstashPipeline#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#instance_id ElasticsearchLogstashPipeline#instance_id}
   */
   readonly instanceId: string;
   /**
   * Operation type. 1: save only; 2: save and deploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#op_type ElasticsearchLogstashPipeline#op_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#op_type ElasticsearchLogstashPipeline#op_type}
   */
   readonly opType: number;
   /**
   * pipeline block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#pipeline ElasticsearchLogstashPipeline#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#pipeline ElasticsearchLogstashPipeline#pipeline}
   */
   readonly pipeline: ElasticsearchLogstashPipelinePipeline;
 }
@@ -37,55 +37,55 @@ export interface ElasticsearchLogstashPipelinePipeline {
   /**
   * Pipeline batch processing delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#batch_delay ElasticsearchLogstashPipeline#batch_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#batch_delay ElasticsearchLogstashPipeline#batch_delay}
   */
   readonly batchDelay: number;
   /**
   * Pipe batch size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#batch_size ElasticsearchLogstashPipeline#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#batch_size ElasticsearchLogstashPipeline#batch_size}
   */
   readonly batchSize: number;
   /**
   * Pipeline configuration content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#config ElasticsearchLogstashPipeline#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#config ElasticsearchLogstashPipeline#config}
   */
   readonly config: string;
   /**
   * Pipeline description information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#pipeline_desc ElasticsearchLogstashPipeline#pipeline_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#pipeline_desc ElasticsearchLogstashPipeline#pipeline_desc}
   */
   readonly pipelineDesc: string;
   /**
   * Pipeline id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#pipeline_id ElasticsearchLogstashPipeline#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#pipeline_id ElasticsearchLogstashPipeline#pipeline_id}
   */
   readonly pipelineId: string;
   /**
   * Number of pipeline buffer queue checkpoint writes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#queue_check_point_writes ElasticsearchLogstashPipeline#queue_check_point_writes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#queue_check_point_writes ElasticsearchLogstashPipeline#queue_check_point_writes}
   */
   readonly queueCheckPointWrites: number;
   /**
   * Pipeline buffer queue size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#queue_max_bytes ElasticsearchLogstashPipeline#queue_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#queue_max_bytes ElasticsearchLogstashPipeline#queue_max_bytes}
   */
   readonly queueMaxBytes: string;
   /**
   * Pipeline buffer queue type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#queue_type ElasticsearchLogstashPipeline#queue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#queue_type ElasticsearchLogstashPipeline#queue_type}
   */
   readonly queueType: string;
   /**
   * Number of Worker of pipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#workers ElasticsearchLogstashPipeline#workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#workers ElasticsearchLogstashPipeline#workers}
   */
   readonly workers: number;
 }
@@ -374,7 +374,7 @@ export class ElasticsearchLogstashPipelinePipelineOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline tencentcloud_elasticsearch_logstash_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline tencentcloud_elasticsearch_logstash_pipeline}
 */
 export class ElasticsearchLogstashPipeline extends cdktf.TerraformResource {
 
@@ -390,7 +390,7 @@ export class ElasticsearchLogstashPipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchLogstashPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchLogstashPipeline to import
-  * @param importFromId The id of the existing ElasticsearchLogstashPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchLogstashPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchLogstashPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -402,7 +402,7 @@ export class ElasticsearchLogstashPipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/elasticsearch_logstash_pipeline tencentcloud_elasticsearch_logstash_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash_pipeline tencentcloud_elasticsearch_logstash_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -413,8 +413,8 @@ export class ElasticsearchLogstashPipeline extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_elasticsearch_logstash_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

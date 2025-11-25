@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DlcUserDataEngineConfigConfig extends cdktf.TerraformMetaArgume
   /**
   * Engine unique id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config#data_engine_id DlcUserDataEngineConfig#data_engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config#data_engine_id DlcUserDataEngineConfig#data_engine_id}
   */
   readonly dataEngineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config#id DlcUserDataEngineConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config#id DlcUserDataEngineConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DlcUserDataEngineConfigConfig extends cdktf.TerraformMetaArgume
   /**
   * data_engine_config_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config#data_engine_config_pairs DlcUserDataEngineConfig#data_engine_config_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config#data_engine_config_pairs DlcUserDataEngineConfig#data_engine_config_pairs}
   */
   readonly dataEngineConfigPairs?: DlcUserDataEngineConfigDataEngineConfigPairs[] | cdktf.IResolvable;
   /**
   * session_resource_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config#session_resource_template DlcUserDataEngineConfig#session_resource_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config#session_resource_template DlcUserDataEngineConfig#session_resource_template}
   */
   readonly sessionResourceTemplate?: DlcUserDataEngineConfigSessionResourceTemplate;
 }
@@ -37,13 +37,13 @@ export interface DlcUserDataEngineConfigDataEngineConfigPairs {
   /**
   * Config key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config#config_item DlcUserDataEngineConfig#config_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config#config_item DlcUserDataEngineConfig#config_item}
   */
   readonly configItem: string;
   /**
   * Config value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config#config_value DlcUserDataEngineConfig#config_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config#config_value DlcUserDataEngineConfig#config_value}
   */
   readonly configValue: string;
 }
@@ -184,25 +184,25 @@ export interface DlcUserDataEngineConfigSessionResourceTemplate {
   /**
   * Engine driver size specification only supports: small/medium/large/xlarge/m.small/m.medium/m.large/m.xlarge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config#driver_size DlcUserDataEngineConfig#driver_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config#driver_size DlcUserDataEngineConfig#driver_size}
   */
   readonly driverSize?: string;
   /**
   * Specify the executor max number (in a dynamic configuration scenario), the minimum value is 1, and the maximum value is less than the cluster specification (when ExecutorMaxNumbers is less than ExecutorNums, the value is set to ExecutorNums).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config#executor_max_numbers DlcUserDataEngineConfig#executor_max_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config#executor_max_numbers DlcUserDataEngineConfig#executor_max_numbers}
   */
   readonly executorMaxNumbers?: number;
   /**
   * Specify the number of executors. The minimum value is 1 and the maximum value is less than the cluster specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config#executor_nums DlcUserDataEngineConfig#executor_nums}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config#executor_nums DlcUserDataEngineConfig#executor_nums}
   */
   readonly executorNums?: number;
   /**
   * Engine executor size specification only supports: small/medium/large/xlarge/m.small/m.medium/m.large/m.xlarge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config#executor_size DlcUserDataEngineConfig#executor_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config#executor_size DlcUserDataEngineConfig#executor_size}
   */
   readonly executorSize?: string;
 }
@@ -373,7 +373,7 @@ export class DlcUserDataEngineConfigSessionResourceTemplateOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config tencentcloud_dlc_user_data_engine_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config tencentcloud_dlc_user_data_engine_config}
 */
 export class DlcUserDataEngineConfig extends cdktf.TerraformResource {
 
@@ -389,7 +389,7 @@ export class DlcUserDataEngineConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlcUserDataEngineConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlcUserDataEngineConfig to import
-  * @param importFromId The id of the existing DlcUserDataEngineConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlcUserDataEngineConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlcUserDataEngineConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class DlcUserDataEngineConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_user_data_engine_config tencentcloud_dlc_user_data_engine_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_user_data_engine_config tencentcloud_dlc_user_data_engine_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class DlcUserDataEngineConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_user_data_engine_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

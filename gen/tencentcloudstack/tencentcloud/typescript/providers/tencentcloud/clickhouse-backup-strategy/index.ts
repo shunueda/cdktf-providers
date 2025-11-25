@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClickhouseBackupStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#id ClickhouseBackupStrategy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#id ClickhouseBackupStrategy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ClickhouseBackupStrategyConfig extends cdktf.TerraformMetaArgum
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#instance_id ClickhouseBackupStrategy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#instance_id ClickhouseBackupStrategy#instance_id}
   */
   readonly instanceId: string;
   /**
   * data_backup_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#data_backup_strategy ClickhouseBackupStrategy#data_backup_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#data_backup_strategy ClickhouseBackupStrategy#data_backup_strategy}
   */
   readonly dataBackupStrategy: ClickhouseBackupStrategyDataBackupStrategy[] | cdktf.IResolvable;
   /**
   * meta_backup_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#meta_backup_strategy ClickhouseBackupStrategy#meta_backup_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#meta_backup_strategy ClickhouseBackupStrategy#meta_backup_strategy}
   */
   readonly metaBackupStrategy?: ClickhouseBackupStrategyMetaBackupStrategy[] | cdktf.IResolvable;
 }
@@ -37,43 +37,43 @@ export interface ClickhouseBackupStrategyDataBackupStrategyBackUpTables {
   /**
   * Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#database ClickhouseBackupStrategy#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#database ClickhouseBackupStrategy#database}
   */
   readonly database: string;
   /**
   * Table ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#ips ClickhouseBackupStrategy#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#ips ClickhouseBackupStrategy#ips}
   */
   readonly ips?: string;
   /**
   * Ip address of cvm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#rip ClickhouseBackupStrategy#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#rip ClickhouseBackupStrategy#rip}
   */
   readonly rip?: string;
   /**
   * Table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#table ClickhouseBackupStrategy#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#table ClickhouseBackupStrategy#table}
   */
   readonly table: string;
   /**
   * Back up the list of tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#total_bytes ClickhouseBackupStrategy#total_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#total_bytes ClickhouseBackupStrategy#total_bytes}
   */
   readonly totalBytes: number;
   /**
   * Virtual clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#v_cluster ClickhouseBackupStrategy#v_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#v_cluster ClickhouseBackupStrategy#v_cluster}
   */
   readonly vCluster?: string;
   /**
   * ZK path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#zoo_path ClickhouseBackupStrategy#zoo_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#zoo_path ClickhouseBackupStrategy#zoo_path}
   */
   readonly zooPath?: string;
 }
@@ -356,25 +356,25 @@ export interface ClickhouseBackupStrategyDataBackupStrategy {
   /**
   * Execution hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#execute_hour ClickhouseBackupStrategy#execute_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#execute_hour ClickhouseBackupStrategy#execute_hour}
   */
   readonly executeHour: number;
   /**
   * Retention days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#retain_days ClickhouseBackupStrategy#retain_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#retain_days ClickhouseBackupStrategy#retain_days}
   */
   readonly retainDays: number;
   /**
   * The day of the week is separated by commas. For example: 2 represents Tuesday.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#week_days ClickhouseBackupStrategy#week_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#week_days ClickhouseBackupStrategy#week_days}
   */
   readonly weekDays: string;
   /**
   * back_up_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#back_up_tables ClickhouseBackupStrategy#back_up_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#back_up_tables ClickhouseBackupStrategy#back_up_tables}
   */
   readonly backUpTables: ClickhouseBackupStrategyDataBackupStrategyBackUpTables[] | cdktf.IResolvable;
 }
@@ -567,19 +567,19 @@ export interface ClickhouseBackupStrategyMetaBackupStrategy {
   /**
   * Execution hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#execute_hour ClickhouseBackupStrategy#execute_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#execute_hour ClickhouseBackupStrategy#execute_hour}
   */
   readonly executeHour?: number;
   /**
   * Retention days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#retain_days ClickhouseBackupStrategy#retain_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#retain_days ClickhouseBackupStrategy#retain_days}
   */
   readonly retainDays?: number;
   /**
   * The day of the week is separated by commas. For example: 2 represents Tuesday.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#week_days ClickhouseBackupStrategy#week_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#week_days ClickhouseBackupStrategy#week_days}
   */
   readonly weekDays?: string;
 }
@@ -753,7 +753,7 @@ export class ClickhouseBackupStrategyMetaBackupStrategyList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy tencentcloud_clickhouse_backup_strategy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy tencentcloud_clickhouse_backup_strategy}
 */
 export class ClickhouseBackupStrategy extends cdktf.TerraformResource {
 
@@ -769,7 +769,7 @@ export class ClickhouseBackupStrategy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClickhouseBackupStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClickhouseBackupStrategy to import
-  * @param importFromId The id of the existing ClickhouseBackupStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClickhouseBackupStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClickhouseBackupStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -781,7 +781,7 @@ export class ClickhouseBackupStrategy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_backup_strategy tencentcloud_clickhouse_backup_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clickhouse_backup_strategy tencentcloud_clickhouse_backup_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -792,8 +792,8 @@ export class ClickhouseBackupStrategy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clickhouse_backup_strategy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

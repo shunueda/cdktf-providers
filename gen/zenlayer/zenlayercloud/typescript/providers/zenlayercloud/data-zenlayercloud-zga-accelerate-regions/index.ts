@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerate_regions
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_accelerate_regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZenlayercloudZgaAccelerateRegionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerate_regions#id DataZenlayercloudZgaAccelerateRegions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_accelerate_regions#id DataZenlayercloudZgaAccelerateRegions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataZenlayercloudZgaAccelerateRegionsConfig extends cdktf.Terra
   /**
   * A regex string to apply to the accelerate region list returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerate_regions#name_regex DataZenlayercloudZgaAccelerateRegions#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_accelerate_regions#name_regex DataZenlayercloudZgaAccelerateRegions#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * ID of the origin region, such as `FR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerate_regions#origin_region_id DataZenlayercloudZgaAccelerateRegions#origin_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_accelerate_regions#origin_region_id DataZenlayercloudZgaAccelerateRegions#origin_region_id}
   */
   readonly originRegionId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerate_regions#result_output_file DataZenlayercloudZgaAccelerateRegions#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_accelerate_regions#result_output_file DataZenlayercloudZgaAccelerateRegions#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -115,7 +115,7 @@ export class DataZenlayercloudZgaAccelerateRegionsRegionsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerate_regions zenlayercloud_zga_accelerate_regions}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_accelerate_regions zenlayercloud_zga_accelerate_regions}
 */
 export class DataZenlayercloudZgaAccelerateRegions extends cdktf.TerraformDataSource {
 
@@ -131,7 +131,7 @@ export class DataZenlayercloudZgaAccelerateRegions extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataZenlayercloudZgaAccelerateRegions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZgaAccelerateRegions to import
-  * @param importFromId The id of the existing DataZenlayercloudZgaAccelerateRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerate_regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZgaAccelerateRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_accelerate_regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZgaAccelerateRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +143,7 @@ export class DataZenlayercloudZgaAccelerateRegions extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerate_regions zenlayercloud_zga_accelerate_regions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zga_accelerate_regions zenlayercloud_zga_accelerate_regions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,8 +154,8 @@ export class DataZenlayercloudZgaAccelerateRegions extends cdktf.TerraformDataSo
       terraformResourceType: 'zenlayercloud_zga_accelerate_regions',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.9',
-        providerVersionConstraint: '0.2.9'
+        providerVersion: '0.2.10',
+        providerVersionConstraint: '0.2.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

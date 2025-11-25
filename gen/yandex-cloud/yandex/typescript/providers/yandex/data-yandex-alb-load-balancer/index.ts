@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/alb_load_balancer
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/alb_load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataYandexAlbLoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/alb_load_balancer#id DataYandexAlbLoadBalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/alb_load_balancer#id DataYandexAlbLoadBalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataYandexAlbLoadBalancerConfig extends cdktf.TerraformMetaArgu
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/alb_load_balancer#load_balancer_id DataYandexAlbLoadBalancer#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/alb_load_balancer#load_balancer_id DataYandexAlbLoadBalancer#load_balancer_id}
   */
   readonly loadBalancerId?: string;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/alb_load_balancer#name DataYandexAlbLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/alb_load_balancer#name DataYandexAlbLoadBalancer#name}
   */
   readonly name?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/alb_load_balancer#timeouts DataYandexAlbLoadBalancer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/alb_load_balancer#timeouts DataYandexAlbLoadBalancer#timeouts}
   */
   readonly timeouts?: DataYandexAlbLoadBalancerTimeouts;
 }
@@ -2263,15 +2263,15 @@ export class DataYandexAlbLoadBalancerLogOptionsList extends cdktf.ComplexList {
 }
 export interface DataYandexAlbLoadBalancerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/alb_load_balancer#create DataYandexAlbLoadBalancer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/alb_load_balancer#create DataYandexAlbLoadBalancer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/alb_load_balancer#delete DataYandexAlbLoadBalancer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/alb_load_balancer#delete DataYandexAlbLoadBalancer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/alb_load_balancer#update DataYandexAlbLoadBalancer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/alb_load_balancer#update DataYandexAlbLoadBalancer#update}
   */
   readonly update?: string;
 }
@@ -2423,7 +2423,7 @@ export class DataYandexAlbLoadBalancerTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/alb_load_balancer yandex_alb_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/alb_load_balancer yandex_alb_load_balancer}
 */
 export class DataYandexAlbLoadBalancer extends cdktf.TerraformDataSource {
 
@@ -2439,7 +2439,7 @@ export class DataYandexAlbLoadBalancer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexAlbLoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexAlbLoadBalancer to import
-  * @param importFromId The id of the existing DataYandexAlbLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/alb_load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexAlbLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/alb_load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexAlbLoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2451,7 +2451,7 @@ export class DataYandexAlbLoadBalancer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/alb_load_balancer yandex_alb_load_balancer} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/alb_load_balancer yandex_alb_load_balancer} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2462,8 +2462,8 @@ export class DataYandexAlbLoadBalancer extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_alb_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudCcnCrossBorderFlowMonitorConfig extends cdktf.T
   /**
   * CcnId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor#ccn_id DataTencentcloudCcnCrossBorderFlowMonitor#ccn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor#ccn_id DataTencentcloudCcnCrossBorderFlowMonitor#ccn_id}
   */
   readonly ccnId: string;
   /**
   * CcnUin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor#ccn_uin DataTencentcloudCcnCrossBorderFlowMonitor#ccn_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor#ccn_uin DataTencentcloudCcnCrossBorderFlowMonitor#ccn_uin}
   */
   readonly ccnUin: string;
   /**
   * DestinationRegion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor#destination_region DataTencentcloudCcnCrossBorderFlowMonitor#destination_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor#destination_region DataTencentcloudCcnCrossBorderFlowMonitor#destination_region}
   */
   readonly destinationRegion: string;
   /**
   * EndTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor#end_time DataTencentcloudCcnCrossBorderFlowMonitor#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor#end_time DataTencentcloudCcnCrossBorderFlowMonitor#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor#id DataTencentcloudCcnCrossBorderFlowMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor#id DataTencentcloudCcnCrossBorderFlowMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface DataTencentcloudCcnCrossBorderFlowMonitorConfig extends cdktf.T
   /**
   * TimePeriod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor#period DataTencentcloudCcnCrossBorderFlowMonitor#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor#period DataTencentcloudCcnCrossBorderFlowMonitor#period}
   */
   readonly period: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor#result_output_file DataTencentcloudCcnCrossBorderFlowMonitor#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor#result_output_file DataTencentcloudCcnCrossBorderFlowMonitor#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * SourceRegion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor#source_region DataTencentcloudCcnCrossBorderFlowMonitor#source_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor#source_region DataTencentcloudCcnCrossBorderFlowMonitor#source_region}
   */
   readonly sourceRegion: string;
   /**
   * StartTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor#start_time DataTencentcloudCcnCrossBorderFlowMonitor#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor#start_time DataTencentcloudCcnCrossBorderFlowMonitor#start_time}
   */
   readonly startTime: string;
 }
@@ -155,7 +155,7 @@ export class DataTencentcloudCcnCrossBorderFlowMonitorCrossBorderFlowMonitorData
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor tencentcloud_ccn_cross_border_flow_monitor}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor tencentcloud_ccn_cross_border_flow_monitor}
 */
 export class DataTencentcloudCcnCrossBorderFlowMonitor extends cdktf.TerraformDataSource {
 
@@ -171,7 +171,7 @@ export class DataTencentcloudCcnCrossBorderFlowMonitor extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudCcnCrossBorderFlowMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCcnCrossBorderFlowMonitor to import
-  * @param importFromId The id of the existing DataTencentcloudCcnCrossBorderFlowMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCcnCrossBorderFlowMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCcnCrossBorderFlowMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class DataTencentcloudCcnCrossBorderFlowMonitor extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_cross_border_flow_monitor tencentcloud_ccn_cross_border_flow_monitor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_flow_monitor tencentcloud_ccn_cross_border_flow_monitor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class DataTencentcloudCcnCrossBorderFlowMonitor extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_ccn_cross_border_flow_monitor',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

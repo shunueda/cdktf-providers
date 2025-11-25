@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DtsCompareTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#id DtsCompareTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#id DtsCompareTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DtsCompareTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * job id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#job_id DtsCompareTask#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#job_id DtsCompareTask#job_id}
   */
   readonly jobId: string;
   /**
   * object mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#object_mode DtsCompareTask#object_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#object_mode DtsCompareTask#object_mode}
   */
   readonly objectMode?: string;
   /**
   * task name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#task_name DtsCompareTask#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#task_name DtsCompareTask#task_name}
   */
   readonly taskName?: string;
   /**
   * objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#objects DtsCompareTask#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#objects DtsCompareTask#objects}
   */
   readonly objects?: DtsCompareTaskObjects;
 }
@@ -43,7 +43,7 @@ export interface DtsCompareTaskObjectsObjectItemsTables {
   /**
   * table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#table_name DtsCompareTask#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#table_name DtsCompareTask#table_name}
   */
   readonly tableName?: string;
 }
@@ -161,7 +161,7 @@ export interface DtsCompareTaskObjectsObjectItemsViews {
   /**
   * view name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#view_name DtsCompareTask#view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#view_name DtsCompareTask#view_name}
   */
   readonly viewName?: string;
 }
@@ -279,43 +279,43 @@ export interface DtsCompareTaskObjectsObjectItems {
   /**
   * database mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#db_mode DtsCompareTask#db_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#db_mode DtsCompareTask#db_mode}
   */
   readonly dbMode?: string;
   /**
   * database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#db_name DtsCompareTask#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#db_name DtsCompareTask#db_name}
   */
   readonly dbName?: string;
   /**
   * schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#schema_name DtsCompareTask#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#schema_name DtsCompareTask#schema_name}
   */
   readonly schemaName?: string;
   /**
   * table mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#table_mode DtsCompareTask#table_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#table_mode DtsCompareTask#table_mode}
   */
   readonly tableMode?: string;
   /**
   * view mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#view_mode DtsCompareTask#view_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#view_mode DtsCompareTask#view_mode}
   */
   readonly viewMode?: string;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#tables DtsCompareTask#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#tables DtsCompareTask#tables}
   */
   readonly tables?: DtsCompareTaskObjectsObjectItemsTables[] | cdktf.IResolvable;
   /**
   * views block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#views DtsCompareTask#views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#views DtsCompareTask#views}
   */
   readonly views?: DtsCompareTaskObjectsObjectItemsViews[] | cdktf.IResolvable;
 }
@@ -607,13 +607,13 @@ export interface DtsCompareTaskObjects {
   /**
   * object mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#object_mode DtsCompareTask#object_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#object_mode DtsCompareTask#object_mode}
   */
   readonly objectMode: string;
   /**
   * object_items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#object_items DtsCompareTask#object_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#object_items DtsCompareTask#object_items}
   */
   readonly objectItems?: DtsCompareTaskObjectsObjectItems[] | cdktf.IResolvable;
 }
@@ -723,7 +723,7 @@ export class DtsCompareTaskObjectsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task tencentcloud_dts_compare_task}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task tencentcloud_dts_compare_task}
 */
 export class DtsCompareTask extends cdktf.TerraformResource {
 
@@ -739,7 +739,7 @@ export class DtsCompareTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtsCompareTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtsCompareTask to import
-  * @param importFromId The id of the existing DtsCompareTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtsCompareTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtsCompareTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -751,7 +751,7 @@ export class DtsCompareTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dts_compare_task tencentcloud_dts_compare_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dts_compare_task tencentcloud_dts_compare_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -762,8 +762,8 @@ export class DtsCompareTask extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dts_compare_task',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_topic
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TdmqRocketmqTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_topic#cluster_id TdmqRocketmqTopic#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_topic#cluster_id TdmqRocketmqTopic#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_topic#id TdmqRocketmqTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_topic#id TdmqRocketmqTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface TdmqRocketmqTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Topic namespace. Currently, you can create topics only in one single namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_topic#namespace_name TdmqRocketmqTopic#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_topic#namespace_name TdmqRocketmqTopic#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * Number of partitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_topic#partition_num TdmqRocketmqTopic#partition_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_topic#partition_num TdmqRocketmqTopic#partition_num}
   */
   readonly partitionNum?: number;
   /**
   * Topic remarks (up to 128 characters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_topic#remark TdmqRocketmqTopic#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_topic#remark TdmqRocketmqTopic#remark}
   */
   readonly remark?: string;
   /**
   * Topic name, which can contain 3-64 letters, digits, hyphens, and underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_topic#topic_name TdmqRocketmqTopic#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_topic#topic_name TdmqRocketmqTopic#topic_name}
   */
   readonly topicName: string;
   /**
   * Topic type. Valid values: Normal, GlobalOrder, PartitionedOrder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_topic#type TdmqRocketmqTopic#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_topic#type TdmqRocketmqTopic#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_topic tencentcloud_tdmq_rocketmq_topic}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_topic tencentcloud_tdmq_rocketmq_topic}
 */
 export class TdmqRocketmqTopic extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class TdmqRocketmqTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqRocketmqTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqRocketmqTopic to import
-  * @param importFromId The id of the existing TdmqRocketmqTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqRocketmqTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqRocketmqTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class TdmqRocketmqTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_topic tencentcloud_tdmq_rocketmq_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_topic tencentcloud_tdmq_rocketmq_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class TdmqRocketmqTopic extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_rocketmq_topic',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

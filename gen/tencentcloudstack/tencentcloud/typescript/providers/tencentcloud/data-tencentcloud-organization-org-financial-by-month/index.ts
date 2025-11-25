@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_month
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/organization_org_financial_by_month
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudOrganizationOrgFinancialByMonthConfig extends c
   /**
   * Query for the end month. Format:yyyy-mm, for example:2021-01.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_month#end_month DataTencentcloudOrganizationOrgFinancialByMonth#end_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/organization_org_financial_by_month#end_month DataTencentcloudOrganizationOrgFinancialByMonth#end_month}
   */
   readonly endMonth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_month#id DataTencentcloudOrganizationOrgFinancialByMonth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/organization_org_financial_by_month#id DataTencentcloudOrganizationOrgFinancialByMonth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudOrganizationOrgFinancialByMonthConfig extends c
   /**
   * Member uin list. Up to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_month#member_uins DataTencentcloudOrganizationOrgFinancialByMonth#member_uins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/organization_org_financial_by_month#member_uins DataTencentcloudOrganizationOrgFinancialByMonth#member_uins}
   */
   readonly memberUins?: number[];
   /**
   * Product code list. Up to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_month#product_codes DataTencentcloudOrganizationOrgFinancialByMonth#product_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/organization_org_financial_by_month#product_codes DataTencentcloudOrganizationOrgFinancialByMonth#product_codes}
   */
   readonly productCodes?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_month#result_output_file DataTencentcloudOrganizationOrgFinancialByMonth#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/organization_org_financial_by_month#result_output_file DataTencentcloudOrganizationOrgFinancialByMonth#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -131,7 +131,7 @@ export class DataTencentcloudOrganizationOrgFinancialByMonthItemsList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_month tencentcloud_organization_org_financial_by_month}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/organization_org_financial_by_month tencentcloud_organization_org_financial_by_month}
 */
 export class DataTencentcloudOrganizationOrgFinancialByMonth extends cdktf.TerraformDataSource {
 
@@ -147,7 +147,7 @@ export class DataTencentcloudOrganizationOrgFinancialByMonth extends cdktf.Terra
   * Generates CDKTF code for importing a DataTencentcloudOrganizationOrgFinancialByMonth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudOrganizationOrgFinancialByMonth to import
-  * @param importFromId The id of the existing DataTencentcloudOrganizationOrgFinancialByMonth that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_month#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudOrganizationOrgFinancialByMonth that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/organization_org_financial_by_month#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudOrganizationOrgFinancialByMonth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DataTencentcloudOrganizationOrgFinancialByMonth extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_month tencentcloud_organization_org_financial_by_month} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/organization_org_financial_by_month tencentcloud_organization_org_financial_by_month} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class DataTencentcloudOrganizationOrgFinancialByMonth extends cdktf.Terra
       terraformResourceType: 'tencentcloud_organization_org_financial_by_month',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

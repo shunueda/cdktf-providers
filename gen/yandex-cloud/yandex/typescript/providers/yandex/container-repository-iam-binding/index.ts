@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/container_repository_iam_binding
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/container_repository_iam_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -23,31 +23,31 @@ export interface ContainerRepositoryIamBindingConfig extends cdktf.TerraformMeta
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/container_repository_iam_binding#members ContainerRepositoryIamBinding#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/container_repository_iam_binding#members ContainerRepositoryIamBinding#members}
   */
   readonly members: string[];
   /**
   * The ID of the compute `repository` to attach the policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/container_repository_iam_binding#repository_id ContainerRepositoryIamBinding#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/container_repository_iam_binding#repository_id ContainerRepositoryIamBinding#repository_id}
   */
   readonly repositoryId: string;
   /**
   * The role that should be assigned. Only one yandex_container_repository_iam_binding can be used per role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/container_repository_iam_binding#role ContainerRepositoryIamBinding#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/container_repository_iam_binding#role ContainerRepositoryIamBinding#role}
   */
   readonly role: string;
   /**
   * For test purposes, to compensate IAM operations delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/container_repository_iam_binding#sleep_after ContainerRepositoryIamBinding#sleep_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/container_repository_iam_binding#sleep_after ContainerRepositoryIamBinding#sleep_after}
   */
   readonly sleepAfter?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/container_repository_iam_binding yandex_container_repository_iam_binding}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/container_repository_iam_binding yandex_container_repository_iam_binding}
 */
 export class ContainerRepositoryIamBinding extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ContainerRepositoryIamBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ContainerRepositoryIamBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContainerRepositoryIamBinding to import
-  * @param importFromId The id of the existing ContainerRepositoryIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/container_repository_iam_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContainerRepositoryIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/container_repository_iam_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContainerRepositoryIamBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ContainerRepositoryIamBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/container_repository_iam_binding yandex_container_repository_iam_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/container_repository_iam_binding yandex_container_repository_iam_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ContainerRepositoryIamBinding extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_container_repository_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

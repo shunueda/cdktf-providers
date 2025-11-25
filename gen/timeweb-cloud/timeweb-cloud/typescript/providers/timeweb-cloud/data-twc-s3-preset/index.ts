@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_s3_preset
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_preset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTwcS3PresetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Short description of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_s3_preset#description_short DataTwcS3Preset#description_short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_preset#description_short DataTwcS3Preset#description_short}
   */
   readonly descriptionShort?: string;
   /**
   * Disk size of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_s3_preset#disk DataTwcS3Preset#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_preset#disk DataTwcS3Preset#disk}
   */
   readonly disk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_s3_preset#id DataTwcS3Preset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_preset#id DataTwcS3Preset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataTwcS3PresetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Location for the created storage (`ru-1`, `ru-2`, `pl-1`, `kz-1`). When storage was created all new presets or configuration may be only chosen from same location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_s3_preset#location DataTwcS3Preset#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_preset#location DataTwcS3Preset#location}
   */
   readonly location?: string;
   /**
   * price_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_s3_preset#price_filter DataTwcS3Preset#price_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_preset#price_filter DataTwcS3Preset#price_filter}
   */
   readonly priceFilter?: DataTwcS3PresetPriceFilter;
 }
@@ -43,13 +43,13 @@ export interface DataTwcS3PresetPriceFilter {
   /**
   * Minimum price (inclusive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_s3_preset#from DataTwcS3Preset#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_preset#from DataTwcS3Preset#from}
   */
   readonly from: number;
   /**
   * Maximum price (inclusive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_s3_preset#to DataTwcS3Preset#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_preset#to DataTwcS3Preset#to}
   */
   readonly to: number;
 }
@@ -156,7 +156,7 @@ export class DataTwcS3PresetPriceFilterOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_s3_preset twc_s3_preset}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_preset twc_s3_preset}
 */
 export class DataTwcS3Preset extends cdktf.TerraformDataSource {
 
@@ -172,7 +172,7 @@ export class DataTwcS3Preset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwcS3Preset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwcS3Preset to import
-  * @param importFromId The id of the existing DataTwcS3Preset that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_s3_preset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwcS3Preset that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_preset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwcS3Preset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class DataTwcS3Preset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_s3_preset twc_s3_preset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_preset twc_s3_preset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class DataTwcS3Preset extends cdktf.TerraformDataSource {
       terraformResourceType: 'twc_s3_preset',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6',
-        providerVersionConstraint: '1.6.6'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

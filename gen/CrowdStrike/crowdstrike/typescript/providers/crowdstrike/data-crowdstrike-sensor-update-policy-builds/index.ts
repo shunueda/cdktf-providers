@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/data-sources/sensor_update_policy_builds
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/sensor_update_policy_builds
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -1490,7 +1490,7 @@ export class DataCrowdstrikeSensorUpdatePolicyBuildsWindowsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/data-sources/sensor_update_policy_builds crowdstrike_sensor_update_policy_builds}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/sensor_update_policy_builds crowdstrike_sensor_update_policy_builds}
 */
 export class DataCrowdstrikeSensorUpdatePolicyBuilds extends cdktf.TerraformDataSource {
 
@@ -1506,7 +1506,7 @@ export class DataCrowdstrikeSensorUpdatePolicyBuilds extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataCrowdstrikeSensorUpdatePolicyBuilds resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCrowdstrikeSensorUpdatePolicyBuilds to import
-  * @param importFromId The id of the existing DataCrowdstrikeSensorUpdatePolicyBuilds that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/data-sources/sensor_update_policy_builds#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCrowdstrikeSensorUpdatePolicyBuilds that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/sensor_update_policy_builds#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCrowdstrikeSensorUpdatePolicyBuilds to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1518,7 +1518,7 @@ export class DataCrowdstrikeSensorUpdatePolicyBuilds extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/data-sources/sensor_update_policy_builds crowdstrike_sensor_update_policy_builds} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/sensor_update_policy_builds crowdstrike_sensor_update_policy_builds} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1529,8 +1529,8 @@ export class DataCrowdstrikeSensorUpdatePolicyBuilds extends cdktf.TerraformData
       terraformResourceType: 'crowdstrike_sensor_update_policy_builds',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.47',
-        providerVersionConstraint: '0.0.47'
+        providerVersion: '0.0.48',
+        providerVersionConstraint: '0.0.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

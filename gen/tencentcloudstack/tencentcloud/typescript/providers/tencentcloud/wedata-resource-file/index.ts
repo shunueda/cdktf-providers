@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface WedataResourceFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * cos bucket name, which can be obtained from the GetResourceCosPath interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file#bucket_name WedataResourceFile#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file#bucket_name WedataResourceFile#bucket_name}
   */
   readonly bucketName: string;
   /**
   * bundle client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file#bundle_id WedataResourceFile#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file#bundle_id WedataResourceFile#bundle_id}
   */
   readonly bundleId?: string;
   /**
   * bundle client information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file#bundle_info WedataResourceFile#bundle_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file#bundle_info WedataResourceFile#bundle_info}
   */
   readonly bundleInfo?: string;
   /**
   * The cos bucket area corresponding to the BucketName bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file#cos_region WedataResourceFile#cos_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file#cos_region WedataResourceFile#cos_region}
   */
   readonly cosRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file#id WedataResourceFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file#id WedataResourceFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface WedataResourceFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The path to upload resource files in the project, example value: /wedata/qxxxm/, root directory, please use/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file#parent_folder_path WedataResourceFile#parent_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file#parent_folder_path WedataResourceFile#parent_folder_path}
   */
   readonly parentFolderPath: string;
   /**
   * Project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file#project_id WedataResourceFile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file#project_id WedataResourceFile#project_id}
   */
   readonly projectId: string;
   /**
@@ -55,19 +55,19 @@ export interface WedataResourceFileConfig extends cdktf.TerraformMetaArguments {
   * -the manual filling value must be the existing cos path, /datastudio/resource/is a fixed prefix, projectId is the project ID, and a specific value needs to be passed in, parentFolderPath is the parent folder path, name is the file name, and examples of manual filling value values are: /datastudio/resource/projectId/parentFolderPath/name 
   * .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file#resource_file WedataResourceFile#resource_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file#resource_file WedataResourceFile#resource_file}
   */
   readonly resourceFile: string;
   /**
   * The resource file name should be consistent with the uploaded file name as much as possible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file#resource_name WedataResourceFile#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file#resource_name WedataResourceFile#resource_name}
   */
   readonly resourceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file tencentcloud_wedata_resource_file}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file tencentcloud_wedata_resource_file}
 */
 export class WedataResourceFile extends cdktf.TerraformResource {
 
@@ -83,7 +83,7 @@ export class WedataResourceFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataResourceFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataResourceFile to import
-  * @param importFromId The id of the existing WedataResourceFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataResourceFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataResourceFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -95,7 +95,7 @@ export class WedataResourceFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_resource_file tencentcloud_wedata_resource_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_resource_file tencentcloud_wedata_resource_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -106,8 +106,8 @@ export class WedataResourceFile extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_resource_file',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

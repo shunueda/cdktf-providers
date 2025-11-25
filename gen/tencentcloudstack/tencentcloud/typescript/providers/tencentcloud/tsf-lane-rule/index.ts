@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TsfLaneRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * open state, true/false, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#enable TsfLaneRule#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#enable TsfLaneRule#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#id TsfLaneRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#id TsfLaneRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface TsfLaneRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * lane ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#lane_id TsfLaneRule#lane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#lane_id TsfLaneRule#lane_id}
   */
   readonly laneId: string;
   /**
   * Program id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#program_id_list TsfLaneRule#program_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#program_id_list TsfLaneRule#program_id_list}
   */
   readonly programIdList?: string[];
   /**
   * Lane rule notes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#remark TsfLaneRule#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#remark TsfLaneRule#remark}
   */
   readonly remark: string;
   /**
   * lane rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#rule_name TsfLaneRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#rule_name TsfLaneRule#rule_name}
   */
   readonly ruleName: string;
   /**
   * lane rule label relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#rule_tag_relationship TsfLaneRule#rule_tag_relationship}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#rule_tag_relationship TsfLaneRule#rule_tag_relationship}
   */
   readonly ruleTagRelationship: string;
   /**
   * rule_tag_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#rule_tag_list TsfLaneRule#rule_tag_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#rule_tag_list TsfLaneRule#rule_tag_list}
   */
   readonly ruleTagList: TsfLaneRuleRuleTagListStruct[] | cdktf.IResolvable;
 }
@@ -61,43 +61,43 @@ export interface TsfLaneRuleRuleTagListStruct {
   /**
   * creation time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#create_time TsfLaneRule#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#create_time TsfLaneRule#create_time}
   */
   readonly createTime?: number;
   /**
   * lane rule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#lane_rule_id TsfLaneRule#lane_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#lane_rule_id TsfLaneRule#lane_rule_id}
   */
   readonly laneRuleId?: string;
   /**
   * label ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#tag_id TsfLaneRule#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#tag_id TsfLaneRule#tag_id}
   */
   readonly tagId?: string;
   /**
   * label name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#tag_name TsfLaneRule#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#tag_name TsfLaneRule#tag_name}
   */
   readonly tagName: string;
   /**
   * label operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#tag_operator TsfLaneRule#tag_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#tag_operator TsfLaneRule#tag_operator}
   */
   readonly tagOperator: string;
   /**
   * tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#tag_value TsfLaneRule#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#tag_value TsfLaneRule#tag_value}
   */
   readonly tagValue: string;
   /**
   * update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#update_time TsfLaneRule#update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#update_time TsfLaneRule#update_time}
   */
   readonly updateTime?: number;
 }
@@ -378,7 +378,7 @@ export class TsfLaneRuleRuleTagListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule tencentcloud_tsf_lane_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule tencentcloud_tsf_lane_rule}
 */
 export class TsfLaneRule extends cdktf.TerraformResource {
 
@@ -394,7 +394,7 @@ export class TsfLaneRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfLaneRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfLaneRule to import
-  * @param importFromId The id of the existing TsfLaneRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfLaneRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfLaneRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -406,7 +406,7 @@ export class TsfLaneRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_lane_rule tencentcloud_tsf_lane_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_lane_rule tencentcloud_tsf_lane_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -417,8 +417,8 @@ export class TsfLaneRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_lane_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

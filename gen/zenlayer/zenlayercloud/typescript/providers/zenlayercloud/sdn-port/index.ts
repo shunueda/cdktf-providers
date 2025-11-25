@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/sdn_port
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/sdn_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SdnPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Your business entity name. The entity name to be used on the Letter of Authorization (LOA).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/sdn_port#business_entity_name SdnPort#business_entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/sdn_port#business_entity_name SdnPort#business_entity_name}
   */
   readonly businessEntityName: string;
   /**
   * ID of data center.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/sdn_port#datacenter SdnPort#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/sdn_port#datacenter SdnPort#datacenter}
   */
   readonly datacenter: string;
   /**
   * Indicate whether to force delete the port. Default is `false`. If set true, the port will be permanently deleted instead of being moved into the recycle bin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/sdn_port#force_delete SdnPort#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/sdn_port#force_delete SdnPort#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/sdn_port#id SdnPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/sdn_port#id SdnPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface SdnPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Port name. Up to 255 characters in length are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/sdn_port#name SdnPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/sdn_port#name SdnPort#name}
   */
   readonly name?: string;
   /**
   * Type of port. eg. 1G/10G/40G.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/sdn_port#port_type SdnPort#port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/sdn_port#port_type SdnPort#port_type}
   */
   readonly portType: string;
   /**
   * Description of port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/sdn_port#remarks SdnPort#remarks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/sdn_port#remarks SdnPort#remarks}
   */
   readonly remarks?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/sdn_port zenlayercloud_sdn_port}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/sdn_port zenlayercloud_sdn_port}
 */
 export class SdnPort extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class SdnPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SdnPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SdnPort to import
-  * @param importFromId The id of the existing SdnPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/sdn_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SdnPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/sdn_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SdnPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class SdnPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/sdn_port zenlayercloud_sdn_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/sdn_port zenlayercloud_sdn_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class SdnPort extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_sdn_port',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.9',
-        providerVersionConstraint: '0.2.9'
+        providerVersion: '0.2.10',
+        providerVersionConstraint: '0.2.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

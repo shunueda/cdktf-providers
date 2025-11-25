@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface KubernetesNodeGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * A list of allowed unsafe `sysctl` parameters for this node group. For more details see [documentation](https://kubernetes.io/docs/tasks/administer-cluster/sysctl-cluster).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#allowed_unsafe_sysctls KubernetesNodeGroup#allowed_unsafe_sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#allowed_unsafe_sysctls KubernetesNodeGroup#allowed_unsafe_sysctls}
   */
   readonly allowedUnsafeSysctls?: string[];
   /**
   * The ID of the Kubernetes cluster that this node group belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#cluster_id KubernetesNodeGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#cluster_id KubernetesNodeGroup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#description KubernetesNodeGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#description KubernetesNodeGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#id KubernetesNodeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#id KubernetesNodeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface KubernetesNodeGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#labels KubernetesNodeGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#labels KubernetesNodeGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#name KubernetesNodeGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#name KubernetesNodeGroup#name}
   */
   readonly name?: string;
   /**
   * A set of key/value label pairs, that are assigned to all the nodes of this Kubernetes node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#node_labels KubernetesNodeGroup#node_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#node_labels KubernetesNodeGroup#node_labels}
   */
   readonly nodeLabels?: { [key: string]: string };
   /**
   * A list of Kubernetes taints, that are applied to all the nodes of this Kubernetes node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#node_taints KubernetesNodeGroup#node_taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#node_taints KubernetesNodeGroup#node_taints}
   */
   readonly nodeTaints?: string[];
   /**
   * Version of Kubernetes that will be used for Kubernetes node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#version KubernetesNodeGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#version KubernetesNodeGroup#version}
   */
   readonly version?: string;
   /**
   * allocation_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#allocation_policy KubernetesNodeGroup#allocation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#allocation_policy KubernetesNodeGroup#allocation_policy}
   */
   readonly allocationPolicy?: KubernetesNodeGroupAllocationPolicy;
   /**
   * deploy_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#deploy_policy KubernetesNodeGroup#deploy_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#deploy_policy KubernetesNodeGroup#deploy_policy}
   */
   readonly deployPolicy?: KubernetesNodeGroupDeployPolicy;
   /**
   * instance_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#instance_template KubernetesNodeGroup#instance_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#instance_template KubernetesNodeGroup#instance_template}
   */
   readonly instanceTemplate: KubernetesNodeGroupInstanceTemplate;
   /**
   * maintenance_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#maintenance_policy KubernetesNodeGroup#maintenance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#maintenance_policy KubernetesNodeGroup#maintenance_policy}
   */
   readonly maintenancePolicy?: KubernetesNodeGroupMaintenancePolicy;
   /**
   * scale_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#scale_policy KubernetesNodeGroup#scale_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#scale_policy KubernetesNodeGroup#scale_policy}
   */
   readonly scalePolicy: KubernetesNodeGroupScalePolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#timeouts KubernetesNodeGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#timeouts KubernetesNodeGroup#timeouts}
   */
   readonly timeouts?: KubernetesNodeGroupTimeouts;
 }
@@ -193,13 +193,13 @@ export interface KubernetesNodeGroupAllocationPolicyLocation {
   /**
   * ID of the subnet, that will be used by one compute instance in node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#subnet_id KubernetesNodeGroup#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#subnet_id KubernetesNodeGroup#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * ID of the availability zone where for one compute instance in node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#zone KubernetesNodeGroup#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#zone KubernetesNodeGroup#zone}
   */
   readonly zone?: string;
 }
@@ -346,7 +346,7 @@ export interface KubernetesNodeGroupAllocationPolicy {
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#location KubernetesNodeGroup#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#location KubernetesNodeGroup#location}
   */
   readonly location?: KubernetesNodeGroupAllocationPolicyLocation[] | cdktf.IResolvable;
 }
@@ -432,13 +432,13 @@ export interface KubernetesNodeGroupDeployPolicy {
   /**
   * The maximum number of instances that can be temporarily allocated above the group's target size during the update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#max_expansion KubernetesNodeGroup#max_expansion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#max_expansion KubernetesNodeGroup#max_expansion}
   */
   readonly maxExpansion: number;
   /**
   * The maximum number of running instances that can be taken offline during update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#max_unavailable KubernetesNodeGroup#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#max_unavailable KubernetesNodeGroup#max_unavailable}
   */
   readonly maxUnavailable: number;
 }
@@ -547,13 +547,13 @@ export interface KubernetesNodeGroupInstanceTemplateBootDisk {
   /**
   * The size of the disk in GB. Allowed minimal size: 64 GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#size KubernetesNodeGroup#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#size KubernetesNodeGroup#size}
   */
   readonly size?: number;
   /**
   * The disk type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#type KubernetesNodeGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#type KubernetesNodeGroup#type}
   */
   readonly type?: string;
 }
@@ -668,7 +668,7 @@ export interface KubernetesNodeGroupInstanceTemplateContainerNetwork {
   /**
   * MTU for pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#pod_mtu KubernetesNodeGroup#pod_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#pod_mtu KubernetesNodeGroup#pod_mtu}
   */
   readonly podMtu?: number;
 }
@@ -754,7 +754,7 @@ export interface KubernetesNodeGroupInstanceTemplateContainerRuntime {
   /**
   * Type of container runtime. Values: `docker`, `containerd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#type KubernetesNodeGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#type KubernetesNodeGroup#type}
   */
   readonly type: string;
 }
@@ -837,13 +837,13 @@ export interface KubernetesNodeGroupInstanceTemplateGpuSettings {
   /**
   * GPU cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#gpu_cluster_id KubernetesNodeGroup#gpu_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#gpu_cluster_id KubernetesNodeGroup#gpu_cluster_id}
   */
   readonly gpuClusterId?: string;
   /**
   * GPU environment. Values: `runc`, `runc_drivers_cuda`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#gpu_environment KubernetesNodeGroup#gpu_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#gpu_environment KubernetesNodeGroup#gpu_environment}
   */
   readonly gpuEnvironment?: string;
 }
@@ -958,25 +958,25 @@ export interface KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecor
   /**
   * DNS zone ID (if not set, private zone is used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#dns_zone_id KubernetesNodeGroup#dns_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#dns_zone_id KubernetesNodeGroup#dns_zone_id}
   */
   readonly dnsZoneId?: string;
   /**
   * DNS record FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#fqdn KubernetesNodeGroup#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#fqdn KubernetesNodeGroup#fqdn}
   */
   readonly fqdn: string;
   /**
   * When set to `true`, also create a PTR DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#ptr KubernetesNodeGroup#ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#ptr KubernetesNodeGroup#ptr}
   */
   readonly ptr?: boolean | cdktf.IResolvable;
   /**
   * DNS record TTL (in seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#ttl KubernetesNodeGroup#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#ttl KubernetesNodeGroup#ttl}
   */
   readonly ttl?: number;
 }
@@ -1178,25 +1178,25 @@ export interface KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecor
   /**
   * DNS zone ID (if not set, private zone is used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#dns_zone_id KubernetesNodeGroup#dns_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#dns_zone_id KubernetesNodeGroup#dns_zone_id}
   */
   readonly dnsZoneId?: string;
   /**
   * DNS record FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#fqdn KubernetesNodeGroup#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#fqdn KubernetesNodeGroup#fqdn}
   */
   readonly fqdn: string;
   /**
   * When set to `true`, also create a PTR DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#ptr KubernetesNodeGroup#ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#ptr KubernetesNodeGroup#ptr}
   */
   readonly ptr?: boolean | cdktf.IResolvable;
   /**
   * DNS record TTL (in seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#ttl KubernetesNodeGroup#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#ttl KubernetesNodeGroup#ttl}
   */
   readonly ttl?: number;
 }
@@ -1398,43 +1398,43 @@ export interface KubernetesNodeGroupInstanceTemplateNetworkInterface {
   /**
   * Allocate an IPv4 address for the interface. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#ipv4 KubernetesNodeGroup#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#ipv4 KubernetesNodeGroup#ipv4}
   */
   readonly ipv4?: boolean | cdktf.IResolvable;
   /**
   * If true, allocate an IPv6 address for the interface. The address will be automatically assigned from the specified subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#ipv6 KubernetesNodeGroup#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#ipv6 KubernetesNodeGroup#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * A public address that can be used to access the internet over NAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#nat KubernetesNodeGroup#nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#nat KubernetesNodeGroup#nat}
   */
   readonly nat?: boolean | cdktf.IResolvable;
   /**
   * Security group IDs for network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#security_group_ids KubernetesNodeGroup#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#security_group_ids KubernetesNodeGroup#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The IDs of the subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#subnet_ids KubernetesNodeGroup#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#subnet_ids KubernetesNodeGroup#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * ipv4_dns_records block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#ipv4_dns_records KubernetesNodeGroup#ipv4_dns_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#ipv4_dns_records KubernetesNodeGroup#ipv4_dns_records}
   */
   readonly ipv4DnsRecords?: KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv4DnsRecords[] | cdktf.IResolvable;
   /**
   * ipv6_dns_records block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#ipv6_dns_records KubernetesNodeGroup#ipv6_dns_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#ipv6_dns_records KubernetesNodeGroup#ipv6_dns_records}
   */
   readonly ipv6DnsRecords?: KubernetesNodeGroupInstanceTemplateNetworkInterfaceIpv6DnsRecords[] | cdktf.IResolvable;
 }
@@ -1723,7 +1723,7 @@ export interface KubernetesNodeGroupInstanceTemplatePlacementPolicy {
   /**
   * Specifies the id of the Placement Group to assign to the instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#placement_group_id KubernetesNodeGroup#placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#placement_group_id KubernetesNodeGroup#placement_group_id}
   */
   readonly placementGroupId: string;
 }
@@ -1806,25 +1806,25 @@ export interface KubernetesNodeGroupInstanceTemplateResources {
   /**
   * Baseline core performance as a percent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#core_fraction KubernetesNodeGroup#core_fraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#core_fraction KubernetesNodeGroup#core_fraction}
   */
   readonly coreFraction?: number;
   /**
   * Number of CPU cores allocated to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#cores KubernetesNodeGroup#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#cores KubernetesNodeGroup#cores}
   */
   readonly cores?: number;
   /**
   * Number of GPU cores allocated to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#gpus KubernetesNodeGroup#gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#gpus KubernetesNodeGroup#gpus}
   */
   readonly gpus?: number;
   /**
   * The memory size allocated to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#memory KubernetesNodeGroup#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#memory KubernetesNodeGroup#memory}
   */
   readonly memory?: number;
 }
@@ -1997,7 +1997,7 @@ export interface KubernetesNodeGroupInstanceTemplateSchedulingPolicy {
   /**
   * Specifies if the instance is preemptible. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#preemptible KubernetesNodeGroup#preemptible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#preemptible KubernetesNodeGroup#preemptible}
   */
   readonly preemptible?: boolean | cdktf.IResolvable;
 }
@@ -2083,13 +2083,13 @@ export interface KubernetesNodeGroupInstanceTemplate {
   /**
   * Labels that will be assigned to compute nodes (instances), created by the Node Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#labels KubernetesNodeGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#labels KubernetesNodeGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The set of metadata `key:value` pairs assigned to this instance template. This includes custom metadata and predefined keys. **Note**: key `user-data` won't be provided into instances. It reserved for internal activity in `kubernetes_node_group` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#metadata KubernetesNodeGroup#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#metadata KubernetesNodeGroup#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
@@ -2101,73 +2101,73 @@ export interface KubernetesNodeGroupInstanceTemplate {
   * Example: `my-instance-{instance.index}`.
   * If not set, default is used: `{instance_group.id}-{instance.short_id}`. It may also contain another placeholders, see [Compute Instance group metadata doc](https://yandex.cloud/docs/compute/instancegroup/api-ref/grpc/InstanceGroup) for full list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#name KubernetesNodeGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#name KubernetesNodeGroup#name}
   */
   readonly name?: string;
   /**
   * Enables NAT for node group compute instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#nat KubernetesNodeGroup#nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#nat KubernetesNodeGroup#nat}
   */
   readonly nat?: boolean | cdktf.IResolvable;
   /**
   * Type of network acceleration. Values: `standard`, `software_accelerated`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#network_acceleration_type KubernetesNodeGroup#network_acceleration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#network_acceleration_type KubernetesNodeGroup#network_acceleration_type}
   */
   readonly networkAccelerationType?: string;
   /**
   * The ID of the hardware platform configuration for the node group compute instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#platform_id KubernetesNodeGroup#platform_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#platform_id KubernetesNodeGroup#platform_id}
   */
   readonly platformId?: string;
   /**
   * boot_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#boot_disk KubernetesNodeGroup#boot_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#boot_disk KubernetesNodeGroup#boot_disk}
   */
   readonly bootDisk?: KubernetesNodeGroupInstanceTemplateBootDisk;
   /**
   * container_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#container_network KubernetesNodeGroup#container_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#container_network KubernetesNodeGroup#container_network}
   */
   readonly containerNetwork?: KubernetesNodeGroupInstanceTemplateContainerNetwork;
   /**
   * container_runtime block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#container_runtime KubernetesNodeGroup#container_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#container_runtime KubernetesNodeGroup#container_runtime}
   */
   readonly containerRuntime?: KubernetesNodeGroupInstanceTemplateContainerRuntime;
   /**
   * gpu_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#gpu_settings KubernetesNodeGroup#gpu_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#gpu_settings KubernetesNodeGroup#gpu_settings}
   */
   readonly gpuSettings?: KubernetesNodeGroupInstanceTemplateGpuSettings;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#network_interface KubernetesNodeGroup#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#network_interface KubernetesNodeGroup#network_interface}
   */
   readonly networkInterface?: KubernetesNodeGroupInstanceTemplateNetworkInterface[] | cdktf.IResolvable;
   /**
   * placement_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#placement_policy KubernetesNodeGroup#placement_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#placement_policy KubernetesNodeGroup#placement_policy}
   */
   readonly placementPolicy?: KubernetesNodeGroupInstanceTemplatePlacementPolicy;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#resources KubernetesNodeGroup#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#resources KubernetesNodeGroup#resources}
   */
   readonly resources?: KubernetesNodeGroupInstanceTemplateResources;
   /**
   * scheduling_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#scheduling_policy KubernetesNodeGroup#scheduling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#scheduling_policy KubernetesNodeGroup#scheduling_policy}
   */
   readonly schedulingPolicy?: KubernetesNodeGroupInstanceTemplateSchedulingPolicy;
 }
@@ -2628,15 +2628,15 @@ export class KubernetesNodeGroupInstanceTemplateOutputReference extends cdktf.Co
 }
 export interface KubernetesNodeGroupMaintenancePolicyMaintenanceWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#day KubernetesNodeGroup#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#day KubernetesNodeGroup#day}
   */
   readonly day?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#duration KubernetesNodeGroup#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#duration KubernetesNodeGroup#duration}
   */
   readonly duration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#start_time KubernetesNodeGroup#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#start_time KubernetesNodeGroup#start_time}
   */
   readonly startTime: string;
 }
@@ -2806,19 +2806,19 @@ export interface KubernetesNodeGroupMaintenancePolicy {
   /**
   * Flag that specifies if node group can be repaired automatically. When omitted, default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#auto_repair KubernetesNodeGroup#auto_repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#auto_repair KubernetesNodeGroup#auto_repair}
   */
   readonly autoRepair: boolean | cdktf.IResolvable;
   /**
   * Flag specifies if node group can be upgraded automatically. When omitted, default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#auto_upgrade KubernetesNodeGroup#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#auto_upgrade KubernetesNodeGroup#auto_upgrade}
   */
   readonly autoUpgrade: boolean | cdktf.IResolvable;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#maintenance_window KubernetesNodeGroup#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#maintenance_window KubernetesNodeGroup#maintenance_window}
   */
   readonly maintenanceWindow?: KubernetesNodeGroupMaintenancePolicyMaintenanceWindow[] | cdktf.IResolvable;
 }
@@ -2956,19 +2956,19 @@ export interface KubernetesNodeGroupScalePolicyAutoScale {
   /**
   * Initial number of instances in the node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#initial KubernetesNodeGroup#initial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#initial KubernetesNodeGroup#initial}
   */
   readonly initial: number;
   /**
   * Maximum number of instances in the node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#max KubernetesNodeGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#max KubernetesNodeGroup#max}
   */
   readonly max: number;
   /**
   * Minimum number of instances in the node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#min KubernetesNodeGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#min KubernetesNodeGroup#min}
   */
   readonly min: number;
 }
@@ -3103,7 +3103,7 @@ export interface KubernetesNodeGroupScalePolicyFixedScale {
   /**
   * The number of instances in the node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#size KubernetesNodeGroup#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#size KubernetesNodeGroup#size}
   */
   readonly size?: number;
 }
@@ -3189,13 +3189,13 @@ export interface KubernetesNodeGroupScalePolicy {
   /**
   * auto_scale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#auto_scale KubernetesNodeGroup#auto_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#auto_scale KubernetesNodeGroup#auto_scale}
   */
   readonly autoScale?: KubernetesNodeGroupScalePolicyAutoScale;
   /**
   * fixed_scale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#fixed_scale KubernetesNodeGroup#fixed_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#fixed_scale KubernetesNodeGroup#fixed_scale}
   */
   readonly fixedScale?: KubernetesNodeGroupScalePolicyFixedScale;
 }
@@ -3308,19 +3308,19 @@ export class KubernetesNodeGroupScalePolicyOutputReference extends cdktf.Complex
 }
 export interface KubernetesNodeGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#create KubernetesNodeGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#create KubernetesNodeGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#delete KubernetesNodeGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#delete KubernetesNodeGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#read KubernetesNodeGroup#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#read KubernetesNodeGroup#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#update KubernetesNodeGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#update KubernetesNodeGroup#update}
   */
   readonly update?: string;
 }
@@ -3501,7 +3501,7 @@ export class KubernetesNodeGroupTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group yandex_kubernetes_node_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group yandex_kubernetes_node_group}
 */
 export class KubernetesNodeGroup extends cdktf.TerraformResource {
 
@@ -3517,7 +3517,7 @@ export class KubernetesNodeGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesNodeGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesNodeGroup to import
-  * @param importFromId The id of the existing KubernetesNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesNodeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3529,7 +3529,7 @@ export class KubernetesNodeGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_node_group yandex_kubernetes_node_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kubernetes_node_group yandex_kubernetes_node_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3540,8 +3540,8 @@ export class KubernetesNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_kubernetes_node_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

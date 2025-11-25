@@ -34,7 +34,10 @@ Object.defineProperty(exports, 'dataCrowdstrikeCloudAwsAccount', { get: function
 Object.defineProperty(exports, 'dataCrowdstrikeCloudComplianceFrameworkControls', { get: function () { return require('./data-crowdstrike-cloud-compliance-framework-controls'); } });
 Object.defineProperty(exports, 'dataCrowdstrikeCloudSecurityRules', { get: function () { return require('./data-crowdstrike-cloud-security-rules'); } });
 Object.defineProperty(exports, 'dataCrowdstrikeContentCategoryVersions', { get: function () { return require('./data-crowdstrike-content-category-versions'); } });
+Object.defineProperty(exports, 'dataCrowdstrikeContentUpdatePolicies', { get: function () { return require('./data-crowdstrike-content-update-policies'); } });
+Object.defineProperty(exports, 'dataCrowdstrikeFilevantagePolicies', { get: function () { return require('./data-crowdstrike-filevantage-policies'); } });
 Object.defineProperty(exports, 'dataCrowdstrikePreventionPolicies', { get: function () { return require('./data-crowdstrike-prevention-policies'); } });
+Object.defineProperty(exports, 'dataCrowdstrikeSensorUpdatePolicies', { get: function () { return require('./data-crowdstrike-sensor-update-policies'); } });
 Object.defineProperty(exports, 'dataCrowdstrikeSensorUpdatePolicyBuilds', { get: function () { return require('./data-crowdstrike-sensor-update-policy-builds'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

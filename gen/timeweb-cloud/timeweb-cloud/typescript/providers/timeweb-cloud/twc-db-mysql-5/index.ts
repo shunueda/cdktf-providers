@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TwcDbMysql5Config extends cdktf.TerraformMetaArguments {
   /**
   * Interval between indices between rows for `AUTO_INCREMENT` columns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#auto_increment_increment TwcDbMysql5#auto_increment_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#auto_increment_increment TwcDbMysql5#auto_increment_increment}
   */
   readonly autoIncrementIncrement?: number;
   /**
   * Start value for `AUTO_INCREMENT` columns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#auto_increment_offset TwcDbMysql5#auto_increment_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#auto_increment_offset TwcDbMysql5#auto_increment_offset}
   */
   readonly autoIncrementOffset?: number;
   /**
   * Hash type for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#hash_type TwcDbMysql5#hash_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#hash_type TwcDbMysql5#hash_type}
   */
   readonly hashType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#id TwcDbMysql5#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#id TwcDbMysql5#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,115 +35,115 @@ export interface TwcDbMysql5Config extends cdktf.TerraformMetaArguments {
   /**
   * IOPS count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#innodb_io_capacity TwcDbMysql5#innodb_io_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#innodb_io_capacity TwcDbMysql5#innodb_io_capacity}
   */
   readonly innodbIoCapacity?: number;
   /**
   * Threads count for cleanup operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#innodb_purge_threads TwcDbMysql5#innodb_purge_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#innodb_purge_threads TwcDbMysql5#innodb_purge_threads}
   */
   readonly innodbPurgeThreads?: number;
   /**
   * Threads count for read operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#innodb_read_io_threads TwcDbMysql5#innodb_read_io_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#innodb_read_io_threads TwcDbMysql5#innodb_read_io_threads}
   */
   readonly innodbReadIoThreads?: number;
   /**
   * Maximum active threads count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#innodb_thread_concurrency TwcDbMysql5#innodb_thread_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#innodb_thread_concurrency TwcDbMysql5#innodb_thread_concurrency}
   */
   readonly innodbThreadConcurrency?: number;
   /**
   * Threads count for write operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#innodb_write_io_threads TwcDbMysql5#innodb_write_io_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#innodb_write_io_threads TwcDbMysql5#innodb_write_io_threads}
   */
   readonly innodbWriteIoThreads?: number;
   /**
   * Flag that shows allowability database only by external IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#is_external_ip TwcDbMysql5#is_external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#is_external_ip TwcDbMysql5#is_external_ip}
   */
   readonly isExternalIp?: boolean | cdktf.IResolvable;
   /**
   * Buffer size for JOIN operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#join_buffer_size TwcDbMysql5#join_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#join_buffer_size TwcDbMysql5#join_buffer_size}
   */
   readonly joinBufferSize?: number;
   /**
   * Login for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#login TwcDbMysql5#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#login TwcDbMysql5#login}
   */
   readonly login?: string;
   /**
   * Max allowed size for one packet or parameter that may be sent via `mysql_stmt_send_long_data()`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#max_allowed_packet TwcDbMysql5#max_allowed_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#max_allowed_packet TwcDbMysql5#max_allowed_packet}
   */
   readonly maxAllowedPacket?: number;
   /**
   * The maximum permitted number of simultaneous client connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#max_connections TwcDbMysql5#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#max_connections TwcDbMysql5#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * Max size for user MEMORY-tables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#max_heap_table_size TwcDbMysql5#max_heap_table_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#max_heap_table_size TwcDbMysql5#max_heap_table_size}
   */
   readonly maxHeapTableSize?: number;
   /**
   * Name for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#name TwcDbMysql5#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#name TwcDbMysql5#name}
   */
   readonly name: string;
   /**
   * Password for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#password TwcDbMysql5#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#password TwcDbMysql5#password}
   */
   readonly password: string;
   /**
   * Preset ID for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#preset_id TwcDbMysql5#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#preset_id TwcDbMysql5#preset_id}
   */
   readonly presetId: number;
   /**
   * Project ID for created DB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#project_id TwcDbMysql5#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#project_id TwcDbMysql5#project_id}
   */
   readonly projectId?: number;
   /**
   * The amount of memory allocated for caching query results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#query_cache_size TwcDbMysql5#query_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#query_cache_size TwcDbMysql5#query_cache_size}
   */
   readonly queryCacheSize?: number;
   /**
   * Set the query cache type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#query_cache_type TwcDbMysql5#query_cache_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#query_cache_type TwcDbMysql5#query_cache_type}
   */
   readonly queryCacheType?: number;
   /**
   * The current server SQL mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#sql_mode TwcDbMysql5#sql_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#sql_mode TwcDbMysql5#sql_mode}
   */
   readonly sqlMode?: string[];
   /**
   * local_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#local_network TwcDbMysql5#local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#local_network TwcDbMysql5#local_network}
   */
   readonly localNetwork?: TwcDbMysql5LocalNetwork;
 }
@@ -231,7 +231,7 @@ export interface TwcDbMysql5LocalNetwork {
   /**
   * ID of VPC for assign address from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#id TwcDbMysql5#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#id TwcDbMysql5#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -240,7 +240,7 @@ export interface TwcDbMysql5LocalNetwork {
   /**
   * Address in VPC subnetwork for manual assign
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#ip TwcDbMysql5#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#ip TwcDbMysql5#ip}
   */
   readonly ip?: string;
 }
@@ -350,7 +350,7 @@ export class TwcDbMysql5LocalNetworkOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5 twc_db_mysql_5}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5 twc_db_mysql_5}
 */
 export class TwcDbMysql5 extends cdktf.TerraformResource {
 
@@ -366,7 +366,7 @@ export class TwcDbMysql5 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcDbMysql5 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcDbMysql5 to import
-  * @param importFromId The id of the existing TwcDbMysql5 that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcDbMysql5 that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcDbMysql5 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -378,7 +378,7 @@ export class TwcDbMysql5 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_db_mysql_5 twc_db_mysql_5} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mysql_5 twc_db_mysql_5} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -389,8 +389,8 @@ export class TwcDbMysql5 extends cdktf.TerraformResource {
       terraformResourceType: 'twc_db_mysql_5',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6',
-        providerVersionConstraint: '1.6.6'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

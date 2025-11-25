@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface OrganizationmanagerIdpUserConfig extends cdktf.TerraformMetaArg
   /**
   * User's email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#email OrganizationmanagerIdpUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#email OrganizationmanagerIdpUser#email}
   */
   readonly email?: string;
   /**
   * External identifier for federation with external identity systems.
   *  This ID can be used to link this user with an account in an external system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#external_id OrganizationmanagerIdpUser#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#external_id OrganizationmanagerIdpUser#external_id}
   */
   readonly externalId?: string;
   /**
   * User's last name.
   *  Part of the user's profile information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#family_name OrganizationmanagerIdpUser#family_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#family_name OrganizationmanagerIdpUser#family_name}
   */
   readonly familyName?: string;
   /**
   * User's full name (display name).
   *  This is typically shown in the UI and used for identification purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#full_name OrganizationmanagerIdpUser#full_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#full_name OrganizationmanagerIdpUser#full_name}
   */
   readonly fullName: string;
   /**
   * User's first name.
   *  Part of the user's profile information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#given_name OrganizationmanagerIdpUser#given_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#given_name OrganizationmanagerIdpUser#given_name}
   */
   readonly givenName?: string;
   /**
   * ID of the user to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#id OrganizationmanagerIdpUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#id OrganizationmanagerIdpUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,49 +53,49 @@ export interface OrganizationmanagerIdpUserConfig extends cdktf.TerraformMetaArg
   /**
   * Whether the user is active. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#is_active OrganizationmanagerIdpUser#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#is_active OrganizationmanagerIdpUser#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Password hash. Credentials type. Exactly one of credentials type must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#password_hash OrganizationmanagerIdpUser#password_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#password_hash OrganizationmanagerIdpUser#password_hash}
   */
   readonly passwordHash?: OrganizationmanagerIdpUserPasswordHash;
   /**
   * Password specification. Credentials type. Exactly one of credentials type must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#password_spec OrganizationmanagerIdpUser#password_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#password_spec OrganizationmanagerIdpUser#password_spec}
   */
   readonly passwordSpec?: OrganizationmanagerIdpUserPasswordSpec;
   /**
   * User's phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#phone_number OrganizationmanagerIdpUser#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#phone_number OrganizationmanagerIdpUser#phone_number}
   */
   readonly phoneNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#timeouts OrganizationmanagerIdpUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#timeouts OrganizationmanagerIdpUser#timeouts}
   */
   readonly timeouts?: OrganizationmanagerIdpUserTimeouts;
   /**
   * ID of the user to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#user_id OrganizationmanagerIdpUser#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#user_id OrganizationmanagerIdpUser#user_id}
   */
   readonly userId?: string;
   /**
   * Username used for authentication.
   *  Usually in the format of an email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#username OrganizationmanagerIdpUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#username OrganizationmanagerIdpUser#username}
   */
   readonly username: string;
   /**
   * ID of the userpool this user belongs to.
   *  To get the userpool ID, make a [UserpoolService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#userpool_id OrganizationmanagerIdpUser#userpool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#userpool_id OrganizationmanagerIdpUser#userpool_id}
   */
   readonly userpoolId: string;
 }
@@ -103,13 +103,13 @@ export interface OrganizationmanagerIdpUserPasswordHash {
   /**
   * The password hash string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#password_hash OrganizationmanagerIdpUser#password_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#password_hash OrganizationmanagerIdpUser#password_hash}
   */
   readonly passwordHash: string;
   /**
   * Type of the password hash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#password_hash_type OrganizationmanagerIdpUser#password_hash_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#password_hash_type OrganizationmanagerIdpUser#password_hash_type}
   */
   readonly passwordHashType: string;
 }
@@ -228,13 +228,13 @@ export interface OrganizationmanagerIdpUserPasswordSpec {
   /**
   * Proof that the password was generated by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#generation_proof OrganizationmanagerIdpUser#generation_proof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#generation_proof OrganizationmanagerIdpUser#generation_proof}
   */
   readonly generationProof?: string;
   /**
   * The password string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#password OrganizationmanagerIdpUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#password OrganizationmanagerIdpUser#password}
   */
   readonly password: string;
 }
@@ -356,25 +356,25 @@ export interface OrganizationmanagerIdpUserTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#create OrganizationmanagerIdpUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#create OrganizationmanagerIdpUser#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#delete OrganizationmanagerIdpUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#delete OrganizationmanagerIdpUser#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#read OrganizationmanagerIdpUser#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#read OrganizationmanagerIdpUser#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#update OrganizationmanagerIdpUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#update OrganizationmanagerIdpUser#update}
   */
   readonly update?: string;
 }
@@ -555,7 +555,7 @@ export class OrganizationmanagerIdpUserTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user yandex_organizationmanager_idp_user}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user yandex_organizationmanager_idp_user}
 */
 export class OrganizationmanagerIdpUser extends cdktf.TerraformResource {
 
@@ -571,7 +571,7 @@ export class OrganizationmanagerIdpUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationmanagerIdpUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationmanagerIdpUser to import
-  * @param importFromId The id of the existing OrganizationmanagerIdpUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationmanagerIdpUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationmanagerIdpUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -583,7 +583,7 @@ export class OrganizationmanagerIdpUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_user yandex_organizationmanager_idp_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_idp_user yandex_organizationmanager_idp_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -594,8 +594,8 @@ export class OrganizationmanagerIdpUser extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_organizationmanager_idp_user',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

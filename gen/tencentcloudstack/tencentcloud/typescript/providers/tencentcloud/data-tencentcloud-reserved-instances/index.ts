@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/reserved_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/reserved_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudReservedInstancesConfig extends cdktf.Terraform
   /**
   * The available zone that the reserved instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/reserved_instances#availability_zone DataTencentcloudReservedInstances#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/reserved_instances#availability_zone DataTencentcloudReservedInstances#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/reserved_instances#id DataTencentcloudReservedInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/reserved_instances#id DataTencentcloudReservedInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudReservedInstancesConfig extends cdktf.Terraform
   /**
   * The type of reserved instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/reserved_instances#instance_type DataTencentcloudReservedInstances#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/reserved_instances#instance_type DataTencentcloudReservedInstances#instance_type}
   */
   readonly instanceType?: string;
   /**
   * ID of the reserved instance to be query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/reserved_instances#reserved_instance_id DataTencentcloudReservedInstances#reserved_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/reserved_instances#reserved_instance_id DataTencentcloudReservedInstances#reserved_instance_id}
   */
   readonly reservedInstanceId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/reserved_instances#result_output_file DataTencentcloudReservedInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/reserved_instances#result_output_file DataTencentcloudReservedInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -146,7 +146,7 @@ export class DataTencentcloudReservedInstancesReservedInstanceListStructList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/reserved_instances tencentcloud_reserved_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/reserved_instances tencentcloud_reserved_instances}
 */
 export class DataTencentcloudReservedInstances extends cdktf.TerraformDataSource {
 
@@ -162,7 +162,7 @@ export class DataTencentcloudReservedInstances extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudReservedInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudReservedInstances to import
-  * @param importFromId The id of the existing DataTencentcloudReservedInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/reserved_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudReservedInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/reserved_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudReservedInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class DataTencentcloudReservedInstances extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/reserved_instances tencentcloud_reserved_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/reserved_instances tencentcloud_reserved_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class DataTencentcloudReservedInstances extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_reserved_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

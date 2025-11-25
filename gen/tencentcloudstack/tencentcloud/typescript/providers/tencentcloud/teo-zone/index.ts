@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_zone
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface TeoZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alias site identifier. Limit the input to a combination of numbers, English, - and _, within 20 characters. For details, refer to the alias site identifier. If there is no such usage scenario, leave this field empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_zone#alias_zone_name TeoZone#alias_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone#alias_zone_name TeoZone#alias_zone_name}
   */
   readonly aliasZoneName?: string;
   /**
@@ -19,11 +19,11 @@ export interface TeoZoneConfig extends cdktf.TerraformMetaArguments {
   *   - mainland: Chinese mainland availability zone.
   *   - overseas: Global availability zone (excluding Chinese mainland).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_zone#area TeoZone#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone#area TeoZone#area}
   */
   readonly area: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_zone#id TeoZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone#id TeoZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,31 +32,31 @@ export interface TeoZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether the site is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_zone#paused TeoZone#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone#paused TeoZone#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * The target Plan ID to be bound. When you have an existing Plan in your account, you can fill in this parameter to directly bind the site to the Plan. If you do not have a Plan that can be bound at the moment, please go to the console to purchase a Plan to complete the site creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_zone#plan_id TeoZone#plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone#plan_id TeoZone#plan_id}
   */
   readonly planId: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_zone#tags TeoZone#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone#tags TeoZone#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Site access type. The value of this parameter is as follows, and the default is partial if not filled in:partial: CNAME access; full: NS access; noDomainAccess: No domain access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_zone#type TeoZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone#type TeoZone#type}
   */
   readonly type: string;
   /**
   * Site name. When accessing CNAME/NS, please pass the second-level domain (example.com) as the site name; when accessing without a domain name, please leave this value empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_zone#zone_name TeoZone#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone#zone_name TeoZone#zone_name}
   */
   readonly zoneName: string;
 }
@@ -223,7 +223,7 @@ export class TeoZoneOwnershipVerificationList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_zone tencentcloud_teo_zone}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone tencentcloud_teo_zone}
 */
 export class TeoZone extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class TeoZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoZone to import
-  * @param importFromId The id of the existing TeoZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class TeoZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_zone tencentcloud_teo_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone tencentcloud_teo_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class TeoZone extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_zone',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

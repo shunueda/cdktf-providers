@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTwcK8SPresetConfig extends cdktf.TerraformMetaArguments {
   /**
   * CPU count of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset#cpu DataTwcK8SPreset#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset#cpu DataTwcK8SPreset#cpu}
   */
   readonly cpu?: number;
   /**
   * Short description of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset#description_short DataTwcK8SPreset#description_short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset#description_short DataTwcK8SPreset#description_short}
   */
   readonly descriptionShort?: string;
   /**
   * Disk size of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset#disk DataTwcK8SPreset#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset#disk DataTwcK8SPreset#disk}
   */
   readonly disk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset#id DataTwcK8SPreset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset#id DataTwcK8SPreset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DataTwcK8SPresetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Location for k8s preset (`ru-1`, `ru-3`, `nl-1`). Master and worker should be in one location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset#location DataTwcK8SPreset#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset#location DataTwcK8SPreset#location}
   */
   readonly location?: string;
   /**
   * Network bandwidth capacity of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset#network DataTwcK8SPreset#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset#network DataTwcK8SPreset#network}
   */
   readonly network?: number;
   /**
   * RAM size of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset#ram DataTwcK8SPreset#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset#ram DataTwcK8SPreset#ram}
   */
   readonly ram?: number;
   /**
   * Node type for preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset#type DataTwcK8SPreset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset#type DataTwcK8SPreset#type}
   */
   readonly type?: string;
   /**
   * price_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset#price_filter DataTwcK8SPreset#price_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset#price_filter DataTwcK8SPreset#price_filter}
   */
   readonly priceFilter?: DataTwcK8SPresetPriceFilter;
 }
@@ -67,13 +67,13 @@ export interface DataTwcK8SPresetPriceFilter {
   /**
   * Minimum price (inclusive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset#from DataTwcK8SPreset#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset#from DataTwcK8SPreset#from}
   */
   readonly from: number;
   /**
   * Maximum price (inclusive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset#to DataTwcK8SPreset#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset#to DataTwcK8SPreset#to}
   */
   readonly to: number;
 }
@@ -180,7 +180,7 @@ export class DataTwcK8SPresetPriceFilterOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset twc_k8s_preset}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset twc_k8s_preset}
 */
 export class DataTwcK8SPreset extends cdktf.TerraformDataSource {
 
@@ -196,7 +196,7 @@ export class DataTwcK8SPreset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwcK8SPreset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwcK8SPreset to import
-  * @param importFromId The id of the existing DataTwcK8SPreset that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwcK8SPreset that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwcK8SPreset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class DataTwcK8SPreset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_k8s_preset twc_k8s_preset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_k8s_preset twc_k8s_preset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class DataTwcK8SPreset extends cdktf.TerraformDataSource {
       terraformResourceType: 'twc_k8s_preset',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6',
-        providerVersionConstraint: '1.6.6'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

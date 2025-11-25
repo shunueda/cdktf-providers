@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudEnisConfig extends cdktf.TerraformMetaArguments
   /**
   * Description of the ENI. Conflict with `ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis#description DataTencentcloudEnis#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis#description DataTencentcloudEnis#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis#id DataTencentcloudEnis#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis#id DataTencentcloudEnis#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface DataTencentcloudEnisConfig extends cdktf.TerraformMetaArguments
   /**
   * ID of the ENIs to be queried. Conflict with `vpc_id`,`subnet_id`,`instance_id`,`security_group`,`name`,`ipv4` and `tags`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis#ids DataTencentcloudEnis#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis#ids DataTencentcloudEnis#ids}
   */
   readonly ids?: string[];
   /**
   * ID of the instance which bind the ENI. Conflict with `ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis#instance_id DataTencentcloudEnis#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis#instance_id DataTencentcloudEnis#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Intranet IP of the ENI. Conflict with `ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis#ipv4 DataTencentcloudEnis#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis#ipv4 DataTencentcloudEnis#ipv4}
   */
   readonly ipv4?: string;
   /**
   * Name of the ENI to be queried. Conflict with `ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis#name DataTencentcloudEnis#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis#name DataTencentcloudEnis#name}
   */
   readonly name?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis#result_output_file DataTencentcloudEnis#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis#result_output_file DataTencentcloudEnis#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * A set of security group IDs which bind the ENI. Conflict with `ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis#security_group DataTencentcloudEnis#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis#security_group DataTencentcloudEnis#security_group}
   */
   readonly securityGroup?: string;
   /**
   * ID of the subnet within this vpc to be queried. Conflict with `ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis#subnet_id DataTencentcloudEnis#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis#subnet_id DataTencentcloudEnis#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Tags of the ENI. Conflict with `ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis#tags DataTencentcloudEnis#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis#tags DataTencentcloudEnis#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * ID of the vpc to be queried. Conflict with `ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis#vpc_id DataTencentcloudEnis#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis#vpc_id DataTencentcloudEnis#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -405,7 +405,7 @@ export class DataTencentcloudEnisEnisList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis tencentcloud_enis}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis tencentcloud_enis}
 */
 export class DataTencentcloudEnis extends cdktf.TerraformDataSource {
 
@@ -421,7 +421,7 @@ export class DataTencentcloudEnis extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudEnis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudEnis to import
-  * @param importFromId The id of the existing DataTencentcloudEnis that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudEnis that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudEnis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -433,7 +433,7 @@ export class DataTencentcloudEnis extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/enis tencentcloud_enis} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/enis tencentcloud_enis} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -444,8 +444,8 @@ export class DataTencentcloudEnis extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_enis',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `tencentcloud_ses_black_list_delete`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_ses_black_list_delete`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_black_list_delete).
+Refer to the Terraform Registry for docs: [`tencentcloud_ses_black_list_delete`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_black_list_delete).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataTwcFloatingIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Address of specified floating IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip#availability_zone DataTwcFloatingIp#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip#availability_zone DataTwcFloatingIp#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Comment of specified floating IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip#comment DataTwcFloatingIp#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip#comment DataTwcFloatingIp#comment}
   */
   readonly comment?: string;
   /**
   * Enabled DDoS Guard for specified floating IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip#ddos_guard DataTwcFloatingIp#ddos_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip#ddos_guard DataTwcFloatingIp#ddos_guard}
   */
   readonly ddosGuard?: boolean | cdktf.IResolvable;
   /**
   * ID of specified floating IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip#id DataTwcFloatingIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip#id DataTwcFloatingIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,19 +37,19 @@ export interface DataTwcFloatingIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Address of specified floating IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip#ip DataTwcFloatingIp#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip#ip DataTwcFloatingIp#ip}
   */
   readonly ip?: string;
   /**
   * PTR record in DNS zone of specified floating IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip#ptr DataTwcFloatingIp#ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip#ptr DataTwcFloatingIp#ptr}
   */
   readonly ptr?: string;
   /**
   * resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip#resource DataTwcFloatingIp#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip#resource DataTwcFloatingIp#resource}
   */
   readonly resource?: DataTwcFloatingIpResource;
 }
@@ -57,7 +57,7 @@ export interface DataTwcFloatingIpResource {
   /**
   * ID of resource that bind with floating IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip#id DataTwcFloatingIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip#id DataTwcFloatingIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ export interface DataTwcFloatingIpResource {
   /**
   * Type of resource that bind with floating IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip#type DataTwcFloatingIp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip#type DataTwcFloatingIp#type}
   */
   readonly type?: string;
 }
@@ -179,7 +179,7 @@ export class DataTwcFloatingIpResourceOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip twc_floating_ip}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip twc_floating_ip}
 */
 export class DataTwcFloatingIp extends cdktf.TerraformDataSource {
 
@@ -195,7 +195,7 @@ export class DataTwcFloatingIp extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwcFloatingIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwcFloatingIp to import
-  * @param importFromId The id of the existing DataTwcFloatingIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwcFloatingIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwcFloatingIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DataTwcFloatingIp extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/data-sources/twc_floating_ip twc_floating_ip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_floating_ip twc_floating_ip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DataTwcFloatingIp extends cdktf.TerraformDataSource {
       terraformResourceType: 'twc_floating_ip',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6',
-        providerVersionConstraint: '1.6.6'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

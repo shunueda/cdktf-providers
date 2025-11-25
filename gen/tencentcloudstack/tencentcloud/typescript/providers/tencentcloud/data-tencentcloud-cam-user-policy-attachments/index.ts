@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_user_policy_attachments
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_user_policy_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCamUserPolicyAttachmentsConfig extends cdktf.Te
   /**
   * Mode of Creation of the CAM user policy attachment. `1` means the CAM policy attachment is created by production, and the others indicate syntax strategy ways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_user_policy_attachments#create_mode DataTencentcloudCamUserPolicyAttachments#create_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_user_policy_attachments#create_mode DataTencentcloudCamUserPolicyAttachments#create_mode}
   */
   readonly createMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_user_policy_attachments#id DataTencentcloudCamUserPolicyAttachments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_user_policy_attachments#id DataTencentcloudCamUserPolicyAttachments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudCamUserPolicyAttachmentsConfig extends cdktf.Te
   /**
   * ID of CAM policy to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_user_policy_attachments#policy_id DataTencentcloudCamUserPolicyAttachments#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_user_policy_attachments#policy_id DataTencentcloudCamUserPolicyAttachments#policy_id}
   */
   readonly policyId?: string;
   /**
   * Type of the policy strategy. 'User' means customer strategy and 'QCS' means preset strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_user_policy_attachments#policy_type DataTencentcloudCamUserPolicyAttachments#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_user_policy_attachments#policy_type DataTencentcloudCamUserPolicyAttachments#policy_type}
   */
   readonly policyType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_user_policy_attachments#result_output_file DataTencentcloudCamUserPolicyAttachments#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_user_policy_attachments#result_output_file DataTencentcloudCamUserPolicyAttachments#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of the attached CAM user to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_user_policy_attachments#user_id DataTencentcloudCamUserPolicyAttachments#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_user_policy_attachments#user_id DataTencentcloudCamUserPolicyAttachments#user_id}
   */
   readonly userId?: string;
   /**
   * Name of the attached CAM user as unique key to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_user_policy_attachments#user_name DataTencentcloudCamUserPolicyAttachments#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_user_policy_attachments#user_name DataTencentcloudCamUserPolicyAttachments#user_name}
   */
   readonly userName?: string;
 }
@@ -158,7 +158,7 @@ export class DataTencentcloudCamUserPolicyAttachmentsUserPolicyAttachmentListStr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_user_policy_attachments tencentcloud_cam_user_policy_attachments}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_user_policy_attachments tencentcloud_cam_user_policy_attachments}
 */
 export class DataTencentcloudCamUserPolicyAttachments extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataTencentcloudCamUserPolicyAttachments extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudCamUserPolicyAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCamUserPolicyAttachments to import
-  * @param importFromId The id of the existing DataTencentcloudCamUserPolicyAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_user_policy_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCamUserPolicyAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_user_policy_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCamUserPolicyAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataTencentcloudCamUserPolicyAttachments extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_user_policy_attachments tencentcloud_cam_user_policy_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_user_policy_attachments tencentcloud_cam_user_policy_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataTencentcloudCamUserPolicyAttachments extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_cam_user_policy_attachments',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

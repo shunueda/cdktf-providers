@@ -1,3 +1,3 @@
 # `tencentcloud_eb_event_target`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_eb_event_target`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_event_target).
+Refer to the Terraform Registry for docs: [`tencentcloud_eb_event_target`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eb_event_target).

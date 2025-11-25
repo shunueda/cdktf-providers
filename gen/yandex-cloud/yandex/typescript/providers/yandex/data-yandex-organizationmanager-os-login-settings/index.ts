@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_os_login_settings
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_os_login_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataYandexOrganizationmanagerOsLoginSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_os_login_settings#id DataYandexOrganizationmanagerOsLoginSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_os_login_settings#id DataYandexOrganizationmanagerOsLoginSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataYandexOrganizationmanagerOsLoginSettingsConfig extends cdkt
   /**
   * ID of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_os_login_settings#organization_id DataYandexOrganizationmanagerOsLoginSettings#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_os_login_settings#organization_id DataYandexOrganizationmanagerOsLoginSettings#organization_id}
   */
   readonly organizationId?: string;
   /**
   * ssh_certificate_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_os_login_settings#ssh_certificate_settings DataYandexOrganizationmanagerOsLoginSettings#ssh_certificate_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_os_login_settings#ssh_certificate_settings DataYandexOrganizationmanagerOsLoginSettings#ssh_certificate_settings}
   */
   readonly sshCertificateSettings?: DataYandexOrganizationmanagerOsLoginSettingsSshCertificateSettings;
   /**
   * user_ssh_key_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_os_login_settings#user_ssh_key_settings DataYandexOrganizationmanagerOsLoginSettings#user_ssh_key_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_os_login_settings#user_ssh_key_settings DataYandexOrganizationmanagerOsLoginSettings#user_ssh_key_settings}
   */
   readonly userSshKeySettings?: DataYandexOrganizationmanagerOsLoginSettingsUserSshKeySettings;
 }
 export interface DataYandexOrganizationmanagerOsLoginSettingsSshCertificateSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_os_login_settings#enabled DataYandexOrganizationmanagerOsLoginSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_os_login_settings#enabled DataYandexOrganizationmanagerOsLoginSettings#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -119,11 +119,11 @@ export class DataYandexOrganizationmanagerOsLoginSettingsSshCertificateSettingsO
 }
 export interface DataYandexOrganizationmanagerOsLoginSettingsUserSshKeySettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_os_login_settings#allow_manage_own_keys DataYandexOrganizationmanagerOsLoginSettings#allow_manage_own_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_os_login_settings#allow_manage_own_keys DataYandexOrganizationmanagerOsLoginSettings#allow_manage_own_keys}
   */
   readonly allowManageOwnKeys?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_os_login_settings#enabled DataYandexOrganizationmanagerOsLoginSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_os_login_settings#enabled DataYandexOrganizationmanagerOsLoginSettings#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -236,7 +236,7 @@ export class DataYandexOrganizationmanagerOsLoginSettingsUserSshKeySettingsOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_os_login_settings yandex_organizationmanager_os_login_settings}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_os_login_settings yandex_organizationmanager_os_login_settings}
 */
 export class DataYandexOrganizationmanagerOsLoginSettings extends cdktf.TerraformDataSource {
 
@@ -252,7 +252,7 @@ export class DataYandexOrganizationmanagerOsLoginSettings extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataYandexOrganizationmanagerOsLoginSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexOrganizationmanagerOsLoginSettings to import
-  * @param importFromId The id of the existing DataYandexOrganizationmanagerOsLoginSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_os_login_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexOrganizationmanagerOsLoginSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_os_login_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexOrganizationmanagerOsLoginSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -264,7 +264,7 @@ export class DataYandexOrganizationmanagerOsLoginSettings extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_os_login_settings yandex_organizationmanager_os_login_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/organizationmanager_os_login_settings yandex_organizationmanager_os_login_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,8 +275,8 @@ export class DataYandexOrganizationmanagerOsLoginSettings extends cdktf.Terrafor
       terraformResourceType: 'yandex_organizationmanager_os_login_settings',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

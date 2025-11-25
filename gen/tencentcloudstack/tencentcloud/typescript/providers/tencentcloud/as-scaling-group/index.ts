@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface AsScalingGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * An available ID for a launch configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#configuration_id AsScalingGroup#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#configuration_id AsScalingGroup#configuration_id}
   */
   readonly configurationId: string;
   /**
   * Default cooldown time in second, and default value is `300`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#default_cooldown AsScalingGroup#default_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#default_cooldown AsScalingGroup#default_cooldown}
   */
   readonly defaultCooldown?: number;
   /**
   * Desired volume of CVM instances, which is between `max_size` and `min_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#desired_capacity AsScalingGroup#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#desired_capacity AsScalingGroup#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
   * The expected number of instances is synchronized with the maximum and minimum values. The default value is `False`. This parameter is effective only in the scenario where the expected number is not passed in when modifying the scaling group interface. True: When modifying the maximum or minimum value, if there is a conflict with the current expected number, the expected number is adjusted synchronously. For example, when modifying, if the minimum value 2 is passed in and the current expected number is 1, the expected number is adjusted synchronously to 2; False: When modifying the maximum or minimum value, if there is a conflict with the current expected number, an error message is displayed indicating that the modification is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#desired_capacity_sync_with_max_min_size AsScalingGroup#desired_capacity_sync_with_max_min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#desired_capacity_sync_with_max_min_size AsScalingGroup#desired_capacity_sync_with_max_min_size}
   */
   readonly desiredCapacitySyncWithMaxMinSize?: boolean | cdktf.IResolvable;
   /**
   * Health check type of instances in a scaling group.<br><li>CVM: confirm whether an instance is healthy based on the network status. If the pinged instance is unreachable, the instance will be considered unhealthy. For more information, see [Instance Health Check](https://intl.cloud.tencent.com/document/product/377/8553?from_cn_redirect=1)<br><li>CLB: confirm whether an instance is healthy based on the CLB health check status. For more information, see [Health Check Overview](https://intl.cloud.tencent.com/document/product/214/6097?from_cn_redirect=1).<br>If the parameter is set to `CLB`, the scaling group will check both the network status and the CLB health check status. If the network check indicates unhealthy, the `HealthStatus` field will return `UNHEALTHY`. If the CLB health check indicates unhealthy, the `HealthStatus` field will return `CLB_UNHEALTHY`. If both checks indicate unhealthy, the `HealthStatus` field will return `UNHEALTHY|CLB_UNHEALTHY`. Default value: `CLB`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#health_check_type AsScalingGroup#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#health_check_type AsScalingGroup#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#id AsScalingGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#id AsScalingGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,109 +47,109 @@ export interface AsScalingGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Grace period of the CLB health check during which the `IN_SERVICE` instances added will not be marked as `CLB_UNHEALTHY`.<br>Valid range: 0-7200, in seconds. Default value: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#lb_health_check_grace_period AsScalingGroup#lb_health_check_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#lb_health_check_grace_period AsScalingGroup#lb_health_check_grace_period}
   */
   readonly lbHealthCheckGracePeriod?: number;
   /**
   * ID list of traditional load balancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#load_balancer_ids AsScalingGroup#load_balancer_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#load_balancer_ids AsScalingGroup#load_balancer_ids}
   */
   readonly loadBalancerIds?: string[];
   /**
   * Maximum number of CVM instances. Valid value ranges: (0~2000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#max_size AsScalingGroup#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#max_size AsScalingGroup#max_size}
   */
   readonly maxSize: number;
   /**
   * Minimum number of CVM instances. Valid value ranges: (0~2000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#min_size AsScalingGroup#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#min_size AsScalingGroup#min_size}
   */
   readonly minSize: number;
   /**
   * Multi zone or subnet strategy, Valid values: PRIORITY and EQUALITY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#multi_zone_subnet_policy AsScalingGroup#multi_zone_subnet_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#multi_zone_subnet_policy AsScalingGroup#multi_zone_subnet_policy}
   */
   readonly multiZoneSubnetPolicy?: string;
   /**
   * Specifies to which project the scaling group belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#project_id AsScalingGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#project_id AsScalingGroup#project_id}
   */
   readonly projectId?: number;
   /**
   * Enable unhealthy instance replacement. If set to `true`, AS will replace instances that are found unhealthy in the CLB health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#replace_load_balancer_unhealthy AsScalingGroup#replace_load_balancer_unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#replace_load_balancer_unhealthy AsScalingGroup#replace_load_balancer_unhealthy}
   */
   readonly replaceLoadBalancerUnhealthy?: boolean | cdktf.IResolvable;
   /**
   * Replace mode of unhealthy replacement service. Valid values: RECREATE: Rebuild an instance to replace the original unhealthy instance. RESET: Performing a system reinstallation on unhealthy instances to keep information such as data disks, private IP addresses, and instance IDs unchanged. The instance login settings, HostName, enhanced services, and UserData will remain consistent with the current launch configuration. Default value: RECREATE. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#replace_mode AsScalingGroup#replace_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#replace_mode AsScalingGroup#replace_mode}
   */
   readonly replaceMode?: string;
   /**
   * Enables unhealthy instance replacement. If set to `true`, AS will replace instances that are flagged as unhealthy by Cloud Monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#replace_monitor_unhealthy AsScalingGroup#replace_monitor_unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#replace_monitor_unhealthy AsScalingGroup#replace_monitor_unhealthy}
   */
   readonly replaceMonitorUnhealthy?: boolean | cdktf.IResolvable;
   /**
   * Available values for retry policies. Valid values: IMMEDIATE_RETRY and INCREMENTAL_INTERVALS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#retry_policy AsScalingGroup#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#retry_policy AsScalingGroup#retry_policy}
   */
   readonly retryPolicy?: string;
   /**
   * Name of a scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#scaling_group_name AsScalingGroup#scaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#scaling_group_name AsScalingGroup#scaling_group_name}
   */
   readonly scalingGroupName: string;
   /**
   * Indicates scaling mode which creates and terminates instances (classic method), or method first tries to start stopped instances (wake up stopped) to perform scaling operations. Available values: `CLASSIC_SCALING`, `WAKE_UP_STOPPED_SCALING`. Default: `CLASSIC_SCALING`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#scaling_mode AsScalingGroup#scaling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#scaling_mode AsScalingGroup#scaling_mode}
   */
   readonly scalingMode?: string;
   /**
   * ID list of subnet, and for VPC it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#subnet_ids AsScalingGroup#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#subnet_ids AsScalingGroup#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * Tags of a scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#tags AsScalingGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#tags AsScalingGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Available values for termination policies. Valid values: OLDEST_INSTANCE and NEWEST_INSTANCE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#termination_policies AsScalingGroup#termination_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#termination_policies AsScalingGroup#termination_policies}
   */
   readonly terminationPolicies?: string[];
   /**
   * ID of VPC network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#vpc_id AsScalingGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#vpc_id AsScalingGroup#vpc_id}
   */
   readonly vpcId: string;
   /**
   * List of available zones, for Basic network it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#zones AsScalingGroup#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#zones AsScalingGroup#zones}
   */
   readonly zones?: string[];
   /**
   * forward_balancer_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#forward_balancer_ids AsScalingGroup#forward_balancer_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#forward_balancer_ids AsScalingGroup#forward_balancer_ids}
   */
   readonly forwardBalancerIds?: AsScalingGroupForwardBalancerIds[] | cdktf.IResolvable;
 }
@@ -157,13 +157,13 @@ export interface AsScalingGroupForwardBalancerIdsTargetAttribute {
   /**
   * Port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#port AsScalingGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#port AsScalingGroup#port}
   */
   readonly port: number;
   /**
   * Weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#weight AsScalingGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#weight AsScalingGroup#weight}
   */
   readonly weight: number;
 }
@@ -304,25 +304,25 @@ export interface AsScalingGroupForwardBalancerIds {
   /**
   * Listener ID for application load balancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#listener_id AsScalingGroup#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#listener_id AsScalingGroup#listener_id}
   */
   readonly listenerId: string;
   /**
   * ID of available load balancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#load_balancer_id AsScalingGroup#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#load_balancer_id AsScalingGroup#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
   * ID of forwarding rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#rule_id AsScalingGroup#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#rule_id AsScalingGroup#rule_id}
   */
   readonly ruleId?: string;
   /**
   * target_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#target_attribute AsScalingGroup#target_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#target_attribute AsScalingGroup#target_attribute}
   */
   readonly targetAttribute: AsScalingGroupForwardBalancerIdsTargetAttribute[] | cdktf.IResolvable;
 }
@@ -516,7 +516,7 @@ export class AsScalingGroupForwardBalancerIdsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group tencentcloud_as_scaling_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group tencentcloud_as_scaling_group}
 */
 export class AsScalingGroup extends cdktf.TerraformResource {
 
@@ -532,7 +532,7 @@ export class AsScalingGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsScalingGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsScalingGroup to import
-  * @param importFromId The id of the existing AsScalingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsScalingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsScalingGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -544,7 +544,7 @@ export class AsScalingGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_scaling_group tencentcloud_as_scaling_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/as_scaling_group tencentcloud_as_scaling_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -555,8 +555,8 @@ export class AsScalingGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_as_scaling_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

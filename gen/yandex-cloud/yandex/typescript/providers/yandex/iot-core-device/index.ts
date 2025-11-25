@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IotCoreDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value aliases pairs to assign to the IoT Core Device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#aliases IotCoreDevice#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#aliases IotCoreDevice#aliases}
   */
   readonly aliases?: { [key: string]: string };
   /**
   * A set of certificate's fingerprints for the IoT Core Device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#certificates IotCoreDevice#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#certificates IotCoreDevice#certificates}
   */
   readonly certificates?: string[];
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#description IotCoreDevice#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#description IotCoreDevice#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#id IotCoreDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#id IotCoreDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,45 +35,45 @@ export interface IotCoreDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#labels IotCoreDevice#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#labels IotCoreDevice#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#name IotCoreDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#name IotCoreDevice#name}
   */
   readonly name: string;
   /**
   * A set of passwords's id for the IoT Core Device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#passwords IotCoreDevice#passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#passwords IotCoreDevice#passwords}
   */
   readonly passwords?: string[];
   /**
   * IoT Core Registry ID for the IoT Core Device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#registry_id IotCoreDevice#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#registry_id IotCoreDevice#registry_id}
   */
   readonly registryId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#timeouts IotCoreDevice#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#timeouts IotCoreDevice#timeouts}
   */
   readonly timeouts?: IotCoreDeviceTimeouts;
 }
 export interface IotCoreDeviceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#create IotCoreDevice#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#create IotCoreDevice#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#delete IotCoreDevice#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#delete IotCoreDevice#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#update IotCoreDevice#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#update IotCoreDevice#update}
   */
   readonly update?: string;
 }
@@ -225,7 +225,7 @@ export class IotCoreDeviceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device yandex_iot_core_device}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device yandex_iot_core_device}
 */
 export class IotCoreDevice extends cdktf.TerraformResource {
 
@@ -241,7 +241,7 @@ export class IotCoreDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IotCoreDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotCoreDevice to import
-  * @param importFromId The id of the existing IotCoreDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotCoreDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotCoreDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class IotCoreDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_device yandex_iot_core_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iot_core_device yandex_iot_core_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class IotCoreDevice extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_iot_core_device',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

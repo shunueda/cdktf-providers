@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_update_data_engine_config_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_update_data_engine_config_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DlcUpdateDataEngineConfigOperationConfig extends cdktf.Terrafor
   /**
   * Engine configuration command, supports UpdateSparkSQLLakefsPath (update native table configuration), UpdateSparkSQLResultPath (update result path configuration).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_update_data_engine_config_operation#data_engine_config_command DlcUpdateDataEngineConfigOperation#data_engine_config_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_update_data_engine_config_operation#data_engine_config_command DlcUpdateDataEngineConfigOperation#data_engine_config_command}
   */
   readonly dataEngineConfigCommand: string;
   /**
   * Engine unique id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_update_data_engine_config_operation#data_engine_id DlcUpdateDataEngineConfigOperation#data_engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_update_data_engine_config_operation#data_engine_id DlcUpdateDataEngineConfigOperation#data_engine_id}
   */
   readonly dataEngineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_update_data_engine_config_operation#id DlcUpdateDataEngineConfigOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_update_data_engine_config_operation#id DlcUpdateDataEngineConfigOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DlcUpdateDataEngineConfigOperationConfig extends cdktf.Terrafor
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_update_data_engine_config_operation tencentcloud_dlc_update_data_engine_config_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_update_data_engine_config_operation tencentcloud_dlc_update_data_engine_config_operation}
 */
 export class DlcUpdateDataEngineConfigOperation extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DlcUpdateDataEngineConfigOperation extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a DlcUpdateDataEngineConfigOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlcUpdateDataEngineConfigOperation to import
-  * @param importFromId The id of the existing DlcUpdateDataEngineConfigOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_update_data_engine_config_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlcUpdateDataEngineConfigOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_update_data_engine_config_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlcUpdateDataEngineConfigOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DlcUpdateDataEngineConfigOperation extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_update_data_engine_config_operation tencentcloud_dlc_update_data_engine_config_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dlc_update_data_engine_config_operation tencentcloud_dlc_update_data_engine_config_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DlcUpdateDataEngineConfigOperation extends cdktf.TerraformResource 
       terraformResourceType: 'tencentcloud_dlc_update_data_engine_config_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

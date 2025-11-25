@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CssTimeshiftTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * The region.`Mainland`: The Chinese mainland.`Overseas`: Outside the Chinese mainland.Default value: `Mainland`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_template#area CssTimeshiftTemplate#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_template#area CssTimeshiftTemplate#area}
   */
   readonly area?: string;
   /**
   * The template description.Only letters, numbers, underscores, and hyphens are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_template#description CssTimeshiftTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_template#description CssTimeshiftTemplate#description}
   */
   readonly description?: string;
   /**
   * The time shifting duration.Unit: Second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_template#duration CssTimeshiftTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_template#duration CssTimeshiftTemplate#duration}
   */
   readonly duration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_template#id CssTimeshiftTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_template#id CssTimeshiftTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface CssTimeshiftTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * The segment size.Value range: 3-10.Unit: Second.Default value: 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_template#item_duration CssTimeshiftTemplate#item_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_template#item_duration CssTimeshiftTemplate#item_duration}
   */
   readonly itemDuration?: number;
   /**
   * Whether to remove watermarks.If you pass in `true`, the original stream will be recorded.Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_template#remove_watermark CssTimeshiftTemplate#remove_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_template#remove_watermark CssTimeshiftTemplate#remove_watermark}
   */
   readonly removeWatermark?: boolean | cdktf.IResolvable;
   /**
   * The template name.Maximum length: 255 bytes.Only letters, numbers, underscores, and hyphens are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_template#template_name CssTimeshiftTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_template#template_name CssTimeshiftTemplate#template_name}
   */
   readonly templateName: string;
   /**
   * The transcoding template IDs.This API works only if `RemoveWatermark` is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_template#transcode_template_ids CssTimeshiftTemplate#transcode_template_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_template#transcode_template_ids CssTimeshiftTemplate#transcode_template_ids}
   */
   readonly transcodeTemplateIds?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_template tencentcloud_css_timeshift_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_template tencentcloud_css_timeshift_template}
 */
 export class CssTimeshiftTemplate extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class CssTimeshiftTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssTimeshiftTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssTimeshiftTemplate to import
-  * @param importFromId The id of the existing CssTimeshiftTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssTimeshiftTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssTimeshiftTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class CssTimeshiftTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_timeshift_template tencentcloud_css_timeshift_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_timeshift_template tencentcloud_css_timeshift_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class CssTimeshiftTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_timeshift_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

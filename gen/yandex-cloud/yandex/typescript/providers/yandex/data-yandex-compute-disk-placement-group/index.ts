@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/compute_disk_placement_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/compute_disk_placement_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataYandexComputeDiskPlacementGroupConfig extends cdktf.Terrafo
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/compute_disk_placement_group#description DataYandexComputeDiskPlacementGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/compute_disk_placement_group#description DataYandexComputeDiskPlacementGroup#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/compute_disk_placement_group#folder_id DataYandexComputeDiskPlacementGroup#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/compute_disk_placement_group#folder_id DataYandexComputeDiskPlacementGroup#folder_id}
   */
   readonly folderId?: string;
   /**
   * The ID of a specific group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/compute_disk_placement_group#group_id DataYandexComputeDiskPlacementGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/compute_disk_placement_group#group_id DataYandexComputeDiskPlacementGroup#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/compute_disk_placement_group#id DataYandexComputeDiskPlacementGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/compute_disk_placement_group#id DataYandexComputeDiskPlacementGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface DataYandexComputeDiskPlacementGroupConfig extends cdktf.Terrafo
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/compute_disk_placement_group#labels DataYandexComputeDiskPlacementGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/compute_disk_placement_group#labels DataYandexComputeDiskPlacementGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/compute_disk_placement_group#name DataYandexComputeDiskPlacementGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/compute_disk_placement_group#name DataYandexComputeDiskPlacementGroup#name}
   */
   readonly name?: string;
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/compute_disk_placement_group#zone DataYandexComputeDiskPlacementGroup#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/compute_disk_placement_group#zone DataYandexComputeDiskPlacementGroup#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/compute_disk_placement_group yandex_compute_disk_placement_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/compute_disk_placement_group yandex_compute_disk_placement_group}
 */
 export class DataYandexComputeDiskPlacementGroup extends cdktf.TerraformDataSource {
 
@@ -69,7 +69,7 @@ export class DataYandexComputeDiskPlacementGroup extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataYandexComputeDiskPlacementGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexComputeDiskPlacementGroup to import
-  * @param importFromId The id of the existing DataYandexComputeDiskPlacementGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/compute_disk_placement_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexComputeDiskPlacementGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/compute_disk_placement_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexComputeDiskPlacementGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DataYandexComputeDiskPlacementGroup extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/compute_disk_placement_group yandex_compute_disk_placement_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/compute_disk_placement_group yandex_compute_disk_placement_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DataYandexComputeDiskPlacementGroup extends cdktf.TerraformDataSour
       terraformResourceType: 'yandex_compute_disk_placement_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_nat_gateways
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_nat_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZenlayercloudZecNatGatewaysConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_nat_gateways#id DataZenlayercloudZecNatGateways#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_nat_gateways#id DataZenlayercloudZecNatGateways#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface DataZenlayercloudZecNatGatewaysConfig extends cdktf.TerraformMe
   /**
   * ids of the NAT gateway to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_nat_gateways#ids DataZenlayercloudZecNatGateways#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_nat_gateways#ids DataZenlayercloudZecNatGateways#ids}
   */
   readonly ids?: string[];
   /**
   * A regex string to apply to the NAT gateway list returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_nat_gateways#name_regex DataZenlayercloudZecNatGateways#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_nat_gateways#name_regex DataZenlayercloudZecNatGateways#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * Region of the NAT gateway to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_nat_gateways#region_id DataZenlayercloudZecNatGateways#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_nat_gateways#region_id DataZenlayercloudZecNatGateways#region_id}
   */
   readonly regionId?: string;
   /**
   * The ID of resource group grouped NAT gateway to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_nat_gateways#resource_group_id DataZenlayercloudZecNatGateways#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_nat_gateways#resource_group_id DataZenlayercloudZecNatGateways#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_nat_gateways#result_output_file DataZenlayercloudZecNatGateways#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_nat_gateways#result_output_file DataZenlayercloudZecNatGateways#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of the security group to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_nat_gateways#security_group_id DataZenlayercloudZecNatGateways#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_nat_gateways#security_group_id DataZenlayercloudZecNatGateways#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
   * ID of the VPC to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_nat_gateways#vpc_id DataZenlayercloudZecNatGateways#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_nat_gateways#vpc_id DataZenlayercloudZecNatGateways#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -199,7 +199,7 @@ export class DataZenlayercloudZecNatGatewaysNatsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_nat_gateways zenlayercloud_zec_nat_gateways}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_nat_gateways zenlayercloud_zec_nat_gateways}
 */
 export class DataZenlayercloudZecNatGateways extends cdktf.TerraformDataSource {
 
@@ -215,7 +215,7 @@ export class DataZenlayercloudZecNatGateways extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudZecNatGateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZecNatGateways to import
-  * @param importFromId The id of the existing DataZenlayercloudZecNatGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_nat_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZecNatGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_nat_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZecNatGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DataZenlayercloudZecNatGateways extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zec_nat_gateways zenlayercloud_zec_nat_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_nat_gateways zenlayercloud_zec_nat_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DataZenlayercloudZecNatGateways extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zec_nat_gateways',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.9',
-        providerVersionConstraint: '0.2.9'
+        providerVersion: '0.2.10',
+        providerVersionConstraint: '0.2.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

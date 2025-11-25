@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs
+// https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface FluxProviderConfig {
   /**
   * Configuration block with settings for Git.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#git FluxProvider#git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#git FluxProvider#git}
   */
   readonly git?: FluxProviderGit;
   /**
   * Configuration block with settings for Kubernetes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#kubernetes FluxProvider#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#kubernetes FluxProvider#kubernetes}
   */
   readonly kubernetes?: FluxProviderKubernetes;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#alias FluxProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#alias FluxProvider#alias}
   */
   readonly alias?: string;
 }
@@ -30,25 +30,25 @@ export interface FluxProviderGitHttp {
   /**
   * Allows http Git url connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#allow_insecure_http FluxProvider#allow_insecure_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#allow_insecure_http FluxProvider#allow_insecure_http}
   */
   readonly allowInsecureHttp?: boolean | cdktf.IResolvable;
   /**
   * Certificate authority to validate self-signed certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#certificate_authority FluxProvider#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#certificate_authority FluxProvider#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * Password for basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#password FluxProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#password FluxProvider#password}
   */
   readonly password?: string;
   /**
   * Username for basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#username FluxProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#username FluxProvider#username}
   */
   readonly username?: string;
 }
@@ -107,25 +107,25 @@ export interface FluxProviderGitSsh {
   /**
   * The list of hostkey algorithms to use for ssh connections, arranged from most preferred to the least.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#hostkey_algos FluxProvider#hostkey_algos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#hostkey_algos FluxProvider#hostkey_algos}
   */
   readonly hostkeyAlgos?: string[];
   /**
   * Password of the SSH private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#password FluxProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#password FluxProvider#password}
   */
   readonly password?: string;
   /**
   * Private key used for authenticating to the Git SSH server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#private_key FluxProvider#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#private_key FluxProvider#private_key}
   */
   readonly privateKey?: string;
   /**
   * Username for Git SSH server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#username FluxProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#username FluxProvider#username}
   */
   readonly username?: string;
 }
@@ -184,57 +184,57 @@ export interface FluxProviderGit {
   /**
   * Author email for Git commits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#author_email FluxProvider#author_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#author_email FluxProvider#author_email}
   */
   readonly authorEmail?: string;
   /**
   * Author name for Git commits. Defaults to `Flux`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#author_name FluxProvider#author_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#author_name FluxProvider#author_name}
   */
   readonly authorName?: string;
   /**
   * Branch of the repository to reconcile from. Defaults to `main`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#branch FluxProvider#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#branch FluxProvider#branch}
   */
   readonly branch?: string;
   /**
   * String to add to the commit messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#commit_message_appendix FluxProvider#commit_message_appendix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#commit_message_appendix FluxProvider#commit_message_appendix}
   */
   readonly commitMessageAppendix?: string;
   /**
   * Key id for selecting a particular GPG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#gpg_key_id FluxProvider#gpg_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#gpg_key_id FluxProvider#gpg_key_id}
   */
   readonly gpgKeyId?: string;
   /**
   * Path to the GPG key ring for signing commits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#gpg_key_ring FluxProvider#gpg_key_ring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#gpg_key_ring FluxProvider#gpg_key_ring}
   */
   readonly gpgKeyRing?: string;
   /**
   * Passphrase for decrypting GPG private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#gpg_passphrase FluxProvider#gpg_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#gpg_passphrase FluxProvider#gpg_passphrase}
   */
   readonly gpgPassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#http FluxProvider#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#http FluxProvider#http}
   */
   readonly http?: FluxProviderGitHttp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#ssh FluxProvider#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#ssh FluxProvider#ssh}
   */
   readonly ssh?: FluxProviderGitSsh;
   /**
   * Url of Git repository to bootstrap from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#url FluxProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#url FluxProvider#url}
   */
   readonly url: string;
 }
@@ -335,25 +335,25 @@ export interface FluxProviderKubernetesExec {
   /**
   * Kubernetes client authentication API Version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#api_version FluxProvider#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#api_version FluxProvider#api_version}
   */
   readonly apiVersion: string;
   /**
   * Client authentication exec command arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#args FluxProvider#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#args FluxProvider#args}
   */
   readonly args?: string[];
   /**
   * Client authentication exec command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#command FluxProvider#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#command FluxProvider#command}
   */
   readonly command: string;
   /**
   * Client authentication exec environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#env FluxProvider#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#env FluxProvider#env}
   */
   readonly env?: { [key: string]: string };
 }
@@ -412,91 +412,91 @@ export interface FluxProviderKubernetes {
   /**
   * PEM-encoded client certificate for TLS authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#client_certificate FluxProvider#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#client_certificate FluxProvider#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * PEM-encoded client certificate key for TLS authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#client_key FluxProvider#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#client_key FluxProvider#client_key}
   */
   readonly clientKey?: string;
   /**
   * PEM-encoded root certificates bundle for TLS authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#cluster_ca_certificate FluxProvider#cluster_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#cluster_ca_certificate FluxProvider#cluster_ca_certificate}
   */
   readonly clusterCaCertificate?: string;
   /**
   * Context to choose from the config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#config_context FluxProvider#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#config_context FluxProvider#config_context}
   */
   readonly configContext?: string;
   /**
   * Authentication info context of the kube config (name of the kubeconfig user, `--user` flag in `kubectl`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#config_context_auth_info FluxProvider#config_context_auth_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#config_context_auth_info FluxProvider#config_context_auth_info}
   */
   readonly configContextAuthInfo?: string;
   /**
   * Cluster context of the kube config (name of the kubeconfig cluster, `--cluster` flag in `kubectl`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#config_context_cluster FluxProvider#config_context_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#config_context_cluster FluxProvider#config_context_cluster}
   */
   readonly configContextCluster?: string;
   /**
   * Path to the kube config file. Can be set with KUBE_CONFIG_PATH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#config_path FluxProvider#config_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#config_path FluxProvider#config_path}
   */
   readonly configPath?: string;
   /**
   * A list of paths to kube config files. Can be set with KUBE_CONFIG_PATHS environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#config_paths FluxProvider#config_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#config_paths FluxProvider#config_paths}
   */
   readonly configPaths?: string[];
   /**
   * Kubernetes client authentication exec plugin configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#exec FluxProvider#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#exec FluxProvider#exec}
   */
   readonly exec?: FluxProviderKubernetesExec;
   /**
   * The hostname (in form of URI) of Kubernetes master.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#host FluxProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#host FluxProvider#host}
   */
   readonly host?: string;
   /**
   * Whether server should be accessed without verifying the TLS certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#insecure FluxProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#insecure FluxProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * The password to use for HTTP basic authentication when accessing the Kubernetes master endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#password FluxProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#password FluxProvider#password}
   */
   readonly password?: string;
   /**
   * URL to the proxy to be used for all API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#proxy_url FluxProvider#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#proxy_url FluxProvider#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * Token to authenticate an service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#token FluxProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#token FluxProvider#token}
   */
   readonly token?: string;
   /**
   * The username to use for HTTP basic authentication when accessing the Kubernetes master endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#username FluxProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#username FluxProvider#username}
   */
   readonly username?: string;
 }
@@ -630,7 +630,7 @@ export function fluxProviderKubernetesToHclTerraform(struct?: FluxProviderKubern
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs flux}
+* Represents a {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs flux}
 */
 export class FluxProvider extends cdktf.TerraformProvider {
 
@@ -646,7 +646,7 @@ export class FluxProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a FluxProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FluxProvider to import
-  * @param importFromId The id of the existing FluxProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FluxProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FluxProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -658,7 +658,7 @@ export class FluxProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.4/docs flux} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fluxcd/flux/1.7.5/docs flux} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -669,8 +669,8 @@ export class FluxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'flux',
       terraformGeneratorMetadata: {
         providerName: 'flux',
-        providerVersion: '1.7.4',
-        providerVersionConstraint: '1.7.4'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       terraformProviderSource: 'fluxcd/flux'
     });

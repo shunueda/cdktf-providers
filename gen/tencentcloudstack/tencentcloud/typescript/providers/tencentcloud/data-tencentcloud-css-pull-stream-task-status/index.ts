@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/css_pull_stream_task_status
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/css_pull_stream_task_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudCssPullStreamTaskStatusConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/css_pull_stream_task_status#id DataTencentcloudCssPullStreamTaskStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/css_pull_stream_task_status#id DataTencentcloudCssPullStreamTaskStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudCssPullStreamTaskStatusConfig extends cdktf.Ter
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/css_pull_stream_task_status#result_output_file DataTencentcloudCssPullStreamTaskStatus#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/css_pull_stream_task_status#result_output_file DataTencentcloudCssPullStreamTaskStatus#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Task ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/css_pull_stream_task_status#task_id DataTencentcloudCssPullStreamTaskStatus#task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/css_pull_stream_task_status#task_id DataTencentcloudCssPullStreamTaskStatus#task_id}
   */
   readonly taskId: string;
 }
@@ -134,7 +134,7 @@ export class DataTencentcloudCssPullStreamTaskStatusTaskStatusInfoList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/css_pull_stream_task_status tencentcloud_css_pull_stream_task_status}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/css_pull_stream_task_status tencentcloud_css_pull_stream_task_status}
 */
 export class DataTencentcloudCssPullStreamTaskStatus extends cdktf.TerraformDataSource {
 
@@ -150,7 +150,7 @@ export class DataTencentcloudCssPullStreamTaskStatus extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTencentcloudCssPullStreamTaskStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCssPullStreamTaskStatus to import
-  * @param importFromId The id of the existing DataTencentcloudCssPullStreamTaskStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/css_pull_stream_task_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCssPullStreamTaskStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/css_pull_stream_task_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCssPullStreamTaskStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -162,7 +162,7 @@ export class DataTencentcloudCssPullStreamTaskStatus extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/css_pull_stream_task_status tencentcloud_css_pull_stream_task_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/css_pull_stream_task_status tencentcloud_css_pull_stream_task_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -173,8 +173,8 @@ export class DataTencentcloudCssPullStreamTaskStatus extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_css_pull_stream_task_status',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

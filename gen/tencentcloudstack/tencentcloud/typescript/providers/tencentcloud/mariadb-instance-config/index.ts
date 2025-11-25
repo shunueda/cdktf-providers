@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_instance_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MariadbInstanceConfigAConfig extends cdktf.TerraformMetaArgumen
   /**
   * External network status, 0-closed; 1- Opening; Default not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_instance_config#extranet_access MariadbInstanceConfigA#extranet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance_config#extranet_access MariadbInstanceConfigA#extranet_access}
   */
   readonly extranetAccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_instance_config#id MariadbInstanceConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance_config#id MariadbInstanceConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface MariadbInstanceConfigAConfig extends cdktf.TerraformMetaArgumen
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_instance_config#instance_id MariadbInstanceConfigA#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance_config#instance_id MariadbInstanceConfigA#instance_id}
   */
   readonly instanceId: string;
   /**
   * RS proximity mode, 0- no strategy, 1- access to the nearest available zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_instance_config#rs_access_strategy MariadbInstanceConfigA#rs_access_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance_config#rs_access_strategy MariadbInstanceConfigA#rs_access_strategy}
   */
   readonly rsAccessStrategy?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_instance_config tencentcloud_mariadb_instance_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance_config tencentcloud_mariadb_instance_config}
 */
 export class MariadbInstanceConfigA extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class MariadbInstanceConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MariadbInstanceConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MariadbInstanceConfigA to import
-  * @param importFromId The id of the existing MariadbInstanceConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_instance_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MariadbInstanceConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MariadbInstanceConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class MariadbInstanceConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_instance_config tencentcloud_mariadb_instance_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance_config tencentcloud_mariadb_instance_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class MariadbInstanceConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mariadb_instance_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

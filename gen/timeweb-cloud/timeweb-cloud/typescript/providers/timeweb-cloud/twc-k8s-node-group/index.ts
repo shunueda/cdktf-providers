@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TwcK8SNodeGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * K8S cluster ID for which node group should be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#cluster_id TwcK8SNodeGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#cluster_id TwcK8SNodeGroup#cluster_id}
   */
   readonly clusterId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#id TwcK8SNodeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#id TwcK8SNodeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,61 +23,61 @@ export interface TwcK8SNodeGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatic recreating failed nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#is_autohealing TwcK8SNodeGroup#is_autohealing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#is_autohealing TwcK8SNodeGroup#is_autohealing}
   */
   readonly isAutohealing?: boolean | cdktf.IResolvable;
   /**
   * Automatic increase/decrease of the number of nodes in a group depending on the load
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#is_autoscaling TwcK8SNodeGroup#is_autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#is_autoscaling TwcK8SNodeGroup#is_autoscaling}
   */
   readonly isAutoscaling?: boolean | cdktf.IResolvable;
   /**
   * max count of nodes in group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#max_size TwcK8SNodeGroup#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#max_size TwcK8SNodeGroup#max_size}
   */
   readonly maxSize?: number;
   /**
   * min count of nodes in group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#min_size TwcK8SNodeGroup#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#min_size TwcK8SNodeGroup#min_size}
   */
   readonly minSize?: number;
   /**
   * K8S node group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#name TwcK8SNodeGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#name TwcK8SNodeGroup#name}
   */
   readonly name: string;
   /**
   * Count of nodes in group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#node_count TwcK8SNodeGroup#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#node_count TwcK8SNodeGroup#node_count}
   */
   readonly nodeCount: number;
   /**
   * Preset ID for nodes in group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#preset_id TwcK8SNodeGroup#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#preset_id TwcK8SNodeGroup#preset_id}
   */
   readonly presetId?: number;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#configuration TwcK8SNodeGroup#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#configuration TwcK8SNodeGroup#configuration}
   */
   readonly configuration?: TwcK8SNodeGroupConfiguration;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#labels TwcK8SNodeGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#labels TwcK8SNodeGroup#labels}
   */
   readonly labels?: TwcK8SNodeGroupLabels[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#taints TwcK8SNodeGroup#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#taints TwcK8SNodeGroup#taints}
   */
   readonly taints?: TwcK8SNodeGroupTaints[] | cdktf.IResolvable;
 }
@@ -85,31 +85,31 @@ export interface TwcK8SNodeGroupConfiguration {
   /**
   * Configurator ID for creating group node workers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#configurator_id TwcK8SNodeGroup#configurator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#configurator_id TwcK8SNodeGroup#configurator_id}
   */
   readonly configuratorId: number;
   /**
   * CPU count for node group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#cpu TwcK8SNodeGroup#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#cpu TwcK8SNodeGroup#cpu}
   */
   readonly cpu: number;
   /**
   * Disk node group size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#disk TwcK8SNodeGroup#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#disk TwcK8SNodeGroup#disk}
   */
   readonly disk: number;
   /**
   * GPU count for node group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#gpu TwcK8SNodeGroup#gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#gpu TwcK8SNodeGroup#gpu}
   */
   readonly gpu?: number;
   /**
   * RAM node group worker size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#ram TwcK8SNodeGroup#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#ram TwcK8SNodeGroup#ram}
   */
   readonly ram: number;
 }
@@ -299,13 +299,13 @@ export interface TwcK8SNodeGroupLabels {
   /**
   * K8S node group label key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#key TwcK8SNodeGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#key TwcK8SNodeGroup#key}
   */
   readonly key: string;
   /**
   * K8S node group label value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#value TwcK8SNodeGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#value TwcK8SNodeGroup#value}
   */
   readonly value: string;
 }
@@ -446,19 +446,19 @@ export interface TwcK8SNodeGroupTaints {
   /**
   * K8S node group taint effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#effect TwcK8SNodeGroup#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#effect TwcK8SNodeGroup#effect}
   */
   readonly effect: string;
   /**
   * K8S node group taint key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#key TwcK8SNodeGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#key TwcK8SNodeGroup#key}
   */
   readonly key: string;
   /**
   * K8S node group taint value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#value TwcK8SNodeGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#value TwcK8SNodeGroup#value}
   */
   readonly value: string;
 }
@@ -623,7 +623,7 @@ export class TwcK8SNodeGroupTaintsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group twc_k8s_node_group}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group twc_k8s_node_group}
 */
 export class TwcK8SNodeGroup extends cdktf.TerraformResource {
 
@@ -639,7 +639,7 @@ export class TwcK8SNodeGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcK8SNodeGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcK8SNodeGroup to import
-  * @param importFromId The id of the existing TwcK8SNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcK8SNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcK8SNodeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -651,7 +651,7 @@ export class TwcK8SNodeGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.6/docs/resources/twc_k8s_node_group twc_k8s_node_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_node_group twc_k8s_node_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -662,8 +662,8 @@ export class TwcK8SNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'twc_k8s_node_group',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6',
-        providerVersionConstraint: '1.6.6'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

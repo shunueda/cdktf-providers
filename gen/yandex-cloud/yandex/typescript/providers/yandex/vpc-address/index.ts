@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface VpcAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#deletion_protection VpcAddress#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#deletion_protection VpcAddress#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#description VpcAddress#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#description VpcAddress#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#folder_id VpcAddress#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#folder_id VpcAddress#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#id VpcAddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#id VpcAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface VpcAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#labels VpcAddress#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#labels VpcAddress#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#name VpcAddress#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#name VpcAddress#name}
   */
   readonly name?: string;
   /**
   * dns_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#dns_record VpcAddress#dns_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#dns_record VpcAddress#dns_record}
   */
   readonly dnsRecord?: VpcAddressDnsRecord[] | cdktf.IResolvable;
   /**
   * external_ipv4_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#external_ipv4_address VpcAddress#external_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#external_ipv4_address VpcAddress#external_ipv4_address}
   */
   readonly externalIpv4Address?: VpcAddressExternalIpv4Address;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#timeouts VpcAddress#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#timeouts VpcAddress#timeouts}
   */
   readonly timeouts?: VpcAddressTimeouts;
 }
@@ -67,25 +67,25 @@ export interface VpcAddressDnsRecord {
   /**
   * DNS zone id to create record at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#dns_zone_id VpcAddress#dns_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#dns_zone_id VpcAddress#dns_zone_id}
   */
   readonly dnsZoneId: string;
   /**
   * FQDN for record to address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#fqdn VpcAddress#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#fqdn VpcAddress#fqdn}
   */
   readonly fqdn: string;
   /**
   * If PTR record is needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#ptr VpcAddress#ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#ptr VpcAddress#ptr}
   */
   readonly ptr?: boolean | cdktf.IResolvable;
   /**
   * TTL of DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#ttl VpcAddress#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#ttl VpcAddress#ttl}
   */
   readonly ttl?: number;
 }
@@ -284,19 +284,19 @@ export interface VpcAddressExternalIpv4Address {
   /**
   * Enable DDOS protection. Possible values are: `qrator`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#ddos_protection_provider VpcAddress#ddos_protection_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#ddos_protection_provider VpcAddress#ddos_protection_provider}
   */
   readonly ddosProtectionProvider?: string;
   /**
   * Wanted outgoing smtp capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#outgoing_smtp_capability VpcAddress#outgoing_smtp_capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#outgoing_smtp_capability VpcAddress#outgoing_smtp_capability}
   */
   readonly outgoingSmtpCapability?: string;
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#zone_id VpcAddress#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#zone_id VpcAddress#zone_id}
   */
   readonly zoneId?: string;
 }
@@ -443,15 +443,15 @@ export class VpcAddressExternalIpv4AddressOutputReference extends cdktf.ComplexO
 }
 export interface VpcAddressTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#create VpcAddress#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#create VpcAddress#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#delete VpcAddress#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#delete VpcAddress#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#update VpcAddress#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#update VpcAddress#update}
   */
   readonly update?: string;
 }
@@ -603,7 +603,7 @@ export class VpcAddressTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address yandex_vpc_address}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address yandex_vpc_address}
 */
 export class VpcAddress extends cdktf.TerraformResource {
 
@@ -619,7 +619,7 @@ export class VpcAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcAddress to import
-  * @param importFromId The id of the existing VpcAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -631,7 +631,7 @@ export class VpcAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/vpc_address yandex_vpc_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_address yandex_vpc_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -642,8 +642,8 @@ export class VpcAddress extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_vpc_address',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_ddos_policy_cases
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dayu_ddos_policy_cases
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDayuDdosPolicyCasesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_ddos_policy_cases#id DataTencentcloudDayuDdosPolicyCases#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dayu_ddos_policy_cases#id DataTencentcloudDayuDdosPolicyCases#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudDayuDdosPolicyCasesConfig extends cdktf.Terrafo
   /**
   * Type of the resource that the DDoS policy case works for, valid values are `bgpip`, `bgp`, `bgp-multip` and `net`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_ddos_policy_cases#resource_type DataTencentcloudDayuDdosPolicyCases#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dayu_ddos_policy_cases#resource_type DataTencentcloudDayuDdosPolicyCases#resource_type}
   */
   readonly resourceType: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_ddos_policy_cases#result_output_file DataTencentcloudDayuDdosPolicyCases#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dayu_ddos_policy_cases#result_output_file DataTencentcloudDayuDdosPolicyCases#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of the DDoS policy case to be query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_ddos_policy_cases#scene_id DataTencentcloudDayuDdosPolicyCases#scene_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dayu_ddos_policy_cases#scene_id DataTencentcloudDayuDdosPolicyCases#scene_id}
   */
   readonly sceneId: string;
 }
@@ -225,7 +225,7 @@ export class DataTencentcloudDayuDdosPolicyCasesListStructList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_ddos_policy_cases tencentcloud_dayu_ddos_policy_cases}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dayu_ddos_policy_cases tencentcloud_dayu_ddos_policy_cases}
 */
 export class DataTencentcloudDayuDdosPolicyCases extends cdktf.TerraformDataSource {
 
@@ -241,7 +241,7 @@ export class DataTencentcloudDayuDdosPolicyCases extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudDayuDdosPolicyCases resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDayuDdosPolicyCases to import
-  * @param importFromId The id of the existing DataTencentcloudDayuDdosPolicyCases that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_ddos_policy_cases#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDayuDdosPolicyCases that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dayu_ddos_policy_cases#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDayuDdosPolicyCases to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class DataTencentcloudDayuDdosPolicyCases extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_ddos_policy_cases tencentcloud_dayu_ddos_policy_cases} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dayu_ddos_policy_cases tencentcloud_dayu_ddos_policy_cases} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class DataTencentcloudDayuDdosPolicyCases extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_dayu_ddos_policy_cases',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

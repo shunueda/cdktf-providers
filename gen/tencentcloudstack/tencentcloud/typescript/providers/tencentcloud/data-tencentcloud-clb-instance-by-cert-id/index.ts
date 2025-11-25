@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_instance_by_cert_id
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_instance_by_cert_id
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudClbInstanceByCertIdConfig extends cdktf.Terrafo
   /**
   * Server or client certificate ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_instance_by_cert_id#cert_ids DataTencentcloudClbInstanceByCertId#cert_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_instance_by_cert_id#cert_ids DataTencentcloudClbInstanceByCertId#cert_ids}
   */
   readonly certIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_instance_by_cert_id#id DataTencentcloudClbInstanceByCertId#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_instance_by_cert_id#id DataTencentcloudClbInstanceByCertId#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudClbInstanceByCertIdConfig extends cdktf.Terrafo
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_instance_by_cert_id#result_output_file DataTencentcloudClbInstanceByCertId#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_instance_by_cert_id#result_output_file DataTencentcloudClbInstanceByCertId#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -1487,7 +1487,7 @@ export class DataTencentcloudClbInstanceByCertIdCertSetList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_instance_by_cert_id tencentcloud_clb_instance_by_cert_id}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_instance_by_cert_id tencentcloud_clb_instance_by_cert_id}
 */
 export class DataTencentcloudClbInstanceByCertId extends cdktf.TerraformDataSource {
 
@@ -1503,7 +1503,7 @@ export class DataTencentcloudClbInstanceByCertId extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudClbInstanceByCertId resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudClbInstanceByCertId to import
-  * @param importFromId The id of the existing DataTencentcloudClbInstanceByCertId that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_instance_by_cert_id#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudClbInstanceByCertId that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_instance_by_cert_id#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudClbInstanceByCertId to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1515,7 +1515,7 @@ export class DataTencentcloudClbInstanceByCertId extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_instance_by_cert_id tencentcloud_clb_instance_by_cert_id} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_instance_by_cert_id tencentcloud_clb_instance_by_cert_id} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1526,8 +1526,8 @@ export class DataTencentcloudClbInstanceByCertId extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_clb_instance_by_cert_id',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

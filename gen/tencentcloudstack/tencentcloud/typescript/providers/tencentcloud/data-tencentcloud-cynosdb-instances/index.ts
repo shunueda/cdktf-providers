@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudCynosdbInstancesConfig extends cdktf.TerraformM
   /**
   * ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_instances#cluster_id DataTencentcloudCynosdbInstances#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_instances#cluster_id DataTencentcloudCynosdbInstances#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Type of CynosDB, and available values include `MYSQL`, `POSTGRESQL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_instances#db_type DataTencentcloudCynosdbInstances#db_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_instances#db_type DataTencentcloudCynosdbInstances#db_type}
   */
   readonly dbType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_instances#id DataTencentcloudCynosdbInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_instances#id DataTencentcloudCynosdbInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataTencentcloudCynosdbInstancesConfig extends cdktf.TerraformM
   /**
   * ID of the Cynosdb instance to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_instances#instance_id DataTencentcloudCynosdbInstances#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_instances#instance_id DataTencentcloudCynosdbInstances#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Name of the Cynosdb instance to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_instances#instance_name DataTencentcloudCynosdbInstances#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_instances#instance_name DataTencentcloudCynosdbInstances#instance_name}
   */
   readonly instanceName?: string;
   /**
   * ID of the project to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_instances#project_id DataTencentcloudCynosdbInstances#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_instances#project_id DataTencentcloudCynosdbInstances#project_id}
   */
   readonly projectId?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_instances#result_output_file DataTencentcloudCynosdbInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_instances#result_output_file DataTencentcloudCynosdbInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -168,7 +168,7 @@ export class DataTencentcloudCynosdbInstancesInstanceListStructList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_instances tencentcloud_cynosdb_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_instances tencentcloud_cynosdb_instances}
 */
 export class DataTencentcloudCynosdbInstances extends cdktf.TerraformDataSource {
 
@@ -184,7 +184,7 @@ export class DataTencentcloudCynosdbInstances extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudCynosdbInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCynosdbInstances to import
-  * @param importFromId The id of the existing DataTencentcloudCynosdbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCynosdbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCynosdbInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class DataTencentcloudCynosdbInstances extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_instances tencentcloud_cynosdb_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_instances tencentcloud_cynosdb_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class DataTencentcloudCynosdbInstances extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_cynosdb_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

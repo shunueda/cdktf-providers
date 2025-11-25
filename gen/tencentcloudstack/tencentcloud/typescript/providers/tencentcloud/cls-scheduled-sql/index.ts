@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClsScheduledSqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * task enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#enable_flag ClsScheduledSql#enable_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#enable_flag ClsScheduledSql#enable_flag}
   */
   readonly enableFlag: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#id ClsScheduledSql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#id ClsScheduledSql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,73 +23,73 @@ export interface ClsScheduledSqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * task name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#name ClsScheduledSql#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#name ClsScheduledSql#name}
   */
   readonly name: string;
   /**
   * process delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#process_delay ClsScheduledSql#process_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#process_delay ClsScheduledSql#process_delay}
   */
   readonly processDelay: number;
   /**
   * process end timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#process_end_time ClsScheduledSql#process_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#process_end_time ClsScheduledSql#process_end_time}
   */
   readonly processEndTime?: number;
   /**
   * process period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#process_period ClsScheduledSql#process_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#process_period ClsScheduledSql#process_period}
   */
   readonly processPeriod: number;
   /**
   * process start timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#process_start_time ClsScheduledSql#process_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#process_start_time ClsScheduledSql#process_start_time}
   */
   readonly processStartTime: number;
   /**
   * process time window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#process_time_window ClsScheduledSql#process_time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#process_time_window ClsScheduledSql#process_time_window}
   */
   readonly processTimeWindow: string;
   /**
   * process type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#process_type ClsScheduledSql#process_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#process_type ClsScheduledSql#process_type}
   */
   readonly processType: number;
   /**
   * scheduled sql content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#scheduled_sql_content ClsScheduledSql#scheduled_sql_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#scheduled_sql_content ClsScheduledSql#scheduled_sql_content}
   */
   readonly scheduledSqlContent: string;
   /**
   * src topic id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#src_topic_id ClsScheduledSql#src_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#src_topic_id ClsScheduledSql#src_topic_id}
   */
   readonly srcTopicId: string;
   /**
   * src topic region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#src_topic_region ClsScheduledSql#src_topic_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#src_topic_region ClsScheduledSql#src_topic_region}
   */
   readonly srcTopicRegion: string;
   /**
   * syntax rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#syntax_rule ClsScheduledSql#syntax_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#syntax_rule ClsScheduledSql#syntax_rule}
   */
   readonly syntaxRule?: number;
   /**
   * dst_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#dst_resource ClsScheduledSql#dst_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#dst_resource ClsScheduledSql#dst_resource}
   */
   readonly dstResource: ClsScheduledSqlDstResource;
 }
@@ -97,25 +97,25 @@ export interface ClsScheduledSqlDstResource {
   /**
   * topic type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#biz_type ClsScheduledSql#biz_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#biz_type ClsScheduledSql#biz_type}
   */
   readonly bizType?: number;
   /**
   * metric name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#metric_name ClsScheduledSql#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#metric_name ClsScheduledSql#metric_name}
   */
   readonly metricName?: string;
   /**
   * topic region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#region ClsScheduledSql#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#region ClsScheduledSql#region}
   */
   readonly region?: string;
   /**
   * dst topic id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#topic_id ClsScheduledSql#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#topic_id ClsScheduledSql#topic_id}
   */
   readonly topicId: string;
 }
@@ -283,7 +283,7 @@ export class ClsScheduledSqlDstResourceOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql tencentcloud_cls_scheduled_sql}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql tencentcloud_cls_scheduled_sql}
 */
 export class ClsScheduledSql extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class ClsScheduledSql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClsScheduledSql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClsScheduledSql to import
-  * @param importFromId The id of the existing ClsScheduledSql that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClsScheduledSql that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClsScheduledSql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class ClsScheduledSql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cls_scheduled_sql tencentcloud_cls_scheduled_sql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_scheduled_sql tencentcloud_cls_scheduled_sql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class ClsScheduledSql extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_scheduled_sql',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

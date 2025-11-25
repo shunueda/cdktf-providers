@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SmsSignConfig extends cdktf.TerraformMetaArguments {
   /**
   * Power of attorney, which should be submitted if SignPurpose is for use by others. You should Base64-encode the image first, remove the prefix data:image/jpeg;base64, from the resulted string, and then use it as the value of this parameter. Note: this field will take effect only when SignPurpose is 1 (for user by others).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign#commission_image SmsSign#commission_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign#commission_image SmsSign#commission_image}
   */
   readonly commissionImage?: string;
   /**
   * DocumentType is used for enterprise authentication, or website, app authentication, etc. DocumentType: 0, 1, 2, 3, 4, 5, 6, 7, 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign#document_type SmsSign#document_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign#document_type SmsSign#document_type}
   */
   readonly documentType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign#id SmsSign#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign#id SmsSign#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface SmsSignConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether it is Global SMS: 0: Mainland China SMS; 1: Global SMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign#international SmsSign#international}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign#international SmsSign#international}
   */
   readonly international: number;
   /**
   * You should Base64-encode the image of the identity certificate corresponding to the signature first, remove the prefix data:image/jpeg;base64, from the resulted string, and then use it as the value of this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign#proof_image SmsSign#proof_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign#proof_image SmsSign#proof_image}
   */
   readonly proofImage: string;
   /**
   * Signature application remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign#remark SmsSign#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign#remark SmsSign#remark}
   */
   readonly remark?: string;
   /**
   * Sms sign name, unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign#sign_name SmsSign#sign_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign#sign_name SmsSign#sign_name}
   */
   readonly signName: string;
   /**
   * Signature purpose: 0: for personal use; 1: for others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign#sign_purpose SmsSign#sign_purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign#sign_purpose SmsSign#sign_purpose}
   */
   readonly signPurpose: number;
   /**
   * Sms sign type: 0, 1, 2, 3, 4, 5, 6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign#sign_type SmsSign#sign_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign#sign_type SmsSign#sign_type}
   */
   readonly signType: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign tencentcloud_sms_sign}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign tencentcloud_sms_sign}
 */
 export class SmsSign extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class SmsSign extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SmsSign resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmsSign to import
-  * @param importFromId The id of the existing SmsSign that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmsSign that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmsSign to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class SmsSign extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_sign tencentcloud_sms_sign} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sms_sign tencentcloud_sms_sign} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class SmsSign extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sms_sign',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_diag_db_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_diag_db_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDbbrainDiagDbInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_diag_db_instances#id DataTencentcloudDbbrainDiagDbInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_diag_db_instances#id DataTencentcloudDbbrainDiagDbInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataTencentcloudDbbrainDiagDbInstancesConfig extends cdktf.Terr
   /**
   * query based on the instance ID condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_diag_db_instances#instance_ids DataTencentcloudDbbrainDiagDbInstances#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_diag_db_instances#instance_ids DataTencentcloudDbbrainDiagDbInstances#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
   * query based on the instance name condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_diag_db_instances#instance_names DataTencentcloudDbbrainDiagDbInstances#instance_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_diag_db_instances#instance_names DataTencentcloudDbbrainDiagDbInstances#instance_names}
   */
   readonly instanceNames?: string[];
   /**
   * whether it is an instance supported by DBbrain, always pass `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_diag_db_instances#is_supported DataTencentcloudDbbrainDiagDbInstances#is_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_diag_db_instances#is_supported DataTencentcloudDbbrainDiagDbInstances#is_supported}
   */
   readonly isSupported: boolean | cdktf.IResolvable;
   /**
   * service product type, supported values include: `mysql` - cloud database MySQL, `cynosdb` - cloud database TDSQL-C for MySQL, the default is `mysql`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_diag_db_instances#product DataTencentcloudDbbrainDiagDbInstances#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_diag_db_instances#product DataTencentcloudDbbrainDiagDbInstances#product}
   */
   readonly product: string;
   /**
   * query based on geographical conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_diag_db_instances#regions DataTencentcloudDbbrainDiagDbInstances#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_diag_db_instances#regions DataTencentcloudDbbrainDiagDbInstances#regions}
   */
   readonly regions?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_diag_db_instances#result_output_file DataTencentcloudDbbrainDiagDbInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_diag_db_instances#result_output_file DataTencentcloudDbbrainDiagDbInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -364,7 +364,7 @@ export class DataTencentcloudDbbrainDiagDbInstancesItemsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_diag_db_instances tencentcloud_dbbrain_diag_db_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_diag_db_instances tencentcloud_dbbrain_diag_db_instances}
 */
 export class DataTencentcloudDbbrainDiagDbInstances extends cdktf.TerraformDataSource {
 
@@ -380,7 +380,7 @@ export class DataTencentcloudDbbrainDiagDbInstances extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudDbbrainDiagDbInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDbbrainDiagDbInstances to import
-  * @param importFromId The id of the existing DataTencentcloudDbbrainDiagDbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_diag_db_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDbbrainDiagDbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_diag_db_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDbbrainDiagDbInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -392,7 +392,7 @@ export class DataTencentcloudDbbrainDiagDbInstances extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_diag_db_instances tencentcloud_dbbrain_diag_db_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_diag_db_instances tencentcloud_dbbrain_diag_db_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -403,8 +403,8 @@ export class DataTencentcloudDbbrainDiagDbInstances extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_dbbrain_diag_db_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

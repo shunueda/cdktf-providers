@@ -1,3 +1,3 @@
 # `tencentcloud_cfs_access_group`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_cfs_access_group`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfs_access_group).
+Refer to the Terraform Registry for docs: [`tencentcloud_cfs_access_group`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cfs_access_group).

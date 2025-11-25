@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TsfNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace#cluster_id TsfNamespace#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace#cluster_id TsfNamespace#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace#id TsfNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace#id TsfNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface TsfNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * whether to enable high availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace#is_ha_enable TsfNamespace#is_ha_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace#is_ha_enable TsfNamespace#is_ha_enable}
   */
   readonly isHaEnable?: string;
   /**
   * namespace description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace#namespace_desc TsfNamespace#namespace_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace#namespace_desc TsfNamespace#namespace_desc}
   */
   readonly namespaceDesc?: string;
   /**
   * Namespace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace#namespace_id TsfNamespace#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace#namespace_id TsfNamespace#namespace_id}
   */
   readonly namespaceId?: string;
   /**
   * namespace name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace#namespace_name TsfNamespace#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace#namespace_name TsfNamespace#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * namespace resource type (default is DEF).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace#namespace_resource_type TsfNamespace#namespace_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace#namespace_resource_type TsfNamespace#namespace_resource_type}
   */
   readonly namespaceResourceType?: string;
   /**
   * Whether it is a global namespace (the default is DEF, which means a common namespace; GLOBAL means a global namespace).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace#namespace_type TsfNamespace#namespace_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace#namespace_type TsfNamespace#namespace_type}
   */
   readonly namespaceType?: string;
   /**
   * ID of the dataset to be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace#program_id TsfNamespace#program_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace#program_id TsfNamespace#program_id}
   */
   readonly programId?: string;
   /**
   * Program id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace#program_id_list TsfNamespace#program_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace#program_id_list TsfNamespace#program_id_list}
   */
   readonly programIdList?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace tencentcloud_tsf_namespace}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace tencentcloud_tsf_namespace}
 */
 export class TsfNamespace extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class TsfNamespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfNamespace to import
-  * @param importFromId The id of the existing TsfNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class TsfNamespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_namespace tencentcloud_tsf_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tsf_namespace tencentcloud_tsf_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class TsfNamespace extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_namespace',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

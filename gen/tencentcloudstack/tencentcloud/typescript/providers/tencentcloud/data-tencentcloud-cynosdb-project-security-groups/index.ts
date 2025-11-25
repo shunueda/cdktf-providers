@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_project_security_groups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_project_security_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudCynosdbProjectSecurityGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_project_security_groups#id DataTencentcloudCynosdbProjectSecurityGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_project_security_groups#id DataTencentcloudCynosdbProjectSecurityGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudCynosdbProjectSecurityGroupsConfig extends cdkt
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_project_security_groups#project_id DataTencentcloudCynosdbProjectSecurityGroups#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_project_security_groups#project_id DataTencentcloudCynosdbProjectSecurityGroups#project_id}
   */
   readonly projectId?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_project_security_groups#result_output_file DataTencentcloudCynosdbProjectSecurityGroups#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_project_security_groups#result_output_file DataTencentcloudCynosdbProjectSecurityGroups#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Search Keywords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_project_security_groups#search_key DataTencentcloudCynosdbProjectSecurityGroups#search_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_project_security_groups#search_key DataTencentcloudCynosdbProjectSecurityGroups#search_key}
   */
   readonly searchKey?: string;
 }
@@ -362,7 +362,7 @@ export class DataTencentcloudCynosdbProjectSecurityGroupsGroupsList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_project_security_groups tencentcloud_cynosdb_project_security_groups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_project_security_groups tencentcloud_cynosdb_project_security_groups}
 */
 export class DataTencentcloudCynosdbProjectSecurityGroups extends cdktf.TerraformDataSource {
 
@@ -378,7 +378,7 @@ export class DataTencentcloudCynosdbProjectSecurityGroups extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataTencentcloudCynosdbProjectSecurityGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCynosdbProjectSecurityGroups to import
-  * @param importFromId The id of the existing DataTencentcloudCynosdbProjectSecurityGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_project_security_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCynosdbProjectSecurityGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_project_security_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCynosdbProjectSecurityGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -390,7 +390,7 @@ export class DataTencentcloudCynosdbProjectSecurityGroups extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cynosdb_project_security_groups tencentcloud_cynosdb_project_security_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cynosdb_project_security_groups tencentcloud_cynosdb_project_security_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -401,8 +401,8 @@ export class DataTencentcloudCynosdbProjectSecurityGroups extends cdktf.Terrafor
       terraformResourceType: 'tencentcloud_cynosdb_project_security_groups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

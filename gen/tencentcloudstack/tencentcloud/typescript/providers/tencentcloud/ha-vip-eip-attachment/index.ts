@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ha_vip_eip_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ha_vip_eip_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HaVipEipAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Public address of the EIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ha_vip_eip_attachment#address_ip HaVipEipAttachment#address_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ha_vip_eip_attachment#address_ip HaVipEipAttachment#address_ip}
   */
   readonly addressIp: string;
   /**
   * ID of the attached HA VIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ha_vip_eip_attachment#havip_id HaVipEipAttachment#havip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ha_vip_eip_attachment#havip_id HaVipEipAttachment#havip_id}
   */
   readonly havipId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ha_vip_eip_attachment#id HaVipEipAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ha_vip_eip_attachment#id HaVipEipAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface HaVipEipAttachmentConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ha_vip_eip_attachment tencentcloud_ha_vip_eip_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ha_vip_eip_attachment tencentcloud_ha_vip_eip_attachment}
 */
 export class HaVipEipAttachment extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class HaVipEipAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HaVipEipAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HaVipEipAttachment to import
-  * @param importFromId The id of the existing HaVipEipAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ha_vip_eip_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HaVipEipAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ha_vip_eip_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HaVipEipAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class HaVipEipAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ha_vip_eip_attachment tencentcloud_ha_vip_eip_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ha_vip_eip_attachment tencentcloud_ha_vip_eip_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class HaVipEipAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ha_vip_eip_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

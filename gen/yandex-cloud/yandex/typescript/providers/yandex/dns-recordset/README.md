@@ -1,3 +1,3 @@
 # `yandex_dns_recordset`
 
-Refer to the Terraform Registry for docs: [`yandex_dns_recordset`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/dns_recordset).
+Refer to the Terraform Registry for docs: [`yandex_dns_recordset`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dns_recordset).

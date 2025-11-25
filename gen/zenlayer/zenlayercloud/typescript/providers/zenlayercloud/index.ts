@@ -16,6 +16,9 @@ export * as securityGroupAttachment from './security-group-attachment';
 export * as securityGroupRule from './security-group-rule';
 export * as subnet from './subnet';
 export * as trafficBandwidthCluster from './traffic-bandwidth-cluster';
+export * as zdnsZone from './zdns-zone';
+export * as zdnsZoneRecord from './zdns-zone-record';
+export * as zdnsZoneVpcSetAttachment from './zdns-zone-vpc-set-attachment';
 export * as zecBorderGateway from './zec-border-gateway';
 export * as zecBorderGatewayAssociation from './zec-border-gateway-association';
 export * as zecCidr from './zec-cidr';
@@ -72,6 +75,8 @@ export * as dataZenlayercloudSecurityGroups from './data-zenlayercloud-security-
 export * as dataZenlayercloudSubnets from './data-zenlayercloud-subnets';
 export * as dataZenlayercloudTrafficBandwidthClusterAreas from './data-zenlayercloud-traffic-bandwidth-cluster-areas';
 export * as dataZenlayercloudTrafficBandwidthClusters from './data-zenlayercloud-traffic-bandwidth-clusters';
+export * as dataZenlayercloudZdnsZoneRecords from './data-zenlayercloud-zdns-zone-records';
+export * as dataZenlayercloudZdnsZones from './data-zenlayercloud-zdns-zones';
 export * as dataZenlayercloudZecBorderGateways from './data-zenlayercloud-zec-border-gateways';
 export * as dataZenlayercloudZecCidrs from './data-zenlayercloud-zec-cidrs';
 export * as dataZenlayercloudZecDiskSnapshotPolicies from './data-zenlayercloud-zec-disk-snapshot-policies';

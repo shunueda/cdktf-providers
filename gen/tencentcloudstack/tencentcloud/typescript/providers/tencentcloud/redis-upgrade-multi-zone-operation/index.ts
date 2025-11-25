@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_upgrade_multi_zone_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_multi_zone_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RedisUpgradeMultiZoneOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_upgrade_multi_zone_operation#id RedisUpgradeMultiZoneOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_multi_zone_operation#id RedisUpgradeMultiZoneOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface RedisUpgradeMultiZoneOperationConfig extends cdktf.TerraformMet
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_upgrade_multi_zone_operation#instance_id RedisUpgradeMultiZoneOperation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_multi_zone_operation#instance_id RedisUpgradeMultiZoneOperation#instance_id}
   */
   readonly instanceId: string;
   /**
   * After you upgrade Multi-AZ, whether the nearby access feature is supported.true: Supports nearby access.The upgrade process, which requires upgrading both the proxy version and the Redis kernel minor version, involves data migration and can take several hours.false: No need to support nearby access.Upgrading Multi-AZ only involves managing metadata migration, with no service impact, and the upgrade process typically completes within 3 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_upgrade_multi_zone_operation#upgrade_proxy_and_redis_server RedisUpgradeMultiZoneOperation#upgrade_proxy_and_redis_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_multi_zone_operation#upgrade_proxy_and_redis_server RedisUpgradeMultiZoneOperation#upgrade_proxy_and_redis_server}
   */
   readonly upgradeProxyAndRedisServer?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_upgrade_multi_zone_operation tencentcloud_redis_upgrade_multi_zone_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_multi_zone_operation tencentcloud_redis_upgrade_multi_zone_operation}
 */
 export class RedisUpgradeMultiZoneOperation extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class RedisUpgradeMultiZoneOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisUpgradeMultiZoneOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisUpgradeMultiZoneOperation to import
-  * @param importFromId The id of the existing RedisUpgradeMultiZoneOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_upgrade_multi_zone_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisUpgradeMultiZoneOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_multi_zone_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisUpgradeMultiZoneOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class RedisUpgradeMultiZoneOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_upgrade_multi_zone_operation tencentcloud_redis_upgrade_multi_zone_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_multi_zone_operation tencentcloud_redis_upgrade_multi_zone_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class RedisUpgradeMultiZoneOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_redis_upgrade_multi_zone_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

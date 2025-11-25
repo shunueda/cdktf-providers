@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tag_keys
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tag_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudTagKeysConfig extends cdktf.TerraformMetaArgume
   /**
   * Tag type. Valid values: Custom: custom tag; System: system tag; All: all tags. Default value: All.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tag_keys#category DataTencentcloudTagKeys#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tag_keys#category DataTencentcloudTagKeys#category}
   */
   readonly category?: string;
   /**
   * Creator `Uin`. If not specified, `Uin` is only used as the query condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tag_keys#create_uin DataTencentcloudTagKeys#create_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tag_keys#create_uin DataTencentcloudTagKeys#create_uin}
   */
   readonly createUin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tag_keys#id DataTencentcloudTagKeys#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tag_keys#id DataTencentcloudTagKeys#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudTagKeysConfig extends cdktf.TerraformMetaArgume
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tag_keys#result_output_file DataTencentcloudTagKeys#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tag_keys#result_output_file DataTencentcloudTagKeys#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Whether to show project. Allow values: 0: no, 1: yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tag_keys#show_project DataTencentcloudTagKeys#show_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tag_keys#show_project DataTencentcloudTagKeys#show_project}
   */
   readonly showProject?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tag_keys tencentcloud_tag_keys}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tag_keys tencentcloud_tag_keys}
 */
 export class DataTencentcloudTagKeys extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataTencentcloudTagKeys extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudTagKeys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTagKeys to import
-  * @param importFromId The id of the existing DataTencentcloudTagKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tag_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTagKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tag_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTagKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataTencentcloudTagKeys extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/tag_keys tencentcloud_tag_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tag_keys tencentcloud_tag_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataTencentcloudTagKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_tag_keys',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

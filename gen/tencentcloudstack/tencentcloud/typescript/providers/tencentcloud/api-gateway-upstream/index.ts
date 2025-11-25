@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ApiGatewayUpstreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * Load balancing algorithm, value range: ROUND-ROBIN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#algorithm ApiGatewayUpstream#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#algorithm ApiGatewayUpstream#algorithm}
   */
   readonly algorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#id ApiGatewayUpstream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#id ApiGatewayUpstream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface ApiGatewayUpstreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * Request retry count, default to 3 times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#retries ApiGatewayUpstream#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#retries ApiGatewayUpstream#retries}
   */
   readonly retries?: number;
   /**
   * Backend protocol, value range: HTTP, HTTPS, gRPC, gRPCs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#scheme ApiGatewayUpstream#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#scheme ApiGatewayUpstream#scheme}
   */
   readonly scheme: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#tags ApiGatewayUpstream#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#tags ApiGatewayUpstream#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * VPC Unique ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#uniq_vpc_id ApiGatewayUpstream#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#uniq_vpc_id ApiGatewayUpstream#uniq_vpc_id}
   */
   readonly uniqVpcId: string;
   /**
   * Backend channel description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#upstream_description ApiGatewayUpstream#upstream_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#upstream_description ApiGatewayUpstream#upstream_description}
   */
   readonly upstreamDescription?: string;
   /**
   * Host request header forwarded by gateway to backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#upstream_host ApiGatewayUpstream#upstream_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#upstream_host ApiGatewayUpstream#upstream_host}
   */
   readonly upstreamHost?: string;
   /**
   * Backend channel name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#upstream_name ApiGatewayUpstream#upstream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#upstream_name ApiGatewayUpstream#upstream_name}
   */
   readonly upstreamName?: string;
   /**
   * Backend access type, value range: IP_PORT, K8S.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#upstream_type ApiGatewayUpstream#upstream_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#upstream_type ApiGatewayUpstream#upstream_type}
   */
   readonly upstreamType?: string;
   /**
   * health_checker block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#health_checker ApiGatewayUpstream#health_checker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#health_checker ApiGatewayUpstream#health_checker}
   */
   readonly healthChecker?: ApiGatewayUpstreamHealthChecker;
   /**
   * k8s_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#k8s_service ApiGatewayUpstream#k8s_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#k8s_service ApiGatewayUpstream#k8s_service}
   */
   readonly k8SService?: ApiGatewayUpstreamK8SService[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#nodes ApiGatewayUpstream#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#nodes ApiGatewayUpstream#nodes}
   */
   readonly nodes?: ApiGatewayUpstreamNodes[] | cdktf.IResolvable;
 }
@@ -91,67 +91,67 @@ export interface ApiGatewayUpstreamHealthChecker {
   /**
   * Detect the requested path during active health checks. The default is&#39;/&#39;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#active_check_http_path ApiGatewayUpstream#active_check_http_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#active_check_http_path ApiGatewayUpstream#active_check_http_path}
   */
   readonly activeCheckHttpPath?: string;
   /**
   * The time interval for active health checks is 5 seconds by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#active_check_interval ApiGatewayUpstream#active_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#active_check_interval ApiGatewayUpstream#active_check_interval}
   */
   readonly activeCheckInterval?: number;
   /**
   * The detection request for active health check timed out in seconds. The default is 5 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#active_check_timeout ApiGatewayUpstream#active_check_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#active_check_timeout ApiGatewayUpstream#active_check_timeout}
   */
   readonly activeCheckTimeout?: number;
   /**
   * Identify whether active health checks are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#enable_active_check ApiGatewayUpstream#enable_active_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#enable_active_check ApiGatewayUpstream#enable_active_check}
   */
   readonly enableActiveCheck: boolean | cdktf.IResolvable;
   /**
   * Identify whether passive health checks are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#enable_passive_check ApiGatewayUpstream#enable_passive_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#enable_passive_check ApiGatewayUpstream#enable_passive_check}
   */
   readonly enablePassiveCheck: boolean | cdktf.IResolvable;
   /**
   * The HTTP status code that determines a successful request during a health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#healthy_http_status ApiGatewayUpstream#healthy_http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#healthy_http_status ApiGatewayUpstream#healthy_http_status}
   */
   readonly healthyHttpStatus: string;
   /**
   * HTTP continuous error threshold. 0 means HTTP checking is disabled. Value range: [0, 254].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#http_failure_threshold ApiGatewayUpstream#http_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#http_failure_threshold ApiGatewayUpstream#http_failure_threshold}
   */
   readonly httpFailureThreshold: number;
   /**
   * TCP continuous error threshold. 0 indicates disabling TCP checking. Value range: [0, 254].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#tcp_failure_threshold ApiGatewayUpstream#tcp_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#tcp_failure_threshold ApiGatewayUpstream#tcp_failure_threshold}
   */
   readonly tcpFailureThreshold: number;
   /**
   * Continuous timeout threshold. 0 indicates disabling timeout checking. Value range: [0, 254].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#timeout_threshold ApiGatewayUpstream#timeout_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#timeout_threshold ApiGatewayUpstream#timeout_threshold}
   */
   readonly timeoutThreshold: number;
   /**
   * The HTTP status code that determines a failed request during a health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#unhealthy_http_status ApiGatewayUpstream#unhealthy_http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#unhealthy_http_status ApiGatewayUpstream#unhealthy_http_status}
   */
   readonly unhealthyHttpStatus: string;
   /**
   * The automatic recovery time of abnormal node status, in seconds. When only passive checking is enabled, it must be set to a value&gt;0, otherwise the passive exception node will not be able to recover. The default is 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#unhealthy_timeout ApiGatewayUpstream#unhealthy_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#unhealthy_timeout ApiGatewayUpstream#unhealthy_timeout}
   */
   readonly unhealthyTimeout?: number;
 }
@@ -506,13 +506,13 @@ export interface ApiGatewayUpstreamK8SServiceExtraLabels {
   /**
   * Key of Label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#key ApiGatewayUpstream#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#key ApiGatewayUpstream#key}
   */
   readonly key: string;
   /**
   * Value of Label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#value ApiGatewayUpstream#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#value ApiGatewayUpstream#value}
   */
   readonly value: string;
 }
@@ -653,43 +653,43 @@ export interface ApiGatewayUpstreamK8SService {
   /**
   * K8s cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#cluster_id ApiGatewayUpstream#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#cluster_id ApiGatewayUpstream#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Customized service name, optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#name ApiGatewayUpstream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#name ApiGatewayUpstream#name}
   */
   readonly name?: string;
   /**
   * Container namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#namespace ApiGatewayUpstream#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#namespace ApiGatewayUpstream#namespace}
   */
   readonly namespace: string;
   /**
   * Port of service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#port ApiGatewayUpstream#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#port ApiGatewayUpstream#port}
   */
   readonly port: number;
   /**
   * The name of the container service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#service_name ApiGatewayUpstream#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#service_name ApiGatewayUpstream#service_name}
   */
   readonly serviceName: string;
   /**
   * weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#weight ApiGatewayUpstream#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#weight ApiGatewayUpstream#weight}
   */
   readonly weight: number;
   /**
   * extra_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#extra_labels ApiGatewayUpstream#extra_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#extra_labels ApiGatewayUpstream#extra_labels}
   */
   readonly extraLabels: ApiGatewayUpstreamK8SServiceExtraLabels[] | cdktf.IResolvable;
 }
@@ -963,61 +963,61 @@ export interface ApiGatewayUpstreamNodes {
   /**
   * The ID of the TKE clusterNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#cluster_id ApiGatewayUpstream#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#cluster_id ApiGatewayUpstream#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * IP or domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#host ApiGatewayUpstream#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#host ApiGatewayUpstream#host}
   */
   readonly host: string;
   /**
   * K8S namespaceNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#name_space ApiGatewayUpstream#name_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#name_space ApiGatewayUpstream#name_space}
   */
   readonly nameSpace?: string;
   /**
   * Port [0, 65535].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#port ApiGatewayUpstream#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#port ApiGatewayUpstream#port}
   */
   readonly port: number;
   /**
   * K8S container service nameNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#service_name ApiGatewayUpstream#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#service_name ApiGatewayUpstream#service_name}
   */
   readonly serviceName?: string;
   /**
   * Source of Node, value range: K8SNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#source ApiGatewayUpstream#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#source ApiGatewayUpstream#source}
   */
   readonly source?: string;
   /**
   * Dye labelNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#tags ApiGatewayUpstream#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#tags ApiGatewayUpstream#tags}
   */
   readonly tags?: string[];
   /**
   * Unique service name recorded internally by API gatewayNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#unique_service_name ApiGatewayUpstream#unique_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#unique_service_name ApiGatewayUpstream#unique_service_name}
   */
   readonly uniqueServiceName?: string;
   /**
   * CVM instance IDNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#vm_instance_id ApiGatewayUpstream#vm_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#vm_instance_id ApiGatewayUpstream#vm_instance_id}
   */
   readonly vmInstanceId?: string;
   /**
   * Weight [0, 100], 0 is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#weight ApiGatewayUpstream#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#weight ApiGatewayUpstream#weight}
   */
   readonly weight: number;
 }
@@ -1385,7 +1385,7 @@ export class ApiGatewayUpstreamNodesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream tencentcloud_api_gateway_upstream}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream tencentcloud_api_gateway_upstream}
 */
 export class ApiGatewayUpstream extends cdktf.TerraformResource {
 
@@ -1401,7 +1401,7 @@ export class ApiGatewayUpstream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayUpstream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayUpstream to import
-  * @param importFromId The id of the existing ApiGatewayUpstream that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayUpstream that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayUpstream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1413,7 +1413,7 @@ export class ApiGatewayUpstream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/api_gateway_upstream tencentcloud_api_gateway_upstream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_upstream tencentcloud_api_gateway_upstream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1424,8 +1424,8 @@ export class ApiGatewayUpstream extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_api_gateway_upstream',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

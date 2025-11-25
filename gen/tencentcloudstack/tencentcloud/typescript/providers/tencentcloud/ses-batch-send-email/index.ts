@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SesBatchSendEmailConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to add an ad tag. 0: Add no tag; 1: Add before the subject; 2: Add after the subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#ad_location SesBatchSendEmail#ad_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#ad_location SesBatchSendEmail#ad_location}
   */
   readonly adLocation?: number;
   /**
   * Sender address. Enter a sender address such as noreply@mail.qcloud.com. To display the sender name, enter the address in the following format:sender &amp;amp;lt;email address&amp;amp;gt;. For example:Tencent Cloud team &amp;amp;lt;noreply@mail.qcloud.com&amp;amp;gt;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#from_email_address SesBatchSendEmail#from_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#from_email_address SesBatchSendEmail#from_email_address}
   */
   readonly fromEmailAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#id SesBatchSendEmail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#id SesBatchSendEmail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface SesBatchSendEmailConfig extends cdktf.TerraformMetaArguments {
   /**
   * Recipient group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#receiver_id SesBatchSendEmail#receiver_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#receiver_id SesBatchSendEmail#receiver_id}
   */
   readonly receiverId: number;
   /**
   * Reply-to address. You can enter a valid personal email address that can receive emails. If this parameter is left empty, reply emails will fail to be sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#reply_to_addresses SesBatchSendEmail#reply_to_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#reply_to_addresses SesBatchSendEmail#reply_to_addresses}
   */
   readonly replyToAddresses?: string;
   /**
   * Email subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#subject SesBatchSendEmail#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#subject SesBatchSendEmail#subject}
   */
   readonly subject: string;
   /**
   * Task type. 1: immediate; 2: scheduled; 3: recurring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#task_type SesBatchSendEmail#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#task_type SesBatchSendEmail#task_type}
   */
   readonly taskType: number;
   /**
   * Unsubscribe link option.  0: Do not add unsubscribe link; 1: English 2: Simplified Chinese;  3: Traditional Chinese; 4: Spanish; 5: French;  6: German; 7: Japanese; 8: Korean;  9: Arabic; 10: Thai.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#unsubscribe SesBatchSendEmail#unsubscribe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#unsubscribe SesBatchSendEmail#unsubscribe}
   */
   readonly unsubscribe?: string;
   /**
   * attachments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#attachments SesBatchSendEmail#attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#attachments SesBatchSendEmail#attachments}
   */
   readonly attachments?: SesBatchSendEmailAttachments[] | cdktf.IResolvable;
   /**
   * cycle_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#cycle_param SesBatchSendEmail#cycle_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#cycle_param SesBatchSendEmail#cycle_param}
   */
   readonly cycleParam?: SesBatchSendEmailCycleParam;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#template SesBatchSendEmail#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#template SesBatchSendEmail#template}
   */
   readonly template?: SesBatchSendEmailTemplate;
   /**
   * timed_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#timed_param SesBatchSendEmail#timed_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#timed_param SesBatchSendEmail#timed_param}
   */
   readonly timedParam?: SesBatchSendEmailTimedParam;
 }
@@ -85,13 +85,13 @@ export interface SesBatchSendEmailAttachments {
   /**
   * Base64-encoded attachment content. You can send attachments of up to 4 MB in the total size.Note: The TencentCloud API supports a request packet of up to 8 MB in size, and the size of the attachmentcontent will increase by 1.5 times after Base64 encoding. Therefore, you need to keep the total size of allattachments below 4 MB. If the entire request exceeds 8 MB, the API will return an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#content SesBatchSendEmail#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#content SesBatchSendEmail#content}
   */
   readonly content: string;
   /**
   * Attachment name, which cannot exceed 255 characters. Some attachment types are not supported. For details, see [Attachment Types.](https://www.tencentcloud.com/document/product/1084/42373?has_map=1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#file_name SesBatchSendEmail#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#file_name SesBatchSendEmail#file_name}
   */
   readonly fileName: string;
 }
@@ -232,19 +232,19 @@ export interface SesBatchSendEmailCycleParam {
   /**
   * Start time of the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#begin_time SesBatchSendEmail#begin_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#begin_time SesBatchSendEmail#begin_time}
   */
   readonly beginTime: string;
   /**
   * Task recurrence in hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#interval_time SesBatchSendEmail#interval_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#interval_time SesBatchSendEmail#interval_time}
   */
   readonly intervalTime: number;
   /**
   * Specifies whether to end the cycle. This parameter is used to update the task. Valid values: 0: No; 1: Yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#term_cycle SesBatchSendEmail#term_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#term_cycle SesBatchSendEmail#term_cycle}
   */
   readonly termCycle?: number;
 }
@@ -382,13 +382,13 @@ export interface SesBatchSendEmailTemplate {
   /**
   * Variable parameters in the template. Please use json.dump to format the JSON object into a string type.The object is a set of key-value pairs. Each key denotes a variable, which is represented by {{key}}. The key will be replaced with the correspondingvalue (represented by {{value}}) when sending the email.Note: The parameter value cannot be data of a complex type such as HTML.Example: {name:xxx,age:xx}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#template_data SesBatchSendEmail#template_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#template_data SesBatchSendEmail#template_data}
   */
   readonly templateData: string;
   /**
   * Template ID. If you do not have any template, please create one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#template_id SesBatchSendEmail#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#template_id SesBatchSendEmail#template_id}
   */
   readonly templateId: number;
 }
@@ -497,7 +497,7 @@ export interface SesBatchSendEmailTimedParam {
   /**
   * Start time of a scheduled sending task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#begin_time SesBatchSendEmail#begin_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#begin_time SesBatchSendEmail#begin_time}
   */
   readonly beginTime: string;
 }
@@ -578,7 +578,7 @@ export class SesBatchSendEmailTimedParamOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email tencentcloud_ses_batch_send_email}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email tencentcloud_ses_batch_send_email}
 */
 export class SesBatchSendEmail extends cdktf.TerraformResource {
 
@@ -594,7 +594,7 @@ export class SesBatchSendEmail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SesBatchSendEmail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesBatchSendEmail to import
-  * @param importFromId The id of the existing SesBatchSendEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesBatchSendEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesBatchSendEmail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -606,7 +606,7 @@ export class SesBatchSendEmail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ses_batch_send_email tencentcloud_ses_batch_send_email} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ses_batch_send_email tencentcloud_ses_batch_send_email} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -617,8 +617,8 @@ export class SesBatchSendEmail extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ses_batch_send_email',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

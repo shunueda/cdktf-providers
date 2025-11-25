@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface DataTencentcloudRumEventUrlConfig extends cdktf.TerraformMetaAr
   /**
   * The region where the data reporting takes place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#area DataTencentcloudRumEventUrl#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#area DataTencentcloudRumEventUrl#area}
   */
   readonly area?: string;
   /**
   * The mobile phone brand used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#brand DataTencentcloudRumEventUrl#brand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#brand DataTencentcloudRumEventUrl#brand}
   */
   readonly brand?: string;
   /**
   * The browser type used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#browser DataTencentcloudRumEventUrl#browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#browser DataTencentcloudRumEventUrl#browser}
   */
   readonly browser?: string;
   /**
   * The device used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#device DataTencentcloudRumEventUrl#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#device DataTencentcloudRumEventUrl#device}
   */
   readonly device?: string;
   /**
   * End time but is represented using a timestamp in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#end_time DataTencentcloudRumEventUrl#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#end_time DataTencentcloudRumEventUrl#end_time}
   */
   readonly endTime: number;
   /**
   * The browser engine used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#engine DataTencentcloudRumEventUrl#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#engine DataTencentcloudRumEventUrl#engine}
   */
   readonly engine?: string;
   /**
   * The code environment where the data reporting takes place.(`production`: production env, `development`: development env, `gray`: gray env, `pre`: pre env, `daily`: daily env, `local`: local env, `others`: others env).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#env DataTencentcloudRumEventUrl#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#env DataTencentcloudRumEventUrl#env}
   */
   readonly env?: string;
   /**
   * First Expansion parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#ext_first DataTencentcloudRumEventUrl#ext_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#ext_first DataTencentcloudRumEventUrl#ext_first}
   */
   readonly extFirst?: string;
   /**
   * Second Expansion parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#ext_second DataTencentcloudRumEventUrl#ext_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#ext_second DataTencentcloudRumEventUrl#ext_second}
   */
   readonly extSecond?: string;
   /**
   * Third Expansion parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#ext_third DataTencentcloudRumEventUrl#ext_third}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#ext_third DataTencentcloudRumEventUrl#ext_third}
   */
   readonly extThird?: string;
   /**
   * The source page of the data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#from DataTencentcloudRumEventUrl#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#from DataTencentcloudRumEventUrl#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#id DataTencentcloudRumEventUrl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#id DataTencentcloudRumEventUrl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,79 +83,79 @@ export interface DataTencentcloudRumEventUrlConfig extends cdktf.TerraformMetaAr
   /**
   * Whether it is non-China region.`1`: yes; `0`: no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#is_abroad DataTencentcloudRumEventUrl#is_abroad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#is_abroad DataTencentcloudRumEventUrl#is_abroad}
   */
   readonly isAbroad?: string;
   /**
   * The internet service provider used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#isp DataTencentcloudRumEventUrl#isp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#isp DataTencentcloudRumEventUrl#isp}
   */
   readonly isp?: string;
   /**
   * Log level for data reporting(`1`: whitelist, `2`: normal, `4`: error, `8`: promise error, `16`: ajax request error, `32`: js resource load error, `64`: image resource load error, `128`: css resource load error, `256`: console.error, `512`: video resource load error, `1024`: request retcode error, `2048`: sdk self monitor error, `4096`: pv log, `8192`: event log).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#level DataTencentcloudRumEventUrl#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#level DataTencentcloudRumEventUrl#level}
   */
   readonly level?: string;
   /**
   * Event name for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#name DataTencentcloudRumEventUrl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#name DataTencentcloudRumEventUrl#name}
   */
   readonly name?: string;
   /**
   * The network type used for data reporting.(`1`: Wifi, `2`: 2G, `3`: 3G, `4`: 4G, `5`: 5G, `6`: 6G, `100`: Unknown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#net_type DataTencentcloudRumEventUrl#net_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#net_type DataTencentcloudRumEventUrl#net_type}
   */
   readonly netType?: string;
   /**
   * The operating system used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#os DataTencentcloudRumEventUrl#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#os DataTencentcloudRumEventUrl#os}
   */
   readonly os?: string;
   /**
   * The platform where the data reporting takes place.(`1`: Android, `2`: IOS, `3`: Windows, `4`: Mac, `5`: Linux, `100`: Other).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#platform DataTencentcloudRumEventUrl#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#platform DataTencentcloudRumEventUrl#platform}
   */
   readonly platform?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#project_id DataTencentcloudRumEventUrl#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#project_id DataTencentcloudRumEventUrl#project_id}
   */
   readonly projectId: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#result_output_file DataTencentcloudRumEventUrl#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#result_output_file DataTencentcloudRumEventUrl#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start time but is represented using a timestamp in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#start_time DataTencentcloudRumEventUrl#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#start_time DataTencentcloudRumEventUrl#start_time}
   */
   readonly startTime: number;
   /**
   * Query Data Type. `allcount`:CostType allcount, `day`:CostType group by day, `condition`:CostType group by condition, `ckuv`:CostType group by uv, `ckpv`:CostType group by pv, `nettype`: CostType sort by nettype, `version`: CostType sort by version, `platform`: CostType sort by platform, `isp`: CostType sort by isp, `region`: CostType sort by region, `device`: CostType sort by device, `browser`: CostType sort by browser, `ext1`: CostType sort by ext1, `ext2`: CostType sort by ext2, `ext3`: CostType sort by ext3, `ret`: CostType sort by ret, `status`: CostType sort by status, `from`: CostType sort by from, `url`: CostType sort by url, `env`: CostType sort by env.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#type DataTencentcloudRumEventUrl#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#type DataTencentcloudRumEventUrl#type}
   */
   readonly type: string;
   /**
   * The SDK version used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#version_num DataTencentcloudRumEventUrl#version_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#version_num DataTencentcloudRumEventUrl#version_num}
   */
   readonly versionNum?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url tencentcloud_rum_event_url}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url tencentcloud_rum_event_url}
 */
 export class DataTencentcloudRumEventUrl extends cdktf.TerraformDataSource {
 
@@ -171,7 +171,7 @@ export class DataTencentcloudRumEventUrl extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudRumEventUrl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudRumEventUrl to import
-  * @param importFromId The id of the existing DataTencentcloudRumEventUrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudRumEventUrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudRumEventUrl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class DataTencentcloudRumEventUrl extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/rum_event_url tencentcloud_rum_event_url} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/rum_event_url tencentcloud_rum_event_url} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class DataTencentcloudRumEventUrl extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_rum_event_url',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

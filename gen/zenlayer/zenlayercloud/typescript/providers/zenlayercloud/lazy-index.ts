@@ -16,6 +16,9 @@ Object.defineProperty(exports, 'securityGroupAttachment', { get: function () { r
 Object.defineProperty(exports, 'securityGroupRule', { get: function () { return require('./security-group-rule'); } });
 Object.defineProperty(exports, 'subnet', { get: function () { return require('./subnet'); } });
 Object.defineProperty(exports, 'trafficBandwidthCluster', { get: function () { return require('./traffic-bandwidth-cluster'); } });
+Object.defineProperty(exports, 'zdnsZone', { get: function () { return require('./zdns-zone'); } });
+Object.defineProperty(exports, 'zdnsZoneRecord', { get: function () { return require('./zdns-zone-record'); } });
+Object.defineProperty(exports, 'zdnsZoneVpcSetAttachment', { get: function () { return require('./zdns-zone-vpc-set-attachment'); } });
 Object.defineProperty(exports, 'zecBorderGateway', { get: function () { return require('./zec-border-gateway'); } });
 Object.defineProperty(exports, 'zecBorderGatewayAssociation', { get: function () { return require('./zec-border-gateway-association'); } });
 Object.defineProperty(exports, 'zecCidr', { get: function () { return require('./zec-cidr'); } });
@@ -72,6 +75,8 @@ Object.defineProperty(exports, 'dataZenlayercloudSecurityGroups', { get: functio
 Object.defineProperty(exports, 'dataZenlayercloudSubnets', { get: function () { return require('./data-zenlayercloud-subnets'); } });
 Object.defineProperty(exports, 'dataZenlayercloudTrafficBandwidthClusterAreas', { get: function () { return require('./data-zenlayercloud-traffic-bandwidth-cluster-areas'); } });
 Object.defineProperty(exports, 'dataZenlayercloudTrafficBandwidthClusters', { get: function () { return require('./data-zenlayercloud-traffic-bandwidth-clusters'); } });
+Object.defineProperty(exports, 'dataZenlayercloudZdnsZoneRecords', { get: function () { return require('./data-zenlayercloud-zdns-zone-records'); } });
+Object.defineProperty(exports, 'dataZenlayercloudZdnsZones', { get: function () { return require('./data-zenlayercloud-zdns-zones'); } });
 Object.defineProperty(exports, 'dataZenlayercloudZecBorderGateways', { get: function () { return require('./data-zenlayercloud-zec-border-gateways'); } });
 Object.defineProperty(exports, 'dataZenlayercloudZecCidrs', { get: function () { return require('./data-zenlayercloud-zec-cidrs'); } });
 Object.defineProperty(exports, 'dataZenlayercloudZecDiskSnapshotPolicies', { get: function () { return require('./data-zenlayercloud-zec-disk-snapshot-policies'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface MdbPostgresqlClusterConfig extends cdktf.TerraformMetaArguments
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#deletion_protection MdbPostgresqlCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#deletion_protection MdbPostgresqlCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#description MdbPostgresqlCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#description MdbPostgresqlCluster#description}
   */
   readonly description?: string;
   /**
   * ID of the KMS key for cluster disk encryption. Restoring without an encryption key will disable encryption if any exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#disk_encryption_key_id MdbPostgresqlCluster#disk_encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#disk_encryption_key_id MdbPostgresqlCluster#disk_encryption_key_id}
   */
   readonly diskEncryptionKeyId?: string;
   /**
   * Deployment environment of the PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#environment MdbPostgresqlCluster#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#environment MdbPostgresqlCluster#environment}
   */
   readonly environment: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#folder_id MdbPostgresqlCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#folder_id MdbPostgresqlCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * Host Group IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#host_group_ids MdbPostgresqlCluster#host_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#host_group_ids MdbPostgresqlCluster#host_group_ids}
   */
   readonly hostGroupIds?: string[];
   /**
   * Deprecated field. Will be removed in future versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#host_master_name MdbPostgresqlCluster#host_master_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#host_master_name MdbPostgresqlCluster#host_master_name}
   */
   readonly hostMasterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#id MdbPostgresqlCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#id MdbPostgresqlCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,67 +59,67 @@ export interface MdbPostgresqlClusterConfig extends cdktf.TerraformMetaArguments
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#labels MdbPostgresqlCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#labels MdbPostgresqlCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#name MdbPostgresqlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#name MdbPostgresqlCluster#name}
   */
   readonly name: string;
   /**
   * The `VPC Network ID` of subnets which resource attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#network_id MdbPostgresqlCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#network_id MdbPostgresqlCluster#network_id}
   */
   readonly networkId: string;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#security_group_ids MdbPostgresqlCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#security_group_ids MdbPostgresqlCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#config MdbPostgresqlCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#config MdbPostgresqlCluster#config}
   */
   readonly config: MdbPostgresqlClusterConfigA;
   /**
   * database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#database MdbPostgresqlCluster#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#database MdbPostgresqlCluster#database}
   */
   readonly database?: MdbPostgresqlClusterDatabase[] | cdktf.IResolvable;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#host MdbPostgresqlCluster#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#host MdbPostgresqlCluster#host}
   */
   readonly host: MdbPostgresqlClusterHost[] | cdktf.IResolvable;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#maintenance_window MdbPostgresqlCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#maintenance_window MdbPostgresqlCluster#maintenance_window}
   */
   readonly maintenanceWindow?: MdbPostgresqlClusterMaintenanceWindow;
   /**
   * restore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#restore MdbPostgresqlCluster#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#restore MdbPostgresqlCluster#restore}
   */
   readonly restore?: MdbPostgresqlClusterRestore;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#timeouts MdbPostgresqlCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#timeouts MdbPostgresqlCluster#timeouts}
   */
   readonly timeouts?: MdbPostgresqlClusterTimeouts;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#user MdbPostgresqlCluster#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#user MdbPostgresqlCluster#user}
   */
   readonly user?: MdbPostgresqlClusterUser[] | cdktf.IResolvable;
 }
@@ -127,25 +127,25 @@ export interface MdbPostgresqlClusterConfigAccess {
   /**
   * Allow access for [Yandex DataLens](https://yandex.cloud/services/datalens).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#data_lens MdbPostgresqlCluster#data_lens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#data_lens MdbPostgresqlCluster#data_lens}
   */
   readonly dataLens?: boolean | cdktf.IResolvable;
   /**
   * Allow access for [DataTransfer](https://yandex.cloud/services/data-transfer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#data_transfer MdbPostgresqlCluster#data_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#data_transfer MdbPostgresqlCluster#data_transfer}
   */
   readonly dataTransfer?: boolean | cdktf.IResolvable;
   /**
   * Allow access for [connection to managed databases from functions](https://yandex.cloud/docs/functions/operations/database-connection).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#serverless MdbPostgresqlCluster#serverless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#serverless MdbPostgresqlCluster#serverless}
   */
   readonly serverless?: boolean | cdktf.IResolvable;
   /**
   * Allow access for [SQL queries in the management console](https://yandex.cloud/docs/managed-postgresql/operations/web-sql-query).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#web_sql MdbPostgresqlCluster#web_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#web_sql MdbPostgresqlCluster#web_sql}
   */
   readonly webSql?: boolean | cdktf.IResolvable;
 }
@@ -318,13 +318,13 @@ export interface MdbPostgresqlClusterConfigBackupWindowStart {
   /**
   * The hour at which backup will be started (UTC).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#hours MdbPostgresqlCluster#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#hours MdbPostgresqlCluster#hours}
   */
   readonly hours?: number;
   /**
   * The minute at which backup will be started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#minutes MdbPostgresqlCluster#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#minutes MdbPostgresqlCluster#minutes}
   */
   readonly minutes?: number;
 }
@@ -439,19 +439,19 @@ export interface MdbPostgresqlClusterConfigDiskSizeAutoscaling {
   /**
   * The overall maximum for disk size that limit all autoscaling iterations. See the [documentation](https://yandex.cloud/en/docs/managed-postgresql/concepts/storage#auto-rescale) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#disk_size_limit MdbPostgresqlCluster#disk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#disk_size_limit MdbPostgresqlCluster#disk_size_limit}
   */
   readonly diskSizeLimit: number;
   /**
   * Threshold of storage usage (in percent) that triggers immediate automatic scaling of the storage. Zero value means disabled threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#emergency_usage_threshold MdbPostgresqlCluster#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#emergency_usage_threshold MdbPostgresqlCluster#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Threshold of storage usage (in percent) that triggers automatic scaling of the storage during the maintenance window. Zero value means disabled threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#planned_usage_threshold MdbPostgresqlCluster#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#planned_usage_threshold MdbPostgresqlCluster#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -592,19 +592,19 @@ export interface MdbPostgresqlClusterConfigPerformanceDiagnostics {
   /**
   * Enable performance diagnostics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#enabled MdbPostgresqlCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#enabled MdbPostgresqlCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Interval (in seconds) for pg_stat_activity sampling. Acceptable values are 1 to 86400, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#sessions_sampling_interval MdbPostgresqlCluster#sessions_sampling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#sessions_sampling_interval MdbPostgresqlCluster#sessions_sampling_interval}
   */
   readonly sessionsSamplingInterval: number;
   /**
   * Interval (in seconds) for pg_stat_statements sampling. Acceptable values are 1 to 86400, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#statements_sampling_interval MdbPostgresqlCluster#statements_sampling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#statements_sampling_interval MdbPostgresqlCluster#statements_sampling_interval}
   */
   readonly statementsSamplingInterval: number;
 }
@@ -742,13 +742,13 @@ export interface MdbPostgresqlClusterConfigPoolerConfig {
   /**
   * Setting `pool_discard` [parameter in Odyssey](https://github.com/yandex/odyssey/blob/master/documentation/configuration.md#pool_discard-yesno).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#pool_discard MdbPostgresqlCluster#pool_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#pool_discard MdbPostgresqlCluster#pool_discard}
   */
   readonly poolDiscard?: boolean | cdktf.IResolvable;
   /**
   * Mode that the connection pooler is working in. See descriptions of all modes in the [documentation for Odyssey](https://github.com/yandex/odyssey/blob/master/documentation/configuration.md#pool-string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#pooling_mode MdbPostgresqlCluster#pooling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#pooling_mode MdbPostgresqlCluster#pooling_mode}
   */
   readonly poolingMode?: string;
 }
@@ -863,19 +863,19 @@ export interface MdbPostgresqlClusterConfigResources {
   /**
   * Volume of the storage available to a PostgreSQL host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#disk_size MdbPostgresqlCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#disk_size MdbPostgresqlCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of PostgreSQL hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#disk_type_id MdbPostgresqlCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#disk_type_id MdbPostgresqlCluster#disk_type_id}
   */
   readonly diskTypeId?: string;
   /**
   * The ID of the preset for computational resources available to a PostgreSQL host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-postgresql/concepts/instance-types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#resource_preset_id MdbPostgresqlCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#resource_preset_id MdbPostgresqlCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -1013,61 +1013,61 @@ export interface MdbPostgresqlClusterConfigA {
   /**
   * Configuration setting which enables/disables autofailover in cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#autofailover MdbPostgresqlCluster#autofailover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#autofailover MdbPostgresqlCluster#autofailover}
   */
   readonly autofailover?: boolean | cdktf.IResolvable;
   /**
   * The period in days during which backups are stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#backup_retain_period_days MdbPostgresqlCluster#backup_retain_period_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#backup_retain_period_days MdbPostgresqlCluster#backup_retain_period_days}
   */
   readonly backupRetainPeriodDays?: number;
   /**
   * PostgreSQL cluster configuration. For detailed information specific to your PostgreSQL version, please refer to the [API proto specifications](https://github.com/yandex-cloud/cloudapi/tree/master/yandex/cloud/mdb/postgresql/v1/config).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#postgresql_config MdbPostgresqlCluster#postgresql_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#postgresql_config MdbPostgresqlCluster#postgresql_config}
   */
   readonly postgresqlConfig?: { [key: string]: string };
   /**
   * Version of the PostgreSQL cluster. (allowed versions are: 13, 13-1c, 14, 14-1c, 15, 15-1c, 16, 17).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#version MdbPostgresqlCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#version MdbPostgresqlCluster#version}
   */
   readonly version: string;
   /**
   * access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#access MdbPostgresqlCluster#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#access MdbPostgresqlCluster#access}
   */
   readonly access?: MdbPostgresqlClusterConfigAccess;
   /**
   * backup_window_start block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#backup_window_start MdbPostgresqlCluster#backup_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#backup_window_start MdbPostgresqlCluster#backup_window_start}
   */
   readonly backupWindowStart?: MdbPostgresqlClusterConfigBackupWindowStart;
   /**
   * disk_size_autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#disk_size_autoscaling MdbPostgresqlCluster#disk_size_autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#disk_size_autoscaling MdbPostgresqlCluster#disk_size_autoscaling}
   */
   readonly diskSizeAutoscaling?: MdbPostgresqlClusterConfigDiskSizeAutoscaling;
   /**
   * performance_diagnostics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#performance_diagnostics MdbPostgresqlCluster#performance_diagnostics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#performance_diagnostics MdbPostgresqlCluster#performance_diagnostics}
   */
   readonly performanceDiagnostics?: MdbPostgresqlClusterConfigPerformanceDiagnostics;
   /**
   * pooler_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#pooler_config MdbPostgresqlCluster#pooler_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#pooler_config MdbPostgresqlCluster#pooler_config}
   */
   readonly poolerConfig?: MdbPostgresqlClusterConfigPoolerConfig;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#resources MdbPostgresqlCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#resources MdbPostgresqlCluster#resources}
   */
   readonly resources: MdbPostgresqlClusterConfigResources;
 }
@@ -1408,13 +1408,13 @@ export interface MdbPostgresqlClusterDatabaseExtension {
   /**
   * Name of the database extension. For more information on available extensions see [the official documentation](https://yandex.cloud/docs/managed-postgresql/operations/cluster-extensions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#name MdbPostgresqlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#name MdbPostgresqlCluster#name}
   */
   readonly name: string;
   /**
   * Version of the extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#version MdbPostgresqlCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#version MdbPostgresqlCluster#version}
   */
   readonly version?: string;
 }
@@ -1558,37 +1558,37 @@ export interface MdbPostgresqlClusterDatabase {
   /**
   * POSIX locale for string sorting order. Forbidden to change in an existing database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#lc_collate MdbPostgresqlCluster#lc_collate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#lc_collate MdbPostgresqlCluster#lc_collate}
   */
   readonly lcCollate?: string;
   /**
   * POSIX locale for character classification. Forbidden to change in an existing database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#lc_type MdbPostgresqlCluster#lc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#lc_type MdbPostgresqlCluster#lc_type}
   */
   readonly lcType?: string;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#name MdbPostgresqlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#name MdbPostgresqlCluster#name}
   */
   readonly name: string;
   /**
   * Name of the user assigned as the owner of the database. Forbidden to change in an existing database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#owner MdbPostgresqlCluster#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#owner MdbPostgresqlCluster#owner}
   */
   readonly owner: string;
   /**
   * Name of the template database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#template_db MdbPostgresqlCluster#template_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#template_db MdbPostgresqlCluster#template_db}
   */
   readonly templateDb?: string;
   /**
   * extension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#extension MdbPostgresqlCluster#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#extension MdbPostgresqlCluster#extension}
   */
   readonly extension?: MdbPostgresqlClusterDatabaseExtension[] | cdktf.IResolvable;
 }
@@ -1845,37 +1845,37 @@ export interface MdbPostgresqlClusterHost {
   /**
   * Whether the host should get a public IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#assign_public_ip MdbPostgresqlCluster#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#assign_public_ip MdbPostgresqlCluster#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Host state name. It should be set for all hosts or unset for all hosts. This field can be used by another host, to select which host will be its replication source. Please see `replication_source_name` parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#name MdbPostgresqlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#name MdbPostgresqlCluster#name}
   */
   readonly name?: string;
   /**
   * Host priority in HA group. It works only when `name` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#priority MdbPostgresqlCluster#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#priority MdbPostgresqlCluster#priority}
   */
   readonly priority?: number;
   /**
   * Host replication source name points to host's `name` from which this host should replicate. When not set then host in HA group. It works only when `name` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#replication_source_name MdbPostgresqlCluster#replication_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#replication_source_name MdbPostgresqlCluster#replication_source_name}
   */
   readonly replicationSourceName?: string;
   /**
   * The ID of the subnet, to which the host belongs. The subnet must be a part of the network to which the cluster belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#subnet_id MdbPostgresqlCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#subnet_id MdbPostgresqlCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#zone MdbPostgresqlCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#zone MdbPostgresqlCluster#zone}
   */
   readonly zone: string;
 }
@@ -2150,19 +2150,19 @@ export interface MdbPostgresqlClusterMaintenanceWindow {
   /**
   * Day of the week (in `DDD` format). Allowed values: `MON`, `TUE`, `WED`, `THU`, `FRI`, `SAT`, `SUN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#day MdbPostgresqlCluster#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#day MdbPostgresqlCluster#day}
   */
   readonly day?: string;
   /**
   * Hour of the day in UTC (in `HH` format). Allowed value is between 1 and 24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#hour MdbPostgresqlCluster#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#hour MdbPostgresqlCluster#hour}
   */
   readonly hour?: number;
   /**
   * Type of maintenance window. Can be either `ANYTIME` or `WEEKLY`. A day and hour of window need to be specified with weekly window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#type MdbPostgresqlCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#type MdbPostgresqlCluster#type}
   */
   readonly type: string;
 }
@@ -2303,13 +2303,13 @@ export interface MdbPostgresqlClusterRestore {
   /**
   * Backup ID. The cluster will be created from the specified backup. [How to get a list of PostgreSQL backups](https://yandex.cloud/docs/managed-postgresql/operations/cluster-backups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#backup_id MdbPostgresqlCluster#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#backup_id MdbPostgresqlCluster#backup_id}
   */
   readonly backupId: string;
   /**
   * Timestamp of the moment to which the PostgreSQL cluster should be restored. (Format: `2006-01-02T15:04:05` - UTC). When not set, current time is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#time MdbPostgresqlCluster#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#time MdbPostgresqlCluster#time}
   */
   readonly time?: string;
   /**
@@ -2318,7 +2318,7 @@ export interface MdbPostgresqlClusterRestore {
   * * `true` — the restore point refers to the first backup point after [time].
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#time_inclusive MdbPostgresqlCluster#time_inclusive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#time_inclusive MdbPostgresqlCluster#time_inclusive}
   */
   readonly timeInclusive?: boolean | cdktf.IResolvable;
 }
@@ -2457,15 +2457,15 @@ export class MdbPostgresqlClusterRestoreOutputReference extends cdktf.ComplexObj
 }
 export interface MdbPostgresqlClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#create MdbPostgresqlCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#create MdbPostgresqlCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#delete MdbPostgresqlCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#delete MdbPostgresqlCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#update MdbPostgresqlCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#update MdbPostgresqlCluster#update}
   */
   readonly update?: string;
 }
@@ -2619,7 +2619,7 @@ export interface MdbPostgresqlClusterUserPermission {
   /**
   * The name of the database that the permission grants access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#database_name MdbPostgresqlCluster#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#database_name MdbPostgresqlCluster#database_name}
   */
   readonly databaseName: string;
 }
@@ -2734,31 +2734,31 @@ export interface MdbPostgresqlClusterUser {
   /**
   * The maximum number of connections per user. (Default 50).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#conn_limit MdbPostgresqlCluster#conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#conn_limit MdbPostgresqlCluster#conn_limit}
   */
   readonly connLimit?: number;
   /**
   * List of the user's grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#grants MdbPostgresqlCluster#grants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#grants MdbPostgresqlCluster#grants}
   */
   readonly grants?: string[];
   /**
   * User's ability to login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#login MdbPostgresqlCluster#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#login MdbPostgresqlCluster#login}
   */
   readonly login?: boolean | cdktf.IResolvable;
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#name MdbPostgresqlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#name MdbPostgresqlCluster#name}
   */
   readonly name: string;
   /**
   * The password of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#password MdbPostgresqlCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#password MdbPostgresqlCluster#password}
   */
   readonly password: string;
   /**
@@ -2804,13 +2804,13 @@ export interface MdbPostgresqlClusterUser {
   * 
   * * `statement_timeout` - The maximum time (in milliseconds) to wait for statement. Value of 0 (default) disables the timeout. Integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#settings MdbPostgresqlCluster#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#settings MdbPostgresqlCluster#settings}
   */
   readonly settings?: { [key: string]: string };
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#permission MdbPostgresqlCluster#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#permission MdbPostgresqlCluster#permission}
   */
   readonly permission?: MdbPostgresqlClusterUserPermission[] | cdktf.IResolvable;
 }
@@ -3094,7 +3094,7 @@ export class MdbPostgresqlClusterUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster yandex_mdb_postgresql_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster yandex_mdb_postgresql_cluster}
 */
 export class MdbPostgresqlCluster extends cdktf.TerraformResource {
 
@@ -3110,7 +3110,7 @@ export class MdbPostgresqlCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbPostgresqlCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbPostgresqlCluster to import
-  * @param importFromId The id of the existing MdbPostgresqlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbPostgresqlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbPostgresqlCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3122,7 +3122,7 @@ export class MdbPostgresqlCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_postgresql_cluster yandex_mdb_postgresql_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_postgresql_cluster yandex_mdb_postgresql_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3133,8 +3133,8 @@ export class MdbPostgresqlCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_postgresql_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

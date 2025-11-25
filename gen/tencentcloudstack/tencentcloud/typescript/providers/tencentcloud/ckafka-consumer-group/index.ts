@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_consumer_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_consumer_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CkafkaConsumerGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * GroupName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_consumer_group#group_name CkafkaConsumerGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_consumer_group#group_name CkafkaConsumerGroup#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_consumer_group#id CkafkaConsumerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_consumer_group#id CkafkaConsumerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface CkafkaConsumerGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * InstanceId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_consumer_group#instance_id CkafkaConsumerGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_consumer_group#instance_id CkafkaConsumerGroup#instance_id}
   */
   readonly instanceId: string;
   /**
   * array of topic names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_consumer_group#topic_name_list CkafkaConsumerGroup#topic_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_consumer_group#topic_name_list CkafkaConsumerGroup#topic_name_list}
   */
   readonly topicNameList?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_consumer_group tencentcloud_ckafka_consumer_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_consumer_group tencentcloud_ckafka_consumer_group}
 */
 export class CkafkaConsumerGroup extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CkafkaConsumerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CkafkaConsumerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CkafkaConsumerGroup to import
-  * @param importFromId The id of the existing CkafkaConsumerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_consumer_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CkafkaConsumerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_consumer_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CkafkaConsumerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CkafkaConsumerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_consumer_group tencentcloud_ckafka_consumer_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ckafka_consumer_group tencentcloud_ckafka_consumer_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class CkafkaConsumerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ckafka_consumer_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

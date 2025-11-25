@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ClbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * It's only applicable to public network CLB instances. IP version. Values: `IPV4`, `IPV6` and `IPv6FullChain` (case-insensitive). Default: `IPV4`. Note: IPV6 indicates IPv6 NAT64, while IPv6FullChain indicates IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#address_ip_version ClbInstance#address_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#address_ip_version ClbInstance#address_ip_version}
   */
   readonly addressIpVersion?: string;
   /**
   * Bandwidth package id. If set, the `internet_charge_type` must be `BANDWIDTH_PACKAGE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#bandwidth_package_id ClbInstance#bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#bandwidth_package_id ClbInstance#bandwidth_package_id}
   */
   readonly bandwidthPackageId?: string;
   /**
   * Name of the CLB. The name can only contain Chinese characters, English letters, numbers, underscore and hyphen '-'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#clb_name ClbInstance#clb_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#clb_name ClbInstance#clb_name}
   */
   readonly clbName: string;
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#cluster_id ClbInstance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#cluster_id ClbInstance#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Whether to enable delete protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#delete_protect ClbInstance#delete_protect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#delete_protect ClbInstance#delete_protect}
   */
   readonly deleteProtect?: boolean | cdktf.IResolvable;
   /**
   * If create dynamic vip CLB instance, `true` or `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#dynamic_vip ClbInstance#dynamic_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#dynamic_vip ClbInstance#dynamic_vip}
   */
   readonly dynamicVip?: boolean | cdktf.IResolvable;
   /**
   * The unique ID of the EIP, such as eip-1v2rmbwk, is only applicable to the intranet load balancing binding EIP. During the EIP change, there may be a brief network interruption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#eip_address_id ClbInstance#eip_address_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#eip_address_id ClbInstance#eip_address_id}
   */
   readonly eipAddressId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#id ClbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#id ClbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,127 +59,127 @@ export interface ClbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Max bandwidth out, only applicable to open CLB. Valid value ranges is [1, 2048]. Unit is Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#internet_bandwidth_max_out ClbInstance#internet_bandwidth_max_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#internet_bandwidth_max_out ClbInstance#internet_bandwidth_max_out}
   */
   readonly internetBandwidthMaxOut?: number;
   /**
   * Internet charge type, only applicable to open CLB. Valid values are `TRAFFIC_POSTPAID_BY_HOUR`, `BANDWIDTH_POSTPAID_BY_HOUR` and `BANDWIDTH_PACKAGE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#internet_charge_type ClbInstance#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#internet_charge_type ClbInstance#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
   * Whether the target allow flow come from clb. If value is true, only check security group of clb, or check both clb and backend instance security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#load_balancer_pass_to_target ClbInstance#load_balancer_pass_to_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#load_balancer_pass_to_target ClbInstance#load_balancer_pass_to_target}
   */
   readonly loadBalancerPassToTarget?: boolean | cdktf.IResolvable;
   /**
   * The id of log set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#log_set_id ClbInstance#log_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#log_set_id ClbInstance#log_set_id}
   */
   readonly logSetId?: string;
   /**
   * The id of log topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#log_topic_id ClbInstance#log_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#log_topic_id ClbInstance#log_topic_id}
   */
   readonly logTopicId?: string;
   /**
   * Setting master zone id of cross available zone disaster recovery, only applicable to open CLB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#master_zone_id ClbInstance#master_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#master_zone_id ClbInstance#master_zone_id}
   */
   readonly masterZoneId?: string;
   /**
   * Type of CLB instance. Valid values: `OPEN` and `INTERNAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#network_type ClbInstance#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#network_type ClbInstance#network_type}
   */
   readonly networkType: string;
   /**
   * ID of the project within the CLB instance, `0` - Default Project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#project_id ClbInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#project_id ClbInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * Security groups of the CLB instance. Supports both `OPEN` and `INTERNAL` CLBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#security_groups ClbInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#security_groups ClbInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * This parameter is required to create LCU-supported instances. Values:`SLA`: Super Large 4. When you have activated Super Large models, `SLA` refers to Super Large 4; `clb.c2.medium`: Standard; `clb.c3.small`: Advanced 1; `clb.c3.medium`: Advanced 1; `clb.c4.small`: Super Large 1; `clb.c4.medium`: Super Large 2; `clb.c4.large`: Super Large 3; `clb.c4.xlarge`: Super Large 4. For more details, see [Instance Specifications](https://intl.cloud.tencent.com/document/product/214/84689?from_cn_redirect=1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#sla_type ClbInstance#sla_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#sla_type ClbInstance#sla_type}
   */
   readonly slaType?: string;
   /**
   * Setting slave zone id of cross available zone disaster recovery, only applicable to open CLB. this zone will undertake traffic when the master is down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#slave_zone_id ClbInstance#slave_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#slave_zone_id ClbInstance#slave_zone_id}
   */
   readonly slaveZoneId?: string;
   /**
   * Indicates whether Binding IPs of other VPCs feature switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#snat_pro ClbInstance#snat_pro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#snat_pro ClbInstance#snat_pro}
   */
   readonly snatPro?: boolean | cdktf.IResolvable;
   /**
   * In the case of purchasing a `INTERNAL` clb instance, the subnet id must be specified. The VIP of the `INTERNAL` clb instance will be generated from this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#subnet_id ClbInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#subnet_id ClbInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The available tags within this CLB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#tags ClbInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#tags ClbInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Region information of backend services are attached the CLB instance. Only supports `OPEN` CLBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#target_region_info_region ClbInstance#target_region_info_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#target_region_info_region ClbInstance#target_region_info_region}
   */
   readonly targetRegionInfoRegion?: string;
   /**
   * Vpc information of backend services are attached the CLB instance. Only supports `OPEN` CLBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#target_region_info_vpc_id ClbInstance#target_region_info_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#target_region_info_vpc_id ClbInstance#target_region_info_vpc_id}
   */
   readonly targetRegionInfoVpcId?: string;
   /**
   * Specifies the VIP for the application of a CLB instance. This parameter is optional. If you do not specify this parameter, the system automatically assigns a value for the parameter. IPv4 and IPv6 CLB instances support this parameter, but IPv6 NAT64 CLB instances do not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#vip ClbInstance#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#vip ClbInstance#vip}
   */
   readonly vip?: string;
   /**
   * Network operator, only applicable to open CLB. Valid values are `CMCC`(China Mobile), `CTCC`(Telecom), `CUCC`(China Unicom) and `BGP`. If this ISP is specified, network billing method can only use the bandwidth package billing (BANDWIDTH_PACKAGE).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#vip_isp ClbInstance#vip_isp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#vip_isp ClbInstance#vip_isp}
   */
   readonly vipIsp?: string;
   /**
   * VPC ID of the CLB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#vpc_id ClbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#vpc_id ClbInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * Available zone id, only applicable to open CLB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#zone_id ClbInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#zone_id ClbInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * snat_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#snat_ips ClbInstance#snat_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#snat_ips ClbInstance#snat_ips}
   */
   readonly snatIps?: ClbInstanceSnatIps[] | cdktf.IResolvable;
 }
@@ -187,13 +187,13 @@ export interface ClbInstanceSnatIps {
   /**
   * Snat IP address, If set to empty will auto allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#ip ClbInstance#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#ip ClbInstance#ip}
   */
   readonly ip?: string;
   /**
   * Snat subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#subnet_id ClbInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#subnet_id ClbInstance#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -335,7 +335,7 @@ export class ClbInstanceSnatIpsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance tencentcloud_clb_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance tencentcloud_clb_instance}
 */
 export class ClbInstance extends cdktf.TerraformResource {
 
@@ -351,7 +351,7 @@ export class ClbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClbInstance to import
-  * @param importFromId The id of the existing ClbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -363,7 +363,7 @@ export class ClbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_instance tencentcloud_clb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/clb_instance tencentcloud_clb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,8 +374,8 @@ export class ClbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clb_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

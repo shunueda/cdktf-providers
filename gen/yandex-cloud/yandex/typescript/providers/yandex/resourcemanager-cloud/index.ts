@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,20 +11,20 @@ export interface ResourcemanagerCloudConfig extends cdktf.TerraformMetaArguments
   * ID of the Cloud resource to return.
   *  To get the cloud ID, use a [CloudService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud#cloud_id ResourcemanagerCloud#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud#cloud_id ResourcemanagerCloud#cloud_id}
   */
   readonly cloudId?: string;
   /**
   * Description of the cloud. 0-256 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud#description ResourcemanagerCloud#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud#description ResourcemanagerCloud#description}
   */
   readonly description?: string;
   /**
   * ID of the Cloud resource to return.
   *  To get the cloud ID, use a [CloudService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud#id ResourcemanagerCloud#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud#id ResourcemanagerCloud#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,23 +33,23 @@ export interface ResourcemanagerCloudConfig extends cdktf.TerraformMetaArguments
   /**
   * Resource labels as `` key:value `` pairs. Maximum of 64 per resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud#labels ResourcemanagerCloud#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud#labels ResourcemanagerCloud#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the cloud. 3-63 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud#name ResourcemanagerCloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud#name ResourcemanagerCloud#name}
   */
   readonly name: string;
   /**
   * ID of the organization that the cloud belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud#organization_id ResourcemanagerCloud#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud#organization_id ResourcemanagerCloud#organization_id}
   */
   readonly organizationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud#timeouts ResourcemanagerCloud#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud#timeouts ResourcemanagerCloud#timeouts}
   */
   readonly timeouts?: ResourcemanagerCloudTimeouts;
 }
@@ -57,25 +57,25 @@ export interface ResourcemanagerCloudTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud#create ResourcemanagerCloud#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud#create ResourcemanagerCloud#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud#delete ResourcemanagerCloud#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud#delete ResourcemanagerCloud#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud#read ResourcemanagerCloud#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud#read ResourcemanagerCloud#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud#update ResourcemanagerCloud#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud#update ResourcemanagerCloud#update}
   */
   readonly update?: string;
 }
@@ -256,7 +256,7 @@ export class ResourcemanagerCloudTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud yandex_resourcemanager_cloud}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud yandex_resourcemanager_cloud}
 */
 export class ResourcemanagerCloud extends cdktf.TerraformResource {
 
@@ -272,7 +272,7 @@ export class ResourcemanagerCloud extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourcemanagerCloud resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourcemanagerCloud to import
-  * @param importFromId The id of the existing ResourcemanagerCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourcemanagerCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourcemanagerCloud to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -284,7 +284,7 @@ export class ResourcemanagerCloud extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_cloud yandex_resourcemanager_cloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/resourcemanager_cloud yandex_resourcemanager_cloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,8 +295,8 @@ export class ResourcemanagerCloud extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_resourcemanager_cloud',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

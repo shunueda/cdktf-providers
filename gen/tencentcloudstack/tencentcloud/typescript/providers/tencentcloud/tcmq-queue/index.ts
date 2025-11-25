@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TcmqQueueConfig extends cdktf.TerraformMetaArguments {
   /**
   * Dead letter queue name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#dead_letter_queue_name TcmqQueue#dead_letter_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#dead_letter_queue_name TcmqQueue#dead_letter_queue_name}
   */
   readonly deadLetterQueueName?: string;
   /**
   * First lookback interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#first_query_interval TcmqQueue#first_query_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#first_query_interval TcmqQueue#first_query_interval}
   */
   readonly firstQueryInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#id TcmqQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#id TcmqQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,91 +29,91 @@ export interface TcmqQueueConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum number of heaped messages. The value range is 1,000,000-10,000,000 during the beta test and can be 1,000,000-1,000,000,000 after the product is officially released. The default value is 10,000,000 during the beta test and will be 100,000,000 after the product is officially released.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#max_msg_heap_num TcmqQueue#max_msg_heap_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#max_msg_heap_num TcmqQueue#max_msg_heap_num}
   */
   readonly maxMsgHeapNum?: number;
   /**
   * Maximum message length. Value range: 1024-65536 bytes (i.e., 1-64 KB). Default value: 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#max_msg_size TcmqQueue#max_msg_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#max_msg_size TcmqQueue#max_msg_size}
   */
   readonly maxMsgSize?: number;
   /**
   * Maximum number of lookbacks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#max_query_count TcmqQueue#max_query_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#max_query_count TcmqQueue#max_query_count}
   */
   readonly maxQueryCount?: number;
   /**
   * Maximum receipt times. Value range: 1-1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#max_receive_count TcmqQueue#max_receive_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#max_receive_count TcmqQueue#max_receive_count}
   */
   readonly maxReceiveCount?: number;
   /**
   * Maximum period in seconds before an unconsumed message expires, which is required if `policy` is 1. Value range: 300-43200. This value should be smaller than `msgRetentionSeconds` (maximum message retention period).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#max_time_to_live TcmqQueue#max_time_to_live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#max_time_to_live TcmqQueue#max_time_to_live}
   */
   readonly maxTimeToLive?: number;
   /**
   * The max period during which a message is retained before it is automatically acknowledged. Value range: 30-43,200 seconds (30 seconds to 12 hours). Default value: 3600 seconds (1 hour).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#msg_retention_seconds TcmqQueue#msg_retention_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#msg_retention_seconds TcmqQueue#msg_retention_seconds}
   */
   readonly msgRetentionSeconds?: number;
   /**
   * Dead letter policy. 0: message has been consumed multiple times but not deleted; 1: `Time-To-Live` has elapsed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#policy TcmqQueue#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#policy TcmqQueue#policy}
   */
   readonly policy?: number;
   /**
   * Long polling wait time for message reception. Value range: 0-30 seconds. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#polling_wait_seconds TcmqQueue#polling_wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#polling_wait_seconds TcmqQueue#polling_wait_seconds}
   */
   readonly pollingWaitSeconds?: number;
   /**
   * Queue name, which must be unique under the same account in the same region. It can contain up to 64 letters, digits, and hyphens and must begin with a letter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#queue_name TcmqQueue#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#queue_name TcmqQueue#queue_name}
   */
   readonly queueName: string;
   /**
   * Queue storage space configured for message rewind. Value range: 10,240-512,000 MB (if message rewind is enabled). The value `0` indicates that message rewind is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#retention_size_in_mb TcmqQueue#retention_size_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#retention_size_in_mb TcmqQueue#retention_size_in_mb}
   */
   readonly retentionSizeInMb?: number;
   /**
   * Rewindable time of messages in the queue. Value range: 0-1,296,000s (if message rewind is enabled). The value `0` indicates that message rewind is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#rewind_seconds TcmqQueue#rewind_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#rewind_seconds TcmqQueue#rewind_seconds}
   */
   readonly rewindSeconds?: number;
   /**
   * Whether to enable message trace. true: yes; false: no. If this field is not configured, the feature will not be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#trace TcmqQueue#trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#trace TcmqQueue#trace}
   */
   readonly trace?: boolean | cdktf.IResolvable;
   /**
   * 1: transaction queue; 0: general queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#transaction TcmqQueue#transaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#transaction TcmqQueue#transaction}
   */
   readonly transaction?: number;
   /**
   * Message visibility timeout period. Value range: 1-43200 seconds (i.e., 12 hours). Default value: 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#visibility_timeout TcmqQueue#visibility_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#visibility_timeout TcmqQueue#visibility_timeout}
   */
   readonly visibilityTimeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue tencentcloud_tcmq_queue}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue tencentcloud_tcmq_queue}
 */
 export class TcmqQueue extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class TcmqQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcmqQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcmqQueue to import
-  * @param importFromId The id of the existing TcmqQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcmqQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcmqQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class TcmqQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcmq_queue tencentcloud_tcmq_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcmq_queue tencentcloud_tcmq_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class TcmqQueue extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcmq_queue',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

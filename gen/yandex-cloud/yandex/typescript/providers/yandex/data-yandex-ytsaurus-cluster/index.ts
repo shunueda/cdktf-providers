@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/ytsaurus_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/ytsaurus_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,26 +10,26 @@ export interface DataYandexYtsaurusClusterConfig extends cdktf.TerraformMetaArgu
   /**
   * ID of the cluster to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/ytsaurus_cluster#cluster_id DataYandexYtsaurusCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/ytsaurus_cluster#cluster_id DataYandexYtsaurusCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * ID of the folder that the cluster belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/ytsaurus_cluster#folder_id DataYandexYtsaurusCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/ytsaurus_cluster#folder_id DataYandexYtsaurusCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the cluster to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/ytsaurus_cluster#id DataYandexYtsaurusCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/ytsaurus_cluster#id DataYandexYtsaurusCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/ytsaurus_cluster#timeouts DataYandexYtsaurusCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/ytsaurus_cluster#timeouts DataYandexYtsaurusCluster#timeouts}
   */
   readonly timeouts?: DataYandexYtsaurusClusterTimeouts;
 }
@@ -1002,25 +1002,25 @@ export interface DataYandexYtsaurusClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/ytsaurus_cluster#create DataYandexYtsaurusCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/ytsaurus_cluster#create DataYandexYtsaurusCluster#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/ytsaurus_cluster#delete DataYandexYtsaurusCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/ytsaurus_cluster#delete DataYandexYtsaurusCluster#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/ytsaurus_cluster#read DataYandexYtsaurusCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/ytsaurus_cluster#read DataYandexYtsaurusCluster#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/ytsaurus_cluster#update DataYandexYtsaurusCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/ytsaurus_cluster#update DataYandexYtsaurusCluster#update}
   */
   readonly update?: string;
 }
@@ -1201,7 +1201,7 @@ export class DataYandexYtsaurusClusterTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/ytsaurus_cluster yandex_ytsaurus_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/ytsaurus_cluster yandex_ytsaurus_cluster}
 */
 export class DataYandexYtsaurusCluster extends cdktf.TerraformDataSource {
 
@@ -1217,7 +1217,7 @@ export class DataYandexYtsaurusCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexYtsaurusCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexYtsaurusCluster to import
-  * @param importFromId The id of the existing DataYandexYtsaurusCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/ytsaurus_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexYtsaurusCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/ytsaurus_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexYtsaurusCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1229,7 +1229,7 @@ export class DataYandexYtsaurusCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/ytsaurus_cluster yandex_ytsaurus_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/ytsaurus_cluster yandex_ytsaurus_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1240,8 +1240,8 @@ export class DataYandexYtsaurusCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_ytsaurus_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

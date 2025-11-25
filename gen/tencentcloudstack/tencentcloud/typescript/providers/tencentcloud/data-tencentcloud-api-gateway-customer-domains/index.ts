@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/api_gateway_customer_domains
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/api_gateway_customer_domains
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudApiGatewayCustomerDomainsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/api_gateway_customer_domains#id DataTencentcloudApiGatewayCustomerDomains#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/api_gateway_customer_domains#id DataTencentcloudApiGatewayCustomerDomains#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudApiGatewayCustomerDomainsConfig extends cdktf.T
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/api_gateway_customer_domains#result_output_file DataTencentcloudApiGatewayCustomerDomains#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/api_gateway_customer_domains#result_output_file DataTencentcloudApiGatewayCustomerDomains#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The service ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/api_gateway_customer_domains#service_id DataTencentcloudApiGatewayCustomerDomains#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/api_gateway_customer_domains#service_id DataTencentcloudApiGatewayCustomerDomains#service_id}
   */
   readonly serviceId: string;
 }
@@ -215,7 +215,7 @@ export class DataTencentcloudApiGatewayCustomerDomainsListStructList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/api_gateway_customer_domains tencentcloud_api_gateway_customer_domains}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/api_gateway_customer_domains tencentcloud_api_gateway_customer_domains}
 */
 export class DataTencentcloudApiGatewayCustomerDomains extends cdktf.TerraformDataSource {
 
@@ -231,7 +231,7 @@ export class DataTencentcloudApiGatewayCustomerDomains extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudApiGatewayCustomerDomains resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudApiGatewayCustomerDomains to import
-  * @param importFromId The id of the existing DataTencentcloudApiGatewayCustomerDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/api_gateway_customer_domains#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudApiGatewayCustomerDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/api_gateway_customer_domains#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudApiGatewayCustomerDomains to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class DataTencentcloudApiGatewayCustomerDomains extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/api_gateway_customer_domains tencentcloud_api_gateway_customer_domains} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/api_gateway_customer_domains tencentcloud_api_gateway_customer_domains} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class DataTencentcloudApiGatewayCustomerDomains extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_api_gateway_customer_domains',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MqttInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authorization policy switch. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#authorization_policy MqttInstance#authorization_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#authorization_policy MqttInstance#authorization_policy}
   */
   readonly authorizationPolicy?: boolean | cdktf.IResolvable;
   /**
   * Is the automatic registration certificate automatically activated. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#automatic_activation MqttInstance#automatic_activation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#automatic_activation MqttInstance#automatic_activation}
   */
   readonly automaticActivation?: boolean | cdktf.IResolvable;
   /**
   * Indicate whether to force delete the instance. Default is `false`. If set true, the instance will be permanently deleted instead of being moved into the recycle bin. Note: only works for `PREPAID` instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#force_delete MqttInstance#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#force_delete MqttInstance#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#id MqttInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#id MqttInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface MqttInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance type. PRO for Professional Edition; PLATINUM for Platinum Edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#instance_type MqttInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#instance_type MqttInstance#instance_type}
   */
   readonly instanceType: string;
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#name MqttInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#name MqttInstance#name}
   */
   readonly name: string;
   /**
   * Payment mode (0: Postpaid; 1: Prepaid).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#pay_mode MqttInstance#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#pay_mode MqttInstance#pay_mode}
   */
   readonly payMode?: number;
   /**
   * Remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#remark MqttInstance#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#remark MqttInstance#remark}
   */
   readonly remark?: string;
   /**
   * Whether to enable auto-renewal (0: Disabled; 1: Enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#renew_flag MqttInstance#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#renew_flag MqttInstance#renew_flag}
   */
   readonly renewFlag?: number;
   /**
   * Product SKU, available SKUs can be queried via the DescribeProductSKUList API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#sku_code MqttInstance#sku_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#sku_code MqttInstance#sku_code}
   */
   readonly skuCode: string;
   /**
   * Tags of the MQTT instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#tags MqttInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#tags MqttInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Purchase duration (unit: months).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#time_span MqttInstance#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#time_span MqttInstance#time_span}
   */
   readonly timeSpan?: number;
   /**
   * vpc_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#vpc_list MqttInstance#vpc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#vpc_list MqttInstance#vpc_list}
   */
   readonly vpcList?: MqttInstanceVpcListStruct;
 }
@@ -91,13 +91,13 @@ export interface MqttInstanceVpcListStruct {
   /**
   * Subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#subnet_id MqttInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#subnet_id MqttInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#vpc_id MqttInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#vpc_id MqttInstance#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -204,7 +204,7 @@ export class MqttInstanceVpcListStructOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance tencentcloud_mqtt_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance tencentcloud_mqtt_instance}
 */
 export class MqttInstance extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class MqttInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MqttInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MqttInstance to import
-  * @param importFromId The id of the existing MqttInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MqttInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MqttInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class MqttInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_instance tencentcloud_mqtt_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mqtt_instance tencentcloud_mqtt_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class MqttInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mqtt_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

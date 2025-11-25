@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface OrganizationmanagerGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * Description of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group#description OrganizationmanagerGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group#description OrganizationmanagerGroup#description}
   */
   readonly description?: string;
   /**
   * ID of the Group resource to return.
   *  To get the group ID, use a [GroupService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group#group_id OrganizationmanagerGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group#group_id OrganizationmanagerGroup#group_id}
   */
   readonly groupId?: string;
   /**
   * ID of the Group resource to return.
   *  To get the group ID, use a [GroupService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group#id OrganizationmanagerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group#id OrganizationmanagerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,19 +33,19 @@ export interface OrganizationmanagerGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * Name of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group#name OrganizationmanagerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group#name OrganizationmanagerGroup#name}
   */
   readonly name: string;
   /**
   * ID of the organization that the group belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group#organization_id OrganizationmanagerGroup#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group#organization_id OrganizationmanagerGroup#organization_id}
   */
   readonly organizationId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group#timeouts OrganizationmanagerGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group#timeouts OrganizationmanagerGroup#timeouts}
   */
   readonly timeouts?: OrganizationmanagerGroupTimeouts;
 }
@@ -53,25 +53,25 @@ export interface OrganizationmanagerGroupTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group#create OrganizationmanagerGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group#create OrganizationmanagerGroup#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group#delete OrganizationmanagerGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group#delete OrganizationmanagerGroup#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group#read OrganizationmanagerGroup#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group#read OrganizationmanagerGroup#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group#update OrganizationmanagerGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group#update OrganizationmanagerGroup#update}
   */
   readonly update?: string;
 }
@@ -252,7 +252,7 @@ export class OrganizationmanagerGroupTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group yandex_organizationmanager_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group yandex_organizationmanager_group}
 */
 export class OrganizationmanagerGroup extends cdktf.TerraformResource {
 
@@ -268,7 +268,7 @@ export class OrganizationmanagerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationmanagerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationmanagerGroup to import
-  * @param importFromId The id of the existing OrganizationmanagerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationmanagerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationmanagerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class OrganizationmanagerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group yandex_organizationmanager_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_group yandex_organizationmanager_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,8 +291,8 @@ export class OrganizationmanagerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_organizationmanager_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

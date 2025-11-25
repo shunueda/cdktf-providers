@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudWedataSqlScriptRunsConfig extends cdktf.Terrafo
   /**
   * End time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs#end_time DataTencentcloudWedataSqlScriptRuns#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs#end_time DataTencentcloudWedataSqlScriptRuns#end_time}
   */
   readonly endTime?: string;
   /**
   * Execute user UIN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs#execute_user_uin DataTencentcloudWedataSqlScriptRuns#execute_user_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs#execute_user_uin DataTencentcloudWedataSqlScriptRuns#execute_user_uin}
   */
   readonly executeUserUin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs#id DataTencentcloudWedataSqlScriptRuns#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs#id DataTencentcloudWedataSqlScriptRuns#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface DataTencentcloudWedataSqlScriptRunsConfig extends cdktf.Terrafo
   /**
   * Job ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs#job_id DataTencentcloudWedataSqlScriptRuns#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs#job_id DataTencentcloudWedataSqlScriptRuns#job_id}
   */
   readonly jobId?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs#project_id DataTencentcloudWedataSqlScriptRuns#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs#project_id DataTencentcloudWedataSqlScriptRuns#project_id}
   */
   readonly projectId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs#result_output_file DataTencentcloudWedataSqlScriptRuns#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs#result_output_file DataTencentcloudWedataSqlScriptRuns#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Script ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs#script_id DataTencentcloudWedataSqlScriptRuns#script_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs#script_id DataTencentcloudWedataSqlScriptRuns#script_id}
   */
   readonly scriptId: string;
   /**
   * Search keyword.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs#search_word DataTencentcloudWedataSqlScriptRuns#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs#search_word DataTencentcloudWedataSqlScriptRuns#search_word}
   */
   readonly searchWord?: string;
   /**
   * Start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs#start_time DataTencentcloudWedataSqlScriptRuns#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs#start_time DataTencentcloudWedataSqlScriptRuns#start_time}
   */
   readonly startTime?: string;
 }
@@ -371,7 +371,7 @@ export class DataTencentcloudWedataSqlScriptRunsDataList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs tencentcloud_wedata_sql_script_runs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs tencentcloud_wedata_sql_script_runs}
 */
 export class DataTencentcloudWedataSqlScriptRuns extends cdktf.TerraformDataSource {
 
@@ -387,7 +387,7 @@ export class DataTencentcloudWedataSqlScriptRuns extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudWedataSqlScriptRuns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataSqlScriptRuns to import
-  * @param importFromId The id of the existing DataTencentcloudWedataSqlScriptRuns that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataSqlScriptRuns that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataSqlScriptRuns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class DataTencentcloudWedataSqlScriptRuns extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/wedata_sql_script_runs tencentcloud_wedata_sql_script_runs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/wedata_sql_script_runs tencentcloud_wedata_sql_script_runs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class DataTencentcloudWedataSqlScriptRuns extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_wedata_sql_script_runs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

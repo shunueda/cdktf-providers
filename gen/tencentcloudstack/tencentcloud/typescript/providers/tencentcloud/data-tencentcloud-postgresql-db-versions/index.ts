@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/postgresql_db_versions
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/postgresql_db_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudPostgresqlDbVersionsConfig extends cdktf.Terraf
   /**
   * PostgreSQL kernel version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/postgresql_db_versions#db_kernel_version DataTencentcloudPostgresqlDbVersions#db_kernel_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/postgresql_db_versions#db_kernel_version DataTencentcloudPostgresqlDbVersions#db_kernel_version}
   */
   readonly dbKernelVersion?: string;
   /**
   * PostgreSQL major version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/postgresql_db_versions#db_major_version DataTencentcloudPostgresqlDbVersions#db_major_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/postgresql_db_versions#db_major_version DataTencentcloudPostgresqlDbVersions#db_major_version}
   */
   readonly dbMajorVersion?: string;
   /**
   * Version of the postgresql database engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/postgresql_db_versions#db_version DataTencentcloudPostgresqlDbVersions#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/postgresql_db_versions#db_version DataTencentcloudPostgresqlDbVersions#db_version}
   */
   readonly dbVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/postgresql_db_versions#id DataTencentcloudPostgresqlDbVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/postgresql_db_versions#id DataTencentcloudPostgresqlDbVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface DataTencentcloudPostgresqlDbVersionsConfig extends cdktf.Terraf
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/postgresql_db_versions#result_output_file DataTencentcloudPostgresqlDbVersions#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/postgresql_db_versions#result_output_file DataTencentcloudPostgresqlDbVersions#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -146,7 +146,7 @@ export class DataTencentcloudPostgresqlDbVersionsVersionSetList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/postgresql_db_versions tencentcloud_postgresql_db_versions}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/postgresql_db_versions tencentcloud_postgresql_db_versions}
 */
 export class DataTencentcloudPostgresqlDbVersions extends cdktf.TerraformDataSource {
 
@@ -162,7 +162,7 @@ export class DataTencentcloudPostgresqlDbVersions extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudPostgresqlDbVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudPostgresqlDbVersions to import
-  * @param importFromId The id of the existing DataTencentcloudPostgresqlDbVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/postgresql_db_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudPostgresqlDbVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/postgresql_db_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudPostgresqlDbVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class DataTencentcloudPostgresqlDbVersions extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/postgresql_db_versions tencentcloud_postgresql_db_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/postgresql_db_versions tencentcloud_postgresql_db_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class DataTencentcloudPostgresqlDbVersions extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_postgresql_db_versions',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

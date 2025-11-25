@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface StorageObjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The access key to use when applying changes. This value can also be provided as `storage_access_key` specified in provider config (explicitly or within `shared_credentials_file`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#access_key StorageObject#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#access_key StorageObject#access_key}
   */
   readonly accessKey?: string;
   /**
@@ -19,35 +19,35 @@ export interface StorageObjectConfig extends cdktf.TerraformMetaArguments {
   * ~> To change ACL after creation, the service account to which used access and secret keys correspond should have `storage.admin` role, though this role is not necessary to be able to create an object with any ACL.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#acl StorageObject#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#acl StorageObject#acl}
   */
   readonly acl?: string;
   /**
   * The name of the containing bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#bucket StorageObject#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#bucket StorageObject#bucket}
   */
   readonly bucket: string;
   /**
   * Literal string value to use as the object content, which will be uploaded as UTF-8-encoded text. Conflicts with `source` and `content_base64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#content StorageObject#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#content StorageObject#content}
   */
   readonly content?: string;
   /**
   * Base64-encoded data that will be decoded and uploaded as raw bytes for the object content. This allows safely uploading non-UTF8 binary data, but is recommended only for small content such as the result of the `gzipbase64` function with small text strings. For larger objects, use `source` to stream the content from a disk file. Conflicts with `source` and `content`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#content_base64 StorageObject#content_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#content_base64 StorageObject#content_base64}
   */
   readonly contentBase64?: string;
   /**
   * A standard MIME type describing the format of the object data, e.g. `application/octet-stream`. All Valid MIME Types are valid for this input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#content_type StorageObject#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#content_type StorageObject#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#id StorageObject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#id StorageObject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,55 +56,55 @@ export interface StorageObjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the object once it is in the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#key StorageObject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#key StorageObject#key}
   */
   readonly key: string;
   /**
   * Specifies a [legal hold status](https://yandex.cloud/docs/storage/concepts/object-lock#types) of an object. Requires `object_lock_configuration` to be enabled on a bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#object_lock_legal_hold_status StorageObject#object_lock_legal_hold_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#object_lock_legal_hold_status StorageObject#object_lock_legal_hold_status}
   */
   readonly objectLockLegalHoldStatus?: string;
   /**
   * Specifies a type of object lock. One of `["GOVERNANCE", "COMPLIANCE"]`. It must be set simultaneously with `object_lock_retain_until_date`. Requires `object_lock_configuration` to be enabled on a bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#object_lock_mode StorageObject#object_lock_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#object_lock_mode StorageObject#object_lock_mode}
   */
   readonly objectLockMode?: string;
   /**
   * Specifies date and time in RTC3339 format until which an object is to be locked. It must be set simultaneously with `object_lock_mode`. Requires `object_lock_configuration` to be enabled on a bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#object_lock_retain_until_date StorageObject#object_lock_retain_until_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#object_lock_retain_until_date StorageObject#object_lock_retain_until_date}
   */
   readonly objectLockRetainUntilDate?: string;
   /**
   * The secret key to use when applying changes. This value can also be provided as `storage_secret_key` specified in provider config (explicitly or within `shared_credentials_file`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#secret_key StorageObject#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#secret_key StorageObject#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The path to a file that will be read and uploaded as raw bytes for the object content. Conflicts with `content` and `content_base64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#source StorageObject#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#source StorageObject#source}
   */
   readonly source?: string;
   /**
   * Used to trigger object update when the source content changes. So the only meaningful value is `filemd5("path/to/source"). The value is only stored in state and not saved by Yandex Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#source_hash StorageObject#source_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#source_hash StorageObject#source_hash}
   */
   readonly sourceHash?: string;
   /**
   * The `tags` object for setting tags (or labels) for bucket. See [Tags](https://yandex.cloud/docs/storage/concepts/tags) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#tags StorageObject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#tags StorageObject#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object yandex_storage_object}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object yandex_storage_object}
 */
 export class StorageObject extends cdktf.TerraformResource {
 
@@ -120,7 +120,7 @@ export class StorageObject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageObject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageObject to import
-  * @param importFromId The id of the existing StorageObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageObject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -132,7 +132,7 @@ export class StorageObject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_object yandex_storage_object} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_object yandex_storage_object} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,8 +143,8 @@ export class StorageObject extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_storage_object',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

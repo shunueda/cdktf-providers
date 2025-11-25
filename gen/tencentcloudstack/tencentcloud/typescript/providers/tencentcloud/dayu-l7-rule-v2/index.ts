@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DayuL7RuleV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#id DayuL7RuleV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#id DayuL7RuleV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DayuL7RuleV2Config extends cdktf.TerraformMetaArguments {
   /**
   * ID of the resource that the layer 7 rule works for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#resource_id DayuL7RuleV2#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#resource_id DayuL7RuleV2#resource_id}
   */
   readonly resourceId: string;
   /**
   * Ip of the resource that the layer 7 rule works for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#resource_ip DayuL7RuleV2#resource_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#resource_ip DayuL7RuleV2#resource_ip}
   */
   readonly resourceIp: string;
   /**
   * Type of the resource that the layer 7 rule works for, valid value is `bgpip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#resource_type DayuL7RuleV2#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#resource_type DayuL7RuleV2#resource_type}
   */
   readonly resourceType: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#rule DayuL7RuleV2#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#rule DayuL7RuleV2#rule}
   */
   readonly rule: DayuL7RuleV2Rule;
 }
@@ -43,13 +43,13 @@ export interface DayuL7RuleV2RuleSourceListStruct {
   /**
   * Source IP or domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#source DayuL7RuleV2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#source DayuL7RuleV2#source}
   */
   readonly source: string;
   /**
   * Weight of the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#weight DayuL7RuleV2#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#weight DayuL7RuleV2#weight}
   */
   readonly weight: number;
 }
@@ -190,67 +190,67 @@ export interface DayuL7RuleV2Rule {
   /**
   * HTTPS protocol CC protection status, value [0 (off), 1 (on)], defaule is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#cc_enable DayuL7RuleV2#cc_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#cc_enable DayuL7RuleV2#cc_enable}
   */
   readonly ccEnable?: number;
   /**
   * The source of the certificate must be filled in when the forwarding protocol is https, the value [2 (Tencent Cloud Hosting Certificate)], and 0 when the forwarding protocol is http.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#cert_type DayuL7RuleV2#cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#cert_type DayuL7RuleV2#cert_type}
   */
   readonly certType?: number;
   /**
   * Domain of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#domain DayuL7RuleV2#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#domain DayuL7RuleV2#domain}
   */
   readonly domain: string;
   /**
   * Whether to enable the Https protocol to use Http back-to-source, take the value [0 (off), 1 (on)], do not fill in the default is off, defaule is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#https_to_http_enable DayuL7RuleV2#https_to_http_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#https_to_http_enable DayuL7RuleV2#https_to_http_enable}
   */
   readonly httpsToHttpEnable?: number;
   /**
   * session hold switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#keep_enable DayuL7RuleV2#keep_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#keep_enable DayuL7RuleV2#keep_enable}
   */
   readonly keepEnable: number;
   /**
   * The keeptime of the layer 4 rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#keeptime DayuL7RuleV2#keeptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#keeptime DayuL7RuleV2#keeptime}
   */
   readonly keeptime: number;
   /**
   * LB type of the rule, `1` for weight cycling and `2` for IP hash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#lb_type DayuL7RuleV2#lb_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#lb_type DayuL7RuleV2#lb_type}
   */
   readonly lbType: number;
   /**
   * Protocol of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#protocol DayuL7RuleV2#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#protocol DayuL7RuleV2#protocol}
   */
   readonly protocol: string;
   /**
   * Source type, `1` for source of host, `2` for source of IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#source_type DayuL7RuleV2#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#source_type DayuL7RuleV2#source_type}
   */
   readonly sourceType: number;
   /**
   * When the certificate source is a Tencent Cloud managed certificate, this field must be filled in with the managed certificate ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#ssl_id DayuL7RuleV2#ssl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#ssl_id DayuL7RuleV2#ssl_id}
   */
   readonly sslId?: string;
   /**
   * source_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#source_list DayuL7RuleV2#source_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#source_list DayuL7RuleV2#source_list}
   */
   readonly sourceList: DayuL7RuleV2RuleSourceListStruct[] | cdktf.IResolvable;
 }
@@ -603,7 +603,7 @@ export class DayuL7RuleV2RuleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2 tencentcloud_dayu_l7_rule_v2}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2 tencentcloud_dayu_l7_rule_v2}
 */
 export class DayuL7RuleV2 extends cdktf.TerraformResource {
 
@@ -619,7 +619,7 @@ export class DayuL7RuleV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DayuL7RuleV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DayuL7RuleV2 to import
-  * @param importFromId The id of the existing DayuL7RuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DayuL7RuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DayuL7RuleV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -631,7 +631,7 @@ export class DayuL7RuleV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_l7_rule_v2 tencentcloud_dayu_l7_rule_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_l7_rule_v2 tencentcloud_dayu_l7_rule_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -642,8 +642,8 @@ export class DayuL7RuleV2 extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dayu_l7_rule_v2',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OrganizationmanagerOsLoginSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#id OrganizationmanagerOsLoginSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#id OrganizationmanagerOsLoginSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface OrganizationmanagerOsLoginSettingsConfig extends cdktf.Terrafor
   /**
   * The organization to manage it's OsLogin Settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#organization_id OrganizationmanagerOsLoginSettings#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#organization_id OrganizationmanagerOsLoginSettings#organization_id}
   */
   readonly organizationId: string;
   /**
   * ssh_certificate_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#ssh_certificate_settings OrganizationmanagerOsLoginSettings#ssh_certificate_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#ssh_certificate_settings OrganizationmanagerOsLoginSettings#ssh_certificate_settings}
   */
   readonly sshCertificateSettings?: OrganizationmanagerOsLoginSettingsSshCertificateSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#timeouts OrganizationmanagerOsLoginSettings#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#timeouts OrganizationmanagerOsLoginSettings#timeouts}
   */
   readonly timeouts?: OrganizationmanagerOsLoginSettingsTimeouts;
   /**
   * user_ssh_key_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#user_ssh_key_settings OrganizationmanagerOsLoginSettings#user_ssh_key_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#user_ssh_key_settings OrganizationmanagerOsLoginSettings#user_ssh_key_settings}
   */
   readonly userSshKeySettings?: OrganizationmanagerOsLoginSettingsUserSshKeySettings;
 }
@@ -43,7 +43,7 @@ export interface OrganizationmanagerOsLoginSettingsSshCertificateSettings {
   /**
   * Enables or disables usage of SSH certificates signed by trusted Certification Authority (CA).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#enabled OrganizationmanagerOsLoginSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#enabled OrganizationmanagerOsLoginSettings#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -127,19 +127,19 @@ export class OrganizationmanagerOsLoginSettingsSshCertificateSettingsOutputRefer
 }
 export interface OrganizationmanagerOsLoginSettingsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#create OrganizationmanagerOsLoginSettings#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#create OrganizationmanagerOsLoginSettings#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#delete OrganizationmanagerOsLoginSettings#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#delete OrganizationmanagerOsLoginSettings#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#read OrganizationmanagerOsLoginSettings#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#read OrganizationmanagerOsLoginSettings#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#update OrganizationmanagerOsLoginSettings#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#update OrganizationmanagerOsLoginSettings#update}
   */
   readonly update?: string;
 }
@@ -322,13 +322,13 @@ export interface OrganizationmanagerOsLoginSettingsUserSshKeySettings {
   /**
   * If set to true subject is allowed to manage own ssh keys without having to be assigned specific permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#allow_manage_own_keys OrganizationmanagerOsLoginSettings#allow_manage_own_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#allow_manage_own_keys OrganizationmanagerOsLoginSettings#allow_manage_own_keys}
   */
   readonly allowManageOwnKeys?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables usage of ssh keys assigned to a specific subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#enabled OrganizationmanagerOsLoginSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#enabled OrganizationmanagerOsLoginSettings#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -441,7 +441,7 @@ export class OrganizationmanagerOsLoginSettingsUserSshKeySettingsOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings yandex_organizationmanager_os_login_settings}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings yandex_organizationmanager_os_login_settings}
 */
 export class OrganizationmanagerOsLoginSettings extends cdktf.TerraformResource {
 
@@ -457,7 +457,7 @@ export class OrganizationmanagerOsLoginSettings extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a OrganizationmanagerOsLoginSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationmanagerOsLoginSettings to import
-  * @param importFromId The id of the existing OrganizationmanagerOsLoginSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationmanagerOsLoginSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationmanagerOsLoginSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -469,7 +469,7 @@ export class OrganizationmanagerOsLoginSettings extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_os_login_settings yandex_organizationmanager_os_login_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_os_login_settings yandex_organizationmanager_os_login_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -480,8 +480,8 @@ export class OrganizationmanagerOsLoginSettings extends cdktf.TerraformResource 
       terraformResourceType: 'yandex_organizationmanager_os_login_settings',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.171.0',
-        providerVersionConstraint: '0.171.0'
+        providerVersion: '0.172.0',
+        providerVersionConstraint: '0.172.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

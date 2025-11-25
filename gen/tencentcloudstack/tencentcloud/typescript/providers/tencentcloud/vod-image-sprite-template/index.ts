@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VodImageSpriteTemplateConfig extends cdktf.TerraformMetaArgumen
   /**
   * Subimage column count of an image sprite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#column_count VodImageSpriteTemplate#column_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#column_count VodImageSpriteTemplate#column_count}
   */
   readonly columnCount: number;
   /**
   * Template description. Length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#comment VodImageSpriteTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#comment VodImageSpriteTemplate#comment}
   */
   readonly comment?: string;
   /**
   * Fill refers to the way of processing a screenshot when its aspect ratio is different from that of the source video. The following fill types are supported: `stretch`: stretch. The screenshot will be stretched frame by frame to match the aspect ratio of the source video, which may make the screenshot shorter or longer; `black`: fill with black. This option retains the aspect ratio of the source video for the screenshot and fills the unmatched area with black color blocks. Default value: `black`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#fill_type VodImageSpriteTemplate#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#fill_type VodImageSpriteTemplate#fill_type}
   */
   readonly fillType?: string;
   /**
@@ -32,17 +32,17 @@ export interface VodImageSpriteTemplateConfig extends cdktf.TerraformMetaArgumen
   * - webp: webp format;
   * Default value: jpg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#format VodImageSpriteTemplate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#format VodImageSpriteTemplate#format}
   */
   readonly format?: string;
   /**
   * Maximum value of the `height` (or short side) of a screenshot in px. Value range: 0 and [128, 4,096]. If both `width` and `height` are `0`, the resolution will be the same as that of the source video; If `width` is `0`, but `height` is not `0`, `width` will be proportionally scaled; If `width` is not `0`, but `height` is `0`, `height` will be proportionally scaled; If both `width` and `height` are not `0`, the custom resolution will be used. Default value: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#height VodImageSpriteTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#height VodImageSpriteTemplate#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#id VodImageSpriteTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#id VodImageSpriteTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,49 +51,49 @@ export interface VodImageSpriteTemplateConfig extends cdktf.TerraformMetaArgumen
   /**
   * Name of a time point screen capturing template. Length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#name VodImageSpriteTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#name VodImageSpriteTemplate#name}
   */
   readonly name: string;
   /**
   * Resolution adaption. Valid values: `true`,`false`. `true`: enabled. In this case, `width` represents the long side of a video, while `height` the short side; `false`: disabled. In this case, `width` represents the width of a video, while `height` the height. Default value: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#resolution_adaptive VodImageSpriteTemplate#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#resolution_adaptive VodImageSpriteTemplate#resolution_adaptive}
   */
   readonly resolutionAdaptive?: boolean | cdktf.IResolvable;
   /**
   * Subimage row count of an image sprite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#row_count VodImageSpriteTemplate#row_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#row_count VodImageSpriteTemplate#row_count}
   */
   readonly rowCount: number;
   /**
   * Sampling interval. If `sample_type` is `Percent`, sampling will be performed at an interval of the specified percentage. If `sample_type` is `Time`, sampling will be performed at the specified time interval in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#sample_interval VodImageSpriteTemplate#sample_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#sample_interval VodImageSpriteTemplate#sample_interval}
   */
   readonly sampleInterval: number;
   /**
   * Sampling type. Valid values: `Percent`, `Time`. `Percent`: by percent. `Time`: by time interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#sample_type VodImageSpriteTemplate#sample_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#sample_type VodImageSpriteTemplate#sample_type}
   */
   readonly sampleType: string;
   /**
   * The VOD [application](https://intl.cloud.tencent.com/document/product/266/14574) ID. For customers who activate VOD service from December 25, 2023, if they want to access resources in a VOD application (whether it's the default application or a newly created one), they must fill in this field with the application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#sub_app_id VodImageSpriteTemplate#sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#sub_app_id VodImageSpriteTemplate#sub_app_id}
   */
   readonly subAppId?: number;
   /**
   * Maximum value of the `width` (or long side) of a screenshot in px. Value range: 0 and [128, 4,096]. If both `width` and `height` are `0`, the resolution will be the same as that of the source video; If `width` is `0`, but `height` is not `0`, width will be proportionally scaled; If `width` is not `0`, but `height` is `0`, `height` will be proportionally scaled; If both `width` and `height` are not `0`, the custom resolution will be used. Default value: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#width VodImageSpriteTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#width VodImageSpriteTemplate#width}
   */
   readonly width?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template tencentcloud_vod_image_sprite_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template tencentcloud_vod_image_sprite_template}
 */
 export class VodImageSpriteTemplate extends cdktf.TerraformResource {
 
@@ -109,7 +109,7 @@ export class VodImageSpriteTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VodImageSpriteTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VodImageSpriteTemplate to import
-  * @param importFromId The id of the existing VodImageSpriteTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VodImageSpriteTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VodImageSpriteTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -121,7 +121,7 @@ export class VodImageSpriteTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_image_sprite_template tencentcloud_vod_image_sprite_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vod_image_sprite_template tencentcloud_vod_image_sprite_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -132,8 +132,8 @@ export class VodImageSpriteTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vod_image_sprite_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.37',
-        providerVersionConstraint: '1.82.37'
+        providerVersion: '1.82.38',
+        providerVersionConstraint: '1.82.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

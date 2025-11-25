@@ -1,3 +1,3 @@
 # `data_zenlayercloud_zlb_backends`
 
-Refer to the Terraform Registry for docs: [`data_zenlayercloud_zlb_backends`](https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zlb_backends).
+Refer to the Terraform Registry for docs: [`data_zenlayercloud_zlb_backends`](https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zlb_backends).
