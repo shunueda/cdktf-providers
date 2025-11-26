@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_group
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,44 +9,50 @@ import * as cdktf from 'cdktf';
 export interface ServiceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_group#device ServiceGroup#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service_group#device ServiceGroup#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_group#folder ServiceGroup#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service_group#folder ServiceGroup#folder}
   */
   readonly folder?: string;
   /**
   * Members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_group#members ServiceGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service_group#members ServiceGroup#members}
   */
   readonly members: string[];
   /**
   * The name of the service group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_group#name ServiceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service_group#name ServiceGroup#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_group#snippet ServiceGroup#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service_group#snippet ServiceGroup#snippet}
   */
   readonly snippet?: string;
   /**
   * Tags associated with the service group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_group#tag ServiceGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service_group#tag ServiceGroup#tag}
   */
   readonly tag?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_group scm_service_group}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service_group scm_service_group}
 */
 export class ServiceGroup extends cdktf.TerraformResource {
 
@@ -62,7 +68,7 @@ export class ServiceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceGroup to import
-  * @param importFromId The id of the existing ServiceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +80,7 @@ export class ServiceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_group scm_service_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service_group scm_service_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +91,8 @@ export class ServiceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'scm_service_group',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

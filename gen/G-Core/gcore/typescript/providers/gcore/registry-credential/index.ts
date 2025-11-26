@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/registry_credential
+// https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/registry_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface RegistryCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/registry_credential#id RegistryCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/registry_credential#id RegistryCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/registry_credential#name RegistryCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/registry_credential#name RegistryCredential#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/registry_credential#password RegistryCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/registry_credential#password RegistryCredential#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/registry_credential#project_id RegistryCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/registry_credential#project_id RegistryCredential#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/registry_credential#project_name RegistryCredential#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/registry_credential#project_name RegistryCredential#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/registry_credential#registry_url RegistryCredential#registry_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/registry_credential#registry_url RegistryCredential#registry_url}
   */
   readonly registryUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/registry_credential#username RegistryCredential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/registry_credential#username RegistryCredential#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/registry_credential gcore_registry_credential}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/registry_credential gcore_registry_credential}
 */
 export class RegistryCredential extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class RegistryCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RegistryCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RegistryCredential to import
-  * @param importFromId The id of the existing RegistryCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/registry_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RegistryCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/registry_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RegistryCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class RegistryCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/registry_credential gcore_registry_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/registry_credential gcore_registry_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class RegistryCredential extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_registry_credential',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.0',
-        providerVersionConstraint: '0.32.0'
+        providerVersion: '0.32.1',
+        providerVersionConstraint: '0.32.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

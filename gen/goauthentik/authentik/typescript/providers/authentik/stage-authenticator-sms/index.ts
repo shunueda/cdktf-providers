@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface StageAuthenticatorSmsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#account_sid StageAuthenticatorSms#account_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#account_sid StageAuthenticatorSms#account_sid}
   */
   readonly accountSid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#auth StageAuthenticatorSms#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#auth StageAuthenticatorSms#auth}
   */
   readonly auth: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#auth_password StageAuthenticatorSms#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#auth_password StageAuthenticatorSms#auth_password}
   */
   readonly authPassword?: string;
   /**
@@ -25,36 +25,36 @@ export interface StageAuthenticatorSmsConfig extends cdktf.TerraformMetaArgument
   *   - `bearer`
   *  Defaults to `basic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#auth_type StageAuthenticatorSms#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#auth_type StageAuthenticatorSms#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#configure_flow StageAuthenticatorSms#configure_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#configure_flow StageAuthenticatorSms#configure_flow}
   */
   readonly configureFlow?: string;
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#friendly_name StageAuthenticatorSms#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#friendly_name StageAuthenticatorSms#friendly_name}
   */
   readonly friendlyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#from_number StageAuthenticatorSms#from_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#from_number StageAuthenticatorSms#from_number}
   */
   readonly fromNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#id StageAuthenticatorSms#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#id StageAuthenticatorSms#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#mapping StageAuthenticatorSms#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#mapping StageAuthenticatorSms#mapping}
   */
   readonly mapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#name StageAuthenticatorSms#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#name StageAuthenticatorSms#name}
   */
   readonly name: string;
   /**
@@ -63,19 +63,19 @@ export interface StageAuthenticatorSmsConfig extends cdktf.TerraformMetaArgument
   *   - `generic`
   *  Defaults to `twilio`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#sms_provider StageAuthenticatorSms#sms_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#sms_provider StageAuthenticatorSms#sms_provider}
   */
   readonly smsProvider?: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#verify_only StageAuthenticatorSms#verify_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#verify_only StageAuthenticatorSms#verify_only}
   */
   readonly verifyOnly?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms authentik_stage_authenticator_sms}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms authentik_stage_authenticator_sms}
 */
 export class StageAuthenticatorSms extends cdktf.TerraformResource {
 
@@ -91,7 +91,7 @@ export class StageAuthenticatorSms extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StageAuthenticatorSms resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StageAuthenticatorSms to import
-  * @param importFromId The id of the existing StageAuthenticatorSms that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StageAuthenticatorSms that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StageAuthenticatorSms to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -103,7 +103,7 @@ export class StageAuthenticatorSms extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_sms authentik_stage_authenticator_sms} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_sms authentik_stage_authenticator_sms} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,8 +114,8 @@ export class StageAuthenticatorSms extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_stage_authenticator_sms',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

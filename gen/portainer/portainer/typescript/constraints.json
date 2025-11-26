@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "portainer": "1.18.0"
+    "portainer": "1.18.1"
   }
 }

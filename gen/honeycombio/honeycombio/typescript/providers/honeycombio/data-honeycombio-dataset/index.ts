@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/dataset
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataHoneycombioDatasetConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Slug of the Dataset to fetch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/dataset#slug DataHoneycombioDataset#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/dataset#slug DataHoneycombioDataset#slug}
   */
   readonly slug: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/dataset honeycombio_dataset}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/dataset honeycombio_dataset}
 */
 export class DataHoneycombioDataset extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataHoneycombioDataset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHoneycombioDataset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHoneycombioDataset to import
-  * @param importFromId The id of the existing DataHoneycombioDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHoneycombioDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHoneycombioDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataHoneycombioDataset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/dataset honeycombio_dataset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/dataset honeycombio_dataset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataHoneycombioDataset extends cdktf.TerraformDataSource {
       terraformResourceType: 'honeycombio_dataset',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0',
-        providerVersionConstraint: '0.42.0'
+        providerVersion: '0.43.0',
+        providerVersionConstraint: '0.43.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

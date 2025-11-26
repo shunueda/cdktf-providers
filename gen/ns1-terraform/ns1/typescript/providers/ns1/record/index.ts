@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record
+// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface RecordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#blocked_tags Record#blocked_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#blocked_tags Record#blocked_tags}
   */
   readonly blockedTags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#domain Record#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#domain Record#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#id Record#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#id Record#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#link Record#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#link Record#link}
   */
   readonly link?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#meta Record#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#meta Record#meta}
   */
   readonly meta?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#override_address_records Record#override_address_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#override_address_records Record#override_address_records}
   */
   readonly overrideAddressRecords?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#override_ttl Record#override_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#override_ttl Record#override_ttl}
   */
   readonly overrideTtl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#short_answers Record#short_answers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#short_answers Record#short_answers}
   */
   readonly shortAnswers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#tags Record#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#tags Record#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#ttl Record#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#ttl Record#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#type Record#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#type Record#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#use_client_subnet Record#use_client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#use_client_subnet Record#use_client_subnet}
   */
   readonly useClientSubnet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#zone Record#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#zone Record#zone}
   */
   readonly zone: string;
   /**
   * answers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#answers Record#answers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#answers Record#answers}
   */
   readonly answers?: RecordAnswers[] | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#filters Record#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#filters Record#filters}
   */
   readonly filters?: RecordFilters[] | cdktf.IResolvable;
   /**
   * regions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#regions Record#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#regions Record#regions}
   */
   readonly regions?: RecordRegions[] | cdktf.IResolvable;
 }
 export interface RecordAnswers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#answer Record#answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#answer Record#answer}
   */
   readonly answer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#meta Record#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#meta Record#meta}
   */
   readonly meta?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#region Record#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#region Record#region}
   */
   readonly region?: string;
 }
@@ -265,15 +265,15 @@ export class RecordAnswersList extends cdktf.ComplexList {
 }
 export interface RecordFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#config Record#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#config Record#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#disabled Record#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#disabled Record#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#filter Record#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#filter Record#filter}
   */
   readonly filter: string;
 }
@@ -444,11 +444,11 @@ export class RecordFiltersList extends cdktf.ComplexList {
 }
 export interface RecordRegions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#meta Record#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#meta Record#meta}
   */
   readonly meta?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#name Record#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#name Record#name}
   */
   readonly name: string;
 }
@@ -590,7 +590,7 @@ export class RecordRegionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record ns1_record}
+* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record ns1_record}
 */
 export class Record extends cdktf.TerraformResource {
 
@@ -606,7 +606,7 @@ export class Record extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Record resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Record to import
-  * @param importFromId The id of the existing Record that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Record that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Record to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -618,7 +618,7 @@ export class Record extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/record ns1_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/record ns1_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -629,8 +629,8 @@ export class Record extends cdktf.TerraformResource {
       terraformResourceType: 'ns1_record',
       terraformGeneratorMetadata: {
         providerName: 'ns1',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

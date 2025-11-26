@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSpaceliftStacksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#id DataSpaceliftStacks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#id DataSpaceliftStacks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,67 +17,67 @@ export interface DataSpaceliftStacksConfig extends cdktf.TerraformMetaArguments 
   /**
   * administrative block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#administrative DataSpaceliftStacks#administrative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#administrative DataSpaceliftStacks#administrative}
   */
   readonly administrative?: DataSpaceliftStacksAdministrative;
   /**
   * branch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#branch DataSpaceliftStacks#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#branch DataSpaceliftStacks#branch}
   */
   readonly branch?: DataSpaceliftStacksBranch;
   /**
   * commit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#commit DataSpaceliftStacks#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#commit DataSpaceliftStacks#commit}
   */
   readonly commit?: DataSpaceliftStacksCommit;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#labels DataSpaceliftStacks#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#labels DataSpaceliftStacks#labels}
   */
   readonly labels?: DataSpaceliftStacksLabels[] | cdktf.IResolvable;
   /**
   * locked block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#locked DataSpaceliftStacks#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#locked DataSpaceliftStacks#locked}
   */
   readonly locked?: DataSpaceliftStacksLocked;
   /**
   * name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#name DataSpaceliftStacks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#name DataSpaceliftStacks#name}
   */
   readonly name?: DataSpaceliftStacksName;
   /**
   * project_root block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#project_root DataSpaceliftStacks#project_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#project_root DataSpaceliftStacks#project_root}
   */
   readonly projectRoot?: DataSpaceliftStacksProjectRoot;
   /**
   * repository block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#repository DataSpaceliftStacks#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#repository DataSpaceliftStacks#repository}
   */
   readonly repository?: DataSpaceliftStacksRepository;
   /**
   * state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#state DataSpaceliftStacks#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#state DataSpaceliftStacks#state}
   */
   readonly state?: DataSpaceliftStacksState;
   /**
   * vendor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#vendor DataSpaceliftStacks#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#vendor DataSpaceliftStacks#vendor}
   */
   readonly vendor?: DataSpaceliftStacksVendor;
   /**
   * worker_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#worker_pool DataSpaceliftStacks#worker_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#worker_pool DataSpaceliftStacks#worker_pool}
   */
   readonly workerPool?: DataSpaceliftStacksWorkerPool;
 }
@@ -1415,7 +1415,7 @@ export class DataSpaceliftStacksStacksList extends cdktf.ComplexList {
 }
 export interface DataSpaceliftStacksAdministrative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#equals DataSpaceliftStacks#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#equals DataSpaceliftStacks#equals}
   */
   readonly equalTo?: boolean | cdktf.IResolvable;
 }
@@ -1499,7 +1499,7 @@ export class DataSpaceliftStacksAdministrativeOutputReference extends cdktf.Comp
 }
 export interface DataSpaceliftStacksBranch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
   */
   readonly anyOf: string[];
 }
@@ -1580,7 +1580,7 @@ export class DataSpaceliftStacksBranchOutputReference extends cdktf.ComplexObjec
 }
 export interface DataSpaceliftStacksCommit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
   */
   readonly anyOf: string[];
 }
@@ -1661,7 +1661,7 @@ export class DataSpaceliftStacksCommitOutputReference extends cdktf.ComplexObjec
 }
 export interface DataSpaceliftStacksLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
   */
   readonly anyOf: string[];
 }
@@ -1774,7 +1774,7 @@ export class DataSpaceliftStacksLabelsList extends cdktf.ComplexList {
 }
 export interface DataSpaceliftStacksLocked {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#equals DataSpaceliftStacks#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#equals DataSpaceliftStacks#equals}
   */
   readonly equalTo?: boolean | cdktf.IResolvable;
 }
@@ -1858,7 +1858,7 @@ export class DataSpaceliftStacksLockedOutputReference extends cdktf.ComplexObjec
 }
 export interface DataSpaceliftStacksName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
   */
   readonly anyOf: string[];
 }
@@ -1939,7 +1939,7 @@ export class DataSpaceliftStacksNameOutputReference extends cdktf.ComplexObject 
 }
 export interface DataSpaceliftStacksProjectRoot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
   */
   readonly anyOf: string[];
 }
@@ -2020,7 +2020,7 @@ export class DataSpaceliftStacksProjectRootOutputReference extends cdktf.Complex
 }
 export interface DataSpaceliftStacksRepository {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
   */
   readonly anyOf: string[];
 }
@@ -2101,7 +2101,7 @@ export class DataSpaceliftStacksRepositoryOutputReference extends cdktf.ComplexO
 }
 export interface DataSpaceliftStacksState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
   */
   readonly anyOf: string[];
 }
@@ -2182,7 +2182,7 @@ export class DataSpaceliftStacksStateOutputReference extends cdktf.ComplexObject
 }
 export interface DataSpaceliftStacksVendor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
   */
   readonly anyOf: string[];
 }
@@ -2263,7 +2263,7 @@ export class DataSpaceliftStacksVendorOutputReference extends cdktf.ComplexObjec
 }
 export interface DataSpaceliftStacksWorkerPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#any_of DataSpaceliftStacks#any_of}
   */
   readonly anyOf: string[];
 }
@@ -2344,7 +2344,7 @@ export class DataSpaceliftStacksWorkerPoolOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks spacelift_stacks}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks spacelift_stacks}
 */
 export class DataSpaceliftStacks extends cdktf.TerraformDataSource {
 
@@ -2360,7 +2360,7 @@ export class DataSpaceliftStacks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpaceliftStacks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpaceliftStacks to import
-  * @param importFromId The id of the existing DataSpaceliftStacks that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpaceliftStacks that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpaceliftStacks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2372,7 +2372,7 @@ export class DataSpaceliftStacks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stacks spacelift_stacks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/stacks spacelift_stacks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2383,8 +2383,8 @@ export class DataSpaceliftStacks extends cdktf.TerraformDataSource {
       terraformResourceType: 'spacelift_stacks',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.39.0',
-        providerVersionConstraint: '1.39.0'
+        providerVersion: '1.40.0',
+        providerVersionConstraint: '1.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

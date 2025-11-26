@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface CloudAzureTenantConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Azure Tenant account type. Value is 'commercial' for Commercial cloud accounts. For GovCloud environments, value can be either 'commercial' or 'gov' depending on the account type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#account_type CloudAzureTenant#account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#account_type CloudAzureTenant#account_type}
   */
   readonly accountType?: string;
   /**
   * Azure location where CrowdStrike infrastructure resources (such as Event Hubs) were deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#cs_infra_location CloudAzureTenant#cs_infra_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#cs_infra_location CloudAzureTenant#cs_infra_location}
   */
   readonly csInfraLocation?: string;
   /**
   * Azure subscription ID where CrowdStrike infrastructure resources (such as Event Hubs) were deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#cs_infra_subscription_id CloudAzureTenant#cs_infra_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#cs_infra_subscription_id CloudAzureTenant#cs_infra_subscription_id}
   */
   readonly csInfraSubscriptionId?: string;
   /**
   * The environment added to resources created during onboarding. It will be used if you generate new .tfvars from the UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#environment CloudAzureTenant#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#environment CloudAzureTenant#environment}
   */
   readonly environment?: string;
   /**
   * A list of Azure management group IDs to monitor. All subscriptions under the management groups will be monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#management_group_ids CloudAzureTenant#management_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#management_group_ids CloudAzureTenant#management_group_ids}
   */
   readonly managementGroupIds?: string[];
   /**
   * A list of Microsoft Graph permission IDs to assign to the service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#microsoft_graph_permission_ids CloudAzureTenant#microsoft_graph_permission_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#microsoft_graph_permission_ids CloudAzureTenant#microsoft_graph_permission_ids}
   */
   readonly microsoftGraphPermissionIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#realtime_visibility CloudAzureTenant#realtime_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#realtime_visibility CloudAzureTenant#realtime_visibility}
   */
   readonly realtimeVisibility?: CloudAzureTenantRealtimeVisibility;
   /**
   * The prefix added to resources created during onboarding. It will be used if you generate new .tfvars from the UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#resource_name_prefix CloudAzureTenant#resource_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#resource_name_prefix CloudAzureTenant#resource_name_prefix}
   */
   readonly resourceNamePrefix?: string;
   /**
   * The suffix added to resources created during onboarding. It will be used if you generate new .tfvars from the UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#resource_name_suffix CloudAzureTenant#resource_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#resource_name_suffix CloudAzureTenant#resource_name_suffix}
   */
   readonly resourceNameSuffix?: string;
   /**
   * A list of subscription IDs to register in addition to any subscriptions that are targeted by management_group_ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#subscription_ids CloudAzureTenant#subscription_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#subscription_ids CloudAzureTenant#subscription_ids}
   */
   readonly subscriptionIds?: string[];
   /**
   * Tags applied to managed resources. This does not effect the registration of the tenant. It will be used if you generate new .tfvars from the UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#tags CloudAzureTenant#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#tags CloudAzureTenant#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The Azure Tenant ID to register into Falcon Cloud Security. If subscription_ids and management_group_ids are not provided, then all subscriptions in the tenant are targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#tenant_id CloudAzureTenant#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#tenant_id CloudAzureTenant#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -82,7 +82,7 @@ export interface CloudAzureTenantRealtimeVisibility {
   /**
   * Enable real-time visibility and detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#enabled CloudAzureTenant#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#enabled CloudAzureTenant#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -173,7 +173,7 @@ export class CloudAzureTenantRealtimeVisibilityOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant crowdstrike_cloud_azure_tenant}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant crowdstrike_cloud_azure_tenant}
 */
 export class CloudAzureTenant extends cdktf.TerraformResource {
 
@@ -189,7 +189,7 @@ export class CloudAzureTenant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudAzureTenant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudAzureTenant to import
-  * @param importFromId The id of the existing CloudAzureTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudAzureTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudAzureTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class CloudAzureTenant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_azure_tenant crowdstrike_cloud_azure_tenant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant crowdstrike_cloud_azure_tenant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class CloudAzureTenant extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_cloud_azure_tenant',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.48',
-        providerVersionConstraint: '0.0.48'
+        providerVersion: '0.0.49',
+        providerVersionConstraint: '0.0.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

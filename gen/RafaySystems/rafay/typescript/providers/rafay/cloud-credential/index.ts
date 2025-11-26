@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface CloudCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS accesskey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#accesskey CloudCredential#accesskey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#accesskey CloudCredential#accesskey}
   */
   readonly accesskey?: string;
   /**
   * AWS cloud provider credential type. Accepted values are 'rolearn', 'accesskey'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#awscredtype CloudCredential#awscredtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#awscredtype CloudCredential#awscredtype}
   */
   readonly awscredtype?: string;
   /**
   * Azure client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#clientid CloudCredential#clientid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#clientid CloudCredential#clientid}
   */
   readonly clientid?: string;
   /**
   * Azure client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#clientsecret CloudCredential#clientsecret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#clientsecret CloudCredential#clientsecret}
   */
   readonly clientsecret?: string;
   /**
   * Credential file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#credfile CloudCredential#credfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#credfile CloudCredential#credfile}
   */
   readonly credfile?: string;
   /**
   * Description of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#description CloudCredential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#description CloudCredential#description}
   */
   readonly description?: string;
   /**
   * External ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#externalid CloudCredential#externalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#externalid CloudCredential#externalid}
   */
   readonly externalid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#id CloudCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#id CloudCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,69 +59,69 @@ export interface CloudCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of cloud crredential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#name CloudCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#name CloudCredential#name}
   */
   readonly name: string;
   /**
   * Name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#project CloudCredential#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#project CloudCredential#project}
   */
   readonly project: string;
   /**
   * Type of the cloud provider. Accepted values are 'AWS', 'AZURE', 'GCP', 'MINIO'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#providertype CloudCredential#providertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#providertype CloudCredential#providertype}
   */
   readonly providertype: string;
   /**
   * AWS role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#rolearn CloudCredential#rolearn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#rolearn CloudCredential#rolearn}
   */
   readonly rolearn?: string;
   /**
   * AWS secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#secretkey CloudCredential#secretkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#secretkey CloudCredential#secretkey}
   */
   readonly secretkey?: string;
   /**
   * Azure subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#subscriptionid CloudCredential#subscriptionid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#subscriptionid CloudCredential#subscriptionid}
   */
   readonly subscriptionid?: string;
   /**
   * Azure tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#tenantid CloudCredential#tenantid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#tenantid CloudCredential#tenantid}
   */
   readonly tenantid?: string;
   /**
   * Cloud credential type. Accepted values are 'cluster-provisioning', 'data-backup' 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#type CloudCredential#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#type CloudCredential#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#timeouts CloudCredential#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#timeouts CloudCredential#timeouts}
   */
   readonly timeouts?: CloudCredentialTimeouts;
 }
 export interface CloudCredentialTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#create CloudCredential#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#create CloudCredential#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#delete CloudCredential#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#delete CloudCredential#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#update CloudCredential#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#update CloudCredential#update}
   */
   readonly update?: string;
 }
@@ -273,7 +273,7 @@ export class CloudCredentialTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential rafay_cloud_credential}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential rafay_cloud_credential}
 */
 export class CloudCredential extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class CloudCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudCredential to import
-  * @param importFromId The id of the existing CloudCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class CloudCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credential rafay_cloud_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cloud_credential rafay_cloud_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class CloudCredential extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_cloud_credential',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/certificate_key_pair
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/certificate_key_pair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataAuthentikCertificateKeyPairConfig extends cdktf.TerraformMe
   /**
   * If set to true, certificate data will be fetched. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/certificate_key_pair#fetch_certificate DataAuthentikCertificateKeyPair#fetch_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/certificate_key_pair#fetch_certificate DataAuthentikCertificateKeyPair#fetch_certificate}
   */
   readonly fetchCertificate?: boolean | cdktf.IResolvable;
   /**
   * If set to true, private key data will be fetched. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/certificate_key_pair#fetch_key DataAuthentikCertificateKeyPair#fetch_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/certificate_key_pair#fetch_key DataAuthentikCertificateKeyPair#fetch_key}
   */
   readonly fetchKey?: boolean | cdktf.IResolvable;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/certificate_key_pair#key_data DataAuthentikCertificateKeyPair#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/certificate_key_pair#key_data DataAuthentikCertificateKeyPair#key_data}
   */
   readonly keyData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/certificate_key_pair#name DataAuthentikCertificateKeyPair#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/certificate_key_pair#name DataAuthentikCertificateKeyPair#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/certificate_key_pair authentik_certificate_key_pair}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/certificate_key_pair authentik_certificate_key_pair}
 */
 export class DataAuthentikCertificateKeyPair extends cdktf.TerraformDataSource {
 
@@ -48,7 +48,7 @@ export class DataAuthentikCertificateKeyPair extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAuthentikCertificateKeyPair resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuthentikCertificateKeyPair to import
-  * @param importFromId The id of the existing DataAuthentikCertificateKeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/certificate_key_pair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuthentikCertificateKeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/certificate_key_pair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuthentikCertificateKeyPair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -60,7 +60,7 @@ export class DataAuthentikCertificateKeyPair extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/certificate_key_pair authentik_certificate_key_pair} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/certificate_key_pair authentik_certificate_key_pair} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,8 +71,8 @@ export class DataAuthentikCertificateKeyPair extends cdktf.TerraformDataSource {
       terraformResourceType: 'authentik_certificate_key_pair',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector
+// https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the Connector, if not provided one will be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector#name Connector#name}
   */
   readonly name?: string;
   /**
   * The ID of the Remote Network the Connector is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector#remote_network_id Connector#remote_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector#remote_network_id Connector#remote_network_id}
   */
   readonly remoteNetworkId: string;
   /**
   * Determines whether status notifications are enabled for the Connector. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector#status_updates_enabled Connector#status_updates_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector#status_updates_enabled Connector#status_updates_enabled}
   */
   readonly statusUpdatesEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector twingate_connector}
+* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector twingate_connector}
 */
 export class Connector extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Connector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Connector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Connector to import
-  * @param importFromId The id of the existing Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Connector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Connector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector twingate_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector twingate_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Connector extends cdktf.TerraformResource {
       terraformResourceType: 'twingate_connector',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0',
-        providerVersionConstraint: '3.5.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

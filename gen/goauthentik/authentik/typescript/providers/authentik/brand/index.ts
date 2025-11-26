@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,90 +10,90 @@ export interface BrandConfig extends cdktf.TerraformMetaArguments {
   /**
   * JSON format expected. Use `jsonencode()` to pass objects. Defaults to `{}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#attributes Brand#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#attributes Brand#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#branding_custom_css Brand#branding_custom_css}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#branding_custom_css Brand#branding_custom_css}
   */
   readonly brandingCustomCss?: string;
   /**
   * Defaults to `/static/dist/assets/images/flow_background.jpg`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#branding_default_flow_background Brand#branding_default_flow_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#branding_default_flow_background Brand#branding_default_flow_background}
   */
   readonly brandingDefaultFlowBackground?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#branding_favicon Brand#branding_favicon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#branding_favicon Brand#branding_favicon}
   */
   readonly brandingFavicon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#branding_logo Brand#branding_logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#branding_logo Brand#branding_logo}
   */
   readonly brandingLogo?: string;
   /**
   * Defaults to `authentik`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#branding_title Brand#branding_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#branding_title Brand#branding_title}
   */
   readonly brandingTitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#client_certificates Brand#client_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#client_certificates Brand#client_certificates}
   */
   readonly clientCertificates?: string[];
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#default Brand#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#default Brand#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#default_application Brand#default_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#default_application Brand#default_application}
   */
   readonly defaultApplication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#domain Brand#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#domain Brand#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#flow_authentication Brand#flow_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#flow_authentication Brand#flow_authentication}
   */
   readonly flowAuthentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#flow_device_code Brand#flow_device_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#flow_device_code Brand#flow_device_code}
   */
   readonly flowDeviceCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#flow_invalidation Brand#flow_invalidation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#flow_invalidation Brand#flow_invalidation}
   */
   readonly flowInvalidation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#flow_recovery Brand#flow_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#flow_recovery Brand#flow_recovery}
   */
   readonly flowRecovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#flow_unenrollment Brand#flow_unenrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#flow_unenrollment Brand#flow_unenrollment}
   */
   readonly flowUnenrollment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#flow_user_settings Brand#flow_user_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#flow_user_settings Brand#flow_user_settings}
   */
   readonly flowUserSettings?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#id Brand#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#id Brand#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#web_certificate Brand#web_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#web_certificate Brand#web_certificate}
   */
   readonly webCertificate?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand authentik_brand}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand authentik_brand}
 */
 export class Brand extends cdktf.TerraformResource {
 
@@ -109,7 +109,7 @@ export class Brand extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Brand resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Brand to import
-  * @param importFromId The id of the existing Brand that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Brand that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Brand to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -121,7 +121,7 @@ export class Brand extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/brand authentik_brand} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/brand authentik_brand} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -132,8 +132,8 @@ export class Brand extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_brand',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

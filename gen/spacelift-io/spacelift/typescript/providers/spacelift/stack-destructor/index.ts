@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_destructor
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_destructor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface StackDestructorConfig extends cdktf.TerraformMetaArguments {
   /**
   * If set to true, destruction won't delete the resources (e.g. AWS/Azure/GCP infrastructure) managed by the stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_destructor#deactivated StackDestructor#deactivated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_destructor#deactivated StackDestructor#deactivated}
   */
   readonly deactivated?: boolean | cdktf.IResolvable;
   /**
   * If set to true, destruction will also discard all runs on the stack that are eligible for discarding (e.g. not in progress runs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_destructor#discard_runs StackDestructor#discard_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_destructor#discard_runs StackDestructor#discard_runs}
   */
   readonly discardRuns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_destructor#id StackDestructor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_destructor#id StackDestructor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface StackDestructorConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the stack to delete and destroy on destruction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_destructor#stack_id StackDestructor#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_destructor#stack_id StackDestructor#stack_id}
   */
   readonly stackId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_destructor#timeouts StackDestructor#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_destructor#timeouts StackDestructor#timeouts}
   */
   readonly timeouts?: StackDestructorTimeouts;
 }
 export interface StackDestructorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_destructor#delete StackDestructor#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_destructor#delete StackDestructor#delete}
   */
   readonly delete?: string;
 }
@@ -135,7 +135,7 @@ export class StackDestructorTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_destructor spacelift_stack_destructor}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_destructor spacelift_stack_destructor}
 */
 export class StackDestructor extends cdktf.TerraformResource {
 
@@ -151,7 +151,7 @@ export class StackDestructor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StackDestructor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StackDestructor to import
-  * @param importFromId The id of the existing StackDestructor that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_destructor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StackDestructor that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_destructor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StackDestructor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class StackDestructor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_destructor spacelift_stack_destructor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_destructor spacelift_stack_destructor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class StackDestructor extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_stack_destructor',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.39.0',
-        providerVersionConstraint: '1.39.0'
+        providerVersion: '1.40.0',
+        providerVersionConstraint: '1.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

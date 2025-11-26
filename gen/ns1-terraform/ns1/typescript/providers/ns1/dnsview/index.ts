@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/dnsview
+// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/dnsview
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DnsviewConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/dnsview#id Dnsview#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/dnsview#id Dnsview#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/dnsview#name Dnsview#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/dnsview#name Dnsview#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/dnsview#networks Dnsview#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/dnsview#networks Dnsview#networks}
   */
   readonly networks?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/dnsview#preference Dnsview#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/dnsview#preference Dnsview#preference}
   */
   readonly preference?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/dnsview#read_acls Dnsview#read_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/dnsview#read_acls Dnsview#read_acls}
   */
   readonly readAcls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/dnsview#update_acls Dnsview#update_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/dnsview#update_acls Dnsview#update_acls}
   */
   readonly updateAcls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/dnsview#zones Dnsview#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/dnsview#zones Dnsview#zones}
   */
   readonly zones?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/dnsview ns1_dnsview}
+* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/dnsview ns1_dnsview}
 */
 export class Dnsview extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Dnsview extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dnsview resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dnsview to import
-  * @param importFromId The id of the existing Dnsview that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/dnsview#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dnsview that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/dnsview#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dnsview to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Dnsview extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/dnsview ns1_dnsview} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/dnsview ns1_dnsview} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class Dnsview extends cdktf.TerraformResource {
       terraformResourceType: 'ns1_dnsview',
       terraformGeneratorMetadata: {
         providerName: 'ns1',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

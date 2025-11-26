@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface TriggerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Control when the Trigger will send a notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#alert_type Trigger#alert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#alert_type Trigger#alert_type}
   */
   readonly alertType?: string;
   /**
   * The dataset this Trigger is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#dataset Trigger#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#dataset Trigger#dataset}
   */
   readonly dataset?: string;
   /**
   * A description of the Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#description Trigger#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#description Trigger#description}
   */
   readonly description?: string;
   /**
   * The state of the Trigger. If true, the Trigger will not be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#disabled Trigger#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#disabled Trigger#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The interval (in seconds) in which to check the results of the query's calculation against the threshold. This value must be divisible by 60, between 60 and 86400 (between 1 minute and 1 day), and not be more than 4 times the query's duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#frequency Trigger#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#frequency Trigger#frequency}
   */
   readonly frequency?: number;
   /**
   * The name of the Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#name Trigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#name Trigger#name}
   */
   readonly name: string;
   /**
   * The ID of the Query that the Trigger will execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#query_id Trigger#query_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#query_id Trigger#query_id}
   */
   readonly queryId?: string;
   /**
   * The QuerySpec JSON for the query that the Trigger will execute. Providing the QuerySpec JSON directly allows for additional validation that the QuerySpec is valid as a Trigger Query. While the JSON can be constructed manually, it is easiest to use the `honeycombio_query_specification` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#query_json Trigger#query_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#query_json Trigger#query_json}
   */
   readonly queryJson?: string;
   /**
   * A map of tags to assign to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#tags Trigger#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#tags Trigger#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * baseline_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#baseline_details Trigger#baseline_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#baseline_details Trigger#baseline_details}
   */
   readonly baselineDetails?: TriggerBaselineDetails[] | cdktf.IResolvable;
   /**
   * evaluation_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#evaluation_schedule Trigger#evaluation_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#evaluation_schedule Trigger#evaluation_schedule}
   */
   readonly evaluationSchedule?: TriggerEvaluationSchedule[] | cdktf.IResolvable;
   /**
   * recipient block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#recipient Trigger#recipient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#recipient Trigger#recipient}
   */
   readonly recipient?: TriggerRecipient[] | cdktf.IResolvable;
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#threshold Trigger#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#threshold Trigger#threshold}
   */
   readonly threshold?: TriggerThreshold[] | cdktf.IResolvable;
 }
@@ -90,13 +90,13 @@ export interface TriggerBaselineDetails {
   /**
   * What previous time period to evaluate against: 1 hour, 1 day, 1 week, or 4 weeks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#offset_minutes Trigger#offset_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#offset_minutes Trigger#offset_minutes}
   */
   readonly offsetMinutes: number;
   /**
   * Whether to use an absolute value or percentage delta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#type Trigger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#type Trigger#type}
   */
   readonly type: string;
 }
@@ -237,19 +237,19 @@ export interface TriggerEvaluationSchedule {
   /**
   * The days of the week to evaluate the trigger on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#days_of_week Trigger#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#days_of_week Trigger#days_of_week}
   */
   readonly daysOfWeek: string[];
   /**
   * UTC time to stop evaluating the trigger in HH:mm format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#end_time Trigger#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#end_time Trigger#end_time}
   */
   readonly endTime: string;
   /**
   * UTC time to start evaluating the trigger in HH:mm format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#start_time Trigger#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#start_time Trigger#start_time}
   */
   readonly startTime: string;
 }
@@ -416,13 +416,13 @@ export interface TriggerRecipientNotificationDetailsVariable {
   /**
   * The name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#name Trigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#name Trigger#name}
   */
   readonly name: string;
   /**
   * The value of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#value Trigger#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#value Trigger#value}
   */
   readonly value?: string;
 }
@@ -566,13 +566,13 @@ export interface TriggerRecipientNotificationDetails {
   /**
   * The severity to set with the PagerDuty notification. If no severity is provided, 'critical' is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#pagerduty_severity Trigger#pagerduty_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#pagerduty_severity Trigger#pagerduty_severity}
   */
   readonly pagerdutySeverity?: string;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#variable Trigger#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#variable Trigger#variable}
   */
   readonly variable?: TriggerRecipientNotificationDetailsVariable[] | cdktf.IResolvable;
 }
@@ -719,7 +719,7 @@ export interface TriggerRecipient {
   /**
   * The ID of an existing recipient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#id Trigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#id Trigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -728,19 +728,19 @@ export interface TriggerRecipient {
   /**
   * Target of the notification, this has another meaning depending on the type of recipient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#target Trigger#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#target Trigger#target}
   */
   readonly target?: string;
   /**
   * The type of the notification recipient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#type Trigger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#type Trigger#type}
   */
   readonly type?: string;
   /**
   * notification_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#notification_details Trigger#notification_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#notification_details Trigger#notification_details}
   */
   readonly notificationDetails?: TriggerRecipientNotificationDetails[] | cdktf.IResolvable;
 }
@@ -945,19 +945,19 @@ export interface TriggerThreshold {
   /**
   * The number of times the threshold is met before an alert is sent. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#exceeded_limit Trigger#exceeded_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#exceeded_limit Trigger#exceeded_limit}
   */
   readonly exceededLimit?: number;
   /**
   * The operator to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#op Trigger#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#op Trigger#op}
   */
   readonly op: string;
   /**
   * The value to be used with the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#value Trigger#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#value Trigger#value}
   */
   readonly value: number;
 }
@@ -1125,7 +1125,7 @@ export class TriggerThresholdList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger honeycombio_trigger}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger honeycombio_trigger}
 */
 export class Trigger extends cdktf.TerraformResource {
 
@@ -1141,7 +1141,7 @@ export class Trigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Trigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Trigger to import
-  * @param importFromId The id of the existing Trigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Trigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Trigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1153,7 +1153,7 @@ export class Trigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/trigger honeycombio_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/trigger honeycombio_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1164,8 +1164,8 @@ export class Trigger extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_trigger',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0',
-        providerVersionConstraint: '0.42.0'
+        providerVersion: '0.43.0',
+        providerVersionConstraint: '0.43.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

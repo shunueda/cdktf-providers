@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OpaInstallationProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#id OpaInstallationProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#id OpaInstallationProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface OpaInstallationProfileConfig extends cdktf.TerraformMetaArgumen
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#metadata OpaInstallationProfile#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#metadata OpaInstallationProfile#metadata}
   */
   readonly metadata?: OpaInstallationProfileMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#spec OpaInstallationProfile#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#spec OpaInstallationProfile#spec}
   */
   readonly spec?: OpaInstallationProfileSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#timeouts OpaInstallationProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#timeouts OpaInstallationProfile#timeouts}
   */
   readonly timeouts?: OpaInstallationProfileTimeouts;
 }
@@ -37,7 +37,7 @@ export interface OpaInstallationProfileMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#id OpaInstallationProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#id OpaInstallationProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface OpaInstallationProfileMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#is_sso_user OpaInstallationProfile#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#is_sso_user OpaInstallationProfile#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#username OpaInstallationProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#username OpaInstallationProfile#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface OpaInstallationProfileMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#id OpaInstallationProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#id OpaInstallationProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface OpaInstallationProfileMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#is_sso_user OpaInstallationProfile#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#is_sso_user OpaInstallationProfile#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#username OpaInstallationProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#username OpaInstallationProfile#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface OpaInstallationProfileMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#annotations OpaInstallationProfile#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#annotations OpaInstallationProfile#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#description OpaInstallationProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#description OpaInstallationProfile#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#display_name OpaInstallationProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#display_name OpaInstallationProfile#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#labels OpaInstallationProfile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#labels OpaInstallationProfile#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#name OpaInstallationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#name OpaInstallationProfile#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#project OpaInstallationProfile#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#project OpaInstallationProfile#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#created_by OpaInstallationProfile#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#created_by OpaInstallationProfile#created_by}
   */
   readonly createdBy?: OpaInstallationProfileMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#modified_by OpaInstallationProfile#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#modified_by OpaInstallationProfile#modified_by}
   */
   readonly modifiedBy?: OpaInstallationProfileMetadataModifiedBy;
 }
@@ -686,13 +686,13 @@ export interface OpaInstallationProfileSpecExcludedNamespacesNamespaces {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#name OpaInstallationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#name OpaInstallationProfile#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#system_catalog OpaInstallationProfile#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#system_catalog OpaInstallationProfile#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
 }
@@ -839,13 +839,13 @@ export interface OpaInstallationProfileSpecExcludedNamespaces {
   /**
   * List of processes to be excluding namespace from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#processes OpaInstallationProfile#processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#processes OpaInstallationProfile#processes}
   */
   readonly processes?: string[];
   /**
   * namespaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#namespaces OpaInstallationProfile#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#namespaces OpaInstallationProfile#namespaces}
   */
   readonly namespaces?: OpaInstallationProfileSpecExcludedNamespacesNamespaces[] | cdktf.IResolvable;
 }
@@ -992,61 +992,61 @@ export interface OpaInstallationProfileSpecInstallationParams {
   /**
   * audit chunk size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#audit_chunk_size OpaInstallationProfile#audit_chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#audit_chunk_size OpaInstallationProfile#audit_chunk_size}
   */
   readonly auditChunkSize?: number;
   /**
   * use cache for audit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#audit_from_cache OpaInstallationProfile#audit_from_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#audit_from_cache OpaInstallationProfile#audit_from_cache}
   */
   readonly auditFromCache?: boolean | cdktf.IResolvable;
   /**
   * time(seconds) after which audit will happen
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#audit_interval OpaInstallationProfile#audit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#audit_interval OpaInstallationProfile#audit_interval}
   */
   readonly auditInterval?: number;
   /**
   * audit match kind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#audit_match_kind_only OpaInstallationProfile#audit_match_kind_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#audit_match_kind_only OpaInstallationProfile#audit_match_kind_only}
   */
   readonly auditMatchKindOnly?: boolean | cdktf.IResolvable;
   /**
   * number of violations to be listed in constraint status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#constraint_violations_limit OpaInstallationProfile#constraint_violations_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#constraint_violations_limit OpaInstallationProfile#constraint_violations_limit}
   */
   readonly constraintViolationsLimit?: number;
   /**
   * emit admission events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#emit_admission_events OpaInstallationProfile#emit_admission_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#emit_admission_events OpaInstallationProfile#emit_admission_events}
   */
   readonly emitAdmissionEvents?: boolean | cdktf.IResolvable;
   /**
   * emit audit events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#emit_audit_events OpaInstallationProfile#emit_audit_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#emit_audit_events OpaInstallationProfile#emit_audit_events}
   */
   readonly emitAuditEvents?: boolean | cdktf.IResolvable;
   /**
   * enable delete operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#enable_delete_operations OpaInstallationProfile#enable_delete_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#enable_delete_operations OpaInstallationProfile#enable_delete_operations}
   */
   readonly enableDeleteOperations?: boolean | cdktf.IResolvable;
   /**
   * enable mutation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#experimental_enable_mutation OpaInstallationProfile#experimental_enable_mutation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#experimental_enable_mutation OpaInstallationProfile#experimental_enable_mutation}
   */
   readonly experimentalEnableMutation?: boolean | cdktf.IResolvable;
   /**
   * log denies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#log_denies OpaInstallationProfile#log_denies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#log_denies OpaInstallationProfile#log_denies}
   */
   readonly logDenies?: boolean | cdktf.IResolvable;
 }
@@ -1393,7 +1393,7 @@ export interface OpaInstallationProfileSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#name OpaInstallationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#name OpaInstallationProfile#name}
   */
   readonly name?: string;
 }
@@ -1511,13 +1511,13 @@ export interface OpaInstallationProfileSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#enabled OpaInstallationProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#enabled OpaInstallationProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#projects OpaInstallationProfile#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#projects OpaInstallationProfile#projects}
   */
   readonly projects?: OpaInstallationProfileSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -1632,19 +1632,19 @@ export interface OpaInstallationProfileSpecSyncObjects {
   /**
   * group of k8s object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#group OpaInstallationProfile#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#group OpaInstallationProfile#group}
   */
   readonly group?: string;
   /**
   * kind of k8s object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#kind OpaInstallationProfile#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#kind OpaInstallationProfile#kind}
   */
   readonly kind?: string;
   /**
   * version of k8s object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#version OpaInstallationProfile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#version OpaInstallationProfile#version}
   */
   readonly version?: string;
 }
@@ -1820,37 +1820,37 @@ export interface OpaInstallationProfileSpec {
   /**
   * version of the OPA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#opa_version OpaInstallationProfile#opa_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#opa_version OpaInstallationProfile#opa_version}
   */
   readonly opaVersion?: string;
   /**
   * version of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#version OpaInstallationProfile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#version OpaInstallationProfile#version}
   */
   readonly version?: string;
   /**
   * excluded_namespaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#excluded_namespaces OpaInstallationProfile#excluded_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#excluded_namespaces OpaInstallationProfile#excluded_namespaces}
   */
   readonly excludedNamespaces?: OpaInstallationProfileSpecExcludedNamespaces[] | cdktf.IResolvable;
   /**
   * installation_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#installation_params OpaInstallationProfile#installation_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#installation_params OpaInstallationProfile#installation_params}
   */
   readonly installationParams?: OpaInstallationProfileSpecInstallationParams;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#sharing OpaInstallationProfile#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#sharing OpaInstallationProfile#sharing}
   */
   readonly sharing?: OpaInstallationProfileSpecSharing;
   /**
   * sync_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#sync_objects OpaInstallationProfile#sync_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#sync_objects OpaInstallationProfile#sync_objects}
   */
   readonly syncObjects?: OpaInstallationProfileSpecSyncObjects[] | cdktf.IResolvable;
 }
@@ -2079,15 +2079,15 @@ export class OpaInstallationProfileSpecOutputReference extends cdktf.ComplexObje
 }
 export interface OpaInstallationProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#create OpaInstallationProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#create OpaInstallationProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#delete OpaInstallationProfile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#delete OpaInstallationProfile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#update OpaInstallationProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#update OpaInstallationProfile#update}
   */
   readonly update?: string;
 }
@@ -2239,7 +2239,7 @@ export class OpaInstallationProfileTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile rafay_opa_installation_profile}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile rafay_opa_installation_profile}
 */
 export class OpaInstallationProfile extends cdktf.TerraformResource {
 
@@ -2255,7 +2255,7 @@ export class OpaInstallationProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpaInstallationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpaInstallationProfile to import
-  * @param importFromId The id of the existing OpaInstallationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpaInstallationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpaInstallationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2267,7 +2267,7 @@ export class OpaInstallationProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/opa_installation_profile rafay_opa_installation_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/opa_installation_profile rafay_opa_installation_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2278,8 +2278,8 @@ export class OpaInstallationProfile extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_opa_installation_profile',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

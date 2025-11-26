@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,187 +10,193 @@ export interface ApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Able to transfer file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#able_to_transfer_file Application#able_to_transfer_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#able_to_transfer_file Application#able_to_transfer_file}
   */
   readonly ableToTransferFile?: boolean | cdktf.IResolvable;
   /**
   * Alg disable capability
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#alg_disable_capability Application#alg_disable_capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#alg_disable_capability Application#alg_disable_capability}
   */
   readonly algDisableCapability?: string;
   /**
   * Category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#category Application#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#category Application#category}
   */
   readonly category: string;
   /**
   * Consume big bandwidth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#consume_big_bandwidth Application#consume_big_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#consume_big_bandwidth Application#consume_big_bandwidth}
   */
   readonly consumeBigBandwidth?: boolean | cdktf.IResolvable;
   /**
   * Data ident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#data_ident Application#data_ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#data_ident Application#data_ident}
   */
   readonly dataIdent?: boolean | cdktf.IResolvable;
   /**
   * Default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#default Application#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#default Application#default}
   */
   readonly default?: ApplicationDefault;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#description Application#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#description Application#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#device Application#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#device Application#device}
   */
   readonly device?: string;
   /**
   * Evasive behavior
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#evasive_behavior Application#evasive_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#evasive_behavior Application#evasive_behavior}
   */
   readonly evasiveBehavior?: boolean | cdktf.IResolvable;
   /**
   * File type ident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#file_type_ident Application#file_type_ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#file_type_ident Application#file_type_ident}
   */
   readonly fileTypeIdent?: boolean | cdktf.IResolvable;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#folder Application#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#folder Application#folder}
   */
   readonly folder?: string;
   /**
   * Has known vulnerability
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#has_known_vulnerability Application#has_known_vulnerability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#has_known_vulnerability Application#has_known_vulnerability}
   */
   readonly hasKnownVulnerability?: boolean | cdktf.IResolvable;
   /**
   * The name of the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#name Application#name}
   */
   readonly name: string;
   /**
   * No appid caching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#no_appid_caching Application#no_appid_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#no_appid_caching Application#no_appid_caching}
   */
   readonly noAppidCaching?: boolean | cdktf.IResolvable;
   /**
   * Parent app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#parent_app Application#parent_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#parent_app Application#parent_app}
   */
   readonly parentApp?: string;
   /**
   * Pervasive use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#pervasive_use Application#pervasive_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#pervasive_use Application#pervasive_use}
   */
   readonly pervasiveUse?: boolean | cdktf.IResolvable;
   /**
   * Prone to misuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#prone_to_misuse Application#prone_to_misuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#prone_to_misuse Application#prone_to_misuse}
   */
   readonly proneToMisuse?: boolean | cdktf.IResolvable;
   /**
   * Risk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#risk Application#risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#risk Application#risk}
   */
   readonly risk: string;
   /**
   * Signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#signature Application#signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#signature Application#signature}
   */
   readonly signature?: ApplicationSignature[] | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#snippet Application#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#snippet Application#snippet}
   */
   readonly snippet?: string;
   /**
   * Subcategory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#subcategory Application#subcategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#subcategory Application#subcategory}
   */
   readonly subcategory?: string;
   /**
   * timeout for half-close session in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#tcp_half_closed_timeout Application#tcp_half_closed_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#tcp_half_closed_timeout Application#tcp_half_closed_timeout}
   */
   readonly tcpHalfClosedTimeout?: number;
   /**
   * timeout for session in time_wait state in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#tcp_time_wait_timeout Application#tcp_time_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#tcp_time_wait_timeout Application#tcp_time_wait_timeout}
   */
   readonly tcpTimeWaitTimeout?: number;
   /**
   * timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#tcp_timeout Application#tcp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#tcp_timeout Application#tcp_timeout}
   */
   readonly tcpTimeout?: number;
   /**
   * Technology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#technology Application#technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#technology Application#technology}
   */
   readonly technology?: string;
   /**
   * timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#timeout Application#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#timeout Application#timeout}
   */
   readonly timeout?: number;
   /**
   * Tunnel applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#tunnel_applications Application#tunnel_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#tunnel_applications Application#tunnel_applications}
   */
   readonly tunnelApplications?: boolean | cdktf.IResolvable;
   /**
   * Tunnel other application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#tunnel_other_application Application#tunnel_other_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#tunnel_other_application Application#tunnel_other_application}
   */
   readonly tunnelOtherApplication?: boolean | cdktf.IResolvable;
   /**
   * timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#udp_timeout Application#udp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#udp_timeout Application#udp_timeout}
   */
   readonly udpTimeout?: number;
   /**
   * Used by malware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#used_by_malware Application#used_by_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#used_by_malware Application#used_by_malware}
   */
   readonly usedByMalware?: boolean | cdktf.IResolvable;
   /**
   * Virus ident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#virus_ident Application#virus_ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#virus_ident Application#virus_ident}
   */
   readonly virusIdent?: boolean | cdktf.IResolvable;
 }
@@ -198,13 +204,13 @@ export interface ApplicationDefaultIdentByIcmp6Type {
   /**
   * Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#code Application#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#code Application#code}
   */
   readonly code?: string;
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#type Application#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#type Application#type}
   */
   readonly type: string;
 }
@@ -326,13 +332,13 @@ export interface ApplicationDefaultIdentByIcmpType {
   /**
   * Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#code Application#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#code Application#code}
   */
   readonly code?: string;
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#type Application#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#type Application#type}
   */
   readonly type: string;
 }
@@ -453,26 +459,34 @@ export class ApplicationDefaultIdentByIcmpTypeOutputReference extends cdktf.Comp
 export interface ApplicationDefault {
   /**
   * Ident by icmp6 type
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `ident_by_icmp6_type`, `ident_by_icmp_type`, `ident_by_ip_protocol`, and `port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#ident_by_icmp6_type Application#ident_by_icmp6_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#ident_by_icmp6_type Application#ident_by_icmp6_type}
   */
   readonly identByIcmp6Type?: ApplicationDefaultIdentByIcmp6Type;
   /**
   * Ident by icmp type
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `ident_by_icmp6_type`, `ident_by_icmp_type`, `ident_by_ip_protocol`, and `port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#ident_by_icmp_type Application#ident_by_icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#ident_by_icmp_type Application#ident_by_icmp_type}
   */
   readonly identByIcmpType?: ApplicationDefaultIdentByIcmpType;
   /**
   * Ident by ip protocol
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `ident_by_icmp6_type`, `ident_by_icmp_type`, `ident_by_ip_protocol`, and `port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#ident_by_ip_protocol Application#ident_by_ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#ident_by_ip_protocol Application#ident_by_ip_protocol}
   */
   readonly identByIpProtocol?: string;
   /**
   * Port
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `ident_by_icmp6_type`, `ident_by_icmp_type`, `ident_by_ip_protocol`, and `port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#port Application#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#port Application#port}
   */
   readonly port?: string[];
 }
@@ -655,25 +669,25 @@ export interface ApplicationSignatureAndConditionOrConditionOperatorEqualTo {
   /**
   * Context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#context Application#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#context Application#context}
   */
   readonly context: string;
   /**
   * 4-byte hex value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#mask Application#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#mask Application#mask}
   */
   readonly mask?: string;
   /**
   * Position
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#position Application#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#position Application#position}
   */
   readonly position?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#value Application#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#value Application#value}
   */
   readonly value: string;
 }
@@ -850,13 +864,13 @@ export interface ApplicationSignatureAndConditionOrConditionOperatorGreaterThanQ
   /**
   * Alphanumeric string [ 0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#name Application#name}
   */
   readonly name: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#value Application#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#value Application#value}
   */
   readonly value: string;
 }
@@ -997,19 +1011,19 @@ export interface ApplicationSignatureAndConditionOrConditionOperatorGreaterThan 
   /**
   * Context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#context Application#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#context Application#context}
   */
   readonly context: string;
   /**
   * Qualifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#qualifier Application#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#qualifier Application#qualifier}
   */
   readonly qualifier?: ApplicationSignatureAndConditionOrConditionOperatorGreaterThanQualifier[] | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#value Application#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#value Application#value}
   */
   readonly value: number;
 }
@@ -1157,13 +1171,13 @@ export interface ApplicationSignatureAndConditionOrConditionOperatorLessThanQual
   /**
   * Alphanumeric string [ 0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#name Application#name}
   */
   readonly name: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#value Application#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#value Application#value}
   */
   readonly value: string;
 }
@@ -1304,19 +1318,19 @@ export interface ApplicationSignatureAndConditionOrConditionOperatorLessThan {
   /**
   * Context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#context Application#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#context Application#context}
   */
   readonly context: string;
   /**
   * Qualifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#qualifier Application#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#qualifier Application#qualifier}
   */
   readonly qualifier?: ApplicationSignatureAndConditionOrConditionOperatorLessThanQualifier[] | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#value Application#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#value Application#value}
   */
   readonly value: number;
 }
@@ -1464,13 +1478,13 @@ export interface ApplicationSignatureAndConditionOrConditionOperatorPatternMatch
   /**
   * Alphanumeric string [ 0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#name Application#name}
   */
   readonly name: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#value Application#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#value Application#value}
   */
   readonly value: string;
 }
@@ -1611,19 +1625,19 @@ export interface ApplicationSignatureAndConditionOrConditionOperatorPatternMatch
   /**
   * Context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#context Application#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#context Application#context}
   */
   readonly context: string;
   /**
   * Pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#pattern Application#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#pattern Application#pattern}
   */
   readonly pattern: string;
   /**
   * Qualifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#qualifier Application#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#qualifier Application#qualifier}
   */
   readonly qualifier?: ApplicationSignatureAndConditionOrConditionOperatorPatternMatchQualifier[] | cdktf.IResolvable;
 }
@@ -1770,26 +1784,34 @@ export class ApplicationSignatureAndConditionOrConditionOperatorPatternMatchOutp
 export interface ApplicationSignatureAndConditionOrConditionOperator {
   /**
   * Equal to
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `equal_to`, `greater_than`, `less_than`, and `pattern_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#equal_to Application#equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#equal_to Application#equal_to}
   */
   readonly equalTo?: ApplicationSignatureAndConditionOrConditionOperatorEqualTo;
   /**
   * Greater than
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `equal_to`, `greater_than`, `less_than`, and `pattern_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#greater_than Application#greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#greater_than Application#greater_than}
   */
   readonly greaterThan?: ApplicationSignatureAndConditionOrConditionOperatorGreaterThan;
   /**
   * Less than
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `equal_to`, `greater_than`, `less_than`, and `pattern_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#less_than Application#less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#less_than Application#less_than}
   */
   readonly lessThan?: ApplicationSignatureAndConditionOrConditionOperatorLessThan;
   /**
   * Pattern match
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `equal_to`, `greater_than`, `less_than`, and `pattern_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#pattern_match Application#pattern_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#pattern_match Application#pattern_match}
   */
   readonly patternMatch?: ApplicationSignatureAndConditionOrConditionOperatorPatternMatch;
 }
@@ -1972,13 +1994,13 @@ export interface ApplicationSignatureAndConditionOrCondition {
   /**
   * Alphanumeric string [ 0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#name Application#name}
   */
   readonly name: string;
   /**
   * Operator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#operator Application#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#operator Application#operator}
   */
   readonly operator: ApplicationSignatureAndConditionOrConditionOperator;
 }
@@ -2119,13 +2141,13 @@ export interface ApplicationSignatureAndCondition {
   /**
   * Alphanumeric string [ 0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#name Application#name}
   */
   readonly name: string;
   /**
   * Or condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#or_condition Application#or_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#or_condition Application#or_condition}
   */
   readonly orCondition?: ApplicationSignatureAndConditionOrCondition[] | cdktf.IResolvable;
 }
@@ -2269,31 +2291,31 @@ export interface ApplicationSignature {
   /**
   * And condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#and_condition Application#and_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#and_condition Application#and_condition}
   */
   readonly andCondition?: ApplicationSignatureAndCondition[] | cdktf.IResolvable;
   /**
   * Comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#comment Application#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#comment Application#comment}
   */
   readonly comment?: string;
   /**
   * Alphanumeric string [ 0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#name Application#name}
   */
   readonly name: string;
   /**
   * Order free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#order_free Application#order_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#order_free Application#order_free}
   */
   readonly orderFree?: boolean | cdktf.IResolvable;
   /**
   * Scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#scope Application#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#scope Application#scope}
   */
   readonly scope?: string;
 }
@@ -2522,7 +2544,7 @@ export class ApplicationSignatureList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application scm_application}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application scm_application}
 */
 export class Application extends cdktf.TerraformResource {
 
@@ -2538,7 +2560,7 @@ export class Application extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Application resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Application to import
-  * @param importFromId The id of the existing Application that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Application that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Application to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2550,7 +2572,7 @@ export class Application extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application scm_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application scm_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2561,8 +2583,8 @@ export class Application extends cdktf.TerraformResource {
       terraformResourceType: 'scm_application',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

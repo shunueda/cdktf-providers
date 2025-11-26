@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DataCplnSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of this secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret#name DataCplnSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret#name DataCplnSecret#name}
   */
   readonly name: string;
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret#aws DataCplnSecret#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret#aws DataCplnSecret#aws}
   */
   readonly aws?: DataCplnSecretAws[] | cdktf.IResolvable;
   /**
   * azure_connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret#azure_connector DataCplnSecret#azure_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret#azure_connector DataCplnSecret#azure_connector}
   */
   readonly azureConnector?: DataCplnSecretAzureConnector[] | cdktf.IResolvable;
   /**
   * ecr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret#ecr DataCplnSecret#ecr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret#ecr DataCplnSecret#ecr}
   */
   readonly ecr?: DataCplnSecretEcr[] | cdktf.IResolvable;
   /**
   * keypair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret#keypair DataCplnSecret#keypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret#keypair DataCplnSecret#keypair}
   */
   readonly keypair?: DataCplnSecretKeypair[] | cdktf.IResolvable;
   /**
   * nats_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret#nats_account DataCplnSecret#nats_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret#nats_account DataCplnSecret#nats_account}
   */
   readonly natsAccount?: DataCplnSecretNatsAccount[] | cdktf.IResolvable;
   /**
   * opaque block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret#opaque DataCplnSecret#opaque}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret#opaque DataCplnSecret#opaque}
   */
   readonly opaque?: DataCplnSecretOpaque[] | cdktf.IResolvable;
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret#tls DataCplnSecret#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret#tls DataCplnSecret#tls}
   */
   readonly tls?: DataCplnSecretTls[] | cdktf.IResolvable;
   /**
   * userpass block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret#userpass DataCplnSecret#userpass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret#userpass DataCplnSecret#userpass}
   */
   readonly userpass?: DataCplnSecretUserpass[] | cdktf.IResolvable;
 }
@@ -258,7 +258,7 @@ export interface DataCplnSecretEcr {
   /**
   * AWS IAM Role External ID. Used when setting up cross-account access to your ECR repositories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret#external_id DataCplnSecret#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret#external_id DataCplnSecret#external_id}
   */
   readonly externalId?: string;
 }
@@ -864,7 +864,7 @@ export class DataCplnSecretUserpassList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret cpln_secret}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret cpln_secret}
 */
 export class DataCplnSecret extends cdktf.TerraformDataSource {
 
@@ -880,7 +880,7 @@ export class DataCplnSecret extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCplnSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCplnSecret to import
-  * @param importFromId The id of the existing DataCplnSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCplnSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCplnSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -892,7 +892,7 @@ export class DataCplnSecret extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/secret cpln_secret} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/secret cpln_secret} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -903,8 +903,8 @@ export class DataCplnSecret extends cdktf.TerraformDataSource {
       terraformResourceType: 'cpln_secret',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.15',
-        providerVersionConstraint: '1.2.15'
+        providerVersion: '1.2.16',
+        providerVersionConstraint: '1.2.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

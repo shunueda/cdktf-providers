@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,50 +9,56 @@ import * as cdktf from 'cdktf';
 export interface TacacsServerProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#device TacacsServerProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#device TacacsServerProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#folder TacacsServerProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#folder TacacsServerProfile#folder}
   */
   readonly folder?: string;
   /**
   * The name of the TACACS+ server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#name TacacsServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#name TacacsServerProfile#name}
   */
   readonly name: string;
   /**
   * The TACACS+ authentication protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#protocol TacacsServerProfile#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#protocol TacacsServerProfile#protocol}
   */
   readonly protocol: string;
   /**
   * The TACACS+ server configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#server TacacsServerProfile#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#server TacacsServerProfile#server}
   */
   readonly server: TacacsServerProfileServer[] | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#snippet TacacsServerProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#snippet TacacsServerProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * The TACACS+ timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#timeout TacacsServerProfile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#timeout TacacsServerProfile#timeout}
   */
   readonly timeout?: number;
   /**
   * Use a single TACACS+ connection?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#use_single_connection TacacsServerProfile#use_single_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#use_single_connection TacacsServerProfile#use_single_connection}
   */
   readonly useSingleConnection?: boolean | cdktf.IResolvable;
 }
@@ -60,25 +66,25 @@ export interface TacacsServerProfileServer {
   /**
   * The IP address of the TACACS+ server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#address TacacsServerProfile#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#address TacacsServerProfile#address}
   */
   readonly address?: string;
   /**
   * The name of the TACACS+ server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#name TacacsServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#name TacacsServerProfile#name}
   */
   readonly name?: string;
   /**
   * The TACACS+ server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#port TacacsServerProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#port TacacsServerProfile#port}
   */
   readonly port?: number;
   /**
   * The TACACS+ secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#secret TacacsServerProfile#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#secret TacacsServerProfile#secret}
   */
   readonly secret?: string;
 }
@@ -281,7 +287,7 @@ export class TacacsServerProfileServerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile scm_tacacs_server_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile scm_tacacs_server_profile}
 */
 export class TacacsServerProfile extends cdktf.TerraformResource {
 
@@ -297,7 +303,7 @@ export class TacacsServerProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TacacsServerProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TacacsServerProfile to import
-  * @param importFromId The id of the existing TacacsServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TacacsServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TacacsServerProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -309,7 +315,7 @@ export class TacacsServerProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tacacs_server_profile scm_tacacs_server_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tacacs_server_profile scm_tacacs_server_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -320,8 +326,8 @@ export class TacacsServerProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_tacacs_server_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

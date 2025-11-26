@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,50 +9,56 @@ import * as cdktf from 'cdktf';
 export interface DecryptionProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#device DecryptionProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#device DecryptionProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#folder DecryptionProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#folder DecryptionProfile#folder}
   */
   readonly folder?: string;
   /**
   * Must start with alphanumeric char and should contain only alphanemeric, underscore, hyphen, dot or space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#name DecryptionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#name DecryptionProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#snippet DecryptionProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#snippet DecryptionProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * Ssl forward proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#ssl_forward_proxy DecryptionProfile#ssl_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#ssl_forward_proxy DecryptionProfile#ssl_forward_proxy}
   */
   readonly sslForwardProxy?: DecryptionProfileSslForwardProxy;
   /**
   * Ssl inbound proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#ssl_inbound_proxy DecryptionProfile#ssl_inbound_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#ssl_inbound_proxy DecryptionProfile#ssl_inbound_proxy}
   */
   readonly sslInboundProxy?: DecryptionProfileSslInboundProxy;
   /**
   * Ssl no proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#ssl_no_proxy DecryptionProfile#ssl_no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#ssl_no_proxy DecryptionProfile#ssl_no_proxy}
   */
   readonly sslNoProxy?: DecryptionProfileSslNoProxy;
   /**
   * Ssl protocol settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#ssl_protocol_settings DecryptionProfile#ssl_protocol_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#ssl_protocol_settings DecryptionProfile#ssl_protocol_settings}
   */
   readonly sslProtocolSettings?: DecryptionProfileSslProtocolSettings;
 }
@@ -60,67 +66,67 @@ export interface DecryptionProfileSslForwardProxy {
   /**
   * Auto include altname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#auto_include_altname DecryptionProfile#auto_include_altname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#auto_include_altname DecryptionProfile#auto_include_altname}
   */
   readonly autoIncludeAltname?: boolean | cdktf.IResolvable;
   /**
   * Block client cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_client_cert DecryptionProfile#block_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_client_cert DecryptionProfile#block_client_cert}
   */
   readonly blockClientCert?: boolean | cdktf.IResolvable;
   /**
   * Block expired certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_expired_certificate DecryptionProfile#block_expired_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_expired_certificate DecryptionProfile#block_expired_certificate}
   */
   readonly blockExpiredCertificate?: boolean | cdktf.IResolvable;
   /**
   * Block timeout cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_timeout_cert DecryptionProfile#block_timeout_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_timeout_cert DecryptionProfile#block_timeout_cert}
   */
   readonly blockTimeoutCert?: boolean | cdktf.IResolvable;
   /**
   * Block tls13 downgrade no resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_tls13_downgrade_no_resource DecryptionProfile#block_tls13_downgrade_no_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_tls13_downgrade_no_resource DecryptionProfile#block_tls13_downgrade_no_resource}
   */
   readonly blockTls13DowngradeNoResource?: boolean | cdktf.IResolvable;
   /**
   * Block unknown cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_unknown_cert DecryptionProfile#block_unknown_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_unknown_cert DecryptionProfile#block_unknown_cert}
   */
   readonly blockUnknownCert?: boolean | cdktf.IResolvable;
   /**
   * Block unsupported cipher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_unsupported_cipher DecryptionProfile#block_unsupported_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_unsupported_cipher DecryptionProfile#block_unsupported_cipher}
   */
   readonly blockUnsupportedCipher?: boolean | cdktf.IResolvable;
   /**
   * Block unsupported version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_unsupported_version DecryptionProfile#block_unsupported_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_unsupported_version DecryptionProfile#block_unsupported_version}
   */
   readonly blockUnsupportedVersion?: boolean | cdktf.IResolvable;
   /**
   * Block untrusted issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_untrusted_issuer DecryptionProfile#block_untrusted_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_untrusted_issuer DecryptionProfile#block_untrusted_issuer}
   */
   readonly blockUntrustedIssuer?: boolean | cdktf.IResolvable;
   /**
   * Restrict cert exts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#restrict_cert_exts DecryptionProfile#restrict_cert_exts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#restrict_cert_exts DecryptionProfile#restrict_cert_exts}
   */
   readonly restrictCertExts?: boolean | cdktf.IResolvable;
   /**
   * Strip alpn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#strip_alpn DecryptionProfile#strip_alpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#strip_alpn DecryptionProfile#strip_alpn}
   */
   readonly stripAlpn?: boolean | cdktf.IResolvable;
 }
@@ -506,25 +512,25 @@ export interface DecryptionProfileSslInboundProxy {
   /**
   * Block if hsm unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_if_hsm_unavailable DecryptionProfile#block_if_hsm_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_if_hsm_unavailable DecryptionProfile#block_if_hsm_unavailable}
   */
   readonly blockIfHsmUnavailable?: boolean | cdktf.IResolvable;
   /**
   * Block if no resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_if_no_resource DecryptionProfile#block_if_no_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_if_no_resource DecryptionProfile#block_if_no_resource}
   */
   readonly blockIfNoResource?: boolean | cdktf.IResolvable;
   /**
   * Block unsupported cipher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_unsupported_cipher DecryptionProfile#block_unsupported_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_unsupported_cipher DecryptionProfile#block_unsupported_cipher}
   */
   readonly blockUnsupportedCipher?: boolean | cdktf.IResolvable;
   /**
   * Block unsupported version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_unsupported_version DecryptionProfile#block_unsupported_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_unsupported_version DecryptionProfile#block_unsupported_version}
   */
   readonly blockUnsupportedVersion?: boolean | cdktf.IResolvable;
 }
@@ -707,13 +713,13 @@ export interface DecryptionProfileSslNoProxy {
   /**
   * Block expired certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_expired_certificate DecryptionProfile#block_expired_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_expired_certificate DecryptionProfile#block_expired_certificate}
   */
   readonly blockExpiredCertificate?: boolean | cdktf.IResolvable;
   /**
   * Block untrusted issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#block_untrusted_issuer DecryptionProfile#block_untrusted_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#block_untrusted_issuer DecryptionProfile#block_untrusted_issuer}
   */
   readonly blockUntrustedIssuer?: boolean | cdktf.IResolvable;
 }
@@ -838,97 +844,97 @@ export interface DecryptionProfileSslProtocolSettings {
   /**
   * Auth algo md5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#auth_algo_md5 DecryptionProfile#auth_algo_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#auth_algo_md5 DecryptionProfile#auth_algo_md5}
   */
   readonly authAlgoMd5?: boolean | cdktf.IResolvable;
   /**
   * Auth algo sha1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#auth_algo_sha1 DecryptionProfile#auth_algo_sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#auth_algo_sha1 DecryptionProfile#auth_algo_sha1}
   */
   readonly authAlgoSha1?: boolean | cdktf.IResolvable;
   /**
   * Auth algo sha256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#auth_algo_sha256 DecryptionProfile#auth_algo_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#auth_algo_sha256 DecryptionProfile#auth_algo_sha256}
   */
   readonly authAlgoSha256?: boolean | cdktf.IResolvable;
   /**
   * Auth algo sha384
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#auth_algo_sha384 DecryptionProfile#auth_algo_sha384}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#auth_algo_sha384 DecryptionProfile#auth_algo_sha384}
   */
   readonly authAlgoSha384?: boolean | cdktf.IResolvable;
   /**
   * Enc algo3des
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#enc_algo_3des DecryptionProfile#enc_algo_3des}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#enc_algo_3des DecryptionProfile#enc_algo_3des}
   */
   readonly encAlgo3Des?: boolean | cdktf.IResolvable;
   /**
   * Enc algo aes128 cbc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#enc_algo_aes_128_cbc DecryptionProfile#enc_algo_aes_128_cbc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#enc_algo_aes_128_cbc DecryptionProfile#enc_algo_aes_128_cbc}
   */
   readonly encAlgoAes128Cbc?: boolean | cdktf.IResolvable;
   /**
   * Enc algo aes128 gcm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#enc_algo_aes_128_gcm DecryptionProfile#enc_algo_aes_128_gcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#enc_algo_aes_128_gcm DecryptionProfile#enc_algo_aes_128_gcm}
   */
   readonly encAlgoAes128Gcm?: boolean | cdktf.IResolvable;
   /**
   * Enc algo aes256 cbc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#enc_algo_aes_256_cbc DecryptionProfile#enc_algo_aes_256_cbc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#enc_algo_aes_256_cbc DecryptionProfile#enc_algo_aes_256_cbc}
   */
   readonly encAlgoAes256Cbc?: boolean | cdktf.IResolvable;
   /**
   * Enc algo aes256 gcm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#enc_algo_aes_256_gcm DecryptionProfile#enc_algo_aes_256_gcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#enc_algo_aes_256_gcm DecryptionProfile#enc_algo_aes_256_gcm}
   */
   readonly encAlgoAes256Gcm?: boolean | cdktf.IResolvable;
   /**
   * Enc algo chacha20 poly1305
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#enc_algo_chacha20_poly1305 DecryptionProfile#enc_algo_chacha20_poly1305}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#enc_algo_chacha20_poly1305 DecryptionProfile#enc_algo_chacha20_poly1305}
   */
   readonly encAlgoChacha20Poly1305?: boolean | cdktf.IResolvable;
   /**
   * Enc algo rc4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#enc_algo_rc4 DecryptionProfile#enc_algo_rc4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#enc_algo_rc4 DecryptionProfile#enc_algo_rc4}
   */
   readonly encAlgoRc4?: boolean | cdktf.IResolvable;
   /**
   * Keyxchg algo dhe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#keyxchg_algo_dhe DecryptionProfile#keyxchg_algo_dhe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#keyxchg_algo_dhe DecryptionProfile#keyxchg_algo_dhe}
   */
   readonly keyxchgAlgoDhe?: boolean | cdktf.IResolvable;
   /**
   * Keyxchg algo ecdhe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#keyxchg_algo_ecdhe DecryptionProfile#keyxchg_algo_ecdhe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#keyxchg_algo_ecdhe DecryptionProfile#keyxchg_algo_ecdhe}
   */
   readonly keyxchgAlgoEcdhe?: boolean | cdktf.IResolvable;
   /**
   * Keyxchg algo rsa
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#keyxchg_algo_rsa DecryptionProfile#keyxchg_algo_rsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#keyxchg_algo_rsa DecryptionProfile#keyxchg_algo_rsa}
   */
   readonly keyxchgAlgoRsa?: boolean | cdktf.IResolvable;
   /**
   * Max version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#max_version DecryptionProfile#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#max_version DecryptionProfile#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Min version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#min_version DecryptionProfile#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#min_version DecryptionProfile#min_version}
   */
   readonly minVersion?: string;
 }
@@ -1457,7 +1463,7 @@ export class DecryptionProfileSslProtocolSettingsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile scm_decryption_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile scm_decryption_profile}
 */
 export class DecryptionProfile extends cdktf.TerraformResource {
 
@@ -1473,7 +1479,7 @@ export class DecryptionProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DecryptionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DecryptionProfile to import
-  * @param importFromId The id of the existing DecryptionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DecryptionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DecryptionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1485,7 +1491,7 @@ export class DecryptionProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_profile scm_decryption_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/decryption_profile scm_decryption_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1496,8 +1502,8 @@ export class DecryptionProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_decryption_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

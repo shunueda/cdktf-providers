@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/monitoring_regions
+// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/monitoring_regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNs1MonitoringRegionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/monitoring_regions#id DataNs1MonitoringRegions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/monitoring_regions#id DataNs1MonitoringRegions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataNs1MonitoringRegionsConfig extends cdktf.TerraformMetaArgum
   /**
   * regions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/monitoring_regions#regions DataNs1MonitoringRegions#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/monitoring_regions#regions DataNs1MonitoringRegions#regions}
   */
   readonly regions?: DataNs1MonitoringRegionsRegions[] | cdktf.IResolvable;
 }
 export interface DataNs1MonitoringRegionsRegions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/monitoring_regions#code DataNs1MonitoringRegions#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/monitoring_regions#code DataNs1MonitoringRegions#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/monitoring_regions#name DataNs1MonitoringRegions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/monitoring_regions#name DataNs1MonitoringRegions#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/monitoring_regions#subnets DataNs1MonitoringRegions#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/monitoring_regions#subnets DataNs1MonitoringRegions#subnets}
   */
   readonly subnets?: string[];
 }
@@ -205,7 +205,7 @@ export class DataNs1MonitoringRegionsRegionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/monitoring_regions ns1_monitoring_regions}
+* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/monitoring_regions ns1_monitoring_regions}
 */
 export class DataNs1MonitoringRegions extends cdktf.TerraformDataSource {
 
@@ -221,7 +221,7 @@ export class DataNs1MonitoringRegions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNs1MonitoringRegions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNs1MonitoringRegions to import
-  * @param importFromId The id of the existing DataNs1MonitoringRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/monitoring_regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNs1MonitoringRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/monitoring_regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNs1MonitoringRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class DataNs1MonitoringRegions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/monitoring_regions ns1_monitoring_regions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/monitoring_regions ns1_monitoring_regions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class DataNs1MonitoringRegions extends cdktf.TerraformDataSource {
       terraformResourceType: 'ns1_monitoring_regions',
       terraformGeneratorMetadata: {
         providerName: 'ns1',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

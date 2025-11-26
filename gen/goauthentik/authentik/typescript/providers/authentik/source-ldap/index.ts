@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface SourceLdapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#additional_group_dn SourceLdap#additional_group_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#additional_group_dn SourceLdap#additional_group_dn}
   */
   readonly additionalGroupDn?: string;
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#additional_user_dn SourceLdap#additional_user_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#additional_user_dn SourceLdap#additional_user_dn}
   */
   readonly additionalUserDn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#base_dn SourceLdap#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#base_dn SourceLdap#base_dn}
   */
   readonly baseDn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#bind_cn SourceLdap#bind_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#bind_cn SourceLdap#bind_cn}
   */
   readonly bindCn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#bind_password SourceLdap#bind_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#bind_password SourceLdap#bind_password}
   */
   readonly bindPassword: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#delete_not_found_objects SourceLdap#delete_not_found_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#delete_not_found_objects SourceLdap#delete_not_found_objects}
   */
   readonly deleteNotFoundObjects?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#enabled SourceLdap#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#enabled SourceLdap#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `member`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#group_membership_field SourceLdap#group_membership_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#group_membership_field SourceLdap#group_membership_field}
   */
   readonly groupMembershipField?: string;
   /**
   * Defaults to `(objectClass=group)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#group_object_filter SourceLdap#group_object_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#group_object_filter SourceLdap#group_object_filter}
   */
   readonly groupObjectFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#id SourceLdap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#id SourceLdap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,103 +65,103 @@ export interface SourceLdapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#lookup_groups_from_user SourceLdap#lookup_groups_from_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#lookup_groups_from_user SourceLdap#lookup_groups_from_user}
   */
   readonly lookupGroupsFromUser?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#name SourceLdap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#name SourceLdap#name}
   */
   readonly name: string;
   /**
   * Defaults to `objectSid`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#object_uniqueness_field SourceLdap#object_uniqueness_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#object_uniqueness_field SourceLdap#object_uniqueness_field}
   */
   readonly objectUniquenessField?: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#password_login_update_internal_password SourceLdap#password_login_update_internal_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#password_login_update_internal_password SourceLdap#password_login_update_internal_password}
   */
   readonly passwordLoginUpdateInternalPassword?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#property_mappings SourceLdap#property_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#property_mappings SourceLdap#property_mappings}
   */
   readonly propertyMappings?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#property_mappings_group SourceLdap#property_mappings_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#property_mappings_group SourceLdap#property_mappings_group}
   */
   readonly propertyMappingsGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#server_uri SourceLdap#server_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#server_uri SourceLdap#server_uri}
   */
   readonly serverUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#slug SourceLdap#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#slug SourceLdap#slug}
   */
   readonly slug: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#sni SourceLdap#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#sni SourceLdap#sni}
   */
   readonly sni?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#start_tls SourceLdap#start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#start_tls SourceLdap#start_tls}
   */
   readonly startTls?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#sync_groups SourceLdap#sync_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#sync_groups SourceLdap#sync_groups}
   */
   readonly syncGroups?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#sync_parent_group SourceLdap#sync_parent_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#sync_parent_group SourceLdap#sync_parent_group}
   */
   readonly syncParentGroup?: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#sync_users SourceLdap#sync_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#sync_users SourceLdap#sync_users}
   */
   readonly syncUsers?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#sync_users_password SourceLdap#sync_users_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#sync_users_password SourceLdap#sync_users_password}
   */
   readonly syncUsersPassword?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `distinguishedName`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#user_membership_attribute SourceLdap#user_membership_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#user_membership_attribute SourceLdap#user_membership_attribute}
   */
   readonly userMembershipAttribute?: string;
   /**
   * Defaults to `(objectClass=person)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#user_object_filter SourceLdap#user_object_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#user_object_filter SourceLdap#user_object_filter}
   */
   readonly userObjectFilter?: string;
   /**
   * Defaults to `goauthentik.io/sources/%(slug)s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#user_path_template SourceLdap#user_path_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#user_path_template SourceLdap#user_path_template}
   */
   readonly userPathTemplate?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#uuid SourceLdap#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#uuid SourceLdap#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap authentik_source_ldap}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap authentik_source_ldap}
 */
 export class SourceLdap extends cdktf.TerraformResource {
 
@@ -177,7 +177,7 @@ export class SourceLdap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceLdap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceLdap to import
-  * @param importFromId The id of the existing SourceLdap that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceLdap that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceLdap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class SourceLdap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_ldap authentik_source_ldap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_ldap authentik_source_ldap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class SourceLdap extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_source_ldap',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/kerberos_server_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/kerberos_server_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,32 +9,38 @@ import * as cdktf from 'cdktf';
 export interface KerberosServerProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/kerberos_server_profile#device KerberosServerProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/kerberos_server_profile#device KerberosServerProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/kerberos_server_profile#folder KerberosServerProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/kerberos_server_profile#folder KerberosServerProfile#folder}
   */
   readonly folder?: string;
   /**
   * The name of the Kerberos server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/kerberos_server_profile#name KerberosServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/kerberos_server_profile#name KerberosServerProfile#name}
   */
   readonly name: string;
   /**
   * The Kerberos server configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/kerberos_server_profile#server KerberosServerProfile#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/kerberos_server_profile#server KerberosServerProfile#server}
   */
   readonly server: KerberosServerProfileServer[] | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/kerberos_server_profile#snippet KerberosServerProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/kerberos_server_profile#snippet KerberosServerProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -42,19 +48,19 @@ export interface KerberosServerProfileServer {
   /**
   * The Kerberos server IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/kerberos_server_profile#host KerberosServerProfile#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/kerberos_server_profile#host KerberosServerProfile#host}
   */
   readonly host?: string;
   /**
   * The Kerberos server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/kerberos_server_profile#name KerberosServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/kerberos_server_profile#name KerberosServerProfile#name}
   */
   readonly name?: string;
   /**
   * The Kerberos server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/kerberos_server_profile#port KerberosServerProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/kerberos_server_profile#port KerberosServerProfile#port}
   */
   readonly port?: number;
 }
@@ -228,7 +234,7 @@ export class KerberosServerProfileServerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/kerberos_server_profile scm_kerberos_server_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/kerberos_server_profile scm_kerberos_server_profile}
 */
 export class KerberosServerProfile extends cdktf.TerraformResource {
 
@@ -244,7 +250,7 @@ export class KerberosServerProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KerberosServerProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KerberosServerProfile to import
-  * @param importFromId The id of the existing KerberosServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/kerberos_server_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KerberosServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/kerberos_server_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KerberosServerProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +262,7 @@ export class KerberosServerProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/kerberos_server_profile scm_kerberos_server_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/kerberos_server_profile scm_kerberos_server_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +273,8 @@ export class KerberosServerProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_kerberos_server_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

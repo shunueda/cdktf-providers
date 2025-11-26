@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/billing_usage
+// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/billing_usage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataNs1BillingUsageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/billing_usage#from DataNs1BillingUsage#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/billing_usage#from DataNs1BillingUsage#from}
   */
   readonly from?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/billing_usage#id DataNs1BillingUsage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/billing_usage#id DataNs1BillingUsage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/billing_usage#metric_type DataNs1BillingUsage#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/billing_usage#metric_type DataNs1BillingUsage#metric_type}
   */
   readonly metricType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/billing_usage#to DataNs1BillingUsage#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/billing_usage#to DataNs1BillingUsage#to}
   */
   readonly to?: number;
 }
@@ -220,7 +220,7 @@ export class DataNs1BillingUsageByNetworkList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/billing_usage ns1_billing_usage}
+* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/billing_usage ns1_billing_usage}
 */
 export class DataNs1BillingUsage extends cdktf.TerraformDataSource {
 
@@ -236,7 +236,7 @@ export class DataNs1BillingUsage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNs1BillingUsage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNs1BillingUsage to import
-  * @param importFromId The id of the existing DataNs1BillingUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/billing_usage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNs1BillingUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/billing_usage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNs1BillingUsage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class DataNs1BillingUsage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/data-sources/billing_usage ns1_billing_usage} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/data-sources/billing_usage ns1_billing_usage} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class DataNs1BillingUsage extends cdktf.TerraformDataSource {
       terraformResourceType: 'ns1_billing_usage',
       terraformGeneratorMetadata: {
         providerName: 'ns1',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

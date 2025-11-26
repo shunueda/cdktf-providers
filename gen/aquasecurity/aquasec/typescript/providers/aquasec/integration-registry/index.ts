@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,113 +10,113 @@ export interface IntegrationRegistryConfig extends cdktf.TerraformMetaArguments 
   /**
   * Automatically clean up that don't match the pull criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#advanced_settings_cleanup IntegrationRegistry#advanced_settings_cleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#advanced_settings_cleanup IntegrationRegistry#advanced_settings_cleanup}
   */
   readonly advancedSettingsCleanup?: boolean | cdktf.IResolvable;
   /**
   * List of image patterns to pull always
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#always_pull_patterns IntegrationRegistry#always_pull_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#always_pull_patterns IntegrationRegistry#always_pull_patterns}
   */
   readonly alwaysPullPatterns?: string[];
   /**
   * The architecture of the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#architecture IntegrationRegistry#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#architecture IntegrationRegistry#architecture}
   */
   readonly architecture?: string;
   /**
   * The username of the user who created or last modified the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#author IntegrationRegistry#author}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#author IntegrationRegistry#author}
   */
   readonly author?: string;
   /**
   * Automatically clean up images and repositories which are no longer present in the registry from Aqua console
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#auto_cleanup IntegrationRegistry#auto_cleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#auto_cleanup IntegrationRegistry#auto_cleanup}
   */
   readonly autoCleanup?: boolean | cdktf.IResolvable;
   /**
   * Whether to automatically pull images from the registry on creation and daily
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#auto_pull IntegrationRegistry#auto_pull}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#auto_pull IntegrationRegistry#auto_pull}
   */
   readonly autoPull?: boolean | cdktf.IResolvable;
   /**
   * The interval in days to start pulling new images from the registry, Defaults to 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#auto_pull_interval IntegrationRegistry#auto_pull_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#auto_pull_interval IntegrationRegistry#auto_pull_interval}
   */
   readonly autoPullInterval?: number;
   /**
   * Auto pull latest xff enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#auto_pull_latest_xff_enabled IntegrationRegistry#auto_pull_latest_xff_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#auto_pull_latest_xff_enabled IntegrationRegistry#auto_pull_latest_xff_enabled}
   */
   readonly autoPullLatestXffEnabled?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of repositories to pull every day, defaults to 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#auto_pull_max IntegrationRegistry#auto_pull_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#auto_pull_max IntegrationRegistry#auto_pull_max}
   */
   readonly autoPullMax?: number;
   /**
   * Whether to automatically pull and rescan images from the registry on creation and daily
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#auto_pull_rescan IntegrationRegistry#auto_pull_rescan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#auto_pull_rescan IntegrationRegistry#auto_pull_rescan}
   */
   readonly autoPullRescan?: boolean | cdktf.IResolvable;
   /**
   * The time of day to start pulling new images from the registry, in the format HH:MM (24-hour clock), defaults to 03:00
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#auto_pull_time IntegrationRegistry#auto_pull_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#auto_pull_time IntegrationRegistry#auto_pull_time}
   */
   readonly autoPullTime?: string;
   /**
   * The client certificate for the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#client_cert IntegrationRegistry#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#client_cert IntegrationRegistry#client_cert}
   */
   readonly clientCert?: string;
   /**
   * The client key for the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#client_key IntegrationRegistry#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#client_key IntegrationRegistry#client_key}
   */
   readonly clientKey?: string;
   /**
   * The cloud resource of the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#cloud_resources IntegrationRegistry#cloud_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#cloud_resources IntegrationRegistry#cloud_resources}
   */
   readonly cloudResources?: string[];
   /**
   * The description of the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#description IntegrationRegistry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#description IntegrationRegistry#description}
   */
   readonly description?: string;
   /**
   * The error message of the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#error_msg IntegrationRegistry#error_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#error_msg IntegrationRegistry#error_msg}
   */
   readonly errorMsg?: string;
   /**
   * To identify and ignore supersonic client calls initiated from OOTB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#force_ootb IntegrationRegistry#force_ootb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#force_ootb IntegrationRegistry#force_ootb}
   */
   readonly forceOotb?: boolean | cdktf.IResolvable;
   /**
   * Whether to force save the registry even if the test connection fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#force_save IntegrationRegistry#force_save}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#force_save IntegrationRegistry#force_save}
   */
   readonly forceSave?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#id IntegrationRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#id IntegrationRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -125,157 +125,157 @@ export interface IntegrationRegistryConfig extends cdktf.TerraformMetaArguments 
   /**
   * Additional condition for pulling and rescanning images, Defaults to 'none'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#image_creation_date_condition IntegrationRegistry#image_creation_date_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#image_creation_date_condition IntegrationRegistry#image_creation_date_condition}
   */
   readonly imageCreationDateCondition?: string;
   /**
   * The S3 prefixes for images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#image_s3_prefixes IntegrationRegistry#image_s3_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#image_s3_prefixes IntegrationRegistry#image_s3_prefixes}
   */
   readonly imageS3Prefixes?: string[];
   /**
   * Whether the architecture is the system default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#is_architecture_system_default IntegrationRegistry#is_architecture_system_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#is_architecture_system_default IntegrationRegistry#is_architecture_system_default}
   */
   readonly isArchitectureSystemDefault?: boolean | cdktf.IResolvable;
   /**
   * The last time the registry was modified in UNIX time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#lastupdate IntegrationRegistry#lastupdate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#lastupdate IntegrationRegistry#lastupdate}
   */
   readonly lastupdate?: number;
   /**
   * The name of the registry; string, required - this will be treated as the registry's ID, so choose a simple alphanumerical name without special signs and spaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#name IntegrationRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#name IntegrationRegistry#name}
   */
   readonly name: string;
   /**
   * Enable mutual TLS for Sonatype Nexus Repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#nexus_mtts_ff_enabled IntegrationRegistry#nexus_mtts_ff_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#nexus_mtts_ff_enabled IntegrationRegistry#nexus_mtts_ff_enabled}
   */
   readonly nexusMttsFfEnabled?: boolean | cdktf.IResolvable;
   /**
   * The password for registry authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#password IntegrationRegistry#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#password IntegrationRegistry#password}
   */
   readonly password?: string;
   /**
   * Permission action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#permission IntegrationRegistry#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#permission IntegrationRegistry#permission}
   */
   readonly permission?: string;
   /**
   * List of possible prefixes to image names pulled from the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#prefixes IntegrationRegistry#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#prefixes IntegrationRegistry#prefixes}
   */
   readonly prefixes?: string[];
   /**
   * When auto pull image enabled, sets maximum age of auto pulled images (for example for 5 Days the value should be: 5D), Requires `image_creation_date_condition = "image_age"` 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#pull_image_age IntegrationRegistry#pull_image_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#pull_image_age IntegrationRegistry#pull_image_age}
   */
   readonly pullImageAge?: string;
   /**
   * When auto pull image enabled, sets maximum age of auto pulled images tags from each repository (based on image creation date) Requires `image_creation_date_condition = "image_count"`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#pull_image_count IntegrationRegistry#pull_image_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#pull_image_count IntegrationRegistry#pull_image_count}
   */
   readonly pullImageCount?: number;
   /**
   * List of image tags patterns to pull
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#pull_image_tag_pattern IntegrationRegistry#pull_image_tag_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#pull_image_tag_pattern IntegrationRegistry#pull_image_tag_pattern}
   */
   readonly pullImageTagPattern?: string[];
   /**
   * The maximum number of tags for auto pull
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#pull_max_tags IntegrationRegistry#pull_max_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#pull_max_tags IntegrationRegistry#pull_max_tags}
   */
   readonly pullMaxTags?: number;
   /**
   * Patterns for repositories to be pulled from auto pull
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#pull_repo_patterns IntegrationRegistry#pull_repo_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#pull_repo_patterns IntegrationRegistry#pull_repo_patterns}
   */
   readonly pullRepoPatterns?: string[];
   /**
   * List of image patterns to exclude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#pull_repo_patterns_excluded IntegrationRegistry#pull_repo_patterns_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#pull_repo_patterns_excluded IntegrationRegistry#pull_repo_patterns_excluded}
   */
   readonly pullRepoPatternsExcluded?: string[];
   /**
   * Patterns for tags to be pulled from auto pull
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#pull_tags_pattern IntegrationRegistry#pull_tags_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#pull_tags_pattern IntegrationRegistry#pull_tags_pattern}
   */
   readonly pullTagsPattern?: string[];
   /**
   * Registry scan timeout in Minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#registry_scan_timeout IntegrationRegistry#registry_scan_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#registry_scan_timeout IntegrationRegistry#registry_scan_timeout}
   */
   readonly registryScanTimeout?: number;
   /**
   * The scanner group name (required when scanner_type = "specific" type)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#scanner_group_name IntegrationRegistry#scanner_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#scanner_group_name IntegrationRegistry#scanner_group_name}
   */
   readonly scannerGroupName?: string;
   /**
   * List of scanner names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#scanner_name IntegrationRegistry#scanner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#scanner_name IntegrationRegistry#scanner_name}
   */
   readonly scannerName?: string[];
   /**
   * The Scanner type (either "any" or "specific")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#scanner_type IntegrationRegistry#scanner_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#scanner_type IntegrationRegistry#scanner_type}
   */
   readonly scannerType?: string;
   /**
   * Registry type (HUB / V1 / V2 / ACR / GAR / AWS / GCR / ENGINE / CTRDENGINE / ART / NEXUS / QUAY / DTR / ATOMIC / OPENSHIFT / CF / HARBOR / ICR / PODMAN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#type IntegrationRegistry#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#type IntegrationRegistry#type}
   */
   readonly type: string;
   /**
   * The URL, address or region of the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#url IntegrationRegistry#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#url IntegrationRegistry#url}
   */
   readonly url?: string;
   /**
   * The username for registry authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#username IntegrationRegistry#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#username IntegrationRegistry#username}
   */
   readonly username?: string;
   /**
   * auto_scan_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#auto_scan_time IntegrationRegistry#auto_scan_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#auto_scan_time IntegrationRegistry#auto_scan_time}
   */
   readonly autoScanTime?: IntegrationRegistryAutoScanTime[] | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#options IntegrationRegistry#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#options IntegrationRegistry#options}
   */
   readonly options?: IntegrationRegistryOptions[] | cdktf.IResolvable;
   /**
   * webhook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#webhook IntegrationRegistry#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#webhook IntegrationRegistry#webhook}
   */
   readonly webhook?: IntegrationRegistryWebhook[] | cdktf.IResolvable;
 }
@@ -283,31 +283,31 @@ export interface IntegrationRegistryAutoScanTime {
   /**
   * The day for auto pull
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#auto_pull_day IntegrationRegistry#auto_pull_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#auto_pull_day IntegrationRegistry#auto_pull_day}
   */
   readonly autoPullDay?: number;
   /**
   * Number of iterations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#iteration IntegrationRegistry#iteration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#iteration IntegrationRegistry#iteration}
   */
   readonly iteration?: number;
   /**
   * The type of iteration (day, week, month, year)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#iteration_type IntegrationRegistry#iteration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#iteration_type IntegrationRegistry#iteration_type}
   */
   readonly iterationType?: string;
   /**
   * the time for auto pull
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#time IntegrationRegistry#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#time IntegrationRegistry#time}
   */
   readonly time?: string;
   /**
   * The days of week for auto pull
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#week_days IntegrationRegistry#week_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#week_days IntegrationRegistry#week_days}
   */
   readonly weekDays?: string[];
 }
@@ -539,11 +539,11 @@ export class IntegrationRegistryAutoScanTimeList extends cdktf.ComplexList {
 }
 export interface IntegrationRegistryOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#option IntegrationRegistry#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#option IntegrationRegistry#option}
   */
   readonly option?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#value IntegrationRegistry#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#value IntegrationRegistry#value}
   */
   readonly value?: string;
 }
@@ -688,19 +688,19 @@ export class IntegrationRegistryOptionsList extends cdktf.ComplexList {
 }
 export interface IntegrationRegistryWebhook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#auth_token IntegrationRegistry#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#auth_token IntegrationRegistry#auth_token}
   */
   readonly authToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#enabled IntegrationRegistry#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#enabled IntegrationRegistry#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#un_quarantine IntegrationRegistry#un_quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#un_quarantine IntegrationRegistry#un_quarantine}
   */
   readonly unQuarantine?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#url IntegrationRegistry#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#url IntegrationRegistry#url}
   */
   readonly url?: string;
 }
@@ -903,7 +903,7 @@ export class IntegrationRegistryWebhookList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry aquasec_integration_registry}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry aquasec_integration_registry}
 */
 export class IntegrationRegistry extends cdktf.TerraformResource {
 
@@ -919,7 +919,7 @@ export class IntegrationRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationRegistry to import
-  * @param importFromId The id of the existing IntegrationRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -931,7 +931,7 @@ export class IntegrationRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/integration_registry aquasec_integration_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/integration_registry aquasec_integration_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -942,8 +942,8 @@ export class IntegrationRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_integration_registry',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

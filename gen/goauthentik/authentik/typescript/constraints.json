@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "authentik": "2025.10.0"
+    "authentik": "2025.10.1"
   }
 }

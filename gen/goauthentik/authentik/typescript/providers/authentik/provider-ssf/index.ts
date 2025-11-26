@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_ssf
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_ssf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ProviderSsfConfig extends cdktf.TerraformMetaArguments {
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `days=30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_ssf#event_retention ProviderSsf#event_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_ssf#event_retention ProviderSsf#event_retention}
   */
   readonly eventRetention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_ssf#id ProviderSsf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_ssf#id ProviderSsf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,21 +23,21 @@ export interface ProviderSsfConfig extends cdktf.TerraformMetaArguments {
   /**
   * JWTs issued by any of the configured providers can be used to authenticate on behalf of this provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_ssf#jwt_federation_providers ProviderSsf#jwt_federation_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_ssf#jwt_federation_providers ProviderSsf#jwt_federation_providers}
   */
   readonly jwtFederationProviders?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_ssf#name ProviderSsf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_ssf#name ProviderSsf#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_ssf#signing_key ProviderSsf#signing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_ssf#signing_key ProviderSsf#signing_key}
   */
   readonly signingKey?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_ssf authentik_provider_ssf}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_ssf authentik_provider_ssf}
 */
 export class ProviderSsf extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class ProviderSsf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProviderSsf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProviderSsf to import
-  * @param importFromId The id of the existing ProviderSsf that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_ssf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProviderSsf that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_ssf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProviderSsf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class ProviderSsf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_ssf authentik_provider_ssf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_ssf authentik_provider_ssf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class ProviderSsf extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_provider_ssf',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

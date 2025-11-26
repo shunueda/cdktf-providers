@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface WorkloadConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#description Workload#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#description Workload#description}
   */
   readonly description?: string;
   /**
   * Extra Kubernetes modifications. Only used for BYOK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#extras Workload#extras}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#extras Workload#extras}
   */
   readonly extras?: string;
   /**
   * Name of the associated GVC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#gvc Workload#gvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#gvc Workload#gvc}
   */
   readonly gvc: string;
   /**
   * The identityLink is used as the access scope for 3rd party cloud resources. A single identity can provide access to multiple cloud providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#identity_link Workload#identity_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#identity_link Workload#identity_link}
   */
   readonly identityLink?: string;
   /**
   * Name of the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#name Workload#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#name Workload#name}
   */
   readonly name: string;
   /**
   * Workload will automatically redeploy when one of the container images is updated in the container registry. Default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#support_dynamic_tags Workload#support_dynamic_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#support_dynamic_tags Workload#support_dynamic_tags}
   */
   readonly supportDynamicTags?: boolean | cdktf.IResolvable;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#tags Workload#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#tags Workload#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Workload Type. Either `serverless`, `standard`, `stateful`, or `cron`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#type Workload#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#type Workload#type}
   */
   readonly type: string;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#container Workload#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#container Workload#container}
   */
   readonly container?: WorkloadContainer[] | cdktf.IResolvable;
   /**
   * firewall_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#firewall_spec Workload#firewall_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#firewall_spec Workload#firewall_spec}
   */
   readonly firewallSpec?: WorkloadFirewallSpec[] | cdktf.IResolvable;
   /**
   * job block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#job Workload#job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#job Workload#job}
   */
   readonly job?: WorkloadJob[] | cdktf.IResolvable;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#load_balancer Workload#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#load_balancer Workload#load_balancer}
   */
   readonly loadBalancer?: WorkloadLoadBalancer[] | cdktf.IResolvable;
   /**
   * local_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#local_options Workload#local_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#local_options Workload#local_options}
   */
   readonly localOptions?: WorkloadLocalOptions[] | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#options Workload#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#options Workload#options}
   */
   readonly options?: WorkloadOptions[] | cdktf.IResolvable;
   /**
   * request_retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#request_retry_policy Workload#request_retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#request_retry_policy Workload#request_retry_policy}
   */
   readonly requestRetryPolicy?: WorkloadRequestRetryPolicy[] | cdktf.IResolvable;
   /**
   * rollout_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#rollout_options Workload#rollout_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#rollout_options Workload#rollout_options}
   */
   readonly rolloutOptions?: WorkloadRolloutOptions[] | cdktf.IResolvable;
   /**
   * security_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#security_options Workload#security_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#security_options Workload#security_options}
   */
   readonly securityOptions?: WorkloadSecurityOptions[] | cdktf.IResolvable;
   /**
   * sidecar block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#sidecar Workload#sidecar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#sidecar Workload#sidecar}
   */
   readonly sidecar?: WorkloadSidecar[] | cdktf.IResolvable;
 }
@@ -691,15 +691,15 @@ export interface WorkloadContainerGpuCustom {
   /**
   * Number of GPUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#quantity Workload#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#quantity Workload#quantity}
   */
   readonly quantity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#resource Workload#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#resource Workload#resource}
   */
   readonly resource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#runtime_class Workload#runtime_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#runtime_class Workload#runtime_class}
   */
   readonly runtimeClass?: string;
 }
@@ -869,13 +869,13 @@ export interface WorkloadContainerGpuNvidia {
   /**
   * GPU Model (i.e.: t4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#model Workload#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#model Workload#model}
   */
   readonly model: string;
   /**
   * Number of GPUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#quantity Workload#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#quantity Workload#quantity}
   */
   readonly quantity: number;
 }
@@ -1016,7 +1016,7 @@ export interface WorkloadContainerLifecyclePostStartExec {
   /**
   * Command and arguments executed immediately after the container is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#command Workload#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#command Workload#command}
   */
   readonly command: string[];
 }
@@ -1131,7 +1131,7 @@ export interface WorkloadContainerLifecyclePostStart {
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#exec Workload#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#exec Workload#exec}
   */
   readonly exec?: WorkloadContainerLifecyclePostStartExec[] | cdktf.IResolvable;
 }
@@ -1249,7 +1249,7 @@ export interface WorkloadContainerLifecyclePreStopExec {
   /**
   * Command and arguments executed immediately before the container is stopped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#command Workload#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#command Workload#command}
   */
   readonly command: string[];
 }
@@ -1364,7 +1364,7 @@ export interface WorkloadContainerLifecyclePreStop {
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#exec Workload#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#exec Workload#exec}
   */
   readonly exec?: WorkloadContainerLifecyclePreStopExec[] | cdktf.IResolvable;
 }
@@ -1482,13 +1482,13 @@ export interface WorkloadContainerLifecycle {
   /**
   * post_start block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#post_start Workload#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#post_start Workload#post_start}
   */
   readonly postStart?: WorkloadContainerLifecyclePostStart[] | cdktf.IResolvable;
   /**
   * pre_stop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#pre_stop Workload#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#pre_stop Workload#pre_stop}
   */
   readonly preStop?: WorkloadContainerLifecyclePreStop[] | cdktf.IResolvable;
 }
@@ -1633,7 +1633,7 @@ export class WorkloadContainerLifecycleList extends cdktf.ComplexList {
 }
 export interface WorkloadContainerLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#command Workload#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#command Workload#command}
   */
   readonly command: string[];
 }
@@ -1746,7 +1746,7 @@ export class WorkloadContainerLivenessProbeExecList extends cdktf.ComplexList {
 }
 export interface WorkloadContainerLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#port Workload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#port Workload#port}
   */
   readonly port?: number;
 }
@@ -1862,19 +1862,19 @@ export class WorkloadContainerLivenessProbeGrpcList extends cdktf.ComplexList {
 }
 export interface WorkloadContainerLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#http_headers Workload#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#http_headers Workload#http_headers}
   */
   readonly httpHeaders?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#path Workload#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#path Workload#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#port Workload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#port Workload#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#scheme Workload#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#scheme Workload#scheme}
   */
   readonly scheme?: string;
 }
@@ -2077,7 +2077,7 @@ export class WorkloadContainerLivenessProbeHttpGetList extends cdktf.ComplexList
 }
 export interface WorkloadContainerLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#port Workload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#port Workload#port}
   */
   readonly port?: number;
 }
@@ -2193,47 +2193,47 @@ export class WorkloadContainerLivenessProbeTcpSocketList extends cdktf.ComplexLi
 }
 export interface WorkloadContainerLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#failure_threshold Workload#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#failure_threshold Workload#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#initial_delay_seconds Workload#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#initial_delay_seconds Workload#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#period_seconds Workload#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#period_seconds Workload#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#success_threshold Workload#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#success_threshold Workload#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#timeout_seconds Workload#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#timeout_seconds Workload#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#exec Workload#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#exec Workload#exec}
   */
   readonly exec?: WorkloadContainerLivenessProbeExec[] | cdktf.IResolvable;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#grpc Workload#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#grpc Workload#grpc}
   */
   readonly grpc?: WorkloadContainerLivenessProbeGrpc[] | cdktf.IResolvable;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#http_get Workload#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#http_get Workload#http_get}
   */
   readonly httpGet?: WorkloadContainerLivenessProbeHttpGet[] | cdktf.IResolvable;
   /**
   * tcp_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#tcp_socket Workload#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#tcp_socket Workload#tcp_socket}
   */
   readonly tcpSocket?: WorkloadContainerLivenessProbeTcpSocket[] | cdktf.IResolvable;
 }
@@ -2583,19 +2583,19 @@ export interface WorkloadContainerMetrics {
   /**
   * Drop metrics that match given patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#drop_metrics Workload#drop_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#drop_metrics Workload#drop_metrics}
   */
   readonly dropMetrics?: string[];
   /**
   * Path from container emitting custom metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#path Workload#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#path Workload#path}
   */
   readonly path: string;
   /**
   * Port from container emitting custom metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#port Workload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#port Workload#port}
   */
   readonly port: number;
 }
@@ -2765,13 +2765,13 @@ export interface WorkloadContainerPorts {
   /**
   * Port to expose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#number Workload#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#number Workload#number}
   */
   readonly number: number;
   /**
   * Protocol. Choice of: `http`, `http2`, `tcp`, or `grpc`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#protocol Workload#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#protocol Workload#protocol}
   */
   readonly protocol?: string;
 }
@@ -2913,7 +2913,7 @@ export class WorkloadContainerPortsList extends cdktf.ComplexList {
 }
 export interface WorkloadContainerReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#command Workload#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#command Workload#command}
   */
   readonly command: string[];
 }
@@ -3026,7 +3026,7 @@ export class WorkloadContainerReadinessProbeExecList extends cdktf.ComplexList {
 }
 export interface WorkloadContainerReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#port Workload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#port Workload#port}
   */
   readonly port?: number;
 }
@@ -3142,19 +3142,19 @@ export class WorkloadContainerReadinessProbeGrpcList extends cdktf.ComplexList {
 }
 export interface WorkloadContainerReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#http_headers Workload#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#http_headers Workload#http_headers}
   */
   readonly httpHeaders?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#path Workload#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#path Workload#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#port Workload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#port Workload#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#scheme Workload#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#scheme Workload#scheme}
   */
   readonly scheme?: string;
 }
@@ -3357,7 +3357,7 @@ export class WorkloadContainerReadinessProbeHttpGetList extends cdktf.ComplexLis
 }
 export interface WorkloadContainerReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#port Workload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#port Workload#port}
   */
   readonly port?: number;
 }
@@ -3473,47 +3473,47 @@ export class WorkloadContainerReadinessProbeTcpSocketList extends cdktf.ComplexL
 }
 export interface WorkloadContainerReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#failure_threshold Workload#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#failure_threshold Workload#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#initial_delay_seconds Workload#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#initial_delay_seconds Workload#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#period_seconds Workload#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#period_seconds Workload#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#success_threshold Workload#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#success_threshold Workload#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#timeout_seconds Workload#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#timeout_seconds Workload#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#exec Workload#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#exec Workload#exec}
   */
   readonly exec?: WorkloadContainerReadinessProbeExec[] | cdktf.IResolvable;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#grpc Workload#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#grpc Workload#grpc}
   */
   readonly grpc?: WorkloadContainerReadinessProbeGrpc[] | cdktf.IResolvable;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#http_get Workload#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#http_get Workload#http_get}
   */
   readonly httpGet?: WorkloadContainerReadinessProbeHttpGet[] | cdktf.IResolvable;
   /**
   * tcp_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#tcp_socket Workload#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#tcp_socket Workload#tcp_socket}
   */
   readonly tcpSocket?: WorkloadContainerReadinessProbeTcpSocket[] | cdktf.IResolvable;
 }
@@ -3863,19 +3863,19 @@ export interface WorkloadContainerVolume {
   /**
   * File path added to workload pointing to the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#path Workload#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#path Workload#path}
   */
   readonly path: string;
   /**
   * Only applicable to persistent volumes, this determines what Control Plane will do when creating a new workload replica if a corresponding volume exists. Available Values: `retain`, `recycle`. Default: `retain`. **DEPRECATED - No longer being used.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#recovery_policy Workload#recovery_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#recovery_policy Workload#recovery_policy}
   */
   readonly recoveryPolicy?: string;
   /**
   * URI of a volume hosted at Control Plane (Volume Set) or at a cloud provider (AWS, Azure, GCP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#uri Workload#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#uri Workload#uri}
   */
   readonly uri: string;
 }
@@ -4045,121 +4045,121 @@ export interface WorkloadContainer {
   /**
   * Command line arguments passed to the container at runtime. Replaces the CMD arguments of the running container. It is an ordered list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#args Workload#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#args Workload#args}
   */
   readonly args?: string[];
   /**
   * Override the entry point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#command Workload#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#command Workload#command}
   */
   readonly command?: string;
   /**
   * Reserved CPU of the workload when capacityAI is disabled. Maximum CPU when CapacityAI is enabled. Default: "50m".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#cpu Workload#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#cpu Workload#cpu}
   */
   readonly cpu?: string;
   /**
   * Name-Value list of environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#env Workload#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#env Workload#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * The full image and tag path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#image Workload#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#image Workload#image}
   */
   readonly image: string;
   /**
   * Enables inheritance of GVC environment variables. A variable in spec.env will override a GVC variable with the same name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#inherit_env Workload#inherit_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#inherit_env Workload#inherit_env}
   */
   readonly inheritEnv?: boolean | cdktf.IResolvable;
   /**
   * Reserved memory of the workload when capacityAI is disabled. Maximum memory when CapacityAI is enabled. Default: "128Mi".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#memory Workload#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#memory Workload#memory}
   */
   readonly memory?: string;
   /**
   * Minimum CPU when capacity AI is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#min_cpu Workload#min_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#min_cpu Workload#min_cpu}
   */
   readonly minCpu?: string;
   /**
   * Minimum memory when capacity AI is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#min_memory Workload#min_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#min_memory Workload#min_memory}
   */
   readonly minMemory?: string;
   /**
   * Name of the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#name Workload#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#name Workload#name}
   */
   readonly name: string;
   /**
   * The port the container exposes. Only one container is allowed to specify a port. Min: `80`. Max: `65535`. Used by `serverless` Workload type. **DEPRECATED - Use `ports`.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#port Workload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#port Workload#port}
   */
   readonly port?: number;
   /**
   * Override the working directory. Must be an absolute path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#working_directory Workload#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#working_directory Workload#working_directory}
   */
   readonly workingDirectory?: string;
   /**
   * gpu_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#gpu_custom Workload#gpu_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#gpu_custom Workload#gpu_custom}
   */
   readonly gpuCustom?: WorkloadContainerGpuCustom[] | cdktf.IResolvable;
   /**
   * gpu_nvidia block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#gpu_nvidia Workload#gpu_nvidia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#gpu_nvidia Workload#gpu_nvidia}
   */
   readonly gpuNvidia?: WorkloadContainerGpuNvidia[] | cdktf.IResolvable;
   /**
   * lifecycle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#lifecycle Workload#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#lifecycle Workload#lifecycle}
   */
   readonly lifecycle?: WorkloadContainerLifecycle[] | cdktf.IResolvable;
   /**
   * liveness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#liveness_probe Workload#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#liveness_probe Workload#liveness_probe}
   */
   readonly livenessProbe?: WorkloadContainerLivenessProbe[] | cdktf.IResolvable;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metrics Workload#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metrics Workload#metrics}
   */
   readonly metrics?: WorkloadContainerMetrics[] | cdktf.IResolvable;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#ports Workload#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#ports Workload#ports}
   */
   readonly ports?: WorkloadContainerPorts[] | cdktf.IResolvable;
   /**
   * readiness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#readiness_probe Workload#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#readiness_probe Workload#readiness_probe}
   */
   readonly readinessProbe?: WorkloadContainerReadinessProbe[] | cdktf.IResolvable;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#volume Workload#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#volume Workload#volume}
   */
   readonly volume?: WorkloadContainerVolume[] | cdktf.IResolvable;
 }
@@ -4822,19 +4822,19 @@ export interface WorkloadFirewallSpecExternalHttpInboundHeaderFilter {
   /**
   * A list of regular expressions to match for allowed header values. Headers that do not match ANY of these values will be filtered and will not reach the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#allowed_values Workload#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#allowed_values Workload#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * A list of regular expressions to match for blocked header values. Headers that match ANY of these values will be filtered and will not reach the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#blocked_values Workload#blocked_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#blocked_values Workload#blocked_values}
   */
   readonly blockedValues?: string[];
   /**
   * The header to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#key Workload#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#key Workload#key}
   */
   readonly key: string;
 }
@@ -5007,7 +5007,7 @@ export interface WorkloadFirewallSpecExternalHttp {
   /**
   * inbound_header_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#inbound_header_filter Workload#inbound_header_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#inbound_header_filter Workload#inbound_header_filter}
   */
   readonly inboundHeaderFilter?: WorkloadFirewallSpecExternalHttpInboundHeaderFilter[] | cdktf.IResolvable;
 }
@@ -5125,13 +5125,13 @@ export interface WorkloadFirewallSpecExternalOutboundAllowPort {
   /**
   * Port number. Max: 65000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#number Workload#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#number Workload#number}
   */
   readonly number: number;
   /**
   * Either `http`, `https` or `tcp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#protocol Workload#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#protocol Workload#protocol}
   */
   readonly protocol: string;
 }
@@ -5272,43 +5272,43 @@ export interface WorkloadFirewallSpecExternal {
   /**
   * The list of ipv4/ipv6 addresses or cidr blocks that are allowed to access this workload. No external access is allowed by default. Specify '0.0.0.0/0' to allow access to the public internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#inbound_allow_cidr Workload#inbound_allow_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#inbound_allow_cidr Workload#inbound_allow_cidr}
   */
   readonly inboundAllowCidr?: string[];
   /**
   * The list of ipv4/ipv6 addresses or cidr blocks that are NOT allowed to access this workload. Addresses in the allow list will only be allowed if they do not exist in this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#inbound_blocked_cidr Workload#inbound_blocked_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#inbound_blocked_cidr Workload#inbound_blocked_cidr}
   */
   readonly inboundBlockedCidr?: string[];
   /**
   * The list of ipv4/ipv6 addresses or cidr blocks that this workload is allowed reach. No outbound access is allowed by default. Specify '0.0.0.0/0' to allow outbound access to the public internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#outbound_allow_cidr Workload#outbound_allow_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#outbound_allow_cidr Workload#outbound_allow_cidr}
   */
   readonly outboundAllowCidr?: string[];
   /**
   * The list of public hostnames that this workload is allowed to reach. No outbound access is allowed by default. A wildcard `*` is allowed on the prefix of the hostname only, ex: `*.amazonaws.com`. Use `outboundAllowCIDR` to allow access to all external websites.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#outbound_allow_hostname Workload#outbound_allow_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#outbound_allow_hostname Workload#outbound_allow_hostname}
   */
   readonly outboundAllowHostname?: string[];
   /**
   * The list of ipv4/ipv6 addresses or cidr blocks that this workload is NOT allowed to reach. Addresses in the allow list will only be allowed if they do not exist in this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#outbound_blocked_cidr Workload#outbound_blocked_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#outbound_blocked_cidr Workload#outbound_blocked_cidr}
   */
   readonly outboundBlockedCidr?: string[];
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#http Workload#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#http Workload#http}
   */
   readonly http?: WorkloadFirewallSpecExternalHttp[] | cdktf.IResolvable;
   /**
   * outbound_allow_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#outbound_allow_port Workload#outbound_allow_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#outbound_allow_port Workload#outbound_allow_port}
   */
   readonly outboundAllowPort?: WorkloadFirewallSpecExternalOutboundAllowPort[] | cdktf.IResolvable;
 }
@@ -5600,13 +5600,13 @@ export interface WorkloadFirewallSpecInternal {
   /**
   * Used to control the internal firewall configuration and mutual tls. Allowed Values: "none", "same-gvc", "same-org", "workload-list".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#inbound_allow_type Workload#inbound_allow_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#inbound_allow_type Workload#inbound_allow_type}
   */
   readonly inboundAllowType?: string;
   /**
   * A list of specific workloads which are allowed to access this workload internally. This list is only used if the 'inboundAllowType' is set to 'workload-list'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#inbound_allow_workload Workload#inbound_allow_workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#inbound_allow_workload Workload#inbound_allow_workload}
   */
   readonly inboundAllowWorkload?: string[];
 }
@@ -5753,13 +5753,13 @@ export interface WorkloadFirewallSpec {
   /**
   * external block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#external Workload#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#external Workload#external}
   */
   readonly external?: WorkloadFirewallSpecExternal[] | cdktf.IResolvable;
   /**
   * internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#internal Workload#internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#internal Workload#internal}
   */
   readonly internal?: WorkloadFirewallSpecInternal[] | cdktf.IResolvable;
 }
@@ -5906,31 +5906,31 @@ export interface WorkloadJob {
   /**
   * The maximum number of seconds Control Plane will wait for the job to complete. If a job does not succeed or fail in the allotted time, Control Plane will stop the job, moving it into the Removed status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#active_deadline_seconds Workload#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#active_deadline_seconds Workload#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
   * Either 'Forbid' or 'Replace'. This determines what Control Plane will do when the schedule requires a job to start, while a prior instance of the job is still running. Enum: [ Forbid, Replace ] Default: `Forbid`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#concurrency_policy Workload#concurrency_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#concurrency_policy Workload#concurrency_policy}
   */
   readonly concurrencyPolicy?: string;
   /**
   * The maximum number of completed job instances to display. This should be an integer between 1 and 10. Default: `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#history_limit Workload#history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#history_limit Workload#history_limit}
   */
   readonly historyLimit?: number;
   /**
   * Either 'OnFailure' or 'Never'. This determines what Control Plane will do when a job instance fails. Enum: [ OnFailure, Never ] Default: `Never`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#restart_policy Workload#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#restart_policy Workload#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * A standard cron [schedule expression](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/#schedule-syntax) used to determine when your job should execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#schedule Workload#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#schedule Workload#schedule}
   */
   readonly schedule: string;
 }
@@ -6161,25 +6161,25 @@ export interface WorkloadLoadBalancerDirectPort {
   /**
   * The port on the container tha will receive this traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#container_port Workload#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#container_port Workload#container_port}
   */
   readonly containerPort?: number;
   /**
   * The port that is available publicly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#external_port Workload#external_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#external_port Workload#external_port}
   */
   readonly externalPort: number;
   /**
   * The protocol that is exposed publicly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#protocol Workload#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#protocol Workload#protocol}
   */
   readonly protocol: string;
   /**
   * Overrides the default `https` url scheme that will be used for links in the UI and status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#scheme Workload#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#scheme Workload#scheme}
   */
   readonly scheme?: string;
 }
@@ -6378,17 +6378,17 @@ export interface WorkloadLoadBalancerDirect {
   /**
   * When disabled, this load balancer will be stopped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#enabled Workload#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#enabled Workload#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#ipset Workload#ipset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#ipset Workload#ipset}
   */
   readonly ipset?: string;
   /**
   * port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#port Workload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#port Workload#port}
   */
   readonly port?: WorkloadLoadBalancerDirectPort[] | cdktf.IResolvable;
 }
@@ -6561,25 +6561,25 @@ export interface WorkloadLoadBalancerGeoLocationHeaders {
   /**
   * The geo asn header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#asn Workload#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#asn Workload#asn}
   */
   readonly asn?: string;
   /**
   * The geo city header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#city Workload#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#city Workload#city}
   */
   readonly city?: string;
   /**
   * The geo country header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#country Workload#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#country Workload#country}
   */
   readonly country?: string;
   /**
   * The geo region header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#region Workload#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#region Workload#region}
   */
   readonly region?: string;
 }
@@ -6784,13 +6784,13 @@ export interface WorkloadLoadBalancerGeoLocation {
   /**
   * When enabled, geo location headers will be included on inbound http requests. Existing headers will be replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#enabled Workload#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#enabled Workload#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#headers Workload#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#headers Workload#headers}
   */
   readonly headers?: WorkloadLoadBalancerGeoLocationHeaders[] | cdktf.IResolvable;
 }
@@ -6937,19 +6937,19 @@ export interface WorkloadLoadBalancer {
   /**
   * When enabled, individual replicas of the workload can be reached directly using the subdomain prefix replica-<index>. For example, replica-0.my-workload.my-gvc.cpln.local or replica-0.my-workload-<gvc-alias>.cpln.app - Can only be used with stateful workloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#replica_direct Workload#replica_direct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#replica_direct Workload#replica_direct}
   */
   readonly replicaDirect?: boolean | cdktf.IResolvable;
   /**
   * direct block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#direct Workload#direct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#direct Workload#direct}
   */
   readonly direct?: WorkloadLoadBalancerDirect[] | cdktf.IResolvable;
   /**
   * geo_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#geo_location Workload#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#geo_location Workload#geo_location}
   */
   readonly geoLocation?: WorkloadLoadBalancerGeoLocation[] | cdktf.IResolvable;
 }
@@ -7125,25 +7125,25 @@ export interface WorkloadLocalOptionsAutoscalingKedaAdvancedScalingModifiers {
   /**
   * Defines the new activation target value to scale on for the composed metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#activation_target Workload#activation_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#activation_target Workload#activation_target}
   */
   readonly activationTarget?: string;
   /**
   * Composes metrics together and allows them to be modified/manipulated. It accepts mathematical/conditional statements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#formula Workload#formula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#formula Workload#formula}
   */
   readonly formula?: string;
   /**
   * Defines metric type used for this new composite-metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metric_type Workload#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metric_type Workload#metric_type}
   */
   readonly metricType?: string;
   /**
   * Defines new target value to scale on for the composed metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#target Workload#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#target Workload#target}
   */
   readonly target?: string;
 }
@@ -7348,7 +7348,7 @@ export interface WorkloadLocalOptionsAutoscalingKedaAdvanced {
   /**
   * scaling_modifiers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#scaling_modifiers Workload#scaling_modifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#scaling_modifiers Workload#scaling_modifiers}
   */
   readonly scalingModifiers?: WorkloadLocalOptionsAutoscalingKedaAdvancedScalingModifiers[] | cdktf.IResolvable;
 }
@@ -7466,7 +7466,7 @@ export interface WorkloadLocalOptionsAutoscalingKedaTriggerAuthenticationRef {
   /**
   * The name of secret listed in the GVC spec.keda.secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#name Workload#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#name Workload#name}
   */
   readonly name: string;
 }
@@ -7581,37 +7581,37 @@ export interface WorkloadLocalOptionsAutoscalingKedaTrigger {
   /**
   * The configuration parameters that the trigger requires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metadata Workload#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metadata Workload#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The type of metric to be used for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metric_type Workload#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metric_type Workload#metric_type}
   */
   readonly metricType?: string;
   /**
   * An optional name for the trigger. If not provided, a default name will be generated based on the trigger type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#name Workload#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#name Workload#name}
   */
   readonly name?: string;
   /**
   * The type of KEDA trigger, e.g "prometheus", "aws-sqs", etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#type Workload#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#type Workload#type}
   */
   readonly type: string;
   /**
   * Enables caching of metric values during polling interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#use_cached_metrics Workload#use_cached_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#use_cached_metrics Workload#use_cached_metrics}
   */
   readonly useCachedMetrics?: boolean | cdktf.IResolvable;
   /**
   * authentication_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#authentication_ref Workload#authentication_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#authentication_ref Workload#authentication_ref}
   */
   readonly authenticationRef?: WorkloadLocalOptionsAutoscalingKedaTriggerAuthenticationRef[] | cdktf.IResolvable;
 }
@@ -7871,31 +7871,31 @@ export interface WorkloadLocalOptionsAutoscalingKeda {
   /**
   * The cooldown period in seconds after scaling down to 0 replicas before KEDA will allow scaling up again.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#cooldown_period Workload#cooldown_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#cooldown_period Workload#cooldown_period}
   */
   readonly cooldownPeriod?: number;
   /**
   * The initial cooldown period in seconds after scaling down to 0 replicas before KEDA will allow scaling up again.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#initial_cooldown_period Workload#initial_cooldown_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#initial_cooldown_period Workload#initial_cooldown_period}
   */
   readonly initialCooldownPeriod?: number;
   /**
   * The interval in seconds at which KEDA will poll the external metrics to determine if scaling is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#polling_interval Workload#polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#polling_interval Workload#polling_interval}
   */
   readonly pollingInterval?: number;
   /**
   * advanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#advanced Workload#advanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#advanced Workload#advanced}
   */
   readonly advanced?: WorkloadLocalOptionsAutoscalingKedaAdvanced[] | cdktf.IResolvable;
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#trigger Workload#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#trigger Workload#trigger}
   */
   readonly trigger?: WorkloadLocalOptionsAutoscalingKedaTrigger[] | cdktf.IResolvable;
 }
@@ -8129,13 +8129,13 @@ export interface WorkloadLocalOptionsAutoscalingMulti {
   /**
   * Valid values: `cpu` or `memory`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metric Workload#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metric Workload#metric}
   */
   readonly metric?: string;
   /**
   * Control Plane will scale the number of replicas for this deployment up/down in order to be as close as possible to the target metric across all replicas of a deployment. Min: `1`. Max: `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#target Workload#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#target Workload#target}
   */
   readonly target?: number;
 }
@@ -8282,55 +8282,55 @@ export interface WorkloadLocalOptionsAutoscaling {
   /**
   * A hard maximum for the number of concurrent requests allowed to a replica. If no replicas are available to fulfill the request then it will be queued until a replica with capacity is available and delivered as soon as one is available again. Capacity can be available from requests completing or when a new replica is available from scale out.Min: `0`. Max: `1000`. Default `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#max_concurrency Workload#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#max_concurrency Workload#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
   * The maximum allowed number of replicas. Min: `0`. Default `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#max_scale Workload#max_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#max_scale Workload#max_scale}
   */
   readonly maxScale?: number;
   /**
   * Valid values: `concurrency`, `cpu`, `memory`, `rps`, `latency`, `keda` or `disabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metric Workload#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metric Workload#metric}
   */
   readonly metric?: string;
   /**
   * For metrics represented as a distribution (e.g. latency) a percentile within the distribution must be chosen as the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metric_percentile Workload#metric_percentile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metric_percentile Workload#metric_percentile}
   */
   readonly metricPercentile?: string;
   /**
   * The minimum allowed number of replicas. Control Plane can scale the workload down to 0 when there is no traffic and scale up immediately to fulfill new requests. Min: `0`. Max: `max_scale`. Default `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#min_scale Workload#min_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#min_scale Workload#min_scale}
   */
   readonly minScale?: number;
   /**
   * The amount of time (in seconds) with no requests received before a workload is scaled to 0. Min: `30`. Max: `3600`. Default: `300`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#scale_to_zero_delay Workload#scale_to_zero_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#scale_to_zero_delay Workload#scale_to_zero_delay}
   */
   readonly scaleToZeroDelay?: number;
   /**
   * Control Plane will scale the number of replicas for this deployment up/down in order to be as close as possible to the target metric across all replicas of a deployment. Min: `1`. Max: `20000`. Default: `95`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#target Workload#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#target Workload#target}
   */
   readonly target?: number;
   /**
   * keda block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#keda Workload#keda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#keda Workload#keda}
   */
   readonly keda?: WorkloadLocalOptionsAutoscalingKeda[] | cdktf.IResolvable;
   /**
   * multi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#multi Workload#multi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#multi Workload#multi}
   */
   readonly multi?: WorkloadLocalOptionsAutoscalingMulti[] | cdktf.IResolvable;
 }
@@ -8678,7 +8678,7 @@ export class WorkloadLocalOptionsAutoscalingList extends cdktf.ComplexList {
 }
 export interface WorkloadLocalOptionsMultiZone {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#enabled Workload#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#enabled Workload#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -8796,49 +8796,49 @@ export interface WorkloadLocalOptions {
   /**
   * Capacity AI. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#capacity_ai Workload#capacity_ai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#capacity_ai Workload#capacity_ai}
   */
   readonly capacityAi?: boolean | cdktf.IResolvable;
   /**
   * The highest frequency capacity AI is allowed to update resource reservations when CapacityAI is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#capacity_ai_update_minutes Workload#capacity_ai_update_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#capacity_ai_update_minutes Workload#capacity_ai_update_minutes}
   */
   readonly capacityAiUpdateMinutes?: number;
   /**
   * Debug mode. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#debug Workload#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#debug Workload#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Valid only for `local_options`. Override options for a specific location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#location Workload#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#location Workload#location}
   */
   readonly location: string;
   /**
   * Workload suspend. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#suspend Workload#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#suspend Workload#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * Timeout in seconds. Default: `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#timeout_seconds Workload#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#timeout_seconds Workload#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#autoscaling Workload#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#autoscaling Workload#autoscaling}
   */
   readonly autoscaling?: WorkloadLocalOptionsAutoscaling[] | cdktf.IResolvable;
   /**
   * multi_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#multi_zone Workload#multi_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#multi_zone Workload#multi_zone}
   */
   readonly multiZone?: WorkloadLocalOptionsMultiZone[] | cdktf.IResolvable;
 }
@@ -9156,25 +9156,25 @@ export interface WorkloadOptionsAutoscalingKedaAdvancedScalingModifiers {
   /**
   * Defines the new activation target value to scale on for the composed metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#activation_target Workload#activation_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#activation_target Workload#activation_target}
   */
   readonly activationTarget?: string;
   /**
   * Composes metrics together and allows them to be modified/manipulated. It accepts mathematical/conditional statements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#formula Workload#formula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#formula Workload#formula}
   */
   readonly formula?: string;
   /**
   * Defines metric type used for this new composite-metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metric_type Workload#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metric_type Workload#metric_type}
   */
   readonly metricType?: string;
   /**
   * Defines new target value to scale on for the composed metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#target Workload#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#target Workload#target}
   */
   readonly target?: string;
 }
@@ -9379,7 +9379,7 @@ export interface WorkloadOptionsAutoscalingKedaAdvanced {
   /**
   * scaling_modifiers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#scaling_modifiers Workload#scaling_modifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#scaling_modifiers Workload#scaling_modifiers}
   */
   readonly scalingModifiers?: WorkloadOptionsAutoscalingKedaAdvancedScalingModifiers[] | cdktf.IResolvable;
 }
@@ -9497,7 +9497,7 @@ export interface WorkloadOptionsAutoscalingKedaTriggerAuthenticationRef {
   /**
   * The name of secret listed in the GVC spec.keda.secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#name Workload#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#name Workload#name}
   */
   readonly name: string;
 }
@@ -9612,37 +9612,37 @@ export interface WorkloadOptionsAutoscalingKedaTrigger {
   /**
   * The configuration parameters that the trigger requires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metadata Workload#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metadata Workload#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The type of metric to be used for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metric_type Workload#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metric_type Workload#metric_type}
   */
   readonly metricType?: string;
   /**
   * An optional name for the trigger. If not provided, a default name will be generated based on the trigger type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#name Workload#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#name Workload#name}
   */
   readonly name?: string;
   /**
   * The type of KEDA trigger, e.g "prometheus", "aws-sqs", etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#type Workload#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#type Workload#type}
   */
   readonly type: string;
   /**
   * Enables caching of metric values during polling interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#use_cached_metrics Workload#use_cached_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#use_cached_metrics Workload#use_cached_metrics}
   */
   readonly useCachedMetrics?: boolean | cdktf.IResolvable;
   /**
   * authentication_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#authentication_ref Workload#authentication_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#authentication_ref Workload#authentication_ref}
   */
   readonly authenticationRef?: WorkloadOptionsAutoscalingKedaTriggerAuthenticationRef[] | cdktf.IResolvable;
 }
@@ -9902,31 +9902,31 @@ export interface WorkloadOptionsAutoscalingKeda {
   /**
   * The cooldown period in seconds after scaling down to 0 replicas before KEDA will allow scaling up again.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#cooldown_period Workload#cooldown_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#cooldown_period Workload#cooldown_period}
   */
   readonly cooldownPeriod?: number;
   /**
   * The initial cooldown period in seconds after scaling down to 0 replicas before KEDA will allow scaling up again.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#initial_cooldown_period Workload#initial_cooldown_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#initial_cooldown_period Workload#initial_cooldown_period}
   */
   readonly initialCooldownPeriod?: number;
   /**
   * The interval in seconds at which KEDA will poll the external metrics to determine if scaling is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#polling_interval Workload#polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#polling_interval Workload#polling_interval}
   */
   readonly pollingInterval?: number;
   /**
   * advanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#advanced Workload#advanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#advanced Workload#advanced}
   */
   readonly advanced?: WorkloadOptionsAutoscalingKedaAdvanced[] | cdktf.IResolvable;
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#trigger Workload#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#trigger Workload#trigger}
   */
   readonly trigger?: WorkloadOptionsAutoscalingKedaTrigger[] | cdktf.IResolvable;
 }
@@ -10160,13 +10160,13 @@ export interface WorkloadOptionsAutoscalingMulti {
   /**
   * Valid values: `cpu` or `memory`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metric Workload#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metric Workload#metric}
   */
   readonly metric?: string;
   /**
   * Control Plane will scale the number of replicas for this deployment up/down in order to be as close as possible to the target metric across all replicas of a deployment. Min: `1`. Max: `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#target Workload#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#target Workload#target}
   */
   readonly target?: number;
 }
@@ -10313,55 +10313,55 @@ export interface WorkloadOptionsAutoscaling {
   /**
   * A hard maximum for the number of concurrent requests allowed to a replica. If no replicas are available to fulfill the request then it will be queued until a replica with capacity is available and delivered as soon as one is available again. Capacity can be available from requests completing or when a new replica is available from scale out.Min: `0`. Max: `1000`. Default `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#max_concurrency Workload#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#max_concurrency Workload#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
   * The maximum allowed number of replicas. Min: `0`. Default `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#max_scale Workload#max_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#max_scale Workload#max_scale}
   */
   readonly maxScale?: number;
   /**
   * Valid values: `concurrency`, `cpu`, `memory`, `rps`, `latency`, `keda` or `disabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metric Workload#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metric Workload#metric}
   */
   readonly metric?: string;
   /**
   * For metrics represented as a distribution (e.g. latency) a percentile within the distribution must be chosen as the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#metric_percentile Workload#metric_percentile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#metric_percentile Workload#metric_percentile}
   */
   readonly metricPercentile?: string;
   /**
   * The minimum allowed number of replicas. Control Plane can scale the workload down to 0 when there is no traffic and scale up immediately to fulfill new requests. Min: `0`. Max: `max_scale`. Default `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#min_scale Workload#min_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#min_scale Workload#min_scale}
   */
   readonly minScale?: number;
   /**
   * The amount of time (in seconds) with no requests received before a workload is scaled to 0. Min: `30`. Max: `3600`. Default: `300`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#scale_to_zero_delay Workload#scale_to_zero_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#scale_to_zero_delay Workload#scale_to_zero_delay}
   */
   readonly scaleToZeroDelay?: number;
   /**
   * Control Plane will scale the number of replicas for this deployment up/down in order to be as close as possible to the target metric across all replicas of a deployment. Min: `1`. Max: `20000`. Default: `95`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#target Workload#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#target Workload#target}
   */
   readonly target?: number;
   /**
   * keda block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#keda Workload#keda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#keda Workload#keda}
   */
   readonly keda?: WorkloadOptionsAutoscalingKeda[] | cdktf.IResolvable;
   /**
   * multi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#multi Workload#multi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#multi Workload#multi}
   */
   readonly multi?: WorkloadOptionsAutoscalingMulti[] | cdktf.IResolvable;
 }
@@ -10709,7 +10709,7 @@ export class WorkloadOptionsAutoscalingList extends cdktf.ComplexList {
 }
 export interface WorkloadOptionsMultiZone {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#enabled Workload#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#enabled Workload#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -10827,43 +10827,43 @@ export interface WorkloadOptions {
   /**
   * Capacity AI. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#capacity_ai Workload#capacity_ai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#capacity_ai Workload#capacity_ai}
   */
   readonly capacityAi?: boolean | cdktf.IResolvable;
   /**
   * The highest frequency capacity AI is allowed to update resource reservations when CapacityAI is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#capacity_ai_update_minutes Workload#capacity_ai_update_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#capacity_ai_update_minutes Workload#capacity_ai_update_minutes}
   */
   readonly capacityAiUpdateMinutes?: number;
   /**
   * Debug mode. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#debug Workload#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#debug Workload#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Workload suspend. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#suspend Workload#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#suspend Workload#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * Timeout in seconds. Default: `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#timeout_seconds Workload#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#timeout_seconds Workload#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#autoscaling Workload#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#autoscaling Workload#autoscaling}
   */
   readonly autoscaling?: WorkloadOptionsAutoscaling[] | cdktf.IResolvable;
   /**
   * multi_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#multi_zone Workload#multi_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#multi_zone Workload#multi_zone}
   */
   readonly multiZone?: WorkloadOptionsMultiZone[] | cdktf.IResolvable;
 }
@@ -11153,11 +11153,11 @@ export class WorkloadOptionsList extends cdktf.ComplexList {
 }
 export interface WorkloadRequestRetryPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#attempts Workload#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#attempts Workload#attempts}
   */
   readonly attempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#retry_on Workload#retry_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#retry_on Workload#retry_on}
   */
   readonly retryOn?: string[];
 }
@@ -11304,31 +11304,31 @@ export interface WorkloadRolloutOptions {
   /**
   * The number of replicas that can be created above the desired amount of replicas during an update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#max_surge_replicas Workload#max_surge_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#max_surge_replicas Workload#max_surge_replicas}
   */
   readonly maxSurgeReplicas?: string;
   /**
   * The number of replicas that can be unavailable during the update process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#max_unavailable_replicas Workload#max_unavailable_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#max_unavailable_replicas Workload#max_unavailable_replicas}
   */
   readonly maxUnavailableReplicas?: string;
   /**
   * The minimum number of seconds a container must run without crashing to be considered available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#min_ready_seconds Workload#min_ready_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#min_ready_seconds Workload#min_ready_seconds}
   */
   readonly minReadySeconds?: number;
   /**
   * The strategies used to update applications and services deployed. Valid values: `OrderedReady` (Updates workloads in a rolling fashion, taking down old ones and bringing up new ones incrementally, ensuring that the service remains available during the update.), `Parallel` (Causes all pods affected by a scaling operation to be created or destroyed simultaneously. This does not affect update operations.). Default: `OrderedReady`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#scaling_policy Workload#scaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#scaling_policy Workload#scaling_policy}
   */
   readonly scalingPolicy?: string;
   /**
   * The amount of time in seconds a workload has to gracefully terminate before forcefully terminating it. This includes the time it takes for the preStop hook to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#termination_grace_period_seconds Workload#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#termination_grace_period_seconds Workload#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
 }
@@ -11562,7 +11562,7 @@ export interface WorkloadSecurityOptions {
   /**
   * The group id assigned to any mounted volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#file_system_group_id Workload#file_system_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#file_system_group_id Workload#file_system_group_id}
   */
   readonly fileSystemGroupId?: number;
 }
@@ -11678,7 +11678,7 @@ export class WorkloadSecurityOptionsList extends cdktf.ComplexList {
 }
 export interface WorkloadSidecar {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#envoy Workload#envoy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#envoy Workload#envoy}
   */
   readonly envoy: string;
 }
@@ -11791,7 +11791,7 @@ export class WorkloadSidecarList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload cpln_workload}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload cpln_workload}
 */
 export class Workload extends cdktf.TerraformResource {
 
@@ -11807,7 +11807,7 @@ export class Workload extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Workload resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Workload to import
-  * @param importFromId The id of the existing Workload that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Workload that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Workload to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11819,7 +11819,7 @@ export class Workload extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/workload cpln_workload} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/workload cpln_workload} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11830,8 +11830,8 @@ export class Workload extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_workload',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.15',
-        providerVersionConstraint: '1.2.15'
+        providerVersion: '1.2.16',
+        providerVersionConstraint: '1.2.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

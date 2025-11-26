@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_address_family_profile_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_address_family_profile_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,44 +10,44 @@ export interface DataScmBgpAddressFamilyProfileListConfig extends cdktf.Terrafor
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_address_family_profile_list#device DataScmBgpAddressFamilyProfileList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_address_family_profile_list#device DataScmBgpAddressFamilyProfileList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_address_family_profile_list#folder DataScmBgpAddressFamilyProfileList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_address_family_profile_list#folder DataScmBgpAddressFamilyProfileList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_address_family_profile_list#limit DataScmBgpAddressFamilyProfileList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_address_family_profile_list#limit DataScmBgpAddressFamilyProfileList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_address_family_profile_list#name DataScmBgpAddressFamilyProfileList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_address_family_profile_list#name DataScmBgpAddressFamilyProfileList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_address_family_profile_list#offset DataScmBgpAddressFamilyProfileList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_address_family_profile_list#offset DataScmBgpAddressFamilyProfileList#offset}
   */
   readonly offset?: number;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_address_family_profile_list#snippet DataScmBgpAddressFamilyProfileList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_address_family_profile_list#snippet DataScmBgpAddressFamilyProfileList#snippet}
   */
   readonly snippet?: string;
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPath {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastAddPath {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPathToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPath): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastAddPathToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastAddPath): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -57,7 +57,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPathTo
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPathToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPath): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastAddPathToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastAddPath): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -67,7 +67,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPathTo
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPathOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastAddPathOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -78,13 +78,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPathOutpu
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPath | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastAddPath | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPath | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastAddPath | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -103,10 +103,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPathOutpu
     return this.getBooleanAttribute('tx_bestpath_per_as');
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOrigin {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInOrigin {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOriginToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOrigin): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInOriginToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInOrigin): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -116,7 +116,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasIn
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOriginToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOrigin): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInOriginToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInOrigin): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -126,7 +126,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasIn
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOriginOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInOriginOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -137,13 +137,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOri
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOrigin | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInOrigin | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOrigin | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInOrigin | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -152,10 +152,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOri
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasIn {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasIn {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasIn): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasIn): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -165,7 +165,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasIn
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasIn): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasIn): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -175,7 +175,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasIn
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -186,13 +186,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOut
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasIn | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasIn | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasIn | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasIn | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -207,15 +207,15 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOut
   }
 
   // origin - computed: true, optional: false, required: false
-  private _origin = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOriginOutputReference(this, "origin");
+  private _origin = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInOriginOutputReference(this, "origin");
   public get origin() {
     return this._origin;
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionRestart {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionRestart {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionRestartToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionRestart): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionRestartToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionRestart): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -225,7 +225,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPr
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionRestartToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionRestart): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionRestartToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionRestart): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -235,7 +235,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPr
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionRestartOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionRestartOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -246,13 +246,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefi
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionRestart | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionRestart | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionRestart | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionRestart | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -266,10 +266,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefi
     return this.getNumberAttribute('interval');
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionWarningOnly {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionWarningOnly {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionWarningOnlyToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionWarningOnly): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionWarningOnlyToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionWarningOnly): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -279,7 +279,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPr
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionWarningOnlyToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionWarningOnly): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionWarningOnlyToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionWarningOnly): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -289,7 +289,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPr
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionWarningOnlyOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionWarningOnlyOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -300,13 +300,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefi
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionWarningOnly | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionWarningOnly | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionWarningOnly | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionWarningOnly | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -315,10 +315,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefi
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixAction {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixAction {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixAction): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixAction): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -328,7 +328,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPr
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixAction): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixAction): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -338,7 +338,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPr
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -349,13 +349,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefi
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixAction | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixAction | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixAction | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixAction | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -365,21 +365,21 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefi
   }
 
   // restart - computed: true, optional: false, required: false
-  private _restart = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionRestartOutputReference(this, "restart");
+  private _restart = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionRestartOutputReference(this, "restart");
   public get restart() {
     return this._restart;
   }
 
   // warning_only - computed: true, optional: false, required: false
-  private _warningOnly = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionWarningOnlyOutputReference(this, "warning_only");
+  private _warningOnly = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionWarningOnlyOutputReference(this, "warning_only");
   public get warningOnly() {
     return this._warningOnly;
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefix {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefix {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefix): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefix): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -389,7 +389,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPr
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefix): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefix): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -399,7 +399,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPr
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -410,13 +410,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefi
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefix | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefix | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefix | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefix | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -426,7 +426,7 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefi
   }
 
   // action - computed: true, optional: false, required: false
-  private _action = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixActionOutputReference(this, "action");
+  private _action = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixActionOutputReference(this, "action");
   public get action() {
     return this._action;
   }
@@ -441,10 +441,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefi
     return this.getNumberAttribute('threshold');
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelf {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelf {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelf): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelf): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -454,7 +454,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSe
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelf): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelf): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -464,7 +464,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSe
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -475,13 +475,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfO
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelf | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelf | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelf | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelf | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -490,10 +490,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfO
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfForce {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfForce {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfForceToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfForce): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfForceToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfForce): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -503,7 +503,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSe
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfForceToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfForce): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfForceToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfForce): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -513,7 +513,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSe
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfForceOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfForceOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -524,13 +524,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfF
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfForce | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfForce | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfForce | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfForce | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -539,10 +539,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfF
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHop {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHop {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHop): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHop): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -552,7 +552,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopTo
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHop): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHop): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -562,7 +562,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopTo
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -573,13 +573,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopOutpu
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHop | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHop | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHop | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHop | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -589,21 +589,21 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopOutpu
   }
 
   // self - computed: true, optional: false, required: false
-  private _self = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfOutputReference(this, "self");
+  private _self = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfOutputReference(this, "self");
   public get selfAttribute() {
     return this._self;
   }
 
   // self_force - computed: true, optional: false, required: false
-  private _selfForce = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopSelfForceOutputReference(this, "self_force");
+  private _selfForce = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopSelfForceOutputReference(this, "self_force");
   public get selfForce() {
     return this._selfForce;
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrf {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastOrf {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrfToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrf): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastOrfToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastOrf): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -613,7 +613,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrfToTerr
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrfToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrf): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastOrfToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastOrf): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -623,7 +623,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrfToHclT
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrfOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastOrfOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -634,13 +634,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrfOutputRef
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrf | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastOrf | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrf | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastOrf | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -654,10 +654,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrfOutputRef
     return this.getStringAttribute('orf_prefix_list');
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsAll {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsAll {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsAllToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsAll): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsAllToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsAll): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -667,7 +667,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePri
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsAllToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsAll): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsAllToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsAll): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -677,7 +677,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePri
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsAllOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsAllOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -688,13 +688,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivat
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsAll | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsAll | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsAll | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsAll | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -703,10 +703,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivat
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsReplaceAs {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsReplaceAs {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsReplaceAsToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsReplaceAs): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsReplaceAsToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsReplaceAs): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -716,7 +716,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePri
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsReplaceAsToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsReplaceAs): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsReplaceAsToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsReplaceAs): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -726,7 +726,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePri
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsReplaceAsOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsReplaceAsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -737,13 +737,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivat
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsReplaceAs | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsReplaceAs | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsReplaceAs | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsReplaceAs | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -752,10 +752,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivat
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAs {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAs {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAs): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAs): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -765,7 +765,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePri
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAs): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAs): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -775,7 +775,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePri
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -786,13 +786,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivat
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAs | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAs | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAs | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAs | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -802,21 +802,21 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivat
   }
 
   // all - computed: true, optional: false, required: false
-  private _all = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsAllOutputReference(this, "all");
+  private _all = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsAllOutputReference(this, "all");
   public get all() {
     return this._all;
   }
 
   // replace_as - computed: true, optional: false, required: false
-  private _replaceAs = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsReplaceAsOutputReference(this, "replace_as");
+  private _replaceAs = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsReplaceAsOutputReference(this, "replace_as");
   public get replaceAs() {
     return this._replaceAs;
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityAll {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityAll {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityAllToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityAll): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityAllToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityAll): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -826,7 +826,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommu
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityAllToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityAll): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityAllToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityAll): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -836,7 +836,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommu
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityAllOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityAllOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -847,13 +847,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunit
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityAll | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityAll | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityAll | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityAll | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -862,10 +862,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunit
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityBoth {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityBoth {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityBothToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityBoth): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityBothToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityBoth): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -875,7 +875,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommu
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityBothToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityBoth): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityBothToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityBoth): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -885,7 +885,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommu
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityBothOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityBothOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -896,13 +896,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunit
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityBoth | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityBoth | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityBoth | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityBoth | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -911,10 +911,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunit
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityExtended {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityExtended {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityExtendedToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityExtended): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityExtendedToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityExtended): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -924,7 +924,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommu
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityExtendedToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityExtended): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityExtendedToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityExtended): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -934,7 +934,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommu
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityExtendedOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityExtendedOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -945,13 +945,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunit
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityExtended | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityExtended | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityExtended | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityExtended | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -960,10 +960,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunit
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityLarge {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityLarge {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityLargeToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityLarge): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityLargeToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityLarge): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -973,7 +973,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommu
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityLargeToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityLarge): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityLargeToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityLarge): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -983,7 +983,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommu
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityLargeOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityLargeOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -994,13 +994,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunit
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityLarge | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityLarge | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityLarge | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityLarge | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1009,10 +1009,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunit
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityStandard {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityStandard {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityStandardToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityStandard): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityStandardToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityStandard): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1022,7 +1022,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommu
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityStandardToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityStandard): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityStandardToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityStandard): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1032,7 +1032,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommu
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityStandardOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityStandardOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1043,13 +1043,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunit
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityStandard | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityStandard | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityStandard | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityStandard | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1058,10 +1058,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunit
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunity {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunity {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunity): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunity): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1071,7 +1071,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommu
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunity): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunity): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1081,7 +1081,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommu
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1092,13 +1092,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunit
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunity | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunity | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunity | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunity | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1108,39 +1108,39 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunit
   }
 
   // all - computed: true, optional: false, required: false
-  private _all = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityAllOutputReference(this, "all");
+  private _all = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityAllOutputReference(this, "all");
   public get all() {
     return this._all;
   }
 
   // both - computed: true, optional: false, required: false
-  private _both = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityBothOutputReference(this, "both");
+  private _both = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityBothOutputReference(this, "both");
   public get both() {
     return this._both;
   }
 
   // extended - computed: true, optional: false, required: false
-  private _extended = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityExtendedOutputReference(this, "extended");
+  private _extended = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityExtendedOutputReference(this, "extended");
   public get extended() {
     return this._extended;
   }
 
   // large - computed: true, optional: false, required: false
-  private _large = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityLargeOutputReference(this, "large");
+  private _large = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityLargeOutputReference(this, "large");
   public get large() {
     return this._large;
   }
 
   // standard - computed: true, optional: false, required: false
-  private _standard = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityStandardOutputReference(this, "standard");
+  private _standard = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityStandardOutputReference(this, "standard");
   public get standard() {
     return this._standard;
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4Multicast {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4Multicast {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4Multicast): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Multicast): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1150,7 +1150,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastToTerrafo
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4Multicast): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4MulticastToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Multicast): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1160,7 +1160,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastToHclTerr
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4MulticastOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1171,13 +1171,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOutputRefere
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4Multicast | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Multicast | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4Multicast | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Multicast | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1187,13 +1187,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOutputRefere
   }
 
   // add_path - computed: true, optional: false, required: false
-  private _addPath = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAddPathOutputReference(this, "add_path");
+  private _addPath = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastAddPathOutputReference(this, "add_path");
   public get addPath() {
     return this._addPath;
   }
 
   // allowas_in - computed: true, optional: false, required: false
-  private _allowasIn = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastAllowasInOutputReference(this, "allowas_in");
+  private _allowasIn = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastAllowasInOutputReference(this, "allowas_in");
   public get allowasIn() {
     return this._allowasIn;
   }
@@ -1219,25 +1219,25 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOutputRefere
   }
 
   // maximum_prefix - computed: true, optional: false, required: false
-  private _maximumPrefix = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastMaximumPrefixOutputReference(this, "maximum_prefix");
+  private _maximumPrefix = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastMaximumPrefixOutputReference(this, "maximum_prefix");
   public get maximumPrefix() {
     return this._maximumPrefix;
   }
 
   // next_hop - computed: true, optional: false, required: false
-  private _nextHop = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastNextHopOutputReference(this, "next_hop");
+  private _nextHop = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastNextHopOutputReference(this, "next_hop");
   public get nextHop() {
     return this._nextHop;
   }
 
   // orf - computed: true, optional: false, required: false
-  private _orf = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOrfOutputReference(this, "orf");
+  private _orf = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastOrfOutputReference(this, "orf");
   public get orf() {
     return this._orf;
   }
 
   // remove_private_as - computed: true, optional: false, required: false
-  private _removePrivateAs = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastRemovePrivateAsOutputReference(this, "remove_private_as");
+  private _removePrivateAs = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastRemovePrivateAsOutputReference(this, "remove_private_as");
   public get removePrivateAs() {
     return this._removePrivateAs;
   }
@@ -1248,7 +1248,7 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOutputRefere
   }
 
   // send_community - computed: true, optional: false, required: false
-  private _sendCommunity = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastSendCommunityOutputReference(this, "send_community");
+  private _sendCommunity = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastSendCommunityOutputReference(this, "send_community");
   public get sendCommunity() {
     return this._sendCommunity;
   }
@@ -1258,10 +1258,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOutputRefere
     return this.getBooleanAttribute('soft_reconfig_with_stored_info');
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPath {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastAddPath {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPathToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPath): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastAddPathToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastAddPath): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1271,7 +1271,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPathToTe
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPathToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPath): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastAddPathToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastAddPath): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1281,7 +1281,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPathToHc
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPathOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastAddPathOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1292,13 +1292,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPathOutputR
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPath | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastAddPath | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPath | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastAddPath | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1317,10 +1317,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPathOutputR
     return this.getBooleanAttribute('tx_bestpath_per_as');
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOrigin {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInOrigin {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOriginToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOrigin): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInOriginToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInOrigin): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1330,7 +1330,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOr
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOriginToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOrigin): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInOriginToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInOrigin): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1340,7 +1340,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOr
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOriginOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInOriginOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1351,13 +1351,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOrigi
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOrigin | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInOrigin | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOrigin | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInOrigin | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1366,10 +1366,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOrigi
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasIn {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasIn {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasIn): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasIn): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1379,7 +1379,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInTo
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasIn): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasIn): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1389,7 +1389,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInTo
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1400,13 +1400,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOutpu
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasIn | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasIn | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasIn | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasIn | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1421,15 +1421,15 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOutpu
   }
 
   // origin - computed: true, optional: false, required: false
-  private _origin = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOriginOutputReference(this, "origin");
+  private _origin = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInOriginOutputReference(this, "origin");
   public get origin() {
     return this._origin;
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionRestart {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionRestart {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionRestartToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionRestart): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionRestartToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionRestart): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1439,7 +1439,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPref
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionRestartToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionRestart): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionRestartToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionRestart): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1449,7 +1449,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPref
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionRestartOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionRestartOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1460,13 +1460,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixA
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionRestart | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionRestart | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionRestart | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionRestart | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1480,10 +1480,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixA
     return this.getNumberAttribute('interval');
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionWarningOnly {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionWarningOnly {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionWarningOnlyToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionWarningOnly): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionWarningOnlyToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionWarningOnly): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1493,7 +1493,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPref
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionWarningOnlyToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionWarningOnly): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionWarningOnlyToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionWarningOnly): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1503,7 +1503,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPref
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionWarningOnlyOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionWarningOnlyOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1514,13 +1514,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixA
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionWarningOnly | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionWarningOnly | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionWarningOnly | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionWarningOnly | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1529,10 +1529,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixA
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixAction {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixAction {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixAction): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixAction): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1542,7 +1542,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPref
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixAction): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixAction): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1552,7 +1552,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPref
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1563,13 +1563,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixA
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixAction | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixAction | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixAction | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixAction | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1579,21 +1579,21 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixA
   }
 
   // restart - computed: true, optional: false, required: false
-  private _restart = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionRestartOutputReference(this, "restart");
+  private _restart = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionRestartOutputReference(this, "restart");
   public get restart() {
     return this._restart;
   }
 
   // warning_only - computed: true, optional: false, required: false
-  private _warningOnly = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionWarningOnlyOutputReference(this, "warning_only");
+  private _warningOnly = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionWarningOnlyOutputReference(this, "warning_only");
   public get warningOnly() {
     return this._warningOnly;
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefix {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefix {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefix): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefix): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1603,7 +1603,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPref
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefix): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefix): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1613,7 +1613,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPref
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1624,13 +1624,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixO
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefix | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefix | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefix | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefix | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1640,7 +1640,7 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixO
   }
 
   // action - computed: true, optional: false, required: false
-  private _action = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixActionOutputReference(this, "action");
+  private _action = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixActionOutputReference(this, "action");
   public get action() {
     return this._action;
   }
@@ -1655,10 +1655,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixO
     return this.getNumberAttribute('threshold');
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelf {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelf {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelf): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelf): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1668,7 +1668,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelf
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelf): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelf): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1678,7 +1678,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelf
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1689,13 +1689,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfOut
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelf | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelf | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelf | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelf | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1704,10 +1704,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfOut
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfForce {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfForce {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfForceToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfForce): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfForceToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfForce): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1717,7 +1717,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelf
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfForceToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfForce): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfForceToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfForce): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1727,7 +1727,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelf
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfForceOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfForceOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1738,13 +1738,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfFor
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfForce | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfForce | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfForce | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfForce | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1753,10 +1753,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfFor
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHop {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHop {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHop): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHop): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1766,7 +1766,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopToTe
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHop): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHop): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1776,7 +1776,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopToHc
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1787,13 +1787,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopOutputR
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHop | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHop | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHop | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHop | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1803,21 +1803,21 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopOutputR
   }
 
   // self - computed: true, optional: false, required: false
-  private _self = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfOutputReference(this, "self");
+  private _self = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfOutputReference(this, "self");
   public get selfAttribute() {
     return this._self;
   }
 
   // self_force - computed: true, optional: false, required: false
-  private _selfForce = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopSelfForceOutputReference(this, "self_force");
+  private _selfForce = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopSelfForceOutputReference(this, "self_force");
   public get selfForce() {
     return this._selfForce;
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrf {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastOrf {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrfToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrf): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastOrfToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastOrf): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1827,7 +1827,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrfToTerraf
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrfToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrf): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastOrfToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastOrf): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1837,7 +1837,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrfToHclTer
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrfOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastOrfOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1848,13 +1848,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrfOutputRefer
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrf | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastOrf | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrf | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastOrf | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1868,10 +1868,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrfOutputRefer
     return this.getStringAttribute('orf_prefix_list');
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsAll {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsAll {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsAllToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsAll): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsAllToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsAll): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1881,7 +1881,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePriva
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsAllToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsAll): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsAllToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsAll): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1891,7 +1891,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePriva
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsAllOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsAllOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1902,13 +1902,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateA
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsAll | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsAll | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsAll | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsAll | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1917,10 +1917,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateA
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsReplaceAs {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsReplaceAs {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsReplaceAsToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsReplaceAs): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsReplaceAsToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsReplaceAs): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1930,7 +1930,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePriva
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsReplaceAsToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsReplaceAs): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsReplaceAsToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsReplaceAs): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1940,7 +1940,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePriva
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsReplaceAsOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsReplaceAsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1951,13 +1951,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateA
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsReplaceAs | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsReplaceAs | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsReplaceAs | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsReplaceAs | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1966,10 +1966,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateA
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAs {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAs {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAs): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAs): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1979,7 +1979,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePriva
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAs): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAs): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1989,7 +1989,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePriva
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2000,13 +2000,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateA
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAs | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAs | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAs | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAs | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2016,21 +2016,21 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateA
   }
 
   // all - computed: true, optional: false, required: false
-  private _all = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsAllOutputReference(this, "all");
+  private _all = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsAllOutputReference(this, "all");
   public get all() {
     return this._all;
   }
 
   // replace_as - computed: true, optional: false, required: false
-  private _replaceAs = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsReplaceAsOutputReference(this, "replace_as");
+  private _replaceAs = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsReplaceAsOutputReference(this, "replace_as");
   public get replaceAs() {
     return this._replaceAs;
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityAll {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityAll {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityAllToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityAll): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityAllToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityAll): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2040,7 +2040,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommuni
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityAllToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityAll): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityAllToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityAll): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2050,7 +2050,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommuni
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityAllOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityAllOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2061,13 +2061,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityA
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityAll | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityAll | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityAll | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityAll | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2076,10 +2076,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityA
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityBoth {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityBoth {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityBothToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityBoth): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityBothToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityBoth): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2089,7 +2089,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommuni
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityBothToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityBoth): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityBothToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityBoth): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2099,7 +2099,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommuni
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityBothOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityBothOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2110,13 +2110,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityB
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityBoth | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityBoth | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityBoth | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityBoth | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2125,10 +2125,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityB
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityExtended {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityExtended {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityExtendedToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityExtended): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityExtendedToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityExtended): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2138,7 +2138,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommuni
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityExtendedToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityExtended): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityExtendedToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityExtended): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2148,7 +2148,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommuni
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityExtendedOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityExtendedOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2159,13 +2159,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityE
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityExtended | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityExtended | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityExtended | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityExtended | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2174,10 +2174,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityE
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityLarge {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityLarge {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityLargeToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityLarge): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityLargeToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityLarge): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2187,7 +2187,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommuni
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityLargeToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityLarge): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityLargeToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityLarge): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2197,7 +2197,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommuni
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityLargeOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityLargeOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2208,13 +2208,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityL
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityLarge | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityLarge | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityLarge | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityLarge | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2223,10 +2223,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityL
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityStandard {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityStandard {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityStandardToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityStandard): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityStandardToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityStandard): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2236,7 +2236,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommuni
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityStandardToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityStandard): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityStandardToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityStandard): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2246,7 +2246,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommuni
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityStandardOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityStandardOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2257,13 +2257,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityS
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityStandard | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityStandard | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityStandard | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityStandard | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2272,10 +2272,10 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityS
     }
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunity {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunity {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunity): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunity): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2285,7 +2285,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommuni
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunity): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunity): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2295,7 +2295,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommuni
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2306,13 +2306,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityO
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunity | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunity | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunity | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunity | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2322,39 +2322,39 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityO
   }
 
   // all - computed: true, optional: false, required: false
-  private _all = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityAllOutputReference(this, "all");
+  private _all = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityAllOutputReference(this, "all");
   public get all() {
     return this._all;
   }
 
   // both - computed: true, optional: false, required: false
-  private _both = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityBothOutputReference(this, "both");
+  private _both = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityBothOutputReference(this, "both");
   public get both() {
     return this._both;
   }
 
   // extended - computed: true, optional: false, required: false
-  private _extended = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityExtendedOutputReference(this, "extended");
+  private _extended = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityExtendedOutputReference(this, "extended");
   public get extended() {
     return this._extended;
   }
 
   // large - computed: true, optional: false, required: false
-  private _large = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityLargeOutputReference(this, "large");
+  private _large = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityLargeOutputReference(this, "large");
   public get large() {
     return this._large;
   }
 
   // standard - computed: true, optional: false, required: false
-  private _standard = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityStandardOutputReference(this, "standard");
+  private _standard = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityStandardOutputReference(this, "standard");
   public get standard() {
     return this._standard;
   }
 }
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4Unicast {
+export interface DataScmBgpAddressFamilyProfileListDataIpv4Unicast {
 }
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4Unicast): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Unicast): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2364,7 +2364,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastToTerraform
 }
 
 
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4Unicast): any {
+export function dataScmBgpAddressFamilyProfileListDataIpv4UnicastToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Unicast): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2374,7 +2374,7 @@ export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastToHclTerraf
   return attrs;
 }
 
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpAddressFamilyProfileListDataIpv4UnicastOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2385,13 +2385,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOutputReferenc
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4Unicast | undefined {
+  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Unicast | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4Unicast | undefined) {
+  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Unicast | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2401,13 +2401,13 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOutputReferenc
   }
 
   // add_path - computed: true, optional: false, required: false
-  private _addPath = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAddPathOutputReference(this, "add_path");
+  private _addPath = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastAddPathOutputReference(this, "add_path");
   public get addPath() {
     return this._addPath;
   }
 
   // allowas_in - computed: true, optional: false, required: false
-  private _allowasIn = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastAllowasInOutputReference(this, "allowas_in");
+  private _allowasIn = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastAllowasInOutputReference(this, "allowas_in");
   public get allowasIn() {
     return this._allowasIn;
   }
@@ -2433,25 +2433,25 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOutputReferenc
   }
 
   // maximum_prefix - computed: true, optional: false, required: false
-  private _maximumPrefix = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastMaximumPrefixOutputReference(this, "maximum_prefix");
+  private _maximumPrefix = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastMaximumPrefixOutputReference(this, "maximum_prefix");
   public get maximumPrefix() {
     return this._maximumPrefix;
   }
 
   // next_hop - computed: true, optional: false, required: false
-  private _nextHop = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastNextHopOutputReference(this, "next_hop");
+  private _nextHop = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastNextHopOutputReference(this, "next_hop");
   public get nextHop() {
     return this._nextHop;
   }
 
   // orf - computed: true, optional: false, required: false
-  private _orf = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOrfOutputReference(this, "orf");
+  private _orf = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastOrfOutputReference(this, "orf");
   public get orf() {
     return this._orf;
   }
 
   // remove_private_as - computed: true, optional: false, required: false
-  private _removePrivateAs = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastRemovePrivateAsOutputReference(this, "remove_private_as");
+  private _removePrivateAs = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastRemovePrivateAsOutputReference(this, "remove_private_as");
   public get removePrivateAs() {
     return this._removePrivateAs;
   }
@@ -2462,7 +2462,7 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOutputReferenc
   }
 
   // send_community - computed: true, optional: false, required: false
-  private _sendCommunity = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastSendCommunityOutputReference(this, "send_community");
+  private _sendCommunity = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastSendCommunityOutputReference(this, "send_community");
   public get sendCommunity() {
     return this._sendCommunity;
   }
@@ -2470,67 +2470,6 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOutputReferenc
   // soft_reconfig_with_stored_info - computed: true, optional: false, required: false
   public get softReconfigWithStoredInfo() {
     return this.getBooleanAttribute('soft_reconfig_with_stored_info');
-  }
-}
-export interface DataScmBgpAddressFamilyProfileListDataIpv4Ipv4 {
-}
-
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4ToTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataScmBgpAddressFamilyProfileListDataIpv4Ipv4ToHclTerraform(struct?: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataScmBgpAddressFamilyProfileListDataIpv4Ipv4OutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataScmBgpAddressFamilyProfileListDataIpv4Ipv4 | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataScmBgpAddressFamilyProfileListDataIpv4Ipv4 | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // multicast - computed: true, optional: false, required: false
-  private _multicast = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4MulticastOutputReference(this, "multicast");
-  public get multicast() {
-    return this._multicast;
-  }
-
-  // unicast - computed: true, optional: false, required: false
-  private _unicast = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4UnicastOutputReference(this, "unicast");
-  public get unicast() {
-    return this._unicast;
   }
 }
 export interface DataScmBgpAddressFamilyProfileListDataIpv4 {
@@ -2582,17 +2521,23 @@ export class DataScmBgpAddressFamilyProfileListDataIpv4OutputReference extends c
     }
   }
 
-  // ipv4 - computed: true, optional: false, required: false
-  private _ipv4 = new DataScmBgpAddressFamilyProfileListDataIpv4Ipv4OutputReference(this, "ipv4");
-  public get ipv4() {
-    return this._ipv4;
+  // multicast - computed: true, optional: false, required: false
+  private _multicast = new DataScmBgpAddressFamilyProfileListDataIpv4MulticastOutputReference(this, "multicast");
+  public get multicast() {
+    return this._multicast;
+  }
+
+  // unicast - computed: true, optional: false, required: false
+  private _unicast = new DataScmBgpAddressFamilyProfileListDataIpv4UnicastOutputReference(this, "unicast");
+  public get unicast() {
+    return this._unicast;
   }
 }
 export interface DataScmBgpAddressFamilyProfileListData {
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_address_family_profile_list#id DataScmBgpAddressFamilyProfileList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_address_family_profile_list#id DataScmBgpAddressFamilyProfileList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2601,7 +2546,7 @@ export interface DataScmBgpAddressFamilyProfileListData {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_address_family_profile_list#name DataScmBgpAddressFamilyProfileList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_address_family_profile_list#name DataScmBgpAddressFamilyProfileList#name}
   */
   readonly name?: string;
 }
@@ -2759,7 +2704,7 @@ export class DataScmBgpAddressFamilyProfileListDataList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_address_family_profile_list scm_bgp_address_family_profile_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_address_family_profile_list scm_bgp_address_family_profile_list}
 */
 export class DataScmBgpAddressFamilyProfileList extends cdktf.TerraformDataSource {
 
@@ -2775,7 +2720,7 @@ export class DataScmBgpAddressFamilyProfileList extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataScmBgpAddressFamilyProfileList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmBgpAddressFamilyProfileList to import
-  * @param importFromId The id of the existing DataScmBgpAddressFamilyProfileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_address_family_profile_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmBgpAddressFamilyProfileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_address_family_profile_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmBgpAddressFamilyProfileList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2787,7 +2732,7 @@ export class DataScmBgpAddressFamilyProfileList extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_address_family_profile_list scm_bgp_address_family_profile_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_address_family_profile_list scm_bgp_address_family_profile_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2798,8 +2743,8 @@ export class DataScmBgpAddressFamilyProfileList extends cdktf.TerraformDataSourc
       terraformResourceType: 'scm_bgp_address_family_profile_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

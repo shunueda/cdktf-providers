@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface CloudAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the Cloud Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account#description CloudAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account#description CloudAccount#description}
   */
   readonly description?: string;
   /**
   * Name of the Cloud Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account#name CloudAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account#name CloudAccount#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account#tags CloudAccount#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account#tags CloudAccount#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account#aws CloudAccount#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account#aws CloudAccount#aws}
   */
   readonly aws?: CloudAccountAws[] | cdktf.IResolvable;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account#azure CloudAccount#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account#azure CloudAccount#azure}
   */
   readonly azure?: CloudAccountAzure[] | cdktf.IResolvable;
   /**
   * gcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account#gcp CloudAccount#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account#gcp CloudAccount#gcp}
   */
   readonly gcp?: CloudAccountGcp[] | cdktf.IResolvable;
   /**
   * ngs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account#ngs CloudAccount#ngs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account#ngs CloudAccount#ngs}
   */
   readonly ngs?: CloudAccountNgs[] | cdktf.IResolvable;
 }
@@ -54,7 +54,7 @@ export interface CloudAccountAws {
   /**
   * Amazon Resource Name (ARN) Role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account#role_arn CloudAccount#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account#role_arn CloudAccount#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -172,7 +172,7 @@ export interface CloudAccountAzure {
   /**
   * Full link to an Azure secret. (e.g., /org/ORG_NAME/secret/AZURE_SECRET).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account#secret_link CloudAccount#secret_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account#secret_link CloudAccount#secret_link}
   */
   readonly secretLink?: string;
 }
@@ -290,7 +290,7 @@ export interface CloudAccountGcp {
   /**
   * GCP project ID. Obtained from the GCP cloud console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account#project_id CloudAccount#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account#project_id CloudAccount#project_id}
   */
   readonly projectId?: string;
 }
@@ -408,7 +408,7 @@ export interface CloudAccountNgs {
   /**
   * Full link to a NATS Account Secret secret. (e.g., /org/ORG_NAME/secret/NATS_ACCOUNT_SECRET).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account#secret_link CloudAccount#secret_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account#secret_link CloudAccount#secret_link}
   */
   readonly secretLink?: string;
 }
@@ -524,7 +524,7 @@ export class CloudAccountNgsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account cpln_cloud_account}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account cpln_cloud_account}
 */
 export class CloudAccount extends cdktf.TerraformResource {
 
@@ -540,7 +540,7 @@ export class CloudAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudAccount to import
-  * @param importFromId The id of the existing CloudAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +552,7 @@ export class CloudAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/cloud_account cpln_cloud_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/cloud_account cpln_cloud_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +563,8 @@ export class CloudAccount extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_cloud_account',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.15',
-        providerVersionConstraint: '1.2.15'
+        providerVersion: '1.2.16',
+        providerVersionConstraint: '1.2.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

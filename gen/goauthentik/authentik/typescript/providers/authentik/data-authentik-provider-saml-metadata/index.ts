@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_saml_metadata
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_saml_metadata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAuthentikProviderSamlMetadataConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_saml_metadata#id DataAuthentikProviderSamlMetadata#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_saml_metadata#id DataAuthentikProviderSamlMetadata#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataAuthentikProviderSamlMetadataConfig extends cdktf.Terraform
   /**
   * Find provider by name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_saml_metadata#name DataAuthentikProviderSamlMetadata#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_saml_metadata#name DataAuthentikProviderSamlMetadata#name}
   */
   readonly name?: string;
   /**
   * Find provider by ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_saml_metadata#provider_id DataAuthentikProviderSamlMetadata#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_saml_metadata#provider_id DataAuthentikProviderSamlMetadata#provider_id}
   */
   readonly providerId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_saml_metadata authentik_provider_saml_metadata}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_saml_metadata authentik_provider_saml_metadata}
 */
 export class DataAuthentikProviderSamlMetadata extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataAuthentikProviderSamlMetadata extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataAuthentikProviderSamlMetadata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuthentikProviderSamlMetadata to import
-  * @param importFromId The id of the existing DataAuthentikProviderSamlMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_saml_metadata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuthentikProviderSamlMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_saml_metadata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuthentikProviderSamlMetadata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataAuthentikProviderSamlMetadata extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_saml_metadata authentik_provider_saml_metadata} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_saml_metadata authentik_provider_saml_metadata} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataAuthentikProviderSamlMetadata extends cdktf.TerraformDataSource
       terraformResourceType: 'authentik_provider_saml_metadata',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

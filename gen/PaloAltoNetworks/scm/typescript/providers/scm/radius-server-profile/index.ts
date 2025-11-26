@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,50 +9,56 @@ import * as cdktf from 'cdktf';
 export interface RadiusServerProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#device RadiusServerProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#device RadiusServerProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#folder RadiusServerProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#folder RadiusServerProfile#folder}
   */
   readonly folder?: string;
   /**
   * The name of the RADIUS server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#name RadiusServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#name RadiusServerProfile#name}
   */
   readonly name: string;
   /**
   * The RADIUS authentication protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#protocol RadiusServerProfile#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#protocol RadiusServerProfile#protocol}
   */
   readonly protocol: RadiusServerProfileProtocol;
   /**
   * The number of RADIUS server retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#retries RadiusServerProfile#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#retries RadiusServerProfile#retries}
   */
   readonly retries?: number;
   /**
   * Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#server RadiusServerProfile#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#server RadiusServerProfile#server}
   */
   readonly server: RadiusServerProfileServer[] | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#snippet RadiusServerProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#snippet RadiusServerProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * The RADIUS server authentication timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#timeout RadiusServerProfile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#timeout RadiusServerProfile#timeout}
   */
   readonly timeout?: number;
 }
@@ -119,13 +125,13 @@ export interface RadiusServerProfileProtocolEapTtlsWithPap {
   /**
   * Anon outer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#anon_outer_id RadiusServerProfile#anon_outer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#anon_outer_id RadiusServerProfile#anon_outer_id}
   */
   readonly anonOuterId?: boolean | cdktf.IResolvable;
   /**
   * Radius cert profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#radius_cert_profile RadiusServerProfile#radius_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#radius_cert_profile RadiusServerProfile#radius_cert_profile}
   */
   readonly radiusCertProfile?: string;
 }
@@ -309,19 +315,19 @@ export interface RadiusServerProfileProtocolPeapMschaPv2 {
   /**
   * Allow pwd change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#allow_pwd_change RadiusServerProfile#allow_pwd_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#allow_pwd_change RadiusServerProfile#allow_pwd_change}
   */
   readonly allowPwdChange?: boolean | cdktf.IResolvable;
   /**
   * Anon outer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#anon_outer_id RadiusServerProfile#anon_outer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#anon_outer_id RadiusServerProfile#anon_outer_id}
   */
   readonly anonOuterId?: boolean | cdktf.IResolvable;
   /**
   * Radius cert profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#radius_cert_profile RadiusServerProfile#radius_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#radius_cert_profile RadiusServerProfile#radius_cert_profile}
   */
   readonly radiusCertProfile?: string;
 }
@@ -475,13 +481,13 @@ export interface RadiusServerProfileProtocolPeapWithGtc {
   /**
   * Anon outer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#anon_outer_id RadiusServerProfile#anon_outer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#anon_outer_id RadiusServerProfile#anon_outer_id}
   */
   readonly anonOuterId?: boolean | cdktf.IResolvable;
   /**
   * Radius cert profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#radius_cert_profile RadiusServerProfile#radius_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#radius_cert_profile RadiusServerProfile#radius_cert_profile}
   */
   readonly radiusCertProfile?: string;
 }
@@ -606,31 +612,31 @@ export interface RadiusServerProfileProtocol {
   /**
   * C h a p
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#chap RadiusServerProfile#chap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#chap RadiusServerProfile#chap}
   */
   readonly chap?: RadiusServerProfileProtocolChap;
   /**
   * E a p t t l s with p a p
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#eap_ttls_with_pap RadiusServerProfile#eap_ttls_with_pap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#eap_ttls_with_pap RadiusServerProfile#eap_ttls_with_pap}
   */
   readonly eapTtlsWithPap?: RadiusServerProfileProtocolEapTtlsWithPap;
   /**
   * P a p
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#pap RadiusServerProfile#pap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#pap RadiusServerProfile#pap}
   */
   readonly pap?: RadiusServerProfileProtocolPap;
   /**
   * P e a p m s c h a pv2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#peap_mscha_pv2 RadiusServerProfile#peap_mscha_pv2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#peap_mscha_pv2 RadiusServerProfile#peap_mscha_pv2}
   */
   readonly peapMschaPv2?: RadiusServerProfileProtocolPeapMschaPv2;
   /**
   * P e a p with g t c
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#peap_with_gtc RadiusServerProfile#peap_with_gtc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#peap_with_gtc RadiusServerProfile#peap_with_gtc}
   */
   readonly peapWithGtc?: RadiusServerProfileProtocolPeapWithGtc;
 }
@@ -842,25 +848,25 @@ export interface RadiusServerProfileServer {
   /**
   * The IP address of the RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#ip_address RadiusServerProfile#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#ip_address RadiusServerProfile#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * The name of the RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#name RadiusServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#name RadiusServerProfile#name}
   */
   readonly name?: string;
   /**
   * The RADIUS server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#port RadiusServerProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#port RadiusServerProfile#port}
   */
   readonly port?: number;
   /**
   * The RADIUS secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#secret RadiusServerProfile#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#secret RadiusServerProfile#secret}
   */
   readonly secret?: string;
 }
@@ -1063,7 +1069,7 @@ export class RadiusServerProfileServerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile scm_radius_server_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile scm_radius_server_profile}
 */
 export class RadiusServerProfile extends cdktf.TerraformResource {
 
@@ -1079,7 +1085,7 @@ export class RadiusServerProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RadiusServerProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RadiusServerProfile to import
-  * @param importFromId The id of the existing RadiusServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RadiusServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RadiusServerProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1091,7 +1097,7 @@ export class RadiusServerProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile scm_radius_server_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/radius_server_profile scm_radius_server_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1102,8 +1108,8 @@ export class RadiusServerProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_radius_server_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

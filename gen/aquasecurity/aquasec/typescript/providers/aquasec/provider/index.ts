@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface AquasecProviderConfig {
   /**
   * API methods the token has access to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#allowed_endpoints AquasecProvider#allowed_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#allowed_endpoints AquasecProvider#allowed_endpoints}
   */
   readonly allowedEndpoints?: string[];
   /**
   * API key for authentication. If set, API key mode is used instead of token-based auth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#aqua_api_key AquasecProvider#aqua_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#aqua_api_key AquasecProvider#aqua_api_key}
   */
   readonly aquaApiKey?: string;
   /**
   * Shared secret for API key HMAC signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#aqua_api_secret AquasecProvider#aqua_api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#aqua_api_secret AquasecProvider#aqua_api_secret}
   */
   readonly aquaApiSecret?: string;
   /**
   * This is the base URL of your Aqua instance. Can alternatively be sourced from the `AQUA_URL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#aqua_url AquasecProvider#aqua_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#aqua_url AquasecProvider#aqua_url}
   */
   readonly aquaUrl?: string;
   /**
   * This is the file path for server CA certificates if they are not available on the host OS. Can alternatively be sourced from the `AQUA_CA_CERT_PATH` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#ca_certificate_path AquasecProvider#ca_certificate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#ca_certificate_path AquasecProvider#ca_certificate_path}
   */
   readonly caCertificatePath?: string;
   /**
   * This is the file path for Aqua provider configuration. The default configuration path is `~/.aquasec/tf.config`. Can alternatively be sourced from the `AQUA_CONFIG` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#config_path AquasecProvider#config_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#config_path AquasecProvider#config_path}
   */
   readonly configPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#csp_roles AquasecProvider#csp_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#csp_roles AquasecProvider#csp_roles}
   */
   readonly cspRoles?: string[];
   /**
   * This is the password that should be used to make the connection. Can alternatively be sourced from the `AQUA_PASSWORD` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#password AquasecProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#password AquasecProvider#password}
   */
   readonly password?: string;
   /**
   * This is the user id that should be used to make the connection. Can alternatively be sourced from the `AQUA_USER` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#username AquasecProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#username AquasecProvider#username}
   */
   readonly username?: string;
   /**
   * Skip provider credential validation when set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#validate AquasecProvider#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#validate AquasecProvider#validate}
   */
   readonly validate?: boolean | cdktf.IResolvable;
   /**
   * Lifetime of the token, in minutes. Set between 1 and 1500. Once the token expires, need to generate a new one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#validity AquasecProvider#validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#validity AquasecProvider#validity}
   */
   readonly validity?: number;
   /**
   * If true, server tls certificates will be verified by the client before making a connection. Defaults to true. Can alternatively be sourced from the `AQUA_TLS_VERIFY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#verify_tls AquasecProvider#verify_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#verify_tls AquasecProvider#verify_tls}
   */
   readonly verifyTls?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#alias AquasecProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#alias AquasecProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs aquasec}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs aquasec}
 */
 export class AquasecProvider extends cdktf.TerraformProvider {
 
@@ -102,7 +102,7 @@ export class AquasecProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AquasecProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AquasecProvider to import
-  * @param importFromId The id of the existing AquasecProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AquasecProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AquasecProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -114,7 +114,7 @@ export class AquasecProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs aquasec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs aquasec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -125,8 +125,8 @@ export class AquasecProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'aquasec',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       terraformProviderSource: 'aquasecurity/aquasec'
     });

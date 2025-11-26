@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,73 @@ export interface QosPolicyRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#action QosPolicyRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#action QosPolicyRule#action}
   */
   readonly action: QosPolicyRuleAction;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#description QosPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#description QosPolicyRule#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#device QosPolicyRule#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#device QosPolicyRule#device}
   */
   readonly device?: string;
   /**
   * Dscp tos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#dscp_tos QosPolicyRule#dscp_tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#dscp_tos QosPolicyRule#dscp_tos}
   */
   readonly dscpTos?: QosPolicyRuleDscpTos;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#folder QosPolicyRule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#folder QosPolicyRule#folder}
   */
   readonly folder?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#name QosPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#name QosPolicyRule#name}
   */
   readonly name: string;
   /**
   * The relative position of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#position QosPolicyRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#position QosPolicyRule#position}
   */
   readonly position?: string;
   /**
   * Relative positioning rule. String must be one of these: `"before"`, `"after"`, `"top"`, `"bottom"`. If not specified, rule is created at the bottom of the ruleset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#relative_position QosPolicyRule#relative_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#relative_position QosPolicyRule#relative_position}
   */
   readonly relativePosition?: string;
   /**
   * Schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#schedule QosPolicyRule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#schedule QosPolicyRule#schedule}
   */
   readonly schedule?: string;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#snippet QosPolicyRule#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#snippet QosPolicyRule#snippet}
   */
   readonly snippet?: string;
   /**
   * The name or UUID of the rule to position this rule relative to. Required when `relative_position` is `"before"` or `"after"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#target_rule QosPolicyRule#target_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#target_rule QosPolicyRule#target_rule}
   */
   readonly targetRule?: string;
 }
@@ -78,7 +84,7 @@ export interface QosPolicyRuleAction {
   /**
   * Class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#class QosPolicyRule#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#class QosPolicyRule#class}
   */
   readonly class?: string;
 }
@@ -174,7 +180,7 @@ export interface QosPolicyRuleDscpTosCodepointsTypeAf {
   /**
   * Codepoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#codepoint QosPolicyRule#codepoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#codepoint QosPolicyRule#codepoint}
   */
   readonly codepoint?: string;
 }
@@ -270,7 +276,7 @@ export interface QosPolicyRuleDscpTosCodepointsTypeCs {
   /**
   * Codepoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#codepoint QosPolicyRule#codepoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#codepoint QosPolicyRule#codepoint}
   */
   readonly codepoint?: string;
 }
@@ -366,13 +372,13 @@ export interface QosPolicyRuleDscpTosCodepointsTypeCustomCodepoint {
   /**
   * Binary value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#binary_value QosPolicyRule#binary_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#binary_value QosPolicyRule#binary_value}
   */
   readonly binaryValue?: string;
   /**
   * Codepoint name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#codepoint_name QosPolicyRule#codepoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#codepoint_name QosPolicyRule#codepoint_name}
   */
   readonly codepointName?: string;
 }
@@ -497,7 +503,7 @@ export interface QosPolicyRuleDscpTosCodepointsTypeCustom {
   /**
   * Codepoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#codepoint QosPolicyRule#codepoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#codepoint QosPolicyRule#codepoint}
   */
   readonly codepoint?: QosPolicyRuleDscpTosCodepointsTypeCustomCodepoint;
 }
@@ -652,7 +658,7 @@ export interface QosPolicyRuleDscpTosCodepointsTypeTos {
   /**
   * Codepoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#codepoint QosPolicyRule#codepoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#codepoint QosPolicyRule#codepoint}
   */
   readonly codepoint?: string;
 }
@@ -747,32 +753,42 @@ export class QosPolicyRuleDscpTosCodepointsTypeTosOutputReference extends cdktf.
 export interface QosPolicyRuleDscpTosCodepointsType {
   /**
   * Af
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `af`, `cs`, `custom`, `ef`, and `tos`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#af QosPolicyRule#af}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#af QosPolicyRule#af}
   */
   readonly af?: QosPolicyRuleDscpTosCodepointsTypeAf;
   /**
   * Cs
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `af`, `cs`, `custom`, `ef`, and `tos`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#cs QosPolicyRule#cs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#cs QosPolicyRule#cs}
   */
   readonly cs?: QosPolicyRuleDscpTosCodepointsTypeCs;
   /**
   * Custom
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `af`, `cs`, `custom`, `ef`, and `tos`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#custom QosPolicyRule#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#custom QosPolicyRule#custom}
   */
   readonly custom?: QosPolicyRuleDscpTosCodepointsTypeCustom;
   /**
   * Ef
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `af`, `cs`, `custom`, `ef`, and `tos`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#ef QosPolicyRule#ef}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#ef QosPolicyRule#ef}
   */
   readonly ef?: QosPolicyRuleDscpTosCodepointsTypeEf;
   /**
   * Tos
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `af`, `cs`, `custom`, `ef`, and `tos`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#tos QosPolicyRule#tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#tos QosPolicyRule#tos}
   */
   readonly tos?: QosPolicyRuleDscpTosCodepointsTypeTos;
 }
@@ -984,13 +1000,13 @@ export interface QosPolicyRuleDscpTosCodepoints {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#name QosPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#name QosPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#type QosPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#type QosPolicyRule#type}
   */
   readonly type?: QosPolicyRuleDscpTosCodepointsType;
 }
@@ -1137,7 +1153,7 @@ export interface QosPolicyRuleDscpTos {
   /**
   * Codepoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#codepoints QosPolicyRule#codepoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#codepoints QosPolicyRule#codepoints}
   */
   readonly codepoints?: QosPolicyRuleDscpTosCodepoints[] | cdktf.IResolvable;
 }
@@ -1231,7 +1247,7 @@ export class QosPolicyRuleDscpTosOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule scm_qos_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule scm_qos_policy_rule}
 */
 export class QosPolicyRule extends cdktf.TerraformResource {
 
@@ -1247,7 +1263,7 @@ export class QosPolicyRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QosPolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QosPolicyRule to import
-  * @param importFromId The id of the existing QosPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QosPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QosPolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1259,7 +1275,7 @@ export class QosPolicyRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/qos_policy_rule scm_qos_policy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_policy_rule scm_qos_policy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1270,8 +1286,8 @@ export class QosPolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'scm_qos_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

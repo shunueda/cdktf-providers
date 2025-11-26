@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration
+// https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface BucketLifecycleConfigurationConfig extends cdktf.TerraformMetaA
   /**
   * The name of the bucket for which to configure the lifecycle policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#bucket BucketLifecycleConfiguration#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#bucket BucketLifecycleConfiguration#bucket}
   */
   readonly bucket: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#rule BucketLifecycleConfiguration#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#rule BucketLifecycleConfiguration#rule}
   */
   readonly rule?: BucketLifecycleConfigurationRule[] | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface BucketLifecycleConfigurationRuleExpiration {
   /**
   * The date of the expiration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#date BucketLifecycleConfiguration#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#date BucketLifecycleConfiguration#date}
   */
   readonly date?: string;
   /**
   * The number of days until expiration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#days BucketLifecycleConfiguration#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#days BucketLifecycleConfiguration#days}
   */
   readonly days?: number;
 }
@@ -155,13 +155,13 @@ export interface BucketLifecycleConfigurationRuleFilterTag {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#key BucketLifecycleConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#key BucketLifecycleConfiguration#key}
   */
   readonly key: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#value BucketLifecycleConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#value BucketLifecycleConfiguration#value}
   */
   readonly value: string;
 }
@@ -280,25 +280,25 @@ export interface BucketLifecycleConfigurationRuleFilterAnd {
   /**
   * The minimum object size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#object_size_larger_than BucketLifecycleConfiguration#object_size_larger_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#object_size_larger_than BucketLifecycleConfiguration#object_size_larger_than}
   */
   readonly objectSizeLargerThan?: number;
   /**
   * The maximum object size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#object_size_less_than BucketLifecycleConfiguration#object_size_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#object_size_less_than BucketLifecycleConfiguration#object_size_less_than}
   */
   readonly objectSizeLessThan?: number;
   /**
   * The prefix of the object key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#prefix BucketLifecycleConfiguration#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#prefix BucketLifecycleConfiguration#prefix}
   */
   readonly prefix?: string;
   /**
   * The tags of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#tags BucketLifecycleConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#tags BucketLifecycleConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -481,31 +481,31 @@ export interface BucketLifecycleConfigurationRuleFilter {
   /**
   * The minimum object size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#object_size_larger_than BucketLifecycleConfiguration#object_size_larger_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#object_size_larger_than BucketLifecycleConfiguration#object_size_larger_than}
   */
   readonly objectSizeLargerThan?: number;
   /**
   * The maximum object size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#object_size_less_than BucketLifecycleConfiguration#object_size_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#object_size_less_than BucketLifecycleConfiguration#object_size_less_than}
   */
   readonly objectSizeLessThan?: number;
   /**
   * The prefix of the object key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#prefix BucketLifecycleConfiguration#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#prefix BucketLifecycleConfiguration#prefix}
   */
   readonly prefix?: string;
   /**
   * The tag of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#tag BucketLifecycleConfiguration#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#tag BucketLifecycleConfiguration#tag}
   */
   readonly tag?: BucketLifecycleConfigurationRuleFilterTag;
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#and BucketLifecycleConfiguration#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#and BucketLifecycleConfiguration#and}
   */
   readonly and?: BucketLifecycleConfigurationRuleFilterAnd;
 }
@@ -717,13 +717,13 @@ export interface BucketLifecycleConfigurationRuleNoncurrentVersionExpiration {
   /**
   * The number of newer noncurrent versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#newer_noncurrent_versions BucketLifecycleConfiguration#newer_noncurrent_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#newer_noncurrent_versions BucketLifecycleConfiguration#newer_noncurrent_versions}
   */
   readonly newerNoncurrentVersions?: number;
   /**
   * The number of days until expiration of the noncurrent versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#noncurrent_days BucketLifecycleConfiguration#noncurrent_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#noncurrent_days BucketLifecycleConfiguration#noncurrent_days}
   */
   readonly noncurrentDays?: number;
 }
@@ -848,7 +848,7 @@ export interface BucketLifecycleConfigurationRule {
   /**
   * The identifier of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#id BucketLifecycleConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#id BucketLifecycleConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -857,25 +857,25 @@ export interface BucketLifecycleConfigurationRule {
   /**
   * The status of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#status BucketLifecycleConfiguration#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#status BucketLifecycleConfiguration#status}
   */
   readonly status?: string;
   /**
   * expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#expiration BucketLifecycleConfiguration#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#expiration BucketLifecycleConfiguration#expiration}
   */
   readonly expiration?: BucketLifecycleConfigurationRuleExpiration;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#filter BucketLifecycleConfiguration#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#filter BucketLifecycleConfiguration#filter}
   */
   readonly filter?: BucketLifecycleConfigurationRuleFilter;
   /**
   * noncurrent_version_expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#noncurrent_version_expiration BucketLifecycleConfiguration#noncurrent_version_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#noncurrent_version_expiration BucketLifecycleConfiguration#noncurrent_version_expiration}
   */
   readonly noncurrentVersionExpiration?: BucketLifecycleConfigurationRuleNoncurrentVersionExpiration;
 }
@@ -1104,7 +1104,7 @@ export class BucketLifecycleConfigurationRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration objsto_bucket_lifecycle_configuration}
+* Represents a {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration objsto_bucket_lifecycle_configuration}
 */
 export class BucketLifecycleConfiguration extends cdktf.TerraformResource {
 
@@ -1120,7 +1120,7 @@ export class BucketLifecycleConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BucketLifecycleConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BucketLifecycleConfiguration to import
-  * @param importFromId The id of the existing BucketLifecycleConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BucketLifecycleConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BucketLifecycleConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1132,7 +1132,7 @@ export class BucketLifecycleConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_lifecycle_configuration objsto_bucket_lifecycle_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_lifecycle_configuration objsto_bucket_lifecycle_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1143,8 +1143,8 @@ export class BucketLifecycleConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'objsto_bucket_lifecycle_configuration',
       terraformGeneratorMetadata: {
         providerName: 'objsto',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

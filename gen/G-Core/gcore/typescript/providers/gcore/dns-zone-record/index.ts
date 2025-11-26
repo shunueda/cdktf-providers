@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record
+// https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DnsZoneRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * A domain of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#domain DnsZoneRecord#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#domain DnsZoneRecord#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#id DnsZoneRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#id DnsZoneRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface DnsZoneRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * A ttl of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#ttl DnsZoneRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#ttl DnsZoneRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * A type of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#type DnsZoneRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#type DnsZoneRecord#type}
   */
   readonly type: string;
   /**
   * A zone of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#zone DnsZoneRecord#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#zone DnsZoneRecord#zone}
   */
   readonly zone: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#filter DnsZoneRecord#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#filter DnsZoneRecord#filter}
   */
   readonly filter?: DnsZoneRecordFilter[] | cdktf.IResolvable;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#meta DnsZoneRecord#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#meta DnsZoneRecord#meta}
   */
   readonly meta?: DnsZoneRecordMeta[] | cdktf.IResolvable;
   /**
   * resource_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#resource_record DnsZoneRecord#resource_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#resource_record DnsZoneRecord#resource_record}
   */
   readonly resourceRecord: DnsZoneRecordResourceRecord[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#timeouts DnsZoneRecord#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#timeouts DnsZoneRecord#timeouts}
   */
   readonly timeouts?: DnsZoneRecordTimeouts;
 }
@@ -67,19 +67,19 @@ export interface DnsZoneRecordFilter {
   /**
   * A DNS Zone Record filter option that describe how many records will be percolated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#limit DnsZoneRecord#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#limit DnsZoneRecord#limit}
   */
   readonly limit?: number;
   /**
   * A DNS Zone Record filter option that describe possibility to return answers if no records were percolated through filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#strict DnsZoneRecord#strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#strict DnsZoneRecord#strict}
   */
   readonly strict?: boolean | cdktf.IResolvable;
   /**
   * A DNS Zone Record filter option that describe a name of filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#type DnsZoneRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#type DnsZoneRecord#type}
   */
   readonly type: string;
 }
@@ -252,67 +252,67 @@ export interface DnsZoneRecordMetaHealthchecks {
   /**
   * Command to send if protocol=TCP/UDP, maximum length: 255.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#command DnsZoneRecord#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#command DnsZoneRecord#command}
   */
   readonly command?: string;
   /**
   * Frequency in seconds (10-3600).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#frequency DnsZoneRecord#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#frequency DnsZoneRecord#frequency}
   */
   readonly frequency: number;
   /**
   * Request host/virtualhost to send if protocol=HTTP, must be empty for non-HTTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#host DnsZoneRecord#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#host DnsZoneRecord#host}
   */
   readonly host?: string;
   /**
   * Expected status code if protocol=HTTP, must be empty for non-HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#http_status_code DnsZoneRecord#http_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#http_status_code DnsZoneRecord#http_status_code}
   */
   readonly httpStatusCode?: number;
   /**
   * HTTP Method required if protocol=HTTP, must be empty for non-HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#method DnsZoneRecord#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#method DnsZoneRecord#method}
   */
   readonly method?: string;
   /**
   * Port to check (1-65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#port DnsZoneRecord#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#port DnsZoneRecord#port}
   */
   readonly port?: number;
   /**
   * Protocol, possible value: HTTP, TCP, UDP, ICMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#protocol DnsZoneRecord#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#protocol DnsZoneRecord#protocol}
   */
   readonly protocol: string;
   /**
   * HTTP body or response payload to check if protocol<>ICMP, must be empty for ICMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#regexp DnsZoneRecord#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#regexp DnsZoneRecord#regexp}
   */
   readonly regexp?: string;
   /**
   * Timeout in seconds (1-10).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#timeout DnsZoneRecord#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#timeout DnsZoneRecord#timeout}
   */
   readonly timeout: number;
   /**
   * TLS/HTTPS enabled if protocol=HTTP, must be empty for non-HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#tls DnsZoneRecord#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#tls DnsZoneRecord#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
   * URL path to check required if protocol=HTTP, must be empty for non-HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#url DnsZoneRecord#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#url DnsZoneRecord#url}
   */
   readonly url?: string;
 }
@@ -711,19 +711,19 @@ export interface DnsZoneRecordMeta {
   /**
   * Cidr mapping rule name of DNS Zone RRSet resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#cidr_mapping DnsZoneRecord#cidr_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#cidr_mapping DnsZoneRecord#cidr_mapping}
   */
   readonly cidrMapping?: string;
   /**
   * Geodns link (domain, or cl-) of DNS Zone RRSet resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#geodns_link DnsZoneRecord#geodns_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#geodns_link DnsZoneRecord#geodns_link}
   */
   readonly geodnsLink?: string;
   /**
   * healthchecks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#healthchecks DnsZoneRecord#healthchecks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#healthchecks DnsZoneRecord#healthchecks}
   */
   readonly healthchecks?: DnsZoneRecordMetaHealthchecks[] | cdktf.IResolvable;
 }
@@ -899,73 +899,73 @@ export interface DnsZoneRecordResourceRecordMeta {
   /**
   * An asn meta (eg. 12345) of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#asn DnsZoneRecord#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#asn DnsZoneRecord#asn}
   */
   readonly asn?: number[];
   /**
   * Set as backup record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#backup DnsZoneRecord#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#backup DnsZoneRecord#backup}
   */
   readonly backup?: boolean | cdktf.IResolvable;
   /**
   * A map of CIDR tags for this record, where key is tag name and value is tag value. Example: {"tag_name_1": 10, "tag_name_2": 50}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#cidr_labels DnsZoneRecord#cidr_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#cidr_labels DnsZoneRecord#cidr_labels}
   */
   readonly cidrLabels?: { [key: string]: string };
   /**
   * Continents meta (eg. Asia) of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#continents DnsZoneRecord#continents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#continents DnsZoneRecord#continents}
   */
   readonly continents?: string[];
   /**
   * Countries ISO codes meta (eg. us) of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#countries DnsZoneRecord#countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#countries DnsZoneRecord#countries}
   */
   readonly countries?: string[];
   /**
   * Fallback meta equals true marks records which are used as a default answer (when nothing was selected by specified meta fields).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#default DnsZoneRecord#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#default DnsZoneRecord#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Computed UUID of failover healtcheck property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#failover DnsZoneRecord#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#failover DnsZoneRecord#failover}
   */
   readonly failover?: { [key: string]: string };
   /**
   * Set as fallback record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#fallback DnsZoneRecord#fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#fallback DnsZoneRecord#fallback}
   */
   readonly fallback?: boolean | cdktf.IResolvable;
   /**
   * An ip meta (eg. 127.0.0.0) of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#ip DnsZoneRecord#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#ip DnsZoneRecord#ip}
   */
   readonly ip?: string[];
   /**
   * A latlong meta (eg. 27.988056, 86.925278) of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#latlong DnsZoneRecord#latlong}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#latlong DnsZoneRecord#latlong}
   */
   readonly latlong?: number[];
   /**
   * A notes meta (eg. Miami DC) of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#notes DnsZoneRecord#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#notes DnsZoneRecord#notes}
   */
   readonly notes?: string;
   /**
   * A weight for this record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#weight DnsZoneRecord#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#weight DnsZoneRecord#weight}
   */
   readonly weight?: number;
 }
@@ -1370,19 +1370,19 @@ export interface DnsZoneRecordResourceRecord {
   /**
   * A content of DNS Zone Record resource. (TXT: 'anyString', MX: '50 mail.company.io.', CAA: '0 issue "company.org; account=12345"')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#content DnsZoneRecord#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#content DnsZoneRecord#content}
   */
   readonly content: string;
   /**
   * Manage of public appearing of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#enabled DnsZoneRecord#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#enabled DnsZoneRecord#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#meta DnsZoneRecord#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#meta DnsZoneRecord#meta}
   */
   readonly meta?: DnsZoneRecordResourceRecordMeta;
 }
@@ -1553,11 +1553,11 @@ export class DnsZoneRecordResourceRecordList extends cdktf.ComplexList {
 }
 export interface DnsZoneRecordTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#create DnsZoneRecord#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#create DnsZoneRecord#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#delete DnsZoneRecord#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#delete DnsZoneRecord#delete}
   */
   readonly delete?: string;
 }
@@ -1680,7 +1680,7 @@ export class DnsZoneRecordTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record gcore_dns_zone_record}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record gcore_dns_zone_record}
 */
 export class DnsZoneRecord extends cdktf.TerraformResource {
 
@@ -1696,7 +1696,7 @@ export class DnsZoneRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsZoneRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsZoneRecord to import
-  * @param importFromId The id of the existing DnsZoneRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsZoneRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsZoneRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1708,7 +1708,7 @@ export class DnsZoneRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/dns_zone_record gcore_dns_zone_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/dns_zone_record gcore_dns_zone_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1719,8 +1719,8 @@ export class DnsZoneRecord extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_dns_zone_record',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.0',
-        providerVersionConstraint: '0.32.0'
+        providerVersion: '0.32.1',
+        providerVersionConstraint: '0.32.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

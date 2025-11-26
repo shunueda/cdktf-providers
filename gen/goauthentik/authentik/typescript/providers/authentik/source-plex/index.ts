@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SourcePlexConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#allow_friends SourcePlex#allow_friends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#allow_friends SourcePlex#allow_friends}
   */
   readonly allowFriends?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#allowed_servers SourcePlex#allowed_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#allowed_servers SourcePlex#allowed_servers}
   */
   readonly allowedServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#authentication_flow SourcePlex#authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#authentication_flow SourcePlex#authentication_flow}
   */
   readonly authenticationFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#client_id SourcePlex#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#client_id SourcePlex#client_id}
   */
   readonly clientId: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#enabled SourcePlex#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#enabled SourcePlex#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#enrollment_flow SourcePlex#enrollment_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#enrollment_flow SourcePlex#enrollment_flow}
   */
   readonly enrollmentFlow?: string;
   /**
@@ -42,22 +42,22 @@ export interface SourcePlexConfig extends cdktf.TerraformMetaArguments {
   *   - `name_deny`
   *  Defaults to `identifier`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#group_matching_mode SourcePlex#group_matching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#group_matching_mode SourcePlex#group_matching_mode}
   */
   readonly groupMatchingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#id SourcePlex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#id SourcePlex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#name SourcePlex#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#name SourcePlex#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#plex_token SourcePlex#plex_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#plex_token SourcePlex#plex_token}
   */
   readonly plexToken: string;
   /**
@@ -66,11 +66,11 @@ export interface SourcePlexConfig extends cdktf.TerraformMetaArguments {
   *   - `any`
   *  Defaults to `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#policy_engine_mode SourcePlex#policy_engine_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#policy_engine_mode SourcePlex#policy_engine_mode}
   */
   readonly policyEngineMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#slug SourcePlex#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#slug SourcePlex#slug}
   */
   readonly slug: string;
   /**
@@ -82,25 +82,25 @@ export interface SourcePlexConfig extends cdktf.TerraformMetaArguments {
   *   - `username_deny`
   *  Defaults to `identifier`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#user_matching_mode SourcePlex#user_matching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#user_matching_mode SourcePlex#user_matching_mode}
   */
   readonly userMatchingMode?: string;
   /**
   * Defaults to `goauthentik.io/sources/%(slug)s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#user_path_template SourcePlex#user_path_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#user_path_template SourcePlex#user_path_template}
   */
   readonly userPathTemplate?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#uuid SourcePlex#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#uuid SourcePlex#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex authentik_source_plex}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex authentik_source_plex}
 */
 export class SourcePlex extends cdktf.TerraformResource {
 
@@ -116,7 +116,7 @@ export class SourcePlex extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourcePlex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourcePlex to import
-  * @param importFromId The id of the existing SourcePlex that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourcePlex that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourcePlex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class SourcePlex extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_plex authentik_source_plex} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_plex authentik_source_plex} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,8 +139,8 @@ export class SourcePlex extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_source_plex',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

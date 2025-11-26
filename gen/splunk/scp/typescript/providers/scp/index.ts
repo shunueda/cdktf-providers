@@ -3,8 +3,11 @@ export * as hecTokens from './hec-tokens';
 export * as indexes from './indexes';
 export * as ipAllowlists from './ip-allowlists';
 export * as ipV6Allowlists from './ip-v6-allowlists';
+export * as privateApp from './private-app';
 export * as roles from './roles';
+export * as splunkbaseApp from './splunkbase-app';
 export * as users from './users';
+export * as dataScpAppValidation from './data-scp-app-validation';
 export * as dataScpIndexes from './data-scp-indexes';
 export * as provider from './provider';
 

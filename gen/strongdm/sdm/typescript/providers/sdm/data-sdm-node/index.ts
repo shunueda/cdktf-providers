@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/node
+// https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataSdmNodeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/node#bind_address DataSdmNode#bind_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/node#bind_address DataSdmNode#bind_address}
   */
   readonly bindAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/node#id DataSdmNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/node#id DataSdmNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/node#listen_address DataSdmNode#listen_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/node#listen_address DataSdmNode#listen_address}
   */
   readonly listenAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/node#name DataSdmNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/node#name DataSdmNode#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/node#tags DataSdmNode#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/node#tags DataSdmNode#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/node#type DataSdmNode#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/node#type DataSdmNode#type}
   */
   readonly type?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/node#timeouts DataSdmNode#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/node#timeouts DataSdmNode#timeouts}
   */
   readonly timeouts?: DataSdmNodeTimeouts;
 }
@@ -702,7 +702,7 @@ export class DataSdmNodeNodesList extends cdktf.ComplexList {
 }
 export interface DataSdmNodeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/node#default DataSdmNode#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/node#default DataSdmNode#default}
   */
   readonly default?: string;
 }
@@ -796,7 +796,7 @@ export class DataSdmNodeTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/node sdm_node}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/node sdm_node}
 */
 export class DataSdmNode extends cdktf.TerraformDataSource {
 
@@ -812,7 +812,7 @@ export class DataSdmNode extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmNode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmNode to import
-  * @param importFromId The id of the existing DataSdmNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -824,7 +824,7 @@ export class DataSdmNode extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/node sdm_node} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/node sdm_node} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -835,8 +835,8 @@ export class DataSdmNode extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_node',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.33.0',
-        providerVersionConstraint: '15.33.0'
+        providerVersion: '15.35.0',
+        providerVersionConstraint: '15.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

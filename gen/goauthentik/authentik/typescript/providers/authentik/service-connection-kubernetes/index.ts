@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_kubernetes
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_kubernetes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceConnectionKubernetesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_kubernetes#id ServiceConnectionKubernetes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_kubernetes#id ServiceConnectionKubernetes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface ServiceConnectionKubernetesConfig extends cdktf.TerraformMetaAr
   /**
   * JSON format expected. Use `jsonencode()` to pass objects. Defaults to `{}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_kubernetes#kubeconfig ServiceConnectionKubernetes#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_kubernetes#kubeconfig ServiceConnectionKubernetes#kubeconfig}
   */
   readonly kubeconfig?: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_kubernetes#local ServiceConnectionKubernetes#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_kubernetes#local ServiceConnectionKubernetes#local}
   */
   readonly local?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_kubernetes#name ServiceConnectionKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_kubernetes#name ServiceConnectionKubernetes#name}
   */
   readonly name: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_kubernetes#verify_ssl ServiceConnectionKubernetes#verify_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_kubernetes#verify_ssl ServiceConnectionKubernetes#verify_ssl}
   */
   readonly verifySsl?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_kubernetes authentik_service_connection_kubernetes}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_kubernetes authentik_service_connection_kubernetes}
 */
 export class ServiceConnectionKubernetes extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class ServiceConnectionKubernetes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceConnectionKubernetes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceConnectionKubernetes to import
-  * @param importFromId The id of the existing ServiceConnectionKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_kubernetes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceConnectionKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_kubernetes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceConnectionKubernetes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class ServiceConnectionKubernetes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_kubernetes authentik_service_connection_kubernetes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_kubernetes authentik_service_connection_kubernetes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class ServiceConnectionKubernetes extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_service_connection_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

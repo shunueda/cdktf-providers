@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_user_write
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_user_write
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,22 +10,22 @@ export interface StageUserWriteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_user_write#create_users_as_inactive StageUserWrite#create_users_as_inactive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_user_write#create_users_as_inactive StageUserWrite#create_users_as_inactive}
   */
   readonly createUsersAsInactive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_user_write#create_users_group StageUserWrite#create_users_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_user_write#create_users_group StageUserWrite#create_users_group}
   */
   readonly createUsersGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_user_write#id StageUserWrite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_user_write#id StageUserWrite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_user_write#name StageUserWrite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_user_write#name StageUserWrite#name}
   */
   readonly name: string;
   /**
@@ -35,13 +35,13 @@ export interface StageUserWriteConfig extends cdktf.TerraformMetaArguments {
   *   - `always_create`
   *  Defaults to `create_when_required`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_user_write#user_creation_mode StageUserWrite#user_creation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_user_write#user_creation_mode StageUserWrite#user_creation_mode}
   */
   readonly userCreationMode?: string;
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_user_write#user_path_template StageUserWrite#user_path_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_user_write#user_path_template StageUserWrite#user_path_template}
   */
   readonly userPathTemplate?: string;
   /**
@@ -51,13 +51,13 @@ export interface StageUserWriteConfig extends cdktf.TerraformMetaArguments {
   *   - `service_account`
   *  Defaults to `external`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_user_write#user_type StageUserWrite#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_user_write#user_type StageUserWrite#user_type}
   */
   readonly userType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_user_write authentik_stage_user_write}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_user_write authentik_stage_user_write}
 */
 export class StageUserWrite extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class StageUserWrite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StageUserWrite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StageUserWrite to import
-  * @param importFromId The id of the existing StageUserWrite that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_user_write#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StageUserWrite that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_user_write#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StageUserWrite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class StageUserWrite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_user_write authentik_stage_user_write} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_user_write authentik_stage_user_write} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class StageUserWrite extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_stage_user_write',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

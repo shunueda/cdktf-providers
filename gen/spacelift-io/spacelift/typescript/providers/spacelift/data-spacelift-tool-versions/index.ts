@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/tool_versions
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/tool_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSpaceliftToolVersionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/tool_versions#id DataSpaceliftToolVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/tool_versions#id DataSpaceliftToolVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataSpaceliftToolVersionsConfig extends cdktf.TerraformMetaArgu
   /**
   * The tool to get a list of supported versions for. This can be one of `KUBECTL`, `OPEN_TOFU`, `TERRAFORM_FOSS`, or `TERRAGRUNT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/tool_versions#tool DataSpaceliftToolVersions#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/tool_versions#tool DataSpaceliftToolVersions#tool}
   */
   readonly tool: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/tool_versions spacelift_tool_versions}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/tool_versions spacelift_tool_versions}
 */
 export class DataSpaceliftToolVersions extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataSpaceliftToolVersions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpaceliftToolVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpaceliftToolVersions to import
-  * @param importFromId The id of the existing DataSpaceliftToolVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/tool_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpaceliftToolVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/tool_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpaceliftToolVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataSpaceliftToolVersions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/tool_versions spacelift_tool_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/tool_versions spacelift_tool_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataSpaceliftToolVersions extends cdktf.TerraformDataSource {
       terraformResourceType: 'spacelift_tool_versions',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.39.0',
-        providerVersionConstraint: '1.39.0'
+        providerVersion: '1.40.0',
+        providerVersionConstraint: '1.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

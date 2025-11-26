@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,170 +10,176 @@ export interface AuthenticationRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The authentication profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#authentication_enforcement AuthenticationRule#authentication_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#authentication_enforcement AuthenticationRule#authentication_enforcement}
   */
   readonly authenticationEnforcement?: string;
   /**
   * The destination URL categories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#category AuthenticationRule#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#category AuthenticationRule#category}
   */
   readonly category?: string[];
   /**
   * The description of the authentication rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#description AuthenticationRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#description AuthenticationRule#description}
   */
   readonly description?: string;
   /**
   * The destination addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#destination AuthenticationRule#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#destination AuthenticationRule#destination}
   */
   readonly destination: string[];
   /**
   * The destination Host Integrity Profile (HIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#destination_hip AuthenticationRule#destination_hip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#destination_hip AuthenticationRule#destination_hip}
   */
   readonly destinationHip?: string[];
   /**
   * Device
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#device AuthenticationRule#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#device AuthenticationRule#device}
   */
   readonly device?: string;
   /**
   * Is the authentication rule disabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#disabled AuthenticationRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#disabled AuthenticationRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Folder
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#folder AuthenticationRule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#folder AuthenticationRule#folder}
   */
   readonly folder?: string;
   /**
   * The source security zones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#from AuthenticationRule#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#from AuthenticationRule#from}
   */
   readonly from: string[];
   /**
   * Group tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#group_tag AuthenticationRule#group_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#group_tag AuthenticationRule#group_tag}
   */
   readonly groupTag?: string;
   /**
   * The source Host Integrity Profile (HIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#hip_profiles AuthenticationRule#hip_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#hip_profiles AuthenticationRule#hip_profiles}
   */
   readonly hipProfiles?: string[];
   /**
   * Log authentication timeouts?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#log_authentication_timeout AuthenticationRule#log_authentication_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#log_authentication_timeout AuthenticationRule#log_authentication_timeout}
   */
   readonly logAuthenticationTimeout?: boolean | cdktf.IResolvable;
   /**
   * The log forwarding profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#log_setting AuthenticationRule#log_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#log_setting AuthenticationRule#log_setting}
   */
   readonly logSetting?: string;
   /**
   * The name of the authentication rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#name AuthenticationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#name AuthenticationRule#name}
   */
   readonly name: string;
   /**
   * Are the destination addresses negated?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#negate_destination AuthenticationRule#negate_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#negate_destination AuthenticationRule#negate_destination}
   */
   readonly negateDestination?: boolean | cdktf.IResolvable;
   /**
   * Are the source addresses negated?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#negate_source AuthenticationRule#negate_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#negate_source AuthenticationRule#negate_source}
   */
   readonly negateSource?: boolean | cdktf.IResolvable;
   /**
   * The relative position of the rule
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#position AuthenticationRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#position AuthenticationRule#position}
   */
   readonly position?: string;
   /**
   * Relative positioning rule. String must be one of these: `"before"`, `"after"`, `"top"`, `"bottom"`. If not specified, rule is created at the bottom of the ruleset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#relative_position AuthenticationRule#relative_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#relative_position AuthenticationRule#relative_position}
   */
   readonly relativePosition?: string;
   /**
   * The destination ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#service AuthenticationRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#service AuthenticationRule#service}
   */
   readonly service: string[];
   /**
   * Snippet
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#snippet AuthenticationRule#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#snippet AuthenticationRule#snippet}
   */
   readonly snippet?: string;
   /**
   * The source addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#source AuthenticationRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#source AuthenticationRule#source}
   */
   readonly source: string[];
   /**
   * The source Host Integrity Profile (HIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#source_hip AuthenticationRule#source_hip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#source_hip AuthenticationRule#source_hip}
   */
   readonly sourceHip?: string[];
   /**
   * The source users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#source_user AuthenticationRule#source_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#source_user AuthenticationRule#source_user}
   */
   readonly sourceUser?: string[];
   /**
   * The authentication rule tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#tag AuthenticationRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#tag AuthenticationRule#tag}
   */
   readonly tag?: string[];
   /**
   * The name or UUID of the rule to position this rule relative to. Required when `relative_position` is `"before"` or `"after"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#target_rule AuthenticationRule#target_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#target_rule AuthenticationRule#target_rule}
   */
   readonly targetRule?: string;
   /**
   * The authentication session timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#timeout AuthenticationRule#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#timeout AuthenticationRule#timeout}
   */
   readonly timeout?: number;
   /**
   * The destination security zones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#to AuthenticationRule#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#to AuthenticationRule#to}
   */
   readonly to: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule scm_authentication_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule scm_authentication_rule}
 */
 export class AuthenticationRule extends cdktf.TerraformResource {
 
@@ -189,7 +195,7 @@ export class AuthenticationRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthenticationRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthenticationRule to import
-  * @param importFromId The id of the existing AuthenticationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthenticationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthenticationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +207,7 @@ export class AuthenticationRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_rule scm_authentication_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_rule scm_authentication_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +218,8 @@ export class AuthenticationRule extends cdktf.TerraformResource {
       terraformResourceType: 'scm_authentication_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource
+// https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface ResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Resource's IP/CIDR or FQDN/DNS zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#address Resource#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#address Resource#address}
   */
   readonly address: string;
   /**
   * Set a DNS alias address for the Resource. Must be a DNS-valid name string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#alias Resource#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#alias Resource#alias}
   */
   readonly alias?: string;
   /**
   * This will set the approval model for the Resource. The valid values are `AUTOMATIC` and `MANUAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#approval_mode Resource#approval_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#approval_mode Resource#approval_mode}
   */
   readonly approvalMode?: string;
   /**
   * Set the resource as active or inactive. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#is_active Resource#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#is_active Resource#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Determines whether assignments in the access block will override any existing assignments. Default is `true`. If set to `false`, assignments made outside of Terraform will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#is_authoritative Resource#is_authoritative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#is_authoritative Resource#is_authoritative}
   */
   readonly isAuthoritative?: boolean | cdktf.IResolvable;
   /**
   * Controls whether an "Open in Browser" shortcut will be shown for this Resource in the Twingate Client. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#is_browser_shortcut_enabled Resource#is_browser_shortcut_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#is_browser_shortcut_enabled Resource#is_browser_shortcut_enabled}
   */
   readonly isBrowserShortcutEnabled?: boolean | cdktf.IResolvable;
   /**
   * Controls whether this Resource will be visible in the main Resource list in the Twingate Client. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#is_visible Resource#is_visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#is_visible Resource#is_visible}
   */
   readonly isVisible?: boolean | cdktf.IResolvable;
   /**
   * The name of the Resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * Restrict access to certain protocols and ports. By default or when this argument is not defined, there is no restriction, and all protocols and ports are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#protocols Resource#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#protocols Resource#protocols}
   */
   readonly protocols?: ResourceProtocols;
   /**
   * Remote Network ID where the Resource lives
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#remote_network_id Resource#remote_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#remote_network_id Resource#remote_network_id}
   */
   readonly remoteNetworkId: string;
   /**
   * The ID of a `twingate_security_policy` to set as this Resource's Security Policy. Default is `Default Policy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#security_policy_id Resource#security_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#security_policy_id Resource#security_policy_id}
   */
   readonly securityPolicyId?: string;
   /**
   * A map of key-value pair tags to set on this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The usage-based auto-lock duration for the Resource (in days).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#usage_based_autolock_duration_days Resource#usage_based_autolock_duration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#usage_based_autolock_duration_days Resource#usage_based_autolock_duration_days}
   */
   readonly usageBasedAutolockDurationDays?: number;
   /**
   * access_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#access_group Resource#access_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#access_group Resource#access_group}
   */
   readonly accessGroup?: ResourceAccessGroup[] | cdktf.IResolvable;
   /**
   * access_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#access_service Resource#access_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#access_service Resource#access_service}
   */
   readonly accessService?: ResourceAccessService[] | cdktf.IResolvable;
 }
@@ -102,13 +102,13 @@ export interface ResourceProtocolsTcp {
   /**
   * Whether to allow or deny all ports, or restrict protocol access within certain port ranges: Can be `RESTRICTED` (only listed ports are allowed), `ALLOW_ALL`, or `DENY_ALL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#policy Resource#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#policy Resource#policy}
   */
   readonly policy?: string;
   /**
   * List of port ranges between 1 and 65535 inclusive, in the format `100-200` for a range, or `8080` for a single port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#ports Resource#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#ports Resource#ports}
   */
   readonly ports?: string[];
 }
@@ -233,13 +233,13 @@ export interface ResourceProtocolsUdp {
   /**
   * Whether to allow or deny all ports, or restrict protocol access within certain port ranges: Can be `RESTRICTED` (only listed ports are allowed), `ALLOW_ALL`, or `DENY_ALL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#policy Resource#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#policy Resource#policy}
   */
   readonly policy?: string;
   /**
   * List of port ranges between 1 and 65535 inclusive, in the format `100-200` for a range, or `8080` for a single port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#ports Resource#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#ports Resource#ports}
   */
   readonly ports?: string[];
 }
@@ -364,15 +364,15 @@ export interface ResourceProtocols {
   /**
   * Whether to allow ICMP (ping) traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#allow_icmp Resource#allow_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#allow_icmp Resource#allow_icmp}
   */
   readonly allowIcmp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#tcp Resource#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#tcp Resource#tcp}
   */
   readonly tcp?: ResourceProtocolsTcp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#udp Resource#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#udp Resource#udp}
   */
   readonly udp?: ResourceProtocolsUdp;
 }
@@ -526,25 +526,25 @@ export interface ResourceAccessGroup {
   /**
   * This will set the approval model on the edge. The valid values are `AUTOMATIC` and `MANUAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#approval_mode Resource#approval_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#approval_mode Resource#approval_mode}
   */
   readonly approvalMode?: string;
   /**
   * Group ID that will have permission to access the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#group_id Resource#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#group_id Resource#group_id}
   */
   readonly groupId?: string;
   /**
   * The ID of a `twingate_security_policy` to use as the access policy for the group IDs in the access block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#security_policy_id Resource#security_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#security_policy_id Resource#security_policy_id}
   */
   readonly securityPolicyId?: string;
   /**
   * The usage-based auto-lock duration configured on the edge (in days).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#usage_based_autolock_duration_days Resource#usage_based_autolock_duration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#usage_based_autolock_duration_days Resource#usage_based_autolock_duration_days}
   */
   readonly usageBasedAutolockDurationDays?: number;
 }
@@ -749,7 +749,7 @@ export interface ResourceAccessService {
   /**
   * The ID of the service account that should have access to this Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#service_account_id Resource#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#service_account_id Resource#service_account_id}
   */
   readonly serviceAccountId?: string;
 }
@@ -865,7 +865,7 @@ export class ResourceAccessServiceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource twingate_resource}
+* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource twingate_resource}
 */
 export class Resource extends cdktf.TerraformResource {
 
@@ -881,7 +881,7 @@ export class Resource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Resource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Resource to import
-  * @param importFromId The id of the existing Resource that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Resource that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Resource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -893,7 +893,7 @@ export class Resource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/resource twingate_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/resource twingate_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -904,8 +904,8 @@ export class Resource extends cdktf.TerraformResource {
       terraformResourceType: 'twingate_resource',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0',
-        providerVersionConstraint: '3.5.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

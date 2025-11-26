@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/rac_endpoint
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/rac_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface RacEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/rac_endpoint#host RacEndpoint#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/rac_endpoint#host RacEndpoint#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/rac_endpoint#id RacEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/rac_endpoint#id RacEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,15 +21,15 @@ export interface RacEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/rac_endpoint#maximum_connections RacEndpoint#maximum_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/rac_endpoint#maximum_connections RacEndpoint#maximum_connections}
   */
   readonly maximumConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/rac_endpoint#name RacEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/rac_endpoint#name RacEndpoint#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/rac_endpoint#property_mappings RacEndpoint#property_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/rac_endpoint#property_mappings RacEndpoint#property_mappings}
   */
   readonly propertyMappings?: string[];
   /**
@@ -38,23 +38,23 @@ export interface RacEndpointConfig extends cdktf.TerraformMetaArguments {
   *   - `vnc`
   *   - `ssh`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/rac_endpoint#protocol RacEndpoint#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/rac_endpoint#protocol RacEndpoint#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/rac_endpoint#protocol_provider RacEndpoint#protocol_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/rac_endpoint#protocol_provider RacEndpoint#protocol_provider}
   */
   readonly protocolProvider: number;
   /**
   * JSON format expected. Use `jsonencode()` to pass objects. Defaults to `{}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/rac_endpoint#settings RacEndpoint#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/rac_endpoint#settings RacEndpoint#settings}
   */
   readonly settings?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/rac_endpoint authentik_rac_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/rac_endpoint authentik_rac_endpoint}
 */
 export class RacEndpoint extends cdktf.TerraformResource {
 
@@ -70,7 +70,7 @@ export class RacEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RacEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RacEndpoint to import
-  * @param importFromId The id of the existing RacEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/rac_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RacEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/rac_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RacEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -82,7 +82,7 @@ export class RacEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/rac_endpoint authentik_rac_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/rac_endpoint authentik_rac_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -93,8 +93,8 @@ export class RacEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_rac_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

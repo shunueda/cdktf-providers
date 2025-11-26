@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/user
+// https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataTwingateUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the User. The ID for the User can be obtained from the Admin API or the URL string in the Admin Console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/user#id DataTwingateUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/user#id DataTwingateUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataTwingateUserConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/user twingate_user}
+* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/user twingate_user}
 */
 export class DataTwingateUser extends cdktf.TerraformDataSource {
 
@@ -35,7 +35,7 @@ export class DataTwingateUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwingateUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwingateUser to import
-  * @param importFromId The id of the existing DataTwingateUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwingateUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwingateUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -47,7 +47,7 @@ export class DataTwingateUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/user twingate_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/user twingate_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -58,8 +58,8 @@ export class DataTwingateUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'twingate_user',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0',
-        providerVersionConstraint: '3.5.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

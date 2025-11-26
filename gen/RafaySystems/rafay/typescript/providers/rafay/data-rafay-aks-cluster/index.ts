@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataRafayAksClusterConfig extends cdktf.TerraformMetaArguments 
   /**
   * apiversion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#apiversion DataRafayAksCluster#apiversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#apiversion DataRafayAksCluster#apiversion}
   */
   readonly apiversion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#id DataRafayAksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#id DataRafayAksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataRafayAksClusterConfig extends cdktf.TerraformMetaArguments 
   /**
   * kind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#kind DataRafayAksCluster#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#kind DataRafayAksCluster#kind}
   */
   readonly kind?: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#metadata DataRafayAksCluster#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#metadata DataRafayAksCluster#metadata}
   */
   readonly metadata: DataRafayAksClusterMetadata[] | cdktf.IResolvable;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#spec DataRafayAksCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#spec DataRafayAksCluster#spec}
   */
   readonly spec?: DataRafayAksClusterSpec[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#timeouts DataRafayAksCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#timeouts DataRafayAksCluster#timeouts}
   */
   readonly timeouts?: DataRafayAksClusterTimeouts;
 }
@@ -49,19 +49,19 @@ export interface DataRafayAksClusterMetadata {
   /**
   * labels for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#labels DataRafayAksCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#labels DataRafayAksCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * AKS Cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
   */
   readonly name: string;
   /**
   * Project for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#project DataRafayAksCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#project DataRafayAksCluster#project}
   */
   readonly project: string;
 }
@@ -231,7 +231,7 @@ export interface DataRafayAksClusterSpecClusterConfigMetadata {
   /**
   * AKS cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
   */
   readonly name: string;
 }
@@ -344,11 +344,11 @@ export class DataRafayAksClusterSpecClusterConfigMetadataList extends cdktf.Comp
 }
 export interface DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#end DataRafayAksCluster#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#end DataRafayAksCluster#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#start DataRafayAksCluster#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#start DataRafayAksCluster#start}
   */
   readonly start?: string;
 }
@@ -493,11 +493,11 @@ export class DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPr
 }
 export interface DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#day_of_month DataRafayAksCluster#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#day_of_month DataRafayAksCluster#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#interval_months DataRafayAksCluster#interval_months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#interval_months DataRafayAksCluster#interval_months}
   */
   readonly intervalMonths?: number;
 }
@@ -642,7 +642,7 @@ export class DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPr
 }
 export interface DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDaily {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#interval_days DataRafayAksCluster#interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#interval_days DataRafayAksCluster#interval_days}
   */
   readonly intervalDays?: number;
 }
@@ -758,15 +758,15 @@ export class DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPr
 }
 export interface DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#day_of_week DataRafayAksCluster#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#day_of_week DataRafayAksCluster#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#interval_months DataRafayAksCluster#interval_months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#interval_months DataRafayAksCluster#interval_months}
   */
   readonly intervalMonths?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#week_index DataRafayAksCluster#week_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#week_index DataRafayAksCluster#week_index}
   */
   readonly weekIndex?: string;
 }
@@ -940,11 +940,11 @@ export class DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPr
 }
 export interface DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeekly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#day_of_week DataRafayAksCluster#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#day_of_week DataRafayAksCluster#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#interval_weeks DataRafayAksCluster#interval_weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#interval_weeks DataRafayAksCluster#interval_weeks}
   */
   readonly intervalWeeks?: number;
 }
@@ -1091,25 +1091,25 @@ export interface DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfiguratio
   /**
   * absolute_monthly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#absolute_monthly DataRafayAksCluster#absolute_monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#absolute_monthly DataRafayAksCluster#absolute_monthly}
   */
   readonly absoluteMonthly?: DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthly[] | cdktf.IResolvable;
   /**
   * daily block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#daily DataRafayAksCluster#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#daily DataRafayAksCluster#daily}
   */
   readonly daily?: DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDaily[] | cdktf.IResolvable;
   /**
   * relative_monthly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#relative_monthly DataRafayAksCluster#relative_monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#relative_monthly DataRafayAksCluster#relative_monthly}
   */
   readonly relativeMonthly?: DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthly[] | cdktf.IResolvable;
   /**
   * weekly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#weekly DataRafayAksCluster#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#weekly DataRafayAksCluster#weekly}
   */
   readonly weekly?: DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeekly[] | cdktf.IResolvable;
 }
@@ -1312,31 +1312,31 @@ export class DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPr
 }
 export interface DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#duration_hours DataRafayAksCluster#duration_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#duration_hours DataRafayAksCluster#duration_hours}
   */
   readonly durationHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#start_date DataRafayAksCluster#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#start_date DataRafayAksCluster#start_date}
   */
   readonly startDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#start_time DataRafayAksCluster#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#start_time DataRafayAksCluster#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#utc_offset DataRafayAksCluster#utc_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#utc_offset DataRafayAksCluster#utc_offset}
   */
   readonly utcOffset?: string;
   /**
   * not_allowed_dates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#not_allowed_dates DataRafayAksCluster#not_allowed_dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#not_allowed_dates DataRafayAksCluster#not_allowed_dates}
   */
   readonly notAllowedDates?: DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDates[] | cdktf.IResolvable;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#schedule DataRafayAksCluster#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#schedule DataRafayAksCluster#schedule}
   */
   readonly schedule?: DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowSchedule[] | cdktf.IResolvable;
 }
@@ -1597,11 +1597,11 @@ export class DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPr
 }
 export interface DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#end DataRafayAksCluster#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#end DataRafayAksCluster#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#start DataRafayAksCluster#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#start DataRafayAksCluster#start}
   */
   readonly start?: string;
 }
@@ -1746,11 +1746,11 @@ export class DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPr
 }
 export interface DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesTimeInWeek {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#day DataRafayAksCluster#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#day DataRafayAksCluster#day}
   */
   readonly day?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#hour_slots DataRafayAksCluster#hour_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#hour_slots DataRafayAksCluster#hour_slots}
   */
   readonly hourSlots?: number[];
 }
@@ -1897,19 +1897,19 @@ export interface DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfiguratio
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#maintenance_window DataRafayAksCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#maintenance_window DataRafayAksCluster#maintenance_window}
   */
   readonly maintenanceWindow?: DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindow[] | cdktf.IResolvable;
   /**
   * not_allowed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#not_allowed_time DataRafayAksCluster#not_allowed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#not_allowed_time DataRafayAksCluster#not_allowed_time}
   */
   readonly notAllowedTime?: DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTime[] | cdktf.IResolvable;
   /**
   * time_in_week block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#time_in_week DataRafayAksCluster#time_in_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#time_in_week DataRafayAksCluster#time_in_week}
   */
   readonly timeInWeek?: DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPropertiesTimeInWeek[] | cdktf.IResolvable;
 }
@@ -2083,21 +2083,21 @@ export class DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsPr
 }
 export interface DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#api_version DataRafayAksCluster#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#api_version DataRafayAksCluster#api_version}
   */
   readonly apiVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
   */
   readonly type?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#properties DataRafayAksCluster#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#properties DataRafayAksCluster#properties}
   */
   readonly properties: DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurationsProperties[] | cdktf.IResolvable;
 }
@@ -2293,13 +2293,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterAdditiona
   /**
   * The name of the Azure Container Registry resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#acr_name DataRafayAksCluster#acr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#acr_name DataRafayAksCluster#acr_name}
   */
   readonly acrName: string;
   /**
   * The location of the Azure Container Registry resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#resource_group_name DataRafayAksCluster#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#resource_group_name DataRafayAksCluster#resource_group_name}
   */
   readonly resourceGroupName?: string;
 }
@@ -2443,19 +2443,19 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterAdditiona
   /**
   * The name of the Azure Container Registry resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#acr_name DataRafayAksCluster#acr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#acr_name DataRafayAksCluster#acr_name}
   */
   readonly acrName?: string;
   /**
   * If not specified, defaults to the resource group of the managed cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#resource_group_name DataRafayAksCluster#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#resource_group_name DataRafayAksCluster#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
   * registries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#registries DataRafayAksCluster#registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#registries DataRafayAksCluster#registries}
   */
   readonly registries?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistries[] | cdktf.IResolvable;
 }
@@ -2631,13 +2631,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterAdditiona
   /**
   * If not specified, defaults to the resource group of the managed cluster. Valid only if the Log analytics workspace is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#oms_workspace_location DataRafayAksCluster#oms_workspace_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#oms_workspace_location DataRafayAksCluster#oms_workspace_location}
   */
   readonly omsWorkspaceLocation?: string;
   /**
   * acr_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#acr_profile DataRafayAksCluster#acr_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#acr_profile DataRafayAksCluster#acr_profile}
   */
   readonly acrProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterAdditionalMetadataAcrProfile[] | cdktf.IResolvable;
 }
@@ -2784,13 +2784,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterExtendedL
   /**
   * The AKS managed cluster extended location name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
   */
   readonly name?: string;
   /**
   * The AKS managed cluster extended location type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
   */
   readonly type?: string;
 }
@@ -2937,13 +2937,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterIdentity 
   /**
   * Identity type for the AKS cluster. For more information see use managed identities in AKS. Valid values are SystemAssigned, UserAssigned, None.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
   */
   readonly type?: string;
   /**
   * Arm Resource Ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#user_assigned_identities DataRafayAksCluster#user_assigned_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#user_assigned_identities DataRafayAksCluster#user_assigned_identities}
   */
   readonly userAssignedIdentities?: { [key: string]: string };
 }
@@ -3090,43 +3090,43 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The AKS managed cluster aad profile admin group object ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#admin_group_object_ids DataRafayAksCluster#admin_group_object_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#admin_group_object_ids DataRafayAksCluster#admin_group_object_ids}
   */
   readonly adminGroupObjectIds?: string[];
   /**
   * The AKS managed cluster aad profile client app id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#client_app_id DataRafayAksCluster#client_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#client_app_id DataRafayAksCluster#client_app_id}
   */
   readonly clientAppId?: string;
   /**
   * Whether or not to enable azure rbac for kubernetes authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enable_azure_rbac DataRafayAksCluster#enable_azure_rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enable_azure_rbac DataRafayAksCluster#enable_azure_rbac}
   */
   readonly enableAzureRbac?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to enable managed aad
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#managed DataRafayAksCluster#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#managed DataRafayAksCluster#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * The server AAD application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#server_app_id DataRafayAksCluster#server_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#server_app_id DataRafayAksCluster#server_app_id}
   */
   readonly serverAppId?: string;
   /**
   * The AKS managed cluster aad profile server app secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#server_app_secret DataRafayAksCluster#server_app_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#server_app_secret DataRafayAksCluster#server_app_secret}
   */
   readonly serverAppSecret?: string;
   /**
   * The AKS managed cluster tenant id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#tenant_id DataRafayAksCluster#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#tenant_id DataRafayAksCluster#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -3418,13 +3418,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Whether to enable Secret Rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enable_secret_rotation DataRafayAksCluster#enable_secret_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enable_secret_rotation DataRafayAksCluster#enable_secret_rotation}
   */
   readonly enableSecretRotation: string;
   /**
   * Interval to poll for secret rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#rotation_poll_interval DataRafayAksCluster#rotation_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#rotation_poll_interval DataRafayAksCluster#rotation_poll_interval}
   */
   readonly rotationPollInterval: string;
 }
@@ -3565,13 +3565,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Whether to enable Azure Key Vault Secrets Provider in Addon Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#config DataRafayAksCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#config DataRafayAksCluster#config}
   */
   readonly config?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfig[] | cdktf.IResolvable;
 }
@@ -3718,13 +3718,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Config for HTTP Application Routing or Azure Policy in Addon Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#config DataRafayAksCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#config DataRafayAksCluster#config}
   */
   readonly config?: string;
   /**
   * Whether to enable HTTP Application Routing or Azure Policy in Addon Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3871,13 +3871,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Config for HTTP Application Routing or Azure Policy in Addon Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#config DataRafayAksCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#config DataRafayAksCluster#config}
   */
   readonly config?: string;
   /**
   * Whether to enable HTTP Application Routing or Azure Policy in Addon Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4024,31 +4024,31 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Resource Id of an existing Application Gateway to use with AGIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#application_gateway_id DataRafayAksCluster#application_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#application_gateway_id DataRafayAksCluster#application_gateway_id}
   */
   readonly applicationGatewayId?: string;
   /**
   * Name of the application gateway to create/use in the node resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#application_gateway_name DataRafayAksCluster#application_gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#application_gateway_name DataRafayAksCluster#application_gateway_name}
   */
   readonly applicationGatewayName?: string;
   /**
   * Subnet CIDR to use for a new subnet created to deploy the Application Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#subnet_cidr DataRafayAksCluster#subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#subnet_cidr DataRafayAksCluster#subnet_cidr}
   */
   readonly subnetCidr?: string;
   /**
   * Resource Id of an existing Subnet used to deploy the Application Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#subnet_id DataRafayAksCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#subnet_id DataRafayAksCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Specify the namespace, which AGIC should watch. This could be a single string value, or a comma-separated list of namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#watch_namespace DataRafayAksCluster#watch_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#watch_namespace DataRafayAksCluster#watch_namespace}
   */
   readonly watchNamespace?: string;
 }
@@ -4282,13 +4282,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Whether to enable Ingress Application Gateway in Addon Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#config DataRafayAksCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#config DataRafayAksCluster#config}
   */
   readonly config?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfig[] | cdktf.IResolvable;
 }
@@ -4435,7 +4435,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * ID of the log analytics workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#log_analytics_workspace_resource_id DataRafayAksCluster#log_analytics_workspace_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#log_analytics_workspace_resource_id DataRafayAksCluster#log_analytics_workspace_resource_id}
   */
   readonly logAnalyticsWorkspaceResourceId: string;
 }
@@ -4550,13 +4550,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Whether to enable OMS Agent in Addon Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#config DataRafayAksCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#config DataRafayAksCluster#config}
   */
   readonly config?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfig[] | cdktf.IResolvable;
 }
@@ -4703,31 +4703,31 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * azure_keyvault_secrets_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#azure_keyvault_secrets_provider DataRafayAksCluster#azure_keyvault_secrets_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#azure_keyvault_secrets_provider DataRafayAksCluster#azure_keyvault_secrets_provider}
   */
   readonly azureKeyvaultSecretsProvider?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProvider[] | cdktf.IResolvable;
   /**
   * azure_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#azure_policy DataRafayAksCluster#azure_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#azure_policy DataRafayAksCluster#azure_policy}
   */
   readonly azurePolicy?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicy[] | cdktf.IResolvable;
   /**
   * http_application_routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#http_application_routing DataRafayAksCluster#http_application_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#http_application_routing DataRafayAksCluster#http_application_routing}
   */
   readonly httpApplicationRouting?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRouting[] | cdktf.IResolvable;
   /**
   * ingress_application_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#ingress_application_gateway DataRafayAksCluster#ingress_application_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#ingress_application_gateway DataRafayAksCluster#ingress_application_gateway}
   */
   readonly ingressApplicationGateway?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGateway[] | cdktf.IResolvable;
   /**
   * oms_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#oms_agent DataRafayAksCluster#oms_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#oms_agent DataRafayAksCluster#oms_agent}
   */
   readonly omsAgent?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesAddonProfilesOmsAgent[] | cdktf.IResolvable;
 }
@@ -4961,25 +4961,25 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The AKS managed cluster properties server access profile server access profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#authorized_ipr_ranges DataRafayAksCluster#authorized_ipr_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#authorized_ipr_ranges DataRafayAksCluster#authorized_ipr_ranges}
   */
   readonly authorizedIprRanges?: string[];
   /**
   * Enable private cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enable_private_cluster DataRafayAksCluster#enable_private_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enable_private_cluster DataRafayAksCluster#enable_private_cluster}
   */
   readonly enablePrivateCluster?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to create additional public fqdn for private cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enable_private_cluster_public_fqdn DataRafayAksCluster#enable_private_cluster_public_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enable_private_cluster_public_fqdn DataRafayAksCluster#enable_private_cluster_public_fqdn}
   */
   readonly enablePrivateClusterPublicFqdn?: boolean | cdktf.IResolvable;
   /**
   * The AKS managed cluster properties private dns zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#private_dns_zone DataRafayAksCluster#private_dns_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#private_dns_zone DataRafayAksCluster#private_dns_zone}
   */
   readonly privateDnsZone?: string;
 }
@@ -5184,103 +5184,103 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Valid values are true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#balance_similar_node_groups DataRafayAksCluster#balance_similar_node_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#balance_similar_node_groups DataRafayAksCluster#balance_similar_node_groups}
   */
   readonly balanceSimilarNodeGroups?: string;
   /**
   * Valid values are least-waste, most-pods, priority, random
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#expander DataRafayAksCluster#expander}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#expander DataRafayAksCluster#expander}
   */
   readonly expander?: string;
   /**
   * Max empty bulk delete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#max_empty_bulk_delete DataRafayAksCluster#max_empty_bulk_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#max_empty_bulk_delete DataRafayAksCluster#max_empty_bulk_delete}
   */
   readonly maxEmptyBulkDelete?: string;
   /**
   * Max graceful termination sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#max_graceful_termination_sec DataRafayAksCluster#max_graceful_termination_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#max_graceful_termination_sec DataRafayAksCluster#max_graceful_termination_sec}
   */
   readonly maxGracefulTerminationSec?: string;
   /**
   * Values must be an integer followed by an m. No unit of time other than minutes (m) is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#max_node_provision_time DataRafayAksCluster#max_node_provision_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#max_node_provision_time DataRafayAksCluster#max_node_provision_time}
   */
   readonly maxNodeProvisionTime?: string;
   /**
   * The maximum is 100 and the minimum is 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#max_total_unready_percentage DataRafayAksCluster#max_total_unready_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#max_total_unready_percentage DataRafayAksCluster#max_total_unready_percentage}
   */
   readonly maxTotalUnreadyPercentage?: string;
   /**
   * For scenarios like burst/batch scale where you don't want CA to act before the kubernetes scheduler could schedule all the pods, you can tell CA to ignore unscheduled pods before they're a certain age.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#new_pod_scale_up_delay DataRafayAksCluster#new_pod_scale_up_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#new_pod_scale_up_delay DataRafayAksCluster#new_pod_scale_up_delay}
   */
   readonly newPodScaleUpDelay?: string;
   /**
   * This must be an integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#ok_total_unready_count DataRafayAksCluster#ok_total_unready_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#ok_total_unready_count DataRafayAksCluster#ok_total_unready_count}
   */
   readonly okTotalUnreadyCount?: string;
   /**
   * Values must be an integer followed by an m. No unit of time other than minutes (m) is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#scale_down_delay_after_add DataRafayAksCluster#scale_down_delay_after_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#scale_down_delay_after_add DataRafayAksCluster#scale_down_delay_after_add}
   */
   readonly scaleDownDelayAfterAdd?: string;
   /**
   * The default is the scan-interval. Values must be an integer followed by an m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#scale_down_delay_after_delete DataRafayAksCluster#scale_down_delay_after_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#scale_down_delay_after_delete DataRafayAksCluster#scale_down_delay_after_delete}
   */
   readonly scaleDownDelayAfterDelete?: string;
   /**
   *  Values must be an integer followed by an m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#scale_down_delay_after_failure DataRafayAksCluster#scale_down_delay_after_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#scale_down_delay_after_failure DataRafayAksCluster#scale_down_delay_after_failure}
   */
   readonly scaleDownDelayAfterFailure?: string;
   /**
   * Values must be an integer followed by an m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#scale_down_unneeded_time DataRafayAksCluster#scale_down_unneeded_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#scale_down_unneeded_time DataRafayAksCluster#scale_down_unneeded_time}
   */
   readonly scaleDownUnneededTime?: string;
   /**
   * Values must be an integer followed by an m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#scale_down_unready_time DataRafayAksCluster#scale_down_unready_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#scale_down_unready_time DataRafayAksCluster#scale_down_unready_time}
   */
   readonly scaleDownUnreadyTime?: string;
   /**
   * The scale down utilization threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#scale_down_utilization_threshold DataRafayAksCluster#scale_down_utilization_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#scale_down_utilization_threshold DataRafayAksCluster#scale_down_utilization_threshold}
   */
   readonly scaleDownUtilizationThreshold?: string;
   /**
   * The default is 10. Values must be an integer number of seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#scan_interval DataRafayAksCluster#scan_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#scan_interval DataRafayAksCluster#scan_interval}
   */
   readonly scanInterval?: string;
   /**
   * Skip nodes with local storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#skip_nodes_with_local_storage DataRafayAksCluster#skip_nodes_with_local_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#skip_nodes_with_local_storage DataRafayAksCluster#skip_nodes_with_local_storage}
   */
   readonly skipNodesWithLocalStorage?: string;
   /**
   * Skip nodes with system pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#skip_nodes_with_system_pods DataRafayAksCluster#skip_nodes_with_system_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#skip_nodes_with_system_pods DataRafayAksCluster#skip_nodes_with_system_pods}
   */
   readonly skipNodesWithSystemPods?: string;
 }
@@ -5862,13 +5862,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Valid values are None, Unmanaged, NodeImage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#node_os_upgrade_channel DataRafayAksCluster#node_os_upgrade_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#node_os_upgrade_channel DataRafayAksCluster#node_os_upgrade_channel}
   */
   readonly nodeOsUpgradeChannel?: string;
   /**
   * Valid values are rapid, stable, patch, node-image, none
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#upgrade_channel DataRafayAksCluster#upgrade_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#upgrade_channel DataRafayAksCluster#upgrade_channel}
   */
   readonly upgradeChannel?: string;
 }
@@ -6015,25 +6015,25 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The HTTP proxy server endpoint to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#http_proxy DataRafayAksCluster#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#http_proxy DataRafayAksCluster#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * The HTTPs proxy server endpoint to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#https_proxy DataRafayAksCluster#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#https_proxy DataRafayAksCluster#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * The endpoints that should not go through proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#no_proxy DataRafayAksCluster#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#no_proxy DataRafayAksCluster#no_proxy}
   */
   readonly noProxy?: string[];
   /**
   * Alternative CA cert to use for connecting to proxy servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#trusted_ca DataRafayAksCluster#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#trusted_ca DataRafayAksCluster#trusted_ca}
   */
   readonly trustedCa?: string;
 }
@@ -6238,7 +6238,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * value must be ARM resource ID in the form: /subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.ManagedIdentity/userAssignedIdentities/<identity-name>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#resource_id DataRafayAksCluster#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#resource_id DataRafayAksCluster#resource_id}
   */
   readonly resourceId: string;
 }
@@ -6353,7 +6353,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * kubelet_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#kubelet_identity DataRafayAksCluster#kubelet_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#kubelet_identity DataRafayAksCluster#kubelet_identity}
   */
   readonly kubeletIdentity: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentity[] | cdktf.IResolvable;
 }
@@ -6468,7 +6468,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Certificate public key used to authenticate with VMs through SSH. The certificate must be in PEM format with or without headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#key_data DataRafayAksCluster#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#key_data DataRafayAksCluster#key_data}
   */
   readonly keyData?: string;
 }
@@ -6554,7 +6554,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * public_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#public_keys DataRafayAksCluster#public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#public_keys DataRafayAksCluster#public_keys}
   */
   readonly publicKeys: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeys;
 }
@@ -6669,25 +6669,25 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The administrator username to use for Linux VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#admin_username DataRafayAksCluster#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#admin_username DataRafayAksCluster#admin_username}
   */
   readonly adminUsername: string;
   /**
   * The endpoints that should not go through proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#no_proxy DataRafayAksCluster#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#no_proxy DataRafayAksCluster#no_proxy}
   */
   readonly noProxy?: string[];
   /**
   * Alternative CA cert to use for connecting to proxy servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#trusted_ca DataRafayAksCluster#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#trusted_ca DataRafayAksCluster#trusted_ca}
   */
   readonly trustedCa?: string;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#ssh DataRafayAksCluster#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#ssh DataRafayAksCluster#ssh}
   */
   readonly ssh: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesLinuxProfileSsh[] | cdktf.IResolvable;
 }
@@ -6886,7 +6886,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The fully qualified Azure resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#id DataRafayAksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#id DataRafayAksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7007,7 +7007,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The desired number of outbound IPs created/managed by Azure for the cluster load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#count DataRafayAksCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#count DataRafayAksCluster#count}
   */
   readonly count?: number;
 }
@@ -7125,7 +7125,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The fully qualified Azure resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#id DataRafayAksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#id DataRafayAksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7246,7 +7246,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * public_ip_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#public_ip_prefixes DataRafayAksCluster#public_ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#public_ip_prefixes DataRafayAksCluster#public_ip_prefixes}
   */
   readonly publicIpPrefixes?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixes[] | cdktf.IResolvable;
 }
@@ -7364,7 +7364,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   *  	The fully qualified Azure resource id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#id DataRafayAksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#id DataRafayAksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7485,7 +7485,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * public_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#public_ips DataRafayAksCluster#public_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#public_ips DataRafayAksCluster#public_ips}
   */
   readonly publicIps?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpsPublicIps[] | cdktf.IResolvable;
 }
@@ -7603,37 +7603,37 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The desired number of allocated SNAT ports per VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#allocated_outbound_ports DataRafayAksCluster#allocated_outbound_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#allocated_outbound_ports DataRafayAksCluster#allocated_outbound_ports}
   */
   readonly allocatedOutboundPorts?: number;
   /**
   * Desired outbound flow idle timeout in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#idle_timeout_in_minutes DataRafayAksCluster#idle_timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#idle_timeout_in_minutes DataRafayAksCluster#idle_timeout_in_minutes}
   */
   readonly idleTimeoutInMinutes?: number;
   /**
   * effective_outbound_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#effective_outbound_ips DataRafayAksCluster#effective_outbound_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#effective_outbound_ips DataRafayAksCluster#effective_outbound_ips}
   */
   readonly effectiveOutboundIps?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIps[] | cdktf.IResolvable;
   /**
   * managed_outbound_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#managed_outbound_ips DataRafayAksCluster#managed_outbound_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#managed_outbound_ips DataRafayAksCluster#managed_outbound_ips}
   */
   readonly managedOutboundIps?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIps[] | cdktf.IResolvable;
   /**
   * outbound_ip_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#outbound_ip_prefixes DataRafayAksCluster#outbound_ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#outbound_ip_prefixes DataRafayAksCluster#outbound_ip_prefixes}
   */
   readonly outboundIpPrefixes?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixes[] | cdktf.IResolvable;
   /**
   * outbound_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#outbound_ips DataRafayAksCluster#outbound_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#outbound_ips DataRafayAksCluster#outbound_ips}
   */
   readonly outboundIps?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIps[] | cdktf.IResolvable;
 }
@@ -7896,67 +7896,67 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * An IP address assigned to the Kubernetes DNS service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#dns_service_ip DataRafayAksCluster#dns_service_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#dns_service_ip DataRafayAksCluster#dns_service_ip}
   */
   readonly dnsServiceIp?: string;
   /**
   * A CIDR notation IP range assigned to the Docker bridge network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#docker_bridge_cidr DataRafayAksCluster#docker_bridge_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#docker_bridge_cidr DataRafayAksCluster#docker_bridge_cidr}
   */
   readonly dockerBridgeCidr?: string;
   /**
   * Valid values are standard, basic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#load_balancer_sku DataRafayAksCluster#load_balancer_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#load_balancer_sku DataRafayAksCluster#load_balancer_sku}
   */
   readonly loadBalancerSku?: string;
   /**
   * This cannot be specified if networkPlugin is anything other than azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#network_mode DataRafayAksCluster#network_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#network_mode DataRafayAksCluster#network_mode}
   */
   readonly networkMode?: string;
   /**
   * Network plugin used for building the Kubernetes network. Valid values are azure, kubenet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#network_plugin DataRafayAksCluster#network_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#network_plugin DataRafayAksCluster#network_plugin}
   */
   readonly networkPlugin?: string;
   /**
   * Network plugin mode used for building the Azure CNI. Valid values are 'overlay'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#network_plugin_mode DataRafayAksCluster#network_plugin_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#network_plugin_mode DataRafayAksCluster#network_plugin_mode}
   */
   readonly networkPluginMode?: string;
   /**
   * Network policy used for building the Kubernetes network. Valid values are calico, azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#network_policy DataRafayAksCluster#network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#network_policy DataRafayAksCluster#network_policy}
   */
   readonly networkPolicy?: string;
   /**
   * This can only be set at cluster creation time and cannot be changed later. Valid values are loadBalancer, userDefinedRouting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#outbound_type DataRafayAksCluster#outbound_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#outbound_type DataRafayAksCluster#outbound_type}
   */
   readonly outboundType?: string;
   /**
   * A CIDR notation IP range from which to assign pod IPs when kubenet is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#pod_cidr DataRafayAksCluster#pod_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#pod_cidr DataRafayAksCluster#pod_cidr}
   */
   readonly podCidr?: string;
   /**
   * A CIDR notation IP range from which to assign service cluster IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#service_cidr DataRafayAksCluster#service_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#service_cidr DataRafayAksCluster#service_cidr}
   */
   readonly serviceCidr?: string;
   /**
   * load_balancer_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#load_balancer_profile DataRafayAksCluster#load_balancer_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#load_balancer_profile DataRafayAksCluster#load_balancer_profile}
   */
   readonly loadBalancerProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfile[] | cdktf.IResolvable;
 }
@@ -8364,7 +8364,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Whether to enable OIDC Issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -8482,19 +8482,19 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The client ID of the user assigned identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#client_id DataRafayAksCluster#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#client_id DataRafayAksCluster#client_id}
   */
   readonly clientId?: string;
   /**
   * The object ID of the user assigned identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#object_id DataRafayAksCluster#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#object_id DataRafayAksCluster#object_id}
   */
   readonly objectId?: string;
   /**
   * The resource ID of the user assigned identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#resource_id DataRafayAksCluster#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#resource_id DataRafayAksCluster#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -8670,25 +8670,25 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The binding selector to use for the AzureIdentityBinding resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#binding_selector DataRafayAksCluster#binding_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#binding_selector DataRafayAksCluster#binding_selector}
   */
   readonly bindingSelector?: string;
   /**
   * The name of the pod identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
   */
   readonly name: string;
   /**
   * The namespace of the pod identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#namespace DataRafayAksCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#namespace DataRafayAksCluster#namespace}
   */
   readonly namespace: string;
   /**
   * identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#identity DataRafayAksCluster#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#identity DataRafayAksCluster#identity}
   */
   readonly identity: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentity[] | cdktf.IResolvable;
 }
@@ -8884,19 +8884,19 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The name of the pod identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
   */
   readonly name: string;
   /**
   * The namespace of the pod identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#namespace DataRafayAksCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#namespace DataRafayAksCluster#namespace}
   */
   readonly namespace: string;
   /**
   * The pod labels to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#pod_labels DataRafayAksCluster#pod_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#pod_labels DataRafayAksCluster#pod_labels}
   */
   readonly podLabels: { [key: string]: string };
 }
@@ -9063,25 +9063,25 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Running in Kubenet is disabled by default due to the security related nature of AAD Pod Identity and the risks of IP spoofing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#allow_network_plugin_kubenet DataRafayAksCluster#allow_network_plugin_kubenet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#allow_network_plugin_kubenet DataRafayAksCluster#allow_network_plugin_kubenet}
   */
   readonly allowNetworkPluginKubenet?: boolean | cdktf.IResolvable;
   /**
   * Whether the pod identity addon is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * user_assigned_identities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#user_assigned_identities DataRafayAksCluster#user_assigned_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#user_assigned_identities DataRafayAksCluster#user_assigned_identities}
   */
   readonly userAssignedIdentities?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentities[] | cdktf.IResolvable;
   /**
   * user_assigned_identity_exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#user_assigned_identity_exceptions DataRafayAksCluster#user_assigned_identity_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#user_assigned_identity_exceptions DataRafayAksCluster#user_assigned_identity_exceptions}
   */
   readonly userAssignedIdentityExceptions?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptions[] | cdktf.IResolvable;
 }
@@ -9286,7 +9286,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Whether the cluster is running or stopped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#code DataRafayAksCluster#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#code DataRafayAksCluster#code}
   */
   readonly code?: string;
 }
@@ -9404,13 +9404,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The group ID of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#group_id DataRafayAksCluster#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#group_id DataRafayAksCluster#group_id}
   */
   readonly groupId?: string;
   /**
   * The ID of the private link resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#id DataRafayAksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#id DataRafayAksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -9419,19 +9419,19 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The name of the private link resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
   */
   readonly name?: string;
   /**
   * The RequiredMembers of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#required_members DataRafayAksCluster#required_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#required_members DataRafayAksCluster#required_members}
   */
   readonly requiredMembers?: string[];
   /**
   * The resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
   */
   readonly type?: string;
 }
@@ -9665,7 +9665,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Whether to enable workload identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -9783,7 +9783,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * workload_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#workload_identity DataRafayAksCluster#workload_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#workload_identity DataRafayAksCluster#workload_identity}
   */
   readonly workloadIdentity?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesSecurityProfileWorkloadIdentity[] | cdktf.IResolvable;
 }
@@ -9901,13 +9901,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * FORMATTED:The ID for the service principal. If specified, must be set to `[parameters('servicePrincipalClientId')]`. This would be set to the cloud credential's client ID during cluster deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#client_id DataRafayAksCluster#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#client_id DataRafayAksCluster#client_id}
   */
   readonly clientId: string;
   /**
   * The secret password associated with the service principal in plain text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#secret DataRafayAksCluster#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#secret DataRafayAksCluster#secret}
   */
   readonly secret?: string;
 }
@@ -10051,19 +10051,19 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * Specifies the name of the administrator account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#admin_username DataRafayAksCluster#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#admin_username DataRafayAksCluster#admin_username}
   */
   readonly adminUsername: string;
   /**
   * Enable CSI proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enable_csi_proxy DataRafayAksCluster#enable_csi_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enable_csi_proxy DataRafayAksCluster#enable_csi_proxy}
   */
   readonly enableCsiProxy?: boolean | cdktf.IResolvable;
   /**
   * The license type to use for Windows VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#license_type DataRafayAksCluster#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#license_type DataRafayAksCluster#license_type}
   */
   readonly licenseType?: string;
 }
@@ -10236,145 +10236,145 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertie
   /**
   * The AKS managed cluster addon profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#disable_local_accounts DataRafayAksCluster#disable_local_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#disable_local_accounts DataRafayAksCluster#disable_local_accounts}
   */
   readonly disableLocalAccounts?: boolean | cdktf.IResolvable;
   /**
   * This is of the form: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/diskEncryptionSets/{encryptionSetName}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#disk_encryption_set_id DataRafayAksCluster#disk_encryption_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#disk_encryption_set_id DataRafayAksCluster#disk_encryption_set_id}
   */
   readonly diskEncryptionSetId?: string;
   /**
   * This cannot be updated once the Managed Cluster has been created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#dns_prefix DataRafayAksCluster#dns_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#dns_prefix DataRafayAksCluster#dns_prefix}
   */
   readonly dnsPrefix?: string;
   /**
   * (DEPRECATED) Whether to enable Kubernetes pod security policy (preview). This feature is set for removal on October 15th, 2020.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enable_pod_security_policy DataRafayAksCluster#enable_pod_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enable_pod_security_policy DataRafayAksCluster#enable_pod_security_policy}
   */
   readonly enablePodSecurityPolicy?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable Kubernetes Role-Based Access Control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enable_rbac DataRafayAksCluster#enable_rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enable_rbac DataRafayAksCluster#enable_rbac}
   */
   readonly enableRbac?: boolean | cdktf.IResolvable;
   /**
   * This cannot be updated once the Managed Cluster has been created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#fqdn_subdomain DataRafayAksCluster#fqdn_subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#fqdn_subdomain DataRafayAksCluster#fqdn_subdomain}
   */
   readonly fqdnSubdomain?: string;
   /**
   * Kubernetes version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#kubernetes_version DataRafayAksCluster#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#kubernetes_version DataRafayAksCluster#kubernetes_version}
   */
   readonly kubernetesVersion: string;
   /**
   * The name of the resource group containing agent pool nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#node_resource_group DataRafayAksCluster#node_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#node_resource_group DataRafayAksCluster#node_resource_group}
   */
   readonly nodeResourceGroup?: string;
   /**
   * aad_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#aad_profile DataRafayAksCluster#aad_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#aad_profile DataRafayAksCluster#aad_profile}
   */
   readonly aadProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesAadProfile[] | cdktf.IResolvable;
   /**
   * addon_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#addon_profiles DataRafayAksCluster#addon_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#addon_profiles DataRafayAksCluster#addon_profiles}
   */
   readonly addonProfiles?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesAddonProfiles[] | cdktf.IResolvable;
   /**
   * api_server_access_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#api_server_access_profile DataRafayAksCluster#api_server_access_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#api_server_access_profile DataRafayAksCluster#api_server_access_profile}
   */
   readonly apiServerAccessProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesApiServerAccessProfile[] | cdktf.IResolvable;
   /**
   * auto_scaler_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#auto_scaler_profile DataRafayAksCluster#auto_scaler_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#auto_scaler_profile DataRafayAksCluster#auto_scaler_profile}
   */
   readonly autoScalerProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesAutoScalerProfile[] | cdktf.IResolvable;
   /**
   * auto_upgrade_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#auto_upgrade_profile DataRafayAksCluster#auto_upgrade_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#auto_upgrade_profile DataRafayAksCluster#auto_upgrade_profile}
   */
   readonly autoUpgradeProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesAutoUpgradeProfile[] | cdktf.IResolvable;
   /**
   * http_proxy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#http_proxy_config DataRafayAksCluster#http_proxy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#http_proxy_config DataRafayAksCluster#http_proxy_config}
   */
   readonly httpProxyConfig?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesHttpProxyConfig[] | cdktf.IResolvable;
   /**
   * identity_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#identity_profile DataRafayAksCluster#identity_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#identity_profile DataRafayAksCluster#identity_profile}
   */
   readonly identityProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesIdentityProfile[] | cdktf.IResolvable;
   /**
   * linux_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#linux_profile DataRafayAksCluster#linux_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#linux_profile DataRafayAksCluster#linux_profile}
   */
   readonly linuxProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesLinuxProfile[] | cdktf.IResolvable;
   /**
   * network_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#network_profile DataRafayAksCluster#network_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#network_profile DataRafayAksCluster#network_profile}
   */
   readonly networkProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesNetworkProfile[] | cdktf.IResolvable;
   /**
   * oidc_issuer_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#oidc_issuer_profile DataRafayAksCluster#oidc_issuer_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#oidc_issuer_profile DataRafayAksCluster#oidc_issuer_profile}
   */
   readonly oidcIssuerProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesOidcIssuerProfile[] | cdktf.IResolvable;
   /**
   * pod_identity_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#pod_identity_profile DataRafayAksCluster#pod_identity_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#pod_identity_profile DataRafayAksCluster#pod_identity_profile}
   */
   readonly podIdentityProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesPodIdentityProfile[] | cdktf.IResolvable;
   /**
   * power_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#power_state DataRafayAksCluster#power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#power_state DataRafayAksCluster#power_state}
   */
   readonly powerState?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesPowerState[] | cdktf.IResolvable;
   /**
   * private_link_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#private_link_resources DataRafayAksCluster#private_link_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#private_link_resources DataRafayAksCluster#private_link_resources}
   */
   readonly privateLinkResources?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesPrivateLinkResources[] | cdktf.IResolvable;
   /**
   * security_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#security_profile DataRafayAksCluster#security_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#security_profile DataRafayAksCluster#security_profile}
   */
   readonly securityProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesSecurityProfile[] | cdktf.IResolvable;
   /**
   * service_principal_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#service_principal_profile DataRafayAksCluster#service_principal_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#service_principal_profile DataRafayAksCluster#service_principal_profile}
   */
   readonly servicePrincipalProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesServicePrincipalProfile[] | cdktf.IResolvable;
   /**
   * windows_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#windows_profile DataRafayAksCluster#windows_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#windows_profile DataRafayAksCluster#windows_profile}
   */
   readonly windowsProfile?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterPropertiesWindowsProfile[] | cdktf.IResolvable;
 }
@@ -11156,13 +11156,13 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedClusterSku {
   /**
   * The name of a managed cluster SKU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
   */
   readonly name?: string;
   /**
   *  Valid values are Paid, Free.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#tier DataRafayAksCluster#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#tier DataRafayAksCluster#tier}
   */
   readonly tier?: string;
 }
@@ -11309,55 +11309,55 @@ export interface DataRafayAksClusterSpecClusterConfigSpecManagedCluster {
   /**
   * Azure resource managed cluster api version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#apiversion DataRafayAksCluster#apiversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#apiversion DataRafayAksCluster#apiversion}
   */
   readonly apiversion: string;
   /**
   * AKS cluster location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#location DataRafayAksCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#location DataRafayAksCluster#location}
   */
   readonly location: string;
   /**
   * Resource tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#tags DataRafayAksCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#tags DataRafayAksCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
   */
   readonly type?: string;
   /**
   * additional_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#additional_metadata DataRafayAksCluster#additional_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#additional_metadata DataRafayAksCluster#additional_metadata}
   */
   readonly additionalMetadata?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterAdditionalMetadata[] | cdktf.IResolvable;
   /**
   * extended_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#extended_location DataRafayAksCluster#extended_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#extended_location DataRafayAksCluster#extended_location}
   */
   readonly extendedLocation?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterExtendedLocation[] | cdktf.IResolvable;
   /**
   * identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#identity DataRafayAksCluster#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#identity DataRafayAksCluster#identity}
   */
   readonly identity?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterIdentity[] | cdktf.IResolvable;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#properties DataRafayAksCluster#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#properties DataRafayAksCluster#properties}
   */
   readonly properties: DataRafayAksClusterSpecClusterConfigSpecManagedClusterProperties[] | cdktf.IResolvable;
   /**
   * sku block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#sku DataRafayAksCluster#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#sku DataRafayAksCluster#sku}
   */
   readonly sku?: DataRafayAksClusterSpecClusterConfigSpecManagedClusterSku[] | cdktf.IResolvable;
 }
@@ -11698,67 +11698,67 @@ export interface DataRafayAksClusterSpecClusterConfigSpecNodePoolsPropertiesKube
   /**
   * Allowed list of unsafe sysctls or unsafe sysctl patterns (ending in *).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#allowed_unsafe_sysctls DataRafayAksCluster#allowed_unsafe_sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#allowed_unsafe_sysctls DataRafayAksCluster#allowed_unsafe_sysctls}
   */
   readonly allowedUnsafeSysctls?: string[];
   /**
   * The maximum number of container log files that can be present for a container. The number must be ≥ 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#container_log_max_files DataRafayAksCluster#container_log_max_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#container_log_max_files DataRafayAksCluster#container_log_max_files}
   */
   readonly containerLogMaxFiles?: number;
   /**
   * The maximum size (e.g. 10Mi) of container log file before it is rotated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#container_log_max_size_mb DataRafayAksCluster#container_log_max_size_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#container_log_max_size_mb DataRafayAksCluster#container_log_max_size_mb}
   */
   readonly containerLogMaxSizeMb?: number;
   /**
   * The default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#cpu_cfs_quota DataRafayAksCluster#cpu_cfs_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#cpu_cfs_quota DataRafayAksCluster#cpu_cfs_quota}
   */
   readonly cpuCfsQuota?: boolean | cdktf.IResolvable;
   /**
   * Valid values are a sequence of decimal numbers with an optional fraction and a unit suffix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#cpu_cfs_quota_period DataRafayAksCluster#cpu_cfs_quota_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#cpu_cfs_quota_period DataRafayAksCluster#cpu_cfs_quota_period}
   */
   readonly cpuCfsQuotaPeriod?: string;
   /**
   * See Kubernetes CPU management policies for more information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#cpu_manager_policy DataRafayAksCluster#cpu_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#cpu_manager_policy DataRafayAksCluster#cpu_manager_policy}
   */
   readonly cpuManagerPolicy?: string;
   /**
   * If set to true it will make the Kubelet fail to start if swap is enabled on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#fail_swap_on DataRafayAksCluster#fail_swap_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#fail_swap_on DataRafayAksCluster#fail_swap_on}
   */
   readonly failSwapOn?: boolean | cdktf.IResolvable;
   /**
   * To disable image garbage collection, set to 100. The default is 85%
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#image_gc_high_threshold DataRafayAksCluster#image_gc_high_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#image_gc_high_threshold DataRafayAksCluster#image_gc_high_threshold}
   */
   readonly imageGcHighThreshold?: number;
   /**
   * This cannot be set higher than imageGcHighThreshold. The default is 80%
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#image_gc_low_threshold DataRafayAksCluster#image_gc_low_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#image_gc_low_threshold DataRafayAksCluster#image_gc_low_threshold}
   */
   readonly imageGcLowThreshold?: number;
   /**
   * The maximum number of processes per pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#pod_max_pids DataRafayAksCluster#pod_max_pids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#pod_max_pids DataRafayAksCluster#pod_max_pids}
   */
   readonly podMaxPids?: number;
   /**
   * Allowed values are none, best-effort, restricted, and single-numa-node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#topology_manager_policy DataRafayAksCluster#topology_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#topology_manager_policy DataRafayAksCluster#topology_manager_policy}
   */
   readonly topologyManagerPolicy?: string;
 }
@@ -12166,169 +12166,169 @@ export interface DataRafayAksClusterSpecClusterConfigSpecNodePoolsPropertiesLinu
   /**
   * Sysctl setting fs.aio-max-nr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#fs_aio_max_nr DataRafayAksCluster#fs_aio_max_nr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#fs_aio_max_nr DataRafayAksCluster#fs_aio_max_nr}
   */
   readonly fsAioMaxNr?: number;
   /**
   * Sysctl setting fs.file-max.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#fs_file_max DataRafayAksCluster#fs_file_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#fs_file_max DataRafayAksCluster#fs_file_max}
   */
   readonly fsFileMax?: number;
   /**
   * Sysctl setting fs.inotify.max_user_watches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#fs_inotify_max_user_watches DataRafayAksCluster#fs_inotify_max_user_watches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#fs_inotify_max_user_watches DataRafayAksCluster#fs_inotify_max_user_watches}
   */
   readonly fsInotifyMaxUserWatches?: number;
   /**
   * Sysctl setting fs.nr_open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#fs_nr_open DataRafayAksCluster#fs_nr_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#fs_nr_open DataRafayAksCluster#fs_nr_open}
   */
   readonly fsNrOpen?: number;
   /**
   * Sysctl setting kernel.threads-max.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#kernel_threads_max DataRafayAksCluster#kernel_threads_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#kernel_threads_max DataRafayAksCluster#kernel_threads_max}
   */
   readonly kernelThreadsMax?: number;
   /**
   * Sysctl setting net.core.netdev_max_backlog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_core_netdev_max_backlog DataRafayAksCluster#net_core_netdev_max_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_core_netdev_max_backlog DataRafayAksCluster#net_core_netdev_max_backlog}
   */
   readonly netCoreNetdevMaxBacklog?: number;
   /**
   * Sysctl setting net.core.optmem_max.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_core_optmem_max DataRafayAksCluster#net_core_optmem_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_core_optmem_max DataRafayAksCluster#net_core_optmem_max}
   */
   readonly netCoreOptmemMax?: number;
   /**
   * Sysctl setting net.core.rmem_default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_core_rmem_default DataRafayAksCluster#net_core_rmem_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_core_rmem_default DataRafayAksCluster#net_core_rmem_default}
   */
   readonly netCoreRmemDefault?: number;
   /**
   * Sysctl setting net.core.rmem_max.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_core_rmem_max DataRafayAksCluster#net_core_rmem_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_core_rmem_max DataRafayAksCluster#net_core_rmem_max}
   */
   readonly netCoreRmemMax?: number;
   /**
   * Sysctl setting net.core.somaxconn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_core_somaxconn DataRafayAksCluster#net_core_somaxconn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_core_somaxconn DataRafayAksCluster#net_core_somaxconn}
   */
   readonly netCoreSomaxconn?: number;
   /**
   * Sysctl setting net.core.wmem_default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_core_wmem_default DataRafayAksCluster#net_core_wmem_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_core_wmem_default DataRafayAksCluster#net_core_wmem_default}
   */
   readonly netCoreWmemDefault?: number;
   /**
   * Sysctl setting net.core.wmem_max.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_core_wmem_max DataRafayAksCluster#net_core_wmem_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_core_wmem_max DataRafayAksCluster#net_core_wmem_max}
   */
   readonly netCoreWmemMax?: number;
   /**
   * Sysctl setting net.ipv4.ip_local_port_range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_ipv4_ip_local_port_range DataRafayAksCluster#net_ipv4_ip_local_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_ipv4_ip_local_port_range DataRafayAksCluster#net_ipv4_ip_local_port_range}
   */
   readonly netIpv4IpLocalPortRange?: string;
   /**
   * Sysctl setting net.ipv4.neigh.default.gc_thresh1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_ipv4_neigh_default_gc_thresh1 DataRafayAksCluster#net_ipv4_neigh_default_gc_thresh1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_ipv4_neigh_default_gc_thresh1 DataRafayAksCluster#net_ipv4_neigh_default_gc_thresh1}
   */
   readonly netIpv4NeighDefaultGcThresh1?: number;
   /**
   * Sysctl setting net.ipv4.neigh.default.gc_thresh2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_ipv4_neigh_default_gc_thresh2 DataRafayAksCluster#net_ipv4_neigh_default_gc_thresh2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_ipv4_neigh_default_gc_thresh2 DataRafayAksCluster#net_ipv4_neigh_default_gc_thresh2}
   */
   readonly netIpv4NeighDefaultGcThresh2?: number;
   /**
   * Sysctl setting net.ipv4.neigh.default.gc_thresh3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_ipv4_neigh_default_gc_thresh3 DataRafayAksCluster#net_ipv4_neigh_default_gc_thresh3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_ipv4_neigh_default_gc_thresh3 DataRafayAksCluster#net_ipv4_neigh_default_gc_thresh3}
   */
   readonly netIpv4NeighDefaultGcThresh3?: number;
   /**
   * Sysctl setting net.ipv4.tcp_fin_timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_ipv4_tcp_fin_timeout DataRafayAksCluster#net_ipv4_tcp_fin_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_ipv4_tcp_fin_timeout DataRafayAksCluster#net_ipv4_tcp_fin_timeout}
   */
   readonly netIpv4TcpFinTimeout?: number;
   /**
   * Sysctl setting net.ipv4.tcp_keepalive_probes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_ipv4_tcp_keepalive_probes DataRafayAksCluster#net_ipv4_tcp_keepalive_probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_ipv4_tcp_keepalive_probes DataRafayAksCluster#net_ipv4_tcp_keepalive_probes}
   */
   readonly netIpv4TcpKeepaliveProbes?: number;
   /**
   * Sysctl setting net.ipv4.tcp_keepalive_time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_ipv4_tcp_keepalive_time DataRafayAksCluster#net_ipv4_tcp_keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_ipv4_tcp_keepalive_time DataRafayAksCluster#net_ipv4_tcp_keepalive_time}
   */
   readonly netIpv4TcpKeepaliveTime?: number;
   /**
   * Sysctl setting net.ipv4.tcp_max_syn_backlog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_ipv4_tcp_max_syn_backlog DataRafayAksCluster#net_ipv4_tcp_max_syn_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_ipv4_tcp_max_syn_backlog DataRafayAksCluster#net_ipv4_tcp_max_syn_backlog}
   */
   readonly netIpv4TcpMaxSynBacklog?: number;
   /**
   * Sysctl setting net.ipv4.tcp_max_tw_buckets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_ipv4_tcp_max_tw_buckets DataRafayAksCluster#net_ipv4_tcp_max_tw_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_ipv4_tcp_max_tw_buckets DataRafayAksCluster#net_ipv4_tcp_max_tw_buckets}
   */
   readonly netIpv4TcpMaxTwBuckets?: number;
   /**
   * Sysctl setting net.ipv4.tcp_tw_reuse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_ipv4_tcp_tw_reuse DataRafayAksCluster#net_ipv4_tcp_tw_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_ipv4_tcp_tw_reuse DataRafayAksCluster#net_ipv4_tcp_tw_reuse}
   */
   readonly netIpv4TcpTwReuse?: boolean | cdktf.IResolvable;
   /**
   * Sysctl setting net.ipv4.tcp_keepalive_intvl.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_ipv4_tcpkeepalive_intvl DataRafayAksCluster#net_ipv4_tcpkeepalive_intvl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_ipv4_tcpkeepalive_intvl DataRafayAksCluster#net_ipv4_tcpkeepalive_intvl}
   */
   readonly netIpv4TcpkeepaliveIntvl?: number;
   /**
   * Sysctl setting net.netfilter.nf_conntrack_buckets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_netfilter_nf_conntrack_buckets DataRafayAksCluster#net_netfilter_nf_conntrack_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_netfilter_nf_conntrack_buckets DataRafayAksCluster#net_netfilter_nf_conntrack_buckets}
   */
   readonly netNetfilterNfConntrackBuckets?: number;
   /**
   * Sysctl setting net.netfilter.nf_conntrack_max.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#net_netfilter_nf_conntrack_max DataRafayAksCluster#net_netfilter_nf_conntrack_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#net_netfilter_nf_conntrack_max DataRafayAksCluster#net_netfilter_nf_conntrack_max}
   */
   readonly netNetfilterNfConntrackMax?: number;
   /**
   * Sysctl setting vm.max_map_count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#vm_max_map_count DataRafayAksCluster#vm_max_map_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#vm_max_map_count DataRafayAksCluster#vm_max_map_count}
   */
   readonly vmMaxMapCount?: number;
   /**
   * Sysctl setting vm.swappiness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#vm_swappiness DataRafayAksCluster#vm_swappiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#vm_swappiness DataRafayAksCluster#vm_swappiness}
   */
   readonly vmSwappiness?: number;
   /**
   * Sysctl setting vm.vfs_cache_pressure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#vm_vfs_cache_pressure DataRafayAksCluster#vm_vfs_cache_pressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#vm_vfs_cache_pressure DataRafayAksCluster#vm_vfs_cache_pressure}
   */
   readonly vmVfsCachePressure?: number;
 }
@@ -13229,25 +13229,25 @@ export interface DataRafayAksClusterSpecClusterConfigSpecNodePoolsPropertiesLinu
   /**
   * The size in MB of a swap file that will be created on each node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#swap_file_size_mb DataRafayAksCluster#swap_file_size_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#swap_file_size_mb DataRafayAksCluster#swap_file_size_mb}
   */
   readonly swapFileSizeMb?: number;
   /**
   * Valid values are always, defer, defer+madvise, madvise and never.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#transparent_huge_page_defrag DataRafayAksCluster#transparent_huge_page_defrag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#transparent_huge_page_defrag DataRafayAksCluster#transparent_huge_page_defrag}
   */
   readonly transparentHugePageDefrag?: string;
   /**
   * Valid values are always, madvise, and never.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#transparent_huge_page_enabled DataRafayAksCluster#transparent_huge_page_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#transparent_huge_page_enabled DataRafayAksCluster#transparent_huge_page_enabled}
   */
   readonly transparentHugePageEnabled?: string;
   /**
   * sysctls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#sysctls DataRafayAksCluster#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#sysctls DataRafayAksCluster#sysctls}
   */
   readonly sysctls?: DataRafayAksClusterSpecClusterConfigSpecNodePoolsPropertiesLinuxOsConfigSysctls[] | cdktf.IResolvable;
 }
@@ -13452,7 +13452,7 @@ export interface DataRafayAksClusterSpecClusterConfigSpecNodePoolsPropertiesUpgr
   /**
   * This can either be set to an integer (e.g. 5) or a percentage (e.g. 50%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#max_surge DataRafayAksCluster#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#max_surge DataRafayAksCluster#max_surge}
   */
   readonly maxSurge?: string;
 }
@@ -13570,199 +13570,199 @@ export interface DataRafayAksClusterSpecClusterConfigSpecNodePoolsProperties {
   /**
   * The list of Availability zones to use for nodes. This can only be specified if the AgentPoolType property is VirtualMachineScaleSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#availability_zones DataRafayAksCluster#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#availability_zones DataRafayAksCluster#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * Number of agents (VMs) to host docker containers. Allowed values must be in the range of 0 to 1000 (inclusive) for user pools and in the range of 1 to 1000 (inclusive) for system pools. The default value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#count DataRafayAksCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#count DataRafayAksCluster#count}
   */
   readonly count?: number;
   /**
   * Whether to enable auto-scaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enable_auto_scaling DataRafayAksCluster#enable_auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enable_auto_scaling DataRafayAksCluster#enable_auto_scaling}
   */
   readonly enableAutoScaling?: boolean | cdktf.IResolvable;
   /**
   * This is only supported on certain VM sizes and in certain Azure regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enable_encryption_at_host DataRafayAksCluster#enable_encryption_at_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enable_encryption_at_host DataRafayAksCluster#enable_encryption_at_host}
   */
   readonly enableEncryptionAtHost?: boolean | cdktf.IResolvable;
   /**
   * See Add a FIPS-enabled node pool for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enable_fips DataRafayAksCluster#enable_fips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enable_fips DataRafayAksCluster#enable_fips}
   */
   readonly enableFips?: boolean | cdktf.IResolvable;
   /**
   * Some scenarios may require nodes in a node pool to receive their own dedicated public IP addresses. A common scenario is for gaming workloads, where a console needs to make a direct connection to a cloud virtual machine to minimize hops. For more information see assigning a public IP per node. The default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enable_node_public_ip DataRafayAksCluster#enable_node_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enable_node_public_ip DataRafayAksCluster#enable_node_public_ip}
   */
   readonly enableNodePublicIp?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable UltraSSD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enable_ultra_ssd DataRafayAksCluster#enable_ultra_ssd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enable_ultra_ssd DataRafayAksCluster#enable_ultra_ssd}
   */
   readonly enableUltraSsd?: boolean | cdktf.IResolvable;
   /**
   * GPUInstanceProfile to be used to specify GPU MIG instance profile for supported GPU VM SKU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#gpu_instance_profile DataRafayAksCluster#gpu_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#gpu_instance_profile DataRafayAksCluster#gpu_instance_profile}
   */
   readonly gpuInstanceProfile?: string;
   /**
   * Valid values are OS, Temporary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#kubelet_disk_type DataRafayAksCluster#kubelet_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#kubelet_disk_type DataRafayAksCluster#kubelet_disk_type}
   */
   readonly kubeletDiskType?: string;
   /**
   * The maximum number of nodes for auto-scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#max_count DataRafayAksCluster#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#max_count DataRafayAksCluster#max_count}
   */
   readonly maxCount?: number;
   /**
   * The maximum number of pods that can run on a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#max_pods DataRafayAksCluster#max_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#max_pods DataRafayAksCluster#max_pods}
   */
   readonly maxPods?: number;
   /**
   * The minimum number of nodes for auto-scaling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#min_count DataRafayAksCluster#min_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#min_count DataRafayAksCluster#min_count}
   */
   readonly minCount?: number;
   /**
   * The mode for a node pool which defines a node pool's primary function. If set as 'System', AKS prefers system pods scheduling to node pools with mode System. Accepted values: System, User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#mode DataRafayAksCluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#mode DataRafayAksCluster#mode}
   */
   readonly mode?: string;
   /**
   * Valid values are System, User.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#node_labels DataRafayAksCluster#node_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#node_labels DataRafayAksCluster#node_labels}
   */
   readonly nodeLabels?: { [key: string]: string };
   /**
   * This is of the form: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/publicIPPrefixes/{publicIPPrefixName}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#node_public_ip_prefix_id DataRafayAksCluster#node_public_ip_prefix_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#node_public_ip_prefix_id DataRafayAksCluster#node_public_ip_prefix_id}
   */
   readonly nodePublicIpPrefixId?: string;
   /**
   * The taints added to new nodes during node pool create and scale. For example, key=value:NoSchedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#node_taints DataRafayAksCluster#node_taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#node_taints DataRafayAksCluster#node_taints}
   */
   readonly nodeTaints?: string[];
   /**
   * The AKS node pool Kubernetes version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#orchestrator_version DataRafayAksCluster#orchestrator_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#orchestrator_version DataRafayAksCluster#orchestrator_version}
   */
   readonly orchestratorVersion?: string;
   /**
   * OS Disk Size in GB to be used to specify the disk size for every machine in the master/agent pool. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#os_disk_size_gb DataRafayAksCluster#os_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#os_disk_size_gb DataRafayAksCluster#os_disk_size_gb}
   */
   readonly osDiskSizeGb?: number;
   /**
   * Valid values are Managed, Ephemeral.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#os_disk_type DataRafayAksCluster#os_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#os_disk_type DataRafayAksCluster#os_disk_type}
   */
   readonly osDiskType?: string;
   /**
   * Valid values are Ubuntu, CBLMariner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#os_sku DataRafayAksCluster#os_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#os_sku DataRafayAksCluster#os_sku}
   */
   readonly osSku?: string;
   /**
   * Valid values are Linux, Windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#os_type DataRafayAksCluster#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#os_type DataRafayAksCluster#os_type}
   */
   readonly osType?: string;
   /**
   * If omitted, pod IPs are statically assigned on the node subnet (see vnetSubnetID for more details). This is of the form: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/subnets/{subnetName}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#pod_subnet_id DataRafayAksCluster#pod_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#pod_subnet_id DataRafayAksCluster#pod_subnet_id}
   */
   readonly podSubnetId?: string;
   /**
   * The ID for Proximity Placement Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#proximity_placement_group_id DataRafayAksCluster#proximity_placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#proximity_placement_group_id DataRafayAksCluster#proximity_placement_group_id}
   */
   readonly proximityPlacementGroupId?: string;
   /**
   * This cannot be specified unless the scaleSetPriority is Spot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#scale_set_eviction_policy DataRafayAksCluster#scale_set_eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#scale_set_eviction_policy DataRafayAksCluster#scale_set_eviction_policy}
   */
   readonly scaleSetEvictionPolicy?: string;
   /**
   * The Virtual Machine Scale Set priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#scale_set_priority DataRafayAksCluster#scale_set_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#scale_set_priority DataRafayAksCluster#scale_set_priority}
   */
   readonly scaleSetPriority?: string;
   /**
   * Possible values are any decimal value greater than zero or -1 which indicates the willingness to pay any on-demand price. For more details on spot pricing, see spot VMs pricing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#spot_max_price DataRafayAksCluster#spot_max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#spot_max_price DataRafayAksCluster#spot_max_price}
   */
   readonly spotMaxPrice?: number;
   /**
   * The tags to be persisted on the agent pool virtual machine scale set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#tags DataRafayAksCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#tags DataRafayAksCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Valid values are VirtualMachineScaleSets, AvailabilitySet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
   */
   readonly type?: string;
   /**
   * The AKS node pool VM size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#vm_size DataRafayAksCluster#vm_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#vm_size DataRafayAksCluster#vm_size}
   */
   readonly vmSize?: string;
   /**
   * If this is not specified, a VNET and subnet will be generated and used. If no podSubnetID is specified, this applies to nodes and pods, otherwise it applies to just nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#vnet_subnet_id DataRafayAksCluster#vnet_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#vnet_subnet_id DataRafayAksCluster#vnet_subnet_id}
   */
   readonly vnetSubnetId?: string;
   /**
   * kubelet_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#kubelet_config DataRafayAksCluster#kubelet_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#kubelet_config DataRafayAksCluster#kubelet_config}
   */
   readonly kubeletConfig?: DataRafayAksClusterSpecClusterConfigSpecNodePoolsPropertiesKubeletConfig[] | cdktf.IResolvable;
   /**
   * linux_os_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#linux_os_config DataRafayAksCluster#linux_os_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#linux_os_config DataRafayAksCluster#linux_os_config}
   */
   readonly linuxOsConfig?: DataRafayAksClusterSpecClusterConfigSpecNodePoolsPropertiesLinuxOsConfig[] | cdktf.IResolvable;
   /**
   * upgrade_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#upgrade_settings DataRafayAksCluster#upgrade_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#upgrade_settings DataRafayAksCluster#upgrade_settings}
   */
   readonly upgradeSettings?: DataRafayAksClusterSpecClusterConfigSpecNodePoolsPropertiesUpgradeSettings[] | cdktf.IResolvable;
 }
@@ -14808,31 +14808,31 @@ export interface DataRafayAksClusterSpecClusterConfigSpecNodePools {
   /**
   * The AKS node pool api version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#apiversion DataRafayAksCluster#apiversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#apiversion DataRafayAksCluster#apiversion}
   */
   readonly apiversion: string;
   /**
   * AKS cluster location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#location DataRafayAksCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#location DataRafayAksCluster#location}
   */
   readonly location?: string;
   /**
   * The AKS node pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
   */
   readonly name: string;
   /**
   * The AKS node pool type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
   */
   readonly type?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#properties DataRafayAksCluster#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#properties DataRafayAksCluster#properties}
   */
   readonly properties: DataRafayAksClusterSpecClusterConfigSpecNodePoolsProperties[] | cdktf.IResolvable;
 }
@@ -15057,31 +15057,31 @@ export interface DataRafayAksClusterSpecClusterConfigSpec {
   /**
   * Resource Group for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#resource_group_name DataRafayAksCluster#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#resource_group_name DataRafayAksCluster#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
   * The AKS subscription id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#subscription_id DataRafayAksCluster#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#subscription_id DataRafayAksCluster#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
   * maintenance_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#maintenance_configurations DataRafayAksCluster#maintenance_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#maintenance_configurations DataRafayAksCluster#maintenance_configurations}
   */
   readonly maintenanceConfigurations?: DataRafayAksClusterSpecClusterConfigSpecMaintenanceConfigurations[] | cdktf.IResolvable;
   /**
   * managed_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#managed_cluster DataRafayAksCluster#managed_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#managed_cluster DataRafayAksCluster#managed_cluster}
   */
   readonly managedCluster?: DataRafayAksClusterSpecClusterConfigSpecManagedCluster[] | cdktf.IResolvable;
   /**
   * node_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#node_pools DataRafayAksCluster#node_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#node_pools DataRafayAksCluster#node_pools}
   */
   readonly nodePools: DataRafayAksClusterSpecClusterConfigSpecNodePools[] | cdktf.IResolvable;
 }
@@ -15309,25 +15309,25 @@ export interface DataRafayAksClusterSpecClusterConfig {
   /**
   * apiversion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#apiversion DataRafayAksCluster#apiversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#apiversion DataRafayAksCluster#apiversion}
   */
   readonly apiversion: string;
   /**
   * kind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#kind DataRafayAksCluster#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#kind DataRafayAksCluster#kind}
   */
   readonly kind?: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#metadata DataRafayAksCluster#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#metadata DataRafayAksCluster#metadata}
   */
   readonly metadata: DataRafayAksClusterSpecClusterConfigMetadata[] | cdktf.IResolvable;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#spec DataRafayAksCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#spec DataRafayAksCluster#spec}
   */
   readonly spec: DataRafayAksClusterSpecClusterConfigSpec[] | cdktf.IResolvable;
 }
@@ -15523,7 +15523,7 @@ export interface DataRafayAksClusterSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#name DataRafayAksCluster#name}
   */
   readonly name?: string;
 }
@@ -15641,13 +15641,13 @@ export interface DataRafayAksClusterSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#enabled DataRafayAksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#projects DataRafayAksCluster#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#projects DataRafayAksCluster#projects}
   */
   readonly projects?: DataRafayAksClusterSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -15762,31 +15762,31 @@ export interface DataRafayAksClusterSpecSystemComponentsPlacementDaemonsetOverri
   /**
   * indicates the taint effect to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#effect DataRafayAksCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#effect DataRafayAksCluster#effect}
   */
   readonly effect?: string;
   /**
   * the taint key that the toleration applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#key DataRafayAksCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#key DataRafayAksCluster#key}
   */
   readonly key?: string;
   /**
   * represents a key's relationship to the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#operator DataRafayAksCluster#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#operator DataRafayAksCluster#operator}
   */
   readonly operator?: string;
   /**
   * represents the period of time the toleration tolerates the taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#toleration_seconds DataRafayAksCluster#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#toleration_seconds DataRafayAksCluster#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * the taint value the toleration matches to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#value DataRafayAksCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#value DataRafayAksCluster#value}
   */
   readonly value?: string;
 }
@@ -16020,13 +16020,13 @@ export interface DataRafayAksClusterSpecSystemComponentsPlacementDaemonsetOverri
   /**
   * enables node selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#node_selection_enabled DataRafayAksCluster#node_selection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#node_selection_enabled DataRafayAksCluster#node_selection_enabled}
   */
   readonly nodeSelectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#tolerations DataRafayAksCluster#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#tolerations DataRafayAksCluster#tolerations}
   */
   readonly tolerations?: DataRafayAksClusterSpecSystemComponentsPlacementDaemonsetOverrideTolerations[] | cdktf.IResolvable;
 }
@@ -16173,31 +16173,31 @@ export interface DataRafayAksClusterSpecSystemComponentsPlacementTolerations {
   /**
   * indicates the taint effect to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#effect DataRafayAksCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#effect DataRafayAksCluster#effect}
   */
   readonly effect?: string;
   /**
   * the taint key that the toleration applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#key DataRafayAksCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#key DataRafayAksCluster#key}
   */
   readonly key?: string;
   /**
   * represents a key's relationship to the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#operator DataRafayAksCluster#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#operator DataRafayAksCluster#operator}
   */
   readonly operator?: string;
   /**
   * represents the period of time the toleration tolerates the taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#toleration_seconds DataRafayAksCluster#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#toleration_seconds DataRafayAksCluster#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * the taint value the toleration matches to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#value DataRafayAksCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#value DataRafayAksCluster#value}
   */
   readonly value?: string;
 }
@@ -16431,19 +16431,19 @@ export interface DataRafayAksClusterSpecSystemComponentsPlacement {
   /**
   * Key-Value pairs insuring pods to be scheduled on desired nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#node_selector DataRafayAksCluster#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#node_selector DataRafayAksCluster#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * daemonset_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#daemonset_override DataRafayAksCluster#daemonset_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#daemonset_override DataRafayAksCluster#daemonset_override}
   */
   readonly daemonsetOverride?: DataRafayAksClusterSpecSystemComponentsPlacementDaemonsetOverride[] | cdktf.IResolvable;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#tolerations DataRafayAksCluster#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#tolerations DataRafayAksCluster#tolerations}
   */
   readonly tolerations?: DataRafayAksClusterSpecSystemComponentsPlacementTolerations[] | cdktf.IResolvable;
 }
@@ -16587,43 +16587,43 @@ export interface DataRafayAksClusterSpec {
   /**
   * Blueprint to be associated with the cluster. Default will be default-aks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#blueprint DataRafayAksCluster#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#blueprint DataRafayAksCluster#blueprint}
   */
   readonly blueprint?: string;
   /**
   * Blueprint version to be associated with the cluster. Default will be the latest version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#blueprintversion DataRafayAksCluster#blueprintversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#blueprintversion DataRafayAksCluster#blueprintversion}
   */
   readonly blueprintversion?: string;
   /**
   * Cloud credentials provider used to create and manage the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#cloudprovider DataRafayAksCluster#cloudprovider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#cloudprovider DataRafayAksCluster#cloudprovider}
   */
   readonly cloudprovider: string;
   /**
   * AKS Cluster type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#type DataRafayAksCluster#type}
   */
   readonly type: string;
   /**
   * cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#cluster_config DataRafayAksCluster#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#cluster_config DataRafayAksCluster#cluster_config}
   */
   readonly clusterConfig: DataRafayAksClusterSpecClusterConfig[] | cdktf.IResolvable;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#sharing DataRafayAksCluster#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#sharing DataRafayAksCluster#sharing}
   */
   readonly sharing?: DataRafayAksClusterSpecSharing;
   /**
   * system_components_placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#system_components_placement DataRafayAksCluster#system_components_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#system_components_placement DataRafayAksCluster#system_components_placement}
   */
   readonly systemComponentsPlacement?: DataRafayAksClusterSpecSystemComponentsPlacement;
 }
@@ -16904,7 +16904,7 @@ export class DataRafayAksClusterSpecList extends cdktf.ComplexList {
 }
 export interface DataRafayAksClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#read DataRafayAksCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#read DataRafayAksCluster#read}
   */
   readonly read?: string;
 }
@@ -16998,7 +16998,7 @@ export class DataRafayAksClusterTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster rafay_aks_cluster}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster rafay_aks_cluster}
 */
 export class DataRafayAksCluster extends cdktf.TerraformDataSource {
 
@@ -17014,7 +17014,7 @@ export class DataRafayAksCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRafayAksCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRafayAksCluster to import
-  * @param importFromId The id of the existing DataRafayAksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRafayAksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRafayAksCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -17026,7 +17026,7 @@ export class DataRafayAksCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster rafay_aks_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/aks_cluster rafay_aks_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -17037,8 +17037,8 @@ export class DataRafayAksCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'rafay_aks_cluster',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

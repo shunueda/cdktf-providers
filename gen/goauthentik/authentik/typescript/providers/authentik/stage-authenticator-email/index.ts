@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,94 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface StageAuthenticatorEmailConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#configure_flow StageAuthenticatorEmail#configure_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#configure_flow StageAuthenticatorEmail#configure_flow}
   */
   readonly configureFlow?: string;
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#friendly_name StageAuthenticatorEmail#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#friendly_name StageAuthenticatorEmail#friendly_name}
   */
   readonly friendlyName?: string;
   /**
   * Defaults to `system@authentik.local`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#from_address StageAuthenticatorEmail#from_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#from_address StageAuthenticatorEmail#from_address}
   */
   readonly fromAddress?: string;
   /**
   * Defaults to `localhost`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#host StageAuthenticatorEmail#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#host StageAuthenticatorEmail#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#id StageAuthenticatorEmail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#id StageAuthenticatorEmail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#name StageAuthenticatorEmail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#name StageAuthenticatorEmail#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#password StageAuthenticatorEmail#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#password StageAuthenticatorEmail#password}
   */
   readonly password?: string;
   /**
   * Defaults to `25`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#port StageAuthenticatorEmail#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#port StageAuthenticatorEmail#port}
   */
   readonly port?: number;
   /**
   * Defaults to `authentik`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#subject StageAuthenticatorEmail#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#subject StageAuthenticatorEmail#subject}
   */
   readonly subject?: string;
   /**
   * Defaults to `email/password_reset.html`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#template StageAuthenticatorEmail#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#template StageAuthenticatorEmail#template}
   */
   readonly template?: string;
   /**
   * Defaults to `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#timeout StageAuthenticatorEmail#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#timeout StageAuthenticatorEmail#timeout}
   */
   readonly timeout?: number;
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `minutes=30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#token_expiry StageAuthenticatorEmail#token_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#token_expiry StageAuthenticatorEmail#token_expiry}
   */
   readonly tokenExpiry?: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#use_global_settings StageAuthenticatorEmail#use_global_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#use_global_settings StageAuthenticatorEmail#use_global_settings}
   */
   readonly useGlobalSettings?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#use_ssl StageAuthenticatorEmail#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#use_ssl StageAuthenticatorEmail#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#use_tls StageAuthenticatorEmail#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#use_tls StageAuthenticatorEmail#use_tls}
   */
   readonly useTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#username StageAuthenticatorEmail#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#username StageAuthenticatorEmail#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email authentik_stage_authenticator_email}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email authentik_stage_authenticator_email}
 */
 export class StageAuthenticatorEmail extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class StageAuthenticatorEmail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StageAuthenticatorEmail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StageAuthenticatorEmail to import
-  * @param importFromId The id of the existing StageAuthenticatorEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StageAuthenticatorEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StageAuthenticatorEmail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class StageAuthenticatorEmail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_email authentik_stage_authenticator_email} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_email authentik_stage_authenticator_email} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class StageAuthenticatorEmail extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_stage_authenticator_email',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,97 @@ export interface PbfRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#action PbfRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#action PbfRule#action}
   */
   readonly action?: PbfRuleAction;
   /**
   * Applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#application PbfRule#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#application PbfRule#application}
   */
   readonly application?: string[];
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#description PbfRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#description PbfRule#description}
   */
   readonly description?: string;
   /**
   * Destination addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#destination PbfRule#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#destination PbfRule#destination}
   */
   readonly destination?: string[];
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#device PbfRule#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#device PbfRule#device}
   */
   readonly device?: string;
   /**
   * Enforce symmetric return
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#enforce_symmetric_return PbfRule#enforce_symmetric_return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#enforce_symmetric_return PbfRule#enforce_symmetric_return}
   */
   readonly enforceSymmetricReturn?: PbfRuleEnforceSymmetricReturn;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#folder PbfRule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#folder PbfRule#folder}
   */
   readonly folder?: string;
   /**
   * From
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#from PbfRule#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#from PbfRule#from}
   */
   readonly from?: PbfRuleFrom;
   /**
   * PBF rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#name PbfRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#name PbfRule#name}
   */
   readonly name?: string;
   /**
   * Schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#schedule PbfRule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#schedule PbfRule#schedule}
   */
   readonly schedule?: string;
   /**
   * Services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#service PbfRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#service PbfRule#service}
   */
   readonly service?: string[];
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#snippet PbfRule#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#snippet PbfRule#snippet}
   */
   readonly snippet?: string;
   /**
   * Source addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#source PbfRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#source PbfRule#source}
   */
   readonly source?: string[];
   /**
   * Source users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#source_user PbfRule#source_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#source_user PbfRule#source_user}
   */
   readonly sourceUser?: string[];
   /**
   * Tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#tag PbfRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#tag PbfRule#tag}
   */
   readonly tag?: string[];
 }
@@ -161,19 +167,19 @@ export interface PbfRuleActionForwardMonitor {
   /**
   * Disable this rule if nexthop/monitor ip is unreachable?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#disable_if_unreachable PbfRule#disable_if_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#disable_if_unreachable PbfRule#disable_if_unreachable}
   */
   readonly disableIfUnreachable?: boolean | cdktf.IResolvable;
   /**
   * Monitor IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#ip_address PbfRule#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#ip_address PbfRule#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Monitoring profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#profile PbfRule#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#profile PbfRule#profile}
   */
   readonly profile?: string;
 }
@@ -326,14 +332,18 @@ export class PbfRuleActionForwardMonitorOutputReference extends cdktf.ComplexObj
 export interface PbfRuleActionForwardNexthop {
   /**
   * Next hop FQDN
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `fqdn` and `ip_address`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#fqdn PbfRule#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#fqdn PbfRule#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Next hop IP address
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `fqdn` and `ip_address`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#ip_address PbfRule#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#ip_address PbfRule#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -458,19 +468,19 @@ export interface PbfRuleActionForward {
   /**
   * Egress interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#egress_interface PbfRule#egress_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#egress_interface PbfRule#egress_interface}
   */
   readonly egressInterface?: string;
   /**
   * Monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#monitor PbfRule#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#monitor PbfRule#monitor}
   */
   readonly monitor?: PbfRuleActionForwardMonitor;
   /**
   * Nexthop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#nexthop PbfRule#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#nexthop PbfRule#nexthop}
   */
   readonly nexthop?: PbfRuleActionForwardNexthop;
 }
@@ -682,20 +692,26 @@ export class PbfRuleActionNoPbfOutputReference extends cdktf.ComplexObject {
 export interface PbfRuleAction {
   /**
   * Discard
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `discard`, `forward`, and `no_pbf`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#discard PbfRule#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#discard PbfRule#discard}
   */
   readonly discard?: PbfRuleActionDiscard;
   /**
   * Forward
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `discard`, `forward`, and `no_pbf`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#forward PbfRule#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#forward PbfRule#forward}
   */
   readonly forward?: PbfRuleActionForward;
   /**
   * No pbf
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `discard`, `forward`, and `no_pbf`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#no_pbf PbfRule#no_pbf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#no_pbf PbfRule#no_pbf}
   */
   readonly noPbf?: PbfRuleActionNoPbf;
 }
@@ -849,7 +865,7 @@ export interface PbfRuleEnforceSymmetricReturnNexthopAddressListStruct {
   /**
   * Next hop IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#name PbfRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#name PbfRule#name}
   */
   readonly name?: string;
 }
@@ -967,13 +983,13 @@ export interface PbfRuleEnforceSymmetricReturn {
   /**
   * Enforce symmetric return?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#enabled PbfRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#enabled PbfRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Next hop IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#nexthop_address_list PbfRule#nexthop_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#nexthop_address_list PbfRule#nexthop_address_list}
   */
   readonly nexthopAddressList?: PbfRuleEnforceSymmetricReturnNexthopAddressListStruct[] | cdktf.IResolvable;
 }
@@ -1097,14 +1113,18 @@ export class PbfRuleEnforceSymmetricReturnOutputReference extends cdktf.ComplexO
 export interface PbfRuleFrom {
   /**
   * Source interfaces
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `interface` and `zone`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#interface PbfRule#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#interface PbfRule#interface}
   */
   readonly interface?: string[];
   /**
   * Source zones
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `interface` and `zone`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#zone PbfRule#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#zone PbfRule#zone}
   */
   readonly zone?: string[];
 }
@@ -1227,7 +1247,7 @@ export class PbfRuleFromOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule scm_pbf_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule scm_pbf_rule}
 */
 export class PbfRule extends cdktf.TerraformResource {
 
@@ -1243,7 +1263,7 @@ export class PbfRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PbfRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PbfRule to import
-  * @param importFromId The id of the existing PbfRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PbfRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PbfRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1255,7 +1275,7 @@ export class PbfRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/pbf_rule scm_pbf_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/pbf_rule scm_pbf_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1266,8 +1286,8 @@ export class PbfRule extends cdktf.TerraformResource {
       terraformResourceType: 'scm_pbf_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

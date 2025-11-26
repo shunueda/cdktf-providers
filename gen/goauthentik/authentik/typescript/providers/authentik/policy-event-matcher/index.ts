@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_event_matcher
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_event_matcher
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PolicyEventMatcherConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_event_matcher#action PolicyEventMatcher#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_event_matcher#action PolicyEventMatcher#action}
   */
   readonly action?: string;
   /**
@@ -20,6 +20,8 @@ export interface PolicyEventMatcherConfig extends cdktf.TerraformMetaArguments {
   *   - `authentik.api`
   *   - `authentik.core`
   *   - `authentik.crypto`
+  *   - `authentik.endpoints`
+  *   - `authentik.endpoints.connectors.agent`
   *   - `authentik.enterprise`
   *   - `authentik.events`
   *   - `authentik.flows`
@@ -74,6 +76,7 @@ export interface PolicyEventMatcherConfig extends cdktf.TerraformMetaArguments {
   *   - `authentik.brands`
   *   - `authentik.blueprints`
   *   - `authentik.enterprise.audit`
+  *   - `authentik.enterprise.endpoints.connectors.agent`
   *   - `authentik.enterprise.policies.unique_password`
   *   - `authentik.enterprise.providers.google_workspace`
   *   - `authentik.enterprise.providers.microsoft_entra`
@@ -85,21 +88,21 @@ export interface PolicyEventMatcherConfig extends cdktf.TerraformMetaArguments {
   *   - `authentik.enterprise.stages.mtls`
   *   - `authentik.enterprise.stages.source`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_event_matcher#app PolicyEventMatcher#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_event_matcher#app PolicyEventMatcher#app}
   */
   readonly app?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_event_matcher#client_ip PolicyEventMatcher#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_event_matcher#client_ip PolicyEventMatcher#client_ip}
   */
   readonly clientIp?: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_event_matcher#execution_logging PolicyEventMatcher#execution_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_event_matcher#execution_logging PolicyEventMatcher#execution_logging}
   */
   readonly executionLogging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_event_matcher#id PolicyEventMatcher#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_event_matcher#id PolicyEventMatcher#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -114,6 +117,11 @@ export interface PolicyEventMatcherConfig extends cdktf.TerraformMetaArguments {
   *   - `authentik_core.applicationentitlement`
   *   - `authentik_core.token`
   *   - `authentik_crypto.certificatekeypair`
+  *   - `authentik_endpoints.deviceuserbinding`
+  *   - `authentik_endpoints.endpointstage`
+  *   - `authentik_endpoints_connectors_agent.agentconnector`
+  *   - `authentik_endpoints_connectors_agent.agentdeviceuserbinding`
+  *   - `authentik_endpoints_connectors_agent.enrollmenttoken`
   *   - `authentik_enterprise.license`
   *   - `authentik_events.event`
   *   - `authentik_events.notificationtransport`
@@ -216,17 +224,17 @@ export interface PolicyEventMatcherConfig extends cdktf.TerraformMetaArguments {
   *   - `authentik_stages_mtls.mutualtlsstage`
   *   - `authentik_stages_source.sourcestage`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_event_matcher#model PolicyEventMatcher#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_event_matcher#model PolicyEventMatcher#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_event_matcher#name PolicyEventMatcher#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_event_matcher#name PolicyEventMatcher#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_event_matcher authentik_policy_event_matcher}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_event_matcher authentik_policy_event_matcher}
 */
 export class PolicyEventMatcher extends cdktf.TerraformResource {
 
@@ -242,7 +250,7 @@ export class PolicyEventMatcher extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyEventMatcher resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyEventMatcher to import
-  * @param importFromId The id of the existing PolicyEventMatcher that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_event_matcher#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyEventMatcher that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_event_matcher#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyEventMatcher to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -254,7 +262,7 @@ export class PolicyEventMatcher extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_event_matcher authentik_policy_event_matcher} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_event_matcher authentik_policy_event_matcher} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,8 +273,8 @@ export class PolicyEventMatcher extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_policy_event_matcher',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

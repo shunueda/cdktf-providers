@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ProviderProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `minutes=10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#access_token_validity ProviderProxy#access_token_validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#access_token_validity ProviderProxy#access_token_validity}
   */
   readonly accessTokenValidity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#authentication_flow ProviderProxy#authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#authentication_flow ProviderProxy#authentication_flow}
   */
   readonly authenticationFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#authorization_flow ProviderProxy#authorization_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#authorization_flow ProviderProxy#authorization_flow}
   */
   readonly authorizationFlow: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#basic_auth_enabled ProviderProxy#basic_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#basic_auth_enabled ProviderProxy#basic_auth_enabled}
   */
   readonly basicAuthEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#basic_auth_password_attribute ProviderProxy#basic_auth_password_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#basic_auth_password_attribute ProviderProxy#basic_auth_password_attribute}
   */
   readonly basicAuthPasswordAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#basic_auth_username_attribute ProviderProxy#basic_auth_username_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#basic_auth_username_attribute ProviderProxy#basic_auth_username_attribute}
   */
   readonly basicAuthUsernameAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#cookie_domain ProviderProxy#cookie_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#cookie_domain ProviderProxy#cookie_domain}
   */
   readonly cookieDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#external_host ProviderProxy#external_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#external_host ProviderProxy#external_host}
   */
   readonly externalHost: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#id ProviderProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#id ProviderProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,39 +53,39 @@ export interface ProviderProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#intercept_header_auth ProviderProxy#intercept_header_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#intercept_header_auth ProviderProxy#intercept_header_auth}
   */
   readonly interceptHeaderAuth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#internal_host ProviderProxy#internal_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#internal_host ProviderProxy#internal_host}
   */
   readonly internalHost?: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#internal_host_ssl_validation ProviderProxy#internal_host_ssl_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#internal_host_ssl_validation ProviderProxy#internal_host_ssl_validation}
   */
   readonly internalHostSslValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#invalidation_flow ProviderProxy#invalidation_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#invalidation_flow ProviderProxy#invalidation_flow}
   */
   readonly invalidationFlow: string;
   /**
   * Deprecated. Use `jwt_federation_sources` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#jwks_sources ProviderProxy#jwks_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#jwks_sources ProviderProxy#jwks_sources}
   */
   readonly jwksSources?: string[];
   /**
   * JWTs issued by any of the configured providers can be used to authenticate on behalf of this provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#jwt_federation_providers ProviderProxy#jwt_federation_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#jwt_federation_providers ProviderProxy#jwt_federation_providers}
   */
   readonly jwtFederationProviders?: number[];
   /**
   * JWTs issued by keys configured in any of the selected sources can be used to authenticate on behalf of this provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#jwt_federation_sources ProviderProxy#jwt_federation_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#jwt_federation_sources ProviderProxy#jwt_federation_sources}
   */
   readonly jwtFederationSources?: string[];
   /**
@@ -95,31 +95,31 @@ export interface ProviderProxyConfig extends cdktf.TerraformMetaArguments {
   *   - `forward_domain`
   *  Defaults to `proxy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#mode ProviderProxy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#mode ProviderProxy#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#name ProviderProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#name ProviderProxy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#property_mappings ProviderProxy#property_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#property_mappings ProviderProxy#property_mappings}
   */
   readonly propertyMappings?: string[];
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `days=30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#refresh_token_validity ProviderProxy#refresh_token_validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#refresh_token_validity ProviderProxy#refresh_token_validity}
   */
   readonly refreshTokenValidity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#skip_path_regex ProviderProxy#skip_path_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#skip_path_regex ProviderProxy#skip_path_regex}
   */
   readonly skipPathRegex?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy authentik_provider_proxy}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy authentik_provider_proxy}
 */
 export class ProviderProxy extends cdktf.TerraformResource {
 
@@ -135,7 +135,7 @@ export class ProviderProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProviderProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProviderProxy to import
-  * @param importFromId The id of the existing ProviderProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProviderProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProviderProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class ProviderProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_proxy authentik_provider_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_proxy authentik_provider_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class ProviderProxy extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_provider_proxy',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

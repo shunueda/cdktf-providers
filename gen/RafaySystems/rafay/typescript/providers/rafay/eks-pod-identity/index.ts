@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EksPodIdentityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#id EksPodIdentity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#id EksPodIdentity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,23 +17,23 @@ export interface EksPodIdentityConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#metadata EksPodIdentity#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#metadata EksPodIdentity#metadata}
   */
   readonly metadata: EksPodIdentityMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#spec EksPodIdentity#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#spec EksPodIdentity#spec}
   */
   readonly spec: EksPodIdentitySpec;
 }
 export interface EksPodIdentityMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#cluster_name EksPodIdentity#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#cluster_name EksPodIdentity#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#project_name EksPodIdentity#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#project_name EksPodIdentity#project_name}
   */
   readonly projectName: string;
 }
@@ -142,43 +142,43 @@ export interface EksPodIdentitySpecWellKnownPolicies {
   /**
   * service account annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#auto_scaler EksPodIdentity#auto_scaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#auto_scaler EksPodIdentity#auto_scaler}
   */
   readonly autoScaler?: boolean | cdktf.IResolvable;
   /**
   * adds policies for using the aws-load-balancer-controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#aws_load_balancer_controller EksPodIdentity#aws_load_balancer_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#aws_load_balancer_controller EksPodIdentity#aws_load_balancer_controller}
   */
   readonly awsLoadBalancerController?: boolean | cdktf.IResolvable;
   /**
   * adds cert-manager policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#cert_manager EksPodIdentity#cert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#cert_manager EksPodIdentity#cert_manager}
   */
   readonly certManager?: boolean | cdktf.IResolvable;
   /**
   * adds cert-manager policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#ebs_csi_controller EksPodIdentity#ebs_csi_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#ebs_csi_controller EksPodIdentity#ebs_csi_controller}
   */
   readonly ebsCsiController?: boolean | cdktf.IResolvable;
   /**
   * adds policies for using the ebs-csi-controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#efs_csi_controller EksPodIdentity#efs_csi_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#efs_csi_controller EksPodIdentity#efs_csi_controller}
   */
   readonly efsCsiController?: boolean | cdktf.IResolvable;
   /**
   * adds external-dns policies for Amazon Route 53.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#external_dns EksPodIdentity#external_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#external_dns EksPodIdentity#external_dns}
   */
   readonly externalDns?: boolean | cdktf.IResolvable;
   /**
   * allows for full ECR (Elastic Container Registry) access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#image_builder EksPodIdentity#image_builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#image_builder EksPodIdentity#image_builder}
   */
   readonly imageBuilder?: boolean | cdktf.IResolvable;
 }
@@ -470,61 +470,61 @@ export interface EksPodIdentitySpec {
   /**
   * enable flag to create service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#create_service_account EksPodIdentity#create_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#create_service_account EksPodIdentity#create_service_account}
   */
   readonly createServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * namespace of service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#namespace EksPodIdentity#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#namespace EksPodIdentity#namespace}
   */
   readonly namespace: string;
   /**
   * permission boundary ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#permission_boundary_arn EksPodIdentity#permission_boundary_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#permission_boundary_arn EksPodIdentity#permission_boundary_arn}
   */
   readonly permissionBoundaryArn?: string;
   /**
   * permission policy document
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#permission_policy EksPodIdentity#permission_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#permission_policy EksPodIdentity#permission_policy}
   */
   readonly permissionPolicy?: string;
   /**
   * permission policy ARNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#permission_policy_arns EksPodIdentity#permission_policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#permission_policy_arns EksPodIdentity#permission_policy_arns}
   */
   readonly permissionPolicyArns?: string[];
   /**
   * role ARN of AWS role to associate with service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#role_arn EksPodIdentity#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#role_arn EksPodIdentity#role_arn}
   */
   readonly roleArn?: string;
   /**
   * aws role name to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#role_name EksPodIdentity#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#role_name EksPodIdentity#role_name}
   */
   readonly roleName?: string;
   /**
   * name of service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#service_account_name EksPodIdentity#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#service_account_name EksPodIdentity#service_account_name}
   */
   readonly serviceAccountName: string;
   /**
   * AWS tags for the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#tags EksPodIdentity#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#tags EksPodIdentity#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * well_known_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#well_known_policies EksPodIdentity#well_known_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#well_known_policies EksPodIdentity#well_known_policies}
   */
   readonly wellKnownPolicies?: EksPodIdentitySpecWellKnownPolicies[] | cdktf.IResolvable;
 }
@@ -863,7 +863,7 @@ export class EksPodIdentitySpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity rafay_eks_pod_identity}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity rafay_eks_pod_identity}
 */
 export class EksPodIdentity extends cdktf.TerraformResource {
 
@@ -879,7 +879,7 @@ export class EksPodIdentity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EksPodIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksPodIdentity to import
-  * @param importFromId The id of the existing EksPodIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksPodIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksPodIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -891,7 +891,7 @@ export class EksPodIdentity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_pod_identity rafay_eks_pod_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_pod_identity rafay_eks_pod_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -902,8 +902,8 @@ export class EksPodIdentity extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_eks_pod_identity',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

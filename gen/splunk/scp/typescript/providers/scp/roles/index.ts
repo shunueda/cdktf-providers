@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles
+// https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface RolesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The capabilities attached to the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#capabilities Roles#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#capabilities Roles#capabilities}
   */
   readonly capabilities?: string[];
   /**
   * Maximum number of concurrently running real-time searches that all members of this role can have. The value must be a non-negative number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#cumulative_rt_srch_jobs_quota Roles#cumulative_rt_srch_jobs_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#cumulative_rt_srch_jobs_quota Roles#cumulative_rt_srch_jobs_quota}
   */
   readonly cumulativeRtSrchJobsQuota?: number;
   /**
   * Maximum number of concurrently running historical searches that all members of this role can have. The value must be a non-negative number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#cumulative_srch_jobs_quota Roles#cumulative_srch_jobs_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#cumulative_srch_jobs_quota Roles#cumulative_srch_jobs_quota}
   */
   readonly cumulativeSrchJobsQuota?: number;
   /**
   * Set the default app for this role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#default_app Roles#default_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#default_app Roles#default_app}
   */
   readonly defaultApp?: string;
   /**
   * If 'imported_roles' or 'capabilities' contains the 'fsh_manage' capability, you must set this attribute to a value of "Y". This header acknowledges that a role with the 'fsh_manage' capability can send search results outside the compliant environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#federated_search_manage_ack Roles#federated_search_manage_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#federated_search_manage_ack Roles#federated_search_manage_ack}
   */
   readonly federatedSearchManageAck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#id Roles#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#id Roles#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,67 +47,67 @@ export interface RolesConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of other roles and their associated capabilities that should be imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#imported_roles Roles#imported_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#imported_roles Roles#imported_roles}
   */
   readonly importedRoles?: string[];
   /**
   * The name of the role to create. Can not be updated after creation, if changed in config file terraform will propose a replacement (delete old role and recreate with new name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#name Roles#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#name Roles#name}
   */
   readonly name: string;
   /**
   * Maximum number of concurrently running real-time searches a member of this role can have. The value must be a non-negative number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#rt_srch_jobs_quota Roles#rt_srch_jobs_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#rt_srch_jobs_quota Roles#rt_srch_jobs_quota}
   */
   readonly rtSrchJobsQuota?: number;
   /**
   * Maximum amount of disk space (MB) that can be used by search jobs of a user that belongs to this role. The value must be a non-negative number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#srch_disk_quota Roles#srch_disk_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#srch_disk_quota Roles#srch_disk_quota}
   */
   readonly srchDiskQuota?: number;
   /**
   * List of search filters for this Role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#srch_filter Roles#srch_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#srch_filter Roles#srch_filter}
   */
   readonly srchFilter?: string;
   /**
   * List of indexes this role is allowed to search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#srch_indexes_allowed Roles#srch_indexes_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#srch_indexes_allowed Roles#srch_indexes_allowed}
   */
   readonly srchIndexesAllowed?: string[];
   /**
   * List of indexes to search when no index is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#srch_indexes_default Roles#srch_indexes_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#srch_indexes_default Roles#srch_indexes_default}
   */
   readonly srchIndexesDefault?: string[];
   /**
   * Maximum number of concurrently running historical searches a member of this role can have. The value must be a non-negative number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#srch_jobs_quota Roles#srch_jobs_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#srch_jobs_quota Roles#srch_jobs_quota}
   */
   readonly srchJobsQuota?: number;
   /**
   * Maximum amount of time that searches of users from this role will be allowed to run. A value of -1 means unset, 0 means infinite. Any other value is the amount of time in seconds, for example, 300 would mean 300s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#srch_time_earliest Roles#srch_time_earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#srch_time_earliest Roles#srch_time_earliest}
   */
   readonly srchTimeEarliest?: number;
   /**
   * Maximum time span of a search, in seconds. A value of -1 means unset, 0 means infinite. Any other value is the amount of time in seconds, for example, 300 would mean 300s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#srch_time_win Roles#srch_time_win}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#srch_time_win Roles#srch_time_win}
   */
   readonly srchTimeWin?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles scp_roles}
+* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles scp_roles}
 */
 export class Roles extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class Roles extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Roles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Roles to import
-  * @param importFromId The id of the existing Roles that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Roles that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Roles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class Roles extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/roles scp_roles} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/roles scp_roles} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class Roles extends cdktf.TerraformResource {
       terraformResourceType: 'scp_roles',
       terraformGeneratorMetadata: {
         providerName: 'scp',
-        providerVersion: '1.2.7',
-        providerVersionConstraint: '1.2.7'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

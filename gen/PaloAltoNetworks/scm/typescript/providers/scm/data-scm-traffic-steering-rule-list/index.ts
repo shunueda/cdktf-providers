@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataScmTrafficSteeringRuleListConfig extends cdktf.TerraformMet
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule_list#device DataScmTrafficSteeringRuleList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule_list#device DataScmTrafficSteeringRuleList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule_list#folder DataScmTrafficSteeringRuleList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule_list#folder DataScmTrafficSteeringRuleList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule_list#limit DataScmTrafficSteeringRuleList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule_list#limit DataScmTrafficSteeringRuleList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule_list#name DataScmTrafficSteeringRuleList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule_list#name DataScmTrafficSteeringRuleList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule_list#offset DataScmTrafficSteeringRuleList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule_list#offset DataScmTrafficSteeringRuleList#offset}
   */
   readonly offset?: number;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule_list#snippet DataScmTrafficSteeringRuleList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule_list#snippet DataScmTrafficSteeringRuleList#snippet}
   */
   readonly snippet?: string;
 }
@@ -267,7 +267,7 @@ export interface DataScmTrafficSteeringRuleListData {
   /**
   * The UUID of the traffic steering rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule_list#id DataScmTrafficSteeringRuleList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule_list#id DataScmTrafficSteeringRuleList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -276,7 +276,7 @@ export interface DataScmTrafficSteeringRuleListData {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule_list#name DataScmTrafficSteeringRuleList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule_list#name DataScmTrafficSteeringRuleList#name}
   */
   readonly name?: string;
 }
@@ -449,7 +449,7 @@ export class DataScmTrafficSteeringRuleListDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule_list scm_traffic_steering_rule_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule_list scm_traffic_steering_rule_list}
 */
 export class DataScmTrafficSteeringRuleList extends cdktf.TerraformDataSource {
 
@@ -465,7 +465,7 @@ export class DataScmTrafficSteeringRuleList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmTrafficSteeringRuleList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmTrafficSteeringRuleList to import
-  * @param importFromId The id of the existing DataScmTrafficSteeringRuleList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmTrafficSteeringRuleList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmTrafficSteeringRuleList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -477,7 +477,7 @@ export class DataScmTrafficSteeringRuleList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule_list scm_traffic_steering_rule_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule_list scm_traffic_steering_rule_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -488,8 +488,8 @@ export class DataScmTrafficSteeringRuleList extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_traffic_steering_rule_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

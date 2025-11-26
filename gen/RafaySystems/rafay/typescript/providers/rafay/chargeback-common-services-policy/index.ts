@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ChargebackCommonServicesPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#id ChargebackCommonServicesPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#id ChargebackCommonServicesPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ChargebackCommonServicesPolicyConfig extends cdktf.TerraformMet
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#metadata ChargebackCommonServicesPolicy#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#metadata ChargebackCommonServicesPolicy#metadata}
   */
   readonly metadata?: ChargebackCommonServicesPolicyMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#spec ChargebackCommonServicesPolicy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#spec ChargebackCommonServicesPolicy#spec}
   */
   readonly spec?: ChargebackCommonServicesPolicySpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#timeouts ChargebackCommonServicesPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#timeouts ChargebackCommonServicesPolicy#timeouts}
   */
   readonly timeouts?: ChargebackCommonServicesPolicyTimeouts;
 }
@@ -37,7 +37,7 @@ export interface ChargebackCommonServicesPolicyMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#id ChargebackCommonServicesPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#id ChargebackCommonServicesPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface ChargebackCommonServicesPolicyMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#is_sso_user ChargebackCommonServicesPolicy#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#is_sso_user ChargebackCommonServicesPolicy#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#username ChargebackCommonServicesPolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#username ChargebackCommonServicesPolicy#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface ChargebackCommonServicesPolicyMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#id ChargebackCommonServicesPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#id ChargebackCommonServicesPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface ChargebackCommonServicesPolicyMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#is_sso_user ChargebackCommonServicesPolicy#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#is_sso_user ChargebackCommonServicesPolicy#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#username ChargebackCommonServicesPolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#username ChargebackCommonServicesPolicy#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface ChargebackCommonServicesPolicyMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#annotations ChargebackCommonServicesPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#annotations ChargebackCommonServicesPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#description ChargebackCommonServicesPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#description ChargebackCommonServicesPolicy#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#display_name ChargebackCommonServicesPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#display_name ChargebackCommonServicesPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#labels ChargebackCommonServicesPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#labels ChargebackCommonServicesPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#name ChargebackCommonServicesPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#name ChargebackCommonServicesPolicy#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#project ChargebackCommonServicesPolicy#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#project ChargebackCommonServicesPolicy#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#created_by ChargebackCommonServicesPolicy#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#created_by ChargebackCommonServicesPolicy#created_by}
   */
   readonly createdBy?: ChargebackCommonServicesPolicyMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#modified_by ChargebackCommonServicesPolicy#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#modified_by ChargebackCommonServicesPolicy#modified_by}
   */
   readonly modifiedBy?: ChargebackCommonServicesPolicyMetadataModifiedBy;
 }
@@ -686,13 +686,13 @@ export interface ChargebackCommonServicesPolicySpecClusterLabels {
   /**
   * key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#key ChargebackCommonServicesPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#key ChargebackCommonServicesPolicy#key}
   */
   readonly key?: string;
   /**
   * cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#value ChargebackCommonServicesPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#value ChargebackCommonServicesPolicy#value}
   */
   readonly value?: string;
 }
@@ -839,13 +839,13 @@ export interface ChargebackCommonServicesPolicySpecCommonServicesNamespaceLabels
   /**
   * key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#key ChargebackCommonServicesPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#key ChargebackCommonServicesPolicy#key}
   */
   readonly key?: string;
   /**
   * cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#value ChargebackCommonServicesPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#value ChargebackCommonServicesPolicy#value}
   */
   readonly value?: string;
 }
@@ -992,37 +992,37 @@ export interface ChargebackCommonServicesPolicySpec {
   /**
   * Cluster Names for which the policy is being defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#clusters ChargebackCommonServicesPolicy#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#clusters ChargebackCommonServicesPolicy#clusters}
   */
   readonly clusters?: string[];
   /**
   * Namespaces that are common services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#common_services_namespaces ChargebackCommonServicesPolicy#common_services_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#common_services_namespaces ChargebackCommonServicesPolicy#common_services_namespaces}
   */
   readonly commonServicesNamespaces?: string[];
   /**
   * Project for which the policy is being defined for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#policy_project ChargebackCommonServicesPolicy#policy_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#policy_project ChargebackCommonServicesPolicy#policy_project}
   */
   readonly policyProject?: string;
   /**
   * Cluster Selection based on clusterLabels or clusterNames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#selection_type ChargebackCommonServicesPolicy#selection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#selection_type ChargebackCommonServicesPolicy#selection_type}
   */
   readonly selectionType?: string;
   /**
   * cluster_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#cluster_labels ChargebackCommonServicesPolicy#cluster_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#cluster_labels ChargebackCommonServicesPolicy#cluster_labels}
   */
   readonly clusterLabels?: ChargebackCommonServicesPolicySpecClusterLabels[] | cdktf.IResolvable;
   /**
   * common_services_namespace_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#common_services_namespace_labels ChargebackCommonServicesPolicy#common_services_namespace_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#common_services_namespace_labels ChargebackCommonServicesPolicy#common_services_namespace_labels}
   */
   readonly commonServicesNamespaceLabels?: ChargebackCommonServicesPolicySpecCommonServicesNamespaceLabels[] | cdktf.IResolvable;
 }
@@ -1251,15 +1251,15 @@ export class ChargebackCommonServicesPolicySpecOutputReference extends cdktf.Com
 }
 export interface ChargebackCommonServicesPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#create ChargebackCommonServicesPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#create ChargebackCommonServicesPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#delete ChargebackCommonServicesPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#delete ChargebackCommonServicesPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#update ChargebackCommonServicesPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#update ChargebackCommonServicesPolicy#update}
   */
   readonly update?: string;
 }
@@ -1411,7 +1411,7 @@ export class ChargebackCommonServicesPolicyTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy rafay_chargeback_common_services_policy}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy rafay_chargeback_common_services_policy}
 */
 export class ChargebackCommonServicesPolicy extends cdktf.TerraformResource {
 
@@ -1427,7 +1427,7 @@ export class ChargebackCommonServicesPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChargebackCommonServicesPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChargebackCommonServicesPolicy to import
-  * @param importFromId The id of the existing ChargebackCommonServicesPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChargebackCommonServicesPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChargebackCommonServicesPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1439,7 +1439,7 @@ export class ChargebackCommonServicesPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_common_services_policy rafay_chargeback_common_services_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/chargeback_common_services_policy rafay_chargeback_common_services_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1450,8 +1450,8 @@ export class ChargebackCommonServicesPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_chargeback_common_services_policy',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

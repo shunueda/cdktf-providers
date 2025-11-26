@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface EksClusterSpecConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec#checkdiff EksClusterSpec#checkdiff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec#checkdiff EksClusterSpec#checkdiff}
   */
   readonly checkdiff?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec#id EksClusterSpec#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec#id EksClusterSpec#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec#name EksClusterSpec#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec#name EksClusterSpec#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec#projectname EksClusterSpec#projectname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec#projectname EksClusterSpec#projectname}
   */
   readonly projectname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec#waitflag EksClusterSpec#waitflag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec#waitflag EksClusterSpec#waitflag}
   */
   readonly waitflag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec#yamlfilepath EksClusterSpec#yamlfilepath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec#yamlfilepath EksClusterSpec#yamlfilepath}
   */
   readonly yamlfilepath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec#yamlfileversion EksClusterSpec#yamlfileversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec#yamlfileversion EksClusterSpec#yamlfileversion}
   */
   readonly yamlfileversion: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec#timeouts EksClusterSpec#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec#timeouts EksClusterSpec#timeouts}
   */
   readonly timeouts?: EksClusterSpecTimeouts;
 }
 export interface EksClusterSpecTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec#create EksClusterSpec#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec#create EksClusterSpec#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec#delete EksClusterSpec#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec#delete EksClusterSpec#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec#update EksClusterSpec#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec#update EksClusterSpec#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class EksClusterSpecTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec rafay_eks_cluster_spec}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec rafay_eks_cluster_spec}
 */
 export class EksClusterSpec extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class EksClusterSpec extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EksClusterSpec resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksClusterSpec to import
-  * @param importFromId The id of the existing EksClusterSpec that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksClusterSpec that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksClusterSpec to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class EksClusterSpec extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster_spec rafay_eks_cluster_spec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster_spec rafay_eks_cluster_spec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class EksClusterSpec extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_eks_cluster_spec',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

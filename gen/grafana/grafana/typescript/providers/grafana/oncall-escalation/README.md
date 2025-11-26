@@ -1,3 +1,3 @@
 # `grafana_oncall_escalation`
 
-Refer to the Terraform Registry for docs: [`grafana_oncall_escalation`](https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/oncall_escalation).
+Refer to the Terraform Registry for docs: [`grafana_oncall_escalation`](https://registry.terraform.io/providers/grafana/grafana/4.20.0/docs/resources/oncall_escalation).

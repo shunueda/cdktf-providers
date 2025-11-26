@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface SourceOauthConfig extends cdktf.TerraformMetaArguments {
   /**
   * Only required for OAuth1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#access_token_url SourceOauth#access_token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#access_token_url SourceOauth#access_token_url}
   */
   readonly accessTokenUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#additional_scopes SourceOauth#additional_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#additional_scopes SourceOauth#additional_scopes}
   */
   readonly additionalScopes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#authentication_flow SourceOauth#authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#authentication_flow SourceOauth#authentication_flow}
   */
   readonly authenticationFlow?: string;
   /**
@@ -27,31 +27,31 @@ export interface SourceOauthConfig extends cdktf.TerraformMetaArguments {
   *   - `post_body`
   *  Defaults to `basic_auth`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#authorization_code_auth_method SourceOauth#authorization_code_auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#authorization_code_auth_method SourceOauth#authorization_code_auth_method}
   */
   readonly authorizationCodeAuthMethod?: string;
   /**
   * Manually configure OAuth2 URLs when `oidc_well_known_url` is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#authorization_url SourceOauth#authorization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#authorization_url SourceOauth#authorization_url}
   */
   readonly authorizationUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#consumer_key SourceOauth#consumer_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#consumer_key SourceOauth#consumer_key}
   */
   readonly consumerKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#consumer_secret SourceOauth#consumer_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#consumer_secret SourceOauth#consumer_secret}
   */
   readonly consumerSecret: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#enabled SourceOauth#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#enabled SourceOauth#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#enrollment_flow SourceOauth#enrollment_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#enrollment_flow SourceOauth#enrollment_flow}
   */
   readonly enrollmentFlow?: string;
   /**
@@ -61,36 +61,36 @@ export interface SourceOauthConfig extends cdktf.TerraformMetaArguments {
   *   - `name_deny`
   *  Defaults to `identifier`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#group_matching_mode SourceOauth#group_matching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#group_matching_mode SourceOauth#group_matching_mode}
   */
   readonly groupMatchingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#id SourceOauth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#id SourceOauth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#name SourceOauth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#name SourceOauth#name}
   */
   readonly name: string;
   /**
   * Manually configure JWKS keys for use with machine-to-machine authentication. JSON format expected. Use `jsonencode()` to pass objects. Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#oidc_jwks SourceOauth#oidc_jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#oidc_jwks SourceOauth#oidc_jwks}
   */
   readonly oidcJwks?: string;
   /**
   * Automatically configure JWKS if not specified by `oidc_well_known_url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#oidc_jwks_url SourceOauth#oidc_jwks_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#oidc_jwks_url SourceOauth#oidc_jwks_url}
   */
   readonly oidcJwksUrl?: string;
   /**
   * Automatically configure source from OIDC well-known endpoint. URL is taken as is, and should end with `.well-known/openid-configuration`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#oidc_well_known_url SourceOauth#oidc_well_known_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#oidc_well_known_url SourceOauth#oidc_well_known_url}
   */
   readonly oidcWellKnownUrl?: string;
   /**
@@ -100,7 +100,7 @@ export interface SourceOauthConfig extends cdktf.TerraformMetaArguments {
   *   - `S256`
   *  Defaults to `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#pkce SourceOauth#pkce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#pkce SourceOauth#pkce}
   */
   readonly pkce?: string;
   /**
@@ -109,21 +109,21 @@ export interface SourceOauthConfig extends cdktf.TerraformMetaArguments {
   *   - `any`
   *  Defaults to `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#policy_engine_mode SourceOauth#policy_engine_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#policy_engine_mode SourceOauth#policy_engine_mode}
   */
   readonly policyEngineMode?: string;
   /**
   * Manually configure OAuth2 URLs when `oidc_well_known_url` is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#profile_url SourceOauth#profile_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#profile_url SourceOauth#profile_url}
   */
   readonly profileUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#property_mappings SourceOauth#property_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#property_mappings SourceOauth#property_mappings}
   */
   readonly propertyMappings?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#property_mappings_group SourceOauth#property_mappings_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#property_mappings_group SourceOauth#property_mappings_group}
   */
   readonly propertyMappingsGroup?: string[];
   /**
@@ -144,17 +144,17 @@ export interface SourceOauthConfig extends cdktf.TerraformMetaArguments {
   *   - `twitch`
   *   - `twitter`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#provider_type SourceOauth#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#provider_type SourceOauth#provider_type}
   */
   readonly providerType: string;
   /**
   * Manually configure OAuth2 URLs when `oidc_well_known_url` is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#request_token_url SourceOauth#request_token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#request_token_url SourceOauth#request_token_url}
   */
   readonly requestTokenUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#slug SourceOauth#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#slug SourceOauth#slug}
   */
   readonly slug: string;
   /**
@@ -166,25 +166,25 @@ export interface SourceOauthConfig extends cdktf.TerraformMetaArguments {
   *   - `username_deny`
   *  Defaults to `identifier`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#user_matching_mode SourceOauth#user_matching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#user_matching_mode SourceOauth#user_matching_mode}
   */
   readonly userMatchingMode?: string;
   /**
   * Defaults to `goauthentik.io/sources/%(slug)s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#user_path_template SourceOauth#user_path_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#user_path_template SourceOauth#user_path_template}
   */
   readonly userPathTemplate?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#uuid SourceOauth#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#uuid SourceOauth#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth authentik_source_oauth}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth authentik_source_oauth}
 */
 export class SourceOauth extends cdktf.TerraformResource {
 
@@ -200,7 +200,7 @@ export class SourceOauth extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceOauth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceOauth to import
-  * @param importFromId The id of the existing SourceOauth that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceOauth that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceOauth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -212,7 +212,7 @@ export class SourceOauth extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_oauth authentik_source_oauth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_oauth authentik_source_oauth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,8 +223,8 @@ export class SourceOauth extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_source_oauth',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

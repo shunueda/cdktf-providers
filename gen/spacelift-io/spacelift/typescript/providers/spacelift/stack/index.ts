@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,143 +10,143 @@ export interface StackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Project globs is an optional list of paths to track changes of in addition to the project root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#additional_project_globs Stack#additional_project_globs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#additional_project_globs Stack#additional_project_globs}
   */
   readonly additionalProjectGlobs?: string[];
   /**
   * Indicates whether this stack can manage others. Defaults to `false`. This field will be removed in a future version. Use `spacelift_role_attachment` resource to manage stack permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#administrative Stack#administrative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#administrative Stack#administrative}
   */
   readonly administrative?: boolean | cdktf.IResolvable;
   /**
   * List of after-apply scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#after_apply Stack#after_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#after_apply Stack#after_apply}
   */
   readonly afterApply?: string[];
   /**
   * List of after-destroy scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#after_destroy Stack#after_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#after_destroy Stack#after_destroy}
   */
   readonly afterDestroy?: string[];
   /**
   * List of after-init scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#after_init Stack#after_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#after_init Stack#after_init}
   */
   readonly afterInit?: string[];
   /**
   * List of after-perform scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#after_perform Stack#after_perform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#after_perform Stack#after_perform}
   */
   readonly afterPerform?: string[];
   /**
   * List of after-plan scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#after_plan Stack#after_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#after_plan Stack#after_plan}
   */
   readonly afterPlan?: string[];
   /**
   * List of after-run scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#after_run Stack#after_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#after_run Stack#after_run}
   */
   readonly afterRun?: string[];
   /**
   * Indicates whether a proposed run can be promoted to a tracked a run. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#allow_run_promotion Stack#allow_run_promotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#allow_run_promotion Stack#allow_run_promotion}
   */
   readonly allowRunPromotion?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether changes to this stack can be automatically deployed. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#autodeploy Stack#autodeploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#autodeploy Stack#autodeploy}
   */
   readonly autodeploy?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether obsolete proposed changes should automatically be retried. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#autoretry Stack#autoretry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#autoretry Stack#autoretry}
   */
   readonly autoretry?: boolean | cdktf.IResolvable;
   /**
   * List of before-apply scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#before_apply Stack#before_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#before_apply Stack#before_apply}
   */
   readonly beforeApply?: string[];
   /**
   * List of before-destroy scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#before_destroy Stack#before_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#before_destroy Stack#before_destroy}
   */
   readonly beforeDestroy?: string[];
   /**
   * List of before-init scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#before_init Stack#before_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#before_init Stack#before_init}
   */
   readonly beforeInit?: string[];
   /**
   * List of before-perform scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#before_perform Stack#before_perform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#before_perform Stack#before_perform}
   */
   readonly beforePerform?: string[];
   /**
   * List of before-plan scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#before_plan Stack#before_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#before_plan Stack#before_plan}
   */
   readonly beforePlan?: string[];
   /**
   * Git branch to apply changes to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#branch Stack#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#branch Stack#branch}
   */
   readonly branch: string;
   /**
   * Free-form stack description for users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#description Stack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#description Stack#description}
   */
   readonly description?: string;
   /**
   * Indicates whether local preview runs can be triggered on this Stack. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#enable_local_preview Stack#enable_local_preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#enable_local_preview Stack#enable_local_preview}
   */
   readonly enableLocalPreview?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether sensitive outputs created by this stack can be uploaded to Spacelift to be used by Stack Dependency references. Triggered only when corresponding option is enabled on the Worker Pool used by the Stack as well. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#enable_sensitive_outputs_upload Stack#enable_sensitive_outputs_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#enable_sensitive_outputs_upload Stack#enable_sensitive_outputs_upload}
   */
   readonly enableSensitiveOutputsUpload?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether well-known secret masking is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#enable_well_known_secret_masking Stack#enable_well_known_secret_masking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#enable_well_known_secret_masking Stack#enable_well_known_secret_masking}
   */
   readonly enableWellKnownSecretMasking?: boolean | cdktf.IResolvable;
   /**
   * Git sparse checkout paths is an optional list of paths to use for sparse checkout. If not set, the entire repository will be checked out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#git_sparse_checkout_paths Stack#git_sparse_checkout_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#git_sparse_checkout_paths Stack#git_sparse_checkout_paths}
   */
   readonly gitSparseCheckoutPaths?: string[];
   /**
   * Use `allow_run_promotion` instead. Indicates whether GitHub users can promote proposed runs to tracked runs from the Checks API. This is called allow run promotion in the UI. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#github_action_deploy Stack#github_action_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#github_action_deploy Stack#github_action_deploy}
   */
   readonly githubActionDeploy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#id Stack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#id Stack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -155,173 +155,173 @@ export interface StackConfig extends cdktf.TerraformMetaArguments {
   /**
   * State file to upload when creating a new stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#import_state Stack#import_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#import_state Stack#import_state}
   */
   readonly importState?: string;
   /**
   * Path to the state file to upload when creating a new stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#import_state_file Stack#import_state_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#import_state_file Stack#import_state_file}
   */
   readonly importStateFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#labels Stack#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#labels Stack#labels}
   */
   readonly labels?: string[];
   /**
   * Determines if Spacelift should manage state for this stack. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#manage_state Stack#manage_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#manage_state Stack#manage_state}
   */
   readonly manageState?: boolean | cdktf.IResolvable;
   /**
   * Name of the stack - should be unique in one account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#name Stack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#name Stack#name}
   */
   readonly name: string;
   /**
   * Project root is the optional directory relative to the workspace root containing the entrypoint to the Stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#project_root Stack#project_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#project_root Stack#project_root}
   */
   readonly projectRoot?: string;
   /**
   * Protect this stack from accidental deletion. If set, attempts to delete this stack will fail. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#protect_from_deletion Stack#protect_from_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#protect_from_deletion Stack#protect_from_deletion}
   */
   readonly protectFromDeletion?: boolean | cdktf.IResolvable;
   /**
   * Name of the repository, without the owner part
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#repository Stack#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#repository Stack#repository}
   */
   readonly repository: string;
   /**
   * Name of the Docker image used to process Runs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#runner_image Stack#runner_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#runner_image Stack#runner_image}
   */
   readonly runnerImage?: string;
   /**
   * Allows setting the custom ID (slug) for the stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#slug Stack#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#slug Stack#slug}
   */
   readonly slug?: string;
   /**
   * ID (slug) of the space the stack is in. Defaults to `legacy` if it exists, otherwise `root`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#space_id Stack#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#space_id Stack#space_id}
   */
   readonly spaceId?: string;
   /**
   * Indicates whether you can access the Stack state file from other stacks or outside of Spacelift. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#terraform_external_state_access Stack#terraform_external_state_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#terraform_external_state_access Stack#terraform_external_state_access}
   */
   readonly terraformExternalStateAccess?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether runs on this will use terraform's sensitive value system to sanitize the outputs of Terraform state and plans in spacelift instead of sanitizing all fields. Note: Requires the terraform version to be v1.0.1 or above. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#terraform_smart_sanitization Stack#terraform_smart_sanitization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#terraform_smart_sanitization Stack#terraform_smart_sanitization}
   */
   readonly terraformSmartSanitization?: boolean | cdktf.IResolvable;
   /**
   * Terraform version to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#terraform_version Stack#terraform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#terraform_version Stack#terraform_version}
   */
   readonly terraformVersion?: string;
   /**
   * Defines the tool that will be used to execute the workflow. This can be one of `OPEN_TOFU`, `TERRAFORM_FOSS` or `CUSTOM`. Defaults to `TERRAFORM_FOSS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#terraform_workflow_tool Stack#terraform_workflow_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#terraform_workflow_tool Stack#terraform_workflow_tool}
   */
   readonly terraformWorkflowTool?: string;
   /**
   * Terraform workspace to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#terraform_workspace Stack#terraform_workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#terraform_workspace Stack#terraform_workspace}
   */
   readonly terraformWorkspace?: string;
   /**
   * ID of the worker pool to use. NOTE: worker_pool_id is required when using a self-hosted instance of Spacelift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#worker_pool_id Stack#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#worker_pool_id Stack#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * ansible block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#ansible Stack#ansible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#ansible Stack#ansible}
   */
   readonly ansible?: StackAnsible;
   /**
   * azure_devops block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#azure_devops Stack#azure_devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#azure_devops Stack#azure_devops}
   */
   readonly azureDevops?: StackAzureDevops;
   /**
   * bitbucket_cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#bitbucket_cloud Stack#bitbucket_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#bitbucket_cloud Stack#bitbucket_cloud}
   */
   readonly bitbucketCloud?: StackBitbucketCloud;
   /**
   * bitbucket_datacenter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#bitbucket_datacenter Stack#bitbucket_datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#bitbucket_datacenter Stack#bitbucket_datacenter}
   */
   readonly bitbucketDatacenter?: StackBitbucketDatacenter;
   /**
   * cloudformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#cloudformation Stack#cloudformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#cloudformation Stack#cloudformation}
   */
   readonly cloudformation?: StackCloudformation;
   /**
   * github_enterprise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#github_enterprise Stack#github_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#github_enterprise Stack#github_enterprise}
   */
   readonly githubEnterprise?: StackGithubEnterprise;
   /**
   * gitlab block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#gitlab Stack#gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#gitlab Stack#gitlab}
   */
   readonly gitlab?: StackGitlab;
   /**
   * kubernetes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#kubernetes Stack#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#kubernetes Stack#kubernetes}
   */
   readonly kubernetes?: StackKubernetes;
   /**
   * pulumi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#pulumi Stack#pulumi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#pulumi Stack#pulumi}
   */
   readonly pulumi?: StackPulumi;
   /**
   * raw_git block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#raw_git Stack#raw_git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#raw_git Stack#raw_git}
   */
   readonly rawGit?: StackRawGit;
   /**
   * showcase block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#showcase Stack#showcase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#showcase Stack#showcase}
   */
   readonly showcase?: StackShowcase;
   /**
   * terragrunt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#terragrunt Stack#terragrunt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#terragrunt Stack#terragrunt}
   */
   readonly terragrunt?: StackTerragrunt;
 }
@@ -329,7 +329,7 @@ export interface StackAnsible {
   /**
   * The playbook Ansible should run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#playbook Stack#playbook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#playbook Stack#playbook}
   */
   readonly playbook: string;
 }
@@ -412,7 +412,7 @@ export interface StackAzureDevops {
   /**
   * The ID of the Azure Devops integration. If not specified, the default integration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#id Stack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#id Stack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -421,7 +421,7 @@ export interface StackAzureDevops {
   /**
   * The name of the Azure DevOps project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#project Stack#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#project Stack#project}
   */
   readonly project: string;
 }
@@ -538,7 +538,7 @@ export interface StackBitbucketCloud {
   /**
   * The ID of the Bitbucket Cloud integration. If not specified, the default integration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#id Stack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#id Stack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -547,7 +547,7 @@ export interface StackBitbucketCloud {
   /**
   * The Bitbucket project containing the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#namespace Stack#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#namespace Stack#namespace}
   */
   readonly namespace: string;
 }
@@ -664,7 +664,7 @@ export interface StackBitbucketDatacenter {
   /**
   * The ID of the Bitbucket Datacenter integration. If not specified, the default integration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#id Stack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#id Stack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -673,7 +673,7 @@ export interface StackBitbucketDatacenter {
   /**
   * The Bitbucket project containing the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#namespace Stack#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#namespace Stack#namespace}
   */
   readonly namespace: string;
 }
@@ -790,25 +790,25 @@ export interface StackCloudformation {
   /**
   * Template file `cloudformation package` will be called on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#entry_template_file Stack#entry_template_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#entry_template_file Stack#entry_template_file}
   */
   readonly entryTemplateFile: string;
   /**
   * AWS region to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#region Stack#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#region Stack#region}
   */
   readonly region: string;
   /**
   * CloudFormation stack name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#stack_name Stack#stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#stack_name Stack#stack_name}
   */
   readonly stackName: string;
   /**
   * S3 bucket to save CloudFormation templates to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#template_bucket Stack#template_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#template_bucket Stack#template_bucket}
   */
   readonly templateBucket: string;
 }
@@ -969,7 +969,7 @@ export interface StackGithubEnterprise {
   /**
   * The ID of the GitHub Enterprise integration. If not specified, the default integration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#id Stack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#id Stack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -978,7 +978,7 @@ export interface StackGithubEnterprise {
   /**
   * The GitHub organization / user the repository belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#namespace Stack#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#namespace Stack#namespace}
   */
   readonly namespace: string;
 }
@@ -1095,7 +1095,7 @@ export interface StackGitlab {
   /**
   * The ID of the Gitlab integration. If not specified, the default integration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#id Stack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#id Stack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1104,7 +1104,7 @@ export interface StackGitlab {
   /**
   * The GitLab namespace containing the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#namespace Stack#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#namespace Stack#namespace}
   */
   readonly namespace: string;
 }
@@ -1221,19 +1221,19 @@ export interface StackKubernetes {
   /**
   * Kubectl version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#kubectl_version Stack#kubectl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#kubectl_version Stack#kubectl_version}
   */
   readonly kubectlVersion?: string;
   /**
   * Defines the tool that will be used to execute the workflow. This can be one of `KUBERNETES` or `CUSTOM`. Defaults to `KUBERNETES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#kubernetes_workflow_tool Stack#kubernetes_workflow_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#kubernetes_workflow_tool Stack#kubernetes_workflow_tool}
   */
   readonly kubernetesWorkflowTool?: string;
   /**
   * Namespace of the Kubernetes cluster to run commands on. Leave empty for multi-namespace Stacks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#namespace Stack#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#namespace Stack#namespace}
   */
   readonly namespace?: string;
 }
@@ -1377,13 +1377,13 @@ export interface StackPulumi {
   /**
   * State backend to log into on Run initialize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#login_url Stack#login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#login_url Stack#login_url}
   */
   readonly loginUrl: string;
   /**
   * Pulumi stack name to use with the state backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#stack_name Stack#stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#stack_name Stack#stack_name}
   */
   readonly stackName: string;
 }
@@ -1492,13 +1492,13 @@ export interface StackRawGit {
   /**
   * User-friendly namespace for the repository, this is for cosmetic purposes only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#namespace Stack#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#namespace Stack#namespace}
   */
   readonly namespace: string;
   /**
   * HTTPS URL of the Git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#url Stack#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#url Stack#url}
   */
   readonly url: string;
 }
@@ -1605,7 +1605,7 @@ export class StackRawGitOutputReference extends cdktf.ComplexObject {
 }
 export interface StackShowcase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#namespace Stack#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#namespace Stack#namespace}
   */
   readonly namespace: string;
 }
@@ -1688,31 +1688,31 @@ export interface StackTerragrunt {
   /**
   * The Terraform version. Must not be provided when tool is set to MANUALLY_PROVISIONED. Defaults to the latest available OpenTofu/Terraform version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#terraform_version Stack#terraform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#terraform_version Stack#terraform_version}
   */
   readonly terraformVersion?: string;
   /**
   * The Terragrunt version. Defaults to the latest Terragrunt version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#terragrunt_version Stack#terragrunt_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#terragrunt_version Stack#terragrunt_version}
   */
   readonly terragruntVersion?: string;
   /**
   * The IaC tool used by Terragrunt. Valid values are OPEN_TOFU, TERRAFORM_FOSS or MANUALLY_PROVISIONED. Defaults to TERRAFORM_FOSS if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#tool Stack#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#tool Stack#tool}
   */
   readonly tool?: string;
   /**
   * Whether to use `terragrunt run-all` instead of `terragrunt`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#use_run_all Stack#use_run_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#use_run_all Stack#use_run_all}
   */
   readonly useRunAll?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether runs on this will use Terraform's sensitive value system to sanitize the outputs of Terraform state and plans in spacelift instead of sanitizing all fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#use_smart_sanitization Stack#use_smart_sanitization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#use_smart_sanitization Stack#use_smart_sanitization}
   */
   readonly useSmartSanitization?: boolean | cdktf.IResolvable;
 }
@@ -1912,7 +1912,7 @@ export class StackTerragruntOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack spacelift_stack}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack spacelift_stack}
 */
 export class Stack extends cdktf.TerraformResource {
 
@@ -1928,7 +1928,7 @@ export class Stack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Stack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Stack to import
-  * @param importFromId The id of the existing Stack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Stack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Stack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1940,7 +1940,7 @@ export class Stack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack spacelift_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack spacelift_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1951,8 +1951,8 @@ export class Stack extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_stack',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.39.0',
-        providerVersionConstraint: '1.39.0'
+        providerVersion: '1.40.0',
+        providerVersionConstraint: '1.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

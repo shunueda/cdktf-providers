@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob
+// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface PulsarjobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#active Pulsarjob#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#active Pulsarjob#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#app_id Pulsarjob#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#app_id Pulsarjob#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#id Pulsarjob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#id Pulsarjob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#name Pulsarjob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#name Pulsarjob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#shared Pulsarjob#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#shared Pulsarjob#shared}
   */
   readonly shared?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#type_id Pulsarjob#type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#type_id Pulsarjob#type_id}
   */
   readonly typeId: string;
   /**
   * blend_metric_weights block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#blend_metric_weights Pulsarjob#blend_metric_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#blend_metric_weights Pulsarjob#blend_metric_weights}
   */
   readonly blendMetricWeights?: PulsarjobBlendMetricWeights;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#config Pulsarjob#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#config Pulsarjob#config}
   */
   readonly config?: PulsarjobConfigA;
   /**
   * weights block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#weights Pulsarjob#weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#weights Pulsarjob#weights}
   */
   readonly weights?: PulsarjobWeights[] | cdktf.IResolvable;
 }
 export interface PulsarjobBlendMetricWeights {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#timestamp Pulsarjob#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#timestamp Pulsarjob#timestamp}
   */
   readonly timestamp: number;
 }
@@ -136,35 +136,35 @@ export class PulsarjobBlendMetricWeightsOutputReference extends cdktf.ComplexObj
 }
 export interface PulsarjobConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#host Pulsarjob#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#host Pulsarjob#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#http Pulsarjob#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#http Pulsarjob#http}
   */
   readonly http?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#https Pulsarjob#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#https Pulsarjob#https}
   */
   readonly https?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#job_timeout_millis Pulsarjob#job_timeout_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#job_timeout_millis Pulsarjob#job_timeout_millis}
   */
   readonly jobTimeoutMillis?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#request_timeout_millis Pulsarjob#request_timeout_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#request_timeout_millis Pulsarjob#request_timeout_millis}
   */
   readonly requestTimeoutMillis?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#static_values Pulsarjob#static_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#static_values Pulsarjob#static_values}
   */
   readonly staticValues?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#url_path Pulsarjob#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#url_path Pulsarjob#url_path}
   */
   readonly urlPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#use_xhr Pulsarjob#use_xhr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#use_xhr Pulsarjob#use_xhr}
   */
   readonly useXhr?: boolean | cdktf.IResolvable;
 }
@@ -451,19 +451,19 @@ export class PulsarjobConfigAOutputReference extends cdktf.ComplexObject {
 }
 export interface PulsarjobWeights {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#default_value Pulsarjob#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#default_value Pulsarjob#default_value}
   */
   readonly defaultValue: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#maximize Pulsarjob#maximize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#maximize Pulsarjob#maximize}
   */
   readonly maximize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#name Pulsarjob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#name Pulsarjob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#weight Pulsarjob#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#weight Pulsarjob#weight}
   */
   readonly weight: number;
 }
@@ -657,7 +657,7 @@ export class PulsarjobWeightsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob ns1_pulsarjob}
+* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob ns1_pulsarjob}
 */
 export class Pulsarjob extends cdktf.TerraformResource {
 
@@ -673,7 +673,7 @@ export class Pulsarjob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pulsarjob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pulsarjob to import
-  * @param importFromId The id of the existing Pulsarjob that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pulsarjob that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pulsarjob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -685,7 +685,7 @@ export class Pulsarjob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/pulsarjob ns1_pulsarjob} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/pulsarjob ns1_pulsarjob} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -696,8 +696,8 @@ export class Pulsarjob extends cdktf.TerraformResource {
       terraformResourceType: 'ns1_pulsarjob',
       terraformGeneratorMetadata: {
         providerName: 'ns1',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/http_header_profile_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/http_header_profile_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataScmHttpHeaderProfileListConfig extends cdktf.TerraformMetaA
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/http_header_profile_list#device DataScmHttpHeaderProfileList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/http_header_profile_list#device DataScmHttpHeaderProfileList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/http_header_profile_list#folder DataScmHttpHeaderProfileList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/http_header_profile_list#folder DataScmHttpHeaderProfileList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/http_header_profile_list#limit DataScmHttpHeaderProfileList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/http_header_profile_list#limit DataScmHttpHeaderProfileList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/http_header_profile_list#name DataScmHttpHeaderProfileList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/http_header_profile_list#name DataScmHttpHeaderProfileList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/http_header_profile_list#offset DataScmHttpHeaderProfileList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/http_header_profile_list#offset DataScmHttpHeaderProfileList#offset}
   */
   readonly offset?: number;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/http_header_profile_list#snippet DataScmHttpHeaderProfileList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/http_header_profile_list#snippet DataScmHttpHeaderProfileList#snippet}
   */
   readonly snippet?: string;
 }
@@ -305,7 +305,7 @@ export interface DataScmHttpHeaderProfileListData {
   /**
   * The UUID of the HTTP header profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/http_header_profile_list#id DataScmHttpHeaderProfileList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/http_header_profile_list#id DataScmHttpHeaderProfileList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -314,7 +314,7 @@ export interface DataScmHttpHeaderProfileListData {
   /**
   * The name of the HTTP header profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/http_header_profile_list#name DataScmHttpHeaderProfileList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/http_header_profile_list#name DataScmHttpHeaderProfileList#name}
   */
   readonly name?: string;
 }
@@ -477,7 +477,7 @@ export class DataScmHttpHeaderProfileListDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/http_header_profile_list scm_http_header_profile_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/http_header_profile_list scm_http_header_profile_list}
 */
 export class DataScmHttpHeaderProfileList extends cdktf.TerraformDataSource {
 
@@ -493,7 +493,7 @@ export class DataScmHttpHeaderProfileList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmHttpHeaderProfileList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmHttpHeaderProfileList to import
-  * @param importFromId The id of the existing DataScmHttpHeaderProfileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/http_header_profile_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmHttpHeaderProfileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/http_header_profile_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmHttpHeaderProfileList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -505,7 +505,7 @@ export class DataScmHttpHeaderProfileList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/http_header_profile_list scm_http_header_profile_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/http_header_profile_list scm_http_header_profile_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -516,8 +516,8 @@ export class DataScmHttpHeaderProfileList extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_http_header_profile_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

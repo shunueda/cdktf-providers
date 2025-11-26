@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_subscription_domain_block
+// https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_subscription_domain_block
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface StatuspageSubscriptionDomainBlockConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_subscription_domain_block#domain StatuspageSubscriptionDomainBlock#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_subscription_domain_block#domain StatuspageSubscriptionDomainBlock#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_subscription_domain_block#statuspage_id StatuspageSubscriptionDomainBlock#statuspage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_subscription_domain_block#statuspage_id StatuspageSubscriptionDomainBlock#statuspage_id}
   */
   readonly statuspageId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_subscription_domain_block uptime_statuspage_subscription_domain_block}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_subscription_domain_block uptime_statuspage_subscription_domain_block}
 */
 export class StatuspageSubscriptionDomainBlock extends cdktf.TerraformResource {
 
@@ -34,7 +34,7 @@ export class StatuspageSubscriptionDomainBlock extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StatuspageSubscriptionDomainBlock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StatuspageSubscriptionDomainBlock to import
-  * @param importFromId The id of the existing StatuspageSubscriptionDomainBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_subscription_domain_block#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StatuspageSubscriptionDomainBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_subscription_domain_block#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StatuspageSubscriptionDomainBlock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class StatuspageSubscriptionDomainBlock extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_subscription_domain_block uptime_statuspage_subscription_domain_block} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_subscription_domain_block uptime_statuspage_subscription_domain_block} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class StatuspageSubscriptionDomainBlock extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_statuspage_subscription_domain_block',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.17.1',
-        providerVersionConstraint: '2.17.1'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

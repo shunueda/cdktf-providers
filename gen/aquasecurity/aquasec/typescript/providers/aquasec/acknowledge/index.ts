@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AcknowledgeConfig extends cdktf.TerraformMetaArguments {
   /**
   * A comment describing the reason for the acknowledgment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#comment Acknowledge#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#comment Acknowledge#comment}
   */
   readonly comment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#id Acknowledge#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#id Acknowledge#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface AcknowledgeConfig extends cdktf.TerraformMetaArguments {
   /**
   * issues block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#issues Acknowledge#issues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#issues Acknowledge#issues}
   */
   readonly issues: AcknowledgeIssues[] | cdktf.IResolvable;
 }
@@ -31,147 +31,147 @@ export interface AcknowledgeIssues {
   /**
   * Unique ID generated when a security issue on a resource is suppressed. It is used to remove the suppression after the expiration period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#ack_repo_id Acknowledge#ack_repo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#ack_repo_id Acknowledge#ack_repo_id}
   */
   readonly ackRepoId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#docker_id Acknowledge#docker_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#docker_id Acknowledge#docker_id}
   */
   readonly dockerId?: string;
   /**
   * Number of days until expiration of the acknowledgement. The value must be integer from 1 to 999, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#expiration_days Acknowledge#expiration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#expiration_days Acknowledge#expiration_days}
   */
   readonly expirationDays?: number;
   /**
   * The version of the package that having a fix for the issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#fix_version Acknowledge#fix_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#fix_version Acknowledge#fix_version}
   */
   readonly fixVersion?: string;
   /**
   * Indicates whether custom severity is assigned to the suppressed vulnerability
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#has_custom_severity Acknowledge#has_custom_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#has_custom_severity Acknowledge#has_custom_severity}
   */
   readonly hasCustomSeverity?: boolean | cdktf.IResolvable;
   /**
   * The name of the image in whose context the issue was acknowledged (if not for all images)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#image Acknowledge#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#image Acknowledge#image}
   */
   readonly image?: string;
   /**
   * Only acknowledge the issue in the context of the specified image (also requires 'registry_name')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#image_name Acknowledge#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#image_name Acknowledge#image_name}
   */
   readonly imageName?: string;
   /**
   * The name of the security issue (the CVE or security advisory for vulnerabilities, name of malware or type of sensitive data)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#issue_name Acknowledge#issue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#issue_name Acknowledge#issue_name}
   */
   readonly issueName: string;
   /**
   * The type of the security issue (either 'vulnerability', 'sensitive_data' or 'malware')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#issue_type Acknowledge#issue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#issue_type Acknowledge#issue_type}
   */
   readonly issueType: string;
   /**
   * When the resource_type is 'package', the operating system is required (e.g., 'ubuntu', 'alpine').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#os Acknowledge#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#os Acknowledge#os}
   */
   readonly os?: string;
   /**
   * When the resource_type is 'package', the operating system version is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#os_version Acknowledge#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#os_version Acknowledge#os_version}
   */
   readonly osVersion?: string;
   /**
   * If the issue was acknowledged in the context of a specific image or repository, the name of the registry where they are located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#registry Acknowledge#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#registry Acknowledge#registry}
   */
   readonly registry?: string;
   /**
   * Only acknowledge the issue in the context of the specified repository (also requires 'registry_name').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#registry_name Acknowledge#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#registry_name Acknowledge#registry_name}
   */
   readonly registryName?: string;
   /**
   * The name of the repository in whose context the issue was acknowledged (if not for all images)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#repository Acknowledge#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#repository Acknowledge#repository}
   */
   readonly repository?: string;
   /**
   * The name of the repository in whose context the issue was acknowledged (if not for all images)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#repository_name Acknowledge#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#repository_name Acknowledge#repository_name}
   */
   readonly repositoryName?: string;
   /**
   * The CPE of the resource as listed in the issue by the Aqua API. This is required for resources of type 'executable'. For packages and files, the next parameters can be specified instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#resource_cpe Acknowledge#resource_cpe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#resource_cpe Acknowledge#resource_cpe}
   */
   readonly resourceCpe?: string;
   /**
   * The format of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#resource_format Acknowledge#resource_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#resource_format Acknowledge#resource_format}
   */
   readonly resourceFormat?: string;
   /**
   * When the resource_type is 'file', the hash of the file is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#resource_hash Acknowledge#resource_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#resource_hash Acknowledge#resource_hash}
   */
   readonly resourceHash?: string;
   /**
   * When the resource_type is 'package', the name of the package is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#resource_name Acknowledge#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#resource_name Acknowledge#resource_name}
   */
   readonly resourceName?: string;
   /**
   * The path of the resource. This is required for resources of type 'file' and 'executable'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#resource_path Acknowledge#resource_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#resource_path Acknowledge#resource_path}
   */
   readonly resourcePath?: string;
   /**
   * The type of the resource where the issue was detected (either 'package', 'file' or 'executable')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#resource_type Acknowledge#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#resource_type Acknowledge#resource_type}
   */
   readonly resourceType: string;
   /**
   * When the resource_type is 'package', the version of the package is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#resource_version Acknowledge#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#resource_version Acknowledge#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * Suppression rule ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#suppression_rule_id Acknowledge#suppression_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#suppression_rule_id Acknowledge#suppression_rule_id}
   */
   readonly suppressionRuleId?: number;
   /**
   * Suppression rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#suppression_rule_name Acknowledge#suppression_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#suppression_rule_name Acknowledge#suppression_rule_name}
   */
   readonly suppressionRuleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#suppression_rule_scopes Acknowledge#suppression_rule_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#suppression_rule_scopes Acknowledge#suppression_rule_scopes}
   */
   readonly suppressionRuleScopes?: string[];
 }
@@ -999,7 +999,7 @@ export class AcknowledgeIssuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge aquasec_acknowledge}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge aquasec_acknowledge}
 */
 export class Acknowledge extends cdktf.TerraformResource {
 
@@ -1015,7 +1015,7 @@ export class Acknowledge extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Acknowledge resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Acknowledge to import
-  * @param importFromId The id of the existing Acknowledge that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Acknowledge that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Acknowledge to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1027,7 +1027,7 @@ export class Acknowledge extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/acknowledge aquasec_acknowledge} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/acknowledge aquasec_acknowledge} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1038,8 +1038,8 @@ export class Acknowledge extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_acknowledge',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

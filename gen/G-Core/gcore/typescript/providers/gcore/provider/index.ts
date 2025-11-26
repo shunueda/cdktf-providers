@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs
+// https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface GcoreProviderConfig {
   /**
   * A single API endpoint for all products. Will be used when specific product API url is not defined. Can also be set with the GCORE_API_ENDPOINT environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#api_endpoint GcoreProvider#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#api_endpoint GcoreProvider#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
   * Region API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#gcore_api GcoreProvider#gcore_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#gcore_api GcoreProvider#gcore_api}
   */
   readonly gcoreApi?: string;
   /**
   * CDN API (define only if you want to override CDN API endpoint). Can also be set with the GCORE_CDN_API environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#gcore_cdn_api GcoreProvider#gcore_cdn_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#gcore_cdn_api GcoreProvider#gcore_cdn_api}
   */
   readonly gcoreCdnApi?: string;
   /**
   * Client ID. Can also be set with the GCORE_CLIENT_ID environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#gcore_client_id GcoreProvider#gcore_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#gcore_client_id GcoreProvider#gcore_client_id}
   */
   readonly gcoreClientId?: string;
   /**
   * Region API (define only if you want to override Region API endpoint). Can also be set with the GCORE_CLOUD_API environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#gcore_cloud_api GcoreProvider#gcore_cloud_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#gcore_cloud_api GcoreProvider#gcore_cloud_api}
   */
   readonly gcoreCloudApi?: string;
   /**
   * DNS API (define only if you want to override DNS API endpoint). Can also be set with the GCORE_DNS_API environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#gcore_dns_api GcoreProvider#gcore_dns_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#gcore_dns_api GcoreProvider#gcore_dns_api}
   */
   readonly gcoreDnsApi?: string;
   /**
   * FastEdge API (define only if you want to override FastEdge API endpoint). Can also be set with the GCORE_FASTEDGE_API environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#gcore_fastedge_api GcoreProvider#gcore_fastedge_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#gcore_fastedge_api GcoreProvider#gcore_fastedge_api}
   */
   readonly gcoreFastedgeApi?: string;
   /**
   * Platform URL is used for generate JWT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#gcore_platform GcoreProvider#gcore_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#gcore_platform GcoreProvider#gcore_platform}
   */
   readonly gcorePlatform?: string;
   /**
   * Platform URL is used for generate JWT (define only if you want to override Platform API endpoint). Can also be set with the GCORE_PLATFORM_API environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#gcore_platform_api GcoreProvider#gcore_platform_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#gcore_platform_api GcoreProvider#gcore_platform_api}
   */
   readonly gcorePlatformApi?: string;
   /**
   * Storage API (define only if you want to override Storage API endpoint). Can also be set with the GCORE_STORAGE_API environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#gcore_storage_api GcoreProvider#gcore_storage_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#gcore_storage_api GcoreProvider#gcore_storage_api}
   */
   readonly gcoreStorageApi?: string;
   /**
   * WAAP API (define only if you want to override WAAP API endpoint). Can also be set with the GCORE_WAAP_API environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#gcore_waap_api GcoreProvider#gcore_waap_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#gcore_waap_api GcoreProvider#gcore_waap_api}
   */
   readonly gcoreWaapApi?: string;
   /**
   * Should be set to true when you are gonna to use storage resource with permanent API-token only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#ignore_creds_auth_error GcoreProvider#ignore_creds_auth_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#ignore_creds_auth_error GcoreProvider#ignore_creds_auth_error}
   */
   readonly ignoreCredsAuthError?: boolean | cdktf.IResolvable;
   /**
   * Gcore account password. Can also be set with the GCORE_PASSWORD environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#password GcoreProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#password GcoreProvider#password}
   */
   readonly password?: string;
   /**
   * A permanent [API-token](https://gcore.com/docs/account-settings/create-use-or-delete-a-permanent-api-token). Can also be set with the GCORE_PERMANENT_TOKEN environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#permanent_api_token GcoreProvider#permanent_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#permanent_api_token GcoreProvider#permanent_api_token}
   */
   readonly permanentApiToken?: string;
   /**
   * Gcore account username. Can also be set with the GCORE_USERNAME environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#user_name GcoreProvider#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#user_name GcoreProvider#user_name}
   */
   readonly userName?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#alias GcoreProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#alias GcoreProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs gcore}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs gcore}
 */
 export class GcoreProvider extends cdktf.TerraformProvider {
 
@@ -122,7 +122,7 @@ export class GcoreProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a GcoreProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcoreProvider to import
-  * @param importFromId The id of the existing GcoreProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcoreProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcoreProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class GcoreProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs gcore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs gcore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class GcoreProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'gcore',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.0',
-        providerVersionConstraint: '0.32.0'
+        providerVersion: '0.32.1',
+        providerVersionConstraint: '0.32.1'
       },
       terraformProviderSource: 'G-Core/gcore'
     });

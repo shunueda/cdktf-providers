@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface PolicyGeoipConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip#asns PolicyGeoip#asns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip#asns PolicyGeoip#asns}
   */
   readonly asns?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip#check_history_distance PolicyGeoip#check_history_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip#check_history_distance PolicyGeoip#check_history_distance}
   */
   readonly checkHistoryDistance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip#check_impossible_travel PolicyGeoip#check_impossible_travel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip#check_impossible_travel PolicyGeoip#check_impossible_travel}
   */
   readonly checkImpossibleTravel?: boolean | cdktf.IResolvable;
   /**
@@ -271,35 +271,35 @@ export interface PolicyGeoipConfig extends cdktf.TerraformMetaArguments {
   *   - `ZM`
   *   - `ZW`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip#countries PolicyGeoip#countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip#countries PolicyGeoip#countries}
   */
   readonly countries?: string[];
   /**
   * Defaults to `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip#distance_tolerance_km PolicyGeoip#distance_tolerance_km}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip#distance_tolerance_km PolicyGeoip#distance_tolerance_km}
   */
   readonly distanceToleranceKm?: number;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip#execution_logging PolicyGeoip#execution_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip#execution_logging PolicyGeoip#execution_logging}
   */
   readonly executionLogging?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip#history_login_count PolicyGeoip#history_login_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip#history_login_count PolicyGeoip#history_login_count}
   */
   readonly historyLoginCount?: number;
   /**
   * Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip#history_max_distance_km PolicyGeoip#history_max_distance_km}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip#history_max_distance_km PolicyGeoip#history_max_distance_km}
   */
   readonly historyMaxDistanceKm?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip#id PolicyGeoip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip#id PolicyGeoip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -308,17 +308,17 @@ export interface PolicyGeoipConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip#impossible_tolerance_km PolicyGeoip#impossible_tolerance_km}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip#impossible_tolerance_km PolicyGeoip#impossible_tolerance_km}
   */
   readonly impossibleToleranceKm?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip#name PolicyGeoip#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip#name PolicyGeoip#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip authentik_policy_geoip}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip authentik_policy_geoip}
 */
 export class PolicyGeoip extends cdktf.TerraformResource {
 
@@ -334,7 +334,7 @@ export class PolicyGeoip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyGeoip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyGeoip to import
-  * @param importFromId The id of the existing PolicyGeoip that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyGeoip that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyGeoip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -346,7 +346,7 @@ export class PolicyGeoip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/policy_geoip authentik_policy_geoip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/policy_geoip authentik_policy_geoip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,8 +357,8 @@ export class PolicyGeoip extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_policy_geoip',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

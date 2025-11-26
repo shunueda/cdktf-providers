@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector_tokens
+// https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector_tokens
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ConnectorTokensConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the parent Connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector_tokens#connector_id ConnectorTokens#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector_tokens#connector_id ConnectorTokens#connector_id}
   */
   readonly connectorId: string;
   /**
   * Arbitrary map of values that, when changed, will trigger recreation of resource. Use this to automatically rotate Connector tokens on a schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector_tokens#keepers ConnectorTokens#keepers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector_tokens#keepers ConnectorTokens#keepers}
   */
   readonly keepers?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector_tokens twingate_connector_tokens}
+* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector_tokens twingate_connector_tokens}
 */
 export class ConnectorTokens extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ConnectorTokens extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectorTokens resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectorTokens to import
-  * @param importFromId The id of the existing ConnectorTokens that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector_tokens#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectorTokens that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector_tokens#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectorTokens to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ConnectorTokens extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/connector_tokens twingate_connector_tokens} Resource
+  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/connector_tokens twingate_connector_tokens} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class ConnectorTokens extends cdktf.TerraformResource {
       terraformResourceType: 'twingate_connector_tokens',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0',
-        providerVersionConstraint: '3.5.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

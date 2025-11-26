@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident
+// https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface StatuspageIncidentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#affected_components StatuspageIncident#affected_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#affected_components StatuspageIncident#affected_components}
   */
   readonly affectedComponents?: StatuspageIncidentAffectedComponents[] | cdktf.IResolvable;
   /**
   * When this incident ended in GMT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#ends_at StatuspageIncident#ends_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#ends_at StatuspageIncident#ends_at}
   */
   readonly endsAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#incident_type StatuspageIncident#incident_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#incident_type StatuspageIncident#incident_type}
   */
   readonly incidentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#include_in_global_metrics StatuspageIncident#include_in_global_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#include_in_global_metrics StatuspageIncident#include_in_global_metrics}
   */
   readonly includeInGlobalMetrics?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#name StatuspageIncident#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#name StatuspageIncident#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#notify_subscribers StatuspageIncident#notify_subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#notify_subscribers StatuspageIncident#notify_subscribers}
   */
   readonly notifySubscribers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#send_maintenance_start_notification StatuspageIncident#send_maintenance_start_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#send_maintenance_start_notification StatuspageIncident#send_maintenance_start_notification}
   */
   readonly sendMaintenanceStartNotification?: boolean | cdktf.IResolvable;
   /**
   * When this incident occurred in GMT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#starts_at StatuspageIncident#starts_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#starts_at StatuspageIncident#starts_at}
   */
   readonly startsAt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#statuspage_id StatuspageIncident#statuspage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#statuspage_id StatuspageIncident#statuspage_id}
   */
   readonly statuspageId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#update_component_status StatuspageIncident#update_component_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#update_component_status StatuspageIncident#update_component_status}
   */
   readonly updateComponentStatus?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#updates StatuspageIncident#updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#updates StatuspageIncident#updates}
   */
   readonly updates: StatuspageIncidentUpdates[] | cdktf.IResolvable;
 }
 export interface StatuspageIncidentAffectedComponents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#component_id StatuspageIncident#component_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#component_id StatuspageIncident#component_id}
   */
   readonly componentId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#status StatuspageIncident#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#status StatuspageIncident#status}
   */
   readonly status?: string;
 }
@@ -209,15 +209,15 @@ export class StatuspageIncidentAffectedComponentsList extends cdktf.ComplexList 
 }
 export interface StatuspageIncidentUpdates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#description StatuspageIncident#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#description StatuspageIncident#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#incident_state StatuspageIncident#incident_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#incident_state StatuspageIncident#incident_state}
   */
   readonly incidentState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#updated_at StatuspageIncident#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#updated_at StatuspageIncident#updated_at}
   */
   readonly updatedAt: string;
 }
@@ -393,7 +393,7 @@ export class StatuspageIncidentUpdatesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident uptime_statuspage_incident}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident uptime_statuspage_incident}
 */
 export class StatuspageIncident extends cdktf.TerraformResource {
 
@@ -409,7 +409,7 @@ export class StatuspageIncident extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StatuspageIncident resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StatuspageIncident to import
-  * @param importFromId The id of the existing StatuspageIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StatuspageIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StatuspageIncident to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -421,7 +421,7 @@ export class StatuspageIncident extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_incident uptime_statuspage_incident} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_incident uptime_statuspage_incident} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -432,8 +432,8 @@ export class StatuspageIncident extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_statuspage_incident',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.17.1',
-        providerVersionConstraint: '2.17.1'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

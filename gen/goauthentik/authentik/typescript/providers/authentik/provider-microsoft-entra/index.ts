@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface ProviderMicrosoftEntraConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#client_id ProviderMicrosoftEntra#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#client_id ProviderMicrosoftEntra#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#client_secret ProviderMicrosoftEntra#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#client_secret ProviderMicrosoftEntra#client_secret}
   */
   readonly clientSecret: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#dry_run ProviderMicrosoftEntra#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#dry_run ProviderMicrosoftEntra#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#exclude_users_service_account ProviderMicrosoftEntra#exclude_users_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#exclude_users_service_account ProviderMicrosoftEntra#exclude_users_service_account}
   */
   readonly excludeUsersServiceAccount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#filter_group ProviderMicrosoftEntra#filter_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#filter_group ProviderMicrosoftEntra#filter_group}
   */
   readonly filterGroup?: string;
   /**
@@ -35,30 +35,30 @@ export interface ProviderMicrosoftEntraConfig extends cdktf.TerraformMetaArgumen
   *   - `do_nothing`
   *  Defaults to `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#group_delete_action ProviderMicrosoftEntra#group_delete_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#group_delete_action ProviderMicrosoftEntra#group_delete_action}
   */
   readonly groupDeleteAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#id ProviderMicrosoftEntra#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#id ProviderMicrosoftEntra#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#name ProviderMicrosoftEntra#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#name ProviderMicrosoftEntra#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#property_mappings ProviderMicrosoftEntra#property_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#property_mappings ProviderMicrosoftEntra#property_mappings}
   */
   readonly propertyMappings?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#property_mappings_group ProviderMicrosoftEntra#property_mappings_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#property_mappings_group ProviderMicrosoftEntra#property_mappings_group}
   */
   readonly propertyMappingsGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#tenant_id ProviderMicrosoftEntra#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#tenant_id ProviderMicrosoftEntra#tenant_id}
   */
   readonly tenantId: string;
   /**
@@ -67,13 +67,13 @@ export interface ProviderMicrosoftEntraConfig extends cdktf.TerraformMetaArgumen
   *   - `do_nothing`
   *  Defaults to `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#user_delete_action ProviderMicrosoftEntra#user_delete_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#user_delete_action ProviderMicrosoftEntra#user_delete_action}
   */
   readonly userDeleteAction?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra authentik_provider_microsoft_entra}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra authentik_provider_microsoft_entra}
 */
 export class ProviderMicrosoftEntra extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class ProviderMicrosoftEntra extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProviderMicrosoftEntra resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProviderMicrosoftEntra to import
-  * @param importFromId The id of the existing ProviderMicrosoftEntra that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProviderMicrosoftEntra that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProviderMicrosoftEntra to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class ProviderMicrosoftEntra extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_microsoft_entra authentik_provider_microsoft_entra} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_microsoft_entra authentik_provider_microsoft_entra} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class ProviderMicrosoftEntra extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_provider_microsoft_entra',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

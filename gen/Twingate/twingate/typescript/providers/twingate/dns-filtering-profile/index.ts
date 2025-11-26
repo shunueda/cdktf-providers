@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile
+// https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DnsFilteringProfileConfig extends cdktf.TerraformMetaArguments 
   /**
   * The DNS filtering profile's fallback method. One of "AUTO" or "STRICT". Defaults to "STRICT".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#fallback_method DnsFilteringProfile#fallback_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#fallback_method DnsFilteringProfile#fallback_method}
   */
   readonly fallbackMethod?: string;
   /**
   * A set of group IDs that have this as their DNS filtering profile. Defaults to an empty set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#groups DnsFilteringProfile#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#groups DnsFilteringProfile#groups}
   */
   readonly groups?: string[];
   /**
   * The DNS filtering profile's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#name DnsFilteringProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#name DnsFilteringProfile#name}
   */
   readonly name: string;
   /**
   * A floating point number representing the profile's priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#priority DnsFilteringProfile#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#priority DnsFilteringProfile#priority}
   */
   readonly priority: number;
   /**
   * allowed_domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#allowed_domains DnsFilteringProfile#allowed_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#allowed_domains DnsFilteringProfile#allowed_domains}
   */
   readonly allowedDomains?: DnsFilteringProfileAllowedDomains;
   /**
   * content_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#content_categories DnsFilteringProfile#content_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#content_categories DnsFilteringProfile#content_categories}
   */
   readonly contentCategories?: DnsFilteringProfileContentCategories;
   /**
   * denied_domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#denied_domains DnsFilteringProfile#denied_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#denied_domains DnsFilteringProfile#denied_domains}
   */
   readonly deniedDomains?: DnsFilteringProfileDeniedDomains;
   /**
   * privacy_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#privacy_categories DnsFilteringProfile#privacy_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#privacy_categories DnsFilteringProfile#privacy_categories}
   */
   readonly privacyCategories?: DnsFilteringProfilePrivacyCategories;
   /**
   * security_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#security_categories DnsFilteringProfile#security_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#security_categories DnsFilteringProfile#security_categories}
   */
   readonly securityCategories?: DnsFilteringProfileSecurityCategories;
 }
@@ -66,13 +66,13 @@ export interface DnsFilteringProfileAllowedDomains {
   /**
   * A set of allowed domains. Defaults to an empty set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#domains DnsFilteringProfile#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#domains DnsFilteringProfile#domains}
   */
   readonly domains?: string[];
   /**
   * Whether Terraform should override changes made outside of Terraform. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#is_authoritative DnsFilteringProfile#is_authoritative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#is_authoritative DnsFilteringProfile#is_authoritative}
   */
   readonly isAuthoritative?: boolean | cdktf.IResolvable;
 }
@@ -197,55 +197,55 @@ export interface DnsFilteringProfileContentCategories {
   /**
   * Whether to block adult content. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_adult_content DnsFilteringProfile#block_adult_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_adult_content DnsFilteringProfile#block_adult_content}
   */
   readonly blockAdultContent?: boolean | cdktf.IResolvable;
   /**
   * Whether to block dating content. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_dating DnsFilteringProfile#block_dating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_dating DnsFilteringProfile#block_dating}
   */
   readonly blockDating?: boolean | cdktf.IResolvable;
   /**
   * Whether to block gambling content. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_gambling DnsFilteringProfile#block_gambling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_gambling DnsFilteringProfile#block_gambling}
   */
   readonly blockGambling?: boolean | cdktf.IResolvable;
   /**
   * Whether to block games. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_games DnsFilteringProfile#block_games}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_games DnsFilteringProfile#block_games}
   */
   readonly blockGames?: boolean | cdktf.IResolvable;
   /**
   * Whether to block piracy sites. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_piracy DnsFilteringProfile#block_piracy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_piracy DnsFilteringProfile#block_piracy}
   */
   readonly blockPiracy?: boolean | cdktf.IResolvable;
   /**
   * Whether to block social media. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_social_media DnsFilteringProfile#block_social_media}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_social_media DnsFilteringProfile#block_social_media}
   */
   readonly blockSocialMedia?: boolean | cdktf.IResolvable;
   /**
   * Whether to block streaming content. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_streaming DnsFilteringProfile#block_streaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_streaming DnsFilteringProfile#block_streaming}
   */
   readonly blockStreaming?: boolean | cdktf.IResolvable;
   /**
   * Whether to force safe search. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#enable_safesearch DnsFilteringProfile#enable_safesearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#enable_safesearch DnsFilteringProfile#enable_safesearch}
   */
   readonly enableSafesearch?: boolean | cdktf.IResolvable;
   /**
   * Whether to force YouTube to use restricted mode. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#enable_youtube_restricted_mode DnsFilteringProfile#enable_youtube_restricted_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#enable_youtube_restricted_mode DnsFilteringProfile#enable_youtube_restricted_mode}
   */
   readonly enableYoutubeRestrictedMode?: boolean | cdktf.IResolvable;
 }
@@ -573,13 +573,13 @@ export interface DnsFilteringProfileDeniedDomains {
   /**
   * A set of denied domains. Defaults to an empty set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#domains DnsFilteringProfile#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#domains DnsFilteringProfile#domains}
   */
   readonly domains?: string[];
   /**
   * Whether Terraform should override changes made outside of Terraform. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#is_authoritative DnsFilteringProfile#is_authoritative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#is_authoritative DnsFilteringProfile#is_authoritative}
   */
   readonly isAuthoritative?: boolean | cdktf.IResolvable;
 }
@@ -704,19 +704,19 @@ export interface DnsFilteringProfilePrivacyCategories {
   /**
   * Whether to block ads and trackers. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_ads_and_trackers DnsFilteringProfile#block_ads_and_trackers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_ads_and_trackers DnsFilteringProfile#block_ads_and_trackers}
   */
   readonly blockAdsAndTrackers?: boolean | cdktf.IResolvable;
   /**
   * Whether to block affiliate links. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_affiliate_links DnsFilteringProfile#block_affiliate_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_affiliate_links DnsFilteringProfile#block_affiliate_links}
   */
   readonly blockAffiliateLinks?: boolean | cdktf.IResolvable;
   /**
   * Whether to block disguised third party trackers. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_disguised_trackers DnsFilteringProfile#block_disguised_trackers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_disguised_trackers DnsFilteringProfile#block_disguised_trackers}
   */
   readonly blockDisguisedTrackers?: boolean | cdktf.IResolvable;
 }
@@ -870,55 +870,55 @@ export interface DnsFilteringProfileSecurityCategories {
   /**
   * Whether to block cryptojacking sites. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_cryptojacking DnsFilteringProfile#block_cryptojacking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_cryptojacking DnsFilteringProfile#block_cryptojacking}
   */
   readonly blockCryptojacking?: boolean | cdktf.IResolvable;
   /**
   * Blocks public DNS entries from returning private IP addresses. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_dns_rebinding DnsFilteringProfile#block_dns_rebinding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_dns_rebinding DnsFilteringProfile#block_dns_rebinding}
   */
   readonly blockDnsRebinding?: boolean | cdktf.IResolvable;
   /**
   * Blocks DGA domains. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_domain_generation_algorithms DnsFilteringProfile#block_domain_generation_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_domain_generation_algorithms DnsFilteringProfile#block_domain_generation_algorithms}
   */
   readonly blockDomainGenerationAlgorithms?: boolean | cdktf.IResolvable;
   /**
   * Whether to block homoglyph attacks. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_idn_homoglyph DnsFilteringProfile#block_idn_homoglyph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_idn_homoglyph DnsFilteringProfile#block_idn_homoglyph}
   */
   readonly blockIdnHomoglyph?: boolean | cdktf.IResolvable;
   /**
   * Blocks newly registered domains. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_newly_registered_domains DnsFilteringProfile#block_newly_registered_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_newly_registered_domains DnsFilteringProfile#block_newly_registered_domains}
   */
   readonly blockNewlyRegisteredDomains?: boolean | cdktf.IResolvable;
   /**
   * Block parked domains. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_parked_domains DnsFilteringProfile#block_parked_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_parked_domains DnsFilteringProfile#block_parked_domains}
   */
   readonly blockParkedDomains?: boolean | cdktf.IResolvable;
   /**
   * Blocks typosquatted domains. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#block_typosquatting DnsFilteringProfile#block_typosquatting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#block_typosquatting DnsFilteringProfile#block_typosquatting}
   */
   readonly blockTyposquatting?: boolean | cdktf.IResolvable;
   /**
   * Whether to use Google Safe browsing lists to block content. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#enable_google_safe_browsing DnsFilteringProfile#enable_google_safe_browsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#enable_google_safe_browsing DnsFilteringProfile#enable_google_safe_browsing}
   */
   readonly enableGoogleSafeBrowsing?: boolean | cdktf.IResolvable;
   /**
   * Whether to filter content using threat intelligence feeds. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#enable_threat_intelligence_feeds DnsFilteringProfile#enable_threat_intelligence_feeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#enable_threat_intelligence_feeds DnsFilteringProfile#enable_threat_intelligence_feeds}
   */
   readonly enableThreatIntelligenceFeeds?: boolean | cdktf.IResolvable;
 }
@@ -1244,7 +1244,7 @@ export class DnsFilteringProfileSecurityCategoriesOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile twingate_dns_filtering_profile}
+* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile twingate_dns_filtering_profile}
 */
 export class DnsFilteringProfile extends cdktf.TerraformResource {
 
@@ -1260,7 +1260,7 @@ export class DnsFilteringProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsFilteringProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsFilteringProfile to import
-  * @param importFromId The id of the existing DnsFilteringProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsFilteringProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsFilteringProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1272,7 +1272,7 @@ export class DnsFilteringProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/dns_filtering_profile twingate_dns_filtering_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/dns_filtering_profile twingate_dns_filtering_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1283,8 +1283,8 @@ export class DnsFilteringProfile extends cdktf.TerraformResource {
       terraformResourceType: 'twingate_dns_filtering_profile',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0',
-        providerVersionConstraint: '3.5.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

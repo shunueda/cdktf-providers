@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "twingate": "3.5.0"
+    "twingate": "3.6.0"
   }
 }

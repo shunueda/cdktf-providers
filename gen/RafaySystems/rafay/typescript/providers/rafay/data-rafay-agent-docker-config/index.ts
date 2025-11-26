@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/agent_docker_config
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/agent_docker_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataRafayAgentDockerConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/agent_docker_config#agent_name DataRafayAgentDockerConfig#agent_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/agent_docker_config#agent_name DataRafayAgentDockerConfig#agent_name}
   */
   readonly agentName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/agent_docker_config#download_config_files DataRafayAgentDockerConfig#download_config_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/agent_docker_config#download_config_files DataRafayAgentDockerConfig#download_config_files}
   */
   readonly downloadConfigFiles: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/agent_docker_config#download_directory DataRafayAgentDockerConfig#download_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/agent_docker_config#download_directory DataRafayAgentDockerConfig#download_directory}
   */
   readonly downloadDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/agent_docker_config#id DataRafayAgentDockerConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/agent_docker_config#id DataRafayAgentDockerConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/agent_docker_config#project DataRafayAgentDockerConfig#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/agent_docker_config#project DataRafayAgentDockerConfig#project}
   */
   readonly project: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/agent_docker_config#timeouts DataRafayAgentDockerConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/agent_docker_config#timeouts DataRafayAgentDockerConfig#timeouts}
   */
   readonly timeouts?: DataRafayAgentDockerConfigTimeouts;
 }
 export interface DataRafayAgentDockerConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/agent_docker_config#read DataRafayAgentDockerConfig#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/agent_docker_config#read DataRafayAgentDockerConfig#read}
   */
   readonly read?: string;
 }
@@ -133,7 +133,7 @@ export class DataRafayAgentDockerConfigTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/agent_docker_config rafay_agent_docker_config}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/agent_docker_config rafay_agent_docker_config}
 */
 export class DataRafayAgentDockerConfig extends cdktf.TerraformDataSource {
 
@@ -149,7 +149,7 @@ export class DataRafayAgentDockerConfig extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRafayAgentDockerConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRafayAgentDockerConfig to import
-  * @param importFromId The id of the existing DataRafayAgentDockerConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/agent_docker_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRafayAgentDockerConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/agent_docker_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRafayAgentDockerConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class DataRafayAgentDockerConfig extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/agent_docker_config rafay_agent_docker_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/agent_docker_config rafay_agent_docker_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class DataRafayAgentDockerConfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'rafay_agent_docker_config',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

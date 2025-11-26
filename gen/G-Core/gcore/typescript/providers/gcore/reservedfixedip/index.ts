@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip
+// https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ReservedfixedipConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP address of the port. Can be passed with type `ip_address` or retrieved after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#fixed_ip_address Reservedfixedip#fixed_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#fixed_ip_address Reservedfixedip#fixed_ip_address}
   */
   readonly fixedIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#id Reservedfixedip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#id Reservedfixedip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface ReservedfixedipConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP family of the reserved fixed ip to create. Available values are 'ipv4', 'ipv6', 'dual'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#ip_family Reservedfixedip#ip_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#ip_family Reservedfixedip#ip_family}
   */
   readonly ipFamily?: string;
   /**
   * Flag to indicate whether the port is a virtual IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#is_vip Reservedfixedip#is_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#is_vip Reservedfixedip#is_vip}
   */
   readonly isVip?: boolean | cdktf.IResolvable;
   /**
   * ID of the desired network. Should be used together with `subnet_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#network_id Reservedfixedip#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#network_id Reservedfixedip#network_id}
   */
   readonly networkId?: string;
   /**
   * ID of the port underlying the reserved fixed IP. Can be passed with type `port` or retrieved after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#port_id Reservedfixedip#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#port_id Reservedfixedip#port_id}
   */
   readonly portId?: string;
   /**
   * ID of the desired project to create reserved fixed ip in. Alternative for `project_name`. One of them should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#project_id Reservedfixedip#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#project_id Reservedfixedip#project_id}
   */
   readonly projectId?: number;
   /**
   * Name of the desired project to create reserved fixed ip in. Alternative for `project_id`. One of them should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#project_name Reservedfixedip#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#project_name Reservedfixedip#project_name}
   */
   readonly projectName?: string;
   /**
   * ID of the desired region to create reserved fixed ip in. Alternative for `region_name`. One of them should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#region_id Reservedfixedip#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#region_id Reservedfixedip#region_id}
   */
   readonly regionId?: number;
   /**
   * Name of the desired region to create reserved fixed ip in. Alternative for `region_id`. One of them should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#region_name Reservedfixedip#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#region_name Reservedfixedip#region_name}
   */
   readonly regionName?: string;
   /**
   * ID of the desired subnet. Can be used together with `network_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#subnet_id Reservedfixedip#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#subnet_id Reservedfixedip#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Type of the reserved fixed ip for create. Available values are 'external', 'subnet', 'any_subnet', 'ip_address', 'port'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#type Reservedfixedip#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#type Reservedfixedip#type}
   */
   readonly type: string;
   /**
   * allowed_address_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#allowed_address_pairs Reservedfixedip#allowed_address_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#allowed_address_pairs Reservedfixedip#allowed_address_pairs}
   */
   readonly allowedAddressPairs?: ReservedfixedipAllowedAddressPairs[] | cdktf.IResolvable;
 }
@@ -91,13 +91,13 @@ export interface ReservedfixedipAllowedAddressPairs {
   /**
   * IPv4 or IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#ip_address Reservedfixedip#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#ip_address Reservedfixedip#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#mac_address Reservedfixedip#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#mac_address Reservedfixedip#mac_address}
   */
   readonly macAddress?: string;
 }
@@ -242,7 +242,7 @@ export class ReservedfixedipAllowedAddressPairsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip gcore_reservedfixedip}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip gcore_reservedfixedip}
 */
 export class Reservedfixedip extends cdktf.TerraformResource {
 
@@ -258,7 +258,7 @@ export class Reservedfixedip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Reservedfixedip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Reservedfixedip to import
-  * @param importFromId The id of the existing Reservedfixedip that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Reservedfixedip that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Reservedfixedip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -270,7 +270,7 @@ export class Reservedfixedip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/reservedfixedip gcore_reservedfixedip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/reservedfixedip gcore_reservedfixedip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,8 +281,8 @@ export class Reservedfixedip extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_reservedfixedip',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.0',
-        providerVersionConstraint: '0.32.0'
+        providerVersion: '0.32.1',
+        providerVersionConstraint: '0.32.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

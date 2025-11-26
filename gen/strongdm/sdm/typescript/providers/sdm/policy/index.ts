@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy
+// https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description of the Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy#description Policy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy#description Policy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy#id Policy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy#id Policy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique human-readable name of the Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy#name Policy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy#name Policy#name}
   */
   readonly name: string;
   /**
   * The content of the Policy, in Cedar policy language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy#policy Policy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy#policy Policy#policy}
   */
   readonly policy?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy#timeouts Policy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy#timeouts Policy#timeouts}
   */
   readonly timeouts?: PolicyTimeouts;
 }
 export interface PolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy#create Policy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy#create Policy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy#default Policy#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy#default Policy#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy#delete Policy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy#delete Policy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy#read Policy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy#read Policy#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy#update Policy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy#update Policy#update}
   */
   readonly update?: string;
 }
@@ -267,7 +267,7 @@ export class PolicyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy sdm_policy}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy sdm_policy}
 */
 export class Policy extends cdktf.TerraformResource {
 
@@ -283,7 +283,7 @@ export class Policy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Policy to import
-  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class Policy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/policy sdm_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/policy sdm_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class Policy extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_policy',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.33.0',
-        providerVersionConstraint: '15.33.0'
+        providerVersion: '15.35.0',
+        providerVersionConstraint: '15.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

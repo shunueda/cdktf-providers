@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine
+// https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SecretEngineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#id SecretEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#id SecretEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface SecretEngineConfig extends cdktf.TerraformMetaArguments {
   /**
   * active_directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#active_directory SecretEngine#active_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#active_directory SecretEngine#active_directory}
   */
   readonly activeDirectory?: SecretEngineActiveDirectory;
   /**
   * key_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#key_value SecretEngine#key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#key_value SecretEngine#key_value}
   */
   readonly keyValue?: SecretEngineKeyValue;
   /**
   * mysql_secret_engine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#mysql_secret_engine SecretEngine#mysql_secret_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#mysql_secret_engine SecretEngine#mysql_secret_engine}
   */
   readonly mysqlSecretEngine?: SecretEngineMysqlSecretEngine;
   /**
   * postgres_secret_engine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#postgres_secret_engine SecretEngine#postgres_secret_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#postgres_secret_engine SecretEngine#postgres_secret_engine}
   */
   readonly postgresSecretEngine?: SecretEnginePostgresSecretEngine;
   /**
   * sqlserver_secret_engine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#sqlserver_secret_engine SecretEngine#sqlserver_secret_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#sqlserver_secret_engine SecretEngine#sqlserver_secret_engine}
   */
   readonly sqlserverSecretEngine?: SecretEngineSqlserverSecretEngine;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#timeouts SecretEngine#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#timeouts SecretEngine#timeouts}
   */
   readonly timeouts?: SecretEngineTimeouts;
 }
@@ -55,115 +55,115 @@ export interface SecretEngineActiveDirectory {
   /**
   * The default time-to-live duration of the password after it's read. Once the ttl has passed, a password will be rotated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#after_read_ttl SecretEngine#after_read_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#after_read_ttl SecretEngine#after_read_ttl}
   */
   readonly afterReadTtl?: string;
   /**
   * Distinguished name of object to bind when performing user and group search. Example: cn=vault,ou=Users,dc=example,dc=com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#binddn SecretEngine#binddn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#binddn SecretEngine#binddn}
   */
   readonly binddn: string;
   /**
   * Password to use along with binddn when performing user search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#bindpass SecretEngine#bindpass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#bindpass SecretEngine#bindpass}
   */
   readonly bindpass: string;
   /**
   * CA certificate to use when verifying LDAP server certificate, must be x509 PEM encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#certificate SecretEngine#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#certificate SecretEngine#certificate}
   */
   readonly certificate?: string;
   /**
   * Timeout, in seconds, when attempting to connect to the LDAP server before trying the next URL in the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#connection_timeout SecretEngine#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#connection_timeout SecretEngine#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
   * If set to true this will prevent password change timestamp validation in Active Directory when validating credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#do_not_validate_timestamps SecretEngine#do_not_validate_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#do_not_validate_timestamps SecretEngine#do_not_validate_timestamps}
   */
   readonly doNotValidateTimestamps?: boolean | cdktf.IResolvable;
   /**
   * If true, skips LDAP server SSL certificate verification - insecure, use with caution!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#insecure_tls SecretEngine#insecure_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#insecure_tls SecretEngine#insecure_tls}
   */
   readonly insecureTls?: boolean | cdktf.IResolvable;
   /**
   * An interval of public/private key rotation for secret engine in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#key_rotation_interval_days SecretEngine#key_rotation_interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#key_rotation_interval_days SecretEngine#key_rotation_interval_days}
   */
   readonly keyRotationIntervalDays?: number;
   /**
   * The maximum retry duration in case of automatic failure. On failed ttl rotation attempt it will be retried in an increasing intervals until it reaches max_backoff_duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#max_backoff_duration SecretEngine#max_backoff_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#max_backoff_duration SecretEngine#max_backoff_duration}
   */
   readonly maxBackoffDuration?: string;
   /**
   * Unique human-readable name of the Secret Engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#name SecretEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#name SecretEngine#name}
   */
   readonly name: string;
   /**
   * Timeout, in seconds, for the connection when making requests against the server before returning back an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#request_timeout SecretEngine#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#request_timeout SecretEngine#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * Backing secret store identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#secret_store_id SecretEngine#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#secret_store_id SecretEngine#secret_store_id}
   */
   readonly secretStoreId: string;
   /**
   * Backing Secret Store root path where managed secrets are going to be stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#secret_store_root_path SecretEngine#secret_store_root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#secret_store_root_path SecretEngine#secret_store_root_path}
   */
   readonly secretStoreRootPath: string;
   /**
   * If true, issues a StartTLS command after establishing an unencrypted connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#start_tls SecretEngine#start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#start_tls SecretEngine#start_tls}
   */
   readonly startTls?: boolean | cdktf.IResolvable;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#tags SecretEngine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#tags SecretEngine#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The default password time-to-live duration. Once the ttl has passed, a password will be rotated the next time it's requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#ttl SecretEngine#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#ttl SecretEngine#ttl}
   */
   readonly ttl?: string;
   /**
   * The domain (userPrincipalDomain) used to construct a UPN string for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#upndomain SecretEngine#upndomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#upndomain SecretEngine#upndomain}
   */
   readonly upndomain?: string;
   /**
   * The LDAP server to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#url SecretEngine#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#url SecretEngine#url}
   */
   readonly url: string;
   /**
   * Base DN under which to perform user search. Example: ou=Users,dc=example,dc=com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#userdn SecretEngine#userdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#userdn SecretEngine#userdn}
   */
   readonly userdn?: string;
 }
@@ -758,31 +758,31 @@ export interface SecretEngineKeyValue {
   /**
   * An interval of public/private key rotation for secret engine in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#key_rotation_interval_days SecretEngine#key_rotation_interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#key_rotation_interval_days SecretEngine#key_rotation_interval_days}
   */
   readonly keyRotationIntervalDays?: number;
   /**
   * Unique human-readable name of the Secret Engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#name SecretEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#name SecretEngine#name}
   */
   readonly name: string;
   /**
   * Backing secret store identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#secret_store_id SecretEngine#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#secret_store_id SecretEngine#secret_store_id}
   */
   readonly secretStoreId: string;
   /**
   * Backing Secret Store root path where managed secrets are going to be stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#secret_store_root_path SecretEngine#secret_store_root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#secret_store_root_path SecretEngine#secret_store_root_path}
   */
   readonly secretStoreRootPath: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#tags SecretEngine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#tags SecretEngine#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -980,85 +980,85 @@ export interface SecretEngineMysqlSecretEngine {
   /**
   * The default time-to-live duration of the password after it's read. Once the ttl has passed, a password will be rotated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#after_read_ttl SecretEngine#after_read_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#after_read_ttl SecretEngine#after_read_ttl}
   */
   readonly afterReadTtl?: string;
   /**
   * Database is the database to verify credential against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#database SecretEngine#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#database SecretEngine#database}
   */
   readonly database: string;
   /**
   * Hostname is the hostname or IP address of the MySQL server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#hostname SecretEngine#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#hostname SecretEngine#hostname}
   */
   readonly hostname: string;
   /**
   * An interval of public/private key rotation for secret engine in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#key_rotation_interval_days SecretEngine#key_rotation_interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#key_rotation_interval_days SecretEngine#key_rotation_interval_days}
   */
   readonly keyRotationIntervalDays?: number;
   /**
   * Unique human-readable name of the Secret Engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#name SecretEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#name SecretEngine#name}
   */
   readonly name: string;
   /**
   * Password is the password to connect to the MySQL server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#password SecretEngine#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#password SecretEngine#password}
   */
   readonly password: string;
   /**
   * Port is the port number of the MySQL server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#port SecretEngine#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#port SecretEngine#port}
   */
   readonly port: number;
   /**
   * Backing secret store identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#secret_store_id SecretEngine#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#secret_store_id SecretEngine#secret_store_id}
   */
   readonly secretStoreId: string;
   /**
   * Backing Secret Store root path where managed secrets are going to be stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#secret_store_root_path SecretEngine#secret_store_root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#secret_store_root_path SecretEngine#secret_store_root_path}
   */
   readonly secretStoreRootPath: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#tags SecretEngine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#tags SecretEngine#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * TLS enables TLS/SSL when connecting to the MySQL server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#tls SecretEngine#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#tls SecretEngine#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
   * TLS disable certificate verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#tls_skip_verify SecretEngine#tls_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#tls_skip_verify SecretEngine#tls_skip_verify}
   */
   readonly tlsSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * The default password time-to-live duration. Once the ttl has passed, a password will be rotated the next time it's requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#ttl SecretEngine#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#ttl SecretEngine#ttl}
   */
   readonly ttl?: string;
   /**
   * Username is the username to connect to the MySQL server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#username SecretEngine#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#username SecretEngine#username}
   */
   readonly username: string;
 }
@@ -1502,79 +1502,79 @@ export interface SecretEnginePostgresSecretEngine {
   /**
   * The default time-to-live duration of the password after it's read. Once the ttl has passed, a password will be rotated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#after_read_ttl SecretEngine#after_read_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#after_read_ttl SecretEngine#after_read_ttl}
   */
   readonly afterReadTtl?: string;
   /**
   * Database is the database to verify credential against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#database SecretEngine#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#database SecretEngine#database}
   */
   readonly database: string;
   /**
   * Hostname is the hostname or IP address of the Postgres server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#hostname SecretEngine#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#hostname SecretEngine#hostname}
   */
   readonly hostname: string;
   /**
   * An interval of public/private key rotation for secret engine in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#key_rotation_interval_days SecretEngine#key_rotation_interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#key_rotation_interval_days SecretEngine#key_rotation_interval_days}
   */
   readonly keyRotationIntervalDays?: number;
   /**
   * Unique human-readable name of the Secret Engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#name SecretEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#name SecretEngine#name}
   */
   readonly name: string;
   /**
   * Password is the password to connect to the Postgres server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#password SecretEngine#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#password SecretEngine#password}
   */
   readonly password: string;
   /**
   * Port is the port number of the Postgres server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#port SecretEngine#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#port SecretEngine#port}
   */
   readonly port: number;
   /**
   * Backing secret store identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#secret_store_id SecretEngine#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#secret_store_id SecretEngine#secret_store_id}
   */
   readonly secretStoreId: string;
   /**
   * Backing Secret Store root path where managed secrets are going to be stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#secret_store_root_path SecretEngine#secret_store_root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#secret_store_root_path SecretEngine#secret_store_root_path}
   */
   readonly secretStoreRootPath: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#tags SecretEngine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#tags SecretEngine#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * TLS enables TLS/SSL when connecting to the Postgres server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#tls SecretEngine#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#tls SecretEngine#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
   * The default password time-to-live duration. Once the ttl has passed, a password will be rotated the next time it's requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#ttl SecretEngine#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#ttl SecretEngine#ttl}
   */
   readonly ttl?: string;
   /**
   * Username is the username to connect to the Postgres server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#username SecretEngine#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#username SecretEngine#username}
   */
   readonly username: string;
 }
@@ -1989,85 +1989,85 @@ export interface SecretEngineSqlserverSecretEngine {
   /**
   * The default time-to-live duration of the password after it's read. Once the ttl has passed, a password will be rotated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#after_read_ttl SecretEngine#after_read_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#after_read_ttl SecretEngine#after_read_ttl}
   */
   readonly afterReadTtl?: string;
   /**
   * Database is the database to verify credential against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#database SecretEngine#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#database SecretEngine#database}
   */
   readonly database: string;
   /**
   * Hostname is the hostname or IP address of the SQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#hostname SecretEngine#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#hostname SecretEngine#hostname}
   */
   readonly hostname: string;
   /**
   * An interval of public/private key rotation for secret engine in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#key_rotation_interval_days SecretEngine#key_rotation_interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#key_rotation_interval_days SecretEngine#key_rotation_interval_days}
   */
   readonly keyRotationIntervalDays?: number;
   /**
   * Unique human-readable name of the Secret Engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#name SecretEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#name SecretEngine#name}
   */
   readonly name: string;
   /**
   * Password is the password to connect to the SQL Server server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#password SecretEngine#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#password SecretEngine#password}
   */
   readonly password: string;
   /**
   * Port is the port number of the SQL Server server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#port SecretEngine#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#port SecretEngine#port}
   */
   readonly port: number;
   /**
   * Backing secret store identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#secret_store_id SecretEngine#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#secret_store_id SecretEngine#secret_store_id}
   */
   readonly secretStoreId: string;
   /**
   * Backing Secret Store root path where managed secrets are going to be stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#secret_store_root_path SecretEngine#secret_store_root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#secret_store_root_path SecretEngine#secret_store_root_path}
   */
   readonly secretStoreRootPath: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#tags SecretEngine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#tags SecretEngine#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * TLS enables TLS/SSL when connecting to the SQL Server server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#tls SecretEngine#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#tls SecretEngine#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
   * TLS disable certificate verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#tls_skip_verify SecretEngine#tls_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#tls_skip_verify SecretEngine#tls_skip_verify}
   */
   readonly tlsSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * The default password time-to-live duration. Once the ttl has passed, a password will be rotated the next time it's requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#ttl SecretEngine#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#ttl SecretEngine#ttl}
   */
   readonly ttl?: string;
   /**
   * Username is the username to connect to the SQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#username SecretEngine#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#username SecretEngine#username}
   */
   readonly username: string;
 }
@@ -2509,23 +2509,23 @@ export class SecretEngineSqlserverSecretEngineOutputReference extends cdktf.Comp
 }
 export interface SecretEngineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#create SecretEngine#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#create SecretEngine#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#default SecretEngine#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#default SecretEngine#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#delete SecretEngine#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#delete SecretEngine#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#read SecretEngine#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#read SecretEngine#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#update SecretEngine#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#update SecretEngine#update}
   */
   readonly update?: string;
 }
@@ -2735,7 +2735,7 @@ export class SecretEngineTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine sdm_secret_engine}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine sdm_secret_engine}
 */
 export class SecretEngine extends cdktf.TerraformResource {
 
@@ -2751,7 +2751,7 @@ export class SecretEngine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecretEngine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecretEngine to import
-  * @param importFromId The id of the existing SecretEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecretEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecretEngine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2763,7 +2763,7 @@ export class SecretEngine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/secret_engine sdm_secret_engine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/secret_engine sdm_secret_engine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2774,8 +2774,8 @@ export class SecretEngine extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_secret_engine',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.33.0',
-        providerVersionConstraint: '15.33.0'
+        providerVersion: '15.35.0',
+        providerVersionConstraint: '15.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

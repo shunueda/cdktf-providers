@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataRafayGkeClusterConfig extends cdktf.TerraformMetaArguments 
   /**
   * apiVersion of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#api_version DataRafayGkeCluster#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#api_version DataRafayGkeCluster#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#id DataRafayGkeCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#id DataRafayGkeCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataRafayGkeClusterConfig extends cdktf.TerraformMetaArguments 
   /**
   * kind of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#kind DataRafayGkeCluster#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#kind DataRafayGkeCluster#kind}
   */
   readonly kind?: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#metadata DataRafayGkeCluster#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#metadata DataRafayGkeCluster#metadata}
   */
   readonly metadata?: DataRafayGkeClusterMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#spec DataRafayGkeCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#spec DataRafayGkeCluster#spec}
   */
   readonly spec?: DataRafayGkeClusterSpec[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#timeouts DataRafayGkeCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#timeouts DataRafayGkeCluster#timeouts}
   */
   readonly timeouts?: DataRafayGkeClusterTimeouts;
 }
@@ -49,7 +49,7 @@ export interface DataRafayGkeClusterMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#id DataRafayGkeCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#id DataRafayGkeCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,13 +58,13 @@ export interface DataRafayGkeClusterMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#is_sso_user DataRafayGkeCluster#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#is_sso_user DataRafayGkeCluster#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#username DataRafayGkeCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#username DataRafayGkeCluster#username}
   */
   readonly username?: string;
 }
@@ -208,7 +208,7 @@ export interface DataRafayGkeClusterMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#id DataRafayGkeCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#id DataRafayGkeCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -217,13 +217,13 @@ export interface DataRafayGkeClusterMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#is_sso_user DataRafayGkeCluster#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#is_sso_user DataRafayGkeCluster#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#username DataRafayGkeCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#username DataRafayGkeCluster#username}
   */
   readonly username?: string;
 }
@@ -367,49 +367,49 @@ export interface DataRafayGkeClusterMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#annotations DataRafayGkeCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#annotations DataRafayGkeCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#description DataRafayGkeCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#description DataRafayGkeCluster#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#display_name DataRafayGkeCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#display_name DataRafayGkeCluster#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#labels DataRafayGkeCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#labels DataRafayGkeCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#project DataRafayGkeCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#project DataRafayGkeCluster#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#created_by DataRafayGkeCluster#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#created_by DataRafayGkeCluster#created_by}
   */
   readonly createdBy?: DataRafayGkeClusterMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#modified_by DataRafayGkeCluster#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#modified_by DataRafayGkeCluster#modified_by}
   */
   readonly modifiedBy?: DataRafayGkeClusterMetadataModifiedBy;
 }
@@ -696,11 +696,11 @@ export class DataRafayGkeClusterMetadataOutputReference extends cdktf.ComplexObj
 }
 export interface DataRafayGkeClusterSpecBlueprint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#version DataRafayGkeCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#version DataRafayGkeCluster#version}
   */
   readonly version?: string;
 }
@@ -815,61 +815,61 @@ export interface DataRafayGkeClusterSpecConfigFeatures {
   /**
   * List of components for cloud logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#cloud_logging_components DataRafayGkeCluster#cloud_logging_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#cloud_logging_components DataRafayGkeCluster#cloud_logging_components}
   */
   readonly cloudLoggingComponents?: string[];
   /**
   * List of components for cloud monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#cloud_monitoring_components DataRafayGkeCluster#cloud_monitoring_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#cloud_monitoring_components DataRafayGkeCluster#cloud_monitoring_components}
   */
   readonly cloudMonitoringComponents?: string[];
   /**
   * Application Manager is a GKE controller for managing the lifecycle of applications. It enables application delivery and updates following Kubernetes and GitOps best practices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_application_manager_beta DataRafayGkeCluster#enable_application_manager_beta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_application_manager_beta DataRafayGkeCluster#enable_application_manager_beta}
   */
   readonly enableApplicationManagerBeta?: boolean | cdktf.IResolvable;
   /**
   * Backup for GKE allows you to back up and restore GKE workloads. There is no cost for enabling this feature, but you are charged for backups based on the size of the data and the number of pods you protect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_backup_for_gke DataRafayGkeCluster#enable_backup_for_gke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_backup_for_gke DataRafayGkeCluster#enable_backup_for_gke}
   */
   readonly enableBackupForGke?: boolean | cdktf.IResolvable;
   /**
   * Logging collects logs emitted by your applications and by GKE infrastructure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_cloud_logging DataRafayGkeCluster#enable_cloud_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_cloud_logging DataRafayGkeCluster#enable_cloud_logging}
   */
   readonly enableCloudLogging?: boolean | cdktf.IResolvable;
   /**
   * Monitoring collects metrics emitted by your applications and by GKE infrastructure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_cloud_monitoring DataRafayGkeCluster#enable_cloud_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_cloud_monitoring DataRafayGkeCluster#enable_cloud_monitoring}
   */
   readonly enableCloudMonitoring?: boolean | cdktf.IResolvable;
   /**
   * Enable to automatically deploy and manage the Compute Engine Persistent Disk CSI Driver. This feature is an alternative to using the gcePersistentDisk in-tree volume plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_compute_engine_persistent_disk_csi_driver DataRafayGkeCluster#enable_compute_engine_persistent_disk_csi_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_compute_engine_persistent_disk_csi_driver DataRafayGkeCluster#enable_compute_engine_persistent_disk_csi_driver}
   */
   readonly enableComputeEnginePersistentDiskCsiDriver?: boolean | cdktf.IResolvable;
   /**
   * Enable to automatically deploy and manage the Filestore CSI Driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_filestore_csi_driver DataRafayGkeCluster#enable_filestore_csi_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_filestore_csi_driver DataRafayGkeCluster#enable_filestore_csi_driver}
   */
   readonly enableFilestoreCsiDriver?: boolean | cdktf.IResolvable;
   /**
   * Image streaming allows your workloads to initialize without waiting for the entire image to download
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_image_streaming DataRafayGkeCluster#enable_image_streaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_image_streaming DataRafayGkeCluster#enable_image_streaming}
   */
   readonly enableImageStreaming?: boolean | cdktf.IResolvable;
   /**
   * This option deploys managed collectors for Prometheus metrics within this cluster. These collectors must be configured using PodMonitoring resources. To enable Managed Service for Prometheus here, you'll need. Cluster version of 1.21.4-gke.300 or greater
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_managed_service_prometheus DataRafayGkeCluster#enable_managed_service_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_managed_service_prometheus DataRafayGkeCluster#enable_managed_service_prometheus}
   */
   readonly enableManagedServicePrometheus?: boolean | cdktf.IResolvable;
 }
@@ -1216,13 +1216,13 @@ export interface DataRafayGkeClusterSpecConfigLocationConfig {
   /**
   * Regional location in which the cluster's control plane and nodes are located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#region DataRafayGkeCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#region DataRafayGkeCluster#region}
   */
   readonly region?: string;
   /**
   * Zone in the region where bootstrap VM is created for cluster provisioning 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#zone DataRafayGkeCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#zone DataRafayGkeCluster#zone}
   */
   readonly zone?: string;
 }
@@ -1337,13 +1337,13 @@ export interface DataRafayGkeClusterSpecConfigLocationDefaultNodeLocations {
   /**
   * Enable providing default node locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enabled DataRafayGkeCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enabled DataRafayGkeCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of zones. Increase availability by providing more than one zone. The same number of nodes will be deployed to each zone in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#zones DataRafayGkeCluster#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#zones DataRafayGkeCluster#zones}
   */
   readonly zones?: string[];
 }
@@ -1458,19 +1458,19 @@ export interface DataRafayGkeClusterSpecConfigLocation {
   /**
   * GKE Cluster location can be either zonal or regional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#type DataRafayGkeCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#type DataRafayGkeCluster#type}
   */
   readonly type?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#config DataRafayGkeCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#config DataRafayGkeCluster#config}
   */
   readonly config?: DataRafayGkeClusterSpecConfigLocationConfig;
   /**
   * default_node_locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#default_node_locations DataRafayGkeCluster#default_node_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#default_node_locations DataRafayGkeCluster#default_node_locations}
   */
   readonly defaultNodeLocations?: DataRafayGkeClusterSpecConfigLocationDefaultNodeLocations;
 }
@@ -1612,11 +1612,11 @@ export class DataRafayGkeClusterSpecConfigLocationOutputReference extends cdktf.
 }
 export interface DataRafayGkeClusterSpecConfigNetworkAccessConfigFirewallRulesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#ports DataRafayGkeCluster#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#ports DataRafayGkeCluster#ports}
   */
   readonly ports?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#protocol DataRafayGkeCluster#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#protocol DataRafayGkeCluster#protocol}
   */
   readonly protocol?: string;
 }
@@ -1761,45 +1761,45 @@ export class DataRafayGkeClusterSpecConfigNetworkAccessConfigFirewallRulesRulesL
 }
 export interface DataRafayGkeClusterSpecConfigNetworkAccessConfigFirewallRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#action DataRafayGkeCluster#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#action DataRafayGkeCluster#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#description DataRafayGkeCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#description DataRafayGkeCluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#destination_ranges DataRafayGkeCluster#destination_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#destination_ranges DataRafayGkeCluster#destination_ranges}
   */
   readonly destinationRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#direction DataRafayGkeCluster#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#direction DataRafayGkeCluster#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#network DataRafayGkeCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#network DataRafayGkeCluster#network}
   */
   readonly network?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#priority DataRafayGkeCluster#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#priority DataRafayGkeCluster#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#source_ranges DataRafayGkeCluster#source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#source_ranges DataRafayGkeCluster#source_ranges}
   */
   readonly sourceRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#target_tags DataRafayGkeCluster#target_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#target_tags DataRafayGkeCluster#target_tags}
   */
   readonly targetTags?: string[];
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#rules DataRafayGkeCluster#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#rules DataRafayGkeCluster#rules}
   */
   readonly rules?: DataRafayGkeClusterSpecConfigNetworkAccessConfigFirewallRulesRules[] | cdktf.IResolvable;
 }
@@ -2178,43 +2178,43 @@ export interface DataRafayGkeClusterSpecConfigNetworkAccessConfig {
   /**
   * Control plane IP range is for the control plane VPC. The control plane range must not overlap with any subnet in your cluster's VPC. The control plane and your cluster use VPC peering to communicate privately
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#control_plane_ip_range DataRafayGkeCluster#control_plane_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#control_plane_ip_range DataRafayGkeCluster#control_plane_ip_range}
   */
   readonly controlPlaneIpRange?: string;
   /**
   * To use Privately Used Public IPs (PUPI) ranges, the default source NAT used for IP masquerading needs to be disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#disable_snat DataRafayGkeCluster#disable_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#disable_snat DataRafayGkeCluster#disable_snat}
   */
   readonly disableSnat?: boolean | cdktf.IResolvable;
   /**
   * Disabling this option locks down external access to the cluster control plane. There is still an external IP address used by Google for cluster management purposes, but the IP address is not accessible to anyone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_access_control_plane_external_ip DataRafayGkeCluster#enable_access_control_plane_external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_access_control_plane_external_ip DataRafayGkeCluster#enable_access_control_plane_external_ip}
   */
   readonly enableAccessControlPlaneExternalIp?: boolean | cdktf.IResolvable;
   /**
   * With control plane global access, you can access the control plane's private endpoint from any GCP region or on-premises environment no matter what the private cluster's region is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_access_control_plane_global DataRafayGkeCluster#enable_access_control_plane_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_access_control_plane_global DataRafayGkeCluster#enable_access_control_plane_global}
   */
   readonly enableAccessControlPlaneGlobal?: boolean | cdktf.IResolvable;
   /**
   * Whether nodes have internal IP addresses only. If enabled, all nodes are given only RFC 1918 private addresses and communicate with the master via private networking.If control plane cidr block is provided then enablePrivateNodes must be TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_private_nodes DataRafayGkeCluster#enable_private_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_private_nodes DataRafayGkeCluster#enable_private_nodes}
   */
   readonly enablePrivateNodes?: boolean | cdktf.IResolvable;
   /**
   * Subnet to provision the master's private endpoint during cluster creation.If control plane cidr block is provided then PrivateEndpointSubnetwork must be unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#private_endpoint_subnetwork_name DataRafayGkeCluster#private_endpoint_subnetwork_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#private_endpoint_subnetwork_name DataRafayGkeCluster#private_endpoint_subnetwork_name}
   */
   readonly privateEndpointSubnetworkName?: string;
   /**
   * firewall_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#firewall_rules DataRafayGkeCluster#firewall_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#firewall_rules DataRafayGkeCluster#firewall_rules}
   */
   readonly firewallRules?: DataRafayGkeClusterSpecConfigNetworkAccessConfigFirewallRules[] | cdktf.IResolvable;
 }
@@ -2474,13 +2474,13 @@ export interface DataRafayGkeClusterSpecConfigNetworkAccess {
   /**
   * Choose the type of network you want to allow to access your cluster's workloads. private or public
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#type DataRafayGkeCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#type DataRafayGkeCluster#type}
   */
   readonly type?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#config DataRafayGkeCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#config DataRafayGkeCluster#config}
   */
   readonly config?: DataRafayGkeClusterSpecConfigNetworkAccessConfig;
 }
@@ -2595,13 +2595,13 @@ export interface DataRafayGkeClusterSpecConfigNetworkControlPlaneAuthorizedNetwo
   /**
   * CIDR Example: 198.51.100.0/24
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#cidr DataRafayGkeCluster#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#cidr DataRafayGkeCluster#cidr}
   */
   readonly cidr?: string;
   /**
   * Name of the Authorized Network Example: Corporate Office
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
   */
   readonly name?: string;
 }
@@ -2748,13 +2748,13 @@ export interface DataRafayGkeClusterSpecConfigNetworkControlPlaneAuthorizedNetwo
   /**
   * Enable Control Plane Authorized Network. Configure the Networks now or later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enabled DataRafayGkeCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enabled DataRafayGkeCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * authorized_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#authorized_network DataRafayGkeCluster#authorized_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#authorized_network DataRafayGkeCluster#authorized_network}
   */
   readonly authorizedNetwork?: DataRafayGkeClusterSpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetwork[] | cdktf.IResolvable;
 }
@@ -2869,91 +2869,91 @@ export interface DataRafayGkeClusterSpecConfigNetwork {
   /**
   * Dataplane V2 is optimized for Kubernetes networking kwhich is implemented using eBPF. Possible values: ADVANCED_DATAPATH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#data_plane_v_2 DataRafayGkeCluster#data_plane_v_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#data_plane_v_2 DataRafayGkeCluster#data_plane_v_2}
   */
   readonly dataPlaneV2?: string;
   /**
   * Dataplane V2 metrics brings better insight into the traffic between your Kubernetes workloads. Understand how your services communicate, identify issues with the network health, verify Kubernetes policies and more.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_data_plane_v_2_metrics DataRafayGkeCluster#enable_data_plane_v_2_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_data_plane_v_2_metrics DataRafayGkeCluster#enable_data_plane_v_2_metrics}
   */
   readonly enableDataPlaneV2Metrics?: boolean | cdktf.IResolvable;
   /**
   * Dataplane V2 observability provides Managed Hubble CLI solution that lets you observe network flows between your Kubernetes workloads in real time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_data_plane_v_2_observability DataRafayGkeCluster#enable_data_plane_v_2_observability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_data_plane_v_2_observability DataRafayGkeCluster#enable_data_plane_v_2_observability}
   */
   readonly enableDataPlaneV2Observability?: boolean | cdktf.IResolvable;
   /**
   * This feature uses alias IP and provides a more secure integration with Google Cloud Platform services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_vpc_nativetraffic DataRafayGkeCluster#enable_vpc_nativetraffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_vpc_nativetraffic DataRafayGkeCluster#enable_vpc_nativetraffic}
   */
   readonly enableVpcNativetraffic?: boolean | cdktf.IResolvable;
   /**
   * This value is used to optimize the partitioning of cluster's IP address range to sub-ranges at node level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#max_pods_per_node DataRafayGkeCluster#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#max_pods_per_node DataRafayGkeCluster#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
   * Name of the network that the cluster is in. It determines which other Compute Engine resource it is able to communicate with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes Network Policy API allows the cluster administrator to specify what pods are allowed to communicate with each other. Possible values: CALICO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#network_policy DataRafayGkeCluster#network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#network_policy DataRafayGkeCluster#network_policy}
   */
   readonly networkPolicy?: string;
   /**
   * Configuration for NetworkPolicy. This only tracks whether the addon is enabled or not on the Master,it does not track whether network policy is enabled for the nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#network_policy_config DataRafayGkeCluster#network_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#network_policy_config DataRafayGkeCluster#network_policy_config}
   */
   readonly networkPolicyConfig?: boolean | cdktf.IResolvable;
   /**
   * All pods in the cluster are assigned an IP address from this range. Enter a range (in CIDR notation) within a network range, a mask, or leave this field blank to use a default range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#pod_address_range DataRafayGkeCluster#pod_address_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#pod_address_range DataRafayGkeCluster#pod_address_range}
   */
   readonly podAddressRange?: string;
   /**
   * Cluster pods are assigned an IP from the selected node subnet's secondary CIDR address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#pod_secondary_range_name DataRafayGkeCluster#pod_secondary_range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#pod_secondary_range_name DataRafayGkeCluster#pod_secondary_range_name}
   */
   readonly podSecondaryRangeName?: string;
   /**
   * Cluster services will be assigned an IP address from this IP address range. Enter a range (in CIDR notation) within a network range, a mask, or leave this field blank to use a default range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#service_address_range DataRafayGkeCluster#service_address_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#service_address_range DataRafayGkeCluster#service_address_range}
   */
   readonly serviceAddressRange?: string;
   /**
   * Cluster services are assigned an IP from the selected node subnetes secondary CIDR address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#service_secondary_range_name DataRafayGkeCluster#service_secondary_range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#service_secondary_range_name DataRafayGkeCluster#service_secondary_range_name}
   */
   readonly serviceSecondaryRangeName?: string;
   /**
   * Subnetwork to which the Kubernetes cluster will belong. When VPC native is enabled, the subnetwork must contain at least two secondary ranges which are not used by other Kubernetes clusters. Subnet is permanent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#subnet_name DataRafayGkeCluster#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#subnet_name DataRafayGkeCluster#subnet_name}
   */
   readonly subnetName?: string;
   /**
   * access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#access DataRafayGkeCluster#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#access DataRafayGkeCluster#access}
   */
   readonly access?: DataRafayGkeClusterSpecConfigNetworkAccess;
   /**
   * control_plane_authorized_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#control_plane_authorized_network DataRafayGkeCluster#control_plane_authorized_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#control_plane_authorized_network DataRafayGkeCluster#control_plane_authorized_network}
   */
   readonly controlPlaneAuthorizedNetwork?: DataRafayGkeClusterSpecConfigNetworkControlPlaneAuthorizedNetwork;
 }
@@ -3445,13 +3445,13 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsAutoScaling {
   /**
   * Maximum number of nodes (per zone)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#max_nodes DataRafayGkeCluster#max_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#max_nodes DataRafayGkeCluster#max_nodes}
   */
   readonly maxNodes?: number;
   /**
   * Minimum number of nodes (per zone)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#min_nodes DataRafayGkeCluster#min_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#min_nodes DataRafayGkeCluster#min_nodes}
   */
   readonly minNodes?: number;
 }
@@ -3566,13 +3566,13 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsMachineConfigAccelerators
   /**
   * The max number of clients that can share a physical GPU device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#max_shared_clients DataRafayGkeCluster#max_shared_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#max_shared_clients DataRafayGkeCluster#max_shared_clients}
   */
   readonly maxSharedClients?: number;
   /**
   * The strategy to use for sharing GPUs . Example: Time-Sharing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#strategy DataRafayGkeCluster#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#strategy DataRafayGkeCluster#strategy}
   */
   readonly strategy?: string;
 }
@@ -3687,7 +3687,7 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsMachineConfigAccelerators
   /**
   * The version of the GPU driver to install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#version DataRafayGkeCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#version DataRafayGkeCluster#version}
   */
   readonly version?: string;
 }
@@ -3773,13 +3773,13 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsMachineConfigAccelerators
   /**
   * Choose how GPU drivers will be installed for GPU enabled VMs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#type DataRafayGkeCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#type DataRafayGkeCluster#type}
   */
   readonly type?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#config DataRafayGkeCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#config DataRafayGkeCluster#config}
   */
   readonly config?: DataRafayGkeClusterSpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfig;
 }
@@ -3894,31 +3894,31 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsMachineConfigAccelerators
   /**
   * Number of GPUs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#count DataRafayGkeCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#count DataRafayGkeCluster#count}
   */
   readonly count?: number;
   /**
   * Size of partitions to create on the GPU. Valid values are described in the guide - https://docs.nvidia.com/datacenter/tesla/mig-user-guide/#partitioning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#gpu_partition_size DataRafayGkeCluster#gpu_partition_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#gpu_partition_size DataRafayGkeCluster#gpu_partition_size}
   */
   readonly gpuPartitionSize?: string;
   /**
   * GPU Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#type DataRafayGkeCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#type DataRafayGkeCluster#type}
   */
   readonly type?: string;
   /**
   * accelerator_sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#accelerator_sharing DataRafayGkeCluster#accelerator_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#accelerator_sharing DataRafayGkeCluster#accelerator_sharing}
   */
   readonly acceleratorSharing?: DataRafayGkeClusterSpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharing;
   /**
   * gpu_driver_installation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#gpu_driver_installation DataRafayGkeCluster#gpu_driver_installation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#gpu_driver_installation DataRafayGkeCluster#gpu_driver_installation}
   */
   readonly gpuDriverInstallation?: DataRafayGkeClusterSpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallation;
 }
@@ -4152,13 +4152,13 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsMachineConfigReservationA
   /**
   * Type of reservation consumption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#consume_reservation_type DataRafayGkeCluster#consume_reservation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#consume_reservation_type DataRafayGkeCluster#consume_reservation_type}
   */
   readonly consumeReservationType?: string;
   /**
   * The name of the Reservation to be consumed. Only mandatory when consumeReservationType is set to specific
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#reservation_name DataRafayGkeCluster#reservation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#reservation_name DataRafayGkeCluster#reservation_name}
   */
   readonly reservationName?: string;
 }
@@ -4273,37 +4273,37 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsMachineConfig {
   /**
   * Select Boot disk size. Boot disk size is permanent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#boot_disk_size DataRafayGkeCluster#boot_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#boot_disk_size DataRafayGkeCluster#boot_disk_size}
   */
   readonly bootDiskSize?: number;
   /**
   * Select Boot disk type. Storage space is less expensive for a standard persistent disk. An SSD persistent disk is better for random IOPS or for streaming throughput with low latency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#boot_disk_type DataRafayGkeCluster#boot_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#boot_disk_type DataRafayGkeCluster#boot_disk_type}
   */
   readonly bootDiskType?: string;
   /**
   * Choose which operating system image you want to run on each node of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#image_type DataRafayGkeCluster#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#image_type DataRafayGkeCluster#image_type}
   */
   readonly imageType?: string;
   /**
   * Choose the machine type that will best fit the resource needs of your cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#machine_type DataRafayGkeCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#machine_type DataRafayGkeCluster#machine_type}
   */
   readonly machineType?: string;
   /**
   * accelerators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#accelerators DataRafayGkeCluster#accelerators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#accelerators DataRafayGkeCluster#accelerators}
   */
   readonly accelerators?: DataRafayGkeClusterSpecConfigNodePoolsMachineConfigAccelerators[] | cdktf.IResolvable;
   /**
   * reservation_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#reservation_affinity DataRafayGkeCluster#reservation_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#reservation_affinity DataRafayGkeCluster#reservation_affinity}
   */
   readonly reservationAffinity?: DataRafayGkeClusterSpecConfigNodePoolsMachineConfigReservationAffinity;
 }
@@ -4534,7 +4534,7 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsManagement {
   /**
   * Whether the nodes will be automatically upgraded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#auto_upgrade DataRafayGkeCluster#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#auto_upgrade DataRafayGkeCluster#auto_upgrade}
   */
   readonly autoUpgrade?: boolean | cdktf.IResolvable;
 }
@@ -4620,13 +4620,13 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsMetadataGceInstanceMetada
   /**
   * Key for this metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#key DataRafayGkeCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#key DataRafayGkeCluster#key}
   */
   readonly key?: string;
   /**
   * Value for this metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#value DataRafayGkeCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#value DataRafayGkeCluster#value}
   */
   readonly value?: string;
 }
@@ -4773,13 +4773,13 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsMetadataKubernetesLabels 
   /**
   * Key for this kubernetes label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#key DataRafayGkeCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#key DataRafayGkeCluster#key}
   */
   readonly key?: string;
   /**
   * Value for this kubernetes lable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#value DataRafayGkeCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#value DataRafayGkeCluster#value}
   */
   readonly value?: string;
 }
@@ -4926,19 +4926,19 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsMetadataNodeTaints {
   /**
   * Available effects are NoSchedule, PreferNoSchedule, NoExecute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#effect DataRafayGkeCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#effect DataRafayGkeCluster#effect}
   */
   readonly effect?: string;
   /**
   * Key for this Taint effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#key DataRafayGkeCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#key DataRafayGkeCluster#key}
   */
   readonly key?: string;
   /**
   * Value for this Taint effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#value DataRafayGkeCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#value DataRafayGkeCluster#value}
   */
   readonly value?: string;
 }
@@ -5114,19 +5114,19 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsMetadata {
   /**
   * gce_instance_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#gce_instance_metadata DataRafayGkeCluster#gce_instance_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#gce_instance_metadata DataRafayGkeCluster#gce_instance_metadata}
   */
   readonly gceInstanceMetadata?: DataRafayGkeClusterSpecConfigNodePoolsMetadataGceInstanceMetadata[] | cdktf.IResolvable;
   /**
   * kubernetes_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#kubernetes_labels DataRafayGkeCluster#kubernetes_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#kubernetes_labels DataRafayGkeCluster#kubernetes_labels}
   */
   readonly kubernetesLabels?: DataRafayGkeClusterSpecConfigNodePoolsMetadataKubernetesLabels[] | cdktf.IResolvable;
   /**
   * node_taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#node_taints DataRafayGkeCluster#node_taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#node_taints DataRafayGkeCluster#node_taints}
   */
   readonly nodeTaints?: DataRafayGkeClusterSpecConfigNodePoolsMetadataNodeTaints[] | cdktf.IResolvable;
 }
@@ -5270,13 +5270,13 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsNetworking {
   /**
   * This value is used to optimize the partitioning of cluster's IP address range to sub-ranges at node level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#max_pods_per_node DataRafayGkeCluster#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#max_pods_per_node DataRafayGkeCluster#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
   * This value is used to optimize the partitioning of cluster's IP address range to sub-ranges at node level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#network_tags DataRafayGkeCluster#network_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#network_tags DataRafayGkeCluster#network_tags}
   */
   readonly networkTags?: string[];
 }
@@ -5391,13 +5391,13 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsNodeLocations {
   /**
   * Enable providing node locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enabled DataRafayGkeCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enabled DataRafayGkeCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of zones. Additional node zones must be from the same region as the original zone. Kubernetes Engine allocates the same resource footprint for each zone. The Node pool setting overrides the defaults set in Cluster basics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#zones DataRafayGkeCluster#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#zones DataRafayGkeCluster#zones}
   */
   readonly zones?: string[];
 }
@@ -5512,13 +5512,13 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsSecurity {
   /**
   * Integrity monitoring lets you monitor and verify the runtime boot integrity of your shielded nodes using Cloud Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_integrity_monitoring DataRafayGkeCluster#enable_integrity_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_integrity_monitoring DataRafayGkeCluster#enable_integrity_monitoring}
   */
   readonly enableIntegrityMonitoring?: boolean | cdktf.IResolvable;
   /**
   * Secure boot helps protect your nodes against boot-level and kernel-level malware and rootkits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_secure_boot DataRafayGkeCluster#enable_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_secure_boot DataRafayGkeCluster#enable_secure_boot}
   */
   readonly enableSecureBoot?: boolean | cdktf.IResolvable;
 }
@@ -5633,31 +5633,31 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsUpgradeSettingsConfig {
   /**
   * Number of blue nodes to drain in a batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#batch_node_count DataRafayGkeCluster#batch_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#batch_node_count DataRafayGkeCluster#batch_node_count}
   */
   readonly batchNodeCount?: number;
   /**
   * Soak time after each batch gets drained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#batch_soak_duration DataRafayGkeCluster#batch_soak_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#batch_soak_duration DataRafayGkeCluster#batch_soak_duration}
   */
   readonly batchSoakDuration?: string;
   /**
   * The maximum number of nodes that can be created beyond the current size of the node pool during the upgrade process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#max_surge DataRafayGkeCluster#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#max_surge DataRafayGkeCluster#max_surge}
   */
   readonly maxSurge?: number;
   /**
   * The maximum number of nodes that can be simultaneously unavailable during the upgrade process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#max_unavailable DataRafayGkeCluster#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#max_unavailable DataRafayGkeCluster#max_unavailable}
   */
   readonly maxUnavailable?: number;
   /**
   * Time needed after draining entire blue pool. After this period, blue pool will be cleaned up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#node_pool_soak_duration DataRafayGkeCluster#node_pool_soak_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#node_pool_soak_duration DataRafayGkeCluster#node_pool_soak_duration}
   */
   readonly nodePoolSoakDuration?: string;
 }
@@ -5859,13 +5859,13 @@ export interface DataRafayGkeClusterSpecConfigNodePoolsUpgradeSettings {
   /**
   * Update strategy of the node pool. Possible values are SURGE and BLUE_GREEN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#strategy DataRafayGkeCluster#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#strategy DataRafayGkeCluster#strategy}
   */
   readonly strategy?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#config DataRafayGkeCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#config DataRafayGkeCluster#config}
   */
   readonly config?: DataRafayGkeClusterSpecConfigNodePoolsUpgradeSettingsConfig;
 }
@@ -5980,73 +5980,73 @@ export interface DataRafayGkeClusterSpecConfigNodePools {
   /**
   * Node pool names must start with a lowercase letter followed by up to 39 lowercase letters, numbers, or hyphens. They can't end with a hyphen. You cannot change the node pool's name once it's created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
   */
   readonly name?: string;
   /**
   * Specify Node k8s version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#node_version DataRafayGkeCluster#node_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#node_version DataRafayGkeCluster#node_version}
   */
   readonly nodeVersion?: string;
   /**
   * Labels are key-value pairs that are attached to GKE clusters. Labels can be used to group clusters and filter them in the UI or API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#resource_labels DataRafayGkeCluster#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#resource_labels DataRafayGkeCluster#resource_labels}
   */
   readonly resourceLabels?: { [key: string]: string };
   /**
   * Pod address range limits the maximum size of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#size DataRafayGkeCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#size DataRafayGkeCluster#size}
   */
   readonly size?: number;
   /**
   * auto_scaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#auto_scaling DataRafayGkeCluster#auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#auto_scaling DataRafayGkeCluster#auto_scaling}
   */
   readonly autoScaling?: DataRafayGkeClusterSpecConfigNodePoolsAutoScaling;
   /**
   * machine_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#machine_config DataRafayGkeCluster#machine_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#machine_config DataRafayGkeCluster#machine_config}
   */
   readonly machineConfig?: DataRafayGkeClusterSpecConfigNodePoolsMachineConfig;
   /**
   * management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#management DataRafayGkeCluster#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#management DataRafayGkeCluster#management}
   */
   readonly management?: DataRafayGkeClusterSpecConfigNodePoolsManagement;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#metadata DataRafayGkeCluster#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#metadata DataRafayGkeCluster#metadata}
   */
   readonly metadata?: DataRafayGkeClusterSpecConfigNodePoolsMetadata;
   /**
   * networking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#networking DataRafayGkeCluster#networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#networking DataRafayGkeCluster#networking}
   */
   readonly networking?: DataRafayGkeClusterSpecConfigNodePoolsNetworking;
   /**
   * node_locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#node_locations DataRafayGkeCluster#node_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#node_locations DataRafayGkeCluster#node_locations}
   */
   readonly nodeLocations?: DataRafayGkeClusterSpecConfigNodePoolsNodeLocations;
   /**
   * security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#security DataRafayGkeCluster#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#security DataRafayGkeCluster#security}
   */
   readonly security?: DataRafayGkeClusterSpecConfigNodePoolsSecurity;
   /**
   * upgrade_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#upgrade_settings DataRafayGkeCluster#upgrade_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#upgrade_settings DataRafayGkeCluster#upgrade_settings}
   */
   readonly upgradeSettings?: DataRafayGkeClusterSpecConfigNodePoolsUpgradeSettings;
 }
@@ -6483,31 +6483,31 @@ export interface DataRafayGkeClusterSpecConfigSecurity {
   /**
   * Google Groups for RBAC allows you to grant roles to all members of a Google Workspace group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_google_groups_for_rbac DataRafayGkeCluster#enable_google_groups_for_rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_google_groups_for_rbac DataRafayGkeCluster#enable_google_groups_for_rbac}
   */
   readonly enableGoogleGroupsForRbac?: boolean | cdktf.IResolvable;
   /**
   * Enable legacy authorization to support in-cluster permissions for existing clusters or workflows. Prevents full RBAC support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_legacy_authorization DataRafayGkeCluster#enable_legacy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_legacy_authorization DataRafayGkeCluster#enable_legacy_authorization}
   */
   readonly enableLegacyAuthorization?: boolean | cdktf.IResolvable;
   /**
   * Workload Identity lets you connect securely to Google APIs from Kubernetes Engine workloads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enable_workload_identity DataRafayGkeCluster#enable_workload_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enable_workload_identity DataRafayGkeCluster#enable_workload_identity}
   */
   readonly enableWorkloadIdentity?: boolean | cdktf.IResolvable;
   /**
   * Clients use this base64-encoded public certificate to authenticate to the cluster endpoint. Certificates don’t rotate automatically and are difficult to revoke
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#issue_client_certificate DataRafayGkeCluster#issue_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#issue_client_certificate DataRafayGkeCluster#issue_client_certificate}
   */
   readonly issueClientCertificate?: boolean | cdktf.IResolvable;
   /**
   * Provide the security groups here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#security_group DataRafayGkeCluster#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#security_group DataRafayGkeCluster#security_group}
   */
   readonly securityGroup?: string;
 }
@@ -6709,55 +6709,55 @@ export interface DataRafayGkeClusterSpecConfig {
   /**
   * Kubernetes version of ControlPlane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#control_plane_version DataRafayGkeCluster#control_plane_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#control_plane_version DataRafayGkeCluster#control_plane_version}
   */
   readonly controlPlaneVersion?: string;
   /**
   * GCP Project name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#gcp_project DataRafayGkeCluster#gcp_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#gcp_project DataRafayGkeCluster#gcp_project}
   */
   readonly gcpProject?: string;
   /**
   * Commands will be executed every time Cluster nodes come up. Example: Node Creation, Node Restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#pre_bootstrap_commands DataRafayGkeCluster#pre_bootstrap_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#pre_bootstrap_commands DataRafayGkeCluster#pre_bootstrap_commands}
   */
   readonly preBootstrapCommands?: string[];
   /**
   * Labels are key-value pairs that are attached to GKE clusters. Labels can be used to group clusters and filter them in the UI or API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#resource_labels DataRafayGkeCluster#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#resource_labels DataRafayGkeCluster#resource_labels}
   */
   readonly resourceLabels?: { [key: string]: string };
   /**
   * features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#features DataRafayGkeCluster#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#features DataRafayGkeCluster#features}
   */
   readonly features?: DataRafayGkeClusterSpecConfigFeatures;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#location DataRafayGkeCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#location DataRafayGkeCluster#location}
   */
   readonly location?: DataRafayGkeClusterSpecConfigLocation;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#network DataRafayGkeCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#network DataRafayGkeCluster#network}
   */
   readonly network?: DataRafayGkeClusterSpecConfigNetwork;
   /**
   * node_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#node_pools DataRafayGkeCluster#node_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#node_pools DataRafayGkeCluster#node_pools}
   */
   readonly nodePools?: DataRafayGkeClusterSpecConfigNodePools[] | cdktf.IResolvable;
   /**
   * security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#security DataRafayGkeCluster#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#security DataRafayGkeCluster#security}
   */
   readonly security?: DataRafayGkeClusterSpecConfigSecurity;
 }
@@ -7105,31 +7105,31 @@ export class DataRafayGkeClusterSpecConfigList extends cdktf.ComplexList {
 }
 export interface DataRafayGkeClusterSpecProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#allow_insecure_bootstrap DataRafayGkeCluster#allow_insecure_bootstrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#allow_insecure_bootstrap DataRafayGkeCluster#allow_insecure_bootstrap}
   */
   readonly allowInsecureBootstrap?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#bootstrap_ca DataRafayGkeCluster#bootstrap_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#bootstrap_ca DataRafayGkeCluster#bootstrap_ca}
   */
   readonly bootstrapCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enabled DataRafayGkeCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enabled DataRafayGkeCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#http_proxy DataRafayGkeCluster#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#http_proxy DataRafayGkeCluster#http_proxy}
   */
   readonly httpProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#https_proxy DataRafayGkeCluster#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#https_proxy DataRafayGkeCluster#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#no_proxy DataRafayGkeCluster#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#no_proxy DataRafayGkeCluster#no_proxy}
   */
   readonly noProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#proxy_auth DataRafayGkeCluster#proxy_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#proxy_auth DataRafayGkeCluster#proxy_auth}
   */
   readonly proxyAuth?: string;
 }
@@ -7387,7 +7387,7 @@ export class DataRafayGkeClusterSpecProxyOutputReference extends cdktf.ComplexOb
 }
 export interface DataRafayGkeClusterSpecSharingProjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#name DataRafayGkeCluster#name}
   */
   readonly name?: string;
 }
@@ -7503,13 +7503,13 @@ export class DataRafayGkeClusterSpecSharingProjectsList extends cdktf.ComplexLis
 }
 export interface DataRafayGkeClusterSpecSharing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#enabled DataRafayGkeCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#enabled DataRafayGkeCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#projects DataRafayGkeCluster#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#projects DataRafayGkeCluster#projects}
   */
   readonly projects?: DataRafayGkeClusterSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -7624,37 +7624,37 @@ export interface DataRafayGkeClusterSpec {
   /**
   * The credentials to be used to interact with the cloud infrastructure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#cloud_credentials DataRafayGkeCluster#cloud_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#cloud_credentials DataRafayGkeCluster#cloud_credentials}
   */
   readonly cloudCredentials?: string;
   /**
   * The type of the cluster this spec corresponds to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#type DataRafayGkeCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#type DataRafayGkeCluster#type}
   */
   readonly type?: string;
   /**
   * blueprint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#blueprint DataRafayGkeCluster#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#blueprint DataRafayGkeCluster#blueprint}
   */
   readonly blueprint?: DataRafayGkeClusterSpecBlueprint;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#config DataRafayGkeCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#config DataRafayGkeCluster#config}
   */
   readonly config?: DataRafayGkeClusterSpecConfig[] | cdktf.IResolvable;
   /**
   * proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#proxy DataRafayGkeCluster#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#proxy DataRafayGkeCluster#proxy}
   */
   readonly proxy?: DataRafayGkeClusterSpecProxy;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#sharing DataRafayGkeCluster#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#sharing DataRafayGkeCluster#sharing}
   */
   readonly sharing?: DataRafayGkeClusterSpecSharing;
 }
@@ -7915,7 +7915,7 @@ export class DataRafayGkeClusterSpecList extends cdktf.ComplexList {
 }
 export interface DataRafayGkeClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#read DataRafayGkeCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#read DataRafayGkeCluster#read}
   */
   readonly read?: string;
 }
@@ -8009,7 +8009,7 @@ export class DataRafayGkeClusterTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster rafay_gke_cluster}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster rafay_gke_cluster}
 */
 export class DataRafayGkeCluster extends cdktf.TerraformDataSource {
 
@@ -8025,7 +8025,7 @@ export class DataRafayGkeCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRafayGkeCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRafayGkeCluster to import
-  * @param importFromId The id of the existing DataRafayGkeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRafayGkeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRafayGkeCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8037,7 +8037,7 @@ export class DataRafayGkeCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/gke_cluster rafay_gke_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/gke_cluster rafay_gke_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8048,8 +8048,8 @@ export class DataRafayGkeCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'rafay_gke_cluster',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

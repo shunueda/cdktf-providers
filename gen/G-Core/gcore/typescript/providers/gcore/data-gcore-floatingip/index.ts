@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip
+// https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataGcoreFloatingipConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip#fixed_ip_address DataGcoreFloatingip#fixed_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip#fixed_ip_address DataGcoreFloatingip#fixed_ip_address}
   */
   readonly fixedIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip#floating_ip_address DataGcoreFloatingip#floating_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip#floating_ip_address DataGcoreFloatingip#floating_ip_address}
   */
   readonly floatingIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip#id DataGcoreFloatingip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip#id DataGcoreFloatingip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip#metadata_k DataGcoreFloatingip#metadata_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip#metadata_k DataGcoreFloatingip#metadata_k}
   */
   readonly metadataK?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip#metadata_kv DataGcoreFloatingip#metadata_kv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip#metadata_kv DataGcoreFloatingip#metadata_kv}
   */
   readonly metadataKv?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip#port_id DataGcoreFloatingip#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip#port_id DataGcoreFloatingip#port_id}
   */
   readonly portId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip#project_id DataGcoreFloatingip#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip#project_id DataGcoreFloatingip#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip#project_name DataGcoreFloatingip#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip#project_name DataGcoreFloatingip#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip#region_id DataGcoreFloatingip#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip#region_id DataGcoreFloatingip#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip#region_name DataGcoreFloatingip#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip#region_name DataGcoreFloatingip#region_name}
   */
   readonly regionName?: string;
 }
@@ -223,7 +223,7 @@ export class DataGcoreFloatingipTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip gcore_floatingip}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip gcore_floatingip}
 */
 export class DataGcoreFloatingip extends cdktf.TerraformDataSource {
 
@@ -239,7 +239,7 @@ export class DataGcoreFloatingip extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGcoreFloatingip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGcoreFloatingip to import
-  * @param importFromId The id of the existing DataGcoreFloatingip that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGcoreFloatingip that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGcoreFloatingip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class DataGcoreFloatingip extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/floatingip gcore_floatingip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/floatingip gcore_floatingip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class DataGcoreFloatingip extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_floatingip',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.0',
-        providerVersionConstraint: '0.32.0'
+        providerVersion: '0.32.1',
+        providerVersionConstraint: '0.32.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

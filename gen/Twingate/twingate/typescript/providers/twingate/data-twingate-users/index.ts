@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users
+// https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface DataTwingateUsersConfig extends cdktf.TerraformMetaArguments {
   /**
   * Returns only users that exactly match this email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#email DataTwingateUsers#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#email DataTwingateUsers#email}
   */
   readonly email?: string;
   /**
   * Match when the value exist in the email of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#email_contains DataTwingateUsers#email_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#email_contains DataTwingateUsers#email_contains}
   */
   readonly emailContains?: string;
   /**
   * Match when the value does not exist in the email of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#email_exclude DataTwingateUsers#email_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#email_exclude DataTwingateUsers#email_exclude}
   */
   readonly emailExclude?: string;
   /**
   * The email of the user must start with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#email_prefix DataTwingateUsers#email_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#email_prefix DataTwingateUsers#email_prefix}
   */
   readonly emailPrefix?: string;
   /**
   * The regular expression match of the email of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#email_regexp DataTwingateUsers#email_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#email_regexp DataTwingateUsers#email_regexp}
   */
   readonly emailRegexp?: string;
   /**
   * The email of the user must end with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#email_suffix DataTwingateUsers#email_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#email_suffix DataTwingateUsers#email_suffix}
   */
   readonly emailSuffix?: string;
   /**
   * Returns only users that exactly match the first name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#first_name DataTwingateUsers#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#first_name DataTwingateUsers#first_name}
   */
   readonly firstName?: string;
   /**
   * Match when the value exist in the first name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#first_name_contains DataTwingateUsers#first_name_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#first_name_contains DataTwingateUsers#first_name_contains}
   */
   readonly firstNameContains?: string;
   /**
   * Match when the value does not exist in the first name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#first_name_exclude DataTwingateUsers#first_name_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#first_name_exclude DataTwingateUsers#first_name_exclude}
   */
   readonly firstNameExclude?: string;
   /**
   * The first name of the user must start with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#first_name_prefix DataTwingateUsers#first_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#first_name_prefix DataTwingateUsers#first_name_prefix}
   */
   readonly firstNamePrefix?: string;
   /**
   * The regular expression match of the first name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#first_name_regexp DataTwingateUsers#first_name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#first_name_regexp DataTwingateUsers#first_name_regexp}
   */
   readonly firstNameRegexp?: string;
   /**
   * The first name of the user must end with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#first_name_suffix DataTwingateUsers#first_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#first_name_suffix DataTwingateUsers#first_name_suffix}
   */
   readonly firstNameSuffix?: string;
   /**
   * Returns only users that exactly match the last name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#last_name DataTwingateUsers#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#last_name DataTwingateUsers#last_name}
   */
   readonly lastName?: string;
   /**
   * Match when the value exist in the last name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#last_name_contains DataTwingateUsers#last_name_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#last_name_contains DataTwingateUsers#last_name_contains}
   */
   readonly lastNameContains?: string;
   /**
   * Match when the value does not exist in the last name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#last_name_exclude DataTwingateUsers#last_name_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#last_name_exclude DataTwingateUsers#last_name_exclude}
   */
   readonly lastNameExclude?: string;
   /**
   * The last name of the user must start with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#last_name_prefix DataTwingateUsers#last_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#last_name_prefix DataTwingateUsers#last_name_prefix}
   */
   readonly lastNamePrefix?: string;
   /**
   * The regular expression match of the last name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#last_name_regexp DataTwingateUsers#last_name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#last_name_regexp DataTwingateUsers#last_name_regexp}
   */
   readonly lastNameRegexp?: string;
   /**
   * The last name of the user must end with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#last_name_suffix DataTwingateUsers#last_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#last_name_suffix DataTwingateUsers#last_name_suffix}
   */
   readonly lastNameSuffix?: string;
   /**
   * Returns users that match a list of roles. Valid roles: `ADMIN`, `DEVOPS`, `SUPPORT`, `MEMBER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#roles DataTwingateUsers#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#roles DataTwingateUsers#roles}
   */
   readonly roles?: string[];
 }
@@ -224,7 +224,7 @@ export class DataTwingateUsersUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users twingate_users}
+* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users twingate_users}
 */
 export class DataTwingateUsers extends cdktf.TerraformDataSource {
 
@@ -240,7 +240,7 @@ export class DataTwingateUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwingateUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwingateUsers to import
-  * @param importFromId The id of the existing DataTwingateUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwingateUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwingateUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -252,7 +252,7 @@ export class DataTwingateUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/users twingate_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/users twingate_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -263,8 +263,8 @@ export class DataTwingateUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'twingate_users',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0',
-        providerVersionConstraint: '3.5.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

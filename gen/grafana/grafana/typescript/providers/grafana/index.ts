@@ -25,6 +25,7 @@ export * as cloudProviderAwsResourceMetadataScrapeJob from './cloud-provider-aws
 export * as cloudProviderAzureCredential from './cloud-provider-azure-credential';
 export * as cloudStack from './cloud-stack';
 export * as cloudStackServiceAccount from './cloud-stack-service-account';
+export * as cloudStackServiceAccountRotatingToken from './cloud-stack-service-account-rotating-token';
 export * as cloudStackServiceAccountToken from './cloud-stack-service-account-token';
 export * as connectionsMetricsEndpointScrapeJob from './connections-metrics-endpoint-scrape-job';
 export * as contactPoint from './contact-point';
@@ -77,6 +78,7 @@ export * as scimConfig from './scim-config';
 export * as serviceAccount from './service-account';
 export * as serviceAccountPermission from './service-account-permission';
 export * as serviceAccountPermissionItem from './service-account-permission-item';
+export * as serviceAccountRotatingToken from './service-account-rotating-token';
 export * as serviceAccountToken from './service-account-token';
 export * as slo from './slo';
 export * as ssoSettings from './sso-settings';

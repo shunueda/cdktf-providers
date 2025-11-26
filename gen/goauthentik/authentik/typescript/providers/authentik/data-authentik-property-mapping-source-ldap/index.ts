@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_source_ldap
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_source_ldap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAuthentikPropertyMappingSourceLdapConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_source_ldap#id DataAuthentikPropertyMappingSourceLdap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_source_ldap#id DataAuthentikPropertyMappingSourceLdap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,27 +17,27 @@ export interface DataAuthentikPropertyMappingSourceLdapConfig extends cdktf.Terr
   /**
   * List of ids when `managed_list` is set. Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_source_ldap#ids DataAuthentikPropertyMappingSourceLdap#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_source_ldap#ids DataAuthentikPropertyMappingSourceLdap#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_source_ldap#managed DataAuthentikPropertyMappingSourceLdap#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_source_ldap#managed DataAuthentikPropertyMappingSourceLdap#managed}
   */
   readonly managed?: string;
   /**
   * Retrieve multiple property mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_source_ldap#managed_list DataAuthentikPropertyMappingSourceLdap#managed_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_source_ldap#managed_list DataAuthentikPropertyMappingSourceLdap#managed_list}
   */
   readonly managedList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_source_ldap#name DataAuthentikPropertyMappingSourceLdap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_source_ldap#name DataAuthentikPropertyMappingSourceLdap#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_source_ldap authentik_property_mapping_source_ldap}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_source_ldap authentik_property_mapping_source_ldap}
 */
 export class DataAuthentikPropertyMappingSourceLdap extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataAuthentikPropertyMappingSourceLdap extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataAuthentikPropertyMappingSourceLdap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuthentikPropertyMappingSourceLdap to import
-  * @param importFromId The id of the existing DataAuthentikPropertyMappingSourceLdap that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_source_ldap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuthentikPropertyMappingSourceLdap that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_source_ldap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuthentikPropertyMappingSourceLdap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataAuthentikPropertyMappingSourceLdap extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_source_ldap authentik_property_mapping_source_ldap} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_source_ldap authentik_property_mapping_source_ldap} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataAuthentikPropertyMappingSourceLdap extends cdktf.TerraformDataS
       terraformResourceType: 'authentik_property_mapping_source_ldap',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

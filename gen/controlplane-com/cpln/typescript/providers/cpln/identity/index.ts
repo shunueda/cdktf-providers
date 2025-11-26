@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface IdentityConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#description Identity#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#description Identity#description}
   */
   readonly description?: string;
   /**
   * The GVC to which this identity belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#gvc Identity#gvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#gvc Identity#gvc}
   */
   readonly gvc: string;
   /**
   * Name of the identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#name Identity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#name Identity#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#tags Identity#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#tags Identity#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * aws_access_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#aws_access_policy Identity#aws_access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#aws_access_policy Identity#aws_access_policy}
   */
   readonly awsAccessPolicy?: IdentityAwsAccessPolicy[] | cdktf.IResolvable;
   /**
   * azure_access_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#azure_access_policy Identity#azure_access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#azure_access_policy Identity#azure_access_policy}
   */
   readonly azureAccessPolicy?: IdentityAzureAccessPolicy[] | cdktf.IResolvable;
   /**
   * gcp_access_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#gcp_access_policy Identity#gcp_access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#gcp_access_policy Identity#gcp_access_policy}
   */
   readonly gcpAccessPolicy?: IdentityGcpAccessPolicy[] | cdktf.IResolvable;
   /**
   * native_network_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#native_network_resource Identity#native_network_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#native_network_resource Identity#native_network_resource}
   */
   readonly nativeNetworkResource?: IdentityNativeNetworkResource[] | cdktf.IResolvable;
   /**
   * network_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#network_resource Identity#network_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#network_resource Identity#network_resource}
   */
   readonly networkResource?: IdentityNetworkResource[] | cdktf.IResolvable;
   /**
   * ngs_access_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#ngs_access_policy Identity#ngs_access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#ngs_access_policy Identity#ngs_access_policy}
   */
   readonly ngsAccessPolicy?: IdentityNgsAccessPolicy[] | cdktf.IResolvable;
 }
@@ -72,13 +72,13 @@ export interface IdentityAwsAccessPolicyTrustPolicy {
   /**
   * List of statements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#statement Identity#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#statement Identity#statement}
   */
   readonly statement?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Version of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#version Identity#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#version Identity#version}
   */
   readonly version?: string;
 }
@@ -225,25 +225,25 @@ export interface IdentityAwsAccessPolicy {
   /**
   * Full link to referenced cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#cloud_account_link Identity#cloud_account_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#cloud_account_link Identity#cloud_account_link}
   */
   readonly cloudAccountLink: string;
   /**
   * List of policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#policy_refs Identity#policy_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#policy_refs Identity#policy_refs}
   */
   readonly policyRefs?: string[];
   /**
   * Role name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#role_name Identity#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#role_name Identity#role_name}
   */
   readonly roleName?: string;
   /**
   * trust_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#trust_policy Identity#trust_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#trust_policy Identity#trust_policy}
   */
   readonly trustPolicy?: IdentityAwsAccessPolicyTrustPolicy[] | cdktf.IResolvable;
 }
@@ -445,13 +445,13 @@ export interface IdentityAzureAccessPolicyRoleAssignment {
   /**
   * List of assigned roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#roles Identity#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#roles Identity#roles}
   */
   readonly roles?: string[];
   /**
   * Scope of roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#scope Identity#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#scope Identity#scope}
   */
   readonly scope?: string;
 }
@@ -598,13 +598,13 @@ export interface IdentityAzureAccessPolicy {
   /**
   * Full link to referenced cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#cloud_account_link Identity#cloud_account_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#cloud_account_link Identity#cloud_account_link}
   */
   readonly cloudAccountLink: string;
   /**
   * role_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#role_assignment Identity#role_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#role_assignment Identity#role_assignment}
   */
   readonly roleAssignment?: IdentityAzureAccessPolicyRoleAssignment[] | cdktf.IResolvable;
 }
@@ -748,13 +748,13 @@ export interface IdentityGcpAccessPolicyBinding {
   /**
   * Name of resource for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#resource Identity#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#resource Identity#resource}
   */
   readonly resource?: string;
   /**
   * List of allowed roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#roles Identity#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#roles Identity#roles}
   */
   readonly roles?: string[];
 }
@@ -901,25 +901,25 @@ export interface IdentityGcpAccessPolicy {
   /**
   * Full link to referenced cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#cloud_account_link Identity#cloud_account_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#cloud_account_link Identity#cloud_account_link}
   */
   readonly cloudAccountLink: string;
   /**
   * Comma delimited list of GCP scope URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#scopes Identity#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#scopes Identity#scopes}
   */
   readonly scopes?: string;
   /**
   * Name of existing GCP service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#service_account Identity#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#service_account Identity#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * binding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#binding Identity#binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#binding Identity#binding}
   */
   readonly binding?: IdentityGcpAccessPolicyBinding[] | cdktf.IResolvable;
 }
@@ -1121,7 +1121,7 @@ export interface IdentityNativeNetworkResourceAwsPrivateLink {
   /**
   * Endpoint service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#endpoint_service_name Identity#endpoint_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#endpoint_service_name Identity#endpoint_service_name}
   */
   readonly endpointServiceName: string;
 }
@@ -1236,7 +1236,7 @@ export interface IdentityNativeNetworkResourceGcpServiceConnect {
   /**
   * Target service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#target_service Identity#target_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#target_service Identity#target_service}
   */
   readonly targetService: string;
 }
@@ -1351,31 +1351,31 @@ export interface IdentityNativeNetworkResource {
   /**
   * Fully qualified domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#fqdn Identity#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#fqdn Identity#fqdn}
   */
   readonly fqdn: string;
   /**
   * Name of the Native Network Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#name Identity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#name Identity#name}
   */
   readonly name: string;
   /**
   * Ports to expose. At least one port is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#ports Identity#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#ports Identity#ports}
   */
   readonly ports: number[];
   /**
   * aws_private_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#aws_private_link Identity#aws_private_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#aws_private_link Identity#aws_private_link}
   */
   readonly awsPrivateLink?: IdentityNativeNetworkResourceAwsPrivateLink[] | cdktf.IResolvable;
   /**
   * gcp_service_connect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#gcp_service_connect Identity#gcp_service_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#gcp_service_connect Identity#gcp_service_connect}
   */
   readonly gcpServiceConnect?: IdentityNativeNetworkResourceGcpServiceConnect[] | cdktf.IResolvable;
 }
@@ -1600,37 +1600,37 @@ export interface IdentityNetworkResource {
   /**
   * Full link to referenced Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#agent_link Identity#agent_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#agent_link Identity#agent_link}
   */
   readonly agentLink?: string;
   /**
   * Fully qualified domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#fqdn Identity#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#fqdn Identity#fqdn}
   */
   readonly fqdn?: string;
   /**
   * List of IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#ips Identity#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#ips Identity#ips}
   */
   readonly ips?: string[];
   /**
   * Name of the Network Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#name Identity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#name Identity#name}
   */
   readonly name: string;
   /**
   * Ports to expose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#ports Identity#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#ports Identity#ports}
   */
   readonly ports: number[];
   /**
   * Resolver IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#resolver_ip Identity#resolver_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#resolver_ip Identity#resolver_ip}
   */
   readonly resolverIp?: string;
 }
@@ -1887,13 +1887,13 @@ export interface IdentityNgsAccessPolicyPub {
   /**
   * List of allow subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#allow Identity#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#allow Identity#allow}
   */
   readonly allow?: string[];
   /**
   * List of deny subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#deny Identity#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#deny Identity#deny}
   */
   readonly deny?: string[];
 }
@@ -2040,13 +2040,13 @@ export interface IdentityNgsAccessPolicyResp {
   /**
   * Number of responses allowed on the replyTo subject, -1 means no limit. Default: -1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#max Identity#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#max Identity#max}
   */
   readonly max?: number;
   /**
   * Deadline to send replies on the replyTo subject [#ms(millis) | #s(econds) | m(inutes) | h(ours)]. -1 means no restriction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#ttl Identity#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#ttl Identity#ttl}
   */
   readonly ttl?: string;
 }
@@ -2193,13 +2193,13 @@ export interface IdentityNgsAccessPolicySub {
   /**
   * List of allow subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#allow Identity#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#allow Identity#allow}
   */
   readonly allow?: string[];
   /**
   * List of deny subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#deny Identity#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#deny Identity#deny}
   */
   readonly deny?: string[];
 }
@@ -2346,43 +2346,43 @@ export interface IdentityNgsAccessPolicy {
   /**
   * Full link to referenced cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#cloud_account_link Identity#cloud_account_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#cloud_account_link Identity#cloud_account_link}
   */
   readonly cloudAccountLink: string;
   /**
   * Max number of bytes a connection can send. Default: -1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#data Identity#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#data Identity#data}
   */
   readonly data?: number;
   /**
   * Max message payload. Default: -1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#payload Identity#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#payload Identity#payload}
   */
   readonly payload?: number;
   /**
   * Max number of subscriptions per connection. Default: -1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#subs Identity#subs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#subs Identity#subs}
   */
   readonly subs?: number;
   /**
   * pub block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#pub Identity#pub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#pub Identity#pub}
   */
   readonly pub?: IdentityNgsAccessPolicyPub[] | cdktf.IResolvable;
   /**
   * resp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#resp Identity#resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#resp Identity#resp}
   */
   readonly resp?: IdentityNgsAccessPolicyResp[] | cdktf.IResolvable;
   /**
   * sub block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#sub Identity#sub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#sub Identity#sub}
   */
   readonly sub?: IdentityNgsAccessPolicySub[] | cdktf.IResolvable;
 }
@@ -2669,7 +2669,7 @@ export class IdentityNgsAccessPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity cpln_identity}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity cpln_identity}
 */
 export class Identity extends cdktf.TerraformResource {
 
@@ -2685,7 +2685,7 @@ export class Identity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Identity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Identity to import
-  * @param importFromId The id of the existing Identity that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Identity that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Identity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2697,7 +2697,7 @@ export class Identity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/identity cpln_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/identity cpln_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2708,8 +2708,8 @@ export class Identity extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_identity',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.15',
-        providerVersionConstraint: '1.2.15'
+        providerVersion: '1.2.16',
+        providerVersionConstraint: '1.2.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

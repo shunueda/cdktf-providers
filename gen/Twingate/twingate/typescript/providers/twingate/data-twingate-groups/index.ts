@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/groups
+// https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataTwingateGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Returns only Groups matching the specified state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/groups#is_active DataTwingateGroups#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/groups#is_active DataTwingateGroups#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Returns only groups that exactly match this name. If no options are passed it will return all resources. Only one option can be used at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/groups#name DataTwingateGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/groups#name DataTwingateGroups#name}
   */
   readonly name?: string;
   /**
   * Match when the value exist in the name of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/groups#name_contains DataTwingateGroups#name_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/groups#name_contains DataTwingateGroups#name_contains}
   */
   readonly nameContains?: string;
   /**
   * Match when the exact value does not exist in the name of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/groups#name_exclude DataTwingateGroups#name_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/groups#name_exclude DataTwingateGroups#name_exclude}
   */
   readonly nameExclude?: string;
   /**
   * The name of the group must start with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/groups#name_prefix DataTwingateGroups#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/groups#name_prefix DataTwingateGroups#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * The regular expression match of the name of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/groups#name_regexp DataTwingateGroups#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/groups#name_regexp DataTwingateGroups#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * The name of the group must end with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/groups#name_suffix DataTwingateGroups#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/groups#name_suffix DataTwingateGroups#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
   * Returns groups that match a list of types. valid types: `MANUAL`, `SYNCED`, `SYSTEM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/groups#types DataTwingateGroups#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/groups#types DataTwingateGroups#types}
   */
   readonly types?: string[];
 }
@@ -153,7 +153,7 @@ export class DataTwingateGroupsGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/groups twingate_groups}
+* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/groups twingate_groups}
 */
 export class DataTwingateGroups extends cdktf.TerraformDataSource {
 
@@ -169,7 +169,7 @@ export class DataTwingateGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwingateGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwingateGroups to import
-  * @param importFromId The id of the existing DataTwingateGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwingateGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwingateGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class DataTwingateGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/groups twingate_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/groups twingate_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class DataTwingateGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'twingate_groups',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0',
-        providerVersionConstraint: '3.5.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,36 +12,36 @@ export interface StageAuthenticatorWebauthnConfig extends cdktf.TerraformMetaArg
   *   - `platform`
   *   - `cross-platform`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn#authenticator_attachment StageAuthenticatorWebauthn#authenticator_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn#authenticator_attachment StageAuthenticatorWebauthn#authenticator_attachment}
   */
   readonly authenticatorAttachment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn#configure_flow StageAuthenticatorWebauthn#configure_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn#configure_flow StageAuthenticatorWebauthn#configure_flow}
   */
   readonly configureFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn#device_type_restrictions StageAuthenticatorWebauthn#device_type_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn#device_type_restrictions StageAuthenticatorWebauthn#device_type_restrictions}
   */
   readonly deviceTypeRestrictions?: string[];
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn#friendly_name StageAuthenticatorWebauthn#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn#friendly_name StageAuthenticatorWebauthn#friendly_name}
   */
   readonly friendlyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn#id StageAuthenticatorWebauthn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn#id StageAuthenticatorWebauthn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn#max_attempts StageAuthenticatorWebauthn#max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn#max_attempts StageAuthenticatorWebauthn#max_attempts}
   */
   readonly maxAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn#name StageAuthenticatorWebauthn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn#name StageAuthenticatorWebauthn#name}
   */
   readonly name: string;
   /**
@@ -51,7 +51,7 @@ export interface StageAuthenticatorWebauthnConfig extends cdktf.TerraformMetaArg
   *   - `required`
   *  Defaults to `preferred`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn#resident_key_requirement StageAuthenticatorWebauthn#resident_key_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn#resident_key_requirement StageAuthenticatorWebauthn#resident_key_requirement}
   */
   readonly residentKeyRequirement?: string;
   /**
@@ -61,13 +61,13 @@ export interface StageAuthenticatorWebauthnConfig extends cdktf.TerraformMetaArg
   *   - `discouraged`
   *  Defaults to `preferred`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn#user_verification StageAuthenticatorWebauthn#user_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn#user_verification StageAuthenticatorWebauthn#user_verification}
   */
   readonly userVerification?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn authentik_stage_authenticator_webauthn}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn authentik_stage_authenticator_webauthn}
 */
 export class StageAuthenticatorWebauthn extends cdktf.TerraformResource {
 
@@ -83,7 +83,7 @@ export class StageAuthenticatorWebauthn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StageAuthenticatorWebauthn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StageAuthenticatorWebauthn to import
-  * @param importFromId The id of the existing StageAuthenticatorWebauthn that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StageAuthenticatorWebauthn that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StageAuthenticatorWebauthn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -95,7 +95,7 @@ export class StageAuthenticatorWebauthn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_webauthn authentik_stage_authenticator_webauthn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_webauthn authentik_stage_authenticator_webauthn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -106,8 +106,8 @@ export class StageAuthenticatorWebauthn extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_stage_authenticator_webauthn',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

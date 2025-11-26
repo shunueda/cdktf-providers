@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/connectors
+// https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/connectors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataTwingateConnectorsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Returns only connectors that exactly match this name. If no options are passed it will return all connectors. Only one option can be used at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/connectors#name DataTwingateConnectors#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/connectors#name DataTwingateConnectors#name}
   */
   readonly name?: string;
   /**
   * Match when the value exist in the name of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/connectors#name_contains DataTwingateConnectors#name_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/connectors#name_contains DataTwingateConnectors#name_contains}
   */
   readonly nameContains?: string;
   /**
   * Match when the exact value does not exist in the name of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/connectors#name_exclude DataTwingateConnectors#name_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/connectors#name_exclude DataTwingateConnectors#name_exclude}
   */
   readonly nameExclude?: string;
   /**
   * The name of the connector must start with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/connectors#name_prefix DataTwingateConnectors#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/connectors#name_prefix DataTwingateConnectors#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * The regular expression match of the name of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/connectors#name_regexp DataTwingateConnectors#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/connectors#name_regexp DataTwingateConnectors#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * The name of the connector must end with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/connectors#name_suffix DataTwingateConnectors#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/connectors#name_suffix DataTwingateConnectors#name_suffix}
   */
   readonly nameSuffix?: string;
 }
@@ -161,7 +161,7 @@ export class DataTwingateConnectorsConnectorsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/connectors twingate_connectors}
+* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/connectors twingate_connectors}
 */
 export class DataTwingateConnectors extends cdktf.TerraformDataSource {
 
@@ -177,7 +177,7 @@ export class DataTwingateConnectors extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwingateConnectors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwingateConnectors to import
-  * @param importFromId The id of the existing DataTwingateConnectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/connectors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwingateConnectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/connectors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwingateConnectors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DataTwingateConnectors extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/connectors twingate_connectors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/connectors twingate_connectors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DataTwingateConnectors extends cdktf.TerraformDataSource {
       terraformResourceType: 'twingate_connectors',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0',
-        providerVersionConstraint: '3.5.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

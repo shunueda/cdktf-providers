@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs
+// https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ObjstoProviderConfig {
   /**
   * Access key for the object storage service. Can also be configured with `OBJSTO_ACCESS_KEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs#access_key ObjstoProvider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs#access_key ObjstoProvider#access_key}
   */
   readonly accessKey?: string;
   /**
   * S3 endpoint of the object storage service. Can also be configured with `OBJSTO_ENDPOINT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs#endpoint ObjstoProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs#endpoint ObjstoProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Region of the object storage service. Can also be configured with `OBJSTO_REGION` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs#region ObjstoProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs#region ObjstoProvider#region}
   */
   readonly region?: string;
   /**
   * Secret key for the object storage service. Can also be configured with `OBJSTO_SECRET_KEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs#secret_key ObjstoProvider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs#secret_key ObjstoProvider#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs#alias ObjstoProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs#alias ObjstoProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs objsto}
+* Represents a {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs objsto}
 */
 export class ObjstoProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class ObjstoProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ObjstoProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjstoProvider to import
-  * @param importFromId The id of the existing ObjstoProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjstoProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjstoProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class ObjstoProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs objsto} Resource
+  * Create a new {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs objsto} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class ObjstoProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'objsto',
       terraformGeneratorMetadata: {
         providerName: 'objsto',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       terraformProviderSource: 'UpCloudLtd/objsto'
     });

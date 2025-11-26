@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/api_key
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the API key is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/api_key#disabled ApiKey#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/api_key#disabled ApiKey#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The Environment ID the API key is scoped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/api_key#environment_id ApiKey#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/api_key#environment_id ApiKey#environment_id}
   */
   readonly environmentId: string;
   /**
   * The name of the API Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/api_key#name ApiKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/api_key#name ApiKey#name}
   */
   readonly name: string;
   /**
   * The type of the API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/api_key#type ApiKey#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/api_key#type ApiKey#type}
   */
   readonly type: string;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/api_key#permissions ApiKey#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/api_key#permissions ApiKey#permissions}
   */
   readonly permissions?: ApiKeyPermissions[] | cdktf.IResolvable;
 }
@@ -42,7 +42,7 @@ export interface ApiKeyPermissions {
   /**
   * Allow this key to create missing datasets when sending telemetry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/api_key#create_datasets ApiKey#create_datasets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/api_key#create_datasets ApiKey#create_datasets}
   */
   readonly createDatasets?: boolean | cdktf.IResolvable;
 }
@@ -158,7 +158,7 @@ export class ApiKeyPermissionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/api_key honeycombio_api_key}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/api_key honeycombio_api_key}
 */
 export class ApiKey extends cdktf.TerraformResource {
 
@@ -174,7 +174,7 @@ export class ApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiKey to import
-  * @param importFromId The id of the existing ApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class ApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/api_key honeycombio_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/api_key honeycombio_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class ApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_api_key',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0',
-        providerVersionConstraint: '0.42.0'
+        providerVersion: '0.43.0',
+        providerVersionConstraint: '0.43.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

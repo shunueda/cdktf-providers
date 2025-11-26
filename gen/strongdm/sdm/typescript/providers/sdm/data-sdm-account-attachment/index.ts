@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/account_attachment
+// https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/account_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataSdmAccountAttachmentConfig extends cdktf.TerraformMetaArgum
   /**
   * The id of the account of this AccountAttachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/account_attachment#account_id DataSdmAccountAttachment#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/account_attachment#account_id DataSdmAccountAttachment#account_id}
   */
   readonly accountId?: string;
   /**
   * Unique identifier of the AccountAttachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/account_attachment#id DataSdmAccountAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/account_attachment#id DataSdmAccountAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataSdmAccountAttachmentConfig extends cdktf.TerraformMetaArgum
   /**
   * The id of the attached role of this AccountAttachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/account_attachment#role_id DataSdmAccountAttachment#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/account_attachment#role_id DataSdmAccountAttachment#role_id}
   */
   readonly roleId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/account_attachment#timeouts DataSdmAccountAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/account_attachment#timeouts DataSdmAccountAttachment#timeouts}
   */
   readonly timeouts?: DataSdmAccountAttachmentTimeouts;
 }
@@ -122,7 +122,7 @@ export class DataSdmAccountAttachmentAccountAttachmentsList extends cdktf.Comple
 }
 export interface DataSdmAccountAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/account_attachment#default DataSdmAccountAttachment#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/account_attachment#default DataSdmAccountAttachment#default}
   */
   readonly default?: string;
 }
@@ -216,7 +216,7 @@ export class DataSdmAccountAttachmentTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/account_attachment sdm_account_attachment}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/account_attachment sdm_account_attachment}
 */
 export class DataSdmAccountAttachment extends cdktf.TerraformDataSource {
 
@@ -232,7 +232,7 @@ export class DataSdmAccountAttachment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmAccountAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmAccountAttachment to import
-  * @param importFromId The id of the existing DataSdmAccountAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/account_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmAccountAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/account_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmAccountAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -244,7 +244,7 @@ export class DataSdmAccountAttachment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/account_attachment sdm_account_attachment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/account_attachment sdm_account_attachment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,8 +255,8 @@ export class DataSdmAccountAttachment extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_account_attachment',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.33.0',
-        providerVersionConstraint: '15.33.0'
+        providerVersion: '15.35.0',
+        providerVersionConstraint: '15.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

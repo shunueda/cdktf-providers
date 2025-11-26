@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/remote_network
+// https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/remote_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface RemoteNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The location of the Remote Network. Must be one of the following: AWS, AZURE, GOOGLE_CLOUD, ON_PREMISE, OTHER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/remote_network#location RemoteNetwork#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/remote_network#location RemoteNetwork#location}
   */
   readonly location?: string;
   /**
   * The name of the Remote Network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/remote_network#name RemoteNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/remote_network#name RemoteNetwork#name}
   */
   readonly name: string;
   /**
   * The type of the Remote Network. Must be one of the following: REGULAR, EXIT. Defaults to REGULAR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/remote_network#type RemoteNetwork#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/remote_network#type RemoteNetwork#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/remote_network twingate_remote_network}
+* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/remote_network twingate_remote_network}
 */
 export class RemoteNetwork extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class RemoteNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RemoteNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RemoteNetwork to import
-  * @param importFromId The id of the existing RemoteNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/remote_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RemoteNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/remote_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RemoteNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class RemoteNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/resources/remote_network twingate_remote_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/resources/remote_network twingate_remote_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class RemoteNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'twingate_remote_network',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0',
-        providerVersionConstraint: '3.5.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey
+// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,160 +8,160 @@ import * as cdktf from 'cdktf';
 
 export interface ApikeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#account_manage_account_settings Apikey#account_manage_account_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#account_manage_account_settings Apikey#account_manage_account_settings}
   */
   readonly accountManageAccountSettings?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#account_manage_apikeys Apikey#account_manage_apikeys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#account_manage_apikeys Apikey#account_manage_apikeys}
   */
   readonly accountManageApikeys?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#account_manage_ip_whitelist Apikey#account_manage_ip_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#account_manage_ip_whitelist Apikey#account_manage_ip_whitelist}
   */
   readonly accountManageIpWhitelist?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#account_manage_payment_methods Apikey#account_manage_payment_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#account_manage_payment_methods Apikey#account_manage_payment_methods}
   */
   readonly accountManagePaymentMethods?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#account_manage_plan Apikey#account_manage_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#account_manage_plan Apikey#account_manage_plan}
   */
   readonly accountManagePlan?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#account_manage_teams Apikey#account_manage_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#account_manage_teams Apikey#account_manage_teams}
   */
   readonly accountManageTeams?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#account_manage_users Apikey#account_manage_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#account_manage_users Apikey#account_manage_users}
   */
   readonly accountManageUsers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#account_view_activity_log Apikey#account_view_activity_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#account_view_activity_log Apikey#account_view_activity_log}
   */
   readonly accountViewActivityLog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#account_view_invoices Apikey#account_view_invoices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#account_view_invoices Apikey#account_view_invoices}
   */
   readonly accountViewInvoices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#data_manage_datafeeds Apikey#data_manage_datafeeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#data_manage_datafeeds Apikey#data_manage_datafeeds}
   */
   readonly dataManageDatafeeds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#data_manage_datasources Apikey#data_manage_datasources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#data_manage_datasources Apikey#data_manage_datasources}
   */
   readonly dataManageDatasources?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#data_push_to_datafeeds Apikey#data_push_to_datafeeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#data_push_to_datafeeds Apikey#data_push_to_datafeeds}
   */
   readonly dataPushToDatafeeds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#dns_manage_zones Apikey#dns_manage_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#dns_manage_zones Apikey#dns_manage_zones}
   */
   readonly dnsManageZones?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#dns_view_zones Apikey#dns_view_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#dns_view_zones Apikey#dns_view_zones}
   */
   readonly dnsViewZones?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#dns_zones_allow Apikey#dns_zones_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#dns_zones_allow Apikey#dns_zones_allow}
   */
   readonly dnsZonesAllow?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#dns_zones_allow_by_default Apikey#dns_zones_allow_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#dns_zones_allow_by_default Apikey#dns_zones_allow_by_default}
   */
   readonly dnsZonesAllowByDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#dns_zones_deny Apikey#dns_zones_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#dns_zones_deny Apikey#dns_zones_deny}
   */
   readonly dnsZonesDeny?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#id Apikey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#id Apikey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#ip_whitelist Apikey#ip_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#ip_whitelist Apikey#ip_whitelist}
   */
   readonly ipWhitelist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#ip_whitelist_strict Apikey#ip_whitelist_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#ip_whitelist_strict Apikey#ip_whitelist_strict}
   */
   readonly ipWhitelistStrict?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#monitoring_create_jobs Apikey#monitoring_create_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#monitoring_create_jobs Apikey#monitoring_create_jobs}
   */
   readonly monitoringCreateJobs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#monitoring_delete_jobs Apikey#monitoring_delete_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#monitoring_delete_jobs Apikey#monitoring_delete_jobs}
   */
   readonly monitoringDeleteJobs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#monitoring_manage_jobs Apikey#monitoring_manage_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#monitoring_manage_jobs Apikey#monitoring_manage_jobs}
   */
   readonly monitoringManageJobs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#monitoring_manage_lists Apikey#monitoring_manage_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#monitoring_manage_lists Apikey#monitoring_manage_lists}
   */
   readonly monitoringManageLists?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#monitoring_update_jobs Apikey#monitoring_update_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#monitoring_update_jobs Apikey#monitoring_update_jobs}
   */
   readonly monitoringUpdateJobs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#monitoring_view_jobs Apikey#monitoring_view_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#monitoring_view_jobs Apikey#monitoring_view_jobs}
   */
   readonly monitoringViewJobs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#name Apikey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#name Apikey#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#redirects_manage_redirects Apikey#redirects_manage_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#redirects_manage_redirects Apikey#redirects_manage_redirects}
   */
   readonly redirectsManageRedirects?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#security_manage_active_directory Apikey#security_manage_active_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#security_manage_active_directory Apikey#security_manage_active_directory}
   */
   readonly securityManageActiveDirectory?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#security_manage_global_2fa Apikey#security_manage_global_2fa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#security_manage_global_2fa Apikey#security_manage_global_2fa}
   */
   readonly securityManageGlobal2Fa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#teams Apikey#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#teams Apikey#teams}
   */
   readonly teams?: string[];
   /**
   * dns_records_allow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#dns_records_allow Apikey#dns_records_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#dns_records_allow Apikey#dns_records_allow}
   */
   readonly dnsRecordsAllow?: ApikeyDnsRecordsAllow[] | cdktf.IResolvable;
   /**
   * dns_records_deny block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#dns_records_deny Apikey#dns_records_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#dns_records_deny Apikey#dns_records_deny}
   */
   readonly dnsRecordsDeny?: ApikeyDnsRecordsDeny[] | cdktf.IResolvable;
 }
 export interface ApikeyDnsRecordsAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#domain Apikey#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#domain Apikey#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#include_subdomains Apikey#include_subdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#include_subdomains Apikey#include_subdomains}
   */
   readonly includeSubdomains: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#type Apikey#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#type Apikey#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#zone Apikey#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#zone Apikey#zone}
   */
   readonly zone: string;
 }
@@ -352,19 +352,19 @@ export class ApikeyDnsRecordsAllowList extends cdktf.ComplexList {
 }
 export interface ApikeyDnsRecordsDeny {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#domain Apikey#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#domain Apikey#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#include_subdomains Apikey#include_subdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#include_subdomains Apikey#include_subdomains}
   */
   readonly includeSubdomains: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#type Apikey#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#type Apikey#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#zone Apikey#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#zone Apikey#zone}
   */
   readonly zone: string;
 }
@@ -555,7 +555,7 @@ export class ApikeyDnsRecordsDenyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey ns1_apikey}
+* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey ns1_apikey}
 */
 export class Apikey extends cdktf.TerraformResource {
 
@@ -571,7 +571,7 @@ export class Apikey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Apikey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Apikey to import
-  * @param importFromId The id of the existing Apikey that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Apikey that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Apikey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -583,7 +583,7 @@ export class Apikey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/apikey ns1_apikey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/apikey ns1_apikey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -594,8 +594,8 @@ export class Apikey extends cdktf.TerraformResource {
       terraformResourceType: 'ns1_apikey',
       terraformGeneratorMetadata: {
         providerName: 'ns1',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

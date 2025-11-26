@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,32 +9,38 @@ import * as cdktf from 'cdktf';
 export interface SdwanPathQualityProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#device SdwanPathQualityProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#device SdwanPathQualityProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#folder SdwanPathQualityProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#folder SdwanPathQualityProfile#folder}
   */
   readonly folder?: string;
   /**
   * Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#metric SdwanPathQualityProfile#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#metric SdwanPathQualityProfile#metric}
   */
   readonly metric: SdwanPathQualityProfileMetric;
   /**
   * Profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#name SdwanPathQualityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#name SdwanPathQualityProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#snippet SdwanPathQualityProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#snippet SdwanPathQualityProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -42,13 +48,13 @@ export interface SdwanPathQualityProfileMetricJitter {
   /**
   * Jitter sensitivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#sensitivity SdwanPathQualityProfile#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#sensitivity SdwanPathQualityProfile#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * Jitter threshold (ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#threshold SdwanPathQualityProfile#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#threshold SdwanPathQualityProfile#threshold}
   */
   readonly threshold: number;
 }
@@ -167,13 +173,13 @@ export interface SdwanPathQualityProfileMetricLatency {
   /**
   * Latency sensitivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#sensitivity SdwanPathQualityProfile#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#sensitivity SdwanPathQualityProfile#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * Latency threshold (ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#threshold SdwanPathQualityProfile#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#threshold SdwanPathQualityProfile#threshold}
   */
   readonly threshold: number;
 }
@@ -292,13 +298,13 @@ export interface SdwanPathQualityProfileMetricPktLoss {
   /**
   * Packet loss sensitivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#sensitivity SdwanPathQualityProfile#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#sensitivity SdwanPathQualityProfile#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * Packet loss threshold (percentage)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#threshold SdwanPathQualityProfile#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#threshold SdwanPathQualityProfile#threshold}
   */
   readonly threshold: number;
 }
@@ -417,19 +423,19 @@ export interface SdwanPathQualityProfileMetric {
   /**
   * Jitter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#jitter SdwanPathQualityProfile#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#jitter SdwanPathQualityProfile#jitter}
   */
   readonly jitter: SdwanPathQualityProfileMetricJitter;
   /**
   * Latency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#latency SdwanPathQualityProfile#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#latency SdwanPathQualityProfile#latency}
   */
   readonly latency: SdwanPathQualityProfileMetricLatency;
   /**
   * Pkt loss
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#pkt_loss SdwanPathQualityProfile#pkt_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#pkt_loss SdwanPathQualityProfile#pkt_loss}
   */
   readonly pktLoss?: SdwanPathQualityProfileMetricPktLoss;
 }
@@ -575,7 +581,7 @@ export class SdwanPathQualityProfileMetricOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile scm_sdwan_path_quality_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile scm_sdwan_path_quality_profile}
 */
 export class SdwanPathQualityProfile extends cdktf.TerraformResource {
 
@@ -591,7 +597,7 @@ export class SdwanPathQualityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SdwanPathQualityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SdwanPathQualityProfile to import
-  * @param importFromId The id of the existing SdwanPathQualityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SdwanPathQualityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SdwanPathQualityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -603,7 +609,7 @@ export class SdwanPathQualityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_path_quality_profile scm_sdwan_path_quality_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_path_quality_profile scm_sdwan_path_quality_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -614,8 +620,8 @@ export class SdwanPathQualityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_sdwan_path_quality_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

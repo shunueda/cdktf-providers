@@ -25,6 +25,7 @@ Object.defineProperty(exports, 'cloudProviderAwsResourceMetadataScrapeJob', { ge
 Object.defineProperty(exports, 'cloudProviderAzureCredential', { get: function () { return require('./cloud-provider-azure-credential'); } });
 Object.defineProperty(exports, 'cloudStack', { get: function () { return require('./cloud-stack'); } });
 Object.defineProperty(exports, 'cloudStackServiceAccount', { get: function () { return require('./cloud-stack-service-account'); } });
+Object.defineProperty(exports, 'cloudStackServiceAccountRotatingToken', { get: function () { return require('./cloud-stack-service-account-rotating-token'); } });
 Object.defineProperty(exports, 'cloudStackServiceAccountToken', { get: function () { return require('./cloud-stack-service-account-token'); } });
 Object.defineProperty(exports, 'connectionsMetricsEndpointScrapeJob', { get: function () { return require('./connections-metrics-endpoint-scrape-job'); } });
 Object.defineProperty(exports, 'contactPoint', { get: function () { return require('./contact-point'); } });
@@ -77,6 +78,7 @@ Object.defineProperty(exports, 'scimConfig', { get: function () { return require
 Object.defineProperty(exports, 'serviceAccount', { get: function () { return require('./service-account'); } });
 Object.defineProperty(exports, 'serviceAccountPermission', { get: function () { return require('./service-account-permission'); } });
 Object.defineProperty(exports, 'serviceAccountPermissionItem', { get: function () { return require('./service-account-permission-item'); } });
+Object.defineProperty(exports, 'serviceAccountRotatingToken', { get: function () { return require('./service-account-rotating-token'); } });
 Object.defineProperty(exports, 'serviceAccountToken', { get: function () { return require('./service-account-token'); } });
 Object.defineProperty(exports, 'slo', { get: function () { return require('./slo'); } });
 Object.defineProperty(exports, 'ssoSettings', { get: function () { return require('./sso-settings'); } });

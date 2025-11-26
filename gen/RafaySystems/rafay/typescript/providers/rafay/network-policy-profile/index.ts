@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkPolicyProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#id NetworkPolicyProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#id NetworkPolicyProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface NetworkPolicyProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#metadata NetworkPolicyProfile#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#metadata NetworkPolicyProfile#metadata}
   */
   readonly metadata?: NetworkPolicyProfileMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#spec NetworkPolicyProfile#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#spec NetworkPolicyProfile#spec}
   */
   readonly spec?: NetworkPolicyProfileSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#timeouts NetworkPolicyProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#timeouts NetworkPolicyProfile#timeouts}
   */
   readonly timeouts?: NetworkPolicyProfileTimeouts;
 }
@@ -37,7 +37,7 @@ export interface NetworkPolicyProfileMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#id NetworkPolicyProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#id NetworkPolicyProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface NetworkPolicyProfileMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#is_sso_user NetworkPolicyProfile#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#is_sso_user NetworkPolicyProfile#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#username NetworkPolicyProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#username NetworkPolicyProfile#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface NetworkPolicyProfileMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#id NetworkPolicyProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#id NetworkPolicyProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface NetworkPolicyProfileMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#is_sso_user NetworkPolicyProfile#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#is_sso_user NetworkPolicyProfile#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#username NetworkPolicyProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#username NetworkPolicyProfile#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface NetworkPolicyProfileMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#annotations NetworkPolicyProfile#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#annotations NetworkPolicyProfile#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#description NetworkPolicyProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#description NetworkPolicyProfile#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#display_name NetworkPolicyProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#display_name NetworkPolicyProfile#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#labels NetworkPolicyProfile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#labels NetworkPolicyProfile#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#name NetworkPolicyProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#name NetworkPolicyProfile#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#project NetworkPolicyProfile#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#project NetworkPolicyProfile#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#created_by NetworkPolicyProfile#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#created_by NetworkPolicyProfile#created_by}
   */
   readonly createdBy?: NetworkPolicyProfileMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#modified_by NetworkPolicyProfile#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#modified_by NetworkPolicyProfile#modified_by}
   */
   readonly modifiedBy?: NetworkPolicyProfileMetadataModifiedBy;
 }
@@ -686,7 +686,7 @@ export interface NetworkPolicyProfileSpecInstallationParams {
   /**
   * policyEnforcement mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#policy_enforcement_mode NetworkPolicyProfile#policy_enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#policy_enforcement_mode NetworkPolicyProfile#policy_enforcement_mode}
   */
   readonly policyEnforcementMode?: string;
 }
@@ -772,7 +772,7 @@ export interface NetworkPolicyProfileSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#name NetworkPolicyProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#name NetworkPolicyProfile#name}
   */
   readonly name?: string;
 }
@@ -890,13 +890,13 @@ export interface NetworkPolicyProfileSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#enabled NetworkPolicyProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#enabled NetworkPolicyProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#projects NetworkPolicyProfile#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#projects NetworkPolicyProfile#projects}
   */
   readonly projects?: NetworkPolicyProfileSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -1011,19 +1011,19 @@ export interface NetworkPolicyProfileSpec {
   /**
   * version of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#version NetworkPolicyProfile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#version NetworkPolicyProfile#version}
   */
   readonly version?: string;
   /**
   * installation_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#installation_params NetworkPolicyProfile#installation_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#installation_params NetworkPolicyProfile#installation_params}
   */
   readonly installationParams?: NetworkPolicyProfileSpecInstallationParams;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#sharing NetworkPolicyProfile#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#sharing NetworkPolicyProfile#sharing}
   */
   readonly sharing?: NetworkPolicyProfileSpecSharing;
 }
@@ -1165,15 +1165,15 @@ export class NetworkPolicyProfileSpecOutputReference extends cdktf.ComplexObject
 }
 export interface NetworkPolicyProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#create NetworkPolicyProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#create NetworkPolicyProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#delete NetworkPolicyProfile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#delete NetworkPolicyProfile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#update NetworkPolicyProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#update NetworkPolicyProfile#update}
   */
   readonly update?: string;
 }
@@ -1325,7 +1325,7 @@ export class NetworkPolicyProfileTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile rafay_network_policy_profile}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile rafay_network_policy_profile}
 */
 export class NetworkPolicyProfile extends cdktf.TerraformResource {
 
@@ -1341,7 +1341,7 @@ export class NetworkPolicyProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkPolicyProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkPolicyProfile to import
-  * @param importFromId The id of the existing NetworkPolicyProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkPolicyProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkPolicyProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1353,7 +1353,7 @@ export class NetworkPolicyProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/network_policy_profile rafay_network_policy_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/network_policy_profile rafay_network_policy_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1364,8 +1364,8 @@ export class NetworkPolicyProfile extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_network_policy_profile',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

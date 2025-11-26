@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,89 @@ export interface Layer3SubinterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Layer 3 sub Interfaces ARP configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#arp Layer3Subinterface#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#arp Layer3Subinterface#arp}
   */
   readonly arp?: Layer3SubinterfaceArp[] | cdktf.IResolvable;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#comment Layer3Subinterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#comment Layer3Subinterface#comment}
   */
   readonly comment?: string;
   /**
   * Dynamic DNS configuration specific to the Layer 3 sub Interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#ddns_config Layer3Subinterface#ddns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#ddns_config Layer3Subinterface#ddns_config}
   */
   readonly ddnsConfig?: Layer3SubinterfaceDdnsConfig;
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#device Layer3Subinterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#device Layer3Subinterface#device}
   */
   readonly device?: string;
   /**
   * Layer3 sub interfaces DHCP Client Object
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `dhcp_client` and `ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#dhcp_client Layer3Subinterface#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#dhcp_client Layer3Subinterface#dhcp_client}
   */
   readonly dhcpClient?: Layer3SubinterfaceDhcpClient;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#folder Layer3Subinterface#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#folder Layer3Subinterface#folder}
   */
   readonly folder?: string;
   /**
   * Interface management profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#interface_management_profile Layer3Subinterface#interface_management_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#interface_management_profile Layer3Subinterface#interface_management_profile}
   */
   readonly interfaceManagementProfile?: string;
   /**
   * L3 sub-interface IP Parent
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `dhcp_client` and `ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#ip Layer3Subinterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#ip Layer3Subinterface#ip}
   */
   readonly ip?: Layer3SubinterfaceIp[] | cdktf.IResolvable;
   /**
   * MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#mtu Layer3Subinterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#mtu Layer3Subinterface#mtu}
   */
   readonly mtu?: number;
   /**
   * L3 sub-interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#name Layer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#name Layer3Subinterface#name}
   */
   readonly name: string;
   /**
   * Parent interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#parent_interface Layer3Subinterface#parent_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#parent_interface Layer3Subinterface#parent_interface}
   */
   readonly parentInterface?: string;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#snippet Layer3Subinterface#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#snippet Layer3Subinterface#snippet}
   */
   readonly snippet?: string;
   /**
   * VLAN tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#tag Layer3Subinterface#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#tag Layer3Subinterface#tag}
   */
   readonly tag?: number;
 }
@@ -90,13 +100,13 @@ export interface Layer3SubinterfaceArp {
   /**
   * MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#hw_address Layer3Subinterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#hw_address Layer3Subinterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#name Layer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#name Layer3Subinterface#name}
   */
   readonly name?: string;
 }
@@ -243,43 +253,43 @@ export interface Layer3SubinterfaceDdnsConfig {
   /**
   * Certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#ddns_cert_profile Layer3Subinterface#ddns_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#ddns_cert_profile Layer3Subinterface#ddns_cert_profile}
   */
   readonly ddnsCertProfile: string;
   /**
   * Enable DDNS?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#ddns_enabled Layer3Subinterface#ddns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#ddns_enabled Layer3Subinterface#ddns_enabled}
   */
   readonly ddnsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Ddns hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#ddns_hostname Layer3Subinterface#ddns_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#ddns_hostname Layer3Subinterface#ddns_hostname}
   */
   readonly ddnsHostname: string;
   /**
   * IP to register (static only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#ddns_ip Layer3Subinterface#ddns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#ddns_ip Layer3Subinterface#ddns_ip}
   */
   readonly ddnsIp?: string;
   /**
   * Update interval (days)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#ddns_update_interval Layer3Subinterface#ddns_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#ddns_update_interval Layer3Subinterface#ddns_update_interval}
   */
   readonly ddnsUpdateInterval?: number;
   /**
   * DDNS vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#ddns_vendor Layer3Subinterface#ddns_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#ddns_vendor Layer3Subinterface#ddns_vendor}
   */
   readonly ddnsVendor: string;
   /**
   * DDNS vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#ddns_vendor_config Layer3Subinterface#ddns_vendor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#ddns_vendor_config Layer3Subinterface#ddns_vendor_config}
   */
   readonly ddnsVendorConfig: string;
 }
@@ -537,13 +547,13 @@ export interface Layer3SubinterfaceDhcpClientSendHostname {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#enable Layer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#enable Layer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set interface hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#hostname Layer3Subinterface#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#hostname Layer3Subinterface#hostname}
   */
   readonly hostname?: string;
 }
@@ -668,25 +678,25 @@ export interface Layer3SubinterfaceDhcpClient {
   /**
   * Automatically create default route pointing to default gateway provided by server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#create_default_route Layer3Subinterface#create_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#create_default_route Layer3Subinterface#create_default_route}
   */
   readonly createDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Metric of the default route created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#default_route_metric Layer3Subinterface#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#default_route_metric Layer3Subinterface#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
   * Enable DHCP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#enable Layer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#enable Layer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Layer3 sub interfaces DHCP Client Send hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#send_hostname Layer3Subinterface#send_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#send_hostname Layer3Subinterface#send_hostname}
   */
   readonly sendHostname?: Layer3SubinterfaceDhcpClientSendHostname;
 }
@@ -869,7 +879,7 @@ export interface Layer3SubinterfaceIp {
   /**
   * L3 sub-interface IP address(es)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#name Layer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#name Layer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -982,7 +992,7 @@ export class Layer3SubinterfaceIpList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface scm_layer3_subinterface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface scm_layer3_subinterface}
 */
 export class Layer3Subinterface extends cdktf.TerraformResource {
 
@@ -998,7 +1008,7 @@ export class Layer3Subinterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Layer3Subinterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Layer3Subinterface to import
-  * @param importFromId The id of the existing Layer3Subinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Layer3Subinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Layer3Subinterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1010,7 +1020,7 @@ export class Layer3Subinterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer3_subinterface scm_layer3_subinterface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/layer3_subinterface scm_layer3_subinterface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1021,8 +1031,8 @@ export class Layer3Subinterface extends cdktf.TerraformResource {
       terraformResourceType: 'scm_layer3_subinterface',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

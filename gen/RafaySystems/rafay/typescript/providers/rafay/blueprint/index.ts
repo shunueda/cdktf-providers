@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface BlueprintConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#id Blueprint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#id Blueprint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface BlueprintConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#metadata Blueprint#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#metadata Blueprint#metadata}
   */
   readonly metadata?: BlueprintMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#spec Blueprint#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#spec Blueprint#spec}
   */
   readonly spec?: BlueprintSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#timeouts Blueprint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#timeouts Blueprint#timeouts}
   */
   readonly timeouts?: BlueprintTimeouts;
 }
@@ -37,7 +37,7 @@ export interface BlueprintMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#id Blueprint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#id Blueprint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface BlueprintMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#is_sso_user Blueprint#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#is_sso_user Blueprint#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#username Blueprint#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#username Blueprint#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface BlueprintMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#id Blueprint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#id Blueprint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface BlueprintMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#is_sso_user Blueprint#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#is_sso_user Blueprint#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#username Blueprint#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#username Blueprint#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface BlueprintMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#annotations Blueprint#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#annotations Blueprint#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#description Blueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#description Blueprint#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#display_name Blueprint#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#display_name Blueprint#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#labels Blueprint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#labels Blueprint#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#project Blueprint#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#project Blueprint#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#created_by Blueprint#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#created_by Blueprint#created_by}
   */
   readonly createdBy?: BlueprintMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#modified_by Blueprint#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#modified_by Blueprint#modified_by}
   */
   readonly modifiedBy?: BlueprintMetadataModifiedBy;
 }
@@ -686,13 +686,13 @@ export interface BlueprintSpecBase {
   /**
   * name of the blueprint base
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
   /**
   * version of the blueprint base
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version Blueprint#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version Blueprint#version}
   */
   readonly version?: string;
 }
@@ -807,55 +807,55 @@ export interface BlueprintSpecComponentsCriticality {
   /**
   * Component Type of the blueprint list resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#component_type Blueprint#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#component_type Blueprint#component_type}
   */
   readonly componentType?: string;
   /**
   * Dependent resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#depends_on Blueprint#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#depends_on Blueprint#depends_on}
   */
   readonly dependsOn?: string[];
   /**
   * Check for Global resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#is_global Blueprint#is_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#is_global Blueprint#is_global}
   */
   readonly isGlobal?: boolean | cdktf.IResolvable;
   /**
   * API Version of the blueprint list resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
   /**
   * Published Generation of the blueprint list resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#published_generation Blueprint#published_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#published_generation Blueprint#published_generation}
   */
   readonly publishedGeneration?: string;
   /**
   * Revision of the blueprint list resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#revision Blueprint#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#revision Blueprint#revision}
   */
   readonly revision?: string;
   /**
   * Selector of the blueprint list resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#selector Blueprint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#selector Blueprint#selector}
   */
   readonly selector?: string;
   /**
   * Version of the blueprint list resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version Blueprint#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version Blueprint#version}
   */
   readonly version?: string;
   /**
   * Workload ID of the blueprint list resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#workload_id Blueprint#workload_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#workload_id Blueprint#workload_id}
   */
   readonly workloadId?: string;
 }
@@ -1205,13 +1205,13 @@ export interface BlueprintSpecCostProfile {
   /**
   * name of the cost profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
   /**
   * version of the cost profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version Blueprint#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version Blueprint#version}
   */
   readonly version?: string;
 }
@@ -1326,19 +1326,19 @@ export interface BlueprintSpecCustomAddons {
   /**
   * other addons current addons depends on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#depends_on Blueprint#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#depends_on Blueprint#depends_on}
   */
   readonly dependsOn?: string[];
   /**
   * name of the blueprint addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
   /**
   * version of the blueprint addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version Blueprint#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version Blueprint#version}
   */
   readonly version?: string;
 }
@@ -1512,11 +1512,11 @@ export class BlueprintSpecCustomAddonsList extends cdktf.ComplexList {
 }
 export interface BlueprintSpecDefaultAddonsCsiSecretStoreConfigProviders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#aws Blueprint#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#aws Blueprint#aws}
   */
   readonly aws?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#vault Blueprint#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#vault Blueprint#vault}
   */
   readonly vault?: boolean | cdktf.IResolvable;
 }
@@ -1629,21 +1629,21 @@ export class BlueprintSpecDefaultAddonsCsiSecretStoreConfigProvidersOutputRefere
 }
 export interface BlueprintSpecDefaultAddonsCsiSecretStoreConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_secret_rotation Blueprint#enable_secret_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_secret_rotation Blueprint#enable_secret_rotation}
   */
   readonly enableSecretRotation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#rotation_poll_interval Blueprint#rotation_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#rotation_poll_interval Blueprint#rotation_poll_interval}
   */
   readonly rotationPollInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#sync_secrets Blueprint#sync_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#sync_secrets Blueprint#sync_secrets}
   */
   readonly syncSecrets?: boolean | cdktf.IResolvable;
   /**
   * providers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#providers Blueprint#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#providers Blueprint#providers}
   */
   readonly providers?: BlueprintSpecDefaultAddonsCsiSecretStoreConfigProviders;
 }
@@ -1816,19 +1816,19 @@ export interface BlueprintSpecDefaultAddonsMonitoringGpuOperatorDiscovery {
   /**
   * labels of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#labels Blueprint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#labels Blueprint#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * namespace of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#namespace Blueprint#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#namespace Blueprint#namespace}
   */
   readonly namespace?: string;
   /**
   * resource name of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#resource Blueprint#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#resource Blueprint#resource}
   */
   readonly resource?: string;
 }
@@ -1972,19 +1972,19 @@ export interface BlueprintSpecDefaultAddonsMonitoringGpuOperator {
   /**
   * flag to specify if monitoring component customization is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#customization_enabled Blueprint#customization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#customization_enabled Blueprint#customization_enabled}
   */
   readonly customizationEnabled?: boolean | cdktf.IResolvable;
   /**
   * flag to specify if monitoring component is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enabled Blueprint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enabled Blueprint#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * discovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#discovery Blueprint#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#discovery Blueprint#discovery}
   */
   readonly discovery?: BlueprintSpecDefaultAddonsMonitoringGpuOperatorDiscovery;
 }
@@ -2128,19 +2128,19 @@ export interface BlueprintSpecDefaultAddonsMonitoringHelmExporterDiscovery {
   /**
   * labels of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#labels Blueprint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#labels Blueprint#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * namespace of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#namespace Blueprint#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#namespace Blueprint#namespace}
   */
   readonly namespace?: string;
   /**
   * resource name of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#resource Blueprint#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#resource Blueprint#resource}
   */
   readonly resource?: string;
 }
@@ -2284,19 +2284,19 @@ export interface BlueprintSpecDefaultAddonsMonitoringHelmExporter {
   /**
   * flag to specify if monitoring component customization is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#customization_enabled Blueprint#customization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#customization_enabled Blueprint#customization_enabled}
   */
   readonly customizationEnabled?: boolean | cdktf.IResolvable;
   /**
   * flag to specify if monitoring component is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enabled Blueprint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enabled Blueprint#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * discovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#discovery Blueprint#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#discovery Blueprint#discovery}
   */
   readonly discovery?: BlueprintSpecDefaultAddonsMonitoringHelmExporterDiscovery;
 }
@@ -2440,19 +2440,19 @@ export interface BlueprintSpecDefaultAddonsMonitoringKubeStateMetricsDiscovery {
   /**
   * labels of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#labels Blueprint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#labels Blueprint#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * namespace of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#namespace Blueprint#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#namespace Blueprint#namespace}
   */
   readonly namespace?: string;
   /**
   * resource name of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#resource Blueprint#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#resource Blueprint#resource}
   */
   readonly resource?: string;
 }
@@ -2596,19 +2596,19 @@ export interface BlueprintSpecDefaultAddonsMonitoringKubeStateMetrics {
   /**
   * flag to specify if monitoring component customization is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#customization_enabled Blueprint#customization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#customization_enabled Blueprint#customization_enabled}
   */
   readonly customizationEnabled?: boolean | cdktf.IResolvable;
   /**
   * flag to specify if monitoring component is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enabled Blueprint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enabled Blueprint#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * discovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#discovery Blueprint#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#discovery Blueprint#discovery}
   */
   readonly discovery?: BlueprintSpecDefaultAddonsMonitoringKubeStateMetricsDiscovery;
 }
@@ -2752,19 +2752,19 @@ export interface BlueprintSpecDefaultAddonsMonitoringMetricsServerDiscovery {
   /**
   * labels of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#labels Blueprint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#labels Blueprint#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * namespace of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#namespace Blueprint#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#namespace Blueprint#namespace}
   */
   readonly namespace?: string;
   /**
   * resource name of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#resource Blueprint#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#resource Blueprint#resource}
   */
   readonly resource?: string;
 }
@@ -2908,19 +2908,19 @@ export interface BlueprintSpecDefaultAddonsMonitoringMetricsServer {
   /**
   * flag to specify if monitoring component customization is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#customization_enabled Blueprint#customization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#customization_enabled Blueprint#customization_enabled}
   */
   readonly customizationEnabled?: boolean | cdktf.IResolvable;
   /**
   * flag to specify if monitoring component is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enabled Blueprint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enabled Blueprint#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * discovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#discovery Blueprint#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#discovery Blueprint#discovery}
   */
   readonly discovery?: BlueprintSpecDefaultAddonsMonitoringMetricsServerDiscovery;
 }
@@ -3064,19 +3064,19 @@ export interface BlueprintSpecDefaultAddonsMonitoringNodeExporterDiscovery {
   /**
   * labels of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#labels Blueprint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#labels Blueprint#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * namespace of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#namespace Blueprint#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#namespace Blueprint#namespace}
   */
   readonly namespace?: string;
   /**
   * resource name of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#resource Blueprint#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#resource Blueprint#resource}
   */
   readonly resource?: string;
 }
@@ -3220,19 +3220,19 @@ export interface BlueprintSpecDefaultAddonsMonitoringNodeExporter {
   /**
   * flag to specify if monitoring component customization is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#customization_enabled Blueprint#customization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#customization_enabled Blueprint#customization_enabled}
   */
   readonly customizationEnabled?: boolean | cdktf.IResolvable;
   /**
   * flag to specify if monitoring component is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enabled Blueprint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enabled Blueprint#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * discovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#discovery Blueprint#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#discovery Blueprint#discovery}
   */
   readonly discovery?: BlueprintSpecDefaultAddonsMonitoringNodeExporterDiscovery;
 }
@@ -3376,19 +3376,19 @@ export interface BlueprintSpecDefaultAddonsMonitoringPrometheusAdapterDiscovery 
   /**
   * labels of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#labels Blueprint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#labels Blueprint#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * namespace of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#namespace Blueprint#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#namespace Blueprint#namespace}
   */
   readonly namespace?: string;
   /**
   * resource name of the monitoring component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#resource Blueprint#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#resource Blueprint#resource}
   */
   readonly resource?: string;
 }
@@ -3532,19 +3532,19 @@ export interface BlueprintSpecDefaultAddonsMonitoringPrometheusAdapter {
   /**
   * flag to specify if monitoring component customization is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#customization_enabled Blueprint#customization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#customization_enabled Blueprint#customization_enabled}
   */
   readonly customizationEnabled?: boolean | cdktf.IResolvable;
   /**
   * flag to specify if monitoring component is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enabled Blueprint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enabled Blueprint#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * discovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#discovery Blueprint#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#discovery Blueprint#discovery}
   */
   readonly discovery?: BlueprintSpecDefaultAddonsMonitoringPrometheusAdapterDiscovery;
 }
@@ -3688,13 +3688,13 @@ export interface BlueprintSpecDefaultAddonsMonitoringResourcesLimits {
   /**
   * quantity of CPU in cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#cpu Blueprint#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#cpu Blueprint#cpu}
   */
   readonly cpu?: string;
   /**
   * quantity of memory in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#memory Blueprint#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#memory Blueprint#memory}
   */
   readonly memory?: string;
 }
@@ -3809,7 +3809,7 @@ export interface BlueprintSpecDefaultAddonsMonitoringResources {
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#limits Blueprint#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#limits Blueprint#limits}
   */
   readonly limits?: BlueprintSpecDefaultAddonsMonitoringResourcesLimits;
 }
@@ -3895,43 +3895,43 @@ export interface BlueprintSpecDefaultAddonsMonitoring {
   /**
   * gpu_operator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#gpu_operator Blueprint#gpu_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#gpu_operator Blueprint#gpu_operator}
   */
   readonly gpuOperator?: BlueprintSpecDefaultAddonsMonitoringGpuOperator;
   /**
   * helm_exporter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#helm_exporter Blueprint#helm_exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#helm_exporter Blueprint#helm_exporter}
   */
   readonly helmExporter?: BlueprintSpecDefaultAddonsMonitoringHelmExporter;
   /**
   * kube_state_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#kube_state_metrics Blueprint#kube_state_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#kube_state_metrics Blueprint#kube_state_metrics}
   */
   readonly kubeStateMetrics?: BlueprintSpecDefaultAddonsMonitoringKubeStateMetrics;
   /**
   * metrics_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#metrics_server Blueprint#metrics_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#metrics_server Blueprint#metrics_server}
   */
   readonly metricsServer?: BlueprintSpecDefaultAddonsMonitoringMetricsServer;
   /**
   * node_exporter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#node_exporter Blueprint#node_exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#node_exporter Blueprint#node_exporter}
   */
   readonly nodeExporter?: BlueprintSpecDefaultAddonsMonitoringNodeExporter;
   /**
   * prometheus_adapter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#prometheus_adapter Blueprint#prometheus_adapter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#prometheus_adapter Blueprint#prometheus_adapter}
   */
   readonly prometheusAdapter?: BlueprintSpecDefaultAddonsMonitoringPrometheusAdapter;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#resources Blueprint#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#resources Blueprint#resources}
   */
   readonly resources?: BlueprintSpecDefaultAddonsMonitoringResources;
 }
@@ -4191,79 +4191,79 @@ export interface BlueprintSpecDefaultAddons {
   /**
   * enable calico cni config add-on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_calico_cni Blueprint#enable_calico_cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_calico_cni Blueprint#enable_calico_cni}
   */
   readonly enableCalicoCni?: boolean | cdktf.IResolvable;
   /**
   * enable cilium cni config add-on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_cilium_cni Blueprint#enable_cilium_cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_cilium_cni Blueprint#enable_cilium_cni}
   */
   readonly enableCiliumCni?: boolean | cdktf.IResolvable;
   /**
   * enable cni config add-on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_cni Blueprint#enable_cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_cni Blueprint#enable_cni}
   */
   readonly enableCni?: boolean | cdktf.IResolvable;
   /**
   * enable csi secret store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_csi_secret_store Blueprint#enable_csi_secret_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_csi_secret_store Blueprint#enable_csi_secret_store}
   */
   readonly enableCsiSecretStore?: boolean | cdktf.IResolvable;
   /**
   * enable default ingress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_ingress Blueprint#enable_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_ingress Blueprint#enable_ingress}
   */
   readonly enableIngress?: boolean | cdktf.IResolvable;
   /**
   * enable kubeovn cilium chaining cni config add-on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_kubeovn_chaning_cni Blueprint#enable_kubeovn_chaning_cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_kubeovn_chaning_cni Blueprint#enable_kubeovn_chaning_cni}
   */
   readonly enableKubeovnChaningCni?: boolean | cdktf.IResolvable;
   /**
   * enable kubeovn cni config add-on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_kubeovn_cni Blueprint#enable_kubeovn_cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_kubeovn_cni Blueprint#enable_kubeovn_cni}
   */
   readonly enableKubeovnCni?: boolean | cdktf.IResolvable;
   /**
   * enable default logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_logging Blueprint#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_logging Blueprint#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
   * enable default monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_monitoring Blueprint#enable_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_monitoring Blueprint#enable_monitoring}
   */
   readonly enableMonitoring?: boolean | cdktf.IResolvable;
   /**
   * enable rook ceph storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_rook_ceph Blueprint#enable_rook_ceph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_rook_ceph Blueprint#enable_rook_ceph}
   */
   readonly enableRookCeph?: boolean | cdktf.IResolvable;
   /**
   * enable virtual machine workloads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_vm Blueprint#enable_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_vm Blueprint#enable_vm}
   */
   readonly enableVm?: boolean | cdktf.IResolvable;
   /**
   * csi_secret_store_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#csi_secret_store_config Blueprint#csi_secret_store_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#csi_secret_store_config Blueprint#csi_secret_store_config}
   */
   readonly csiSecretStoreConfig?: BlueprintSpecDefaultAddonsCsiSecretStoreConfig;
   /**
   * monitoring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#monitoring Blueprint#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#monitoring Blueprint#monitoring}
   */
   readonly monitoring?: BlueprintSpecDefaultAddonsMonitoring;
 }
@@ -4697,13 +4697,13 @@ export interface BlueprintSpecDrift {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#action Blueprint#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#action Blueprint#action}
   */
   readonly action?: string;
   /**
   * flag to specify if drift reconcillation is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enabled Blueprint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enabled Blueprint#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4818,7 +4818,7 @@ export interface BlueprintSpecDriftWebhook {
   /**
   * enable drift 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enabled Blueprint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enabled Blueprint#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4904,13 +4904,13 @@ export interface BlueprintSpecNamespaceConfig {
   /**
   * flag to enable namespace sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enable_sync Blueprint#enable_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enable_sync Blueprint#enable_sync}
   */
   readonly enableSync?: boolean | cdktf.IResolvable;
   /**
   * Synchronizing type as managed or unmanaged namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#sync_type Blueprint#sync_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#sync_type Blueprint#sync_type}
   */
   readonly syncType?: string;
 }
@@ -5025,25 +5025,25 @@ export interface BlueprintSpecNetworkPolicyPolicies {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#system_catalog Blueprint#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#system_catalog Blueprint#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version Blueprint#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version Blueprint#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version_state Blueprint#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version_state Blueprint#version_state}
   */
   readonly versionState?: string;
 }
@@ -5248,25 +5248,25 @@ export interface BlueprintSpecNetworkPolicyProfile {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#system_catalog Blueprint#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#system_catalog Blueprint#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version Blueprint#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version Blueprint#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version_state Blueprint#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version_state Blueprint#version_state}
   */
   readonly versionState?: string;
 }
@@ -5439,13 +5439,13 @@ export interface BlueprintSpecNetworkPolicy {
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#policies Blueprint#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#policies Blueprint#policies}
   */
   readonly policies?: BlueprintSpecNetworkPolicyPolicies[] | cdktf.IResolvable;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#profile Blueprint#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#profile Blueprint#profile}
   */
   readonly profile?: BlueprintSpecNetworkPolicyProfile;
 }
@@ -5560,13 +5560,13 @@ export interface BlueprintSpecOpaPolicyOpaPolicy {
   /**
   * name of the opa policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
   /**
   * version of the opa policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version Blueprint#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version Blueprint#version}
   */
   readonly version?: string;
 }
@@ -5713,13 +5713,13 @@ export interface BlueprintSpecOpaPolicyProfile {
   /**
   * name of the opa profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
   /**
   * version of the opa profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version Blueprint#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version Blueprint#version}
   */
   readonly version?: string;
 }
@@ -5834,13 +5834,13 @@ export interface BlueprintSpecOpaPolicy {
   /**
   * opa_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#opa_policy Blueprint#opa_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#opa_policy Blueprint#opa_policy}
   */
   readonly opaPolicy?: BlueprintSpecOpaPolicyOpaPolicy[] | cdktf.IResolvable;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#profile Blueprint#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#profile Blueprint#profile}
   */
   readonly profile?: BlueprintSpecOpaPolicyProfile;
 }
@@ -5955,13 +5955,13 @@ export interface BlueprintSpecPlacement {
   /**
   * Bool value of autoPublish
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#auto_publish Blueprint#auto_publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#auto_publish Blueprint#auto_publish}
   */
   readonly autoPublish?: boolean | cdktf.IResolvable;
   /**
   * Array of Fleet value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#fleet_values Blueprint#fleet_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#fleet_values Blueprint#fleet_values}
   */
   readonly fleetValues?: string[];
 }
@@ -6076,7 +6076,7 @@ export interface BlueprintSpecPrivateKubeApiProxies {
   /**
   * name of the kubernetes proxy network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
 }
@@ -6194,19 +6194,19 @@ export interface BlueprintSpecPsp {
   /**
   * flag to specify if PSP is enabled for blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enabled Blueprint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enabled Blueprint#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * names of the PSPs to be added for the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#names Blueprint#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#names Blueprint#names}
   */
   readonly names?: string[];
   /**
   * scope of the PSP for the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#scope Blueprint#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#scope Blueprint#scope}
   */
   readonly scope?: string;
 }
@@ -6350,25 +6350,25 @@ export interface BlueprintSpecServiceMeshPolicies {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#system_catalog Blueprint#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#system_catalog Blueprint#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version Blueprint#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version Blueprint#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version_state Blueprint#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version_state Blueprint#version_state}
   */
   readonly versionState?: string;
 }
@@ -6573,25 +6573,25 @@ export interface BlueprintSpecServiceMeshProfile {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#system_catalog Blueprint#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#system_catalog Blueprint#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version Blueprint#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version Blueprint#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version_state Blueprint#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version_state Blueprint#version_state}
   */
   readonly versionState?: string;
 }
@@ -6764,13 +6764,13 @@ export interface BlueprintSpecServiceMesh {
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#policies Blueprint#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#policies Blueprint#policies}
   */
   readonly policies?: BlueprintSpecServiceMeshPolicies[] | cdktf.IResolvable;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#profile Blueprint#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#profile Blueprint#profile}
   */
   readonly profile?: BlueprintSpecServiceMeshProfile;
 }
@@ -6885,7 +6885,7 @@ export interface BlueprintSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name?: string;
 }
@@ -7003,13 +7003,13 @@ export interface BlueprintSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#enabled Blueprint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#enabled Blueprint#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#projects Blueprint#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#projects Blueprint#projects}
   */
   readonly projects?: BlueprintSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -7124,109 +7124,109 @@ export interface BlueprintSpec {
   /**
   * Blueprint Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#type Blueprint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#type Blueprint#type}
   */
   readonly type?: string;
   /**
   * version of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version Blueprint#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version Blueprint#version}
   */
   readonly version?: string;
   /**
   * version state of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#version_state Blueprint#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#version_state Blueprint#version_state}
   */
   readonly versionState?: string;
   /**
   * base block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#base Blueprint#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#base Blueprint#base}
   */
   readonly base?: BlueprintSpecBase;
   /**
   * components_criticality block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#components_criticality Blueprint#components_criticality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#components_criticality Blueprint#components_criticality}
   */
   readonly componentsCriticality?: BlueprintSpecComponentsCriticality[] | cdktf.IResolvable;
   /**
   * cost_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#cost_profile Blueprint#cost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#cost_profile Blueprint#cost_profile}
   */
   readonly costProfile?: BlueprintSpecCostProfile;
   /**
   * custom_addons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#custom_addons Blueprint#custom_addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#custom_addons Blueprint#custom_addons}
   */
   readonly customAddons?: BlueprintSpecCustomAddons[] | cdktf.IResolvable;
   /**
   * default_addons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#default_addons Blueprint#default_addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#default_addons Blueprint#default_addons}
   */
   readonly defaultAddons?: BlueprintSpecDefaultAddons;
   /**
   * drift block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#drift Blueprint#drift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#drift Blueprint#drift}
   */
   readonly drift?: BlueprintSpecDrift;
   /**
   * drift_webhook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#drift_webhook Blueprint#drift_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#drift_webhook Blueprint#drift_webhook}
   */
   readonly driftWebhook?: BlueprintSpecDriftWebhook;
   /**
   * namespace_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#namespace_config Blueprint#namespace_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#namespace_config Blueprint#namespace_config}
   */
   readonly namespaceConfig?: BlueprintSpecNamespaceConfig;
   /**
   * network_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#network_policy Blueprint#network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#network_policy Blueprint#network_policy}
   */
   readonly networkPolicy?: BlueprintSpecNetworkPolicy;
   /**
   * opa_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#opa_policy Blueprint#opa_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#opa_policy Blueprint#opa_policy}
   */
   readonly opaPolicy?: BlueprintSpecOpaPolicy;
   /**
   * placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#placement Blueprint#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#placement Blueprint#placement}
   */
   readonly placement?: BlueprintSpecPlacement;
   /**
   * private_kube_api_proxies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#private_kube_api_proxies Blueprint#private_kube_api_proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#private_kube_api_proxies Blueprint#private_kube_api_proxies}
   */
   readonly privateKubeApiProxies?: BlueprintSpecPrivateKubeApiProxies[] | cdktf.IResolvable;
   /**
   * psp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#psp Blueprint#psp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#psp Blueprint#psp}
   */
   readonly psp?: BlueprintSpecPsp;
   /**
   * service_mesh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#service_mesh Blueprint#service_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#service_mesh Blueprint#service_mesh}
   */
   readonly serviceMesh?: BlueprintSpecServiceMesh;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#sharing Blueprint#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#sharing Blueprint#sharing}
   */
   readonly sharing?: BlueprintSpecSharing;
 }
@@ -7803,15 +7803,15 @@ export class BlueprintSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface BlueprintTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#create Blueprint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#create Blueprint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#delete Blueprint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#delete Blueprint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#update Blueprint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#update Blueprint#update}
   */
   readonly update?: string;
 }
@@ -7963,7 +7963,7 @@ export class BlueprintTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint rafay_blueprint}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint rafay_blueprint}
 */
 export class Blueprint extends cdktf.TerraformResource {
 
@@ -7979,7 +7979,7 @@ export class Blueprint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Blueprint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Blueprint to import
-  * @param importFromId The id of the existing Blueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Blueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Blueprint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7991,7 +7991,7 @@ export class Blueprint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/blueprint rafay_blueprint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/blueprint rafay_blueprint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8002,8 +8002,8 @@ export class Blueprint extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_blueprint',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

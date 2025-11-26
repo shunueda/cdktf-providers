@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,44 +9,50 @@ import * as cdktf from 'cdktf';
 export interface HttpServerProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#device HttpServerProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#device HttpServerProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#folder HttpServerProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#folder HttpServerProfile#folder}
   */
   readonly folder?: string;
   /**
   * Format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#format HttpServerProfile#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#format HttpServerProfile#format}
   */
   readonly format?: HttpServerProfileFormat;
   /**
   * The name of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name: string;
   /**
   * Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#server HttpServerProfile#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#server HttpServerProfile#server}
   */
   readonly server?: HttpServerProfileServer[] | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#snippet HttpServerProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#snippet HttpServerProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * Register tags on match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#tag_registration HttpServerProfile#tag_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#tag_registration HttpServerProfile#tag_registration}
   */
   readonly tagRegistration?: boolean | cdktf.IResolvable;
 }
@@ -54,13 +60,13 @@ export interface HttpServerProfileFormatAuthHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -207,13 +213,13 @@ export interface HttpServerProfileFormatAuthParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -360,19 +366,19 @@ export interface HttpServerProfileFormatAuth {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatAuthHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatAuthParams[] | cdktf.IResolvable;
   /**
@@ -409,13 +415,13 @@ export interface HttpServerProfileFormatAuth {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -627,13 +633,13 @@ export interface HttpServerProfileFormatConfigHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -780,13 +786,13 @@ export interface HttpServerProfileFormatConfigParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -933,19 +939,19 @@ export interface HttpServerProfileFormatConfig {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatConfigHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatConfigParams[] | cdktf.IResolvable;
   /**
@@ -982,13 +988,13 @@ export interface HttpServerProfileFormatConfig {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -1200,13 +1206,13 @@ export interface HttpServerProfileFormatCorrelationHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -1353,13 +1359,13 @@ export interface HttpServerProfileFormatCorrelationParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -1506,19 +1512,19 @@ export interface HttpServerProfileFormatCorrelation {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatCorrelationHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatCorrelationParams[] | cdktf.IResolvable;
   /**
@@ -1555,13 +1561,13 @@ export interface HttpServerProfileFormatCorrelation {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -1773,13 +1779,13 @@ export interface HttpServerProfileFormatDataHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -1926,13 +1932,13 @@ export interface HttpServerProfileFormatDataParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -2079,19 +2085,19 @@ export interface HttpServerProfileFormatData {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatDataHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatDataParams[] | cdktf.IResolvable;
   /**
@@ -2128,13 +2134,13 @@ export interface HttpServerProfileFormatData {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -2346,13 +2352,13 @@ export interface HttpServerProfileFormatDecryptionHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -2499,13 +2505,13 @@ export interface HttpServerProfileFormatDecryptionParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -2652,19 +2658,19 @@ export interface HttpServerProfileFormatDecryption {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatDecryptionHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatDecryptionParams[] | cdktf.IResolvable;
   /**
@@ -2701,13 +2707,13 @@ export interface HttpServerProfileFormatDecryption {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -2919,13 +2925,13 @@ export interface HttpServerProfileFormatGlobalprotectHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -3072,13 +3078,13 @@ export interface HttpServerProfileFormatGlobalprotectParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -3225,19 +3231,19 @@ export interface HttpServerProfileFormatGlobalprotect {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatGlobalprotectHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatGlobalprotectParams[] | cdktf.IResolvable;
   /**
@@ -3274,13 +3280,13 @@ export interface HttpServerProfileFormatGlobalprotect {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -3492,13 +3498,13 @@ export interface HttpServerProfileFormatGtpHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -3645,13 +3651,13 @@ export interface HttpServerProfileFormatGtpParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -3798,19 +3804,19 @@ export interface HttpServerProfileFormatGtp {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatGtpHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatGtpParams[] | cdktf.IResolvable;
   /**
@@ -3847,13 +3853,13 @@ export interface HttpServerProfileFormatGtp {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -4065,13 +4071,13 @@ export interface HttpServerProfileFormatHipMatchHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -4218,13 +4224,13 @@ export interface HttpServerProfileFormatHipMatchParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -4371,19 +4377,19 @@ export interface HttpServerProfileFormatHipMatch {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatHipMatchHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatHipMatchParams[] | cdktf.IResolvable;
   /**
@@ -4420,13 +4426,13 @@ export interface HttpServerProfileFormatHipMatch {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -4638,13 +4644,13 @@ export interface HttpServerProfileFormatIptagHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -4791,13 +4797,13 @@ export interface HttpServerProfileFormatIptagParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -4944,19 +4950,19 @@ export interface HttpServerProfileFormatIptag {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatIptagHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatIptagParams[] | cdktf.IResolvable;
   /**
@@ -4993,13 +4999,13 @@ export interface HttpServerProfileFormatIptag {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -5211,13 +5217,13 @@ export interface HttpServerProfileFormatSctpHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -5364,13 +5370,13 @@ export interface HttpServerProfileFormatSctpParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -5517,19 +5523,19 @@ export interface HttpServerProfileFormatSctp {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatSctpHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatSctpParams[] | cdktf.IResolvable;
   /**
@@ -5566,13 +5572,13 @@ export interface HttpServerProfileFormatSctp {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -5784,13 +5790,13 @@ export interface HttpServerProfileFormatSystemHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -5937,13 +5943,13 @@ export interface HttpServerProfileFormatSystemParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -6090,19 +6096,19 @@ export interface HttpServerProfileFormatSystem {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatSystemHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatSystemParams[] | cdktf.IResolvable;
   /**
@@ -6139,13 +6145,13 @@ export interface HttpServerProfileFormatSystem {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -6357,13 +6363,13 @@ export interface HttpServerProfileFormatThreatHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -6510,13 +6516,13 @@ export interface HttpServerProfileFormatThreatParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -6663,19 +6669,19 @@ export interface HttpServerProfileFormatThreat {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatThreatHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatThreatParams[] | cdktf.IResolvable;
   /**
@@ -6712,13 +6718,13 @@ export interface HttpServerProfileFormatThreat {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -6930,13 +6936,13 @@ export interface HttpServerProfileFormatTrafficHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -7083,13 +7089,13 @@ export interface HttpServerProfileFormatTrafficParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -7236,19 +7242,19 @@ export interface HttpServerProfileFormatTraffic {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatTrafficHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatTrafficParams[] | cdktf.IResolvable;
   /**
@@ -7285,13 +7291,13 @@ export interface HttpServerProfileFormatTraffic {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -7503,13 +7509,13 @@ export interface HttpServerProfileFormatTunnelHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -7656,13 +7662,13 @@ export interface HttpServerProfileFormatTunnelParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -7809,19 +7815,19 @@ export interface HttpServerProfileFormatTunnel {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatTunnelHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatTunnelParams[] | cdktf.IResolvable;
   /**
@@ -7858,13 +7864,13 @@ export interface HttpServerProfileFormatTunnel {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -8076,13 +8082,13 @@ export interface HttpServerProfileFormatUrlHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -8229,13 +8235,13 @@ export interface HttpServerProfileFormatUrlParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -8382,19 +8388,19 @@ export interface HttpServerProfileFormatUrl {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatUrlHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatUrlParams[] | cdktf.IResolvable;
   /**
@@ -8431,13 +8437,13 @@ export interface HttpServerProfileFormatUrl {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -8649,13 +8655,13 @@ export interface HttpServerProfileFormatUseridHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -8802,13 +8808,13 @@ export interface HttpServerProfileFormatUseridParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -8955,19 +8961,19 @@ export interface HttpServerProfileFormatUserid {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatUseridHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatUseridParams[] | cdktf.IResolvable;
   /**
@@ -9004,13 +9010,13 @@ export interface HttpServerProfileFormatUserid {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -9222,13 +9228,13 @@ export interface HttpServerProfileFormatWildfireHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -9375,13 +9381,13 @@ export interface HttpServerProfileFormatWildfireParams {
   /**
   * Parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#value HttpServerProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#value HttpServerProfile#value}
   */
   readonly value?: string;
 }
@@ -9528,19 +9534,19 @@ export interface HttpServerProfileFormatWildfire {
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#headers HttpServerProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#headers HttpServerProfile#headers}
   */
   readonly headers?: HttpServerProfileFormatWildfireHeaders[] | cdktf.IResolvable;
   /**
   * The name of the payload format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * Params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#params HttpServerProfile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#params HttpServerProfile#params}
   */
   readonly params?: HttpServerProfileFormatWildfireParams[] | cdktf.IResolvable;
   /**
@@ -9577,13 +9583,13 @@ export interface HttpServerProfileFormatWildfire {
   * * `after-change-detail`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#payload HttpServerProfile#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#payload HttpServerProfile#payload}
   */
   readonly payload?: string;
   /**
   * The URL path of the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url_format HttpServerProfile#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -9795,103 +9801,103 @@ export interface HttpServerProfileFormat {
   /**
   * Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#auth HttpServerProfile#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#auth HttpServerProfile#auth}
   */
   readonly auth?: HttpServerProfileFormatAuth;
   /**
   * Config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#config HttpServerProfile#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#config HttpServerProfile#config}
   */
   readonly config?: HttpServerProfileFormatConfig;
   /**
   * Correlation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#correlation HttpServerProfile#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#correlation HttpServerProfile#correlation}
   */
   readonly correlation?: HttpServerProfileFormatCorrelation;
   /**
   * Data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#data HttpServerProfile#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#data HttpServerProfile#data}
   */
   readonly data?: HttpServerProfileFormatData;
   /**
   * Decryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#decryption HttpServerProfile#decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#decryption HttpServerProfile#decryption}
   */
   readonly decryption?: HttpServerProfileFormatDecryption;
   /**
   * Globalprotect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#globalprotect HttpServerProfile#globalprotect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#globalprotect HttpServerProfile#globalprotect}
   */
   readonly globalprotect?: HttpServerProfileFormatGlobalprotect;
   /**
   * Gtp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#gtp HttpServerProfile#gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#gtp HttpServerProfile#gtp}
   */
   readonly gtp?: HttpServerProfileFormatGtp;
   /**
   * Hip match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#hip_match HttpServerProfile#hip_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#hip_match HttpServerProfile#hip_match}
   */
   readonly hipMatch?: HttpServerProfileFormatHipMatch;
   /**
   * Iptag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#iptag HttpServerProfile#iptag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#iptag HttpServerProfile#iptag}
   */
   readonly iptag?: HttpServerProfileFormatIptag;
   /**
   * Sctp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#sctp HttpServerProfile#sctp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#sctp HttpServerProfile#sctp}
   */
   readonly sctp?: HttpServerProfileFormatSctp;
   /**
   * System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#system HttpServerProfile#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#system HttpServerProfile#system}
   */
   readonly systemAttribute?: HttpServerProfileFormatSystem;
   /**
   * Threat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#threat HttpServerProfile#threat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#threat HttpServerProfile#threat}
   */
   readonly threat?: HttpServerProfileFormatThreat;
   /**
   * Traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#traffic HttpServerProfile#traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#traffic HttpServerProfile#traffic}
   */
   readonly traffic?: HttpServerProfileFormatTraffic;
   /**
   * Tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#tunnel HttpServerProfile#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#tunnel HttpServerProfile#tunnel}
   */
   readonly tunnel?: HttpServerProfileFormatTunnel;
   /**
   * Url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#url HttpServerProfile#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#url HttpServerProfile#url}
   */
   readonly url?: HttpServerProfileFormatUrl;
   /**
   * Userid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#userid HttpServerProfile#userid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#userid HttpServerProfile#userid}
   */
   readonly userid?: HttpServerProfileFormatUserid;
   /**
   * Wildfire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#wildfire HttpServerProfile#wildfire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#wildfire HttpServerProfile#wildfire}
   */
   readonly wildfire?: HttpServerProfileFormatWildfire;
 }
@@ -10451,43 +10457,43 @@ export interface HttpServerProfileServer {
   /**
   * HTTP server address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#address HttpServerProfile#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#address HttpServerProfile#address}
   */
   readonly address?: string;
   /**
   * HTTP server certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#certificate_profile HttpServerProfile#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#certificate_profile HttpServerProfile#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
   * HTTP operation to perform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#http_method HttpServerProfile#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#http_method HttpServerProfile#http_method}
   */
   readonly httpMethod?: string;
   /**
   * HTTP server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#name HttpServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#name HttpServerProfile#name}
   */
   readonly name?: string;
   /**
   * HTTP server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#port HttpServerProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#port HttpServerProfile#port}
   */
   readonly port?: number;
   /**
   * HTTP server protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#protocol HttpServerProfile#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#protocol HttpServerProfile#protocol}
   */
   readonly protocol?: string;
   /**
   * HTTP server TLS version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#tls_version HttpServerProfile#tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#tls_version HttpServerProfile#tls_version}
   */
   readonly tlsVersion?: string;
 }
@@ -10777,7 +10783,7 @@ export class HttpServerProfileServerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile scm_http_server_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile scm_http_server_profile}
 */
 export class HttpServerProfile extends cdktf.TerraformResource {
 
@@ -10793,7 +10799,7 @@ export class HttpServerProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HttpServerProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HttpServerProfile to import
-  * @param importFromId The id of the existing HttpServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HttpServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HttpServerProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10805,7 +10811,7 @@ export class HttpServerProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_server_profile scm_http_server_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/http_server_profile scm_http_server_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10816,8 +10822,8 @@ export class HttpServerProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_http_server_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

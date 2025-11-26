@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/azure_integration
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/azure_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSpaceliftAzureIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/azure_integration#id DataSpaceliftAzureIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/azure_integration#id DataSpaceliftAzureIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataSpaceliftAzureIntegrationConfig extends cdktf.TerraformMeta
   /**
   * Immutable ID of the integration. Either `integration_id` or `name` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/azure_integration#integration_id DataSpaceliftAzureIntegration#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/azure_integration#integration_id DataSpaceliftAzureIntegration#integration_id}
   */
   readonly integrationId?: string;
   /**
   * The friendly name of the integration. Either `integration_id` or `name` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/azure_integration#name DataSpaceliftAzureIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/azure_integration#name DataSpaceliftAzureIntegration#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/azure_integration spacelift_azure_integration}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/azure_integration spacelift_azure_integration}
 */
 export class DataSpaceliftAzureIntegration extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataSpaceliftAzureIntegration extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpaceliftAzureIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpaceliftAzureIntegration to import
-  * @param importFromId The id of the existing DataSpaceliftAzureIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/azure_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpaceliftAzureIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/azure_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpaceliftAzureIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataSpaceliftAzureIntegration extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/azure_integration spacelift_azure_integration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/azure_integration spacelift_azure_integration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataSpaceliftAzureIntegration extends cdktf.TerraformDataSource {
       terraformResourceType: 'spacelift_azure_integration',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.39.0',
-        providerVersionConstraint: '1.39.0'
+        providerVersion: '1.40.0',
+        providerVersionConstraint: '1.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

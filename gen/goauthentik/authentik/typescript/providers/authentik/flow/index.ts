@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,25 +17,25 @@ export interface FlowConfig extends cdktf.TerraformMetaArguments {
   *   - `require_outpost`
   *  Defaults to `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow#authentication Flow#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow#authentication Flow#authentication}
   */
   readonly authentication?: string;
   /**
   * Optional URL to an image which will be used as the background during the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow#background Flow#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow#background Flow#background}
   */
   readonly background?: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow#compatibility_mode Flow#compatibility_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow#compatibility_mode Flow#compatibility_mode}
   */
   readonly compatibilityMode?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `message_continue`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow#denied_action Flow#denied_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow#denied_action Flow#denied_action}
   */
   readonly deniedAction?: string;
   /**
@@ -48,11 +48,11 @@ export interface FlowConfig extends cdktf.TerraformMetaArguments {
   *   - `recovery`
   *   - `stage_configuration`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow#designation Flow#designation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow#designation Flow#designation}
   */
   readonly designation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow#id Flow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow#id Flow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,11 +67,11 @@ export interface FlowConfig extends cdktf.TerraformMetaArguments {
   *   - `sidebar_right`
   *  Defaults to `stacked`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow#layout Flow#layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow#layout Flow#layout}
   */
   readonly layout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow#name Flow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow#name Flow#name}
   */
   readonly name: string;
   /**
@@ -80,21 +80,21 @@ export interface FlowConfig extends cdktf.TerraformMetaArguments {
   *   - `any`
   *  Defaults to `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow#policy_engine_mode Flow#policy_engine_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow#policy_engine_mode Flow#policy_engine_mode}
   */
   readonly policyEngineMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow#slug Flow#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow#slug Flow#slug}
   */
   readonly slug: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow#title Flow#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow#title Flow#title}
   */
   readonly title: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow authentik_flow}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow authentik_flow}
 */
 export class Flow extends cdktf.TerraformResource {
 
@@ -110,7 +110,7 @@ export class Flow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Flow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Flow to import
-  * @param importFromId The id of the existing Flow that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Flow that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Flow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class Flow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/flow authentik_flow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/flow authentik_flow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class Flow extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_flow',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `grafana_organization`
 
-Refer to the Terraform Registry for docs: [`grafana_organization`](https://registry.terraform.io/providers/grafana/grafana/4.18.0/docs/resources/organization).
+Refer to the Terraform Registry for docs: [`grafana_organization`](https://registry.terraform.io/providers/grafana/grafana/4.20.0/docs/resources/organization).

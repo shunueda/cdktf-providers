@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/remote_networks
+// https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/remote_networks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataTwingateRemoteNetworksConfig extends cdktf.TerraformMetaArg
   /**
   * Returns only remote networks that exactly match this name. If no options are passed it will return all remote networks. Only one option can be used at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/remote_networks#name DataTwingateRemoteNetworks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/remote_networks#name DataTwingateRemoteNetworks#name}
   */
   readonly name?: string;
   /**
   * Match when the value exist in the name of the remote network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/remote_networks#name_contains DataTwingateRemoteNetworks#name_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/remote_networks#name_contains DataTwingateRemoteNetworks#name_contains}
   */
   readonly nameContains?: string;
   /**
   * Match when the exact value does not exist in the name of the remote network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/remote_networks#name_exclude DataTwingateRemoteNetworks#name_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/remote_networks#name_exclude DataTwingateRemoteNetworks#name_exclude}
   */
   readonly nameExclude?: string;
   /**
   * The name of the remote network must start with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/remote_networks#name_prefix DataTwingateRemoteNetworks#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/remote_networks#name_prefix DataTwingateRemoteNetworks#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * The regular expression match of the name of the remote network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/remote_networks#name_regexp DataTwingateRemoteNetworks#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/remote_networks#name_regexp DataTwingateRemoteNetworks#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * The name of the remote network must end with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/remote_networks#name_suffix DataTwingateRemoteNetworks#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/remote_networks#name_suffix DataTwingateRemoteNetworks#name_suffix}
   */
   readonly nameSuffix?: string;
 }
@@ -48,7 +48,7 @@ export interface DataTwingateRemoteNetworksRemoteNetworks {
   /**
   * The name of the Remote Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/remote_networks#name DataTwingateRemoteNetworks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/remote_networks#name DataTwingateRemoteNetworks#name}
   */
   readonly name?: string;
 }
@@ -169,7 +169,7 @@ export class DataTwingateRemoteNetworksRemoteNetworksList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/remote_networks twingate_remote_networks}
+* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/remote_networks twingate_remote_networks}
 */
 export class DataTwingateRemoteNetworks extends cdktf.TerraformDataSource {
 
@@ -185,7 +185,7 @@ export class DataTwingateRemoteNetworks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwingateRemoteNetworks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwingateRemoteNetworks to import
-  * @param importFromId The id of the existing DataTwingateRemoteNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/remote_networks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwingateRemoteNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/remote_networks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwingateRemoteNetworks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class DataTwingateRemoteNetworks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/remote_networks twingate_remote_networks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/remote_networks twingate_remote_networks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class DataTwingateRemoteNetworks extends cdktf.TerraformDataSource {
       terraformResourceType: 'twingate_remote_networks',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0',
-        providerVersionConstraint: '3.5.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

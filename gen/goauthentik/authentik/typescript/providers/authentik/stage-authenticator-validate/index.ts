@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_validate
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_validate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface StageAuthenticatorValidateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_validate#configuration_stages StageAuthenticatorValidate#configuration_stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_validate#configuration_stages StageAuthenticatorValidate#configuration_stages}
   */
   readonly configurationStages?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_validate#device_classes StageAuthenticatorValidate#device_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_validate#device_classes StageAuthenticatorValidate#device_classes}
   */
   readonly deviceClasses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_validate#id StageAuthenticatorValidate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_validate#id StageAuthenticatorValidate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,11 +25,11 @@ export interface StageAuthenticatorValidateConfig extends cdktf.TerraformMetaArg
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `seconds=0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_validate#last_auth_threshold StageAuthenticatorValidate#last_auth_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_validate#last_auth_threshold StageAuthenticatorValidate#last_auth_threshold}
   */
   readonly lastAuthThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_validate#name StageAuthenticatorValidate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_validate#name StageAuthenticatorValidate#name}
   */
   readonly name: string;
   /**
@@ -38,11 +38,11 @@ export interface StageAuthenticatorValidateConfig extends cdktf.TerraformMetaArg
   *   - `deny`
   *   - `configure`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_validate#not_configured_action StageAuthenticatorValidate#not_configured_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_validate#not_configured_action StageAuthenticatorValidate#not_configured_action}
   */
   readonly notConfiguredAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_validate#webauthn_allowed_device_types StageAuthenticatorValidate#webauthn_allowed_device_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_validate#webauthn_allowed_device_types StageAuthenticatorValidate#webauthn_allowed_device_types}
   */
   readonly webauthnAllowedDeviceTypes?: string[];
   /**
@@ -52,13 +52,13 @@ export interface StageAuthenticatorValidateConfig extends cdktf.TerraformMetaArg
   *   - `discouraged`
   *  Defaults to `preferred`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_validate#webauthn_user_verification StageAuthenticatorValidate#webauthn_user_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_validate#webauthn_user_verification StageAuthenticatorValidate#webauthn_user_verification}
   */
   readonly webauthnUserVerification?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_validate authentik_stage_authenticator_validate}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_validate authentik_stage_authenticator_validate}
 */
 export class StageAuthenticatorValidate extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class StageAuthenticatorValidate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StageAuthenticatorValidate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StageAuthenticatorValidate to import
-  * @param importFromId The id of the existing StageAuthenticatorValidate that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_validate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StageAuthenticatorValidate that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_validate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StageAuthenticatorValidate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class StageAuthenticatorValidate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_authenticator_validate authentik_stage_authenticator_validate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_authenticator_validate authentik_stage_authenticator_validate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class StageAuthenticatorValidate extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_stage_authenticator_validate',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

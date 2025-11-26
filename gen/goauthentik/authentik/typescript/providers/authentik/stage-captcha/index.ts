@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface StageCaptchaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `https://www.recaptcha.net/recaptcha/api/siteverify`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha#api_url StageCaptcha#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha#api_url StageCaptcha#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha#error_on_invalid_score StageCaptcha#error_on_invalid_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha#error_on_invalid_score StageCaptcha#error_on_invalid_score}
   */
   readonly errorOnInvalidScore?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha#id StageCaptcha#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha#id StageCaptcha#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface StageCaptchaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha#interactive StageCaptcha#interactive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha#interactive StageCaptcha#interactive}
   */
   readonly interactive?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `https://www.recaptcha.net/recaptcha/api.js`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha#js_url StageCaptcha#js_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha#js_url StageCaptcha#js_url}
   */
   readonly jsUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha#name StageCaptcha#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha#name StageCaptcha#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha#private_key StageCaptcha#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha#private_key StageCaptcha#private_key}
   */
   readonly privateKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha#public_key StageCaptcha#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha#public_key StageCaptcha#public_key}
   */
   readonly publicKey: string;
   /**
   * Defaults to `0.5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha#score_max_threshold StageCaptcha#score_max_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha#score_max_threshold StageCaptcha#score_max_threshold}
   */
   readonly scoreMaxThreshold?: number;
   /**
   * Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha#score_min_threshold StageCaptcha#score_min_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha#score_min_threshold StageCaptcha#score_min_threshold}
   */
   readonly scoreMinThreshold?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha authentik_stage_captcha}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha authentik_stage_captcha}
 */
 export class StageCaptcha extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class StageCaptcha extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StageCaptcha resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StageCaptcha to import
-  * @param importFromId The id of the existing StageCaptcha that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StageCaptcha that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StageCaptcha to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class StageCaptcha extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_captcha authentik_stage_captcha} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_captcha authentik_stage_captcha} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class StageCaptcha extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_stage_captcha',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

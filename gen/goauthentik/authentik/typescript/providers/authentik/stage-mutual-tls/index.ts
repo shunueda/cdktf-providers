@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_mutual_tls
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_mutual_tls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -14,15 +14,15 @@ export interface StageMutualTlsConfig extends cdktf.TerraformMetaArguments {
   *   - `email`
   *  Defaults to `email`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_mutual_tls#cert_attribute StageMutualTls#cert_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_mutual_tls#cert_attribute StageMutualTls#cert_attribute}
   */
   readonly certAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_mutual_tls#certificate_authorities StageMutualTls#certificate_authorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_mutual_tls#certificate_authorities StageMutualTls#certificate_authorities}
   */
   readonly certificateAuthorities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_mutual_tls#id StageMutualTls#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_mutual_tls#id StageMutualTls#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,11 +34,11 @@ export interface StageMutualTlsConfig extends cdktf.TerraformMetaArguments {
   *   - `required`
   *  Defaults to `optional`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_mutual_tls#mode StageMutualTls#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_mutual_tls#mode StageMutualTls#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_mutual_tls#name StageMutualTls#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_mutual_tls#name StageMutualTls#name}
   */
   readonly name: string;
   /**
@@ -47,13 +47,13 @@ export interface StageMutualTlsConfig extends cdktf.TerraformMetaArguments {
   *   - `email`
   *  Defaults to `email`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_mutual_tls#user_attribute StageMutualTls#user_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_mutual_tls#user_attribute StageMutualTls#user_attribute}
   */
   readonly userAttribute?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_mutual_tls authentik_stage_mutual_tls}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_mutual_tls authentik_stage_mutual_tls}
 */
 export class StageMutualTls extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class StageMutualTls extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StageMutualTls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StageMutualTls to import
-  * @param importFromId The id of the existing StageMutualTls that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_mutual_tls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StageMutualTls that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_mutual_tls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StageMutualTls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class StageMutualTls extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/stage_mutual_tls authentik_stage_mutual_tls} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/stage_mutual_tls authentik_stage_mutual_tls} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class StageMutualTls extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_stage_mutual_tls',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

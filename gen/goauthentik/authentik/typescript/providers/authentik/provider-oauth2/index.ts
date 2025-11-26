@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ProviderOauth2Config extends cdktf.TerraformMetaArguments {
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `minutes=1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#access_code_validity ProviderOauth2#access_code_validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#access_code_validity ProviderOauth2#access_code_validity}
   */
   readonly accessCodeValidity?: string;
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `minutes=10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#access_token_validity ProviderOauth2#access_token_validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#access_token_validity ProviderOauth2#access_token_validity}
   */
   readonly accessTokenValidity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#allowed_redirect_uris ProviderOauth2#allowed_redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#allowed_redirect_uris ProviderOauth2#allowed_redirect_uris}
   */
   readonly allowedRedirectUris?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#authentication_flow ProviderOauth2#authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#authentication_flow ProviderOauth2#authentication_flow}
   */
   readonly authenticationFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#authorization_flow ProviderOauth2#authorization_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#authorization_flow ProviderOauth2#authorization_flow}
   */
   readonly authorizationFlow: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#client_id ProviderOauth2#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#client_id ProviderOauth2#client_id}
   */
   readonly clientId: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#client_secret ProviderOauth2#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#client_secret ProviderOauth2#client_secret}
   */
   readonly clientSecret?: string;
   /**
@@ -47,15 +47,15 @@ export interface ProviderOauth2Config extends cdktf.TerraformMetaArguments {
   *   - `public`
   *  Defaults to `confidential`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#client_type ProviderOauth2#client_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#client_type ProviderOauth2#client_type}
   */
   readonly clientType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#encryption_key ProviderOauth2#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#encryption_key ProviderOauth2#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#id ProviderOauth2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#id ProviderOauth2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,11 +64,11 @@ export interface ProviderOauth2Config extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#include_claims_in_id_token ProviderOauth2#include_claims_in_id_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#include_claims_in_id_token ProviderOauth2#include_claims_in_id_token}
   */
   readonly includeClaimsInIdToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#invalidation_flow ProviderOauth2#invalidation_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#invalidation_flow ProviderOauth2#invalidation_flow}
   */
   readonly invalidationFlow: string;
   /**
@@ -77,25 +77,25 @@ export interface ProviderOauth2Config extends cdktf.TerraformMetaArguments {
   *   - `per_provider`
   *  Defaults to `per_provider`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#issuer_mode ProviderOauth2#issuer_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#issuer_mode ProviderOauth2#issuer_mode}
   */
   readonly issuerMode?: string;
   /**
   * Deprecated. Use `jwt_federation_sources` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#jwks_sources ProviderOauth2#jwks_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#jwks_sources ProviderOauth2#jwks_sources}
   */
   readonly jwksSources?: string[];
   /**
   * JWTs issued by any of the configured providers can be used to authenticate on behalf of this provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#jwt_federation_providers ProviderOauth2#jwt_federation_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#jwt_federation_providers ProviderOauth2#jwt_federation_providers}
   */
   readonly jwtFederationProviders?: number[];
   /**
   * JWTs issued by keys configured in any of the selected sources can be used to authenticate on behalf of this provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#jwt_federation_sources ProviderOauth2#jwt_federation_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#jwt_federation_sources ProviderOauth2#jwt_federation_sources}
   */
   readonly jwtFederationSources?: string[];
   /**
@@ -104,35 +104,35 @@ export interface ProviderOauth2Config extends cdktf.TerraformMetaArguments {
   *   - `frontchannel`
   *  Defaults to `backchannel`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#logout_method ProviderOauth2#logout_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#logout_method ProviderOauth2#logout_method}
   */
   readonly logoutMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#logout_uri ProviderOauth2#logout_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#logout_uri ProviderOauth2#logout_uri}
   */
   readonly logoutUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#name ProviderOauth2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#name ProviderOauth2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#property_mappings ProviderOauth2#property_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#property_mappings ProviderOauth2#property_mappings}
   */
   readonly propertyMappings?: string[];
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `seconds=0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#refresh_token_threshold ProviderOauth2#refresh_token_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#refresh_token_threshold ProviderOauth2#refresh_token_threshold}
   */
   readonly refreshTokenThreshold?: string;
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `days=30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#refresh_token_validity ProviderOauth2#refresh_token_validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#refresh_token_validity ProviderOauth2#refresh_token_validity}
   */
   readonly refreshTokenValidity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#signing_key ProviderOauth2#signing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#signing_key ProviderOauth2#signing_key}
   */
   readonly signingKey?: string;
   /**
@@ -145,13 +145,13 @@ export interface ProviderOauth2Config extends cdktf.TerraformMetaArguments {
   *   - `user_upn`
   *  Defaults to `hashed_user_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#sub_mode ProviderOauth2#sub_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#sub_mode ProviderOauth2#sub_mode}
   */
   readonly subMode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2 authentik_provider_oauth2}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2 authentik_provider_oauth2}
 */
 export class ProviderOauth2 extends cdktf.TerraformResource {
 
@@ -167,7 +167,7 @@ export class ProviderOauth2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProviderOauth2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProviderOauth2 to import
-  * @param importFromId The id of the existing ProviderOauth2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProviderOauth2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProviderOauth2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class ProviderOauth2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_oauth2 authentik_provider_oauth2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_oauth2 authentik_provider_oauth2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class ProviderOauth2 extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_provider_oauth2',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

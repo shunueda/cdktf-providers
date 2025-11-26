@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2
+// https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface Loadbalancerv2Config extends cdktf.TerraformMetaArguments {
   /**
   * Desired flavor to be used for load balancer. By default, `lb1-1-2` will be used. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#flavor Loadbalancerv2#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#flavor Loadbalancerv2#flavor}
   */
   readonly flavor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#id Loadbalancerv2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#id Loadbalancerv2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,73 +23,73 @@ export interface Loadbalancerv2Config extends cdktf.TerraformMetaArguments {
   /**
   * Metadata map to apply to the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#metadata_map Loadbalancerv2#metadata_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#metadata_map Loadbalancerv2#metadata_map}
   */
   readonly metadataMap?: { [key: string]: string };
   /**
   * Name of the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#name Loadbalancerv2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#name Loadbalancerv2#name}
   */
   readonly name: string;
   /**
   * Available values are 'L2', 'L3'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#preferred_connectivity Loadbalancerv2#preferred_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#preferred_connectivity Loadbalancerv2#preferred_connectivity}
   */
   readonly preferredConnectivity?: string;
   /**
   * ID of the desired project to create load balancer in. Alternative for `project_name`. One of them should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#project_id Loadbalancerv2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#project_id Loadbalancerv2#project_id}
   */
   readonly projectId?: number;
   /**
   * Name of the desired project to create load balancer in. Alternative for `project_id`. One of them should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#project_name Loadbalancerv2#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#project_name Loadbalancerv2#project_name}
   */
   readonly projectName?: string;
   /**
   * ID of the desired region to create load balancer in. Alternative for `region_name`. One of them should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#region_id Loadbalancerv2#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#region_id Loadbalancerv2#region_id}
   */
   readonly regionId?: number;
   /**
   * Name of the desired region to create load balancer in. Alternative for `region_id`. One of them should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#region_name Loadbalancerv2#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#region_name Loadbalancerv2#region_name}
   */
   readonly regionName?: string;
   /**
   * Available values are 'ipv4', 'ipv6', 'dual'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#vip_ip_family Loadbalancerv2#vip_ip_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#vip_ip_family Loadbalancerv2#vip_ip_family}
   */
   readonly vipIpFamily?: string;
   /**
   * ID of the desired network. Can be used with vip_subnet_id, in this case Load Balancer will be created in specified subnet, otherwise in most free subnet. Note: add all created `gcore_subnet` resources within the network with this id to the `depends_on` to be sure that `gcore_loadbalancerv2` will be destroyed first
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#vip_network_id Loadbalancerv2#vip_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#vip_network_id Loadbalancerv2#vip_network_id}
   */
   readonly vipNetworkId?: string;
   /**
   * Load balancer Port ID. It might be ID of the already created Reserved Fixed IP, otherwise we will create port automatically in specified `vip_network_id`/`vip_subnet_id`. It is an alternative for specifying `vip_network_id`/`vip_subnet_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#vip_port_id Loadbalancerv2#vip_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#vip_port_id Loadbalancerv2#vip_port_id}
   */
   readonly vipPortId?: string;
   /**
   * ID of the desired subnet. Should be used together with vip_network_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#vip_subnet_id Loadbalancerv2#vip_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#vip_subnet_id Loadbalancerv2#vip_subnet_id}
   */
   readonly vipSubnetId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#timeouts Loadbalancerv2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#timeouts Loadbalancerv2#timeouts}
   */
   readonly timeouts?: Loadbalancerv2Timeouts;
 }
@@ -340,15 +340,15 @@ export class Loadbalancerv2VrrpIpsList extends cdktf.ComplexList {
 }
 export interface Loadbalancerv2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#create Loadbalancerv2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#create Loadbalancerv2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#delete Loadbalancerv2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#delete Loadbalancerv2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#update Loadbalancerv2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#update Loadbalancerv2#update}
   */
   readonly update?: string;
 }
@@ -500,7 +500,7 @@ export class Loadbalancerv2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2 gcore_loadbalancerv2}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2 gcore_loadbalancerv2}
 */
 export class Loadbalancerv2 extends cdktf.TerraformResource {
 
@@ -516,7 +516,7 @@ export class Loadbalancerv2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Loadbalancerv2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Loadbalancerv2 to import
-  * @param importFromId The id of the existing Loadbalancerv2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Loadbalancerv2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Loadbalancerv2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -528,7 +528,7 @@ export class Loadbalancerv2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/loadbalancerv2 gcore_loadbalancerv2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/loadbalancerv2 gcore_loadbalancerv2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -539,8 +539,8 @@ export class Loadbalancerv2 extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_loadbalancerv2',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.0',
-        providerVersionConstraint: '0.32.0'
+        providerVersion: '0.32.1',
+        providerVersionConstraint: '0.32.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

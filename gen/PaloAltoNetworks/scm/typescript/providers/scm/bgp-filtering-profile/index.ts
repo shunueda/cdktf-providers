@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,62 @@ export interface BgpFilteringProfileConfig extends cdktf.TerraformMetaArguments 
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#description BgpFilteringProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#description BgpFilteringProfile#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#device BgpFilteringProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#device BgpFilteringProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#folder BgpFilteringProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#folder BgpFilteringProfile#folder}
   */
   readonly folder?: string;
   /**
   * Ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#ipv4 BgpFilteringProfile#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#ipv4 BgpFilteringProfile#ipv4}
   */
   readonly ipv4?: BgpFilteringProfileIpv4;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#name BgpFilteringProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#name BgpFilteringProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#snippet BgpFilteringProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#snippet BgpFilteringProfile#snippet}
   */
   readonly snippet?: string;
 }
-export interface BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist {
+export interface BgpFilteringProfileIpv4MulticastConditionalAdvertisementExist {
   /**
   * Advertise map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
   */
   readonly advertiseMap?: string;
   /**
   * Exist map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#exist_map BgpFilteringProfile#exist_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#exist_map BgpFilteringProfile#exist_map}
   */
   readonly existMap?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistToTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastConditionalAdvertisementExistToTerraform(struct?: BgpFilteringProfileIpv4MulticastConditionalAdvertisementExist | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -71,7 +77,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExis
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastConditionalAdvertisementExistToHclTerraform(struct?: BgpFilteringProfileIpv4MulticastConditionalAdvertisementExist | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -95,7 +101,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExis
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4MulticastConditionalAdvertisementExistOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -107,7 +113,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistOu
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4MulticastConditionalAdvertisementExist | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -124,7 +130,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistOu
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4MulticastConditionalAdvertisementExist | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -175,22 +181,22 @@ export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistOu
     return this._existMap;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist {
+export interface BgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist {
   /**
   * Advertise map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
   */
   readonly advertiseMap?: string;
   /**
   * Non exist map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#non_exist_map BgpFilteringProfile#non_exist_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#non_exist_map BgpFilteringProfile#non_exist_map}
   */
   readonly nonExistMap?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExistToTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExistToTerraform(struct?: BgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -202,7 +208,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonE
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExistToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExistToHclTerraform(struct?: BgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -226,7 +232,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonE
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExistOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExistOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -238,7 +244,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExis
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -255,7 +261,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExis
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -306,50 +312,50 @@ export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExis
     return this._nonExistMap;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement {
+export interface BgpFilteringProfileIpv4MulticastConditionalAdvertisement {
   /**
   * Exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#exist BgpFilteringProfile#exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#exist BgpFilteringProfile#exist}
   */
-  readonly exist?: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist;
+  readonly exist?: BgpFilteringProfileIpv4MulticastConditionalAdvertisementExist;
   /**
   * Non exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#non_exist BgpFilteringProfile#non_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#non_exist BgpFilteringProfile#non_exist}
   */
-  readonly nonExist?: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist;
+  readonly nonExist?: BgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist;
 }
 
-export function bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementToTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastConditionalAdvertisementToTerraform(struct?: BgpFilteringProfileIpv4MulticastConditionalAdvertisement | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    exist: bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistToTerraform(struct!.exist),
-    non_exist: bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExistToTerraform(struct!.nonExist),
+    exist: bgpFilteringProfileIpv4MulticastConditionalAdvertisementExistToTerraform(struct!.exist),
+    non_exist: bgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExistToTerraform(struct!.nonExist),
   }
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastConditionalAdvertisementToHclTerraform(struct?: BgpFilteringProfileIpv4MulticastConditionalAdvertisement | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     exist: {
-      value: bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistToHclTerraform(struct!.exist),
+      value: bgpFilteringProfileIpv4MulticastConditionalAdvertisementExistToHclTerraform(struct!.exist),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist",
+      storageClassType: "BgpFilteringProfileIpv4MulticastConditionalAdvertisementExist",
     },
     non_exist: {
-      value: bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExistToHclTerraform(struct!.nonExist),
+      value: bgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExistToHclTerraform(struct!.nonExist),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist",
+      storageClassType: "BgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist",
     },
   };
 
@@ -357,7 +363,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementToHc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4MulticastConditionalAdvertisementOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -369,7 +375,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementOutputR
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4MulticastConditionalAdvertisement | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -386,7 +392,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementOutputR
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4MulticastConditionalAdvertisement | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -406,11 +412,11 @@ export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementOutputR
   }
 
   // exist - computed: false, optional: true, required: false
-  private _exist = new BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistOutputReference(this, "exist");
+  private _exist = new BgpFilteringProfileIpv4MulticastConditionalAdvertisementExistOutputReference(this, "exist");
   public get exist() {
     return this._exist;
   }
-  public putExist(value: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist) {
+  public putExist(value: BgpFilteringProfileIpv4MulticastConditionalAdvertisementExist) {
     this._exist.internalValue = value;
   }
   public resetExist() {
@@ -422,11 +428,11 @@ export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementOutputR
   }
 
   // non_exist - computed: false, optional: true, required: false
-  private _nonExist = new BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExistOutputReference(this, "non_exist");
+  private _nonExist = new BgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExistOutputReference(this, "non_exist");
   public get nonExist() {
     return this._nonExist;
   }
-  public putNonExist(value: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist) {
+  public putNonExist(value: BgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist) {
     this._nonExist.internalValue = value;
   }
   public resetNonExist() {
@@ -437,22 +443,22 @@ export class BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementOutputR
     return this._nonExist.internalValue;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4MulticastFilterListStruct {
+export interface BgpFilteringProfileIpv4MulticastFilterListStruct {
   /**
   * Inbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
   */
   readonly inbound?: string;
   /**
   * Outbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
   */
   readonly outbound?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4MulticastFilterListStructToTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastFilterListStruct | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastFilterListStructToTerraform(struct?: BgpFilteringProfileIpv4MulticastFilterListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -464,7 +470,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastFilterListStructToTerraform(
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4MulticastFilterListStructToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastFilterListStruct | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastFilterListStructToHclTerraform(struct?: BgpFilteringProfileIpv4MulticastFilterListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -488,7 +494,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastFilterListStructToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4MulticastFilterListStructOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4MulticastFilterListStructOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -500,7 +506,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastFilterListStructOutputReference
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4MulticastFilterListStruct | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4MulticastFilterListStruct | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -517,7 +523,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastFilterListStructOutputReference
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4MulticastFilterListStruct | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4MulticastFilterListStruct | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -568,22 +574,22 @@ export class BgpFilteringProfileIpv4Ipv4MulticastFilterListStructOutputReference
     return this._outbound;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters {
+export interface BgpFilteringProfileIpv4MulticastInboundNetworkFilters {
   /**
   * Distribute list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
   */
   readonly prefixList?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersToTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastInboundNetworkFiltersToTerraform(struct?: BgpFilteringProfileIpv4MulticastInboundNetworkFilters | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -595,7 +601,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersToTerra
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastInboundNetworkFiltersToHclTerraform(struct?: BgpFilteringProfileIpv4MulticastInboundNetworkFilters | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -619,7 +625,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4MulticastInboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -631,7 +637,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersOutputRefe
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4MulticastInboundNetworkFilters | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -648,7 +654,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersOutputRefe
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4MulticastInboundNetworkFilters | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -699,22 +705,22 @@ export class BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersOutputRefe
     return this._prefixList;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters {
+export interface BgpFilteringProfileIpv4MulticastOutboundNetworkFilters {
   /**
   * Distribute list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
   */
   readonly prefixList?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersToTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastOutboundNetworkFiltersToTerraform(struct?: BgpFilteringProfileIpv4MulticastOutboundNetworkFilters | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -726,7 +732,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersToTerr
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastOutboundNetworkFiltersToHclTerraform(struct?: BgpFilteringProfileIpv4MulticastOutboundNetworkFilters | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -750,7 +756,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4MulticastOutboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -762,7 +768,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersOutputRef
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4MulticastOutboundNetworkFilters | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -779,7 +785,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersOutputRef
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4MulticastOutboundNetworkFilters | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -830,22 +836,22 @@ export class BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersOutputRef
     return this._prefixList;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4MulticastRouteMaps {
+export interface BgpFilteringProfileIpv4MulticastRouteMaps {
   /**
   * Inbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
   */
   readonly inbound?: string;
   /**
   * Outbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
   */
   readonly outbound?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4MulticastRouteMapsToTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastRouteMaps | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastRouteMapsToTerraform(struct?: BgpFilteringProfileIpv4MulticastRouteMaps | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -857,7 +863,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastRouteMapsToTerraform(struct?
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4MulticastRouteMapsToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4MulticastRouteMaps | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastRouteMapsToHclTerraform(struct?: BgpFilteringProfileIpv4MulticastRouteMaps | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -881,7 +887,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastRouteMapsToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4MulticastRouteMapsOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4MulticastRouteMapsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -893,7 +899,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastRouteMapsOutputReference extend
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4MulticastRouteMaps | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4MulticastRouteMaps | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -910,7 +916,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastRouteMapsOutputReference extend
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4MulticastRouteMaps | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4MulticastRouteMaps | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -961,91 +967,91 @@ export class BgpFilteringProfileIpv4Ipv4MulticastRouteMapsOutputReference extend
     return this._outbound;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4Multicast {
+export interface BgpFilteringProfileIpv4Multicast {
   /**
   * Conditional advertisement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#conditional_advertisement BgpFilteringProfile#conditional_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#conditional_advertisement BgpFilteringProfile#conditional_advertisement}
   */
-  readonly conditionalAdvertisement?: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement;
+  readonly conditionalAdvertisement?: BgpFilteringProfileIpv4MulticastConditionalAdvertisement;
   /**
   * Filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#filter_list BgpFilteringProfile#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#filter_list BgpFilteringProfile#filter_list}
   */
-  readonly filterList?: BgpFilteringProfileIpv4Ipv4MulticastFilterListStruct;
+  readonly filterList?: BgpFilteringProfileIpv4MulticastFilterListStruct;
   /**
   * Inbound network filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#inbound_network_filters BgpFilteringProfile#inbound_network_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inbound_network_filters BgpFilteringProfile#inbound_network_filters}
   */
-  readonly inboundNetworkFilters?: BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters;
+  readonly inboundNetworkFilters?: BgpFilteringProfileIpv4MulticastInboundNetworkFilters;
   /**
   * Inherit from unicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#inherit BgpFilteringProfile#inherit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inherit BgpFilteringProfile#inherit}
   */
   readonly inherit?: boolean | cdktf.IResolvable;
   /**
   * Outbound network filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#outbound_network_filters BgpFilteringProfile#outbound_network_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#outbound_network_filters BgpFilteringProfile#outbound_network_filters}
   */
-  readonly outboundNetworkFilters?: BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters;
+  readonly outboundNetworkFilters?: BgpFilteringProfileIpv4MulticastOutboundNetworkFilters;
   /**
   * Route maps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#route_maps BgpFilteringProfile#route_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#route_maps BgpFilteringProfile#route_maps}
   */
-  readonly routeMaps?: BgpFilteringProfileIpv4Ipv4MulticastRouteMaps;
+  readonly routeMaps?: BgpFilteringProfileIpv4MulticastRouteMaps;
   /**
   * Unsuppress map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#unsuppress_map BgpFilteringProfile#unsuppress_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#unsuppress_map BgpFilteringProfile#unsuppress_map}
   */
   readonly unsuppressMap?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4MulticastToTerraform(struct?: BgpFilteringProfileIpv4Ipv4Multicast | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastToTerraform(struct?: BgpFilteringProfileIpv4Multicast | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    conditional_advertisement: bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementToTerraform(struct!.conditionalAdvertisement),
-    filter_list: bgpFilteringProfileIpv4Ipv4MulticastFilterListStructToTerraform(struct!.filterList),
-    inbound_network_filters: bgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersToTerraform(struct!.inboundNetworkFilters),
+    conditional_advertisement: bgpFilteringProfileIpv4MulticastConditionalAdvertisementToTerraform(struct!.conditionalAdvertisement),
+    filter_list: bgpFilteringProfileIpv4MulticastFilterListStructToTerraform(struct!.filterList),
+    inbound_network_filters: bgpFilteringProfileIpv4MulticastInboundNetworkFiltersToTerraform(struct!.inboundNetworkFilters),
     inherit: cdktf.booleanToTerraform(struct!.inherit),
-    outbound_network_filters: bgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersToTerraform(struct!.outboundNetworkFilters),
-    route_maps: bgpFilteringProfileIpv4Ipv4MulticastRouteMapsToTerraform(struct!.routeMaps),
+    outbound_network_filters: bgpFilteringProfileIpv4MulticastOutboundNetworkFiltersToTerraform(struct!.outboundNetworkFilters),
+    route_maps: bgpFilteringProfileIpv4MulticastRouteMapsToTerraform(struct!.routeMaps),
     unsuppress_map: cdktf.stringToTerraform(struct!.unsuppressMap),
   }
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4MulticastToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4Multicast | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4MulticastToHclTerraform(struct?: BgpFilteringProfileIpv4Multicast | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     conditional_advertisement: {
-      value: bgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementToHclTerraform(struct!.conditionalAdvertisement),
+      value: bgpFilteringProfileIpv4MulticastConditionalAdvertisementToHclTerraform(struct!.conditionalAdvertisement),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement",
+      storageClassType: "BgpFilteringProfileIpv4MulticastConditionalAdvertisement",
     },
     filter_list: {
-      value: bgpFilteringProfileIpv4Ipv4MulticastFilterListStructToHclTerraform(struct!.filterList),
+      value: bgpFilteringProfileIpv4MulticastFilterListStructToHclTerraform(struct!.filterList),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4MulticastFilterListStruct",
+      storageClassType: "BgpFilteringProfileIpv4MulticastFilterListStruct",
     },
     inbound_network_filters: {
-      value: bgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersToHclTerraform(struct!.inboundNetworkFilters),
+      value: bgpFilteringProfileIpv4MulticastInboundNetworkFiltersToHclTerraform(struct!.inboundNetworkFilters),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters",
+      storageClassType: "BgpFilteringProfileIpv4MulticastInboundNetworkFilters",
     },
     inherit: {
       value: cdktf.booleanToHclTerraform(struct!.inherit),
@@ -1054,16 +1060,16 @@ export function bgpFilteringProfileIpv4Ipv4MulticastToHclTerraform(struct?: BgpF
       storageClassType: "boolean",
     },
     outbound_network_filters: {
-      value: bgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersToHclTerraform(struct!.outboundNetworkFilters),
+      value: bgpFilteringProfileIpv4MulticastOutboundNetworkFiltersToHclTerraform(struct!.outboundNetworkFilters),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters",
+      storageClassType: "BgpFilteringProfileIpv4MulticastOutboundNetworkFilters",
     },
     route_maps: {
-      value: bgpFilteringProfileIpv4Ipv4MulticastRouteMapsToHclTerraform(struct!.routeMaps),
+      value: bgpFilteringProfileIpv4MulticastRouteMapsToHclTerraform(struct!.routeMaps),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4MulticastRouteMaps",
+      storageClassType: "BgpFilteringProfileIpv4MulticastRouteMaps",
     },
     unsuppress_map: {
       value: cdktf.stringToHclTerraform(struct!.unsuppressMap),
@@ -1077,7 +1083,7 @@ export function bgpFilteringProfileIpv4Ipv4MulticastToHclTerraform(struct?: BgpF
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4MulticastOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4MulticastOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -1089,7 +1095,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastOutputReference extends cdktf.C
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4Multicast | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4Multicast | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1126,7 +1132,7 @@ export class BgpFilteringProfileIpv4Ipv4MulticastOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4Multicast | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4Multicast | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1156,11 +1162,11 @@ export class BgpFilteringProfileIpv4Ipv4MulticastOutputReference extends cdktf.C
   }
 
   // conditional_advertisement - computed: false, optional: true, required: false
-  private _conditionalAdvertisement = new BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementOutputReference(this, "conditional_advertisement");
+  private _conditionalAdvertisement = new BgpFilteringProfileIpv4MulticastConditionalAdvertisementOutputReference(this, "conditional_advertisement");
   public get conditionalAdvertisement() {
     return this._conditionalAdvertisement;
   }
-  public putConditionalAdvertisement(value: BgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement) {
+  public putConditionalAdvertisement(value: BgpFilteringProfileIpv4MulticastConditionalAdvertisement) {
     this._conditionalAdvertisement.internalValue = value;
   }
   public resetConditionalAdvertisement() {
@@ -1172,11 +1178,11 @@ export class BgpFilteringProfileIpv4Ipv4MulticastOutputReference extends cdktf.C
   }
 
   // filter_list - computed: false, optional: true, required: false
-  private _filterList = new BgpFilteringProfileIpv4Ipv4MulticastFilterListStructOutputReference(this, "filter_list");
+  private _filterList = new BgpFilteringProfileIpv4MulticastFilterListStructOutputReference(this, "filter_list");
   public get filterList() {
     return this._filterList;
   }
-  public putFilterList(value: BgpFilteringProfileIpv4Ipv4MulticastFilterListStruct) {
+  public putFilterList(value: BgpFilteringProfileIpv4MulticastFilterListStruct) {
     this._filterList.internalValue = value;
   }
   public resetFilterList() {
@@ -1188,11 +1194,11 @@ export class BgpFilteringProfileIpv4Ipv4MulticastOutputReference extends cdktf.C
   }
 
   // inbound_network_filters - computed: false, optional: true, required: false
-  private _inboundNetworkFilters = new BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersOutputReference(this, "inbound_network_filters");
+  private _inboundNetworkFilters = new BgpFilteringProfileIpv4MulticastInboundNetworkFiltersOutputReference(this, "inbound_network_filters");
   public get inboundNetworkFilters() {
     return this._inboundNetworkFilters;
   }
-  public putInboundNetworkFilters(value: BgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters) {
+  public putInboundNetworkFilters(value: BgpFilteringProfileIpv4MulticastInboundNetworkFilters) {
     this._inboundNetworkFilters.internalValue = value;
   }
   public resetInboundNetworkFilters() {
@@ -1220,11 +1226,11 @@ export class BgpFilteringProfileIpv4Ipv4MulticastOutputReference extends cdktf.C
   }
 
   // outbound_network_filters - computed: false, optional: true, required: false
-  private _outboundNetworkFilters = new BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersOutputReference(this, "outbound_network_filters");
+  private _outboundNetworkFilters = new BgpFilteringProfileIpv4MulticastOutboundNetworkFiltersOutputReference(this, "outbound_network_filters");
   public get outboundNetworkFilters() {
     return this._outboundNetworkFilters;
   }
-  public putOutboundNetworkFilters(value: BgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters) {
+  public putOutboundNetworkFilters(value: BgpFilteringProfileIpv4MulticastOutboundNetworkFilters) {
     this._outboundNetworkFilters.internalValue = value;
   }
   public resetOutboundNetworkFilters() {
@@ -1236,11 +1242,11 @@ export class BgpFilteringProfileIpv4Ipv4MulticastOutputReference extends cdktf.C
   }
 
   // route_maps - computed: false, optional: true, required: false
-  private _routeMaps = new BgpFilteringProfileIpv4Ipv4MulticastRouteMapsOutputReference(this, "route_maps");
+  private _routeMaps = new BgpFilteringProfileIpv4MulticastRouteMapsOutputReference(this, "route_maps");
   public get routeMaps() {
     return this._routeMaps;
   }
-  public putRouteMaps(value: BgpFilteringProfileIpv4Ipv4MulticastRouteMaps) {
+  public putRouteMaps(value: BgpFilteringProfileIpv4MulticastRouteMaps) {
     this._routeMaps.internalValue = value;
   }
   public resetRouteMaps() {
@@ -1267,22 +1273,22 @@ export class BgpFilteringProfileIpv4Ipv4MulticastOutputReference extends cdktf.C
     return this._unsuppressMap;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist {
+export interface BgpFilteringProfileIpv4UnicastConditionalAdvertisementExist {
   /**
   * Advertise map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
   */
   readonly advertiseMap?: string;
   /**
   * Exist map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#exist_map BgpFilteringProfile#exist_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#exist_map BgpFilteringProfile#exist_map}
   */
   readonly existMap?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistToTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastConditionalAdvertisementExistToTerraform(struct?: BgpFilteringProfileIpv4UnicastConditionalAdvertisementExist | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1294,7 +1300,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistT
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastConditionalAdvertisementExistToHclTerraform(struct?: BgpFilteringProfileIpv4UnicastConditionalAdvertisementExist | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1318,7 +1324,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4UnicastConditionalAdvertisementExistOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -1330,7 +1336,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistOutp
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4UnicastConditionalAdvertisementExist | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1347,7 +1353,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistOutp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4UnicastConditionalAdvertisementExist | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1398,22 +1404,22 @@ export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistOutp
     return this._existMap;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist {
+export interface BgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist {
   /**
   * Advertise map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
   */
   readonly advertiseMap?: string;
   /**
   * Non exist map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#non_exist_map BgpFilteringProfile#non_exist_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#non_exist_map BgpFilteringProfile#non_exist_map}
   */
   readonly nonExistMap?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistToTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExistToTerraform(struct?: BgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1425,7 +1431,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExi
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExistToHclTerraform(struct?: BgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1449,7 +1455,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExistOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -1461,7 +1467,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistO
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1478,7 +1484,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1529,50 +1535,50 @@ export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistO
     return this._nonExistMap;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement {
+export interface BgpFilteringProfileIpv4UnicastConditionalAdvertisement {
   /**
   * Exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#exist BgpFilteringProfile#exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#exist BgpFilteringProfile#exist}
   */
-  readonly exist?: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist;
+  readonly exist?: BgpFilteringProfileIpv4UnicastConditionalAdvertisementExist;
   /**
   * Non exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#non_exist BgpFilteringProfile#non_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#non_exist BgpFilteringProfile#non_exist}
   */
-  readonly nonExist?: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist;
+  readonly nonExist?: BgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist;
 }
 
-export function bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementToTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastConditionalAdvertisementToTerraform(struct?: BgpFilteringProfileIpv4UnicastConditionalAdvertisement | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    exist: bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistToTerraform(struct!.exist),
-    non_exist: bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistToTerraform(struct!.nonExist),
+    exist: bgpFilteringProfileIpv4UnicastConditionalAdvertisementExistToTerraform(struct!.exist),
+    non_exist: bgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExistToTerraform(struct!.nonExist),
   }
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastConditionalAdvertisementToHclTerraform(struct?: BgpFilteringProfileIpv4UnicastConditionalAdvertisement | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     exist: {
-      value: bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistToHclTerraform(struct!.exist),
+      value: bgpFilteringProfileIpv4UnicastConditionalAdvertisementExistToHclTerraform(struct!.exist),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist",
+      storageClassType: "BgpFilteringProfileIpv4UnicastConditionalAdvertisementExist",
     },
     non_exist: {
-      value: bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistToHclTerraform(struct!.nonExist),
+      value: bgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExistToHclTerraform(struct!.nonExist),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist",
+      storageClassType: "BgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist",
     },
   };
 
@@ -1580,7 +1586,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4UnicastConditionalAdvertisementOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -1592,7 +1598,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementOutputRef
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4UnicastConditionalAdvertisement | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1609,7 +1615,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementOutputRef
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4UnicastConditionalAdvertisement | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1629,11 +1635,11 @@ export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementOutputRef
   }
 
   // exist - computed: false, optional: true, required: false
-  private _exist = new BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistOutputReference(this, "exist");
+  private _exist = new BgpFilteringProfileIpv4UnicastConditionalAdvertisementExistOutputReference(this, "exist");
   public get exist() {
     return this._exist;
   }
-  public putExist(value: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist) {
+  public putExist(value: BgpFilteringProfileIpv4UnicastConditionalAdvertisementExist) {
     this._exist.internalValue = value;
   }
   public resetExist() {
@@ -1645,11 +1651,11 @@ export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementOutputRef
   }
 
   // non_exist - computed: false, optional: true, required: false
-  private _nonExist = new BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistOutputReference(this, "non_exist");
+  private _nonExist = new BgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExistOutputReference(this, "non_exist");
   public get nonExist() {
     return this._nonExist;
   }
-  public putNonExist(value: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist) {
+  public putNonExist(value: BgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist) {
     this._nonExist.internalValue = value;
   }
   public resetNonExist() {
@@ -1660,22 +1666,22 @@ export class BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementOutputRef
     return this._nonExist.internalValue;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4UnicastFilterListStruct {
+export interface BgpFilteringProfileIpv4UnicastFilterListStruct {
   /**
   * Inbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
   */
   readonly inbound?: string;
   /**
   * Outbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
   */
   readonly outbound?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4UnicastFilterListStructToTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastFilterListStruct | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastFilterListStructToTerraform(struct?: BgpFilteringProfileIpv4UnicastFilterListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1687,7 +1693,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastFilterListStructToTerraform(st
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4UnicastFilterListStructToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastFilterListStruct | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastFilterListStructToHclTerraform(struct?: BgpFilteringProfileIpv4UnicastFilterListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1711,7 +1717,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastFilterListStructToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4UnicastFilterListStructOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4UnicastFilterListStructOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -1723,7 +1729,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastFilterListStructOutputReference e
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4UnicastFilterListStruct | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4UnicastFilterListStruct | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1740,7 +1746,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastFilterListStructOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4UnicastFilterListStruct | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4UnicastFilterListStruct | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1791,22 +1797,22 @@ export class BgpFilteringProfileIpv4Ipv4UnicastFilterListStructOutputReference e
     return this._outbound;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters {
+export interface BgpFilteringProfileIpv4UnicastInboundNetworkFilters {
   /**
   * Distribute list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
   */
   readonly prefixList?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersToTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastInboundNetworkFiltersToTerraform(struct?: BgpFilteringProfileIpv4UnicastInboundNetworkFilters | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1818,7 +1824,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersToTerrafo
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastInboundNetworkFiltersToHclTerraform(struct?: BgpFilteringProfileIpv4UnicastInboundNetworkFilters | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1842,7 +1848,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4UnicastInboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -1854,7 +1860,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersOutputRefere
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4UnicastInboundNetworkFilters | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1871,7 +1877,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersOutputRefere
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4UnicastInboundNetworkFilters | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1922,22 +1928,22 @@ export class BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersOutputRefere
     return this._prefixList;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters {
+export interface BgpFilteringProfileIpv4UnicastOutboundNetworkFilters {
   /**
   * Distribute list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
   */
   readonly prefixList?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersToTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastOutboundNetworkFiltersToTerraform(struct?: BgpFilteringProfileIpv4UnicastOutboundNetworkFilters | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1949,7 +1955,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersToTerraf
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastOutboundNetworkFiltersToHclTerraform(struct?: BgpFilteringProfileIpv4UnicastOutboundNetworkFilters | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1973,7 +1979,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4UnicastOutboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -1985,7 +1991,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersOutputRefer
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4UnicastOutboundNetworkFilters | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2002,7 +2008,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersOutputRefer
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4UnicastOutboundNetworkFilters | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2053,22 +2059,22 @@ export class BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersOutputRefer
     return this._prefixList;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4UnicastRouteMaps {
+export interface BgpFilteringProfileIpv4UnicastRouteMaps {
   /**
   * Inbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
   */
   readonly inbound?: string;
   /**
   * Outbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
   */
   readonly outbound?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4UnicastRouteMapsToTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastRouteMaps | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastRouteMapsToTerraform(struct?: BgpFilteringProfileIpv4UnicastRouteMaps | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2080,7 +2086,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastRouteMapsToTerraform(struct?: 
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4UnicastRouteMapsToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4UnicastRouteMaps | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastRouteMapsToHclTerraform(struct?: BgpFilteringProfileIpv4UnicastRouteMaps | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2104,7 +2110,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastRouteMapsToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4UnicastRouteMapsOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4UnicastRouteMapsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -2116,7 +2122,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastRouteMapsOutputReference extends 
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4UnicastRouteMaps | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4UnicastRouteMaps | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2133,7 +2139,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastRouteMapsOutputReference extends 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4UnicastRouteMaps | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4UnicastRouteMaps | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2184,96 +2190,96 @@ export class BgpFilteringProfileIpv4Ipv4UnicastRouteMapsOutputReference extends 
     return this._outbound;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4Unicast {
+export interface BgpFilteringProfileIpv4Unicast {
   /**
   * Conditional advertisement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#conditional_advertisement BgpFilteringProfile#conditional_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#conditional_advertisement BgpFilteringProfile#conditional_advertisement}
   */
-  readonly conditionalAdvertisement?: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement;
+  readonly conditionalAdvertisement?: BgpFilteringProfileIpv4UnicastConditionalAdvertisement;
   /**
   * Filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#filter_list BgpFilteringProfile#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#filter_list BgpFilteringProfile#filter_list}
   */
-  readonly filterList?: BgpFilteringProfileIpv4Ipv4UnicastFilterListStruct;
+  readonly filterList?: BgpFilteringProfileIpv4UnicastFilterListStruct;
   /**
   * Inbound network filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#inbound_network_filters BgpFilteringProfile#inbound_network_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inbound_network_filters BgpFilteringProfile#inbound_network_filters}
   */
-  readonly inboundNetworkFilters?: BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters;
+  readonly inboundNetworkFilters?: BgpFilteringProfileIpv4UnicastInboundNetworkFilters;
   /**
   * Outbound network filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#outbound_network_filters BgpFilteringProfile#outbound_network_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#outbound_network_filters BgpFilteringProfile#outbound_network_filters}
   */
-  readonly outboundNetworkFilters?: BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters;
+  readonly outboundNetworkFilters?: BgpFilteringProfileIpv4UnicastOutboundNetworkFilters;
   /**
   * Route maps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#route_maps BgpFilteringProfile#route_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#route_maps BgpFilteringProfile#route_maps}
   */
-  readonly routeMaps?: BgpFilteringProfileIpv4Ipv4UnicastRouteMaps;
+  readonly routeMaps?: BgpFilteringProfileIpv4UnicastRouteMaps;
   /**
   * Unsuppress map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#unsuppress_map BgpFilteringProfile#unsuppress_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#unsuppress_map BgpFilteringProfile#unsuppress_map}
   */
   readonly unsuppressMap?: string;
 }
 
-export function bgpFilteringProfileIpv4Ipv4UnicastToTerraform(struct?: BgpFilteringProfileIpv4Ipv4Unicast | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastToTerraform(struct?: BgpFilteringProfileIpv4Unicast | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    conditional_advertisement: bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementToTerraform(struct!.conditionalAdvertisement),
-    filter_list: bgpFilteringProfileIpv4Ipv4UnicastFilterListStructToTerraform(struct!.filterList),
-    inbound_network_filters: bgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersToTerraform(struct!.inboundNetworkFilters),
-    outbound_network_filters: bgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersToTerraform(struct!.outboundNetworkFilters),
-    route_maps: bgpFilteringProfileIpv4Ipv4UnicastRouteMapsToTerraform(struct!.routeMaps),
+    conditional_advertisement: bgpFilteringProfileIpv4UnicastConditionalAdvertisementToTerraform(struct!.conditionalAdvertisement),
+    filter_list: bgpFilteringProfileIpv4UnicastFilterListStructToTerraform(struct!.filterList),
+    inbound_network_filters: bgpFilteringProfileIpv4UnicastInboundNetworkFiltersToTerraform(struct!.inboundNetworkFilters),
+    outbound_network_filters: bgpFilteringProfileIpv4UnicastOutboundNetworkFiltersToTerraform(struct!.outboundNetworkFilters),
+    route_maps: bgpFilteringProfileIpv4UnicastRouteMapsToTerraform(struct!.routeMaps),
     unsuppress_map: cdktf.stringToTerraform(struct!.unsuppressMap),
   }
 }
 
 
-export function bgpFilteringProfileIpv4Ipv4UnicastToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4Unicast | cdktf.IResolvable): any {
+export function bgpFilteringProfileIpv4UnicastToHclTerraform(struct?: BgpFilteringProfileIpv4Unicast | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     conditional_advertisement: {
-      value: bgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementToHclTerraform(struct!.conditionalAdvertisement),
+      value: bgpFilteringProfileIpv4UnicastConditionalAdvertisementToHclTerraform(struct!.conditionalAdvertisement),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement",
+      storageClassType: "BgpFilteringProfileIpv4UnicastConditionalAdvertisement",
     },
     filter_list: {
-      value: bgpFilteringProfileIpv4Ipv4UnicastFilterListStructToHclTerraform(struct!.filterList),
+      value: bgpFilteringProfileIpv4UnicastFilterListStructToHclTerraform(struct!.filterList),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4UnicastFilterListStruct",
+      storageClassType: "BgpFilteringProfileIpv4UnicastFilterListStruct",
     },
     inbound_network_filters: {
-      value: bgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersToHclTerraform(struct!.inboundNetworkFilters),
+      value: bgpFilteringProfileIpv4UnicastInboundNetworkFiltersToHclTerraform(struct!.inboundNetworkFilters),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters",
+      storageClassType: "BgpFilteringProfileIpv4UnicastInboundNetworkFilters",
     },
     outbound_network_filters: {
-      value: bgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersToHclTerraform(struct!.outboundNetworkFilters),
+      value: bgpFilteringProfileIpv4UnicastOutboundNetworkFiltersToHclTerraform(struct!.outboundNetworkFilters),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters",
+      storageClassType: "BgpFilteringProfileIpv4UnicastOutboundNetworkFilters",
     },
     route_maps: {
-      value: bgpFilteringProfileIpv4Ipv4UnicastRouteMapsToHclTerraform(struct!.routeMaps),
+      value: bgpFilteringProfileIpv4UnicastRouteMapsToHclTerraform(struct!.routeMaps),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4UnicastRouteMaps",
+      storageClassType: "BgpFilteringProfileIpv4UnicastRouteMaps",
     },
     unsuppress_map: {
       value: cdktf.stringToHclTerraform(struct!.unsuppressMap),
@@ -2287,7 +2293,7 @@ export function bgpFilteringProfileIpv4Ipv4UnicastToHclTerraform(struct?: BgpFil
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class BgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cdktf.ComplexObject {
+export class BgpFilteringProfileIpv4UnicastOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -2299,7 +2305,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cdktf.Com
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4Unicast | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpFilteringProfileIpv4Unicast | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2332,7 +2338,7 @@ export class BgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4Unicast | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpFilteringProfileIpv4Unicast | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2360,11 +2366,11 @@ export class BgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cdktf.Com
   }
 
   // conditional_advertisement - computed: false, optional: true, required: false
-  private _conditionalAdvertisement = new BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementOutputReference(this, "conditional_advertisement");
+  private _conditionalAdvertisement = new BgpFilteringProfileIpv4UnicastConditionalAdvertisementOutputReference(this, "conditional_advertisement");
   public get conditionalAdvertisement() {
     return this._conditionalAdvertisement;
   }
-  public putConditionalAdvertisement(value: BgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement) {
+  public putConditionalAdvertisement(value: BgpFilteringProfileIpv4UnicastConditionalAdvertisement) {
     this._conditionalAdvertisement.internalValue = value;
   }
   public resetConditionalAdvertisement() {
@@ -2376,11 +2382,11 @@ export class BgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cdktf.Com
   }
 
   // filter_list - computed: false, optional: true, required: false
-  private _filterList = new BgpFilteringProfileIpv4Ipv4UnicastFilterListStructOutputReference(this, "filter_list");
+  private _filterList = new BgpFilteringProfileIpv4UnicastFilterListStructOutputReference(this, "filter_list");
   public get filterList() {
     return this._filterList;
   }
-  public putFilterList(value: BgpFilteringProfileIpv4Ipv4UnicastFilterListStruct) {
+  public putFilterList(value: BgpFilteringProfileIpv4UnicastFilterListStruct) {
     this._filterList.internalValue = value;
   }
   public resetFilterList() {
@@ -2392,11 +2398,11 @@ export class BgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cdktf.Com
   }
 
   // inbound_network_filters - computed: false, optional: true, required: false
-  private _inboundNetworkFilters = new BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersOutputReference(this, "inbound_network_filters");
+  private _inboundNetworkFilters = new BgpFilteringProfileIpv4UnicastInboundNetworkFiltersOutputReference(this, "inbound_network_filters");
   public get inboundNetworkFilters() {
     return this._inboundNetworkFilters;
   }
-  public putInboundNetworkFilters(value: BgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters) {
+  public putInboundNetworkFilters(value: BgpFilteringProfileIpv4UnicastInboundNetworkFilters) {
     this._inboundNetworkFilters.internalValue = value;
   }
   public resetInboundNetworkFilters() {
@@ -2408,11 +2414,11 @@ export class BgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cdktf.Com
   }
 
   // outbound_network_filters - computed: false, optional: true, required: false
-  private _outboundNetworkFilters = new BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersOutputReference(this, "outbound_network_filters");
+  private _outboundNetworkFilters = new BgpFilteringProfileIpv4UnicastOutboundNetworkFiltersOutputReference(this, "outbound_network_filters");
   public get outboundNetworkFilters() {
     return this._outboundNetworkFilters;
   }
-  public putOutboundNetworkFilters(value: BgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters) {
+  public putOutboundNetworkFilters(value: BgpFilteringProfileIpv4UnicastOutboundNetworkFilters) {
     this._outboundNetworkFilters.internalValue = value;
   }
   public resetOutboundNetworkFilters() {
@@ -2424,11 +2430,11 @@ export class BgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cdktf.Com
   }
 
   // route_maps - computed: false, optional: true, required: false
-  private _routeMaps = new BgpFilteringProfileIpv4Ipv4UnicastRouteMapsOutputReference(this, "route_maps");
+  private _routeMaps = new BgpFilteringProfileIpv4UnicastRouteMapsOutputReference(this, "route_maps");
   public get routeMaps() {
     return this._routeMaps;
   }
-  public putRouteMaps(value: BgpFilteringProfileIpv4Ipv4UnicastRouteMaps) {
+  public putRouteMaps(value: BgpFilteringProfileIpv4UnicastRouteMaps) {
     this._routeMaps.internalValue = value;
   }
   public resetRouteMaps() {
@@ -2455,144 +2461,19 @@ export class BgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cdktf.Com
     return this._unsuppressMap;
   }
 }
-export interface BgpFilteringProfileIpv4Ipv4 {
+export interface BgpFilteringProfileIpv4 {
   /**
   * Multicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#multicast BgpFilteringProfile#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#multicast BgpFilteringProfile#multicast}
   */
-  readonly multicast?: BgpFilteringProfileIpv4Ipv4Multicast;
+  readonly multicast?: BgpFilteringProfileIpv4Multicast;
   /**
   * Unicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#unicast BgpFilteringProfile#unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#unicast BgpFilteringProfile#unicast}
   */
-  readonly unicast?: BgpFilteringProfileIpv4Ipv4Unicast;
-}
-
-export function bgpFilteringProfileIpv4Ipv4ToTerraform(struct?: BgpFilteringProfileIpv4Ipv4 | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    multicast: bgpFilteringProfileIpv4Ipv4MulticastToTerraform(struct!.multicast),
-    unicast: bgpFilteringProfileIpv4Ipv4UnicastToTerraform(struct!.unicast),
-  }
-}
-
-
-export function bgpFilteringProfileIpv4Ipv4ToHclTerraform(struct?: BgpFilteringProfileIpv4Ipv4 | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    multicast: {
-      value: bgpFilteringProfileIpv4Ipv4MulticastToHclTerraform(struct!.multicast),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4Multicast",
-    },
-    unicast: {
-      value: bgpFilteringProfileIpv4Ipv4UnicastToHclTerraform(struct!.unicast),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4Unicast",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class BgpFilteringProfileIpv4Ipv4OutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): BgpFilteringProfileIpv4Ipv4 | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._multicast?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.multicast = this._multicast?.internalValue;
-    }
-    if (this._unicast?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.unicast = this._unicast?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: BgpFilteringProfileIpv4Ipv4 | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._multicast.internalValue = undefined;
-      this._unicast.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._multicast.internalValue = value.multicast;
-      this._unicast.internalValue = value.unicast;
-    }
-  }
-
-  // multicast - computed: false, optional: true, required: false
-  private _multicast = new BgpFilteringProfileIpv4Ipv4MulticastOutputReference(this, "multicast");
-  public get multicast() {
-    return this._multicast;
-  }
-  public putMulticast(value: BgpFilteringProfileIpv4Ipv4Multicast) {
-    this._multicast.internalValue = value;
-  }
-  public resetMulticast() {
-    this._multicast.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get multicastInput() {
-    return this._multicast.internalValue;
-  }
-
-  // unicast - computed: false, optional: true, required: false
-  private _unicast = new BgpFilteringProfileIpv4Ipv4UnicastOutputReference(this, "unicast");
-  public get unicast() {
-    return this._unicast;
-  }
-  public putUnicast(value: BgpFilteringProfileIpv4Ipv4Unicast) {
-    this._unicast.internalValue = value;
-  }
-  public resetUnicast() {
-    this._unicast.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get unicastInput() {
-    return this._unicast.internalValue;
-  }
-}
-export interface BgpFilteringProfileIpv4 {
-  /**
-  * Ipv4
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#ipv4 BgpFilteringProfile#ipv4}
-  */
-  readonly ipv4: BgpFilteringProfileIpv4Ipv4;
+  readonly unicast?: BgpFilteringProfileIpv4Unicast;
 }
 
 export function bgpFilteringProfileIpv4ToTerraform(struct?: BgpFilteringProfileIpv4 | cdktf.IResolvable): any {
@@ -2601,7 +2482,8 @@ export function bgpFilteringProfileIpv4ToTerraform(struct?: BgpFilteringProfileI
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    ipv4: bgpFilteringProfileIpv4Ipv4ToTerraform(struct!.ipv4),
+    multicast: bgpFilteringProfileIpv4MulticastToTerraform(struct!.multicast),
+    unicast: bgpFilteringProfileIpv4UnicastToTerraform(struct!.unicast),
   }
 }
 
@@ -2612,11 +2494,17 @@ export function bgpFilteringProfileIpv4ToHclTerraform(struct?: BgpFilteringProfi
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    ipv4: {
-      value: bgpFilteringProfileIpv4Ipv4ToHclTerraform(struct!.ipv4),
+    multicast: {
+      value: bgpFilteringProfileIpv4MulticastToHclTerraform(struct!.multicast),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpFilteringProfileIpv4Ipv4",
+      storageClassType: "BgpFilteringProfileIpv4Multicast",
+    },
+    unicast: {
+      value: bgpFilteringProfileIpv4UnicastToHclTerraform(struct!.unicast),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BgpFilteringProfileIpv4Unicast",
     },
   };
 
@@ -2642,9 +2530,13 @@ export class BgpFilteringProfileIpv4OutputReference extends cdktf.ComplexObject 
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._ipv4?.internalValue !== undefined) {
+    if (this._multicast?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.ipv4 = this._ipv4?.internalValue;
+      internalValueResult.multicast = this._multicast?.internalValue;
+    }
+    if (this._unicast?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unicast = this._unicast?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -2653,7 +2545,8 @@ export class BgpFilteringProfileIpv4OutputReference extends cdktf.ComplexObject 
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._ipv4.internalValue = undefined;
+      this._multicast.internalValue = undefined;
+      this._unicast.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -2662,26 +2555,46 @@ export class BgpFilteringProfileIpv4OutputReference extends cdktf.ComplexObject 
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._ipv4.internalValue = value.ipv4;
+      this._multicast.internalValue = value.multicast;
+      this._unicast.internalValue = value.unicast;
     }
   }
 
-  // ipv4 - computed: false, optional: false, required: true
-  private _ipv4 = new BgpFilteringProfileIpv4Ipv4OutputReference(this, "ipv4");
-  public get ipv4() {
-    return this._ipv4;
+  // multicast - computed: false, optional: true, required: false
+  private _multicast = new BgpFilteringProfileIpv4MulticastOutputReference(this, "multicast");
+  public get multicast() {
+    return this._multicast;
   }
-  public putIpv4(value: BgpFilteringProfileIpv4Ipv4) {
-    this._ipv4.internalValue = value;
+  public putMulticast(value: BgpFilteringProfileIpv4Multicast) {
+    this._multicast.internalValue = value;
+  }
+  public resetMulticast() {
+    this._multicast.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get ipv4Input() {
-    return this._ipv4.internalValue;
+  public get multicastInput() {
+    return this._multicast.internalValue;
+  }
+
+  // unicast - computed: false, optional: true, required: false
+  private _unicast = new BgpFilteringProfileIpv4UnicastOutputReference(this, "unicast");
+  public get unicast() {
+    return this._unicast;
+  }
+  public putUnicast(value: BgpFilteringProfileIpv4Unicast) {
+    this._unicast.internalValue = value;
+  }
+  public resetUnicast() {
+    this._unicast.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unicastInput() {
+    return this._unicast.internalValue;
   }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile scm_bgp_filtering_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile scm_bgp_filtering_profile}
 */
 export class BgpFilteringProfile extends cdktf.TerraformResource {
 
@@ -2697,7 +2610,7 @@ export class BgpFilteringProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpFilteringProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpFilteringProfile to import
-  * @param importFromId The id of the existing BgpFilteringProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpFilteringProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpFilteringProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2709,7 +2622,7 @@ export class BgpFilteringProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_filtering_profile scm_bgp_filtering_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile scm_bgp_filtering_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2720,8 +2633,8 @@ export class BgpFilteringProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_bgp_filtering_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

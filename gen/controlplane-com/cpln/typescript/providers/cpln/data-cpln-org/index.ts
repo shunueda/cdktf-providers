@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/org
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/org
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataCplnOrgConfig extends cdktf.TerraformMetaArguments {
   /**
   * auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/org#auth_config DataCplnOrg#auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/org#auth_config DataCplnOrg#auth_config}
   */
   readonly authConfig?: DataCplnOrgAuthConfig[] | cdktf.IResolvable;
   /**
   * observability block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/org#observability DataCplnOrg#observability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/org#observability DataCplnOrg#observability}
   */
   readonly observability?: DataCplnOrgObservability[] | cdktf.IResolvable;
   /**
   * security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/org#security DataCplnOrg#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/org#security DataCplnOrg#security}
   */
   readonly security?: DataCplnOrgSecurity[] | cdktf.IResolvable;
 }
@@ -403,13 +403,13 @@ export interface DataCplnOrgSecurityThreatDetection {
   /**
   * Any threats with this severity and more severe will be sent. Others will be ignored. Valid values: `warning`, `error`, or `critical`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/org#minimum_severity DataCplnOrg#minimum_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/org#minimum_severity DataCplnOrg#minimum_severity}
   */
   readonly minimumSeverity?: string;
   /**
   * syslog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/org#syslog DataCplnOrg#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/org#syslog DataCplnOrg#syslog}
   */
   readonly syslog?: DataCplnOrgSecurityThreatDetectionSyslog[] | cdktf.IResolvable;
 }
@@ -561,7 +561,7 @@ export interface DataCplnOrgSecurity {
   /**
   * threat_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/org#threat_detection DataCplnOrg#threat_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/org#threat_detection DataCplnOrg#threat_detection}
   */
   readonly threatDetection?: DataCplnOrgSecurityThreatDetection[] | cdktf.IResolvable;
 }
@@ -677,7 +677,7 @@ export class DataCplnOrgSecurityList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/org cpln_org}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/org cpln_org}
 */
 export class DataCplnOrg extends cdktf.TerraformDataSource {
 
@@ -693,7 +693,7 @@ export class DataCplnOrg extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCplnOrg resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCplnOrg to import
-  * @param importFromId The id of the existing DataCplnOrg that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/org#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCplnOrg that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/org#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCplnOrg to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -705,7 +705,7 @@ export class DataCplnOrg extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/org cpln_org} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/org cpln_org} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -716,8 +716,8 @@ export class DataCplnOrg extends cdktf.TerraformDataSource {
       terraformResourceType: 'cpln_org',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.15',
-        providerVersionConstraint: '1.2.15'
+        providerVersion: '1.2.16',
+        providerVersionConstraint: '1.2.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

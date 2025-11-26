@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permission_set_saas
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/permission_set_saas
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PermissionSetSaasConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of allowed actions for the permission set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permission_set_saas#actions PermissionSetSaas#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/permission_set_saas#actions PermissionSetSaas#actions}
   */
   readonly actions?: string[];
   /**
   * Description of the permission set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permission_set_saas#description PermissionSetSaas#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/permission_set_saas#description PermissionSetSaas#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permission_set_saas#id PermissionSetSaas#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/permission_set_saas#id PermissionSetSaas#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface PermissionSetSaasConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the permission set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permission_set_saas#name PermissionSetSaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/permission_set_saas#name PermissionSetSaas#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permission_set_saas aquasec_permission_set_saas}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/permission_set_saas aquasec_permission_set_saas}
 */
 export class PermissionSetSaas extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class PermissionSetSaas extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PermissionSetSaas resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PermissionSetSaas to import
-  * @param importFromId The id of the existing PermissionSetSaas that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permission_set_saas#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PermissionSetSaas that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/permission_set_saas#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PermissionSetSaas to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class PermissionSetSaas extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permission_set_saas aquasec_permission_set_saas} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/permission_set_saas aquasec_permission_set_saas} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class PermissionSetSaas extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_permission_set_saas',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

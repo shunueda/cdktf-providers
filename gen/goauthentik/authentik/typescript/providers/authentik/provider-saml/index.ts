@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface ProviderSamlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#acs_url ProviderSaml#acs_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#acs_url ProviderSaml#acs_url}
   */
   readonly acsUrl: string;
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `minutes=-5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#assertion_valid_not_before ProviderSaml#assertion_valid_not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#assertion_valid_not_before ProviderSaml#assertion_valid_not_before}
   */
   readonly assertionValidNotBefore?: string;
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `minutes=5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#assertion_valid_not_on_or_after ProviderSaml#assertion_valid_not_on_or_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#assertion_valid_not_on_or_after ProviderSaml#assertion_valid_not_on_or_after}
   */
   readonly assertionValidNotOnOrAfter?: string;
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#audience ProviderSaml#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#audience ProviderSaml#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#authentication_flow ProviderSaml#authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#authentication_flow ProviderSaml#authentication_flow}
   */
   readonly authenticationFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#authn_context_class_ref_mapping ProviderSaml#authn_context_class_ref_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#authn_context_class_ref_mapping ProviderSaml#authn_context_class_ref_mapping}
   */
   readonly authnContextClassRefMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#authorization_flow ProviderSaml#authorization_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#authorization_flow ProviderSaml#authorization_flow}
   */
   readonly authorizationFlow: string;
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#default_relay_state ProviderSaml#default_relay_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#default_relay_state ProviderSaml#default_relay_state}
   */
   readonly defaultRelayState?: string;
   /**
@@ -55,28 +55,28 @@ export interface ProviderSamlConfig extends cdktf.TerraformMetaArguments {
   *   - `http://www.w3.org/2001/04/xmlenc#sha512`
   *  Defaults to `http://www.w3.org/2001/04/xmlenc#sha256`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#digest_algorithm ProviderSaml#digest_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#digest_algorithm ProviderSaml#digest_algorithm}
   */
   readonly digestAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#encryption_kp ProviderSaml#encryption_kp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#encryption_kp ProviderSaml#encryption_kp}
   */
   readonly encryptionKp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#id ProviderSaml#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#id ProviderSaml#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#invalidation_flow ProviderSaml#invalidation_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#invalidation_flow ProviderSaml#invalidation_flow}
   */
   readonly invalidationFlow: string;
   /**
   * Defaults to `authentik`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#issuer ProviderSaml#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#issuer ProviderSaml#issuer}
   */
   readonly issuer?: string;
   /**
@@ -84,45 +84,45 @@ export interface ProviderSamlConfig extends cdktf.TerraformMetaArguments {
   *   - `frontchannel_iframe`
   *   - `frontchannel_native`
   *   - `backchannel`
-  *  Defaults to `backchannel`.
+  *  Defaults to `frontchannel_iframe`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#logout_method ProviderSaml#logout_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#logout_method ProviderSaml#logout_method}
   */
   readonly logoutMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#name ProviderSaml#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#name ProviderSaml#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#name_id_mapping ProviderSaml#name_id_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#name_id_mapping ProviderSaml#name_id_mapping}
   */
   readonly nameIdMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#property_mappings ProviderSaml#property_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#property_mappings ProviderSaml#property_mappings}
   */
   readonly propertyMappings?: string[];
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `minutes=86400`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#session_valid_not_on_or_after ProviderSaml#session_valid_not_on_or_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#session_valid_not_on_or_after ProviderSaml#session_valid_not_on_or_after}
   */
   readonly sessionValidNotOnOrAfter?: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#sign_assertion ProviderSaml#sign_assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#sign_assertion ProviderSaml#sign_assertion}
   */
   readonly signAssertion?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#sign_logout_request ProviderSaml#sign_logout_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#sign_logout_request ProviderSaml#sign_logout_request}
   */
   readonly signLogoutRequest?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#sign_response ProviderSaml#sign_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#sign_response ProviderSaml#sign_response}
   */
   readonly signResponse?: boolean | cdktf.IResolvable;
   /**
@@ -138,11 +138,11 @@ export interface ProviderSamlConfig extends cdktf.TerraformMetaArguments {
   *   - `http://www.w3.org/2000/09/xmldsig#dsa-sha1`
   *  Defaults to `http://www.w3.org/2001/04/xmldsig-more#rsa-sha256`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#signature_algorithm ProviderSaml#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#signature_algorithm ProviderSaml#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#signing_kp ProviderSaml#signing_kp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#signing_kp ProviderSaml#signing_kp}
   */
   readonly signingKp?: string;
   /**
@@ -151,11 +151,11 @@ export interface ProviderSamlConfig extends cdktf.TerraformMetaArguments {
   *   - `post`
   *  Defaults to `redirect`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#sls_binding ProviderSaml#sls_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#sls_binding ProviderSaml#sls_binding}
   */
   readonly slsBinding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#sls_url ProviderSaml#sls_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#sls_url ProviderSaml#sls_url}
   */
   readonly slsUrl?: string;
   /**
@@ -164,47 +164,47 @@ export interface ProviderSamlConfig extends cdktf.TerraformMetaArguments {
   *   - `post`
   *  Defaults to `redirect`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#sp_binding ProviderSaml#sp_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#sp_binding ProviderSaml#sp_binding}
   */
   readonly spBinding?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#url_slo_post ProviderSaml#url_slo_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#url_slo_post ProviderSaml#url_slo_post}
   */
   readonly urlSloPost?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#url_slo_redirect ProviderSaml#url_slo_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#url_slo_redirect ProviderSaml#url_slo_redirect}
   */
   readonly urlSloRedirect?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#url_sso_init ProviderSaml#url_sso_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#url_sso_init ProviderSaml#url_sso_init}
   */
   readonly urlSsoInit?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#url_sso_post ProviderSaml#url_sso_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#url_sso_post ProviderSaml#url_sso_post}
   */
   readonly urlSsoPost?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#url_sso_redirect ProviderSaml#url_sso_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#url_sso_redirect ProviderSaml#url_sso_redirect}
   */
   readonly urlSsoRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#verification_kp ProviderSaml#verification_kp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#verification_kp ProviderSaml#verification_kp}
   */
   readonly verificationKp?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml authentik_provider_saml}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml authentik_provider_saml}
 */
 export class ProviderSaml extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class ProviderSaml extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProviderSaml resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProviderSaml to import
-  * @param importFromId The id of the existing ProviderSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProviderSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProviderSaml to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class ProviderSaml extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/provider_saml authentik_provider_saml} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/provider_saml authentik_provider_saml} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class ProviderSaml extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_provider_saml',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EventTransportConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `authentik Notification:`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport#email_subject_prefix EventTransport#email_subject_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport#email_subject_prefix EventTransport#email_subject_prefix}
   */
   readonly emailSubjectPrefix?: string;
   /**
   * Defaults to `email/event_notification.html`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport#email_template EventTransport#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport#email_template EventTransport#email_template}
   */
   readonly emailTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport#id EventTransport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport#id EventTransport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,35 +33,35 @@ export interface EventTransportConfig extends cdktf.TerraformMetaArguments {
   *   - `webhook_slack`
   *   - `email`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport#mode EventTransport#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport#mode EventTransport#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport#name EventTransport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport#name EventTransport#name}
   */
   readonly name: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport#send_once EventTransport#send_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport#send_once EventTransport#send_once}
   */
   readonly sendOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport#webhook_mapping_body EventTransport#webhook_mapping_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport#webhook_mapping_body EventTransport#webhook_mapping_body}
   */
   readonly webhookMappingBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport#webhook_mapping_headers EventTransport#webhook_mapping_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport#webhook_mapping_headers EventTransport#webhook_mapping_headers}
   */
   readonly webhookMappingHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport#webhook_url EventTransport#webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport#webhook_url EventTransport#webhook_url}
   */
   readonly webhookUrl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport authentik_event_transport}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport authentik_event_transport}
 */
 export class EventTransport extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class EventTransport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventTransport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventTransport to import
-  * @param importFromId The id of the existing EventTransport that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventTransport that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventTransport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class EventTransport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/event_transport authentik_event_transport} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/event_transport authentik_event_transport} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class EventTransport extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_event_transport',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

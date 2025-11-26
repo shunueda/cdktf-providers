@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component
+// https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktf from 'cdktf';
 
 export interface StatuspageComponentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component#auto_status_down StatuspageComponent#auto_status_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component#auto_status_down StatuspageComponent#auto_status_down}
   */
   readonly autoStatusDown?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component#auto_status_up StatuspageComponent#auto_status_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component#auto_status_up StatuspageComponent#auto_status_up}
   */
   readonly autoStatusUp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component#description StatuspageComponent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component#description StatuspageComponent#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component#group_id StatuspageComponent#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component#group_id StatuspageComponent#group_id}
   */
   readonly groupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component#is_group StatuspageComponent#is_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component#is_group StatuspageComponent#is_group}
   */
   readonly isGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component#name StatuspageComponent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component#name StatuspageComponent#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component#service_id StatuspageComponent#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component#service_id StatuspageComponent#service_id}
   */
   readonly serviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component#status StatuspageComponent#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component#status StatuspageComponent#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component#statuspage_id StatuspageComponent#statuspage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component#statuspage_id StatuspageComponent#statuspage_id}
   */
   readonly statuspageId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component uptime_statuspage_component}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component uptime_statuspage_component}
 */
 export class StatuspageComponent extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class StatuspageComponent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StatuspageComponent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StatuspageComponent to import
-  * @param importFromId The id of the existing StatuspageComponent that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StatuspageComponent that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StatuspageComponent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class StatuspageComponent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/statuspage_component uptime_statuspage_component} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/statuspage_component uptime_statuspage_component} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class StatuspageComponent extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_statuspage_component',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.17.1',
-        providerVersionConstraint: '2.17.1'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

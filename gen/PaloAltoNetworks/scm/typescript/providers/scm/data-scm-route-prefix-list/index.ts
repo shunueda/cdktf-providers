@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/route_prefix_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/route_prefix_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataScmRoutePrefixListConfig extends cdktf.TerraformMetaArgumen
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/route_prefix_list#id DataScmRoutePrefixList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/route_prefix_list#id DataScmRoutePrefixList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,14 +19,14 @@ export interface DataScmRoutePrefixListConfig extends cdktf.TerraformMetaArgumen
   /**
   * Filter prefix list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/route_prefix_list#name DataScmRoutePrefixList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/route_prefix_list#name DataScmRoutePrefixList#name}
   */
   readonly name?: string;
 }
-export interface DataScmRoutePrefixListIpv4Ipv4EntryPrefixEntry {
+export interface DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixEntry {
 }
 
-export function dataScmRoutePrefixListIpv4Ipv4EntryPrefixEntryToTerraform(struct?: DataScmRoutePrefixListIpv4Ipv4EntryPrefixEntry): any {
+export function dataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixEntryToTerraform(struct?: DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixEntry): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -36,7 +36,7 @@ export function dataScmRoutePrefixListIpv4Ipv4EntryPrefixEntryToTerraform(struct
 }
 
 
-export function dataScmRoutePrefixListIpv4Ipv4EntryPrefixEntryToHclTerraform(struct?: DataScmRoutePrefixListIpv4Ipv4EntryPrefixEntry): any {
+export function dataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixEntryToHclTerraform(struct?: DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixEntry): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -46,7 +46,7 @@ export function dataScmRoutePrefixListIpv4Ipv4EntryPrefixEntryToHclTerraform(str
   return attrs;
 }
 
-export class DataScmRoutePrefixListIpv4Ipv4EntryPrefixEntryOutputReference extends cdktf.ComplexObject {
+export class DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixEntryOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -57,13 +57,13 @@ export class DataScmRoutePrefixListIpv4Ipv4EntryPrefixEntryOutputReference exten
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmRoutePrefixListIpv4Ipv4EntryPrefixEntry | undefined {
+  public get internalValue(): DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixEntry | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmRoutePrefixListIpv4Ipv4EntryPrefixEntry | undefined) {
+  public set internalValue(value: DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixEntry | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -87,10 +87,10 @@ export class DataScmRoutePrefixListIpv4Ipv4EntryPrefixEntryOutputReference exten
     return this.getStringAttribute('network');
   }
 }
-export interface DataScmRoutePrefixListIpv4Ipv4EntryPrefix {
+export interface DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefix {
 }
 
-export function dataScmRoutePrefixListIpv4Ipv4EntryPrefixToTerraform(struct?: DataScmRoutePrefixListIpv4Ipv4EntryPrefix): any {
+export function dataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixToTerraform(struct?: DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefix): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -100,7 +100,7 @@ export function dataScmRoutePrefixListIpv4Ipv4EntryPrefixToTerraform(struct?: Da
 }
 
 
-export function dataScmRoutePrefixListIpv4Ipv4EntryPrefixToHclTerraform(struct?: DataScmRoutePrefixListIpv4Ipv4EntryPrefix): any {
+export function dataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixToHclTerraform(struct?: DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefix): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -110,7 +110,7 @@ export function dataScmRoutePrefixListIpv4Ipv4EntryPrefixToHclTerraform(struct?:
   return attrs;
 }
 
-export class DataScmRoutePrefixListIpv4Ipv4EntryPrefixOutputReference extends cdktf.ComplexObject {
+export class DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -121,13 +121,13 @@ export class DataScmRoutePrefixListIpv4Ipv4EntryPrefixOutputReference extends cd
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmRoutePrefixListIpv4Ipv4EntryPrefix | undefined {
+  public get internalValue(): DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefix | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmRoutePrefixListIpv4Ipv4EntryPrefix | undefined) {
+  public set internalValue(value: DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefix | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -137,7 +137,7 @@ export class DataScmRoutePrefixListIpv4Ipv4EntryPrefixOutputReference extends cd
   }
 
   // entry - computed: true, optional: false, required: false
-  private _entry = new DataScmRoutePrefixListIpv4Ipv4EntryPrefixEntryOutputReference(this, "entry");
+  private _entry = new DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixEntryOutputReference(this, "entry");
   public get entry() {
     return this._entry;
   }
@@ -147,10 +147,10 @@ export class DataScmRoutePrefixListIpv4Ipv4EntryPrefixOutputReference extends cd
     return this.getStringAttribute('network');
   }
 }
-export interface DataScmRoutePrefixListIpv4Ipv4Entry {
+export interface DataScmRoutePrefixListTypeIpv4Ipv4Entry {
 }
 
-export function dataScmRoutePrefixListIpv4Ipv4EntryToTerraform(struct?: DataScmRoutePrefixListIpv4Ipv4Entry): any {
+export function dataScmRoutePrefixListTypeIpv4Ipv4EntryToTerraform(struct?: DataScmRoutePrefixListTypeIpv4Ipv4Entry): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -160,7 +160,7 @@ export function dataScmRoutePrefixListIpv4Ipv4EntryToTerraform(struct?: DataScmR
 }
 
 
-export function dataScmRoutePrefixListIpv4Ipv4EntryToHclTerraform(struct?: DataScmRoutePrefixListIpv4Ipv4Entry): any {
+export function dataScmRoutePrefixListTypeIpv4Ipv4EntryToHclTerraform(struct?: DataScmRoutePrefixListTypeIpv4Ipv4Entry): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -170,7 +170,7 @@ export function dataScmRoutePrefixListIpv4Ipv4EntryToHclTerraform(struct?: DataS
   return attrs;
 }
 
-export class DataScmRoutePrefixListIpv4Ipv4EntryOutputReference extends cdktf.ComplexObject {
+export class DataScmRoutePrefixListTypeIpv4Ipv4EntryOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -183,13 +183,13 @@ export class DataScmRoutePrefixListIpv4Ipv4EntryOutputReference extends cdktf.Co
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataScmRoutePrefixListIpv4Ipv4Entry | undefined {
+  public get internalValue(): DataScmRoutePrefixListTypeIpv4Ipv4Entry | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmRoutePrefixListIpv4Ipv4Entry | undefined) {
+  public set internalValue(value: DataScmRoutePrefixListTypeIpv4Ipv4Entry | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -209,13 +209,13 @@ export class DataScmRoutePrefixListIpv4Ipv4EntryOutputReference extends cdktf.Co
   }
 
   // prefix - computed: true, optional: false, required: false
-  private _prefix = new DataScmRoutePrefixListIpv4Ipv4EntryPrefixOutputReference(this, "prefix");
+  private _prefix = new DataScmRoutePrefixListTypeIpv4Ipv4EntryPrefixOutputReference(this, "prefix");
   public get prefix() {
     return this._prefix;
   }
 }
 
-export class DataScmRoutePrefixListIpv4Ipv4EntryList extends cdktf.ComplexList {
+export class DataScmRoutePrefixListTypeIpv4Ipv4EntryList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -229,14 +229,14 @@ export class DataScmRoutePrefixListIpv4Ipv4EntryList extends cdktf.ComplexList {
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataScmRoutePrefixListIpv4Ipv4EntryOutputReference {
-    return new DataScmRoutePrefixListIpv4Ipv4EntryOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataScmRoutePrefixListTypeIpv4Ipv4EntryOutputReference {
+    return new DataScmRoutePrefixListTypeIpv4Ipv4EntryOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataScmRoutePrefixListIpv4 {
+export interface DataScmRoutePrefixListTypeIpv4 {
 }
 
-export function dataScmRoutePrefixListIpv4ToTerraform(struct?: DataScmRoutePrefixListIpv4): any {
+export function dataScmRoutePrefixListTypeIpv4ToTerraform(struct?: DataScmRoutePrefixListTypeIpv4): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -246,7 +246,7 @@ export function dataScmRoutePrefixListIpv4ToTerraform(struct?: DataScmRoutePrefi
 }
 
 
-export function dataScmRoutePrefixListIpv4ToHclTerraform(struct?: DataScmRoutePrefixListIpv4): any {
+export function dataScmRoutePrefixListTypeIpv4ToHclTerraform(struct?: DataScmRoutePrefixListTypeIpv4): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -256,7 +256,7 @@ export function dataScmRoutePrefixListIpv4ToHclTerraform(struct?: DataScmRoutePr
   return attrs;
 }
 
-export class DataScmRoutePrefixListIpv4OutputReference extends cdktf.ComplexObject {
+export class DataScmRoutePrefixListTypeIpv4OutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -267,13 +267,13 @@ export class DataScmRoutePrefixListIpv4OutputReference extends cdktf.ComplexObje
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmRoutePrefixListIpv4 | undefined {
+  public get internalValue(): DataScmRoutePrefixListTypeIpv4 | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmRoutePrefixListIpv4 | undefined) {
+  public set internalValue(value: DataScmRoutePrefixListTypeIpv4 | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -283,14 +283,69 @@ export class DataScmRoutePrefixListIpv4OutputReference extends cdktf.ComplexObje
   }
 
   // ipv4_entry - computed: true, optional: false, required: false
-  private _ipv4Entry = new DataScmRoutePrefixListIpv4Ipv4EntryList(this, "ipv4_entry", false);
+  private _ipv4Entry = new DataScmRoutePrefixListTypeIpv4Ipv4EntryList(this, "ipv4_entry", false);
   public get ipv4Entry() {
     return this._ipv4Entry;
   }
 }
+export interface DataScmRoutePrefixListType {
+}
+
+export function dataScmRoutePrefixListTypeToTerraform(struct?: DataScmRoutePrefixListType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmRoutePrefixListTypeToHclTerraform(struct?: DataScmRoutePrefixListType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmRoutePrefixListTypeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmRoutePrefixListType | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmRoutePrefixListType | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // ipv4 - computed: true, optional: false, required: false
+  private _ipv4 = new DataScmRoutePrefixListTypeIpv4OutputReference(this, "ipv4");
+  public get ipv4() {
+    return this._ipv4;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/route_prefix_list scm_route_prefix_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/route_prefix_list scm_route_prefix_list}
 */
 export class DataScmRoutePrefixList extends cdktf.TerraformDataSource {
 
@@ -306,7 +361,7 @@ export class DataScmRoutePrefixList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmRoutePrefixList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmRoutePrefixList to import
-  * @param importFromId The id of the existing DataScmRoutePrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/route_prefix_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmRoutePrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/route_prefix_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmRoutePrefixList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -318,7 +373,7 @@ export class DataScmRoutePrefixList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/route_prefix_list scm_route_prefix_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/route_prefix_list scm_route_prefix_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -329,8 +384,8 @@ export class DataScmRoutePrefixList extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_route_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -376,12 +431,6 @@ export class DataScmRoutePrefixList extends cdktf.TerraformDataSource {
     return this._id;
   }
 
-  // ipv4 - computed: true, optional: false, required: false
-  private _ipv4 = new DataScmRoutePrefixListIpv4OutputReference(this, "ipv4");
-  public get ipv4() {
-    return this._ipv4;
-  }
-
   // name - computed: true, optional: true, required: false
   private _name?: string; 
   public get name() {
@@ -406,6 +455,12 @@ export class DataScmRoutePrefixList extends cdktf.TerraformDataSource {
   // tfid - computed: true, optional: false, required: false
   public get tfid() {
     return this.getStringAttribute('tfid');
+  }
+
+  // type - computed: true, optional: false, required: false
+  private _type = new DataScmRoutePrefixListTypeOutputReference(this, "type");
+  public get type() {
+    return this._type;
   }
 
   // =========

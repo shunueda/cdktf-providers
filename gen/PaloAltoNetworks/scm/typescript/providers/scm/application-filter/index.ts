@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,147 +10,157 @@ export interface ApplicationFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#category ApplicationFilter#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#category ApplicationFilter#category}
   */
   readonly category?: string[];
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#device ApplicationFilter#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#device ApplicationFilter#device}
   */
   readonly device?: string;
   /**
   * only True is a valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#evasive ApplicationFilter#evasive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#evasive ApplicationFilter#evasive}
   */
   readonly evasive?: boolean | cdktf.IResolvable;
   /**
   * only True is a valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#excessive_bandwidth_use ApplicationFilter#excessive_bandwidth_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#excessive_bandwidth_use ApplicationFilter#excessive_bandwidth_use}
   */
   readonly excessiveBandwidthUse?: boolean | cdktf.IResolvable;
   /**
   * Exclude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#exclude ApplicationFilter#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#exclude ApplicationFilter#exclude}
   */
   readonly exclude?: string[];
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#folder ApplicationFilter#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#folder ApplicationFilter#folder}
   */
   readonly folder?: string;
   /**
   * only True is a valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#has_known_vulnerabilities ApplicationFilter#has_known_vulnerabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#has_known_vulnerabilities ApplicationFilter#has_known_vulnerabilities}
   */
   readonly hasKnownVulnerabilities?: boolean | cdktf.IResolvable;
   /**
   * only True is a valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#is_saas ApplicationFilter#is_saas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#is_saas ApplicationFilter#is_saas}
   */
   readonly isSaas?: boolean | cdktf.IResolvable;
   /**
   * Alphanumeric string [ 0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#name ApplicationFilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#name ApplicationFilter#name}
   */
   readonly name: string;
   /**
   * only True is a valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#new_appid ApplicationFilter#new_appid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#new_appid ApplicationFilter#new_appid}
   */
   readonly newAppid?: boolean | cdktf.IResolvable;
   /**
   * only True is a valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#pervasive ApplicationFilter#pervasive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#pervasive ApplicationFilter#pervasive}
   */
   readonly pervasive?: boolean | cdktf.IResolvable;
   /**
   * only True is a valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#prone_to_misuse ApplicationFilter#prone_to_misuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#prone_to_misuse ApplicationFilter#prone_to_misuse}
   */
   readonly proneToMisuse?: boolean | cdktf.IResolvable;
   /**
   * Risk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#risk ApplicationFilter#risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#risk ApplicationFilter#risk}
   */
   readonly risk?: number[];
   /**
   * Saas certifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#saas_certifications ApplicationFilter#saas_certifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#saas_certifications ApplicationFilter#saas_certifications}
   */
   readonly saasCertifications?: string[];
   /**
   * Saas risk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#saas_risk ApplicationFilter#saas_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#saas_risk ApplicationFilter#saas_risk}
   */
   readonly saasRisk?: string[];
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#snippet ApplicationFilter#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#snippet ApplicationFilter#snippet}
   */
   readonly snippet?: string;
   /**
   * Subcategory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#subcategory ApplicationFilter#subcategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#subcategory ApplicationFilter#subcategory}
   */
   readonly subcategory?: string[];
   /**
   * Tagging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#tagging ApplicationFilter#tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#tagging ApplicationFilter#tagging}
   */
   readonly tagging?: ApplicationFilterTagging;
   /**
   * Technology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#technology ApplicationFilter#technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#technology ApplicationFilter#technology}
   */
   readonly technology?: string[];
   /**
   * only True is a valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#transfers_files ApplicationFilter#transfers_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#transfers_files ApplicationFilter#transfers_files}
   */
   readonly transfersFiles?: boolean | cdktf.IResolvable;
   /**
   * only True is a valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#tunnels_other_apps ApplicationFilter#tunnels_other_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#tunnels_other_apps ApplicationFilter#tunnels_other_apps}
   */
   readonly tunnelsOtherApps?: boolean | cdktf.IResolvable;
   /**
   * only True is a valid value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#used_by_malware ApplicationFilter#used_by_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#used_by_malware ApplicationFilter#used_by_malware}
   */
   readonly usedByMalware?: boolean | cdktf.IResolvable;
 }
 export interface ApplicationFilterTagging {
   /**
   * No tag
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `no_tag` and `tag`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#no_tag ApplicationFilter#no_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#no_tag ApplicationFilter#no_tag}
   */
   readonly noTag?: boolean | cdktf.IResolvable;
   /**
   * Tag
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `no_tag` and `tag`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#tag ApplicationFilter#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#tag ApplicationFilter#tag}
   */
   readonly tag?: string[];
 }
@@ -273,7 +283,7 @@ export class ApplicationFilterTaggingOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter scm_application_filter}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter scm_application_filter}
 */
 export class ApplicationFilter extends cdktf.TerraformResource {
 
@@ -289,7 +299,7 @@ export class ApplicationFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationFilter to import
-  * @param importFromId The id of the existing ApplicationFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +311,7 @@ export class ApplicationFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/application_filter scm_application_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_filter scm_application_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +322,8 @@ export class ApplicationFilter extends cdktf.TerraformResource {
       terraformResourceType: 'scm_application_filter',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

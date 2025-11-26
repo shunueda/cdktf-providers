@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EksClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#id EksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#id EksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface EksClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cluster EksCluster#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cluster EksCluster#cluster}
   */
   readonly cluster: EksClusterCluster;
   /**
   * cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cluster_config EksCluster#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cluster_config EksCluster#cluster_config}
   */
   readonly clusterConfig: EksClusterClusterConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#timeouts EksCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#timeouts EksCluster#timeouts}
   */
   readonly timeouts?: EksClusterTimeouts;
 }
@@ -37,19 +37,19 @@ export interface EksClusterClusterMetadata {
   /**
   * The labels for the cluster in Rafay console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#labels EksCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#labels EksCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the EKS cluster in Rafay console. This must be unique in your organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#name EksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#name EksCluster#name}
   */
   readonly name: string;
   /**
   * The name of the Rafay project the cluster will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#project EksCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#project EksCluster#project}
   */
   readonly project: string;
 }
@@ -187,13 +187,13 @@ export interface EksClusterClusterSpecCniParamsCustomCniCrdSpecCniSpec {
   /**
   * The security groups associated with secondary ENIs for AWS EC2 nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#security_groups EksCluster#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#security_groups EksCluster#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * The subnet associated with secondary ENIs for AWS EC2 nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#subnet EksCluster#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#subnet EksCluster#subnet}
   */
   readonly subnet?: string;
 }
@@ -308,13 +308,13 @@ export interface EksClusterClusterSpecCniParamsCustomCniCrdSpec {
   /**
   * The name of the Availability Zone (AZ). The availability zone specified here should be a part of the region specified for the EKS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#name EksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#name EksCluster#name}
   */
   readonly name: string;
   /**
   * cni_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cni_spec EksCluster#cni_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cni_spec EksCluster#cni_spec}
   */
   readonly cniSpec?: EksClusterClusterSpecCniParamsCustomCniCrdSpecCniSpec;
 }
@@ -458,13 +458,13 @@ export interface EksClusterClusterSpecCniParams {
   /**
   * Secondary IPv4 CIDR block for the VPC. This should be specified if you choose to auto-create VPC and subnets while creating the EKS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#custom_cni_cidr EksCluster#custom_cni_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#custom_cni_cidr EksCluster#custom_cni_cidr}
   */
   readonly customCniCidr?: string;
   /**
   * custom_cni_crd_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#custom_cni_crd_spec EksCluster#custom_cni_crd_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#custom_cni_crd_spec EksCluster#custom_cni_crd_spec}
   */
   readonly customCniCrdSpec?: EksClusterClusterSpecCniParamsCustomCniCrdSpec[] | cdktf.IResolvable;
 }
@@ -579,7 +579,7 @@ export interface EksClusterClusterSpecSharingProjects {
   /**
   * The name of the project to share the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#name EksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#name EksCluster#name}
   */
   readonly name: string;
 }
@@ -694,13 +694,13 @@ export interface EksClusterClusterSpecSharing {
   /**
   * Enable sharing for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#enabled EksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#enabled EksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#projects EksCluster#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#projects EksCluster#projects}
   */
   readonly projects?: EksClusterClusterSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -815,31 +815,31 @@ export interface EksClusterClusterSpecSystemComponentsPlacementDaemonsetOverride
   /**
   * indicates the taint effect to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#effect EksCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#effect EksCluster#effect}
   */
   readonly effect?: string;
   /**
   * the taint key that the toleration applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#key EksCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#key EksCluster#key}
   */
   readonly key?: string;
   /**
   * represents a key's relationship to the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#operator EksCluster#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#operator EksCluster#operator}
   */
   readonly operator?: string;
   /**
   * represents the period of time the toleration tolerates the taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#toleration_seconds EksCluster#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#toleration_seconds EksCluster#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * the taint value the toleration matches to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#value EksCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#value EksCluster#value}
   */
   readonly value?: string;
 }
@@ -1073,13 +1073,13 @@ export interface EksClusterClusterSpecSystemComponentsPlacementDaemonsetOverride
   /**
   * enables node selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#node_selection_enabled EksCluster#node_selection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#node_selection_enabled EksCluster#node_selection_enabled}
   */
   readonly nodeSelectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#tolerations EksCluster#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#tolerations EksCluster#tolerations}
   */
   readonly tolerations?: EksClusterClusterSpecSystemComponentsPlacementDaemonsetOverrideTolerations[] | cdktf.IResolvable;
 }
@@ -1226,31 +1226,31 @@ export interface EksClusterClusterSpecSystemComponentsPlacementTolerations {
   /**
   * indicates the taint effect to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#effect EksCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#effect EksCluster#effect}
   */
   readonly effect?: string;
   /**
   * the taint key that the toleration applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#key EksCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#key EksCluster#key}
   */
   readonly key?: string;
   /**
   * represents a key's relationship to the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#operator EksCluster#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#operator EksCluster#operator}
   */
   readonly operator?: string;
   /**
   * represents the period of time the toleration tolerates the taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#toleration_seconds EksCluster#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#toleration_seconds EksCluster#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * the taint value the toleration matches to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#value EksCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#value EksCluster#value}
   */
   readonly value?: string;
 }
@@ -1484,19 +1484,19 @@ export interface EksClusterClusterSpecSystemComponentsPlacement {
   /**
   * Key-Value pairs insuring pods to be scheduled on desired nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#node_selector EksCluster#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#node_selector EksCluster#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * daemonset_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#daemonset_override EksCluster#daemonset_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#daemonset_override EksCluster#daemonset_override}
   */
   readonly daemonsetOverride?: EksClusterClusterSpecSystemComponentsPlacementDaemonsetOverride[] | cdktf.IResolvable;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#tolerations EksCluster#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#tolerations EksCluster#tolerations}
   */
   readonly tolerations?: EksClusterClusterSpecSystemComponentsPlacementTolerations[] | cdktf.IResolvable;
 }
@@ -1640,61 +1640,61 @@ export interface EksClusterClusterSpec {
   /**
   * The blueprint associated with the cluster. A blueprint defines the configuration and policy. Use blueprints to help standardize cluster configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#blueprint EksCluster#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#blueprint EksCluster#blueprint}
   */
   readonly blueprint?: string;
   /**
   * The blueprint version associated with the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#blueprint_version EksCluster#blueprint_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#blueprint_version EksCluster#blueprint_version}
   */
   readonly blueprintVersion?: string;
   /**
   * The cloud credentials provider used to create and manage the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cloud_provider EksCluster#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cloud_provider EksCluster#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * The container network interface (CNI) provider used to specify different network connectivity options for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cni_provider EksCluster#cni_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cni_provider EksCluster#cni_provider}
   */
   readonly cniProvider?: string;
   /**
   * Role ARN of the linked account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cross_account_role_arn EksCluster#cross_account_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cross_account_role_arn EksCluster#cross_account_role_arn}
   */
   readonly crossAccountRoleArn?: string;
   /**
   * The proxy configuration for the cluster. Use this if the infrastructure uses an outbound proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#proxy_config EksCluster#proxy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#proxy_config EksCluster#proxy_config}
   */
   readonly proxyConfig?: { [key: string]: string };
   /**
   * The cluster type. Supported value is `eks`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#type EksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#type EksCluster#type}
   */
   readonly type?: string;
   /**
   * cni_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cni_params EksCluster#cni_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cni_params EksCluster#cni_params}
   */
   readonly cniParams?: EksClusterClusterSpecCniParams;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#sharing EksCluster#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#sharing EksCluster#sharing}
   */
   readonly sharing?: EksClusterClusterSpecSharing;
   /**
   * system_components_placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#system_components_placement EksCluster#system_components_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#system_components_placement EksCluster#system_components_placement}
   */
   readonly systemComponentsPlacement?: EksClusterClusterSpecSystemComponentsPlacement;
 }
@@ -2038,19 +2038,19 @@ export interface EksClusterCluster {
   /**
   * The type of resource. Supported value is `Cluster`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#kind EksCluster#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#kind EksCluster#kind}
   */
   readonly kind?: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#metadata EksCluster#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#metadata EksCluster#metadata}
   */
   readonly metadata: EksClusterClusterMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#spec EksCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#spec EksCluster#spec}
   */
   readonly spec: EksClusterClusterSpec;
 }
@@ -2188,13 +2188,13 @@ export interface EksClusterClusterConfigAccessConfigAccessEntriesAccessPoliciesA
   /**
   * Scope access to namespace(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#namespaces EksCluster#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#namespaces EksCluster#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * namespace or cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#type EksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#type EksCluster#type}
   */
   readonly type?: string;
 }
@@ -2341,13 +2341,13 @@ export interface EksClusterClusterConfigAccessConfigAccessEntriesAccessPolicies 
   /**
   * the ARN of the policy to attach to the access entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#policy_arn EksCluster#policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#policy_arn EksCluster#policy_arn}
   */
   readonly policyArn?: string;
   /**
   * access_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#access_scope EksCluster#access_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#access_scope EksCluster#access_scope}
   */
   readonly accessScope?: EksClusterClusterConfigAccessConfigAccessEntriesAccessPoliciesAccessScope[] | cdktf.IResolvable;
 }
@@ -2494,37 +2494,37 @@ export interface EksClusterClusterConfigAccessConfigAccessEntries {
   /**
   * set of Kubernetes groups to map to the principal ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#kubernetes_groups EksCluster#kubernetes_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#kubernetes_groups EksCluster#kubernetes_groups}
   */
   readonly kubernetesGroups?: string[];
   /**
   * username to map to the principal ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#kubernetes_username EksCluster#kubernetes_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#kubernetes_username EksCluster#kubernetes_username}
   */
   readonly kubernetesUsername?: string;
   /**
   * the IAM principal that you want to grant access to Kubernetes objects on your cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#principal_arn EksCluster#principal_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#principal_arn EksCluster#principal_arn}
   */
   readonly principalArn?: string;
   /**
   * applied to the access entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#tags EksCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#tags EksCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * EC2_LINUX, EC2_WINDOWS, FARGATE_LINUX or STANDARD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#type EksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#type EksCluster#type}
   */
   readonly type?: string;
   /**
   * access_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#access_policies EksCluster#access_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#access_policies EksCluster#access_policies}
   */
   readonly accessPolicies?: EksClusterClusterConfigAccessConfigAccessEntriesAccessPolicies[] | cdktf.IResolvable;
 }
@@ -2787,19 +2787,19 @@ export interface EksClusterClusterConfigAccessConfig {
   /**
   * configure which source the cluster will use for authenticated IAM principals. API or API_AND_CONFIG_MAP (default) or CONFIG_MAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#authentication_mode EksCluster#authentication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#authentication_mode EksCluster#authentication_mode}
   */
   readonly authenticationMode?: string;
   /**
   * choose whether the IAM principal creating the cluster has Kubernetes cluster administrator access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#bootstrap_cluster_creator_admin_permissions EksCluster#bootstrap_cluster_creator_admin_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#bootstrap_cluster_creator_admin_permissions EksCluster#bootstrap_cluster_creator_admin_permissions}
   */
   readonly bootstrapClusterCreatorAdminPermissions?: boolean | cdktf.IResolvable;
   /**
   * access_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#access_entries EksCluster#access_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#access_entries EksCluster#access_entries}
   */
   readonly accessEntries?: EksClusterClusterConfigAccessConfigAccessEntries[] | cdktf.IResolvable;
 }
@@ -2975,55 +2975,55 @@ export interface EksClusterClusterConfigAddonsAttachPolicyStatement {
   /**
   * Attach policy action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#action EksCluster#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#action EksCluster#action}
   */
   readonly action?: string[];
   /**
   * Attach policy Statement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#condition EksCluster#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#condition EksCluster#condition}
   */
   readonly condition?: string;
   /**
   * Attach policy effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#effect EksCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#effect EksCluster#effect}
   */
   readonly effect?: string;
   /**
   * Attach policy NotAction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#not_action EksCluster#not_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#not_action EksCluster#not_action}
   */
   readonly notAction?: string[];
   /**
   * Attach policy NotPrincipal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#not_principal EksCluster#not_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#not_principal EksCluster#not_principal}
   */
   readonly notPrincipal?: string;
   /**
   * Attach policy NotResource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#not_resource EksCluster#not_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#not_resource EksCluster#not_resource}
   */
   readonly notResource?: string[];
   /**
   * Attach policy principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#principal EksCluster#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#principal EksCluster#principal}
   */
   readonly principal?: string;
   /**
   * Attach policy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#resource EksCluster#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#resource EksCluster#resource}
   */
   readonly resource?: string;
   /**
   * Sid of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#sid EksCluster#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#sid EksCluster#sid}
   */
   readonly sid?: string;
 }
@@ -3373,7 +3373,7 @@ export interface EksClusterClusterConfigAddonsAttachPolicy {
   /**
   * Attach policy id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#id EksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#id EksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3382,13 +3382,13 @@ export interface EksClusterClusterConfigAddonsAttachPolicy {
   /**
   * Attach policy version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#version EksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#version EksCluster#version}
   */
   readonly version?: string;
   /**
   * statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#statement EksCluster#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#statement EksCluster#statement}
   */
   readonly statement?: EksClusterClusterConfigAddonsAttachPolicyStatement[] | cdktf.IResolvable;
 }
@@ -3564,43 +3564,43 @@ export interface EksClusterClusterConfigAddonsPodIdentityAssociationsWellKnownPo
   /**
   * service account annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#auto_scaler EksCluster#auto_scaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#auto_scaler EksCluster#auto_scaler}
   */
   readonly autoScaler?: boolean | cdktf.IResolvable;
   /**
   * adds policies for using the aws-load-balancer-controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#aws_load_balancer_controller EksCluster#aws_load_balancer_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#aws_load_balancer_controller EksCluster#aws_load_balancer_controller}
   */
   readonly awsLoadBalancerController?: boolean | cdktf.IResolvable;
   /**
   * adds cert-manager policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cert_manager EksCluster#cert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cert_manager EksCluster#cert_manager}
   */
   readonly certManager?: boolean | cdktf.IResolvable;
   /**
   * adds cert-manager policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ebs_csi_controller EksCluster#ebs_csi_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ebs_csi_controller EksCluster#ebs_csi_controller}
   */
   readonly ebsCsiController?: boolean | cdktf.IResolvable;
   /**
   * adds policies for using the ebs-csi-controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#efs_csi_controller EksCluster#efs_csi_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#efs_csi_controller EksCluster#efs_csi_controller}
   */
   readonly efsCsiController?: boolean | cdktf.IResolvable;
   /**
   * adds external-dns policies for Amazon Route 53.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#external_dns EksCluster#external_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#external_dns EksCluster#external_dns}
   */
   readonly externalDns?: boolean | cdktf.IResolvable;
   /**
   * allows for full ECR (Elastic Container Registry) access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#image_builder EksCluster#image_builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#image_builder EksCluster#image_builder}
   */
   readonly imageBuilder?: boolean | cdktf.IResolvable;
 }
@@ -3892,61 +3892,61 @@ export interface EksClusterClusterConfigAddonsPodIdentityAssociations {
   /**
   * enable flag to create service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#create_service_account EksCluster#create_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#create_service_account EksCluster#create_service_account}
   */
   readonly createServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * namespace of service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#namespace EksCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#namespace EksCluster#namespace}
   */
   readonly namespace: string;
   /**
   * permission boundary ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#permission_boundary_arn EksCluster#permission_boundary_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#permission_boundary_arn EksCluster#permission_boundary_arn}
   */
   readonly permissionBoundaryArn?: string;
   /**
   * permission policy document
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#permission_policy EksCluster#permission_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#permission_policy EksCluster#permission_policy}
   */
   readonly permissionPolicy?: string;
   /**
   * permission policy ARNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#permission_policy_arns EksCluster#permission_policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#permission_policy_arns EksCluster#permission_policy_arns}
   */
   readonly permissionPolicyArns?: string[];
   /**
   * role ARN of AWS role to associate with service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#role_arn EksCluster#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#role_arn EksCluster#role_arn}
   */
   readonly roleArn?: string;
   /**
   * aws role name to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#role_name EksCluster#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#role_name EksCluster#role_name}
   */
   readonly roleName?: string;
   /**
   * name of service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#service_account_name EksCluster#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#service_account_name EksCluster#service_account_name}
   */
   readonly serviceAccountName: string;
   /**
   * AWS tags for the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#tags EksCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#tags EksCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * well_known_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#well_known_policies EksCluster#well_known_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#well_known_policies EksCluster#well_known_policies}
   */
   readonly wellKnownPolicies?: EksClusterClusterConfigAddonsPodIdentityAssociationsWellKnownPolicies[] | cdktf.IResolvable;
 }
@@ -4319,43 +4319,43 @@ export interface EksClusterClusterConfigAddonsWellKnownPolicies {
   /**
   * service account annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#auto_scaler EksCluster#auto_scaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#auto_scaler EksCluster#auto_scaler}
   */
   readonly autoScaler?: boolean | cdktf.IResolvable;
   /**
   * adds policies for using the aws-load-balancer-controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#aws_load_balancer_controller EksCluster#aws_load_balancer_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#aws_load_balancer_controller EksCluster#aws_load_balancer_controller}
   */
   readonly awsLoadBalancerController?: boolean | cdktf.IResolvable;
   /**
   * adds cert-manager policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cert_manager EksCluster#cert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cert_manager EksCluster#cert_manager}
   */
   readonly certManager?: boolean | cdktf.IResolvable;
   /**
   * adds cert-manager policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ebs_csi_controller EksCluster#ebs_csi_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ebs_csi_controller EksCluster#ebs_csi_controller}
   */
   readonly ebsCsiController?: boolean | cdktf.IResolvable;
   /**
   * adds policies for using the ebs-csi-controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#efs_csi_controller EksCluster#efs_csi_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#efs_csi_controller EksCluster#efs_csi_controller}
   */
   readonly efsCsiController?: boolean | cdktf.IResolvable;
   /**
   * adds external-dns policies for Amazon Route 53.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#external_dns EksCluster#external_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#external_dns EksCluster#external_dns}
   */
   readonly externalDns?: boolean | cdktf.IResolvable;
   /**
   * allows for full ECR (Elastic Container Registry) access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#image_builder EksCluster#image_builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#image_builder EksCluster#image_builder}
   */
   readonly imageBuilder?: boolean | cdktf.IResolvable;
 }
@@ -4647,73 +4647,73 @@ export interface EksClusterClusterConfigAddons {
   /**
   * list of ARNs of the IAM policies to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_policy_arns EksCluster#attach_policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_policy_arns EksCluster#attach_policy_arns}
   */
   readonly attachPolicyArns?: string[];
   /**
   * holds a policy document to attach to this addon in json string format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_policy_v2 EksCluster#attach_policy_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_policy_v2 EksCluster#attach_policy_v2}
   */
   readonly attachPolicyV2?: string;
   /**
   * configuration values for the addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#configuration_values EksCluster#configuration_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#configuration_values EksCluster#configuration_values}
   */
   readonly configurationValues?: string;
   /**
   * EKS addon name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#name EksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#name EksCluster#name}
   */
   readonly name: string;
   /**
   * ARN of the permissions boundary to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#permissions_boundary EksCluster#permissions_boundary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#permissions_boundary EksCluster#permissions_boundary}
   */
   readonly permissionsBoundary?: string;
   /**
   * service account role ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#service_account_role_arn EksCluster#service_account_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#service_account_role_arn EksCluster#service_account_role_arn}
   */
   readonly serviceAccountRoleArn?: string;
   /**
   * The metadata to apply to the cluster to assist with categorization and organization. Each tag consists of a key and an optional value, both of which you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#tags EksCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#tags EksCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Flag to create pod identity association by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#use_default_pod_identity_associations EksCluster#use_default_pod_identity_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#use_default_pod_identity_associations EksCluster#use_default_pod_identity_associations}
   */
   readonly useDefaultPodIdentityAssociations?: boolean | cdktf.IResolvable;
   /**
   * EKS addon version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#version EksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#version EksCluster#version}
   */
   readonly version?: string;
   /**
   * attach_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_policy EksCluster#attach_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_policy EksCluster#attach_policy}
   */
   readonly attachPolicy?: EksClusterClusterConfigAddonsAttachPolicy[] | cdktf.IResolvable;
   /**
   * pod_identity_associations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#pod_identity_associations EksCluster#pod_identity_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#pod_identity_associations EksCluster#pod_identity_associations}
   */
   readonly podIdentityAssociations?: EksClusterClusterConfigAddonsPodIdentityAssociations[] | cdktf.IResolvable;
   /**
   * well_known_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#well_known_policies EksCluster#well_known_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#well_known_policies EksCluster#well_known_policies}
   */
   readonly wellKnownPolicies?: EksClusterClusterConfigAddonsWellKnownPolicies[] | cdktf.IResolvable;
 }
@@ -5147,13 +5147,13 @@ export interface EksClusterClusterConfigAddonsConfig {
   /**
   * Flag to create pod identity by default for managed addons
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#auto_apply_pod_identity_associations EksCluster#auto_apply_pod_identity_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#auto_apply_pod_identity_associations EksCluster#auto_apply_pod_identity_associations}
   */
   readonly autoApplyPodIdentityAssociations?: boolean | cdktf.IResolvable;
   /**
   * flag to enable or disable ebs csi driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#disable_ebs_csi_driver EksCluster#disable_ebs_csi_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#disable_ebs_csi_driver EksCluster#disable_ebs_csi_driver}
   */
   readonly disableEbsCsiDriver?: boolean | cdktf.IResolvable;
 }
@@ -5300,19 +5300,19 @@ export interface EksClusterClusterConfigAutoModeConfig {
   /**
   * Enable auto mode in EKS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#enabled EksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#enabled EksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of default nodepools (general-purpose,system)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#node_pools EksCluster#node_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#node_pools EksCluster#node_pools}
   */
   readonly nodePools?: string[];
   /**
   * RoleARN of the nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#node_role_arn EksCluster#node_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#node_role_arn EksCluster#node_role_arn}
   */
   readonly nodeRoleArn?: string;
 }
@@ -5488,13 +5488,13 @@ export interface EksClusterClusterConfigCloudWatchClusterLogging {
   /**
   * Types of logging to enable. Valid entries are: 'api', 'audit', 'authenticator', 'controllerManager', 'scheduler', 'all', '*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#enable_types EksCluster#enable_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#enable_types EksCluster#enable_types}
   */
   readonly enableTypes?: string[];
   /**
   * The number of days you want to retain log events in the specified log group. Possible values are: 1, 3, 5, 7, 14, 30, 60, 90, 120, 150, 180, 365, 400, 545, 731, 1827, and 3653.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#log_retention_in_days EksCluster#log_retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#log_retention_in_days EksCluster#log_retention_in_days}
   */
   readonly logRetentionInDays?: number;
 }
@@ -5641,7 +5641,7 @@ export interface EksClusterClusterConfigCloudWatch {
   /**
   * cluster_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cluster_logging EksCluster#cluster_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cluster_logging EksCluster#cluster_logging}
   */
   readonly clusterLogging?: EksClusterClusterConfigCloudWatchClusterLogging[] | cdktf.IResolvable;
 }
@@ -5759,13 +5759,13 @@ export interface EksClusterClusterConfigFargateProfilesSelectors {
   /**
   * Kubernetes label selectors to use to select workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#labels EksCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#labels EksCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Kubernetes namespace from which to select workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#namespace EksCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#namespace EksCluster#namespace}
   */
   readonly namespace?: string;
 }
@@ -5912,37 +5912,37 @@ export interface EksClusterClusterConfigFargateProfiles {
   /**
   * name of the fargate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#name EksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#name EksCluster#name}
   */
   readonly name?: string;
   /**
   * IAM role's ARN to use to run pods onto Fargate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#pod_execution_role_arn EksCluster#pod_execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#pod_execution_role_arn EksCluster#pod_execution_role_arn}
   */
   readonly podExecutionRoleArn?: string;
   /**
   * The current status of the Fargate profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#status EksCluster#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#status EksCluster#status}
   */
   readonly status?: string;
   /**
   * define the rules to select workload to schedule onto Fargate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#subnets EksCluster#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#subnets EksCluster#subnets}
   */
   readonly subnets?: string[];
   /**
   * Used to tag the AWS resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#tags EksCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#tags EksCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#selectors EksCluster#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#selectors EksCluster#selectors}
   */
   readonly selectors?: EksClusterClusterConfigFargateProfilesSelectors[] | cdktf.IResolvable;
 }
@@ -6205,43 +6205,43 @@ export interface EksClusterClusterConfigIamPodIdentityAssociationsWellKnownPolic
   /**
   * service account annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#auto_scaler EksCluster#auto_scaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#auto_scaler EksCluster#auto_scaler}
   */
   readonly autoScaler?: boolean | cdktf.IResolvable;
   /**
   * adds policies for using the aws-load-balancer-controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#aws_load_balancer_controller EksCluster#aws_load_balancer_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#aws_load_balancer_controller EksCluster#aws_load_balancer_controller}
   */
   readonly awsLoadBalancerController?: boolean | cdktf.IResolvable;
   /**
   * adds cert-manager policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cert_manager EksCluster#cert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cert_manager EksCluster#cert_manager}
   */
   readonly certManager?: boolean | cdktf.IResolvable;
   /**
   * adds cert-manager policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ebs_csi_controller EksCluster#ebs_csi_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ebs_csi_controller EksCluster#ebs_csi_controller}
   */
   readonly ebsCsiController?: boolean | cdktf.IResolvable;
   /**
   * adds policies for using the ebs-csi-controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#efs_csi_controller EksCluster#efs_csi_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#efs_csi_controller EksCluster#efs_csi_controller}
   */
   readonly efsCsiController?: boolean | cdktf.IResolvable;
   /**
   * adds external-dns policies for Amazon Route 53.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#external_dns EksCluster#external_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#external_dns EksCluster#external_dns}
   */
   readonly externalDns?: boolean | cdktf.IResolvable;
   /**
   * allows for full ECR (Elastic Container Registry) access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#image_builder EksCluster#image_builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#image_builder EksCluster#image_builder}
   */
   readonly imageBuilder?: boolean | cdktf.IResolvable;
 }
@@ -6533,61 +6533,61 @@ export interface EksClusterClusterConfigIamPodIdentityAssociations {
   /**
   * enable flag to create service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#create_service_account EksCluster#create_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#create_service_account EksCluster#create_service_account}
   */
   readonly createServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * namespace of service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#namespace EksCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#namespace EksCluster#namespace}
   */
   readonly namespace: string;
   /**
   * permission boundary ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#permission_boundary_arn EksCluster#permission_boundary_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#permission_boundary_arn EksCluster#permission_boundary_arn}
   */
   readonly permissionBoundaryArn?: string;
   /**
   * permission policy document
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#permission_policy EksCluster#permission_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#permission_policy EksCluster#permission_policy}
   */
   readonly permissionPolicy?: string;
   /**
   * permission policy ARNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#permission_policy_arns EksCluster#permission_policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#permission_policy_arns EksCluster#permission_policy_arns}
   */
   readonly permissionPolicyArns?: string[];
   /**
   * role ARN of AWS role to associate with service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#role_arn EksCluster#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#role_arn EksCluster#role_arn}
   */
   readonly roleArn?: string;
   /**
   * aws role name to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#role_name EksCluster#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#role_name EksCluster#role_name}
   */
   readonly roleName?: string;
   /**
   * name of service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#service_account_name EksCluster#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#service_account_name EksCluster#service_account_name}
   */
   readonly serviceAccountName: string;
   /**
   * AWS tags for the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#tags EksCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#tags EksCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * well_known_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#well_known_policies EksCluster#well_known_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#well_known_policies EksCluster#well_known_policies}
   */
   readonly wellKnownPolicies?: EksClusterClusterConfigIamPodIdentityAssociationsWellKnownPolicies[] | cdktf.IResolvable;
 }
@@ -6960,25 +6960,25 @@ export interface EksClusterClusterConfigIamServiceAccountsMetadata {
   /**
   * CIDR range from where ClusterIPs are assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#annotations EksCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#annotations EksCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * CIDR range from where ClusterIPs are assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#labels EksCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#labels EksCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * service account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#name EksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#name EksCluster#name}
   */
   readonly name?: string;
   /**
   * service account namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#namespace EksCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#namespace EksCluster#namespace}
   */
   readonly namespace?: string;
 }
@@ -7183,7 +7183,7 @@ export interface EksClusterClusterConfigIamServiceAccountsStatus {
   /**
   * role ARN associated with the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#role_arn EksCluster#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#role_arn EksCluster#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -7301,43 +7301,43 @@ export interface EksClusterClusterConfigIamServiceAccountsWellKnownPolicies {
   /**
   * service account annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#auto_scaler EksCluster#auto_scaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#auto_scaler EksCluster#auto_scaler}
   */
   readonly autoScaler?: boolean | cdktf.IResolvable;
   /**
   * adds policies for using the aws-load-balancer-controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#aws_load_balancer_controller EksCluster#aws_load_balancer_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#aws_load_balancer_controller EksCluster#aws_load_balancer_controller}
   */
   readonly awsLoadBalancerController?: boolean | cdktf.IResolvable;
   /**
   * adds cert-manager policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cert_manager EksCluster#cert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cert_manager EksCluster#cert_manager}
   */
   readonly certManager?: boolean | cdktf.IResolvable;
   /**
   * adds cert-manager policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ebs_csi_controller EksCluster#ebs_csi_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ebs_csi_controller EksCluster#ebs_csi_controller}
   */
   readonly ebsCsiController?: boolean | cdktf.IResolvable;
   /**
   * adds policies for using the ebs-csi-controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#efs_csi_controller EksCluster#efs_csi_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#efs_csi_controller EksCluster#efs_csi_controller}
   */
   readonly efsCsiController?: boolean | cdktf.IResolvable;
   /**
   * adds external-dns policies for Amazon Route 53.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#external_dns EksCluster#external_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#external_dns EksCluster#external_dns}
   */
   readonly externalDns?: boolean | cdktf.IResolvable;
   /**
   * allows for full ECR (Elastic Container Registry) access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#image_builder EksCluster#image_builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#image_builder EksCluster#image_builder}
   */
   readonly imageBuilder?: boolean | cdktf.IResolvable;
 }
@@ -7629,61 +7629,61 @@ export interface EksClusterClusterConfigIamServiceAccounts {
   /**
   * holds a policy document to attach to this service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_policy EksCluster#attach_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_policy EksCluster#attach_policy}
   */
   readonly attachPolicy?: string;
   /**
   * CIDR range from where ClusterIPs are assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_policy_arns EksCluster#attach_policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_policy_arns EksCluster#attach_policy_arns}
   */
   readonly attachPolicyArns?: string[];
   /**
   * ARN of the role to attach to the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_role_arn EksCluster#attach_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_role_arn EksCluster#attach_role_arn}
   */
   readonly attachRoleArn?: string;
   /**
   * ARN of the permissions boundary to associate with the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#permissions_boundary EksCluster#permissions_boundary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#permissions_boundary EksCluster#permissions_boundary}
   */
   readonly permissionsBoundary?: string;
   /**
   * Specific role name instead of the Cloudformation-generated role name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#role_name EksCluster#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#role_name EksCluster#role_name}
   */
   readonly roleName?: string;
   /**
   * Specify if only the IAM Service Account role should be created without creating/annotating the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#role_only EksCluster#role_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#role_only EksCluster#role_only}
   */
   readonly roleOnly?: boolean | cdktf.IResolvable;
   /**
   * AWS tags for the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#tags EksCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#tags EksCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#metadata EksCluster#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#metadata EksCluster#metadata}
   */
   readonly metadata?: EksClusterClusterConfigIamServiceAccountsMetadata[] | cdktf.IResolvable;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#status EksCluster#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#status EksCluster#status}
   */
   readonly status?: EksClusterClusterConfigIamServiceAccountsStatus[] | cdktf.IResolvable;
   /**
   * well_known_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#well_known_policies EksCluster#well_known_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#well_known_policies EksCluster#well_known_policies}
   */
   readonly wellKnownPolicies?: EksClusterClusterConfigIamServiceAccountsWellKnownPolicies[] | cdktf.IResolvable;
 }
@@ -8062,49 +8062,49 @@ export interface EksClusterClusterConfigIam {
   /**
   * role used by pods to access AWS APIs. This role is added to the Kubernetes RBAC for authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#fargate_pod_execution_role_arn EksCluster#fargate_pod_execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#fargate_pod_execution_role_arn EksCluster#fargate_pod_execution_role_arn}
   */
   readonly fargatePodExecutionRoleArn?: string;
   /**
   * permissions boundary for the fargate pod execution role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#fargate_pod_execution_role_permissions_boundary EksCluster#fargate_pod_execution_role_permissions_boundary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#fargate_pod_execution_role_permissions_boundary EksCluster#fargate_pod_execution_role_permissions_boundary}
   */
   readonly fargatePodExecutionRolePermissionsBoundary?: string;
   /**
   * service role ARN of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#service_role_arn EksCluster#service_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#service_role_arn EksCluster#service_role_arn}
   */
   readonly serviceRoleArn?: string;
   /**
   * permissions boundary for all identity-based entities created by the vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#service_role_permission_boundary EksCluster#service_role_permission_boundary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#service_role_permission_boundary EksCluster#service_role_permission_boundary}
   */
   readonly serviceRolePermissionBoundary?: string;
   /**
   * attaches the IAM policy necessary to run the VPC controller in the control plane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#vpc_resource_controller_policy EksCluster#vpc_resource_controller_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#vpc_resource_controller_policy EksCluster#vpc_resource_controller_policy}
   */
   readonly vpcResourceControllerPolicy?: boolean | cdktf.IResolvable;
   /**
   * enables the IAM OIDC provider as well as IRSA for the Amazon CNI plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#with_oidc EksCluster#with_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#with_oidc EksCluster#with_oidc}
   */
   readonly withOidc?: boolean | cdktf.IResolvable;
   /**
   * pod_identity_associations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#pod_identity_associations EksCluster#pod_identity_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#pod_identity_associations EksCluster#pod_identity_associations}
   */
   readonly podIdentityAssociations?: EksClusterClusterConfigIamPodIdentityAssociations[] | cdktf.IResolvable;
   /**
   * service_accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#service_accounts EksCluster#service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#service_accounts EksCluster#service_accounts}
   */
   readonly serviceAccounts?: EksClusterClusterConfigIamServiceAccounts[] | cdktf.IResolvable;
 }
@@ -8425,19 +8425,19 @@ export interface EksClusterClusterConfigIdentityMappingsArns {
   /**
   * ARN of user/role to be mapped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#arn EksCluster#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#arn EksCluster#arn}
   */
   readonly arn?: string;
   /**
   * List of kubernetes groups to be mapped to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#group EksCluster#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#group EksCluster#group}
   */
   readonly group?: string[];
   /**
   * The username to be used by kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#username EksCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#username EksCluster#username}
   */
   readonly username?: string;
 }
@@ -8613,13 +8613,13 @@ export interface EksClusterClusterConfigIdentityMappings {
   /**
   * List of IAM accounts to map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#accounts EksCluster#accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#accounts EksCluster#accounts}
   */
   readonly accounts?: string[];
   /**
   * arns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#arns EksCluster#arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#arns EksCluster#arns}
   */
   readonly arns?: EksClusterClusterConfigIdentityMappingsArns[] | cdktf.IResolvable;
 }
@@ -8766,7 +8766,7 @@ export interface EksClusterClusterConfigIdentityProviders {
   /**
   * Valid variants are: 'oidc': OIDC identity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#type EksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#type EksCluster#type}
   */
   readonly type?: string;
 }
@@ -8884,13 +8884,13 @@ export interface EksClusterClusterConfigKubernetesNetworkConfig {
   /**
   * Valid variants are: 'IPv4' defines an IP family of v4 to be used when creating a new VPC and cluster., 'IPv6' defines an IP family of v6 to be used when creating a new VPC and cluster..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ip_family EksCluster#ip_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ip_family EksCluster#ip_family}
   */
   readonly ipFamily?: string;
   /**
   * CIDR range from where ClusterIPs are assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#service_ipv4_cidr EksCluster#service_ipv4_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#service_ipv4_cidr EksCluster#service_ipv4_cidr}
   */
   readonly serviceIpv4Cidr?: string;
 }
@@ -9037,13 +9037,13 @@ export interface EksClusterClusterConfigManagedNodegroupsBottleRocket {
   /**
   * Enable admin container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#enable_admin_container EksCluster#enable_admin_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#enable_admin_container EksCluster#enable_admin_container}
   */
   readonly enableAdminContainer?: boolean | cdktf.IResolvable;
   /**
   * contains any bottlerocket settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#settings EksCluster#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#settings EksCluster#settings}
   */
   readonly settings?: string;
 }
@@ -9190,55 +9190,55 @@ export interface EksClusterClusterConfigManagedNodegroupsIamAttachPolicyStatemen
   /**
   * Attach policy action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#action EksCluster#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#action EksCluster#action}
   */
   readonly action?: string[];
   /**
   * Attach policy Statement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#condition EksCluster#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#condition EksCluster#condition}
   */
   readonly condition?: string;
   /**
   * Attach policy effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#effect EksCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#effect EksCluster#effect}
   */
   readonly effect?: string;
   /**
   * Attach policy NotAction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#not_action EksCluster#not_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#not_action EksCluster#not_action}
   */
   readonly notAction?: string[];
   /**
   * Attach policy NotPrincipal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#not_principal EksCluster#not_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#not_principal EksCluster#not_principal}
   */
   readonly notPrincipal?: string;
   /**
   * Attach policy NotResource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#not_resource EksCluster#not_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#not_resource EksCluster#not_resource}
   */
   readonly notResource?: string[];
   /**
   * Attach policy principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#principal EksCluster#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#principal EksCluster#principal}
   */
   readonly principal?: string;
   /**
   * Attach policy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#resource EksCluster#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#resource EksCluster#resource}
   */
   readonly resource?: string;
   /**
   * Sid of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#sid EksCluster#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#sid EksCluster#sid}
   */
   readonly sid?: string;
 }
@@ -9588,7 +9588,7 @@ export interface EksClusterClusterConfigManagedNodegroupsIamAttachPolicy {
   /**
   * Attach policy id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#id EksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#id EksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -9597,13 +9597,13 @@ export interface EksClusterClusterConfigManagedNodegroupsIamAttachPolicy {
   /**
   * Attach policy version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#version EksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#version EksCluster#version}
   */
   readonly version?: string;
   /**
   * statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#statement EksCluster#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#statement EksCluster#statement}
   */
   readonly statement?: EksClusterClusterConfigManagedNodegroupsIamAttachPolicyStatement[] | cdktf.IResolvable;
 }
@@ -9779,73 +9779,73 @@ export interface EksClusterClusterConfigManagedNodegroupsIamIamNodeGroupWithAddo
   /**
   * enables access to ALB Ingress controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#alb_ingress EksCluster#alb_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#alb_ingress EksCluster#alb_ingress}
   */
   readonly albIngress?: boolean | cdktf.IResolvable;
   /**
   * enables full access to AppMesh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#app_mesh EksCluster#app_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#app_mesh EksCluster#app_mesh}
   */
   readonly appMesh?: boolean | cdktf.IResolvable;
   /**
   * enables full access to AppMesh Preview
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#app_mesh_review EksCluster#app_mesh_review}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#app_mesh_review EksCluster#app_mesh_review}
   */
   readonly appMeshReview?: boolean | cdktf.IResolvable;
   /**
   * enables IAM policy for cluster-autoscaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#auto_scaler EksCluster#auto_scaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#auto_scaler EksCluster#auto_scaler}
   */
   readonly autoScaler?: boolean | cdktf.IResolvable;
   /**
   * enables the ability to add records to Route 53 in order to solve the DNS01 challenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cert_manager EksCluster#cert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cert_manager EksCluster#cert_manager}
   */
   readonly certManager?: boolean | cdktf.IResolvable;
   /**
   * enables access to cloud watch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cloud_watch EksCluster#cloud_watch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cloud_watch EksCluster#cloud_watch}
   */
   readonly cloudWatch?: boolean | cdktf.IResolvable;
   /**
   * enables the new EBS CSI (Elastic Block Store Container Storage Interface) driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ebs EksCluster#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ebs EksCluster#ebs}
   */
   readonly ebs?: boolean | cdktf.IResolvable;
   /**
   * enables full access to EFS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#efs EksCluster#efs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#efs EksCluster#efs}
   */
   readonly efs?: boolean | cdktf.IResolvable;
   /**
   * adds the external-dns project policies for Amazon Route 53
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#external_dns EksCluster#external_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#external_dns EksCluster#external_dns}
   */
   readonly externalDns?: boolean | cdktf.IResolvable;
   /**
   * enables full access to FSX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#fsx EksCluster#fsx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#fsx EksCluster#fsx}
   */
   readonly fsx?: boolean | cdktf.IResolvable;
   /**
   * allows for full ECR (Elastic Container Registry) access. This is useful for building, for example, a CI server that needs to push images to ECR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#image_builder EksCluster#image_builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#image_builder EksCluster#image_builder}
   */
   readonly imageBuilder?: boolean | cdktf.IResolvable;
   /**
   * enables access to XRay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#xray EksCluster#xray}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#xray EksCluster#xray}
   */
   readonly xray?: boolean | cdktf.IResolvable;
 }
@@ -10282,49 +10282,49 @@ export interface EksClusterClusterConfigManagedNodegroupsIam {
   /**
   * attach polciy ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_policy_arns EksCluster#attach_policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_policy_arns EksCluster#attach_policy_arns}
   */
   readonly attachPolicyArns?: string[];
   /**
   * attach policy in json string format 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_policy_v2 EksCluster#attach_policy_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_policy_v2 EksCluster#attach_policy_v2}
   */
   readonly attachPolicyV2?: string;
   /**
   * instance profile ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_profile_arn EksCluster#instance_profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_profile_arn EksCluster#instance_profile_arn}
   */
   readonly instanceProfileArn?: string;
   /**
   * instance role ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_role_arn EksCluster#instance_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_role_arn EksCluster#instance_role_arn}
   */
   readonly instanceRoleArn?: string;
   /**
   * instance role Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_role_name EksCluster#instance_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_role_name EksCluster#instance_role_name}
   */
   readonly instanceRoleName?: string;
   /**
   * instance role permissions boundary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_role_permission_boundary EksCluster#instance_role_permission_boundary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_role_permission_boundary EksCluster#instance_role_permission_boundary}
   */
   readonly instanceRolePermissionBoundary?: string;
   /**
   * attach_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_policy EksCluster#attach_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_policy EksCluster#attach_policy}
   */
   readonly attachPolicy?: EksClusterClusterConfigManagedNodegroupsIamAttachPolicy[] | cdktf.IResolvable;
   /**
   * iam_node_group_with_addon_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#iam_node_group_with_addon_policies EksCluster#iam_node_group_with_addon_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#iam_node_group_with_addon_policies EksCluster#iam_node_group_with_addon_policies}
   */
   readonly iamNodeGroupWithAddonPolicies?: EksClusterClusterConfigManagedNodegroupsIamIamNodeGroupWithAddonPolicies[] | cdktf.IResolvable;
 }
@@ -10645,25 +10645,25 @@ export interface EksClusterClusterConfigManagedNodegroupsInstanceSelector {
   /**
   * CPU Architecture of the EC2 instance type. Valid variants are: 'x86_64' 'amd64' 'arm64'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cpu_architecture EksCluster#cpu_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cpu_architecture EksCluster#cpu_architecture}
   */
   readonly cpuArchitecture?: string;
   /**
   * specifies the number of GPUs. It can be set to 0 to select non-GPU instance types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#gpus EksCluster#gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#gpus EksCluster#gpus}
   */
   readonly gpus?: number;
   /**
   * specifies the memory The unit defaults to GiB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#memory EksCluster#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#memory EksCluster#memory}
   */
   readonly memory?: string;
   /**
   * specifies the number of vCPUs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#vcpus EksCluster#vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#vcpus EksCluster#vcpus}
   */
   readonly vcpus?: number;
 }
@@ -10868,7 +10868,7 @@ export interface EksClusterClusterConfigManagedNodegroupsLaunchTemplate {
   /**
   * key of taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#id EksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#id EksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10877,7 +10877,7 @@ export interface EksClusterClusterConfigManagedNodegroupsLaunchTemplate {
   /**
   * value of taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#version EksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#version EksCluster#version}
   */
   readonly version?: string;
 }
@@ -11024,7 +11024,7 @@ export interface EksClusterClusterConfigManagedNodegroupsPlacement {
   /**
   * placement group name 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#group EksCluster#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#group EksCluster#group}
   */
   readonly group?: string;
 }
@@ -11142,19 +11142,19 @@ export interface EksClusterClusterConfigManagedNodegroupsSecurityGroups {
   /**
   * attaches additional security groups to the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_ids EksCluster#attach_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_ids EksCluster#attach_ids}
   */
   readonly attachIds?: string[];
   /**
   * attach a security group local to this nodegroup Not supported for managed nodegroups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#with_local EksCluster#with_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#with_local EksCluster#with_local}
   */
   readonly withLocal?: boolean | cdktf.IResolvable;
   /**
   * attach the security group shared among all nodegroups in the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#with_shared EksCluster#with_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#with_shared EksCluster#with_shared}
   */
   readonly withShared?: boolean | cdktf.IResolvable;
 }
@@ -11330,31 +11330,31 @@ export interface EksClusterClusterConfigManagedNodegroupsSsh {
   /**
   * If Allow is true the SSH configuration provided is used, otherwise it is ignored. Only one of PublicKeyPath, PublicKey and PublicKeyName can be configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#allow EksCluster#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#allow EksCluster#allow}
   */
   readonly allow?: boolean | cdktf.IResolvable;
   /**
   * Enables the ability to SSH onto nodes using SSM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#enable_ssm EksCluster#enable_ssm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#enable_ssm EksCluster#enable_ssm}
   */
   readonly enableSsm?: boolean | cdktf.IResolvable;
   /**
   * Public key to be added to the nodes SSH keychain. If Allow is false this value is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#public_key EksCluster#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#public_key EksCluster#public_key}
   */
   readonly publicKey?: string;
   /**
   * Public key name in EC2 to be added to the nodes SSH keychain. If Allow is false this value is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#public_key_name EksCluster#public_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#public_key_name EksCluster#public_key_name}
   */
   readonly publicKeyName?: string;
   /**
   * source securitgy group IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#source_security_group_ids EksCluster#source_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#source_security_group_ids EksCluster#source_security_group_ids}
   */
   readonly sourceSecurityGroupIds?: string[];
 }
@@ -11588,19 +11588,19 @@ export interface EksClusterClusterConfigManagedNodegroupsTaints {
   /**
   * effect of taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#effect EksCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#effect EksCluster#effect}
   */
   readonly effect?: string;
   /**
   * key of taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#key EksCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#key EksCluster#key}
   */
   readonly key?: string;
   /**
   * value of taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#value EksCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#value EksCluster#value}
   */
   readonly value?: string;
 }
@@ -11776,13 +11776,13 @@ export interface EksClusterClusterConfigManagedNodegroupsUpdateConfig {
   /**
   * sets the max number of nodes that can become unavailable when updating a nodegroup (specified as number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#max_unavailable EksCluster#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#max_unavailable EksCluster#max_unavailable}
   */
   readonly maxUnavailable?: number;
   /**
   * sets the max number of nodes that can become unavailable when updating a nodegroup (specified as percentage)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#max_unavailable_percentage EksCluster#max_unavailable_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#max_unavailable_percentage EksCluster#max_unavailable_percentage}
   */
   readonly maxUnavailablePercentage?: number;
 }
@@ -11929,253 +11929,253 @@ export interface EksClusterClusterConfigManagedNodegroups {
   /**
   * Specify custom AMIs, auto-ssm, auto, or static
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ami EksCluster#ami}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ami EksCluster#ami}
   */
   readonly ami?: string;
   /**
   * Valid variants are: 'AmazonLinux2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ami_family EksCluster#ami_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ami_family EksCluster#ami_family}
   */
   readonly amiFamily?: string;
   /**
   * See relevant AWS docs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#asg_suspend_processes EksCluster#asg_suspend_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#asg_suspend_processes EksCluster#asg_suspend_processes}
   */
   readonly asgSuspendProcesses?: string[];
   /**
   * Limit nodes to specific AZs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#availability_zones EksCluster#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#availability_zones EksCluster#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * desired capacity of instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#desired_capacity EksCluster#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#desired_capacity EksCluster#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
   * requires requests to the metadata service to use IMDSv2 tokens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#disable_imdsv1 EksCluster#disable_imdsv1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#disable_imdsv1 EksCluster#disable_imdsv1}
   */
   readonly disableImdsv1?: boolean | cdktf.IResolvable;
   /**
   * blocks all IMDS requests from non host networking pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#disable_pods_imds EksCluster#disable_pods_imds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#disable_pods_imds EksCluster#disable_pods_imds}
   */
   readonly disablePodsImds?: boolean | cdktf.IResolvable;
   /**
   * enables EBS optimization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ebs_optimized EksCluster#ebs_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ebs_optimized EksCluster#ebs_optimized}
   */
   readonly ebsOptimized?: boolean | cdktf.IResolvable;
   /**
   * creates the maximum allowed number of EFA-enabled network cards on nodes in this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#efa_enabled EksCluster#efa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#efa_enabled EksCluster#efa_enabled}
   */
   readonly efaEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable EC2 detailed monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#enable_detailed_monitoring EksCluster#enable_detailed_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#enable_detailed_monitoring EksCluster#enable_detailed_monitoring}
   */
   readonly enableDetailedMonitoring?: boolean | cdktf.IResolvable;
   /**
   * for instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_name EksCluster#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_name EksCluster#instance_name}
   */
   readonly instanceName?: string;
   /**
   * for instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_prefix EksCluster#instance_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_prefix EksCluster#instance_prefix}
   */
   readonly instancePrefix?: string;
   /**
   * type of instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_type EksCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_type EksCluster#instance_type}
   */
   readonly instanceType?: string;
   /**
   * specifies a list of instance types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_types EksCluster#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_types EksCluster#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
   * labels on nodes in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#labels EksCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#labels EksCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Maximum pods per node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#max_pods_per_node EksCluster#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#max_pods_per_node EksCluster#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
   * maximum size of instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#max_size EksCluster#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#max_size EksCluster#max_size}
   */
   readonly maxSize?: number;
   /**
   * minimum size of instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#min_size EksCluster#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#min_size EksCluster#min_size}
   */
   readonly minSize?: number;
   /**
   * name of the node group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#name EksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#name EksCluster#name}
   */
   readonly name: string;
   /**
   * Override the vendor's bootstrapping script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#override_bootstrap_command EksCluster#override_bootstrap_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#override_bootstrap_command EksCluster#override_bootstrap_command}
   */
   readonly overrideBootstrapCommand?: string;
   /**
   * executed before bootstrapping instances to the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#pre_bootstrap_commands EksCluster#pre_bootstrap_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#pre_bootstrap_commands EksCluster#pre_bootstrap_commands}
   */
   readonly preBootstrapCommands?: string[];
   /**
   * Enable private networking for nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#private_networking EksCluster#private_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#private_networking EksCluster#private_networking}
   */
   readonly privateNetworking?: boolean | cdktf.IResolvable;
   /**
   * create a spot nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#spot EksCluster#spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#spot EksCluster#spot}
   */
   readonly spot?: boolean | cdktf.IResolvable;
   /**
   * Limit nodes to specific subnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#subnets EksCluster#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#subnets EksCluster#subnets}
   */
   readonly subnets?: string[];
   /**
   * Applied to the Autoscaling Group and to the EC2 instances (unmanaged), Applied to the EKS Nodegroup resource and to the EC2 instances (managed)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#tags EksCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#tags EksCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Kuberenetes version for the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#version EksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#version EksCluster#version}
   */
   readonly version?: string;
   /**
   * of volumes attached to instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_encrypted EksCluster#volume_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_encrypted EksCluster#volume_encrypted}
   */
   readonly volumeEncrypted?: boolean | cdktf.IResolvable;
   /**
   * of volumes attached to instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_iops EksCluster#volume_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_iops EksCluster#volume_iops}
   */
   readonly volumeIops?: number;
   /**
   * of volumes attached to instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_kms_key_id EksCluster#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_kms_key_id EksCluster#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
   * of volumes attached to instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_name EksCluster#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_name EksCluster#volume_name}
   */
   readonly volumeName?: string;
   /**
   * in gigabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_size EksCluster#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_size EksCluster#volume_size}
   */
   readonly volumeSize?: number;
   /**
   * of volumes attached to instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_throughput EksCluster#volume_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_throughput EksCluster#volume_throughput}
   */
   readonly volumeThroughput?: number;
   /**
   * Valid variants are: 'gp2' is General Purpose SSD, 'gp3' is General Purpose SSD which can be optimised for high throughput (default), 'io1' is Provisioned IOPS SSD, 'sc1' is Cold HDD, 'st1' is Throughput Optimized HDD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_type EksCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_type EksCluster#volume_type}
   */
   readonly volumeType?: string;
   /**
   * bottle_rocket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#bottle_rocket EksCluster#bottle_rocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#bottle_rocket EksCluster#bottle_rocket}
   */
   readonly bottleRocket?: EksClusterClusterConfigManagedNodegroupsBottleRocket[] | cdktf.IResolvable;
   /**
   * iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#iam EksCluster#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#iam EksCluster#iam}
   */
   readonly iam?: EksClusterClusterConfigManagedNodegroupsIam[] | cdktf.IResolvable;
   /**
   * instance_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_selector EksCluster#instance_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_selector EksCluster#instance_selector}
   */
   readonly instanceSelector?: EksClusterClusterConfigManagedNodegroupsInstanceSelector[] | cdktf.IResolvable;
   /**
   * launch_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#launch_template EksCluster#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#launch_template EksCluster#launch_template}
   */
   readonly launchTemplate?: EksClusterClusterConfigManagedNodegroupsLaunchTemplate[] | cdktf.IResolvable;
   /**
   * placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#placement EksCluster#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#placement EksCluster#placement}
   */
   readonly placement?: EksClusterClusterConfigManagedNodegroupsPlacement[] | cdktf.IResolvable;
   /**
   * security_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#security_groups EksCluster#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#security_groups EksCluster#security_groups}
   */
   readonly securityGroups?: EksClusterClusterConfigManagedNodegroupsSecurityGroups[] | cdktf.IResolvable;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ssh EksCluster#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ssh EksCluster#ssh}
   */
   readonly ssh?: EksClusterClusterConfigManagedNodegroupsSsh[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#taints EksCluster#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#taints EksCluster#taints}
   */
   readonly taints?: EksClusterClusterConfigManagedNodegroupsTaints[] | cdktf.IResolvable;
   /**
   * update_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#update_config EksCluster#update_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#update_config EksCluster#update_config}
   */
   readonly updateConfig?: EksClusterClusterConfigManagedNodegroupsUpdateConfig[] | cdktf.IResolvable;
 }
@@ -13479,31 +13479,31 @@ export interface EksClusterClusterConfigMetadata {
   /**
   * arbitrary metadata ignored by the vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#annotations EksCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#annotations EksCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * EKS Cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#name EksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#name EksCluster#name}
   */
   readonly name: string;
   /**
   * the AWS region hosting this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#region EksCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#region EksCluster#region}
   */
   readonly region: string;
   /**
   * used to tag AWS resources created by the vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#tags EksCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#tags EksCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Valid variants are: '1.16', '1.17', '1.18', '1.19', '1.20' (default), '1.21'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#version EksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#version EksCluster#version}
   */
   readonly version?: string;
 }
@@ -13731,13 +13731,13 @@ export interface EksClusterClusterConfigNodeGroupsAsgMetricsCollection {
   /**
   * of metrics collected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#granularity EksCluster#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#granularity EksCluster#granularity}
   */
   readonly granularity?: string;
   /**
   * specifies a list of metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#metrics EksCluster#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#metrics EksCluster#metrics}
   */
   readonly metrics?: string[];
 }
@@ -13884,13 +13884,13 @@ export interface EksClusterClusterConfigNodeGroupsBottleRocket {
   /**
   * Enable admin container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#enable_admin_container EksCluster#enable_admin_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#enable_admin_container EksCluster#enable_admin_container}
   */
   readonly enableAdminContainer?: boolean | cdktf.IResolvable;
   /**
   * contains any bottlerocket settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#settings EksCluster#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#settings EksCluster#settings}
   */
   readonly settings?: string;
 }
@@ -14037,55 +14037,55 @@ export interface EksClusterClusterConfigNodeGroupsIamAttachPolicyStatement {
   /**
   * Attach policy action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#action EksCluster#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#action EksCluster#action}
   */
   readonly action?: string[];
   /**
   * Attach policy Statement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#condition EksCluster#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#condition EksCluster#condition}
   */
   readonly condition?: string;
   /**
   * Attach policy effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#effect EksCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#effect EksCluster#effect}
   */
   readonly effect?: string;
   /**
   * Attach policy NotAction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#not_action EksCluster#not_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#not_action EksCluster#not_action}
   */
   readonly notAction?: string[];
   /**
   * Attach policy NotPrincipal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#not_principal EksCluster#not_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#not_principal EksCluster#not_principal}
   */
   readonly notPrincipal?: string;
   /**
   * Attach policy NotResource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#not_resource EksCluster#not_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#not_resource EksCluster#not_resource}
   */
   readonly notResource?: string[];
   /**
   * Attach policy principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#principal EksCluster#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#principal EksCluster#principal}
   */
   readonly principal?: string;
   /**
   * Attach policy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#resource EksCluster#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#resource EksCluster#resource}
   */
   readonly resource?: string;
   /**
   * Sid of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#sid EksCluster#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#sid EksCluster#sid}
   */
   readonly sid?: string;
 }
@@ -14435,7 +14435,7 @@ export interface EksClusterClusterConfigNodeGroupsIamAttachPolicy {
   /**
   * Attach policy id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#id EksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#id EksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -14444,13 +14444,13 @@ export interface EksClusterClusterConfigNodeGroupsIamAttachPolicy {
   /**
   * Attach policy version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#version EksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#version EksCluster#version}
   */
   readonly version?: string;
   /**
   * statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#statement EksCluster#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#statement EksCluster#statement}
   */
   readonly statement?: EksClusterClusterConfigNodeGroupsIamAttachPolicyStatement[] | cdktf.IResolvable;
 }
@@ -14626,73 +14626,73 @@ export interface EksClusterClusterConfigNodeGroupsIamIamNodeGroupWithAddonPolici
   /**
   * enables access to ALB Ingress controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#alb_ingress EksCluster#alb_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#alb_ingress EksCluster#alb_ingress}
   */
   readonly albIngress?: boolean | cdktf.IResolvable;
   /**
   * enables full access to AppMesh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#app_mesh EksCluster#app_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#app_mesh EksCluster#app_mesh}
   */
   readonly appMesh?: boolean | cdktf.IResolvable;
   /**
   * enables full access to AppMesh Preview
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#app_mesh_review EksCluster#app_mesh_review}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#app_mesh_review EksCluster#app_mesh_review}
   */
   readonly appMeshReview?: boolean | cdktf.IResolvable;
   /**
   * enables IAM policy for cluster-autoscaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#auto_scaler EksCluster#auto_scaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#auto_scaler EksCluster#auto_scaler}
   */
   readonly autoScaler?: boolean | cdktf.IResolvable;
   /**
   * enables the ability to add records to Route 53 in order to solve the DNS01 challenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cert_manager EksCluster#cert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cert_manager EksCluster#cert_manager}
   */
   readonly certManager?: boolean | cdktf.IResolvable;
   /**
   * enables access to cloud watch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cloud_watch EksCluster#cloud_watch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cloud_watch EksCluster#cloud_watch}
   */
   readonly cloudWatch?: boolean | cdktf.IResolvable;
   /**
   * enables the new EBS CSI (Elastic Block Store Container Storage Interface) driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ebs EksCluster#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ebs EksCluster#ebs}
   */
   readonly ebs?: boolean | cdktf.IResolvable;
   /**
   * enables full access to EFS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#efs EksCluster#efs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#efs EksCluster#efs}
   */
   readonly efs?: boolean | cdktf.IResolvable;
   /**
   * adds the external-dns project policies for Amazon Route 53
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#external_dns EksCluster#external_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#external_dns EksCluster#external_dns}
   */
   readonly externalDns?: boolean | cdktf.IResolvable;
   /**
   * enables full access to FSX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#fsx EksCluster#fsx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#fsx EksCluster#fsx}
   */
   readonly fsx?: boolean | cdktf.IResolvable;
   /**
   * allows for full ECR (Elastic Container Registry) access. This is useful for building, for example, a CI server that needs to push images to ECR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#image_builder EksCluster#image_builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#image_builder EksCluster#image_builder}
   */
   readonly imageBuilder?: boolean | cdktf.IResolvable;
   /**
   * enables access to XRay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#xray EksCluster#xray}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#xray EksCluster#xray}
   */
   readonly xray?: boolean | cdktf.IResolvable;
 }
@@ -15129,49 +15129,49 @@ export interface EksClusterClusterConfigNodeGroupsIam {
   /**
   * attach polciy ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_policy_arns EksCluster#attach_policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_policy_arns EksCluster#attach_policy_arns}
   */
   readonly attachPolicyArns?: string[];
   /**
   * attach policy in json string format 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_policy_v2 EksCluster#attach_policy_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_policy_v2 EksCluster#attach_policy_v2}
   */
   readonly attachPolicyV2?: string;
   /**
   * instance profile ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_profile_arn EksCluster#instance_profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_profile_arn EksCluster#instance_profile_arn}
   */
   readonly instanceProfileArn?: string;
   /**
   * instance role ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_role_arn EksCluster#instance_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_role_arn EksCluster#instance_role_arn}
   */
   readonly instanceRoleArn?: string;
   /**
   * instance role Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_role_name EksCluster#instance_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_role_name EksCluster#instance_role_name}
   */
   readonly instanceRoleName?: string;
   /**
   * instance role permissions boundary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_role_permission_boundary EksCluster#instance_role_permission_boundary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_role_permission_boundary EksCluster#instance_role_permission_boundary}
   */
   readonly instanceRolePermissionBoundary?: string;
   /**
   * attach_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_policy EksCluster#attach_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_policy EksCluster#attach_policy}
   */
   readonly attachPolicy?: EksClusterClusterConfigNodeGroupsIamAttachPolicy[] | cdktf.IResolvable;
   /**
   * iam_node_group_with_addon_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#iam_node_group_with_addon_policies EksCluster#iam_node_group_with_addon_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#iam_node_group_with_addon_policies EksCluster#iam_node_group_with_addon_policies}
   */
   readonly iamNodeGroupWithAddonPolicies?: EksClusterClusterConfigNodeGroupsIamIamNodeGroupWithAddonPolicies[] | cdktf.IResolvable;
 }
@@ -15492,25 +15492,25 @@ export interface EksClusterClusterConfigNodeGroupsInstanceSelector {
   /**
   * CPU Architecture of the EC2 instance type. Valid variants are: 'x86_64' 'amd64' 'arm64'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cpu_architecture EksCluster#cpu_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cpu_architecture EksCluster#cpu_architecture}
   */
   readonly cpuArchitecture?: string;
   /**
   * specifies the number of GPUs. It can be set to 0 to select non-GPU instance types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#gpus EksCluster#gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#gpus EksCluster#gpus}
   */
   readonly gpus?: number;
   /**
   * specifies the memory The unit defaults to GiB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#memory EksCluster#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#memory EksCluster#memory}
   */
   readonly memory?: string;
   /**
   * specifies the number of vCPUs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#vcpus EksCluster#vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#vcpus EksCluster#vcpus}
   */
   readonly vcpus?: number;
 }
@@ -15715,43 +15715,43 @@ export interface EksClusterClusterConfigNodeGroupsInstancesDistribution {
   /**
   * Enable capacity rebalancing for spot instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#capacity_rebalance EksCluster#capacity_rebalance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#capacity_rebalance EksCluster#capacity_rebalance}
   */
   readonly capacityRebalance?: boolean | cdktf.IResolvable;
   /**
   * Enable admin container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_types EksCluster#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_types EksCluster#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
   * Maximum bid price in USD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#max_price EksCluster#max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#max_price EksCluster#max_price}
   */
   readonly maxPrice?: number;
   /**
   * base number of on-demand instances (non-negative)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#on_demand_base_capacity EksCluster#on_demand_base_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#on_demand_base_capacity EksCluster#on_demand_base_capacity}
   */
   readonly onDemandBaseCapacity?: number;
   /**
   * Range [0-100]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#on_demand_percentage_above_base_capacity EksCluster#on_demand_percentage_above_base_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#on_demand_percentage_above_base_capacity EksCluster#on_demand_percentage_above_base_capacity}
   */
   readonly onDemandPercentageAboveBaseCapacity?: number;
   /**
   * allocation strategy for spot instances. Valid values are capacity-optimized and lowest-price
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#spot_allocation_strategy EksCluster#spot_allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#spot_allocation_strategy EksCluster#spot_allocation_strategy}
   */
   readonly spotAllocationStrategy?: string;
   /**
   * Range [0-20]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#spot_instance_pools EksCluster#spot_instance_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#spot_instance_pools EksCluster#spot_instance_pools}
   */
   readonly spotInstancePools?: number;
 }
@@ -16041,23 +16041,23 @@ export class EksClusterClusterConfigNodeGroupsInstancesDistributionList extends 
 }
 export interface EksClusterClusterConfigNodeGroupsKubeletExtraConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#eviction_hard EksCluster#eviction_hard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#eviction_hard EksCluster#eviction_hard}
   */
   readonly evictionHard?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#feature_gates EksCluster#feature_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#feature_gates EksCluster#feature_gates}
   */
   readonly featureGates?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#kube_reserved EksCluster#kube_reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#kube_reserved EksCluster#kube_reserved}
   */
   readonly kubeReserved?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#kube_reserved_cgroup EksCluster#kube_reserved_cgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#kube_reserved_cgroup EksCluster#kube_reserved_cgroup}
   */
   readonly kubeReservedCgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#system_reserved EksCluster#system_reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#system_reserved EksCluster#system_reserved}
   */
   readonly systemReserved?: { [key: string]: string };
 }
@@ -16291,7 +16291,7 @@ export interface EksClusterClusterConfigNodeGroupsPlacement {
   /**
   * placement group name 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#group EksCluster#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#group EksCluster#group}
   */
   readonly group?: string;
 }
@@ -16409,19 +16409,19 @@ export interface EksClusterClusterConfigNodeGroupsSecurityGroups {
   /**
   * attaches additional security groups to the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#attach_ids EksCluster#attach_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#attach_ids EksCluster#attach_ids}
   */
   readonly attachIds?: string[];
   /**
   * attach a security group local to this nodegroup Not supported for managed nodegroups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#with_local EksCluster#with_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#with_local EksCluster#with_local}
   */
   readonly withLocal?: boolean | cdktf.IResolvable;
   /**
   * attach the security group shared among all nodegroups in the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#with_shared EksCluster#with_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#with_shared EksCluster#with_shared}
   */
   readonly withShared?: boolean | cdktf.IResolvable;
 }
@@ -16597,31 +16597,31 @@ export interface EksClusterClusterConfigNodeGroupsSsh {
   /**
   * If Allow is true the SSH configuration provided is used, otherwise it is ignored. Only one of PublicKeyPath, PublicKey and PublicKeyName can be configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#allow EksCluster#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#allow EksCluster#allow}
   */
   readonly allow?: boolean | cdktf.IResolvable;
   /**
   * Enables the ability to SSH onto nodes using SSM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#enable_ssm EksCluster#enable_ssm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#enable_ssm EksCluster#enable_ssm}
   */
   readonly enableSsm?: boolean | cdktf.IResolvable;
   /**
   * Public key to be added to the nodes SSH keychain. If Allow is false this value is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#public_key EksCluster#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#public_key EksCluster#public_key}
   */
   readonly publicKey?: string;
   /**
   * Public key name in EC2 to be added to the nodes SSH keychain. If Allow is false this value is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#public_key_name EksCluster#public_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#public_key_name EksCluster#public_key_name}
   */
   readonly publicKeyName?: string;
   /**
   * source securitgy group IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#source_security_group_ids EksCluster#source_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#source_security_group_ids EksCluster#source_security_group_ids}
   */
   readonly sourceSecurityGroupIds?: string[];
 }
@@ -16855,19 +16855,19 @@ export interface EksClusterClusterConfigNodeGroupsTaints {
   /**
   * effect of taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#effect EksCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#effect EksCluster#effect}
   */
   readonly effect?: string;
   /**
   * key of taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#key EksCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#key EksCluster#key}
   */
   readonly key?: string;
   /**
   * value of taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#value EksCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#value EksCluster#value}
   */
   readonly value?: string;
 }
@@ -17043,13 +17043,13 @@ export interface EksClusterClusterConfigNodeGroupsUpdateConfig {
   /**
   * sets the max number of nodes that can become unavailable when updating a nodegroup (specified as number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#max_unavaliable EksCluster#max_unavaliable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#max_unavaliable EksCluster#max_unavaliable}
   */
   readonly maxUnavaliable?: number;
   /**
   * sets the max number of nodes that can become unavailable when updating a nodegroup (specified as percentage)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#max_unavaliable_percetage EksCluster#max_unavaliable_percetage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#max_unavaliable_percetage EksCluster#max_unavaliable_percetage}
   */
   readonly maxUnavaliablePercetage?: number;
 }
@@ -17196,283 +17196,283 @@ export interface EksClusterClusterConfigNodeGroups {
   /**
   * Specify custom AMIs, auto-ssm, auto, or static
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ami EksCluster#ami}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ami EksCluster#ami}
   */
   readonly ami?: string;
   /**
   * Valid variants are: 'AmazonLinux2' (default), 'Ubuntu2004', 'Ubuntu1804', 'Bottlerocket', 'WindowsServer2019CoreContainer', 'WindowsServer2019FullContainer', 'WindowsServer2004CoreContainer'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ami_family EksCluster#ami_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ami_family EksCluster#ami_family}
   */
   readonly amiFamily?: string;
   /**
   * See relevant AWS docs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#asg_suspend_processes EksCluster#asg_suspend_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#asg_suspend_processes EksCluster#asg_suspend_processes}
   */
   readonly asgSuspendProcesses?: string[];
   /**
   * Limit nodes to specific AZs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#availability_zones EksCluster#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#availability_zones EksCluster#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * Associate load balancers with auto scaling group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#classic_load_balancer_names EksCluster#classic_load_balancer_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#classic_load_balancer_names EksCluster#classic_load_balancer_names}
   */
   readonly classicLoadBalancerNames?: string[];
   /**
   * Custom address used for DNS lookups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cluster_dns EksCluster#cluster_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cluster_dns EksCluster#cluster_dns}
   */
   readonly clusterDns?: string;
   /**
   * configures T3 Unlimited, valid only for T-type instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cpu_credits EksCluster#cpu_credits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cpu_credits EksCluster#cpu_credits}
   */
   readonly cpuCredits?: string;
   /**
   * Desired capacity of instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#desired_capacity EksCluster#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#desired_capacity EksCluster#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
   * requires requests to the metadata service to use IMDSv2 tokens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#disable_imdsv1 EksCluster#disable_imdsv1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#disable_imdsv1 EksCluster#disable_imdsv1}
   */
   readonly disableImdsv1?: boolean | cdktf.IResolvable;
   /**
   * blocks all IMDS requests from non host networking pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#disable_pods_imds EksCluster#disable_pods_imds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#disable_pods_imds EksCluster#disable_pods_imds}
   */
   readonly disablePodsImds?: boolean | cdktf.IResolvable;
   /**
   * enables EBS optimization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ebs_optimized EksCluster#ebs_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ebs_optimized EksCluster#ebs_optimized}
   */
   readonly ebsOptimized?: boolean | cdktf.IResolvable;
   /**
   * creates the maximum allowed number of EFA-enabled network cards on nodes in this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#efa_enabled EksCluster#efa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#efa_enabled EksCluster#efa_enabled}
   */
   readonly efaEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable EC2 detailed monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#enable_detailed_monitoring EksCluster#enable_detailed_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#enable_detailed_monitoring EksCluster#enable_detailed_monitoring}
   */
   readonly enableDetailedMonitoring?: boolean | cdktf.IResolvable;
   /**
   * for instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_name EksCluster#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_name EksCluster#instance_name}
   */
   readonly instanceName?: string;
   /**
   * for instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_prefix EksCluster#instance_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_prefix EksCluster#instance_prefix}
   */
   readonly instancePrefix?: string;
   /**
   * type of instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_type EksCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_type EksCluster#instance_type}
   */
   readonly instanceType?: string;
   /**
   * labels on nodes in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#labels EksCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#labels EksCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Maximum pods per node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#max_pods_per_node EksCluster#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#max_pods_per_node EksCluster#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
   * Maximum size of instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#max_size EksCluster#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#max_size EksCluster#max_size}
   */
   readonly maxSize?: number;
   /**
   * Minimum size of instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#min_size EksCluster#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#min_size EksCluster#min_size}
   */
   readonly minSize?: number;
   /**
   * name of the node group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#name EksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#name EksCluster#name}
   */
   readonly name?: string;
   /**
   * Override the vendor's bootstrapping script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#override_bootstrap_command EksCluster#override_bootstrap_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#override_bootstrap_command EksCluster#override_bootstrap_command}
   */
   readonly overrideBootstrapCommand?: string;
   /**
   * executed before bootstrapping instances to the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#pre_bootstrap_commands EksCluster#pre_bootstrap_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#pre_bootstrap_commands EksCluster#pre_bootstrap_commands}
   */
   readonly preBootstrapCommands?: string[];
   /**
   * Enable private networking for nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#private_networking EksCluster#private_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#private_networking EksCluster#private_networking}
   */
   readonly privateNetworking?: boolean | cdktf.IResolvable;
   /**
   * Create new subnet from the CIDR block and limit nodes to this subnet (Applicable only for the WavelenghZone nodes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#subnet_cidr EksCluster#subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#subnet_cidr EksCluster#subnet_cidr}
   */
   readonly subnetCidr?: string;
   /**
   * Limit nodes to specific subnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#subnets EksCluster#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#subnets EksCluster#subnets}
   */
   readonly subnets?: string[];
   /**
   * Applied to the Autoscaling Group and to the EC2 instances (unmanaged), Applied to the EKS Nodegroup resource and to the EC2 instances (managed)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#tags EksCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#tags EksCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Associate target group with auto scaling group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#target_group_arns EksCluster#target_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#target_group_arns EksCluster#target_group_arns}
   */
   readonly targetGroupArns?: string[];
   /**
   * Kuberenetes version for the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#version EksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#version EksCluster#version}
   */
   readonly version?: string;
   /**
   * of volumes attached to instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_encrypted EksCluster#volume_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_encrypted EksCluster#volume_encrypted}
   */
   readonly volumeEncrypted?: boolean | cdktf.IResolvable;
   /**
   * of volumes attached to instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_iops EksCluster#volume_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_iops EksCluster#volume_iops}
   */
   readonly volumeIops?: number;
   /**
   * of volumes attached to instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_kms_key_id EksCluster#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_kms_key_id EksCluster#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
   * of volumes attached to instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_name EksCluster#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_name EksCluster#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volume size in gigabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_size EksCluster#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_size EksCluster#volume_size}
   */
   readonly volumeSize?: number;
   /**
   * of volumes attached to instances in the nodegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_throughput EksCluster#volume_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_throughput EksCluster#volume_throughput}
   */
   readonly volumeThroughput?: number;
   /**
   * Valid variants are: 'gp2' is General Purpose SSD, 'gp3' is General Purpose SSD which can be optimised for high throughput (default), 'io1' is Provisioned IOPS SSD, 'sc1' is Cold HDD, 'st1' is Throughput Optimized HDD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#volume_type EksCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#volume_type EksCluster#volume_type}
   */
   readonly volumeType?: string;
   /**
   * asg_metrics_collection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#asg_metrics_collection EksCluster#asg_metrics_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#asg_metrics_collection EksCluster#asg_metrics_collection}
   */
   readonly asgMetricsCollection?: EksClusterClusterConfigNodeGroupsAsgMetricsCollection[] | cdktf.IResolvable;
   /**
   * bottle_rocket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#bottle_rocket EksCluster#bottle_rocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#bottle_rocket EksCluster#bottle_rocket}
   */
   readonly bottleRocket?: EksClusterClusterConfigNodeGroupsBottleRocket[] | cdktf.IResolvable;
   /**
   * iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#iam EksCluster#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#iam EksCluster#iam}
   */
   readonly iam?: EksClusterClusterConfigNodeGroupsIam[] | cdktf.IResolvable;
   /**
   * instance_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instance_selector EksCluster#instance_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instance_selector EksCluster#instance_selector}
   */
   readonly instanceSelector?: EksClusterClusterConfigNodeGroupsInstanceSelector[] | cdktf.IResolvable;
   /**
   * instances_distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#instances_distribution EksCluster#instances_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#instances_distribution EksCluster#instances_distribution}
   */
   readonly instancesDistribution?: EksClusterClusterConfigNodeGroupsInstancesDistribution[] | cdktf.IResolvable;
   /**
   * kubelet_extra_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#kubelet_extra_config EksCluster#kubelet_extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#kubelet_extra_config EksCluster#kubelet_extra_config}
   */
   readonly kubeletExtraConfig?: EksClusterClusterConfigNodeGroupsKubeletExtraConfig[] | cdktf.IResolvable;
   /**
   * placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#placement EksCluster#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#placement EksCluster#placement}
   */
   readonly placement?: EksClusterClusterConfigNodeGroupsPlacement[] | cdktf.IResolvable;
   /**
   * security_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#security_groups EksCluster#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#security_groups EksCluster#security_groups}
   */
   readonly securityGroups?: EksClusterClusterConfigNodeGroupsSecurityGroups[] | cdktf.IResolvable;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ssh EksCluster#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ssh EksCluster#ssh}
   */
   readonly ssh?: EksClusterClusterConfigNodeGroupsSsh[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#taints EksCluster#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#taints EksCluster#taints}
   */
   readonly taints?: EksClusterClusterConfigNodeGroupsTaints[] | cdktf.IResolvable;
   /**
   * update_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#update_config EksCluster#update_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#update_config EksCluster#update_config}
   */
   readonly updateConfig?: EksClusterClusterConfigNodeGroupsUpdateConfig[] | cdktf.IResolvable;
 }
@@ -18924,19 +18924,19 @@ export interface EksClusterClusterConfigPrivateCluster {
   /**
   * specifies additional endpoint services that must be enabled for private access. Valid entries are: 'cloudformation', 'autoscaling', 'logs'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#additional_endpoint_services EksCluster#additional_endpoint_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#additional_endpoint_services EksCluster#additional_endpoint_services}
   */
   readonly additionalEndpointServices?: string[];
   /**
   * enables creation of a fully-private cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#enabled EksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#enabled EksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * skips the creation process for endpoints completely. This is only used in case of an already provided VPC and if the user decided to set it to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#skip_endpoint_creation EksCluster#skip_endpoint_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#skip_endpoint_creation EksCluster#skip_endpoint_creation}
   */
   readonly skipEndpointCreation?: boolean | cdktf.IResolvable;
 }
@@ -19112,13 +19112,13 @@ export interface EksClusterClusterConfigSecretsEncryption {
   /**
   * Flag to encrypt existing secrets. Default is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#encrypt_existing_secrets EksCluster#encrypt_existing_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#encrypt_existing_secrets EksCluster#encrypt_existing_secrets}
   */
   readonly encryptExistingSecrets?: boolean | cdktf.IResolvable;
   /**
   * KMS key ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#key_arn EksCluster#key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#key_arn EksCluster#key_arn}
   */
   readonly keyArn?: string;
 }
@@ -19265,13 +19265,13 @@ export interface EksClusterClusterConfigVpcClusterEndpoints {
   /**
   * enable private access to the Kubernetes API server endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#private_access EksCluster#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#private_access EksCluster#private_access}
   */
   readonly privateAccess?: boolean | cdktf.IResolvable;
   /**
   * enable public access to the Kubernetes API server endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#public_access EksCluster#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#public_access EksCluster#public_access}
   */
   readonly publicAccess?: boolean | cdktf.IResolvable;
 }
@@ -19418,7 +19418,7 @@ export interface EksClusterClusterConfigVpcNat {
   /**
   * Valid variants are: 'HighlyAvailable' configures a highly available NAT gateway, 'Single' configures a single NAT gateway (default), 'Disable' disables NAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#gateway EksCluster#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#gateway EksCluster#gateway}
   */
   readonly gateway?: string;
 }
@@ -19536,19 +19536,19 @@ export interface EksClusterClusterConfigVpcSubnetsPrivate {
   /**
   * dont know what this is, not in docs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#az EksCluster#az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#az EksCluster#az}
   */
   readonly az?: string;
   /**
   * dont know what this is, not in docs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cidr EksCluster#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cidr EksCluster#cidr}
   */
   readonly cidr?: string;
   /**
   * id of subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#id EksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#id EksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19557,7 +19557,7 @@ export interface EksClusterClusterConfigVpcSubnetsPrivate {
   /**
   * name of subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#name EksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#name EksCluster#name}
   */
   readonly name?: string;
 }
@@ -19762,19 +19762,19 @@ export interface EksClusterClusterConfigVpcSubnetsPublic {
   /**
   * dont know what this is, not in docs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#az EksCluster#az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#az EksCluster#az}
   */
   readonly az?: string;
   /**
   * dont know what this is, not in docs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cidr EksCluster#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cidr EksCluster#cidr}
   */
   readonly cidr?: string;
   /**
   * id of subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#id EksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#id EksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19783,7 +19783,7 @@ export interface EksClusterClusterConfigVpcSubnetsPublic {
   /**
   * name of subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#name EksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#name EksCluster#name}
   */
   readonly name?: string;
 }
@@ -19988,13 +19988,13 @@ export interface EksClusterClusterConfigVpcSubnets {
   /**
   * private block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#private EksCluster#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#private EksCluster#private}
   */
   readonly private?: EksClusterClusterConfigVpcSubnetsPrivate[] | cdktf.IResolvable;
   /**
   * public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#public EksCluster#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#public EksCluster#public}
   */
   readonly public?: EksClusterClusterConfigVpcSubnetsPublic[] | cdktf.IResolvable;
 }
@@ -20141,31 +20141,31 @@ export interface EksClusterClusterConfigVpc {
   /**
   * AutoAllocateIPV6 requests an IPv6 CIDR block with /56 prefix for the VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#auto_allocate_ipv6 EksCluster#auto_allocate_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#auto_allocate_ipv6 EksCluster#auto_allocate_ipv6}
   */
   readonly autoAllocateIpv6?: boolean | cdktf.IResolvable;
   /**
   * AWS VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cidr EksCluster#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cidr EksCluster#cidr}
   */
   readonly cidr?: string;
   /**
   * for additional CIDR associations, e.g. a CIDR for private subnets or any ad-hoc subnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#extra_cidrs EksCluster#extra_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#extra_cidrs EksCluster#extra_cidrs}
   */
   readonly extraCidrs?: string[];
   /**
   * for additional CIDR associations, e.g. a CIDR for private subnets or any ad-hoc subnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#extra_ipv6_cidrs EksCluster#extra_ipv6_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#extra_ipv6_cidrs EksCluster#extra_ipv6_cidrs}
   */
   readonly extraIpv6Cidrs?: string[];
   /**
   * AWS VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#id EksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#id EksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -20174,55 +20174,55 @@ export interface EksClusterClusterConfigVpc {
   /**
   * n/a
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ipv6_cidr EksCluster#ipv6_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ipv6_cidr EksCluster#ipv6_cidr}
   */
   readonly ipv6Cidr?: string;
   /**
   * n/a
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#ipv6_pool EksCluster#ipv6_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#ipv6_pool EksCluster#ipv6_pool}
   */
   readonly ipv6Pool?: string;
   /**
   * Automatically add security group rules to and from the default cluster security group and the shared node security group. This allows unmanaged nodes to communicate with the control plane and managed nodes. This option cannot be disabled when using vendor created security groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#manage_shared_node_security_group_rules EksCluster#manage_shared_node_security_group_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#manage_shared_node_security_group_rules EksCluster#manage_shared_node_security_group_rules}
   */
   readonly manageSharedNodeSecurityGroupRules?: boolean | cdktf.IResolvable;
   /**
   * which CIDR blocks to allow access to public k8s API endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#public_access_cidrs EksCluster#public_access_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#public_access_cidrs EksCluster#public_access_cidrs}
   */
   readonly publicAccessCidrs?: string[];
   /**
   * (aka the ControlPlaneSecurityGroup) for communication between control plane and nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#security_group EksCluster#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#security_group EksCluster#security_group}
   */
   readonly securityGroup?: string;
   /**
   * for pre-defined shared node SG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#shared_node_security_group EksCluster#shared_node_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#shared_node_security_group EksCluster#shared_node_security_group}
   */
   readonly sharedNodeSecurityGroup?: string;
   /**
   * cluster_endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cluster_endpoints EksCluster#cluster_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cluster_endpoints EksCluster#cluster_endpoints}
   */
   readonly clusterEndpoints?: EksClusterClusterConfigVpcClusterEndpoints[] | cdktf.IResolvable;
   /**
   * nat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#nat EksCluster#nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#nat EksCluster#nat}
   */
   readonly nat?: EksClusterClusterConfigVpcNat[] | cdktf.IResolvable;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#subnets EksCluster#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#subnets EksCluster#subnets}
   */
   readonly subnets?: EksClusterClusterConfigVpcSubnets[] | cdktf.IResolvable;
 }
@@ -20717,115 +20717,115 @@ export interface EksClusterClusterConfig {
   /**
   * apiversion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#apiversion EksCluster#apiversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#apiversion EksCluster#apiversion}
   */
   readonly apiversion?: string;
   /**
   * availability zones of a cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#availability_zones EksCluster#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#availability_zones EksCluster#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * kind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#kind EksCluster#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#kind EksCluster#kind}
   */
   readonly kind?: string;
   /**
   * access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#access_config EksCluster#access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#access_config EksCluster#access_config}
   */
   readonly accessConfig?: EksClusterClusterConfigAccessConfig[] | cdktf.IResolvable;
   /**
   * addons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#addons EksCluster#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#addons EksCluster#addons}
   */
   readonly addons?: EksClusterClusterConfigAddons[] | cdktf.IResolvable;
   /**
   * addons_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#addons_config EksCluster#addons_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#addons_config EksCluster#addons_config}
   */
   readonly addonsConfig?: EksClusterClusterConfigAddonsConfig[] | cdktf.IResolvable;
   /**
   * auto_mode_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#auto_mode_config EksCluster#auto_mode_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#auto_mode_config EksCluster#auto_mode_config}
   */
   readonly autoModeConfig?: EksClusterClusterConfigAutoModeConfig[] | cdktf.IResolvable;
   /**
   * cloud_watch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#cloud_watch EksCluster#cloud_watch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#cloud_watch EksCluster#cloud_watch}
   */
   readonly cloudWatch?: EksClusterClusterConfigCloudWatch[] | cdktf.IResolvable;
   /**
   * fargate_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#fargate_profiles EksCluster#fargate_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#fargate_profiles EksCluster#fargate_profiles}
   */
   readonly fargateProfiles?: EksClusterClusterConfigFargateProfiles[] | cdktf.IResolvable;
   /**
   * iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#iam EksCluster#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#iam EksCluster#iam}
   */
   readonly iam?: EksClusterClusterConfigIam[] | cdktf.IResolvable;
   /**
   * identity_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#identity_mappings EksCluster#identity_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#identity_mappings EksCluster#identity_mappings}
   */
   readonly identityMappings?: EksClusterClusterConfigIdentityMappings[] | cdktf.IResolvable;
   /**
   * identity_providers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#identity_providers EksCluster#identity_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#identity_providers EksCluster#identity_providers}
   */
   readonly identityProviders?: EksClusterClusterConfigIdentityProviders[] | cdktf.IResolvable;
   /**
   * kubernetes_network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#kubernetes_network_config EksCluster#kubernetes_network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#kubernetes_network_config EksCluster#kubernetes_network_config}
   */
   readonly kubernetesNetworkConfig?: EksClusterClusterConfigKubernetesNetworkConfig[] | cdktf.IResolvable;
   /**
   * managed_nodegroups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#managed_nodegroups EksCluster#managed_nodegroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#managed_nodegroups EksCluster#managed_nodegroups}
   */
   readonly managedNodegroups?: EksClusterClusterConfigManagedNodegroups[] | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#metadata EksCluster#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#metadata EksCluster#metadata}
   */
   readonly metadata: EksClusterClusterConfigMetadata[] | cdktf.IResolvable;
   /**
   * node_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#node_groups EksCluster#node_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#node_groups EksCluster#node_groups}
   */
   readonly nodeGroups?: EksClusterClusterConfigNodeGroups[] | cdktf.IResolvable;
   /**
   * private_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#private_cluster EksCluster#private_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#private_cluster EksCluster#private_cluster}
   */
   readonly privateCluster?: EksClusterClusterConfigPrivateCluster[] | cdktf.IResolvable;
   /**
   * secrets_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#secrets_encryption EksCluster#secrets_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#secrets_encryption EksCluster#secrets_encryption}
   */
   readonly secretsEncryption?: EksClusterClusterConfigSecretsEncryption[] | cdktf.IResolvable;
   /**
   * vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#vpc EksCluster#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#vpc EksCluster#vpc}
   */
   readonly vpc?: EksClusterClusterConfigVpc[] | cdktf.IResolvable;
 }
@@ -21428,15 +21428,15 @@ export class EksClusterClusterConfigOutputReference extends cdktf.ComplexObject 
 }
 export interface EksClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#create EksCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#create EksCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#delete EksCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#delete EksCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#update EksCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#update EksCluster#update}
   */
   readonly update?: string;
 }
@@ -21588,7 +21588,7 @@ export class EksClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster rafay_eks_cluster}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster rafay_eks_cluster}
 */
 export class EksCluster extends cdktf.TerraformResource {
 
@@ -21604,7 +21604,7 @@ export class EksCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EksCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksCluster to import
-  * @param importFromId The id of the existing EksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -21616,7 +21616,7 @@ export class EksCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/eks_cluster rafay_eks_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/eks_cluster rafay_eks_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -21627,8 +21627,8 @@ export class EksCluster extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_eks_cluster',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

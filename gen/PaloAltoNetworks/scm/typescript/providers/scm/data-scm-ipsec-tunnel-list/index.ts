@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/ipsec_tunnel_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/ipsec_tunnel_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataScmIpsecTunnelListConfig extends cdktf.TerraformMetaArgumen
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/ipsec_tunnel_list#device DataScmIpsecTunnelList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/ipsec_tunnel_list#device DataScmIpsecTunnelList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/ipsec_tunnel_list#folder DataScmIpsecTunnelList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/ipsec_tunnel_list#folder DataScmIpsecTunnelList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/ipsec_tunnel_list#limit DataScmIpsecTunnelList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/ipsec_tunnel_list#limit DataScmIpsecTunnelList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/ipsec_tunnel_list#name DataScmIpsecTunnelList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/ipsec_tunnel_list#name DataScmIpsecTunnelList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/ipsec_tunnel_list#offset DataScmIpsecTunnelList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/ipsec_tunnel_list#offset DataScmIpsecTunnelList#offset}
   */
   readonly offset?: number;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/ipsec_tunnel_list#snippet DataScmIpsecTunnelList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/ipsec_tunnel_list#snippet DataScmIpsecTunnelList#snippet}
   */
   readonly snippet?: string;
 }
@@ -809,7 +809,7 @@ export interface DataScmIpsecTunnelListData {
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/ipsec_tunnel_list#id DataScmIpsecTunnelList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/ipsec_tunnel_list#id DataScmIpsecTunnelList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ export interface DataScmIpsecTunnelListData {
   /**
   * Alphanumeric string begin with letter: [0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/ipsec_tunnel_list#name DataScmIpsecTunnelList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/ipsec_tunnel_list#name DataScmIpsecTunnelList#name}
   */
   readonly name?: string;
 }
@@ -1002,7 +1002,7 @@ export class DataScmIpsecTunnelListDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/ipsec_tunnel_list scm_ipsec_tunnel_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/ipsec_tunnel_list scm_ipsec_tunnel_list}
 */
 export class DataScmIpsecTunnelList extends cdktf.TerraformDataSource {
 
@@ -1018,7 +1018,7 @@ export class DataScmIpsecTunnelList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmIpsecTunnelList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmIpsecTunnelList to import
-  * @param importFromId The id of the existing DataScmIpsecTunnelList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/ipsec_tunnel_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmIpsecTunnelList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/ipsec_tunnel_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmIpsecTunnelList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1030,7 +1030,7 @@ export class DataScmIpsecTunnelList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/ipsec_tunnel_list scm_ipsec_tunnel_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/ipsec_tunnel_list scm_ipsec_tunnel_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1041,8 +1041,8 @@ export class DataScmIpsecTunnelList extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_ipsec_tunnel_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

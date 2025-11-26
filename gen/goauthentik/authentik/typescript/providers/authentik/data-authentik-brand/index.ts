@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,93 +10,93 @@ export interface DataAuthentikBrandConfig extends cdktf.TerraformMetaArguments {
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#branding_custom_css DataAuthentikBrand#branding_custom_css}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#branding_custom_css DataAuthentikBrand#branding_custom_css}
   */
   readonly brandingCustomCss?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#branding_default_flow_background DataAuthentikBrand#branding_default_flow_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#branding_default_flow_background DataAuthentikBrand#branding_default_flow_background}
   */
   readonly brandingDefaultFlowBackground?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#branding_favicon DataAuthentikBrand#branding_favicon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#branding_favicon DataAuthentikBrand#branding_favicon}
   */
   readonly brandingFavicon?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#branding_logo DataAuthentikBrand#branding_logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#branding_logo DataAuthentikBrand#branding_logo}
   */
   readonly brandingLogo?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#branding_title DataAuthentikBrand#branding_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#branding_title DataAuthentikBrand#branding_title}
   */
   readonly brandingTitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#client_certificates DataAuthentikBrand#client_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#client_certificates DataAuthentikBrand#client_certificates}
   */
   readonly clientCertificates?: string[];
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#default DataAuthentikBrand#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#default DataAuthentikBrand#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#default_application DataAuthentikBrand#default_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#default_application DataAuthentikBrand#default_application}
   */
   readonly defaultApplication?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#domain DataAuthentikBrand#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#domain DataAuthentikBrand#domain}
   */
   readonly domain?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#flow_authentication DataAuthentikBrand#flow_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#flow_authentication DataAuthentikBrand#flow_authentication}
   */
   readonly flowAuthentication?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#flow_device_code DataAuthentikBrand#flow_device_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#flow_device_code DataAuthentikBrand#flow_device_code}
   */
   readonly flowDeviceCode?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#flow_invalidation DataAuthentikBrand#flow_invalidation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#flow_invalidation DataAuthentikBrand#flow_invalidation}
   */
   readonly flowInvalidation?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#flow_recovery DataAuthentikBrand#flow_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#flow_recovery DataAuthentikBrand#flow_recovery}
   */
   readonly flowRecovery?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#flow_unenrollment DataAuthentikBrand#flow_unenrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#flow_unenrollment DataAuthentikBrand#flow_unenrollment}
   */
   readonly flowUnenrollment?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#flow_user_settings DataAuthentikBrand#flow_user_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#flow_user_settings DataAuthentikBrand#flow_user_settings}
   */
   readonly flowUserSettings?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#id DataAuthentikBrand#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#id DataAuthentikBrand#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,13 +105,13 @@ export interface DataAuthentikBrandConfig extends cdktf.TerraformMetaArguments {
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#web_certificate DataAuthentikBrand#web_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#web_certificate DataAuthentikBrand#web_certificate}
   */
   readonly webCertificate?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand authentik_brand}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand authentik_brand}
 */
 export class DataAuthentikBrand extends cdktf.TerraformDataSource {
 
@@ -127,7 +127,7 @@ export class DataAuthentikBrand extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAuthentikBrand resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuthentikBrand to import
-  * @param importFromId The id of the existing DataAuthentikBrand that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuthentikBrand that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuthentikBrand to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DataAuthentikBrand extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/brand authentik_brand} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/brand authentik_brand} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class DataAuthentikBrand extends cdktf.TerraformDataSource {
       terraformResourceType: 'authentik_brand',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

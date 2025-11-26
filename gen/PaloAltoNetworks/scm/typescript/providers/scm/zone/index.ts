@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,68 +9,74 @@ import * as cdktf from 'cdktf';
 export interface ZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#device Zone#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#device Zone#device}
   */
   readonly device?: string;
   /**
   * Device acl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#device_acl Zone#device_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#device_acl Zone#device_acl}
   */
   readonly deviceAcl?: ZoneDeviceAcl;
   /**
   * Dos log setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#dos_log_setting Zone#dos_log_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#dos_log_setting Zone#dos_log_setting}
   */
   readonly dosLogSetting?: string;
   /**
   * Dos profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#dos_profile Zone#dos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#dos_profile Zone#dos_profile}
   */
   readonly dosProfile?: string;
   /**
   * Enable device identification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#enable_device_identification Zone#enable_device_identification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#enable_device_identification Zone#enable_device_identification}
   */
   readonly enableDeviceIdentification?: boolean | cdktf.IResolvable;
   /**
   * Enable user identification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#enable_user_identification Zone#enable_user_identification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#enable_user_identification Zone#enable_user_identification}
   */
   readonly enableUserIdentification?: boolean | cdktf.IResolvable;
   /**
   * Folder
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#folder Zone#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#folder Zone#folder}
   */
   readonly folder?: string;
   /**
   * Alphanumeric string begin with letter: [0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#name Zone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#name Zone#name}
   */
   readonly name: string;
   /**
   * Network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#network Zone#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#network Zone#network}
   */
   readonly network?: ZoneNetwork;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#snippet Zone#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#snippet Zone#snippet}
   */
   readonly snippet?: string;
   /**
   * User acl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#user_acl Zone#user_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#user_acl Zone#user_acl}
   */
   readonly userAcl?: ZoneUserAcl;
 }
@@ -78,13 +84,13 @@ export interface ZoneDeviceAcl {
   /**
   * Exclude list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#exclude_list Zone#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#exclude_list Zone#exclude_list}
   */
   readonly excludeList?: string[];
   /**
   * Include list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#include_list Zone#include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#include_list Zone#include_list}
   */
   readonly includeList?: string[];
 }
@@ -268,55 +274,55 @@ export interface ZoneNetwork {
   /**
   * Enable packet buffer protection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#enable_packet_buffer_protection Zone#enable_packet_buffer_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#enable_packet_buffer_protection Zone#enable_packet_buffer_protection}
   */
   readonly enablePacketBufferProtection?: boolean | cdktf.IResolvable;
   /**
   * External
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#external Zone#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#external Zone#external}
   */
   readonly external?: string[];
   /**
   * Layer2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#layer2 Zone#layer2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#layer2 Zone#layer2}
   */
   readonly layer2?: string[];
   /**
   * Layer3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#layer3 Zone#layer3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#layer3 Zone#layer3}
   */
   readonly layer3?: string[];
   /**
   * Log setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#log_setting Zone#log_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#log_setting Zone#log_setting}
   */
   readonly logSetting?: string;
   /**
   * Tap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#tap Zone#tap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#tap Zone#tap}
   */
   readonly tap?: string[];
   /**
   * Tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#tunnel Zone#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#tunnel Zone#tunnel}
   */
   readonly tunnel?: ZoneNetworkTunnel;
   /**
   * Virtual wire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#virtual_wire Zone#virtual_wire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#virtual_wire Zone#virtual_wire}
   */
   readonly virtualWire?: string[];
   /**
   * Zone protection profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#zone_protection_profile Zone#zone_protection_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#zone_protection_profile Zone#zone_protection_profile}
   */
   readonly zoneProtectionProfile?: string;
 }
@@ -644,13 +650,13 @@ export interface ZoneUserAcl {
   /**
   * Exclude list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#exclude_list Zone#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#exclude_list Zone#exclude_list}
   */
   readonly excludeList?: string[];
   /**
   * Include list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#include_list Zone#include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#include_list Zone#include_list}
   */
   readonly includeList?: string[];
 }
@@ -773,7 +779,7 @@ export class ZoneUserAclOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone scm_zone}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone scm_zone}
 */
 export class Zone extends cdktf.TerraformResource {
 
@@ -789,7 +795,7 @@ export class Zone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Zone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Zone to import
-  * @param importFromId The id of the existing Zone that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Zone that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Zone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -801,7 +807,7 @@ export class Zone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone scm_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/zone scm_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -812,8 +818,8 @@ export class Zone extends cdktf.TerraformResource {
       terraformResourceType: 'scm_zone',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

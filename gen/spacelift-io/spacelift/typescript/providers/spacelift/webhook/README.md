@@ -1,3 +1,3 @@
 # `spacelift_webhook`
 
-Refer to the Terraform Registry for docs: [`spacelift_webhook`](https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/webhook).
+Refer to the Terraform Registry for docs: [`spacelift_webhook`](https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/webhook).

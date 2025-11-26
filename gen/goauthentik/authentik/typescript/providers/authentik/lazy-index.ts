@@ -11,6 +11,7 @@ Object.defineProperty(exports, 'flow', { get: function () { return require('./fl
 Object.defineProperty(exports, 'flowStageBinding', { get: function () { return require('./flow-stage-binding'); } });
 Object.defineProperty(exports, 'group', { get: function () { return require('./group'); } });
 Object.defineProperty(exports, 'outpost', { get: function () { return require('./outpost'); } });
+Object.defineProperty(exports, 'outpostProviderAttachment', { get: function () { return require('./outpost-provider-attachment'); } });
 Object.defineProperty(exports, 'policyBinding', { get: function () { return require('./policy-binding'); } });
 Object.defineProperty(exports, 'policyDummy', { get: function () { return require('./policy-dummy'); } });
 Object.defineProperty(exports, 'policyEventMatcher', { get: function () { return require('./policy-event-matcher'); } });
@@ -99,6 +100,7 @@ Object.defineProperty(exports, 'dataAuthentikCertificateKeyPair', { get: functio
 Object.defineProperty(exports, 'dataAuthentikFlow', { get: function () { return require('./data-authentik-flow'); } });
 Object.defineProperty(exports, 'dataAuthentikGroup', { get: function () { return require('./data-authentik-group'); } });
 Object.defineProperty(exports, 'dataAuthentikGroups', { get: function () { return require('./data-authentik-groups'); } });
+Object.defineProperty(exports, 'dataAuthentikOutpost', { get: function () { return require('./data-authentik-outpost'); } });
 Object.defineProperty(exports, 'dataAuthentikPropertyMappingProviderRac', { get: function () { return require('./data-authentik-property-mapping-provider-rac'); } });
 Object.defineProperty(exports, 'dataAuthentikPropertyMappingProviderRadius', { get: function () { return require('./data-authentik-property-mapping-provider-radius'); } });
 Object.defineProperty(exports, 'dataAuthentikPropertyMappingProviderSaml', { get: function () { return require('./data-authentik-property-mapping-provider-saml'); } });

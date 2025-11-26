@@ -13109,6 +13109,11 @@ export class DataSdmResourceResourcesRdpCertOutputReference extends cdktf.Comple
     return this.getStringAttribute('secret_store_id');
   }
 
+  // server_fqdn - computed: true, optional: false, required: false
+  public get serverFqdn() {
+    return this.getStringAttribute('server_fqdn');
+  }
+
   // sid - computed: true, optional: false, required: false
   public get sid() {
     return this.getStringAttribute('sid');

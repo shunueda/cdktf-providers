@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/datasets
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/datasets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataHoneycombioDatasetsConfig extends cdktf.TerraformMetaArgume
   /**
   * The prefix to filter the Dataset Names by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/datasets#starts_with DataHoneycombioDatasets#starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/datasets#starts_with DataHoneycombioDatasets#starts_with}
   */
   readonly startsWith?: string;
   /**
   * detail_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/datasets#detail_filter DataHoneycombioDatasets#detail_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/datasets#detail_filter DataHoneycombioDatasets#detail_filter}
   */
   readonly detailFilter?: DataHoneycombioDatasetsDetailFilter[] | cdktf.IResolvable;
 }
@@ -24,25 +24,25 @@ export interface DataHoneycombioDatasetsDetailFilter {
   /**
   * The field to filter by (e.g., 'name', 'id', 'description', etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/datasets#name DataHoneycombioDatasets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/datasets#name DataHoneycombioDatasets#name}
   */
   readonly name: string;
   /**
   * The comparison operator. The default is 'equals'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/datasets#operator DataHoneycombioDatasets#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/datasets#operator DataHoneycombioDatasets#operator}
   */
   readonly operator?: string;
   /**
   * The value of the detail field to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/datasets#value DataHoneycombioDatasets#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/datasets#value DataHoneycombioDatasets#value}
   */
   readonly value?: string;
   /**
   * A regular expression string to apply to the value of the detail field to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/datasets#value_regex DataHoneycombioDatasets#value_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/datasets#value_regex DataHoneycombioDatasets#value_regex}
   */
   readonly valueRegex?: string;
 }
@@ -242,7 +242,7 @@ export class DataHoneycombioDatasetsDetailFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/datasets honeycombio_datasets}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/datasets honeycombio_datasets}
 */
 export class DataHoneycombioDatasets extends cdktf.TerraformDataSource {
 
@@ -258,7 +258,7 @@ export class DataHoneycombioDatasets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHoneycombioDatasets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHoneycombioDatasets to import
-  * @param importFromId The id of the existing DataHoneycombioDatasets that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/datasets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHoneycombioDatasets that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/datasets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHoneycombioDatasets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -270,7 +270,7 @@ export class DataHoneycombioDatasets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/datasets honeycombio_datasets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/datasets honeycombio_datasets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,8 +281,8 @@ export class DataHoneycombioDatasets extends cdktf.TerraformDataSource {
       terraformResourceType: 'honeycombio_datasets',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0',
-        providerVersionConstraint: '0.42.0'
+        providerVersion: '0.43.0',
+        providerVersionConstraint: '0.43.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

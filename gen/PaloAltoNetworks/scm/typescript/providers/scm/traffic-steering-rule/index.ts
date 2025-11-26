@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface TrafficSteeringRuleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#action TrafficSteeringRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#action TrafficSteeringRule#action}
   */
   readonly action?: TrafficSteeringRuleAction;
   /**
   * Category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#category TrafficSteeringRule#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#category TrafficSteeringRule#category}
   */
   readonly category?: string[];
   /**
   * Destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#destination TrafficSteeringRule#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#destination TrafficSteeringRule#destination}
   */
   readonly destination?: string[];
   /**
   * The folder containing the traffic steering rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#folder TrafficSteeringRule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#folder TrafficSteeringRule#folder}
   */
   readonly folder: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#name TrafficSteeringRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#name TrafficSteeringRule#name}
   */
   readonly name: string;
   /**
   * Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#service TrafficSteeringRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#service TrafficSteeringRule#service}
   */
   readonly service: string[];
   /**
   * Source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#source TrafficSteeringRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#source TrafficSteeringRule#source}
   */
   readonly source: string[];
   /**
   * Source user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#source_user TrafficSteeringRule#source_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#source_user TrafficSteeringRule#source_user}
   */
   readonly sourceUser?: string[];
 }
@@ -60,7 +60,7 @@ export interface TrafficSteeringRuleActionForwardForward {
   /**
   * Target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#target TrafficSteeringRule#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#target TrafficSteeringRule#target}
   */
   readonly target?: string;
 }
@@ -215,13 +215,13 @@ export interface TrafficSteeringRuleActionForward {
   /**
   * Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#forward TrafficSteeringRule#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#forward TrafficSteeringRule#forward}
   */
   readonly forward?: TrafficSteeringRuleActionForwardForward;
   /**
   * No pbf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#no_pbf TrafficSteeringRule#no_pbf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#no_pbf TrafficSteeringRule#no_pbf}
   */
   readonly noPbf?: TrafficSteeringRuleActionForwardNoPbf;
 }
@@ -346,7 +346,7 @@ export interface TrafficSteeringRuleAction {
   /**
   * Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#forward TrafficSteeringRule#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#forward TrafficSteeringRule#forward}
   */
   readonly forward?: TrafficSteeringRuleActionForward;
 }
@@ -440,7 +440,7 @@ export class TrafficSteeringRuleActionOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule scm_traffic_steering_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule scm_traffic_steering_rule}
 */
 export class TrafficSteeringRule extends cdktf.TerraformResource {
 
@@ -456,7 +456,7 @@ export class TrafficSteeringRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrafficSteeringRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrafficSteeringRule to import
-  * @param importFromId The id of the existing TrafficSteeringRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrafficSteeringRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrafficSteeringRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -468,7 +468,7 @@ export class TrafficSteeringRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule scm_traffic_steering_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/traffic_steering_rule scm_traffic_steering_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -479,8 +479,8 @@ export class TrafficSteeringRule extends cdktf.TerraformResource {
       terraformResourceType: 'scm_traffic_steering_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

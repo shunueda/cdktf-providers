@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/slos
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/slos
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataHoneycombioSlosConfig extends cdktf.TerraformMetaArguments 
   /**
   * The dataset to fetch the SLOs from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/slos#dataset DataHoneycombioSlos#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/slos#dataset DataHoneycombioSlos#dataset}
   */
   readonly dataset?: string;
   /**
   * detail_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/slos#detail_filter DataHoneycombioSlos#detail_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/slos#detail_filter DataHoneycombioSlos#detail_filter}
   */
   readonly detailFilter?: DataHoneycombioSlosDetailFilter[] | cdktf.IResolvable;
 }
@@ -24,25 +24,25 @@ export interface DataHoneycombioSlosDetailFilter {
   /**
   * The field to filter by (e.g., 'name', 'id', 'description', etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/slos#name DataHoneycombioSlos#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/slos#name DataHoneycombioSlos#name}
   */
   readonly name: string;
   /**
   * The comparison operator. The default is 'equals'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/slos#operator DataHoneycombioSlos#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/slos#operator DataHoneycombioSlos#operator}
   */
   readonly operator?: string;
   /**
   * The value of the detail field to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/slos#value DataHoneycombioSlos#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/slos#value DataHoneycombioSlos#value}
   */
   readonly value?: string;
   /**
   * A regular expression string to apply to the value of the detail field to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/slos#value_regex DataHoneycombioSlos#value_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/slos#value_regex DataHoneycombioSlos#value_regex}
   */
   readonly valueRegex?: string;
 }
@@ -242,7 +242,7 @@ export class DataHoneycombioSlosDetailFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/slos honeycombio_slos}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/slos honeycombio_slos}
 */
 export class DataHoneycombioSlos extends cdktf.TerraformDataSource {
 
@@ -258,7 +258,7 @@ export class DataHoneycombioSlos extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHoneycombioSlos resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHoneycombioSlos to import
-  * @param importFromId The id of the existing DataHoneycombioSlos that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/slos#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHoneycombioSlos that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/slos#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHoneycombioSlos to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -270,7 +270,7 @@ export class DataHoneycombioSlos extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/slos honeycombio_slos} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/slos honeycombio_slos} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,8 +281,8 @@ export class DataHoneycombioSlos extends cdktf.TerraformDataSource {
       terraformResourceType: 'honeycombio_slos',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0',
-        providerVersionConstraint: '0.42.0'
+        providerVersion: '0.43.0',
+        providerVersionConstraint: '0.43.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

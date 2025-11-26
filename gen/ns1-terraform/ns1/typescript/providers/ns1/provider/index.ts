@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs
+// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface Ns1ProviderConfig {
   /**
   * The ns1 API key (required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs#apikey Ns1Provider#apikey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs#apikey Ns1Provider#apikey}
   */
   readonly apikey?: string;
   /**
   * URL prefix (including version) for API calls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs#endpoint Ns1Provider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs#endpoint Ns1Provider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Don't validate server SSL/TLS certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs#ignore_ssl Ns1Provider#ignore_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs#ignore_ssl Ns1Provider#ignore_ssl}
   */
   readonly ignoreSsl?: boolean | cdktf.IResolvable;
   /**
   * Tune response to rate limits, see docs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs#rate_limit_parallelism Ns1Provider#rate_limit_parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs#rate_limit_parallelism Ns1Provider#rate_limit_parallelism}
   */
   readonly rateLimitParallelism?: number;
   /**
   * Maximum retries for 50x errors (-1 to disable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs#retry_max Ns1Provider#retry_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs#retry_max Ns1Provider#retry_max}
   */
   readonly retryMax?: number;
   /**
   * User-Agent string to use in NS1 API requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs#user_agent Ns1Provider#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs#user_agent Ns1Provider#user_agent}
   */
   readonly userAgent?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs#alias Ns1Provider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs#alias Ns1Provider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs ns1}
+* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs ns1}
 */
 export class Ns1Provider extends cdktf.TerraformProvider {
 
@@ -68,7 +68,7 @@ export class Ns1Provider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a Ns1Provider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ns1Provider to import
-  * @param importFromId The id of the existing Ns1Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ns1Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ns1Provider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class Ns1Provider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs ns1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs ns1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class Ns1Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'ns1',
       terraformGeneratorMetadata: {
         providerName: 'ns1',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       terraformProviderSource: 'ns1-terraform/ns1'
     });

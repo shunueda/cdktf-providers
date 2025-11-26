@@ -10,6 +10,7 @@ Object.defineProperty(exports, 'bitbucketDatacenterIntegration', { get: function
 Object.defineProperty(exports, 'blueprint', { get: function () { return require('./blueprint'); } });
 Object.defineProperty(exports, 'context', { get: function () { return require('./context'); } });
 Object.defineProperty(exports, 'contextAttachment', { get: function () { return require('./context-attachment'); } });
+Object.defineProperty(exports, 'defaultRunnerImage', { get: function () { return require('./default-runner-image'); } });
 Object.defineProperty(exports, 'driftDetection', { get: function () { return require('./drift-detection'); } });
 Object.defineProperty(exports, 'environmentVariable', { get: function () { return require('./environment-variable'); } });
 Object.defineProperty(exports, 'gcpServiceAccount', { get: function () { return require('./gcp-service-account'); } });
@@ -19,6 +20,8 @@ Object.defineProperty(exports, 'module', { get: function () { return require('./
 Object.defineProperty(exports, 'mountedFile', { get: function () { return require('./mounted-file'); } });
 Object.defineProperty(exports, 'namedWebhook', { get: function () { return require('./named-webhook'); } });
 Object.defineProperty(exports, 'namedWebhookSecretHeader', { get: function () { return require('./named-webhook-secret-header'); } });
+Object.defineProperty(exports, 'plugin', { get: function () { return require('./plugin'); } });
+Object.defineProperty(exports, 'pluginTemplate', { get: function () { return require('./plugin-template'); } });
 Object.defineProperty(exports, 'policy', { get: function () { return require('./policy'); } });
 Object.defineProperty(exports, 'policyAttachment', { get: function () { return require('./policy-attachment'); } });
 Object.defineProperty(exports, 'role', { get: function () { return require('./role'); } });
@@ -73,6 +76,8 @@ Object.defineProperty(exports, 'dataSpaceliftModule', { get: function () { retur
 Object.defineProperty(exports, 'dataSpaceliftModules', { get: function () { return require('./data-spacelift-modules'); } });
 Object.defineProperty(exports, 'dataSpaceliftMountedFile', { get: function () { return require('./data-spacelift-mounted-file'); } });
 Object.defineProperty(exports, 'dataSpaceliftNamedWebhook', { get: function () { return require('./data-spacelift-named-webhook'); } });
+Object.defineProperty(exports, 'dataSpaceliftPlugin', { get: function () { return require('./data-spacelift-plugin'); } });
+Object.defineProperty(exports, 'dataSpaceliftPluginTemplate', { get: function () { return require('./data-spacelift-plugin-template'); } });
 Object.defineProperty(exports, 'dataSpaceliftPolicies', { get: function () { return require('./data-spacelift-policies'); } });
 Object.defineProperty(exports, 'dataSpaceliftPolicy', { get: function () { return require('./data-spacelift-policy'); } });
 Object.defineProperty(exports, 'dataSpaceliftRole', { get: function () { return require('./data-spacelift-role'); } });

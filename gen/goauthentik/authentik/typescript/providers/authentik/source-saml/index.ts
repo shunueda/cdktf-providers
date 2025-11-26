@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SourceSamlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#allow_idp_initiated SourceSaml#allow_idp_initiated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#allow_idp_initiated SourceSaml#allow_idp_initiated}
   */
   readonly allowIdpInitiated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#authentication_flow SourceSaml#authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#authentication_flow SourceSaml#authentication_flow}
   */
   readonly authenticationFlow?: string;
   /**
@@ -24,7 +24,7 @@ export interface SourceSamlConfig extends cdktf.TerraformMetaArguments {
   *   - `POST_AUTO`
   *  Defaults to `REDIRECT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#binding_type SourceSaml#binding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#binding_type SourceSaml#binding_type}
   */
   readonly bindingType?: string;
   /**
@@ -35,21 +35,21 @@ export interface SourceSamlConfig extends cdktf.TerraformMetaArguments {
   *   - `http://www.w3.org/2001/04/xmlenc#sha512`
   *  Defaults to `http://www.w3.org/2001/04/xmlenc#sha256`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#digest_algorithm SourceSaml#digest_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#digest_algorithm SourceSaml#digest_algorithm}
   */
   readonly digestAlgorithm?: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#enabled SourceSaml#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#enabled SourceSaml#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#encryption_kp SourceSaml#encryption_kp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#encryption_kp SourceSaml#encryption_kp}
   */
   readonly encryptionKp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#enrollment_flow SourceSaml#enrollment_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#enrollment_flow SourceSaml#enrollment_flow}
   */
   readonly enrollmentFlow?: string;
   /**
@@ -59,22 +59,22 @@ export interface SourceSamlConfig extends cdktf.TerraformMetaArguments {
   *   - `name_deny`
   *  Defaults to `identifier`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#group_matching_mode SourceSaml#group_matching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#group_matching_mode SourceSaml#group_matching_mode}
   */
   readonly groupMatchingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#id SourceSaml#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#id SourceSaml#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#issuer SourceSaml#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#issuer SourceSaml#issuer}
   */
   readonly issuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#name SourceSaml#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#name SourceSaml#name}
   */
   readonly name: string;
   /**
@@ -87,7 +87,7 @@ export interface SourceSamlConfig extends cdktf.TerraformMetaArguments {
   *   - `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
   *  Defaults to `urn:oasis:names:tc:SAML:2.0:nameid-format:persistent`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#name_id_policy SourceSaml#name_id_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#name_id_policy SourceSaml#name_id_policy}
   */
   readonly nameIdPolicy?: string;
   /**
@@ -96,19 +96,19 @@ export interface SourceSamlConfig extends cdktf.TerraformMetaArguments {
   *   - `any`
   *  Defaults to `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#policy_engine_mode SourceSaml#policy_engine_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#policy_engine_mode SourceSaml#policy_engine_mode}
   */
   readonly policyEngineMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#pre_authentication_flow SourceSaml#pre_authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#pre_authentication_flow SourceSaml#pre_authentication_flow}
   */
   readonly preAuthenticationFlow: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#property_mappings SourceSaml#property_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#property_mappings SourceSaml#property_mappings}
   */
   readonly propertyMappings?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#property_mappings_group SourceSaml#property_mappings_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#property_mappings_group SourceSaml#property_mappings_group}
   */
   readonly propertyMappingsGroup?: string[];
   /**
@@ -124,29 +124,29 @@ export interface SourceSamlConfig extends cdktf.TerraformMetaArguments {
   *   - `http://www.w3.org/2000/09/xmldsig#dsa-sha1`
   *  Defaults to `http://www.w3.org/2001/04/xmldsig-more#rsa-sha256`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#signature_algorithm SourceSaml#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#signature_algorithm SourceSaml#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#signing_kp SourceSaml#signing_kp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#signing_kp SourceSaml#signing_kp}
   */
   readonly signingKp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#slo_url SourceSaml#slo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#slo_url SourceSaml#slo_url}
   */
   readonly sloUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#slug SourceSaml#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#slug SourceSaml#slug}
   */
   readonly slug: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#sso_url SourceSaml#sso_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#sso_url SourceSaml#sso_url}
   */
   readonly ssoUrl: string;
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `days=1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#temporary_user_delete_after SourceSaml#temporary_user_delete_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#temporary_user_delete_after SourceSaml#temporary_user_delete_after}
   */
   readonly temporaryUserDeleteAfter?: string;
   /**
@@ -158,29 +158,29 @@ export interface SourceSamlConfig extends cdktf.TerraformMetaArguments {
   *   - `username_deny`
   *  Defaults to `identifier`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#user_matching_mode SourceSaml#user_matching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#user_matching_mode SourceSaml#user_matching_mode}
   */
   readonly userMatchingMode?: string;
   /**
   * Defaults to `goauthentik.io/sources/%(slug)s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#user_path_template SourceSaml#user_path_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#user_path_template SourceSaml#user_path_template}
   */
   readonly userPathTemplate?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#uuid SourceSaml#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#uuid SourceSaml#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#verification_kp SourceSaml#verification_kp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#verification_kp SourceSaml#verification_kp}
   */
   readonly verificationKp?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml authentik_source_saml}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml authentik_source_saml}
 */
 export class SourceSaml extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class SourceSaml extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceSaml resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceSaml to import
-  * @param importFromId The id of the existing SourceSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceSaml to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class SourceSaml extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_saml authentik_source_saml} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_saml authentik_source_saml} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class SourceSaml extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_source_saml',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

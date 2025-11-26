@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_provider_saml
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_provider_saml
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataAuthentikPropertyMappingProviderSamlConfig extends cdktf.Te
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_provider_saml#expression DataAuthentikPropertyMappingProviderSaml#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_provider_saml#expression DataAuthentikPropertyMappingProviderSaml#expression}
   */
   readonly expression?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_provider_saml#friendly_name DataAuthentikPropertyMappingProviderSaml#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_provider_saml#friendly_name DataAuthentikPropertyMappingProviderSaml#friendly_name}
   */
   readonly friendlyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_provider_saml#id DataAuthentikPropertyMappingProviderSaml#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_provider_saml#id DataAuthentikPropertyMappingProviderSaml#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,33 +29,33 @@ export interface DataAuthentikPropertyMappingProviderSamlConfig extends cdktf.Te
   /**
   * List of ids when `managed_list` is set. Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_provider_saml#ids DataAuthentikPropertyMappingProviderSaml#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_provider_saml#ids DataAuthentikPropertyMappingProviderSaml#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_provider_saml#managed DataAuthentikPropertyMappingProviderSaml#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_provider_saml#managed DataAuthentikPropertyMappingProviderSaml#managed}
   */
   readonly managed?: string;
   /**
   * Retrieve multiple property mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_provider_saml#managed_list DataAuthentikPropertyMappingProviderSaml#managed_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_provider_saml#managed_list DataAuthentikPropertyMappingProviderSaml#managed_list}
   */
   readonly managedList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_provider_saml#name DataAuthentikPropertyMappingProviderSaml#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_provider_saml#name DataAuthentikPropertyMappingProviderSaml#name}
   */
   readonly name?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_provider_saml#saml_name DataAuthentikPropertyMappingProviderSaml#saml_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_provider_saml#saml_name DataAuthentikPropertyMappingProviderSaml#saml_name}
   */
   readonly samlName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_provider_saml authentik_property_mapping_provider_saml}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_provider_saml authentik_property_mapping_provider_saml}
 */
 export class DataAuthentikPropertyMappingProviderSaml extends cdktf.TerraformDataSource {
 
@@ -71,7 +71,7 @@ export class DataAuthentikPropertyMappingProviderSaml extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataAuthentikPropertyMappingProviderSaml resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuthentikPropertyMappingProviderSaml to import
-  * @param importFromId The id of the existing DataAuthentikPropertyMappingProviderSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_provider_saml#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuthentikPropertyMappingProviderSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_provider_saml#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuthentikPropertyMappingProviderSaml to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class DataAuthentikPropertyMappingProviderSaml extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/property_mapping_provider_saml authentik_property_mapping_provider_saml} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/property_mapping_provider_saml authentik_property_mapping_provider_saml} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,8 +94,8 @@ export class DataAuthentikPropertyMappingProviderSaml extends cdktf.TerraformDat
       terraformResourceType: 'authentik_property_mapping_provider_saml',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

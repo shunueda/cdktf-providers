@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/pagerduty_recipient
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/pagerduty_recipient
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PagerdutyRecipientConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/pagerduty_recipient#id PagerdutyRecipient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/pagerduty_recipient#id PagerdutyRecipient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface PagerdutyRecipientConfig extends cdktf.TerraformMetaArguments {
   /**
   * The key of the PagerDuty Integration to send the notification to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/pagerduty_recipient#integration_key PagerdutyRecipient#integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/pagerduty_recipient#integration_key PagerdutyRecipient#integration_key}
   */
   readonly integrationKey: string;
   /**
   * The name of the PagerDuty Integration to send the notification to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/pagerduty_recipient#integration_name PagerdutyRecipient#integration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/pagerduty_recipient#integration_name PagerdutyRecipient#integration_name}
   */
   readonly integrationName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/pagerduty_recipient honeycombio_pagerduty_recipient}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/pagerduty_recipient honeycombio_pagerduty_recipient}
 */
 export class PagerdutyRecipient extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class PagerdutyRecipient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PagerdutyRecipient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PagerdutyRecipient to import
-  * @param importFromId The id of the existing PagerdutyRecipient that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/pagerduty_recipient#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PagerdutyRecipient that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/pagerduty_recipient#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PagerdutyRecipient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class PagerdutyRecipient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/pagerduty_recipient honeycombio_pagerduty_recipient} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/pagerduty_recipient honeycombio_pagerduty_recipient} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class PagerdutyRecipient extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_pagerduty_recipient',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0',
-        providerVersionConstraint: '0.42.0'
+        providerVersion: '0.43.0',
+        providerVersionConstraint: '0.43.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

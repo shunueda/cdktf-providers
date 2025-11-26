@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_sequence
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_sequence
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,49 @@ export interface AuthenticationSequenceConfig extends cdktf.TerraformMetaArgumen
   /**
   * An ordered list of authentication profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_sequence#authentication_profiles AuthenticationSequence#authentication_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_sequence#authentication_profiles AuthenticationSequence#authentication_profiles}
   */
   readonly authenticationProfiles?: string[];
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_sequence#device AuthenticationSequence#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_sequence#device AuthenticationSequence#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_sequence#folder AuthenticationSequence#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_sequence#folder AuthenticationSequence#folder}
   */
   readonly folder?: string;
   /**
   * The name of the authentication sequence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_sequence#name AuthenticationSequence#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_sequence#name AuthenticationSequence#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_sequence#snippet AuthenticationSequence#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_sequence#snippet AuthenticationSequence#snippet}
   */
   readonly snippet?: string;
   /**
   * Use domain to determine authentication profile?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_sequence#use_domain_find_profile AuthenticationSequence#use_domain_find_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_sequence#use_domain_find_profile AuthenticationSequence#use_domain_find_profile}
   */
   readonly useDomainFindProfile?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_sequence scm_authentication_sequence}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_sequence scm_authentication_sequence}
 */
 export class AuthenticationSequence extends cdktf.TerraformResource {
 
@@ -62,7 +68,7 @@ export class AuthenticationSequence extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthenticationSequence resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthenticationSequence to import
-  * @param importFromId The id of the existing AuthenticationSequence that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_sequence#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthenticationSequence that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_sequence#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthenticationSequence to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +80,7 @@ export class AuthenticationSequence extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/authentication_sequence scm_authentication_sequence} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_sequence scm_authentication_sequence} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +91,8 @@ export class AuthenticationSequence extends cdktf.TerraformResource {
       terraformResourceType: 'scm_authentication_sequence',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

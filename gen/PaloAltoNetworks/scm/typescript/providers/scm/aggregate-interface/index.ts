@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,59 @@ export interface AggregateInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Aggregate interface description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#comment AggregateInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#comment AggregateInterface#comment}
   */
   readonly comment?: string;
   /**
   * Default interface assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#default_value AggregateInterface#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#default_value AggregateInterface#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#device AggregateInterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#device AggregateInterface#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#folder AggregateInterface#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#folder AggregateInterface#folder}
   */
   readonly folder?: string;
   /**
   * Layer2
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `layer2` and `layer3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#layer2 AggregateInterface#layer2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#layer2 AggregateInterface#layer2}
   */
   readonly layer2?: AggregateInterfaceLayer2;
   /**
   * Aggregate Interface Layer 3 configuration
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `layer2` and `layer3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#layer3 AggregateInterface#layer3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#layer3 AggregateInterface#layer3}
   */
   readonly layer3?: AggregateInterfaceLayer3;
   /**
   * Aggregate interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#name AggregateInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#name AggregateInterface#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#snippet AggregateInterface#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#snippet AggregateInterface#snippet}
   */
   readonly snippet?: string;
 }
@@ -60,37 +70,37 @@ export interface AggregateInterfaceLayer2Lacp {
   /**
   * Enable LACP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#enable AggregateInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#enable AggregateInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Fast failover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#fast_failover AggregateInterface#fast_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#fast_failover AggregateInterface#fast_failover}
   */
   readonly fastFailover?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of physical ports bundled in the LAG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#max_ports AggregateInterface#max_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#max_ports AggregateInterface#max_ports}
   */
   readonly maxPorts?: number;
   /**
   * Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#mode AggregateInterface#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#mode AggregateInterface#mode}
   */
   readonly mode?: string;
   /**
   * LACP system priority in system ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#system_priority AggregateInterface#system_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#system_priority AggregateInterface#system_priority}
   */
   readonly systemPriority?: number;
   /**
   * Transmission mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#transmission_rate AggregateInterface#transmission_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#transmission_rate AggregateInterface#transmission_rate}
   */
   readonly transmissionRate?: string;
 }
@@ -331,13 +341,13 @@ export interface AggregateInterfaceLayer2 {
   /**
   * Lacp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#lacp AggregateInterface#lacp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#lacp AggregateInterface#lacp}
   */
   readonly lacp?: AggregateInterfaceLayer2Lacp;
   /**
   * VLAN tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#vlan_tag AggregateInterface#vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#vlan_tag AggregateInterface#vlan_tag}
   */
   readonly vlanTag?: string;
 }
@@ -462,13 +472,13 @@ export interface AggregateInterfaceLayer3Arp {
   /**
   * MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#hw_address AggregateInterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#hw_address AggregateInterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#name AggregateInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#name AggregateInterface#name}
   */
   readonly name?: string;
 }
@@ -615,43 +625,43 @@ export interface AggregateInterfaceLayer3DdnsConfig {
   /**
   * Certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#ddns_cert_profile AggregateInterface#ddns_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#ddns_cert_profile AggregateInterface#ddns_cert_profile}
   */
   readonly ddnsCertProfile: string;
   /**
   * Enable DDNS?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#ddns_enabled AggregateInterface#ddns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#ddns_enabled AggregateInterface#ddns_enabled}
   */
   readonly ddnsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Ddns hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#ddns_hostname AggregateInterface#ddns_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#ddns_hostname AggregateInterface#ddns_hostname}
   */
   readonly ddnsHostname: string;
   /**
   * IP to register (static only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#ddns_ip AggregateInterface#ddns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#ddns_ip AggregateInterface#ddns_ip}
   */
   readonly ddnsIp?: string;
   /**
   * Update interval (days)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#ddns_update_interval AggregateInterface#ddns_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#ddns_update_interval AggregateInterface#ddns_update_interval}
   */
   readonly ddnsUpdateInterval?: number;
   /**
   * DDNS vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#ddns_vendor AggregateInterface#ddns_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#ddns_vendor AggregateInterface#ddns_vendor}
   */
   readonly ddnsVendor: string;
   /**
   * DDNS vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#ddns_vendor_config AggregateInterface#ddns_vendor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#ddns_vendor_config AggregateInterface#ddns_vendor_config}
   */
   readonly ddnsVendorConfig: string;
 }
@@ -909,13 +919,13 @@ export interface AggregateInterfaceLayer3DhcpClientSendHostname {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#enable AggregateInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#enable AggregateInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set interface hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#hostname AggregateInterface#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#hostname AggregateInterface#hostname}
   */
   readonly hostname?: string;
 }
@@ -1040,25 +1050,25 @@ export interface AggregateInterfaceLayer3DhcpClient {
   /**
   * Automatically create default route pointing to default gateway provided by server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#create_default_route AggregateInterface#create_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#create_default_route AggregateInterface#create_default_route}
   */
   readonly createDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Metric of the default route created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#default_route_metric AggregateInterface#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#default_route_metric AggregateInterface#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
   * Enable DHCP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#enable AggregateInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#enable AggregateInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Aggregate Ethernet DHCP Client Send hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#send_hostname AggregateInterface#send_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#send_hostname AggregateInterface#send_hostname}
   */
   readonly sendHostname?: AggregateInterfaceLayer3DhcpClientSendHostname;
 }
@@ -1241,7 +1251,7 @@ export interface AggregateInterfaceLayer3Ip {
   /**
   * Aggregate Interface IP addresses name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#name AggregateInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#name AggregateInterface#name}
   */
   readonly name: string;
 }
@@ -1356,37 +1366,37 @@ export interface AggregateInterfaceLayer3Lacp {
   /**
   * Enable LACP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#enable AggregateInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#enable AggregateInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Fast failover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#fast_failover AggregateInterface#fast_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#fast_failover AggregateInterface#fast_failover}
   */
   readonly fastFailover?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of physical ports bundled in the LAG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#max_ports AggregateInterface#max_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#max_ports AggregateInterface#max_ports}
   */
   readonly maxPorts?: number;
   /**
   * Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#mode AggregateInterface#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#mode AggregateInterface#mode}
   */
   readonly mode?: string;
   /**
   * LACP system priority in system ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#system_priority AggregateInterface#system_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#system_priority AggregateInterface#system_priority}
   */
   readonly systemPriority?: number;
   /**
   * Transmission mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#transmission_rate AggregateInterface#transmission_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#transmission_rate AggregateInterface#transmission_rate}
   */
   readonly transmissionRate?: string;
 }
@@ -1627,43 +1637,47 @@ export interface AggregateInterfaceLayer3 {
   /**
   * Aggregate Ethernet ARP configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#arp AggregateInterface#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#arp AggregateInterface#arp}
   */
   readonly arp?: AggregateInterfaceLayer3Arp[] | cdktf.IResolvable;
   /**
   * Dynamic DNS configuration specific to the Aggregate Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#ddns_config AggregateInterface#ddns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#ddns_config AggregateInterface#ddns_config}
   */
   readonly ddnsConfig?: AggregateInterfaceLayer3DdnsConfig;
   /**
   * Aggregate Ethernet DHCP Client Object
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `dhcp_client` and `ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#dhcp_client AggregateInterface#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#dhcp_client AggregateInterface#dhcp_client}
   */
   readonly dhcpClient?: AggregateInterfaceLayer3DhcpClient;
   /**
   * Interface management profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#interface_management_profile AggregateInterface#interface_management_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#interface_management_profile AggregateInterface#interface_management_profile}
   */
   readonly interfaceManagementProfile?: string;
   /**
   * Aggregate Interface IP addresses
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `dhcp_client` and `ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#ip AggregateInterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#ip AggregateInterface#ip}
   */
   readonly ip?: AggregateInterfaceLayer3Ip[] | cdktf.IResolvable;
   /**
   * Lacp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#lacp AggregateInterface#lacp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#lacp AggregateInterface#lacp}
   */
   readonly lacp?: AggregateInterfaceLayer3Lacp;
   /**
   * MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#mtu AggregateInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#mtu AggregateInterface#mtu}
   */
   readonly mtu?: number;
 }
@@ -1931,7 +1945,7 @@ export class AggregateInterfaceLayer3OutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface scm_aggregate_interface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface scm_aggregate_interface}
 */
 export class AggregateInterface extends cdktf.TerraformResource {
 
@@ -1947,7 +1961,7 @@ export class AggregateInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AggregateInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AggregateInterface to import
-  * @param importFromId The id of the existing AggregateInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AggregateInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AggregateInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1959,7 +1973,7 @@ export class AggregateInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/aggregate_interface scm_aggregate_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/aggregate_interface scm_aggregate_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1970,8 +1984,8 @@ export class AggregateInterface extends cdktf.TerraformResource {
       terraformResourceType: 'scm_aggregate_interface',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

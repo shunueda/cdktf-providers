@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_set
+// https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/identity_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataSdmIdentitySetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier of the IdentitySet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_set#id DataSdmIdentitySet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/identity_set#id DataSdmIdentitySet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataSdmIdentitySetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique human-readable name of the IdentitySet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_set#name DataSdmIdentitySet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/identity_set#name DataSdmIdentitySet#name}
   */
   readonly name?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_set#timeouts DataSdmIdentitySet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/identity_set#timeouts DataSdmIdentitySet#timeouts}
   */
   readonly timeouts?: DataSdmIdentitySetTimeouts;
 }
@@ -111,7 +111,7 @@ export class DataSdmIdentitySetIdentitySetsList extends cdktf.ComplexList {
 }
 export interface DataSdmIdentitySetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_set#default DataSdmIdentitySet#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/identity_set#default DataSdmIdentitySet#default}
   */
   readonly default?: string;
 }
@@ -205,7 +205,7 @@ export class DataSdmIdentitySetTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_set sdm_identity_set}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/identity_set sdm_identity_set}
 */
 export class DataSdmIdentitySet extends cdktf.TerraformDataSource {
 
@@ -221,7 +221,7 @@ export class DataSdmIdentitySet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmIdentitySet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmIdentitySet to import
-  * @param importFromId The id of the existing DataSdmIdentitySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmIdentitySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/identity_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmIdentitySet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class DataSdmIdentitySet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_set sdm_identity_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/identity_set sdm_identity_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class DataSdmIdentitySet extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_identity_set',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.33.0',
-        providerVersionConstraint: '15.33.0'
+        providerVersion: '15.35.0',
+        providerVersionConstraint: '15.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/edge_job
+// https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/edge_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface EdgeJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/edge_job#cron_expression EdgeJob#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/edge_job#cron_expression EdgeJob#cron_expression}
   */
   readonly cronExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/edge_job#edge_groups EdgeJob#edge_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/edge_job#edge_groups EdgeJob#edge_groups}
   */
   readonly edgeGroups: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/edge_job#endpoints EdgeJob#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/edge_job#endpoints EdgeJob#endpoints}
   */
   readonly endpoints: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/edge_job#file_content EdgeJob#file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/edge_job#file_content EdgeJob#file_content}
   */
   readonly fileContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/edge_job#file_path EdgeJob#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/edge_job#file_path EdgeJob#file_path}
   */
   readonly filePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/edge_job#id EdgeJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/edge_job#id EdgeJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/edge_job#name EdgeJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/edge_job#name EdgeJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/edge_job#recurring EdgeJob#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/edge_job#recurring EdgeJob#recurring}
   */
   readonly recurring?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/edge_job portainer_edge_job}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/edge_job portainer_edge_job}
 */
 export class EdgeJob extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class EdgeJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeJob to import
-  * @param importFromId The id of the existing EdgeJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/edge_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/edge_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class EdgeJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/edge_job portainer_edge_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/edge_job portainer_edge_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class EdgeJob extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_edge_job',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.18.1',
+        providerVersionConstraint: '1.18.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

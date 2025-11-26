@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_dependency
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface StackDependencyConfig extends cdktf.TerraformMetaArguments {
   /**
   * immutable ID (slug) of stack to depend on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_dependency#depends_on_stack_id StackDependency#depends_on_stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency#depends_on_stack_id StackDependency#depends_on_stack_id}
   */
   readonly dependsOnStackId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_dependency#id StackDependency#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency#id StackDependency#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface StackDependencyConfig extends cdktf.TerraformMetaArguments {
   /**
   * immutable ID (slug) of stack which has a dependency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_dependency#stack_id StackDependency#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency#stack_id StackDependency#stack_id}
   */
   readonly stackId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_dependency spacelift_stack_dependency}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency spacelift_stack_dependency}
 */
 export class StackDependency extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class StackDependency extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StackDependency resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StackDependency to import
-  * @param importFromId The id of the existing StackDependency that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_dependency#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StackDependency that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StackDependency to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class StackDependency extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/stack_dependency spacelift_stack_dependency} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency spacelift_stack_dependency} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class StackDependency extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_stack_dependency',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.39.0',
-        providerVersionConstraint: '1.39.0'
+        providerVersion: '1.40.0',
+        providerVersionConstraint: '1.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

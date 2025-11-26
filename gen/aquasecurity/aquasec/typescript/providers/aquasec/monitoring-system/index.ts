@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/monitoring_system
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/monitoring_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MonitoringSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether the monitoring system is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/monitoring_system#enabled MonitoringSystem#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/monitoring_system#enabled MonitoringSystem#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/monitoring_system#id MonitoringSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/monitoring_system#id MonitoringSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface MonitoringSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * The interval in minutes for monitoring checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/monitoring_system#interval MonitoringSystem#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/monitoring_system#interval MonitoringSystem#interval}
   */
   readonly interval?: number;
   /**
   * The name of the monitoring system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/monitoring_system#name MonitoringSystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/monitoring_system#name MonitoringSystem#name}
   */
   readonly name?: string;
   /**
   * The authentication token for the monitoring system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/monitoring_system#token MonitoringSystem#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/monitoring_system#token MonitoringSystem#token}
   */
   readonly token?: string;
   /**
   * The type of the monitoring system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/monitoring_system#type MonitoringSystem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/monitoring_system#type MonitoringSystem#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/monitoring_system aquasec_monitoring_system}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/monitoring_system aquasec_monitoring_system}
 */
 export class MonitoringSystem extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class MonitoringSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitoringSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitoringSystem to import
-  * @param importFromId The id of the existing MonitoringSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/monitoring_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitoringSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/monitoring_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitoringSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class MonitoringSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/monitoring_system aquasec_monitoring_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/monitoring_system aquasec_monitoring_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class MonitoringSystem extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_monitoring_system',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

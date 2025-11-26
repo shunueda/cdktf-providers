@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,67 @@ export interface LoopbackInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#comment LoopbackInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#comment LoopbackInterface#comment}
   */
   readonly comment?: string;
   /**
   * Default interface assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#default_value LoopbackInterface#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#default_value LoopbackInterface#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#device LoopbackInterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#device LoopbackInterface#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#folder LoopbackInterface#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#folder LoopbackInterface#folder}
   */
   readonly folder?: string;
   /**
   * Interface management profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#interface_management_profile LoopbackInterface#interface_management_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#interface_management_profile LoopbackInterface#interface_management_profile}
   */
   readonly interfaceManagementProfile?: string;
   /**
   * Loopback IP Parent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#ip LoopbackInterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#ip LoopbackInterface#ip}
   */
   readonly ip?: LoopbackInterfaceIp[] | cdktf.IResolvable;
   /**
   * Loopback IPv6 Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#ipv6 LoopbackInterface#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#ipv6 LoopbackInterface#ipv6}
   */
   readonly ipv6?: LoopbackInterfaceIpv6;
   /**
   * MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#mtu LoopbackInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#mtu LoopbackInterface#mtu}
   */
   readonly mtu?: number;
   /**
   * Loopback Interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#name LoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#name LoopbackInterface#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#snippet LoopbackInterface#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#snippet LoopbackInterface#snippet}
   */
   readonly snippet?: string;
 }
@@ -72,7 +78,7 @@ export interface LoopbackInterfaceIp {
   /**
   * Loopback IP address(es)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#name LoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#name LoopbackInterface#name}
   */
   readonly name: string;
 }
@@ -187,19 +193,19 @@ export interface LoopbackInterfaceIpv6Address {
   /**
   * Enable Address on Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#enable_on_interface LoopbackInterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#enable_on_interface LoopbackInterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
   * Interface ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#interface_id LoopbackInterface#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#interface_id LoopbackInterface#interface_id}
   */
   readonly interfaceId?: string;
   /**
   * IPv6 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#name LoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#name LoopbackInterface#name}
   */
   readonly name?: string;
 }
@@ -375,13 +381,13 @@ export interface LoopbackInterfaceIpv6 {
   /**
   * IPv6 Address Parent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#address LoopbackInterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#address LoopbackInterface#address}
   */
   readonly address?: LoopbackInterfaceIpv6Address[] | cdktf.IResolvable;
   /**
   * Enable IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#enabled LoopbackInterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#enabled LoopbackInterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -504,7 +510,7 @@ export class LoopbackInterfaceIpv6OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface scm_loopback_interface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface scm_loopback_interface}
 */
 export class LoopbackInterface extends cdktf.TerraformResource {
 
@@ -520,7 +526,7 @@ export class LoopbackInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoopbackInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoopbackInterface to import
-  * @param importFromId The id of the existing LoopbackInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoopbackInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoopbackInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -532,7 +538,7 @@ export class LoopbackInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/loopback_interface scm_loopback_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/loopback_interface scm_loopback_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -543,8 +549,8 @@ export class LoopbackInterface extends cdktf.TerraformResource {
       terraformResourceType: 'scm_loopback_interface',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

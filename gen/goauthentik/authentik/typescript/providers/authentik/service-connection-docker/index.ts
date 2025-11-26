@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_docker
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_docker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceConnectionDockerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_docker#id ServiceConnectionDocker#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_docker#id ServiceConnectionDocker#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface ServiceConnectionDockerConfig extends cdktf.TerraformMetaArgume
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_docker#local ServiceConnectionDocker#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_docker#local ServiceConnectionDocker#local}
   */
   readonly local?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_docker#name ServiceConnectionDocker#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_docker#name ServiceConnectionDocker#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_docker#tls_authentication ServiceConnectionDocker#tls_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_docker#tls_authentication ServiceConnectionDocker#tls_authentication}
   */
   readonly tlsAuthentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_docker#tls_verification ServiceConnectionDocker#tls_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_docker#tls_verification ServiceConnectionDocker#tls_verification}
   */
   readonly tlsVerification?: string;
   /**
   * Defaults to `http+unix:///var/run/docker.sock`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_docker#url ServiceConnectionDocker#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_docker#url ServiceConnectionDocker#url}
   */
   readonly url?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_docker authentik_service_connection_docker}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_docker authentik_service_connection_docker}
 */
 export class ServiceConnectionDocker extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ServiceConnectionDocker extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceConnectionDocker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceConnectionDocker to import
-  * @param importFromId The id of the existing ServiceConnectionDocker that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_docker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceConnectionDocker that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_docker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceConnectionDocker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ServiceConnectionDocker extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/service_connection_docker authentik_service_connection_docker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/service_connection_docker authentik_service_connection_docker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ServiceConnectionDocker extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_service_connection_docker',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

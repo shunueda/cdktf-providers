@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/redirect_certificate
+// https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/redirect_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface RedirectCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/redirect_certificate#domain RedirectCertificate#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/redirect_certificate#domain RedirectCertificate#domain}
   */
   readonly domain: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/redirect_certificate ns1_redirect_certificate}
+* Represents a {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/redirect_certificate ns1_redirect_certificate}
 */
 export class RedirectCertificate extends cdktf.TerraformResource {
 
@@ -30,7 +30,7 @@ export class RedirectCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedirectCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedirectCertificate to import
-  * @param importFromId The id of the existing RedirectCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/redirect_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedirectCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/redirect_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedirectCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class RedirectCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.2/docs/resources/redirect_certificate ns1_redirect_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ns1-terraform/ns1/2.7.3/docs/resources/redirect_certificate ns1_redirect_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class RedirectCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'ns1_redirect_certificate',
       terraformGeneratorMetadata: {
         providerName: 'ns1',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

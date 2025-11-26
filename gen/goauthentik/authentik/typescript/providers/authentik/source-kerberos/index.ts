@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface SourceKerberosConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#authentication_flow SourceKerberos#authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#authentication_flow SourceKerberos#authentication_flow}
   */
   readonly authenticationFlow?: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#enabled SourceKerberos#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#enabled SourceKerberos#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#enrollment_flow SourceKerberos#enrollment_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#enrollment_flow SourceKerberos#enrollment_flow}
   */
   readonly enrollmentFlow?: string;
   /**
@@ -28,11 +28,11 @@ export interface SourceKerberosConfig extends cdktf.TerraformMetaArguments {
   *   - `name_deny`
   *  Defaults to `identifier`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#group_matching_mode SourceKerberos#group_matching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#group_matching_mode SourceKerberos#group_matching_mode}
   */
   readonly groupMatchingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#id SourceKerberos#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#id SourceKerberos#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,17 +41,17 @@ export interface SourceKerberosConfig extends cdktf.TerraformMetaArguments {
   /**
   * Custom krb5.conf to use. Uses the system one by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#krb5_conf SourceKerberos#krb5_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#krb5_conf SourceKerberos#krb5_conf}
   */
   readonly krb5Conf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#name SourceKerberos#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#name SourceKerberos#name}
   */
   readonly name: string;
   /**
   * If enabled, the authentik-stored password will be updated upon login with the Kerberos password backend Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#password_login_update_internal_password SourceKerberos#password_login_update_internal_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#password_login_update_internal_password SourceKerberos#password_login_update_internal_password}
   */
   readonly passwordLoginUpdateInternalPassword?: boolean | cdktf.IResolvable;
   /**
@@ -60,71 +60,71 @@ export interface SourceKerberosConfig extends cdktf.TerraformMetaArguments {
   *   - `any`
   *  Defaults to `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#policy_engine_mode SourceKerberos#policy_engine_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#policy_engine_mode SourceKerberos#policy_engine_mode}
   */
   readonly policyEngineMode?: string;
   /**
   * Kerberos realm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#realm SourceKerberos#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#realm SourceKerberos#realm}
   */
   readonly realm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#slug SourceKerberos#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#slug SourceKerberos#slug}
   */
   readonly slug: string;
   /**
   * Credential cache to use for SPNEGO in form type:residual
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#spnego_ccache SourceKerberos#spnego_ccache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#spnego_ccache SourceKerberos#spnego_ccache}
   */
   readonly spnegoCcache?: string;
   /**
   * SPNEGO keytab base64-encoded or path to keytab in the form FILE:path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#spnego_keytab SourceKerberos#spnego_keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#spnego_keytab SourceKerberos#spnego_keytab}
   */
   readonly spnegoKeytab?: string;
   /**
   * Force the use of a specific server name for SPNEGO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#spnego_server_name SourceKerberos#spnego_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#spnego_server_name SourceKerberos#spnego_server_name}
   */
   readonly spnegoServerName?: string;
   /**
   * Credentials cache to authenticate to kadmin for sync. Must be in the form TYPE:residual
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#sync_ccache SourceKerberos#sync_ccache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#sync_ccache SourceKerberos#sync_ccache}
   */
   readonly syncCcache?: string;
   /**
   * Keytab to authenticate to kadmin for sync. Must be base64-encoded or in the form TYPE:residual
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#sync_keytab SourceKerberos#sync_keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#sync_keytab SourceKerberos#sync_keytab}
   */
   readonly syncKeytab?: string;
   /**
   * Password to authenticate to kadmin for sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#sync_password SourceKerberos#sync_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#sync_password SourceKerberos#sync_password}
   */
   readonly syncPassword?: string;
   /**
   * Principal to authenticate to kadmin for sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#sync_principal SourceKerberos#sync_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#sync_principal SourceKerberos#sync_principal}
   */
   readonly syncPrincipal?: string;
   /**
   * Sync users from Kerberos into authentik Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#sync_users SourceKerberos#sync_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#sync_users SourceKerberos#sync_users}
   */
   readonly syncUsers?: boolean | cdktf.IResolvable;
   /**
   * When a user changes their password, sync it back to Kerberos Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#sync_users_password SourceKerberos#sync_users_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#sync_users_password SourceKerberos#sync_users_password}
   */
   readonly syncUsersPassword?: boolean | cdktf.IResolvable;
   /**
@@ -136,25 +136,25 @@ export interface SourceKerberosConfig extends cdktf.TerraformMetaArguments {
   *   - `username_deny`
   *  Defaults to `identifier`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#user_matching_mode SourceKerberos#user_matching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#user_matching_mode SourceKerberos#user_matching_mode}
   */
   readonly userMatchingMode?: string;
   /**
   * Defaults to `goauthentik.io/sources/%(slug)s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#user_path_template SourceKerberos#user_path_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#user_path_template SourceKerberos#user_path_template}
   */
   readonly userPathTemplate?: string;
   /**
   * Generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#uuid SourceKerberos#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#uuid SourceKerberos#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos authentik_source_kerberos}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos authentik_source_kerberos}
 */
 export class SourceKerberos extends cdktf.TerraformResource {
 
@@ -170,7 +170,7 @@ export class SourceKerberos extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceKerberos resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceKerberos to import
-  * @param importFromId The id of the existing SourceKerberos that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceKerberos that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceKerberos to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class SourceKerberos extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/source_kerberos authentik_source_kerberos} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/source_kerberos authentik_source_kerberos} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class SourceKerberos extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_source_kerberos',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

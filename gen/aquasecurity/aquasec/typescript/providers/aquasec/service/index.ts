@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates the application scope of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#application_scopes Service#application_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#application_scopes Service#application_scopes}
   */
   readonly applicationScopes: string[];
   /**
   * A textual description of the service record; maximum 500 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#description Service#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#description Service#description}
   */
   readonly description?: string;
   /**
   * Enforcement status of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#enforce Service#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#enforce Service#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#id Service#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#id Service#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface ServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates if monitoring is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#monitoring Service#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#monitoring Service#monitoring}
   */
   readonly monitoring?: boolean | cdktf.IResolvable;
   /**
   * The name of the service. It is recommended not to use whitespace characters in the name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#name Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#name Service#name}
   */
   readonly name: string;
   /**
   * The service's policies; an array of container firewall policy names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#policies Service#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#policies Service#policies}
   */
   readonly policies: string[];
   /**
   * Rules priority, must be between 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#priority Service#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#priority Service#priority}
   */
   readonly priority?: number;
   /**
   * Logical expression of how to compute the dependency of the scope variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#scope_expression Service#scope_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#scope_expression Service#scope_expression}
   */
   readonly scopeExpression?: string;
   /**
   * Type of the workload. container or host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#target Service#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#target Service#target}
   */
   readonly target: string;
   /**
   * local_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#local_policies Service#local_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#local_policies Service#local_policies}
   */
   readonly localPolicies?: ServiceLocalPolicies[] | cdktf.IResolvable;
   /**
   * scope_variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#scope_variables Service#scope_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#scope_variables Service#scope_variables}
   */
   readonly scopeVariables?: ServiceScopeVariables[] | cdktf.IResolvable;
 }
@@ -85,25 +85,25 @@ export interface ServiceLocalPoliciesInboundNetworks {
   /**
   * Whether the inbound network rule is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#allow Service#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#allow Service#allow}
   */
   readonly allow: boolean | cdktf.IResolvable;
   /**
   * The port range for the inbound network rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#port_range Service#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#port_range Service#port_range}
   */
   readonly portRange: string;
   /**
   * Custom ip for the inbound network rule (e.g., 190.1.2.3/12).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#resource Service#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#resource Service#resource}
   */
   readonly resource?: string;
   /**
   * The resource type for the inbound network rule (e.g., anywhere).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#resource_type Service#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#resource_type Service#resource_type}
   */
   readonly resourceType: string;
 }
@@ -299,25 +299,25 @@ export interface ServiceLocalPoliciesOutboundNetworks {
   /**
   * Whether the outbound network rule is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#allow Service#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#allow Service#allow}
   */
   readonly allow: boolean | cdktf.IResolvable;
   /**
   * The port range for the outbound network rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#port_range Service#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#port_range Service#port_range}
   */
   readonly portRange: string;
   /**
   * Custom ip for the outbound network rule (e.g., 190.1.2.3/12).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#resource Service#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#resource Service#resource}
   */
   readonly resource?: string;
   /**
   * The resource type for the outbound network rule (e.g., anywhere).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#resource_type Service#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#resource_type Service#resource_type}
   */
   readonly resourceType: string;
 }
@@ -513,37 +513,37 @@ export interface ServiceLocalPolicies {
   /**
   * Whether to block access to the metadata service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#block_metadata_service Service#block_metadata_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#block_metadata_service Service#block_metadata_service}
   */
   readonly blockMetadataService?: boolean | cdktf.IResolvable;
   /**
   * A description of the local policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#description Service#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#description Service#description}
   */
   readonly description?: string;
   /**
   * The name of the local policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#name Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#name Service#name}
   */
   readonly name: string;
   /**
   * The type of the local policy, e.g., access.control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#type Service#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#type Service#type}
   */
   readonly type: string;
   /**
   * inbound_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#inbound_networks Service#inbound_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#inbound_networks Service#inbound_networks}
   */
   readonly inboundNetworks?: ServiceLocalPoliciesInboundNetworks[] | cdktf.IResolvable;
   /**
   * outbound_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#outbound_networks Service#outbound_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#outbound_networks Service#outbound_networks}
   */
   readonly outboundNetworks?: ServiceLocalPoliciesOutboundNetworks[] | cdktf.IResolvable;
 }
@@ -800,19 +800,19 @@ export interface ServiceScopeVariables {
   /**
   * Class of supported scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#attribute Service#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#attribute Service#attribute}
   */
   readonly attribute?: string;
   /**
   * Name assigned to the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#name Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#name Service#name}
   */
   readonly name?: string;
   /**
   * Value assigned to the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#value Service#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#value Service#value}
   */
   readonly value?: string;
 }
@@ -986,7 +986,7 @@ export class ServiceScopeVariablesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service aquasec_service}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service aquasec_service}
 */
 export class Service extends cdktf.TerraformResource {
 
@@ -1002,7 +1002,7 @@ export class Service extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Service resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Service to import
-  * @param importFromId The id of the existing Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Service to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1014,7 +1014,7 @@ export class Service extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/service aquasec_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/service aquasec_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1025,8 +1025,8 @@ export class Service extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_service',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

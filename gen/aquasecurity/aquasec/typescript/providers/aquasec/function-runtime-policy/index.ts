@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface FunctionRuntimePolicyConfig extends cdktf.TerraformMetaArgument
   /**
   * Indicates the application scope of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#application_scopes FunctionRuntimePolicy#application_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#application_scopes FunctionRuntimePolicy#application_scopes}
   */
   readonly applicationScopes?: string[];
   /**
   * Block deployment from disallowed images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#block_disallowed_images FunctionRuntimePolicy#block_disallowed_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#block_disallowed_images FunctionRuntimePolicy#block_disallowed_images}
   */
   readonly blockDisallowedImages?: boolean | cdktf.IResolvable;
   /**
   * Block fileless execution attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#block_fileless_exec FunctionRuntimePolicy#block_fileless_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#block_fileless_exec FunctionRuntimePolicy#block_fileless_exec}
   */
   readonly blockFilelessExec?: boolean | cdktf.IResolvable;
   /**
   * Block non-compliant serverless functions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#block_non_compliant_workloads FunctionRuntimePolicy#block_non_compliant_workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#block_non_compliant_workloads FunctionRuntimePolicy#block_non_compliant_workloads}
   */
   readonly blockNonCompliantWorkloads?: boolean | cdktf.IResolvable;
   /**
   * The description of the function runtime policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#description FunctionRuntimePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#description FunctionRuntimePolicy#description}
   */
   readonly description?: string;
   /**
   * Enable detection of crypto mining via DNS monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#enable_crypto_mining_dns FunctionRuntimePolicy#enable_crypto_mining_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#enable_crypto_mining_dns FunctionRuntimePolicy#enable_crypto_mining_dns}
   */
   readonly enableCryptoMiningDns?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the runtime policy is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates that policy should effect function execution (not just for audit).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#enforce FunctionRuntimePolicy#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#enforce FunctionRuntimePolicy#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
   * Indicates the number of days after which the runtime policy will be changed to enforce mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#enforce_after_days FunctionRuntimePolicy#enforce_after_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#enforce_after_days FunctionRuntimePolicy#enforce_after_days}
   */
   readonly enforceAfterDays?: number;
   /**
   * List of excluded application scopes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#exclude_application_scopes FunctionRuntimePolicy#exclude_application_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#exclude_application_scopes FunctionRuntimePolicy#exclude_application_scopes}
   */
   readonly excludeApplicationScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#id FunctionRuntimePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#id FunctionRuntimePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,97 +77,97 @@ export interface FunctionRuntimePolicyConfig extends cdktf.TerraformMetaArgument
   /**
   * Indicates if audit check is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#is_audit_checked FunctionRuntimePolicy#is_audit_checked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#is_audit_checked FunctionRuntimePolicy#is_audit_checked}
   */
   readonly isAuditChecked?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the policy was auto-generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#is_auto_generated FunctionRuntimePolicy#is_auto_generated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#is_auto_generated FunctionRuntimePolicy#is_auto_generated}
   */
   readonly isAutoGenerated?: boolean | cdktf.IResolvable;
   /**
   * Indicates if this is an out-of-the-box policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#is_ootb_policy FunctionRuntimePolicy#is_ootb_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#is_ootb_policy FunctionRuntimePolicy#is_ootb_policy}
   */
   readonly isOotbPolicy?: boolean | cdktf.IResolvable;
   /**
   * Name of the function runtime policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#name FunctionRuntimePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#name FunctionRuntimePolicy#name}
   */
   readonly name: string;
   /**
   * Type of runtime policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#runtime_type FunctionRuntimePolicy#runtime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#runtime_type FunctionRuntimePolicy#runtime_type}
   */
   readonly runtimeType?: string;
   /**
   * Logical expression of how to compute the dependency of the scope variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#scope_expression FunctionRuntimePolicy#scope_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#scope_expression FunctionRuntimePolicy#scope_expression}
   */
   readonly scopeExpression?: string;
   /**
   * Policy type identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#type FunctionRuntimePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#type FunctionRuntimePolicy#type}
   */
   readonly type?: string;
   /**
   * Version of the function runtime policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#version FunctionRuntimePolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#version FunctionRuntimePolicy#version}
   */
   readonly version?: string;
   /**
   * allowed_executables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#allowed_executables FunctionRuntimePolicy#allowed_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#allowed_executables FunctionRuntimePolicy#allowed_executables}
   */
   readonly allowedExecutables?: FunctionRuntimePolicyAllowedExecutables[] | cdktf.IResolvable;
   /**
   * drift_prevention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#drift_prevention FunctionRuntimePolicy#drift_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#drift_prevention FunctionRuntimePolicy#drift_prevention}
   */
   readonly driftPrevention?: FunctionRuntimePolicyDriftPrevention[] | cdktf.IResolvable;
   /**
   * executable_blacklist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#executable_blacklist FunctionRuntimePolicy#executable_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#executable_blacklist FunctionRuntimePolicy#executable_blacklist}
   */
   readonly executableBlacklist?: FunctionRuntimePolicyExecutableBlacklistStruct[] | cdktf.IResolvable;
   /**
   * file_integrity_monitoring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#file_integrity_monitoring FunctionRuntimePolicy#file_integrity_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#file_integrity_monitoring FunctionRuntimePolicy#file_integrity_monitoring}
   */
   readonly fileIntegrityMonitoring?: FunctionRuntimePolicyFileIntegrityMonitoring[] | cdktf.IResolvable;
   /**
   * malware_scan_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#malware_scan_options FunctionRuntimePolicy#malware_scan_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#malware_scan_options FunctionRuntimePolicy#malware_scan_options}
   */
   readonly malwareScanOptions?: FunctionRuntimePolicyMalwareScanOptions;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#scope FunctionRuntimePolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#scope FunctionRuntimePolicy#scope}
   */
   readonly scope?: FunctionRuntimePolicyScope[] | cdktf.IResolvable;
   /**
   * scope_variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#scope_variables FunctionRuntimePolicy#scope_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#scope_variables FunctionRuntimePolicy#scope_variables}
   */
   readonly scopeVariables?: FunctionRuntimePolicyScopeVariablesA[] | cdktf.IResolvable;
   /**
   * tripwire block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#tripwire FunctionRuntimePolicy#tripwire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#tripwire FunctionRuntimePolicy#tripwire}
   */
   readonly tripwire?: FunctionRuntimePolicyTripwire;
 }
@@ -175,25 +175,25 @@ export interface FunctionRuntimePolicyAllowedExecutables {
   /**
   * List of allowed executables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#allow_executables FunctionRuntimePolicy#allow_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#allow_executables FunctionRuntimePolicy#allow_executables}
   */
   readonly allowExecutables?: string[];
   /**
   * List of allowed root executables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#allow_root_executables FunctionRuntimePolicy#allow_root_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#allow_root_executables FunctionRuntimePolicy#allow_root_executables}
   */
   readonly allowRootExecutables?: string[];
   /**
   * Whether allowed executables configuration is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to treat executables separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#separate_executables FunctionRuntimePolicy#separate_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#separate_executables FunctionRuntimePolicy#separate_executables}
   */
   readonly separateExecutables?: boolean | cdktf.IResolvable;
 }
@@ -398,25 +398,25 @@ export interface FunctionRuntimePolicyDriftPrevention {
   /**
   * Whether drift prevention is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to lockdown execution drift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#exec_lockdown FunctionRuntimePolicy#exec_lockdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#exec_lockdown FunctionRuntimePolicy#exec_lockdown}
   */
   readonly execLockdown?: boolean | cdktf.IResolvable;
   /**
   * List of items in the execution lockdown white list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#exec_lockdown_white_list FunctionRuntimePolicy#exec_lockdown_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#exec_lockdown_white_list FunctionRuntimePolicy#exec_lockdown_white_list}
   */
   readonly execLockdownWhiteList?: string[];
   /**
   * Whether to lockdown image drift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#image_lockdown FunctionRuntimePolicy#image_lockdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#image_lockdown FunctionRuntimePolicy#image_lockdown}
   */
   readonly imageLockdown?: boolean | cdktf.IResolvable;
 }
@@ -621,13 +621,13 @@ export interface FunctionRuntimePolicyExecutableBlacklistStruct {
   /**
   * Whether the executable blacklist is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of blacklisted executables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#executables FunctionRuntimePolicy#executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#executables FunctionRuntimePolicy#executables}
   */
   readonly executables?: string[];
 }
@@ -774,73 +774,73 @@ export interface FunctionRuntimePolicyFileIntegrityMonitoring {
   /**
   * If true, file integrity monitoring is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of paths to be excluded from monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#exceptional_monitored_files FunctionRuntimePolicy#exceptional_monitored_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#exceptional_monitored_files FunctionRuntimePolicy#exceptional_monitored_files}
   */
   readonly exceptionalMonitoredFiles?: string[];
   /**
   * List of processes to be excluded from monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#exceptional_monitored_files_processes FunctionRuntimePolicy#exceptional_monitored_files_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#exceptional_monitored_files_processes FunctionRuntimePolicy#exceptional_monitored_files_processes}
   */
   readonly exceptionalMonitoredFilesProcesses?: string[];
   /**
   * List of users to be excluded from monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#exceptional_monitored_files_users FunctionRuntimePolicy#exceptional_monitored_files_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#exceptional_monitored_files_users FunctionRuntimePolicy#exceptional_monitored_files_users}
   */
   readonly exceptionalMonitoredFilesUsers?: string[];
   /**
   * List of paths to be monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#monitored_files FunctionRuntimePolicy#monitored_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#monitored_files FunctionRuntimePolicy#monitored_files}
   */
   readonly monitoredFiles?: string[];
   /**
   * Whether to monitor file attribute operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#monitored_files_attributes FunctionRuntimePolicy#monitored_files_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#monitored_files_attributes FunctionRuntimePolicy#monitored_files_attributes}
   */
   readonly monitoredFilesAttributes?: boolean | cdktf.IResolvable;
   /**
   * Whether to monitor file create operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#monitored_files_create FunctionRuntimePolicy#monitored_files_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#monitored_files_create FunctionRuntimePolicy#monitored_files_create}
   */
   readonly monitoredFilesCreate?: boolean | cdktf.IResolvable;
   /**
   * Whether to monitor file delete operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#monitored_files_delete FunctionRuntimePolicy#monitored_files_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#monitored_files_delete FunctionRuntimePolicy#monitored_files_delete}
   */
   readonly monitoredFilesDelete?: boolean | cdktf.IResolvable;
   /**
   * Whether to monitor file modify operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#monitored_files_modify FunctionRuntimePolicy#monitored_files_modify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#monitored_files_modify FunctionRuntimePolicy#monitored_files_modify}
   */
   readonly monitoredFilesModify?: boolean | cdktf.IResolvable;
   /**
   * List of processes associated with monitored files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#monitored_files_processes FunctionRuntimePolicy#monitored_files_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#monitored_files_processes FunctionRuntimePolicy#monitored_files_processes}
   */
   readonly monitoredFilesProcesses?: string[];
   /**
   * Whether to monitor file read operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#monitored_files_read FunctionRuntimePolicy#monitored_files_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#monitored_files_read FunctionRuntimePolicy#monitored_files_read}
   */
   readonly monitoredFilesRead?: boolean | cdktf.IResolvable;
   /**
   * List of users associated with monitored files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#monitored_files_users FunctionRuntimePolicy#monitored_files_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#monitored_files_users FunctionRuntimePolicy#monitored_files_users}
   */
   readonly monitoredFilesUsers?: string[];
 }
@@ -1277,37 +1277,37 @@ export interface FunctionRuntimePolicyMalwareScanOptions {
   /**
   * Set Action, Defaults to 'Alert' when empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#action FunctionRuntimePolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#action FunctionRuntimePolicy#action}
   */
   readonly action?: string;
   /**
   * Defines if malware scanning is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of directories to exclude from scanning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#exclude_directories FunctionRuntimePolicy#exclude_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#exclude_directories FunctionRuntimePolicy#exclude_directories}
   */
   readonly excludeDirectories?: string[];
   /**
   * List of processes to exclude from scanning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#exclude_processes FunctionRuntimePolicy#exclude_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#exclude_processes FunctionRuntimePolicy#exclude_processes}
   */
   readonly excludeProcesses?: string[];
   /**
   * Whether to enable file forensic collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#file_forensic_collection FunctionRuntimePolicy#file_forensic_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#file_forensic_collection FunctionRuntimePolicy#file_forensic_collection}
   */
   readonly fileForensicCollection?: boolean | cdktf.IResolvable;
   /**
   * List of directories to include in scanning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#include_directories FunctionRuntimePolicy#include_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#include_directories FunctionRuntimePolicy#include_directories}
   */
   readonly includeDirectories?: string[];
 }
@@ -1538,17 +1538,17 @@ export interface FunctionRuntimePolicyScopeVariables {
   /**
   * Variable attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#attribute FunctionRuntimePolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#attribute FunctionRuntimePolicy#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#name FunctionRuntimePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#name FunctionRuntimePolicy#name}
   */
   readonly name?: string;
   /**
   * Variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#value FunctionRuntimePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#value FunctionRuntimePolicy#value}
   */
   readonly value: string;
 }
@@ -1718,13 +1718,13 @@ export interface FunctionRuntimePolicyScope {
   /**
   * Scope expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#expression FunctionRuntimePolicy#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#expression FunctionRuntimePolicy#expression}
   */
   readonly expression: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#variables FunctionRuntimePolicy#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#variables FunctionRuntimePolicy#variables}
   */
   readonly variables: FunctionRuntimePolicyScopeVariables[] | cdktf.IResolvable;
 }
@@ -1865,19 +1865,19 @@ export interface FunctionRuntimePolicyScopeVariablesA {
   /**
   * Class of supported scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#attribute FunctionRuntimePolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#attribute FunctionRuntimePolicy#attribute}
   */
   readonly attribute: string;
   /**
   * Name assigned to the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#name FunctionRuntimePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#name FunctionRuntimePolicy#name}
   */
   readonly name?: string;
   /**
   * Value assigned to the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#value FunctionRuntimePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#value FunctionRuntimePolicy#value}
   */
   readonly value: string;
 }
@@ -2047,31 +2047,31 @@ export interface FunctionRuntimePolicyTripwire {
   /**
   * List of options to apply the honeypot on (Environment Variable, Layer, File)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#apply_on FunctionRuntimePolicy#apply_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#apply_on FunctionRuntimePolicy#apply_on}
   */
   readonly applyOn?: string[];
   /**
   * Whether the honeypot is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#enabled FunctionRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Serverless application name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#serverless_app FunctionRuntimePolicy#serverless_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#serverless_app FunctionRuntimePolicy#serverless_app}
   */
   readonly serverlessApp?: string;
   /**
   * Honeypot User ID (Access Key)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#user_id FunctionRuntimePolicy#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#user_id FunctionRuntimePolicy#user_id}
   */
   readonly userId?: string;
   /**
   * Honeypot User Password (Secret Key)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#user_password FunctionRuntimePolicy#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#user_password FunctionRuntimePolicy#user_password}
   */
   readonly userPassword?: string;
 }
@@ -2271,7 +2271,7 @@ export class FunctionRuntimePolicyTripwireOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy aquasec_function_runtime_policy}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy aquasec_function_runtime_policy}
 */
 export class FunctionRuntimePolicy extends cdktf.TerraformResource {
 
@@ -2287,7 +2287,7 @@ export class FunctionRuntimePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FunctionRuntimePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FunctionRuntimePolicy to import
-  * @param importFromId The id of the existing FunctionRuntimePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FunctionRuntimePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FunctionRuntimePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2299,7 +2299,7 @@ export class FunctionRuntimePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/function_runtime_policy aquasec_function_runtime_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/function_runtime_policy aquasec_function_runtime_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2310,8 +2310,8 @@ export class FunctionRuntimePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_function_runtime_policy',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

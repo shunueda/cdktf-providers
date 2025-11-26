@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface HoneycombioProviderConfig {
   /**
   * The Honeycomb API key to use. It can also be set via the `HONEYCOMB_API_KEY` or `HONEYCOMBIO_APIKEY` environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs#api_key HoneycombioProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs#api_key HoneycombioProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * The ID portion of the Honeycomb Management API key to use. It can also be set via the `HONEYCOMB_KEY_ID` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs#api_key_id HoneycombioProvider#api_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs#api_key_id HoneycombioProvider#api_key_id}
   */
   readonly apiKeyId?: string;
   /**
   * The secret portion of the Honeycomb Management API key to use. It can also be set via the `HONEYCOMB_KEY_SECRET` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs#api_key_secret HoneycombioProvider#api_key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs#api_key_secret HoneycombioProvider#api_key_secret}
   */
   readonly apiKeySecret?: string;
   /**
   * Override the URL of the Honeycomb API. Defaults to `https://api.honeycomb.io`. It can also be set via the `HONEYCOMB_API_ENDPOINT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs#api_url HoneycombioProvider#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs#api_url HoneycombioProvider#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Enable the API client's debug logs. By default, a `TF_LOG` setting of debug or higher will enable this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs#debug HoneycombioProvider#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs#debug HoneycombioProvider#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs#alias HoneycombioProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs#alias HoneycombioProvider#alias}
   */
   readonly alias?: string;
   /**
   * features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs#features HoneycombioProvider#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs#features HoneycombioProvider#features}
   */
   readonly features?: HoneycombioProviderFeatures;
 }
@@ -54,7 +54,7 @@ export interface HoneycombioProviderFeaturesColumn {
   /**
   * This changes the creation behavior of the column resource to import an existing column if it already exists, rather than erroring out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs#import_on_conflict HoneycombioProvider#import_on_conflict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs#import_on_conflict HoneycombioProvider#import_on_conflict}
   */
   readonly importOnConflict?: boolean | cdktf.IResolvable;
 }
@@ -92,7 +92,7 @@ export interface HoneycombioProviderFeaturesDataset {
   /**
   * This changes the creation behavior of the dataset resource to import an existing dataset if it already exists, rather than erroring out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs#import_on_conflict HoneycombioProvider#import_on_conflict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs#import_on_conflict HoneycombioProvider#import_on_conflict}
   */
   readonly importOnConflict?: boolean | cdktf.IResolvable;
 }
@@ -130,13 +130,13 @@ export interface HoneycombioProviderFeatures {
   /**
   * column block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs#column HoneycombioProvider#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs#column HoneycombioProvider#column}
   */
   readonly column?: HoneycombioProviderFeaturesColumn;
   /**
   * dataset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs#dataset HoneycombioProvider#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs#dataset HoneycombioProvider#dataset}
   */
   readonly dataset?: HoneycombioProviderFeaturesDataset;
 }
@@ -179,7 +179,7 @@ export function honeycombioProviderFeaturesToHclTerraform(struct?: HoneycombioPr
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs honeycombio}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs honeycombio}
 */
 export class HoneycombioProvider extends cdktf.TerraformProvider {
 
@@ -195,7 +195,7 @@ export class HoneycombioProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a HoneycombioProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HoneycombioProvider to import
-  * @param importFromId The id of the existing HoneycombioProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HoneycombioProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HoneycombioProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class HoneycombioProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs honeycombio} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs honeycombio} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class HoneycombioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'honeycombio',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0',
-        providerVersionConstraint: '0.42.0'
+        providerVersion: '0.43.0',
+        providerVersionConstraint: '0.43.0'
       },
       terraformProviderSource: 'honeycombio/honeycombio'
     });

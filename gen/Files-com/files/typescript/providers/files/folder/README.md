@@ -1,3 +1,3 @@
 # `files_folder`
 
-Refer to the Terraform Registry for docs: [`files_folder`](https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/folder).
+Refer to the Terraform Registry for docs: [`files_folder`](https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/folder).

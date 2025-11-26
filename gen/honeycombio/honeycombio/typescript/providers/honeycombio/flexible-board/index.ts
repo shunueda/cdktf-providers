@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FlexibleBoardConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the Board. Supports Markdown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#description FlexibleBoard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#description FlexibleBoard#description}
   */
   readonly description?: string;
   /**
   * The name of the Board.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#name FlexibleBoard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#name FlexibleBoard#name}
   */
   readonly name: string;
   /**
   * A map of tags to assign to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#tags FlexibleBoard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#tags FlexibleBoard#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#panel FlexibleBoard#panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#panel FlexibleBoard#panel}
   */
   readonly panel?: FlexibleBoardPanel[] | cdktf.IResolvable;
 }
@@ -36,25 +36,25 @@ export interface FlexibleBoardPanelPosition {
   /**
   * The height of the panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#height FlexibleBoard#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#height FlexibleBoard#height}
   */
   readonly height?: number;
   /**
   * The width of the panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#width FlexibleBoard#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#width FlexibleBoard#width}
   */
   readonly width?: number;
   /**
   * The X coordinate of the panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#x_coordinate FlexibleBoard#x_coordinate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#x_coordinate FlexibleBoard#x_coordinate}
   */
   readonly xCoordinate?: number;
   /**
   * The Y coordinate of the panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#y_coordinate FlexibleBoard#y_coordinate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#y_coordinate FlexibleBoard#y_coordinate}
   */
   readonly yCoordinate?: number;
 }
@@ -237,25 +237,25 @@ export interface FlexibleBoardPanelQueryPanelVisualizationSettingsChart {
   /**
   * Index of the chart this configuration controls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#chart_index FlexibleBoard#chart_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#chart_index FlexibleBoard#chart_index}
   */
   readonly chartIndex?: number;
   /**
   * Type of chart (e.g., 'line', 'bar').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#chart_type FlexibleBoard#chart_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#chart_type FlexibleBoard#chart_type}
   */
   readonly chartType?: string;
   /**
   * Omit missing values from the visualization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#omit_missing_values FlexibleBoard#omit_missing_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#omit_missing_values FlexibleBoard#omit_missing_values}
   */
   readonly omitMissingValues?: boolean | cdktf.IResolvable;
   /**
   * Use logarithmic scale on Y axis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#use_log_scale FlexibleBoard#use_log_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#use_log_scale FlexibleBoard#use_log_scale}
   */
   readonly useLogScale?: boolean | cdktf.IResolvable;
 }
@@ -460,37 +460,37 @@ export interface FlexibleBoardPanelQueryPanelVisualizationSettings {
   /**
   * Hide comparison values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#hide_compare FlexibleBoard#hide_compare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#hide_compare FlexibleBoard#hide_compare}
   */
   readonly hideCompare?: boolean | cdktf.IResolvable;
   /**
   * Disable Graph tooltips in the results display when hovering over a graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#hide_hovers FlexibleBoard#hide_hovers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#hide_hovers FlexibleBoard#hide_hovers}
   */
   readonly hideHovers?: boolean | cdktf.IResolvable;
   /**
   * Hide markers from appearing on graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#hide_markers FlexibleBoard#hide_markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#hide_markers FlexibleBoard#hide_markers}
   */
   readonly hideMarkers?: boolean | cdktf.IResolvable;
   /**
   * Combine any visualized AVG, MIN, MAX, and PERCENTILE clauses into a single chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#prefer_overlaid_charts FlexibleBoard#prefer_overlaid_charts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#prefer_overlaid_charts FlexibleBoard#prefer_overlaid_charts}
   */
   readonly preferOverlaidCharts?: boolean | cdktf.IResolvable;
   /**
   * Display UTC Time X-Axis or Localtime X-Axis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#use_utc_xaxis FlexibleBoard#use_utc_xaxis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#use_utc_xaxis FlexibleBoard#use_utc_xaxis}
   */
   readonly useUtcXaxis?: boolean | cdktf.IResolvable;
   /**
   * chart block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#chart FlexibleBoard#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#chart FlexibleBoard#chart}
   */
   readonly chart?: FlexibleBoardPanelQueryPanelVisualizationSettingsChart[] | cdktf.IResolvable;
 }
@@ -753,25 +753,25 @@ export interface FlexibleBoardPanelQueryPanel {
   /**
   * Query annotation ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#query_annotation_id FlexibleBoard#query_annotation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#query_annotation_id FlexibleBoard#query_annotation_id}
   */
   readonly queryAnnotationId: string;
   /**
   * Query ID to be rendered in the panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#query_id FlexibleBoard#query_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#query_id FlexibleBoard#query_id}
   */
   readonly queryId: string;
   /**
   * The visual style of the query (e.g., 'graph', 'combo').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#query_style FlexibleBoard#query_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#query_style FlexibleBoard#query_style}
   */
   readonly queryStyle?: string;
   /**
   * visualization_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#visualization_settings FlexibleBoard#visualization_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#visualization_settings FlexibleBoard#visualization_settings}
   */
   readonly visualizationSettings?: FlexibleBoardPanelQueryPanelVisualizationSettings[] | cdktf.IResolvable;
 }
@@ -970,7 +970,7 @@ export interface FlexibleBoardPanelSloPanel {
   /**
   * SLO ID to display in this panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#slo_id FlexibleBoard#slo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#slo_id FlexibleBoard#slo_id}
   */
   readonly sloId: string;
 }
@@ -1085,7 +1085,7 @@ export interface FlexibleBoardPanelTextPanel {
   /**
   * The content of the text panel. Supports Markdown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#content FlexibleBoard#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#content FlexibleBoard#content}
   */
   readonly content: string;
 }
@@ -1200,31 +1200,31 @@ export interface FlexibleBoardPanel {
   /**
   * The panel type, either "query", "slo", or "text".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#type FlexibleBoard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#type FlexibleBoard#type}
   */
   readonly type: string;
   /**
   * position block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#position FlexibleBoard#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#position FlexibleBoard#position}
   */
   readonly position?: FlexibleBoardPanelPosition;
   /**
   * query_panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#query_panel FlexibleBoard#query_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#query_panel FlexibleBoard#query_panel}
   */
   readonly queryPanel?: FlexibleBoardPanelQueryPanel[] | cdktf.IResolvable;
   /**
   * slo_panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#slo_panel FlexibleBoard#slo_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#slo_panel FlexibleBoard#slo_panel}
   */
   readonly sloPanel?: FlexibleBoardPanelSloPanel[] | cdktf.IResolvable;
   /**
   * text_panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#text_panel FlexibleBoard#text_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#text_panel FlexibleBoard#text_panel}
   */
   readonly textPanel?: FlexibleBoardPanelTextPanel[] | cdktf.IResolvable;
 }
@@ -1453,7 +1453,7 @@ export class FlexibleBoardPanelList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board honeycombio_flexible_board}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board honeycombio_flexible_board}
 */
 export class FlexibleBoard extends cdktf.TerraformResource {
 
@@ -1469,7 +1469,7 @@ export class FlexibleBoard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlexibleBoard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlexibleBoard to import
-  * @param importFromId The id of the existing FlexibleBoard that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlexibleBoard that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlexibleBoard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1481,7 +1481,7 @@ export class FlexibleBoard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/resources/flexible_board honeycombio_flexible_board} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board honeycombio_flexible_board} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1492,8 +1492,8 @@ export class FlexibleBoard extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_flexible_board',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0',
-        providerVersionConstraint: '0.42.0'
+        providerVersion: '0.43.0',
+        providerVersionConstraint: '0.43.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

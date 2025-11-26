@@ -1,3 +1,3 @@
 # `data_honeycombio_recipients`
 
-Refer to the Terraform Registry for docs: [`data_honeycombio_recipients`](https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/recipients).
+Refer to the Terraform Registry for docs: [`data_honeycombio_recipients`](https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/recipients).

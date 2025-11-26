@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,62 +10,68 @@ export interface RoutePrefixListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#description RoutePrefixList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#description RoutePrefixList#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#device RoutePrefixList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#device RoutePrefixList#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#folder RoutePrefixList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#folder RoutePrefixList#folder}
   */
   readonly folder?: string;
   /**
-  * Ipv4
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#ipv4 RoutePrefixList#ipv4}
-  */
-  readonly ipv4?: RoutePrefixListIpv4;
-  /**
   * Filter prefix list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#name RoutePrefixList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#name RoutePrefixList#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#snippet RoutePrefixList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#snippet RoutePrefixList#snippet}
   */
   readonly snippet?: string;
+  /**
+  * Address Family Type
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#type RoutePrefixList#type}
+  */
+  readonly type?: RoutePrefixListType;
 }
-export interface RoutePrefixListIpv4Ipv4EntryPrefixEntry {
+export interface RoutePrefixListTypeIpv4Ipv4EntryPrefixEntry {
   /**
   * Greater than or equal to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#greater_than_or_equal RoutePrefixList#greater_than_or_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#greater_than_or_equal RoutePrefixList#greater_than_or_equal}
   */
   readonly greaterThanOrEqual?: number;
   /**
   * Less than or equal to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#less_than_or_equal RoutePrefixList#less_than_or_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#less_than_or_equal RoutePrefixList#less_than_or_equal}
   */
   readonly lessThanOrEqual?: number;
   /**
   * Network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#network RoutePrefixList#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#network RoutePrefixList#network}
   */
   readonly network?: string;
 }
 
-export function routePrefixListIpv4Ipv4EntryPrefixEntryToTerraform(struct?: RoutePrefixListIpv4Ipv4EntryPrefixEntry | cdktf.IResolvable): any {
+export function routePrefixListTypeIpv4Ipv4EntryPrefixEntryToTerraform(struct?: RoutePrefixListTypeIpv4Ipv4EntryPrefixEntry | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -78,7 +84,7 @@ export function routePrefixListIpv4Ipv4EntryPrefixEntryToTerraform(struct?: Rout
 }
 
 
-export function routePrefixListIpv4Ipv4EntryPrefixEntryToHclTerraform(struct?: RoutePrefixListIpv4Ipv4EntryPrefixEntry | cdktf.IResolvable): any {
+export function routePrefixListTypeIpv4Ipv4EntryPrefixEntryToHclTerraform(struct?: RoutePrefixListTypeIpv4Ipv4EntryPrefixEntry | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -108,7 +114,7 @@ export function routePrefixListIpv4Ipv4EntryPrefixEntryToHclTerraform(struct?: R
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RoutePrefixListIpv4Ipv4EntryPrefixEntryOutputReference extends cdktf.ComplexObject {
+export class RoutePrefixListTypeIpv4Ipv4EntryPrefixEntryOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -120,7 +126,7 @@ export class RoutePrefixListIpv4Ipv4EntryPrefixEntryOutputReference extends cdkt
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): RoutePrefixListIpv4Ipv4EntryPrefixEntry | cdktf.IResolvable | undefined {
+  public get internalValue(): RoutePrefixListTypeIpv4Ipv4EntryPrefixEntry | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -141,7 +147,7 @@ export class RoutePrefixListIpv4Ipv4EntryPrefixEntryOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RoutePrefixListIpv4Ipv4EntryPrefixEntry | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RoutePrefixListTypeIpv4Ipv4EntryPrefixEntry | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -210,44 +216,48 @@ export class RoutePrefixListIpv4Ipv4EntryPrefixEntryOutputReference extends cdkt
     return this._network;
   }
 }
-export interface RoutePrefixListIpv4Ipv4EntryPrefix {
+export interface RoutePrefixListTypeIpv4Ipv4EntryPrefix {
   /**
   * Entry
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `entry` and `network`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#entry RoutePrefixList#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#entry RoutePrefixList#entry}
   */
-  readonly entry?: RoutePrefixListIpv4Ipv4EntryPrefixEntry;
+  readonly entry?: RoutePrefixListTypeIpv4Ipv4EntryPrefixEntry;
   /**
   * Network
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `entry` and `network`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#network RoutePrefixList#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#network RoutePrefixList#network}
   */
   readonly network?: string;
 }
 
-export function routePrefixListIpv4Ipv4EntryPrefixToTerraform(struct?: RoutePrefixListIpv4Ipv4EntryPrefix | cdktf.IResolvable): any {
+export function routePrefixListTypeIpv4Ipv4EntryPrefixToTerraform(struct?: RoutePrefixListTypeIpv4Ipv4EntryPrefix | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    entry: routePrefixListIpv4Ipv4EntryPrefixEntryToTerraform(struct!.entry),
+    entry: routePrefixListTypeIpv4Ipv4EntryPrefixEntryToTerraform(struct!.entry),
     network: cdktf.stringToTerraform(struct!.network),
   }
 }
 
 
-export function routePrefixListIpv4Ipv4EntryPrefixToHclTerraform(struct?: RoutePrefixListIpv4Ipv4EntryPrefix | cdktf.IResolvable): any {
+export function routePrefixListTypeIpv4Ipv4EntryPrefixToHclTerraform(struct?: RoutePrefixListTypeIpv4Ipv4EntryPrefix | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     entry: {
-      value: routePrefixListIpv4Ipv4EntryPrefixEntryToHclTerraform(struct!.entry),
+      value: routePrefixListTypeIpv4Ipv4EntryPrefixEntryToHclTerraform(struct!.entry),
       isBlock: true,
       type: "struct",
-      storageClassType: "RoutePrefixListIpv4Ipv4EntryPrefixEntry",
+      storageClassType: "RoutePrefixListTypeIpv4Ipv4EntryPrefixEntry",
     },
     network: {
       value: cdktf.stringToHclTerraform(struct!.network),
@@ -261,7 +271,7 @@ export function routePrefixListIpv4Ipv4EntryPrefixToHclTerraform(struct?: RouteP
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RoutePrefixListIpv4Ipv4EntryPrefixOutputReference extends cdktf.ComplexObject {
+export class RoutePrefixListTypeIpv4Ipv4EntryPrefixOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -273,7 +283,7 @@ export class RoutePrefixListIpv4Ipv4EntryPrefixOutputReference extends cdktf.Com
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): RoutePrefixListIpv4Ipv4EntryPrefix | cdktf.IResolvable | undefined {
+  public get internalValue(): RoutePrefixListTypeIpv4Ipv4EntryPrefix | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -290,7 +300,7 @@ export class RoutePrefixListIpv4Ipv4EntryPrefixOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RoutePrefixListIpv4Ipv4EntryPrefix | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RoutePrefixListTypeIpv4Ipv4EntryPrefix | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -310,11 +320,11 @@ export class RoutePrefixListIpv4Ipv4EntryPrefixOutputReference extends cdktf.Com
   }
 
   // entry - computed: false, optional: true, required: false
-  private _entry = new RoutePrefixListIpv4Ipv4EntryPrefixEntryOutputReference(this, "entry");
+  private _entry = new RoutePrefixListTypeIpv4Ipv4EntryPrefixEntryOutputReference(this, "entry");
   public get entry() {
     return this._entry;
   }
-  public putEntry(value: RoutePrefixListIpv4Ipv4EntryPrefixEntry) {
+  public putEntry(value: RoutePrefixListTypeIpv4Ipv4EntryPrefixEntry) {
     this._entry.internalValue = value;
   }
   public resetEntry() {
@@ -341,28 +351,28 @@ export class RoutePrefixListIpv4Ipv4EntryPrefixOutputReference extends cdktf.Com
     return this._network;
   }
 }
-export interface RoutePrefixListIpv4Ipv4Entry {
+export interface RoutePrefixListTypeIpv4Ipv4Entry {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#action RoutePrefixList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#action RoutePrefixList#action}
   */
   readonly action?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#name RoutePrefixList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#name RoutePrefixList#name}
   */
   readonly name?: number;
   /**
   * Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#prefix RoutePrefixList#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#prefix RoutePrefixList#prefix}
   */
-  readonly prefix?: RoutePrefixListIpv4Ipv4EntryPrefix;
+  readonly prefix?: RoutePrefixListTypeIpv4Ipv4EntryPrefix;
 }
 
-export function routePrefixListIpv4Ipv4EntryToTerraform(struct?: RoutePrefixListIpv4Ipv4Entry | cdktf.IResolvable): any {
+export function routePrefixListTypeIpv4Ipv4EntryToTerraform(struct?: RoutePrefixListTypeIpv4Ipv4Entry | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -370,12 +380,12 @@ export function routePrefixListIpv4Ipv4EntryToTerraform(struct?: RoutePrefixList
   return {
     action: cdktf.stringToTerraform(struct!.action),
     name: cdktf.numberToTerraform(struct!.name),
-    prefix: routePrefixListIpv4Ipv4EntryPrefixToTerraform(struct!.prefix),
+    prefix: routePrefixListTypeIpv4Ipv4EntryPrefixToTerraform(struct!.prefix),
   }
 }
 
 
-export function routePrefixListIpv4Ipv4EntryToHclTerraform(struct?: RoutePrefixListIpv4Ipv4Entry | cdktf.IResolvable): any {
+export function routePrefixListTypeIpv4Ipv4EntryToHclTerraform(struct?: RoutePrefixListTypeIpv4Ipv4Entry | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -394,10 +404,10 @@ export function routePrefixListIpv4Ipv4EntryToHclTerraform(struct?: RoutePrefixL
       storageClassType: "number",
     },
     prefix: {
-      value: routePrefixListIpv4Ipv4EntryPrefixToHclTerraform(struct!.prefix),
+      value: routePrefixListTypeIpv4Ipv4EntryPrefixToHclTerraform(struct!.prefix),
       isBlock: true,
       type: "struct",
-      storageClassType: "RoutePrefixListIpv4Ipv4EntryPrefix",
+      storageClassType: "RoutePrefixListTypeIpv4Ipv4EntryPrefix",
     },
   };
 
@@ -405,7 +415,7 @@ export function routePrefixListIpv4Ipv4EntryToHclTerraform(struct?: RoutePrefixL
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RoutePrefixListIpv4Ipv4EntryOutputReference extends cdktf.ComplexObject {
+export class RoutePrefixListTypeIpv4Ipv4EntryOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -419,7 +429,7 @@ export class RoutePrefixListIpv4Ipv4EntryOutputReference extends cdktf.ComplexOb
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): RoutePrefixListIpv4Ipv4Entry | cdktf.IResolvable | undefined {
+  public get internalValue(): RoutePrefixListTypeIpv4Ipv4Entry | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -440,7 +450,7 @@ export class RoutePrefixListIpv4Ipv4EntryOutputReference extends cdktf.ComplexOb
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RoutePrefixListIpv4Ipv4Entry | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RoutePrefixListTypeIpv4Ipv4Entry | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -494,11 +504,11 @@ export class RoutePrefixListIpv4Ipv4EntryOutputReference extends cdktf.ComplexOb
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix = new RoutePrefixListIpv4Ipv4EntryPrefixOutputReference(this, "prefix");
+  private _prefix = new RoutePrefixListTypeIpv4Ipv4EntryPrefixOutputReference(this, "prefix");
   public get prefix() {
     return this._prefix;
   }
-  public putPrefix(value: RoutePrefixListIpv4Ipv4EntryPrefix) {
+  public putPrefix(value: RoutePrefixListTypeIpv4Ipv4EntryPrefix) {
     this._prefix.internalValue = value;
   }
   public resetPrefix() {
@@ -510,8 +520,8 @@ export class RoutePrefixListIpv4Ipv4EntryOutputReference extends cdktf.ComplexOb
   }
 }
 
-export class RoutePrefixListIpv4Ipv4EntryList extends cdktf.ComplexList {
-  public internalValue? : RoutePrefixListIpv4Ipv4Entry[] | cdktf.IResolvable
+export class RoutePrefixListTypeIpv4Ipv4EntryList extends cdktf.ComplexList {
+  public internalValue? : RoutePrefixListTypeIpv4Ipv4Entry[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -525,41 +535,41 @@ export class RoutePrefixListIpv4Ipv4EntryList extends cdktf.ComplexList {
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): RoutePrefixListIpv4Ipv4EntryOutputReference {
-    return new RoutePrefixListIpv4Ipv4EntryOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): RoutePrefixListTypeIpv4Ipv4EntryOutputReference {
+    return new RoutePrefixListTypeIpv4Ipv4EntryOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface RoutePrefixListIpv4 {
+export interface RoutePrefixListTypeIpv4 {
   /**
   * IPv4 prefix lists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#ipv4_entry RoutePrefixList#ipv4_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#ipv4_entry RoutePrefixList#ipv4_entry}
   */
-  readonly ipv4Entry?: RoutePrefixListIpv4Ipv4Entry[] | cdktf.IResolvable;
+  readonly ipv4Entry?: RoutePrefixListTypeIpv4Ipv4Entry[] | cdktf.IResolvable;
 }
 
-export function routePrefixListIpv4ToTerraform(struct?: RoutePrefixListIpv4 | cdktf.IResolvable): any {
+export function routePrefixListTypeIpv4ToTerraform(struct?: RoutePrefixListTypeIpv4 | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    ipv4_entry: cdktf.listMapper(routePrefixListIpv4Ipv4EntryToTerraform, false)(struct!.ipv4Entry),
+    ipv4_entry: cdktf.listMapper(routePrefixListTypeIpv4Ipv4EntryToTerraform, false)(struct!.ipv4Entry),
   }
 }
 
 
-export function routePrefixListIpv4ToHclTerraform(struct?: RoutePrefixListIpv4 | cdktf.IResolvable): any {
+export function routePrefixListTypeIpv4ToHclTerraform(struct?: RoutePrefixListTypeIpv4 | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     ipv4_entry: {
-      value: cdktf.listMapperHcl(routePrefixListIpv4Ipv4EntryToHclTerraform, false)(struct!.ipv4Entry),
+      value: cdktf.listMapperHcl(routePrefixListTypeIpv4Ipv4EntryToHclTerraform, false)(struct!.ipv4Entry),
       isBlock: true,
       type: "list",
-      storageClassType: "RoutePrefixListIpv4Ipv4EntryList",
+      storageClassType: "RoutePrefixListTypeIpv4Ipv4EntryList",
     },
   };
 
@@ -567,7 +577,7 @@ export function routePrefixListIpv4ToHclTerraform(struct?: RoutePrefixListIpv4 |
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RoutePrefixListIpv4OutputReference extends cdktf.ComplexObject {
+export class RoutePrefixListTypeIpv4OutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -579,7 +589,7 @@ export class RoutePrefixListIpv4OutputReference extends cdktf.ComplexObject {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): RoutePrefixListIpv4 | cdktf.IResolvable | undefined {
+  public get internalValue(): RoutePrefixListTypeIpv4 | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -592,7 +602,7 @@ export class RoutePrefixListIpv4OutputReference extends cdktf.ComplexObject {
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RoutePrefixListIpv4 | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RoutePrefixListTypeIpv4 | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -610,11 +620,11 @@ export class RoutePrefixListIpv4OutputReference extends cdktf.ComplexObject {
   }
 
   // ipv4_entry - computed: false, optional: true, required: false
-  private _ipv4Entry = new RoutePrefixListIpv4Ipv4EntryList(this, "ipv4_entry", false);
+  private _ipv4Entry = new RoutePrefixListTypeIpv4Ipv4EntryList(this, "ipv4_entry", false);
   public get ipv4Entry() {
     return this._ipv4Entry;
   }
-  public putIpv4Entry(value: RoutePrefixListIpv4Ipv4Entry[] | cdktf.IResolvable) {
+  public putIpv4Entry(value: RoutePrefixListTypeIpv4Ipv4Entry[] | cdktf.IResolvable) {
     this._ipv4Entry.internalValue = value;
   }
   public resetIpv4Entry() {
@@ -625,9 +635,102 @@ export class RoutePrefixListIpv4OutputReference extends cdktf.ComplexObject {
     return this._ipv4Entry.internalValue;
   }
 }
+export interface RoutePrefixListType {
+  /**
+  * Ipv4
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#ipv4 RoutePrefixList#ipv4}
+  */
+  readonly ipv4: RoutePrefixListTypeIpv4;
+}
+
+export function routePrefixListTypeToTerraform(struct?: RoutePrefixListType | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ipv4: routePrefixListTypeIpv4ToTerraform(struct!.ipv4),
+  }
+}
+
+
+export function routePrefixListTypeToHclTerraform(struct?: RoutePrefixListType | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ipv4: {
+      value: routePrefixListTypeIpv4ToHclTerraform(struct!.ipv4),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "RoutePrefixListTypeIpv4",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RoutePrefixListTypeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): RoutePrefixListType | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ipv4?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4 = this._ipv4?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RoutePrefixListType | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._ipv4.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._ipv4.internalValue = value.ipv4;
+    }
+  }
+
+  // ipv4 - computed: false, optional: false, required: true
+  private _ipv4 = new RoutePrefixListTypeIpv4OutputReference(this, "ipv4");
+  public get ipv4() {
+    return this._ipv4;
+  }
+  public putIpv4(value: RoutePrefixListTypeIpv4) {
+    this._ipv4.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4Input() {
+    return this._ipv4.internalValue;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list scm_route_prefix_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list scm_route_prefix_list}
 */
 export class RoutePrefixList extends cdktf.TerraformResource {
 
@@ -643,7 +746,7 @@ export class RoutePrefixList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutePrefixList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutePrefixList to import
-  * @param importFromId The id of the existing RoutePrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutePrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutePrefixList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -655,7 +758,7 @@ export class RoutePrefixList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list scm_route_prefix_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_prefix_list scm_route_prefix_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -666,8 +769,8 @@ export class RoutePrefixList extends cdktf.TerraformResource {
       terraformResourceType: 'scm_route_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -680,9 +783,9 @@ export class RoutePrefixList extends cdktf.TerraformResource {
     this._description = config.description;
     this._device = config.device;
     this._folder = config.folder;
-    this._ipv4.internalValue = config.ipv4;
     this._name = config.name;
     this._snippet = config.snippet;
+    this._type.internalValue = config.type;
   }
 
   // ==========
@@ -742,22 +845,6 @@ export class RoutePrefixList extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // ipv4 - computed: false, optional: true, required: false
-  private _ipv4 = new RoutePrefixListIpv4OutputReference(this, "ipv4");
-  public get ipv4() {
-    return this._ipv4;
-  }
-  public putIpv4(value: RoutePrefixListIpv4) {
-    this._ipv4.internalValue = value;
-  }
-  public resetIpv4() {
-    this._ipv4.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv4Input() {
-    return this._ipv4.internalValue;
-  }
-
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -792,6 +879,22 @@ export class RoutePrefixList extends cdktf.TerraformResource {
     return this.getStringAttribute('tfid');
   }
 
+  // type - computed: false, optional: true, required: false
+  private _type = new RoutePrefixListTypeOutputReference(this, "type");
+  public get type() {
+    return this._type;
+  }
+  public putType(value: RoutePrefixListType) {
+    this._type.internalValue = value;
+  }
+  public resetType() {
+    this._type.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -801,9 +904,9 @@ export class RoutePrefixList extends cdktf.TerraformResource {
       description: cdktf.stringToTerraform(this._description),
       device: cdktf.stringToTerraform(this._device),
       folder: cdktf.stringToTerraform(this._folder),
-      ipv4: routePrefixListIpv4ToTerraform(this._ipv4.internalValue),
       name: cdktf.stringToTerraform(this._name),
       snippet: cdktf.stringToTerraform(this._snippet),
+      type: routePrefixListTypeToTerraform(this._type.internalValue),
     };
   }
 
@@ -827,12 +930,6 @@ export class RoutePrefixList extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      ipv4: {
-        value: routePrefixListIpv4ToHclTerraform(this._ipv4.internalValue),
-        isBlock: true,
-        type: "struct",
-        storageClassType: "RoutePrefixListIpv4",
-      },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
@@ -844,6 +941,12 @@ export class RoutePrefixList extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      type: {
+        value: routePrefixListTypeToHclTerraform(this._type.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "RoutePrefixListType",
       },
     };
 

@@ -11,6 +11,7 @@ export * as flow from './flow';
 export * as flowStageBinding from './flow-stage-binding';
 export * as group from './group';
 export * as outpost from './outpost';
+export * as outpostProviderAttachment from './outpost-provider-attachment';
 export * as policyBinding from './policy-binding';
 export * as policyDummy from './policy-dummy';
 export * as policyEventMatcher from './policy-event-matcher';
@@ -99,6 +100,7 @@ export * as dataAuthentikCertificateKeyPair from './data-authentik-certificate-k
 export * as dataAuthentikFlow from './data-authentik-flow';
 export * as dataAuthentikGroup from './data-authentik-group';
 export * as dataAuthentikGroups from './data-authentik-groups';
+export * as dataAuthentikOutpost from './data-authentik-outpost';
 export * as dataAuthentikPropertyMappingProviderRac from './data-authentik-property-mapping-provider-rac';
 export * as dataAuthentikPropertyMappingProviderRadius from './data-authentik-property-mapping-provider-radius';
 export * as dataAuthentikPropertyMappingProviderSaml from './data-authentik-property-mapping-provider-saml';

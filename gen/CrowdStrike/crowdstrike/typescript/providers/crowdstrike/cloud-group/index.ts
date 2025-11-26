@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface CloudGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS cloud resource configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#aws CloudGroup#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#aws CloudGroup#aws}
   */
   readonly aws?: CloudGroupAws;
   /**
   * Azure cloud resource configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#azure CloudGroup#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#azure CloudGroup#azure}
   */
   readonly azure?: CloudGroupAzure;
   /**
   * An impact level that reflects how critical the cloud group's assets are to business operations. Valid values: high, moderate, low.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#business_impact CloudGroup#business_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#business_impact CloudGroup#business_impact}
   */
   readonly businessImpact?: string;
   /**
   * A free-text label used to associate the cloud group with an internal team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#business_unit CloudGroup#business_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#business_unit CloudGroup#business_unit}
   */
   readonly businessUnit?: string;
   /**
   * The description of the cloud group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#description CloudGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#description CloudGroup#description}
   */
   readonly description?: string;
   /**
   * Environment designation for the group. Valid values: dev, test, stage, prod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#environment CloudGroup#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#environment CloudGroup#environment}
   */
   readonly environment?: string;
   /**
   * GCP cloud resource configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#gcp CloudGroup#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#gcp CloudGroup#gcp}
   */
   readonly gcp?: CloudGroupGcp;
   /**
   * The container images accessible to the group. Each entry includes a registry and filters for repositories and tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#images CloudGroup#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#images CloudGroup#images}
   */
   readonly images?: CloudGroupImages[] | cdktf.IResolvable;
   /**
   * The name of the cloud group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#name CloudGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#name CloudGroup#name}
   */
   readonly name: string;
   /**
   * Contact information for stakeholders responsible for the cloud group. List of email addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#owners CloudGroup#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#owners CloudGroup#owners}
   */
   readonly owners?: string[];
 }
@@ -72,13 +72,13 @@ export interface CloudGroupAwsFilters {
   /**
   * List of AWS regions to include
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#region CloudGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#region CloudGroup#region}
   */
   readonly region?: string[];
   /**
   * List of tags to filter by (format: key=value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#tags CloudGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#tags CloudGroup#tags}
   */
   readonly tags?: string[];
 }
@@ -203,13 +203,13 @@ export interface CloudGroupAws {
   /**
   * The cloud account identifiers (AWS account IDs) to include in the group. This field limits access to cloud resources in the specified accounts. When not provided, resources across all accounts in the cloud provider are accessible to the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#account_ids CloudGroup#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#account_ids CloudGroup#account_ids}
   */
   readonly accountIds?: string[];
   /**
   * Filters for AWS cloud resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#filters CloudGroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#filters CloudGroup#filters}
   */
   readonly filters?: CloudGroupAwsFilters;
 }
@@ -334,13 +334,13 @@ export interface CloudGroupAzureFilters {
   /**
   * List of Azure regions to include
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#region CloudGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#region CloudGroup#region}
   */
   readonly region?: string[];
   /**
   * List of tags to filter by (format: key=value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#tags CloudGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#tags CloudGroup#tags}
   */
   readonly tags?: string[];
 }
@@ -465,13 +465,13 @@ export interface CloudGroupAzure {
   /**
   * The cloud account identifiers (Azure subscription IDs) to include in the group. This field limits access to cloud resources in the specified accounts. When not provided, resources across all accounts in the cloud provider are accessible to the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#account_ids CloudGroup#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#account_ids CloudGroup#account_ids}
   */
   readonly accountIds?: string[];
   /**
   * Filters for Azure cloud resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#filters CloudGroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#filters CloudGroup#filters}
   */
   readonly filters?: CloudGroupAzureFilters;
 }
@@ -596,7 +596,7 @@ export interface CloudGroupGcpFilters {
   /**
   * List of GCP regions to include
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#region CloudGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#region CloudGroup#region}
   */
   readonly region?: string[];
 }
@@ -692,13 +692,13 @@ export interface CloudGroupGcp {
   /**
   * The cloud account identifiers (GCP project IDs) to include in the group. This field limits access to cloud resources in the specified accounts. When not provided, resources across all accounts in the cloud provider are accessible to the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#account_ids CloudGroup#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#account_ids CloudGroup#account_ids}
   */
   readonly accountIds?: string[];
   /**
   * Filters for GCP cloud resources. Note: GCP does not support tag filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#filters CloudGroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#filters CloudGroup#filters}
   */
   readonly filters?: CloudGroupGcpFilters;
 }
@@ -823,19 +823,19 @@ export interface CloudGroupImages {
   /**
   * The container registry to include in the group. Must be a complete HTTPS URL for a supported registry. For info about supported registries and URL format, see https://docs.crowdstrike.com/r/ved836f1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#registry CloudGroup#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#registry CloudGroup#registry}
   */
   readonly registry: string;
   /**
   * The container image repositories within the specified registry to filter by. When specified, only images within these repositories are accessible to the group. When omitted, all repositories in the registry are included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#repositories CloudGroup#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#repositories CloudGroup#repositories}
   */
   readonly repositories?: string[];
   /**
   * The container image tags to filter by. Tag matching is scoped to the specified repositories values, or across all repositories in the given registry if repositories are not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#tags CloudGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#tags CloudGroup#tags}
   */
   readonly tags?: string[];
 }
@@ -1006,7 +1006,7 @@ export class CloudGroupImagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group crowdstrike_cloud_group}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group crowdstrike_cloud_group}
 */
 export class CloudGroup extends cdktf.TerraformResource {
 
@@ -1022,7 +1022,7 @@ export class CloudGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudGroup to import
-  * @param importFromId The id of the existing CloudGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1034,7 +1034,7 @@ export class CloudGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/cloud_group crowdstrike_cloud_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_group crowdstrike_cloud_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1045,8 +1045,8 @@ export class CloudGroup extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_cloud_group',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.48',
-        providerVersionConstraint: '0.0.48'
+        providerVersion: '0.0.49',
+        providerVersionConstraint: '0.0.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

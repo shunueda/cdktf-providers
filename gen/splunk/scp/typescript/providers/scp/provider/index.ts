@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/scp/1.2.7/docs
+// https://registry.terraform.io/providers/splunk/scp/1.3.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,55 @@ export interface ScpProviderConfig {
   /**
   * Authentication tokens, also known as JSON Web Tokens (JWT), are a method for authenticating Splunk platform users into the Splunk platform. May also be provided via STACK_TOKEN environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#auth_token ScpProvider#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs#auth_token ScpProvider#auth_token}
   */
   readonly authToken?: string;
   /**
   * Splunk Cloud Platform deployment password. May also be provided via STACK_PASSWORD environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#password ScpProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs#password ScpProvider#password}
   */
   readonly password?: string;
   /**
   * ACS API base URL. May also be provided via ACS_SERVER environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#server ScpProvider#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs#server ScpProvider#server}
   */
   readonly server?: string;
   /**
+  * Splunk user password, will be used to log in to splunkbase. May also be provided via SPLUNK_PASSWORD environment variable.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs#splunk_password ScpProvider#splunk_password}
+  */
+  readonly splunkPassword?: string;
+  /**
+  * Splunk username, will be used to log in to splunkbase. May also be provided via SPLUNK_USERNAME environment variable.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs#splunk_username ScpProvider#splunk_username}
+  */
+  readonly splunkUsername?: string;
+  /**
   * Stack to perform ACS operations. May also be provided via SPLUNK_STACK environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#stack ScpProvider#stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs#stack ScpProvider#stack}
   */
   readonly stack?: string;
   /**
   * Splunk Cloud Platform deployment username. May also be provided via STACK_USERNAME environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#username ScpProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs#username ScpProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#alias ScpProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs#alias ScpProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs scp}
+* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs scp}
 */
 export class ScpProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +74,7 @@ export class ScpProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ScpProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScpProvider to import
-  * @param importFromId The id of the existing ScpProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScpProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScpProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +86,7 @@ export class ScpProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs scp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs scp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,14 +97,16 @@ export class ScpProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'scp',
       terraformGeneratorMetadata: {
         providerName: 'scp',
-        providerVersion: '1.2.7',
-        providerVersionConstraint: '1.2.7'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       terraformProviderSource: 'splunk/scp'
     });
     this._authToken = config.authToken;
     this._password = config.password;
     this._server = config.server;
+    this._splunkPassword = config.splunkPassword;
+    this._splunkUsername = config.splunkUsername;
     this._stack = config.stack;
     this._username = config.username;
     this._alias = config.alias;
@@ -148,6 +162,38 @@ export class ScpProvider extends cdktf.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get serverInput() {
     return this._server;
+  }
+
+  // splunk_password - computed: false, optional: true, required: false
+  private _splunkPassword?: string; 
+  public get splunkPassword() {
+    return this._splunkPassword;
+  }
+  public set splunkPassword(value: string | undefined) {
+    this._splunkPassword = value;
+  }
+  public resetSplunkPassword() {
+    this._splunkPassword = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get splunkPasswordInput() {
+    return this._splunkPassword;
+  }
+
+  // splunk_username - computed: false, optional: true, required: false
+  private _splunkUsername?: string; 
+  public get splunkUsername() {
+    return this._splunkUsername;
+  }
+  public set splunkUsername(value: string | undefined) {
+    this._splunkUsername = value;
+  }
+  public resetSplunkUsername() {
+    this._splunkUsername = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get splunkUsernameInput() {
+    return this._splunkUsername;
   }
 
   // stack - computed: false, optional: true, required: false
@@ -207,6 +253,8 @@ export class ScpProvider extends cdktf.TerraformProvider {
       auth_token: cdktf.stringToTerraform(this._authToken),
       password: cdktf.stringToTerraform(this._password),
       server: cdktf.stringToTerraform(this._server),
+      splunk_password: cdktf.stringToTerraform(this._splunkPassword),
+      splunk_username: cdktf.stringToTerraform(this._splunkUsername),
       stack: cdktf.stringToTerraform(this._stack),
       username: cdktf.stringToTerraform(this._username),
       alias: cdktf.stringToTerraform(this._alias),
@@ -229,6 +277,18 @@ export class ScpProvider extends cdktf.TerraformProvider {
       },
       server: {
         value: cdktf.stringToHclTerraform(this._server),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      splunk_password: {
+        value: cdktf.stringToHclTerraform(this._splunkPassword),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      splunk_username: {
+        value: cdktf.stringToHclTerraform(this._splunkUsername),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

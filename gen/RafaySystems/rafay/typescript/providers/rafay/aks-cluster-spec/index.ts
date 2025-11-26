@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface AksClusterSpecAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec#checkdiff AksClusterSpecA#checkdiff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec#checkdiff AksClusterSpecA#checkdiff}
   */
   readonly checkdiff?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec#id AksClusterSpecA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec#id AksClusterSpecA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec#name AksClusterSpecA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec#name AksClusterSpecA#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec#projectname AksClusterSpecA#projectname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec#projectname AksClusterSpecA#projectname}
   */
   readonly projectname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec#waitflag AksClusterSpecA#waitflag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec#waitflag AksClusterSpecA#waitflag}
   */
   readonly waitflag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec#yamlfilepath AksClusterSpecA#yamlfilepath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec#yamlfilepath AksClusterSpecA#yamlfilepath}
   */
   readonly yamlfilepath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec#yamlfileversion AksClusterSpecA#yamlfileversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec#yamlfileversion AksClusterSpecA#yamlfileversion}
   */
   readonly yamlfileversion: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec#timeouts AksClusterSpecA#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec#timeouts AksClusterSpecA#timeouts}
   */
   readonly timeouts?: AksClusterSpecTimeouts;
 }
 export interface AksClusterSpecTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec#create AksClusterSpecA#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec#create AksClusterSpecA#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec#delete AksClusterSpecA#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec#delete AksClusterSpecA#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec#update AksClusterSpecA#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec#update AksClusterSpecA#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class AksClusterSpecTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec rafay_aks_cluster_spec}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec rafay_aks_cluster_spec}
 */
 export class AksClusterSpecA extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class AksClusterSpecA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AksClusterSpecA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AksClusterSpecA to import
-  * @param importFromId The id of the existing AksClusterSpecA that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AksClusterSpecA that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AksClusterSpecA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class AksClusterSpecA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_cluster_spec rafay_aks_cluster_spec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/aks_cluster_spec rafay_aks_cluster_spec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class AksClusterSpecA extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_aks_cluster_spec',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

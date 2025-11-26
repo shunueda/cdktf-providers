@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,92 +9,98 @@ import * as cdktf from 'cdktf';
 export interface InterfaceManagementProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#device InterfaceManagementProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#device InterfaceManagementProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#folder InterfaceManagementProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#folder InterfaceManagementProfile#folder}
   */
   readonly folder?: string;
   /**
   * Allow HTTP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#http InterfaceManagementProfile#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#http InterfaceManagementProfile#http}
   */
   readonly http?: boolean | cdktf.IResolvable;
   /**
   * Allow HTTP OCSP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#http_ocsp InterfaceManagementProfile#http_ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#http_ocsp InterfaceManagementProfile#http_ocsp}
   */
   readonly httpOcsp?: boolean | cdktf.IResolvable;
   /**
   * Allow HTTPS?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#https InterfaceManagementProfile#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#https InterfaceManagementProfile#https}
   */
   readonly https?: boolean | cdktf.IResolvable;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#name InterfaceManagementProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#name InterfaceManagementProfile#name}
   */
   readonly name: string;
   /**
   * Allowed IP address(es)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#permitted_ip InterfaceManagementProfile#permitted_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#permitted_ip InterfaceManagementProfile#permitted_ip}
   */
   readonly permittedIp?: InterfaceManagementProfilePermittedIp[] | cdktf.IResolvable;
   /**
   * Allow ping?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#ping InterfaceManagementProfile#ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#ping InterfaceManagementProfile#ping}
   */
   readonly ping?: boolean | cdktf.IResolvable;
   /**
   * Allow response pages?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#response_pages InterfaceManagementProfile#response_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#response_pages InterfaceManagementProfile#response_pages}
   */
   readonly responsePages?: boolean | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#snippet InterfaceManagementProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#snippet InterfaceManagementProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * Allow SSH?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#ssh InterfaceManagementProfile#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#ssh InterfaceManagementProfile#ssh}
   */
   readonly ssh?: boolean | cdktf.IResolvable;
   /**
   * Allow telnet? Seriously, why would you do this?!?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#telnet InterfaceManagementProfile#telnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#telnet InterfaceManagementProfile#telnet}
   */
   readonly telnet?: boolean | cdktf.IResolvable;
   /**
   * Allow User-ID?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#userid_service InterfaceManagementProfile#userid_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#userid_service InterfaceManagementProfile#userid_service}
   */
   readonly useridService?: boolean | cdktf.IResolvable;
   /**
   * Allow User-ID syslog listener (SSL)?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#userid_syslog_listener_ssl InterfaceManagementProfile#userid_syslog_listener_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#userid_syslog_listener_ssl InterfaceManagementProfile#userid_syslog_listener_ssl}
   */
   readonly useridSyslogListenerSsl?: boolean | cdktf.IResolvable;
   /**
   * Allow User-ID syslog listener (UDP)?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#userid_syslog_listener_udp InterfaceManagementProfile#userid_syslog_listener_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#userid_syslog_listener_udp InterfaceManagementProfile#userid_syslog_listener_udp}
   */
   readonly useridSyslogListenerUdp?: boolean | cdktf.IResolvable;
 }
@@ -102,7 +108,7 @@ export interface InterfaceManagementProfilePermittedIp {
   /**
   * The allowed IP address or CIDR block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#name InterfaceManagementProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#name InterfaceManagementProfile#name}
   */
   readonly name: string;
 }
@@ -215,7 +221,7 @@ export class InterfaceManagementProfilePermittedIpList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile scm_interface_management_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile scm_interface_management_profile}
 */
 export class InterfaceManagementProfile extends cdktf.TerraformResource {
 
@@ -231,7 +237,7 @@ export class InterfaceManagementProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceManagementProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceManagementProfile to import
-  * @param importFromId The id of the existing InterfaceManagementProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceManagementProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceManagementProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +249,7 @@ export class InterfaceManagementProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile scm_interface_management_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/interface_management_profile scm_interface_management_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +260,8 @@ export class InterfaceManagementProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_interface_management_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterNetworkPolicyRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#id ClusterNetworkPolicyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#id ClusterNetworkPolicyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ClusterNetworkPolicyRuleConfig extends cdktf.TerraformMetaArgum
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#metadata ClusterNetworkPolicyRule#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#metadata ClusterNetworkPolicyRule#metadata}
   */
   readonly metadata?: ClusterNetworkPolicyRuleMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#spec ClusterNetworkPolicyRule#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#spec ClusterNetworkPolicyRule#spec}
   */
   readonly spec?: ClusterNetworkPolicyRuleSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#timeouts ClusterNetworkPolicyRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#timeouts ClusterNetworkPolicyRule#timeouts}
   */
   readonly timeouts?: ClusterNetworkPolicyRuleTimeouts;
 }
@@ -37,7 +37,7 @@ export interface ClusterNetworkPolicyRuleMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#id ClusterNetworkPolicyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#id ClusterNetworkPolicyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface ClusterNetworkPolicyRuleMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#is_sso_user ClusterNetworkPolicyRule#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#is_sso_user ClusterNetworkPolicyRule#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#username ClusterNetworkPolicyRule#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#username ClusterNetworkPolicyRule#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface ClusterNetworkPolicyRuleMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#id ClusterNetworkPolicyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#id ClusterNetworkPolicyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface ClusterNetworkPolicyRuleMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#is_sso_user ClusterNetworkPolicyRule#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#is_sso_user ClusterNetworkPolicyRule#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#username ClusterNetworkPolicyRule#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#username ClusterNetworkPolicyRule#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface ClusterNetworkPolicyRuleMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#annotations ClusterNetworkPolicyRule#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#annotations ClusterNetworkPolicyRule#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#display_name ClusterNetworkPolicyRule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#display_name ClusterNetworkPolicyRule#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#labels ClusterNetworkPolicyRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#labels ClusterNetworkPolicyRule#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#project ClusterNetworkPolicyRule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#project ClusterNetworkPolicyRule#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#created_by ClusterNetworkPolicyRule#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#created_by ClusterNetworkPolicyRule#created_by}
   */
   readonly createdBy?: ClusterNetworkPolicyRuleMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#modified_by ClusterNetworkPolicyRule#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#modified_by ClusterNetworkPolicyRule#modified_by}
   */
   readonly modifiedBy?: ClusterNetworkPolicyRuleMetadataModifiedBy;
 }
@@ -686,7 +686,7 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactChartPathOptionsOve
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -772,13 +772,13 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactChartPathOptionsSch
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -893,37 +893,37 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactChartPathOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
   */
   readonly override?: ClusterNetworkPolicyRuleSpecArtifactArtifactChartPathOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
   */
   readonly schema?: ClusterNetworkPolicyRuleSpecArtifactArtifactChartPathOptionsSchema;
 }
@@ -1154,31 +1154,31 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactChartPath {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
   */
   readonly options?: ClusterNetworkPolicyRuleSpecArtifactArtifactChartPathOptions;
 }
@@ -1380,7 +1380,7 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactConfigmapOptionsOve
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -1466,13 +1466,13 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactConfigmapOptionsSch
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -1587,37 +1587,37 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactConfigmapOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
   */
   readonly override?: ClusterNetworkPolicyRuleSpecArtifactArtifactConfigmapOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
   */
   readonly schema?: ClusterNetworkPolicyRuleSpecArtifactArtifactConfigmapOptionsSchema;
 }
@@ -1848,31 +1848,31 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactConfigmap {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
   */
   readonly options?: ClusterNetworkPolicyRuleSpecArtifactArtifactConfigmapOptions;
 }
@@ -2074,7 +2074,7 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactConfigurationOption
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -2160,13 +2160,13 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactConfigurationOption
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -2281,37 +2281,37 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactConfigurationOption
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
   */
   readonly override?: ClusterNetworkPolicyRuleSpecArtifactArtifactConfigurationOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
   */
   readonly schema?: ClusterNetworkPolicyRuleSpecArtifactArtifactConfigurationOptionsSchema;
 }
@@ -2542,31 +2542,31 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactConfiguration {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
   */
   readonly options?: ClusterNetworkPolicyRuleSpecArtifactArtifactConfigurationOptions;
 }
@@ -2768,7 +2768,7 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactFileOptionsOverride
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -2854,13 +2854,13 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactFileOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -2975,37 +2975,37 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactFileOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
   */
   readonly override?: ClusterNetworkPolicyRuleSpecArtifactArtifactFileOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
   */
   readonly schema?: ClusterNetworkPolicyRuleSpecArtifactArtifactFileOptionsSchema;
 }
@@ -3236,31 +3236,31 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactFile {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
   */
   readonly options?: ClusterNetworkPolicyRuleSpecArtifactArtifactFileOptions;
 }
@@ -3462,7 +3462,7 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactPathsOptionsOverrid
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -3548,13 +3548,13 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactPathsOptionsSchema 
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -3669,37 +3669,37 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
   */
   readonly override?: ClusterNetworkPolicyRuleSpecArtifactArtifactPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
   */
   readonly schema?: ClusterNetworkPolicyRuleSpecArtifactArtifactPathsOptionsSchema;
 }
@@ -3930,31 +3930,31 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
   */
   readonly options?: ClusterNetworkPolicyRuleSpecArtifactArtifactPathsOptions;
 }
@@ -4188,7 +4188,7 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactSecretOptionsOverri
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -4274,13 +4274,13 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactSecretOptionsSchema
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -4395,37 +4395,37 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactSecretOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
   */
   readonly override?: ClusterNetworkPolicyRuleSpecArtifactArtifactSecretOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
   */
   readonly schema?: ClusterNetworkPolicyRuleSpecArtifactArtifactSecretOptionsSchema;
 }
@@ -4656,31 +4656,31 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactSecret {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
   */
   readonly options?: ClusterNetworkPolicyRuleSpecArtifactArtifactSecretOptions;
 }
@@ -4882,7 +4882,7 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactStatefulsetOptionsO
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -4968,13 +4968,13 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactStatefulsetOptionsS
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -5089,37 +5089,37 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactStatefulsetOptions 
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
   */
   readonly override?: ClusterNetworkPolicyRuleSpecArtifactArtifactStatefulsetOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
   */
   readonly schema?: ClusterNetworkPolicyRuleSpecArtifactArtifactStatefulsetOptionsSchema;
 }
@@ -5350,31 +5350,31 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactStatefulset {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
   */
   readonly options?: ClusterNetworkPolicyRuleSpecArtifactArtifactStatefulsetOptions;
 }
@@ -5576,7 +5576,7 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactValuesPathsOptionsO
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -5662,13 +5662,13 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactValuesPathsOptionsS
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -5783,37 +5783,37 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactValuesPathsOptions 
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
   */
   readonly override?: ClusterNetworkPolicyRuleSpecArtifactArtifactValuesPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
   */
   readonly schema?: ClusterNetworkPolicyRuleSpecArtifactArtifactValuesPathsOptionsSchema;
 }
@@ -6044,31 +6044,31 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactValuesPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
   */
   readonly options?: ClusterNetworkPolicyRuleSpecArtifactArtifactValuesPathsOptions;
 }
@@ -6302,7 +6302,7 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPath
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -6388,13 +6388,13 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPath
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#jsonschema ClusterNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#uischema ClusterNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -6509,37 +6509,37 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPath
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#display_metadata ClusterNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#required ClusterNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#override ClusterNetworkPolicyRule#override}
   */
   readonly override?: ClusterNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#schema ClusterNetworkPolicyRule#schema}
   */
   readonly schema?: ClusterNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPathsOptionsSchema;
 }
@@ -6770,31 +6770,31 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPath
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#data ClusterNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#mount_path ClusterNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sensitive ClusterNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
   */
   readonly options?: ClusterNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPathsOptions;
 }
@@ -7028,19 +7028,19 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifactValuesRef {
   /**
   * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#repository ClusterNetworkPolicyRule#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#repository ClusterNetworkPolicyRule#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#revision ClusterNetworkPolicyRule#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#revision ClusterNetworkPolicyRule#revision}
   */
   readonly revision?: string;
   /**
   * values_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#values_paths ClusterNetworkPolicyRule#values_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#values_paths ClusterNetworkPolicyRule#values_paths}
   */
   readonly valuesPaths?: ClusterNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPaths[] | cdktf.IResolvable;
 }
@@ -7184,109 +7184,109 @@ export interface ClusterNetworkPolicyRuleSpecArtifactArtifact {
   /**
   * name of the helm catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#catalog ClusterNetworkPolicyRule#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#catalog ClusterNetworkPolicyRule#catalog}
   */
   readonly catalog?: string;
   /**
   * name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#chart_name ClusterNetworkPolicyRule#chart_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#chart_name ClusterNetworkPolicyRule#chart_name}
   */
   readonly chartName?: string;
   /**
   * version of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#chart_version ClusterNetworkPolicyRule#chart_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#chart_version ClusterNetworkPolicyRule#chart_version}
   */
   readonly chartVersion?: string;
   /**
   * relative path from the root to kustomization directory in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#directory ClusterNetworkPolicyRule#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#directory ClusterNetworkPolicyRule#directory}
   */
   readonly directory?: string;
   /**
   * relative path to kustomization directory from the root directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#path ClusterNetworkPolicyRule#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#path ClusterNetworkPolicyRule#path}
   */
   readonly path?: string;
   /**
   * project name of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#project ClusterNetworkPolicyRule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#project ClusterNetworkPolicyRule#project}
   */
   readonly project?: string;
   /**
   * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#repository ClusterNetworkPolicyRule#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#repository ClusterNetworkPolicyRule#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#revision ClusterNetworkPolicyRule#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#revision ClusterNetworkPolicyRule#revision}
   */
   readonly revision?: string;
   /**
   * url of the manifest YAML
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#url ClusterNetworkPolicyRule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#url ClusterNetworkPolicyRule#url}
   */
   readonly url?: string[];
   /**
   * chart_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#chart_path ClusterNetworkPolicyRule#chart_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#chart_path ClusterNetworkPolicyRule#chart_path}
   */
   readonly chartPath?: ClusterNetworkPolicyRuleSpecArtifactArtifactChartPath;
   /**
   * configmap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#configmap ClusterNetworkPolicyRule#configmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#configmap ClusterNetworkPolicyRule#configmap}
   */
   readonly configmap?: ClusterNetworkPolicyRuleSpecArtifactArtifactConfigmap;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#configuration ClusterNetworkPolicyRule#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#configuration ClusterNetworkPolicyRule#configuration}
   */
   readonly configuration?: ClusterNetworkPolicyRuleSpecArtifactArtifactConfiguration;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#file ClusterNetworkPolicyRule#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#file ClusterNetworkPolicyRule#file}
   */
   readonly file?: ClusterNetworkPolicyRuleSpecArtifactArtifactFile;
   /**
   * paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#paths ClusterNetworkPolicyRule#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#paths ClusterNetworkPolicyRule#paths}
   */
   readonly paths?: ClusterNetworkPolicyRuleSpecArtifactArtifactPaths[] | cdktf.IResolvable;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#secret ClusterNetworkPolicyRule#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#secret ClusterNetworkPolicyRule#secret}
   */
   readonly secret?: ClusterNetworkPolicyRuleSpecArtifactArtifactSecret;
   /**
   * statefulset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#statefulset ClusterNetworkPolicyRule#statefulset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#statefulset ClusterNetworkPolicyRule#statefulset}
   */
   readonly statefulset?: ClusterNetworkPolicyRuleSpecArtifactArtifactStatefulset;
   /**
   * values_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#values_paths ClusterNetworkPolicyRule#values_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#values_paths ClusterNetworkPolicyRule#values_paths}
   */
   readonly valuesPaths?: ClusterNetworkPolicyRuleSpecArtifactArtifactValuesPaths[] | cdktf.IResolvable;
   /**
   * values_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#values_ref ClusterNetworkPolicyRule#values_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#values_ref ClusterNetworkPolicyRule#values_ref}
   */
   readonly valuesRef?: ClusterNetworkPolicyRuleSpecArtifactArtifactValuesRef;
 }
@@ -7865,103 +7865,103 @@ export interface ClusterNetworkPolicyRuleSpecArtifactOptions {
   /**
   * deploy Helm artifact with atomic flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#atomic ClusterNetworkPolicyRule#atomic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#atomic ClusterNetworkPolicyRule#atomic}
   */
   readonly atomic?: boolean | cdktf.IResolvable;
   /**
   * cleanup deployed resources when chart fails to deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#clean_up_on_fail ClusterNetworkPolicyRule#clean_up_on_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#clean_up_on_fail ClusterNetworkPolicyRule#clean_up_on_fail}
   */
   readonly cleanUpOnFail?: boolean | cdktf.IResolvable;
   /**
   * custom description for the release
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#description ClusterNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * disable OpenAPI validation while deploying the YAML
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#disable_open_api_validation ClusterNetworkPolicyRule#disable_open_api_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#disable_open_api_validation ClusterNetworkPolicyRule#disable_open_api_validation}
   */
   readonly disableOpenApiValidation?: boolean | cdktf.IResolvable;
   /**
   * deploy YAML artifact with force flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#force ClusterNetworkPolicyRule#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#force ClusterNetworkPolicyRule#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * keep release history after uninstalling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#keep_history ClusterNetworkPolicyRule#keep_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#keep_history ClusterNetworkPolicyRule#keep_history}
   */
   readonly keepHistory?: boolean | cdktf.IResolvable;
   /**
   * limit Helm artifact history
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#max_history ClusterNetworkPolicyRule#max_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#max_history ClusterNetworkPolicyRule#max_history}
   */
   readonly maxHistory?: number;
   /**
   * deploy Helm artifact without hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#no_hooks ClusterNetworkPolicyRule#no_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#no_hooks ClusterNetworkPolicyRule#no_hooks}
   */
   readonly noHooks?: boolean | cdktf.IResolvable;
   /**
   * render sub chart notes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#render_sub_chart_notes ClusterNetworkPolicyRule#render_sub_chart_notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#render_sub_chart_notes ClusterNetworkPolicyRule#render_sub_chart_notes}
   */
   readonly renderSubChartNotes?: boolean | cdktf.IResolvable;
   /**
   * reset existing helm values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#reset_values ClusterNetworkPolicyRule#reset_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#reset_values ClusterNetworkPolicyRule#reset_values}
   */
   readonly resetValues?: boolean | cdktf.IResolvable;
   /**
   * reuse existing values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#reuse_values ClusterNetworkPolicyRule#reuse_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#reuse_values ClusterNetworkPolicyRule#reuse_values}
   */
   readonly reuseValues?: boolean | cdktf.IResolvable;
   /**
   * pass custom helm values as key=value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#set_string ClusterNetworkPolicyRule#set_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#set_string ClusterNetworkPolicyRule#set_string}
   */
   readonly setString?: string[];
   /**
   * skip deploying crds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#skip_crd ClusterNetworkPolicyRule#skip_crd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#skip_crd ClusterNetworkPolicyRule#skip_crd}
   */
   readonly skipCrd?: boolean | cdktf.IResolvable;
   /**
   * timeout for waiting for the resources to become ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#timeout ClusterNetworkPolicyRule#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#timeout ClusterNetworkPolicyRule#timeout}
   */
   readonly timeout?: string;
   /**
   * deploy Helm artifact with wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#wait ClusterNetworkPolicyRule#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#wait ClusterNetworkPolicyRule#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
   /**
   * deploy Helm artifact with --wait-for-jobs flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#wait_for_jobs ClusterNetworkPolicyRule#wait_for_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#wait_for_jobs ClusterNetworkPolicyRule#wait_for_jobs}
   */
   readonly waitForJobs?: boolean | cdktf.IResolvable;
   /**
   * uninstall Helm artifact with --wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#wait_for_uninstall ClusterNetworkPolicyRule#wait_for_uninstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#wait_for_uninstall ClusterNetworkPolicyRule#wait_for_uninstall}
   */
   readonly waitForUninstall?: boolean | cdktf.IResolvable;
 }
@@ -8511,19 +8511,19 @@ export interface ClusterNetworkPolicyRuleSpecArtifact {
   /**
   * type of the artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#type ClusterNetworkPolicyRule#type}
   */
   readonly type?: string;
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#artifact ClusterNetworkPolicyRule#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#artifact ClusterNetworkPolicyRule#artifact}
   */
   readonly artifact?: ClusterNetworkPolicyRuleSpecArtifactArtifact;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#options ClusterNetworkPolicyRule#options}
   */
   readonly options?: ClusterNetworkPolicyRuleSpecArtifactOptions;
 }
@@ -8667,7 +8667,7 @@ export interface ClusterNetworkPolicyRuleSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#name ClusterNetworkPolicyRule#name}
   */
   readonly name?: string;
 }
@@ -8785,13 +8785,13 @@ export interface ClusterNetworkPolicyRuleSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#enabled ClusterNetworkPolicyRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#enabled ClusterNetworkPolicyRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#projects ClusterNetworkPolicyRule#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#projects ClusterNetworkPolicyRule#projects}
   */
   readonly projects?: ClusterNetworkPolicyRuleSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -8906,19 +8906,19 @@ export interface ClusterNetworkPolicyRuleSpec {
   /**
   * version of the cluster policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#version ClusterNetworkPolicyRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#version ClusterNetworkPolicyRule#version}
   */
   readonly version?: string;
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#artifact ClusterNetworkPolicyRule#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#artifact ClusterNetworkPolicyRule#artifact}
   */
   readonly artifact?: ClusterNetworkPolicyRuleSpecArtifact;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#sharing ClusterNetworkPolicyRule#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#sharing ClusterNetworkPolicyRule#sharing}
   */
   readonly sharing?: ClusterNetworkPolicyRuleSpecSharing;
 }
@@ -9060,15 +9060,15 @@ export class ClusterNetworkPolicyRuleSpecOutputReference extends cdktf.ComplexOb
 }
 export interface ClusterNetworkPolicyRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#create ClusterNetworkPolicyRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#create ClusterNetworkPolicyRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#delete ClusterNetworkPolicyRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#delete ClusterNetworkPolicyRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#update ClusterNetworkPolicyRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#update ClusterNetworkPolicyRule#update}
   */
   readonly update?: string;
 }
@@ -9220,7 +9220,7 @@ export class ClusterNetworkPolicyRuleTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule rafay_cluster_network_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule rafay_cluster_network_policy_rule}
 */
 export class ClusterNetworkPolicyRule extends cdktf.TerraformResource {
 
@@ -9236,7 +9236,7 @@ export class ClusterNetworkPolicyRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterNetworkPolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterNetworkPolicyRule to import
-  * @param importFromId The id of the existing ClusterNetworkPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterNetworkPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterNetworkPolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9248,7 +9248,7 @@ export class ClusterNetworkPolicyRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy_rule rafay_cluster_network_policy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_network_policy_rule rafay_cluster_network_policy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9259,8 +9259,8 @@ export class ClusterNetworkPolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_cluster_network_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

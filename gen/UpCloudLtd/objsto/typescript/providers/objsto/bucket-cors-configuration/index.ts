@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_cors_configuration
+// https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_cors_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface BucketCorsConfigurationConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of the bucket for which to configure the CORS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_cors_configuration#bucket BucketCorsConfiguration#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_cors_configuration#bucket BucketCorsConfiguration#bucket}
   */
   readonly bucket: string;
   /**
   * cors_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_cors_configuration#cors_rule BucketCorsConfiguration#cors_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_cors_configuration#cors_rule BucketCorsConfiguration#cors_rule}
   */
   readonly corsRule?: BucketCorsConfigurationCorsRule[] | cdktf.IResolvable;
 }
@@ -24,31 +24,31 @@ export interface BucketCorsConfigurationCorsRule {
   /**
   * The headers to include in `Access-Control-Request-Headers` header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_cors_configuration#allowed_headers BucketCorsConfiguration#allowed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_cors_configuration#allowed_headers BucketCorsConfiguration#allowed_headers}
   */
   readonly allowedHeaders?: string[];
   /**
   * The allowed HTTP methods for this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_cors_configuration#allowed_methods BucketCorsConfiguration#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_cors_configuration#allowed_methods BucketCorsConfiguration#allowed_methods}
   */
   readonly allowedMethods: string[];
   /**
   * The allowed origins for this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_cors_configuration#allowed_origins BucketCorsConfiguration#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_cors_configuration#allowed_origins BucketCorsConfiguration#allowed_origins}
   */
   readonly allowedOrigins: string[];
   /**
   * The headers to include in the `Access-Control-Expose-Headers` header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_cors_configuration#expose_headers BucketCorsConfiguration#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_cors_configuration#expose_headers BucketCorsConfiguration#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * The identifier of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_cors_configuration#id BucketCorsConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_cors_configuration#id BucketCorsConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ export interface BucketCorsConfigurationCorsRule {
   /**
   * The cache time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_cors_configuration#max_age_seconds BucketCorsConfiguration#max_age_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_cors_configuration#max_age_seconds BucketCorsConfiguration#max_age_seconds}
   */
   readonly maxAgeSeconds?: number;
 }
@@ -312,7 +312,7 @@ export class BucketCorsConfigurationCorsRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_cors_configuration objsto_bucket_cors_configuration}
+* Represents a {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_cors_configuration objsto_bucket_cors_configuration}
 */
 export class BucketCorsConfiguration extends cdktf.TerraformResource {
 
@@ -328,7 +328,7 @@ export class BucketCorsConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BucketCorsConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BucketCorsConfiguration to import
-  * @param importFromId The id of the existing BucketCorsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_cors_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BucketCorsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_cors_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BucketCorsConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -340,7 +340,7 @@ export class BucketCorsConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.0/docs/resources/bucket_cors_configuration objsto_bucket_cors_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/upcloudltd/objsto/0.2.1/docs/resources/bucket_cors_configuration objsto_bucket_cors_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,8 +351,8 @@ export class BucketCorsConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'objsto_bucket_cors_configuration',
       terraformGeneratorMetadata: {
         providerName: 'objsto',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

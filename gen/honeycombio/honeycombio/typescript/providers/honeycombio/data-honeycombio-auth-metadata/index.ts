@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/auth_metadata
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/auth_metadata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -257,7 +257,7 @@ export class DataHoneycombioAuthMetadataTeamOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/auth_metadata honeycombio_auth_metadata}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/auth_metadata honeycombio_auth_metadata}
 */
 export class DataHoneycombioAuthMetadata extends cdktf.TerraformDataSource {
 
@@ -273,7 +273,7 @@ export class DataHoneycombioAuthMetadata extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHoneycombioAuthMetadata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHoneycombioAuthMetadata to import
-  * @param importFromId The id of the existing DataHoneycombioAuthMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/auth_metadata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHoneycombioAuthMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/auth_metadata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHoneycombioAuthMetadata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class DataHoneycombioAuthMetadata extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/auth_metadata honeycombio_auth_metadata} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/auth_metadata honeycombio_auth_metadata} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +296,8 @@ export class DataHoneycombioAuthMetadata extends cdktf.TerraformDataSource {
       terraformResourceType: 'honeycombio_auth_metadata',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0',
-        providerVersionConstraint: '0.42.0'
+        providerVersion: '0.43.0',
+        providerVersionConstraint: '0.43.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

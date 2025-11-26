@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface FilevantagePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the filevantage policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#description FilevantagePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#description FilevantagePolicy#description}
   */
   readonly description?: string;
   /**
   * Enable the filevantage policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#enabled FilevantagePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#enabled FilevantagePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Host Group ids to attach to the filevantage policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#host_groups FilevantagePolicy#host_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#host_groups FilevantagePolicy#host_groups}
   */
   readonly hostGroups?: string[];
   /**
   * Name of the filevantage policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#name FilevantagePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#name FilevantagePolicy#name}
   */
   readonly name: string;
   /**
   * Platform for the filevantage policy to manage. (Windows, Mac, Linux)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#platform_name FilevantagePolicy#platform_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#platform_name FilevantagePolicy#platform_name}
   */
   readonly platformName: string;
   /**
   * Rule Group ids to attach to the filevantage policy. Precedence is based on the order of the list. Rule groups must be the same type as the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#rule_groups FilevantagePolicy#rule_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#rule_groups FilevantagePolicy#rule_groups}
   */
   readonly ruleGroups?: string[];
   /**
   * Scheduled exclusions for the filevantage policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#scheduled_exclusions FilevantagePolicy#scheduled_exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#scheduled_exclusions FilevantagePolicy#scheduled_exclusions}
   */
   readonly scheduledExclusions?: FilevantagePolicyScheduledExclusions[] | cdktf.IResolvable;
 }
@@ -54,43 +54,43 @@ export interface FilevantagePolicyScheduledExclusionsRepeated {
   /**
   * If the exclusion is all day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#all_day FilevantagePolicy#all_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#all_day FilevantagePolicy#all_day}
   */
   readonly allDay: boolean | cdktf.IResolvable;
   /**
   * The days of the month to allow the exclusion. Required if frequency is set to monthly and monthly_occurrence is set to days. Options: 1-31
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#days_of_month FilevantagePolicy#days_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#days_of_month FilevantagePolicy#days_of_month}
   */
   readonly daysOfMonth?: number[];
   /**
   * The days of the week to allow the exclusion. Required if frequency is set to weekly or set to monthly and monthly_occurrence is set to a week. Options: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#days_of_week FilevantagePolicy#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#days_of_week FilevantagePolicy#days_of_week}
   */
   readonly daysOfWeek?: string[];
   /**
   * The end time to end the scheduled exclusion in 24 hour format. Format: HH:MM required if all_day is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#end_time FilevantagePolicy#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#end_time FilevantagePolicy#end_time}
   */
   readonly endTime?: string;
   /**
   * The frequency of the exclusion. Options: daily, weekly, monthly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#frequency FilevantagePolicy#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#frequency FilevantagePolicy#frequency}
   */
   readonly frequency: string;
   /**
   * The monthly occurrence of the exclusion. Either specify a week (first, second, third, fourth) or set to days to specify days of the month. Options: first, second, third, fourth, days. Required if frequency is set to monthly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#monthly_occurrence FilevantagePolicy#monthly_occurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#monthly_occurrence FilevantagePolicy#monthly_occurrence}
   */
   readonly monthlyOccurrence?: string;
   /**
   * The start time to allow the scheduled exclusion in 24 hour format. Format: HH:MM required if all_day is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#start_time FilevantagePolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#start_time FilevantagePolicy#start_time}
   */
   readonly startTime?: string;
 }
@@ -354,31 +354,31 @@ export interface FilevantagePolicyScheduledExclusions {
   /**
   * Description of the scheduled exclusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#description FilevantagePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#description FilevantagePolicy#description}
   */
   readonly description?: string;
   /**
   * The end date of the scheduled exclusion. Format: YYYY-MM-DD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#end_date FilevantagePolicy#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#end_date FilevantagePolicy#end_date}
   */
   readonly endDate?: string;
   /**
   * The end time of the scheduled exclusion in 24 hour format. Format: HH:MM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#end_time FilevantagePolicy#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#end_time FilevantagePolicy#end_time}
   */
   readonly endTime?: string;
   /**
   * Name of the scheduled exclusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#name FilevantagePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#name FilevantagePolicy#name}
   */
   readonly name: string;
   /**
   * A comma separated list of processes to exclude changes from. Example: ** /run_me.sh excludes changes made by run_me.sh in any location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#processes FilevantagePolicy#processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#processes FilevantagePolicy#processes}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -386,31 +386,31 @@ export interface FilevantagePolicyScheduledExclusions {
   /**
   * Repeated scheduled exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#repeated FilevantagePolicy#repeated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#repeated FilevantagePolicy#repeated}
   */
   readonly repeated?: FilevantagePolicyScheduledExclusionsRepeated;
   /**
   * The start date of the scheduled exclusion. Format: YYYY-MM-DD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#start_date FilevantagePolicy#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#start_date FilevantagePolicy#start_date}
   */
   readonly startDate: string;
   /**
   * The start time of the scheduled exclusion in 24 hour format. Format: HH:MM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#start_time FilevantagePolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#start_time FilevantagePolicy#start_time}
   */
   readonly startTime: string;
   /**
   * The timezone to use for the time fields. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#timezone FilevantagePolicy#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#timezone FilevantagePolicy#timezone}
   */
   readonly timezone: string;
   /**
   * A comma separated list of users to exclude changes from. Example: user1,user2,admin* excludes changes made by user1, user2, and any user starting with admin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#users FilevantagePolicy#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#users FilevantagePolicy#users}
   */
   readonly users?: string;
 }
@@ -780,7 +780,7 @@ export class FilevantagePolicyScheduledExclusionsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy crowdstrike_filevantage_policy}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy crowdstrike_filevantage_policy}
 */
 export class FilevantagePolicy extends cdktf.TerraformResource {
 
@@ -796,7 +796,7 @@ export class FilevantagePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FilevantagePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FilevantagePolicy to import
-  * @param importFromId The id of the existing FilevantagePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FilevantagePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FilevantagePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -808,7 +808,7 @@ export class FilevantagePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_policy crowdstrike_filevantage_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_policy crowdstrike_filevantage_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -819,8 +819,8 @@ export class FilevantagePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_filevantage_policy',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.48',
-        providerVersionConstraint: '0.0.48'
+        providerVersion: '0.0.49',
+        providerVersionConstraint: '0.0.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

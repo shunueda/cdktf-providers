@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,38 +9,44 @@ import * as cdktf from 'cdktf';
 export interface MfaServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#device MfaServer#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#device MfaServer#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#folder MfaServer#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#folder MfaServer#folder}
   */
   readonly folder?: string;
   /**
   * The MFA server certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#mfa_cert_profile MfaServer#mfa_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#mfa_cert_profile MfaServer#mfa_cert_profile}
   */
   readonly mfaCertProfile: string;
   /**
   * The MFA vendor type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#mfa_vendor_type MfaServer#mfa_vendor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#mfa_vendor_type MfaServer#mfa_vendor_type}
   */
   readonly mfaVendorType?: MfaServerMfaVendorType;
   /**
   * The name of the MFA server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#name MfaServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#name MfaServer#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#snippet MfaServer#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#snippet MfaServer#snippet}
   */
   readonly snippet?: string;
 }
@@ -48,31 +54,31 @@ export interface MfaServerMfaVendorTypeDuoSecurityV2 {
   /**
   * Duo Security API hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#duo_api_host MfaServer#duo_api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#duo_api_host MfaServer#duo_api_host}
   */
   readonly duoApiHost: string;
   /**
   * Duo Security API base URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#duo_baseuri MfaServer#duo_baseuri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#duo_baseuri MfaServer#duo_baseuri}
   */
   readonly duoBaseuri: string;
   /**
   * Duo Security integration key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#duo_integration_key MfaServer#duo_integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#duo_integration_key MfaServer#duo_integration_key}
   */
   readonly duoIntegrationKey: string;
   /**
   * Duo Security secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#duo_secret_key MfaServer#duo_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#duo_secret_key MfaServer#duo_secret_key}
   */
   readonly duoSecretKey: string;
   /**
   * Duo Security timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#duo_timeout MfaServer#duo_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#duo_timeout MfaServer#duo_timeout}
   */
   readonly duoTimeout: number;
 }
@@ -269,31 +275,31 @@ export interface MfaServerMfaVendorTypeOktaAdaptiveV1 {
   /**
   * Okta API hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#okta_api_host MfaServer#okta_api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#okta_api_host MfaServer#okta_api_host}
   */
   readonly oktaApiHost: string;
   /**
   * Okta baseuri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#okta_baseuri MfaServer#okta_baseuri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#okta_baseuri MfaServer#okta_baseuri}
   */
   readonly oktaBaseuri: string;
   /**
   * Okta organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#okta_org MfaServer#okta_org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#okta_org MfaServer#okta_org}
   */
   readonly oktaOrg: string;
   /**
   * Okta timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#okta_timeout MfaServer#okta_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#okta_timeout MfaServer#okta_timeout}
   */
   readonly oktaTimeout: number;
   /**
   * Okta API token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#okta_token MfaServer#okta_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#okta_token MfaServer#okta_token}
   */
   readonly oktaToken: string;
 }
@@ -490,37 +496,37 @@ export interface MfaServerMfaVendorTypePingIdentityV1 {
   /**
   * Ping Identity API hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#ping_api_host MfaServer#ping_api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_api_host MfaServer#ping_api_host}
   */
   readonly pingApiHost: string;
   /**
   * Ping Identity API base URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#ping_baseuri MfaServer#ping_baseuri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_baseuri MfaServer#ping_baseuri}
   */
   readonly pingBaseuri: string;
   /**
   * Ping Identity client organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#ping_org_alias MfaServer#ping_org_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_org_alias MfaServer#ping_org_alias}
   */
   readonly pingOrgAlias?: string;
   /**
   * Ping Identity timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#ping_timeout MfaServer#ping_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_timeout MfaServer#ping_timeout}
   */
   readonly pingTimeout: number;
   /**
   * Ping Identity API token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#ping_token MfaServer#ping_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_token MfaServer#ping_token}
   */
   readonly pingToken: string;
   /**
   * Ping Identity Base64 key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#ping_use_base64_key MfaServer#ping_use_base64_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_use_base64_key MfaServer#ping_use_base64_key}
   */
   readonly pingUseBase64Key: string;
 }
@@ -746,37 +752,37 @@ export interface MfaServerMfaVendorTypeRsaSecuridAccessV1 {
   /**
   * RSA SecurID access ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#rsa_accessid MfaServer#rsa_accessid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_accessid MfaServer#rsa_accessid}
   */
   readonly rsaAccessid?: string;
   /**
   * RSA SecurID access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#rsa_accesskey MfaServer#rsa_accesskey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_accesskey MfaServer#rsa_accesskey}
   */
   readonly rsaAccesskey?: string;
   /**
   * RSA SecurID hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#rsa_api_host MfaServer#rsa_api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_api_host MfaServer#rsa_api_host}
   */
   readonly rsaApiHost?: string;
   /**
   * RSA SecurID assurance level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#rsa_assurancepolicyid MfaServer#rsa_assurancepolicyid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_assurancepolicyid MfaServer#rsa_assurancepolicyid}
   */
   readonly rsaAssurancepolicyid?: string;
   /**
   * RSA SecurID API base URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#rsa_baseuri MfaServer#rsa_baseuri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_baseuri MfaServer#rsa_baseuri}
   */
   readonly rsaBaseuri?: string;
   /**
   * RSA SecurID timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#rsa_timeout MfaServer#rsa_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_timeout MfaServer#rsa_timeout}
   */
   readonly rsaTimeout?: number;
 }
@@ -1017,26 +1023,34 @@ export interface MfaServerMfaVendorType {
   /**
   * Integration with [Duo Security](https://duo.com/product)
   * 
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `duo_security_v2`, `okta_adaptive_v1`, `ping_identity_v1`, and `rsa_securid_access_v1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#duo_security_v2 MfaServer#duo_security_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#duo_security_v2 MfaServer#duo_security_v2}
   */
   readonly duoSecurityV2?: MfaServerMfaVendorTypeDuoSecurityV2;
   /**
   * Integration with [Okta Adaptive MFA](https://www.okta.com/products/adaptive-multi-factor-authentication)
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `duo_security_v2`, `okta_adaptive_v1`, `ping_identity_v1`, and `rsa_securid_access_v1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#okta_adaptive_v1 MfaServer#okta_adaptive_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#okta_adaptive_v1 MfaServer#okta_adaptive_v1}
   */
   readonly oktaAdaptiveV1?: MfaServerMfaVendorTypeOktaAdaptiveV1;
   /**
   * Integation with [Ping Identity](https://www.pingidentity.com/en/platform.html)
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `duo_security_v2`, `okta_adaptive_v1`, `ping_identity_v1`, and `rsa_securid_access_v1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#ping_identity_v1 MfaServer#ping_identity_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_identity_v1 MfaServer#ping_identity_v1}
   */
   readonly pingIdentityV1?: MfaServerMfaVendorTypePingIdentityV1;
   /**
   * Integration with [RSA SecurID](https://www.rsa.com/products/securid/)
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `duo_security_v2`, `okta_adaptive_v1`, `ping_identity_v1`, and `rsa_securid_access_v1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#rsa_securid_access_v1 MfaServer#rsa_securid_access_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_securid_access_v1 MfaServer#rsa_securid_access_v1}
   */
   readonly rsaSecuridAccessV1?: MfaServerMfaVendorTypeRsaSecuridAccessV1;
 }
@@ -1217,7 +1231,7 @@ export class MfaServerMfaVendorTypeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server scm_mfa_server}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server scm_mfa_server}
 */
 export class MfaServer extends cdktf.TerraformResource {
 
@@ -1233,7 +1247,7 @@ export class MfaServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MfaServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MfaServer to import
-  * @param importFromId The id of the existing MfaServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MfaServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MfaServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1245,7 +1259,7 @@ export class MfaServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server scm_mfa_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server scm_mfa_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1256,8 +1270,8 @@ export class MfaServer extends cdktf.TerraformResource {
       terraformResourceType: 'scm_mfa_server',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface DataHoneycombioQuerySpecificationConfig extends cdktf.Terraform
   /**
   * A list of fields to group results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#breakdowns DataHoneycombioQuerySpecification#breakdowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#breakdowns DataHoneycombioQuerySpecification#breakdowns}
   */
   readonly breakdowns?: string[];
   /**
   * The time offset for comparison queries, in seconds. Used to compare current time range data with data from a previous time period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#compare_time_offset DataHoneycombioQuerySpecification#compare_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#compare_time_offset DataHoneycombioQuerySpecification#compare_time_offset}
   */
   readonly compareTimeOffset?: number;
   /**
   * The absolute end time of the query's time range, in seconds since the Unix epoch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#end_time DataHoneycombioQuerySpecification#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#end_time DataHoneycombioQuerySpecification#end_time}
   */
   readonly endTime?: number;
   /**
   * How to combine multiple filters. Defaults to "AND".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#filter_combination DataHoneycombioQuerySpecification#filter_combination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#filter_combination DataHoneycombioQuerySpecification#filter_combination}
   */
   readonly filterCombination?: string;
   /**
   * The time resolution of the query's graph, in seconds. Valid values must be in between the query's time range at maximum, and /1000 at minimum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#granularity DataHoneycombioQuerySpecification#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#granularity DataHoneycombioQuerySpecification#granularity}
   */
   readonly granularity?: number;
   /**
   * The maximum number of results to return. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#limit DataHoneycombioQuerySpecification#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#limit DataHoneycombioQuerySpecification#limit}
   */
   readonly limit?: number;
   /**
   * The absolute start time of the query's time range, in seconds since the Unix epoch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#start_time DataHoneycombioQuerySpecification#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#start_time DataHoneycombioQuerySpecification#start_time}
   */
   readonly startTime?: number;
   /**
   * The time range of the query, in seconds. Defaults to 7200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#time_range DataHoneycombioQuerySpecification#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#time_range DataHoneycombioQuerySpecification#time_range}
   */
   readonly timeRange?: number;
   /**
   * calculated_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#calculated_field DataHoneycombioQuerySpecification#calculated_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#calculated_field DataHoneycombioQuerySpecification#calculated_field}
   */
   readonly calculatedField?: DataHoneycombioQuerySpecificationCalculatedField[] | cdktf.IResolvable;
   /**
   * calculation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#calculation DataHoneycombioQuerySpecification#calculation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#calculation DataHoneycombioQuerySpecification#calculation}
   */
   readonly calculation?: DataHoneycombioQuerySpecificationCalculation[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#filter DataHoneycombioQuerySpecification#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#filter DataHoneycombioQuerySpecification#filter}
   */
   readonly filter?: DataHoneycombioQuerySpecificationFilter[] | cdktf.IResolvable;
   /**
   * having block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#having DataHoneycombioQuerySpecification#having}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#having DataHoneycombioQuerySpecification#having}
   */
   readonly having?: DataHoneycombioQuerySpecificationHaving[] | cdktf.IResolvable;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#order DataHoneycombioQuerySpecification#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#order DataHoneycombioQuerySpecification#order}
   */
   readonly order?: DataHoneycombioQuerySpecificationOrder[] | cdktf.IResolvable;
 }
@@ -90,13 +90,13 @@ export interface DataHoneycombioQuerySpecificationCalculatedField {
   /**
   * The formula to use for the Calculated Field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#expression DataHoneycombioQuerySpecification#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#expression DataHoneycombioQuerySpecification#expression}
   */
   readonly expression: string;
   /**
   * The name of the Calculated Field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#name DataHoneycombioQuerySpecification#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#name DataHoneycombioQuerySpecification#name}
   */
   readonly name: string;
 }
@@ -237,13 +237,13 @@ export interface DataHoneycombioQuerySpecificationCalculation {
   /**
   * The column to apply the operator on. Not allowed with "COUNT" or "CONCURRENCY", required for all other operators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#column DataHoneycombioQuerySpecification#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#column DataHoneycombioQuerySpecification#column}
   */
   readonly column?: string;
   /**
   * The operatior to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#op DataHoneycombioQuerySpecification#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#op DataHoneycombioQuerySpecification#op}
   */
   readonly op: string;
 }
@@ -387,19 +387,19 @@ export interface DataHoneycombioQuerySpecificationFilter {
   /**
   * The column to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#column DataHoneycombioQuerySpecification#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#column DataHoneycombioQuerySpecification#column}
   */
   readonly column: string;
   /**
   * The operator to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#op DataHoneycombioQuerySpecification#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#op DataHoneycombioQuerySpecification#op}
   */
   readonly op: string;
   /**
   * The value used for the filter. Not needed if op is "exists" or "not-exists".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#value DataHoneycombioQuerySpecification#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#value DataHoneycombioQuerySpecification#value}
   */
   readonly value?: string;
 }
@@ -569,25 +569,25 @@ export interface DataHoneycombioQuerySpecificationHaving {
   /**
   * The operator to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#calculate_op DataHoneycombioQuerySpecification#calculate_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#calculate_op DataHoneycombioQuerySpecification#calculate_op}
   */
   readonly calculateOp: string;
   /**
   * The column to filter on. Not allowed with "COUNT".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#column DataHoneycombioQuerySpecification#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#column DataHoneycombioQuerySpecification#column}
   */
   readonly column?: string;
   /**
   * The operator to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#op DataHoneycombioQuerySpecification#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#op DataHoneycombioQuerySpecification#op}
   */
   readonly op: string;
   /**
   * The value used for the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#value DataHoneycombioQuerySpecification#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#value DataHoneycombioQuerySpecification#value}
   */
   readonly value: number;
 }
@@ -783,19 +783,19 @@ export interface DataHoneycombioQuerySpecificationOrder {
   /**
   * Either a column present in "breakdown" or a column that "op" applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#column DataHoneycombioQuerySpecification#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#column DataHoneycombioQuerySpecification#column}
   */
   readonly column?: string;
   /**
   * The operator to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#op DataHoneycombioQuerySpecification#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#op DataHoneycombioQuerySpecification#op}
   */
   readonly op?: string;
   /**
   * The sort order to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#order DataHoneycombioQuerySpecification#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#order DataHoneycombioQuerySpecification#order}
   */
   readonly order?: string;
 }
@@ -969,7 +969,7 @@ export class DataHoneycombioQuerySpecificationOrderList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification honeycombio_query_specification}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification honeycombio_query_specification}
 */
 export class DataHoneycombioQuerySpecification extends cdktf.TerraformDataSource {
 
@@ -985,7 +985,7 @@ export class DataHoneycombioQuerySpecification extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataHoneycombioQuerySpecification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHoneycombioQuerySpecification to import
-  * @param importFromId The id of the existing DataHoneycombioQuerySpecification that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHoneycombioQuerySpecification that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHoneycombioQuerySpecification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -997,7 +997,7 @@ export class DataHoneycombioQuerySpecification extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.42.0/docs/data-sources/query_specification honeycombio_query_specification} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/query_specification honeycombio_query_specification} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1008,8 +1008,8 @@ export class DataHoneycombioQuerySpecification extends cdktf.TerraformDataSource
       terraformResourceType: 'honeycombio_query_specification',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0',
-        providerVersionConstraint: '0.42.0'
+        providerVersion: '0.43.0',
+        providerVersionConstraint: '0.43.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

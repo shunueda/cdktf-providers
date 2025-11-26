@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface RafayProviderConfig {
   /**
   * Rafay API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs#api_key RafayProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs#api_key RafayProvider#api_key}
   */
   readonly apiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs#ignore_insecure_tls_error RafayProvider#ignore_insecure_tls_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs#ignore_insecure_tls_error RafayProvider#ignore_insecure_tls_error}
   */
   readonly ignoreInsecureTlsError?: boolean | cdktf.IResolvable;
   /**
   * Rafay project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs#project RafayProvider#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs#project RafayProvider#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs#provider_config_file RafayProvider#provider_config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs#provider_config_file RafayProvider#provider_config_file}
   */
   readonly providerConfigFile?: string;
   /**
   * Rafay API endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs#rest_endpoint RafayProvider#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs#rest_endpoint RafayProvider#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs#alias RafayProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs#alias RafayProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs rafay}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs rafay}
 */
 export class RafayProvider extends cdktf.TerraformProvider {
 
@@ -58,7 +58,7 @@ export class RafayProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a RafayProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RafayProvider to import
-  * @param importFromId The id of the existing RafayProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RafayProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RafayProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class RafayProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs rafay} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs rafay} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class RafayProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'rafay',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       terraformProviderSource: 'RafaySystems/rafay'
     });

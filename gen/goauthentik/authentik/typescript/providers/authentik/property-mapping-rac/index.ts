@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/property_mapping_rac
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/property_mapping_rac
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface PropertyMappingRacConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/property_mapping_rac#expression PropertyMappingRac#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/property_mapping_rac#expression PropertyMappingRac#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/property_mapping_rac#id PropertyMappingRac#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/property_mapping_rac#id PropertyMappingRac#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/property_mapping_rac#name PropertyMappingRac#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/property_mapping_rac#name PropertyMappingRac#name}
   */
   readonly name: string;
   /**
   * JSON format expected. Use `jsonencode()` to pass objects. Defaults to `{}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/property_mapping_rac#settings PropertyMappingRac#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/property_mapping_rac#settings PropertyMappingRac#settings}
   */
   readonly settings?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/property_mapping_rac authentik_property_mapping_rac}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/property_mapping_rac authentik_property_mapping_rac}
 */
 export class PropertyMappingRac extends cdktf.TerraformResource {
 
@@ -47,7 +47,7 @@ export class PropertyMappingRac extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PropertyMappingRac resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PropertyMappingRac to import
-  * @param importFromId The id of the existing PropertyMappingRac that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/property_mapping_rac#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PropertyMappingRac that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/property_mapping_rac#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PropertyMappingRac to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class PropertyMappingRac extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/property_mapping_rac authentik_property_mapping_rac} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/property_mapping_rac authentik_property_mapping_rac} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class PropertyMappingRac extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_property_mapping_rac',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

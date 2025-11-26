@@ -3,8 +3,11 @@ Object.defineProperty(exports, 'hecTokens', { get: function () { return require(
 Object.defineProperty(exports, 'indexes', { get: function () { return require('./indexes'); } });
 Object.defineProperty(exports, 'ipAllowlists', { get: function () { return require('./ip-allowlists'); } });
 Object.defineProperty(exports, 'ipV6Allowlists', { get: function () { return require('./ip-v6-allowlists'); } });
+Object.defineProperty(exports, 'privateApp', { get: function () { return require('./private-app'); } });
 Object.defineProperty(exports, 'roles', { get: function () { return require('./roles'); } });
+Object.defineProperty(exports, 'splunkbaseApp', { get: function () { return require('./splunkbase-app'); } });
 Object.defineProperty(exports, 'users', { get: function () { return require('./users'); } });
+Object.defineProperty(exports, 'dataScpAppValidation', { get: function () { return require('./data-scp-app-validation'); } });
 Object.defineProperty(exports, 'dataScpIndexes', { get: function () { return require('./data-scp-indexes'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

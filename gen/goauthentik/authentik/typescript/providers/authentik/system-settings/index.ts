@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,63 +10,63 @@ export interface SystemSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `gravatar,initials`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#avatars SystemSettings#avatars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#avatars SystemSettings#avatars}
   */
   readonly avatars?: string;
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `minutes=30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#default_token_duration SystemSettings#default_token_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#default_token_duration SystemSettings#default_token_duration}
   */
   readonly defaultTokenDuration?: string;
   /**
   * Defaults to `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#default_token_length SystemSettings#default_token_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#default_token_length SystemSettings#default_token_length}
   */
   readonly defaultTokenLength?: number;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#default_user_change_email SystemSettings#default_user_change_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#default_user_change_email SystemSettings#default_user_change_email}
   */
   readonly defaultUserChangeEmail?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#default_user_change_name SystemSettings#default_user_change_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#default_user_change_name SystemSettings#default_user_change_name}
   */
   readonly defaultUserChangeName?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#default_user_change_username SystemSettings#default_user_change_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#default_user_change_username SystemSettings#default_user_change_username}
   */
   readonly defaultUserChangeUsername?: boolean | cdktf.IResolvable;
   /**
   * Format: hours=1;minutes=2;seconds=3. Defaults to `days=365`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#event_retention SystemSettings#event_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#event_retention SystemSettings#event_retention}
   */
   readonly eventRetention?: string;
   /**
   * JSON format expected. Use `jsonencode()` to pass objects. Defaults to `{"policies_buffered_access_view": false}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#flags SystemSettings#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#flags SystemSettings#flags}
   */
   readonly flags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#footer_links SystemSettings#footer_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#footer_links SystemSettings#footer_links}
   */
   readonly footerLinks?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#gdpr_compliance SystemSettings#gdpr_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#gdpr_compliance SystemSettings#gdpr_compliance}
   */
   readonly gdprCompliance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#id SystemSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#id SystemSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,25 +75,25 @@ export interface SystemSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#impersonation SystemSettings#impersonation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#impersonation SystemSettings#impersonation}
   */
   readonly impersonation?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `-5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#reputation_lower_limit SystemSettings#reputation_lower_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#reputation_lower_limit SystemSettings#reputation_lower_limit}
   */
   readonly reputationLowerLimit?: number;
   /**
   * Defaults to `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#reputation_upper_limit SystemSettings#reputation_upper_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#reputation_upper_limit SystemSettings#reputation_upper_limit}
   */
   readonly reputationUpperLimit?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings authentik_system_settings}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings authentik_system_settings}
 */
 export class SystemSettings extends cdktf.TerraformResource {
 
@@ -109,7 +109,7 @@ export class SystemSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemSettings to import
-  * @param importFromId The id of the existing SystemSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -121,7 +121,7 @@ export class SystemSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/resources/system_settings authentik_system_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/resources/system_settings authentik_system_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -132,8 +132,8 @@ export class SystemSettings extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_system_settings',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

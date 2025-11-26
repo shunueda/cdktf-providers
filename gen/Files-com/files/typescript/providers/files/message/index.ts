@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/message
+// https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/message
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface MessageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Message body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/message#body Message#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/message#body Message#body}
   */
   readonly body: string;
   /**
   * Project to which the message should be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/message#project_id Message#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/message#project_id Message#project_id}
   */
   readonly projectId: number;
   /**
   * Message subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/message#subject Message#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/message#subject Message#subject}
   */
   readonly subject: string;
   /**
   * User ID.  Provide a value of `0` to operate the current session's user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/message#user_id Message#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/message#user_id Message#user_id}
   */
   readonly userId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/message files_message}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/message files_message}
 */
 export class Message extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Message extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Message resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Message to import
-  * @param importFromId The id of the existing Message that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/message#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Message that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/message#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Message to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Message extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/message files_message} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/message files_message} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class Message extends cdktf.TerraformResource {
       terraformResourceType: 'files_message',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.395',
-        providerVersionConstraint: '0.1.395'
+        providerVersion: '0.1.397',
+        providerVersionConstraint: '0.1.397'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

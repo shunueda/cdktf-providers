@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface AuthentikProviderConfig {
   /**
   * Optional HTTP headers sent with every request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs#headers AuthentikProvider#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs#headers AuthentikProvider#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Whether to skip TLS verification, can optionally be passed as `AUTHENTIK_INSECURE` environmental variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs#insecure AuthentikProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs#insecure AuthentikProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * The authentik API token, can optionally be passed as `AUTHENTIK_TOKEN` environmental variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs#token AuthentikProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs#token AuthentikProvider#token}
   */
   readonly token: string;
   /**
   * The authentik API endpoint, can optionally be passed as `AUTHENTIK_URL` environmental variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs#url AuthentikProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs#url AuthentikProvider#url}
   */
   readonly url: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs#alias AuthentikProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs#alias AuthentikProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs authentik}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs authentik}
 */
 export class AuthentikProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class AuthentikProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AuthentikProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthentikProvider to import
-  * @param importFromId The id of the existing AuthentikProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthentikProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthentikProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class AuthentikProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs authentik} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs authentik} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class AuthentikProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'authentik',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       terraformProviderSource: 'goauthentik/authentik'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/certificate_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/certificate_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataScmCertificateProfileConfig extends cdktf.TerraformMetaArgu
   /**
   * The UUID of the certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/certificate_profile#id DataScmCertificateProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/certificate_profile#id DataScmCertificateProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataScmCertificateProfileConfig extends cdktf.TerraformMetaArgu
   /**
   * The name of the certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/certificate_profile#name DataScmCertificateProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/certificate_profile#name DataScmCertificateProfile#name}
   */
   readonly name?: string;
 }
@@ -174,7 +174,7 @@ export class DataScmCertificateProfileUsernameFieldOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/certificate_profile scm_certificate_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/certificate_profile scm_certificate_profile}
 */
 export class DataScmCertificateProfile extends cdktf.TerraformDataSource {
 
@@ -190,7 +190,7 @@ export class DataScmCertificateProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmCertificateProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmCertificateProfile to import
-  * @param importFromId The id of the existing DataScmCertificateProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/certificate_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmCertificateProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/certificate_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmCertificateProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class DataScmCertificateProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/certificate_profile scm_certificate_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/certificate_profile scm_certificate_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class DataScmCertificateProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_certificate_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

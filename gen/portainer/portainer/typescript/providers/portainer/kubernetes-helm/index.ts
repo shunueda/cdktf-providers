@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_helm
+// https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/kubernetes_helm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface KubernetesHelmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_helm#chart KubernetesHelm#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/kubernetes_helm#chart KubernetesHelm#chart}
   */
   readonly chart: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_helm#environment_id KubernetesHelm#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/kubernetes_helm#environment_id KubernetesHelm#environment_id}
   */
   readonly environmentId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_helm#id KubernetesHelm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/kubernetes_helm#id KubernetesHelm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_helm#name KubernetesHelm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/kubernetes_helm#name KubernetesHelm#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_helm#namespace KubernetesHelm#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/kubernetes_helm#namespace KubernetesHelm#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_helm#repo KubernetesHelm#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/kubernetes_helm#repo KubernetesHelm#repo}
   */
   readonly repo: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_helm#values KubernetesHelm#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/kubernetes_helm#values KubernetesHelm#values}
   */
   readonly values?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_helm portainer_kubernetes_helm}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/kubernetes_helm portainer_kubernetes_helm}
 */
 export class KubernetesHelm extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class KubernetesHelm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesHelm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesHelm to import
-  * @param importFromId The id of the existing KubernetesHelm that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_helm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesHelm that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/kubernetes_helm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesHelm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class KubernetesHelm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.0/docs/resources/kubernetes_helm portainer_kubernetes_helm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs/resources/kubernetes_helm portainer_kubernetes_helm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class KubernetesHelm extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_kubernetes_helm',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.18.1',
+        providerVersionConstraint: '1.18.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

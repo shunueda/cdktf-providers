@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface LogManagementConfig extends cdktf.TerraformMetaArguments {
   /**
   * The audit filter for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#audit_filter LogManagement#audit_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#audit_filter LogManagement#audit_filter}
   */
   readonly auditFilter?: string;
   /**
   * The authentication option for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#authentication_option LogManagement#authentication_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#authentication_option LogManagement#authentication_option}
   */
   readonly authenticationOption?: string;
   /**
   * The CA certificate for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#ca_cert LogManagement#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#ca_cert LogManagement#ca_cert}
   */
   readonly caCert?: string;
   /**
   * The client ID for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#client_id LogManagement#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#client_id LogManagement#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#client_secret LogManagement#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#client_secret LogManagement#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The cloud provider for the log management service accepted value [public, government, china]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#cloud LogManagement#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#cloud LogManagement#cloud}
   */
   readonly cloud?: string;
   /**
   * The credentials JSON for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#credentials_json LogManagement#credentials_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#credentials_json LogManagement#credentials_json}
   */
   readonly credentialsJson?: string;
   /**
   * Enable or disable log management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#enable LogManagement#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#enable LogManagement#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
   * Enable or disable alphanumeric sorting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#enable_alphanumeric_sorting LogManagement#enable_alphanumeric_sorting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#enable_alphanumeric_sorting LogManagement#enable_alphanumeric_sorting}
   */
   readonly enableAlphanumericSorting?: boolean | cdktf.IResolvable;
   /**
   * The external ID for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#external_id LogManagement#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#external_id LogManagement#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#id LogManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#id LogManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,127 +77,127 @@ export interface LogManagementConfig extends cdktf.TerraformMetaArguments {
   /**
   * The index for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#index LogManagement#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#index LogManagement#index}
   */
   readonly index?: string;
   /**
   * The key for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#key LogManagement#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#key LogManagement#key}
   */
   readonly key?: string;
   /**
   * The key ID for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#keyid LogManagement#keyid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#keyid LogManagement#keyid}
   */
   readonly keyid?: string;
   /**
   * The log group for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#loggroup LogManagement#loggroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#loggroup LogManagement#loggroup}
   */
   readonly loggroup?: string;
   /**
   * The log name for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#logname LogManagement#logname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#logname LogManagement#logname}
   */
   readonly logname?: string;
   /**
   * The name of the log management configuration accepted value [CloudWatch, Splunk, Syslog, AzureLogAnalytics, ArcSight, Elasticsearch, Exabeam, Stackdriver, QRadar, Logentries, Loggly, OMS, Sumologic, WebHook]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#name LogManagement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#name LogManagement#name}
   */
   readonly name: string;
   /**
   * The network configuration for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#network LogManagement#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#network LogManagement#network}
   */
   readonly network?: string;
   /**
   * The password for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#password LogManagement#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#password LogManagement#password}
   */
   readonly password?: string;
   /**
   * The project ID for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#projectid LogManagement#projectid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#projectid LogManagement#projectid}
   */
   readonly projectid?: string;
   /**
   * The region for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#region LogManagement#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#region LogManagement#region}
   */
   readonly region?: string;
   /**
   * The role ARN for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#role_arn LogManagement#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#role_arn LogManagement#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The rule for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#rule LogManagement#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#rule LogManagement#rule}
   */
   readonly rule?: string;
   /**
   * The source type for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#sourcetype LogManagement#sourcetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#sourcetype LogManagement#sourcetype}
   */
   readonly sourcetype?: string;
   /**
   * The stream name for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#stream_name LogManagement#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#stream_name LogManagement#stream_name}
   */
   readonly streamName?: string;
   /**
   * The tenant ID for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#tenant_id LogManagement#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#tenant_id LogManagement#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * The token for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#token LogManagement#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#token LogManagement#token}
   */
   readonly token?: string;
   /**
   * The URL of the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#url LogManagement#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#url LogManagement#url}
   */
   readonly url?: string;
   /**
   * The username for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#user LogManagement#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#user LogManagement#user}
   */
   readonly user?: string;
   /**
   * Enable or disable SSL certificate verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#verify_cert LogManagement#verify_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#verify_cert LogManagement#verify_cert}
   */
   readonly verifyCert?: boolean | cdktf.IResolvable;
   /**
   * The workspace for the log management service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#workspace LogManagement#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#workspace LogManagement#workspace}
   */
   readonly workspace?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management aquasec_log_management}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management aquasec_log_management}
 */
 export class LogManagement extends cdktf.TerraformResource {
 
@@ -213,7 +213,7 @@ export class LogManagement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogManagement to import
-  * @param importFromId The id of the existing LogManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +225,7 @@ export class LogManagement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/log_management aquasec_log_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/log_management aquasec_log_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +236,8 @@ export class LogManagement extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_log_management',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

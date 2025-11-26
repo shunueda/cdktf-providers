@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FilevantageRuleGroupConfig extends cdktf.TerraformMetaArguments
   /**
   * Description of the filevantage rule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#description FilevantageRuleGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#description FilevantageRuleGroup#description}
   */
   readonly description?: string;
   /**
   * Name of the filevantage rule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#name FilevantageRuleGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#name FilevantageRuleGroup#name}
   */
   readonly name: string;
   /**
   * Rules to be associated with the rule group. Precedence is determined by the order of the rules in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#rules FilevantageRuleGroup#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#rules FilevantageRuleGroup#rules}
   */
   readonly rules?: FilevantageRuleGroupRules[] | cdktf.IResolvable;
   /**
   * The type of filevantage rule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#type FilevantageRuleGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#type FilevantageRuleGroup#type}
   */
   readonly type?: string;
 }
@@ -36,181 +36,181 @@ export interface FilevantageRuleGroupRules {
   /**
   * Depth below the base path to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#depth FilevantageRuleGroup#depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#depth FilevantageRuleGroup#depth}
   */
   readonly depth?: string;
   /**
   * Description of the filevantage rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#description FilevantageRuleGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#description FilevantageRuleGroup#description}
   */
   readonly description: string;
   /**
   * Enable content capture for the rule. Requires watch_file_write_changes or watch_key_value_set_changes to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#enable_content_capture FilevantageRuleGroup#enable_content_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#enable_content_capture FilevantageRuleGroup#enable_content_capture}
   */
   readonly enableContentCapture?: boolean | cdktf.IResolvable;
   /**
   * Represents the files, directories, registry keys, or registry values that will be excluded from monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#exclude FilevantageRuleGroup#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#exclude FilevantageRuleGroup#exclude}
   */
   readonly exclude?: string;
   /**
   * Represents the changes performed by specific processes that will be excluded from monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#exclude_processes FilevantageRuleGroup#exclude_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#exclude_processes FilevantageRuleGroup#exclude_processes}
   */
   readonly excludeProcesses?: string;
   /**
   * Represents the changes performed by specific users that will be excluded from monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#exclude_users FilevantageRuleGroup#exclude_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#exclude_users FilevantageRuleGroup#exclude_users}
   */
   readonly excludeUsers?: string;
   /**
   * List of file names whose content will be monitored. Listed files must match the file include pattern and not match the file exclude pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#file_names FilevantageRuleGroup#file_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#file_names FilevantageRuleGroup#file_names}
   */
   readonly fileNames?: string[];
   /**
   * Represents the files, directories, registry keys, or registry values that will be monitored. Defaults to all (*)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#include FilevantageRuleGroup#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#include FilevantageRuleGroup#include}
   */
   readonly include?: string;
   /**
   * Represents the changes performed by specific processes that will be monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#include_processes FilevantageRuleGroup#include_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#include_processes FilevantageRuleGroup#include_processes}
   */
   readonly includeProcesses?: string;
   /**
   * Represents the changes performed by specific users that will be monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#include_users FilevantageRuleGroup#include_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#include_users FilevantageRuleGroup#include_users}
   */
   readonly includeUsers?: string;
   /**
   * Representing the file system or registry path to monitor. All paths must end with the path separator, e.g. c:\windows\ for windows and /usr/bin/ for linux/mac.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#path FilevantageRuleGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#path FilevantageRuleGroup#path}
   */
   readonly path: string;
   /**
   * List of registry values whose content will be monitored. Listed registry values must match the registry include pattern and not match the registry exclude pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#registry_values FilevantageRuleGroup#registry_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#registry_values FilevantageRuleGroup#registry_values}
   */
   readonly registryValues?: string[];
   /**
   * Severity to categorize change events produced by this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#severity FilevantageRuleGroup#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#severity FilevantageRuleGroup#severity}
   */
   readonly severity: string;
   /**
   * Monitor directory attribute change events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_directory_attribute_changes FilevantageRuleGroup#watch_directory_attribute_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_directory_attribute_changes FilevantageRuleGroup#watch_directory_attribute_changes}
   */
   readonly watchDirectoryAttributeChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor directory creation events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_directory_create_changes FilevantageRuleGroup#watch_directory_create_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_directory_create_changes FilevantageRuleGroup#watch_directory_create_changes}
   */
   readonly watchDirectoryCreateChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor directory deletion events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_directory_delete_changes FilevantageRuleGroup#watch_directory_delete_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_directory_delete_changes FilevantageRuleGroup#watch_directory_delete_changes}
   */
   readonly watchDirectoryDeleteChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor directory permission change events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_directory_permission_changes FilevantageRuleGroup#watch_directory_permission_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_directory_permission_changes FilevantageRuleGroup#watch_directory_permission_changes}
   */
   readonly watchDirectoryPermissionChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor directory rename events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_directory_rename_changes FilevantageRuleGroup#watch_directory_rename_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_directory_rename_changes FilevantageRuleGroup#watch_directory_rename_changes}
   */
   readonly watchDirectoryRenameChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor file attribute change events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_file_attribute_changes FilevantageRuleGroup#watch_file_attribute_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_file_attribute_changes FilevantageRuleGroup#watch_file_attribute_changes}
   */
   readonly watchFileAttributeChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor file creation events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_file_create_changes FilevantageRuleGroup#watch_file_create_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_file_create_changes FilevantageRuleGroup#watch_file_create_changes}
   */
   readonly watchFileCreateChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor file deletion events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_file_delete_changes FilevantageRuleGroup#watch_file_delete_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_file_delete_changes FilevantageRuleGroup#watch_file_delete_changes}
   */
   readonly watchFileDeleteChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor file permission change events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_file_permission_changes FilevantageRuleGroup#watch_file_permission_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_file_permission_changes FilevantageRuleGroup#watch_file_permission_changes}
   */
   readonly watchFilePermissionChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor file rename events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_file_rename_changes FilevantageRuleGroup#watch_file_rename_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_file_rename_changes FilevantageRuleGroup#watch_file_rename_changes}
   */
   readonly watchFileRenameChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor file write events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_file_write_changes FilevantageRuleGroup#watch_file_write_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_file_write_changes FilevantageRuleGroup#watch_file_write_changes}
   */
   readonly watchFileWriteChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor registry key creation events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_key_create_changes FilevantageRuleGroup#watch_key_create_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_key_create_changes FilevantageRuleGroup#watch_key_create_changes}
   */
   readonly watchKeyCreateChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor registry key deletion events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_key_delete_changes FilevantageRuleGroup#watch_key_delete_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_key_delete_changes FilevantageRuleGroup#watch_key_delete_changes}
   */
   readonly watchKeyDeleteChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor registry key permission change events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_key_permissions_changes FilevantageRuleGroup#watch_key_permissions_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_key_permissions_changes FilevantageRuleGroup#watch_key_permissions_changes}
   */
   readonly watchKeyPermissionsChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor registry key rename events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_key_rename_changes FilevantageRuleGroup#watch_key_rename_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_key_rename_changes FilevantageRuleGroup#watch_key_rename_changes}
   */
   readonly watchKeyRenameChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor registry value deletion events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_key_value_delete_changes FilevantageRuleGroup#watch_key_value_delete_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_key_value_delete_changes FilevantageRuleGroup#watch_key_value_delete_changes}
   */
   readonly watchKeyValueDeleteChanges?: boolean | cdktf.IResolvable;
   /**
   * Monitor registry value set events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#watch_key_value_set_changes FilevantageRuleGroup#watch_key_value_set_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#watch_key_value_set_changes FilevantageRuleGroup#watch_key_value_set_changes}
   */
   readonly watchKeyValueSetChanges?: boolean | cdktf.IResolvable;
 }
@@ -1168,7 +1168,7 @@ export class FilevantageRuleGroupRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group crowdstrike_filevantage_rule_group}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group crowdstrike_filevantage_rule_group}
 */
 export class FilevantageRuleGroup extends cdktf.TerraformResource {
 
@@ -1184,7 +1184,7 @@ export class FilevantageRuleGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FilevantageRuleGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FilevantageRuleGroup to import
-  * @param importFromId The id of the existing FilevantageRuleGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FilevantageRuleGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FilevantageRuleGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1196,7 +1196,7 @@ export class FilevantageRuleGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/resources/filevantage_rule_group crowdstrike_filevantage_rule_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/filevantage_rule_group crowdstrike_filevantage_rule_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1207,8 +1207,8 @@ export class FilevantageRuleGroup extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_filevantage_rule_group',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.48',
-        providerVersionConstraint: '0.0.48'
+        providerVersion: '0.0.49',
+        providerVersionConstraint: '0.0.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/security_policies
+// https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/security_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataTwingateSecurityPoliciesConfig extends cdktf.TerraformMetaA
   /**
   * Returns only security policies that exactly match this name. If no options are passed it will return all security policies. Only one option can be used at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/security_policies#name DataTwingateSecurityPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/security_policies#name DataTwingateSecurityPolicies#name}
   */
   readonly name?: string;
   /**
   * Match when the value exist in the name of the security policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/security_policies#name_contains DataTwingateSecurityPolicies#name_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/security_policies#name_contains DataTwingateSecurityPolicies#name_contains}
   */
   readonly nameContains?: string;
   /**
   * Match when the exact value does not exist in the name of the security policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/security_policies#name_exclude DataTwingateSecurityPolicies#name_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/security_policies#name_exclude DataTwingateSecurityPolicies#name_exclude}
   */
   readonly nameExclude?: string;
   /**
   * The name of the security policy must start with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/security_policies#name_prefix DataTwingateSecurityPolicies#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/security_policies#name_prefix DataTwingateSecurityPolicies#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * The regular expression match of the name of the security policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/security_policies#name_regexp DataTwingateSecurityPolicies#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/security_policies#name_regexp DataTwingateSecurityPolicies#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * The name of the security policy must end with the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/security_policies#name_suffix DataTwingateSecurityPolicies#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/security_policies#name_suffix DataTwingateSecurityPolicies#name_suffix}
   */
   readonly nameSuffix?: string;
 }
@@ -126,7 +126,7 @@ export class DataTwingateSecurityPoliciesSecurityPoliciesList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/security_policies twingate_security_policies}
+* Represents a {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/security_policies twingate_security_policies}
 */
 export class DataTwingateSecurityPolicies extends cdktf.TerraformDataSource {
 
@@ -142,7 +142,7 @@ export class DataTwingateSecurityPolicies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwingateSecurityPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwingateSecurityPolicies to import
-  * @param importFromId The id of the existing DataTwingateSecurityPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/security_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwingateSecurityPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/security_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwingateSecurityPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -154,7 +154,7 @@ export class DataTwingateSecurityPolicies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.5.0/docs/data-sources/security_policies twingate_security_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/twingate/twingate/3.6.0/docs/data-sources/security_policies twingate_security_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -165,8 +165,8 @@ export class DataTwingateSecurityPolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'twingate_security_policies',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0',
-        providerVersionConstraint: '3.5.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

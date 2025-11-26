@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_oauth2_config
+// https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_oauth2_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAuthentikProviderOauth2ConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_oauth2_config#id DataAuthentikProviderOauth2Config#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_oauth2_config#id DataAuthentikProviderOauth2Config#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataAuthentikProviderOauth2ConfigConfig extends cdktf.Terraform
   /**
   * Find provider by name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_oauth2_config#name DataAuthentikProviderOauth2Config#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_oauth2_config#name DataAuthentikProviderOauth2Config#name}
   */
   readonly name?: string;
   /**
   * Find provider by ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_oauth2_config#provider_id DataAuthentikProviderOauth2Config#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_oauth2_config#provider_id DataAuthentikProviderOauth2Config#provider_id}
   */
   readonly providerId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_oauth2_config authentik_provider_oauth2_config}
+* Represents a {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_oauth2_config authentik_provider_oauth2_config}
 */
 export class DataAuthentikProviderOauth2Config extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataAuthentikProviderOauth2Config extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataAuthentikProviderOauth2Config resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuthentikProviderOauth2Config to import
-  * @param importFromId The id of the existing DataAuthentikProviderOauth2Config that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_oauth2_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuthentikProviderOauth2Config that should be imported. Refer to the {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_oauth2_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuthentikProviderOauth2Config to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataAuthentikProviderOauth2Config extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.0/docs/data-sources/provider_oauth2_config authentik_provider_oauth2_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/goauthentik/authentik/2025.10.1/docs/data-sources/provider_oauth2_config authentik_provider_oauth2_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataAuthentikProviderOauth2Config extends cdktf.TerraformDataSource
       terraformResourceType: 'authentik_provider_oauth2_config',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0',
-        providerVersionConstraint: '2025.10.0'
+        providerVersion: '2025.10.1',
+        providerVersionConstraint: '2025.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

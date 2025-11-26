@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/cloud_security_rules
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_security_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DataCrowdstrikeCloudSecurityRulesConfig extends cdktf.Terraform
   /**
   * Name of the benchmark that this rule is attached to. Note that rules can be associated with multiple benchmarks. Example: `CIS 1.0.0 AWS*`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/cloud_security_rules#benchmark DataCrowdstrikeCloudSecurityRules#benchmark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_security_rules#benchmark DataCrowdstrikeCloudSecurityRules#benchmark}
   */
   readonly benchmark?: string;
   /**
   * Cloud provider for where the rule resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/cloud_security_rules#cloud_provider DataCrowdstrikeCloudSecurityRules#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_security_rules#cloud_provider DataCrowdstrikeCloudSecurityRules#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * Falcon Query Language (FQL) filter for advanced control searches. FQL filter, allowed props: `rule_origin`, `rule_parent_uuid`, `rule_name`, `rule_description`, `rule_domain`, `rule_status`, `rule_severity`, `rule_short_code`, `rule_service`, `rule_resource_type`, `rule_provider`, `rule_subdomain`, `rule_auto_remediable`, `rule_control_requirement`, `rule_control_section`, `rule_compliance_benchmark`, `rule_compliance_framework`, `rule_mitre_tactic`, `rule_mitre_technique`, `rule_created_at`, `rule_updated_at`, `rule_updated_by`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/cloud_security_rules#fql DataCrowdstrikeCloudSecurityRules#fql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_security_rules#fql DataCrowdstrikeCloudSecurityRules#fql}
   */
   readonly fql?: string;
   /**
   * Name of the framework that this rule is attached to. Note that rules can be associated with multiple benchmarks. Examples: CIS, NIST 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/cloud_security_rules#framework DataCrowdstrikeCloudSecurityRules#framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_security_rules#framework DataCrowdstrikeCloudSecurityRules#framework}
   */
   readonly framework?: string;
   /**
   * Name of the resource type to search for. Examples: `AWS::IAM::CredentialReport`, `Microsoft.Compute/virtualMachines`, `container.googleapis.com/Cluster`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/cloud_security_rules#resource_type DataCrowdstrikeCloudSecurityRules#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_security_rules#resource_type DataCrowdstrikeCloudSecurityRules#resource_type}
   */
   readonly resourceType?: string;
   /**
   * Name of the rule to search for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/cloud_security_rules#rule_name DataCrowdstrikeCloudSecurityRules#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_security_rules#rule_name DataCrowdstrikeCloudSecurityRules#rule_name}
   */
   readonly ruleName?: string;
   /**
   * Name of the service within the cloud provider that rule is for. Examples: IAM, S3, Microsoft.Compute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/cloud_security_rules#service DataCrowdstrikeCloudSecurityRules#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_security_rules#service DataCrowdstrikeCloudSecurityRules#service}
   */
   readonly service?: string;
 }
@@ -283,7 +283,7 @@ export class DataCrowdstrikeCloudSecurityRulesRulesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/cloud_security_rules crowdstrike_cloud_security_rules}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_security_rules crowdstrike_cloud_security_rules}
 */
 export class DataCrowdstrikeCloudSecurityRules extends cdktf.TerraformDataSource {
 
@@ -299,7 +299,7 @@ export class DataCrowdstrikeCloudSecurityRules extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataCrowdstrikeCloudSecurityRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCrowdstrikeCloudSecurityRules to import
-  * @param importFromId The id of the existing DataCrowdstrikeCloudSecurityRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/cloud_security_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCrowdstrikeCloudSecurityRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_security_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCrowdstrikeCloudSecurityRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class DataCrowdstrikeCloudSecurityRules extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.48/docs/data-sources/cloud_security_rules crowdstrike_cloud_security_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_security_rules crowdstrike_cloud_security_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class DataCrowdstrikeCloudSecurityRules extends cdktf.TerraformDataSource
       terraformResourceType: 'crowdstrike_cloud_security_rules',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.48',
-        providerVersionConstraint: '0.0.48'
+        providerVersion: '0.0.49',
+        providerVersionConstraint: '0.0.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_filtering_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_filtering_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataScmBgpFilteringProfileConfig extends cdktf.TerraformMetaArg
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_filtering_profile#id DataScmBgpFilteringProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_filtering_profile#id DataScmBgpFilteringProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,14 +19,14 @@ export interface DataScmBgpFilteringProfileConfig extends cdktf.TerraformMetaArg
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_filtering_profile#name DataScmBgpFilteringProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_filtering_profile#name DataScmBgpFilteringProfile#name}
   */
   readonly name?: string;
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist {
+export interface DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementExist {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist): any {
+export function dataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementExistToTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementExist): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -36,7 +36,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisem
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist): any {
+export function dataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementExistToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementExist): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -46,7 +46,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisem
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementExistOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -57,13 +57,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementExist | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExist | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementExist | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -82,10 +82,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement
     return this.getStringAttribute('exist_map');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist {
+export interface DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExistToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist): any {
+export function dataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExistToTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -95,7 +95,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisem
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExistToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist): any {
+export function dataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExistToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -105,7 +105,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisem
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExistOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExistOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -116,13 +116,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExist | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -141,10 +141,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement
     return this.getStringAttribute('non_exist_map');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement {
+export interface DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisement {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement): any {
+export function dataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementToTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisement): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -154,7 +154,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisem
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement): any {
+export function dataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisement): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -164,7 +164,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisem
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -175,13 +175,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisement | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisement | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -191,21 +191,21 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisement
   }
 
   // exist - computed: true, optional: false, required: false
-  private _exist = new DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementExistOutputReference(this, "exist");
+  private _exist = new DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementExistOutputReference(this, "exist");
   public get exist() {
     return this._exist;
   }
 
   // non_exist - computed: true, optional: false, required: false
-  private _nonExist = new DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementNonExistOutputReference(this, "non_exist");
+  private _nonExist = new DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExistOutputReference(this, "non_exist");
   public get nonExist() {
     return this._nonExist;
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStruct {
+export interface DataScmBgpFilteringProfileIpv4MulticastFilterListStruct {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStructToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStruct): any {
+export function dataScmBgpFilteringProfileIpv4MulticastFilterListStructToTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastFilterListStruct): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -215,7 +215,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStructToTer
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStructToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStruct): any {
+export function dataScmBgpFilteringProfileIpv4MulticastFilterListStructToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastFilterListStruct): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -225,7 +225,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStructToHcl
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStructOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4MulticastFilterListStructOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -236,13 +236,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStructOutputRe
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStruct | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4MulticastFilterListStruct | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStruct | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4MulticastFilterListStruct | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -261,10 +261,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStructOutputRe
     return this.getStringAttribute('outbound');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters {
+export interface DataScmBgpFilteringProfileIpv4MulticastInboundNetworkFilters {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters): any {
+export function dataScmBgpFilteringProfileIpv4MulticastInboundNetworkFiltersToTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastInboundNetworkFilters): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -274,7 +274,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters): any {
+export function dataScmBgpFilteringProfileIpv4MulticastInboundNetworkFiltersToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastInboundNetworkFilters): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -284,7 +284,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4MulticastInboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -295,13 +295,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersOut
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4MulticastInboundNetworkFilters | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFilters | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4MulticastInboundNetworkFilters | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -320,10 +320,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersOut
     return this.getStringAttribute('prefix_list');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters {
+export interface DataScmBgpFilteringProfileIpv4MulticastOutboundNetworkFilters {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters): any {
+export function dataScmBgpFilteringProfileIpv4MulticastOutboundNetworkFiltersToTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastOutboundNetworkFilters): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -333,7 +333,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilter
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters): any {
+export function dataScmBgpFilteringProfileIpv4MulticastOutboundNetworkFiltersToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastOutboundNetworkFilters): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -343,7 +343,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilter
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4MulticastOutboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -354,13 +354,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersOu
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4MulticastOutboundNetworkFilters | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFilters | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4MulticastOutboundNetworkFilters | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -379,10 +379,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersOu
     return this.getStringAttribute('prefix_list');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMaps {
+export interface DataScmBgpFilteringProfileIpv4MulticastRouteMaps {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMapsToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMaps): any {
+export function dataScmBgpFilteringProfileIpv4MulticastRouteMapsToTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastRouteMaps): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -392,7 +392,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMapsToTerraform(
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMapsToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMaps): any {
+export function dataScmBgpFilteringProfileIpv4MulticastRouteMapsToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4MulticastRouteMaps): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -402,7 +402,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMapsToHclTerrafo
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMapsOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4MulticastRouteMapsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -413,13 +413,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMapsOutputReference
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMaps | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4MulticastRouteMaps | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMaps | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4MulticastRouteMaps | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -438,10 +438,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMapsOutputReference
     return this.getStringAttribute('outbound');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4Multicast {
+export interface DataScmBgpFilteringProfileIpv4Multicast {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4Multicast): any {
+export function dataScmBgpFilteringProfileIpv4MulticastToTerraform(struct?: DataScmBgpFilteringProfileIpv4Multicast): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -451,7 +451,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastToTerraform(struct?: 
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4MulticastToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4Multicast): any {
+export function dataScmBgpFilteringProfileIpv4MulticastToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Multicast): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -461,7 +461,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4MulticastToHclTerraform(struct
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4MulticastOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4MulticastOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -472,13 +472,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastOutputReference extends 
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4Multicast | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4Multicast | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4Multicast | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4Multicast | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -488,19 +488,19 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastOutputReference extends 
   }
 
   // conditional_advertisement - computed: true, optional: false, required: false
-  private _conditionalAdvertisement = new DataScmBgpFilteringProfileIpv4Ipv4MulticastConditionalAdvertisementOutputReference(this, "conditional_advertisement");
+  private _conditionalAdvertisement = new DataScmBgpFilteringProfileIpv4MulticastConditionalAdvertisementOutputReference(this, "conditional_advertisement");
   public get conditionalAdvertisement() {
     return this._conditionalAdvertisement;
   }
 
   // filter_list - computed: true, optional: false, required: false
-  private _filterList = new DataScmBgpFilteringProfileIpv4Ipv4MulticastFilterListStructOutputReference(this, "filter_list");
+  private _filterList = new DataScmBgpFilteringProfileIpv4MulticastFilterListStructOutputReference(this, "filter_list");
   public get filterList() {
     return this._filterList;
   }
 
   // inbound_network_filters - computed: true, optional: false, required: false
-  private _inboundNetworkFilters = new DataScmBgpFilteringProfileIpv4Ipv4MulticastInboundNetworkFiltersOutputReference(this, "inbound_network_filters");
+  private _inboundNetworkFilters = new DataScmBgpFilteringProfileIpv4MulticastInboundNetworkFiltersOutputReference(this, "inbound_network_filters");
   public get inboundNetworkFilters() {
     return this._inboundNetworkFilters;
   }
@@ -511,13 +511,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastOutputReference extends 
   }
 
   // outbound_network_filters - computed: true, optional: false, required: false
-  private _outboundNetworkFilters = new DataScmBgpFilteringProfileIpv4Ipv4MulticastOutboundNetworkFiltersOutputReference(this, "outbound_network_filters");
+  private _outboundNetworkFilters = new DataScmBgpFilteringProfileIpv4MulticastOutboundNetworkFiltersOutputReference(this, "outbound_network_filters");
   public get outboundNetworkFilters() {
     return this._outboundNetworkFilters;
   }
 
   // route_maps - computed: true, optional: false, required: false
-  private _routeMaps = new DataScmBgpFilteringProfileIpv4Ipv4MulticastRouteMapsOutputReference(this, "route_maps");
+  private _routeMaps = new DataScmBgpFilteringProfileIpv4MulticastRouteMapsOutputReference(this, "route_maps");
   public get routeMaps() {
     return this._routeMaps;
   }
@@ -527,10 +527,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4MulticastOutputReference extends 
     return this.getStringAttribute('unsuppress_map');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist {
+export interface DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementExist {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist): any {
+export function dataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementExistToTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementExist): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -540,7 +540,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisemen
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist): any {
+export function dataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementExistToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementExist): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -550,7 +550,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisemen
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementExistOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -561,13 +561,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementEx
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementExist | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExist | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementExist | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -586,10 +586,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementEx
     return this.getStringAttribute('exist_map');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist {
+export interface DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist): any {
+export function dataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExistToTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -599,7 +599,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisemen
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist): any {
+export function dataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExistToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -609,7 +609,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisemen
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExistOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -620,13 +620,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNo
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExist | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -645,10 +645,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNo
     return this.getStringAttribute('non_exist_map');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement {
+export interface DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisement {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement): any {
+export function dataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementToTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisement): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -658,7 +658,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisemen
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement): any {
+export function dataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisement): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -668,7 +668,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisemen
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -679,13 +679,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementOu
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisement | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisement | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisement | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -695,21 +695,21 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementOu
   }
 
   // exist - computed: true, optional: false, required: false
-  private _exist = new DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementExistOutputReference(this, "exist");
+  private _exist = new DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementExistOutputReference(this, "exist");
   public get exist() {
     return this._exist;
   }
 
   // non_exist - computed: true, optional: false, required: false
-  private _nonExist = new DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementNonExistOutputReference(this, "non_exist");
+  private _nonExist = new DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExistOutputReference(this, "non_exist");
   public get nonExist() {
     return this._nonExist;
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStruct {
+export interface DataScmBgpFilteringProfileIpv4UnicastFilterListStruct {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStructToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStruct): any {
+export function dataScmBgpFilteringProfileIpv4UnicastFilterListStructToTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastFilterListStruct): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -719,7 +719,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStructToTerra
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStructToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStruct): any {
+export function dataScmBgpFilteringProfileIpv4UnicastFilterListStructToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastFilterListStruct): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -729,7 +729,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStructToHclTe
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStructOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4UnicastFilterListStructOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -740,13 +740,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStructOutputRefe
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStruct | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4UnicastFilterListStruct | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStruct | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4UnicastFilterListStruct | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -765,10 +765,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStructOutputRefe
     return this.getStringAttribute('outbound');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters {
+export interface DataScmBgpFilteringProfileIpv4UnicastInboundNetworkFilters {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters): any {
+export function dataScmBgpFilteringProfileIpv4UnicastInboundNetworkFiltersToTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastInboundNetworkFilters): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -778,7 +778,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersTo
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters): any {
+export function dataScmBgpFilteringProfileIpv4UnicastInboundNetworkFiltersToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastInboundNetworkFilters): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -788,7 +788,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersTo
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4UnicastInboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -799,13 +799,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersOutpu
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4UnicastInboundNetworkFilters | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFilters | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4UnicastInboundNetworkFilters | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -824,10 +824,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersOutpu
     return this.getStringAttribute('prefix_list');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters {
+export interface DataScmBgpFilteringProfileIpv4UnicastOutboundNetworkFilters {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters): any {
+export function dataScmBgpFilteringProfileIpv4UnicastOutboundNetworkFiltersToTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastOutboundNetworkFilters): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -837,7 +837,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersT
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters): any {
+export function dataScmBgpFilteringProfileIpv4UnicastOutboundNetworkFiltersToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastOutboundNetworkFilters): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -847,7 +847,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersT
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4UnicastOutboundNetworkFiltersOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -858,13 +858,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersOutp
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4UnicastOutboundNetworkFilters | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFilters | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4UnicastOutboundNetworkFilters | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -883,10 +883,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersOutp
     return this.getStringAttribute('prefix_list');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMaps {
+export interface DataScmBgpFilteringProfileIpv4UnicastRouteMaps {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMapsToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMaps): any {
+export function dataScmBgpFilteringProfileIpv4UnicastRouteMapsToTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastRouteMaps): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -896,7 +896,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMapsToTerraform(st
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMapsToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMaps): any {
+export function dataScmBgpFilteringProfileIpv4UnicastRouteMapsToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4UnicastRouteMaps): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -906,7 +906,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMapsToHclTerraform
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMapsOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4UnicastRouteMapsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -917,13 +917,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMapsOutputReference e
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMaps | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4UnicastRouteMaps | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMaps | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4UnicastRouteMaps | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -942,10 +942,10 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMapsOutputReference e
     return this.getStringAttribute('outbound');
   }
 }
-export interface DataScmBgpFilteringProfileIpv4Ipv4Unicast {
+export interface DataScmBgpFilteringProfileIpv4Unicast {
 }
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4Unicast): any {
+export function dataScmBgpFilteringProfileIpv4UnicastToTerraform(struct?: DataScmBgpFilteringProfileIpv4Unicast): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -955,7 +955,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastToTerraform(struct?: Da
 }
 
 
-export function dataScmBgpFilteringProfileIpv4Ipv4UnicastToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4Unicast): any {
+export function dataScmBgpFilteringProfileIpv4UnicastToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Unicast): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -965,7 +965,7 @@ export function dataScmBgpFilteringProfileIpv4Ipv4UnicastToHclTerraform(struct?:
   return attrs;
 }
 
-export class DataScmBgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cdktf.ComplexObject {
+export class DataScmBgpFilteringProfileIpv4UnicastOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -976,13 +976,13 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cd
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4Unicast | undefined {
+  public get internalValue(): DataScmBgpFilteringProfileIpv4Unicast | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4Unicast | undefined) {
+  public set internalValue(value: DataScmBgpFilteringProfileIpv4Unicast | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -992,31 +992,31 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cd
   }
 
   // conditional_advertisement - computed: true, optional: false, required: false
-  private _conditionalAdvertisement = new DataScmBgpFilteringProfileIpv4Ipv4UnicastConditionalAdvertisementOutputReference(this, "conditional_advertisement");
+  private _conditionalAdvertisement = new DataScmBgpFilteringProfileIpv4UnicastConditionalAdvertisementOutputReference(this, "conditional_advertisement");
   public get conditionalAdvertisement() {
     return this._conditionalAdvertisement;
   }
 
   // filter_list - computed: true, optional: false, required: false
-  private _filterList = new DataScmBgpFilteringProfileIpv4Ipv4UnicastFilterListStructOutputReference(this, "filter_list");
+  private _filterList = new DataScmBgpFilteringProfileIpv4UnicastFilterListStructOutputReference(this, "filter_list");
   public get filterList() {
     return this._filterList;
   }
 
   // inbound_network_filters - computed: true, optional: false, required: false
-  private _inboundNetworkFilters = new DataScmBgpFilteringProfileIpv4Ipv4UnicastInboundNetworkFiltersOutputReference(this, "inbound_network_filters");
+  private _inboundNetworkFilters = new DataScmBgpFilteringProfileIpv4UnicastInboundNetworkFiltersOutputReference(this, "inbound_network_filters");
   public get inboundNetworkFilters() {
     return this._inboundNetworkFilters;
   }
 
   // outbound_network_filters - computed: true, optional: false, required: false
-  private _outboundNetworkFilters = new DataScmBgpFilteringProfileIpv4Ipv4UnicastOutboundNetworkFiltersOutputReference(this, "outbound_network_filters");
+  private _outboundNetworkFilters = new DataScmBgpFilteringProfileIpv4UnicastOutboundNetworkFiltersOutputReference(this, "outbound_network_filters");
   public get outboundNetworkFilters() {
     return this._outboundNetworkFilters;
   }
 
   // route_maps - computed: true, optional: false, required: false
-  private _routeMaps = new DataScmBgpFilteringProfileIpv4Ipv4UnicastRouteMapsOutputReference(this, "route_maps");
+  private _routeMaps = new DataScmBgpFilteringProfileIpv4UnicastRouteMapsOutputReference(this, "route_maps");
   public get routeMaps() {
     return this._routeMaps;
   }
@@ -1024,67 +1024,6 @@ export class DataScmBgpFilteringProfileIpv4Ipv4UnicastOutputReference extends cd
   // unsuppress_map - computed: true, optional: false, required: false
   public get unsuppressMap() {
     return this.getStringAttribute('unsuppress_map');
-  }
-}
-export interface DataScmBgpFilteringProfileIpv4Ipv4 {
-}
-
-export function dataScmBgpFilteringProfileIpv4Ipv4ToTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataScmBgpFilteringProfileIpv4Ipv4ToHclTerraform(struct?: DataScmBgpFilteringProfileIpv4Ipv4): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataScmBgpFilteringProfileIpv4Ipv4OutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataScmBgpFilteringProfileIpv4Ipv4 | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataScmBgpFilteringProfileIpv4Ipv4 | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // multicast - computed: true, optional: false, required: false
-  private _multicast = new DataScmBgpFilteringProfileIpv4Ipv4MulticastOutputReference(this, "multicast");
-  public get multicast() {
-    return this._multicast;
-  }
-
-  // unicast - computed: true, optional: false, required: false
-  private _unicast = new DataScmBgpFilteringProfileIpv4Ipv4UnicastOutputReference(this, "unicast");
-  public get unicast() {
-    return this._unicast;
   }
 }
 export interface DataScmBgpFilteringProfileIpv4 {
@@ -1136,15 +1075,21 @@ export class DataScmBgpFilteringProfileIpv4OutputReference extends cdktf.Complex
     }
   }
 
-  // ipv4 - computed: true, optional: false, required: false
-  private _ipv4 = new DataScmBgpFilteringProfileIpv4Ipv4OutputReference(this, "ipv4");
-  public get ipv4() {
-    return this._ipv4;
+  // multicast - computed: true, optional: false, required: false
+  private _multicast = new DataScmBgpFilteringProfileIpv4MulticastOutputReference(this, "multicast");
+  public get multicast() {
+    return this._multicast;
+  }
+
+  // unicast - computed: true, optional: false, required: false
+  private _unicast = new DataScmBgpFilteringProfileIpv4UnicastOutputReference(this, "unicast");
+  public get unicast() {
+    return this._unicast;
   }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_filtering_profile scm_bgp_filtering_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_filtering_profile scm_bgp_filtering_profile}
 */
 export class DataScmBgpFilteringProfile extends cdktf.TerraformDataSource {
 
@@ -1160,7 +1105,7 @@ export class DataScmBgpFilteringProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmBgpFilteringProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmBgpFilteringProfile to import
-  * @param importFromId The id of the existing DataScmBgpFilteringProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_filtering_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmBgpFilteringProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_filtering_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmBgpFilteringProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1172,7 +1117,7 @@ export class DataScmBgpFilteringProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/bgp_filtering_profile scm_bgp_filtering_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/bgp_filtering_profile scm_bgp_filtering_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1183,8 +1128,8 @@ export class DataScmBgpFilteringProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_bgp_filtering_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

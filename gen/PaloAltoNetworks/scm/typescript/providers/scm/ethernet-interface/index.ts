@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,81 +8,101 @@ import * as cdktf from 'cdktf';
 
 export interface EthernetInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Aggregate group
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `aggregate_group`, `layer2`, `layer3`, and `tap`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#aggregate_group EthernetInterface#aggregate_group}
+  */
+  readonly aggregateGroup?: string;
+  /**
   * Interface description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#comment EthernetInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#comment EthernetInterface#comment}
   */
   readonly comment?: string;
   /**
   * Default interface assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#default_value EthernetInterface#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#default_value EthernetInterface#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The device in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#device EthernetInterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#device EthernetInterface#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#folder EthernetInterface#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#folder EthernetInterface#folder}
   */
   readonly folder?: string;
   /**
   * Layer2
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `aggregate_group`, `layer2`, `layer3`, and `tap`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#layer2 EthernetInterface#layer2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#layer2 EthernetInterface#layer2}
   */
   readonly layer2?: EthernetInterfaceLayer2;
   /**
   * Ethernet Interface Layer 3 configuration
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `aggregate_group`, `layer2`, `layer3`, and `tap`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#layer3 EthernetInterface#layer3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#layer3 EthernetInterface#layer3}
   */
   readonly layer3?: EthernetInterfaceLayer3;
   /**
   * Link duplex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#link_duplex EthernetInterface#link_duplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#link_duplex EthernetInterface#link_duplex}
   */
   readonly linkDuplex?: string;
   /**
   * Link speed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#link_speed EthernetInterface#link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#link_speed EthernetInterface#link_speed}
   */
   readonly linkSpeed?: string;
   /**
   * Link state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#link_state EthernetInterface#link_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#link_state EthernetInterface#link_state}
   */
   readonly linkState?: string;
   /**
   * Interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#name EthernetInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#name EthernetInterface#name}
   */
   readonly name: string;
   /**
   * Poe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#poe EthernetInterface#poe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#poe EthernetInterface#poe}
   */
   readonly poe?: EthernetInterfacePoe;
   /**
   * The snippet in which the resource is defined
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#snippet EthernetInterface#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#snippet EthernetInterface#snippet}
   */
   readonly snippet?: string;
   /**
   * Tap
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `aggregate_group`, `layer2`, `layer3`, and `tap`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#tap EthernetInterface#tap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#tap EthernetInterface#tap}
   */
   readonly tap?: EthernetInterfaceTap;
 }
@@ -90,7 +110,7 @@ export interface EthernetInterfaceLayer2Lldp {
   /**
   * Enable LLDP on Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#enable EthernetInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#enable EthernetInterface#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
 }
@@ -183,13 +203,13 @@ export interface EthernetInterfaceLayer2 {
   /**
   * LLDP Settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#lldp EthernetInterface#lldp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#lldp EthernetInterface#lldp}
   */
   readonly lldp?: EthernetInterfaceLayer2Lldp;
   /**
   * Assign interface to VLAN tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#vlan_tag EthernetInterface#vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#vlan_tag EthernetInterface#vlan_tag}
   */
   readonly vlanTag?: string;
 }
@@ -314,13 +334,13 @@ export interface EthernetInterfaceLayer3Arp {
   /**
   * MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#hw_address EthernetInterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#hw_address EthernetInterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#name EthernetInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#name EthernetInterface#name}
   */
   readonly name?: string;
 }
@@ -467,43 +487,43 @@ export interface EthernetInterfaceLayer3DdnsConfig {
   /**
   * Certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#ddns_cert_profile EthernetInterface#ddns_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#ddns_cert_profile EthernetInterface#ddns_cert_profile}
   */
   readonly ddnsCertProfile: string;
   /**
   * Enable DDNS?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#ddns_enabled EthernetInterface#ddns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#ddns_enabled EthernetInterface#ddns_enabled}
   */
   readonly ddnsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Ddns hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#ddns_hostname EthernetInterface#ddns_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#ddns_hostname EthernetInterface#ddns_hostname}
   */
   readonly ddnsHostname: string;
   /**
   * IP to register (static only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#ddns_ip EthernetInterface#ddns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#ddns_ip EthernetInterface#ddns_ip}
   */
   readonly ddnsIp?: string;
   /**
   * Update interval (days)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#ddns_update_interval EthernetInterface#ddns_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#ddns_update_interval EthernetInterface#ddns_update_interval}
   */
   readonly ddnsUpdateInterval?: number;
   /**
   * DDNS vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#ddns_vendor EthernetInterface#ddns_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#ddns_vendor EthernetInterface#ddns_vendor}
   */
   readonly ddnsVendor: string;
   /**
   * DDNS vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#ddns_vendor_config EthernetInterface#ddns_vendor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#ddns_vendor_config EthernetInterface#ddns_vendor_config}
   */
   readonly ddnsVendorConfig: string;
 }
@@ -761,13 +781,13 @@ export interface EthernetInterfaceLayer3DhcpClientSendHostname {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#enable EthernetInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#enable EthernetInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set interface hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#hostname EthernetInterface#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#hostname EthernetInterface#hostname}
   */
   readonly hostname?: string;
 }
@@ -892,25 +912,25 @@ export interface EthernetInterfaceLayer3DhcpClient {
   /**
   * Automatically create default route pointing to default gateway provided by server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#create_default_route EthernetInterface#create_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#create_default_route EthernetInterface#create_default_route}
   */
   readonly createDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Metric of the default route created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#default_route_metric EthernetInterface#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#default_route_metric EthernetInterface#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
   * Enable DHCP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#enable EthernetInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#enable EthernetInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Ethernet Interfaces DHCP ClientSend hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#send_hostname EthernetInterface#send_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#send_hostname EthernetInterface#send_hostname}
   */
   readonly sendHostname?: EthernetInterfaceLayer3DhcpClientSendHostname;
 }
@@ -1093,7 +1113,7 @@ export interface EthernetInterfaceLayer3Ip {
   /**
   * Ethernet Interface IP addresses name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#name EthernetInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#name EthernetInterface#name}
   */
   readonly name: string;
 }
@@ -1208,7 +1228,7 @@ export interface EthernetInterfaceLayer3PppoePassive {
   /**
   * Passive Mode enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#enable EthernetInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#enable EthernetInterface#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
 }
@@ -1301,7 +1321,7 @@ export interface EthernetInterfaceLayer3PppoeStaticAddress {
   /**
   * Static IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#ip EthernetInterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#ip EthernetInterface#ip}
   */
   readonly ip: string;
 }
@@ -1394,55 +1414,55 @@ export interface EthernetInterfaceLayer3Pppoe {
   /**
   * Access concentrator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#access_concentrator EthernetInterface#access_concentrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#access_concentrator EthernetInterface#access_concentrator}
   */
   readonly accessConcentrator?: string;
   /**
   * Authentication protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#authentication EthernetInterface#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#authentication EthernetInterface#authentication}
   */
   readonly authentication?: string;
   /**
   * Metric of the default route created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#default_route_metric EthernetInterface#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#default_route_metric EthernetInterface#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#enable EthernetInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#enable EthernetInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Passive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#passive EthernetInterface#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#passive EthernetInterface#passive}
   */
   readonly passive?: EthernetInterfaceLayer3PppoePassive;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#password EthernetInterface#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#password EthernetInterface#password}
   */
   readonly password: string;
   /**
   * Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#service EthernetInterface#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#service EthernetInterface#service}
   */
   readonly service?: string;
   /**
   * Static address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#static_address EthernetInterface#static_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#static_address EthernetInterface#static_address}
   */
   readonly staticAddress?: EthernetInterfaceLayer3PppoeStaticAddress;
   /**
   * Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#username EthernetInterface#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#username EthernetInterface#username}
   */
   readonly username: string;
 }
@@ -1764,43 +1784,49 @@ export interface EthernetInterfaceLayer3 {
   /**
   * Ethernet Interfaces ARP configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#arp EthernetInterface#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#arp EthernetInterface#arp}
   */
   readonly arp?: EthernetInterfaceLayer3Arp[] | cdktf.IResolvable;
   /**
   * Dynamic DNS configuration specific to the Ethernet Interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#ddns_config EthernetInterface#ddns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#ddns_config EthernetInterface#ddns_config}
   */
   readonly ddnsConfig?: EthernetInterfaceLayer3DdnsConfig;
   /**
   * Ethernet Interfaces DHCP Client Object
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `dhcp_client`, `ip`, and `pppoe`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#dhcp_client EthernetInterface#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#dhcp_client EthernetInterface#dhcp_client}
   */
   readonly dhcpClient?: EthernetInterfaceLayer3DhcpClient;
   /**
   * Interface management profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#interface_management_profile EthernetInterface#interface_management_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#interface_management_profile EthernetInterface#interface_management_profile}
   */
   readonly interfaceManagementProfile?: string;
   /**
   * Ethernet Interface IP addresses
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `dhcp_client`, `ip`, and `pppoe`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#ip EthernetInterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#ip EthernetInterface#ip}
   */
   readonly ip?: EthernetInterfaceLayer3Ip[] | cdktf.IResolvable;
   /**
   * MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#mtu EthernetInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#mtu EthernetInterface#mtu}
   */
   readonly mtu?: number;
   /**
   * Pppoe
+  * 
+  * > ℹ️ **Note:** You must specify exactly one of `dhcp_client`, `ip`, and `pppoe`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#pppoe EthernetInterface#pppoe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#pppoe EthernetInterface#pppoe}
   */
   readonly pppoe?: EthernetInterfaceLayer3Pppoe;
 }
@@ -2070,13 +2096,13 @@ export interface EthernetInterfacePoe {
   /**
   * Enabled PoE?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#poe_enabled EthernetInterface#poe_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#poe_enabled EthernetInterface#poe_enabled}
   */
   readonly poeEnabled?: boolean | cdktf.IResolvable;
   /**
   * PoE reserved power
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#poe_rsvd_pwr EthernetInterface#poe_rsvd_pwr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#poe_rsvd_pwr EthernetInterface#poe_rsvd_pwr}
   */
   readonly poeRsvdPwr?: number;
 }
@@ -2258,7 +2284,7 @@ export class EthernetInterfaceTapOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface scm_ethernet_interface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface scm_ethernet_interface}
 */
 export class EthernetInterface extends cdktf.TerraformResource {
 
@@ -2274,7 +2300,7 @@ export class EthernetInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EthernetInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EthernetInterface to import
-  * @param importFromId The id of the existing EthernetInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EthernetInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EthernetInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2286,7 +2312,7 @@ export class EthernetInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ethernet_interface scm_ethernet_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ethernet_interface scm_ethernet_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2297,8 +2323,8 @@ export class EthernetInterface extends cdktf.TerraformResource {
       terraformResourceType: 'scm_ethernet_interface',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2308,6 +2334,7 @@ export class EthernetInterface extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._aggregateGroup = config.aggregateGroup;
     this._comment = config.comment;
     this._defaultValue = config.defaultValue;
     this._device = config.device;
@@ -2326,6 +2353,22 @@ export class EthernetInterface extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // aggregate_group - computed: false, optional: true, required: false
+  private _aggregateGroup?: string; 
+  public get aggregateGroup() {
+    return this.getStringAttribute('aggregate_group');
+  }
+  public set aggregateGroup(value: string) {
+    this._aggregateGroup = value;
+  }
+  public resetAggregateGroup() {
+    this._aggregateGroup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aggregateGroupInput() {
+    return this._aggregateGroup;
+  }
 
   // comment - computed: false, optional: true, required: false
   private _comment?: string; 
@@ -2554,6 +2597,7 @@ export class EthernetInterface extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      aggregate_group: cdktf.stringToTerraform(this._aggregateGroup),
       comment: cdktf.stringToTerraform(this._comment),
       default_value: cdktf.stringToTerraform(this._defaultValue),
       device: cdktf.stringToTerraform(this._device),
@@ -2572,6 +2616,12 @@ export class EthernetInterface extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      aggregate_group: {
+        value: cdktf.stringToHclTerraform(this._aggregateGroup),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       comment: {
         value: cdktf.stringToHclTerraform(this._comment),
         isBlock: false,

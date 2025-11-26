@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/service_variable
+// https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/service_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ServiceVariableConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the credential containing the sensitive value to inject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/service_variable#credential_id ServiceVariable#credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/service_variable#credential_id ServiceVariable#credential_id}
   */
   readonly credentialId: number;
   /**
   * The property name from the credential to use. Valid values depend on credential_type: 'password' for BASIC, 'secret' for TOKEN, 'certificate'/'key'/'passphrase' for CERTIFICATE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/service_variable#property_name ServiceVariable#property_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/service_variable#property_name ServiceVariable#property_name}
   */
   readonly propertyName: string;
   /**
   * The ID of the check/service this variable belongs to. Changing this forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/service_variable#service_id ServiceVariable#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/service_variable#service_id ServiceVariable#service_id}
   */
   readonly serviceId: number;
   /**
   * The name of the variable as referenced in the check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/service_variable#variable_name ServiceVariable#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/service_variable#variable_name ServiceVariable#variable_name}
   */
   readonly variableName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/service_variable uptime_service_variable}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/service_variable uptime_service_variable}
 */
 export class ServiceVariable extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ServiceVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceVariable to import
-  * @param importFromId The id of the existing ServiceVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/service_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/service_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ServiceVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/service_variable uptime_service_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.0/docs/resources/service_variable uptime_service_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ServiceVariable extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_service_variable',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.17.1',
-        providerVersionConstraint: '2.17.1'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

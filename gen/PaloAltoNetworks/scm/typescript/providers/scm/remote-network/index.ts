@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface RemoteNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ecmp load balancing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#ecmp_load_balancing RemoteNetwork#ecmp_load_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#ecmp_load_balancing RemoteNetwork#ecmp_load_balancing}
   */
   readonly ecmpLoadBalancing?: string;
   /**
   * ecmp_tunnels is required when ecmp_load_balancing is enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#ecmp_tunnels RemoteNetwork#ecmp_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#ecmp_tunnels RemoteNetwork#ecmp_tunnels}
   */
   readonly ecmpTunnels?: RemoteNetworkEcmpTunnels[] | cdktf.IResolvable;
   /**
   * The folder that contains the remote network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#folder RemoteNetwork#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#folder RemoteNetwork#folder}
   */
   readonly folder: string;
   /**
   * ipsec_tunnel is required when ecmp_load_balancing is disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#ipsec_tunnel RemoteNetwork#ipsec_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#ipsec_tunnel RemoteNetwork#ipsec_tunnel}
   */
   readonly ipsecTunnel?: string;
   /**
   * New customer will only be on aggregate bandwidth licensing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#license_type RemoteNetwork#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#license_type RemoteNetwork#license_type}
   */
   readonly licenseType: string;
   /**
   * The name of the remote network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#name RemoteNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#name RemoteNetwork#name}
   */
   readonly name: string;
   /**
   * setup the protocol when ecmp_load_balancing is disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#protocol RemoteNetwork#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#protocol RemoteNetwork#protocol}
   */
   readonly protocol?: RemoteNetworkProtocol;
   /**
   * Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#region RemoteNetwork#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#region RemoteNetwork#region}
   */
   readonly region: string;
   /**
   * specify secondary ipsec_tunnel if needed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#secondary_ipsec_tunnel RemoteNetwork#secondary_ipsec_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#secondary_ipsec_tunnel RemoteNetwork#secondary_ipsec_tunnel}
   */
   readonly secondaryIpsecTunnel?: string;
   /**
   * spn-name is needed when license_type is FWAAS-AGGREGATE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#spn_name RemoteNetwork#spn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#spn_name RemoteNetwork#spn_name}
   */
   readonly spnName?: string;
   /**
   * Subnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#subnets RemoteNetwork#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#subnets RemoteNetwork#subnets}
   */
   readonly subnets?: string[];
 }
@@ -78,55 +78,55 @@ export interface RemoteNetworkEcmpTunnelsProtocolBgp {
   /**
   * Do not export routes?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#do_not_export_routes RemoteNetwork#do_not_export_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#do_not_export_routes RemoteNetwork#do_not_export_routes}
   */
   readonly doNotExportRoutes?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP peering?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#enable RemoteNetwork#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#enable RemoteNetwork#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Local peer IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#local_ip_address RemoteNetwork#local_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#local_ip_address RemoteNetwork#local_ip_address}
   */
   readonly localIpAddress?: string;
   /**
   * Originate default route?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#originate_default_route RemoteNetwork#originate_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#originate_default_route RemoteNetwork#originate_default_route}
   */
   readonly originateDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * BGP peer ASN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#peer_as RemoteNetwork#peer_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#peer_as RemoteNetwork#peer_as}
   */
   readonly peerAs?: string;
   /**
   * Remote peer IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#peer_ip_address RemoteNetwork#peer_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#peer_ip_address RemoteNetwork#peer_ip_address}
   */
   readonly peerIpAddress?: string;
   /**
   * Route exchange types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#peering_type RemoteNetwork#peering_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#peering_type RemoteNetwork#peering_type}
   */
   readonly peeringType?: string;
   /**
   * BGP peering secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#secret RemoteNetwork#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#secret RemoteNetwork#secret}
   */
   readonly secret?: string;
   /**
   * Summarize mobile user routes?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#summarize_mobile_user_routes RemoteNetwork#summarize_mobile_user_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#summarize_mobile_user_routes RemoteNetwork#summarize_mobile_user_routes}
   */
   readonly summarizeMobileUserRoutes?: boolean | cdktf.IResolvable;
 }
@@ -454,7 +454,7 @@ export interface RemoteNetworkEcmpTunnelsProtocol {
   /**
   * Bgp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#bgp RemoteNetwork#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#bgp RemoteNetwork#bgp}
   */
   readonly bgp?: RemoteNetworkEcmpTunnelsProtocolBgp;
 }
@@ -550,19 +550,19 @@ export interface RemoteNetworkEcmpTunnels {
   /**
   * Ipsec tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#ipsec_tunnel RemoteNetwork#ipsec_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#ipsec_tunnel RemoteNetwork#ipsec_tunnel}
   */
   readonly ipsecTunnel: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#name RemoteNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#name RemoteNetwork#name}
   */
   readonly name: string;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#protocol RemoteNetwork#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#protocol RemoteNetwork#protocol}
   */
   readonly protocol: RemoteNetworkEcmpTunnelsProtocol;
 }
@@ -729,55 +729,55 @@ export interface RemoteNetworkProtocolBgp {
   /**
   * Do not export routes?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#do_not_export_routes RemoteNetwork#do_not_export_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#do_not_export_routes RemoteNetwork#do_not_export_routes}
   */
   readonly doNotExportRoutes?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP peering?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#enable RemoteNetwork#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#enable RemoteNetwork#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Local peer IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#local_ip_address RemoteNetwork#local_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#local_ip_address RemoteNetwork#local_ip_address}
   */
   readonly localIpAddress?: string;
   /**
   * Originate default route?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#originate_default_route RemoteNetwork#originate_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#originate_default_route RemoteNetwork#originate_default_route}
   */
   readonly originateDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * BGP peer ASN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#peer_as RemoteNetwork#peer_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#peer_as RemoteNetwork#peer_as}
   */
   readonly peerAs?: string;
   /**
   * Remote peer IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#peer_ip_address RemoteNetwork#peer_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#peer_ip_address RemoteNetwork#peer_ip_address}
   */
   readonly peerIpAddress?: string;
   /**
   * Route exchange types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#peering_type RemoteNetwork#peering_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#peering_type RemoteNetwork#peering_type}
   */
   readonly peeringType?: string;
   /**
   * BGP peering secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#secret RemoteNetwork#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#secret RemoteNetwork#secret}
   */
   readonly secret?: string;
   /**
   * Summarize mobile user routes?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#summarize_mobile_user_routes RemoteNetwork#summarize_mobile_user_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#summarize_mobile_user_routes RemoteNetwork#summarize_mobile_user_routes}
   */
   readonly summarizeMobileUserRoutes?: boolean | cdktf.IResolvable;
 }
@@ -1105,19 +1105,19 @@ export interface RemoteNetworkProtocolBgpPeer {
   /**
   * Local peer IP address (secondary WAN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#local_ip_address RemoteNetwork#local_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#local_ip_address RemoteNetwork#local_ip_address}
   */
   readonly localIpAddress?: string;
   /**
   * Remote peer IP address (secondary WAN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#peer_ip_address RemoteNetwork#peer_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#peer_ip_address RemoteNetwork#peer_ip_address}
   */
   readonly peerIpAddress?: string;
   /**
   * BGP peering secret (secondary WAN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#secret RemoteNetwork#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#secret RemoteNetwork#secret}
   */
   readonly secret?: string;
 }
@@ -1271,13 +1271,13 @@ export interface RemoteNetworkProtocol {
   /**
   * Bgp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#bgp RemoteNetwork#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#bgp RemoteNetwork#bgp}
   */
   readonly bgp?: RemoteNetworkProtocolBgp;
   /**
   * secondary bgp routing as bgp_peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#bgp_peer RemoteNetwork#bgp_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#bgp_peer RemoteNetwork#bgp_peer}
   */
   readonly bgpPeer?: RemoteNetworkProtocolBgpPeer;
 }
@@ -1400,7 +1400,7 @@ export class RemoteNetworkProtocolOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network scm_remote_network}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network scm_remote_network}
 */
 export class RemoteNetwork extends cdktf.TerraformResource {
 
@@ -1416,7 +1416,7 @@ export class RemoteNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RemoteNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RemoteNetwork to import
-  * @param importFromId The id of the existing RemoteNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RemoteNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RemoteNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1428,7 +1428,7 @@ export class RemoteNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/remote_network scm_remote_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/remote_network scm_remote_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1439,8 +1439,8 @@ export class RemoteNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'scm_remote_network',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.4',
-        providerVersionConstraint: '1.0.4'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

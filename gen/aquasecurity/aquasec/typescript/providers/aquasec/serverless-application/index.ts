@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,138 +10,138 @@ export interface ServerlessApplicationConfig extends cdktf.TerraformMetaArgument
   /**
   * The username of the user who created or last modified the serverless application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#author ServerlessApplication#author}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#author ServerlessApplication#author}
   */
   readonly author?: string;
   /**
   * Whether to automatically pull images from the registry on creation and daily
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#auto_pull ServerlessApplication#auto_pull}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#auto_pull ServerlessApplication#auto_pull}
   */
   readonly autoPull?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#auto_pull_max ServerlessApplication#auto_pull_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#auto_pull_max ServerlessApplication#auto_pull_max}
   */
   readonly autoPullMax?: number;
   /**
   * The description of the Serverless application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#auto_pull_pattern ServerlessApplication#auto_pull_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#auto_pull_pattern ServerlessApplication#auto_pull_pattern}
   */
   readonly autoPullPattern?: string;
   /**
   * The time of day to start pulling new images from the registry, in the format HH:MM (24-hour clock), defaults to 03:00
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#auto_pull_time ServerlessApplication#auto_pull_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#auto_pull_time ServerlessApplication#auto_pull_time}
   */
   readonly autoPullTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#cloud_project ServerlessApplication#cloud_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#cloud_project ServerlessApplication#cloud_project}
   */
   readonly cloudProject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#compute_provider ServerlessApplication#compute_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#compute_provider ServerlessApplication#compute_provider}
   */
   readonly computeProvider: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#description ServerlessApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#description ServerlessApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#exclude_tags ServerlessApplication#exclude_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#exclude_tags ServerlessApplication#exclude_tags}
   */
   readonly excludeTags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#external_id ServerlessApplication#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#external_id ServerlessApplication#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#id ServerlessApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#id ServerlessApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#include_tags ServerlessApplication#include_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#include_tags ServerlessApplication#include_tags}
   */
   readonly includeTags?: string[];
   /**
   * The last time the registry was modified in UNIX time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#lastupdate ServerlessApplication#lastupdate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#lastupdate ServerlessApplication#lastupdate}
   */
   readonly lastupdate?: number;
   /**
   * The name of the serverless application; string, required - this will be treated as the serverless application's ID, so choose a simple alphanumerical name without special signs and spaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#name ServerlessApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#name ServerlessApplication#name}
   */
   readonly name: string;
   /**
   * The password for registry authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#password ServerlessApplication#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#password ServerlessApplication#password}
   */
   readonly password?: string;
   /**
   * Patterns for tags to be pulled from auto pull
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#pull_tags_pattern ServerlessApplication#pull_tags_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#pull_tags_pattern ServerlessApplication#pull_tags_pattern}
   */
   readonly pullTagsPattern?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#pull_tags_pattern_excluded ServerlessApplication#pull_tags_pattern_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#pull_tags_pattern_excluded ServerlessApplication#pull_tags_pattern_excluded}
   */
   readonly pullTagsPatternExcluded?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#region ServerlessApplication#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#region ServerlessApplication#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#role_arn ServerlessApplication#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#role_arn ServerlessApplication#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The scanner group name (required when scanner_type = "specific" type)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#scanner_group_name ServerlessApplication#scanner_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#scanner_group_name ServerlessApplication#scanner_group_name}
   */
   readonly scannerGroupName?: string;
   /**
   * List of scanner names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#scanner_name ServerlessApplication#scanner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#scanner_name ServerlessApplication#scanner_name}
   */
   readonly scannerName?: string[];
   /**
   * The Scanner type (either "any" or "specific")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#scanner_type ServerlessApplication#scanner_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#scanner_type ServerlessApplication#scanner_type}
   */
   readonly scannerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#sqs_url ServerlessApplication#sqs_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#sqs_url ServerlessApplication#sqs_url}
   */
   readonly sqsUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#subscription_id ServerlessApplication#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#subscription_id ServerlessApplication#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#tenant_id ServerlessApplication#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#tenant_id ServerlessApplication#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * The username for registry authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#username ServerlessApplication#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#username ServerlessApplication#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application aquasec_serverless_application}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application aquasec_serverless_application}
 */
 export class ServerlessApplication extends cdktf.TerraformResource {
 
@@ -157,7 +157,7 @@ export class ServerlessApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerlessApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerlessApplication to import
-  * @param importFromId The id of the existing ServerlessApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerlessApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerlessApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class ServerlessApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/serverless_application aquasec_serverless_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/serverless_application aquasec_serverless_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class ServerlessApplication extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_serverless_application',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

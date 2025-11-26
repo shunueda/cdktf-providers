@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NamespaceNetworkPolicyRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#id NamespaceNetworkPolicyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#id NamespaceNetworkPolicyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface NamespaceNetworkPolicyRuleConfig extends cdktf.TerraformMetaArg
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#metadata NamespaceNetworkPolicyRule#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#metadata NamespaceNetworkPolicyRule#metadata}
   */
   readonly metadata?: NamespaceNetworkPolicyRuleMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#spec NamespaceNetworkPolicyRule#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#spec NamespaceNetworkPolicyRule#spec}
   */
   readonly spec?: NamespaceNetworkPolicyRuleSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#timeouts NamespaceNetworkPolicyRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#timeouts NamespaceNetworkPolicyRule#timeouts}
   */
   readonly timeouts?: NamespaceNetworkPolicyRuleTimeouts;
 }
@@ -37,7 +37,7 @@ export interface NamespaceNetworkPolicyRuleMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#id NamespaceNetworkPolicyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#id NamespaceNetworkPolicyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface NamespaceNetworkPolicyRuleMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#is_sso_user NamespaceNetworkPolicyRule#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#is_sso_user NamespaceNetworkPolicyRule#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#username NamespaceNetworkPolicyRule#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#username NamespaceNetworkPolicyRule#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface NamespaceNetworkPolicyRuleMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#id NamespaceNetworkPolicyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#id NamespaceNetworkPolicyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface NamespaceNetworkPolicyRuleMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#is_sso_user NamespaceNetworkPolicyRule#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#is_sso_user NamespaceNetworkPolicyRule#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#username NamespaceNetworkPolicyRule#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#username NamespaceNetworkPolicyRule#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface NamespaceNetworkPolicyRuleMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#annotations NamespaceNetworkPolicyRule#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#annotations NamespaceNetworkPolicyRule#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#display_name NamespaceNetworkPolicyRule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#display_name NamespaceNetworkPolicyRule#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#labels NamespaceNetworkPolicyRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#labels NamespaceNetworkPolicyRule#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#project NamespaceNetworkPolicyRule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#project NamespaceNetworkPolicyRule#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#created_by NamespaceNetworkPolicyRule#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#created_by NamespaceNetworkPolicyRule#created_by}
   */
   readonly createdBy?: NamespaceNetworkPolicyRuleMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#modified_by NamespaceNetworkPolicyRule#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#modified_by NamespaceNetworkPolicyRule#modified_by}
   */
   readonly modifiedBy?: NamespaceNetworkPolicyRuleMetadataModifiedBy;
 }
@@ -686,7 +686,7 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactChartPathOptionsO
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -772,13 +772,13 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactChartPathOptionsS
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -893,37 +893,37 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactChartPathOptions 
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
   */
   readonly override?: NamespaceNetworkPolicyRuleSpecArtifactArtifactChartPathOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
   */
   readonly schema?: NamespaceNetworkPolicyRuleSpecArtifactArtifactChartPathOptionsSchema;
 }
@@ -1154,31 +1154,31 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactChartPath {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
   */
   readonly options?: NamespaceNetworkPolicyRuleSpecArtifactArtifactChartPathOptions;
 }
@@ -1380,7 +1380,7 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigmapOptionsO
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -1466,13 +1466,13 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigmapOptionsS
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -1587,37 +1587,37 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigmapOptions 
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
   */
   readonly override?: NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigmapOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
   */
   readonly schema?: NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigmapOptionsSchema;
 }
@@ -1848,31 +1848,31 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigmap {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
   */
   readonly options?: NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigmapOptions;
 }
@@ -2074,7 +2074,7 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigurationOpti
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -2160,13 +2160,13 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigurationOpti
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -2281,37 +2281,37 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigurationOpti
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
   */
   readonly override?: NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigurationOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
   */
   readonly schema?: NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigurationOptionsSchema;
 }
@@ -2542,31 +2542,31 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactConfiguration {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
   */
   readonly options?: NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigurationOptions;
 }
@@ -2768,7 +2768,7 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactFileOptionsOverri
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -2854,13 +2854,13 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactFileOptionsSchema
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -2975,37 +2975,37 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactFileOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
   */
   readonly override?: NamespaceNetworkPolicyRuleSpecArtifactArtifactFileOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
   */
   readonly schema?: NamespaceNetworkPolicyRuleSpecArtifactArtifactFileOptionsSchema;
 }
@@ -3236,31 +3236,31 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactFile {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
   */
   readonly options?: NamespaceNetworkPolicyRuleSpecArtifactArtifactFileOptions;
 }
@@ -3462,7 +3462,7 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactPathsOptionsOverr
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -3548,13 +3548,13 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactPathsOptionsSchem
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -3669,37 +3669,37 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
   */
   readonly override?: NamespaceNetworkPolicyRuleSpecArtifactArtifactPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
   */
   readonly schema?: NamespaceNetworkPolicyRuleSpecArtifactArtifactPathsOptionsSchema;
 }
@@ -3930,31 +3930,31 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
   */
   readonly options?: NamespaceNetworkPolicyRuleSpecArtifactArtifactPathsOptions;
 }
@@ -4188,7 +4188,7 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactSecretOptionsOver
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -4274,13 +4274,13 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactSecretOptionsSche
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -4395,37 +4395,37 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactSecretOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
   */
   readonly override?: NamespaceNetworkPolicyRuleSpecArtifactArtifactSecretOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
   */
   readonly schema?: NamespaceNetworkPolicyRuleSpecArtifactArtifactSecretOptionsSchema;
 }
@@ -4656,31 +4656,31 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactSecret {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
   */
   readonly options?: NamespaceNetworkPolicyRuleSpecArtifactArtifactSecretOptions;
 }
@@ -4882,7 +4882,7 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactStatefulsetOption
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -4968,13 +4968,13 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactStatefulsetOption
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -5089,37 +5089,37 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactStatefulsetOption
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
   */
   readonly override?: NamespaceNetworkPolicyRuleSpecArtifactArtifactStatefulsetOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
   */
   readonly schema?: NamespaceNetworkPolicyRuleSpecArtifactArtifactStatefulsetOptionsSchema;
 }
@@ -5350,31 +5350,31 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactStatefulset {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
   */
   readonly options?: NamespaceNetworkPolicyRuleSpecArtifactArtifactStatefulsetOptions;
 }
@@ -5576,7 +5576,7 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesPathsOption
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -5662,13 +5662,13 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesPathsOption
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -5783,37 +5783,37 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesPathsOption
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
   */
   readonly override?: NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
   */
   readonly schema?: NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesPathsOptionsSchema;
 }
@@ -6044,31 +6044,31 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
   */
   readonly options?: NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesPathsOptions;
 }
@@ -6302,7 +6302,7 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPa
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
   */
   readonly type?: string;
 }
@@ -6388,13 +6388,13 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPa
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#jsonschema NamespaceNetworkPolicyRule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#uischema NamespaceNetworkPolicyRule#uischema}
   */
   readonly uischema?: string;
 }
@@ -6509,37 +6509,37 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPa
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#display_metadata NamespaceNetworkPolicyRule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#required NamespaceNetworkPolicyRule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#override NamespaceNetworkPolicyRule#override}
   */
   readonly override?: NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#schema NamespaceNetworkPolicyRule#schema}
   */
   readonly schema?: NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPathsOptionsSchema;
 }
@@ -6770,31 +6770,31 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPa
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#data NamespaceNetworkPolicyRule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#mount_path NamespaceNetworkPolicyRule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sensitive NamespaceNetworkPolicyRule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
   */
   readonly options?: NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPathsOptions;
 }
@@ -7028,19 +7028,19 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesRef {
   /**
   * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#repository NamespaceNetworkPolicyRule#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#repository NamespaceNetworkPolicyRule#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#revision NamespaceNetworkPolicyRule#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#revision NamespaceNetworkPolicyRule#revision}
   */
   readonly revision?: string;
   /**
   * values_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#values_paths NamespaceNetworkPolicyRule#values_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#values_paths NamespaceNetworkPolicyRule#values_paths}
   */
   readonly valuesPaths?: NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesRefValuesPaths[] | cdktf.IResolvable;
 }
@@ -7184,109 +7184,109 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactArtifact {
   /**
   * name of the helm catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#catalog NamespaceNetworkPolicyRule#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#catalog NamespaceNetworkPolicyRule#catalog}
   */
   readonly catalog?: string;
   /**
   * name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#chart_name NamespaceNetworkPolicyRule#chart_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#chart_name NamespaceNetworkPolicyRule#chart_name}
   */
   readonly chartName?: string;
   /**
   * version of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#chart_version NamespaceNetworkPolicyRule#chart_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#chart_version NamespaceNetworkPolicyRule#chart_version}
   */
   readonly chartVersion?: string;
   /**
   * relative path from the root to kustomization directory in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#directory NamespaceNetworkPolicyRule#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#directory NamespaceNetworkPolicyRule#directory}
   */
   readonly directory?: string;
   /**
   * relative path to kustomization directory from the root directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#path NamespaceNetworkPolicyRule#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#path NamespaceNetworkPolicyRule#path}
   */
   readonly path?: string;
   /**
   * project name of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#project NamespaceNetworkPolicyRule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#project NamespaceNetworkPolicyRule#project}
   */
   readonly project?: string;
   /**
   * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#repository NamespaceNetworkPolicyRule#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#repository NamespaceNetworkPolicyRule#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#revision NamespaceNetworkPolicyRule#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#revision NamespaceNetworkPolicyRule#revision}
   */
   readonly revision?: string;
   /**
   * url of the manifest YAML
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#url NamespaceNetworkPolicyRule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#url NamespaceNetworkPolicyRule#url}
   */
   readonly url?: string[];
   /**
   * chart_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#chart_path NamespaceNetworkPolicyRule#chart_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#chart_path NamespaceNetworkPolicyRule#chart_path}
   */
   readonly chartPath?: NamespaceNetworkPolicyRuleSpecArtifactArtifactChartPath;
   /**
   * configmap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#configmap NamespaceNetworkPolicyRule#configmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#configmap NamespaceNetworkPolicyRule#configmap}
   */
   readonly configmap?: NamespaceNetworkPolicyRuleSpecArtifactArtifactConfigmap;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#configuration NamespaceNetworkPolicyRule#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#configuration NamespaceNetworkPolicyRule#configuration}
   */
   readonly configuration?: NamespaceNetworkPolicyRuleSpecArtifactArtifactConfiguration;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#file NamespaceNetworkPolicyRule#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#file NamespaceNetworkPolicyRule#file}
   */
   readonly file?: NamespaceNetworkPolicyRuleSpecArtifactArtifactFile;
   /**
   * paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#paths NamespaceNetworkPolicyRule#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#paths NamespaceNetworkPolicyRule#paths}
   */
   readonly paths?: NamespaceNetworkPolicyRuleSpecArtifactArtifactPaths[] | cdktf.IResolvable;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#secret NamespaceNetworkPolicyRule#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#secret NamespaceNetworkPolicyRule#secret}
   */
   readonly secret?: NamespaceNetworkPolicyRuleSpecArtifactArtifactSecret;
   /**
   * statefulset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#statefulset NamespaceNetworkPolicyRule#statefulset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#statefulset NamespaceNetworkPolicyRule#statefulset}
   */
   readonly statefulset?: NamespaceNetworkPolicyRuleSpecArtifactArtifactStatefulset;
   /**
   * values_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#values_paths NamespaceNetworkPolicyRule#values_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#values_paths NamespaceNetworkPolicyRule#values_paths}
   */
   readonly valuesPaths?: NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesPaths[] | cdktf.IResolvable;
   /**
   * values_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#values_ref NamespaceNetworkPolicyRule#values_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#values_ref NamespaceNetworkPolicyRule#values_ref}
   */
   readonly valuesRef?: NamespaceNetworkPolicyRuleSpecArtifactArtifactValuesRef;
 }
@@ -7865,103 +7865,103 @@ export interface NamespaceNetworkPolicyRuleSpecArtifactOptions {
   /**
   * deploy Helm artifact with atomic flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#atomic NamespaceNetworkPolicyRule#atomic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#atomic NamespaceNetworkPolicyRule#atomic}
   */
   readonly atomic?: boolean | cdktf.IResolvable;
   /**
   * cleanup deployed resources when chart fails to deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#clean_up_on_fail NamespaceNetworkPolicyRule#clean_up_on_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#clean_up_on_fail NamespaceNetworkPolicyRule#clean_up_on_fail}
   */
   readonly cleanUpOnFail?: boolean | cdktf.IResolvable;
   /**
   * custom description for the release
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#description NamespaceNetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
   * disable OpenAPI validation while deploying the YAML
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#disable_open_api_validation NamespaceNetworkPolicyRule#disable_open_api_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#disable_open_api_validation NamespaceNetworkPolicyRule#disable_open_api_validation}
   */
   readonly disableOpenApiValidation?: boolean | cdktf.IResolvable;
   /**
   * deploy YAML artifact with force flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#force NamespaceNetworkPolicyRule#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#force NamespaceNetworkPolicyRule#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * keep release history after uninstalling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#keep_history NamespaceNetworkPolicyRule#keep_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#keep_history NamespaceNetworkPolicyRule#keep_history}
   */
   readonly keepHistory?: boolean | cdktf.IResolvable;
   /**
   * limit Helm artifact history
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#max_history NamespaceNetworkPolicyRule#max_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#max_history NamespaceNetworkPolicyRule#max_history}
   */
   readonly maxHistory?: number;
   /**
   * deploy Helm artifact without hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#no_hooks NamespaceNetworkPolicyRule#no_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#no_hooks NamespaceNetworkPolicyRule#no_hooks}
   */
   readonly noHooks?: boolean | cdktf.IResolvable;
   /**
   * render sub chart notes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#render_sub_chart_notes NamespaceNetworkPolicyRule#render_sub_chart_notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#render_sub_chart_notes NamespaceNetworkPolicyRule#render_sub_chart_notes}
   */
   readonly renderSubChartNotes?: boolean | cdktf.IResolvable;
   /**
   * reset existing helm values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#reset_values NamespaceNetworkPolicyRule#reset_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#reset_values NamespaceNetworkPolicyRule#reset_values}
   */
   readonly resetValues?: boolean | cdktf.IResolvable;
   /**
   * reuse existing values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#reuse_values NamespaceNetworkPolicyRule#reuse_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#reuse_values NamespaceNetworkPolicyRule#reuse_values}
   */
   readonly reuseValues?: boolean | cdktf.IResolvable;
   /**
   * pass custom helm values as key=value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#set_string NamespaceNetworkPolicyRule#set_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#set_string NamespaceNetworkPolicyRule#set_string}
   */
   readonly setString?: string[];
   /**
   * skip deploying crds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#skip_crd NamespaceNetworkPolicyRule#skip_crd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#skip_crd NamespaceNetworkPolicyRule#skip_crd}
   */
   readonly skipCrd?: boolean | cdktf.IResolvable;
   /**
   * timeout for waiting for the resources to become ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#timeout NamespaceNetworkPolicyRule#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#timeout NamespaceNetworkPolicyRule#timeout}
   */
   readonly timeout?: string;
   /**
   * deploy Helm artifact with wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#wait NamespaceNetworkPolicyRule#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#wait NamespaceNetworkPolicyRule#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
   /**
   * deploy Helm artifact with --wait-for-jobs flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#wait_for_jobs NamespaceNetworkPolicyRule#wait_for_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#wait_for_jobs NamespaceNetworkPolicyRule#wait_for_jobs}
   */
   readonly waitForJobs?: boolean | cdktf.IResolvable;
   /**
   * uninstall Helm artifact with --wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#wait_for_uninstall NamespaceNetworkPolicyRule#wait_for_uninstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#wait_for_uninstall NamespaceNetworkPolicyRule#wait_for_uninstall}
   */
   readonly waitForUninstall?: boolean | cdktf.IResolvable;
 }
@@ -8511,19 +8511,19 @@ export interface NamespaceNetworkPolicyRuleSpecArtifact {
   /**
   * type of the artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#type NamespaceNetworkPolicyRule#type}
   */
   readonly type?: string;
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#artifact NamespaceNetworkPolicyRule#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#artifact NamespaceNetworkPolicyRule#artifact}
   */
   readonly artifact?: NamespaceNetworkPolicyRuleSpecArtifactArtifact;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#options NamespaceNetworkPolicyRule#options}
   */
   readonly options?: NamespaceNetworkPolicyRuleSpecArtifactOptions;
 }
@@ -8667,7 +8667,7 @@ export interface NamespaceNetworkPolicyRuleSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#name NamespaceNetworkPolicyRule#name}
   */
   readonly name?: string;
 }
@@ -8785,13 +8785,13 @@ export interface NamespaceNetworkPolicyRuleSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#enabled NamespaceNetworkPolicyRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#enabled NamespaceNetworkPolicyRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#projects NamespaceNetworkPolicyRule#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#projects NamespaceNetworkPolicyRule#projects}
   */
   readonly projects?: NamespaceNetworkPolicyRuleSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -8906,19 +8906,19 @@ export interface NamespaceNetworkPolicyRuleSpec {
   /**
   * version of the namespace policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#version NamespaceNetworkPolicyRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#version NamespaceNetworkPolicyRule#version}
   */
   readonly version?: string;
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#artifact NamespaceNetworkPolicyRule#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#artifact NamespaceNetworkPolicyRule#artifact}
   */
   readonly artifact?: NamespaceNetworkPolicyRuleSpecArtifact;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#sharing NamespaceNetworkPolicyRule#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#sharing NamespaceNetworkPolicyRule#sharing}
   */
   readonly sharing?: NamespaceNetworkPolicyRuleSpecSharing;
 }
@@ -9060,15 +9060,15 @@ export class NamespaceNetworkPolicyRuleSpecOutputReference extends cdktf.Complex
 }
 export interface NamespaceNetworkPolicyRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#create NamespaceNetworkPolicyRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#create NamespaceNetworkPolicyRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#delete NamespaceNetworkPolicyRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#delete NamespaceNetworkPolicyRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#update NamespaceNetworkPolicyRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#update NamespaceNetworkPolicyRule#update}
   */
   readonly update?: string;
 }
@@ -9220,7 +9220,7 @@ export class NamespaceNetworkPolicyRuleTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule rafay_namespace_network_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule rafay_namespace_network_policy_rule}
 */
 export class NamespaceNetworkPolicyRule extends cdktf.TerraformResource {
 
@@ -9236,7 +9236,7 @@ export class NamespaceNetworkPolicyRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NamespaceNetworkPolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NamespaceNetworkPolicyRule to import
-  * @param importFromId The id of the existing NamespaceNetworkPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NamespaceNetworkPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NamespaceNetworkPolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9248,7 +9248,7 @@ export class NamespaceNetworkPolicyRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy_rule rafay_namespace_network_policy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace_network_policy_rule rafay_namespace_network_policy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9259,8 +9259,8 @@ export class NamespaceNetworkPolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_namespace_network_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

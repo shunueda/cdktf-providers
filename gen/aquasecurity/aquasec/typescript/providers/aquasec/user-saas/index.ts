@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/user_saas
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/user_saas
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface UserSaasConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/user_saas#account_admin UserSaas#account_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/user_saas#account_admin UserSaas#account_admin}
   */
   readonly accountAdmin: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/user_saas#csp_roles UserSaas#csp_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/user_saas#csp_roles UserSaas#csp_roles}
   */
   readonly cspRoles: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/user_saas#email UserSaas#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/user_saas#email UserSaas#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/user_saas#mfa_enabled UserSaas#mfa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/user_saas#mfa_enabled UserSaas#mfa_enabled}
   */
   readonly mfaEnabled?: boolean | cdktf.IResolvable;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/user_saas#groups UserSaas#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/user_saas#groups UserSaas#groups}
   */
   readonly groups?: UserSaasGroups[] | cdktf.IResolvable;
 }
@@ -132,11 +132,11 @@ export class UserSaasLoginsList extends cdktf.ComplexList {
 }
 export interface UserSaasGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/user_saas#created UserSaas#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/user_saas#created UserSaas#created}
   */
   readonly created?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/user_saas#name UserSaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/user_saas#name UserSaas#name}
   */
   readonly name?: string;
 }
@@ -286,7 +286,7 @@ export class UserSaasGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/user_saas aquasec_user_saas}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/user_saas aquasec_user_saas}
 */
 export class UserSaas extends cdktf.TerraformResource {
 
@@ -302,7 +302,7 @@ export class UserSaas extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserSaas resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserSaas to import
-  * @param importFromId The id of the existing UserSaas that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/user_saas#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserSaas that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/user_saas#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserSaas to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -314,7 +314,7 @@ export class UserSaas extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/user_saas aquasec_user_saas} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.1/docs/resources/user_saas aquasec_user_saas} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -325,8 +325,8 @@ export class UserSaas extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_user_saas',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

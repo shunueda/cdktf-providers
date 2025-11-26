@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface GitlabIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * API host URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration#api_host GitlabIntegration#api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration#api_host GitlabIntegration#api_host}
   */
   readonly apiHost: string;
   /**
   * Description of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration#description GitlabIntegration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration#description GitlabIntegration#description}
   */
   readonly description?: string;
   /**
   * Is the GitLab integration the default for all spaces? If set to `true` the space must be set to `root` in `space_id` or left empty which uses the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration#is_default GitlabIntegration#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration#is_default GitlabIntegration#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Labels to set on the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration#labels GitlabIntegration#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration#labels GitlabIntegration#labels}
   */
   readonly labels?: string[];
   /**
   * The friendly name of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration#name GitlabIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration#name GitlabIntegration#name}
   */
   readonly name: string;
   /**
   * The GitLab API Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration#private_token GitlabIntegration#private_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration#private_token GitlabIntegration#private_token}
   */
   readonly privateToken: string;
   /**
   * ID (slug) of the space the integration is in; Default: `root`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration#space_id GitlabIntegration#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration#space_id GitlabIntegration#space_id}
   */
   readonly spaceId?: string;
   /**
   * Indicates whether the integration should use git checkout. If false source code will be downloaded using the VCS API. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration#use_git_checkout GitlabIntegration#use_git_checkout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration#use_git_checkout GitlabIntegration#use_git_checkout}
   */
   readonly useGitCheckout?: boolean | cdktf.IResolvable;
   /**
   * User facing host URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration#user_facing_host GitlabIntegration#user_facing_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration#user_facing_host GitlabIntegration#user_facing_host}
   */
   readonly userFacingHost: string;
   /**
   * VCS checks configured for GitLab repositories. Possible values: INDIVIDUAL, AGGREGATED, ALL. Defaults to INDIVIDUAL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration#vcs_checks GitlabIntegration#vcs_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration#vcs_checks GitlabIntegration#vcs_checks}
   */
   readonly vcsChecks?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration spacelift_gitlab_integration}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration spacelift_gitlab_integration}
 */
 export class GitlabIntegration extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class GitlabIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GitlabIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GitlabIntegration to import
-  * @param importFromId The id of the existing GitlabIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GitlabIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GitlabIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class GitlabIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/gitlab_integration spacelift_gitlab_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/gitlab_integration spacelift_gitlab_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class GitlabIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_gitlab_integration',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.39.0',
-        providerVersionConstraint: '1.39.0'
+        providerVersion: '1.40.0',
+        providerVersionConstraint: '1.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterSharingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#clustername ClusterSharing#clustername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#clustername ClusterSharing#clustername}
   */
   readonly clustername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#id ClusterSharing#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#id ClusterSharing#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#project ClusterSharing#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#project ClusterSharing#project}
   */
   readonly project: string;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#sharing ClusterSharing#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#sharing ClusterSharing#sharing}
   */
   readonly sharing?: ClusterSharingSharing;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#timeouts ClusterSharing#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#timeouts ClusterSharing#timeouts}
   */
   readonly timeouts?: ClusterSharingTimeouts;
 }
@@ -39,7 +39,7 @@ export interface ClusterSharingSharingProjects {
   /**
   * id of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#id ClusterSharing#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#id ClusterSharing#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ export interface ClusterSharingSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#name ClusterSharing#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#name ClusterSharing#name}
   */
   readonly name?: string;
 }
@@ -195,13 +195,13 @@ export interface ClusterSharingSharing {
   /**
   * flag to specify if shared to all projects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#all ClusterSharing#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#all ClusterSharing#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#projects ClusterSharing#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#projects ClusterSharing#projects}
   */
   readonly projects?: ClusterSharingSharingProjects[] | cdktf.IResolvable;
 }
@@ -314,15 +314,15 @@ export class ClusterSharingSharingOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterSharingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#create ClusterSharing#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#create ClusterSharing#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#delete ClusterSharing#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#delete ClusterSharing#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#update ClusterSharing#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#update ClusterSharing#update}
   */
   readonly update?: string;
 }
@@ -474,7 +474,7 @@ export class ClusterSharingTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing rafay_cluster_sharing}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing rafay_cluster_sharing}
 */
 export class ClusterSharing extends cdktf.TerraformResource {
 
@@ -490,7 +490,7 @@ export class ClusterSharing extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterSharing resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterSharing to import
-  * @param importFromId The id of the existing ClusterSharing that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterSharing that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterSharing to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -502,7 +502,7 @@ export class ClusterSharing extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_sharing rafay_cluster_sharing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cluster_sharing rafay_cluster_sharing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -513,8 +513,8 @@ export class ClusterSharing extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_cluster_sharing',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.53',
-        providerVersionConstraint: '1.1.53'
+        providerVersion: '1.1.54',
+        providerVersionConstraint: '1.1.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
