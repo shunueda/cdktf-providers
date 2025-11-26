@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/spark_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/spark_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SparkCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * Project ID to create the Apache Spark credential in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/spark_credential#project_id SparkCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/spark_credential#project_id SparkCredential#project_id}
   */
   readonly projectId: number;
   /**
   * The schema where to create models
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/spark_credential#schema SparkCredential#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/spark_credential#schema SparkCredential#schema}
   */
   readonly schema: string;
   /**
   * Target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/spark_credential#target_name SparkCredential#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/spark_credential#target_name SparkCredential#target_name}
   */
   readonly targetName?: string;
   /**
   * Token for Apache Spark user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/spark_credential#token SparkCredential#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/spark_credential#token SparkCredential#token}
   */
   readonly token: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/spark_credential dbtcloud_spark_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/spark_credential dbtcloud_spark_credential}
 */
 export class SparkCredential extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SparkCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SparkCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SparkCredential to import
-  * @param importFromId The id of the existing SparkCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/spark_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SparkCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/spark_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SparkCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SparkCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/spark_credential dbtcloud_spark_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/spark_credential dbtcloud_spark_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class SparkCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_spark_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

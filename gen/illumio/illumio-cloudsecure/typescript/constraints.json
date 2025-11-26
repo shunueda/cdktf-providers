@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "illumio-cloudsecure": "1.5.3"
+    "illumio-cloudsecure": "1.6.0"
   }
 }

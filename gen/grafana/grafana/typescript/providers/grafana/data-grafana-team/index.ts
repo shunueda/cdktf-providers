@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana/4.20.0/docs/data-sources/team
+// https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/data-sources/team
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGrafanaTeamConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.0/docs/data-sources/team#id DataGrafanaTeam#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/data-sources/team#id DataGrafanaTeam#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataGrafanaTeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Grafana team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.0/docs/data-sources/team#name DataGrafanaTeam#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/data-sources/team#name DataGrafanaTeam#name}
   */
   readonly name: string;
   /**
   * The Organization ID. If not set, the Org ID defined in the provider block will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.0/docs/data-sources/team#org_id DataGrafanaTeam#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/data-sources/team#org_id DataGrafanaTeam#org_id}
   */
   readonly orgId?: string;
   /**
   * Whether to read the team sync settings. This is only available in Grafana Enterprise. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.0/docs/data-sources/team#read_team_sync DataGrafanaTeam#read_team_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/data-sources/team#read_team_sync DataGrafanaTeam#read_team_sync}
   */
   readonly readTeamSync?: boolean | cdktf.IResolvable;
 }
@@ -200,7 +200,7 @@ export class DataGrafanaTeamTeamSyncList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.20.0/docs/data-sources/team grafana_team}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/data-sources/team grafana_team}
 */
 export class DataGrafanaTeam extends cdktf.TerraformDataSource {
 
@@ -216,7 +216,7 @@ export class DataGrafanaTeam extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGrafanaTeam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGrafanaTeam to import
-  * @param importFromId The id of the existing DataGrafanaTeam that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.20.0/docs/data-sources/team#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGrafanaTeam that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/data-sources/team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGrafanaTeam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class DataGrafanaTeam extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.20.0/docs/data-sources/team grafana_team} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/data-sources/team grafana_team} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class DataGrafanaTeam extends cdktf.TerraformDataSource {
       terraformResourceType: 'grafana_team',
       terraformGeneratorMetadata: {
         providerName: 'grafana',
-        providerVersion: '4.20.0',
-        providerVersionConstraint: '4.20.0'
+        providerVersion: '4.20.1',
+        providerVersionConstraint: '4.20.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

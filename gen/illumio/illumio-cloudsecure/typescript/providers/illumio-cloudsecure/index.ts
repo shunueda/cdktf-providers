@@ -11,6 +11,8 @@ export * as deployment from './deployment';
 export * as ipList from './ip-list';
 export * as k8SCluster from './k8s-cluster';
 export * as k8SClusterOnboardingCredential from './k8s-cluster-onboarding-credential';
+export * as organizationPolicy from './organization-policy';
+export * as organizationPolicyRule from './organization-policy-rule';
 export * as tagToLabel from './tag-to-label';
 export * as provider from './provider';
 

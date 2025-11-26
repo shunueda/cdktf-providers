@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/athena_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/athena_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AthenaCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS access key ID for Athena user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/athena_credential#aws_access_key_id AthenaCredential#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/athena_credential#aws_access_key_id AthenaCredential#aws_access_key_id}
   */
   readonly awsAccessKeyId: string;
   /**
   * AWS secret access key for Athena user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/athena_credential#aws_secret_access_key AthenaCredential#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/athena_credential#aws_secret_access_key AthenaCredential#aws_secret_access_key}
   */
   readonly awsSecretAccessKey: string;
   /**
   * Project ID to create the Athena credential in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/athena_credential#project_id AthenaCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/athena_credential#project_id AthenaCredential#project_id}
   */
   readonly projectId: number;
   /**
   * The schema where to create models
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/athena_credential#schema AthenaCredential#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/athena_credential#schema AthenaCredential#schema}
   */
   readonly schema: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/athena_credential dbtcloud_athena_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/athena_credential dbtcloud_athena_credential}
 */
 export class AthenaCredential extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class AthenaCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AthenaCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AthenaCredential to import
-  * @param importFromId The id of the existing AthenaCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/athena_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AthenaCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/athena_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AthenaCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AthenaCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/athena_credential dbtcloud_athena_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/athena_credential dbtcloud_athena_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class AthenaCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_athena_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

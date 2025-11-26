@@ -1,3 +1,3 @@
 # `data_grafana_cloud_ips`
 
-Refer to the Terraform Registry for docs: [`data_grafana_cloud_ips`](https://registry.terraform.io/providers/grafana/grafana/4.20.0/docs/data-sources/cloud_ips).
+Refer to the Terraform Registry for docs: [`data_grafana_cloud_ips`](https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/data-sources/cloud_ips).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataInstaclustrClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2#cluster_id DataInstaclustrClusterV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#cluster_id DataInstaclustrClusterV2#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2#id DataInstaclustrClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#id DataInstaclustrClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,23 +21,23 @@ export interface DataInstaclustrClusterV2Config extends cdktf.TerraformMetaArgum
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2#filter DataInstaclustrClusterV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#filter DataInstaclustrClusterV2#filter}
   */
   readonly filter?: DataInstaclustrClusterV2Filter[] | cdktf.IResolvable;
   /**
-  * non_recurring_exclusion_windows block
+  * maintenance_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2#non_recurring_exclusion_windows DataInstaclustrClusterV2#non_recurring_exclusion_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#maintenance_events DataInstaclustrClusterV2#maintenance_events}
   */
-  readonly nonRecurringExclusionWindows?: DataInstaclustrClusterV2NonRecurringExclusionWindows[] | cdktf.IResolvable;
+  readonly maintenanceEvents?: DataInstaclustrClusterV2MaintenanceEvents[] | cdktf.IResolvable;
 }
 export interface DataInstaclustrClusterV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2#name DataInstaclustrClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#name DataInstaclustrClusterV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2#values DataInstaclustrClusterV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#values DataInstaclustrClusterV2#values}
   */
   readonly values: string[];
 }
@@ -174,51 +174,80 @@ export class DataInstaclustrClusterV2FilterList extends cdktf.ComplexList {
     return new DataInstaclustrClusterV2FilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataInstaclustrClusterV2NonRecurringExclusionWindows {
+export interface DataInstaclustrClusterV2MaintenanceEvents {
   /**
-  * Cluster Id for the cluster that this exclusion window relates to
+  * ID of the cluster this maintenance event relates to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2#cluster_id DataInstaclustrClusterV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#cluster_id DataInstaclustrClusterV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * The end time of non-recurring exclusion window
+  * A text description of the activities being performed in this maintenance event
+  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2#end_time DataInstaclustrClusterV2#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#description DataInstaclustrClusterV2#description}
   */
-  readonly endTime?: string;
+  readonly description?: string;
   /**
-  * ID of the Cluster exclusion window
+  * Unique ID for this maintenance event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2#id DataInstaclustrClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#id DataInstaclustrClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * The start time of non-recurring exclusion window
+  * If this event can still be rescheduled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2#start_time DataInstaclustrClusterV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#is_finalized DataInstaclustrClusterV2#is_finalized}
   */
-  readonly startTime?: string;
+  readonly isFinalized?: boolean | cdktf.IResolvable;
+  /**
+  * When this maintenance event is scheduled to end in UTC time
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#scheduled_end_time DataInstaclustrClusterV2#scheduled_end_time}
+  */
+  readonly scheduledEndTime?: string;
+  /**
+  * When this maintenance event is scheduled to start in UTC time
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#scheduled_start_time DataInstaclustrClusterV2#scheduled_start_time}
+  */
+  readonly scheduledStartTime?: string;
+  /**
+  * The latest limit for the scheduled start time in UTC time, i.e., scheduled start time will be before this value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#scheduled_start_time_max DataInstaclustrClusterV2#scheduled_start_time_max}
+  */
+  readonly scheduledStartTimeMax?: string;
+  /**
+  * The earliest limit for the scheduled start time in UTC time, i.e., scheduled start time will be after this value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#scheduled_start_time_min DataInstaclustrClusterV2#scheduled_start_time_min}
+  */
+  readonly scheduledStartTimeMin?: string;
 }
 
-export function dataInstaclustrClusterV2NonRecurringExclusionWindowsToTerraform(struct?: DataInstaclustrClusterV2NonRecurringExclusionWindows | cdktf.IResolvable): any {
+export function dataInstaclustrClusterV2MaintenanceEventsToTerraform(struct?: DataInstaclustrClusterV2MaintenanceEvents | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     cluster_id: cdktf.stringToTerraform(struct!.clusterId),
-    end_time: cdktf.stringToTerraform(struct!.endTime),
+    description: cdktf.stringToTerraform(struct!.description),
     id: cdktf.stringToTerraform(struct!.id),
-    start_time: cdktf.stringToTerraform(struct!.startTime),
+    is_finalized: cdktf.booleanToTerraform(struct!.isFinalized),
+    scheduled_end_time: cdktf.stringToTerraform(struct!.scheduledEndTime),
+    scheduled_start_time: cdktf.stringToTerraform(struct!.scheduledStartTime),
+    scheduled_start_time_max: cdktf.stringToTerraform(struct!.scheduledStartTimeMax),
+    scheduled_start_time_min: cdktf.stringToTerraform(struct!.scheduledStartTimeMin),
   }
 }
 
 
-export function dataInstaclustrClusterV2NonRecurringExclusionWindowsToHclTerraform(struct?: DataInstaclustrClusterV2NonRecurringExclusionWindows | cdktf.IResolvable): any {
+export function dataInstaclustrClusterV2MaintenanceEventsToHclTerraform(struct?: DataInstaclustrClusterV2MaintenanceEvents | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -230,8 +259,8 @@ export function dataInstaclustrClusterV2NonRecurringExclusionWindowsToHclTerrafo
       type: "simple",
       storageClassType: "string",
     },
-    end_time: {
-      value: cdktf.stringToHclTerraform(struct!.endTime),
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -242,8 +271,32 @@ export function dataInstaclustrClusterV2NonRecurringExclusionWindowsToHclTerrafo
       type: "simple",
       storageClassType: "string",
     },
-    start_time: {
-      value: cdktf.stringToHclTerraform(struct!.startTime),
+    is_finalized: {
+      value: cdktf.booleanToHclTerraform(struct!.isFinalized),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    scheduled_end_time: {
+      value: cdktf.stringToHclTerraform(struct!.scheduledEndTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scheduled_start_time: {
+      value: cdktf.stringToHclTerraform(struct!.scheduledStartTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scheduled_start_time_max: {
+      value: cdktf.stringToHclTerraform(struct!.scheduledStartTimeMax),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scheduled_start_time_min: {
+      value: cdktf.stringToHclTerraform(struct!.scheduledStartTimeMin),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -254,7 +307,7 @@ export function dataInstaclustrClusterV2NonRecurringExclusionWindowsToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class DataInstaclustrClusterV2NonRecurringExclusionWindowsOutputReference extends cdktf.ComplexObject {
+export class DataInstaclustrClusterV2MaintenanceEventsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -268,7 +321,7 @@ export class DataInstaclustrClusterV2NonRecurringExclusionWindowsOutputReference
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataInstaclustrClusterV2NonRecurringExclusionWindows | cdktf.IResolvable | undefined {
+  public get internalValue(): DataInstaclustrClusterV2MaintenanceEvents | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -278,29 +331,49 @@ export class DataInstaclustrClusterV2NonRecurringExclusionWindowsOutputReference
       hasAnyValues = true;
       internalValueResult.clusterId = this._clusterId;
     }
-    if (this._endTime !== undefined) {
+    if (this._description !== undefined) {
       hasAnyValues = true;
-      internalValueResult.endTime = this._endTime;
+      internalValueResult.description = this._description;
     }
     if (this._id !== undefined) {
       hasAnyValues = true;
       internalValueResult.id = this._id;
     }
-    if (this._startTime !== undefined) {
+    if (this._isFinalized !== undefined) {
       hasAnyValues = true;
-      internalValueResult.startTime = this._startTime;
+      internalValueResult.isFinalized = this._isFinalized;
+    }
+    if (this._scheduledEndTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scheduledEndTime = this._scheduledEndTime;
+    }
+    if (this._scheduledStartTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scheduledStartTime = this._scheduledStartTime;
+    }
+    if (this._scheduledStartTimeMax !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scheduledStartTimeMax = this._scheduledStartTimeMax;
+    }
+    if (this._scheduledStartTimeMin !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scheduledStartTimeMin = this._scheduledStartTimeMin;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataInstaclustrClusterV2NonRecurringExclusionWindows | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataInstaclustrClusterV2MaintenanceEvents | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._clusterId = undefined;
-      this._endTime = undefined;
+      this._description = undefined;
       this._id = undefined;
-      this._startTime = undefined;
+      this._isFinalized = undefined;
+      this._scheduledEndTime = undefined;
+      this._scheduledStartTime = undefined;
+      this._scheduledStartTimeMax = undefined;
+      this._scheduledStartTimeMin = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -310,9 +383,13 @@ export class DataInstaclustrClusterV2NonRecurringExclusionWindowsOutputReference
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._clusterId = value.clusterId;
-      this._endTime = value.endTime;
+      this._description = value.description;
       this._id = value.id;
-      this._startTime = value.startTime;
+      this._isFinalized = value.isFinalized;
+      this._scheduledEndTime = value.scheduledEndTime;
+      this._scheduledStartTime = value.scheduledStartTime;
+      this._scheduledStartTimeMax = value.scheduledStartTimeMax;
+      this._scheduledStartTimeMin = value.scheduledStartTimeMin;
     }
   }
 
@@ -332,20 +409,20 @@ export class DataInstaclustrClusterV2NonRecurringExclusionWindowsOutputReference
     return this._clusterId;
   }
 
-  // end_time - computed: true, optional: true, required: false
-  private _endTime?: string; 
-  public get endTime() {
-    return this.getStringAttribute('end_time');
+  // description - computed: true, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
   }
-  public set endTime(value: string) {
-    this._endTime = value;
+  public set description(value: string) {
+    this._description = value;
   }
-  public resetEndTime() {
-    this._endTime = undefined;
+  public resetDescription() {
+    this._description = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get endTimeInput() {
-    return this._endTime;
+  public get descriptionInput() {
+    return this._description;
   }
 
   // id - computed: true, optional: true, required: false
@@ -364,25 +441,89 @@ export class DataInstaclustrClusterV2NonRecurringExclusionWindowsOutputReference
     return this._id;
   }
 
-  // start_time - computed: true, optional: true, required: false
-  private _startTime?: string; 
-  public get startTime() {
-    return this.getStringAttribute('start_time');
+  // is_finalized - computed: true, optional: true, required: false
+  private _isFinalized?: boolean | cdktf.IResolvable; 
+  public get isFinalized() {
+    return this.getBooleanAttribute('is_finalized');
   }
-  public set startTime(value: string) {
-    this._startTime = value;
+  public set isFinalized(value: boolean | cdktf.IResolvable) {
+    this._isFinalized = value;
   }
-  public resetStartTime() {
-    this._startTime = undefined;
+  public resetIsFinalized() {
+    this._isFinalized = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get startTimeInput() {
-    return this._startTime;
+  public get isFinalizedInput() {
+    return this._isFinalized;
+  }
+
+  // scheduled_end_time - computed: true, optional: true, required: false
+  private _scheduledEndTime?: string; 
+  public get scheduledEndTime() {
+    return this.getStringAttribute('scheduled_end_time');
+  }
+  public set scheduledEndTime(value: string) {
+    this._scheduledEndTime = value;
+  }
+  public resetScheduledEndTime() {
+    this._scheduledEndTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scheduledEndTimeInput() {
+    return this._scheduledEndTime;
+  }
+
+  // scheduled_start_time - computed: true, optional: true, required: false
+  private _scheduledStartTime?: string; 
+  public get scheduledStartTime() {
+    return this.getStringAttribute('scheduled_start_time');
+  }
+  public set scheduledStartTime(value: string) {
+    this._scheduledStartTime = value;
+  }
+  public resetScheduledStartTime() {
+    this._scheduledStartTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scheduledStartTimeInput() {
+    return this._scheduledStartTime;
+  }
+
+  // scheduled_start_time_max - computed: true, optional: true, required: false
+  private _scheduledStartTimeMax?: string; 
+  public get scheduledStartTimeMax() {
+    return this.getStringAttribute('scheduled_start_time_max');
+  }
+  public set scheduledStartTimeMax(value: string) {
+    this._scheduledStartTimeMax = value;
+  }
+  public resetScheduledStartTimeMax() {
+    this._scheduledStartTimeMax = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scheduledStartTimeMaxInput() {
+    return this._scheduledStartTimeMax;
+  }
+
+  // scheduled_start_time_min - computed: true, optional: true, required: false
+  private _scheduledStartTimeMin?: string; 
+  public get scheduledStartTimeMin() {
+    return this.getStringAttribute('scheduled_start_time_min');
+  }
+  public set scheduledStartTimeMin(value: string) {
+    this._scheduledStartTimeMin = value;
+  }
+  public resetScheduledStartTimeMin() {
+    this._scheduledStartTimeMin = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scheduledStartTimeMinInput() {
+    return this._scheduledStartTimeMin;
   }
 }
 
-export class DataInstaclustrClusterV2NonRecurringExclusionWindowsList extends cdktf.ComplexList {
-  public internalValue? : DataInstaclustrClusterV2NonRecurringExclusionWindows[] | cdktf.IResolvable
+export class DataInstaclustrClusterV2MaintenanceEventsList extends cdktf.ComplexList {
+  public internalValue? : DataInstaclustrClusterV2MaintenanceEvents[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -396,13 +537,13 @@ export class DataInstaclustrClusterV2NonRecurringExclusionWindowsList extends cd
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataInstaclustrClusterV2NonRecurringExclusionWindowsOutputReference {
-    return new DataInstaclustrClusterV2NonRecurringExclusionWindowsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataInstaclustrClusterV2MaintenanceEventsOutputReference {
+    return new DataInstaclustrClusterV2MaintenanceEventsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2 instaclustr_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2 instaclustr_cluster_v2}
 */
 export class DataInstaclustrClusterV2 extends cdktf.TerraformDataSource {
 
@@ -418,7 +559,7 @@ export class DataInstaclustrClusterV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataInstaclustrClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrClusterV2 to import
-  * @param importFromId The id of the existing DataInstaclustrClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -430,7 +571,7 @@ export class DataInstaclustrClusterV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_v2 instaclustr_cluster_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_v2 instaclustr_cluster_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -441,8 +582,8 @@ export class DataInstaclustrClusterV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'instaclustr_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.29',
-        providerVersionConstraint: '2.1.29'
+        providerVersion: '2.1.30',
+        providerVersionConstraint: '2.1.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -455,7 +596,7 @@ export class DataInstaclustrClusterV2 extends cdktf.TerraformDataSource {
     this._clusterId = config.clusterId;
     this._id = config.id;
     this._filter.internalValue = config.filter;
-    this._nonRecurringExclusionWindows.internalValue = config.nonRecurringExclusionWindows;
+    this._maintenanceEvents.internalValue = config.maintenanceEvents;
   }
 
   // ==========
@@ -507,20 +648,20 @@ export class DataInstaclustrClusterV2 extends cdktf.TerraformDataSource {
     return this._filter.internalValue;
   }
 
-  // non_recurring_exclusion_windows - computed: false, optional: true, required: false
-  private _nonRecurringExclusionWindows = new DataInstaclustrClusterV2NonRecurringExclusionWindowsList(this, "non_recurring_exclusion_windows", false);
-  public get nonRecurringExclusionWindows() {
-    return this._nonRecurringExclusionWindows;
+  // maintenance_events - computed: false, optional: true, required: false
+  private _maintenanceEvents = new DataInstaclustrClusterV2MaintenanceEventsList(this, "maintenance_events", false);
+  public get maintenanceEvents() {
+    return this._maintenanceEvents;
   }
-  public putNonRecurringExclusionWindows(value: DataInstaclustrClusterV2NonRecurringExclusionWindows[] | cdktf.IResolvable) {
-    this._nonRecurringExclusionWindows.internalValue = value;
+  public putMaintenanceEvents(value: DataInstaclustrClusterV2MaintenanceEvents[] | cdktf.IResolvable) {
+    this._maintenanceEvents.internalValue = value;
   }
-  public resetNonRecurringExclusionWindows() {
-    this._nonRecurringExclusionWindows.internalValue = undefined;
+  public resetMaintenanceEvents() {
+    this._maintenanceEvents.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get nonRecurringExclusionWindowsInput() {
-    return this._nonRecurringExclusionWindows.internalValue;
+  public get maintenanceEventsInput() {
+    return this._maintenanceEvents.internalValue;
   }
 
   // =========
@@ -532,7 +673,7 @@ export class DataInstaclustrClusterV2 extends cdktf.TerraformDataSource {
       cluster_id: cdktf.stringToTerraform(this._clusterId),
       id: cdktf.stringToTerraform(this._id),
       filter: cdktf.listMapper(dataInstaclustrClusterV2FilterToTerraform, true)(this._filter.internalValue),
-      non_recurring_exclusion_windows: cdktf.listMapper(dataInstaclustrClusterV2NonRecurringExclusionWindowsToTerraform, true)(this._nonRecurringExclusionWindows.internalValue),
+      maintenance_events: cdktf.listMapper(dataInstaclustrClusterV2MaintenanceEventsToTerraform, true)(this._maintenanceEvents.internalValue),
     };
   }
 
@@ -556,11 +697,11 @@ export class DataInstaclustrClusterV2 extends cdktf.TerraformDataSource {
         type: "set",
         storageClassType: "DataInstaclustrClusterV2FilterList",
       },
-      non_recurring_exclusion_windows: {
-        value: cdktf.listMapperHcl(dataInstaclustrClusterV2NonRecurringExclusionWindowsToHclTerraform, true)(this._nonRecurringExclusionWindows.internalValue),
+      maintenance_events: {
+        value: cdktf.listMapperHcl(dataInstaclustrClusterV2MaintenanceEventsToHclTerraform, true)(this._maintenanceEvents.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "DataInstaclustrClusterV2NonRecurringExclusionWindowsList",
+        storageClassType: "DataInstaclustrClusterV2MaintenanceEventsList",
       },
     };
 

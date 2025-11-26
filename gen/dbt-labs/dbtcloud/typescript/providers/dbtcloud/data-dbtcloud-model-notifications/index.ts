@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/model_notifications
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/model_notifications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataDbtcloudModelNotificationsConfig extends cdktf.TerraformMet
   /**
   * The ID of the dbt Cloud environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/model_notifications#environment_id DataDbtcloudModelNotifications#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/model_notifications#environment_id DataDbtcloudModelNotifications#environment_id}
   */
   readonly environmentId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/model_notifications dbtcloud_model_notifications}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/model_notifications dbtcloud_model_notifications}
 */
 export class DataDbtcloudModelNotifications extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataDbtcloudModelNotifications extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudModelNotifications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudModelNotifications to import
-  * @param importFromId The id of the existing DataDbtcloudModelNotifications that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/model_notifications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudModelNotifications that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/model_notifications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudModelNotifications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataDbtcloudModelNotifications extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/model_notifications dbtcloud_model_notifications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/model_notifications dbtcloud_model_notifications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataDbtcloudModelNotifications extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_model_notifications',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

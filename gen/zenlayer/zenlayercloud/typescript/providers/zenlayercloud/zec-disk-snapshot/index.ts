@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_disk_snapshot
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_disk_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ZecDiskSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of disk which the snapshot created from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_disk_snapshot#disk_id ZecDiskSnapshot#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_disk_snapshot#disk_id ZecDiskSnapshot#disk_id}
   */
   readonly diskId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_disk_snapshot#id ZecDiskSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_disk_snapshot#id ZecDiskSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ZecDiskSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the snapshot. The name should start and end with a number or a letter, containing 2 to 63 characters. Only letters, numbers, - and periods (.) are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_disk_snapshot#name ZecDiskSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_disk_snapshot#name ZecDiskSnapshot#name}
   */
   readonly name?: string;
   /**
   * Retention time of snapshot. Valid format: yyyy-MM-ddTHH:mm:ssZ, and must be at least 24 hours in the future. Example: 2025-10-01T10:10:10Z.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_disk_snapshot#retention_time ZecDiskSnapshot#retention_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_disk_snapshot#retention_time ZecDiskSnapshot#retention_time}
   */
   readonly retentionTime?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_disk_snapshot zenlayercloud_zec_disk_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_disk_snapshot zenlayercloud_zec_disk_snapshot}
 */
 export class ZecDiskSnapshot extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ZecDiskSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecDiskSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecDiskSnapshot to import
-  * @param importFromId The id of the existing ZecDiskSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_disk_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecDiskSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_disk_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecDiskSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ZecDiskSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_disk_snapshot zenlayercloud_zec_disk_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_disk_snapshot zenlayercloud_zec_disk_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ZecDiskSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_disk_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.10',
-        providerVersionConstraint: '0.2.10'
+        providerVersion: '0.2.11',
+        providerVersionConstraint: '0.2.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

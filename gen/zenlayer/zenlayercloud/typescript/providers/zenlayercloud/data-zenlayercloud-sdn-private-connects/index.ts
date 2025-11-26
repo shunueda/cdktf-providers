@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/sdn_private_connects
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_private_connects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataZenlayercloudSdnPrivateConnectsConfig extends cdktf.Terrafo
   /**
   * IDs of the private connect to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/sdn_private_connects#connect_ids DataZenlayercloudSdnPrivateConnects#connect_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_private_connects#connect_ids DataZenlayercloudSdnPrivateConnects#connect_ids}
   */
   readonly connectIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/sdn_private_connects#id DataZenlayercloudSdnPrivateConnects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_private_connects#id DataZenlayercloudSdnPrivateConnects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataZenlayercloudSdnPrivateConnectsConfig extends cdktf.Terrafo
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/sdn_private_connects#result_output_file DataZenlayercloudSdnPrivateConnects#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_private_connects#result_output_file DataZenlayercloudSdnPrivateConnects#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -260,7 +260,7 @@ export class DataZenlayercloudSdnPrivateConnectsConnectListStructList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/sdn_private_connects zenlayercloud_sdn_private_connects}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_private_connects zenlayercloud_sdn_private_connects}
 */
 export class DataZenlayercloudSdnPrivateConnects extends cdktf.TerraformDataSource {
 
@@ -276,7 +276,7 @@ export class DataZenlayercloudSdnPrivateConnects extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataZenlayercloudSdnPrivateConnects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudSdnPrivateConnects to import
-  * @param importFromId The id of the existing DataZenlayercloudSdnPrivateConnects that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/sdn_private_connects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudSdnPrivateConnects that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_private_connects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudSdnPrivateConnects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -288,7 +288,7 @@ export class DataZenlayercloudSdnPrivateConnects extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/sdn_private_connects zenlayercloud_sdn_private_connects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_private_connects zenlayercloud_sdn_private_connects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -299,8 +299,8 @@ export class DataZenlayercloudSdnPrivateConnects extends cdktf.TerraformDataSour
       terraformResourceType: 'zenlayercloud_sdn_private_connects',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.10',
-        providerVersionConstraint: '0.2.10'
+        providerVersion: '0.2.11',
+        providerVersionConstraint: '0.2.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

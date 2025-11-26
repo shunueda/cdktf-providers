@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DatabricksSemanticLayerCredentialConfig extends cdktf.Terraform
   /**
   * Semantic Layer credential configuration details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#configuration DatabricksSemanticLayerCredential#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#configuration DatabricksSemanticLayerCredential#configuration}
   */
   readonly configuration: DatabricksSemanticLayerCredentialConfiguration;
   /**
   * Databricks credential details, but used in the context of the Semantic Layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#credential DatabricksSemanticLayerCredential#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#credential DatabricksSemanticLayerCredential#credential}
   */
   readonly credential: DatabricksSemanticLayerCredentialCredential;
 }
@@ -24,19 +24,19 @@ export interface DatabricksSemanticLayerCredentialConfiguration {
   /**
   * The adapter version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#adapter_version DatabricksSemanticLayerCredential#adapter_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#adapter_version DatabricksSemanticLayerCredential#adapter_version}
   */
   readonly adapterVersion: string;
   /**
   * The name of the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#name DatabricksSemanticLayerCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#name DatabricksSemanticLayerCredential#name}
   */
   readonly name: string;
   /**
   * The ID of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#project_id DatabricksSemanticLayerCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#project_id DatabricksSemanticLayerCredential#project_id}
   */
   readonly projectId: number;
 }
@@ -181,43 +181,43 @@ export interface DatabricksSemanticLayerCredentialCredential {
   /**
   * The type of the adapter. 'spark' is deprecated, but still supported for backwards compatibility. For Spark, please use the spark_credential resource. Optional only when semantic_layer_credential is set to true; otherwise, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#adapter_type DatabricksSemanticLayerCredential#adapter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#adapter_type DatabricksSemanticLayerCredential#adapter_type}
   */
   readonly adapterType?: string;
   /**
   * The catalog where to create models (only for the databricks adapter)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#catalog DatabricksSemanticLayerCredential#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#catalog DatabricksSemanticLayerCredential#catalog}
   */
   readonly catalog?: string;
   /**
   * Project ID to create the Databricks credential in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#project_id DatabricksSemanticLayerCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#project_id DatabricksSemanticLayerCredential#project_id}
   */
   readonly projectId: number;
   /**
   * The schema where to create models. Optional only when semantic_layer_credential is set to true; otherwise, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#schema DatabricksSemanticLayerCredential#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#schema DatabricksSemanticLayerCredential#schema}
   */
   readonly schema?: string;
   /**
   * This field indicates that the credential is used as part of the Semantic Layer configuration. It is used to create a Databricks credential for the Semantic Layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#semantic_layer_credential DatabricksSemanticLayerCredential#semantic_layer_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#semantic_layer_credential DatabricksSemanticLayerCredential#semantic_layer_credential}
   */
   readonly semanticLayerCredential?: boolean | cdktf.IResolvable;
   /**
   * Target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#target_name DatabricksSemanticLayerCredential#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#target_name DatabricksSemanticLayerCredential#target_name}
   */
   readonly targetName?: string;
   /**
   * Token for Databricks user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#token DatabricksSemanticLayerCredential#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#token DatabricksSemanticLayerCredential#token}
   */
   readonly token: string;
 }
@@ -489,7 +489,7 @@ export class DatabricksSemanticLayerCredentialCredentialOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential dbtcloud_databricks_semantic_layer_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential dbtcloud_databricks_semantic_layer_credential}
 */
 export class DatabricksSemanticLayerCredential extends cdktf.TerraformResource {
 
@@ -505,7 +505,7 @@ export class DatabricksSemanticLayerCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabricksSemanticLayerCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabricksSemanticLayerCredential to import
-  * @param importFromId The id of the existing DatabricksSemanticLayerCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabricksSemanticLayerCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabricksSemanticLayerCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class DatabricksSemanticLayerCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_semantic_layer_credential dbtcloud_databricks_semantic_layer_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_semantic_layer_credential dbtcloud_databricks_semantic_layer_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class DatabricksSemanticLayerCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_databricks_semantic_layer_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

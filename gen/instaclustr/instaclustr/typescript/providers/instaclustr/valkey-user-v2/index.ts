@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/valkey_user_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/valkey_user_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ValkeyUserV2Config extends cdktf.TerraformMetaArguments {
   /**
   * ID of the Valkey cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/valkey_user_v2#cluster_id ValkeyUserV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/valkey_user_v2#cluster_id ValkeyUserV2#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/valkey_user_v2#id ValkeyUserV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/valkey_user_v2#id ValkeyUserV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ValkeyUserV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Permissions initially granted to Valkey user upon creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/valkey_user_v2#initial_permissions ValkeyUserV2#initial_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/valkey_user_v2#initial_permissions ValkeyUserV2#initial_permissions}
   */
   readonly initialPermissions: string;
   /**
   * Password for the Valkey user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/valkey_user_v2#password ValkeyUserV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/valkey_user_v2#password ValkeyUserV2#password}
   */
   readonly password: string;
   /**
   * Username of the Valkey user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/valkey_user_v2#username ValkeyUserV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/valkey_user_v2#username ValkeyUserV2#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/valkey_user_v2#timeouts ValkeyUserV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/valkey_user_v2#timeouts ValkeyUserV2#timeouts}
   */
   readonly timeouts?: ValkeyUserV2Timeouts;
 }
 export interface ValkeyUserV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/valkey_user_v2#default ValkeyUserV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/valkey_user_v2#default ValkeyUserV2#default}
   */
   readonly default?: string;
 }
@@ -141,7 +141,7 @@ export class ValkeyUserV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/valkey_user_v2 instaclustr_valkey_user_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/valkey_user_v2 instaclustr_valkey_user_v2}
 */
 export class ValkeyUserV2 extends cdktf.TerraformResource {
 
@@ -157,7 +157,7 @@ export class ValkeyUserV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ValkeyUserV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ValkeyUserV2 to import
-  * @param importFromId The id of the existing ValkeyUserV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/valkey_user_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ValkeyUserV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/valkey_user_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ValkeyUserV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class ValkeyUserV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/valkey_user_v2 instaclustr_valkey_user_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/valkey_user_v2 instaclustr_valkey_user_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class ValkeyUserV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_valkey_user_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.29',
-        providerVersionConstraint: '2.1.29'
+        providerVersion: '2.1.30',
+        providerVersionConstraint: '2.1.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

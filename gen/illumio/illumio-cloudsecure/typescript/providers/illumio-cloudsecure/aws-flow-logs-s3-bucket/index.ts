@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_flow_logs_s3_bucket
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_flow_logs_s3_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AwsFlowLogsS3BucketConfig extends cdktf.TerraformMetaArguments 
   /**
   * AWS account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_flow_logs_s3_bucket#account_id AwsFlowLogsS3Bucket#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_flow_logs_s3_bucket#account_id AwsFlowLogsS3Bucket#account_id}
   */
   readonly accountId: string;
   /**
   * ARN of the AWS S3 bucket containing flow logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_flow_logs_s3_bucket#s3_bucket_arn AwsFlowLogsS3Bucket#s3_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_flow_logs_s3_bucket#s3_bucket_arn AwsFlowLogsS3Bucket#s3_bucket_arn}
   */
   readonly s3BucketArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_flow_logs_s3_bucket illumio-cloudsecure_aws_flow_logs_s3_bucket}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_flow_logs_s3_bucket illumio-cloudsecure_aws_flow_logs_s3_bucket}
 */
 export class AwsFlowLogsS3Bucket extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class AwsFlowLogsS3Bucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsFlowLogsS3Bucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsFlowLogsS3Bucket to import
-  * @param importFromId The id of the existing AwsFlowLogsS3Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_flow_logs_s3_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsFlowLogsS3Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_flow_logs_s3_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsFlowLogsS3Bucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class AwsFlowLogsS3Bucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_flow_logs_s3_bucket illumio-cloudsecure_aws_flow_logs_s3_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_flow_logs_s3_bucket illumio-cloudsecure_aws_flow_logs_s3_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class AwsFlowLogsS3Bucket extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_aws_flow_logs_s3_bucket',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

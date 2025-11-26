@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ConnectionConfluentSchemaRegistryConfig extends cdktf.Terraform
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#comment ConnectionConfluentSchemaRegistry#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#comment ConnectionConfluentSchemaRegistry#comment}
   */
   readonly comment?: string;
   /**
   * The identifier for the connection database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#id ConnectionConfluentSchemaRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#id ConnectionConfluentSchemaRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,79 +29,79 @@ export interface ConnectionConfluentSchemaRegistryConfig extends cdktf.Terraform
   /**
   * The identifier for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#ownership_role ConnectionConfluentSchemaRegistry#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#ownership_role ConnectionConfluentSchemaRegistry#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#region ConnectionConfluentSchemaRegistry#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#region ConnectionConfluentSchemaRegistry#region}
   */
   readonly region?: string;
   /**
   * The identifier for the connection schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
   */
   readonly schemaName?: string;
   /**
   * The URL of the Confluent Schema Registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#url ConnectionConfluentSchemaRegistry#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#url ConnectionConfluentSchemaRegistry#url}
   */
   readonly url: string;
   /**
   * If the connection should wait for validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#validate ConnectionConfluentSchemaRegistry#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#validate ConnectionConfluentSchemaRegistry#validate}
   */
   readonly validate?: boolean | cdktf.IResolvable;
   /**
   * aws_privatelink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#aws_privatelink ConnectionConfluentSchemaRegistry#aws_privatelink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#aws_privatelink ConnectionConfluentSchemaRegistry#aws_privatelink}
   */
   readonly awsPrivatelink?: ConnectionConfluentSchemaRegistryAwsPrivatelink;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#password ConnectionConfluentSchemaRegistry#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#password ConnectionConfluentSchemaRegistry#password}
   */
   readonly password?: ConnectionConfluentSchemaRegistryPassword;
   /**
   * ssh_tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#ssh_tunnel ConnectionConfluentSchemaRegistry#ssh_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#ssh_tunnel ConnectionConfluentSchemaRegistry#ssh_tunnel}
   */
   readonly sshTunnel?: ConnectionConfluentSchemaRegistrySshTunnel;
   /**
   * ssl_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#ssl_certificate ConnectionConfluentSchemaRegistry#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#ssl_certificate ConnectionConfluentSchemaRegistry#ssl_certificate}
   */
   readonly sslCertificate?: ConnectionConfluentSchemaRegistrySslCertificate;
   /**
   * ssl_certificate_authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#ssl_certificate_authority ConnectionConfluentSchemaRegistry#ssl_certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#ssl_certificate_authority ConnectionConfluentSchemaRegistry#ssl_certificate_authority}
   */
   readonly sslCertificateAuthority?: ConnectionConfluentSchemaRegistrySslCertificateAuthority;
   /**
   * ssl_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#ssl_key ConnectionConfluentSchemaRegistry#ssl_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#ssl_key ConnectionConfluentSchemaRegistry#ssl_key}
   */
   readonly sslKey?: ConnectionConfluentSchemaRegistrySslKey;
   /**
   * username block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#username ConnectionConfluentSchemaRegistry#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#username ConnectionConfluentSchemaRegistry#username}
   */
   readonly username?: ConnectionConfluentSchemaRegistryUsername;
 }
@@ -109,19 +109,19 @@ export interface ConnectionConfluentSchemaRegistryAwsPrivatelink {
   /**
   * The aws_privatelink database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
   */
   readonly databaseName?: string;
   /**
   * The aws_privatelink name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
   */
   readonly name: string;
   /**
   * The aws_privatelink schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -262,19 +262,19 @@ export interface ConnectionConfluentSchemaRegistryPassword {
   /**
   * The password database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
   */
   readonly databaseName?: string;
   /**
   * The password name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
   */
   readonly name: string;
   /**
   * The password schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -415,19 +415,19 @@ export interface ConnectionConfluentSchemaRegistrySshTunnel {
   /**
   * The ssh_tunnel database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssh_tunnel name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
   */
   readonly name: string;
   /**
   * The ssh_tunnel schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -568,19 +568,19 @@ export interface ConnectionConfluentSchemaRegistrySslCertificateSecret {
   /**
   * The ssl_certificate database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssl_certificate name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
   */
   readonly name: string;
   /**
   * The ssl_certificate schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -721,13 +721,13 @@ export interface ConnectionConfluentSchemaRegistrySslCertificate {
   /**
   * The `ssl_certificate` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#text ConnectionConfluentSchemaRegistry#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#text ConnectionConfluentSchemaRegistry#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#secret ConnectionConfluentSchemaRegistry#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#secret ConnectionConfluentSchemaRegistry#secret}
   */
   readonly secret?: ConnectionConfluentSchemaRegistrySslCertificateSecret;
 }
@@ -842,19 +842,19 @@ export interface ConnectionConfluentSchemaRegistrySslCertificateAuthoritySecret 
   /**
   * The ssl_certificate_authority database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssl_certificate_authority name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
   */
   readonly name: string;
   /**
   * The ssl_certificate_authority schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -995,13 +995,13 @@ export interface ConnectionConfluentSchemaRegistrySslCertificateAuthority {
   /**
   * The `ssl_certificate_authority` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#text ConnectionConfluentSchemaRegistry#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#text ConnectionConfluentSchemaRegistry#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#secret ConnectionConfluentSchemaRegistry#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#secret ConnectionConfluentSchemaRegistry#secret}
   */
   readonly secret?: ConnectionConfluentSchemaRegistrySslCertificateAuthoritySecret;
 }
@@ -1116,19 +1116,19 @@ export interface ConnectionConfluentSchemaRegistrySslKey {
   /**
   * The ssl_key database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssl_key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
   */
   readonly name: string;
   /**
   * The ssl_key schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1269,19 +1269,19 @@ export interface ConnectionConfluentSchemaRegistryUsernameSecret {
   /**
   * The username database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#database_name ConnectionConfluentSchemaRegistry#database_name}
   */
   readonly databaseName?: string;
   /**
   * The username name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#name ConnectionConfluentSchemaRegistry#name}
   */
   readonly name: string;
   /**
   * The username schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#schema_name ConnectionConfluentSchemaRegistry#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1422,13 +1422,13 @@ export interface ConnectionConfluentSchemaRegistryUsername {
   /**
   * The `username` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#text ConnectionConfluentSchemaRegistry#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#text ConnectionConfluentSchemaRegistry#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#secret ConnectionConfluentSchemaRegistry#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#secret ConnectionConfluentSchemaRegistry#secret}
   */
   readonly secret?: ConnectionConfluentSchemaRegistryUsernameSecret;
 }
@@ -1541,7 +1541,7 @@ export class ConnectionConfluentSchemaRegistryUsernameOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry materialize_connection_confluent_schema_registry}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry materialize_connection_confluent_schema_registry}
 */
 export class ConnectionConfluentSchemaRegistry extends cdktf.TerraformResource {
 
@@ -1557,7 +1557,7 @@ export class ConnectionConfluentSchemaRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectionConfluentSchemaRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectionConfluentSchemaRegistry to import
-  * @param importFromId The id of the existing ConnectionConfluentSchemaRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectionConfluentSchemaRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectionConfluentSchemaRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1569,7 +1569,7 @@ export class ConnectionConfluentSchemaRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_confluent_schema_registry materialize_connection_confluent_schema_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_confluent_schema_registry materialize_connection_confluent_schema_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1580,8 +1580,8 @@ export class ConnectionConfluentSchemaRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_connection_confluent_schema_registry',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.4',
-        providerVersionConstraint: '0.9.4'
+        providerVersion: '0.9.5',
+        providerVersionConstraint: '0.9.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/resources/incident_role
+// https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/incident_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IncidentRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Describes the purpose of the role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/resources/incident_role#description IncidentRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/incident_role#description IncidentRole#description}
   */
   readonly description: string;
   /**
   * Provided to whoever is nominated for the role. Note that this will be empty for the 'reporter' role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/resources/incident_role#instructions IncidentRole#instructions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/incident_role#instructions IncidentRole#instructions}
   */
   readonly instructions: string;
   /**
   * Human readable name of the incident role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/resources/incident_role#name IncidentRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/incident_role#name IncidentRole#name}
   */
   readonly name: string;
   /**
   * Short human readable name for Slack. Note that this will be empty for the 'reporter' role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/resources/incident_role#shortform IncidentRole#shortform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/incident_role#shortform IncidentRole#shortform}
   */
   readonly shortform: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/resources/incident_role incident_incident_role}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/incident_role incident_incident_role}
 */
 export class IncidentRole extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class IncidentRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IncidentRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IncidentRole to import
-  * @param importFromId The id of the existing IncidentRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/resources/incident_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IncidentRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/incident_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IncidentRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class IncidentRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/resources/incident_role incident_incident_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/incident_role incident_incident_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class IncidentRole extends cdktf.TerraformResource {
       terraformResourceType: 'incident_incident_role',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.19.0',
-        providerVersionConstraint: '5.19.0'
+        providerVersion: '5.19.1',
+        providerVersionConstraint: '5.19.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,205 +10,205 @@ export interface ApplicationAwsResourcesConfig extends cdktf.TerraformMetaArgume
   /**
   * ID of the AWS account the AWS resources belong to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#account_id ApplicationAwsResources#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#account_id ApplicationAwsResources#account_id}
   */
   readonly accountId: string;
   /**
   * ID of the CloudSecure application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#application_id ApplicationAwsResources#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#application_id ApplicationAwsResources#application_id}
   */
   readonly applicationId: string;
   /**
   * ARNs of AWS resources to associate with the CloudSecure application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#arns ApplicationAwsResources#arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#arns ApplicationAwsResources#arns}
   */
   readonly arns?: string[];
   /**
   * IDs of AWS customer gateways to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_customer_gateway_ids ApplicationAwsResources#aws_customer_gateway_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_customer_gateway_ids ApplicationAwsResources#aws_customer_gateway_ids}
   */
   readonly awsCustomerGatewayIds?: string[];
   /**
   * IDs of AWS Direct Connect connections to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_dx_connection_ids ApplicationAwsResources#aws_dx_connection_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_dx_connection_ids ApplicationAwsResources#aws_dx_connection_ids}
   */
   readonly awsDxConnectionIds?: string[];
   /**
   * IDs of AWS Direct Connect virtual interfaces (public/private/hosted/transit) to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_dx_virtual_interface_ids ApplicationAwsResources#aws_dx_virtual_interface_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_dx_virtual_interface_ids ApplicationAwsResources#aws_dx_virtual_interface_ids}
   */
   readonly awsDxVirtualInterfaceIds?: string[];
   /**
   * IDs of AWS EBS volumes to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_ebs_volume_ids ApplicationAwsResources#aws_ebs_volume_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_ebs_volume_ids ApplicationAwsResources#aws_ebs_volume_ids}
   */
   readonly awsEbsVolumeIds?: string[];
   /**
   * IDs of AWS EC2 Instance connect endpoints to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_ec2_instance_connect_endpoint_ids ApplicationAwsResources#aws_ec2_instance_connect_endpoint_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_ec2_instance_connect_endpoint_ids ApplicationAwsResources#aws_ec2_instance_connect_endpoint_ids}
   */
   readonly awsEc2InstanceConnectEndpointIds?: string[];
   /**
   * IDs of AWS EC2 transit gateway attachments (peering/vpc) to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_ec2_transit_gateway_attachment_ids ApplicationAwsResources#aws_ec2_transit_gateway_attachment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_ec2_transit_gateway_attachment_ids ApplicationAwsResources#aws_ec2_transit_gateway_attachment_ids}
   */
   readonly awsEc2TransitGatewayAttachmentIds?: string[];
   /**
   * IDs of AWS EC2 transit gateways to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_ec2_transit_gateway_ids ApplicationAwsResources#aws_ec2_transit_gateway_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_ec2_transit_gateway_ids ApplicationAwsResources#aws_ec2_transit_gateway_ids}
   */
   readonly awsEc2TransitGatewayIds?: string[];
   /**
   * IDs of AWS EC2 transit gateway multicast domains to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_ec2_transit_gateway_multicast_domain_ids ApplicationAwsResources#aws_ec2_transit_gateway_multicast_domain_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_ec2_transit_gateway_multicast_domain_ids ApplicationAwsResources#aws_ec2_transit_gateway_multicast_domain_ids}
   */
   readonly awsEc2TransitGatewayMulticastDomainIds?: string[];
   /**
   * IDs of AWS EC2 transit gateway route tables to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_ec2_transit_gateway_route_table_ids ApplicationAwsResources#aws_ec2_transit_gateway_route_table_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_ec2_transit_gateway_route_table_ids ApplicationAwsResources#aws_ec2_transit_gateway_route_table_ids}
   */
   readonly awsEc2TransitGatewayRouteTableIds?: string[];
   /**
   * IDs of AWS egress-only Internet gateways to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_egress_only_internet_gateway_ids ApplicationAwsResources#aws_egress_only_internet_gateway_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_egress_only_internet_gateway_ids ApplicationAwsResources#aws_egress_only_internet_gateway_ids}
   */
   readonly awsEgressOnlyInternetGatewayIds?: string[];
   /**
   * IDs of AWS Elastic IPs to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_eip_ids ApplicationAwsResources#aws_eip_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_eip_ids ApplicationAwsResources#aws_eip_ids}
   */
   readonly awsEipIds?: string[];
   /**
   * IDs of AWS Flow Logs to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_flow_log_ids ApplicationAwsResources#aws_flow_log_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_flow_log_ids ApplicationAwsResources#aws_flow_log_ids}
   */
   readonly awsFlowLogIds?: string[];
   /**
   * IDs of AWS EC2 instances to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_instances_ids ApplicationAwsResources#aws_instances_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_instances_ids ApplicationAwsResources#aws_instances_ids}
   */
   readonly awsInstancesIds?: string[];
   /**
   * IDs of AWS Internet Gateways to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_internet_gateway_ids ApplicationAwsResources#aws_internet_gateway_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_internet_gateway_ids ApplicationAwsResources#aws_internet_gateway_ids}
   */
   readonly awsInternetGatewayIds?: string[];
   /**
   * IDs of AWS NAT Gateways to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_nat_gateway_ids ApplicationAwsResources#aws_nat_gateway_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_nat_gateway_ids ApplicationAwsResources#aws_nat_gateway_ids}
   */
   readonly awsNatGatewayIds?: string[];
   /**
   * IDs of AWS network ACLs to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_network_acl_ids ApplicationAwsResources#aws_network_acl_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_network_acl_ids ApplicationAwsResources#aws_network_acl_ids}
   */
   readonly awsNetworkAclIds?: string[];
   /**
   * IDs of AWS Elastic Network Interfaces (ENI) to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_network_interface_ids ApplicationAwsResources#aws_network_interface_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_network_interface_ids ApplicationAwsResources#aws_network_interface_ids}
   */
   readonly awsNetworkInterfaceIds?: string[];
   /**
   * IDs of AWS RDS database clusters to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_rds_cluster_ids ApplicationAwsResources#aws_rds_cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_rds_cluster_ids ApplicationAwsResources#aws_rds_cluster_ids}
   */
   readonly awsRdsClusterIds?: string[];
   /**
   * IDs of AWS VPC routing tables to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_route_table_ids ApplicationAwsResources#aws_route_table_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_route_table_ids ApplicationAwsResources#aws_route_table_ids}
   */
   readonly awsRouteTableIds?: string[];
   /**
   * IDs of AWS security groups to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_security_group_ids ApplicationAwsResources#aws_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_security_group_ids ApplicationAwsResources#aws_security_group_ids}
   */
   readonly awsSecurityGroupIds?: string[];
   /**
   * IDs of AWS security group rules to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_security_group_rule_ids ApplicationAwsResources#aws_security_group_rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_security_group_rule_ids ApplicationAwsResources#aws_security_group_rule_ids}
   */
   readonly awsSecurityGroupRuleIds?: string[];
   /**
   * IDs of AWS spot fleet requests to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_spot_fleet_request_ids ApplicationAwsResources#aws_spot_fleet_request_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_spot_fleet_request_ids ApplicationAwsResources#aws_spot_fleet_request_ids}
   */
   readonly awsSpotFleetRequestIds?: string[];
   /**
   * IDs of AWS spot instance requests to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_spot_instance_request_ids ApplicationAwsResources#aws_spot_instance_request_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_spot_instance_request_ids ApplicationAwsResources#aws_spot_instance_request_ids}
   */
   readonly awsSpotInstanceRequestIds?: string[];
   /**
   * IDs of AWS subnets to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_subnet_ids ApplicationAwsResources#aws_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_subnet_ids ApplicationAwsResources#aws_subnet_ids}
   */
   readonly awsSubnetIds?: string[];
   /**
   * IDs of AWS VPC endpoints to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_vpc_endpoint_ids ApplicationAwsResources#aws_vpc_endpoint_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_vpc_endpoint_ids ApplicationAwsResources#aws_vpc_endpoint_ids}
   */
   readonly awsVpcEndpointIds?: string[];
   /**
   * IDs of AWS VPC endpoint services to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_vpc_endpoint_service_ids ApplicationAwsResources#aws_vpc_endpoint_service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_vpc_endpoint_service_ids ApplicationAwsResources#aws_vpc_endpoint_service_ids}
   */
   readonly awsVpcEndpointServiceIds?: string[];
   /**
   * IDs of AWS VPCs to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_vpc_ids ApplicationAwsResources#aws_vpc_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_vpc_ids ApplicationAwsResources#aws_vpc_ids}
   */
   readonly awsVpcIds?: string[];
   /**
   * IDs of AWS VPC peering connections to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_vpc_peering_connection_ids ApplicationAwsResources#aws_vpc_peering_connection_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_vpc_peering_connection_ids ApplicationAwsResources#aws_vpc_peering_connection_ids}
   */
   readonly awsVpcPeeringConnectionIds?: string[];
   /**
   * IDs of AWS VPN connections to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_vpn_connection_ids ApplicationAwsResources#aws_vpn_connection_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_vpn_connection_ids ApplicationAwsResources#aws_vpn_connection_ids}
   */
   readonly awsVpnConnectionIds?: string[];
   /**
   * IDs of AWS VPN gateways to associate with the CloudSecure Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#aws_vpn_gateway_ids ApplicationAwsResources#aws_vpn_gateway_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#aws_vpn_gateway_ids ApplicationAwsResources#aws_vpn_gateway_ids}
   */
   readonly awsVpnGatewayIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources illumio-cloudsecure_application_aws_resources}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources illumio-cloudsecure_application_aws_resources}
 */
 export class ApplicationAwsResources extends cdktf.TerraformResource {
 
@@ -224,7 +224,7 @@ export class ApplicationAwsResources extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationAwsResources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationAwsResources to import
-  * @param importFromId The id of the existing ApplicationAwsResources that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationAwsResources that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationAwsResources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class ApplicationAwsResources extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/application_aws_resources illumio-cloudsecure_application_aws_resources} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_aws_resources illumio-cloudsecure_application_aws_resources} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class ApplicationAwsResources extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_application_aws_resources',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

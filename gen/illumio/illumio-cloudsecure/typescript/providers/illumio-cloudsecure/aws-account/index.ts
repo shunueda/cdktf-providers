@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_account
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface AwsAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_account#account_id AwsAccount#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_account#account_id AwsAccount#account_id}
   */
   readonly accountId: string;
   /**
   * Access mode, must be `"ReadWrite"` (default) or `"Read"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_account#mode AwsAccount#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_account#mode AwsAccount#mode}
   */
   readonly mode?: string;
   /**
   * Display name for the AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_account#name AwsAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_account#name AwsAccount#name}
   */
   readonly name: string;
   /**
   * ID of the AWS organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_account#organization_id AwsAccount#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_account#organization_id AwsAccount#organization_id}
   */
   readonly organizationId?: string;
   /**
   * ARN of the AWS role to be assumed by CloudSecure to manage this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_account#role_arn AwsAccount#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_account#role_arn AwsAccount#role_arn}
   */
   readonly roleArn: string;
   /**
   * External ID defined in the AWS role to authenticate CloudSecure when assuming that role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_account#role_external_id AwsAccount#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_account#role_external_id AwsAccount#role_external_id}
   */
   readonly roleExternalId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_account illumio-cloudsecure_aws_account}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_account illumio-cloudsecure_aws_account}
 */
 export class AwsAccount extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class AwsAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsAccount to import
-  * @param importFromId The id of the existing AwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class AwsAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/aws_account illumio-cloudsecure_aws_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/aws_account illumio-cloudsecure_aws_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class AwsAccount extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_aws_account',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

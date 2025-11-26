@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/extended_attributes
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/extended_attributes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ExtendedAttributesConfig extends cdktf.TerraformMetaArguments {
   /**
   * A JSON string listing the extended attributes mapping. The keys are the connections attributes available in the `profiles.yml` for a given adapter. Any fields entered will override connection details or credentials set on the environment or project. To avoid incorrect Terraform diffs, it is recommended to create this string using `jsonencode` in your Terraform code. (see example)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/extended_attributes#extended_attributes ExtendedAttributes#extended_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/extended_attributes#extended_attributes ExtendedAttributes#extended_attributes}
   */
   readonly extendedAttributes: string;
   /**
   * Project ID to create the extended attributes in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/extended_attributes#project_id ExtendedAttributes#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/extended_attributes#project_id ExtendedAttributes#project_id}
   */
   readonly projectId: number;
   /**
   * The state of the extended attributes (1 = active, 2 = inactive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/extended_attributes#state ExtendedAttributes#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/extended_attributes#state ExtendedAttributes#state}
   */
   readonly state?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/extended_attributes dbtcloud_extended_attributes}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/extended_attributes dbtcloud_extended_attributes}
 */
 export class ExtendedAttributes extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ExtendedAttributes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExtendedAttributes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExtendedAttributes to import
-  * @param importFromId The id of the existing ExtendedAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/extended_attributes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExtendedAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/extended_attributes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExtendedAttributes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ExtendedAttributes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/extended_attributes dbtcloud_extended_attributes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/extended_attributes dbtcloud_extended_attributes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ExtendedAttributes extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_extended_attributes',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

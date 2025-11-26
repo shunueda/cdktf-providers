@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/semantic_layer_credential_service_token_mapping
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/semantic_layer_credential_service_token_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SemanticLayerCredentialServiceTokenMappingConfig extends cdktf.
   /**
   * The ID of the project to which the semantic layer credential is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/semantic_layer_credential_service_token_mapping#project_id SemanticLayerCredentialServiceTokenMapping#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/semantic_layer_credential_service_token_mapping#project_id SemanticLayerCredentialServiceTokenMapping#project_id}
   */
   readonly projectId: number;
   /**
   * The ID of the semantic layer credential to map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/semantic_layer_credential_service_token_mapping#semantic_layer_credential_id SemanticLayerCredentialServiceTokenMapping#semantic_layer_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/semantic_layer_credential_service_token_mapping#semantic_layer_credential_id SemanticLayerCredentialServiceTokenMapping#semantic_layer_credential_id}
   */
   readonly semanticLayerCredentialId: number;
   /**
   * The ID of the service token to map to the semantic layer credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/semantic_layer_credential_service_token_mapping#service_token_id SemanticLayerCredentialServiceTokenMapping#service_token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/semantic_layer_credential_service_token_mapping#service_token_id SemanticLayerCredentialServiceTokenMapping#service_token_id}
   */
   readonly serviceTokenId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/semantic_layer_credential_service_token_mapping dbtcloud_semantic_layer_credential_service_token_mapping}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/semantic_layer_credential_service_token_mapping dbtcloud_semantic_layer_credential_service_token_mapping}
 */
 export class SemanticLayerCredentialServiceTokenMapping extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SemanticLayerCredentialServiceTokenMapping extends cdktf.TerraformR
   * Generates CDKTF code for importing a SemanticLayerCredentialServiceTokenMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SemanticLayerCredentialServiceTokenMapping to import
-  * @param importFromId The id of the existing SemanticLayerCredentialServiceTokenMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/semantic_layer_credential_service_token_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SemanticLayerCredentialServiceTokenMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/semantic_layer_credential_service_token_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SemanticLayerCredentialServiceTokenMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SemanticLayerCredentialServiceTokenMapping extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/semantic_layer_credential_service_token_mapping dbtcloud_semantic_layer_credential_service_token_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/semantic_layer_credential_service_token_mapping dbtcloud_semantic_layer_credential_service_token_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SemanticLayerCredentialServiceTokenMapping extends cdktf.TerraformR
       terraformResourceType: 'dbtcloud_semantic_layer_credential_service_token_mapping',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

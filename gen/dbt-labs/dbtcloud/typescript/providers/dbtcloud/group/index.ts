@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/group
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the group will be assigned by default to users. The value needs to be the same for all partial permissions for the same group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/group#assign_by_default Group#assign_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/group#assign_by_default Group#assign_by_default}
   */
   readonly assignByDefault?: boolean | cdktf.IResolvable;
   /**
   * The name of the group. This is used to identify an existing group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
   * Mapping groups from the IdP. At the moment the complete list needs to be provided in each partial permission for the same group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/group#sso_mapping_groups Group#sso_mapping_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/group#sso_mapping_groups Group#sso_mapping_groups}
   */
   readonly ssoMappingGroups?: string[];
   /**
   * group_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/group#group_permissions Group#group_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/group#group_permissions Group#group_permissions}
   */
   readonly groupPermissions?: GroupGroupPermissions[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface GroupGroupPermissions {
   /**
   * Whether access should be provided for all projects or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/group#all_projects Group#all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/group#all_projects Group#all_projects}
   */
   readonly allProjects: boolean | cdktf.IResolvable;
   /**
   * Set of permissions to apply. The permissions allowed are the same as the ones for the `dbtcloud_group` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/group#permission_set Group#permission_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/group#permission_set Group#permission_set}
   */
   readonly permissionSet: string;
   /**
   * Project ID to apply this permission to for this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/group#project_id Group#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/group#project_id Group#project_id}
   */
   readonly projectId?: number;
   /**
@@ -58,7 +58,7 @@ export interface GroupGroupPermissions {
   * Not setting a value is the same as selecting `all`. 
   * Not all permission sets support environment level write settings, only `analyst`, `database_admin`, `developer`, `git_admin` and `team_admin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/group#writable_environment_categories Group#writable_environment_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/group#writable_environment_categories Group#writable_environment_categories}
   */
   readonly writableEnvironmentCategories?: string[];
 }
@@ -255,7 +255,7 @@ export class GroupGroupPermissionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/group dbtcloud_group}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/group dbtcloud_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -271,7 +271,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +283,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/group dbtcloud_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/group dbtcloud_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,8 +294,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_group',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

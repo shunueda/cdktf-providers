@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AwsFsxnV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the cluster who's VPC this file system should share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2#cluster_id AwsFsxnV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2#cluster_id AwsFsxnV2#cluster_id}
   */
   readonly clusterId: string;
   /**
   * AWS ID of the file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2#fsxn_id AwsFsxnV2#fsxn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2#fsxn_id AwsFsxnV2#fsxn_id}
   */
   readonly fsxnId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2#id AwsFsxnV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2#id AwsFsxnV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,39 +29,39 @@ export interface AwsFsxnV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The name of the provider account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2#provider_account_name AwsFsxnV2#provider_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2#provider_account_name AwsFsxnV2#provider_account_name}
   */
   readonly providerAccountName?: string;
   /**
   * Status of the file system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2#status AwsFsxnV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2#status AwsFsxnV2#status}
   */
   readonly status?: string;
   /**
   * The ID of the VPC where this file system should be provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2#vpc_id AwsFsxnV2#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2#vpc_id AwsFsxnV2#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2#timeouts AwsFsxnV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2#timeouts AwsFsxnV2#timeouts}
   */
   readonly timeouts?: AwsFsxnV2Timeouts;
 }
 export interface AwsFsxnV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2#create AwsFsxnV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2#create AwsFsxnV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2#default AwsFsxnV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2#default AwsFsxnV2#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2#read AwsFsxnV2#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2#read AwsFsxnV2#read}
   */
   readonly read?: string;
 }
@@ -213,7 +213,7 @@ export class AwsFsxnV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2 instaclustr_aws_fsxn_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2 instaclustr_aws_fsxn_v2}
 */
 export class AwsFsxnV2 extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class AwsFsxnV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsFsxnV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsFsxnV2 to import
-  * @param importFromId The id of the existing AwsFsxnV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsFsxnV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsFsxnV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class AwsFsxnV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_fsxn_v2 instaclustr_aws_fsxn_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_fsxn_v2 instaclustr_aws_fsxn_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class AwsFsxnV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_aws_fsxn_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.29',
-        providerVersionConstraint: '2.1.29'
+        providerVersion: '2.1.30',
+        providerVersionConstraint: '2.1.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

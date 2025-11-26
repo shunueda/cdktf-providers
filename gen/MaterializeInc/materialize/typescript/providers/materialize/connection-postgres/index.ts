@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ConnectionPostgresConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#comment ConnectionPostgres#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#comment ConnectionPostgres#comment}
   */
   readonly comment?: string;
   /**
   * The target Postgres database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#database ConnectionPostgres#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#database ConnectionPostgres#database}
   */
   readonly database: string;
   /**
   * The identifier for the connection database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
   */
   readonly databaseName?: string;
   /**
   * The Postgres database hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#host ConnectionPostgres#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#host ConnectionPostgres#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#id ConnectionPostgres#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#id ConnectionPostgres#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,85 +41,85 @@ export interface ConnectionPostgresConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#name ConnectionPostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#name ConnectionPostgres#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#ownership_role ConnectionPostgres#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#ownership_role ConnectionPostgres#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The Postgres database port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#port ConnectionPostgres#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#port ConnectionPostgres#port}
   */
   readonly port?: number;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#region ConnectionPostgres#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#region ConnectionPostgres#region}
   */
   readonly region?: string;
   /**
   * The identifier for the connection schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
   */
   readonly schemaName?: string;
   /**
   * The SSL mode for the Postgres database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#ssl_mode ConnectionPostgres#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#ssl_mode ConnectionPostgres#ssl_mode}
   */
   readonly sslMode?: string;
   /**
   * If the connection should wait for validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#validate ConnectionPostgres#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#validate ConnectionPostgres#validate}
   */
   readonly validate?: boolean | cdktf.IResolvable;
   /**
   * aws_privatelink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#aws_privatelink ConnectionPostgres#aws_privatelink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#aws_privatelink ConnectionPostgres#aws_privatelink}
   */
   readonly awsPrivatelink?: ConnectionPostgresAwsPrivatelink;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#password ConnectionPostgres#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#password ConnectionPostgres#password}
   */
   readonly password?: ConnectionPostgresPassword;
   /**
   * ssh_tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#ssh_tunnel ConnectionPostgres#ssh_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#ssh_tunnel ConnectionPostgres#ssh_tunnel}
   */
   readonly sshTunnel?: ConnectionPostgresSshTunnel;
   /**
   * ssl_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#ssl_certificate ConnectionPostgres#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#ssl_certificate ConnectionPostgres#ssl_certificate}
   */
   readonly sslCertificate?: ConnectionPostgresSslCertificate;
   /**
   * ssl_certificate_authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#ssl_certificate_authority ConnectionPostgres#ssl_certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#ssl_certificate_authority ConnectionPostgres#ssl_certificate_authority}
   */
   readonly sslCertificateAuthority?: ConnectionPostgresSslCertificateAuthority;
   /**
   * ssl_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#ssl_key ConnectionPostgres#ssl_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#ssl_key ConnectionPostgres#ssl_key}
   */
   readonly sslKey?: ConnectionPostgresSslKey;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#user ConnectionPostgres#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#user ConnectionPostgres#user}
   */
   readonly user: ConnectionPostgresUser;
 }
@@ -127,19 +127,19 @@ export interface ConnectionPostgresAwsPrivatelink {
   /**
   * The aws_privatelink database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
   */
   readonly databaseName?: string;
   /**
   * The aws_privatelink name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#name ConnectionPostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#name ConnectionPostgres#name}
   */
   readonly name: string;
   /**
   * The aws_privatelink schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -280,19 +280,19 @@ export interface ConnectionPostgresPassword {
   /**
   * The password database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
   */
   readonly databaseName?: string;
   /**
   * The password name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#name ConnectionPostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#name ConnectionPostgres#name}
   */
   readonly name: string;
   /**
   * The password schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -433,19 +433,19 @@ export interface ConnectionPostgresSshTunnel {
   /**
   * The ssh_tunnel database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssh_tunnel name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#name ConnectionPostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#name ConnectionPostgres#name}
   */
   readonly name: string;
   /**
   * The ssh_tunnel schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -586,19 +586,19 @@ export interface ConnectionPostgresSslCertificateSecret {
   /**
   * The ssl_certificate database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssl_certificate name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#name ConnectionPostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#name ConnectionPostgres#name}
   */
   readonly name: string;
   /**
   * The ssl_certificate schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -739,13 +739,13 @@ export interface ConnectionPostgresSslCertificate {
   /**
   * The `ssl_certificate` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#text ConnectionPostgres#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#text ConnectionPostgres#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#secret ConnectionPostgres#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#secret ConnectionPostgres#secret}
   */
   readonly secret?: ConnectionPostgresSslCertificateSecret;
 }
@@ -860,19 +860,19 @@ export interface ConnectionPostgresSslCertificateAuthoritySecret {
   /**
   * The ssl_certificate_authority database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssl_certificate_authority name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#name ConnectionPostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#name ConnectionPostgres#name}
   */
   readonly name: string;
   /**
   * The ssl_certificate_authority schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1013,13 +1013,13 @@ export interface ConnectionPostgresSslCertificateAuthority {
   /**
   * The `ssl_certificate_authority` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#text ConnectionPostgres#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#text ConnectionPostgres#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#secret ConnectionPostgres#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#secret ConnectionPostgres#secret}
   */
   readonly secret?: ConnectionPostgresSslCertificateAuthoritySecret;
 }
@@ -1134,19 +1134,19 @@ export interface ConnectionPostgresSslKey {
   /**
   * The ssl_key database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssl_key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#name ConnectionPostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#name ConnectionPostgres#name}
   */
   readonly name: string;
   /**
   * The ssl_key schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1287,19 +1287,19 @@ export interface ConnectionPostgresUserSecret {
   /**
   * The user database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#database_name ConnectionPostgres#database_name}
   */
   readonly databaseName?: string;
   /**
   * The user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#name ConnectionPostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#name ConnectionPostgres#name}
   */
   readonly name: string;
   /**
   * The user schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#schema_name ConnectionPostgres#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1440,13 +1440,13 @@ export interface ConnectionPostgresUser {
   /**
   * The `user` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#text ConnectionPostgres#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#text ConnectionPostgres#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#secret ConnectionPostgres#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#secret ConnectionPostgres#secret}
   */
   readonly secret?: ConnectionPostgresUserSecret;
 }
@@ -1559,7 +1559,7 @@ export class ConnectionPostgresUserOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres materialize_connection_postgres}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres materialize_connection_postgres}
 */
 export class ConnectionPostgres extends cdktf.TerraformResource {
 
@@ -1575,7 +1575,7 @@ export class ConnectionPostgres extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectionPostgres resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectionPostgres to import
-  * @param importFromId The id of the existing ConnectionPostgres that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectionPostgres that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectionPostgres to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1587,7 +1587,7 @@ export class ConnectionPostgres extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_postgres materialize_connection_postgres} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_postgres materialize_connection_postgres} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1598,8 +1598,8 @@ export class ConnectionPostgres extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_connection_postgres',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.4',
-        providerVersionConstraint: '0.9.4'
+        providerVersion: '0.9.5',
+        providerVersionConstraint: '0.9.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

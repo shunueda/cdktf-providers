@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_subnets
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataZenlayercloudBmcSubnetsConfig extends cdktf.TerraformMetaAr
   /**
   * Zone of the subnet to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_subnets#availability_zone DataZenlayercloudBmcSubnets#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_subnets#availability_zone DataZenlayercloudBmcSubnets#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Filter subnet with this CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_subnets#cidr_block DataZenlayercloudBmcSubnets#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_subnets#cidr_block DataZenlayercloudBmcSubnets#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_subnets#id DataZenlayercloudBmcSubnets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_subnets#id DataZenlayercloudBmcSubnets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataZenlayercloudBmcSubnetsConfig extends cdktf.TerraformMetaAr
   /**
   * The ID of resource group grouped subnet to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_subnets#resource_group_id DataZenlayercloudBmcSubnets#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_subnets#resource_group_id DataZenlayercloudBmcSubnets#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_subnets#result_output_file DataZenlayercloudBmcSubnets#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_subnets#result_output_file DataZenlayercloudBmcSubnets#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of the subnet to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_subnets#subnet_id DataZenlayercloudBmcSubnets#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_subnets#subnet_id DataZenlayercloudBmcSubnets#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Name of the subnet to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_subnets#subnet_name DataZenlayercloudBmcSubnets#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_subnets#subnet_name DataZenlayercloudBmcSubnets#subnet_name}
   */
   readonly subnetName?: string;
   /**
   * ID of the VPC to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_subnets#vpc_id DataZenlayercloudBmcSubnets#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_subnets#vpc_id DataZenlayercloudBmcSubnets#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -179,7 +179,7 @@ export class DataZenlayercloudBmcSubnetsSubnetListStructList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_subnets zenlayercloud_bmc_subnets}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_subnets zenlayercloud_bmc_subnets}
 */
 export class DataZenlayercloudBmcSubnets extends cdktf.TerraformDataSource {
 
@@ -195,7 +195,7 @@ export class DataZenlayercloudBmcSubnets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudBmcSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudBmcSubnets to import
-  * @param importFromId The id of the existing DataZenlayercloudBmcSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudBmcSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudBmcSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DataZenlayercloudBmcSubnets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_subnets zenlayercloud_bmc_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_subnets zenlayercloud_bmc_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DataZenlayercloudBmcSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_bmc_subnets',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.10',
-        providerVersionConstraint: '0.2.10'
+        providerVersion: '0.2.11',
+        providerVersionConstraint: '0.2.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

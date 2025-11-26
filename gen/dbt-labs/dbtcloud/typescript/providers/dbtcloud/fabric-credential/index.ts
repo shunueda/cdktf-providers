@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface FabricCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * The type of the adapter (fabric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential#adapter_type FabricCredential#adapter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential#adapter_type FabricCredential#adapter_type}
   */
   readonly adapterType: string;
   /**
   * The client ID of the Azure Active Directory service principal. This is only used when connecting to Azure SQL with an AAD service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential#client_id FabricCredential#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential#client_id FabricCredential#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret of the Azure Active Directory service principal. This is only used when connecting to Azure SQL with an AAD service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential#client_secret FabricCredential#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential#client_secret FabricCredential#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The password for the account to connect to. Only used when connection with AD user/pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential#password FabricCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential#password FabricCredential#password}
   */
   readonly password?: string;
   /**
   * Project ID to create the Fabric credential in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential#project_id FabricCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential#project_id FabricCredential#project_id}
   */
   readonly projectId: number;
   /**
   * The schema where to create the dbt models
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential#schema FabricCredential#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential#schema FabricCredential#schema}
   */
   readonly schema: string;
   /**
   * Optionally set this to the principal who should own the schemas created by dbt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential#schema_authorization FabricCredential#schema_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential#schema_authorization FabricCredential#schema_authorization}
   */
   readonly schemaAuthorization?: string;
   /**
   * The tenant ID of the Azure Active Directory instance. This is only used when connecting to Azure SQL with a service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential#tenant_id FabricCredential#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential#tenant_id FabricCredential#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * The username of the Fabric account to connect to. Only used when connection with AD user/pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential#user FabricCredential#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential#user FabricCredential#user}
   */
   readonly user?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential dbtcloud_fabric_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential dbtcloud_fabric_credential}
 */
 export class FabricCredential extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class FabricCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricCredential to import
-  * @param importFromId The id of the existing FabricCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class FabricCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/fabric_credential dbtcloud_fabric_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/fabric_credential dbtcloud_fabric_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class FabricCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_fabric_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_border_gateway
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_border_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ZecBorderGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Custom IPv4 CIDR block list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_border_gateway#advertised_cidrs ZecBorderGateway#advertised_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_border_gateway#advertised_cidrs ZecBorderGateway#advertised_cidrs}
   */
   readonly advertisedCidrs?: string[];
   /**
   * Subnet route advertisement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_border_gateway#advertised_subnet ZecBorderGateway#advertised_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_border_gateway#advertised_subnet ZecBorderGateway#advertised_subnet}
   */
   readonly advertisedSubnet?: string;
   /**
   * Autonomous System Number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_border_gateway#asn ZecBorderGateway#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_border_gateway#asn ZecBorderGateway#asn}
   */
   readonly asn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_border_gateway#id ZecBorderGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_border_gateway#id ZecBorderGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface ZecBorderGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the border gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_border_gateway#name ZecBorderGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_border_gateway#name ZecBorderGateway#name}
   */
   readonly name: string;
   /**
   * Region ID of the border gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_border_gateway#region_id ZecBorderGateway#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_border_gateway#region_id ZecBorderGateway#region_id}
   */
   readonly regionId: string;
   /**
   * VPC ID that the border gateway belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_border_gateway#vpc_id ZecBorderGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_border_gateway#vpc_id ZecBorderGateway#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_border_gateway zenlayercloud_zec_border_gateway}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_border_gateway zenlayercloud_zec_border_gateway}
 */
 export class ZecBorderGateway extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ZecBorderGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecBorderGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecBorderGateway to import
-  * @param importFromId The id of the existing ZecBorderGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_border_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecBorderGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_border_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecBorderGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ZecBorderGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_border_gateway zenlayercloud_zec_border_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_border_gateway zenlayercloud_zec_border_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ZecBorderGateway extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_border_gateway',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.10',
-        providerVersionConstraint: '0.2.10'
+        providerVersion: '0.2.11',
+        providerVersionConstraint: '0.2.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

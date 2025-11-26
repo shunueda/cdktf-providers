@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface IpListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the IP list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list#description IpList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list#description IpList#description}
   */
   readonly description?: string;
   /**
   * List of IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list#ip_addresses IpList#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list#ip_addresses IpList#ip_addresses}
   */
   readonly ipAddresses?: IpListIpAddresses[] | cdktf.IResolvable;
   /**
   * List of IP address ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list#ip_ranges IpList#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list#ip_ranges IpList#ip_ranges}
   */
   readonly ipRanges?: IpListIpRanges[] | cdktf.IResolvable;
   /**
   * Name of the IP list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list#name IpList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list#name IpList#name}
   */
   readonly name: string;
 }
 export interface IpListIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list#exclusion IpList#exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list#exclusion IpList#exclusion}
   */
   readonly exclusion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list#ip_address IpList#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list#ip_address IpList#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -183,15 +183,15 @@ export class IpListIpAddressesList extends cdktf.ComplexList {
 }
 export interface IpListIpRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list#exclusion IpList#exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list#exclusion IpList#exclusion}
   */
   readonly exclusion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list#from_ip_address IpList#from_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list#from_ip_address IpList#from_ip_address}
   */
   readonly fromIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list#to_ip_address IpList#to_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list#to_ip_address IpList#to_ip_address}
   */
   readonly toIpAddress?: string;
 }
@@ -365,7 +365,7 @@ export class IpListIpRangesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list illumio-cloudsecure_ip_list}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list illumio-cloudsecure_ip_list}
 */
 export class IpList extends cdktf.TerraformResource {
 
@@ -381,7 +381,7 @@ export class IpList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpList to import
-  * @param importFromId The id of the existing IpList that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpList that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class IpList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/ip_list illumio-cloudsecure_ip_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/ip_list illumio-cloudsecure_ip_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class IpList extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_ip_list',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

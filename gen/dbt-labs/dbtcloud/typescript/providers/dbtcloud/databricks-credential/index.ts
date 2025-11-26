@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DatabricksCredentialConfig extends cdktf.TerraformMetaArguments
   /**
   * The type of the adapter. 'spark' is deprecated, but still supported for backwards compatibility. For Spark, please use the spark_credential resource. Optional only when semantic_layer_credential is set to true; otherwise, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_credential#adapter_type DatabricksCredential#adapter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_credential#adapter_type DatabricksCredential#adapter_type}
   */
   readonly adapterType?: string;
   /**
   * The catalog where to create models (only for the databricks adapter)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_credential#catalog DatabricksCredential#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_credential#catalog DatabricksCredential#catalog}
   */
   readonly catalog?: string;
   /**
   * Project ID to create the Databricks credential in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_credential#project_id DatabricksCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_credential#project_id DatabricksCredential#project_id}
   */
   readonly projectId: number;
   /**
   * The schema where to create models. Optional only when semantic_layer_credential is set to true; otherwise, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_credential#schema DatabricksCredential#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_credential#schema DatabricksCredential#schema}
   */
   readonly schema?: string;
   /**
   * This field indicates that the credential is used as part of the Semantic Layer configuration. It is used to create a Databricks credential for the Semantic Layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_credential#semantic_layer_credential DatabricksCredential#semantic_layer_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_credential#semantic_layer_credential DatabricksCredential#semantic_layer_credential}
   */
   readonly semanticLayerCredential?: boolean | cdktf.IResolvable;
   /**
   * Target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_credential#target_name DatabricksCredential#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_credential#target_name DatabricksCredential#target_name}
   */
   readonly targetName?: string;
   /**
   * Token for Databricks user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_credential#token DatabricksCredential#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_credential#token DatabricksCredential#token}
   */
   readonly token: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_credential dbtcloud_databricks_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_credential dbtcloud_databricks_credential}
 */
 export class DatabricksCredential extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class DatabricksCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabricksCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabricksCredential to import
-  * @param importFromId The id of the existing DatabricksCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabricksCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabricksCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class DatabricksCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/databricks_credential dbtcloud_databricks_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/databricks_credential dbtcloud_databricks_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class DatabricksCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_databricks_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

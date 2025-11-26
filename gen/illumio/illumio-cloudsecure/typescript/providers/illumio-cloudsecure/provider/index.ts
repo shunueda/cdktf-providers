@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface IllumioCloudsecureProviderConfig {
   /**
   * OAuth 2 access token used to authenticate against the CloudSecure Config API. Either `client_id`+`client_secret` or `access_token` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs#access_token IllumioCloudsecureProvider#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs#access_token IllumioCloudsecureProvider#access_token}
   */
   readonly accessToken?: string;
   /**
   * CloudSecure Config API endpoint, defaults to `dns:///cloud.illum.io:443`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs#api_endpoint IllumioCloudsecureProvider#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs#api_endpoint IllumioCloudsecureProvider#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
   * OAuth 2 client identifier used to authenticate against the CloudSecure Config API. Either `client_id`+`client_secret` or `access_token` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs#client_id IllumioCloudsecureProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs#client_id IllumioCloudsecureProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * OAuth 2 client secret used to authenticate against the CloudSecure Config API. Either `client_id`+`client_secret` or `access_token` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs#client_secret IllumioCloudsecureProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs#client_secret IllumioCloudsecureProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Disables TLS server certificate verification for all requests to the CloudSecure Config API and Token endpoints. Server certificate verification is enabled by default. Should only be used for testing the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs#insecure_tls IllumioCloudsecureProvider#insecure_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs#insecure_tls IllumioCloudsecureProvider#insecure_tls}
   */
   readonly insecureTls?: boolean | cdktf.IResolvable;
   /**
   * Maximum duration of each API request, defaults to 10s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs#request_timeout IllumioCloudsecureProvider#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs#request_timeout IllumioCloudsecureProvider#request_timeout}
   */
   readonly requestTimeout?: string;
   /**
   * CloudSecure OAuth 2 Token endpoint, defaults to `https://cloud.illum.io/api/v1/authenticate`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs#token_endpoint IllumioCloudsecureProvider#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs#token_endpoint IllumioCloudsecureProvider#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs#alias IllumioCloudsecureProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs#alias IllumioCloudsecureProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs illumio-cloudsecure}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs illumio-cloudsecure}
 */
 export class IllumioCloudsecureProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class IllumioCloudsecureProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a IllumioCloudsecureProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IllumioCloudsecureProvider to import
-  * @param importFromId The id of the existing IllumioCloudsecureProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IllumioCloudsecureProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IllumioCloudsecureProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class IllumioCloudsecureProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs illumio-cloudsecure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs illumio-cloudsecure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class IllumioCloudsecureProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'illumio-cloudsecure',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       terraformProviderSource: 'illumio/illumio-cloudsecure'
     });

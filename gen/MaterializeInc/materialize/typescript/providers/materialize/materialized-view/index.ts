@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MaterializedViewConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cluster to maintain the materialized view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view#cluster_name MaterializedView#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view#cluster_name MaterializedView#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view#comment MaterializedView#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view#comment MaterializedView#comment}
   */
   readonly comment?: string;
   /**
   * The identifier for the materialized view database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view#database_name MaterializedView#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view#database_name MaterializedView#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view#id MaterializedView#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view#id MaterializedView#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface MaterializedViewConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier for the materialized view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view#name MaterializedView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view#name MaterializedView#name}
   */
   readonly name: string;
   /**
   * A list of columns for which to create non-null assertions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view#not_null_assertion MaterializedView#not_null_assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view#not_null_assertion MaterializedView#not_null_assertion}
   */
   readonly notNullAssertion?: string[];
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view#ownership_role MaterializedView#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view#ownership_role MaterializedView#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view#region MaterializedView#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view#region MaterializedView#region}
   */
   readonly region?: string;
   /**
   * The identifier for the materialized view schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view#schema_name MaterializedView#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view#schema_name MaterializedView#schema_name}
   */
   readonly schemaName?: string;
   /**
   * The SQL statement for the materialized view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view#statement MaterializedView#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view#statement MaterializedView#statement}
   */
   readonly statement: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view materialize_materialized_view}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view materialize_materialized_view}
 */
 export class MaterializedView extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class MaterializedView extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MaterializedView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MaterializedView to import
-  * @param importFromId The id of the existing MaterializedView that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MaterializedView that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MaterializedView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class MaterializedView extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/materialized_view materialize_materialized_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/materialized_view materialize_materialized_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class MaterializedView extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_materialized_view',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.4',
-        providerVersionConstraint: '0.9.4'
+        providerVersion: '0.9.5',
+        providerVersionConstraint: '0.9.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

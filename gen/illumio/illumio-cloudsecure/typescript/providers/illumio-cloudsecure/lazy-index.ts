@@ -11,6 +11,8 @@ Object.defineProperty(exports, 'deployment', { get: function () { return require
 Object.defineProperty(exports, 'ipList', { get: function () { return require('./ip-list'); } });
 Object.defineProperty(exports, 'k8SCluster', { get: function () { return require('./k8s-cluster'); } });
 Object.defineProperty(exports, 'k8SClusterOnboardingCredential', { get: function () { return require('./k8s-cluster-onboarding-credential'); } });
+Object.defineProperty(exports, 'organizationPolicy', { get: function () { return require('./organization-policy'); } });
+Object.defineProperty(exports, 'organizationPolicyRule', { get: function () { return require('./organization-policy-rule'); } });
 Object.defineProperty(exports, 'tagToLabel', { get: function () { return require('./tag-to-label'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

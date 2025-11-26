@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/partial_environment_variable
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/partial_environment_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PartialEnvironmentVariableConfig extends cdktf.TerraformMetaArg
   /**
   * Map from environment names to respective variable value. This field is not set as sensitive so take precautions when using secret environment variables. Only the specified environment values will be managed by this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/partial_environment_variable#environment_values PartialEnvironmentVariable#environment_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/partial_environment_variable#environment_values PartialEnvironmentVariable#environment_values}
   */
   readonly environmentValues: { [key: string]: string };
   /**
   * Name for the variable, must be unique within a project, must be prefixed with 'DBT_'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/partial_environment_variable#name PartialEnvironmentVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/partial_environment_variable#name PartialEnvironmentVariable#name}
   */
   readonly name: string;
   /**
   * Project ID to create or update the environment variable in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/partial_environment_variable#project_id PartialEnvironmentVariable#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/partial_environment_variable#project_id PartialEnvironmentVariable#project_id}
   */
   readonly projectId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/partial_environment_variable dbtcloud_partial_environment_variable}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/partial_environment_variable dbtcloud_partial_environment_variable}
 */
 export class PartialEnvironmentVariable extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class PartialEnvironmentVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PartialEnvironmentVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PartialEnvironmentVariable to import
-  * @param importFromId The id of the existing PartialEnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/partial_environment_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PartialEnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/partial_environment_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PartialEnvironmentVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class PartialEnvironmentVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/partial_environment_variable dbtcloud_partial_environment_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/partial_environment_variable dbtcloud_partial_environment_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class PartialEnvironmentVariable extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_partial_environment_variable',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

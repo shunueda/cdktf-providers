@@ -1,3 +1,3 @@
 # `grafana_organization_preferences`
 
-Refer to the Terraform Registry for docs: [`grafana_organization_preferences`](https://registry.terraform.io/providers/grafana/grafana/4.20.0/docs/resources/organization_preferences).
+Refer to the Terraform Registry for docs: [`grafana_organization_preferences`](https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/organization_preferences).

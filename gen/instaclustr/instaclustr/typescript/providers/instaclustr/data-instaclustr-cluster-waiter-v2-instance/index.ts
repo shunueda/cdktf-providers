@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_waiter_v2_instance
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_waiter_v2_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataInstaclustrClusterWaiterV2InstanceConfig extends cdktf.Terr
   /**
   * ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_waiter_v2_instance#cluster_id DataInstaclustrClusterWaiterV2Instance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_waiter_v2_instance#cluster_id DataInstaclustrClusterWaiterV2Instance#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Indicates if the cluster is currently performing any restructuring operation such as being created or resized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_waiter_v2_instance#current_cluster_operation_status DataInstaclustrClusterWaiterV2Instance#current_cluster_operation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_waiter_v2_instance#current_cluster_operation_status DataInstaclustrClusterWaiterV2Instance#current_cluster_operation_status}
   */
   readonly currentClusterOperationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_waiter_v2_instance#id DataInstaclustrClusterWaiterV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_waiter_v2_instance#id DataInstaclustrClusterWaiterV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DataInstaclustrClusterWaiterV2InstanceConfig extends cdktf.Terr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_waiter_v2_instance instaclustr_cluster_waiter_v2_instance}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_waiter_v2_instance instaclustr_cluster_waiter_v2_instance}
 */
 export class DataInstaclustrClusterWaiterV2Instance extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataInstaclustrClusterWaiterV2Instance extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataInstaclustrClusterWaiterV2Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrClusterWaiterV2Instance to import
-  * @param importFromId The id of the existing DataInstaclustrClusterWaiterV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_waiter_v2_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrClusterWaiterV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_waiter_v2_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrClusterWaiterV2Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataInstaclustrClusterWaiterV2Instance extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/cluster_waiter_v2_instance instaclustr_cluster_waiter_v2_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_waiter_v2_instance instaclustr_cluster_waiter_v2_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataInstaclustrClusterWaiterV2Instance extends cdktf.TerraformDataS
       terraformResourceType: 'instaclustr_cluster_waiter_v2_instance',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.29',
-        providerVersionConstraint: '2.1.29'
+        providerVersion: '2.1.30',
+        providerVersionConstraint: '2.1.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

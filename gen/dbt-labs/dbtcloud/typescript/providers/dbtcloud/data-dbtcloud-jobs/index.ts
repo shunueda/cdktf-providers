@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/jobs
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/jobs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataDbtcloudJobsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the environment for which we want to retrieve the jobs (one of `project_id` or `environment_id` must be set)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/jobs#environment_id DataDbtcloudJobs#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/jobs#environment_id DataDbtcloudJobs#environment_id}
   */
   readonly environmentId?: number;
   /**
   * The ID of the project for which we want to retrieve the jobs (one of `project_id` or `environment_id` must be set)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/jobs#project_id DataDbtcloudJobs#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/jobs#project_id DataDbtcloudJobs#project_id}
   */
   readonly projectId?: number;
 }
@@ -463,7 +463,7 @@ export interface DataDbtcloudJobsJobs {
   /**
   * Whether the job is triggered by the completion of another job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/jobs#job_completion_trigger_condition DataDbtcloudJobs#job_completion_trigger_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/jobs#job_completion_trigger_condition DataDbtcloudJobs#job_completion_trigger_condition}
   */
   readonly jobCompletionTriggerCondition?: DataDbtcloudJobsJobsJobCompletionTriggerCondition;
 }
@@ -684,7 +684,7 @@ export class DataDbtcloudJobsJobsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/jobs dbtcloud_jobs}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/jobs dbtcloud_jobs}
 */
 export class DataDbtcloudJobs extends cdktf.TerraformDataSource {
 
@@ -700,7 +700,7 @@ export class DataDbtcloudJobs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudJobs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudJobs to import
-  * @param importFromId The id of the existing DataDbtcloudJobs that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/jobs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudJobs that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/jobs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudJobs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -712,7 +712,7 @@ export class DataDbtcloudJobs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/jobs dbtcloud_jobs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/jobs dbtcloud_jobs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -723,8 +723,8 @@ export class DataDbtcloudJobs extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_jobs',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_nat_gateway_snat
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_snat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ZecNatGatewaySnatConfig extends cdktf.TerraformMetaArguments {
   /**
   * IDs of the public EIPs to be associated. This field is conflict with `is_all_eip`. This field is conflict with `is_all_eip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_nat_gateway_snat#eip_ids ZecNatGatewaySnat#eip_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_snat#eip_ids ZecNatGatewaySnat#eip_ids}
   */
   readonly eipIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_nat_gateway_snat#id ZecNatGatewaySnat#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_snat#id ZecNatGatewaySnat#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ZecNatGatewaySnatConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether all the EIPs of region is assigned to SNAT entry. This field is conflict with `eip_ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_nat_gateway_snat#is_all_eip ZecNatGatewaySnat#is_all_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_snat#is_all_eip ZecNatGatewaySnat#is_all_eip}
   */
   readonly isAllEip?: boolean | cdktf.IResolvable;
   /**
   * ID of the NAT gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_nat_gateway_snat#nat_gateway_id ZecNatGatewaySnat#nat_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_snat#nat_gateway_id ZecNatGatewaySnat#nat_gateway_id}
   */
   readonly natGatewayId: string;
   /**
   * Source CIDR blocks to be associated with the SNAT entry. Cannot be used with `subnet_ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_nat_gateway_snat#source_cidr_blocks ZecNatGatewaySnat#source_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_snat#source_cidr_blocks ZecNatGatewaySnat#source_cidr_blocks}
   */
   readonly sourceCidrBlocks?: string[];
   /**
   * IDs of the subnets to be associated with the SNAT entry. Cannot be used with `source_cidr_blocks`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_nat_gateway_snat#subnet_ids ZecNatGatewaySnat#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_snat#subnet_ids ZecNatGatewaySnat#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_nat_gateway_snat zenlayercloud_zec_nat_gateway_snat}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_snat zenlayercloud_zec_nat_gateway_snat}
 */
 export class ZecNatGatewaySnat extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ZecNatGatewaySnat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecNatGatewaySnat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecNatGatewaySnat to import
-  * @param importFromId The id of the existing ZecNatGatewaySnat that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_nat_gateway_snat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecNatGatewaySnat that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_snat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecNatGatewaySnat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ZecNatGatewaySnat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zec_nat_gateway_snat zenlayercloud_zec_nat_gateway_snat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_snat zenlayercloud_zec_nat_gateway_snat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ZecNatGatewaySnat extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_nat_gateway_snat',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.10',
-        providerVersionConstraint: '0.2.10'
+        providerVersion: '0.2.11',
+        providerVersionConstraint: '0.2.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

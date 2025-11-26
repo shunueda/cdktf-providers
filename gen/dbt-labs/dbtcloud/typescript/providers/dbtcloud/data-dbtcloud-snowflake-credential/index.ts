@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/snowflake_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/snowflake_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataDbtcloudSnowflakeCredentialConfig extends cdktf.TerraformMe
   /**
   * Credential ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/snowflake_credential#credential_id DataDbtcloudSnowflakeCredential#credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/snowflake_credential#credential_id DataDbtcloudSnowflakeCredential#credential_id}
   */
   readonly credentialId: number;
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/snowflake_credential#project_id DataDbtcloudSnowflakeCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/snowflake_credential#project_id DataDbtcloudSnowflakeCredential#project_id}
   */
   readonly projectId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/snowflake_credential dbtcloud_snowflake_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/snowflake_credential dbtcloud_snowflake_credential}
 */
 export class DataDbtcloudSnowflakeCredential extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataDbtcloudSnowflakeCredential extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudSnowflakeCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudSnowflakeCredential to import
-  * @param importFromId The id of the existing DataDbtcloudSnowflakeCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/snowflake_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudSnowflakeCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/snowflake_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudSnowflakeCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataDbtcloudSnowflakeCredential extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/snowflake_credential dbtcloud_snowflake_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/snowflake_credential dbtcloud_snowflake_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataDbtcloudSnowflakeCredential extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_snowflake_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

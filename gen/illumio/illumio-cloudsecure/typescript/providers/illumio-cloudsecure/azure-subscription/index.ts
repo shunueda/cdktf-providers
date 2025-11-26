@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/azure_subscription
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface AzureSubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The client_id of the Azure Active Directory App Service Principal used by CloudSecure to manage this subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/azure_subscription#client_id AzureSubscription#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_subscription#client_id AzureSubscription#client_id}
   */
   readonly clientId: string;
   /**
   * The client_secret of the Azure Active Directory App Service Principal used by CloudSecure to manage this subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/azure_subscription#client_secret AzureSubscription#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_subscription#client_secret AzureSubscription#client_secret}
   */
   readonly clientSecret: string;
   /**
   * Access mode, must be `"ReadWrite"` (default) or `"Read"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/azure_subscription#mode AzureSubscription#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_subscription#mode AzureSubscription#mode}
   */
   readonly mode?: string;
   /**
   * Display name for the Azure subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/azure_subscription#name AzureSubscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_subscription#name AzureSubscription#name}
   */
   readonly name: string;
   /**
   * Azure subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/azure_subscription#subscription_id AzureSubscription#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_subscription#subscription_id AzureSubscription#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * ID of the Azure tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/azure_subscription#tenant_id AzureSubscription#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_subscription#tenant_id AzureSubscription#tenant_id}
   */
   readonly tenantId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/azure_subscription illumio-cloudsecure_azure_subscription}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_subscription illumio-cloudsecure_azure_subscription}
 */
 export class AzureSubscription extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class AzureSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureSubscription to import
-  * @param importFromId The id of the existing AzureSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/azure_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class AzureSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/azure_subscription illumio-cloudsecure_azure_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_subscription illumio-cloudsecure_azure_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class AzureSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_azure_subscription',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

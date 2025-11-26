@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_vpc_regions
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_vpc_regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataZenlayercloudBmcVpcRegionsConfig extends cdktf.TerraformMet
   /**
   * The zone that the vpc region contains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_vpc_regions#availability_zone DataZenlayercloudBmcVpcRegions#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_vpc_regions#availability_zone DataZenlayercloudBmcVpcRegions#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_vpc_regions#id DataZenlayercloudBmcVpcRegions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_vpc_regions#id DataZenlayercloudBmcVpcRegions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataZenlayercloudBmcVpcRegionsConfig extends cdktf.TerraformMet
   /**
   * The region that the vpc locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_vpc_regions#region DataZenlayercloudBmcVpcRegions#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_vpc_regions#region DataZenlayercloudBmcVpcRegions#region}
   */
   readonly region?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_vpc_regions#result_output_file DataZenlayercloudBmcVpcRegions#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_vpc_regions#result_output_file DataZenlayercloudBmcVpcRegions#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -120,7 +120,7 @@ export class DataZenlayercloudBmcVpcRegionsRegionsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_vpc_regions zenlayercloud_bmc_vpc_regions}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_vpc_regions zenlayercloud_bmc_vpc_regions}
 */
 export class DataZenlayercloudBmcVpcRegions extends cdktf.TerraformDataSource {
 
@@ -136,7 +136,7 @@ export class DataZenlayercloudBmcVpcRegions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudBmcVpcRegions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudBmcVpcRegions to import
-  * @param importFromId The id of the existing DataZenlayercloudBmcVpcRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_vpc_regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudBmcVpcRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_vpc_regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudBmcVpcRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +148,7 @@ export class DataZenlayercloudBmcVpcRegions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_vpc_regions zenlayercloud_bmc_vpc_regions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_vpc_regions zenlayercloud_bmc_vpc_regions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +159,8 @@ export class DataZenlayercloudBmcVpcRegions extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_bmc_vpc_regions',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.10',
-        providerVersionConstraint: '0.2.10'
+        providerVersion: '0.2.11',
+        providerVersionConstraint: '0.2.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,40 +10,40 @@ export interface DataInstaclustrKafkaSchemaRegistryClusterUsersV2Config extends 
   /**
   * ID of the kafka cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2#cluster_id DataInstaclustrKafkaSchemaRegistryClusterUsersV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2#cluster_id DataInstaclustrKafkaSchemaRegistryClusterUsersV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2#id DataInstaclustrKafkaSchemaRegistryClusterUsersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2#id DataInstaclustrKafkaSchemaRegistryClusterUsersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2#kafka_schema_registry_cluster_id DataInstaclustrKafkaSchemaRegistryClusterUsersV2#kafka_schema_registry_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2#kafka_schema_registry_cluster_id DataInstaclustrKafkaSchemaRegistryClusterUsersV2#kafka_schema_registry_cluster_id}
   */
   readonly kafkaSchemaRegistryClusterId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2#filter DataInstaclustrKafkaSchemaRegistryClusterUsersV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2#filter DataInstaclustrKafkaSchemaRegistryClusterUsersV2#filter}
   */
   readonly filter?: DataInstaclustrKafkaSchemaRegistryClusterUsersV2Filter[] | cdktf.IResolvable;
   /**
   * kafka_schema_registry_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2#kafka_schema_registry_users DataInstaclustrKafkaSchemaRegistryClusterUsersV2#kafka_schema_registry_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2#kafka_schema_registry_users DataInstaclustrKafkaSchemaRegistryClusterUsersV2#kafka_schema_registry_users}
   */
   readonly kafkaSchemaRegistryUsers?: DataInstaclustrKafkaSchemaRegistryClusterUsersV2KafkaSchemaRegistryUsers[] | cdktf.IResolvable;
 }
 export interface DataInstaclustrKafkaSchemaRegistryClusterUsersV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2#name DataInstaclustrKafkaSchemaRegistryClusterUsersV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2#name DataInstaclustrKafkaSchemaRegistryClusterUsersV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2#values DataInstaclustrKafkaSchemaRegistryClusterUsersV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2#values DataInstaclustrKafkaSchemaRegistryClusterUsersV2#values}
   */
   readonly values: string[];
 }
@@ -184,13 +184,13 @@ export interface DataInstaclustrKafkaSchemaRegistryClusterUsersV2KafkaSchemaRegi
   /**
   * ID of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2#cluster_id DataInstaclustrKafkaSchemaRegistryClusterUsersV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2#cluster_id DataInstaclustrKafkaSchemaRegistryClusterUsersV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Instaclustr identifier for the Kafka Schema Registry user. The value of this property has the form: [cluster-id]_[kafka-schema-registry-username]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2#id DataInstaclustrKafkaSchemaRegistryClusterUsersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2#id DataInstaclustrKafkaSchemaRegistryClusterUsersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -199,7 +199,7 @@ export interface DataInstaclustrKafkaSchemaRegistryClusterUsersV2KafkaSchemaRegi
   /**
   * Username of the Kafka Schema Registry user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2#username DataInstaclustrKafkaSchemaRegistryClusterUsersV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2#username DataInstaclustrKafkaSchemaRegistryClusterUsersV2#username}
   */
   readonly username?: string;
 }
@@ -373,7 +373,7 @@ export class DataInstaclustrKafkaSchemaRegistryClusterUsersV2KafkaSchemaRegistry
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2 instaclustr_kafka_schema_registry_cluster_users_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2 instaclustr_kafka_schema_registry_cluster_users_v2}
 */
 export class DataInstaclustrKafkaSchemaRegistryClusterUsersV2 extends cdktf.TerraformDataSource {
 
@@ -389,7 +389,7 @@ export class DataInstaclustrKafkaSchemaRegistryClusterUsersV2 extends cdktf.Terr
   * Generates CDKTF code for importing a DataInstaclustrKafkaSchemaRegistryClusterUsersV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrKafkaSchemaRegistryClusterUsersV2 to import
-  * @param importFromId The id of the existing DataInstaclustrKafkaSchemaRegistryClusterUsersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrKafkaSchemaRegistryClusterUsersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrKafkaSchemaRegistryClusterUsersV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class DataInstaclustrKafkaSchemaRegistryClusterUsersV2 extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/data-sources/kafka_schema_registry_cluster_users_v2 instaclustr_kafka_schema_registry_cluster_users_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/kafka_schema_registry_cluster_users_v2 instaclustr_kafka_schema_registry_cluster_users_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class DataInstaclustrKafkaSchemaRegistryClusterUsersV2 extends cdktf.Terr
       terraformResourceType: 'instaclustr_kafka_schema_registry_cluster_users_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.29',
-        providerVersionConstraint: '2.1.29'
+        providerVersion: '2.1.30',
+        providerVersionConstraint: '2.1.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

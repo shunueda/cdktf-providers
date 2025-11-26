@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_images
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_images
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataZenlayercloudZvmImagesConfig extends cdktf.TerraformMetaArg
   /**
   * Zone of the images to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_images#availability_zone DataZenlayercloudZvmImages#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_images#availability_zone DataZenlayercloudZvmImages#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * The catalog which the image belongs to. Valid values: 'CentOS', 'Windows', 'Ubuntu', 'Debian'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_images#category DataZenlayercloudZvmImages#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_images#category DataZenlayercloudZvmImages#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_images#id DataZenlayercloudZvmImages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_images#id DataZenlayercloudZvmImages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataZenlayercloudZvmImagesConfig extends cdktf.TerraformMetaArg
   /**
   * ID of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_images#image_id DataZenlayercloudZvmImages#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_images#image_id DataZenlayercloudZvmImages#image_id}
   */
   readonly imageId?: string;
   /**
   * A regex string to apply to the image list returned by ZenlayerCloud, conflict with 'os_name'. **NOTE**: it is not wildcard, should look like `image_name_regex = "^CentOS\s+6\.8\s+64\w*"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_images#image_name_regex DataZenlayercloudZvmImages#image_name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_images#image_name_regex DataZenlayercloudZvmImages#image_name_regex}
   */
   readonly imageNameRegex?: string;
   /**
   * The image type. Valid values: 'PUBLIC_IMAGE', 'CUSTOM_IMAGE'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_images#image_type DataZenlayercloudZvmImages#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_images#image_type DataZenlayercloudZvmImages#image_type}
   */
   readonly imageType?: string;
   /**
   * os type of the image. Valid values: 'windows', 'linux'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_images#os_type DataZenlayercloudZvmImages#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_images#os_type DataZenlayercloudZvmImages#os_type}
   */
   readonly osType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_images#result_output_file DataZenlayercloudZvmImages#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_images#result_output_file DataZenlayercloudZvmImages#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -169,7 +169,7 @@ export class DataZenlayercloudZvmImagesImagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_images zenlayercloud_zvm_images}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_images zenlayercloud_zvm_images}
 */
 export class DataZenlayercloudZvmImages extends cdktf.TerraformDataSource {
 
@@ -185,7 +185,7 @@ export class DataZenlayercloudZvmImages extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudZvmImages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZvmImages to import
-  * @param importFromId The id of the existing DataZenlayercloudZvmImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_images#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZvmImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_images#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZvmImages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class DataZenlayercloudZvmImages extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_images zenlayercloud_zvm_images} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_images zenlayercloud_zvm_images} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class DataZenlayercloudZvmImages extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zvm_images',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.10',
-        providerVersionConstraint: '0.2.10'
+        providerVersion: '0.2.11',
+        providerVersionConstraint: '0.2.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/ip_restrictions_rule
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/ip_restrictions_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IpRestrictionsRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set of CIDR ranges for this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/ip_restrictions_rule#cidrs IpRestrictionsRule#cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/ip_restrictions_rule#cidrs IpRestrictionsRule#cidrs}
   */
   readonly cidrs: IpRestrictionsRuleCidrs[] | cdktf.IResolvable;
   /**
   * A description of the IP restriction rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/ip_restrictions_rule#description IpRestrictionsRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/ip_restrictions_rule#description IpRestrictionsRule#description}
   */
   readonly description?: string;
   /**
   * The name of the IP restriction rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/ip_restrictions_rule#name IpRestrictionsRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/ip_restrictions_rule#name IpRestrictionsRule#name}
   */
   readonly name: string;
   /**
   * Whether the IP restriction rule set is enabled or not. Important!: This value needs to be the same for all rules if multiple rules are defined. All rules must be active or inactive at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/ip_restrictions_rule#rule_set_enabled IpRestrictionsRule#rule_set_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/ip_restrictions_rule#rule_set_enabled IpRestrictionsRule#rule_set_enabled}
   */
   readonly ruleSetEnabled: boolean | cdktf.IResolvable;
   /**
   * The type of the IP restriction rule (allow or deny)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/ip_restrictions_rule#type IpRestrictionsRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/ip_restrictions_rule#type IpRestrictionsRule#type}
   */
   readonly type: string;
 }
@@ -42,7 +42,7 @@ export interface IpRestrictionsRuleCidrs {
   /**
   * IP CIDR range (can be IPv4 or IPv6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/ip_restrictions_rule#cidr IpRestrictionsRule#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/ip_restrictions_rule#cidr IpRestrictionsRule#cidr}
   */
   readonly cidr?: string;
 }
@@ -173,7 +173,7 @@ export class IpRestrictionsRuleCidrsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/ip_restrictions_rule dbtcloud_ip_restrictions_rule}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/ip_restrictions_rule dbtcloud_ip_restrictions_rule}
 */
 export class IpRestrictionsRule extends cdktf.TerraformResource {
 
@@ -189,7 +189,7 @@ export class IpRestrictionsRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpRestrictionsRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpRestrictionsRule to import
-  * @param importFromId The id of the existing IpRestrictionsRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/ip_restrictions_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpRestrictionsRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/ip_restrictions_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpRestrictionsRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class IpRestrictionsRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/ip_restrictions_rule dbtcloud_ip_restrictions_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/ip_restrictions_rule dbtcloud_ip_restrictions_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class IpRestrictionsRule extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_ip_restrictions_rule',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/database_grant
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/database_grant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DatabaseGrantConfig extends cdktf.TerraformMetaArguments {
   /**
   * The database that is being granted on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/database_grant#database_name DatabaseGrant#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/database_grant#database_name DatabaseGrant#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/database_grant#id DatabaseGrant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/database_grant#id DatabaseGrant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DatabaseGrantConfig extends cdktf.TerraformMetaArguments {
   /**
   * The privilege to grant to the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/database_grant#privilege DatabaseGrant#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/database_grant#privilege DatabaseGrant#privilege}
   */
   readonly privilege: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/database_grant#region DatabaseGrant#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/database_grant#region DatabaseGrant#region}
   */
   readonly region?: string;
   /**
   * The name of the role to grant privilege to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/database_grant#role_name DatabaseGrant#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/database_grant#role_name DatabaseGrant#role_name}
   */
   readonly roleName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/database_grant materialize_database_grant}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/database_grant materialize_database_grant}
 */
 export class DatabaseGrant extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class DatabaseGrant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseGrant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseGrant to import
-  * @param importFromId The id of the existing DatabaseGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/database_grant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/database_grant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseGrant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DatabaseGrant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/database_grant materialize_database_grant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/database_grant materialize_database_grant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DatabaseGrant extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_database_grant',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.4',
-        providerVersionConstraint: '0.9.4'
+        providerVersion: '0.9.5',
+        providerVersionConstraint: '0.9.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_disk_snapshot_policies
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zec_disk_snapshot_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataZenlayercloudZecDiskSnapshotPoliciesConfig extends cdktf.Te
   /**
   * The availability zone of the auto snapshot policy to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_disk_snapshot_policies#availability_zone DataZenlayercloudZecDiskSnapshotPolicies#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zec_disk_snapshot_policies#availability_zone DataZenlayercloudZecDiskSnapshotPolicies#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_disk_snapshot_policies#id DataZenlayercloudZecDiskSnapshotPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zec_disk_snapshot_policies#id DataZenlayercloudZecDiskSnapshotPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataZenlayercloudZecDiskSnapshotPoliciesConfig extends cdktf.Te
   /**
   * IDs of the auto snapshot policy to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_disk_snapshot_policies#ids DataZenlayercloudZecDiskSnapshotPolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zec_disk_snapshot_policies#ids DataZenlayercloudZecDiskSnapshotPolicies#ids}
   */
   readonly ids?: string[];
   /**
   * Name of the auto snapshot policy to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_disk_snapshot_policies#name_regex DataZenlayercloudZecDiskSnapshotPolicies#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zec_disk_snapshot_policies#name_regex DataZenlayercloudZecDiskSnapshotPolicies#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * The ID of resource group grouped auto snapshot policy to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_disk_snapshot_policies#resource_group_id DataZenlayercloudZecDiskSnapshotPolicies#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zec_disk_snapshot_policies#resource_group_id DataZenlayercloudZecDiskSnapshotPolicies#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_disk_snapshot_policies#result_output_file DataZenlayercloudZecDiskSnapshotPolicies#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zec_disk_snapshot_policies#result_output_file DataZenlayercloudZecDiskSnapshotPolicies#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -172,7 +172,7 @@ export class DataZenlayercloudZecDiskSnapshotPoliciesAutoSnapshotPoliciesList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_disk_snapshot_policies zenlayercloud_zec_disk_snapshot_policies}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zec_disk_snapshot_policies zenlayercloud_zec_disk_snapshot_policies}
 */
 export class DataZenlayercloudZecDiskSnapshotPolicies extends cdktf.TerraformDataSource {
 
@@ -188,7 +188,7 @@ export class DataZenlayercloudZecDiskSnapshotPolicies extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataZenlayercloudZecDiskSnapshotPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZecDiskSnapshotPolicies to import
-  * @param importFromId The id of the existing DataZenlayercloudZecDiskSnapshotPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_disk_snapshot_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZecDiskSnapshotPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zec_disk_snapshot_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZecDiskSnapshotPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class DataZenlayercloudZecDiskSnapshotPolicies extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zec_disk_snapshot_policies zenlayercloud_zec_disk_snapshot_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zec_disk_snapshot_policies zenlayercloud_zec_disk_snapshot_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,8 +211,8 @@ export class DataZenlayercloudZecDiskSnapshotPolicies extends cdktf.TerraformDat
       terraformResourceType: 'zenlayercloud_zec_disk_snapshot_policies',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.10',
-        providerVersionConstraint: '0.2.10'
+        providerVersion: '0.2.11',
+        providerVersionConstraint: '0.2.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

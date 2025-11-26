@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ZlbBackendConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#id ZlbBackend#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#id ZlbBackend#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ZlbBackendConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#listener_id ZlbBackend#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#listener_id ZlbBackend#listener_id}
   */
   readonly listenerId: string;
   /**
   * ID of the load balancer instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#zlb_id ZlbBackend#zlb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#zlb_id ZlbBackend#zlb_id}
   */
   readonly zlbId: string;
   /**
   * backends block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#backends ZlbBackend#backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#backends ZlbBackend#backends}
   */
   readonly backends: ZlbBackendBackends[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#timeouts ZlbBackend#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#timeouts ZlbBackend#timeouts}
   */
   readonly timeouts?: ZlbBackendTimeouts;
 }
@@ -43,25 +43,25 @@ export interface ZlbBackendBackends {
   /**
   * ID of the backend server. The added instance must belong to the VPC associated with lb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#instance_id ZlbBackend#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#instance_id ZlbBackend#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Target port for request forwarding and health checks. If left empty, it will follow the listener's port configuration. Valid values: `1` to `65535`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#port ZlbBackend#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#port ZlbBackend#port}
   */
   readonly port?: number;
   /**
   * Private IP address of the network interface attached to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#private_ip_address ZlbBackend#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#private_ip_address ZlbBackend#private_ip_address}
   */
   readonly privateIpAddress: string;
   /**
   * Forwarding weight of the backend server. Valid value ranges: (0~65535). Default to 100. Weight of 0 means the server will not accept new requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#weight ZlbBackend#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#weight ZlbBackend#weight}
   */
   readonly weight?: number;
 }
@@ -261,15 +261,15 @@ export class ZlbBackendBackendsList extends cdktf.ComplexList {
 }
 export interface ZlbBackendTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#create ZlbBackend#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#create ZlbBackend#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#delete ZlbBackend#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#delete ZlbBackend#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#update ZlbBackend#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#update ZlbBackend#update}
   */
   readonly update?: string;
 }
@@ -421,7 +421,7 @@ export class ZlbBackendTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend zenlayercloud_zlb_backend}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend zenlayercloud_zlb_backend}
 */
 export class ZlbBackend extends cdktf.TerraformResource {
 
@@ -437,7 +437,7 @@ export class ZlbBackend extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZlbBackend resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZlbBackend to import
-  * @param importFromId The id of the existing ZlbBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZlbBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZlbBackend to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -449,7 +449,7 @@ export class ZlbBackend extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/resources/zlb_backend zenlayercloud_zlb_backend} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zlb_backend zenlayercloud_zlb_backend} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -460,8 +460,8 @@ export class ZlbBackend extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zlb_backend',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.10',
-        providerVersionConstraint: '0.2.10'
+        providerVersion: '0.2.11',
+        providerVersionConstraint: '0.2.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

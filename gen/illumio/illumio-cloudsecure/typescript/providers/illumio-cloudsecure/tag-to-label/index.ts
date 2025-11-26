@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/tag_to_label
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/tag_to_label
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,46 +10,46 @@ export interface TagToLabelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Sets of keys of AWS resource tags to map to CloudSecure labels with the same keys. The values of the created labels correspond to the values of the tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/tag_to_label#aws_tag_keys TagToLabel#aws_tag_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/tag_to_label#aws_tag_keys TagToLabel#aws_tag_keys}
   */
   readonly awsTagKeys: string[];
   /**
   * Set of keys of Azure resource tags to map to CloudSecure labels with the same keys. The values of the created labels correspond to the values of the tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/tag_to_label#azure_tag_keys TagToLabel#azure_tag_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/tag_to_label#azure_tag_keys TagToLabel#azure_tag_keys}
   */
   readonly azureTagKeys: string[];
   /**
   * Icon of the created CloudSecure labels. The supported icon names are: 
   *  > ``` access, across-enf-boundary-rtl, across-enf-boundary, ad-certificate, ad-federation, ad-lightweight-directory, ad-rights-management, ad, add-diff-classic, add-diff, add-user, add, adfs, admin, ai-star-no-fill, ai-star, all-workloads, allowlist, amazon-cognito, any, app-group-map, app, appgroup, application-definition-banner-modal, application-definition, application, arrow-curve-left-down, arrow-curve-left-up, arrow-curve-left, arrow-curve-right-down, arrow-curve-right-up, arrow-down-bold, arrow-down-bolder, arrow-down, arrow-left-long, arrow-left-to-bracket, arrow-left, arrow-right-long, arrow-right, arrow-switch-horizontal, arrow-switch-vertical, arrow-up-bold, arrow-up-bolder, arrow-up-down-switch, arrow-up, audit, auth0, aws-white, aws, azure, back-classic, back, bi-directional, bolt-filled, bookmark, brush-activate, brush-clear, brush-pause, calendar, cancel, cannot-write-rules, capslock, chart-curvy, chart-straight, check-classic, check-filled, check, chevron-double-left, chevron-double-right, circle-stop, clear, clipboard-list, close-classic, close, cloud-custom, cloud-workload, cloud, collapse-all, collapse-role, column, comment-classic, comment, container-workload, copy-new, copy, corporate, critical, customize-axis, dashboard-classic, dashboard, database, decrease, delete, deny, denylist, deployment, destination, disabled-none, disabled-status-classic, disabled-status, disabled, discover-rule-banner-modal, discovery-rule, document, down-classic, down, download-lightning, download, duplicate, edit-classic, edit-underline, edit, email, enabled, endpoint, enf-boundary-rtl, enf-boundary, enforce, enforced, env-classic, env, error-boundary, error-classic, error-filled, error, expand-role, expand, explore, export, external-link-classic, external-link, file-copy, file, filter-advanced, filter-widget, filter, flip-horizontal, flip-vertical, folder-filled, folder, gcp, global-map, global-rule, google-cloud, google-identity-platform, grab-handle-classic, grab-handle, graph-icon, grid, group, health, help-classic, help-menu, help, home-filled, how-to-read, howToRead-enforcement, howToRead-vulnerability, id, idle, illuminate, illumination, illumio-glyph, illumio-logo, illumio_glyph, impact, import, increase, info-classic, info-filled, info, infrastructure, inspect, internet, inuse-classic, inuse-full, inuse, ip-lists, jira, key, kubernetes-workload, layout-reset, layout, ldap, left, legend, lightbulb-outline, lightning-filter, link-new, link, list, loading, loc-outline, loc, local, lock-rounded, lock, machine-auth, manage, managed-tenants, map-ai-indicator, map-link-down, map-link-left, map-link, map-no-border, map, member-hide, member-show, menu, mesh, mode, more-grid, more-horizontal, more, move-tool, ms-entra-id, navigateup, network, next-classic, next, node-size, non-corporate, oci, oidc, okta, oneLogin, online, org, overflow, pair, parallel-icon, pause, pce-health, pen-ruler, pending, pin, pingIdentity, play-outline, play, policy, policyobj, pop-in-classic, pop-in, pop-out-classic, pop-out, potentially-blocked, private-address, progress-partial, progress, provision-classic, provision, refresh-classic, refresh-clock, refresh, remote-desktop, remove-diff-classic, remove-diff, remove-square, remove, reset, resize-handle, revert, right-classic, right, risk, role, run, saml, save, scope, search-alt, search-classic, search, secure-connect, selected, selection-tool, send, server, servers-endpoints, servers, service-category-placeholder, service-category, service-role-placeholder, service-role, service, settings-classic, settings, slack, sort-down, sort-up, sort, source, staged, star-outline, star, stars, starter-page-graphic, stop, stopped, suspended, syncing, t2l, table-list-close, table-list-open, table, third-party, thumbs-down-hollow, thumbs-down, thumbs-up-hollow, thumbs-up, time-count, time, traffic, troubleshoot, unlink, unlock, unlocked, unmanaged, unpair, up-classic, up, upload, usage, user-add-new, user, userprof, ven, version, video, virtual-server, virtual-service, warning-classic, warning-filled, warning, workload, zoom-in, zoom-out, zoom-to-fit-classic, zoom-to-fit ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/tag_to_label#icon TagToLabel#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/tag_to_label#icon TagToLabel#icon}
   */
   readonly icon: TagToLabelIcon;
   /**
   * Key of the created CloudSecure labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/tag_to_label#key TagToLabel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/tag_to_label#key TagToLabel#key}
   */
   readonly key: string;
   /**
   * Display name of the created CloudSecure labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/tag_to_label#name TagToLabel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/tag_to_label#name TagToLabel#name}
   */
   readonly name: string;
 }
 export interface TagToLabelIcon {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/tag_to_label#background_color TagToLabel#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/tag_to_label#background_color TagToLabel#background_color}
   */
   readonly backgroundColor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/tag_to_label#foreground_color TagToLabel#foreground_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/tag_to_label#foreground_color TagToLabel#foreground_color}
   */
   readonly foregroundColor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/tag_to_label#name TagToLabel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/tag_to_label#name TagToLabel#name}
   */
   readonly name: string;
 }
@@ -192,7 +192,7 @@ export class TagToLabelIconOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/tag_to_label illumio-cloudsecure_tag_to_label}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/tag_to_label illumio-cloudsecure_tag_to_label}
 */
 export class TagToLabel extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class TagToLabel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TagToLabel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TagToLabel to import
-  * @param importFromId The id of the existing TagToLabel that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/tag_to_label#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TagToLabel that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/tag_to_label#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TagToLabel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class TagToLabel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/tag_to_label illumio-cloudsecure_tag_to_label} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/tag_to_label illumio-cloudsecure_tag_to_label} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class TagToLabel extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_tag_to_label',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

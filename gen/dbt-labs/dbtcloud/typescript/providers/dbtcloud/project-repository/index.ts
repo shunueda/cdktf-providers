@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/project_repository
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/project_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ProjectRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/project_repository#project_id ProjectRepository#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/project_repository#project_id ProjectRepository#project_id}
   */
   readonly projectId: number;
   /**
   * Repository ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/project_repository#repository_id ProjectRepository#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/project_repository#repository_id ProjectRepository#repository_id}
   */
   readonly repositoryId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/project_repository dbtcloud_project_repository}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/project_repository dbtcloud_project_repository}
 */
 export class ProjectRepository extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ProjectRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectRepository to import
-  * @param importFromId The id of the existing ProjectRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/project_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/project_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ProjectRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/project_repository dbtcloud_project_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/project_repository dbtcloud_project_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class ProjectRepository extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_project_repository',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

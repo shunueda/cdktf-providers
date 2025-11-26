@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface RedshiftSemanticLayerCredentialConfig extends cdktf.TerraformMe
   /**
   * Semantic Layer credential configuration details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential#configuration RedshiftSemanticLayerCredential#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential#configuration RedshiftSemanticLayerCredential#configuration}
   */
   readonly configuration: RedshiftSemanticLayerCredentialConfiguration;
   /**
   * Redshift credential details, but used in the context of the Semantic Layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential#credential RedshiftSemanticLayerCredential#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential#credential RedshiftSemanticLayerCredential#credential}
   */
   readonly credential: RedshiftSemanticLayerCredentialCredential;
 }
@@ -24,19 +24,19 @@ export interface RedshiftSemanticLayerCredentialConfiguration {
   /**
   * The adapter version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential#adapter_version RedshiftSemanticLayerCredential#adapter_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential#adapter_version RedshiftSemanticLayerCredential#adapter_version}
   */
   readonly adapterVersion: string;
   /**
   * The name of the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential#name RedshiftSemanticLayerCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential#name RedshiftSemanticLayerCredential#name}
   */
   readonly name: string;
   /**
   * The ID of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential#project_id RedshiftSemanticLayerCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential#project_id RedshiftSemanticLayerCredential#project_id}
   */
   readonly projectId: number;
 }
@@ -181,37 +181,37 @@ export interface RedshiftSemanticLayerCredentialCredential {
   /**
   * Default schema name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential#default_schema RedshiftSemanticLayerCredential#default_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential#default_schema RedshiftSemanticLayerCredential#default_schema}
   */
   readonly defaultSchema: string;
   /**
   * Whether the Redshift credential is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential#is_active RedshiftSemanticLayerCredential#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential#is_active RedshiftSemanticLayerCredential#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Number of threads to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential#num_threads RedshiftSemanticLayerCredential#num_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential#num_threads RedshiftSemanticLayerCredential#num_threads}
   */
   readonly numThreads: number;
   /**
   * The password for the Redshift account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential#password RedshiftSemanticLayerCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential#password RedshiftSemanticLayerCredential#password}
   */
   readonly password?: string;
   /**
   * Project ID to create the Redshift credential in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential#project_id RedshiftSemanticLayerCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential#project_id RedshiftSemanticLayerCredential#project_id}
   */
   readonly projectId: number;
   /**
   * The username for the Redshift account. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential#username RedshiftSemanticLayerCredential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential#username RedshiftSemanticLayerCredential#username}
   */
   readonly username?: string;
 }
@@ -451,7 +451,7 @@ export class RedshiftSemanticLayerCredentialCredentialOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential dbtcloud_redshift_semantic_layer_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential dbtcloud_redshift_semantic_layer_credential}
 */
 export class RedshiftSemanticLayerCredential extends cdktf.TerraformResource {
 
@@ -467,7 +467,7 @@ export class RedshiftSemanticLayerCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedshiftSemanticLayerCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftSemanticLayerCredential to import
-  * @param importFromId The id of the existing RedshiftSemanticLayerCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftSemanticLayerCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftSemanticLayerCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -479,7 +479,7 @@ export class RedshiftSemanticLayerCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/redshift_semantic_layer_credential dbtcloud_redshift_semantic_layer_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/redshift_semantic_layer_credential dbtcloud_redshift_semantic_layer_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -490,8 +490,8 @@ export class RedshiftSemanticLayerCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_redshift_semantic_layer_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

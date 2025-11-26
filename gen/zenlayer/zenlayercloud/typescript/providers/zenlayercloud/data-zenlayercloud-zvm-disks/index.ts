@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataZenlayercloudZvmDisksConfig extends cdktf.TerraformMetaArgu
   /**
   * Zone of the disk to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks#availability_zone DataZenlayercloudZvmDisks#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks#availability_zone DataZenlayercloudZvmDisks#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Type of the disk. Valid values: `SYSTEM`, `DATA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks#disk_type DataZenlayercloudZvmDisks#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks#disk_type DataZenlayercloudZvmDisks#disk_type}
   */
   readonly diskType?: string;
   /**
   * id of the disk to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks#id DataZenlayercloudZvmDisks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks#id DataZenlayercloudZvmDisks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,37 +31,37 @@ export interface DataZenlayercloudZvmDisksConfig extends cdktf.TerraformMetaArgu
   /**
   * Query the disks which attached to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks#instance_id DataZenlayercloudZvmDisks#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks#instance_id DataZenlayercloudZvmDisks#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Fuzzy query with this name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks#name DataZenlayercloudZvmDisks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks#name DataZenlayercloudZvmDisks#name}
   */
   readonly name?: string;
   /**
   * A regex string to apply to the disk list returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks#name_regex DataZenlayercloudZvmDisks#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks#name_regex DataZenlayercloudZvmDisks#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * Whether the disk is deleted with instance or not, true means not delete with instance, false otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks#portable DataZenlayercloudZvmDisks#portable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks#portable DataZenlayercloudZvmDisks#portable}
   */
   readonly portable?: boolean | cdktf.IResolvable;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks#result_output_file DataZenlayercloudZvmDisks#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks#result_output_file DataZenlayercloudZvmDisks#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Status of disk to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks#status DataZenlayercloudZvmDisks#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks#status DataZenlayercloudZvmDisks#status}
   */
   readonly status?: string;
 }
@@ -207,7 +207,7 @@ export class DataZenlayercloudZvmDisksDisksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks zenlayercloud_zvm_disks}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks zenlayercloud_zvm_disks}
 */
 export class DataZenlayercloudZvmDisks extends cdktf.TerraformDataSource {
 
@@ -223,7 +223,7 @@ export class DataZenlayercloudZvmDisks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudZvmDisks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZvmDisks to import
-  * @param importFromId The id of the existing DataZenlayercloudZvmDisks that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZvmDisks that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZvmDisks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class DataZenlayercloudZvmDisks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/zvm_disks zenlayercloud_zvm_disks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zvm_disks zenlayercloud_zvm_disks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class DataZenlayercloudZvmDisks extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zvm_disks',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.10',
-        providerVersionConstraint: '0.2.10'
+        providerVersion: '0.2.11',
+        providerVersionConstraint: '0.2.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

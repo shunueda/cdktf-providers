@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AwsVpcPeerV2Config extends cdktf.TerraformMetaArguments {
   /**
   * ID of the Cluster Data Centre
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2#cdc_id AwsVpcPeerV2#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2#cdc_id AwsVpcPeerV2#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * ID of the current data centre VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2#data_centre_vpc_id AwsVpcPeerV2#data_centre_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2#data_centre_vpc_id AwsVpcPeerV2#data_centre_vpc_id}
   */
   readonly dataCentreVpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2#id AwsVpcPeerV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2#id AwsVpcPeerV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface AwsVpcPeerV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The AWS account ID of the owner of the accepter VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2#peer_aws_account_id AwsVpcPeerV2#peer_aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2#peer_aws_account_id AwsVpcPeerV2#peer_aws_account_id}
   */
   readonly peerAwsAccountId?: string;
   /**
   * Region code for the accepter VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2#peer_region AwsVpcPeerV2#peer_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2#peer_region AwsVpcPeerV2#peer_region}
   */
   readonly peerRegion?: string;
   /**
   * The subnets for the peering VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2#peer_subnets AwsVpcPeerV2#peer_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2#peer_subnets AwsVpcPeerV2#peer_subnets}
   */
   readonly peerSubnets?: string[];
   /**
   * ID of the VPC with which the peering connection is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2#peer_vpc_id AwsVpcPeerV2#peer_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2#peer_vpc_id AwsVpcPeerV2#peer_vpc_id}
   */
   readonly peerVpcId?: string;
   /**
   * Status of the VPC Peering Connection. Values can be `pending-acceptance`, `failed`, `expired`, `provisioning`, `active`, `deleting`, `deleted` or `rejected`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2#status_code AwsVpcPeerV2#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2#status_code AwsVpcPeerV2#status_code}
   */
   readonly statusCode?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2#timeouts AwsVpcPeerV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2#timeouts AwsVpcPeerV2#timeouts}
   */
   readonly timeouts?: AwsVpcPeerV2Timeouts;
 }
 export interface AwsVpcPeerV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2#default AwsVpcPeerV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2#default AwsVpcPeerV2#default}
   */
   readonly default?: string;
 }
@@ -159,7 +159,7 @@ export class AwsVpcPeerV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2 instaclustr_aws_vpc_peer_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2 instaclustr_aws_vpc_peer_v2}
 */
 export class AwsVpcPeerV2 extends cdktf.TerraformResource {
 
@@ -175,7 +175,7 @@ export class AwsVpcPeerV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsVpcPeerV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsVpcPeerV2 to import
-  * @param importFromId The id of the existing AwsVpcPeerV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsVpcPeerV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsVpcPeerV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class AwsVpcPeerV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.29/docs/resources/aws_vpc_peer_v2 instaclustr_aws_vpc_peer_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/resources/aws_vpc_peer_v2 instaclustr_aws_vpc_peer_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class AwsVpcPeerV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_aws_vpc_peer_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.29',
-        providerVersionConstraint: '2.1.29'
+        providerVersion: '2.1.30',
+        providerVersionConstraint: '2.1.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface DeploymentConfig extends cdktf.TerraformMetaArguments {
   /**
   * IDs of AWS accounts included in this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#aws_account_ids Deployment#aws_account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#aws_account_ids Deployment#aws_account_ids}
   */
   readonly awsAccountIds?: string[];
   /**
   * AWS regions included in this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#aws_regions Deployment#aws_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#aws_regions Deployment#aws_regions}
   */
   readonly awsRegions?: string[];
   /**
   * IDs of AWS subnets included in this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#aws_subnet_ids Deployment#aws_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#aws_subnet_ids Deployment#aws_subnet_ids}
   */
   readonly awsSubnetIds?: string[];
   /**
   * AWS tags included in this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#aws_tags Deployment#aws_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#aws_tags Deployment#aws_tags}
   */
   readonly awsTags?: DeploymentAwsTags[] | cdktf.IResolvable;
   /**
   * IDs of AWS VPCs included in this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#aws_vpc_ids Deployment#aws_vpc_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#aws_vpc_ids Deployment#aws_vpc_ids}
   */
   readonly awsVpcIds?: string[];
   /**
   * Azure regions included in this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#azure_regions Deployment#azure_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#azure_regions Deployment#azure_regions}
   */
   readonly azureRegions?: string[];
   /**
   * IDs of Azure subnets included in this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#azure_subnet_ids Deployment#azure_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#azure_subnet_ids Deployment#azure_subnet_ids}
   */
   readonly azureSubnetIds?: string[];
   /**
   * IDs of Azure subscriptions included in this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#azure_subscription_ids Deployment#azure_subscription_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#azure_subscription_ids Deployment#azure_subscription_ids}
   */
   readonly azureSubscriptionIds?: string[];
   /**
   * Azure tags included in this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#azure_tags Deployment#azure_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#azure_tags Deployment#azure_tags}
   */
   readonly azureTags?: DeploymentAzureTags[] | cdktf.IResolvable;
   /**
   * IDs of Azure VNets included in this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#azure_vnet_ids Deployment#azure_vnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#azure_vnet_ids Deployment#azure_vnet_ids}
   */
   readonly azureVnetIds?: string[];
   /**
   * Description of Cloudsecure deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#description Deployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#description Deployment#description}
   */
   readonly description?: string;
   /**
   * Name of the CloudSecure deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#name Deployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#name Deployment#name}
   */
   readonly name: string;
 }
 export interface DeploymentAwsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#key Deployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#key Deployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#value Deployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#value Deployment#value}
   */
   readonly value?: string;
 }
@@ -231,11 +231,11 @@ export class DeploymentAwsTagsList extends cdktf.ComplexList {
 }
 export interface DeploymentAzureTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#key Deployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#key Deployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#value Deployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#value Deployment#value}
   */
   readonly value?: string;
 }
@@ -380,7 +380,7 @@ export class DeploymentAzureTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment illumio-cloudsecure_deployment}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment illumio-cloudsecure_deployment}
 */
 export class Deployment extends cdktf.TerraformResource {
 
@@ -396,7 +396,7 @@ export class Deployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Deployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Deployment to import
-  * @param importFromId The id of the existing Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Deployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -408,7 +408,7 @@ export class Deployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.5.3/docs/resources/deployment illumio-cloudsecure_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/deployment illumio-cloudsecure_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -419,8 +419,8 @@ export class Deployment extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_deployment',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

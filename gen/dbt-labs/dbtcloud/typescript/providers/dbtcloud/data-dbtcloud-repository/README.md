@@ -1,3 +1,3 @@
 # `data_dbtcloud_repository`
 
-Refer to the Terraform Registry for docs: [`data_dbtcloud_repository`](https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/repository).
+Refer to the Terraform Registry for docs: [`data_dbtcloud_repository`](https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/repository).

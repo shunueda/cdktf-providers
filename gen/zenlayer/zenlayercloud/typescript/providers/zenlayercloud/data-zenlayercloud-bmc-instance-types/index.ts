@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_instance_types
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_instance_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataZenlayercloudBmcInstanceTypesConfig extends cdktf.Terraform
   /**
   * The available zone that the BMC instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_instance_types#availability_zone DataZenlayercloudBmcInstanceTypes#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_instance_types#availability_zone DataZenlayercloudBmcInstanceTypes#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Indicate to filter instances types that is sold out or not, default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_instance_types#exclude_sold_out DataZenlayercloudBmcInstanceTypes#exclude_sold_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_instance_types#exclude_sold_out DataZenlayercloudBmcInstanceTypes#exclude_sold_out}
   */
   readonly excludeSoldOut?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_instance_types#id DataZenlayercloudBmcInstanceTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_instance_types#id DataZenlayercloudBmcInstanceTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataZenlayercloudBmcInstanceTypesConfig extends cdktf.Terraform
   /**
   * The charge type of instance. Valid values are `POSTPAID`, `PREPAID`. The default is `POSTPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_instance_types#instance_charge_type DataZenlayercloudBmcInstanceTypes#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_instance_types#instance_charge_type DataZenlayercloudBmcInstanceTypes#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * The instance type id of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_instance_types#instance_type_id DataZenlayercloudBmcInstanceTypes#instance_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_instance_types#instance_type_id DataZenlayercloudBmcInstanceTypes#instance_type_id}
   */
   readonly instanceTypeId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_instance_types#result_output_file DataZenlayercloudBmcInstanceTypes#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_instance_types#result_output_file DataZenlayercloudBmcInstanceTypes#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -147,7 +147,7 @@ export class DataZenlayercloudBmcInstanceTypesInstanceTypesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_instance_types zenlayercloud_bmc_instance_types}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_instance_types zenlayercloud_bmc_instance_types}
 */
 export class DataZenlayercloudBmcInstanceTypes extends cdktf.TerraformDataSource {
 
@@ -163,7 +163,7 @@ export class DataZenlayercloudBmcInstanceTypes extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataZenlayercloudBmcInstanceTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudBmcInstanceTypes to import
-  * @param importFromId The id of the existing DataZenlayercloudBmcInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_instance_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudBmcInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_instance_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudBmcInstanceTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class DataZenlayercloudBmcInstanceTypes extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.10/docs/data-sources/bmc_instance_types zenlayercloud_bmc_instance_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/bmc_instance_types zenlayercloud_bmc_instance_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class DataZenlayercloudBmcInstanceTypes extends cdktf.TerraformDataSource
       terraformResourceType: 'zenlayercloud_bmc_instance_types',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.10',
-        providerVersionConstraint: '0.2.10'
+        providerVersion: '0.2.11',
+        providerVersionConstraint: '0.2.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
