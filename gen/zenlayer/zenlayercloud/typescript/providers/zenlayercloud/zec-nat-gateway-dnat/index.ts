@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_dnat
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_nat_gateway_dnat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ZecNatGatewayDnatConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the public EIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_dnat#eip_id ZecNatGatewayDnat#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_nat_gateway_dnat#eip_id ZecNatGatewayDnat#eip_id}
   */
   readonly eipId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_dnat#id ZecNatGatewayDnat#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_nat_gateway_dnat#id ZecNatGatewayDnat#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface ZecNatGatewayDnatConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the NAT gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_dnat#nat_gateway_id ZecNatGatewayDnat#nat_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_nat_gateway_dnat#nat_gateway_id ZecNatGatewayDnat#nat_gateway_id}
   */
   readonly natGatewayId: string;
   /**
   * The private ip address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_dnat#private_ip_address ZecNatGatewayDnat#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_nat_gateway_dnat#private_ip_address ZecNatGatewayDnat#private_ip_address}
   */
   readonly privateIpAddress: string;
   /**
   * The internal port or port segment for DNAT rule port forwarding. You can use a hyphen (`-`) to specify a port range, e.g. 80-100. The number of public and private ports must be consistent. The value range is 1-65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_dnat#private_port ZecNatGatewayDnat#private_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_nat_gateway_dnat#private_port ZecNatGatewayDnat#private_port}
   */
   readonly privatePort?: string;
   /**
   * The IP protocol type of the DNAT entry. Valid values: `TCP`, `UDP`, `Any`. If you want to forward all traffic with unchanged ports, please specify the protocol type as `Any` and do not set the internal port and public external port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_dnat#protocol ZecNatGatewayDnat#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_nat_gateway_dnat#protocol ZecNatGatewayDnat#protocol}
   */
   readonly protocol: string;
   /**
   * The external public port or port segment for DNAT rule port forwarding. You can use a hyphen (`-`) to specify a port range, e.g. 80-100. The number of public and private ports must be consistent. The value range is 1-65535. If no port is specified, all traffic will be forwarded with the destination port unchanged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_dnat#public_port ZecNatGatewayDnat#public_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_nat_gateway_dnat#public_port ZecNatGatewayDnat#public_port}
   */
   readonly publicPort?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_dnat zenlayercloud_zec_nat_gateway_dnat}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_nat_gateway_dnat zenlayercloud_zec_nat_gateway_dnat}
 */
 export class ZecNatGatewayDnat extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ZecNatGatewayDnat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecNatGatewayDnat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecNatGatewayDnat to import
-  * @param importFromId The id of the existing ZecNatGatewayDnat that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_dnat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecNatGatewayDnat that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_nat_gateway_dnat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecNatGatewayDnat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ZecNatGatewayDnat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_nat_gateway_dnat zenlayercloud_zec_nat_gateway_dnat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_nat_gateway_dnat zenlayercloud_zec_nat_gateway_dnat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ZecNatGatewayDnat extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_nat_gateway_dnat',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.11',
-        providerVersionConstraint: '0.2.11'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

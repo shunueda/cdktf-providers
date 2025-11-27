@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataOvhIpFirewallConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP (v4 or v6) CIDR notation (e.g., 192.0.2.0/24)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall#ip DataOvhIpFirewall#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall#ip DataOvhIpFirewall#ip}
   */
   readonly ip: string;
   /**
   * IPv4 address (e.g., 192.0.2.0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall#ip_on_firewall DataOvhIpFirewall#ip_on_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall#ip_on_firewall DataOvhIpFirewall#ip_on_firewall}
   */
   readonly ipOnFirewall: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall ovh_ip_firewall}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall ovh_ip_firewall}
 */
 export class DataOvhIpFirewall extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataOvhIpFirewall extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhIpFirewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhIpFirewall to import
-  * @param importFromId The id of the existing DataOvhIpFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhIpFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhIpFirewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataOvhIpFirewall extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall ovh_ip_firewall} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall ovh_ip_firewall} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataOvhIpFirewall extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_ip_firewall',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

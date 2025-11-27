@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,222 +8,222 @@ import * as cdktf from 'cdktf';
 
 export interface AzureServiceFabricClusterDeploymentTargetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#aad_client_credential_secret AzureServiceFabricClusterDeploymentTarget#aad_client_credential_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#aad_client_credential_secret AzureServiceFabricClusterDeploymentTarget#aad_client_credential_secret}
   */
   readonly aadClientCredentialSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#aad_credential_type AzureServiceFabricClusterDeploymentTarget#aad_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#aad_credential_type AzureServiceFabricClusterDeploymentTarget#aad_credential_type}
   */
   readonly aadCredentialType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#aad_user_credential_password AzureServiceFabricClusterDeploymentTarget#aad_user_credential_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#aad_user_credential_password AzureServiceFabricClusterDeploymentTarget#aad_user_credential_password}
   */
   readonly aadUserCredentialPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#aad_user_credential_username AzureServiceFabricClusterDeploymentTarget#aad_user_credential_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#aad_user_credential_username AzureServiceFabricClusterDeploymentTarget#aad_user_credential_username}
   */
   readonly aadUserCredentialUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#certificate_store_location AzureServiceFabricClusterDeploymentTarget#certificate_store_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#certificate_store_location AzureServiceFabricClusterDeploymentTarget#certificate_store_location}
   */
   readonly certificateStoreLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#certificate_store_name AzureServiceFabricClusterDeploymentTarget#certificate_store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#certificate_store_name AzureServiceFabricClusterDeploymentTarget#certificate_store_name}
   */
   readonly certificateStoreName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#client_certificate_variable AzureServiceFabricClusterDeploymentTarget#client_certificate_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#client_certificate_variable AzureServiceFabricClusterDeploymentTarget#client_certificate_variable}
   */
   readonly clientCertificateVariable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#connection_endpoint AzureServiceFabricClusterDeploymentTarget#connection_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#connection_endpoint AzureServiceFabricClusterDeploymentTarget#connection_endpoint}
   */
   readonly connectionEndpoint: string;
   /**
   * A list of environment IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#environments AzureServiceFabricClusterDeploymentTarget#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#environments AzureServiceFabricClusterDeploymentTarget#environments}
   */
   readonly environments: string[];
   /**
   * Represents the health status of this deployment target. Valid health statuses are `HasWarnings`, `Healthy`, `Unavailable`, `Unhealthy`, or `Unknown`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#health_status AzureServiceFabricClusterDeploymentTarget#health_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#health_status AzureServiceFabricClusterDeploymentTarget#health_status}
   */
   readonly healthStatus?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#id AzureServiceFabricClusterDeploymentTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#id AzureServiceFabricClusterDeploymentTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#is_disabled AzureServiceFabricClusterDeploymentTarget#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#is_disabled AzureServiceFabricClusterDeploymentTarget#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#machine_policy_id AzureServiceFabricClusterDeploymentTarget#machine_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#machine_policy_id AzureServiceFabricClusterDeploymentTarget#machine_policy_id}
   */
   readonly machinePolicyId?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#name AzureServiceFabricClusterDeploymentTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#name AzureServiceFabricClusterDeploymentTarget#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#operating_system AzureServiceFabricClusterDeploymentTarget#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#operating_system AzureServiceFabricClusterDeploymentTarget#operating_system}
   */
   readonly operatingSystem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#roles AzureServiceFabricClusterDeploymentTarget#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#roles AzureServiceFabricClusterDeploymentTarget#roles}
   */
   readonly roles: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#security_mode AzureServiceFabricClusterDeploymentTarget#security_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#security_mode AzureServiceFabricClusterDeploymentTarget#security_mode}
   */
   readonly securityMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#server_certificate_thumbprint AzureServiceFabricClusterDeploymentTarget#server_certificate_thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#server_certificate_thumbprint AzureServiceFabricClusterDeploymentTarget#server_certificate_thumbprint}
   */
   readonly serverCertificateThumbprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#shell_name AzureServiceFabricClusterDeploymentTarget#shell_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#shell_name AzureServiceFabricClusterDeploymentTarget#shell_name}
   */
   readonly shellName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#shell_version AzureServiceFabricClusterDeploymentTarget#shell_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#shell_version AzureServiceFabricClusterDeploymentTarget#shell_version}
   */
   readonly shellVersion?: string;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#space_id AzureServiceFabricClusterDeploymentTarget#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#space_id AzureServiceFabricClusterDeploymentTarget#space_id}
   */
   readonly spaceId?: string;
   /**
   * The status of this resource. Valid statuses are `CalamariNeedsUpgrade`, `Disabled`, `NeedsUpgrade`, `Offline`, `Online`, or `Unknown`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#status AzureServiceFabricClusterDeploymentTarget#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#status AzureServiceFabricClusterDeploymentTarget#status}
   */
   readonly status?: string;
   /**
   * A summary elaborating on the status of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#status_summary AzureServiceFabricClusterDeploymentTarget#status_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#status_summary AzureServiceFabricClusterDeploymentTarget#status_summary}
   */
   readonly statusSummary?: string;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#tenant_tags AzureServiceFabricClusterDeploymentTarget#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#tenant_tags AzureServiceFabricClusterDeploymentTarget#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The tenanted deployment mode of the resource. Valid account types are `Untenanted`, `TenantedOrUntenanted`, or `Tenanted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#tenanted_deployment_participation AzureServiceFabricClusterDeploymentTarget#tenanted_deployment_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#tenanted_deployment_participation AzureServiceFabricClusterDeploymentTarget#tenanted_deployment_participation}
   */
   readonly tenantedDeploymentParticipation?: string;
   /**
   * A list of tenant IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#tenants AzureServiceFabricClusterDeploymentTarget#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#tenants AzureServiceFabricClusterDeploymentTarget#tenants}
   */
   readonly tenants?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#thumbprint AzureServiceFabricClusterDeploymentTarget#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#thumbprint AzureServiceFabricClusterDeploymentTarget#thumbprint}
   */
   readonly thumbprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#uri AzureServiceFabricClusterDeploymentTarget#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#uri AzureServiceFabricClusterDeploymentTarget#uri}
   */
   readonly uri?: string;
   /**
   * endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#endpoint AzureServiceFabricClusterDeploymentTarget#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#endpoint AzureServiceFabricClusterDeploymentTarget#endpoint}
   */
   readonly endpoint?: AzureServiceFabricClusterDeploymentTargetEndpoint[] | cdktf.IResolvable;
 }
 export interface AzureServiceFabricClusterDeploymentTargetEndpointAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#account_id AzureServiceFabricClusterDeploymentTarget#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#account_id AzureServiceFabricClusterDeploymentTarget#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#admin_login AzureServiceFabricClusterDeploymentTarget#admin_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#admin_login AzureServiceFabricClusterDeploymentTarget#admin_login}
   */
   readonly adminLogin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#assume_role AzureServiceFabricClusterDeploymentTarget#assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#assume_role AzureServiceFabricClusterDeploymentTarget#assume_role}
   */
   readonly assumeRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#assume_role_external_id AzureServiceFabricClusterDeploymentTarget#assume_role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#assume_role_external_id AzureServiceFabricClusterDeploymentTarget#assume_role_external_id}
   */
   readonly assumeRoleExternalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#assume_role_session_duration AzureServiceFabricClusterDeploymentTarget#assume_role_session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#assume_role_session_duration AzureServiceFabricClusterDeploymentTarget#assume_role_session_duration}
   */
   readonly assumeRoleSessionDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#assumed_role_arn AzureServiceFabricClusterDeploymentTarget#assumed_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#assumed_role_arn AzureServiceFabricClusterDeploymentTarget#assumed_role_arn}
   */
   readonly assumedRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#assumed_role_session AzureServiceFabricClusterDeploymentTarget#assumed_role_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#assumed_role_session AzureServiceFabricClusterDeploymentTarget#assumed_role_session}
   */
   readonly assumedRoleSession?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#authentication_type AzureServiceFabricClusterDeploymentTarget#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#authentication_type AzureServiceFabricClusterDeploymentTarget#authentication_type}
   */
   readonly authenticationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#client_certificate AzureServiceFabricClusterDeploymentTarget#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#client_certificate AzureServiceFabricClusterDeploymentTarget#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#cluster_name AzureServiceFabricClusterDeploymentTarget#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#cluster_name AzureServiceFabricClusterDeploymentTarget#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#cluster_resource_group AzureServiceFabricClusterDeploymentTarget#cluster_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#cluster_resource_group AzureServiceFabricClusterDeploymentTarget#cluster_resource_group}
   */
   readonly clusterResourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#impersonate_service_account AzureServiceFabricClusterDeploymentTarget#impersonate_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#impersonate_service_account AzureServiceFabricClusterDeploymentTarget#impersonate_service_account}
   */
   readonly impersonateServiceAccount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#project AzureServiceFabricClusterDeploymentTarget#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#project AzureServiceFabricClusterDeploymentTarget#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#region AzureServiceFabricClusterDeploymentTarget#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#region AzureServiceFabricClusterDeploymentTarget#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#service_account_emails AzureServiceFabricClusterDeploymentTarget#service_account_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#service_account_emails AzureServiceFabricClusterDeploymentTarget#service_account_emails}
   */
   readonly serviceAccountEmails?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#token_path AzureServiceFabricClusterDeploymentTarget#token_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#token_path AzureServiceFabricClusterDeploymentTarget#token_path}
   */
   readonly tokenPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#use_instance_role AzureServiceFabricClusterDeploymentTarget#use_instance_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#use_instance_role AzureServiceFabricClusterDeploymentTarget#use_instance_role}
   */
   readonly useInstanceRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#use_vm_service_account AzureServiceFabricClusterDeploymentTarget#use_vm_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#use_vm_service_account AzureServiceFabricClusterDeploymentTarget#use_vm_service_account}
   */
   readonly useVmServiceAccount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#zone AzureServiceFabricClusterDeploymentTarget#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#zone AzureServiceFabricClusterDeploymentTarget#zone}
   */
   readonly zone?: string;
 }
@@ -829,11 +829,11 @@ export class AzureServiceFabricClusterDeploymentTargetEndpointAuthenticationOutp
 }
 export interface AzureServiceFabricClusterDeploymentTargetEndpointContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#feed_id AzureServiceFabricClusterDeploymentTarget#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#feed_id AzureServiceFabricClusterDeploymentTarget#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#image AzureServiceFabricClusterDeploymentTarget#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#image AzureServiceFabricClusterDeploymentTarget#image}
   */
   readonly image?: string;
 }
@@ -978,11 +978,11 @@ export class AzureServiceFabricClusterDeploymentTargetEndpointContainerList exte
 }
 export interface AzureServiceFabricClusterDeploymentTargetEndpointDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#destination_type AzureServiceFabricClusterDeploymentTarget#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#destination_type AzureServiceFabricClusterDeploymentTarget#destination_type}
   */
   readonly destinationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#drop_folder_path AzureServiceFabricClusterDeploymentTarget#drop_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#drop_folder_path AzureServiceFabricClusterDeploymentTarget#drop_folder_path}
   */
   readonly dropFolderPath?: string;
 }
@@ -1127,19 +1127,19 @@ export class AzureServiceFabricClusterDeploymentTargetEndpointDestinationList ex
 }
 export interface AzureServiceFabricClusterDeploymentTargetEndpointTentacleVersionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#upgrade_locked AzureServiceFabricClusterDeploymentTarget#upgrade_locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#upgrade_locked AzureServiceFabricClusterDeploymentTarget#upgrade_locked}
   */
   readonly upgradeLocked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#upgrade_required AzureServiceFabricClusterDeploymentTarget#upgrade_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#upgrade_required AzureServiceFabricClusterDeploymentTarget#upgrade_required}
   */
   readonly upgradeRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#upgrade_suggested AzureServiceFabricClusterDeploymentTarget#upgrade_suggested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#upgrade_suggested AzureServiceFabricClusterDeploymentTarget#upgrade_suggested}
   */
   readonly upgradeSuggested?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#version AzureServiceFabricClusterDeploymentTarget#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#version AzureServiceFabricClusterDeploymentTarget#version}
   */
   readonly version?: string;
 }
@@ -1342,184 +1342,184 @@ export class AzureServiceFabricClusterDeploymentTargetEndpointTentacleVersionDet
 }
 export interface AzureServiceFabricClusterDeploymentTargetEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#aad_client_credential_secret AzureServiceFabricClusterDeploymentTarget#aad_client_credential_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#aad_client_credential_secret AzureServiceFabricClusterDeploymentTarget#aad_client_credential_secret}
   */
   readonly aadClientCredentialSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#aad_credential_type AzureServiceFabricClusterDeploymentTarget#aad_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#aad_credential_type AzureServiceFabricClusterDeploymentTarget#aad_credential_type}
   */
   readonly aadCredentialType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#aad_user_credential_username AzureServiceFabricClusterDeploymentTarget#aad_user_credential_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#aad_user_credential_username AzureServiceFabricClusterDeploymentTarget#aad_user_credential_username}
   */
   readonly aadUserCredentialUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#account_id AzureServiceFabricClusterDeploymentTarget#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#account_id AzureServiceFabricClusterDeploymentTarget#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#applications_directory AzureServiceFabricClusterDeploymentTarget#applications_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#applications_directory AzureServiceFabricClusterDeploymentTarget#applications_directory}
   */
   readonly applicationsDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#certificate_signature_algorithm AzureServiceFabricClusterDeploymentTarget#certificate_signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#certificate_signature_algorithm AzureServiceFabricClusterDeploymentTarget#certificate_signature_algorithm}
   */
   readonly certificateSignatureAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#certificate_store_location AzureServiceFabricClusterDeploymentTarget#certificate_store_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#certificate_store_location AzureServiceFabricClusterDeploymentTarget#certificate_store_location}
   */
   readonly certificateStoreLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#certificate_store_name AzureServiceFabricClusterDeploymentTarget#certificate_store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#certificate_store_name AzureServiceFabricClusterDeploymentTarget#certificate_store_name}
   */
   readonly certificateStoreName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#client_certificate_variable AzureServiceFabricClusterDeploymentTarget#client_certificate_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#client_certificate_variable AzureServiceFabricClusterDeploymentTarget#client_certificate_variable}
   */
   readonly clientCertificateVariable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#cloud_service_name AzureServiceFabricClusterDeploymentTarget#cloud_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#cloud_service_name AzureServiceFabricClusterDeploymentTarget#cloud_service_name}
   */
   readonly cloudServiceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#cluster_certificate AzureServiceFabricClusterDeploymentTarget#cluster_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#cluster_certificate AzureServiceFabricClusterDeploymentTarget#cluster_certificate}
   */
   readonly clusterCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#cluster_certificate_path AzureServiceFabricClusterDeploymentTarget#cluster_certificate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#cluster_certificate_path AzureServiceFabricClusterDeploymentTarget#cluster_certificate_path}
   */
   readonly clusterCertificatePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#cluster_url AzureServiceFabricClusterDeploymentTarget#cluster_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#cluster_url AzureServiceFabricClusterDeploymentTarget#cluster_url}
   */
   readonly clusterUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#communication_style AzureServiceFabricClusterDeploymentTarget#communication_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#communication_style AzureServiceFabricClusterDeploymentTarget#communication_style}
   */
   readonly communicationStyle: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#connection_endpoint AzureServiceFabricClusterDeploymentTarget#connection_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#connection_endpoint AzureServiceFabricClusterDeploymentTarget#connection_endpoint}
   */
   readonly connectionEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#container_options AzureServiceFabricClusterDeploymentTarget#container_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#container_options AzureServiceFabricClusterDeploymentTarget#container_options}
   */
   readonly containerOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#default_worker_pool_id AzureServiceFabricClusterDeploymentTarget#default_worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#default_worker_pool_id AzureServiceFabricClusterDeploymentTarget#default_worker_pool_id}
   */
   readonly defaultWorkerPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#dot_net_core_platform AzureServiceFabricClusterDeploymentTarget#dot_net_core_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#dot_net_core_platform AzureServiceFabricClusterDeploymentTarget#dot_net_core_platform}
   */
   readonly dotNetCorePlatform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#fingerprint AzureServiceFabricClusterDeploymentTarget#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#fingerprint AzureServiceFabricClusterDeploymentTarget#fingerprint}
   */
   readonly fingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#host AzureServiceFabricClusterDeploymentTarget#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#host AzureServiceFabricClusterDeploymentTarget#host}
   */
   readonly host?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#id AzureServiceFabricClusterDeploymentTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#id AzureServiceFabricClusterDeploymentTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#namespace AzureServiceFabricClusterDeploymentTarget#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#namespace AzureServiceFabricClusterDeploymentTarget#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#port AzureServiceFabricClusterDeploymentTarget#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#port AzureServiceFabricClusterDeploymentTarget#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#proxy_id AzureServiceFabricClusterDeploymentTarget#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#proxy_id AzureServiceFabricClusterDeploymentTarget#proxy_id}
   */
   readonly proxyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#resource_group_name AzureServiceFabricClusterDeploymentTarget#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#resource_group_name AzureServiceFabricClusterDeploymentTarget#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#running_in_container AzureServiceFabricClusterDeploymentTarget#running_in_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#running_in_container AzureServiceFabricClusterDeploymentTarget#running_in_container}
   */
   readonly runningInContainer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#security_mode AzureServiceFabricClusterDeploymentTarget#security_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#security_mode AzureServiceFabricClusterDeploymentTarget#security_mode}
   */
   readonly securityMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#server_certificate_thumbprint AzureServiceFabricClusterDeploymentTarget#server_certificate_thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#server_certificate_thumbprint AzureServiceFabricClusterDeploymentTarget#server_certificate_thumbprint}
   */
   readonly serverCertificateThumbprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#skip_tls_verification AzureServiceFabricClusterDeploymentTarget#skip_tls_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#skip_tls_verification AzureServiceFabricClusterDeploymentTarget#skip_tls_verification}
   */
   readonly skipTlsVerification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#slot AzureServiceFabricClusterDeploymentTarget#slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#slot AzureServiceFabricClusterDeploymentTarget#slot}
   */
   readonly slot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#storage_account_name AzureServiceFabricClusterDeploymentTarget#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#storage_account_name AzureServiceFabricClusterDeploymentTarget#storage_account_name}
   */
   readonly storageAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#swap_if_possible AzureServiceFabricClusterDeploymentTarget#swap_if_possible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#swap_if_possible AzureServiceFabricClusterDeploymentTarget#swap_if_possible}
   */
   readonly swapIfPossible?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#thumbprint AzureServiceFabricClusterDeploymentTarget#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#thumbprint AzureServiceFabricClusterDeploymentTarget#thumbprint}
   */
   readonly thumbprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#uri AzureServiceFabricClusterDeploymentTarget#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#uri AzureServiceFabricClusterDeploymentTarget#uri}
   */
   readonly uri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#use_current_instance_count AzureServiceFabricClusterDeploymentTarget#use_current_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#use_current_instance_count AzureServiceFabricClusterDeploymentTarget#use_current_instance_count}
   */
   readonly useCurrentInstanceCount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#web_app_name AzureServiceFabricClusterDeploymentTarget#web_app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#web_app_name AzureServiceFabricClusterDeploymentTarget#web_app_name}
   */
   readonly webAppName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#web_app_slot_name AzureServiceFabricClusterDeploymentTarget#web_app_slot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#web_app_slot_name AzureServiceFabricClusterDeploymentTarget#web_app_slot_name}
   */
   readonly webAppSlotName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#working_directory AzureServiceFabricClusterDeploymentTarget#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#working_directory AzureServiceFabricClusterDeploymentTarget#working_directory}
   */
   readonly workingDirectory?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#authentication AzureServiceFabricClusterDeploymentTarget#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#authentication AzureServiceFabricClusterDeploymentTarget#authentication}
   */
   readonly authentication?: AzureServiceFabricClusterDeploymentTargetEndpointAuthentication;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#container AzureServiceFabricClusterDeploymentTarget#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#container AzureServiceFabricClusterDeploymentTarget#container}
   */
   readonly container?: AzureServiceFabricClusterDeploymentTargetEndpointContainer[] | cdktf.IResolvable;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#destination AzureServiceFabricClusterDeploymentTarget#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#destination AzureServiceFabricClusterDeploymentTarget#destination}
   */
   readonly destination?: AzureServiceFabricClusterDeploymentTargetEndpointDestination[] | cdktf.IResolvable;
   /**
   * tentacle_version_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#tentacle_version_details AzureServiceFabricClusterDeploymentTarget#tentacle_version_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#tentacle_version_details AzureServiceFabricClusterDeploymentTarget#tentacle_version_details}
   */
   readonly tentacleVersionDetails?: AzureServiceFabricClusterDeploymentTargetEndpointTentacleVersionDetails[] | cdktf.IResolvable;
 }
@@ -2821,7 +2821,7 @@ export class AzureServiceFabricClusterDeploymentTargetEndpointList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target octopusdeploy_azure_service_fabric_cluster_deployment_target}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target octopusdeploy_azure_service_fabric_cluster_deployment_target}
 */
 export class AzureServiceFabricClusterDeploymentTarget extends cdktf.TerraformResource {
 
@@ -2837,7 +2837,7 @@ export class AzureServiceFabricClusterDeploymentTarget extends cdktf.TerraformRe
   * Generates CDKTF code for importing a AzureServiceFabricClusterDeploymentTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureServiceFabricClusterDeploymentTarget to import
-  * @param importFromId The id of the existing AzureServiceFabricClusterDeploymentTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureServiceFabricClusterDeploymentTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureServiceFabricClusterDeploymentTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2849,7 +2849,7 @@ export class AzureServiceFabricClusterDeploymentTarget extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_service_fabric_cluster_deployment_target octopusdeploy_azure_service_fabric_cluster_deployment_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_fabric_cluster_deployment_target octopusdeploy_azure_service_fabric_cluster_deployment_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2860,8 +2860,8 @@ export class AzureServiceFabricClusterDeploymentTarget extends cdktf.TerraformRe
       terraformResourceType: 'octopusdeploy_azure_service_fabric_cluster_deployment_target',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

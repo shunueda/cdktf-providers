@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SystemUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user#___path___ SystemUser#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user#___path___ SystemUser#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user#___skip___ SystemUser#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user#___skip___ SystemUser#___skip___}
   */
   readonly skip?: string;
   /**
   * Host or network address from which the user is allowed to log in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user#address SystemUser#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user#address SystemUser#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user#comment SystemUser#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user#comment SystemUser#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user#disabled SystemUser#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user#disabled SystemUser#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the group the user belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user#group SystemUser#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user#group SystemUser#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user#id SystemUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user#id SystemUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,31 +49,31 @@ export interface SystemUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Inactivity policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user#inactivity_policy SystemUser#inactivity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user#inactivity_policy SystemUser#inactivity_policy}
   */
   readonly inactivityPolicy?: string;
   /**
   * Inactivity timeout for non-GUI sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user#inactivity_timeout SystemUser#inactivity_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user#inactivity_timeout SystemUser#inactivity_timeout}
   */
   readonly inactivityTimeout?: string;
   /**
   * User name. Although it must start with an alphanumeric character, it may contain '*', '_', '.' and '@' symbols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user#name SystemUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user#name SystemUser#name}
   */
   readonly name: string;
   /**
   * User  password. If not specified, it is left blank (hit [Enter] when logging  in). It conforms to standard Unix characteristics of passwords and may  contain letters, digits, '*' and '_' symbols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user#password SystemUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user#password SystemUser#password}
   */
   readonly password?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user routeros_system_user}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user routeros_system_user}
 */
 export class SystemUser extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class SystemUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemUser to import
-  * @param importFromId The id of the existing SystemUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class SystemUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user routeros_system_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user routeros_system_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class SystemUser extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_system_user',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

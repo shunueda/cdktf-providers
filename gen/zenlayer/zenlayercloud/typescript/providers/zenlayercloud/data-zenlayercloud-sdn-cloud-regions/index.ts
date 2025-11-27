@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_cloud_regions
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/sdn_cloud_regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataZenlayercloudSdnCloudRegionsConfig extends cdktf.TerraformM
   /**
   * The type of the cloud, Valid values: `AWS`, `TENCENT`, `GOOGLE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_cloud_regions#cloud_type DataZenlayercloudSdnCloudRegions#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/sdn_cloud_regions#cloud_type DataZenlayercloudSdnCloudRegions#cloud_type}
   */
   readonly cloudType: string;
   /**
   * Google Paring key, which is required when cloud type is `GOOGLE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_cloud_regions#google_pairing_key DataZenlayercloudSdnCloudRegions#google_pairing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/sdn_cloud_regions#google_pairing_key DataZenlayercloudSdnCloudRegions#google_pairing_key}
   */
   readonly googlePairingKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_cloud_regions#id DataZenlayercloudSdnCloudRegions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/sdn_cloud_regions#id DataZenlayercloudSdnCloudRegions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataZenlayercloudSdnCloudRegionsConfig extends cdktf.TerraformM
   /**
   * The product to be queried. Valid values: `PrivateConnect`, `CloudRouter`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_cloud_regions#product DataZenlayercloudSdnCloudRegions#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/sdn_cloud_regions#product DataZenlayercloudSdnCloudRegions#product}
   */
   readonly product?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_cloud_regions#result_output_file DataZenlayercloudSdnCloudRegions#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/sdn_cloud_regions#result_output_file DataZenlayercloudSdnCloudRegions#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -131,7 +131,7 @@ export class DataZenlayercloudSdnCloudRegionsRegionListStructList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_cloud_regions zenlayercloud_sdn_cloud_regions}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/sdn_cloud_regions zenlayercloud_sdn_cloud_regions}
 */
 export class DataZenlayercloudSdnCloudRegions extends cdktf.TerraformDataSource {
 
@@ -147,7 +147,7 @@ export class DataZenlayercloudSdnCloudRegions extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataZenlayercloudSdnCloudRegions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudSdnCloudRegions to import
-  * @param importFromId The id of the existing DataZenlayercloudSdnCloudRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_cloud_regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudSdnCloudRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/sdn_cloud_regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudSdnCloudRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DataZenlayercloudSdnCloudRegions extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/sdn_cloud_regions zenlayercloud_sdn_cloud_regions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/sdn_cloud_regions zenlayercloud_sdn_cloud_regions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class DataZenlayercloudSdnCloudRegions extends cdktf.TerraformDataSource 
       terraformResourceType: 'zenlayercloud_sdn_cloud_regions',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.11',
-        providerVersionConstraint: '0.2.11'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_nodepool_nodes
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_nodepool_nodes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOvhCloudProjectKubeNodepoolNodesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_nodepool_nodes#id DataOvhCloudProjectKubeNodepoolNodes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_nodepool_nodes#id DataOvhCloudProjectKubeNodepoolNodes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataOvhCloudProjectKubeNodepoolNodesConfig extends cdktf.Terraf
   /**
   * Kube ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_nodepool_nodes#kube_id DataOvhCloudProjectKubeNodepoolNodes#kube_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_nodepool_nodes#kube_id DataOvhCloudProjectKubeNodepoolNodes#kube_id}
   */
   readonly kubeId: string;
   /**
   * NodePool resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_nodepool_nodes#name DataOvhCloudProjectKubeNodepoolNodes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_nodepool_nodes#name DataOvhCloudProjectKubeNodepoolNodes#name}
   */
   readonly name: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_nodepool_nodes#service_name DataOvhCloudProjectKubeNodepoolNodes#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_nodepool_nodes#service_name DataOvhCloudProjectKubeNodepoolNodes#service_name}
   */
   readonly serviceName: string;
 }
@@ -165,7 +165,7 @@ export class DataOvhCloudProjectKubeNodepoolNodesNodesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_nodepool_nodes ovh_cloud_project_kube_nodepool_nodes}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_nodepool_nodes ovh_cloud_project_kube_nodepool_nodes}
 */
 export class DataOvhCloudProjectKubeNodepoolNodes extends cdktf.TerraformDataSource {
 
@@ -181,7 +181,7 @@ export class DataOvhCloudProjectKubeNodepoolNodes extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataOvhCloudProjectKubeNodepoolNodes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhCloudProjectKubeNodepoolNodes to import
-  * @param importFromId The id of the existing DataOvhCloudProjectKubeNodepoolNodes that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_nodepool_nodes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhCloudProjectKubeNodepoolNodes that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_nodepool_nodes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhCloudProjectKubeNodepoolNodes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class DataOvhCloudProjectKubeNodepoolNodes extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_nodepool_nodes ovh_cloud_project_kube_nodepool_nodes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_nodepool_nodes ovh_cloud_project_kube_nodepool_nodes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class DataOvhCloudProjectKubeNodepoolNodes extends cdktf.TerraformDataSou
       terraformResourceType: 'ovh_cloud_project_kube_nodepool_nodes',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

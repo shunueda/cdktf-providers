@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_instances
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZenlayercloudZlbInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_instances#id DataZenlayercloudZlbInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_instances#id DataZenlayercloudZlbInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataZenlayercloudZlbInstancesConfig extends cdktf.TerraformMeta
   /**
   * IDs of the load balancer instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_instances#ids DataZenlayercloudZlbInstances#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_instances#ids DataZenlayercloudZlbInstances#ids}
   */
   readonly ids?: string[];
   /**
   * A regex string to filter results by  load balancer instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_instances#name_regex DataZenlayercloudZlbInstances#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_instances#name_regex DataZenlayercloudZlbInstances#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * The ID of region that the load balancer instances locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_instances#region_id DataZenlayercloudZlbInstances#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_instances#region_id DataZenlayercloudZlbInstances#region_id}
   */
   readonly regionId?: string;
   /**
   * The ID of resource group that the load balancer instance grouped by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_instances#resource_group_id DataZenlayercloudZlbInstances#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_instances#resource_group_id DataZenlayercloudZlbInstances#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_instances#result_output_file DataZenlayercloudZlbInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_instances#result_output_file DataZenlayercloudZlbInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of the VPC to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_instances#vpc_id DataZenlayercloudZlbInstances#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_instances#vpc_id DataZenlayercloudZlbInstances#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -173,7 +173,7 @@ export class DataZenlayercloudZlbInstancesZlbsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_instances zenlayercloud_zlb_instances}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_instances zenlayercloud_zlb_instances}
 */
 export class DataZenlayercloudZlbInstances extends cdktf.TerraformDataSource {
 
@@ -189,7 +189,7 @@ export class DataZenlayercloudZlbInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudZlbInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZlbInstances to import
-  * @param importFromId The id of the existing DataZenlayercloudZlbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZlbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZlbInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class DataZenlayercloudZlbInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_instances zenlayercloud_zlb_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_instances zenlayercloud_zlb_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class DataZenlayercloudZlbInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zlb_instances',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.11',
-        providerVersionConstraint: '0.2.11'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

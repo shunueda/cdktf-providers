@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_database
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CloudProjectDatabaseDatabaseConfig extends cdktf.TerraformMetaA
   /**
   * Id of the database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_database#cluster_id CloudProjectDatabaseDatabase#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_database#cluster_id CloudProjectDatabaseDatabase#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Name of the engine of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_database#engine CloudProjectDatabaseDatabase#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_database#engine CloudProjectDatabaseDatabase#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_database#id CloudProjectDatabaseDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_database#id CloudProjectDatabaseDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,27 +29,27 @@ export interface CloudProjectDatabaseDatabaseConfig extends cdktf.TerraformMetaA
   /**
   * Database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_database#name CloudProjectDatabaseDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_database#name CloudProjectDatabaseDatabase#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_database#service_name CloudProjectDatabaseDatabase#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_database#service_name CloudProjectDatabaseDatabase#service_name}
   */
   readonly serviceName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_database#timeouts CloudProjectDatabaseDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_database#timeouts CloudProjectDatabaseDatabase#timeouts}
   */
   readonly timeouts?: CloudProjectDatabaseDatabaseTimeouts;
 }
 export interface CloudProjectDatabaseDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_database#create CloudProjectDatabaseDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_database#create CloudProjectDatabaseDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_database#delete CloudProjectDatabaseDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_database#delete CloudProjectDatabaseDatabase#delete}
   */
   readonly delete?: string;
 }
@@ -172,7 +172,7 @@ export class CloudProjectDatabaseDatabaseTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_database ovh_cloud_project_database_database}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_database ovh_cloud_project_database_database}
 */
 export class CloudProjectDatabaseDatabase extends cdktf.TerraformResource {
 
@@ -188,7 +188,7 @@ export class CloudProjectDatabaseDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectDatabaseDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectDatabaseDatabase to import
-  * @param importFromId The id of the existing CloudProjectDatabaseDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectDatabaseDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectDatabaseDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class CloudProjectDatabaseDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_database ovh_cloud_project_database_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_database ovh_cloud_project_database_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,8 +211,8 @@ export class CloudProjectDatabaseDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_database_database',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

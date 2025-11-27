@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DbaasLogsOutputGraylogStreamConfig extends cdktf.TerraformMetaA
   /**
   * Cold storage compression method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#cold_storage_compression DbaasLogsOutputGraylogStream#cold_storage_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#cold_storage_compression DbaasLogsOutputGraylogStream#cold_storage_compression}
   */
   readonly coldStorageCompression?: string;
   /**
   * ColdStorage content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#cold_storage_content DbaasLogsOutputGraylogStream#cold_storage_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#cold_storage_content DbaasLogsOutputGraylogStream#cold_storage_content}
   */
   readonly coldStorageContent?: string;
   /**
   * Is Cold storage enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#cold_storage_enabled DbaasLogsOutputGraylogStream#cold_storage_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#cold_storage_enabled DbaasLogsOutputGraylogStream#cold_storage_enabled}
   */
   readonly coldStorageEnabled?: boolean | cdktf.IResolvable;
   /**
   * Notify on new Cold storage archive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#cold_storage_notify_enabled DbaasLogsOutputGraylogStream#cold_storage_notify_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#cold_storage_notify_enabled DbaasLogsOutputGraylogStream#cold_storage_notify_enabled}
   */
   readonly coldStorageNotifyEnabled?: boolean | cdktf.IResolvable;
   /**
   * Cold storage retention in year
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#cold_storage_retention DbaasLogsOutputGraylogStream#cold_storage_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#cold_storage_retention DbaasLogsOutputGraylogStream#cold_storage_retention}
   */
   readonly coldStorageRetention?: number;
   /**
   * ColdStorage destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#cold_storage_target DbaasLogsOutputGraylogStream#cold_storage_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#cold_storage_target DbaasLogsOutputGraylogStream#cold_storage_target}
   */
   readonly coldStorageTarget?: string;
   /**
   * Stream description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#description DbaasLogsOutputGraylogStream#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#description DbaasLogsOutputGraylogStream#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#id DbaasLogsOutputGraylogStream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#id DbaasLogsOutputGraylogStream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,61 +59,61 @@ export interface DbaasLogsOutputGraylogStreamConfig extends cdktf.TerraformMetaA
   /**
   * Enable ES indexing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#indexing_enabled DbaasLogsOutputGraylogStream#indexing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#indexing_enabled DbaasLogsOutputGraylogStream#indexing_enabled}
   */
   readonly indexingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Maximum indexing size (in GB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#indexing_max_size DbaasLogsOutputGraylogStream#indexing_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#indexing_max_size DbaasLogsOutputGraylogStream#indexing_max_size}
   */
   readonly indexingMaxSize?: number;
   /**
   * If set, notify when size is near 80, 90 or 100 % of the maximum configured setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#indexing_notify_enabled DbaasLogsOutputGraylogStream#indexing_notify_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#indexing_notify_enabled DbaasLogsOutputGraylogStream#indexing_notify_enabled}
   */
   readonly indexingNotifyEnabled?: boolean | cdktf.IResolvable;
   /**
   * Parent stream ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#parent_stream_id DbaasLogsOutputGraylogStream#parent_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#parent_stream_id DbaasLogsOutputGraylogStream#parent_stream_id}
   */
   readonly parentStreamId?: string;
   /**
   * If set, pause indexing when maximum size is reach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#pause_indexing_on_max_size DbaasLogsOutputGraylogStream#pause_indexing_on_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#pause_indexing_on_max_size DbaasLogsOutputGraylogStream#pause_indexing_on_max_size}
   */
   readonly pauseIndexingOnMaxSize?: boolean | cdktf.IResolvable;
   /**
   * Retention ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#retention_id DbaasLogsOutputGraylogStream#retention_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#retention_id DbaasLogsOutputGraylogStream#retention_id}
   */
   readonly retentionId?: string;
   /**
   * The service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#service_name DbaasLogsOutputGraylogStream#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#service_name DbaasLogsOutputGraylogStream#service_name}
   */
   readonly serviceName: string;
   /**
   * Stream name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#title DbaasLogsOutputGraylogStream#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#title DbaasLogsOutputGraylogStream#title}
   */
   readonly title: string;
   /**
   * Enable Websocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#web_socket_enabled DbaasLogsOutputGraylogStream#web_socket_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#web_socket_enabled DbaasLogsOutputGraylogStream#web_socket_enabled}
   */
   readonly webSocketEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream ovh_dbaas_logs_output_graylog_stream}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream ovh_dbaas_logs_output_graylog_stream}
 */
 export class DbaasLogsOutputGraylogStream extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class DbaasLogsOutputGraylogStream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasLogsOutputGraylogStream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasLogsOutputGraylogStream to import
-  * @param importFromId The id of the existing DbaasLogsOutputGraylogStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasLogsOutputGraylogStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasLogsOutputGraylogStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class DbaasLogsOutputGraylogStream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_graylog_stream ovh_dbaas_logs_output_graylog_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_graylog_stream ovh_dbaas_logs_output_graylog_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class DbaasLogsOutputGraylogStream extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_dbaas_logs_output_graylog_stream',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

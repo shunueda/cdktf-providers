@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface CloudProjectKubeNodepoolConfig extends cdktf.TerraformMetaArgum
   /**
   * Enable anti affinity groups for nodes in the pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#anti_affinity CloudProjectKubeNodepool#anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#anti_affinity CloudProjectKubeNodepool#anti_affinity}
   */
   readonly antiAffinity?: boolean | cdktf.IResolvable;
   /**
   * Enable auto-scaling for the pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#autoscale CloudProjectKubeNodepool#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#autoscale CloudProjectKubeNodepool#autoscale}
   */
   readonly autoscale?: boolean | cdktf.IResolvable;
   /**
   * scaleDownUnneededTimeSeconds for autoscaling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#autoscaling_scale_down_unneeded_time_seconds CloudProjectKubeNodepool#autoscaling_scale_down_unneeded_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#autoscaling_scale_down_unneeded_time_seconds CloudProjectKubeNodepool#autoscaling_scale_down_unneeded_time_seconds}
   */
   readonly autoscalingScaleDownUnneededTimeSeconds?: number;
   /**
   * scaleDownUnreadyTimeSeconds for autoscaling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#autoscaling_scale_down_unready_time_seconds CloudProjectKubeNodepool#autoscaling_scale_down_unready_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#autoscaling_scale_down_unready_time_seconds CloudProjectKubeNodepool#autoscaling_scale_down_unready_time_seconds}
   */
   readonly autoscalingScaleDownUnreadyTimeSeconds?: number;
   /**
   * scaleDownUtilizationThreshold for autoscaling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#autoscaling_scale_down_utilization_threshold CloudProjectKubeNodepool#autoscaling_scale_down_utilization_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#autoscaling_scale_down_utilization_threshold CloudProjectKubeNodepool#autoscaling_scale_down_utilization_threshold}
   */
   readonly autoscalingScaleDownUtilizationThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#availability_zones CloudProjectKubeNodepool#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#availability_zones CloudProjectKubeNodepool#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * Number of nodes you desire in the pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#desired_nodes CloudProjectKubeNodepool#desired_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#desired_nodes CloudProjectKubeNodepool#desired_nodes}
   */
   readonly desiredNodes?: number;
   /**
   * Flavor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#flavor_name CloudProjectKubeNodepool#flavor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#flavor_name CloudProjectKubeNodepool#flavor_name}
   */
   readonly flavorName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#id CloudProjectKubeNodepool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#id CloudProjectKubeNodepool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,49 +63,49 @@ export interface CloudProjectKubeNodepoolConfig extends cdktf.TerraformMetaArgum
   /**
   * Kube ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#kube_id CloudProjectKubeNodepool#kube_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#kube_id CloudProjectKubeNodepool#kube_id}
   */
   readonly kubeId: string;
   /**
   * Number of nodes you desire in the pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#max_nodes CloudProjectKubeNodepool#max_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#max_nodes CloudProjectKubeNodepool#max_nodes}
   */
   readonly maxNodes?: number;
   /**
   * Number of nodes you desire in the pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#min_nodes CloudProjectKubeNodepool#min_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#min_nodes CloudProjectKubeNodepool#min_nodes}
   */
   readonly minNodes?: number;
   /**
   * Enable monthly billing on all nodes in the pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#monthly_billed CloudProjectKubeNodepool#monthly_billed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#monthly_billed CloudProjectKubeNodepool#monthly_billed}
   */
   readonly monthlyBilled?: boolean | cdktf.IResolvable;
   /**
   * NodePool resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#name CloudProjectKubeNodepool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#name CloudProjectKubeNodepool#name}
   */
   readonly name?: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#service_name CloudProjectKubeNodepool#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#service_name CloudProjectKubeNodepool#service_name}
   */
   readonly serviceName: string;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#template CloudProjectKubeNodepool#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#template CloudProjectKubeNodepool#template}
   */
   readonly template?: CloudProjectKubeNodepoolTemplate;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#timeouts CloudProjectKubeNodepool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#timeouts CloudProjectKubeNodepool#timeouts}
   */
   readonly timeouts?: CloudProjectKubeNodepoolTimeouts;
 }
@@ -113,19 +113,19 @@ export interface CloudProjectKubeNodepoolTemplateMetadata {
   /**
   * annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#annotations CloudProjectKubeNodepool#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#annotations CloudProjectKubeNodepool#annotations}
   */
   readonly annotations: { [key: string]: string };
   /**
   * finalizers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#finalizers CloudProjectKubeNodepool#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#finalizers CloudProjectKubeNodepool#finalizers}
   */
   readonly finalizers: string[];
   /**
   * labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#labels CloudProjectKubeNodepool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#labels CloudProjectKubeNodepool#labels}
   */
   readonly labels: { [key: string]: string };
 }
@@ -260,13 +260,13 @@ export interface CloudProjectKubeNodepoolTemplateSpec {
   /**
   * taints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#taints CloudProjectKubeNodepool#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#taints CloudProjectKubeNodepool#taints}
   */
   readonly taints: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * unschedulable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#unschedulable CloudProjectKubeNodepool#unschedulable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#unschedulable CloudProjectKubeNodepool#unschedulable}
   */
   readonly unschedulable: boolean | cdktf.IResolvable;
 }
@@ -375,13 +375,13 @@ export interface CloudProjectKubeNodepoolTemplate {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#metadata CloudProjectKubeNodepool#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#metadata CloudProjectKubeNodepool#metadata}
   */
   readonly metadata: CloudProjectKubeNodepoolTemplateMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#spec CloudProjectKubeNodepool#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#spec CloudProjectKubeNodepool#spec}
   */
   readonly spec: CloudProjectKubeNodepoolTemplateSpec;
 }
@@ -488,23 +488,23 @@ export class CloudProjectKubeNodepoolTemplateOutputReference extends cdktf.Compl
 }
 export interface CloudProjectKubeNodepoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#create CloudProjectKubeNodepool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#create CloudProjectKubeNodepool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#default CloudProjectKubeNodepool#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#default CloudProjectKubeNodepool#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#delete CloudProjectKubeNodepool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#delete CloudProjectKubeNodepool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#read CloudProjectKubeNodepool#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#read CloudProjectKubeNodepool#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#update CloudProjectKubeNodepool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#update CloudProjectKubeNodepool#update}
   */
   readonly update?: string;
 }
@@ -714,7 +714,7 @@ export class CloudProjectKubeNodepoolTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool ovh_cloud_project_kube_nodepool}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool ovh_cloud_project_kube_nodepool}
 */
 export class CloudProjectKubeNodepool extends cdktf.TerraformResource {
 
@@ -730,7 +730,7 @@ export class CloudProjectKubeNodepool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectKubeNodepool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectKubeNodepool to import
-  * @param importFromId The id of the existing CloudProjectKubeNodepool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectKubeNodepool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectKubeNodepool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -742,7 +742,7 @@ export class CloudProjectKubeNodepool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube_nodepool ovh_cloud_project_kube_nodepool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube_nodepool ovh_cloud_project_kube_nodepool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -753,8 +753,8 @@ export class CloudProjectKubeNodepool extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_kube_nodepool',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

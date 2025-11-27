@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_boots
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_boots
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataOvhDedicatedServerBootsConfig extends cdktf.TerraformMetaAr
   /**
   * Filter the value of bootType property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_boots#boot_type DataOvhDedicatedServerBoots#boot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_boots#boot_type DataOvhDedicatedServerBoots#boot_type}
   */
   readonly bootType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_boots#id DataOvhDedicatedServerBoots#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_boots#id DataOvhDedicatedServerBoots#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataOvhDedicatedServerBootsConfig extends cdktf.TerraformMetaAr
   /**
   * Filter the value of kernel property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_boots#kernel DataOvhDedicatedServerBoots#kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_boots#kernel DataOvhDedicatedServerBoots#kernel}
   */
   readonly kernel?: string;
   /**
   * The internal name of your dedicated server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_boots#service_name DataOvhDedicatedServerBoots#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_boots#service_name DataOvhDedicatedServerBoots#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_boots ovh_dedicated_server_boots}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_boots ovh_dedicated_server_boots}
 */
 export class DataOvhDedicatedServerBoots extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataOvhDedicatedServerBoots extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhDedicatedServerBoots resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhDedicatedServerBoots to import
-  * @param importFromId The id of the existing DataOvhDedicatedServerBoots that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_boots#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhDedicatedServerBoots that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_boots#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhDedicatedServerBoots to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataOvhDedicatedServerBoots extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_boots ovh_dedicated_server_boots} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_boots ovh_dedicated_server_boots} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataOvhDedicatedServerBoots extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_dedicated_server_boots',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/order_cart
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/order_cart
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataOvhOrderCartConfig extends cdktf.TerraformMetaArguments {
   /**
   * Assign a shopping cart to a logged in client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/order_cart#assign DataOvhOrderCart#assign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/order_cart#assign DataOvhOrderCart#assign}
   */
   readonly assign?: boolean | cdktf.IResolvable;
   /**
   * Description of your cart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/order_cart#description DataOvhOrderCart#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/order_cart#description DataOvhOrderCart#description}
   */
   readonly description?: string;
   /**
   * Expiration time (format: 2006-01-02T15:04:05Z07:00)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/order_cart#expire DataOvhOrderCart#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/order_cart#expire DataOvhOrderCart#expire}
   */
   readonly expire?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/order_cart#id DataOvhOrderCart#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/order_cart#id DataOvhOrderCart#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface DataOvhOrderCartConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ovh Subsidiary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/order_cart#ovh_subsidiary DataOvhOrderCart#ovh_subsidiary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/order_cart#ovh_subsidiary DataOvhOrderCart#ovh_subsidiary}
   */
   readonly ovhSubsidiary: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/order_cart ovh_order_cart}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/order_cart ovh_order_cart}
 */
 export class DataOvhOrderCart extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataOvhOrderCart extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhOrderCart resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhOrderCart to import
-  * @param importFromId The id of the existing DataOvhOrderCart that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/order_cart#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhOrderCart that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/order_cart#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhOrderCart to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataOvhOrderCart extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/order_cart ovh_order_cart} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/order_cart ovh_order_cart} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataOvhOrderCart extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_order_cart',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

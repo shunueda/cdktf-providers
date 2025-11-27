@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,127 +8,127 @@ import * as cdktf from 'cdktf';
 
 export interface DedicatedServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#boot_id DedicatedServer#boot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#boot_id DedicatedServer#boot_id}
   */
   readonly bootId?: number;
   /**
   * Ipxe script served on boot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#boot_script DedicatedServer#boot_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#boot_script DedicatedServer#boot_script}
   */
   readonly bootScript?: string;
   /**
   * OS reinstallation customizations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#customizations DedicatedServer#customizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#customizations DedicatedServer#customizations}
   */
   readonly customizations?: DedicatedServerCustomizations;
   /**
   * The display name of your dedicated server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#display_name DedicatedServer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#display_name DedicatedServer#display_name}
   */
   readonly displayName?: string;
   /**
   * Path of the EFI bootloader served on boot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#efi_bootloader_path DedicatedServer#efi_bootloader_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#efi_bootloader_path DedicatedServer#efi_bootloader_path}
   */
   readonly efiBootloaderPath?: string;
   /**
   * Whether we should avoid terminating the service when destroying the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#keep_service_after_destroy DedicatedServer#keep_service_after_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#keep_service_after_destroy DedicatedServer#keep_service_after_destroy}
   */
   readonly keepServiceAfterDestroy?: boolean | cdktf.IResolvable;
   /**
   * Icmp monitoring state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#monitoring DedicatedServer#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#monitoring DedicatedServer#monitoring}
   */
   readonly monitoring?: boolean | cdktf.IResolvable;
   /**
   * Prevent datacenter intervention
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#no_intervention DedicatedServer#no_intervention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#no_intervention DedicatedServer#no_intervention}
   */
   readonly noIntervention?: boolean | cdktf.IResolvable;
   /**
   * Operating system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#os DedicatedServer#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#os DedicatedServer#os}
   */
   readonly os?: string;
   /**
   * OVH subsidiaries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#ovh_subsidiary DedicatedServer#ovh_subsidiary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#ovh_subsidiary DedicatedServer#ovh_subsidiary}
   */
   readonly ovhSubsidiary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#plan DedicatedServer#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#plan DedicatedServer#plan}
   */
   readonly plan?: DedicatedServerPlan[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#plan_option DedicatedServer#plan_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#plan_option DedicatedServer#plan_option}
   */
   readonly planOption?: DedicatedServerPlanOption[] | cdktf.IResolvable;
   /**
   * Defines whether the server should not be reinstalled after creating the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#prevent_install_on_create DedicatedServer#prevent_install_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#prevent_install_on_create DedicatedServer#prevent_install_on_create}
   */
   readonly preventInstallOnCreate?: boolean | cdktf.IResolvable;
   /**
   * Defines whether the server should not be reinstalled when importing the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#prevent_install_on_import DedicatedServer#prevent_install_on_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#prevent_install_on_import DedicatedServer#prevent_install_on_import}
   */
   readonly preventInstallOnImport?: boolean | cdktf.IResolvable;
   /**
   * Arbitrary properties to pass to cloud-init's config drive datasource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#properties DedicatedServer#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#properties DedicatedServer#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Custom email used to receive rescue credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#rescue_mail DedicatedServer#rescue_mail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#rescue_mail DedicatedServer#rescue_mail}
   */
   readonly rescueMail?: string;
   /**
   * Public SSH Key used in the rescue mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#rescue_ssh_key DedicatedServer#rescue_ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#rescue_ssh_key DedicatedServer#rescue_ssh_key}
   */
   readonly rescueSshKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#root_device DedicatedServer#root_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#root_device DedicatedServer#root_device}
   */
   readonly rootDevice?: string;
   /**
   * Actions to run before destroying the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#run_actions_before_destroy DedicatedServer#run_actions_before_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#run_actions_before_destroy DedicatedServer#run_actions_before_destroy}
   */
   readonly runActionsBeforeDestroy?: string[];
   /**
   * The internal name of your dedicated server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#service_name DedicatedServer#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#service_name DedicatedServer#service_name}
   */
   readonly serviceName?: string;
   /**
   * All states a Dedicated can be in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#state DedicatedServer#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#state DedicatedServer#state}
   */
   readonly state?: string;
   /**
   * OS reinstallation storage configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#storage DedicatedServer#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#storage DedicatedServer#storage}
   */
   readonly storage?: DedicatedServerStorage[] | cdktf.IResolvable;
 }
@@ -136,79 +136,79 @@ export interface DedicatedServerCustomizations {
   /**
   * Config Drive MetaData
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#config_drive_metadata DedicatedServer#config_drive_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#config_drive_metadata DedicatedServer#config_drive_metadata}
   */
   readonly configDriveMetadata?: { [key: string]: string };
   /**
   * Config Drive UserData
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#config_drive_user_data DedicatedServer#config_drive_user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#config_drive_user_data DedicatedServer#config_drive_user_data}
   */
   readonly configDriveUserData?: string;
   /**
   * Path of the EFI bootloader from the OS installed on the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#efi_bootloader_path DedicatedServer#efi_bootloader_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#efi_bootloader_path DedicatedServer#efi_bootloader_path}
   */
   readonly efiBootloaderPath?: string;
   /**
   * Custom hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#hostname DedicatedServer#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#hostname DedicatedServer#hostname}
   */
   readonly hostname?: string;
   /**
   * Image HTTP Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#http_headers DedicatedServer#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#http_headers DedicatedServer#http_headers}
   */
   readonly httpHeaders?: { [key: string]: string };
   /**
   * Image checksum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#image_check_sum DedicatedServer#image_check_sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#image_check_sum DedicatedServer#image_check_sum}
   */
   readonly imageCheckSum?: string;
   /**
   * Checksum type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#image_check_sum_type DedicatedServer#image_check_sum_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#image_check_sum_type DedicatedServer#image_check_sum_type}
   */
   readonly imageCheckSumType?: string;
   /**
   * Image Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#image_type DedicatedServer#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#image_type DedicatedServer#image_type}
   */
   readonly imageType?: string;
   /**
   * Image URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#image_url DedicatedServer#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#image_url DedicatedServer#image_url}
   */
   readonly imageUrl?: string;
   /**
   * Display Language
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#language DedicatedServer#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#language DedicatedServer#language}
   */
   readonly language?: string;
   /**
   * Post-Installation Script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#post_installation_script DedicatedServer#post_installation_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#post_installation_script DedicatedServer#post_installation_script}
   */
   readonly postInstallationScript?: string;
   /**
   * Post-Installation Script File Extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#post_installation_script_extension DedicatedServer#post_installation_script_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#post_installation_script_extension DedicatedServer#post_installation_script_extension}
   */
   readonly postInstallationScriptExtension?: string;
   /**
   * SSH Public Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#ssh_key DedicatedServer#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#ssh_key DedicatedServer#ssh_key}
   */
   readonly sshKey?: string;
 }
@@ -887,13 +887,13 @@ export interface DedicatedServerPlanConfiguration {
   /**
   * Label for your configuration item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#label DedicatedServer#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#label DedicatedServer#label}
   */
   readonly label: string;
   /**
   * Value or resource URL on API.OVH.COM of your configuration item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#value DedicatedServer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#value DedicatedServer#value}
   */
   readonly value: string;
 }
@@ -1032,37 +1032,37 @@ export class DedicatedServerPlanConfigurationList extends cdktf.ComplexList {
 }
 export interface DedicatedServerPlan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#configuration DedicatedServer#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#configuration DedicatedServer#configuration}
   */
   readonly configuration?: DedicatedServerPlanConfiguration[] | cdktf.IResolvable;
   /**
   * Duration selected for the purchase of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#duration DedicatedServer#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#duration DedicatedServer#duration}
   */
   readonly duration: string;
   /**
   * Cart item to be linked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#item_id DedicatedServer#item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#item_id DedicatedServer#item_id}
   */
   readonly itemId?: number;
   /**
   * Identifier of the option offer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#plan_code DedicatedServer#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#plan_code DedicatedServer#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing mode selected for the purchase of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#pricing_mode DedicatedServer#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#pricing_mode DedicatedServer#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * Quantity of product desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#quantity DedicatedServer#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#quantity DedicatedServer#quantity}
   */
   readonly quantity?: number;
 }
@@ -1316,13 +1316,13 @@ export interface DedicatedServerPlanOptionConfiguration {
   /**
   * Label for your configuration item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#label DedicatedServer#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#label DedicatedServer#label}
   */
   readonly label: string;
   /**
   * Value or resource URL on API.OVH.COM of your configuration item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#value DedicatedServer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#value DedicatedServer#value}
   */
   readonly value: string;
 }
@@ -1461,31 +1461,31 @@ export class DedicatedServerPlanOptionConfigurationList extends cdktf.ComplexLis
 }
 export interface DedicatedServerPlanOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#configuration DedicatedServer#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#configuration DedicatedServer#configuration}
   */
   readonly configuration?: DedicatedServerPlanOptionConfiguration[] | cdktf.IResolvable;
   /**
   * Duration selected for the purchase of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#duration DedicatedServer#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#duration DedicatedServer#duration}
   */
   readonly duration: string;
   /**
   * Identifier of the option offer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#plan_code DedicatedServer#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#plan_code DedicatedServer#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing mode selected for the purchase of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#pricing_mode DedicatedServer#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#pricing_mode DedicatedServer#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * Quantity of product desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#quantity DedicatedServer#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#quantity DedicatedServer#quantity}
   */
   readonly quantity: number;
 }
@@ -1707,25 +1707,25 @@ export interface DedicatedServerStorageHardwareRaid {
   /**
   * Number of arrays (default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#arrays DedicatedServer#arrays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#arrays DedicatedServer#arrays}
   */
   readonly arrays?: number;
   /**
   * Total number of disks in the disk group involved in the hardware raid configuration (all disks of the disk group by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#disks DedicatedServer#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#disks DedicatedServer#disks}
   */
   readonly disks?: number;
   /**
   * Hardware raid type (default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#raid_level DedicatedServer#raid_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#raid_level DedicatedServer#raid_level}
   */
   readonly raidLevel?: number;
   /**
   * Number of disks in the disk group involved in the spare (default is 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#spares DedicatedServer#spares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#spares DedicatedServer#spares}
   */
   readonly spares?: number;
 }
@@ -1930,7 +1930,7 @@ export interface DedicatedServerStoragePartitioningLayoutExtrasLv {
   /**
   * Logical volume name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#name DedicatedServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#name DedicatedServer#name}
   */
   readonly name?: string;
 }
@@ -2026,7 +2026,7 @@ export interface DedicatedServerStoragePartitioningLayoutExtrasZp {
   /**
   * zpool name (generated automatically if not specified, note that multiple ZFS partitions with same zpool names will be configured as multiple datasets belonging to the same zpool if compatible)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#name DedicatedServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#name DedicatedServer#name}
   */
   readonly name?: string;
 }
@@ -2122,13 +2122,13 @@ export interface DedicatedServerStoragePartitioningLayoutExtras {
   /**
   * LVM-specific parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#lv DedicatedServer#lv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#lv DedicatedServer#lv}
   */
   readonly lv?: DedicatedServerStoragePartitioningLayoutExtrasLv;
   /**
   * ZFS-specific parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#zp DedicatedServer#zp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#zp DedicatedServer#zp}
   */
   readonly zp?: DedicatedServerStoragePartitioningLayoutExtrasZp;
 }
@@ -2253,31 +2253,31 @@ export interface DedicatedServerStoragePartitioningLayout {
   /**
   * Partition extras parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#extras DedicatedServer#extras}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#extras DedicatedServer#extras}
   */
   readonly extras?: DedicatedServerStoragePartitioningLayoutExtras;
   /**
   * File system type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#file_system DedicatedServer#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#file_system DedicatedServer#file_system}
   */
   readonly fileSystem: string;
   /**
   * Mount point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#mount_point DedicatedServer#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#mount_point DedicatedServer#mount_point}
   */
   readonly mountPoint: string;
   /**
   * Software raid type (default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#raid_level DedicatedServer#raid_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#raid_level DedicatedServer#raid_level}
   */
   readonly raidLevel?: number;
   /**
   * Partition size in MiB (default value is 0 which means to fill the disk with that partition)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#size DedicatedServer#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#size DedicatedServer#size}
   */
   readonly size?: number;
 }
@@ -2505,19 +2505,19 @@ export interface DedicatedServerStoragePartitioning {
   /**
   * Total number of disks in the disk group involved in the partitioning configuration (all disks of the disk group by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#disks DedicatedServer#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#disks DedicatedServer#disks}
   */
   readonly disks?: number;
   /**
   * Custom partitioning layout (default is the default layout of the operating system's default partitioning scheme)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#layout DedicatedServer#layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#layout DedicatedServer#layout}
   */
   readonly layout?: DedicatedServerStoragePartitioningLayout[] | cdktf.IResolvable;
   /**
   * Partitioning scheme (if applicable with selected operating system)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#scheme_name DedicatedServer#scheme_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#scheme_name DedicatedServer#scheme_name}
   */
   readonly schemeName?: string;
 }
@@ -2671,19 +2671,19 @@ export interface DedicatedServerStorage {
   /**
   * Disk group id (default is 0, meaning automatic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#disk_group_id DedicatedServer#disk_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#disk_group_id DedicatedServer#disk_group_id}
   */
   readonly diskGroupId?: number;
   /**
   * Hardware Raid configurations (if not specified, all disks of the chosen disk group id will be configured in JBOD mode)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#hardware_raid DedicatedServer#hardware_raid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#hardware_raid DedicatedServer#hardware_raid}
   */
   readonly hardwareRaid?: DedicatedServerStorageHardwareRaid[] | cdktf.IResolvable;
   /**
   * Partitioning configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#partitioning DedicatedServer#partitioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#partitioning DedicatedServer#partitioning}
   */
   readonly partitioning?: DedicatedServerStoragePartitioning;
 }
@@ -2857,7 +2857,7 @@ export class DedicatedServerStorageList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server ovh_dedicated_server}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server ovh_dedicated_server}
 */
 export class DedicatedServer extends cdktf.TerraformResource {
 
@@ -2873,7 +2873,7 @@ export class DedicatedServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DedicatedServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DedicatedServer to import
-  * @param importFromId The id of the existing DedicatedServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DedicatedServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DedicatedServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2885,7 +2885,7 @@ export class DedicatedServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server ovh_dedicated_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server ovh_dedicated_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2896,8 +2896,8 @@ export class DedicatedServer extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_dedicated_server',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

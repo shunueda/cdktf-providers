@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ovhcloudconnect
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ovhcloudconnect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VrackOvhcloudconnectConfig extends cdktf.TerraformMetaArguments
   /**
   * ovhCloudConnect service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ovhcloudconnect#ovh_cloud_connect VrackOvhcloudconnect#ovh_cloud_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ovhcloudconnect#ovh_cloud_connect VrackOvhcloudconnect#ovh_cloud_connect}
   */
   readonly ovhCloudConnect: string;
   /**
   * The internal name of your vrack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ovhcloudconnect#service_name VrackOvhcloudconnect#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ovhcloudconnect#service_name VrackOvhcloudconnect#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ovhcloudconnect ovh_vrack_ovhcloudconnect}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ovhcloudconnect ovh_vrack_ovhcloudconnect}
 */
 export class VrackOvhcloudconnect extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class VrackOvhcloudconnect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VrackOvhcloudconnect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrackOvhcloudconnect to import
-  * @param importFromId The id of the existing VrackOvhcloudconnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ovhcloudconnect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrackOvhcloudconnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ovhcloudconnect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrackOvhcloudconnect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class VrackOvhcloudconnect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ovhcloudconnect ovh_vrack_ovhcloudconnect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ovhcloudconnect ovh_vrack_ovhcloudconnect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class VrackOvhcloudconnect extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_vrack_ovhcloudconnect',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

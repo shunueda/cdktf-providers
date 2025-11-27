@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/data-sources/osquery_query
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/osquery_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataZentralOsqueryQueryConfig extends cdktf.TerraformMetaArgume
   /**
   * `ID` of the query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/data-sources/osquery_query#id DataZentralOsqueryQuery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/osquery_query#id DataZentralOsqueryQuery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataZentralOsqueryQueryConfig extends cdktf.TerraformMetaArgume
   /**
   * Name of the query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/data-sources/osquery_query#name DataZentralOsqueryQuery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/osquery_query#name DataZentralOsqueryQuery#name}
   */
   readonly name?: string;
   /**
   * Attributes to link a query to a pack for scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/data-sources/osquery_query#scheduling DataZentralOsqueryQuery#scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/osquery_query#scheduling DataZentralOsqueryQuery#scheduling}
   */
   readonly scheduling?: DataZentralOsqueryQueryScheduling;
   /**
   * `ID` of the machine tag that is updated by this query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/data-sources/osquery_query#tag_id DataZentralOsqueryQuery#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/osquery_query#tag_id DataZentralOsqueryQuery#tag_id}
   */
   readonly tagId?: number;
 }
@@ -39,7 +39,7 @@ export interface DataZentralOsqueryQueryScheduling {
   /**
   * Restrict this query to a percentage (1-100) of target hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/data-sources/osquery_query#shard DataZentralOsqueryQuery#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/osquery_query#shard DataZentralOsqueryQuery#shard}
   */
   readonly shard?: number;
 }
@@ -158,7 +158,7 @@ export class DataZentralOsqueryQuerySchedulingOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/data-sources/osquery_query zentral_osquery_query}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/osquery_query zentral_osquery_query}
 */
 export class DataZentralOsqueryQuery extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataZentralOsqueryQuery extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZentralOsqueryQuery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZentralOsqueryQuery to import
-  * @param importFromId The id of the existing DataZentralOsqueryQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/data-sources/osquery_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZentralOsqueryQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/osquery_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZentralOsqueryQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataZentralOsqueryQuery extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/data-sources/osquery_query zentral_osquery_query} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/osquery_query zentral_osquery_query} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataZentralOsqueryQuery extends cdktf.TerraformDataSource {
       terraformResourceType: 'zentral_osquery_query',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64',
-        providerVersionConstraint: '0.1.64'
+        providerVersion: '0.1.65',
+        providerVersionConstraint: '0.1.65'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

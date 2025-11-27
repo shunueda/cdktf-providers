@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/storage_efs_share
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/storage_efs_share
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface StorageEfsShareConfig extends cdktf.TerraformMetaArguments {
   /**
   * Share description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/storage_efs_share#description StorageEfsShare#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/storage_efs_share#description StorageEfsShare#description}
   */
   readonly description?: string;
   /**
   * User-defined name used to generate human readable access path for the share
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/storage_efs_share#mount_point_name StorageEfsShare#mount_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/storage_efs_share#mount_point_name StorageEfsShare#mount_point_name}
   */
   readonly mountPointName?: string;
   /**
   * Share name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/storage_efs_share#name StorageEfsShare#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/storage_efs_share#name StorageEfsShare#name}
   */
   readonly name?: string;
   /**
   * Share protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/storage_efs_share#protocol StorageEfsShare#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/storage_efs_share#protocol StorageEfsShare#protocol}
   */
   readonly protocol: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/storage_efs_share#service_name StorageEfsShare#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/storage_efs_share#service_name StorageEfsShare#service_name}
   */
   readonly serviceName: string;
   /**
   * Share size in Gigabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/storage_efs_share#size StorageEfsShare#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/storage_efs_share#size StorageEfsShare#size}
   */
   readonly size: number;
   /**
   * Snapshot ID used to create the share
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/storage_efs_share#snapshot_id StorageEfsShare#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/storage_efs_share#snapshot_id StorageEfsShare#snapshot_id}
   */
   readonly snapshotId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/storage_efs_share ovh_storage_efs_share}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/storage_efs_share ovh_storage_efs_share}
 */
 export class StorageEfsShare extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class StorageEfsShare extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageEfsShare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageEfsShare to import
-  * @param importFromId The id of the existing StorageEfsShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/storage_efs_share#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageEfsShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/storage_efs_share#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageEfsShare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class StorageEfsShare extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/storage_efs_share ovh_storage_efs_share} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/storage_efs_share ovh_storage_efs_share} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class StorageEfsShare extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_storage_efs_share',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

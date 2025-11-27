@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface WifiCapsmanConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman#___path___ WifiCapsman#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman#___path___ WifiCapsman#___path___}
   */
   readonly path?: string;
   /**
   * Device CA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman#ca_certificate WifiCapsman#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman#ca_certificate WifiCapsman#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * Device certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman#certificate WifiCapsman#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman#certificate WifiCapsman#certificate}
   */
   readonly certificate?: string;
   /**
   * Disable or enable CAPsMAN functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman#enabled WifiCapsman#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman#enabled WifiCapsman#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman#id WifiCapsman#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman#id WifiCapsman#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface WifiCapsmanConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of interfaces on which CAPsMAN will listen for CAP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman#interfaces WifiCapsman#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman#interfaces WifiCapsman#interfaces}
   */
   readonly interfaces?: string[];
   /**
   * Folder location for the RouterOS packages. For example, use '/upgrade' to specify the upgrade folder from the files section. If empty string is set, CAPsMAN can use built-in RouterOS packages, note that in this case only CAPs with the same architecture as CAPsMAN will be upgraded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman#package_path WifiCapsman#package_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman#package_path WifiCapsman#package_path}
   */
   readonly packagePath?: string;
   /**
   * Require all connecting CAPs to have a valid certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman#require_peer_certificate WifiCapsman#require_peer_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman#require_peer_certificate WifiCapsman#require_peer_certificate}
   */
   readonly requirePeerCertificate?: boolean | cdktf.IResolvable;
   /**
   * Upgrade policy options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman#upgrade_policy WifiCapsman#upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman#upgrade_policy WifiCapsman#upgrade_policy}
   */
   readonly upgradePolicy?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman routeros_wifi_capsman}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman routeros_wifi_capsman}
 */
 export class WifiCapsman extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class WifiCapsman extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WifiCapsman resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WifiCapsman to import
-  * @param importFromId The id of the existing WifiCapsman that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WifiCapsman that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WifiCapsman to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class WifiCapsman extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_capsman routeros_wifi_capsman} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_capsman routeros_wifi_capsman} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class WifiCapsman extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_wifi_capsman',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

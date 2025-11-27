@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_identity_user
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_identity_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MeIdentityUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * User description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_identity_user#description MeIdentityUser#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_identity_user#description MeIdentityUser#description}
   */
   readonly description?: string;
   /**
   * User's email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_identity_user#email MeIdentityUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_identity_user#email MeIdentityUser#email}
   */
   readonly email: string;
   /**
   * User's group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_identity_user#group MeIdentityUser#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_identity_user#group MeIdentityUser#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_identity_user#id MeIdentityUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_identity_user#id MeIdentityUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface MeIdentityUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * User's login suffix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_identity_user#login MeIdentityUser#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_identity_user#login MeIdentityUser#login}
   */
   readonly login: string;
   /**
   * User's password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_identity_user#password MeIdentityUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_identity_user#password MeIdentityUser#password}
   */
   readonly password: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_identity_user ovh_me_identity_user}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_identity_user ovh_me_identity_user}
 */
 export class MeIdentityUser extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class MeIdentityUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MeIdentityUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MeIdentityUser to import
-  * @param importFromId The id of the existing MeIdentityUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_identity_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MeIdentityUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_identity_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MeIdentityUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class MeIdentityUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_identity_user ovh_me_identity_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_identity_user ovh_me_identity_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class MeIdentityUser extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_me_identity_user',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

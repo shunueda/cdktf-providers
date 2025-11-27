@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user_settings
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SystemUserSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user_settings#___path___ SystemUserSettings#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_settings#___path___ SystemUserSettings#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user_settings#id SystemUserSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_settings#id SystemUserSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface SystemUserSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * An option specifies the complexity requirements of the password, with categories being uppercase, lowercase, digit, and symbol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user_settings#minimum_categories SystemUserSettings#minimum_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_settings#minimum_categories SystemUserSettings#minimum_categories}
   */
   readonly minimumCategories?: number;
   /**
   * An option specifies the minimum length of the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user_settings#minimum_password_length SystemUserSettings#minimum_password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_settings#minimum_password_length SystemUserSettings#minimum_password_length}
   */
   readonly minimumPasswordLength?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user_settings routeros_system_user_settings}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_settings routeros_system_user_settings}
 */
 export class SystemUserSettings extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class SystemUserSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemUserSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemUserSettings to import
-  * @param importFromId The id of the existing SystemUserSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemUserSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemUserSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class SystemUserSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_user_settings routeros_system_user_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_settings routeros_system_user_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class SystemUserSettings extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_system_user_settings',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IpDhcpServerOptionMatcherConfig extends cdktf.TerraformMetaArgu
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher#___path___ IpDhcpServerOptionMatcher#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher#___path___ IpDhcpServerOptionMatcher#___path___}
   */
   readonly path?: string;
   /**
   * IP pool, from which to take IP addresses for the clients. If set to static-only, then only the clients that have a static lease (added in lease submenu) will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher#address_pool IpDhcpServerOptionMatcher#address_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher#address_pool IpDhcpServerOptionMatcher#address_pool}
   */
   readonly addressPool?: string;
   /**
   * DHCP option code. All codes are available at http://www.iana.org/assignments/bootp-dhcp-parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher#code IpDhcpServerOptionMatcher#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher#code IpDhcpServerOptionMatcher#code}
   */
   readonly code: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher#comment IpDhcpServerOptionMatcher#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher#comment IpDhcpServerOptionMatcher#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher#disabled IpDhcpServerOptionMatcher#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher#disabled IpDhcpServerOptionMatcher#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher#id IpDhcpServerOptionMatcher#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher#id IpDhcpServerOptionMatcher#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ export interface IpDhcpServerOptionMatcherConfig extends cdktf.TerraformMetaArgu
   * - exact: option should match exactly to value
   * - substring: value can match anywhere in the option string; at the start, middle, or end.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher#matching_type IpDhcpServerOptionMatcher#matching_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher#matching_type IpDhcpServerOptionMatcher#matching_type}
   */
   readonly matchingType?: string;
   /**
@@ -55,19 +55,19 @@ export interface IpDhcpServerOptionMatcherConfig extends cdktf.TerraformMetaArgu
   * 	> Changing the name of the resource outside of a Terraform will result in a loss of control integrity for that resource!
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher#name IpDhcpServerOptionMatcher#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher#name IpDhcpServerOptionMatcher#name}
   */
   readonly name: string;
   /**
   * A custom set of DHCP options defined in the Option Sets menu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher#option_set IpDhcpServerOptionMatcher#option_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher#option_set IpDhcpServerOptionMatcher#option_set}
   */
   readonly optionSet?: string;
   /**
   * Server name which serves option matcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher#server IpDhcpServerOptionMatcher#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher#server IpDhcpServerOptionMatcher#server}
   */
   readonly server?: string;
   /**
@@ -77,13 +77,13 @@ export interface IpDhcpServerOptionMatcherConfig extends cdktf.TerraformMetaArgu
   * - string
   * - HEX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher#value IpDhcpServerOptionMatcher#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher#value IpDhcpServerOptionMatcher#value}
   */
   readonly value?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher routeros_ip_dhcp_server_option_matcher}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher routeros_ip_dhcp_server_option_matcher}
 */
 export class IpDhcpServerOptionMatcher extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class IpDhcpServerOptionMatcher extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpDhcpServerOptionMatcher resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpDhcpServerOptionMatcher to import
-  * @param importFromId The id of the existing IpDhcpServerOptionMatcher that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpDhcpServerOptionMatcher that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpDhcpServerOptionMatcher to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class IpDhcpServerOptionMatcher extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server_option_matcher routeros_ip_dhcp_server_option_matcher} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_option_matcher routeros_ip_dhcp_server_option_matcher} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class IpDhcpServerOptionMatcher extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_dhcp_server_option_matcher',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

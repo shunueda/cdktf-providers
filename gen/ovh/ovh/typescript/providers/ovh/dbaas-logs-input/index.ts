@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DbaasLogsInputConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP blocks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#allowed_networks DbaasLogsInput#allowed_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#allowed_networks DbaasLogsInput#allowed_networks}
   */
   readonly allowedNetworks?: string[];
   /**
   * Whether the workload is auto-scaled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#autoscale DbaasLogsInput#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#autoscale DbaasLogsInput#autoscale}
   */
   readonly autoscale?: boolean | cdktf.IResolvable;
   /**
   * Input description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#description DbaasLogsInput#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#description DbaasLogsInput#description}
   */
   readonly description: string;
   /**
   * Input engine ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#engine_id DbaasLogsInput#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#engine_id DbaasLogsInput#engine_id}
   */
   readonly engineId: string;
   /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#exposed_port DbaasLogsInput#exposed_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#exposed_port DbaasLogsInput#exposed_port}
   */
   readonly exposedPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#id DbaasLogsInput#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#id DbaasLogsInput#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,41 +47,41 @@ export interface DbaasLogsInputConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum number of instances in auto-scaled mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#max_scale_instance DbaasLogsInput#max_scale_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#max_scale_instance DbaasLogsInput#max_scale_instance}
   */
   readonly maxScaleInstance?: number;
   /**
   * Minimum number of instances in auto-scaled mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#min_scale_instance DbaasLogsInput#min_scale_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#min_scale_instance DbaasLogsInput#min_scale_instance}
   */
   readonly minScaleInstance?: number;
   /**
   * Number of instance running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#nb_instance DbaasLogsInput#nb_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#nb_instance DbaasLogsInput#nb_instance}
   */
   readonly nbInstance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#service_name DbaasLogsInput#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#service_name DbaasLogsInput#service_name}
   */
   readonly serviceName: string;
   /**
   * Associated Graylog stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#stream_id DbaasLogsInput#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#stream_id DbaasLogsInput#stream_id}
   */
   readonly streamId: string;
   /**
   * Input title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#title DbaasLogsInput#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#title DbaasLogsInput#title}
   */
   readonly title: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#configuration DbaasLogsInput#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#configuration DbaasLogsInput#configuration}
   */
   readonly configuration: DbaasLogsInputConfiguration;
 }
@@ -89,13 +89,13 @@ export interface DbaasLogsInputConfigurationFlowgger {
   /**
   * Type of format to decode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#log_format DbaasLogsInput#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#log_format DbaasLogsInput#log_format}
   */
   readonly logFormat: string;
   /**
   * Indicates how messages are delimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#log_framing DbaasLogsInput#log_framing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#log_framing DbaasLogsInput#log_framing}
   */
   readonly logFraming: string;
 }
@@ -204,19 +204,19 @@ export interface DbaasLogsInputConfigurationLogstash {
   /**
   * The filter section of logstash.conf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#filter_section DbaasLogsInput#filter_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#filter_section DbaasLogsInput#filter_section}
   */
   readonly filterSection?: string;
   /**
   * The filter section of logstash.conf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#input_section DbaasLogsInput#input_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#input_section DbaasLogsInput#input_section}
   */
   readonly inputSection: string;
   /**
   * The list of customs Grok patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#pattern_section DbaasLogsInput#pattern_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#pattern_section DbaasLogsInput#pattern_section}
   */
   readonly patternSection?: string;
 }
@@ -357,13 +357,13 @@ export interface DbaasLogsInputConfiguration {
   /**
   * flowgger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#flowgger DbaasLogsInput#flowgger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#flowgger DbaasLogsInput#flowgger}
   */
   readonly flowgger?: DbaasLogsInputConfigurationFlowgger;
   /**
   * logstash block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#logstash DbaasLogsInput#logstash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#logstash DbaasLogsInput#logstash}
   */
   readonly logstash?: DbaasLogsInputConfigurationLogstash;
 }
@@ -476,7 +476,7 @@ export class DbaasLogsInputConfigurationOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input ovh_dbaas_logs_input}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input ovh_dbaas_logs_input}
 */
 export class DbaasLogsInput extends cdktf.TerraformResource {
 
@@ -492,7 +492,7 @@ export class DbaasLogsInput extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasLogsInput resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasLogsInput to import
-  * @param importFromId The id of the existing DbaasLogsInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasLogsInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasLogsInput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -504,7 +504,7 @@ export class DbaasLogsInput extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_input ovh_dbaas_logs_input} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_input ovh_dbaas_logs_input} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -515,8 +515,8 @@ export class DbaasLogsInput extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_dbaas_logs_input',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

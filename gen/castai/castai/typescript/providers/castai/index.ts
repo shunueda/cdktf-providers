@@ -2,6 +2,9 @@
 export * as aksCluster from './aks-cluster';
 export * as allocationGroup from './allocation-group';
 export * as autoscaler from './autoscaler';
+export * as cacheConfiguration from './cache-configuration';
+export * as cacheGroup from './cache-group';
+export * as cacheRule from './cache-rule';
 export * as commitments from './commitments';
 export * as edgeLocation from './edge-location';
 export * as eksCluster from './eks-cluster';
@@ -29,6 +32,7 @@ export * as serviceAccountKey from './service-account-key';
 export * as ssoConnection from './sso-connection';
 export * as workloadScalingPolicy from './workload-scaling-policy';
 export * as workloadScalingPolicyOrder from './workload-scaling-policy-order';
+export * as dataCastaiCacheGroup from './data-castai-cache-group';
 export * as dataCastaiEksSettings from './data-castai-eks-settings';
 export * as dataCastaiGkeUserPolicies from './data-castai-gke-user-policies';
 export * as dataCastaiHibernationSchedule from './data-castai-hibernation-schedule';

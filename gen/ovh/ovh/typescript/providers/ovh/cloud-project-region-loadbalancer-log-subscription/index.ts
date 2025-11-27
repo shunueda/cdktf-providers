@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_loadbalancer_log_subscription
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_loadbalancer_log_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CloudProjectRegionLoadbalancerLogSubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#id CloudProjectRegionLoadbalancerLogSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#id CloudProjectRegionLoadbalancerLogSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface CloudProjectRegionLoadbalancerLogSubscriptionConfig extends cdk
   /**
   * Log kind name of this subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#kind CloudProjectRegionLoadbalancerLogSubscription#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#kind CloudProjectRegionLoadbalancerLogSubscription#kind}
   */
   readonly kind: string;
   /**
   * ID representing the loadbalancer of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#loadbalancer_id CloudProjectRegionLoadbalancerLogSubscription#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#loadbalancer_id CloudProjectRegionLoadbalancerLogSubscription#loadbalancer_id}
   */
   readonly loadbalancerId: string;
   /**
   * Region name of the resource representing the name of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#region_name CloudProjectRegionLoadbalancerLogSubscription#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#region_name CloudProjectRegionLoadbalancerLogSubscription#region_name}
   */
   readonly regionName: string;
   /**
   * Service name of the resource representing the id of the cloud project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#service_name CloudProjectRegionLoadbalancerLogSubscription#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#service_name CloudProjectRegionLoadbalancerLogSubscription#service_name}
   */
   readonly serviceName: string;
   /**
   * ID representing the stream of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#stream_id CloudProjectRegionLoadbalancerLogSubscription#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#stream_id CloudProjectRegionLoadbalancerLogSubscription#stream_id}
   */
   readonly streamId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_loadbalancer_log_subscription ovh_cloud_project_region_loadbalancer_log_subscription}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_loadbalancer_log_subscription ovh_cloud_project_region_loadbalancer_log_subscription}
 */
 export class CloudProjectRegionLoadbalancerLogSubscription extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CloudProjectRegionLoadbalancerLogSubscription extends cdktf.Terrafo
   * Generates CDKTF code for importing a CloudProjectRegionLoadbalancerLogSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectRegionLoadbalancerLogSubscription to import
-  * @param importFromId The id of the existing CloudProjectRegionLoadbalancerLogSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectRegionLoadbalancerLogSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_loadbalancer_log_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectRegionLoadbalancerLogSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CloudProjectRegionLoadbalancerLogSubscription extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_loadbalancer_log_subscription ovh_cloud_project_region_loadbalancer_log_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_loadbalancer_log_subscription ovh_cloud_project_region_loadbalancer_log_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CloudProjectRegionLoadbalancerLogSubscription extends cdktf.Terrafo
       terraformResourceType: 'ovh_cloud_project_region_loadbalancer_log_subscription',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

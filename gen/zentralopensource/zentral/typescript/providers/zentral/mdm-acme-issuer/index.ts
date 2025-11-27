@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface MdmAcmeIssuerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates if the device must provide an attestation that describe the device and the generated key to the ACME issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#attest MdmAcmeIssuer#attest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#attest MdmAcmeIssuer#attest}
   */
   readonly attest?: boolean | cdktf.IResolvable;
   /**
   * ACME issuer backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#backend MdmAcmeIssuer#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#backend MdmAcmeIssuer#backend}
   */
   readonly backend: string;
   /**
   * Description of the ACME issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#description MdmAcmeIssuer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#description MdmAcmeIssuer#description}
   */
   readonly description?: string;
   /**
   * Directory URL of the ACME issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#directory_url MdmAcmeIssuer#directory_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#directory_url MdmAcmeIssuer#directory_url}
   */
   readonly directoryUrl: string;
   /**
   * The device requests this extended key usage for the certificate that the ACME server issues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#extended_key_usage MdmAcmeIssuer#extended_key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#extended_key_usage MdmAcmeIssuer#extended_key_usage}
   */
   readonly extendedKeyUsage?: string[];
   /**
   * Indicates if the private key must be bound to the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#hardware_bound MdmAcmeIssuer#hardware_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#hardware_bound MdmAcmeIssuer#hardware_bound}
   */
   readonly hardwareBound?: boolean | cdktf.IResolvable;
   /**
   * IDent backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#ident MdmAcmeIssuer#ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#ident MdmAcmeIssuer#ident}
   */
   readonly ident?: MdmAcmeIssuerIdent;
   /**
   * The key size in bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#key_size MdmAcmeIssuer#key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#key_size MdmAcmeIssuer#key_size}
   */
   readonly keySize: number;
   /**
   * Private key type. One of `ECSECPrimeRandom` or `RSA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#key_type MdmAcmeIssuer#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#key_type MdmAcmeIssuer#key_type}
   */
   readonly keyType: string;
   /**
   * Microsoft CA backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#microsoft_ca MdmAcmeIssuer#microsoft_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#microsoft_ca MdmAcmeIssuer#microsoft_ca}
   */
   readonly microsoftCa?: MdmAcmeIssuerMicrosoftCa;
   /**
   * Name of the ACME issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#name MdmAcmeIssuer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#name MdmAcmeIssuer#name}
   */
   readonly name: string;
   /**
   * Okta CA backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#okta_ca MdmAcmeIssuer#okta_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#okta_ca MdmAcmeIssuer#okta_ca}
   */
   readonly oktaCa?: MdmAcmeIssuerOktaCa;
   /**
   * Static Challenge backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#static_challenge MdmAcmeIssuer#static_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#static_challenge MdmAcmeIssuer#static_challenge}
   */
   readonly staticChallenge?: MdmAcmeIssuerStaticChallenge;
   /**
   * A bitmask that specifies the use of the key: `1` is signing, `4` is encryption, and `5` is both signing and encryption. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#usage_flags MdmAcmeIssuer#usage_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#usage_flags MdmAcmeIssuer#usage_flags}
   */
   readonly usageFlags?: number;
 }
@@ -96,25 +96,25 @@ export interface MdmAcmeIssuerIdent {
   /**
   * Bearer token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#bearer_token MdmAcmeIssuer#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#bearer_token MdmAcmeIssuer#bearer_token}
   */
   readonly bearerToken: string;
   /**
   * Max number of retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#max_retries MdmAcmeIssuer#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#max_retries MdmAcmeIssuer#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Request timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#request_timeout MdmAcmeIssuer#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#request_timeout MdmAcmeIssuer#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * HTTP endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#url MdmAcmeIssuer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#url MdmAcmeIssuer#url}
   */
   readonly url: string;
 }
@@ -291,19 +291,19 @@ export interface MdmAcmeIssuerMicrosoftCa {
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#password MdmAcmeIssuer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#password MdmAcmeIssuer#password}
   */
   readonly password: string;
   /**
   * HTTP endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#url MdmAcmeIssuer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#url MdmAcmeIssuer#url}
   */
   readonly url: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#username MdmAcmeIssuer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#username MdmAcmeIssuer#username}
   */
   readonly username: string;
 }
@@ -448,19 +448,19 @@ export interface MdmAcmeIssuerOktaCa {
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#password MdmAcmeIssuer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#password MdmAcmeIssuer#password}
   */
   readonly password: string;
   /**
   * HTTP endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#url MdmAcmeIssuer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#url MdmAcmeIssuer#url}
   */
   readonly url: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#username MdmAcmeIssuer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#username MdmAcmeIssuer#username}
   */
   readonly username: string;
 }
@@ -605,7 +605,7 @@ export interface MdmAcmeIssuerStaticChallenge {
   /**
   * Challenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#challenge MdmAcmeIssuer#challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#challenge MdmAcmeIssuer#challenge}
   */
   readonly challenge: string;
 }
@@ -696,7 +696,7 @@ export class MdmAcmeIssuerStaticChallengeOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer zentral_mdm_acme_issuer}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer zentral_mdm_acme_issuer}
 */
 export class MdmAcmeIssuer extends cdktf.TerraformResource {
 
@@ -712,7 +712,7 @@ export class MdmAcmeIssuer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmAcmeIssuer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmAcmeIssuer to import
-  * @param importFromId The id of the existing MdmAcmeIssuer that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmAcmeIssuer that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmAcmeIssuer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -724,7 +724,7 @@ export class MdmAcmeIssuer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_acme_issuer zentral_mdm_acme_issuer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_acme_issuer zentral_mdm_acme_issuer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -735,8 +735,8 @@ export class MdmAcmeIssuer extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_acme_issuer',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64',
-        providerVersionConstraint: '0.1.64'
+        providerVersion: '0.1.65',
+        providerVersionConstraint: '0.1.65'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

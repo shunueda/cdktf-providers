@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/router
+// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataGcoreRouterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/router#id DataGcoreRouter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/router#id DataGcoreRouter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/router#name DataGcoreRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/router#name DataGcoreRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/router#project_id DataGcoreRouter#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/router#project_id DataGcoreRouter#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/router#project_name DataGcoreRouter#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/router#project_name DataGcoreRouter#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/router#region_id DataGcoreRouter#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/router#region_id DataGcoreRouter#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/router#region_name DataGcoreRouter#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/router#region_name DataGcoreRouter#region_name}
   */
   readonly regionName?: string;
 }
@@ -383,7 +383,7 @@ export class DataGcoreRouterRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/router gcore_router}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/router gcore_router}
 */
 export class DataGcoreRouter extends cdktf.TerraformDataSource {
 
@@ -399,7 +399,7 @@ export class DataGcoreRouter extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGcoreRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGcoreRouter to import
-  * @param importFromId The id of the existing DataGcoreRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGcoreRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGcoreRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -411,7 +411,7 @@ export class DataGcoreRouter extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/router gcore_router} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/router gcore_router} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -422,8 +422,8 @@ export class DataGcoreRouter extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_router',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.1',
-        providerVersionConstraint: '0.32.1'
+        providerVersion: '0.32.2',
+        providerVersionConstraint: '0.32.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

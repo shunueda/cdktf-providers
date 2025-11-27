@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface CloudProjectInstanceConfig extends cdktf.TerraformMetaArguments
   /**
   * The availability zone where the instance will be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#availability_zone CloudProjectInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#availability_zone CloudProjectInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Billing period - hourly | monthly 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#billing_period CloudProjectInstance#billing_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#billing_period CloudProjectInstance#billing_period}
   */
   readonly billingPeriod: string;
   /**
   * Create multiple instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#bulk CloudProjectInstance#bulk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#bulk CloudProjectInstance#bulk}
   */
   readonly bulk?: number;
   /**
   * Instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#name CloudProjectInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#name CloudProjectInstance#name}
   */
   readonly name: string;
   /**
   * Instance region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#region CloudProjectInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#region CloudProjectInstance#region}
   */
   readonly region: string;
   /**
   * Service name of the resource representing the id of the cloud project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#service_name CloudProjectInstance#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#service_name CloudProjectInstance#service_name}
   */
   readonly serviceName: string;
   /**
   * Configuration information or scripts to use upon launch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#user_data CloudProjectInstance#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#user_data CloudProjectInstance#user_data}
   */
   readonly userData?: string;
   /**
   * auto_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#auto_backup CloudProjectInstance#auto_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#auto_backup CloudProjectInstance#auto_backup}
   */
   readonly autoBackup?: CloudProjectInstanceAutoBackup;
   /**
   * boot_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#boot_from CloudProjectInstance#boot_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#boot_from CloudProjectInstance#boot_from}
   */
   readonly bootFrom: CloudProjectInstanceBootFrom;
   /**
   * flavor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#flavor CloudProjectInstance#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#flavor CloudProjectInstance#flavor}
   */
   readonly flavor: CloudProjectInstanceFlavor;
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#group CloudProjectInstance#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#group CloudProjectInstance#group}
   */
   readonly group?: CloudProjectInstanceGroup;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#network CloudProjectInstance#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#network CloudProjectInstance#network}
   */
   readonly network: CloudProjectInstanceNetwork;
   /**
   * ssh_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#ssh_key CloudProjectInstance#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#ssh_key CloudProjectInstance#ssh_key}
   */
   readonly sshKey?: CloudProjectInstanceSshKey;
   /**
   * ssh_key_create block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#ssh_key_create CloudProjectInstance#ssh_key_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#ssh_key_create CloudProjectInstance#ssh_key_create}
   */
   readonly sshKeyCreate?: CloudProjectInstanceSshKeyCreate;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#timeouts CloudProjectInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#timeouts CloudProjectInstance#timeouts}
   */
   readonly timeouts?: CloudProjectInstanceTimeouts;
 }
@@ -257,13 +257,13 @@ export interface CloudProjectInstanceAutoBackup {
   /**
   * Unix cron pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#cron CloudProjectInstance#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#cron CloudProjectInstance#cron}
   */
   readonly cron: string;
   /**
   * Number of backup to keep
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#rotation CloudProjectInstance#rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#rotation CloudProjectInstance#rotation}
   */
   readonly rotation: number;
 }
@@ -372,13 +372,13 @@ export interface CloudProjectInstanceBootFrom {
   /**
   * Instance image id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#image_id CloudProjectInstance#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#image_id CloudProjectInstance#image_id}
   */
   readonly imageId?: string;
   /**
   * Instance volume id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#volume_id CloudProjectInstance#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#volume_id CloudProjectInstance#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -493,7 +493,7 @@ export interface CloudProjectInstanceFlavor {
   /**
   * Flavor id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#flavor_id CloudProjectInstance#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#flavor_id CloudProjectInstance#flavor_id}
   */
   readonly flavorId: string;
 }
@@ -576,7 +576,7 @@ export interface CloudProjectInstanceGroup {
   /**
   * Group id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#group_id CloudProjectInstance#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#group_id CloudProjectInstance#group_id}
   */
   readonly groupId?: string;
 }
@@ -662,7 +662,7 @@ export interface CloudProjectInstanceNetworkPrivateFloatingIp {
   /**
   * Floating IP ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#id CloudProjectInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#id CloudProjectInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -751,7 +751,7 @@ export interface CloudProjectInstanceNetworkPrivateFloatingIpCreate {
   /**
   * Floating IP description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#description CloudProjectInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#description CloudProjectInstance#description}
   */
   readonly description?: string;
 }
@@ -837,7 +837,7 @@ export interface CloudProjectInstanceNetworkPrivateGateway {
   /**
   * Existing gateway ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#id CloudProjectInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#id CloudProjectInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -926,13 +926,13 @@ export interface CloudProjectInstanceNetworkPrivateGatewayCreate {
   /**
   * Gateway model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#model CloudProjectInstance#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#model CloudProjectInstance#model}
   */
   readonly model?: string;
   /**
   * Gateway name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#name CloudProjectInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#name CloudProjectInstance#name}
   */
   readonly name?: string;
 }
@@ -1047,7 +1047,7 @@ export interface CloudProjectInstanceNetworkPrivateNetwork {
   /**
   * Existing network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#id CloudProjectInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#id CloudProjectInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1056,7 +1056,7 @@ export interface CloudProjectInstanceNetworkPrivateNetwork {
   /**
   * Existing subnet ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#subnet_id CloudProjectInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#subnet_id CloudProjectInstance#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -1171,17 +1171,17 @@ export interface CloudProjectInstanceNetworkPrivateNetworkCreateSubnet {
   /**
   * Subnet range in CIDR notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#cidr CloudProjectInstance#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#cidr CloudProjectInstance#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#enable_dhcp CloudProjectInstance#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#enable_dhcp CloudProjectInstance#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * IP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#ip_version CloudProjectInstance#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#ip_version CloudProjectInstance#ip_version}
   */
   readonly ipVersion?: number;
 }
@@ -1325,19 +1325,19 @@ export interface CloudProjectInstanceNetworkPrivateNetworkCreate {
   /**
   * Network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#name CloudProjectInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#name CloudProjectInstance#name}
   */
   readonly name?: string;
   /**
   * Network vlan ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#vlan_id CloudProjectInstance#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#vlan_id CloudProjectInstance#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#subnet CloudProjectInstance#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#subnet CloudProjectInstance#subnet}
   */
   readonly subnet?: CloudProjectInstanceNetworkPrivateNetworkCreateSubnet;
 }
@@ -1481,43 +1481,43 @@ export interface CloudProjectInstanceNetworkPrivate {
   /**
   * Instance IP in the private network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#ip CloudProjectInstance#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#ip CloudProjectInstance#ip}
   */
   readonly ip?: string;
   /**
   * floating_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#floating_ip CloudProjectInstance#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#floating_ip CloudProjectInstance#floating_ip}
   */
   readonly floatingIp?: CloudProjectInstanceNetworkPrivateFloatingIp;
   /**
   * floating_ip_create block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#floating_ip_create CloudProjectInstance#floating_ip_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#floating_ip_create CloudProjectInstance#floating_ip_create}
   */
   readonly floatingIpCreate?: CloudProjectInstanceNetworkPrivateFloatingIpCreate;
   /**
   * gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#gateway CloudProjectInstance#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#gateway CloudProjectInstance#gateway}
   */
   readonly gateway?: CloudProjectInstanceNetworkPrivateGateway;
   /**
   * gateway_create block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#gateway_create CloudProjectInstance#gateway_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#gateway_create CloudProjectInstance#gateway_create}
   */
   readonly gatewayCreate?: CloudProjectInstanceNetworkPrivateGatewayCreate;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#network CloudProjectInstance#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#network CloudProjectInstance#network}
   */
   readonly network?: CloudProjectInstanceNetworkPrivateNetwork;
   /**
   * network_create block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#network_create CloudProjectInstance#network_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#network_create CloudProjectInstance#network_create}
   */
   readonly networkCreate?: CloudProjectInstanceNetworkPrivateNetworkCreate;
 }
@@ -1777,13 +1777,13 @@ export interface CloudProjectInstanceNetwork {
   /**
   * Set the new instance as public
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#public CloudProjectInstance#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#public CloudProjectInstance#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * private block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#private CloudProjectInstance#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#private CloudProjectInstance#private}
   */
   readonly private?: CloudProjectInstanceNetworkPrivate;
 }
@@ -1898,7 +1898,7 @@ export interface CloudProjectInstanceSshKey {
   /**
   * SSH Key pair name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#name CloudProjectInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#name CloudProjectInstance#name}
   */
   readonly name: string;
 }
@@ -1981,13 +1981,13 @@ export interface CloudProjectInstanceSshKeyCreate {
   /**
   * SSH Key pair name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#name CloudProjectInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#name CloudProjectInstance#name}
   */
   readonly name: string;
   /**
   * SSH Public Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#public_key CloudProjectInstance#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#public_key CloudProjectInstance#public_key}
   */
   readonly publicKey: string;
 }
@@ -2094,11 +2094,11 @@ export class CloudProjectInstanceSshKeyCreateOutputReference extends cdktf.Compl
 }
 export interface CloudProjectInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#create CloudProjectInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#create CloudProjectInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#default CloudProjectInstance#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#default CloudProjectInstance#default}
   */
   readonly default?: string;
 }
@@ -2221,7 +2221,7 @@ export class CloudProjectInstanceTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance ovh_cloud_project_instance}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance ovh_cloud_project_instance}
 */
 export class CloudProjectInstance extends cdktf.TerraformResource {
 
@@ -2237,7 +2237,7 @@ export class CloudProjectInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectInstance to import
-  * @param importFromId The id of the existing CloudProjectInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2249,7 +2249,7 @@ export class CloudProjectInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance ovh_cloud_project_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance ovh_cloud_project_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2260,8 +2260,8 @@ export class CloudProjectInstance extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_instance',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

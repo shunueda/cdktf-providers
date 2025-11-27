@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ZenlayercloudProviderConfig {
   /**
   * Access Key Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs#access_key_id ZenlayercloudProvider#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs#access_key_id ZenlayercloudProvider#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * Access Key Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs#access_key_password ZenlayercloudProvider#access_key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs#access_key_password ZenlayercloudProvider#access_key_password}
   */
   readonly accessKeyPassword?: string;
   /**
   * The maximum timeout of the client request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs#client_timeout ZenlayercloudProvider#client_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs#client_timeout ZenlayercloudProvider#client_timeout}
   */
   readonly clientTimeout?: number;
   /**
   * The root domain of the API request, Default is `console.zenlayer.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs#domain ZenlayercloudProvider#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs#domain ZenlayercloudProvider#domain}
   */
   readonly domain?: string;
   /**
   * The scheme of the API request. Valid values: `HTTP` and `HTTPS`. Default is `HTTPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs#scheme ZenlayercloudProvider#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs#scheme ZenlayercloudProvider#scheme}
   */
   readonly scheme?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs#alias ZenlayercloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs#alias ZenlayercloudProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs zenlayercloud}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs zenlayercloud}
 */
 export class ZenlayercloudProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class ZenlayercloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ZenlayercloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZenlayercloudProvider to import
-  * @param importFromId The id of the existing ZenlayercloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZenlayercloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZenlayercloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ZenlayercloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs zenlayercloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs zenlayercloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ZenlayercloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'zenlayercloud',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.11',
-        providerVersionConstraint: '0.2.11'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       terraformProviderSource: 'zenlayer/zenlayercloud'
     });

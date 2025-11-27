@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,17 @@ export interface DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2Config ext
   /**
   * AWS Endpoint DNS Names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#aws_endpoint_dns_names DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2#aws_endpoint_dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#aws_endpoint_dns_names DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2#aws_endpoint_dns_names}
   */
   readonly awsEndpointDnsNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#cluster_data_center_id DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2#cluster_data_center_id}
+  * ID of the cluster data center
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#cluster_data_center_id DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2#cluster_data_center_id}
   */
-  readonly clusterDataCenterId: string;
+  readonly clusterDataCenterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#id DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#id DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,17 +29,17 @@ export interface DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2Config ext
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#filter DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#filter DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2#filter}
   */
   readonly filter?: DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2Filter[] | cdktf.IResolvable;
 }
 export interface DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#name DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#name DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#values DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#values DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2#values}
   */
   readonly values: string[];
 }
@@ -176,7 +178,7 @@ export class DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2FilterList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2 instaclustr_cluster_data_center_aws_endpoint_dns_names_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2 instaclustr_cluster_data_center_aws_endpoint_dns_names_v2}
 */
 export class DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2 extends cdktf.TerraformDataSource {
 
@@ -192,7 +194,7 @@ export class DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2 extends cdktf
   * Generates CDKTF code for importing a DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2 to import
-  * @param importFromId The id of the existing DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -204,19 +206,19 @@ export class DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2 extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2 instaclustr_cluster_data_center_aws_endpoint_dns_names_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_dns_names_v2 instaclustr_cluster_data_center_aws_endpoint_dns_names_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2Config
+  * @param options DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2Config = {}
   */
-  public constructor(scope: Construct, id: string, config: DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2Config) {
+  public constructor(scope: Construct, id: string, config: DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2Config = {}) {
     super(scope, id, {
       terraformResourceType: 'instaclustr_cluster_data_center_aws_endpoint_dns_names_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.30',
-        providerVersionConstraint: '2.1.30'
+        providerVersion: '2.1.31',
+        providerVersionConstraint: '2.1.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -252,13 +254,16 @@ export class DataInstaclustrClusterDataCenterAwsEndpointDnsNamesV2 extends cdktf
     return this._awsEndpointDnsNames;
   }
 
-  // cluster_data_center_id - computed: false, optional: false, required: true
+  // cluster_data_center_id - computed: true, optional: true, required: false
   private _clusterDataCenterId?: string; 
   public get clusterDataCenterId() {
     return this.getStringAttribute('cluster_data_center_id');
   }
   public set clusterDataCenterId(value: string) {
     this._clusterDataCenterId = value;
+  }
+  public resetClusterDataCenterId() {
+    this._clusterDataCenterId = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get clusterDataCenterIdInput() {

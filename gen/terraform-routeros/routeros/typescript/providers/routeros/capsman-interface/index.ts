@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface CapsmanInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#___path___ CapsmanInterface#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#___path___ CapsmanInterface#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#___skip___ CapsmanInterface#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#___skip___ CapsmanInterface#___skip___}
   */
   readonly skip?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#___ts___ CapsmanInterface#___ts___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#___ts___ CapsmanInterface#___ts___}
   */
   readonly ts?: string;
   /**
   * ARP timeout is time how long ARP record is kept in ARP table after no packets are received from IP. Value auto equals to the value of arp-timeout in IP/Settings, default is 30s. Can use postfix `ms`, `s`, `m`, `h`, `d` for milliseconds, seconds, minutes, hours or days. If no postfix is set then seconds (s) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#arp_timeout CapsmanInterface#arp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#arp_timeout CapsmanInterface#arp_timeout}
   */
   readonly arpTimeout?: string;
   /**
   * Channel inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#channel CapsmanInterface#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#channel CapsmanInterface#channel}
   */
   readonly channel?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#comment CapsmanInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#comment CapsmanInterface#comment}
   */
   readonly comment?: string;
   /**
   * Configuration inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#configuration CapsmanInterface#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#configuration CapsmanInterface#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Datapath inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#datapath CapsmanInterface#datapath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#datapath CapsmanInterface#datapath}
   */
   readonly datapath?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#disabled CapsmanInterface#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#disabled CapsmanInterface#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#id CapsmanInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#id CapsmanInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,49 +67,49 @@ export interface CapsmanInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * MAC address (BSSID) to use for the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#mac_address CapsmanInterface#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#mac_address CapsmanInterface#mac_address}
   */
   readonly macAddress?: string;
   /**
   * The corresponding master interface of the virtual one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#master_interface CapsmanInterface#master_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#master_interface CapsmanInterface#master_interface}
   */
   readonly masterInterface?: string;
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#name CapsmanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#name CapsmanInterface#name}
   */
   readonly name: string;
   /**
   * The MAC address of the associated radio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#radio_mac CapsmanInterface#radio_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#radio_mac CapsmanInterface#radio_mac}
   */
   readonly radioMac?: string;
   /**
   * Name of the associated radio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#radio_name CapsmanInterface#radio_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#radio_name CapsmanInterface#radio_name}
   */
   readonly radioName?: string;
   /**
   * Rates inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#rates CapsmanInterface#rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#rates CapsmanInterface#rates}
   */
   readonly rates?: { [key: string]: string };
   /**
   * Security inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#security CapsmanInterface#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#security CapsmanInterface#security}
   */
   readonly security?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface routeros_capsman_interface}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface routeros_capsman_interface}
 */
 export class CapsmanInterface extends cdktf.TerraformResource {
 
@@ -125,7 +125,7 @@ export class CapsmanInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapsmanInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapsmanInterface to import
-  * @param importFromId The id of the existing CapsmanInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapsmanInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapsmanInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class CapsmanInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_interface routeros_capsman_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_interface routeros_capsman_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class CapsmanInterface extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_capsman_interface',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

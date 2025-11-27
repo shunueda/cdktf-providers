@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CloudProjectDatabaseOpensearchUserConfig extends cdktf.Terrafor
   /**
   * Id of the database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#cluster_id CloudProjectDatabaseOpensearchUser#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#cluster_id CloudProjectDatabaseOpensearchUser#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#id CloudProjectDatabaseOpensearchUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#id CloudProjectDatabaseOpensearchUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,29 +23,29 @@ export interface CloudProjectDatabaseOpensearchUserConfig extends cdktf.Terrafor
   /**
   * Name of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#name CloudProjectDatabaseOpensearchUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#name CloudProjectDatabaseOpensearchUser#name}
   */
   readonly name: string;
   /**
   * Arbitrary string to change to trigger a password update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#password_reset CloudProjectDatabaseOpensearchUser#password_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#password_reset CloudProjectDatabaseOpensearchUser#password_reset}
   */
   readonly passwordReset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#service_name CloudProjectDatabaseOpensearchUser#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#service_name CloudProjectDatabaseOpensearchUser#service_name}
   */
   readonly serviceName: string;
   /**
   * acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#acls CloudProjectDatabaseOpensearchUser#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#acls CloudProjectDatabaseOpensearchUser#acls}
   */
   readonly acls?: CloudProjectDatabaseOpensearchUserAcls[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#timeouts CloudProjectDatabaseOpensearchUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#timeouts CloudProjectDatabaseOpensearchUser#timeouts}
   */
   readonly timeouts?: CloudProjectDatabaseOpensearchUserTimeouts;
 }
@@ -53,13 +53,13 @@ export interface CloudProjectDatabaseOpensearchUserAcls {
   /**
   * Pattern of the ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#pattern CloudProjectDatabaseOpensearchUser#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#pattern CloudProjectDatabaseOpensearchUser#pattern}
   */
   readonly pattern: string;
   /**
   * Permission of the ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#permission CloudProjectDatabaseOpensearchUser#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#permission CloudProjectDatabaseOpensearchUser#permission}
   */
   readonly permission: string;
 }
@@ -198,15 +198,15 @@ export class CloudProjectDatabaseOpensearchUserAclsList extends cdktf.ComplexLis
 }
 export interface CloudProjectDatabaseOpensearchUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#create CloudProjectDatabaseOpensearchUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#create CloudProjectDatabaseOpensearchUser#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#delete CloudProjectDatabaseOpensearchUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#delete CloudProjectDatabaseOpensearchUser#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#update CloudProjectDatabaseOpensearchUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#update CloudProjectDatabaseOpensearchUser#update}
   */
   readonly update?: string;
 }
@@ -358,7 +358,7 @@ export class CloudProjectDatabaseOpensearchUserTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user ovh_cloud_project_database_opensearch_user}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user ovh_cloud_project_database_opensearch_user}
 */
 export class CloudProjectDatabaseOpensearchUser extends cdktf.TerraformResource {
 
@@ -374,7 +374,7 @@ export class CloudProjectDatabaseOpensearchUser extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a CloudProjectDatabaseOpensearchUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectDatabaseOpensearchUser to import
-  * @param importFromId The id of the existing CloudProjectDatabaseOpensearchUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectDatabaseOpensearchUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectDatabaseOpensearchUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -386,7 +386,7 @@ export class CloudProjectDatabaseOpensearchUser extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_user ovh_cloud_project_database_opensearch_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_user ovh_cloud_project_database_opensearch_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -397,8 +397,8 @@ export class CloudProjectDatabaseOpensearchUser extends cdktf.TerraformResource 
       terraformResourceType: 'ovh_cloud_project_database_opensearch_user',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

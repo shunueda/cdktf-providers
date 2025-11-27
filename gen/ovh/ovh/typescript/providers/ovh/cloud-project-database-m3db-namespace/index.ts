@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CloudProjectDatabaseM3DbNamespaceConfig extends cdktf.Terraform
   /**
   * Id of the database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#cluster_id CloudProjectDatabaseM3DbNamespace#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#cluster_id CloudProjectDatabaseM3DbNamespace#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#id CloudProjectDatabaseM3DbNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#id CloudProjectDatabaseM3DbNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,79 +23,79 @@ export interface CloudProjectDatabaseM3DbNamespaceConfig extends cdktf.Terraform
   /**
   * Name of the namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#name CloudProjectDatabaseM3DbNamespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#name CloudProjectDatabaseM3DbNamespace#name}
   */
   readonly name: string;
   /**
   * Resolution for an aggregated namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#resolution CloudProjectDatabaseM3DbNamespace#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#resolution CloudProjectDatabaseM3DbNamespace#resolution}
   */
   readonly resolution: string;
   /**
   * Controls how long we wait before expiring stale data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#retention_block_data_expiration_duration CloudProjectDatabaseM3DbNamespace#retention_block_data_expiration_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#retention_block_data_expiration_duration CloudProjectDatabaseM3DbNamespace#retention_block_data_expiration_duration}
   */
   readonly retentionBlockDataExpirationDuration?: string;
   /**
   * Controls how long to keep a block in memory before flushing to a fileset on disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#retention_block_size_duration CloudProjectDatabaseM3DbNamespace#retention_block_size_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#retention_block_size_duration CloudProjectDatabaseM3DbNamespace#retention_block_size_duration}
   */
   readonly retentionBlockSizeDuration?: string;
   /**
   * Controls how far into the future writes to the namespace will be accepted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#retention_buffer_future_duration CloudProjectDatabaseM3DbNamespace#retention_buffer_future_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#retention_buffer_future_duration CloudProjectDatabaseM3DbNamespace#retention_buffer_future_duration}
   */
   readonly retentionBufferFutureDuration?: string;
   /**
   * Controls how far into the past writes to the namespace will be accepted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#retention_buffer_past_duration CloudProjectDatabaseM3DbNamespace#retention_buffer_past_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#retention_buffer_past_duration CloudProjectDatabaseM3DbNamespace#retention_buffer_past_duration}
   */
   readonly retentionBufferPastDuration?: string;
   /**
   * Controls the duration of time that M3DB will retain data for the namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#retention_period_duration CloudProjectDatabaseM3DbNamespace#retention_period_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#retention_period_duration CloudProjectDatabaseM3DbNamespace#retention_period_duration}
   */
   readonly retentionPeriodDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#service_name CloudProjectDatabaseM3DbNamespace#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#service_name CloudProjectDatabaseM3DbNamespace#service_name}
   */
   readonly serviceName: string;
   /**
   * Defines whether M3db will create snapshot files for this namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#snapshot_enabled CloudProjectDatabaseM3DbNamespace#snapshot_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#snapshot_enabled CloudProjectDatabaseM3DbNamespace#snapshot_enabled}
   */
   readonly snapshotEnabled?: boolean | cdktf.IResolvable;
   /**
   * Defines whether M3db will include writes to this namespace in the commit log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#writes_to_commit_log_enabled CloudProjectDatabaseM3DbNamespace#writes_to_commit_log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#writes_to_commit_log_enabled CloudProjectDatabaseM3DbNamespace#writes_to_commit_log_enabled}
   */
   readonly writesToCommitLogEnabled?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#timeouts CloudProjectDatabaseM3DbNamespace#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#timeouts CloudProjectDatabaseM3DbNamespace#timeouts}
   */
   readonly timeouts?: CloudProjectDatabaseM3DbNamespaceTimeouts;
 }
 export interface CloudProjectDatabaseM3DbNamespaceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#create CloudProjectDatabaseM3DbNamespace#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#create CloudProjectDatabaseM3DbNamespace#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#delete CloudProjectDatabaseM3DbNamespace#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#delete CloudProjectDatabaseM3DbNamespace#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#update CloudProjectDatabaseM3DbNamespace#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#update CloudProjectDatabaseM3DbNamespace#update}
   */
   readonly update?: string;
 }
@@ -247,7 +247,7 @@ export class CloudProjectDatabaseM3DbNamespaceTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace ovh_cloud_project_database_m3db_namespace}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace ovh_cloud_project_database_m3db_namespace}
 */
 export class CloudProjectDatabaseM3DbNamespace extends cdktf.TerraformResource {
 
@@ -263,7 +263,7 @@ export class CloudProjectDatabaseM3DbNamespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectDatabaseM3DbNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectDatabaseM3DbNamespace to import
-  * @param importFromId The id of the existing CloudProjectDatabaseM3DbNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectDatabaseM3DbNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectDatabaseM3DbNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class CloudProjectDatabaseM3DbNamespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_m3db_namespace ovh_cloud_project_database_m3db_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_m3db_namespace ovh_cloud_project_database_m3db_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,8 +286,8 @@ export class CloudProjectDatabaseM3DbNamespace extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_database_m3db_namespace',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

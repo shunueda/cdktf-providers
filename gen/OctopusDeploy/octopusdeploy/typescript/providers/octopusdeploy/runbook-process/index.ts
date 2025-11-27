@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface RunbookProcessConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,54 +19,54 @@ export interface RunbookProcessConfig extends cdktf.TerraformMetaArguments {
   /**
   * Read only value containing the last snapshot ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#last_snapshot_id RunbookProcess#last_snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#last_snapshot_id RunbookProcess#last_snapshot_id}
   */
   readonly lastSnapshotId?: string;
   /**
   * The project ID associated with this runbook process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#project_id RunbookProcess#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#project_id RunbookProcess#project_id}
   */
   readonly projectId?: string;
   /**
   * The runbook ID associated with this runbook process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#runbook_id RunbookProcess#runbook_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#runbook_id RunbookProcess#runbook_id}
   */
   readonly runbookId: string;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#space_id RunbookProcess#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#space_id RunbookProcess#space_id}
   */
   readonly spaceId?: string;
   /**
   * The version number of this runbook process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#version RunbookProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#version RunbookProcess#version}
   */
   readonly version?: number;
   /**
   * step block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#step RunbookProcess#step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#step RunbookProcess#step}
   */
   readonly step?: RunbookProcessStep[] | cdktf.IResolvable;
 }
 export interface RunbookProcessStepActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#version RunbookProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#version RunbookProcess#version}
   */
   readonly version?: number;
 }
@@ -205,11 +205,11 @@ export class RunbookProcessStepActionActionTemplateOutputReference extends cdktf
 }
 export interface RunbookProcessStepActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#image RunbookProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#image RunbookProcess#image}
   */
   readonly image?: string;
 }
@@ -356,31 +356,31 @@ export interface RunbookProcessStepActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -573,25 +573,25 @@ export interface RunbookProcessStepActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * Whether to extract the package during deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#extract_during_deployment RunbookProcess#extract_during_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#extract_during_deployment RunbookProcess#extract_during_deployment}
   */
   readonly extractDuringDeployment?: boolean | cdktf.IResolvable;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -600,19 +600,19 @@ export interface RunbookProcessStepActionPackage {
   /**
   * The name of the package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -898,19 +898,19 @@ export interface RunbookProcessStepActionPrimaryPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -919,19 +919,19 @@ export interface RunbookProcessStepActionPrimaryPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -1159,47 +1159,47 @@ export interface RunbookProcessStepAction {
   /**
   * The type of action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#action_type RunbookProcess#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#action_type RunbookProcess#action_type}
   */
   readonly actionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#channels RunbookProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#channels RunbookProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#condition RunbookProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#condition RunbookProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#environments RunbookProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#environments RunbookProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#features RunbookProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#features RunbookProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1208,91 +1208,91 @@ export interface RunbookProcessStepAction {
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_required RunbookProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_required RunbookProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#notes RunbookProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#notes RunbookProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Whether this step runs on a worker or on the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#run_on_server RunbookProcess#run_on_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#run_on_server RunbookProcess#run_on_server}
   */
   readonly runOnServer?: boolean | cdktf.IResolvable;
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The worker pool associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#worker_pool_id RunbookProcess#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#worker_pool_id RunbookProcess#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * The worker pool variable associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#worker_pool_variable RunbookProcess#worker_pool_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#worker_pool_variable RunbookProcess#worker_pool_variable}
   */
   readonly workerPoolVariable?: string;
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#action_template RunbookProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#action_template RunbookProcess#action_template}
   */
   readonly actionTemplate?: RunbookProcessStepActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#container RunbookProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#container RunbookProcess#container}
   */
   readonly container?: RunbookProcessStepActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
   */
   readonly gitDependency?: RunbookProcessStepActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package RunbookProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package RunbookProcess#package}
   */
   readonly package?: RunbookProcessStepActionPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#primary_package RunbookProcess#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#primary_package RunbookProcess#primary_package}
   */
   readonly primaryPackage?: RunbookProcessStepActionPrimaryPackage;
 }
@@ -2045,18 +2045,18 @@ export class RunbookProcessStepActionList extends cdktf.ComplexList {
 }
 export interface RunbookProcessStepApplyTerraformTemplateActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#version RunbookProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#version RunbookProcess#version}
   */
   readonly version?: number;
 }
@@ -2195,23 +2195,23 @@ export class RunbookProcessStepApplyTerraformTemplateActionActionTemplateOutputR
 }
 export interface RunbookProcessStepApplyTerraformTemplateActionAdvancedOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#allow_additional_plugin_downloads RunbookProcess#allow_additional_plugin_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#allow_additional_plugin_downloads RunbookProcess#allow_additional_plugin_downloads}
   */
   readonly allowAdditionalPluginDownloads?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#apply_parameters RunbookProcess#apply_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#apply_parameters RunbookProcess#apply_parameters}
   */
   readonly applyParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#init_parameters RunbookProcess#init_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#init_parameters RunbookProcess#init_parameters}
   */
   readonly initParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#plugin_cache_directory RunbookProcess#plugin_cache_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#plugin_cache_directory RunbookProcess#plugin_cache_directory}
   */
   readonly pluginCacheDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#workspace RunbookProcess#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#workspace RunbookProcess#workspace}
   */
   readonly workspace?: string;
 }
@@ -2411,19 +2411,19 @@ export class RunbookProcessStepApplyTerraformTemplateActionAdvancedOptionsOutput
 }
 export interface RunbookProcessStepApplyTerraformTemplateActionAwsAccountRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#arn RunbookProcess#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#arn RunbookProcess#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#external_id RunbookProcess#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#external_id RunbookProcess#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#role_session_name RunbookProcess#role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#role_session_name RunbookProcess#role_session_name}
   */
   readonly roleSessionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#session_duration RunbookProcess#session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#session_duration RunbookProcess#session_duration}
   */
   readonly sessionDuration?: number;
 }
@@ -2594,21 +2594,21 @@ export class RunbookProcessStepApplyTerraformTemplateActionAwsAccountRoleOutputR
 }
 export interface RunbookProcessStepApplyTerraformTemplateActionAwsAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#region RunbookProcess#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#region RunbookProcess#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#use_instance_role RunbookProcess#use_instance_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#use_instance_role RunbookProcess#use_instance_role}
   */
   readonly useInstanceRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#variable RunbookProcess#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#variable RunbookProcess#variable}
   */
   readonly variable?: string;
   /**
   * role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#role RunbookProcess#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#role RunbookProcess#role}
   */
   readonly role?: RunbookProcessStepApplyTerraformTemplateActionAwsAccountRole;
 }
@@ -2779,7 +2779,7 @@ export class RunbookProcessStepApplyTerraformTemplateActionAwsAccountOutputRefer
 }
 export interface RunbookProcessStepApplyTerraformTemplateActionAzureAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#variable RunbookProcess#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#variable RunbookProcess#variable}
   */
   readonly variable?: string;
 }
@@ -2863,11 +2863,11 @@ export class RunbookProcessStepApplyTerraformTemplateActionAzureAccountOutputRef
 }
 export interface RunbookProcessStepApplyTerraformTemplateActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#image RunbookProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#image RunbookProcess#image}
   */
   readonly image?: string;
 }
@@ -3014,31 +3014,31 @@ export interface RunbookProcessStepApplyTerraformTemplateActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -3231,41 +3231,41 @@ export interface RunbookProcessStepApplyTerraformTemplateActionGoogleCloudAccoun
   /**
   * Impersonate service accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#impersonate_service_account RunbookProcess#impersonate_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#impersonate_service_account RunbookProcess#impersonate_service_account}
   */
   readonly impersonateServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * This sets GOOGLE_PROJECT environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#project RunbookProcess#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#project RunbookProcess#project}
   */
   readonly project?: string;
   /**
   * This sets GOOGLE_REGION environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#region RunbookProcess#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#region RunbookProcess#region}
   */
   readonly region?: string;
   /**
   * This sets GOOGLE_IMPERSONATE_SERVICE_ACCOUNT environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#service_account_emails RunbookProcess#service_account_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#service_account_emails RunbookProcess#service_account_emails}
   */
   readonly serviceAccountEmails?: string;
   /**
   * When running in a Compute Engine virtual machine, use the associated VM service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#use_vm_service_account RunbookProcess#use_vm_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#use_vm_service_account RunbookProcess#use_vm_service_account}
   */
   readonly useVmServiceAccount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#variable RunbookProcess#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#variable RunbookProcess#variable}
   */
   readonly variable?: string;
   /**
   * This sets GOOGLE_ZONE environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#zone RunbookProcess#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#zone RunbookProcess#zone}
   */
   readonly zone?: string;
 }
@@ -3525,19 +3525,19 @@ export interface RunbookProcessStepApplyTerraformTemplateActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3546,19 +3546,19 @@ export interface RunbookProcessStepApplyTerraformTemplateActionPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -3818,19 +3818,19 @@ export interface RunbookProcessStepApplyTerraformTemplateActionPrimaryPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3839,19 +3839,19 @@ export interface RunbookProcessStepApplyTerraformTemplateActionPrimaryPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -4077,19 +4077,19 @@ export class RunbookProcessStepApplyTerraformTemplateActionPrimaryPackageOutputR
 }
 export interface RunbookProcessStepApplyTerraformTemplateActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#additional_variable_files RunbookProcess#additional_variable_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#additional_variable_files RunbookProcess#additional_variable_files}
   */
   readonly additionalVariableFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#directory RunbookProcess#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#directory RunbookProcess#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#run_automatic_file_substitution RunbookProcess#run_automatic_file_substitution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#run_automatic_file_substitution RunbookProcess#run_automatic_file_substitution}
   */
   readonly runAutomaticFileSubstitution?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#target_files RunbookProcess#target_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#target_files RunbookProcess#target_files}
   */
   readonly targetFiles?: string;
 }
@@ -4260,174 +4260,174 @@ export class RunbookProcessStepApplyTerraformTemplateActionTemplateOutputReferen
 }
 export interface RunbookProcessStepApplyTerraformTemplateAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#channels RunbookProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#channels RunbookProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#condition RunbookProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#condition RunbookProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#environments RunbookProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#environments RunbookProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#features RunbookProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#features RunbookProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#inline_template RunbookProcess#inline_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#inline_template RunbookProcess#inline_template}
   */
   readonly inlineTemplate?: string;
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_required RunbookProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_required RunbookProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#notes RunbookProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#notes RunbookProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Whether this step runs on a worker or on the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#run_on_server RunbookProcess#run_on_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#run_on_server RunbookProcess#run_on_server}
   */
   readonly runOnServer?: boolean | cdktf.IResolvable;
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#template_parameters RunbookProcess#template_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#template_parameters RunbookProcess#template_parameters}
   */
   readonly templateParameters?: string;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The worker pool associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#worker_pool_id RunbookProcess#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#worker_pool_id RunbookProcess#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * The worker pool variable associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#worker_pool_variable RunbookProcess#worker_pool_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#worker_pool_variable RunbookProcess#worker_pool_variable}
   */
   readonly workerPoolVariable?: string;
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#action_template RunbookProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#action_template RunbookProcess#action_template}
   */
   readonly actionTemplate?: RunbookProcessStepApplyTerraformTemplateActionActionTemplate;
   /**
   * advanced_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#advanced_options RunbookProcess#advanced_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#advanced_options RunbookProcess#advanced_options}
   */
   readonly advancedOptions: RunbookProcessStepApplyTerraformTemplateActionAdvancedOptions;
   /**
   * aws_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#aws_account RunbookProcess#aws_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#aws_account RunbookProcess#aws_account}
   */
   readonly awsAccount?: RunbookProcessStepApplyTerraformTemplateActionAwsAccount;
   /**
   * azure_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#azure_account RunbookProcess#azure_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#azure_account RunbookProcess#azure_account}
   */
   readonly azureAccount?: RunbookProcessStepApplyTerraformTemplateActionAzureAccount;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#container RunbookProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#container RunbookProcess#container}
   */
   readonly container?: RunbookProcessStepApplyTerraformTemplateActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
   */
   readonly gitDependency?: RunbookProcessStepApplyTerraformTemplateActionGitDependency;
   /**
   * google_cloud_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#google_cloud_account RunbookProcess#google_cloud_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#google_cloud_account RunbookProcess#google_cloud_account}
   */
   readonly googleCloudAccount?: RunbookProcessStepApplyTerraformTemplateActionGoogleCloudAccount;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package RunbookProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package RunbookProcess#package}
   */
   readonly package?: RunbookProcessStepApplyTerraformTemplateActionPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#primary_package RunbookProcess#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#primary_package RunbookProcess#primary_package}
   */
   readonly primaryPackage?: RunbookProcessStepApplyTerraformTemplateActionPrimaryPackage;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#template RunbookProcess#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#template RunbookProcess#template}
   */
   readonly template?: RunbookProcessStepApplyTerraformTemplateActionTemplate;
 }
@@ -5354,18 +5354,18 @@ export class RunbookProcessStepApplyTerraformTemplateActionList extends cdktf.Co
 }
 export interface RunbookProcessStepDeployKubernetesSecretActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#version RunbookProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#version RunbookProcess#version}
   */
   readonly version?: number;
 }
@@ -5504,11 +5504,11 @@ export class RunbookProcessStepDeployKubernetesSecretActionActionTemplateOutputR
 }
 export interface RunbookProcessStepDeployKubernetesSecretActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#image RunbookProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#image RunbookProcess#image}
   */
   readonly image?: string;
 }
@@ -5655,31 +5655,31 @@ export interface RunbookProcessStepDeployKubernetesSecretActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -5872,19 +5872,19 @@ export interface RunbookProcessStepDeployKubernetesSecretActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5893,19 +5893,19 @@ export interface RunbookProcessStepDeployKubernetesSecretActionPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -6163,43 +6163,43 @@ export class RunbookProcessStepDeployKubernetesSecretActionPackageList extends c
 }
 export interface RunbookProcessStepDeployKubernetesSecretAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#channels RunbookProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#channels RunbookProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#condition RunbookProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#condition RunbookProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#environments RunbookProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#environments RunbookProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#features RunbookProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#features RunbookProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6208,101 +6208,101 @@ export interface RunbookProcessStepDeployKubernetesSecretAction {
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_required RunbookProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_required RunbookProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * Indicates the status of the Kubernetes Object Status feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#kubernetes_object_status_check_enabled RunbookProcess#kubernetes_object_status_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#kubernetes_object_status_check_enabled RunbookProcess#kubernetes_object_status_check_enabled}
   */
   readonly kubernetesObjectStatusCheckEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#notes RunbookProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#notes RunbookProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Whether this step runs on a worker or on the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#run_on_server RunbookProcess#run_on_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#run_on_server RunbookProcess#run_on_server}
   */
   readonly runOnServer?: boolean | cdktf.IResolvable;
   /**
   * The name of the secret resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#secret_name RunbookProcess#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#secret_name RunbookProcess#secret_name}
   */
   readonly secretName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#secret_values RunbookProcess#secret_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#secret_values RunbookProcess#secret_values}
   */
   readonly secretValues: { [key: string]: string };
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The worker pool associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#worker_pool_id RunbookProcess#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#worker_pool_id RunbookProcess#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * The worker pool variable associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#worker_pool_variable RunbookProcess#worker_pool_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#worker_pool_variable RunbookProcess#worker_pool_variable}
   */
   readonly workerPoolVariable?: string;
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#action_template RunbookProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#action_template RunbookProcess#action_template}
   */
   readonly actionTemplate?: RunbookProcessStepDeployKubernetesSecretActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#container RunbookProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#container RunbookProcess#container}
   */
   readonly container?: RunbookProcessStepDeployKubernetesSecretActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
   */
   readonly gitDependency?: RunbookProcessStepDeployKubernetesSecretActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package RunbookProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package RunbookProcess#package}
   */
   readonly package?: RunbookProcessStepDeployKubernetesSecretActionPackage[] | cdktf.IResolvable;
 }
@@ -7081,18 +7081,18 @@ export class RunbookProcessStepDeployKubernetesSecretActionList extends cdktf.Co
 }
 export interface RunbookProcessStepDeployPackageActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#version RunbookProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#version RunbookProcess#version}
   */
   readonly version?: number;
 }
@@ -7231,11 +7231,11 @@ export class RunbookProcessStepDeployPackageActionActionTemplateOutputReference 
 }
 export interface RunbookProcessStepDeployPackageActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#image RunbookProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#image RunbookProcess#image}
   */
   readonly image?: string;
 }
@@ -7382,31 +7382,31 @@ export interface RunbookProcessStepDeployPackageActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -7599,19 +7599,19 @@ export interface RunbookProcessStepDeployPackageActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7620,19 +7620,19 @@ export interface RunbookProcessStepDeployPackageActionPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -7892,19 +7892,19 @@ export interface RunbookProcessStepDeployPackageActionPrimaryPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7913,19 +7913,19 @@ export interface RunbookProcessStepDeployPackageActionPrimaryPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -8153,65 +8153,65 @@ export interface RunbookProcessStepDeployPackageActionWindowsService {
   /**
   * The command line arguments that will be passed to the service when it starts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#arguments RunbookProcess#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#arguments RunbookProcess#arguments}
   */
   readonly arguments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#create_or_update_service RunbookProcess#create_or_update_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#create_or_update_service RunbookProcess#create_or_update_service}
   */
   readonly createOrUpdateService?: boolean | cdktf.IResolvable;
   /**
   * The Windows/domain account of the custom user that the service will run under
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#custom_account_name RunbookProcess#custom_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#custom_account_name RunbookProcess#custom_account_name}
   */
   readonly customAccountName?: string;
   /**
   * The password for the custom account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#custom_account_password RunbookProcess#custom_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#custom_account_password RunbookProcess#custom_account_password}
   */
   readonly customAccountPassword?: string;
   /**
   * Any dependencies that the service has. Separate the names using forward slashes (/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#dependencies RunbookProcess#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#dependencies RunbookProcess#dependencies}
   */
   readonly dependencies?: string;
   /**
   * User-friendly description of the service (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#description RunbookProcess#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#description RunbookProcess#description}
   */
   readonly description?: string;
   /**
   * The display name of the service (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#display_name RunbookProcess#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#display_name RunbookProcess#display_name}
   */
   readonly displayName?: string;
   /**
   * The path to the executable relative to the package installation directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#executable_path RunbookProcess#executable_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#executable_path RunbookProcess#executable_path}
   */
   readonly executablePath: string;
   /**
   * Which built-in account will the service run under. Can be LocalSystem, NT Authority\NetworkService, NT Authority\LocalService, _CUSTOM or an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#service_account RunbookProcess#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#service_account RunbookProcess#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * The name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#service_name RunbookProcess#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#service_name RunbookProcess#service_name}
   */
   readonly serviceName: string;
   /**
   * When will the service start. Can be auto, delayed-auto, manual, unchanged or an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#start_mode RunbookProcess#start_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#start_mode RunbookProcess#start_mode}
   */
   readonly startMode?: string;
 }
@@ -8579,43 +8579,43 @@ export class RunbookProcessStepDeployPackageActionWindowsServiceOutputReference 
 }
 export interface RunbookProcessStepDeployPackageAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#channels RunbookProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#channels RunbookProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#condition RunbookProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#condition RunbookProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#environments RunbookProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#environments RunbookProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#features RunbookProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#features RunbookProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8624,79 +8624,79 @@ export interface RunbookProcessStepDeployPackageAction {
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_required RunbookProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_required RunbookProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#notes RunbookProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#notes RunbookProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#action_template RunbookProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#action_template RunbookProcess#action_template}
   */
   readonly actionTemplate?: RunbookProcessStepDeployPackageActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#container RunbookProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#container RunbookProcess#container}
   */
   readonly container?: RunbookProcessStepDeployPackageActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
   */
   readonly gitDependency?: RunbookProcessStepDeployPackageActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package RunbookProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package RunbookProcess#package}
   */
   readonly package?: RunbookProcessStepDeployPackageActionPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#primary_package RunbookProcess#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#primary_package RunbookProcess#primary_package}
   */
   readonly primaryPackage: RunbookProcessStepDeployPackageActionPrimaryPackage;
   /**
   * windows_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#windows_service RunbookProcess#windows_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#windows_service RunbookProcess#windows_service}
   */
   readonly windowsService?: RunbookProcessStepDeployPackageActionWindowsService;
 }
@@ -9362,18 +9362,18 @@ export class RunbookProcessStepDeployPackageActionList extends cdktf.ComplexList
 }
 export interface RunbookProcessStepDeployWindowsServiceActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#version RunbookProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#version RunbookProcess#version}
   */
   readonly version?: number;
 }
@@ -9512,11 +9512,11 @@ export class RunbookProcessStepDeployWindowsServiceActionActionTemplateOutputRef
 }
 export interface RunbookProcessStepDeployWindowsServiceActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#image RunbookProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#image RunbookProcess#image}
   */
   readonly image?: string;
 }
@@ -9663,31 +9663,31 @@ export interface RunbookProcessStepDeployWindowsServiceActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -9880,19 +9880,19 @@ export interface RunbookProcessStepDeployWindowsServiceActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -9901,19 +9901,19 @@ export interface RunbookProcessStepDeployWindowsServiceActionPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -10173,19 +10173,19 @@ export interface RunbookProcessStepDeployWindowsServiceActionPrimaryPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10194,19 +10194,19 @@ export interface RunbookProcessStepDeployWindowsServiceActionPrimaryPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -10434,87 +10434,87 @@ export interface RunbookProcessStepDeployWindowsServiceAction {
   /**
   * The command line arguments that will be passed to the service when it starts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#arguments RunbookProcess#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#arguments RunbookProcess#arguments}
   */
   readonly arguments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#channels RunbookProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#channels RunbookProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#condition RunbookProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#condition RunbookProcess#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#create_or_update_service RunbookProcess#create_or_update_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#create_or_update_service RunbookProcess#create_or_update_service}
   */
   readonly createOrUpdateService?: boolean | cdktf.IResolvable;
   /**
   * The Windows/domain account of the custom user that the service will run under
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#custom_account_name RunbookProcess#custom_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#custom_account_name RunbookProcess#custom_account_name}
   */
   readonly customAccountName?: string;
   /**
   * The password for the custom account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#custom_account_password RunbookProcess#custom_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#custom_account_password RunbookProcess#custom_account_password}
   */
   readonly customAccountPassword?: string;
   /**
   * Any dependencies that the service has. Separate the names using forward slashes (/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#dependencies RunbookProcess#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#dependencies RunbookProcess#dependencies}
   */
   readonly dependencies?: string;
   /**
   * User-friendly description of the service (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#description RunbookProcess#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#description RunbookProcess#description}
   */
   readonly description?: string;
   /**
   * The display name of the service (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#display_name RunbookProcess#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#display_name RunbookProcess#display_name}
   */
   readonly displayName?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#environments RunbookProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#environments RunbookProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * The path to the executable relative to the package installation directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#executable_path RunbookProcess#executable_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#executable_path RunbookProcess#executable_path}
   */
   readonly executablePath: string;
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#features RunbookProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#features RunbookProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10523,91 +10523,91 @@ export interface RunbookProcessStepDeployWindowsServiceAction {
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_required RunbookProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_required RunbookProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#notes RunbookProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#notes RunbookProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Which built-in account will the service run under. Can be LocalSystem, NT Authority\NetworkService, NT Authority\LocalService, _CUSTOM or an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#service_account RunbookProcess#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#service_account RunbookProcess#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * The name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#service_name RunbookProcess#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#service_name RunbookProcess#service_name}
   */
   readonly serviceName: string;
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * When will the service start. Can be auto, delayed-auto, manual, unchanged or an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#start_mode RunbookProcess#start_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#start_mode RunbookProcess#start_mode}
   */
   readonly startMode?: string;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#action_template RunbookProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#action_template RunbookProcess#action_template}
   */
   readonly actionTemplate?: RunbookProcessStepDeployWindowsServiceActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#container RunbookProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#container RunbookProcess#container}
   */
   readonly container?: RunbookProcessStepDeployWindowsServiceActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
   */
   readonly gitDependency?: RunbookProcessStepDeployWindowsServiceActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package RunbookProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package RunbookProcess#package}
   */
   readonly package?: RunbookProcessStepDeployWindowsServiceActionPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#primary_package RunbookProcess#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#primary_package RunbookProcess#primary_package}
   */
   readonly primaryPackage: RunbookProcessStepDeployWindowsServiceActionPrimaryPackage;
 }
@@ -11557,18 +11557,18 @@ export class RunbookProcessStepDeployWindowsServiceActionList extends cdktf.Comp
 }
 export interface RunbookProcessStepManualInterventionActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#version RunbookProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#version RunbookProcess#version}
   */
   readonly version?: number;
 }
@@ -11707,11 +11707,11 @@ export class RunbookProcessStepManualInterventionActionActionTemplateOutputRefer
 }
 export interface RunbookProcessStepManualInterventionActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#image RunbookProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#image RunbookProcess#image}
   */
   readonly image?: string;
 }
@@ -11858,31 +11858,31 @@ export interface RunbookProcessStepManualInterventionActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -12075,19 +12075,19 @@ export interface RunbookProcessStepManualInterventionActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -12096,19 +12096,19 @@ export interface RunbookProcessStepManualInterventionActionPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -12368,47 +12368,47 @@ export interface RunbookProcessStepManualInterventionAction {
   /**
   * Should other deployments be blocked while this manual intervention is awaiting action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#block_deployments RunbookProcess#block_deployments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#block_deployments RunbookProcess#block_deployments}
   */
   readonly blockDeployments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#channels RunbookProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#channels RunbookProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#condition RunbookProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#condition RunbookProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#environments RunbookProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#environments RunbookProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#features RunbookProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#features RunbookProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -12417,79 +12417,79 @@ export interface RunbookProcessStepManualInterventionAction {
   /**
   * The instructions for the user to follow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#instructions RunbookProcess#instructions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#instructions RunbookProcess#instructions}
   */
   readonly instructions: string;
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_required RunbookProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_required RunbookProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#notes RunbookProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#notes RunbookProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The teams responsible to resolve this step. If no teams are specified, all users who have permission to deploy the project can resolve it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#responsible_teams RunbookProcess#responsible_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#responsible_teams RunbookProcess#responsible_teams}
   */
   readonly responsibleTeams?: string;
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#action_template RunbookProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#action_template RunbookProcess#action_template}
   */
   readonly actionTemplate?: RunbookProcessStepManualInterventionActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#container RunbookProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#container RunbookProcess#container}
   */
   readonly container?: RunbookProcessStepManualInterventionActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
   */
   readonly gitDependency?: RunbookProcessStepManualInterventionActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package RunbookProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package RunbookProcess#package}
   */
   readonly package?: RunbookProcessStepManualInterventionActionPackage[] | cdktf.IResolvable;
 }
@@ -13184,18 +13184,18 @@ export class RunbookProcessStepManualInterventionActionList extends cdktf.Comple
 }
 export interface RunbookProcessStepRunKubectlScriptActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#version RunbookProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#version RunbookProcess#version}
   */
   readonly version?: number;
 }
@@ -13334,11 +13334,11 @@ export class RunbookProcessStepRunKubectlScriptActionActionTemplateOutputReferen
 }
 export interface RunbookProcessStepRunKubectlScriptActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#image RunbookProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#image RunbookProcess#image}
   */
   readonly image?: string;
 }
@@ -13485,31 +13485,31 @@ export interface RunbookProcessStepRunKubectlScriptActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -13702,25 +13702,25 @@ export interface RunbookProcessStepRunKubectlScriptActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * Whether to extract the package during deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#extract_during_deployment RunbookProcess#extract_during_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#extract_during_deployment RunbookProcess#extract_during_deployment}
   */
   readonly extractDuringDeployment?: boolean | cdktf.IResolvable;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -13729,19 +13729,19 @@ export interface RunbookProcessStepRunKubectlScriptActionPackage {
   /**
   * The name of the package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -14027,19 +14027,19 @@ export interface RunbookProcessStepRunKubectlScriptActionPrimaryPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -14048,19 +14048,19 @@ export interface RunbookProcessStepRunKubectlScriptActionPrimaryPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -14286,43 +14286,43 @@ export class RunbookProcessStepRunKubectlScriptActionPrimaryPackageOutputReferen
 }
 export interface RunbookProcessStepRunKubectlScriptAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#channels RunbookProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#channels RunbookProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#condition RunbookProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#condition RunbookProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#environments RunbookProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#environments RunbookProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#features RunbookProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#features RunbookProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -14331,125 +14331,125 @@ export interface RunbookProcessStepRunKubectlScriptAction {
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_required RunbookProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_required RunbookProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#namespace RunbookProcess#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#namespace RunbookProcess#namespace}
   */
   readonly namespace?: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#notes RunbookProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#notes RunbookProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Whether this step runs on a worker or on the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#run_on_server RunbookProcess#run_on_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#run_on_server RunbookProcess#run_on_server}
   */
   readonly runOnServer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#script_body RunbookProcess#script_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#script_body RunbookProcess#script_body}
   */
   readonly scriptBody?: string;
   /**
   * The script file name in the package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#script_file_name RunbookProcess#script_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#script_file_name RunbookProcess#script_file_name}
   */
   readonly scriptFileName?: string;
   /**
   * Parameters expected by the script. Use platform specific calling convention. e.g. -Path #{VariableStoringPath} for PowerShell or -- #{VariableStoringPath} for ScriptCS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#script_parameters RunbookProcess#script_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#script_parameters RunbookProcess#script_parameters}
   */
   readonly scriptParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#script_source RunbookProcess#script_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#script_source RunbookProcess#script_source}
   */
   readonly scriptSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#script_syntax RunbookProcess#script_syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#script_syntax RunbookProcess#script_syntax}
   */
   readonly scriptSyntax?: string;
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * A newline-separated list of file names to transform, relative to the package contents. Extended wildcard syntax is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#variable_substitution_in_files RunbookProcess#variable_substitution_in_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#variable_substitution_in_files RunbookProcess#variable_substitution_in_files}
   */
   readonly variableSubstitutionInFiles?: string;
   /**
   * The worker pool associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#worker_pool_id RunbookProcess#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#worker_pool_id RunbookProcess#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * The worker pool variable associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#worker_pool_variable RunbookProcess#worker_pool_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#worker_pool_variable RunbookProcess#worker_pool_variable}
   */
   readonly workerPoolVariable?: string;
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#action_template RunbookProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#action_template RunbookProcess#action_template}
   */
   readonly actionTemplate?: RunbookProcessStepRunKubectlScriptActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#container RunbookProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#container RunbookProcess#container}
   */
   readonly container?: RunbookProcessStepRunKubectlScriptActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
   */
   readonly gitDependency?: RunbookProcessStepRunKubectlScriptActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package RunbookProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package RunbookProcess#package}
   */
   readonly package?: RunbookProcessStepRunKubectlScriptActionPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#primary_package RunbookProcess#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#primary_package RunbookProcess#primary_package}
   */
   readonly primaryPackage?: RunbookProcessStepRunKubectlScriptActionPrimaryPackage;
 }
@@ -15379,18 +15379,18 @@ export class RunbookProcessStepRunKubectlScriptActionList extends cdktf.ComplexL
 }
 export interface RunbookProcessStepRunScriptActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#community_action_template_id RunbookProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#version RunbookProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#version RunbookProcess#version}
   */
   readonly version?: number;
 }
@@ -15529,11 +15529,11 @@ export class RunbookProcessStepRunScriptActionActionTemplateOutputReference exte
 }
 export interface RunbookProcessStepRunScriptActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#image RunbookProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#image RunbookProcess#image}
   */
   readonly image?: string;
 }
@@ -15680,31 +15680,31 @@ export interface RunbookProcessStepRunScriptActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#default_branch RunbookProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#file_path_filters RunbookProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_id RunbookProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_credential_type RunbookProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#repository_uri RunbookProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -15897,25 +15897,25 @@ export interface RunbookProcessStepRunScriptActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * Whether to extract the package during deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#extract_during_deployment RunbookProcess#extract_during_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#extract_during_deployment RunbookProcess#extract_during_deployment}
   */
   readonly extractDuringDeployment?: boolean | cdktf.IResolvable;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -15924,19 +15924,19 @@ export interface RunbookProcessStepRunScriptActionPackage {
   /**
   * The name of the package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -16222,19 +16222,19 @@ export interface RunbookProcessStepRunScriptActionPrimaryPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#acquisition_location RunbookProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#feed_id RunbookProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -16243,19 +16243,19 @@ export interface RunbookProcessStepRunScriptActionPrimaryPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_id RunbookProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_id RunbookProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -16481,43 +16481,43 @@ export class RunbookProcessStepRunScriptActionPrimaryPackageOutputReference exte
 }
 export interface RunbookProcessStepRunScriptAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#can_be_used_for_project_versioning RunbookProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#channels RunbookProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#channels RunbookProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#condition RunbookProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#condition RunbookProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#environments RunbookProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#environments RunbookProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#excluded_environments RunbookProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#features RunbookProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#features RunbookProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -16526,121 +16526,121 @@ export interface RunbookProcessStepRunScriptAction {
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_disabled RunbookProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#is_required RunbookProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#is_required RunbookProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#notes RunbookProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#notes RunbookProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Whether this step runs on a worker or on the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#run_on_server RunbookProcess#run_on_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#run_on_server RunbookProcess#run_on_server}
   */
   readonly runOnServer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#script_body RunbookProcess#script_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#script_body RunbookProcess#script_body}
   */
   readonly scriptBody?: string;
   /**
   * The script file name in the package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#script_file_name RunbookProcess#script_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#script_file_name RunbookProcess#script_file_name}
   */
   readonly scriptFileName?: string;
   /**
   * Parameters expected by the script. Use platform specific calling convention. e.g. -Path #{VariableStoringPath} for PowerShell or -- #{VariableStoringPath} for ScriptCS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#script_parameters RunbookProcess#script_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#script_parameters RunbookProcess#script_parameters}
   */
   readonly scriptParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#script_source RunbookProcess#script_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#script_source RunbookProcess#script_source}
   */
   readonly scriptSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#script_syntax RunbookProcess#script_syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#script_syntax RunbookProcess#script_syntax}
   */
   readonly scriptSyntax?: string;
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#sort_order RunbookProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#tenant_tags RunbookProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * A newline-separated list of file names to transform, relative to the package contents. Extended wildcard syntax is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#variable_substitution_in_files RunbookProcess#variable_substitution_in_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#variable_substitution_in_files RunbookProcess#variable_substitution_in_files}
   */
   readonly variableSubstitutionInFiles?: string;
   /**
   * The worker pool associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#worker_pool_id RunbookProcess#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#worker_pool_id RunbookProcess#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * The worker pool variable associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#worker_pool_variable RunbookProcess#worker_pool_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#worker_pool_variable RunbookProcess#worker_pool_variable}
   */
   readonly workerPoolVariable?: string;
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#action_template RunbookProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#action_template RunbookProcess#action_template}
   */
   readonly actionTemplate?: RunbookProcessStepRunScriptActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#container RunbookProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#container RunbookProcess#container}
   */
   readonly container?: RunbookProcessStepRunScriptActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#git_dependency RunbookProcess#git_dependency}
   */
   readonly gitDependency?: RunbookProcessStepRunScriptActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package RunbookProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package RunbookProcess#package}
   */
   readonly package?: RunbookProcessStepRunScriptActionPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#primary_package RunbookProcess#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#primary_package RunbookProcess#primary_package}
   */
   readonly primaryPackage?: RunbookProcessStepRunScriptActionPrimaryPackage;
 }
@@ -17543,19 +17543,19 @@ export interface RunbookProcessStep {
   /**
   * When to run the step, one of 'Success', 'Failure', 'Always' or 'Variable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#condition RunbookProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#condition RunbookProcess#condition}
   */
   readonly condition?: string;
   /**
   * The expression to evaluate to determine whether to run this step when 'condition' is 'Variable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#condition_expression RunbookProcess#condition_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#condition_expression RunbookProcess#condition_expression}
   */
   readonly conditionExpression?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#id RunbookProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#id RunbookProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17564,83 +17564,83 @@ export interface RunbookProcessStep {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#name RunbookProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#name RunbookProcess#name}
   */
   readonly name: string;
   /**
   * Whether to run this step before or after package acquisition (if possible)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#package_requirement RunbookProcess#package_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#package_requirement RunbookProcess#package_requirement}
   */
   readonly packageRequirement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#properties RunbookProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#properties RunbookProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Whether to run this step after the previous step ('StartAfterPrevious') or at the same time as the previous step ('StartWithPrevious')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#start_trigger RunbookProcess#start_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#start_trigger RunbookProcess#start_trigger}
   */
   readonly startTrigger?: string;
   /**
   * The roles that this step run against, or runs on behalf of
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#target_roles RunbookProcess#target_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#target_roles RunbookProcess#target_roles}
   */
   readonly targetRoles?: string[];
   /**
   * The maximum number of targets to deploy to simultaneously
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#window_size RunbookProcess#window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#window_size RunbookProcess#window_size}
   */
   readonly windowSize?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#action RunbookProcess#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#action RunbookProcess#action}
   */
   readonly action?: RunbookProcessStepAction[] | cdktf.IResolvable;
   /**
   * apply_terraform_template_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#apply_terraform_template_action RunbookProcess#apply_terraform_template_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#apply_terraform_template_action RunbookProcess#apply_terraform_template_action}
   */
   readonly applyTerraformTemplateAction?: RunbookProcessStepApplyTerraformTemplateAction[] | cdktf.IResolvable;
   /**
   * deploy_kubernetes_secret_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#deploy_kubernetes_secret_action RunbookProcess#deploy_kubernetes_secret_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#deploy_kubernetes_secret_action RunbookProcess#deploy_kubernetes_secret_action}
   */
   readonly deployKubernetesSecretAction?: RunbookProcessStepDeployKubernetesSecretAction[] | cdktf.IResolvable;
   /**
   * deploy_package_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#deploy_package_action RunbookProcess#deploy_package_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#deploy_package_action RunbookProcess#deploy_package_action}
   */
   readonly deployPackageAction?: RunbookProcessStepDeployPackageAction[] | cdktf.IResolvable;
   /**
   * deploy_windows_service_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#deploy_windows_service_action RunbookProcess#deploy_windows_service_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#deploy_windows_service_action RunbookProcess#deploy_windows_service_action}
   */
   readonly deployWindowsServiceAction?: RunbookProcessStepDeployWindowsServiceAction[] | cdktf.IResolvable;
   /**
   * manual_intervention_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#manual_intervention_action RunbookProcess#manual_intervention_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#manual_intervention_action RunbookProcess#manual_intervention_action}
   */
   readonly manualInterventionAction?: RunbookProcessStepManualInterventionAction[] | cdktf.IResolvable;
   /**
   * run_kubectl_script_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#run_kubectl_script_action RunbookProcess#run_kubectl_script_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#run_kubectl_script_action RunbookProcess#run_kubectl_script_action}
   */
   readonly runKubectlScriptAction?: RunbookProcessStepRunKubectlScriptAction[] | cdktf.IResolvable;
   /**
   * run_script_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#run_script_action RunbookProcess#run_script_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#run_script_action RunbookProcess#run_script_action}
   */
   readonly runScriptAction?: RunbookProcessStepRunScriptAction[] | cdktf.IResolvable;
 }
@@ -18217,7 +18217,7 @@ export class RunbookProcessStepList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process octopusdeploy_runbook_process}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process octopusdeploy_runbook_process}
 */
 export class RunbookProcess extends cdktf.TerraformResource {
 
@@ -18233,7 +18233,7 @@ export class RunbookProcess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RunbookProcess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RunbookProcess to import
-  * @param importFromId The id of the existing RunbookProcess that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RunbookProcess that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RunbookProcess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -18245,7 +18245,7 @@ export class RunbookProcess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook_process octopusdeploy_runbook_process} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook_process octopusdeploy_runbook_process} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -18256,8 +18256,8 @@ export class RunbookProcess extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_runbook_process',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

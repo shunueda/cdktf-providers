@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,67 @@ export interface CloudProjectStorageConfig extends cdktf.TerraformMetaArguments 
   /**
   * Encryption configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#encryption CloudProjectStorage#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#encryption CloudProjectStorage#encryption}
   */
   readonly encryption?: CloudProjectStorageEncryption;
   /**
+  * If true, objects list will not be saved in state (useful for large buckets)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#hide_objects CloudProjectStorage#hide_objects}
+  */
+  readonly hideObjects?: boolean | cdktf.IResolvable;
+  /**
   * Limit the number of objects returned (1000 maximum, defaults to 1000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#limit CloudProjectStorage#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#limit CloudProjectStorage#limit}
   */
   readonly limit?: number;
   /**
   * Key to start with when listing objects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#marker CloudProjectStorage#marker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#marker CloudProjectStorage#marker}
   */
   readonly marker?: string;
   /**
   * Container name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#name CloudProjectStorage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#name CloudProjectStorage#name}
   */
   readonly name: string;
   /**
   * Container owner user ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#owner_id CloudProjectStorage#owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#owner_id CloudProjectStorage#owner_id}
   */
   readonly ownerId?: number;
   /**
   * List objects whose key begins with this prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#prefix CloudProjectStorage#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#prefix CloudProjectStorage#prefix}
   */
   readonly prefix?: string;
   /**
   * Region name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#region_name CloudProjectStorage#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#region_name CloudProjectStorage#region_name}
   */
   readonly regionName: string;
   /**
   * Replication configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#replication CloudProjectStorage#replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#replication CloudProjectStorage#replication}
   */
   readonly replication?: CloudProjectStorageReplication;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#service_name CloudProjectStorage#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#service_name CloudProjectStorage#service_name}
   */
   readonly serviceName: string;
   /**
   * Versioning configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#versioning CloudProjectStorage#versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#versioning CloudProjectStorage#versioning}
   */
   readonly versioning?: CloudProjectStorageVersioning;
 }
@@ -72,7 +78,7 @@ export interface CloudProjectStorageEncryption {
   /**
   * Encryption algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#sse_algorithm CloudProjectStorage#sse_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#sse_algorithm CloudProjectStorage#sse_algorithm}
   */
   readonly sseAlgorithm?: string;
 }
@@ -278,19 +284,25 @@ export interface CloudProjectStorageReplicationRulesDestination {
   /**
   * Destination bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#name CloudProjectStorage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#name CloudProjectStorage#name}
   */
   readonly name: string;
   /**
   * Destination region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#region CloudProjectStorage#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#region CloudProjectStorage#region}
   */
   readonly region: string;
   /**
+  * Whether to remove replicated bucket when the main bucket is deleted
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#remove_on_main_bucket_deletion CloudProjectStorage#remove_on_main_bucket_deletion}
+  */
+  readonly removeOnMainBucketDeletion?: boolean | cdktf.IResolvable;
+  /**
   * Destination storage class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#storage_class CloudProjectStorage#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#storage_class CloudProjectStorage#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -303,6 +315,7 @@ export function cloudProjectStorageReplicationRulesDestinationToTerraform(struct
   return {
     name: cdktf.stringToTerraform(struct!.name),
     region: cdktf.stringToTerraform(struct!.region),
+    remove_on_main_bucket_deletion: cdktf.booleanToTerraform(struct!.removeOnMainBucketDeletion),
     storage_class: cdktf.stringToTerraform(struct!.storageClass),
   }
 }
@@ -325,6 +338,12 @@ export function cloudProjectStorageReplicationRulesDestinationToHclTerraform(str
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    remove_on_main_bucket_deletion: {
+      value: cdktf.booleanToHclTerraform(struct!.removeOnMainBucketDeletion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     storage_class: {
       value: cdktf.stringToHclTerraform(struct!.storageClass),
@@ -364,6 +383,10 @@ export class CloudProjectStorageReplicationRulesDestinationOutputReference exten
       hasAnyValues = true;
       internalValueResult.region = this._region;
     }
+    if (this._removeOnMainBucketDeletion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.removeOnMainBucketDeletion = this._removeOnMainBucketDeletion;
+    }
     if (this._storageClass !== undefined) {
       hasAnyValues = true;
       internalValueResult.storageClass = this._storageClass;
@@ -377,6 +400,7 @@ export class CloudProjectStorageReplicationRulesDestinationOutputReference exten
       this.resolvableValue = undefined;
       this._name = undefined;
       this._region = undefined;
+      this._removeOnMainBucketDeletion = undefined;
       this._storageClass = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -388,6 +412,7 @@ export class CloudProjectStorageReplicationRulesDestinationOutputReference exten
       this.resolvableValue = undefined;
       this._name = value.name;
       this._region = value.region;
+      this._removeOnMainBucketDeletion = value.removeOnMainBucketDeletion;
       this._storageClass = value.storageClass;
     }
   }
@@ -418,6 +443,22 @@ export class CloudProjectStorageReplicationRulesDestinationOutputReference exten
     return this._region;
   }
 
+  // remove_on_main_bucket_deletion - computed: true, optional: true, required: false
+  private _removeOnMainBucketDeletion?: boolean | cdktf.IResolvable; 
+  public get removeOnMainBucketDeletion() {
+    return this.getBooleanAttribute('remove_on_main_bucket_deletion');
+  }
+  public set removeOnMainBucketDeletion(value: boolean | cdktf.IResolvable) {
+    this._removeOnMainBucketDeletion = value;
+  }
+  public resetRemoveOnMainBucketDeletion() {
+    this._removeOnMainBucketDeletion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get removeOnMainBucketDeletionInput() {
+    return this._removeOnMainBucketDeletion;
+  }
+
   // storage_class - computed: true, optional: true, required: false
   private _storageClass?: string; 
   public get storageClass() {
@@ -438,13 +479,13 @@ export interface CloudProjectStorageReplicationRulesFilter {
   /**
   * Prefix filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#prefix CloudProjectStorage#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#prefix CloudProjectStorage#prefix}
   */
   readonly prefix?: string;
   /**
   * Tags filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#tags CloudProjectStorage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#tags CloudProjectStorage#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -569,25 +610,25 @@ export interface CloudProjectStorageReplicationRules {
   /**
   * Delete marker replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#delete_marker_replication CloudProjectStorage#delete_marker_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#delete_marker_replication CloudProjectStorage#delete_marker_replication}
   */
   readonly deleteMarkerReplication?: string;
   /**
   * Rule destination configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#destination CloudProjectStorage#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#destination CloudProjectStorage#destination}
   */
   readonly destination?: CloudProjectStorageReplicationRulesDestination;
   /**
   * Rule filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#filter CloudProjectStorage#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#filter CloudProjectStorage#filter}
   */
   readonly filter?: CloudProjectStorageReplicationRulesFilter;
   /**
   * Rule ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#id CloudProjectStorage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#id CloudProjectStorage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -596,13 +637,13 @@ export interface CloudProjectStorageReplicationRules {
   /**
   * Rule priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#priority CloudProjectStorage#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#priority CloudProjectStorage#priority}
   */
   readonly priority?: number;
   /**
   * Rule status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#status CloudProjectStorage#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#status CloudProjectStorage#status}
   */
   readonly status?: string;
 }
@@ -865,7 +906,7 @@ export interface CloudProjectStorageReplication {
   /**
   * Replication rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#rules CloudProjectStorage#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#rules CloudProjectStorage#rules}
   */
   readonly rules?: CloudProjectStorageReplicationRules[] | cdktf.IResolvable;
 }
@@ -961,7 +1002,7 @@ export interface CloudProjectStorageVersioning {
   /**
   * Versioning status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#status CloudProjectStorage#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#status CloudProjectStorage#status}
   */
   readonly status?: string;
 }
@@ -1055,7 +1096,7 @@ export class CloudProjectStorageVersioningOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage ovh_cloud_project_storage}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage ovh_cloud_project_storage}
 */
 export class CloudProjectStorage extends cdktf.TerraformResource {
 
@@ -1071,7 +1112,7 @@ export class CloudProjectStorage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectStorage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectStorage to import
-  * @param importFromId The id of the existing CloudProjectStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectStorage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1083,7 +1124,7 @@ export class CloudProjectStorage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_storage ovh_cloud_project_storage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_storage ovh_cloud_project_storage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1094,8 +1135,8 @@ export class CloudProjectStorage extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_storage',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1106,6 +1147,7 @@ export class CloudProjectStorage extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._encryption.internalValue = config.encryption;
+    this._hideObjects = config.hideObjects;
     this._limit = config.limit;
     this._marker = config.marker;
     this._name = config.name;
@@ -1140,6 +1182,22 @@ export class CloudProjectStorage extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get encryptionInput() {
     return this._encryption.internalValue;
+  }
+
+  // hide_objects - computed: false, optional: true, required: false
+  private _hideObjects?: boolean | cdktf.IResolvable; 
+  public get hideObjects() {
+    return this.getBooleanAttribute('hide_objects');
+  }
+  public set hideObjects(value: boolean | cdktf.IResolvable) {
+    this._hideObjects = value;
+  }
+  public resetHideObjects() {
+    this._hideObjects = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hideObjectsInput() {
+    return this._hideObjects;
   }
 
   // id - computed: true, optional: false, required: false
@@ -1315,6 +1373,7 @@ export class CloudProjectStorage extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       encryption: cloudProjectStorageEncryptionToTerraform(this._encryption.internalValue),
+      hide_objects: cdktf.booleanToTerraform(this._hideObjects),
       limit: cdktf.numberToTerraform(this._limit),
       marker: cdktf.stringToTerraform(this._marker),
       name: cdktf.stringToTerraform(this._name),
@@ -1334,6 +1393,12 @@ export class CloudProjectStorage extends cdktf.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "CloudProjectStorageEncryption",
+      },
+      hide_objects: {
+        value: cdktf.booleanToHclTerraform(this._hideObjects),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       limit: {
         value: cdktf.numberToHclTerraform(this._limit),

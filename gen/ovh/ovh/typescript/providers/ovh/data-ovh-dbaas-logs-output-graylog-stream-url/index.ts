@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_output_graylog_stream_url
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_output_graylog_stream_url
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOvhDbaasLogsOutputGraylogStreamUrlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_output_graylog_stream_url#id DataOvhDbaasLogsOutputGraylogStreamUrl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_output_graylog_stream_url#id DataOvhDbaasLogsOutputGraylogStreamUrl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataOvhDbaasLogsOutputGraylogStreamUrlConfig extends cdktf.Terr
   /**
   * The service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_output_graylog_stream_url#service_name DataOvhDbaasLogsOutputGraylogStreamUrl#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_output_graylog_stream_url#service_name DataOvhDbaasLogsOutputGraylogStreamUrl#service_name}
   */
   readonly serviceName: string;
   /**
   * Stream ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_output_graylog_stream_url#stream_id DataOvhDbaasLogsOutputGraylogStreamUrl#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_output_graylog_stream_url#stream_id DataOvhDbaasLogsOutputGraylogStreamUrl#stream_id}
   */
   readonly streamId: string;
 }
@@ -109,7 +109,7 @@ export class DataOvhDbaasLogsOutputGraylogStreamUrlUrlList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_output_graylog_stream_url ovh_dbaas_logs_output_graylog_stream_url}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_output_graylog_stream_url ovh_dbaas_logs_output_graylog_stream_url}
 */
 export class DataOvhDbaasLogsOutputGraylogStreamUrl extends cdktf.TerraformDataSource {
 
@@ -125,7 +125,7 @@ export class DataOvhDbaasLogsOutputGraylogStreamUrl extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOvhDbaasLogsOutputGraylogStreamUrl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhDbaasLogsOutputGraylogStreamUrl to import
-  * @param importFromId The id of the existing DataOvhDbaasLogsOutputGraylogStreamUrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_output_graylog_stream_url#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhDbaasLogsOutputGraylogStreamUrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_output_graylog_stream_url#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhDbaasLogsOutputGraylogStreamUrl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class DataOvhDbaasLogsOutputGraylogStreamUrl extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_output_graylog_stream_url ovh_dbaas_logs_output_graylog_stream_url} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_output_graylog_stream_url ovh_dbaas_logs_output_graylog_stream_url} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class DataOvhDbaasLogsOutputGraylogStreamUrl extends cdktf.TerraformDataS
       terraformResourceType: 'ovh_dbaas_logs_output_graylog_stream_url',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

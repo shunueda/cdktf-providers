@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VrackConfig extends cdktf.TerraformMetaArguments {
   /**
   * yourvrackdescription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#description Vrack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#description Vrack#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#id Vrack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#id Vrack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface VrackConfig extends cdktf.TerraformMetaArguments {
   /**
   * yourvrackname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#name Vrack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#name Vrack#name}
   */
   readonly name?: string;
   /**
   * Ovh Subsidiary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#ovh_subsidiary Vrack#ovh_subsidiary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#ovh_subsidiary Vrack#ovh_subsidiary}
   */
   readonly ovhSubsidiary?: string;
   /**
   * Ovh payment mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#payment_mean Vrack#payment_mean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#payment_mean Vrack#payment_mean}
   */
   readonly paymentMean?: string;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#order Vrack#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#order Vrack#order}
   */
   readonly order?: VrackOrder[] | cdktf.IResolvable;
   /**
   * plan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#plan Vrack#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#plan Vrack#plan}
   */
   readonly plan?: VrackPlan;
   /**
   * plan_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#plan_option Vrack#plan_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#plan_option Vrack#plan_option}
   */
   readonly planOption?: VrackPlanOption[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#timeouts Vrack#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#timeouts Vrack#timeouts}
   */
   readonly timeouts?: VrackTimeouts;
 }
@@ -259,13 +259,13 @@ export interface VrackPlanConfiguration {
   /**
   * Identifier of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#label Vrack#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#label Vrack#label}
   */
   readonly label: string;
   /**
   * Path to the resource in API.OVH.COM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#value Vrack#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#value Vrack#value}
   */
   readonly value: string;
 }
@@ -406,31 +406,31 @@ export interface VrackPlan {
   /**
   * Catalog name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#catalog_name Vrack#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#catalog_name Vrack#catalog_name}
   */
   readonly catalogName?: string;
   /**
   * duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#duration Vrack#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#duration Vrack#duration}
   */
   readonly duration: string;
   /**
   * Plan code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#plan_code Vrack#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#plan_code Vrack#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing model identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#pricing_mode Vrack#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#pricing_mode Vrack#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#configuration Vrack#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#configuration Vrack#configuration}
   */
   readonly configuration?: VrackPlanConfiguration[] | cdktf.IResolvable;
 }
@@ -623,13 +623,13 @@ export interface VrackPlanOptionConfiguration {
   /**
   * Identifier of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#label Vrack#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#label Vrack#label}
   */
   readonly label: string;
   /**
   * Path to the resource in API.OVH.COM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#value Vrack#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#value Vrack#value}
   */
   readonly value: string;
 }
@@ -770,31 +770,31 @@ export interface VrackPlanOption {
   /**
   * Catalog name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#catalog_name Vrack#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#catalog_name Vrack#catalog_name}
   */
   readonly catalogName?: string;
   /**
   * duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#duration Vrack#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#duration Vrack#duration}
   */
   readonly duration: string;
   /**
   * Plan code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#plan_code Vrack#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#plan_code Vrack#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing model identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#pricing_mode Vrack#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#pricing_mode Vrack#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#configuration Vrack#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#configuration Vrack#configuration}
   */
   readonly configuration?: VrackPlanOptionConfiguration[] | cdktf.IResolvable;
 }
@@ -1017,7 +1017,7 @@ export class VrackPlanOptionList extends cdktf.ComplexList {
 }
 export interface VrackTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#create Vrack#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#create Vrack#create}
   */
   readonly create?: string;
 }
@@ -1111,7 +1111,7 @@ export class VrackTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack ovh_vrack}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack ovh_vrack}
 */
 export class Vrack extends cdktf.TerraformResource {
 
@@ -1127,7 +1127,7 @@ export class Vrack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vrack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vrack to import
-  * @param importFromId The id of the existing Vrack that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vrack that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vrack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1139,7 +1139,7 @@ export class Vrack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack ovh_vrack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack ovh_vrack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1150,8 +1150,8 @@ export class Vrack extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_vrack',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

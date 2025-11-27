@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface IploadbalancingUdpFarmConfig extends cdktf.TerraformMetaArgumen
   /**
   * Human readable name for your backend, this field is for you
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm#display_name IploadbalancingUdpFarm#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm#display_name IploadbalancingUdpFarm#display_name}
   */
   readonly displayName?: string;
   /**
   * Port attached to your farm ([1..49151]). Inherited from frontend if null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm#port IploadbalancingUdpFarm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm#port IploadbalancingUdpFarm#port}
   */
   readonly port: number;
   /**
   * The internal name of your IP load balancing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm#service_name IploadbalancingUdpFarm#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm#service_name IploadbalancingUdpFarm#service_name}
   */
   readonly serviceName: string;
   /**
   * Internal Load Balancer identifier of the vRack private network to attach to your farm, mandatory when your Load Balancer is attached to a vRack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm#vrack_network_id IploadbalancingUdpFarm#vrack_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm#vrack_network_id IploadbalancingUdpFarm#vrack_network_id}
   */
   readonly vrackNetworkId?: number;
   /**
   * Zone of your farm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm#zone IploadbalancingUdpFarm#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm#zone IploadbalancingUdpFarm#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm ovh_iploadbalancing_udp_farm}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm ovh_iploadbalancing_udp_farm}
 */
 export class IploadbalancingUdpFarm extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class IploadbalancingUdpFarm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IploadbalancingUdpFarm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IploadbalancingUdpFarm to import
-  * @param importFromId The id of the existing IploadbalancingUdpFarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IploadbalancingUdpFarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IploadbalancingUdpFarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class IploadbalancingUdpFarm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm ovh_iploadbalancing_udp_farm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm ovh_iploadbalancing_udp_farm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class IploadbalancingUdpFarm extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_iploadbalancing_udp_farm',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

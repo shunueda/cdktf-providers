@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_credential
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOvhOkmsCredentialConfig extends cdktf.TerraformMetaArgument
   /**
   * ID of the credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_credential#id DataOvhOkmsCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_credential#id DataOvhOkmsCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataOvhOkmsCredentialConfig extends cdktf.TerraformMetaArgument
   /**
   * Okms ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_credential#okms_id DataOvhOkmsCredential#okms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_credential#okms_id DataOvhOkmsCredential#okms_id}
   */
   readonly okmsId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_credential ovh_okms_credential}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_credential ovh_okms_credential}
 */
 export class DataOvhOkmsCredential extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataOvhOkmsCredential extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhOkmsCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhOkmsCredential to import
-  * @param importFromId The id of the existing DataOvhOkmsCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhOkmsCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhOkmsCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataOvhOkmsCredential extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_credential ovh_okms_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_credential ovh_okms_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataOvhOkmsCredential extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_okms_credential',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

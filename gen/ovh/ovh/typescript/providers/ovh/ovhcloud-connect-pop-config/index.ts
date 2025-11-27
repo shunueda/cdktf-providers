@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ovhcloud_connect_pop_config
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ovhcloud_connect_pop_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface OvhcloudConnectPopConfigConfig extends cdktf.TerraformMetaArgum
   /**
   * Customer Private AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ovhcloud_connect_pop_config#customer_bgp_area OvhcloudConnectPopConfig#customer_bgp_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ovhcloud_connect_pop_config#customer_bgp_area OvhcloudConnectPopConfig#customer_bgp_area}
   */
   readonly customerBgpArea?: number;
   /**
   * ID of the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ovhcloud_connect_pop_config#interface_id OvhcloudConnectPopConfig#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ovhcloud_connect_pop_config#interface_id OvhcloudConnectPopConfig#interface_id}
   */
   readonly interfaceId: number;
   /**
   * OVH Private AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ovhcloud_connect_pop_config#ovh_bgp_area OvhcloudConnectPopConfig#ovh_bgp_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ovhcloud_connect_pop_config#ovh_bgp_area OvhcloudConnectPopConfig#ovh_bgp_area}
   */
   readonly ovhBgpArea?: number;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ovhcloud_connect_pop_config#service_name OvhcloudConnectPopConfig#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ovhcloud_connect_pop_config#service_name OvhcloudConnectPopConfig#service_name}
   */
   readonly serviceName: string;
   /**
   * Subnet should be a /30, first IP for OVH, second IP for customer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ovhcloud_connect_pop_config#subnet OvhcloudConnectPopConfig#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ovhcloud_connect_pop_config#subnet OvhcloudConnectPopConfig#subnet}
   */
   readonly subnet?: string;
   /**
   * Type of the pop configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ovhcloud_connect_pop_config#type OvhcloudConnectPopConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ovhcloud_connect_pop_config#type OvhcloudConnectPopConfig#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ovhcloud_connect_pop_config ovh_ovhcloud_connect_pop_config}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ovhcloud_connect_pop_config ovh_ovhcloud_connect_pop_config}
 */
 export class OvhcloudConnectPopConfig extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class OvhcloudConnectPopConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OvhcloudConnectPopConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OvhcloudConnectPopConfig to import
-  * @param importFromId The id of the existing OvhcloudConnectPopConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ovhcloud_connect_pop_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OvhcloudConnectPopConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ovhcloud_connect_pop_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OvhcloudConnectPopConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class OvhcloudConnectPopConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ovhcloud_connect_pop_config ovh_ovhcloud_connect_pop_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ovhcloud_connect_pop_config ovh_ovhcloud_connect_pop_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class OvhcloudConnectPopConfig extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_ovhcloud_connect_pop_config',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

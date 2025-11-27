@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface IploadbalancingTcpFrontendConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#allowed_source IploadbalancingTcpFrontend#allowed_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#allowed_source IploadbalancingTcpFrontend#allowed_source}
   */
   readonly allowedSource?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#dedicated_ipfo IploadbalancingTcpFrontend#dedicated_ipfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#dedicated_ipfo IploadbalancingTcpFrontend#dedicated_ipfo}
   */
   readonly dedicatedIpfo?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#default_farm_id IploadbalancingTcpFrontend#default_farm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#default_farm_id IploadbalancingTcpFrontend#default_farm_id}
   */
   readonly defaultFarmId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#default_ssl_id IploadbalancingTcpFrontend#default_ssl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#default_ssl_id IploadbalancingTcpFrontend#default_ssl_id}
   */
   readonly defaultSslId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#denied_source IploadbalancingTcpFrontend#denied_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#denied_source IploadbalancingTcpFrontend#denied_source}
   */
   readonly deniedSource?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#disabled IploadbalancingTcpFrontend#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#disabled IploadbalancingTcpFrontend#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#display_name IploadbalancingTcpFrontend#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#display_name IploadbalancingTcpFrontend#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#id IploadbalancingTcpFrontend#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#id IploadbalancingTcpFrontend#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#port IploadbalancingTcpFrontend#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#port IploadbalancingTcpFrontend#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#service_name IploadbalancingTcpFrontend#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#service_name IploadbalancingTcpFrontend#service_name}
   */
   readonly serviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#ssl IploadbalancingTcpFrontend#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#ssl IploadbalancingTcpFrontend#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#zone IploadbalancingTcpFrontend#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#zone IploadbalancingTcpFrontend#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend ovh_iploadbalancing_tcp_frontend}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend ovh_iploadbalancing_tcp_frontend}
 */
 export class IploadbalancingTcpFrontend extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class IploadbalancingTcpFrontend extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IploadbalancingTcpFrontend resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IploadbalancingTcpFrontend to import
-  * @param importFromId The id of the existing IploadbalancingTcpFrontend that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IploadbalancingTcpFrontend that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IploadbalancingTcpFrontend to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class IploadbalancingTcpFrontend extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_frontend ovh_iploadbalancing_tcp_frontend} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_frontend ovh_iploadbalancing_tcp_frontend} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class IploadbalancingTcpFrontend extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_iploadbalancing_tcp_frontend',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

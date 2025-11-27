@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_paymentmean_bankaccount
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_paymentmean_bankaccount
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOvhMePaymentmeanBankaccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_paymentmean_bankaccount#description_regexp DataOvhMePaymentmeanBankaccount#description_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_paymentmean_bankaccount#description_regexp DataOvhMePaymentmeanBankaccount#description_regexp}
   */
   readonly descriptionRegexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_paymentmean_bankaccount#id DataOvhMePaymentmeanBankaccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_paymentmean_bankaccount#id DataOvhMePaymentmeanBankaccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_paymentmean_bankaccount#state DataOvhMePaymentmeanBankaccount#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_paymentmean_bankaccount#state DataOvhMePaymentmeanBankaccount#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_paymentmean_bankaccount#use_default DataOvhMePaymentmeanBankaccount#use_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_paymentmean_bankaccount#use_default DataOvhMePaymentmeanBankaccount#use_default}
   */
   readonly useDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_paymentmean_bankaccount#use_oldest DataOvhMePaymentmeanBankaccount#use_oldest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_paymentmean_bankaccount#use_oldest DataOvhMePaymentmeanBankaccount#use_oldest}
   */
   readonly useOldest?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_paymentmean_bankaccount ovh_me_paymentmean_bankaccount}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_paymentmean_bankaccount ovh_me_paymentmean_bankaccount}
 */
 export class DataOvhMePaymentmeanBankaccount extends cdktf.TerraformDataSource {
 
@@ -49,7 +49,7 @@ export class DataOvhMePaymentmeanBankaccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhMePaymentmeanBankaccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhMePaymentmeanBankaccount to import
-  * @param importFromId The id of the existing DataOvhMePaymentmeanBankaccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_paymentmean_bankaccount#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhMePaymentmeanBankaccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_paymentmean_bankaccount#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhMePaymentmeanBankaccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class DataOvhMePaymentmeanBankaccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_paymentmean_bankaccount ovh_me_paymentmean_bankaccount} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_paymentmean_bankaccount ovh_me_paymentmean_bankaccount} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class DataOvhMePaymentmeanBankaccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_me_paymentmean_bankaccount',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

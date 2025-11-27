@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_network_private
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_network_private
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOvhCloudProjectNetworkPrivateConfig extends cdktf.Terraform
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_network_private#network_id DataOvhCloudProjectNetworkPrivate#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_network_private#network_id DataOvhCloudProjectNetworkPrivate#network_id}
   */
   readonly networkId: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_network_private#service_name DataOvhCloudProjectNetworkPrivate#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_network_private#service_name DataOvhCloudProjectNetworkPrivate#service_name}
   */
   readonly serviceName: string;
 }
@@ -107,7 +107,7 @@ export class DataOvhCloudProjectNetworkPrivateRegionsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_network_private ovh_cloud_project_network_private}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_network_private ovh_cloud_project_network_private}
 */
 export class DataOvhCloudProjectNetworkPrivate extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataOvhCloudProjectNetworkPrivate extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataOvhCloudProjectNetworkPrivate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhCloudProjectNetworkPrivate to import
-  * @param importFromId The id of the existing DataOvhCloudProjectNetworkPrivate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_network_private#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhCloudProjectNetworkPrivate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_network_private#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhCloudProjectNetworkPrivate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataOvhCloudProjectNetworkPrivate extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_network_private ovh_cloud_project_network_private} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_network_private ovh_cloud_project_network_private} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataOvhCloudProjectNetworkPrivate extends cdktf.TerraformDataSource
       terraformResourceType: 'ovh_cloud_project_network_private',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

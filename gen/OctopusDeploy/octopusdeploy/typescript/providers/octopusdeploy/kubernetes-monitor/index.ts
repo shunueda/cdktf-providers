@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_monitor
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface KubernetesMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * A unique identifier for this Kubernetes monitor installation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_monitor#installation_id KubernetesMonitor#installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_monitor#installation_id KubernetesMonitor#installation_id}
   */
   readonly installationId: string;
   /**
   * The ID of the Kubernetes Agent deployment target machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_monitor#machine_id KubernetesMonitor#machine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_monitor#machine_id KubernetesMonitor#machine_id}
   */
   readonly machineId: string;
   /**
   * Controls whether the authentication token should be preserved during re-registration. If not supplied (null), or false, the token will be regenerated (default behavior). If true, the existing token will be preserved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_monitor#preserve_authentication_token KubernetesMonitor#preserve_authentication_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_monitor#preserve_authentication_token KubernetesMonitor#preserve_authentication_token}
   */
   readonly preserveAuthenticationToken?: boolean | cdktf.IResolvable;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_monitor#space_id KubernetesMonitor#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_monitor#space_id KubernetesMonitor#space_id}
   */
   readonly spaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_monitor octopusdeploy_kubernetes_monitor}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_monitor octopusdeploy_kubernetes_monitor}
 */
 export class KubernetesMonitor extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class KubernetesMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesMonitor to import
-  * @param importFromId The id of the existing KubernetesMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class KubernetesMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_monitor octopusdeploy_kubernetes_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_monitor octopusdeploy_kubernetes_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class KubernetesMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_kubernetes_monitor',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

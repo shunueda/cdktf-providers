@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase_user_grant
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase_user_grant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HostingPrivatedatabaseUserGrantConfig extends cdktf.TerraformMe
   /**
   * Database name where add grant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase_user_grant#database_name HostingPrivatedatabaseUserGrant#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase_user_grant#database_name HostingPrivatedatabaseUserGrant#database_name}
   */
   readonly databaseName: string;
   /**
   * Database name where add grant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase_user_grant#grant HostingPrivatedatabaseUserGrant#grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase_user_grant#grant HostingPrivatedatabaseUserGrant#grant}
   */
   readonly grant: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase_user_grant#id HostingPrivatedatabaseUserGrant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase_user_grant#id HostingPrivatedatabaseUserGrant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface HostingPrivatedatabaseUserGrantConfig extends cdktf.TerraformMe
   /**
   * The internal name of your private database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase_user_grant#service_name HostingPrivatedatabaseUserGrant#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase_user_grant#service_name HostingPrivatedatabaseUserGrant#service_name}
   */
   readonly serviceName: string;
   /**
   * User name used to connect on your databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase_user_grant#user_name HostingPrivatedatabaseUserGrant#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase_user_grant#user_name HostingPrivatedatabaseUserGrant#user_name}
   */
   readonly userName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase_user_grant ovh_hosting_privatedatabase_user_grant}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase_user_grant ovh_hosting_privatedatabase_user_grant}
 */
 export class HostingPrivatedatabaseUserGrant extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class HostingPrivatedatabaseUserGrant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HostingPrivatedatabaseUserGrant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HostingPrivatedatabaseUserGrant to import
-  * @param importFromId The id of the existing HostingPrivatedatabaseUserGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase_user_grant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HostingPrivatedatabaseUserGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase_user_grant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HostingPrivatedatabaseUserGrant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class HostingPrivatedatabaseUserGrant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase_user_grant ovh_hosting_privatedatabase_user_grant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase_user_grant ovh_hosting_privatedatabase_user_grant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class HostingPrivatedatabaseUserGrant extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_hosting_privatedatabase_user_grant',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

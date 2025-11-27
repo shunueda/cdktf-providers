@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_paths
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_paths
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOvhStorageEfsShareAccessPathsConfig extends cdktf.Terraform
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_paths#service_name DataOvhStorageEfsShareAccessPaths#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_paths#service_name DataOvhStorageEfsShareAccessPaths#service_name}
   */
   readonly serviceName: string;
   /**
   * Share ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_paths#share_id DataOvhStorageEfsShareAccessPaths#share_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_paths#share_id DataOvhStorageEfsShareAccessPaths#share_id}
   */
   readonly shareId: string;
 }
@@ -107,7 +107,7 @@ export class DataOvhStorageEfsShareAccessPathsAccessPathsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_paths ovh_storage_efs_share_access_paths}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_paths ovh_storage_efs_share_access_paths}
 */
 export class DataOvhStorageEfsShareAccessPaths extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataOvhStorageEfsShareAccessPaths extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataOvhStorageEfsShareAccessPaths resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhStorageEfsShareAccessPaths to import
-  * @param importFromId The id of the existing DataOvhStorageEfsShareAccessPaths that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_paths#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhStorageEfsShareAccessPaths that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_paths#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhStorageEfsShareAccessPaths to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataOvhStorageEfsShareAccessPaths extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_paths ovh_storage_efs_share_access_paths} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_paths ovh_storage_efs_share_access_paths} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataOvhStorageEfsShareAccessPaths extends cdktf.TerraformDataSource
       terraformResourceType: 'ovh_storage_efs_share_access_paths',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

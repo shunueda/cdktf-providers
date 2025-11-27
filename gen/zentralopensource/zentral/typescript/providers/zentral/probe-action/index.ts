@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ProbeActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Action backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#backend ProbeAction#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#backend ProbeAction#backend}
   */
   readonly backend: string;
   /**
   * Description of the action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#description ProbeAction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#description ProbeAction#description}
   */
   readonly description?: string;
   /**
   * HTTP Post backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#http_post ProbeAction#http_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#http_post ProbeAction#http_post}
   */
   readonly httpPost?: ProbeActionHttpPost;
   /**
   * Name of the action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#name ProbeAction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#name ProbeAction#name}
   */
   readonly name: string;
   /**
   * Slack incoming webhook backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#slack_incoming_webhook ProbeAction#slack_incoming_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#slack_incoming_webhook ProbeAction#slack_incoming_webhook}
   */
   readonly slackIncomingWebhook?: ProbeActionSlackIncomingWebhook;
 }
@@ -42,13 +42,13 @@ export interface ProbeActionHttpPostHeaders {
   /**
   * Name of the HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#name ProbeAction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#name ProbeAction#name}
   */
   readonly name: string;
   /**
   * Value of the HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#value ProbeAction#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#value ProbeAction#value}
   */
   readonly value: string;
 }
@@ -189,25 +189,25 @@ export interface ProbeActionHttpPost {
   /**
   * A set of additional HTTP headers to add to the requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#headers ProbeAction#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#headers ProbeAction#headers}
   */
   readonly headers?: ProbeActionHttpPostHeaders[] | cdktf.IResolvable;
   /**
   * Password for basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#password ProbeAction#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#password ProbeAction#password}
   */
   readonly password?: string;
   /**
   * `URL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#url ProbeAction#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#url ProbeAction#url}
   */
   readonly url: string;
   /**
   * Username for basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#username ProbeAction#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#username ProbeAction#username}
   */
   readonly username?: string;
 }
@@ -387,7 +387,7 @@ export interface ProbeActionSlackIncomingWebhook {
   /**
   * `URL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#url ProbeAction#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#url ProbeAction#url}
   */
   readonly url: string;
 }
@@ -478,7 +478,7 @@ export class ProbeActionSlackIncomingWebhookOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action zentral_probe_action}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action zentral_probe_action}
 */
 export class ProbeAction extends cdktf.TerraformResource {
 
@@ -494,7 +494,7 @@ export class ProbeAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProbeAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProbeAction to import
-  * @param importFromId The id of the existing ProbeAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProbeAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProbeAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -506,7 +506,7 @@ export class ProbeAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/probe_action zentral_probe_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/probe_action zentral_probe_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -517,8 +517,8 @@ export class ProbeAction extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_probe_action',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64',
-        providerVersionConstraint: '0.1.64'
+        providerVersion: '0.1.65',
+        providerVersionConstraint: '0.1.65'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

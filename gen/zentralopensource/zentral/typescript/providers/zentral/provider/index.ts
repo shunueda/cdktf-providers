@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ZentralProviderConfig {
   /**
   * The base URL where the Zentral API is mounted, including the path. Can also be set using the `ZTL_API_BASE_URL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs#base_url ZentralProvider#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs#base_url ZentralProvider#base_url}
   */
   readonly baseUrl?: string;
   /**
   * The Zentral service account or user token. Can also be set using the `ZTL_API_TOKEN` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs#token ZentralProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs#token ZentralProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs#alias ZentralProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs#alias ZentralProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs zentral}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs zentral}
 */
 export class ZentralProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class ZentralProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ZentralProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZentralProvider to import
-  * @param importFromId The id of the existing ZentralProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZentralProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZentralProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ZentralProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs zentral} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs zentral} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ZentralProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'zentral',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64',
-        providerVersionConstraint: '0.1.64'
+        providerVersion: '0.1.65',
+        providerVersionConstraint: '0.1.65'
       },
       terraformProviderSource: 'zentralopensource/zentral'
     });

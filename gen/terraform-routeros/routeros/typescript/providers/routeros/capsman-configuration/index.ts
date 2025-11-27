@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,81 +10,81 @@ export interface CapsmanConfigurationConfig extends cdktf.TerraformMetaArguments
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#___path___ CapsmanConfiguration#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#___path___ CapsmanConfiguration#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#___ts___ CapsmanConfiguration#___ts___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#___ts___ CapsmanConfiguration#___ts___}
   */
   readonly ts?: string;
   /**
   * Channel inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#channel CapsmanConfiguration#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#channel CapsmanConfiguration#channel}
   */
   readonly channel?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#comment CapsmanConfiguration#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#comment CapsmanConfiguration#comment}
   */
   readonly comment?: string;
   /**
   * Limits available bands, frequencies and maximum transmit power for each frequency. Also specifies default value of scan-list. Value no_country_set is an FCC compliant set of channels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#country CapsmanConfiguration#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#country CapsmanConfiguration#country}
   */
   readonly country?: string;
   /**
   * Datapath inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#datapath CapsmanConfiguration#datapath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#datapath CapsmanConfiguration#datapath}
   */
   readonly datapath?: { [key: string]: string };
   /**
   * This interval is measured from third sending failure on the lowest data rate. At this point 3 * (hw-retries + 1) frame transmits on the lowest data rate had failed. During disconnect-timeout packet transmission will be retried with on-fail-retry-time interval. If no frame can be transmitted successfully during disconnect-timeout, the connection is closed, and this event is logged as "extensive data loss". Successful frame transmission resets this timer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#disconnect_timeout CapsmanConfiguration#disconnect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#disconnect_timeout CapsmanConfiguration#disconnect_timeout}
   */
   readonly disconnectTimeout?: string;
   /**
   * How long to wait for confirmation of unicast frames (ACKs) before considering transmission unsuccessful, or in short ACK-Timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#distance CapsmanConfiguration#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#distance CapsmanConfiguration#distance}
   */
   readonly distance?: string;
   /**
   * Discard frames that have been queued for sending longer than frame-lifetime. By default, when value of this property is 0, frames are discarded only after connection is closed (format: 0.00 sec).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#frame_lifetime CapsmanConfiguration#frame_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#frame_lifetime CapsmanConfiguration#frame_lifetime}
   */
   readonly frameLifetime?: string;
   /**
   * Whether to allow use of short guard interval (refer to 802.11n MCS specification to see how this may affect throughput). "any" will use either short or long, depending on data rate, "long" will use long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#guard_interval CapsmanConfiguration#guard_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#guard_interval CapsmanConfiguration#guard_interval}
   */
   readonly guardInterval?: string;
   /**
   * This property has effect only in AP mode. Setting it to yes can remove this network from the list of wireless networks that are shown by some client software. Changing this setting does not improve the security of the wireless network, because SSID is included in other frames sent by the AP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#hide_ssid CapsmanConfiguration#hide_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#hide_ssid CapsmanConfiguration#hide_ssid}
   */
   readonly hideSsid?: boolean | cdktf.IResolvable;
   /**
   * Frame protection support property. [See docs](https://wiki.mikrotik.com/wiki/Manual:Interface/Wireless#Frame_protection_support_(RTS/CTS)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#hw_protection_mode CapsmanConfiguration#hw_protection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#hw_protection_mode CapsmanConfiguration#hw_protection_mode}
   */
   readonly hwProtectionMode?: string;
   /**
   * Number of times sending frame is retried without considering it a transmission failure. [See docs](https://wiki.mikrotik.com/wiki/Manual:Interface/Wireless)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#hw_retries CapsmanConfiguration#hw_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#hw_retries CapsmanConfiguration#hw_retries}
   */
   readonly hwRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#id CapsmanConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#id CapsmanConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,37 +93,37 @@ export interface CapsmanConfigurationConfig extends cdktf.TerraformMetaArguments
   /**
   * Adjusts scan-list to use indoor, outdoor or all frequencies for the country that is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#installation CapsmanConfiguration#installation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#installation CapsmanConfiguration#installation}
   */
   readonly installation?: string;
   /**
   * If a client has not communicated for around 20 seconds, AP sends a "keepalive-frame".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#keepalive_frames CapsmanConfiguration#keepalive_frames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#keepalive_frames CapsmanConfiguration#keepalive_frames}
   */
   readonly keepaliveFrames?: string;
   /**
   * Tags the interface to the load balancing group. For a client to connect to interface in this group, the interface should have the same number of already connected clients as all other interfaces in the group or smaller. Useful in setups where ranges of CAPs mostly overlap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#load_balancing_group CapsmanConfiguration#load_balancing_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#load_balancing_group CapsmanConfiguration#load_balancing_group}
   */
   readonly loadBalancingGroup?: string;
   /**
   * Maximum number of associated clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#max_sta_count CapsmanConfiguration#max_sta_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#max_sta_count CapsmanConfiguration#max_sta_count}
   */
   readonly maxStaCount?: number;
   /**
   * Set operational mode. Only **ap** currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#mode CapsmanConfiguration#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#mode CapsmanConfiguration#mode}
   */
   readonly mode?: string;
   /**
   * When set to full multicast packets will be sent with unicast destination MAC address, resolving multicast problem on a wireless link. This option should be enabled only on the access point, clients should be configured in station-bridge mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#multicast_helper CapsmanConfiguration#multicast_helper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#multicast_helper CapsmanConfiguration#multicast_helper}
   */
   readonly multicastHelper?: string;
   /**
@@ -132,43 +132,43 @@ export interface CapsmanConfigurationConfig extends cdktf.TerraformMetaArguments
   * 	> Changing the name of the resource outside of a Terraform will result in a loss of control integrity for that resource!
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#name CapsmanConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#name CapsmanConfiguration#name}
   */
   readonly name: string;
   /**
   * Rates inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#rates CapsmanConfiguration#rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#rates CapsmanConfiguration#rates}
   */
   readonly rates?: { [key: string]: string };
   /**
   * Which antennas to use for receive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#rx_chains CapsmanConfiguration#rx_chains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#rx_chains CapsmanConfiguration#rx_chains}
   */
   readonly rxChains?: number[];
   /**
   * Security inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#security CapsmanConfiguration#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#security CapsmanConfiguration#security}
   */
   readonly security?: { [key: string]: string };
   /**
   * SSID (service set identifier) is a name broadcast in the beacons that identifies wireless network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#ssid CapsmanConfiguration#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#ssid CapsmanConfiguration#ssid}
   */
   readonly ssid?: string;
   /**
   * Which antennas to use for transmit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#tx_chains CapsmanConfiguration#tx_chains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#tx_chains CapsmanConfiguration#tx_chains}
   */
   readonly txChains?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration routeros_capsman_configuration}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration routeros_capsman_configuration}
 */
 export class CapsmanConfiguration extends cdktf.TerraformResource {
 
@@ -184,7 +184,7 @@ export class CapsmanConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapsmanConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapsmanConfiguration to import
-  * @param importFromId The id of the existing CapsmanConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapsmanConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapsmanConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class CapsmanConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_configuration routeros_capsman_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_configuration routeros_capsman_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class CapsmanConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_capsman_configuration',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

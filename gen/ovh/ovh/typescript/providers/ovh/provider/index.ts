@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,73 @@ export interface OvhProviderConfig {
   /**
   * The OVH API Access Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs#access_token OvhProvider#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs#access_token OvhProvider#access_token}
   */
   readonly accessToken?: string;
   /**
   * Specify the API request rate limit, X operations by seconds (default: unlimited)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs#api_rate_limit OvhProvider#api_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs#api_rate_limit OvhProvider#api_rate_limit}
   */
   readonly apiRateLimit?: number;
   /**
   * The OVH API Application Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs#application_key OvhProvider#application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs#application_key OvhProvider#application_key}
   */
   readonly applicationKey?: string;
   /**
   * The OVH API Application Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs#application_secret OvhProvider#application_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs#application_secret OvhProvider#application_secret}
   */
   readonly applicationSecret?: string;
   /**
   * OAuth 2.0 application's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs#client_id OvhProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs#client_id OvhProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * OAuth 2.0 application's secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs#client_secret OvhProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs#client_secret OvhProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The OVH API Consumer Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs#consumer_key OvhProvider#consumer_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs#consumer_key OvhProvider#consumer_key}
   */
   readonly consumerKey?: string;
   /**
   * The OVH API endpoint to target (ex: "ovh-eu")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs#endpoint OvhProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs#endpoint OvhProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
+  * If set to true, initialization errors (like invalid OAuth credentials) will be ignored
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs#ignore_init_error OvhProvider#ignore_init_error}
+  */
+  readonly ignoreInitError?: boolean | cdktf.IResolvable;
+  /**
   * Extra information to append to the user-agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs#user_agent_extra OvhProvider#user_agent_extra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs#user_agent_extra OvhProvider#user_agent_extra}
   */
   readonly userAgentExtra?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs#alias OvhProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs#alias OvhProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs ovh}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs ovh}
 */
 export class OvhProvider extends cdktf.TerraformProvider {
 
@@ -86,7 +92,7 @@ export class OvhProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a OvhProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OvhProvider to import
-  * @param importFromId The id of the existing OvhProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OvhProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OvhProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +104,7 @@ export class OvhProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs ovh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs ovh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +115,8 @@ export class OvhProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ovh',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       terraformProviderSource: 'ovh/ovh'
     });
@@ -122,6 +128,7 @@ export class OvhProvider extends cdktf.TerraformProvider {
     this._clientSecret = config.clientSecret;
     this._consumerKey = config.consumerKey;
     this._endpoint = config.endpoint;
+    this._ignoreInitError = config.ignoreInitError;
     this._userAgentExtra = config.userAgentExtra;
     this._alias = config.alias;
   }
@@ -258,6 +265,22 @@ export class OvhProvider extends cdktf.TerraformProvider {
     return this._endpoint;
   }
 
+  // ignore_init_error - computed: false, optional: true, required: false
+  private _ignoreInitError?: boolean | cdktf.IResolvable; 
+  public get ignoreInitError() {
+    return this._ignoreInitError;
+  }
+  public set ignoreInitError(value: boolean | cdktf.IResolvable | undefined) {
+    this._ignoreInitError = value;
+  }
+  public resetIgnoreInitError() {
+    this._ignoreInitError = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreInitErrorInput() {
+    return this._ignoreInitError;
+  }
+
   // user_agent_extra - computed: false, optional: true, required: false
   private _userAgentExtra?: string; 
   public get userAgentExtra() {
@@ -304,6 +327,7 @@ export class OvhProvider extends cdktf.TerraformProvider {
       client_secret: cdktf.stringToTerraform(this._clientSecret),
       consumer_key: cdktf.stringToTerraform(this._consumerKey),
       endpoint: cdktf.stringToTerraform(this._endpoint),
+      ignore_init_error: cdktf.booleanToTerraform(this._ignoreInitError),
       user_agent_extra: cdktf.stringToTerraform(this._userAgentExtra),
       alias: cdktf.stringToTerraform(this._alias),
     };
@@ -358,6 +382,12 @@ export class OvhProvider extends cdktf.TerraformProvider {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      ignore_init_error: {
+        value: cdktf.booleanToHclTerraform(this._ignoreInitError),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       user_agent_extra: {
         value: cdktf.stringToHclTerraform(this._userAgentExtra),

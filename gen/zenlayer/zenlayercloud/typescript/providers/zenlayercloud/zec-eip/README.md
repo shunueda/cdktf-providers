@@ -1,3 +1,3 @@
 # `zenlayercloud_zec_eip`
 
-Refer to the Terraform Registry for docs: [`zenlayercloud_zec_eip`](https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_eip).
+Refer to the Terraform Registry for docs: [`zenlayercloud_zec_eip`](https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip).

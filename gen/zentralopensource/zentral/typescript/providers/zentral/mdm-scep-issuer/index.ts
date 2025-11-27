@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface MdmScepIssuerConfig extends cdktf.TerraformMetaArguments {
   /**
   * SCEP issuer backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#backend MdmScepIssuer#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#backend MdmScepIssuer#backend}
   */
   readonly backend: string;
   /**
   * Description of the SCEP issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#description MdmScepIssuer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#description MdmScepIssuer#description}
   */
   readonly description?: string;
   /**
   * IDent backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#digicert MdmScepIssuer#digicert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#digicert MdmScepIssuer#digicert}
   */
   readonly digicert?: MdmScepIssuerDigicert;
   /**
   * IDent backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#ident MdmScepIssuer#ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#ident MdmScepIssuer#ident}
   */
   readonly ident?: MdmScepIssuerIdent;
   /**
   * The key size in bits, either `1024`, `2048`, or `4096`. Defaults to `2048`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#key_size MdmScepIssuer#key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#key_size MdmScepIssuer#key_size}
   */
   readonly keySize?: number;
   /**
   * A bitmask that specifies the use of the key: `1` is signing, `4` is encryption, and `5` is both signing and encryption. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#key_usage MdmScepIssuer#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#key_usage MdmScepIssuer#key_usage}
   */
   readonly keyUsage?: number;
   /**
   * Microsoft CA backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#microsoft_ca MdmScepIssuer#microsoft_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#microsoft_ca MdmScepIssuer#microsoft_ca}
   */
   readonly microsoftCa?: MdmScepIssuerMicrosoftCa;
   /**
   * Name of the SCEP issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#name MdmScepIssuer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#name MdmScepIssuer#name}
   */
   readonly name: string;
   /**
   * Okta CA backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#okta_ca MdmScepIssuer#okta_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#okta_ca MdmScepIssuer#okta_ca}
   */
   readonly oktaCa?: MdmScepIssuerOktaCa;
   /**
   * Static Challenge backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#static_challenge MdmScepIssuer#static_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#static_challenge MdmScepIssuer#static_challenge}
   */
   readonly staticChallenge?: MdmScepIssuerStaticChallenge;
   /**
   * URL of the SCEP issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#url MdmScepIssuer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#url MdmScepIssuer#url}
   */
   readonly url: string;
 }
@@ -78,43 +78,43 @@ export interface MdmScepIssuerDigicert {
   /**
   * API base URL. Defaults to `https://one.digicert.com/mpki/api/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#api_base_url MdmScepIssuer#api_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#api_base_url MdmScepIssuer#api_base_url}
   */
   readonly apiBaseUrl?: string;
   /**
   * API token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#api_token MdmScepIssuer#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#api_token MdmScepIssuer#api_token}
   */
   readonly apiToken: string;
   /**
   * Business unit GUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#business_unit_guid MdmScepIssuer#business_unit_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#business_unit_guid MdmScepIssuer#business_unit_guid}
   */
   readonly businessUnitGuid: string;
   /**
   * Default seat email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#default_seat_email MdmScepIssuer#default_seat_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#default_seat_email MdmScepIssuer#default_seat_email}
   */
   readonly defaultSeatEmail: string;
   /**
   * Profile GUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#profile_guid MdmScepIssuer#profile_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#profile_guid MdmScepIssuer#profile_guid}
   */
   readonly profileGuid: string;
   /**
   * Seat ID mapping. Possible values: `common_name`, `email`, `serial_number`, `unique_identifier`, `user_identifier`, `pseudonym`, `dn_qualifier`, `rfc822Name`, `dNSName`. Defaults to `common_name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#seat_id_mapping MdmScepIssuer#seat_id_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#seat_id_mapping MdmScepIssuer#seat_id_mapping}
   */
   readonly seatIdMapping?: string;
   /**
   * Seat type. `DEVICE_SEAT` or `USER_SEAT`. Defaults to `DEVICE_SEAT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#seat_type MdmScepIssuer#seat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#seat_type MdmScepIssuer#seat_type}
   */
   readonly seatType?: string;
 }
@@ -372,25 +372,25 @@ export interface MdmScepIssuerIdent {
   /**
   * Bearer token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#bearer_token MdmScepIssuer#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#bearer_token MdmScepIssuer#bearer_token}
   */
   readonly bearerToken: string;
   /**
   * Max number of retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#max_retries MdmScepIssuer#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#max_retries MdmScepIssuer#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Request timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#request_timeout MdmScepIssuer#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#request_timeout MdmScepIssuer#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * HTTP endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#url MdmScepIssuer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#url MdmScepIssuer#url}
   */
   readonly url: string;
 }
@@ -567,19 +567,19 @@ export interface MdmScepIssuerMicrosoftCa {
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#password MdmScepIssuer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#password MdmScepIssuer#password}
   */
   readonly password: string;
   /**
   * HTTP endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#url MdmScepIssuer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#url MdmScepIssuer#url}
   */
   readonly url: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#username MdmScepIssuer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#username MdmScepIssuer#username}
   */
   readonly username: string;
 }
@@ -724,19 +724,19 @@ export interface MdmScepIssuerOktaCa {
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#password MdmScepIssuer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#password MdmScepIssuer#password}
   */
   readonly password: string;
   /**
   * HTTP endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#url MdmScepIssuer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#url MdmScepIssuer#url}
   */
   readonly url: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#username MdmScepIssuer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#username MdmScepIssuer#username}
   */
   readonly username: string;
 }
@@ -881,7 +881,7 @@ export interface MdmScepIssuerStaticChallenge {
   /**
   * Challenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#challenge MdmScepIssuer#challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#challenge MdmScepIssuer#challenge}
   */
   readonly challenge: string;
 }
@@ -972,7 +972,7 @@ export class MdmScepIssuerStaticChallengeOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer zentral_mdm_scep_issuer}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer zentral_mdm_scep_issuer}
 */
 export class MdmScepIssuer extends cdktf.TerraformResource {
 
@@ -988,7 +988,7 @@ export class MdmScepIssuer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmScepIssuer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmScepIssuer to import
-  * @param importFromId The id of the existing MdmScepIssuer that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmScepIssuer that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmScepIssuer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1000,7 +1000,7 @@ export class MdmScepIssuer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_scep_issuer zentral_mdm_scep_issuer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_scep_issuer zentral_mdm_scep_issuer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1011,8 +1011,8 @@ export class MdmScepIssuer extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_scep_issuer',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64',
-        providerVersionConstraint: '0.1.64'
+        providerVersion: '0.1.65',
+        providerVersionConstraint: '0.1.65'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

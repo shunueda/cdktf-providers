@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_workflow_backup
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_workflow_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface CloudProjectWorkflowBackupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_workflow_backup#backup_name CloudProjectWorkflowBackup#backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_workflow_backup#backup_name CloudProjectWorkflowBackup#backup_name}
   */
   readonly backupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_workflow_backup#cron CloudProjectWorkflowBackup#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_workflow_backup#cron CloudProjectWorkflowBackup#cron}
   */
   readonly cron: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_workflow_backup#instance_id CloudProjectWorkflowBackup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_workflow_backup#instance_id CloudProjectWorkflowBackup#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_workflow_backup#max_execution_count CloudProjectWorkflowBackup#max_execution_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_workflow_backup#max_execution_count CloudProjectWorkflowBackup#max_execution_count}
   */
   readonly maxExecutionCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_workflow_backup#name CloudProjectWorkflowBackup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_workflow_backup#name CloudProjectWorkflowBackup#name}
   */
   readonly name: string;
   /**
   * Region name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_workflow_backup#region_name CloudProjectWorkflowBackup#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_workflow_backup#region_name CloudProjectWorkflowBackup#region_name}
   */
   readonly regionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_workflow_backup#rotation CloudProjectWorkflowBackup#rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_workflow_backup#rotation CloudProjectWorkflowBackup#rotation}
   */
   readonly rotation: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_workflow_backup#service_name CloudProjectWorkflowBackup#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_workflow_backup#service_name CloudProjectWorkflowBackup#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_workflow_backup ovh_cloud_project_workflow_backup}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_workflow_backup ovh_cloud_project_workflow_backup}
 */
 export class CloudProjectWorkflowBackup extends cdktf.TerraformResource {
 
@@ -60,7 +60,7 @@ export class CloudProjectWorkflowBackup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectWorkflowBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectWorkflowBackup to import
-  * @param importFromId The id of the existing CloudProjectWorkflowBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_workflow_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectWorkflowBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_workflow_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectWorkflowBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -72,7 +72,7 @@ export class CloudProjectWorkflowBackup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_workflow_backup ovh_cloud_project_workflow_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_workflow_backup ovh_cloud_project_workflow_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -83,8 +83,8 @@ export class CloudProjectWorkflowBackup extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_workflow_backup',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface DataOvhIploadbalancingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#display_name DataOvhIploadbalancing#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#display_name DataOvhIploadbalancing#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#id DataOvhIploadbalancing#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#id DataOvhIploadbalancing#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#ip_loadbalancing DataOvhIploadbalancing#ip_loadbalancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#ip_loadbalancing DataOvhIploadbalancing#ip_loadbalancing}
   */
   readonly ipLoadbalancing?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#ipv4 DataOvhIploadbalancing#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#ipv4 DataOvhIploadbalancing#ipv4}
   */
   readonly ipv4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#ipv6 DataOvhIploadbalancing#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#ipv6 DataOvhIploadbalancing#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#offer DataOvhIploadbalancing#offer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#offer DataOvhIploadbalancing#offer}
   */
   readonly offer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#service_name DataOvhIploadbalancing#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#service_name DataOvhIploadbalancing#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#ssl_configuration DataOvhIploadbalancing#ssl_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#ssl_configuration DataOvhIploadbalancing#ssl_configuration}
   */
   readonly sslConfiguration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#state DataOvhIploadbalancing#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#state DataOvhIploadbalancing#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#vrack_eligibility DataOvhIploadbalancing#vrack_eligibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#vrack_eligibility DataOvhIploadbalancing#vrack_eligibility}
   */
   readonly vrackEligibility?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#vrack_name DataOvhIploadbalancing#vrack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#vrack_name DataOvhIploadbalancing#vrack_name}
   */
   readonly vrackName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#zone DataOvhIploadbalancing#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#zone DataOvhIploadbalancing#zone}
   */
   readonly zone?: string[];
 }
@@ -141,7 +141,7 @@ export class DataOvhIploadbalancingOrderableZoneList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing ovh_iploadbalancing}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing ovh_iploadbalancing}
 */
 export class DataOvhIploadbalancing extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataOvhIploadbalancing extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhIploadbalancing resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhIploadbalancing to import
-  * @param importFromId The id of the existing DataOvhIploadbalancing that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhIploadbalancing that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhIploadbalancing to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataOvhIploadbalancing extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iploadbalancing ovh_iploadbalancing} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iploadbalancing ovh_iploadbalancing} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataOvhIploadbalancing extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_iploadbalancing',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

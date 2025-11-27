@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataInstaclustrClusterExclusionWindowsV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2#cluster_id DataInstaclustrClusterExclusionWindowsV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2#cluster_id DataInstaclustrClusterExclusionWindowsV2#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2#id DataInstaclustrClusterExclusionWindowsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2#id DataInstaclustrClusterExclusionWindowsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,13 +21,13 @@ export interface DataInstaclustrClusterExclusionWindowsV2Config extends cdktf.Te
   /**
   * exclusion_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2#exclusion_windows DataInstaclustrClusterExclusionWindowsV2#exclusion_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2#exclusion_windows DataInstaclustrClusterExclusionWindowsV2#exclusion_windows}
   */
   readonly exclusionWindows?: DataInstaclustrClusterExclusionWindowsV2ExclusionWindows[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2#filter DataInstaclustrClusterExclusionWindowsV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2#filter DataInstaclustrClusterExclusionWindowsV2#filter}
   */
   readonly filter?: DataInstaclustrClusterExclusionWindowsV2Filter[] | cdktf.IResolvable;
 }
@@ -35,25 +35,25 @@ export interface DataInstaclustrClusterExclusionWindowsV2ExclusionWindows {
   /**
   * Cluster Id for the cluster that this exclusion window relates to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2#cluster_id DataInstaclustrClusterExclusionWindowsV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2#cluster_id DataInstaclustrClusterExclusionWindowsV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The day of the week that this exclusion window starts on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2#day_of_week DataInstaclustrClusterExclusionWindowsV2#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2#day_of_week DataInstaclustrClusterExclusionWindowsV2#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
   * The duration (in hours) of this exclusion window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2#duration_in_hours DataInstaclustrClusterExclusionWindowsV2#duration_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2#duration_in_hours DataInstaclustrClusterExclusionWindowsV2#duration_in_hours}
   */
   readonly durationInHours?: number;
   /**
   * ID of the Cluster exclusion window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2#id DataInstaclustrClusterExclusionWindowsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2#id DataInstaclustrClusterExclusionWindowsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,7 +62,7 @@ export interface DataInstaclustrClusterExclusionWindowsV2ExclusionWindows {
   /**
   * The hour of the day that this exclusion window starts on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2#start_hour DataInstaclustrClusterExclusionWindowsV2#start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2#start_hour DataInstaclustrClusterExclusionWindowsV2#start_hour}
   */
   readonly startHour?: number;
 }
@@ -294,11 +294,11 @@ export class DataInstaclustrClusterExclusionWindowsV2ExclusionWindowsList extend
 }
 export interface DataInstaclustrClusterExclusionWindowsV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2#name DataInstaclustrClusterExclusionWindowsV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2#name DataInstaclustrClusterExclusionWindowsV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2#values DataInstaclustrClusterExclusionWindowsV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2#values DataInstaclustrClusterExclusionWindowsV2#values}
   */
   readonly values: string[];
 }
@@ -437,7 +437,7 @@ export class DataInstaclustrClusterExclusionWindowsV2FilterList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2 instaclustr_cluster_exclusion_windows_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2 instaclustr_cluster_exclusion_windows_v2}
 */
 export class DataInstaclustrClusterExclusionWindowsV2 extends cdktf.TerraformDataSource {
 
@@ -453,7 +453,7 @@ export class DataInstaclustrClusterExclusionWindowsV2 extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataInstaclustrClusterExclusionWindowsV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrClusterExclusionWindowsV2 to import
-  * @param importFromId The id of the existing DataInstaclustrClusterExclusionWindowsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrClusterExclusionWindowsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrClusterExclusionWindowsV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -465,7 +465,7 @@ export class DataInstaclustrClusterExclusionWindowsV2 extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.30/docs/data-sources/cluster_exclusion_windows_v2 instaclustr_cluster_exclusion_windows_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_exclusion_windows_v2 instaclustr_cluster_exclusion_windows_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -476,8 +476,8 @@ export class DataInstaclustrClusterExclusionWindowsV2 extends cdktf.TerraformDat
       terraformResourceType: 'instaclustr_cluster_exclusion_windows_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.30',
-        providerVersionConstraint: '2.1.30'
+        providerVersion: '2.1.31',
+        providerVersionConstraint: '2.1.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

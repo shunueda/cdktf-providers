@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_api_oauth2_client
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_api_oauth2_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,36 +10,36 @@ export interface MeApiOauth2ClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * Callback URLs of the applications using this oauth2 client. Required if using the AUTHORIZATION_CODE flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_api_oauth2_client#callback_urls MeApiOauth2Client#callback_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_api_oauth2_client#callback_urls MeApiOauth2Client#callback_urls}
   */
   readonly callbackUrls?: string[];
   /**
   * A description of your oauth2 client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_api_oauth2_client#description MeApiOauth2Client#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_api_oauth2_client#description MeApiOauth2Client#description}
   */
   readonly description: string;
   /**
   * OAuth2 flow type implemented for this oauth2 client. Can be either AUTHORIZATION_CODE or CLIENT_CREDENTIALS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_api_oauth2_client#flow MeApiOauth2Client#flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_api_oauth2_client#flow MeApiOauth2Client#flow}
   */
   readonly flow: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_api_oauth2_client#id MeApiOauth2Client#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_api_oauth2_client#id MeApiOauth2Client#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_api_oauth2_client#name MeApiOauth2Client#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_api_oauth2_client#name MeApiOauth2Client#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_api_oauth2_client ovh_me_api_oauth2_client}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_api_oauth2_client ovh_me_api_oauth2_client}
 */
 export class MeApiOauth2Client extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class MeApiOauth2Client extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MeApiOauth2Client resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MeApiOauth2Client to import
-  * @param importFromId The id of the existing MeApiOauth2Client that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_api_oauth2_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MeApiOauth2Client that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_api_oauth2_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MeApiOauth2Client to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class MeApiOauth2Client extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/me_api_oauth2_client ovh_me_api_oauth2_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/me_api_oauth2_client ovh_me_api_oauth2_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class MeApiOauth2Client extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_me_api_oauth2_client',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

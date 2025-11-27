@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "zenlayercloud": "0.2.11"
+    "zenlayercloud": "0.2.12"
   }
 }

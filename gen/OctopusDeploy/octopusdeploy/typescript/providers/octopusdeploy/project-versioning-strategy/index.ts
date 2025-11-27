@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_versioning_strategy
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project_versioning_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ProjectVersioningStrategyAConfig extends cdktf.TerraformMetaArg
   /**
   * Donor Packages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_versioning_strategy#donor_package ProjectVersioningStrategyA#donor_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project_versioning_strategy#donor_package ProjectVersioningStrategyA#donor_package}
   */
   readonly donorPackage?: ProjectVersioningStrategyDonorPackageA;
   /**
   * The associated donor package step ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_versioning_strategy#donor_package_step_id ProjectVersioningStrategyA#donor_package_step_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project_versioning_strategy#donor_package_step_id ProjectVersioningStrategyA#donor_package_step_id}
   */
   readonly donorPackageStepId?: string;
   /**
   * The associated project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_versioning_strategy#project_id ProjectVersioningStrategyA#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project_versioning_strategy#project_id ProjectVersioningStrategyA#project_id}
   */
   readonly projectId: string;
   /**
   * Space ID of the associated project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_versioning_strategy#space_id ProjectVersioningStrategyA#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project_versioning_strategy#space_id ProjectVersioningStrategyA#space_id}
   */
   readonly spaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_versioning_strategy#template ProjectVersioningStrategyA#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project_versioning_strategy#template ProjectVersioningStrategyA#template}
   */
   readonly template?: string;
 }
@@ -40,13 +40,13 @@ export interface ProjectVersioningStrategyDonorPackageA {
   /**
   * Deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_versioning_strategy#deployment_action ProjectVersioningStrategyA#deployment_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project_versioning_strategy#deployment_action ProjectVersioningStrategyA#deployment_action}
   */
   readonly deploymentAction: string;
   /**
   * Package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_versioning_strategy#package_reference ProjectVersioningStrategyA#package_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project_versioning_strategy#package_reference ProjectVersioningStrategyA#package_reference}
   */
   readonly packageReference: string;
 }
@@ -163,7 +163,7 @@ export class ProjectVersioningStrategyDonorPackageAOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_versioning_strategy octopusdeploy_project_versioning_strategy}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project_versioning_strategy octopusdeploy_project_versioning_strategy}
 */
 export class ProjectVersioningStrategyA extends cdktf.TerraformResource {
 
@@ -179,7 +179,7 @@ export class ProjectVersioningStrategyA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectVersioningStrategyA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectVersioningStrategyA to import
-  * @param importFromId The id of the existing ProjectVersioningStrategyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_versioning_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectVersioningStrategyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project_versioning_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectVersioningStrategyA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -191,7 +191,7 @@ export class ProjectVersioningStrategyA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_versioning_strategy octopusdeploy_project_versioning_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project_versioning_strategy octopusdeploy_project_versioning_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -202,8 +202,8 @@ export class ProjectVersioningStrategyA extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_project_versioning_strategy',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

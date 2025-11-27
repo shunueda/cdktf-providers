@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_security_group_rule
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_security_group_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ZvmSecurityGroupRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * The cidr ip of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_security_group_rule#cidr_ip ZvmSecurityGroupRule#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_security_group_rule#cidr_ip ZvmSecurityGroupRule#cidr_ip}
   */
   readonly cidrIp: string;
   /**
   * The direction of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_security_group_rule#direction ZvmSecurityGroupRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_security_group_rule#direction ZvmSecurityGroupRule#direction}
   */
   readonly direction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_security_group_rule#id ZvmSecurityGroupRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_security_group_rule#id ZvmSecurityGroupRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ZvmSecurityGroupRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * The protocol of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_security_group_rule#ip_protocol ZvmSecurityGroupRule#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_security_group_rule#ip_protocol ZvmSecurityGroupRule#ip_protocol}
   */
   readonly ipProtocol: string;
   /**
   * The policy of the rule, currently only `accept` is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_security_group_rule#policy ZvmSecurityGroupRule#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_security_group_rule#policy ZvmSecurityGroupRule#policy}
   */
   readonly policy?: string;
   /**
   * The port range of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_security_group_rule#port_range ZvmSecurityGroupRule#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_security_group_rule#port_range ZvmSecurityGroupRule#port_range}
   */
   readonly portRange: string;
   /**
   * ID of the security group to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_security_group_rule#security_group_id ZvmSecurityGroupRule#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_security_group_rule#security_group_id ZvmSecurityGroupRule#security_group_id}
   */
   readonly securityGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_security_group_rule zenlayercloud_zvm_security_group_rule}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_security_group_rule zenlayercloud_zvm_security_group_rule}
 */
 export class ZvmSecurityGroupRule extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ZvmSecurityGroupRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZvmSecurityGroupRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZvmSecurityGroupRule to import
-  * @param importFromId The id of the existing ZvmSecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_security_group_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZvmSecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_security_group_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZvmSecurityGroupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ZvmSecurityGroupRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_security_group_rule zenlayercloud_zvm_security_group_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_security_group_rule zenlayercloud_zvm_security_group_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ZvmSecurityGroupRule extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zvm_security_group_rule',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.11',
-        providerVersionConstraint: '0.2.11'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

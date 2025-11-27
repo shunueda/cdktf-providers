@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface OkmsSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Check-and-set guard. Only used on update operations: must equal the current secret version for the update to succeed. Ignored on create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret#cas OkmsSecret#cas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret#cas OkmsSecret#cas}
   */
   readonly cas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret#include_data OkmsSecret#include_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret#include_data OkmsSecret#include_data}
   */
   readonly includeData?: boolean | cdktf.IResolvable;
   /**
   * Create a secret metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret#metadata OkmsSecret#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret#metadata OkmsSecret#metadata}
   */
   readonly metadata?: OkmsSecretMetadata;
   /**
   * Okms ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret#okms_id OkmsSecret#okms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret#okms_id OkmsSecret#okms_id}
   */
   readonly okmsId: string;
   /**
   * Secret path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret#path OkmsSecret#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret#path OkmsSecret#path}
   */
   readonly path: string;
   /**
   * Create an OKMS secret version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret#version OkmsSecret#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret#version OkmsSecret#version}
   */
   readonly version: OkmsSecretVersion;
 }
@@ -116,25 +116,25 @@ export interface OkmsSecretMetadata {
   /**
   * The “Cas” parameter will be required for each write request if set to true. When the “cas” (Check and set) is specified, the current version of the secret is verified before updating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret#cas_required OkmsSecret#cas_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret#cas_required OkmsSecret#cas_required}
   */
   readonly casRequired?: boolean | cdktf.IResolvable;
   /**
   * Custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret#custom_metadata OkmsSecret#custom_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret#custom_metadata OkmsSecret#custom_metadata}
   */
   readonly customMetadata?: { [key: string]: string };
   /**
   * Time duration before a version is deactivated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret#deactivate_version_after OkmsSecret#deactivate_version_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret#deactivate_version_after OkmsSecret#deactivate_version_after}
   */
   readonly deactivateVersionAfter?: string;
   /**
   * The number of versions to keep (10 default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret#max_versions OkmsSecret#max_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret#max_versions OkmsSecret#max_versions}
   */
   readonly maxVersions?: number;
 }
@@ -335,7 +335,7 @@ export class OkmsSecretMetadataOutputReference extends cdktf.ComplexObject {
 }
 export interface OkmsSecretVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret#data OkmsSecret#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret#data OkmsSecret#data}
   */
   readonly data: string;
 }
@@ -446,7 +446,7 @@ export class OkmsSecretVersionOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret ovh_okms_secret}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret ovh_okms_secret}
 */
 export class OkmsSecret extends cdktf.TerraformResource {
 
@@ -462,7 +462,7 @@ export class OkmsSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OkmsSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OkmsSecret to import
-  * @param importFromId The id of the existing OkmsSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OkmsSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OkmsSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -474,7 +474,7 @@ export class OkmsSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_secret ovh_okms_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_secret ovh_okms_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -485,8 +485,8 @@ export class OkmsSecret extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_okms_secret',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

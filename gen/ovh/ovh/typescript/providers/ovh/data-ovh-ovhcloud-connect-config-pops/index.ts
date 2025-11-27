@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_config_pops
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_config_pops
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOvhOvhcloudConnectConfigPopsConfig extends cdktf.TerraformM
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_config_pops#service_name DataOvhOvhcloudConnectConfigPops#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_config_pops#service_name DataOvhOvhcloudConnectConfigPops#service_name}
   */
   readonly serviceName: string;
 }
@@ -121,7 +121,7 @@ export class DataOvhOvhcloudConnectConfigPopsPopConfigsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_config_pops ovh_ovhcloud_connect_config_pops}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_config_pops ovh_ovhcloud_connect_config_pops}
 */
 export class DataOvhOvhcloudConnectConfigPops extends cdktf.TerraformDataSource {
 
@@ -137,7 +137,7 @@ export class DataOvhOvhcloudConnectConfigPops extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOvhOvhcloudConnectConfigPops resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhOvhcloudConnectConfigPops to import
-  * @param importFromId The id of the existing DataOvhOvhcloudConnectConfigPops that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_config_pops#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhOvhcloudConnectConfigPops that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_config_pops#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhOvhcloudConnectConfigPops to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class DataOvhOvhcloudConnectConfigPops extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_config_pops ovh_ovhcloud_connect_config_pops} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_config_pops ovh_ovhcloud_connect_config_pops} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class DataOvhOvhcloudConnectConfigPops extends cdktf.TerraformDataSource 
       terraformResourceType: 'ovh_ovhcloud_connect_config_pops',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

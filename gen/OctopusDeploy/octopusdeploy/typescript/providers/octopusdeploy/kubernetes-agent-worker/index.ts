@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface KubernetesAgentWorkerConfig extends cdktf.TerraformMetaArgument
   /**
   * The communication mode used by the Kubernetes agent to communicate with Octopus Server. Currently, the only supported value is 'Polling'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker#communication_mode KubernetesAgentWorker#communication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker#communication_mode KubernetesAgentWorker#communication_mode}
   */
   readonly communicationMode?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker#id KubernetesAgentWorker#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker#id KubernetesAgentWorker#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,55 +25,55 @@ export interface KubernetesAgentWorkerConfig extends cdktf.TerraformMetaArgument
   /**
   * Whether the Kubernetes agent is disabled. If the agent is disabled, it will not be included in any deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker#is_disabled KubernetesAgentWorker#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker#is_disabled KubernetesAgentWorker#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Optional ID of the machine policy that the Kubernetes agent will use. If not provided the default machine policy will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker#machine_policy_id KubernetesAgentWorker#machine_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker#machine_policy_id KubernetesAgentWorker#machine_policy_id}
   */
   readonly machinePolicyId?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker#name KubernetesAgentWorker#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker#name KubernetesAgentWorker#name}
   */
   readonly name: string;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker#space_id KubernetesAgentWorker#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker#space_id KubernetesAgentWorker#space_id}
   */
   readonly spaceId?: string;
   /**
   * The thumbprint of the Kubernetes agent's certificate used by server to verify the identity of the agent. This is the same thumbprint that was used when installing the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker#thumbprint KubernetesAgentWorker#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker#thumbprint KubernetesAgentWorker#thumbprint}
   */
   readonly thumbprint: string;
   /**
   * If enabled the Kubernetes agent will not automatically upgrade and will stay on the currently installed version, even if the associated machine policy is configured to automatically upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker#upgrade_locked KubernetesAgentWorker#upgrade_locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker#upgrade_locked KubernetesAgentWorker#upgrade_locked}
   */
   readonly upgradeLocked?: boolean | cdktf.IResolvable;
   /**
   * The URI of the Kubernetes agent's used by the server to queue messages. This is the same subscription uri that was used when installing the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker#uri KubernetesAgentWorker#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker#uri KubernetesAgentWorker#uri}
   */
   readonly uri: string;
   /**
   * A list of worker pool Ids specifying the pools in which this worker belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker#worker_pool_ids KubernetesAgentWorker#worker_pool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker#worker_pool_ids KubernetesAgentWorker#worker_pool_ids}
   */
   readonly workerPoolIds: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker octopusdeploy_kubernetes_agent_worker}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker octopusdeploy_kubernetes_agent_worker}
 */
 export class KubernetesAgentWorker extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class KubernetesAgentWorker extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesAgentWorker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesAgentWorker to import
-  * @param importFromId The id of the existing KubernetesAgentWorker that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesAgentWorker that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesAgentWorker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class KubernetesAgentWorker extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/kubernetes_agent_worker octopusdeploy_kubernetes_agent_worker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_worker octopusdeploy_kubernetes_agent_worker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class KubernetesAgentWorker extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_kubernetes_agent_worker',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

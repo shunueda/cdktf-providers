@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_update
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_update
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DedicatedServerUpdateConfig extends cdktf.TerraformMetaArgument
   /**
   * The boot id of your dedicated server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_update#boot_id DedicatedServerUpdate#boot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_update#boot_id DedicatedServerUpdate#boot_id}
   */
   readonly bootId?: number;
   /**
   * The boot script of your dedicated server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_update#boot_script DedicatedServerUpdate#boot_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_update#boot_script DedicatedServerUpdate#boot_script}
   */
   readonly bootScript?: string;
   /**
   * Display name of the dedicated server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_update#display_name DedicatedServerUpdate#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_update#display_name DedicatedServerUpdate#display_name}
   */
   readonly displayName?: string;
   /**
   * The path of the EFI bootloader.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_update#efi_bootloader_path DedicatedServerUpdate#efi_bootloader_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_update#efi_bootloader_path DedicatedServerUpdate#efi_bootloader_path}
   */
   readonly efiBootloaderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_update#id DedicatedServerUpdate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_update#id DedicatedServerUpdate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface DedicatedServerUpdateConfig extends cdktf.TerraformMetaArgument
   /**
   * Icmp monitoring state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_update#monitoring DedicatedServerUpdate#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_update#monitoring DedicatedServerUpdate#monitoring}
   */
   readonly monitoring?: boolean | cdktf.IResolvable;
   /**
   * The internal name of your dedicated server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_update#service_name DedicatedServerUpdate#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_update#service_name DedicatedServerUpdate#service_name}
   */
   readonly serviceName: string;
   /**
   * error, hacked, hackedBlocked, ok
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_update#state DedicatedServerUpdate#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_update#state DedicatedServerUpdate#state}
   */
   readonly state?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_update ovh_dedicated_server_update}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_update ovh_dedicated_server_update}
 */
 export class DedicatedServerUpdate extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class DedicatedServerUpdate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DedicatedServerUpdate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DedicatedServerUpdate to import
-  * @param importFromId The id of the existing DedicatedServerUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_update#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DedicatedServerUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_update#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DedicatedServerUpdate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DedicatedServerUpdate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_update ovh_dedicated_server_update} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_update ovh_dedicated_server_update} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DedicatedServerUpdate extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_dedicated_server_update',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

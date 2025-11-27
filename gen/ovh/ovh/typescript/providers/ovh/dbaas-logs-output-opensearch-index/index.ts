@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_opensearch_index
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_opensearch_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DbaasLogsOutputOpensearchIndexConfig extends cdktf.TerraformMet
   /**
   * Index description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_opensearch_index#description DbaasLogsOutputOpensearchIndex#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_opensearch_index#description DbaasLogsOutputOpensearchIndex#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_opensearch_index#id DbaasLogsOutputOpensearchIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_opensearch_index#id DbaasLogsOutputOpensearchIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DbaasLogsOutputOpensearchIndexConfig extends cdktf.TerraformMet
   /**
   * Number of shard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_opensearch_index#nb_shard DbaasLogsOutputOpensearchIndex#nb_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_opensearch_index#nb_shard DbaasLogsOutputOpensearchIndex#nb_shard}
   */
   readonly nbShard: number;
   /**
   * The service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_opensearch_index#service_name DbaasLogsOutputOpensearchIndex#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_opensearch_index#service_name DbaasLogsOutputOpensearchIndex#service_name}
   */
   readonly serviceName: string;
   /**
   * Index suffix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_opensearch_index#suffix DbaasLogsOutputOpensearchIndex#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_opensearch_index#suffix DbaasLogsOutputOpensearchIndex#suffix}
   */
   readonly suffix: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_opensearch_index ovh_dbaas_logs_output_opensearch_index}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_opensearch_index ovh_dbaas_logs_output_opensearch_index}
 */
 export class DbaasLogsOutputOpensearchIndex extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class DbaasLogsOutputOpensearchIndex extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasLogsOutputOpensearchIndex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasLogsOutputOpensearchIndex to import
-  * @param importFromId The id of the existing DbaasLogsOutputOpensearchIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_opensearch_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasLogsOutputOpensearchIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_opensearch_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasLogsOutputOpensearchIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DbaasLogsOutputOpensearchIndex extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_output_opensearch_index ovh_dbaas_logs_output_opensearch_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_output_opensearch_index ovh_dbaas_logs_output_opensearch_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DbaasLogsOutputOpensearchIndex extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_dbaas_logs_output_opensearch_index',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

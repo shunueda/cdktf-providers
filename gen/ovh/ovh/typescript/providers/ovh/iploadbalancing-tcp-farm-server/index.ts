@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface IploadbalancingTcpFarmServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#address IploadbalancingTcpFarmServer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#address IploadbalancingTcpFarmServer#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#backup IploadbalancingTcpFarmServer#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#backup IploadbalancingTcpFarmServer#backup}
   */
   readonly backup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#chain IploadbalancingTcpFarmServer#chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#chain IploadbalancingTcpFarmServer#chain}
   */
   readonly chain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#display_name IploadbalancingTcpFarmServer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#display_name IploadbalancingTcpFarmServer#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#farm_id IploadbalancingTcpFarmServer#farm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#farm_id IploadbalancingTcpFarmServer#farm_id}
   */
   readonly farmId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#id IploadbalancingTcpFarmServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#id IploadbalancingTcpFarmServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#on_marked_down IploadbalancingTcpFarmServer#on_marked_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#on_marked_down IploadbalancingTcpFarmServer#on_marked_down}
   */
   readonly onMarkedDown?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#port IploadbalancingTcpFarmServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#port IploadbalancingTcpFarmServer#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#probe IploadbalancingTcpFarmServer#probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#probe IploadbalancingTcpFarmServer#probe}
   */
   readonly probe?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#proxy_protocol_version IploadbalancingTcpFarmServer#proxy_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#proxy_protocol_version IploadbalancingTcpFarmServer#proxy_protocol_version}
   */
   readonly proxyProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#service_name IploadbalancingTcpFarmServer#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#service_name IploadbalancingTcpFarmServer#service_name}
   */
   readonly serviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#ssl IploadbalancingTcpFarmServer#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#ssl IploadbalancingTcpFarmServer#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#status IploadbalancingTcpFarmServer#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#status IploadbalancingTcpFarmServer#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#weight IploadbalancingTcpFarmServer#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#weight IploadbalancingTcpFarmServer#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server ovh_iploadbalancing_tcp_farm_server}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server ovh_iploadbalancing_tcp_farm_server}
 */
 export class IploadbalancingTcpFarmServer extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class IploadbalancingTcpFarmServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IploadbalancingTcpFarmServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IploadbalancingTcpFarmServer to import
-  * @param importFromId The id of the existing IploadbalancingTcpFarmServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IploadbalancingTcpFarmServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IploadbalancingTcpFarmServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class IploadbalancingTcpFarmServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_tcp_farm_server ovh_iploadbalancing_tcp_farm_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_tcp_farm_server ovh_iploadbalancing_tcp_farm_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class IploadbalancingTcpFarmServer extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_iploadbalancing_tcp_farm_server',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

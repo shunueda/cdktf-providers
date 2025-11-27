@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone_dynhost_login
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone_dynhost_login
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DomainZoneDynhostLoginConfig extends cdktf.TerraformMetaArgumen
   /**
   * Suffix that will be concatenated to the zoneName to create the login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone_dynhost_login#login_suffix DomainZoneDynhostLogin#login_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone_dynhost_login#login_suffix DomainZoneDynhostLogin#login_suffix}
   */
   readonly loginSuffix: string;
   /**
   * Password of the login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone_dynhost_login#password DomainZoneDynhostLogin#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone_dynhost_login#password DomainZoneDynhostLogin#password}
   */
   readonly password: string;
   /**
   * Subdomain that the login will be allowed to update (use * to allow all)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone_dynhost_login#sub_domain DomainZoneDynhostLogin#sub_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone_dynhost_login#sub_domain DomainZoneDynhostLogin#sub_domain}
   */
   readonly subDomain: string;
   /**
   * Zone name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone_dynhost_login#zone_name DomainZoneDynhostLogin#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone_dynhost_login#zone_name DomainZoneDynhostLogin#zone_name}
   */
   readonly zoneName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone_dynhost_login ovh_domain_zone_dynhost_login}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone_dynhost_login ovh_domain_zone_dynhost_login}
 */
 export class DomainZoneDynhostLogin extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class DomainZoneDynhostLogin extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainZoneDynhostLogin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainZoneDynhostLogin to import
-  * @param importFromId The id of the existing DomainZoneDynhostLogin that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone_dynhost_login#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainZoneDynhostLogin that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone_dynhost_login#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainZoneDynhostLogin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DomainZoneDynhostLogin extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone_dynhost_login ovh_domain_zone_dynhost_login} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone_dynhost_login ovh_domain_zone_dynhost_login} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DomainZoneDynhostLogin extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_domain_zone_dynhost_login',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

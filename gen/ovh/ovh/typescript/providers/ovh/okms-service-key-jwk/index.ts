@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface OkmsServiceKeyJwkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Context of the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#context OkmsServiceKeyJwk#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#context OkmsServiceKeyJwk#context}
   */
   readonly context?: string;
   /**
   * Set of JSON Web Keys to import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#keys OkmsServiceKeyJwk#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#keys OkmsServiceKeyJwk#keys}
   */
   readonly keys: OkmsServiceKeyJwkKeys[] | cdktf.IResolvable;
   /**
   * Key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#name OkmsServiceKeyJwk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#name OkmsServiceKeyJwk#name}
   */
   readonly name: string;
   /**
   * Okms ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#okms_id OkmsServiceKeyJwk#okms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#okms_id OkmsServiceKeyJwk#okms_id}
   */
   readonly okmsId: string;
 }
@@ -106,97 +106,97 @@ export interface OkmsServiceKeyJwkKeys {
   /**
   * The algorithm intended to be used with the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#alg OkmsServiceKeyJwk#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#alg OkmsServiceKeyJwk#alg}
   */
   readonly alg?: string;
   /**
   * The cryptographic curve used with the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#crv OkmsServiceKeyJwk#crv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#crv OkmsServiceKeyJwk#crv}
   */
   readonly crv?: string;
   /**
   * The RSA or EC private exponent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#d OkmsServiceKeyJwk#d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#d OkmsServiceKeyJwk#d}
   */
   readonly d?: string;
   /**
   * The RSA private key's first factor CRT exponent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#dp OkmsServiceKeyJwk#dp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#dp OkmsServiceKeyJwk#dp}
   */
   readonly dp?: string;
   /**
   * The RSA private key's second factor CRT exponent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#dq OkmsServiceKeyJwk#dq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#dq OkmsServiceKeyJwk#dq}
   */
   readonly dq?: string;
   /**
   * The exponent value for the RSA public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#e OkmsServiceKeyJwk#e}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#e OkmsServiceKeyJwk#e}
   */
   readonly e?: string;
   /**
   * The value of the symmetric (or other single-valued) key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#k OkmsServiceKeyJwk#k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#k OkmsServiceKeyJwk#k}
   */
   readonly k?: string;
   /**
   * The operation for which the key is intended to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#key_ops OkmsServiceKeyJwk#key_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#key_ops OkmsServiceKeyJwk#key_ops}
   */
   readonly keyOps: string[];
   /**
   * Key type parameter identifies the cryptographic algorithm family used with the key, such as RSA or EC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#kty OkmsServiceKeyJwk#kty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#kty OkmsServiceKeyJwk#kty}
   */
   readonly kty: string;
   /**
   * The modulus value for the RSA public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#n OkmsServiceKeyJwk#n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#n OkmsServiceKeyJwk#n}
   */
   readonly n?: string;
   /**
   * The first prime factor of the RSA private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#p OkmsServiceKeyJwk#p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#p OkmsServiceKeyJwk#p}
   */
   readonly p?: string;
   /**
   * The second prime factor of the RSA private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#q OkmsServiceKeyJwk#q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#q OkmsServiceKeyJwk#q}
   */
   readonly q?: string;
   /**
   * The CRT coefficient of the second factor of the RSA private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#qi OkmsServiceKeyJwk#qi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#qi OkmsServiceKeyJwk#qi}
   */
   readonly qi?: string;
   /**
   * The intended use of the public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#use OkmsServiceKeyJwk#use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#use OkmsServiceKeyJwk#use}
   */
   readonly use?: string;
   /**
   * The x coordinate for the Elliptic Curve point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#x OkmsServiceKeyJwk#x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#x OkmsServiceKeyJwk#x}
   */
   readonly x?: string;
   /**
   * The y coordinate for the Elliptic Curve point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#y OkmsServiceKeyJwk#y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#y OkmsServiceKeyJwk#y}
   */
   readonly y?: string;
 }
@@ -746,7 +746,7 @@ export class OkmsServiceKeyJwkKeysList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk ovh_okms_service_key_jwk}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk ovh_okms_service_key_jwk}
 */
 export class OkmsServiceKeyJwk extends cdktf.TerraformResource {
 
@@ -762,7 +762,7 @@ export class OkmsServiceKeyJwk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OkmsServiceKeyJwk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OkmsServiceKeyJwk to import
-  * @param importFromId The id of the existing OkmsServiceKeyJwk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OkmsServiceKeyJwk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OkmsServiceKeyJwk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -774,7 +774,7 @@ export class OkmsServiceKeyJwk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key_jwk ovh_okms_service_key_jwk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key_jwk ovh_okms_service_key_jwk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -785,8 +785,8 @@ export class OkmsServiceKeyJwk extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_okms_service_key_jwk',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

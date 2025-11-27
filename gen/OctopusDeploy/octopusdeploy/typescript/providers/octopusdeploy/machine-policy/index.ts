@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface MachinePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * In nanoseconds. Minimum value: 10000000000 (10 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#connection_connect_timeout MachinePolicy#connection_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#connection_connect_timeout MachinePolicy#connection_connect_timeout}
   */
   readonly connectionConnectTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#connection_retry_count_limit MachinePolicy#connection_retry_count_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#connection_retry_count_limit MachinePolicy#connection_retry_count_limit}
   */
   readonly connectionRetryCountLimit?: number;
   /**
   * In nanoseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#connection_retry_sleep_interval MachinePolicy#connection_retry_sleep_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#connection_retry_sleep_interval MachinePolicy#connection_retry_sleep_interval}
   */
   readonly connectionRetrySleepInterval?: number;
   /**
   * In nanoseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#connection_retry_time_limit MachinePolicy#connection_retry_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#connection_retry_time_limit MachinePolicy#connection_retry_time_limit}
   */
   readonly connectionRetryTimeLimit?: number;
   /**
   * The description of this machine policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#description MachinePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#description MachinePolicy#description}
   */
   readonly description?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#id MachinePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#id MachinePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,61 +47,61 @@ export interface MachinePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#name MachinePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#name MachinePolicy#name}
   */
   readonly name: string;
   /**
   * In nanoseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#polling_request_queue_timeout MachinePolicy#polling_request_queue_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#polling_request_queue_timeout MachinePolicy#polling_request_queue_timeout}
   */
   readonly pollingRequestQueueTimeout?: number;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#space_id MachinePolicy#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#space_id MachinePolicy#space_id}
   */
   readonly spaceId?: string;
   /**
   * machine_cleanup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#machine_cleanup_policy MachinePolicy#machine_cleanup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#machine_cleanup_policy MachinePolicy#machine_cleanup_policy}
   */
   readonly machineCleanupPolicy?: MachinePolicyMachineCleanupPolicy;
   /**
   * machine_connectivity_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#machine_connectivity_policy MachinePolicy#machine_connectivity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#machine_connectivity_policy MachinePolicy#machine_connectivity_policy}
   */
   readonly machineConnectivityPolicy?: MachinePolicyMachineConnectivityPolicy;
   /**
   * machine_health_check_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#machine_health_check_policy MachinePolicy#machine_health_check_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#machine_health_check_policy MachinePolicy#machine_health_check_policy}
   */
   readonly machineHealthCheckPolicy?: MachinePolicyMachineHealthCheckPolicy;
   /**
   * machine_package_cache_retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#machine_package_cache_retention_policy MachinePolicy#machine_package_cache_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#machine_package_cache_retention_policy MachinePolicy#machine_package_cache_retention_policy}
   */
   readonly machinePackageCacheRetentionPolicy?: MachinePolicyMachinePackageCacheRetentionPolicy;
   /**
   * machine_update_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#machine_update_policy MachinePolicy#machine_update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#machine_update_policy MachinePolicy#machine_update_policy}
   */
   readonly machineUpdatePolicy?: MachinePolicyMachineUpdatePolicy;
 }
 export interface MachinePolicyMachineCleanupPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#delete_machines_behavior MachinePolicy#delete_machines_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#delete_machines_behavior MachinePolicy#delete_machines_behavior}
   */
   readonly deleteMachinesBehavior?: string;
   /**
   * In nanoseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#delete_machines_elapsed_timespan MachinePolicy#delete_machines_elapsed_timespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#delete_machines_elapsed_timespan MachinePolicy#delete_machines_elapsed_timespan}
   */
   readonly deleteMachinesElapsedTimespan?: number;
 }
@@ -214,7 +214,7 @@ export class MachinePolicyMachineCleanupPolicyOutputReference extends cdktf.Comp
 }
 export interface MachinePolicyMachineConnectivityPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#machine_connectivity_behavior MachinePolicy#machine_connectivity_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#machine_connectivity_behavior MachinePolicy#machine_connectivity_behavior}
   */
   readonly machineConnectivityBehavior?: string;
 }
@@ -298,11 +298,11 @@ export class MachinePolicyMachineConnectivityPolicyOutputReference extends cdktf
 }
 export interface MachinePolicyMachineHealthCheckPolicyBashHealthCheckPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#run_type MachinePolicy#run_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#run_type MachinePolicy#run_type}
   */
   readonly runType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#script_body MachinePolicy#script_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#script_body MachinePolicy#script_body}
   */
   readonly scriptBody?: string;
 }
@@ -415,11 +415,11 @@ export class MachinePolicyMachineHealthCheckPolicyBashHealthCheckPolicyOutputRef
 }
 export interface MachinePolicyMachineHealthCheckPolicyPowershellHealthCheckPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#run_type MachinePolicy#run_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#run_type MachinePolicy#run_type}
   */
   readonly runType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#script_body MachinePolicy#script_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#script_body MachinePolicy#script_body}
   */
   readonly scriptBody?: string;
 }
@@ -532,33 +532,33 @@ export class MachinePolicyMachineHealthCheckPolicyPowershellHealthCheckPolicyOut
 }
 export interface MachinePolicyMachineHealthCheckPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#health_check_cron MachinePolicy#health_check_cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#health_check_cron MachinePolicy#health_check_cron}
   */
   readonly healthCheckCron?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#health_check_cron_timezone MachinePolicy#health_check_cron_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#health_check_cron_timezone MachinePolicy#health_check_cron_timezone}
   */
   readonly healthCheckCronTimezone?: string;
   /**
   * In nanoseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#health_check_interval MachinePolicy#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#health_check_interval MachinePolicy#health_check_interval}
   */
   readonly healthCheckInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#health_check_type MachinePolicy#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#health_check_type MachinePolicy#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
   * bash_health_check_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#bash_health_check_policy MachinePolicy#bash_health_check_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#bash_health_check_policy MachinePolicy#bash_health_check_policy}
   */
   readonly bashHealthCheckPolicy: MachinePolicyMachineHealthCheckPolicyBashHealthCheckPolicy;
   /**
   * powershell_health_check_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#powershell_health_check_policy MachinePolicy#powershell_health_check_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#powershell_health_check_policy MachinePolicy#powershell_health_check_policy}
   */
   readonly powershellHealthCheckPolicy: MachinePolicyMachineHealthCheckPolicyPowershellHealthCheckPolicy;
 }
@@ -783,31 +783,31 @@ export interface MachinePolicyMachinePackageCacheRetentionPolicy {
   /**
   * The method of counting packages when applying the Quantities strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#package_unit MachinePolicy#package_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#package_unit MachinePolicy#package_unit}
   */
   readonly packageUnit?: string;
   /**
   * The number of packages to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#quantity_of_packages_to_keep MachinePolicy#quantity_of_packages_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#quantity_of_packages_to_keep MachinePolicy#quantity_of_packages_to_keep}
   */
   readonly quantityOfPackagesToKeep?: number;
   /**
   * The number of package versions to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#quantity_of_versions_to_keep MachinePolicy#quantity_of_versions_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#quantity_of_versions_to_keep MachinePolicy#quantity_of_versions_to_keep}
   */
   readonly quantityOfVersionsToKeep?: number;
   /**
   * The behaviour of the cache retention policy. Valid values are `Default` (let Octopus decide), `Quantities` (keep by a specified number of packages and versions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#strategy MachinePolicy#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#strategy MachinePolicy#strategy}
   */
   readonly strategy: string;
   /**
   * The method of counting package versions when applying the Quantities strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#version_unit MachinePolicy#version_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#version_unit MachinePolicy#version_unit}
   */
   readonly versionUnit?: string;
 }
@@ -1006,25 +1006,25 @@ export interface MachinePolicyMachineUpdatePolicy {
   /**
   * The behaviour of how Calamari is updated. Valid values are `UpdateAlways`, `UpdateOnDeployment` and `UpdateOnNewMachine`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#calamari_update_behavior MachinePolicy#calamari_update_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#calamari_update_behavior MachinePolicy#calamari_update_behavior}
   */
   readonly calamariUpdateBehavior?: string;
   /**
   * The behaviour of how Kubernetes agent machines are updated. Valid values are `NeverUpdate` and `Update`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#kubernetes_agent_update_behavior MachinePolicy#kubernetes_agent_update_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#kubernetes_agent_update_behavior MachinePolicy#kubernetes_agent_update_behavior}
   */
   readonly kubernetesAgentUpdateBehavior?: string;
   /**
   * The Account ID to perform any Tentacle updates under.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#tentacle_update_account_id MachinePolicy#tentacle_update_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#tentacle_update_account_id MachinePolicy#tentacle_update_account_id}
   */
   readonly tentacleUpdateAccountId?: string;
   /**
   * The behaviour of how Tentacle machines are updated. Valid values are `NeverUpdate` and `Update`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#tentacle_update_behavior MachinePolicy#tentacle_update_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#tentacle_update_behavior MachinePolicy#tentacle_update_behavior}
   */
   readonly tentacleUpdateBehavior?: string;
 }
@@ -1195,7 +1195,7 @@ export class MachinePolicyMachineUpdatePolicyOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy octopusdeploy_machine_policy}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy octopusdeploy_machine_policy}
 */
 export class MachinePolicy extends cdktf.TerraformResource {
 
@@ -1211,7 +1211,7 @@ export class MachinePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MachinePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MachinePolicy to import
-  * @param importFromId The id of the existing MachinePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MachinePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MachinePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1223,7 +1223,7 @@ export class MachinePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/machine_policy octopusdeploy_machine_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/machine_policy octopusdeploy_machine_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1234,8 +1234,8 @@ export class MachinePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_machine_policy',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

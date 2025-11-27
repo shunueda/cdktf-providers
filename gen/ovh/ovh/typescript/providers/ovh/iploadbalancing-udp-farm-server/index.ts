@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm_server
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface IploadbalancingUdpFarmServerConfig extends cdktf.TerraformMetaA
   /**
   * IPv4 address (e.g., 192.0.2.0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm_server#address IploadbalancingUdpFarmServer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm_server#address IploadbalancingUdpFarmServer#address}
   */
   readonly address: string;
   /**
   * Human readable name for your server, this field is for you
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm_server#display_name IploadbalancingUdpFarmServer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm_server#display_name IploadbalancingUdpFarmServer#display_name}
   */
   readonly displayName?: string;
   /**
   * Id of your farm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm_server#farm_id IploadbalancingUdpFarmServer#farm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm_server#farm_id IploadbalancingUdpFarmServer#farm_id}
   */
   readonly farmId: number;
   /**
   * Port attached to your server ([1..49151]). Inherited from farm if null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm_server#port IploadbalancingUdpFarmServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm_server#port IploadbalancingUdpFarmServer#port}
   */
   readonly port?: number;
   /**
   * The internal name of your IP load balancing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm_server#service_name IploadbalancingUdpFarmServer#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm_server#service_name IploadbalancingUdpFarmServer#service_name}
   */
   readonly serviceName: string;
   /**
   * Possible values for server status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm_server#status IploadbalancingUdpFarmServer#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm_server#status IploadbalancingUdpFarmServer#status}
   */
   readonly status: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm_server ovh_iploadbalancing_udp_farm_server}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm_server ovh_iploadbalancing_udp_farm_server}
 */
 export class IploadbalancingUdpFarmServer extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class IploadbalancingUdpFarmServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IploadbalancingUdpFarmServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IploadbalancingUdpFarmServer to import
-  * @param importFromId The id of the existing IploadbalancingUdpFarmServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IploadbalancingUdpFarmServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IploadbalancingUdpFarmServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class IploadbalancingUdpFarmServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_farm_server ovh_iploadbalancing_udp_farm_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_farm_server ovh_iploadbalancing_udp_farm_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class IploadbalancingUdpFarmServer extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_iploadbalancing_udp_farm_server',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

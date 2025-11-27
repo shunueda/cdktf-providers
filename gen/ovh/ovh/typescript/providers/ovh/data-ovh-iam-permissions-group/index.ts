@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iam_permissions_group
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iam_permissions_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktf from 'cdktf';
 
 export interface DataOvhIamPermissionsGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iam_permissions_group#allow DataOvhIamPermissionsGroup#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iam_permissions_group#allow DataOvhIamPermissionsGroup#allow}
   */
   readonly allow?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iam_permissions_group#deny DataOvhIamPermissionsGroup#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iam_permissions_group#deny DataOvhIamPermissionsGroup#deny}
   */
   readonly deny?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iam_permissions_group#description DataOvhIamPermissionsGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iam_permissions_group#description DataOvhIamPermissionsGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iam_permissions_group#except DataOvhIamPermissionsGroup#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iam_permissions_group#except DataOvhIamPermissionsGroup#except}
   */
   readonly except?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iam_permissions_group#updated_at DataOvhIamPermissionsGroup#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iam_permissions_group#updated_at DataOvhIamPermissionsGroup#updated_at}
   */
   readonly updatedAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iam_permissions_group#urn DataOvhIamPermissionsGroup#urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iam_permissions_group#urn DataOvhIamPermissionsGroup#urn}
   */
   readonly urn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iam_permissions_group ovh_iam_permissions_group}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iam_permissions_group ovh_iam_permissions_group}
 */
 export class DataOvhIamPermissionsGroup extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataOvhIamPermissionsGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhIamPermissionsGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhIamPermissionsGroup to import
-  * @param importFromId The id of the existing DataOvhIamPermissionsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iam_permissions_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhIamPermissionsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iam_permissions_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhIamPermissionsGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataOvhIamPermissionsGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/iam_permissions_group ovh_iam_permissions_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/iam_permissions_group ovh_iam_permissions_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataOvhIamPermissionsGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_iam_permissions_group',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

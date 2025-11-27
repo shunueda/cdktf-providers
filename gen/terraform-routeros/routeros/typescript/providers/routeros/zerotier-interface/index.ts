@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ZerotierInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#___path___ ZerotierInterface#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#___path___ ZerotierInterface#___path___}
   */
   readonly path?: string;
   /**
   * An option to override the default route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#allow_default ZerotierInterface#allow_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#allow_default ZerotierInterface#allow_default}
   */
   readonly allowDefault?: boolean | cdktf.IResolvable;
   /**
   * An option to allow overlapping public IP space by the ZeroTier routes. .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#allow_global ZerotierInterface#allow_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#allow_global ZerotierInterface#allow_global}
   */
   readonly allowGlobal?: boolean | cdktf.IResolvable;
   /**
   * An option to allow assignment of managed IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#allow_managed ZerotierInterface#allow_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#allow_managed ZerotierInterface#allow_managed}
   */
   readonly allowManaged?: boolean | cdktf.IResolvable;
   /**
   * ARP timeout is time how long ARP record is kept in ARP table after no packets are received from IP. Value auto equals to the value of arp-timeout in IP/Settings, default is 30s. Can use postfix `ms`, `s`, `m`, `h`, `d` for milliseconds, seconds, minutes, hours or days. If no postfix is set then seconds (s) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#arp_timeout ZerotierInterface#arp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#arp_timeout ZerotierInterface#arp_timeout}
   */
   readonly arpTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#comment ZerotierInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#comment ZerotierInterface#comment}
   */
   readonly comment?: string;
   /**
   * An option to force the `running` property to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#disable_running_check ZerotierInterface#disable_running_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#disable_running_check ZerotierInterface#disable_running_check}
   */
   readonly disableRunningCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#disabled ZerotierInterface#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#disabled ZerotierInterface#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#id ZerotierInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#id ZerotierInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,25 +61,25 @@ export interface ZerotierInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ZeroTier instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#instance ZerotierInterface#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#instance ZerotierInterface#instance}
   */
   readonly instance: string;
   /**
   * Name of the ZeroTier interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#name ZerotierInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#name ZerotierInterface#name}
   */
   readonly name: string;
   /**
   * The ZeroTier network identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#network ZerotierInterface#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#network ZerotierInterface#network}
   */
   readonly network: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface routeros_zerotier_interface}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface routeros_zerotier_interface}
 */
 export class ZerotierInterface extends cdktf.TerraformResource {
 
@@ -95,7 +95,7 @@ export class ZerotierInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZerotierInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZerotierInterface to import
-  * @param importFromId The id of the existing ZerotierInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZerotierInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZerotierInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -107,7 +107,7 @@ export class ZerotierInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_interface routeros_zerotier_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/zerotier_interface routeros_zerotier_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -118,8 +118,8 @@ export class ZerotierInterface extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_zerotier_interface',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

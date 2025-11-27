@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_failover_ip_attach
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_failover_ip_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface CloudProjectFailoverIpAttachConfig extends cdktf.TerraformMetaA
   /**
   * IP block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_failover_ip_attach#block CloudProjectFailoverIpAttach#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_failover_ip_attach#block CloudProjectFailoverIpAttach#block}
   */
   readonly block?: string;
   /**
   * Ip continent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_failover_ip_attach#continent_code CloudProjectFailoverIpAttach#continent_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_failover_ip_attach#continent_code CloudProjectFailoverIpAttach#continent_code}
   */
   readonly continentCode?: string;
   /**
   * Ip location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_failover_ip_attach#geo_loc CloudProjectFailoverIpAttach#geo_loc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_failover_ip_attach#geo_loc CloudProjectFailoverIpAttach#geo_loc}
   */
   readonly geoLoc?: string;
   /**
   * Ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_failover_ip_attach#ip CloudProjectFailoverIpAttach#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_failover_ip_attach#ip CloudProjectFailoverIpAttach#ip}
   */
   readonly ip?: string;
   /**
   * Instance where ip is routed to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_failover_ip_attach#routed_to CloudProjectFailoverIpAttach#routed_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_failover_ip_attach#routed_to CloudProjectFailoverIpAttach#routed_to}
   */
   readonly routedTo?: string;
   /**
   * The service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_failover_ip_attach#service_name CloudProjectFailoverIpAttach#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_failover_ip_attach#service_name CloudProjectFailoverIpAttach#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_failover_ip_attach ovh_cloud_project_failover_ip_attach}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_failover_ip_attach ovh_cloud_project_failover_ip_attach}
 */
 export class CloudProjectFailoverIpAttach extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class CloudProjectFailoverIpAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectFailoverIpAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectFailoverIpAttach to import
-  * @param importFromId The id of the existing CloudProjectFailoverIpAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_failover_ip_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectFailoverIpAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_failover_ip_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectFailoverIpAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class CloudProjectFailoverIpAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_failover_ip_attach ovh_cloud_project_failover_ip_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_failover_ip_attach ovh_cloud_project_failover_ip_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class CloudProjectFailoverIpAttach extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_failover_ip_attach',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

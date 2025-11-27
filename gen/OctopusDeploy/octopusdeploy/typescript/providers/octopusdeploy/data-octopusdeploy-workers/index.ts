@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface DataOctopusdeployWorkersConfig extends cdktf.TerraformMetaArgum
   /**
   * A filter to search by communication styles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers#communication_styles DataOctopusdeployWorkers#communication_styles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers#communication_styles DataOctopusdeployWorkers#communication_styles}
   */
   readonly communicationStyles?: string[];
   /**
   * A filter to search by health statuses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers#health_statuses DataOctopusdeployWorkers#health_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers#health_statuses DataOctopusdeployWorkers#health_statuses}
   */
   readonly healthStatuses?: string[];
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers#ids DataOctopusdeployWorkers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers#ids DataOctopusdeployWorkers#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers#is_disabled DataOctopusdeployWorkers#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers#is_disabled DataOctopusdeployWorkers#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers#name DataOctopusdeployWorkers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers#name DataOctopusdeployWorkers#name}
   */
   readonly name?: string;
   /**
   * A filter to search by a partial name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers#partial_name DataOctopusdeployWorkers#partial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers#partial_name DataOctopusdeployWorkers#partial_name}
   */
   readonly partialName?: string;
   /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers#skip DataOctopusdeployWorkers#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers#skip DataOctopusdeployWorkers#skip}
   */
   readonly skip?: number;
   /**
   * The space ID associated with this workers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers#space_id DataOctopusdeployWorkers#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers#space_id DataOctopusdeployWorkers#space_id}
   */
   readonly spaceId?: string;
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers#take DataOctopusdeployWorkers#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers#take DataOctopusdeployWorkers#take}
   */
   readonly take?: number;
 }
@@ -212,7 +212,7 @@ export class DataOctopusdeployWorkersWorkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers octopusdeploy_workers}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers octopusdeploy_workers}
 */
 export class DataOctopusdeployWorkers extends cdktf.TerraformDataSource {
 
@@ -228,7 +228,7 @@ export class DataOctopusdeployWorkers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOctopusdeployWorkers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployWorkers to import
-  * @param importFromId The id of the existing DataOctopusdeployWorkers that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployWorkers that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployWorkers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class DataOctopusdeployWorkers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/workers octopusdeploy_workers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/workers octopusdeploy_workers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class DataOctopusdeployWorkers extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_workers',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

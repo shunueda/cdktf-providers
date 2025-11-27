@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_loadbalancer_flavors
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_loadbalancer_flavors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOvhCloudProjectLoadbalancerFlavorsConfig extends cdktf.Terr
   /**
   * Region name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_loadbalancer_flavors#region_name DataOvhCloudProjectLoadbalancerFlavors#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_loadbalancer_flavors#region_name DataOvhCloudProjectLoadbalancerFlavors#region_name}
   */
   readonly regionName: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_loadbalancer_flavors#service_name DataOvhCloudProjectLoadbalancerFlavors#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_loadbalancer_flavors#service_name DataOvhCloudProjectLoadbalancerFlavors#service_name}
   */
   readonly serviceName: string;
 }
@@ -107,7 +107,7 @@ export class DataOvhCloudProjectLoadbalancerFlavorsFlavorsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_loadbalancer_flavors ovh_cloud_project_loadbalancer_flavors}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_loadbalancer_flavors ovh_cloud_project_loadbalancer_flavors}
 */
 export class DataOvhCloudProjectLoadbalancerFlavors extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataOvhCloudProjectLoadbalancerFlavors extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOvhCloudProjectLoadbalancerFlavors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhCloudProjectLoadbalancerFlavors to import
-  * @param importFromId The id of the existing DataOvhCloudProjectLoadbalancerFlavors that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_loadbalancer_flavors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhCloudProjectLoadbalancerFlavors that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_loadbalancer_flavors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhCloudProjectLoadbalancerFlavors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataOvhCloudProjectLoadbalancerFlavors extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_loadbalancer_flavors ovh_cloud_project_loadbalancer_flavors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_loadbalancer_flavors ovh_cloud_project_loadbalancer_flavors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataOvhCloudProjectLoadbalancerFlavors extends cdktf.TerraformDataS
       terraformResourceType: 'ovh_cloud_project_loadbalancer_flavors',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

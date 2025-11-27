@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_backends
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_backends
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZenlayercloudZlbBackendsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_backends#id DataZenlayercloudZlbBackends#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_backends#id DataZenlayercloudZlbBackends#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataZenlayercloudZlbBackendsConfig extends cdktf.TerraformMetaA
   /**
   * The ID of the listener that the backends belong to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_backends#listener_id DataZenlayercloudZlbBackends#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_backends#listener_id DataZenlayercloudZlbBackends#listener_id}
   */
   readonly listenerId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_backends#result_output_file DataZenlayercloudZlbBackends#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_backends#result_output_file DataZenlayercloudZlbBackends#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The ID of load balancer that the backends belong to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_backends#zlb_id DataZenlayercloudZlbBackends#zlb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_backends#zlb_id DataZenlayercloudZlbBackends#zlb_id}
   */
   readonly zlbId: string;
 }
@@ -145,7 +145,7 @@ export class DataZenlayercloudZlbBackendsBackendsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_backends zenlayercloud_zlb_backends}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_backends zenlayercloud_zlb_backends}
 */
 export class DataZenlayercloudZlbBackends extends cdktf.TerraformDataSource {
 
@@ -161,7 +161,7 @@ export class DataZenlayercloudZlbBackends extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudZlbBackends resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZlbBackends to import
-  * @param importFromId The id of the existing DataZenlayercloudZlbBackends that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_backends#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZlbBackends that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_backends#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZlbBackends to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -173,7 +173,7 @@ export class DataZenlayercloudZlbBackends extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zlb_backends zenlayercloud_zlb_backends} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zlb_backends zenlayercloud_zlb_backends} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -184,8 +184,8 @@ export class DataZenlayercloudZlbBackends extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zlb_backends',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.11',
-        providerVersionConstraint: '0.2.11'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

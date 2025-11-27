@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IpIpsecProposalConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal#___path___ IpIpsecProposal#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal#___path___ IpIpsecProposal#___path___}
   */
   readonly path?: string;
   /**
   * Allowed algorithms for authorization. SHA (Secure Hash Algorithm) is stronger but slower. MD5 uses a 128-bit key, sha1-160bit key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal#auth_algorithms IpIpsecProposal#auth_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal#auth_algorithms IpIpsecProposal#auth_algorithms}
   */
   readonly authAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal#comment IpIpsecProposal#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal#comment IpIpsecProposal#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal#disabled IpIpsecProposal#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal#disabled IpIpsecProposal#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Allowed algorithms and key lengths to use for SAs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal#enc_algorithms IpIpsecProposal#enc_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal#enc_algorithms IpIpsecProposal#enc_algorithms}
   */
   readonly encAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal#id IpIpsecProposal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal#id IpIpsecProposal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,23 +43,23 @@ export interface IpIpsecProposalConfig extends cdktf.TerraformMetaArguments {
   /**
   * How long to use SA before throwing it out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal#lifetime IpIpsecProposal#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal#lifetime IpIpsecProposal#lifetime}
   */
   readonly lifetime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal#name IpIpsecProposal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal#name IpIpsecProposal#name}
   */
   readonly name: string;
   /**
   * The diffie-Helman group used for Perfect Forward Secrecy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal#pfs_group IpIpsecProposal#pfs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal#pfs_group IpIpsecProposal#pfs_group}
   */
   readonly pfsGroup?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal routeros_ip_ipsec_proposal}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal routeros_ip_ipsec_proposal}
 */
 export class IpIpsecProposal extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class IpIpsecProposal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpIpsecProposal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpIpsecProposal to import
-  * @param importFromId The id of the existing IpIpsecProposal that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpIpsecProposal that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpIpsecProposal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class IpIpsecProposal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_proposal routeros_ip_ipsec_proposal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_ipsec_proposal routeros_ip_ipsec_proposal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class IpIpsecProposal extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_ipsec_proposal',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

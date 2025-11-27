@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VrackIpv6Config extends cdktf.TerraformMetaArguments {
   /**
   * IPv6 CIDR notation (e.g., 2001:41d0::/128)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6#block VrackIpv6#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6#block VrackIpv6#block}
   */
   readonly block: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6#id VrackIpv6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6#id VrackIpv6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface VrackIpv6Config extends cdktf.TerraformMetaArguments {
   /**
   * The internal name of your vrack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6#service_name VrackIpv6#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6#service_name VrackIpv6#service_name}
   */
   readonly serviceName: string;
   /**
   * bridged_subrange block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6#bridged_subrange VrackIpv6#bridged_subrange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6#bridged_subrange VrackIpv6#bridged_subrange}
   */
   readonly bridgedSubrange?: VrackIpv6BridgedSubrange;
 }
@@ -37,7 +37,7 @@ export interface VrackIpv6BridgedSubrange {
   /**
   * Slaac status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6#slaac VrackIpv6#slaac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6#slaac VrackIpv6#slaac}
   */
   readonly slaac: string;
 }
@@ -128,7 +128,7 @@ export class VrackIpv6BridgedSubrangeOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6 ovh_vrack_ipv6}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6 ovh_vrack_ipv6}
 */
 export class VrackIpv6 extends cdktf.TerraformResource {
 
@@ -144,7 +144,7 @@ export class VrackIpv6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VrackIpv6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrackIpv6 to import
-  * @param importFromId The id of the existing VrackIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrackIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrackIpv6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -156,7 +156,7 @@ export class VrackIpv6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6 ovh_vrack_ipv6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6 ovh_vrack_ipv6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -167,8 +167,8 @@ export class VrackIpv6 extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_vrack_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

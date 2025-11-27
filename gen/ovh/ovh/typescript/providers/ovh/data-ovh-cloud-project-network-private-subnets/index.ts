@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_network_private_subnets
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_network_private_subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOvhCloudProjectNetworkPrivateSubnetsConfig extends cdktf.Te
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_network_private_subnets#network_id DataOvhCloudProjectNetworkPrivateSubnets#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_network_private_subnets#network_id DataOvhCloudProjectNetworkPrivateSubnets#network_id}
   */
   readonly networkId: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_network_private_subnets#service_name DataOvhCloudProjectNetworkPrivateSubnets#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_network_private_subnets#service_name DataOvhCloudProjectNetworkPrivateSubnets#service_name}
   */
   readonly serviceName: string;
 }
@@ -213,7 +213,7 @@ export class DataOvhCloudProjectNetworkPrivateSubnetsSubnetsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_network_private_subnets ovh_cloud_project_network_private_subnets}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_network_private_subnets ovh_cloud_project_network_private_subnets}
 */
 export class DataOvhCloudProjectNetworkPrivateSubnets extends cdktf.TerraformDataSource {
 
@@ -229,7 +229,7 @@ export class DataOvhCloudProjectNetworkPrivateSubnets extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataOvhCloudProjectNetworkPrivateSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhCloudProjectNetworkPrivateSubnets to import
-  * @param importFromId The id of the existing DataOvhCloudProjectNetworkPrivateSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_network_private_subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhCloudProjectNetworkPrivateSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_network_private_subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhCloudProjectNetworkPrivateSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class DataOvhCloudProjectNetworkPrivateSubnets extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_network_private_subnets ovh_cloud_project_network_private_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_network_private_subnets ovh_cloud_project_network_private_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class DataOvhCloudProjectNetworkPrivateSubnets extends cdktf.TerraformDat
       terraformResourceType: 'ovh_cloud_project_network_private_subnets',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

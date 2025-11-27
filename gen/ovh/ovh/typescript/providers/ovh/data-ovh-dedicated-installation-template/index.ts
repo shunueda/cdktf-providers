@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_installation_template
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_installation_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOvhDedicatedInstallationTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_installation_template#id DataOvhDedicatedInstallationTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_installation_template#id DataOvhDedicatedInstallationTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataOvhDedicatedInstallationTemplateConfig extends cdktf.Terraf
   /**
   * Template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_installation_template#template_name DataOvhDedicatedInstallationTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_installation_template#template_name DataOvhDedicatedInstallationTemplate#template_name}
   */
   readonly templateName: string;
 }
@@ -637,7 +637,7 @@ export class DataOvhDedicatedInstallationTemplateProjectList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_installation_template ovh_dedicated_installation_template}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_installation_template ovh_dedicated_installation_template}
 */
 export class DataOvhDedicatedInstallationTemplate extends cdktf.TerraformDataSource {
 
@@ -653,7 +653,7 @@ export class DataOvhDedicatedInstallationTemplate extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataOvhDedicatedInstallationTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhDedicatedInstallationTemplate to import
-  * @param importFromId The id of the existing DataOvhDedicatedInstallationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_installation_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhDedicatedInstallationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_installation_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhDedicatedInstallationTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -665,7 +665,7 @@ export class DataOvhDedicatedInstallationTemplate extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_installation_template ovh_dedicated_installation_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_installation_template ovh_dedicated_installation_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -676,8 +676,8 @@ export class DataOvhDedicatedInstallationTemplate extends cdktf.TerraformDataSou
       terraformResourceType: 'ovh_dedicated_installation_template',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

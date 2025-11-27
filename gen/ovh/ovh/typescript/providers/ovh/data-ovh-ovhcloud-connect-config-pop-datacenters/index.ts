@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOvhOvhcloudConnectConfigPopDatacentersConfig extends cdktf.
   /**
   * ID of the Pop Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters#config_pop_id DataOvhOvhcloudConnectConfigPopDatacenters#config_pop_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters#config_pop_id DataOvhOvhcloudConnectConfigPopDatacenters#config_pop_id}
   */
   readonly configPopId: number;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters#service_name DataOvhOvhcloudConnectConfigPopDatacenters#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters#service_name DataOvhOvhcloudConnectConfigPopDatacenters#service_name}
   */
   readonly serviceName: string;
 }
@@ -24,7 +24,7 @@ export interface DataOvhOvhcloudConnectConfigPopDatacentersDatacenterConfigs {
   /**
   * Datacenter ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters#datacenter_id DataOvhOvhcloudConnectConfigPopDatacenters#datacenter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters#datacenter_id DataOvhOvhcloudConnectConfigPopDatacenters#datacenter_id}
   */
   readonly datacenterId: number;
 }
@@ -147,7 +147,7 @@ export class DataOvhOvhcloudConnectConfigPopDatacentersDatacenterConfigsList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters ovh_ovhcloud_connect_config_pop_datacenters}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters ovh_ovhcloud_connect_config_pop_datacenters}
 */
 export class DataOvhOvhcloudConnectConfigPopDatacenters extends cdktf.TerraformDataSource {
 
@@ -163,7 +163,7 @@ export class DataOvhOvhcloudConnectConfigPopDatacenters extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOvhOvhcloudConnectConfigPopDatacenters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhOvhcloudConnectConfigPopDatacenters to import
-  * @param importFromId The id of the existing DataOvhOvhcloudConnectConfigPopDatacenters that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhOvhcloudConnectConfigPopDatacenters that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhOvhcloudConnectConfigPopDatacenters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class DataOvhOvhcloudConnectConfigPopDatacenters extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters ovh_ovhcloud_connect_config_pop_datacenters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_config_pop_datacenters ovh_ovhcloud_connect_config_pop_datacenters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class DataOvhOvhcloudConnectConfigPopDatacenters extends cdktf.TerraformD
       terraformResourceType: 'ovh_ovhcloud_connect_config_pop_datacenters',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

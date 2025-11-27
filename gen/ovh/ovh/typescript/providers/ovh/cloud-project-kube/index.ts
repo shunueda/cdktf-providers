@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface CloudProjectKubeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#id CloudProjectKube#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#id CloudProjectKube#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#kube_proxy_mode CloudProjectKube#kube_proxy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#kube_proxy_mode CloudProjectKube#kube_proxy_mode}
   */
   readonly kubeProxyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#load_balancers_subnet_id CloudProjectKube#load_balancers_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#load_balancers_subnet_id CloudProjectKube#load_balancers_subnet_id}
   */
   readonly loadBalancersSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#name CloudProjectKube#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#name CloudProjectKube#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#nodes_subnet_id CloudProjectKube#nodes_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#nodes_subnet_id CloudProjectKube#nodes_subnet_id}
   */
   readonly nodesSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#plan CloudProjectKube#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#plan CloudProjectKube#plan}
   */
   readonly plan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#private_network_id CloudProjectKube#private_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#private_network_id CloudProjectKube#private_network_id}
   */
   readonly privateNetworkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#region CloudProjectKube#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#region CloudProjectKube#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#service_name CloudProjectKube#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#service_name CloudProjectKube#service_name}
   */
   readonly serviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#update_policy CloudProjectKube#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#update_policy CloudProjectKube#update_policy}
   */
   readonly updatePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#version CloudProjectKube#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#version CloudProjectKube#version}
   */
   readonly version?: string;
   /**
   * customization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#customization CloudProjectKube#customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#customization CloudProjectKube#customization}
   */
   readonly customization?: CloudProjectKubeCustomization[] | cdktf.IResolvable;
   /**
   * customization_apiserver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#customization_apiserver CloudProjectKube#customization_apiserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#customization_apiserver CloudProjectKube#customization_apiserver}
   */
   readonly customizationApiserver?: CloudProjectKubeCustomizationApiserverA[] | cdktf.IResolvable;
   /**
   * customization_kube_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#customization_kube_proxy CloudProjectKube#customization_kube_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#customization_kube_proxy CloudProjectKube#customization_kube_proxy}
   */
   readonly customizationKubeProxy?: CloudProjectKubeCustomizationKubeProxy;
   /**
   * private_network_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#private_network_configuration CloudProjectKube#private_network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#private_network_configuration CloudProjectKube#private_network_configuration}
   */
   readonly privateNetworkConfiguration?: CloudProjectKubePrivateNetworkConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#timeouts CloudProjectKube#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#timeouts CloudProjectKube#timeouts}
   */
   readonly timeouts?: CloudProjectKubeTimeouts;
 }
@@ -177,11 +177,11 @@ export class CloudProjectKubeKubeconfigAttributesList extends cdktf.ComplexList 
 }
 export interface CloudProjectKubeCustomizationApiserverAdmissionplugins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#disabled CloudProjectKube#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#disabled CloudProjectKube#disabled}
   */
   readonly disabled?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#enabled CloudProjectKube#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#enabled CloudProjectKube#enabled}
   */
   readonly enabled?: string[];
 }
@@ -328,7 +328,7 @@ export interface CloudProjectKubeCustomizationApiserver {
   /**
   * admissionplugins block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#admissionplugins CloudProjectKube#admissionplugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#admissionplugins CloudProjectKube#admissionplugins}
   */
   readonly admissionplugins?: CloudProjectKubeCustomizationApiserverAdmissionplugins[] | cdktf.IResolvable;
 }
@@ -446,7 +446,7 @@ export interface CloudProjectKubeCustomization {
   /**
   * apiserver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#apiserver CloudProjectKube#apiserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#apiserver CloudProjectKube#apiserver}
   */
   readonly apiserver?: CloudProjectKubeCustomizationApiserver[] | cdktf.IResolvable;
 }
@@ -562,11 +562,11 @@ export class CloudProjectKubeCustomizationList extends cdktf.ComplexList {
 }
 export interface CloudProjectKubeCustomizationApiserverAdmissionpluginsA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#disabled CloudProjectKube#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#disabled CloudProjectKube#disabled}
   */
   readonly disabled?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#enabled CloudProjectKube#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#enabled CloudProjectKube#enabled}
   */
   readonly enabled?: string[];
 }
@@ -713,7 +713,7 @@ export interface CloudProjectKubeCustomizationApiserverA {
   /**
   * admissionplugins block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#admissionplugins CloudProjectKube#admissionplugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#admissionplugins CloudProjectKube#admissionplugins}
   */
   readonly admissionplugins?: CloudProjectKubeCustomizationApiserverAdmissionpluginsA[] | cdktf.IResolvable;
 }
@@ -829,11 +829,11 @@ export class CloudProjectKubeCustomizationApiserverAList extends cdktf.ComplexLi
 }
 export interface CloudProjectKubeCustomizationKubeProxyIptables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#min_sync_period CloudProjectKube#min_sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#min_sync_period CloudProjectKube#min_sync_period}
   */
   readonly minSyncPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#sync_period CloudProjectKube#sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#sync_period CloudProjectKube#sync_period}
   */
   readonly syncPeriod?: string;
 }
@@ -946,27 +946,27 @@ export class CloudProjectKubeCustomizationKubeProxyIptablesOutputReference exten
 }
 export interface CloudProjectKubeCustomizationKubeProxyIpvs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#min_sync_period CloudProjectKube#min_sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#min_sync_period CloudProjectKube#min_sync_period}
   */
   readonly minSyncPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#scheduler CloudProjectKube#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#scheduler CloudProjectKube#scheduler}
   */
   readonly scheduler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#sync_period CloudProjectKube#sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#sync_period CloudProjectKube#sync_period}
   */
   readonly syncPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#tcp_fin_timeout CloudProjectKube#tcp_fin_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#tcp_fin_timeout CloudProjectKube#tcp_fin_timeout}
   */
   readonly tcpFinTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#tcp_timeout CloudProjectKube#tcp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#tcp_timeout CloudProjectKube#tcp_timeout}
   */
   readonly tcpTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#udp_timeout CloudProjectKube#udp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#udp_timeout CloudProjectKube#udp_timeout}
   */
   readonly udpTimeout?: string;
 }
@@ -1197,13 +1197,13 @@ export interface CloudProjectKubeCustomizationKubeProxy {
   /**
   * iptables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#iptables CloudProjectKube#iptables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#iptables CloudProjectKube#iptables}
   */
   readonly iptables?: CloudProjectKubeCustomizationKubeProxyIptables;
   /**
   * ipvs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#ipvs CloudProjectKube#ipvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#ipvs CloudProjectKube#ipvs}
   */
   readonly ipvs?: CloudProjectKubeCustomizationKubeProxyIpvs;
 }
@@ -1318,13 +1318,13 @@ export interface CloudProjectKubePrivateNetworkConfiguration {
   /**
   * If defined, all egress traffic will be routed towards this IP address, which should belong to the private network. Empty string means disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#default_vrack_gateway CloudProjectKube#default_vrack_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#default_vrack_gateway CloudProjectKube#default_vrack_gateway}
   */
   readonly defaultVrackGateway: string;
   /**
   * Defines whether routing should default to using the nodes' private interface, instead of their public interface. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#private_network_routing_as_default CloudProjectKube#private_network_routing_as_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#private_network_routing_as_default CloudProjectKube#private_network_routing_as_default}
   */
   readonly privateNetworkRoutingAsDefault: boolean | cdktf.IResolvable;
 }
@@ -1431,23 +1431,23 @@ export class CloudProjectKubePrivateNetworkConfigurationOutputReference extends 
 }
 export interface CloudProjectKubeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#create CloudProjectKube#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#create CloudProjectKube#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#default CloudProjectKube#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#default CloudProjectKube#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#delete CloudProjectKube#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#delete CloudProjectKube#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#read CloudProjectKube#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#read CloudProjectKube#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#update CloudProjectKube#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#update CloudProjectKube#update}
   */
   readonly update?: string;
 }
@@ -1657,7 +1657,7 @@ export class CloudProjectKubeTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube ovh_cloud_project_kube}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube ovh_cloud_project_kube}
 */
 export class CloudProjectKube extends cdktf.TerraformResource {
 
@@ -1673,7 +1673,7 @@ export class CloudProjectKube extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectKube resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectKube to import
-  * @param importFromId The id of the existing CloudProjectKube that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectKube that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectKube to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1685,7 +1685,7 @@ export class CloudProjectKube extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_kube ovh_cloud_project_kube} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_kube ovh_cloud_project_kube} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1696,8 +1696,8 @@ export class CloudProjectKube extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_kube',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

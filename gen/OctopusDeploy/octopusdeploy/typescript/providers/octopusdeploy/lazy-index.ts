@@ -45,6 +45,9 @@ Object.defineProperty(exports, 'nugetFeed', { get: function () { return require(
 Object.defineProperty(exports, 'ociRegistryFeed', { get: function () { return require('./oci-registry-feed'); } });
 Object.defineProperty(exports, 'offlinePackageDropDeploymentTarget', { get: function () { return require('./offline-package-drop-deployment-target'); } });
 Object.defineProperty(exports, 'parentEnvironment', { get: function () { return require('./parent-environment'); } });
+Object.defineProperty(exports, 'platformHubGitCredential', { get: function () { return require('./platform-hub-git-credential'); } });
+Object.defineProperty(exports, 'platformHubVersionControlAnonymousSettings', { get: function () { return require('./platform-hub-version-control-anonymous-settings'); } });
+Object.defineProperty(exports, 'platformHubVersionControlUsernamePasswordSettings', { get: function () { return require('./platform-hub-version-control-username-password-settings'); } });
 Object.defineProperty(exports, 'pollingSubscriptionId', { get: function () { return require('./polling-subscription-id'); } });
 Object.defineProperty(exports, 'pollingTentacleDeploymentTarget', { get: function () { return require('./polling-tentacle-deployment-target'); } });
 Object.defineProperty(exports, 'process', { get: function () { return require('./process'); } });

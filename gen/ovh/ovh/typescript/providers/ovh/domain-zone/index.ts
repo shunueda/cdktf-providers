@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DomainZoneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#id DomainZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#id DomainZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DomainZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ovh Subsidiary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#ovh_subsidiary DomainZone#ovh_subsidiary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#ovh_subsidiary DomainZone#ovh_subsidiary}
   */
   readonly ovhSubsidiary?: string;
   /**
   * Ovh payment mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#payment_mean DomainZone#payment_mean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#payment_mean DomainZone#payment_mean}
   */
   readonly paymentMean?: string;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#order DomainZone#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#order DomainZone#order}
   */
   readonly order?: DomainZoneOrder[] | cdktf.IResolvable;
   /**
   * plan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#plan DomainZone#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#plan DomainZone#plan}
   */
   readonly plan?: DomainZonePlan;
   /**
   * plan_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#plan_option DomainZone#plan_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#plan_option DomainZone#plan_option}
   */
   readonly planOption?: DomainZonePlanOption[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#timeouts DomainZone#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#timeouts DomainZone#timeouts}
   */
   readonly timeouts?: DomainZoneTimeouts;
 }
@@ -247,13 +247,13 @@ export interface DomainZonePlanConfiguration {
   /**
   * Identifier of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#label DomainZone#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#label DomainZone#label}
   */
   readonly label: string;
   /**
   * Path to the resource in API.OVH.COM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#value DomainZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#value DomainZone#value}
   */
   readonly value: string;
 }
@@ -394,31 +394,31 @@ export interface DomainZonePlan {
   /**
   * Catalog name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#catalog_name DomainZone#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#catalog_name DomainZone#catalog_name}
   */
   readonly catalogName?: string;
   /**
   * duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#duration DomainZone#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#duration DomainZone#duration}
   */
   readonly duration: string;
   /**
   * Plan code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#plan_code DomainZone#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#plan_code DomainZone#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing model identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#pricing_mode DomainZone#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#pricing_mode DomainZone#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#configuration DomainZone#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#configuration DomainZone#configuration}
   */
   readonly configuration?: DomainZonePlanConfiguration[] | cdktf.IResolvable;
 }
@@ -611,13 +611,13 @@ export interface DomainZonePlanOptionConfiguration {
   /**
   * Identifier of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#label DomainZone#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#label DomainZone#label}
   */
   readonly label: string;
   /**
   * Path to the resource in API.OVH.COM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#value DomainZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#value DomainZone#value}
   */
   readonly value: string;
 }
@@ -758,31 +758,31 @@ export interface DomainZonePlanOption {
   /**
   * Catalog name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#catalog_name DomainZone#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#catalog_name DomainZone#catalog_name}
   */
   readonly catalogName?: string;
   /**
   * duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#duration DomainZone#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#duration DomainZone#duration}
   */
   readonly duration: string;
   /**
   * Plan code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#plan_code DomainZone#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#plan_code DomainZone#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing model identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#pricing_mode DomainZone#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#pricing_mode DomainZone#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#configuration DomainZone#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#configuration DomainZone#configuration}
   */
   readonly configuration?: DomainZonePlanOptionConfiguration[] | cdktf.IResolvable;
 }
@@ -1005,7 +1005,7 @@ export class DomainZonePlanOptionList extends cdktf.ComplexList {
 }
 export interface DomainZoneTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#create DomainZone#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#create DomainZone#create}
   */
   readonly create?: string;
 }
@@ -1099,7 +1099,7 @@ export class DomainZoneTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone ovh_domain_zone}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone ovh_domain_zone}
 */
 export class DomainZone extends cdktf.TerraformResource {
 
@@ -1115,7 +1115,7 @@ export class DomainZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainZone to import
-  * @param importFromId The id of the existing DomainZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1127,7 +1127,7 @@ export class DomainZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_zone ovh_domain_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_zone ovh_domain_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1138,8 +1138,8 @@ export class DomainZone extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_domain_zone',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

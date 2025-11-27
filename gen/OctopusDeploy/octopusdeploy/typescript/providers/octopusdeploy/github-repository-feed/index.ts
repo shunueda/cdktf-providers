@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/github_repository_feed
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/github_repository_feed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface GithubRepositoryFeedConfig extends cdktf.TerraformMetaArguments
   /**
   * The number of times a deployment should attempt to download a package from this feed before failing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/github_repository_feed#download_attempts GithubRepositoryFeed#download_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/github_repository_feed#download_attempts GithubRepositoryFeed#download_attempts}
   */
   readonly downloadAttempts?: number;
   /**
   * The number of seconds to apply as a linear back off between download attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/github_repository_feed#download_retry_backoff_seconds GithubRepositoryFeed#download_retry_backoff_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/github_repository_feed#download_retry_backoff_seconds GithubRepositoryFeed#download_retry_backoff_seconds}
   */
   readonly downloadRetryBackoffSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/github_repository_feed#feed_uri GithubRepositoryFeed#feed_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/github_repository_feed#feed_uri GithubRepositoryFeed#feed_uri}
   */
   readonly feedUri: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/github_repository_feed#name GithubRepositoryFeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/github_repository_feed#name GithubRepositoryFeed#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/github_repository_feed#package_acquisition_location_options GithubRepositoryFeed#package_acquisition_location_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/github_repository_feed#package_acquisition_location_options GithubRepositoryFeed#package_acquisition_location_options}
   */
   readonly packageAcquisitionLocationOptions?: string[];
   /**
   * The password associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/github_repository_feed#password GithubRepositoryFeed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/github_repository_feed#password GithubRepositoryFeed#password}
   */
   readonly password?: string;
   /**
   * The space ID associated with this github repository feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/github_repository_feed#space_id GithubRepositoryFeed#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/github_repository_feed#space_id GithubRepositoryFeed#space_id}
   */
   readonly spaceId?: string;
   /**
   * The username associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/github_repository_feed#username GithubRepositoryFeed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/github_repository_feed#username GithubRepositoryFeed#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/github_repository_feed octopusdeploy_github_repository_feed}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/github_repository_feed octopusdeploy_github_repository_feed}
 */
 export class GithubRepositoryFeed extends cdktf.TerraformResource {
 
@@ -70,7 +70,7 @@ export class GithubRepositoryFeed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GithubRepositoryFeed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GithubRepositoryFeed to import
-  * @param importFromId The id of the existing GithubRepositoryFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/github_repository_feed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GithubRepositoryFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/github_repository_feed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GithubRepositoryFeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -82,7 +82,7 @@ export class GithubRepositoryFeed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/github_repository_feed octopusdeploy_github_repository_feed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/github_repository_feed octopusdeploy_github_repository_feed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -93,8 +93,8 @@ export class GithubRepositoryFeed extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_github_repository_feed',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

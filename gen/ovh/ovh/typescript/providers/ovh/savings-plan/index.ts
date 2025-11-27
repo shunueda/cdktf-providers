@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/savings_plan
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/savings_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SavingsPlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether Savings Plan should be renewed at the end of the period (defaults to false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/savings_plan#auto_renewal SavingsPlan#auto_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/savings_plan#auto_renewal SavingsPlan#auto_renewal}
   */
   readonly autoRenewal?: boolean | cdktf.IResolvable;
   /**
   * Custom display name, used in invoices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/savings_plan#display_name SavingsPlan#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/savings_plan#display_name SavingsPlan#display_name}
   */
   readonly displayName: string;
   /**
   * Savings Plan flavor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/savings_plan#flavor SavingsPlan#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/savings_plan#flavor SavingsPlan#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/savings_plan#id SavingsPlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/savings_plan#id SavingsPlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface SavingsPlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Periodicity of the Savings Plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/savings_plan#period SavingsPlan#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/savings_plan#period SavingsPlan#period}
   */
   readonly period: string;
   /**
   * ID of the public cloud project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/savings_plan#service_name SavingsPlan#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/savings_plan#service_name SavingsPlan#service_name}
   */
   readonly serviceName: string;
   /**
   * Size of the Savings Plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/savings_plan#size SavingsPlan#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/savings_plan#size SavingsPlan#size}
   */
   readonly size: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/savings_plan ovh_savings_plan}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/savings_plan ovh_savings_plan}
 */
 export class SavingsPlan extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class SavingsPlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SavingsPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SavingsPlan to import
-  * @param importFromId The id of the existing SavingsPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/savings_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SavingsPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/savings_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SavingsPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class SavingsPlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/savings_plan ovh_savings_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/savings_plan ovh_savings_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class SavingsPlan extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_savings_plan',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

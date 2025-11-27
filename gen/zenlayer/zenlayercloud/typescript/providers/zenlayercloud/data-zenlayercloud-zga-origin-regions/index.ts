@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zga_origin_regions
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zga_origin_regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZenlayercloudZgaOriginRegionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zga_origin_regions#id DataZenlayercloudZgaOriginRegions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zga_origin_regions#id DataZenlayercloudZgaOriginRegions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataZenlayercloudZgaOriginRegionsConfig extends cdktf.Terraform
   /**
   * A regex string to apply to the origin region list returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zga_origin_regions#name_regex DataZenlayercloudZgaOriginRegions#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zga_origin_regions#name_regex DataZenlayercloudZgaOriginRegions#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zga_origin_regions#result_output_file DataZenlayercloudZgaOriginRegions#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zga_origin_regions#result_output_file DataZenlayercloudZgaOriginRegions#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -109,7 +109,7 @@ export class DataZenlayercloudZgaOriginRegionsRegionsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zga_origin_regions zenlayercloud_zga_origin_regions}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zga_origin_regions zenlayercloud_zga_origin_regions}
 */
 export class DataZenlayercloudZgaOriginRegions extends cdktf.TerraformDataSource {
 
@@ -125,7 +125,7 @@ export class DataZenlayercloudZgaOriginRegions extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataZenlayercloudZgaOriginRegions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZgaOriginRegions to import
-  * @param importFromId The id of the existing DataZenlayercloudZgaOriginRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zga_origin_regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZgaOriginRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zga_origin_regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZgaOriginRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class DataZenlayercloudZgaOriginRegions extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/data-sources/zga_origin_regions zenlayercloud_zga_origin_regions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zga_origin_regions zenlayercloud_zga_origin_regions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class DataZenlayercloudZgaOriginRegions extends cdktf.TerraformDataSource
       terraformResourceType: 'zenlayercloud_zga_origin_regions',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.11',
-        providerVersionConstraint: '0.2.11'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

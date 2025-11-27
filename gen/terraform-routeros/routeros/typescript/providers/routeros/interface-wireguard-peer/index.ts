@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface InterfaceWireguardPeerConfig extends cdktf.TerraformMetaArgumen
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#___path___ InterfaceWireguardPeer#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#___path___ InterfaceWireguardPeer#___path___}
   */
   readonly path?: string;
   /**
   * List of IP (v4 or v6) addresses with CIDR masks from which incoming traffic for this peer is allowed and to which outgoing traffic for this peer is directed. The catch-all 0.0.0.0/0 may be specified for matching all IPv4 addresses, and ::/0 may be specified for matching all IPv6 addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#allowed_address InterfaceWireguardPeer#allowed_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#allowed_address InterfaceWireguardPeer#allowed_address}
   */
   readonly allowedAddress: string[];
   /**
   * When imported using a qr code for a client (for example, a phone), then this address for the wg interface is set on that device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#client_address InterfaceWireguardPeer#client_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#client_address InterfaceWireguardPeer#client_address}
   */
   readonly clientAddress?: string;
   /**
   * Specify when using WireGuard Server as a VPN gateway for peer traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#client_dns InterfaceWireguardPeer#client_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#client_dns InterfaceWireguardPeer#client_dns}
   */
   readonly clientDns?: string;
   /**
   * The IP address and port number of the WireGuard Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#client_endpoint InterfaceWireguardPeer#client_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#client_endpoint InterfaceWireguardPeer#client_endpoint}
   */
   readonly clientEndpoint?: string;
   /**
   * Same as persistent-keepalive but from peer side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#client_keepalive InterfaceWireguardPeer#client_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#client_keepalive InterfaceWireguardPeer#client_keepalive}
   */
   readonly clientKeepalive?: string;
   /**
   * The local port upon which this WireGuard tunnel will listen for incoming traffic from peers, and the port from which it will source outgoing packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#client_listen_port InterfaceWireguardPeer#client_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#client_listen_port InterfaceWireguardPeer#client_listen_port}
   */
   readonly clientListenPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#comment InterfaceWireguardPeer#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#comment InterfaceWireguardPeer#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#disabled InterfaceWireguardPeer#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#disabled InterfaceWireguardPeer#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * An endpoint IP or hostname can be left blank to allow remote connection from any address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#endpoint_address InterfaceWireguardPeer#endpoint_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#endpoint_address InterfaceWireguardPeer#endpoint_address}
   */
   readonly endpointAddress?: string;
   /**
   * An endpoint port can be left blank to allow remote connection from any port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#endpoint_port InterfaceWireguardPeer#endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#endpoint_port InterfaceWireguardPeer#endpoint_port}
   */
   readonly endpointPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#id InterfaceWireguardPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#id InterfaceWireguardPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,49 +79,49 @@ export interface InterfaceWireguardPeerConfig extends cdktf.TerraformMetaArgumen
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#interface InterfaceWireguardPeer#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#interface InterfaceWireguardPeer#interface}
   */
   readonly interface: string;
   /**
   * Specifies if peer is intended to be connection initiator or only responder. Should be used on WireGuard devices that are used as `servers` for other devices as clients to connect to. Otherwise router will all repeatedly try to connect `endpoint-address` or `current-endpoint-address` causing unnecessary system logs to be written.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#is_responder InterfaceWireguardPeer#is_responder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#is_responder InterfaceWireguardPeer#is_responder}
   */
   readonly isResponder?: boolean | cdktf.IResolvable;
   /**
   * Name of the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#name InterfaceWireguardPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#name InterfaceWireguardPeer#name}
   */
   readonly name?: string;
   /**
   * A seconds interval, between 1 and 65535 inclusive, of how often to send an authenticated empty packet to the peer for the purpose of keeping a stateful firewall or NAT mapping valid persistently. For example, if the interface very rarely sends traffic, but it might at anytime receive traffic from a peer, and it is behind NAT, the interface might benefit from having a persistent keepalive interval of 25 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#persistent_keepalive InterfaceWireguardPeer#persistent_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#persistent_keepalive InterfaceWireguardPeer#persistent_keepalive}
   */
   readonly persistentKeepalive?: string;
   /**
   * A **base64** preshared key. Optional, and may be omitted. This option adds an additional layer of symmetric-key cryptography to be mixed into the already existing public-key cryptography, for post-quantum resistance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#preshared_key InterfaceWireguardPeer#preshared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#preshared_key InterfaceWireguardPeer#preshared_key}
   */
   readonly presharedKey?: string;
   /**
   * A base64 private key. If not specified, it will be automatically generated upon interface creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#private_key InterfaceWireguardPeer#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#private_key InterfaceWireguardPeer#private_key}
   */
   readonly privateKey?: string;
   /**
   * The remote peer's calculated public key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#public_key InterfaceWireguardPeer#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#public_key InterfaceWireguardPeer#public_key}
   */
   readonly publicKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer routeros_interface_wireguard_peer}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer routeros_interface_wireguard_peer}
 */
 export class InterfaceWireguardPeer extends cdktf.TerraformResource {
 
@@ -137,7 +137,7 @@ export class InterfaceWireguardPeer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceWireguardPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceWireguardPeer to import
-  * @param importFromId The id of the existing InterfaceWireguardPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceWireguardPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceWireguardPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class InterfaceWireguardPeer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireguard_peer routeros_interface_wireguard_peer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_wireguard_peer routeros_interface_wireguard_peer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class InterfaceWireguardPeer extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_wireguard_peer',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

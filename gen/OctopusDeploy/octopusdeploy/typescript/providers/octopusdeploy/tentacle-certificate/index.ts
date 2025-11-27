@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tentacle_certificate
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/tentacle_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface TentacleCertificateConfig extends cdktf.TerraformMetaArguments 
   /**
   * Optional map of dependencies that when modified will trigger a re-creation of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tentacle_certificate#dependencies TentacleCertificate#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/tentacle_certificate#dependencies TentacleCertificate#dependencies}
   */
   readonly dependencies?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tentacle_certificate octopusdeploy_tentacle_certificate}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/tentacle_certificate octopusdeploy_tentacle_certificate}
 */
 export class TentacleCertificate extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class TentacleCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TentacleCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TentacleCertificate to import
-  * @param importFromId The id of the existing TentacleCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tentacle_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TentacleCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/tentacle_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TentacleCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class TentacleCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tentacle_certificate octopusdeploy_tentacle_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/tentacle_certificate octopusdeploy_tentacle_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class TentacleCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_tentacle_certificate',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

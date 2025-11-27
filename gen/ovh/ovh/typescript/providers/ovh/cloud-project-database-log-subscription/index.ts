@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CloudProjectDatabaseLogSubscriptionConfig extends cdktf.Terrafo
   /**
   * Id of the database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription#cluster_id CloudProjectDatabaseLogSubscription#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription#cluster_id CloudProjectDatabaseLogSubscription#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Name of the engine of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription#engine CloudProjectDatabaseLogSubscription#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription#engine CloudProjectDatabaseLogSubscription#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription#id CloudProjectDatabaseLogSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription#id CloudProjectDatabaseLogSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface CloudProjectDatabaseLogSubscriptionConfig extends cdktf.Terrafo
   /**
   * Log kind name of this subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription#kind CloudProjectDatabaseLogSubscription#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription#kind CloudProjectDatabaseLogSubscription#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription#service_name CloudProjectDatabaseLogSubscription#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription#service_name CloudProjectDatabaseLogSubscription#service_name}
   */
   readonly serviceName: string;
   /**
   * Id of the target Log data platform stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription#stream_id CloudProjectDatabaseLogSubscription#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription#stream_id CloudProjectDatabaseLogSubscription#stream_id}
   */
   readonly streamId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription#timeouts CloudProjectDatabaseLogSubscription#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription#timeouts CloudProjectDatabaseLogSubscription#timeouts}
   */
   readonly timeouts?: CloudProjectDatabaseLogSubscriptionTimeouts;
 }
 export interface CloudProjectDatabaseLogSubscriptionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription#create CloudProjectDatabaseLogSubscription#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription#create CloudProjectDatabaseLogSubscription#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription#delete CloudProjectDatabaseLogSubscription#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription#delete CloudProjectDatabaseLogSubscription#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription#update CloudProjectDatabaseLogSubscription#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription#update CloudProjectDatabaseLogSubscription#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class CloudProjectDatabaseLogSubscriptionTimeoutsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription ovh_cloud_project_database_log_subscription}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription ovh_cloud_project_database_log_subscription}
 */
 export class CloudProjectDatabaseLogSubscription extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class CloudProjectDatabaseLogSubscription extends cdktf.TerraformResource
   * Generates CDKTF code for importing a CloudProjectDatabaseLogSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectDatabaseLogSubscription to import
-  * @param importFromId The id of the existing CloudProjectDatabaseLogSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectDatabaseLogSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectDatabaseLogSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class CloudProjectDatabaseLogSubscription extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_log_subscription ovh_cloud_project_database_log_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_log_subscription ovh_cloud_project_database_log_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class CloudProjectDatabaseLogSubscription extends cdktf.TerraformResource
       terraformResourceType: 'ovh_cloud_project_database_log_subscription',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

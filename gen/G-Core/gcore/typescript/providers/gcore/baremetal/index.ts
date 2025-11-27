@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal
+// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface BaremetalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Parameters for the application template from the marketplace. This could include parameters required for app setup. Example: {'shadowsocks_method': 'chacha20-ietf-poly1305', 'shadowsocks_password': '123'}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#app_config Baremetal#app_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#app_config Baremetal#app_config}
   */
   readonly appConfig?: { [key: string]: string };
   /**
   * The ID of the application template to use. Provide either 'apptemplate_id' or 'image_id', but not both
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#apptemplate_id Baremetal#apptemplate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#apptemplate_id Baremetal#apptemplate_id}
   */
   readonly apptemplateId?: string;
   /**
   * The ID of the flavor (type of server configuration). This field is required. Example: 'bm1-hf-medium-4x1nic'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#flavor_id Baremetal#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#flavor_id Baremetal#flavor_id}
   */
   readonly flavorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#id Baremetal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#id Baremetal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,103 +35,103 @@ export interface BaremetalConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the image to use. The image will be used to provision the bare metal server. Provide either 'image_id' or 'apptemplate_id', but not both
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#image_id Baremetal#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#image_id Baremetal#image_id}
   */
   readonly imageId?: string;
   /**
   * The name of the SSH keypair to use for the baremetal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#keypair_name Baremetal#keypair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#keypair_name Baremetal#keypair_name}
   */
   readonly keypairName?: string;
   /**
   * The date and time when the baremetal server was last updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#last_updated Baremetal#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#last_updated Baremetal#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * A map of metadata items. Key-value pairs for instance metadata. Example: {'environment': 'production', 'owner': 'user'}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#metadata_map Baremetal#metadata_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#metadata_map Baremetal#metadata_map}
   */
   readonly metadataMap?: { [key: string]: string };
   /**
   * The name of the baremetal server. If not provided, it will be generated automatically. Example: 'bm-server-01'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#name Baremetal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#name Baremetal#name}
   */
   readonly name?: string;
   /**
   * The template used to generate server names. You can use forms 'ip_octets', 'two_ip_octets', 'one_ip_octet'. Example: 'server-${ip_octets}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#name_template Baremetal#name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#name_template Baremetal#name_template}
   */
   readonly nameTemplate?: string;
   /**
   * Deprecated. List of baremetal names which will be changed by template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#name_templates Baremetal#name_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#name_templates Baremetal#name_templates}
   */
   readonly nameTemplates?: string[];
   /**
   * The password for accessing the baremetal server. This parameter is used to set a password for the 'Admin' user on a Windows instance, a default user or a new user on a Linux instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#password Baremetal#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#password Baremetal#password}
   */
   readonly password?: string;
   /**
   * Project ID, only one of project_id or project_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#project_id Baremetal#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#project_id Baremetal#project_id}
   */
   readonly projectId?: number;
   /**
   * Project name, only one of project_id or project_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#project_name Baremetal#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#project_name Baremetal#project_name}
   */
   readonly projectName?: string;
   /**
   * Region ID, only one of region_id or region_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#region_id Baremetal#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#region_id Baremetal#region_id}
   */
   readonly regionId?: number;
   /**
   * Region name, only one of region_id or region_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#region_name Baremetal#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#region_name Baremetal#region_name}
   */
   readonly regionName?: string;
   /**
   * User data string in base64 format. This is passed to the instance at launch. For Linux instances, 'user_data' is ignored when 'password' field is provided. For Windows instances, Admin user password is set by 'password' field and cannot be updated via 'user_data'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#user_data Baremetal#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#user_data Baremetal#user_data}
   */
   readonly userData?: string;
   /**
   * A name of a new user in the Linux instance. It may be passed with a 'password' parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#username Baremetal#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#username Baremetal#username}
   */
   readonly username?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#interface Baremetal#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#interface Baremetal#interface}
   */
   readonly interface: BaremetalInterface[] | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#metadata Baremetal#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#metadata Baremetal#metadata}
   */
   readonly metadata?: BaremetalMetadata[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#timeouts Baremetal#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#timeouts Baremetal#timeouts}
   */
   readonly timeouts?: BaremetalTimeouts;
 }
@@ -295,55 +295,55 @@ export interface BaremetalInterface {
   /**
   * The ID of the existing floating IP that will be attached to the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#existing_fip_id Baremetal#existing_fip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#existing_fip_id Baremetal#existing_fip_id}
   */
   readonly existingFipId?: string;
   /**
   * The source of floating IP. Can be 'new' or 'existing'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#fip_source Baremetal#fip_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#fip_source Baremetal#fip_source}
   */
   readonly fipSource?: string;
   /**
   * The IP address for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#ip_address Baremetal#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#ip_address Baremetal#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Indicates whether this interface is the parent. If not set will be calculated after creation. Trunk interface always attached first. Can't detach interface if is_parent true. Fields affect only on creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#is_parent Baremetal#is_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#is_parent Baremetal#is_parent}
   */
   readonly isParent?: boolean | cdktf.IResolvable;
   /**
   * The network ID to attach the interface to. Required if type is 'subnet' or 'any_subnet'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#network_id Baremetal#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#network_id Baremetal#network_id}
   */
   readonly networkId?: string;
   /**
   * Order of attaching interface. Trunk (parent) interface always attached first, fields affect only on creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#order Baremetal#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#order Baremetal#order}
   */
   readonly order?: number;
   /**
   * The port ID for reserved fixed IP. Required if type is  'reserved_fixed_ip'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#port_id Baremetal#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#port_id Baremetal#port_id}
   */
   readonly portId?: string;
   /**
   * The subnet ID to attach the interface to. Required if type is 'subnet'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#subnet_id Baremetal#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#subnet_id Baremetal#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The type of the network interface. Available value is 'subnet', 'any_subnet', 'external', 'reserved_fixed_ip'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#type Baremetal#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#type Baremetal#type}
   */
   readonly type: string;
 }
@@ -690,13 +690,13 @@ export interface BaremetalMetadata {
   /**
   * Metadata key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#key Baremetal#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#key Baremetal#key}
   */
   readonly key: string;
   /**
   * Metadata value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#value Baremetal#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#value Baremetal#value}
   */
   readonly value: string;
 }
@@ -835,7 +835,7 @@ export class BaremetalMetadataList extends cdktf.ComplexList {
 }
 export interface BaremetalTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#create Baremetal#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#create Baremetal#create}
   */
   readonly create?: string;
 }
@@ -929,7 +929,7 @@ export class BaremetalTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal gcore_baremetal}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal gcore_baremetal}
 */
 export class Baremetal extends cdktf.TerraformResource {
 
@@ -945,7 +945,7 @@ export class Baremetal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Baremetal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Baremetal to import
-  * @param importFromId The id of the existing Baremetal that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Baremetal that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Baremetal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -957,7 +957,7 @@ export class Baremetal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/baremetal gcore_baremetal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/baremetal gcore_baremetal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -968,8 +968,8 @@ export class Baremetal extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_baremetal',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.1',
-        providerVersionConstraint: '0.32.1'
+        providerVersion: '0.32.2',
+        providerVersionConstraint: '0.32.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

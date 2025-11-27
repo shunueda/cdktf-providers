@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DedicatedServerReinstallTaskConfig extends cdktf.TerraformMetaA
   /**
   * If set, reboot the server on the specified boot id during destroy phase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#bootid_on_destroy DedicatedServerReinstallTask#bootid_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#bootid_on_destroy DedicatedServerReinstallTask#bootid_on_destroy}
   */
   readonly bootidOnDestroy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#id DedicatedServerReinstallTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#id DedicatedServerReinstallTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DedicatedServerReinstallTaskConfig extends cdktf.TerraformMetaA
   /**
   * Operating System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#os DedicatedServerReinstallTask#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#os DedicatedServerReinstallTask#os}
   */
   readonly os: string;
   /**
   * Attribute 'properties' is deprecated and has no effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#properties DedicatedServerReinstallTask#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#properties DedicatedServerReinstallTask#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The internal name of your dedicated server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#service_name DedicatedServerReinstallTask#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#service_name DedicatedServerReinstallTask#service_name}
   */
   readonly serviceName: string;
   /**
   * customizations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#customizations DedicatedServerReinstallTask#customizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#customizations DedicatedServerReinstallTask#customizations}
   */
   readonly customizations?: DedicatedServerReinstallTaskCustomizations;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#storage DedicatedServerReinstallTask#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#storage DedicatedServerReinstallTask#storage}
   */
   readonly storage?: DedicatedServerReinstallTaskStorage[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#timeouts DedicatedServerReinstallTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#timeouts DedicatedServerReinstallTask#timeouts}
   */
   readonly timeouts?: DedicatedServerReinstallTaskTimeouts;
 }
@@ -61,79 +61,79 @@ export interface DedicatedServerReinstallTaskCustomizations {
   /**
   * Config Drive MetaData
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#config_drive_metadata DedicatedServerReinstallTask#config_drive_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#config_drive_metadata DedicatedServerReinstallTask#config_drive_metadata}
   */
   readonly configDriveMetadata?: { [key: string]: string };
   /**
   * Config Drive UserData
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#config_drive_user_data DedicatedServerReinstallTask#config_drive_user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#config_drive_user_data DedicatedServerReinstallTask#config_drive_user_data}
   */
   readonly configDriveUserData?: string;
   /**
   * EFI bootloader path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#efi_bootloader_path DedicatedServerReinstallTask#efi_bootloader_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#efi_bootloader_path DedicatedServerReinstallTask#efi_bootloader_path}
   */
   readonly efiBootloaderPath?: string;
   /**
   * Custom hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#hostname DedicatedServerReinstallTask#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#hostname DedicatedServerReinstallTask#hostname}
   */
   readonly hostname?: string;
   /**
   * Image HTTP Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#http_headers DedicatedServerReinstallTask#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#http_headers DedicatedServerReinstallTask#http_headers}
   */
   readonly httpHeaders?: { [key: string]: string };
   /**
   * Image checksum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#image_check_sum DedicatedServerReinstallTask#image_check_sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#image_check_sum DedicatedServerReinstallTask#image_check_sum}
   */
   readonly imageCheckSum?: string;
   /**
   * Checksum type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#image_check_sum_type DedicatedServerReinstallTask#image_check_sum_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#image_check_sum_type DedicatedServerReinstallTask#image_check_sum_type}
   */
   readonly imageCheckSumType?: string;
   /**
   * Image Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#image_type DedicatedServerReinstallTask#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#image_type DedicatedServerReinstallTask#image_type}
   */
   readonly imageType?: string;
   /**
   * Image URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#image_url DedicatedServerReinstallTask#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#image_url DedicatedServerReinstallTask#image_url}
   */
   readonly imageUrl?: string;
   /**
   * Display Language
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#language DedicatedServerReinstallTask#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#language DedicatedServerReinstallTask#language}
   */
   readonly language?: string;
   /**
   * Post-Installation Script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#post_installation_script DedicatedServerReinstallTask#post_installation_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#post_installation_script DedicatedServerReinstallTask#post_installation_script}
   */
   readonly postInstallationScript?: string;
   /**
   * Post-Installation Script File Extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#post_installation_script_extension DedicatedServerReinstallTask#post_installation_script_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#post_installation_script_extension DedicatedServerReinstallTask#post_installation_script_extension}
   */
   readonly postInstallationScriptExtension?: string;
   /**
   * SSH Public Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#ssh_key DedicatedServerReinstallTask#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#ssh_key DedicatedServerReinstallTask#ssh_key}
   */
   readonly sshKey?: string;
 }
@@ -567,25 +567,25 @@ export interface DedicatedServerReinstallTaskStorageHardwareRaid {
   /**
   * Number of arrays (default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#arrays DedicatedServerReinstallTask#arrays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#arrays DedicatedServerReinstallTask#arrays}
   */
   readonly arrays?: number;
   /**
   * Total number of disks in the disk group involved in the hardware raid configuration (all disks of the disk group by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#disks DedicatedServerReinstallTask#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#disks DedicatedServerReinstallTask#disks}
   */
   readonly disks?: number;
   /**
   * Hardware raid type (default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#raid_level DedicatedServerReinstallTask#raid_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#raid_level DedicatedServerReinstallTask#raid_level}
   */
   readonly raidLevel?: number;
   /**
   * Number of disks in the disk group involved in the spare (default is 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#spares DedicatedServerReinstallTask#spares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#spares DedicatedServerReinstallTask#spares}
   */
   readonly spares?: number;
 }
@@ -790,7 +790,7 @@ export interface DedicatedServerReinstallTaskStoragePartitioningLayoutExtrasLv {
   /**
   * Logical volume name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#name DedicatedServerReinstallTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#name DedicatedServerReinstallTask#name}
   */
   readonly name?: string;
 }
@@ -908,7 +908,7 @@ export interface DedicatedServerReinstallTaskStoragePartitioningLayoutExtrasZp {
   /**
   * zpool name (generated automatically if not specified)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#name DedicatedServerReinstallTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#name DedicatedServerReinstallTask#name}
   */
   readonly name?: string;
 }
@@ -1026,13 +1026,13 @@ export interface DedicatedServerReinstallTaskStoragePartitioningLayoutExtras {
   /**
   * lv block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#lv DedicatedServerReinstallTask#lv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#lv DedicatedServerReinstallTask#lv}
   */
   readonly lv?: DedicatedServerReinstallTaskStoragePartitioningLayoutExtrasLv[] | cdktf.IResolvable;
   /**
   * zp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#zp DedicatedServerReinstallTask#zp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#zp DedicatedServerReinstallTask#zp}
   */
   readonly zp?: DedicatedServerReinstallTaskStoragePartitioningLayoutExtrasZp[] | cdktf.IResolvable;
 }
@@ -1179,31 +1179,31 @@ export interface DedicatedServerReinstallTaskStoragePartitioningLayout {
   /**
   * File system type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#file_system DedicatedServerReinstallTask#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#file_system DedicatedServerReinstallTask#file_system}
   */
   readonly fileSystem: string;
   /**
   * Mount point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#mount_point DedicatedServerReinstallTask#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#mount_point DedicatedServerReinstallTask#mount_point}
   */
   readonly mountPoint: string;
   /**
   * Software raid type (default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#raid_level DedicatedServerReinstallTask#raid_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#raid_level DedicatedServerReinstallTask#raid_level}
   */
   readonly raidLevel?: number;
   /**
   * Partition size in MiB (default value is 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#size DedicatedServerReinstallTask#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#size DedicatedServerReinstallTask#size}
   */
   readonly size?: number;
   /**
   * extras block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#extras DedicatedServerReinstallTask#extras}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#extras DedicatedServerReinstallTask#extras}
   */
   readonly extras?: DedicatedServerReinstallTaskStoragePartitioningLayoutExtras[] | cdktf.IResolvable;
 }
@@ -1431,19 +1431,19 @@ export interface DedicatedServerReinstallTaskStoragePartitioning {
   /**
   * Total number of disks in the disk group involved in the partitioning configuration (all disks of the disk group by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#disks DedicatedServerReinstallTask#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#disks DedicatedServerReinstallTask#disks}
   */
   readonly disks?: number;
   /**
   * Partitioning scheme name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#scheme_name DedicatedServerReinstallTask#scheme_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#scheme_name DedicatedServerReinstallTask#scheme_name}
   */
   readonly schemeName?: string;
   /**
   * layout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#layout DedicatedServerReinstallTask#layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#layout DedicatedServerReinstallTask#layout}
   */
   readonly layout?: DedicatedServerReinstallTaskStoragePartitioningLayout[] | cdktf.IResolvable;
 }
@@ -1619,19 +1619,19 @@ export interface DedicatedServerReinstallTaskStorage {
   /**
   * Disk group id (default is 0, meaning automatic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#disk_group_id DedicatedServerReinstallTask#disk_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#disk_group_id DedicatedServerReinstallTask#disk_group_id}
   */
   readonly diskGroupId?: number;
   /**
   * hardware_raid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#hardware_raid DedicatedServerReinstallTask#hardware_raid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#hardware_raid DedicatedServerReinstallTask#hardware_raid}
   */
   readonly hardwareRaid?: DedicatedServerReinstallTaskStorageHardwareRaid[] | cdktf.IResolvable;
   /**
   * partitioning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#partitioning DedicatedServerReinstallTask#partitioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#partitioning DedicatedServerReinstallTask#partitioning}
   */
   readonly partitioning?: DedicatedServerReinstallTaskStoragePartitioning[] | cdktf.IResolvable;
 }
@@ -1805,7 +1805,7 @@ export class DedicatedServerReinstallTaskStorageList extends cdktf.ComplexList {
 }
 export interface DedicatedServerReinstallTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#create DedicatedServerReinstallTask#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#create DedicatedServerReinstallTask#create}
   */
   readonly create?: string;
 }
@@ -1899,7 +1899,7 @@ export class DedicatedServerReinstallTaskTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task ovh_dedicated_server_reinstall_task}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task ovh_dedicated_server_reinstall_task}
 */
 export class DedicatedServerReinstallTask extends cdktf.TerraformResource {
 
@@ -1915,7 +1915,7 @@ export class DedicatedServerReinstallTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DedicatedServerReinstallTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DedicatedServerReinstallTask to import
-  * @param importFromId The id of the existing DedicatedServerReinstallTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DedicatedServerReinstallTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DedicatedServerReinstallTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1927,7 +1927,7 @@ export class DedicatedServerReinstallTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_reinstall_task ovh_dedicated_server_reinstall_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_reinstall_task ovh_dedicated_server_reinstall_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1938,8 +1938,8 @@ export class DedicatedServerReinstallTask extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_dedicated_server_reinstall_task',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

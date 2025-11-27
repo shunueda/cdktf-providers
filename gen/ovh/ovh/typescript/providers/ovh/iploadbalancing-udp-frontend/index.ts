@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_frontend
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_frontend
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface IploadbalancingUdpFrontendConfig extends cdktf.TerraformMetaArg
   /**
   * Only attach frontend on these ip. No restriction if null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_frontend#dedicated_ipfo IploadbalancingUdpFrontend#dedicated_ipfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_frontend#dedicated_ipfo IploadbalancingUdpFrontend#dedicated_ipfo}
   */
   readonly dedicatedIpfo?: string[];
   /**
   * Default UDP Farm of your frontend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_frontend#default_farm_id IploadbalancingUdpFrontend#default_farm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_frontend#default_farm_id IploadbalancingUdpFrontend#default_farm_id}
   */
   readonly defaultFarmId?: number;
   /**
   * Disable your frontend. Default: 'false'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_frontend#disabled IploadbalancingUdpFrontend#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_frontend#disabled IploadbalancingUdpFrontend#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Human readable name for your frontend, this field is for you
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_frontend#display_name IploadbalancingUdpFrontend#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_frontend#display_name IploadbalancingUdpFrontend#display_name}
   */
   readonly displayName?: string;
   /**
   * Port(s) attached to your frontend. Supports single port (numerical value), range (2 dash-delimited increasing ports) and comma-separated list of 'single port' and/or 'range'. Each port must be in the [1;49151] range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_frontend#port IploadbalancingUdpFrontend#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_frontend#port IploadbalancingUdpFrontend#port}
   */
   readonly port: string;
   /**
   * The internal name of your IP load balancing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_frontend#service_name IploadbalancingUdpFrontend#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_frontend#service_name IploadbalancingUdpFrontend#service_name}
   */
   readonly serviceName: string;
   /**
   * Zone of your frontend. Use "all" for all owned zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_frontend#zone IploadbalancingUdpFrontend#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_frontend#zone IploadbalancingUdpFrontend#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_frontend ovh_iploadbalancing_udp_frontend}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_frontend ovh_iploadbalancing_udp_frontend}
 */
 export class IploadbalancingUdpFrontend extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class IploadbalancingUdpFrontend extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IploadbalancingUdpFrontend resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IploadbalancingUdpFrontend to import
-  * @param importFromId The id of the existing IploadbalancingUdpFrontend that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_frontend#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IploadbalancingUdpFrontend that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_frontend#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IploadbalancingUdpFrontend to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class IploadbalancingUdpFrontend extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_udp_frontend ovh_iploadbalancing_udp_frontend} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_udp_frontend ovh_iploadbalancing_udp_frontend} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class IploadbalancingUdpFrontend extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_iploadbalancing_udp_frontend',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

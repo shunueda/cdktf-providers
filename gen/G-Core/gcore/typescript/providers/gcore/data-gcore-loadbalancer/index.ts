@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/loadbalancer
+// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/loadbalancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataGcoreLoadbalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/loadbalancer#id DataGcoreLoadbalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/loadbalancer#id DataGcoreLoadbalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/loadbalancer#metadata_k DataGcoreLoadbalancer#metadata_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/loadbalancer#metadata_k DataGcoreLoadbalancer#metadata_k}
   */
   readonly metadataK?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/loadbalancer#metadata_kv DataGcoreLoadbalancer#metadata_kv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/loadbalancer#metadata_kv DataGcoreLoadbalancer#metadata_kv}
   */
   readonly metadataKv?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/loadbalancer#name DataGcoreLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/loadbalancer#name DataGcoreLoadbalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/loadbalancer#project_id DataGcoreLoadbalancer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/loadbalancer#project_id DataGcoreLoadbalancer#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/loadbalancer#project_name DataGcoreLoadbalancer#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/loadbalancer#project_name DataGcoreLoadbalancer#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/loadbalancer#region_id DataGcoreLoadbalancer#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/loadbalancer#region_id DataGcoreLoadbalancer#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/loadbalancer#region_name DataGcoreLoadbalancer#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/loadbalancer#region_name DataGcoreLoadbalancer#region_name}
   */
   readonly regionName?: string;
 }
@@ -220,7 +220,7 @@ export class DataGcoreLoadbalancerMetadataReadOnlyList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/loadbalancer gcore_loadbalancer}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/loadbalancer gcore_loadbalancer}
 */
 export class DataGcoreLoadbalancer extends cdktf.TerraformDataSource {
 
@@ -236,7 +236,7 @@ export class DataGcoreLoadbalancer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGcoreLoadbalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGcoreLoadbalancer to import
-  * @param importFromId The id of the existing DataGcoreLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/loadbalancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGcoreLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/loadbalancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGcoreLoadbalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class DataGcoreLoadbalancer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/data-sources/loadbalancer gcore_loadbalancer} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/loadbalancer gcore_loadbalancer} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class DataGcoreLoadbalancer extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.1',
-        providerVersionConstraint: '0.32.1'
+        providerVersion: '0.32.2',
+        providerVersionConstraint: '0.32.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

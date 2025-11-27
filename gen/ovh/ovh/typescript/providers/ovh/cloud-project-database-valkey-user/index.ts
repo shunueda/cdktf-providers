@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CloudProjectDatabaseValkeyUserConfig extends cdktf.TerraformMet
   /**
   * Categories of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#categories CloudProjectDatabaseValkeyUser#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#categories CloudProjectDatabaseValkeyUser#categories}
   */
   readonly categories?: string[];
   /**
   * Channels of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#channels CloudProjectDatabaseValkeyUser#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#channels CloudProjectDatabaseValkeyUser#channels}
   */
   readonly channels?: string[];
   /**
   * Id of the database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#cluster_id CloudProjectDatabaseValkeyUser#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#cluster_id CloudProjectDatabaseValkeyUser#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Commands of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#commands CloudProjectDatabaseValkeyUser#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#commands CloudProjectDatabaseValkeyUser#commands}
   */
   readonly commands?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#id CloudProjectDatabaseValkeyUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#id CloudProjectDatabaseValkeyUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface CloudProjectDatabaseValkeyUserConfig extends cdktf.TerraformMet
   /**
   * Keys of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#keys CloudProjectDatabaseValkeyUser#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#keys CloudProjectDatabaseValkeyUser#keys}
   */
   readonly keys?: string[];
   /**
   * Name of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#name CloudProjectDatabaseValkeyUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#name CloudProjectDatabaseValkeyUser#name}
   */
   readonly name: string;
   /**
   * Arbitrary string to change to trigger a password update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#password_reset CloudProjectDatabaseValkeyUser#password_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#password_reset CloudProjectDatabaseValkeyUser#password_reset}
   */
   readonly passwordReset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#service_name CloudProjectDatabaseValkeyUser#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#service_name CloudProjectDatabaseValkeyUser#service_name}
   */
   readonly serviceName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#timeouts CloudProjectDatabaseValkeyUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#timeouts CloudProjectDatabaseValkeyUser#timeouts}
   */
   readonly timeouts?: CloudProjectDatabaseValkeyUserTimeouts;
 }
 export interface CloudProjectDatabaseValkeyUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#create CloudProjectDatabaseValkeyUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#create CloudProjectDatabaseValkeyUser#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#delete CloudProjectDatabaseValkeyUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#delete CloudProjectDatabaseValkeyUser#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#update CloudProjectDatabaseValkeyUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#update CloudProjectDatabaseValkeyUser#update}
   */
   readonly update?: string;
 }
@@ -229,7 +229,7 @@ export class CloudProjectDatabaseValkeyUserTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user ovh_cloud_project_database_valkey_user}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user ovh_cloud_project_database_valkey_user}
 */
 export class CloudProjectDatabaseValkeyUser extends cdktf.TerraformResource {
 
@@ -245,7 +245,7 @@ export class CloudProjectDatabaseValkeyUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectDatabaseValkeyUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectDatabaseValkeyUser to import
-  * @param importFromId The id of the existing CloudProjectDatabaseValkeyUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectDatabaseValkeyUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectDatabaseValkeyUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -257,7 +257,7 @@ export class CloudProjectDatabaseValkeyUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_valkey_user ovh_cloud_project_database_valkey_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_valkey_user ovh_cloud_project_database_valkey_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -268,8 +268,8 @@ export class CloudProjectDatabaseValkeyUser extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_database_valkey_user',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

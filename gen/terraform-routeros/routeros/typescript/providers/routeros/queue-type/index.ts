@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface QueueTypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#___path___ QueueType#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#___path___ QueueType#___path___}
   */
   readonly path?: string;
   /**
   * Maximum number of bytes that the BFIFO queue can hold. Applies if `kind` is `bfifo`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#bfifo_limit QueueType#bfifo_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#bfifo_limit QueueType#bfifo_limit}
   */
   readonly bfifoLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_ack_filter QueueType#cake_ack_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_ack_filter QueueType#cake_ack_filter}
   */
   readonly cakeAckFilter?: string;
   /**
   * Compensates for ATM cell framing, which is normally found on ADSL links.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_atm QueueType#cake_atm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_atm QueueType#cake_atm}
   */
   readonly cakeAtm?: string;
   /**
   * Automatic capacity estimation based on traffic arriving at this qdisc. This is most likely to be useful with cellular links, which tend to change quality randomly.  The Bandwidth Limit parameter can be used in conjunction to specify an initial estimate. The shaper will periodically be set to a bandwidth slightly below the estimated rate.  This estimator cannot estimate the bandwidth of links downstream of itself.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_autorate_ingress QueueType#cake_autorate_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_autorate_ingress QueueType#cake_autorate_ingress}
   */
   readonly cakeAutorateIngress?: boolean | cdktf.IResolvable;
   /**
   * Sets the shaper bandwidth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_bandwidth QueueType#cake_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_bandwidth QueueType#cake_bandwidth}
   */
   readonly cakeBandwidth?: number;
   /**
@@ -46,7 +46,7 @@ export interface QueueTypeConfig extends cdktf.TerraformMetaArguments {
   *   * `diffserv4` Provides a general-purpose Diffserv implementation with four tins: Bulk (CS1), 6.25% threshold, generally low priority. Best Effort (general), 100% threshold. Video (AF4x, AF3x, CS3, AF2x, CS2, TOS4, TOS1), 50% threshold. Voice (CS7, CS6, EF, VA, CS5, CS4), 25% threshold.
   *   * `diffserv3` (default) Provides a simple, general-purpose Diffserv implementation with three tins: Bulk (CS1), 6.25% threshold, generally low priority. Best Effort (general), 100% threshold. Voice (CS7, CS6, EF, VA, TOS4), 25% threshold, reduced Codel interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_diffserv QueueType#cake_diffserv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_diffserv QueueType#cake_diffserv}
   */
   readonly cakeDiffserv?: string;
   /**
@@ -62,41 +62,41 @@ export interface QueueTypeConfig extends cdktf.TerraformMetaArguments {
   *   * `nat` Instructs Cake to perform a NAT lookup before applying flow- isolation rules, to determine the true addresses and port numbers of the packet, to improve fairness between hosts `inside` the NAT. This has no practical effect in `flowblind` or `flows` modes, or if NAT is performed on a different host.
   *   * `nonat` (default) The cake will not perform a NAT lookup. Flow isolation will be performed using the addresses and port numbers directly visible to the interface Cake is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_flowmode QueueType#cake_flowmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_flowmode QueueType#cake_flowmode}
   */
   readonly cakeFlowmode?: string;
   /**
   * Limit the memory consumed by Cake to LIMIT bytes. By default, the limit is calculated based on the bandwidth and RTT settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_memlimit QueueType#cake_memlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_memlimit QueueType#cake_memlimit}
   */
   readonly cakeMemlimit?: number;
   /**
   * Rounds each packet (including overhead) up to a minimum length BYTES. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_mpu QueueType#cake_mpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_mpu QueueType#cake_mpu}
   */
   readonly cakeMpu?: number;
   /**
   * Instructs Cake to perform a NAT lookup before applying a flow-isolation rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_nat QueueType#cake_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_nat QueueType#cake_nat}
   */
   readonly cakeNat?: boolean | cdktf.IResolvable;
   /**
   * Adds BYTES to the size of each packet. BYTES may be negative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_overhead QueueType#cake_overhead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_overhead QueueType#cake_overhead}
   */
   readonly cakeOverhead?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_overhead_scheme QueueType#cake_overhead_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_overhead_scheme QueueType#cake_overhead_scheme}
   */
   readonly cakeOverheadScheme?: string;
   /**
   * Manually specify an RTT. Default 100ms is suitable for most Internet traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_rtt QueueType#cake_rtt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_rtt QueueType#cake_rtt}
   */
   readonly cakeRtt?: string;
   /**
@@ -109,95 +109,95 @@ export interface QueueTypeConfig extends cdktf.TerraformMetaArguments {
   *   * `satellite` - For traffic via geostationary satellites. Equivalent to `RTT 1000ms`.
   *   * `interplanetary` - So named because Jupiter is about 1 light-hour from Earth. Use this to (almost) completely disable AQM actions. Equivalent to `RTT 3600s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_rtt_scheme QueueType#cake_rtt_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_rtt_scheme QueueType#cake_rtt_scheme}
   */
   readonly cakeRttScheme?: string;
   /**
   * Apply the wash option to clear all extra DiffServ (but not ECN bits), after priority queuing has taken place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#cake_wash QueueType#cake_wash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#cake_wash QueueType#cake_wash}
   */
   readonly cakeWash?: boolean | cdktf.IResolvable;
   /**
   * Marks packets above a configured threshold with ECN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#codel_ce_threshold QueueType#codel_ce_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#codel_ce_threshold QueueType#codel_ce_threshold}
   */
   readonly codelCeThreshold?: number;
   /**
   * An option is used to mark packets instead of dropping them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#codel_ecn QueueType#codel_ecn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#codel_ecn QueueType#codel_ecn}
   */
   readonly codelEcn?: boolean | cdktf.IResolvable;
   /**
   * Interval should be set on the order of the worst-case RTT through the bottleneck giving endpoints sufficient time to react.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#codel_interval QueueType#codel_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#codel_interval QueueType#codel_interval}
   */
   readonly codelInterval?: string;
   /**
   * Queue limit, when the limit is reached, incoming packets are dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#codel_limit QueueType#codel_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#codel_limit QueueType#codel_limit}
   */
   readonly codelLimit?: number;
   /**
   * Represents an acceptable minimum persistent queue delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#codel_target QueueType#codel_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#codel_target QueueType#codel_target}
   */
   readonly codelTarget?: string;
   /**
   * Marks packets above a configured threshold with ECN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#fq_codel_ce_threshold QueueType#fq_codel_ce_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#fq_codel_ce_threshold QueueType#fq_codel_ce_threshold}
   */
   readonly fqCodelCeThreshold?: number;
   /**
   * An option is used to mark packets instead of dropping them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#fq_codel_ecn QueueType#fq_codel_ecn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#fq_codel_ecn QueueType#fq_codel_ecn}
   */
   readonly fqCodelEcn?: boolean | cdktf.IResolvable;
   /**
   * A number of flows into which the incoming packets are classified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#fq_codel_flows QueueType#fq_codel_flows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#fq_codel_flows QueueType#fq_codel_flows}
   */
   readonly fqCodelFlows?: number;
   /**
   * Interval should be set on the order of the worst-case RTT through the bottleneck giving endpoints sufficient time to react.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#fq_codel_interval QueueType#fq_codel_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#fq_codel_interval QueueType#fq_codel_interval}
   */
   readonly fqCodelInterval?: string;
   /**
   * Queue limit, when the limit is reached, incoming packets are dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#fq_codel_limit QueueType#fq_codel_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#fq_codel_limit QueueType#fq_codel_limit}
   */
   readonly fqCodelLimit?: number;
   /**
   * A total number of bytes that can be queued in this FQ-CoDel instance. Will be enforced from the fq-codel-limit parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#fq_codel_memlimit QueueType#fq_codel_memlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#fq_codel_memlimit QueueType#fq_codel_memlimit}
   */
   readonly fqCodelMemlimit?: number;
   /**
   * A number of bytes used as 'deficit' in the fair queuing algorithm. Default (1514 bytes) corresponds to the Ethernet MTU plus the hardware header length of 14 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#fq_codel_quantum QueueType#fq_codel_quantum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#fq_codel_quantum QueueType#fq_codel_quantum}
   */
   readonly fqCodelQuantum?: number;
   /**
   * Represents an acceptable minimum persistent queue delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#fq_codel_target QueueType#fq_codel_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#fq_codel_target QueueType#fq_codel_target}
   */
   readonly fqCodelTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#id QueueType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#id QueueType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -206,139 +206,139 @@ export interface QueueTypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Queue kind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#kind QueueType#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#kind QueueType#kind}
   */
   readonly kind: string;
   /**
   * Multi-queue PFIFO limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#mq_pfifo_limit QueueType#mq_pfifo_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#mq_pfifo_limit QueueType#mq_pfifo_limit}
   */
   readonly mqPfifoLimit?: number;
   /**
   * Type name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#name QueueType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#name QueueType#name}
   */
   readonly name: string;
   /**
   * Maximal upload/download data rate which can be reached while the burst for substream is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#pcq_burst_rate QueueType#pcq_burst_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#pcq_burst_rate QueueType#pcq_burst_rate}
   */
   readonly pcqBurstRate?: number;
   /**
   * This is value of burst on/off switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#pcq_burst_threshold QueueType#pcq_burst_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#pcq_burst_threshold QueueType#pcq_burst_threshold}
   */
   readonly pcqBurstThreshold?: number;
   /**
   * Period of time, in seconds, over which the average data rate is calculated. (This is NOT the time of actual burst).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#pcq_burst_time QueueType#pcq_burst_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#pcq_burst_time QueueType#pcq_burst_time}
   */
   readonly pcqBurstTime?: string;
   /**
   * Selection of sub-stream identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#pcq_classifier QueueType#pcq_classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#pcq_classifier QueueType#pcq_classifier}
   */
   readonly pcqClassifier?: string[];
   /**
   * Size of IPV6 network that will be used as dst-address sub-stream identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#pcq_dst_address6_mask QueueType#pcq_dst_address6_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#pcq_dst_address6_mask QueueType#pcq_dst_address6_mask}
   */
   readonly pcqDstAddress6Mask?: number;
   /**
   * Size of IPv4 network that will be used as dst-address sub-stream identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#pcq_dst_address_mask QueueType#pcq_dst_address_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#pcq_dst_address_mask QueueType#pcq_dst_address_mask}
   */
   readonly pcqDstAddressMask?: number;
   /**
   * Queue size of a single sub-stream (in kilobytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#pcq_limit QueueType#pcq_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#pcq_limit QueueType#pcq_limit}
   */
   readonly pcqLimit?: number;
   /**
   * Maximal available data rate of each sub-steam.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#pcq_rate QueueType#pcq_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#pcq_rate QueueType#pcq_rate}
   */
   readonly pcqRate?: number;
   /**
   * Size of IPV6 network that will be used as src-address sub-stream identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#pcq_src_address6_mask QueueType#pcq_src_address6_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#pcq_src_address6_mask QueueType#pcq_src_address6_mask}
   */
   readonly pcqSrcAddress6Mask?: number;
   /**
   * Size of IPv4 network that will be used as src-address sub-stream identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#pcq_src_address_mask QueueType#pcq_src_address_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#pcq_src_address_mask QueueType#pcq_src_address_mask}
   */
   readonly pcqSrcAddressMask?: number;
   /**
   * Max amount of bytes queued (in kilobytes) for all sub-streams per PCQ instance. Note that each queue tree entry has its own PCQ instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#pcq_total_limit QueueType#pcq_total_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#pcq_total_limit QueueType#pcq_total_limit}
   */
   readonly pcqTotalLimit?: number;
   /**
   * Maximum number of packets that the PFIFO queue can hold. Applies if `kind` is `pfifo`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#pfifo_limit QueueType#pfifo_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#pfifo_limit QueueType#pfifo_limit}
   */
   readonly pfifoLimit?: number;
   /**
   * Used by RED for average queue size calculations (for packet to byte translation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#red_avg_packet QueueType#red_avg_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#red_avg_packet QueueType#red_avg_packet}
   */
   readonly redAvgPacket?: number;
   /**
   * Number of packets allowed for bursts of packets when there are no packets in the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#red_burst QueueType#red_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#red_burst QueueType#red_burst}
   */
   readonly redBurst?: number;
   /**
   * RED queue limit in packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#red_limit QueueType#red_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#red_limit QueueType#red_limit}
   */
   readonly redLimit?: number;
   /**
   * The average queue size at which packet marking probability is the highest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#red_max_threshold QueueType#red_max_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#red_max_threshold QueueType#red_max_threshold}
   */
   readonly redMaxThreshold?: number;
   /**
   * Average queue size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#red_min_threshold QueueType#red_min_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#red_min_threshold QueueType#red_min_threshold}
   */
   readonly redMinThreshold?: number;
   /**
   * Amount of data in bytes that can be sent in one round-robin round.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#sfq_allot QueueType#sfq_allot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#sfq_allot QueueType#sfq_allot}
   */
   readonly sfqAllot?: number;
   /**
   * How often hash function must be refreshed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#sfq_perturb QueueType#sfq_perturb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#sfq_perturb QueueType#sfq_perturb}
   */
   readonly sfqPerturb?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type routeros_queue_type}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type routeros_queue_type}
 */
 export class QueueType extends cdktf.TerraformResource {
 
@@ -354,7 +354,7 @@ export class QueueType extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QueueType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QueueType to import
-  * @param importFromId The id of the existing QueueType that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QueueType that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QueueType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class QueueType extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/queue_type routeros_queue_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_type routeros_queue_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class QueueType extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_queue_type',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface OkmsServiceKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Context of the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key#context OkmsServiceKey#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key#context OkmsServiceKey#context}
   */
   readonly context?: string;
   /**
   * Curve type for Elliptic Curve (EC) keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key#curve OkmsServiceKey#curve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key#curve OkmsServiceKey#curve}
   */
   readonly curve?: string;
   /**
   * Key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key#name OkmsServiceKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key#name OkmsServiceKey#name}
   */
   readonly name: string;
   /**
   * Okms ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key#okms_id OkmsServiceKey#okms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key#okms_id OkmsServiceKey#okms_id}
   */
   readonly okmsId: string;
   /**
   * The operations for which the key is intended to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key#operations OkmsServiceKey#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key#operations OkmsServiceKey#operations}
   */
   readonly operations: string[];
   /**
   * Size of the key to be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key#size OkmsServiceKey#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key#size OkmsServiceKey#size}
   */
   readonly size?: number;
   /**
   * Type of the key to be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key#type OkmsServiceKey#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key#type OkmsServiceKey#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key ovh_okms_service_key}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key ovh_okms_service_key}
 */
 export class OkmsServiceKey extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class OkmsServiceKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OkmsServiceKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OkmsServiceKey to import
-  * @param importFromId The id of the existing OkmsServiceKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OkmsServiceKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OkmsServiceKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class OkmsServiceKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_service_key ovh_okms_service_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_service_key ovh_okms_service_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class OkmsServiceKey extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_okms_service_key',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

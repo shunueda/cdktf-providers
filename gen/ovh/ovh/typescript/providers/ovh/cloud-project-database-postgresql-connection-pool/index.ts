@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CloudProjectDatabasePostgresqlConnectionPoolConfig extends cdkt
   /**
   * Id of the database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#cluster_id CloudProjectDatabasePostgresqlConnectionPool#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#cluster_id CloudProjectDatabasePostgresqlConnectionPool#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Database used for the connection pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#database_id CloudProjectDatabasePostgresqlConnectionPool#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#database_id CloudProjectDatabasePostgresqlConnectionPool#database_id}
   */
   readonly databaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#id CloudProjectDatabasePostgresqlConnectionPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#id CloudProjectDatabasePostgresqlConnectionPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface CloudProjectDatabasePostgresqlConnectionPoolConfig extends cdkt
   /**
   * Connection mode to the connection pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#mode CloudProjectDatabasePostgresqlConnectionPool#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#mode CloudProjectDatabasePostgresqlConnectionPool#mode}
   */
   readonly mode: string;
   /**
   * Name of the connection pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#name CloudProjectDatabasePostgresqlConnectionPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#name CloudProjectDatabasePostgresqlConnectionPool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#service_name CloudProjectDatabasePostgresqlConnectionPool#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#service_name CloudProjectDatabasePostgresqlConnectionPool#service_name}
   */
   readonly serviceName: string;
   /**
   * Size of the connection pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#size CloudProjectDatabasePostgresqlConnectionPool#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#size CloudProjectDatabasePostgresqlConnectionPool#size}
   */
   readonly size: number;
   /**
   * Database user authorized to connect to the pool, if none all the users are allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#user_id CloudProjectDatabasePostgresqlConnectionPool#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#user_id CloudProjectDatabasePostgresqlConnectionPool#user_id}
   */
   readonly userId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#timeouts CloudProjectDatabasePostgresqlConnectionPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#timeouts CloudProjectDatabasePostgresqlConnectionPool#timeouts}
   */
   readonly timeouts?: CloudProjectDatabasePostgresqlConnectionPoolTimeouts;
 }
 export interface CloudProjectDatabasePostgresqlConnectionPoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#create CloudProjectDatabasePostgresqlConnectionPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#create CloudProjectDatabasePostgresqlConnectionPool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#delete CloudProjectDatabasePostgresqlConnectionPool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#delete CloudProjectDatabasePostgresqlConnectionPool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#update CloudProjectDatabasePostgresqlConnectionPool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#update CloudProjectDatabasePostgresqlConnectionPool#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class CloudProjectDatabasePostgresqlConnectionPoolTimeoutsOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool ovh_cloud_project_database_postgresql_connection_pool}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool ovh_cloud_project_database_postgresql_connection_pool}
 */
 export class CloudProjectDatabasePostgresqlConnectionPool extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class CloudProjectDatabasePostgresqlConnectionPool extends cdktf.Terrafor
   * Generates CDKTF code for importing a CloudProjectDatabasePostgresqlConnectionPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectDatabasePostgresqlConnectionPool to import
-  * @param importFromId The id of the existing CloudProjectDatabasePostgresqlConnectionPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectDatabasePostgresqlConnectionPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectDatabasePostgresqlConnectionPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class CloudProjectDatabasePostgresqlConnectionPool extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_postgresql_connection_pool ovh_cloud_project_database_postgresql_connection_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_postgresql_connection_pool ovh_cloud_project_database_postgresql_connection_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class CloudProjectDatabasePostgresqlConnectionPool extends cdktf.Terrafor
       terraformResourceType: 'ovh_cloud_project_database_postgresql_connection_pool',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

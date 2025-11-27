@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface CloudProjectLoadbalancerConfig extends cdktf.TerraformMetaArgum
   /**
   * Description of the loadbalancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#description CloudProjectLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#description CloudProjectLoadbalancer#description}
   */
   readonly description?: string;
   /**
   * Loadbalancer flavor id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#flavor_id CloudProjectLoadbalancer#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#flavor_id CloudProjectLoadbalancer#flavor_id}
   */
   readonly flavorId: string;
   /**
   * Listeners to create with the loadbalancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#listeners CloudProjectLoadbalancer#listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#listeners CloudProjectLoadbalancer#listeners}
   */
   readonly listeners?: CloudProjectLoadbalancerListeners[] | cdktf.IResolvable;
   /**
   * Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#name CloudProjectLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#name CloudProjectLoadbalancer#name}
   */
   readonly name?: string;
   /**
   * Network information to create the loadbalancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#network CloudProjectLoadbalancer#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#network CloudProjectLoadbalancer#network}
   */
   readonly network: CloudProjectLoadbalancerNetwork;
   /**
   * Region name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#region_name CloudProjectLoadbalancer#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#region_name CloudProjectLoadbalancer#region_name}
   */
   readonly regionName: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#service_name CloudProjectLoadbalancer#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#service_name CloudProjectLoadbalancer#service_name}
   */
   readonly serviceName: string;
 }
@@ -113,31 +113,31 @@ export interface CloudProjectLoadbalancerListenersPoolHealthMonitorHttpConfigura
   /**
   * Domain name, which be injected into the HTTP Host Header to the backend server for HTTP health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#domain_name CloudProjectLoadbalancer#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#domain_name CloudProjectLoadbalancer#domain_name}
   */
   readonly domainName?: string;
   /**
   * Status codes expected in response from the member to declare it healthy; The list of HTTP status codes expected in response from the member to declare it healthy. Specify one of the following values: * A single value, such as 200; * A list, such as 200, 202; * A range, such as 200-204
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#expected_codes CloudProjectLoadbalancer#expected_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#expected_codes CloudProjectLoadbalancer#expected_codes}
   */
   readonly expectedCodes?: string;
   /**
   * HTTP method that the health monitor uses for requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#http_method CloudProjectLoadbalancer#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#http_method CloudProjectLoadbalancer#http_method}
   */
   readonly httpMethod?: string;
   /**
   * HTTP version that the health monitor uses for requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#http_version CloudProjectLoadbalancer#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#http_version CloudProjectLoadbalancer#http_version}
   */
   readonly httpVersion?: string;
   /**
   * HTTP URL path of the request sent by the monitor to test the health of a backend member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#url_path CloudProjectLoadbalancer#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#url_path CloudProjectLoadbalancer#url_path}
   */
   readonly urlPath?: string;
 }
@@ -349,55 +349,55 @@ export interface CloudProjectLoadbalancerListenersPoolHealthMonitor {
   /**
   * Duration between sending probes to members, in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#delay CloudProjectLoadbalancer#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#delay CloudProjectLoadbalancer#delay}
   */
   readonly delay?: number;
   /**
   * Monitor HTTP configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#http_configuration CloudProjectLoadbalancer#http_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#http_configuration CloudProjectLoadbalancer#http_configuration}
   */
   readonly httpConfiguration?: CloudProjectLoadbalancerListenersPoolHealthMonitorHttpConfiguration;
   /**
   * Number of successful checks before changing the operating status of the member to ONLINE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#max_retries CloudProjectLoadbalancer#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#max_retries CloudProjectLoadbalancer#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Number of allowed check failures before changing the operating status of the member to ERROR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#max_retries_down CloudProjectLoadbalancer#max_retries_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#max_retries_down CloudProjectLoadbalancer#max_retries_down}
   */
   readonly maxRetriesDown?: number;
   /**
   * Type of the monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#monitor_type CloudProjectLoadbalancer#monitor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#monitor_type CloudProjectLoadbalancer#monitor_type}
   */
   readonly monitorType?: string;
   /**
   * The name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#name CloudProjectLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#name CloudProjectLoadbalancer#name}
   */
   readonly name?: string;
   /**
   * The operating status of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#operating_status CloudProjectLoadbalancer#operating_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#operating_status CloudProjectLoadbalancer#operating_status}
   */
   readonly operatingStatus?: string;
   /**
   * The provisioning status of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#provisioning_status CloudProjectLoadbalancer#provisioning_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#provisioning_status CloudProjectLoadbalancer#provisioning_status}
   */
   readonly provisioningStatus?: string;
   /**
   * Maximum time, in seconds, that a monitor waits to connect before it times out. This value must be less than the delay value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#timeout CloudProjectLoadbalancer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#timeout CloudProjectLoadbalancer#timeout}
   */
   readonly timeout?: number;
 }
@@ -725,25 +725,25 @@ export interface CloudProjectLoadbalancerListenersPoolMembers {
   /**
   * IP address of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#address CloudProjectLoadbalancer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#address CloudProjectLoadbalancer#address}
   */
   readonly address?: string;
   /**
   * Name of the member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#name CloudProjectLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#name CloudProjectLoadbalancer#name}
   */
   readonly name?: string;
   /**
   * Protocol port number for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#protocol_port CloudProjectLoadbalancer#protocol_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#protocol_port CloudProjectLoadbalancer#protocol_port}
   */
   readonly protocolPort?: number;
   /**
   * Weight of a member determines the portion of requests or connections it services compared to the other members of the pool. Between 1 and 256.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#weight CloudProjectLoadbalancer#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#weight CloudProjectLoadbalancer#weight}
   */
   readonly weight?: number;
 }
@@ -948,13 +948,13 @@ export interface CloudProjectLoadbalancerListenersPoolSessionPersistence {
   /**
   * Cookie name, only applicable to session persistence through cookie
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#cookie_name CloudProjectLoadbalancer#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#cookie_name CloudProjectLoadbalancer#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * Type of session persistence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#type CloudProjectLoadbalancer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#type CloudProjectLoadbalancer#type}
   */
   readonly type?: string;
 }
@@ -1079,37 +1079,37 @@ export interface CloudProjectLoadbalancerListenersPool {
   /**
   * Pool algorithm to split traffic between members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#algorithm CloudProjectLoadbalancer#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#algorithm CloudProjectLoadbalancer#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Pool health monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#health_monitor CloudProjectLoadbalancer#health_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#health_monitor CloudProjectLoadbalancer#health_monitor}
   */
   readonly healthMonitor?: CloudProjectLoadbalancerListenersPoolHealthMonitor;
   /**
   * Pool members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#members CloudProjectLoadbalancer#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#members CloudProjectLoadbalancer#members}
   */
   readonly members?: CloudProjectLoadbalancerListenersPoolMembers[] | cdktf.IResolvable;
   /**
   * Name of the pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#name CloudProjectLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#name CloudProjectLoadbalancer#name}
   */
   readonly name?: string;
   /**
   * Protocol for the pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#protocol CloudProjectLoadbalancer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#protocol CloudProjectLoadbalancer#protocol}
   */
   readonly protocol?: string;
   /**
   * Pool session persistence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#session_persistence CloudProjectLoadbalancer#session_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#session_persistence CloudProjectLoadbalancer#session_persistence}
   */
   readonly sessionPersistence?: CloudProjectLoadbalancerListenersPoolSessionPersistence;
 }
@@ -1350,61 +1350,61 @@ export interface CloudProjectLoadbalancerListeners {
   /**
   * The allowed CIDRs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#allowed_cidrs CloudProjectLoadbalancer#allowed_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#allowed_cidrs CloudProjectLoadbalancer#allowed_cidrs}
   */
   readonly allowedCidrs?: string[];
   /**
   * The description of the listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#description CloudProjectLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#description CloudProjectLoadbalancer#description}
   */
   readonly description?: string;
   /**
   * Name of the listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#name CloudProjectLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#name CloudProjectLoadbalancer#name}
   */
   readonly name?: string;
   /**
   * Listener pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#pool CloudProjectLoadbalancer#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#pool CloudProjectLoadbalancer#pool}
   */
   readonly pool?: CloudProjectLoadbalancerListenersPool;
   /**
   * Listener port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#port CloudProjectLoadbalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#port CloudProjectLoadbalancer#port}
   */
   readonly port: number;
   /**
   * Protocol for the listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#protocol CloudProjectLoadbalancer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#protocol CloudProjectLoadbalancer#protocol}
   */
   readonly protocol: string;
   /**
   * Secret ID to get certificate for SSL listener creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#secret_id CloudProjectLoadbalancer#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#secret_id CloudProjectLoadbalancer#secret_id}
   */
   readonly secretId?: string;
   /**
   * Timeout client data of the listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#timeout_client_data CloudProjectLoadbalancer#timeout_client_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#timeout_client_data CloudProjectLoadbalancer#timeout_client_data}
   */
   readonly timeoutClientData?: number;
   /**
   * Timeout member data of the listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#timeout_member_data CloudProjectLoadbalancer#timeout_member_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#timeout_member_data CloudProjectLoadbalancer#timeout_member_data}
   */
   readonly timeoutMemberData?: number;
   /**
   * TLS versions of the listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#tls_versions CloudProjectLoadbalancer#tls_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#tls_versions CloudProjectLoadbalancer#tls_versions}
   */
   readonly tlsVersions?: string[];
 }
@@ -1777,7 +1777,7 @@ export interface CloudProjectLoadbalancerNetworkPrivateFloatingIp {
   /**
   * ID of the floatingIp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#id CloudProjectLoadbalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#id CloudProjectLoadbalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1876,7 +1876,7 @@ export interface CloudProjectLoadbalancerNetworkPrivateFloatingIpCreate {
   /**
   * Description for the floatingIp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#description CloudProjectLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#description CloudProjectLoadbalancer#description}
   */
   readonly description?: string;
 }
@@ -1972,7 +1972,7 @@ export interface CloudProjectLoadbalancerNetworkPrivateGateway {
   /**
   * ID of the gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#id CloudProjectLoadbalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#id CloudProjectLoadbalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2071,13 +2071,13 @@ export interface CloudProjectLoadbalancerNetworkPrivateGatewayCreate {
   /**
   * Model of the gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#model CloudProjectLoadbalancer#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#model CloudProjectLoadbalancer#model}
   */
   readonly model?: string;
   /**
   * Name of the gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#name CloudProjectLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#name CloudProjectLoadbalancer#name}
   */
   readonly name?: string;
 }
@@ -2202,7 +2202,7 @@ export interface CloudProjectLoadbalancerNetworkPrivateNetwork {
   /**
   * Private network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#id CloudProjectLoadbalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#id CloudProjectLoadbalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2211,7 +2211,7 @@ export interface CloudProjectLoadbalancerNetworkPrivateNetwork {
   /**
   * Subnet ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#subnet_id CloudProjectLoadbalancer#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#subnet_id CloudProjectLoadbalancer#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -2330,31 +2330,31 @@ export interface CloudProjectLoadbalancerNetworkPrivate {
   /**
   * Floating IP to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#floating_ip CloudProjectLoadbalancer#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#floating_ip CloudProjectLoadbalancer#floating_ip}
   */
   readonly floatingIp?: CloudProjectLoadbalancerNetworkPrivateFloatingIp;
   /**
   * Floating IP to create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#floating_ip_create CloudProjectLoadbalancer#floating_ip_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#floating_ip_create CloudProjectLoadbalancer#floating_ip_create}
   */
   readonly floatingIpCreate?: CloudProjectLoadbalancerNetworkPrivateFloatingIpCreate;
   /**
   * Gateway to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#gateway CloudProjectLoadbalancer#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#gateway CloudProjectLoadbalancer#gateway}
   */
   readonly gateway?: CloudProjectLoadbalancerNetworkPrivateGateway;
   /**
   * Gateway to create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#gateway_create CloudProjectLoadbalancer#gateway_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#gateway_create CloudProjectLoadbalancer#gateway_create}
   */
   readonly gatewayCreate?: CloudProjectLoadbalancerNetworkPrivateGatewayCreate;
   /**
   * Network to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#network CloudProjectLoadbalancer#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#network CloudProjectLoadbalancer#network}
   */
   readonly network: CloudProjectLoadbalancerNetworkPrivateNetwork;
 }
@@ -2563,7 +2563,7 @@ export interface CloudProjectLoadbalancerNetwork {
   /**
   * Information to private network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#private CloudProjectLoadbalancer#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#private CloudProjectLoadbalancer#private}
   */
   readonly private: CloudProjectLoadbalancerNetworkPrivate;
 }
@@ -2654,7 +2654,7 @@ export class CloudProjectLoadbalancerNetworkOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer ovh_cloud_project_loadbalancer}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer ovh_cloud_project_loadbalancer}
 */
 export class CloudProjectLoadbalancer extends cdktf.TerraformResource {
 
@@ -2670,7 +2670,7 @@ export class CloudProjectLoadbalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectLoadbalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectLoadbalancer to import
-  * @param importFromId The id of the existing CloudProjectLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectLoadbalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2682,7 +2682,7 @@ export class CloudProjectLoadbalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_loadbalancer ovh_cloud_project_loadbalancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_loadbalancer ovh_cloud_project_loadbalancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2693,8 +2693,8 @@ export class CloudProjectLoadbalancer extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

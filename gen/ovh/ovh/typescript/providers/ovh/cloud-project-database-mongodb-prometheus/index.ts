@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_mongodb_prometheus
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_mongodb_prometheus
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CloudProjectDatabaseMongodbPrometheusConfig extends cdktf.Terra
   /**
   * Id of the database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_mongodb_prometheus#cluster_id CloudProjectDatabaseMongodbPrometheus#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_mongodb_prometheus#cluster_id CloudProjectDatabaseMongodbPrometheus#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_mongodb_prometheus#id CloudProjectDatabaseMongodbPrometheus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_mongodb_prometheus#id CloudProjectDatabaseMongodbPrometheus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface CloudProjectDatabaseMongodbPrometheusConfig extends cdktf.Terra
   /**
   * Arbitrary string to change to trigger a password update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_mongodb_prometheus#password_reset CloudProjectDatabaseMongodbPrometheus#password_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_mongodb_prometheus#password_reset CloudProjectDatabaseMongodbPrometheus#password_reset}
   */
   readonly passwordReset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_mongodb_prometheus#service_name CloudProjectDatabaseMongodbPrometheus#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_mongodb_prometheus#service_name CloudProjectDatabaseMongodbPrometheus#service_name}
   */
   readonly serviceName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_mongodb_prometheus#timeouts CloudProjectDatabaseMongodbPrometheus#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_mongodb_prometheus#timeouts CloudProjectDatabaseMongodbPrometheus#timeouts}
   */
   readonly timeouts?: CloudProjectDatabaseMongodbPrometheusTimeouts;
 }
 export interface CloudProjectDatabaseMongodbPrometheusTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_mongodb_prometheus#create CloudProjectDatabaseMongodbPrometheus#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_mongodb_prometheus#create CloudProjectDatabaseMongodbPrometheus#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_mongodb_prometheus#delete CloudProjectDatabaseMongodbPrometheus#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_mongodb_prometheus#delete CloudProjectDatabaseMongodbPrometheus#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_mongodb_prometheus#update CloudProjectDatabaseMongodbPrometheus#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_mongodb_prometheus#update CloudProjectDatabaseMongodbPrometheus#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class CloudProjectDatabaseMongodbPrometheusTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_mongodb_prometheus ovh_cloud_project_database_mongodb_prometheus}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_mongodb_prometheus ovh_cloud_project_database_mongodb_prometheus}
 */
 export class CloudProjectDatabaseMongodbPrometheus extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class CloudProjectDatabaseMongodbPrometheus extends cdktf.TerraformResour
   * Generates CDKTF code for importing a CloudProjectDatabaseMongodbPrometheus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectDatabaseMongodbPrometheus to import
-  * @param importFromId The id of the existing CloudProjectDatabaseMongodbPrometheus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_mongodb_prometheus#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectDatabaseMongodbPrometheus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_mongodb_prometheus#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectDatabaseMongodbPrometheus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class CloudProjectDatabaseMongodbPrometheus extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_mongodb_prometheus ovh_cloud_project_database_mongodb_prometheus} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_mongodb_prometheus ovh_cloud_project_database_mongodb_prometheus} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class CloudProjectDatabaseMongodbPrometheus extends cdktf.TerraformResour
       terraformResourceType: 'ovh_cloud_project_database_mongodb_prometheus',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CloudProjectRancherConfig extends cdktf.TerraformMetaArguments 
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher#project_id CloudProjectRancher#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher#project_id CloudProjectRancher#project_id}
   */
   readonly projectId: string;
   /**
   * Rancher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher#rancher_id CloudProjectRancher#rancher_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher#rancher_id CloudProjectRancher#rancher_id}
   */
   readonly rancherId?: string;
   /**
   * Target specification for the managed Rancher service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher#target_spec CloudProjectRancher#target_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher#target_spec CloudProjectRancher#target_spec}
   */
   readonly targetSpec: CloudProjectRancherTargetSpec;
 }
@@ -415,13 +415,13 @@ export interface CloudProjectRancherTargetSpecIpRestrictions {
   /**
   * Allowed CIDR block (/subnet is optional, if unspecified then /32 will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher#cidr_block CloudProjectRancher#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher#cidr_block CloudProjectRancher#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
   * Description of the allowed CIDR block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher#description CloudProjectRancher#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher#description CloudProjectRancher#description}
   */
   readonly description?: string;
 }
@@ -568,31 +568,31 @@ export interface CloudProjectRancherTargetSpec {
   /**
   * Allows Rancher to use identities managed by OVHcloud IAM (Identity and Access Management) to control access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher#iam_auth_enabled CloudProjectRancher#iam_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher#iam_auth_enabled CloudProjectRancher#iam_auth_enabled}
   */
   readonly iamAuthEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of allowed CIDR blocks for a managed Rancher service's IP restrictions. When empty, any IP is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher#ip_restrictions CloudProjectRancher#ip_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher#ip_restrictions CloudProjectRancher#ip_restrictions}
   */
   readonly ipRestrictions?: CloudProjectRancherTargetSpecIpRestrictions[] | cdktf.IResolvable;
   /**
   * Name of the managed Rancher service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher#name CloudProjectRancher#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher#name CloudProjectRancher#name}
   */
   readonly name: string;
   /**
   * Plan of the managed Rancher service. Available plans for an existing managed Rancher can be retrieved using GET /rancher/rancherID/capabilities/plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher#plan CloudProjectRancher#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher#plan CloudProjectRancher#plan}
   */
   readonly plan: string;
   /**
   * Version of the managed Rancher service. Available versions for an existing managed Rancher can be retrieved using GET /rancher/rancherID/capabilities/version. Default is the latest version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher#version CloudProjectRancher#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher#version CloudProjectRancher#version}
   */
   readonly version?: string;
 }
@@ -796,7 +796,7 @@ export class CloudProjectRancherTargetSpecOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher ovh_cloud_project_rancher}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher ovh_cloud_project_rancher}
 */
 export class CloudProjectRancher extends cdktf.TerraformResource {
 
@@ -812,7 +812,7 @@ export class CloudProjectRancher extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectRancher resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectRancher to import
-  * @param importFromId The id of the existing CloudProjectRancher that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectRancher that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectRancher to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -824,7 +824,7 @@ export class CloudProjectRancher extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_rancher ovh_cloud_project_rancher} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_rancher ovh_cloud_project_rancher} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -835,8 +835,8 @@ export class CloudProjectRancher extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_rancher',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

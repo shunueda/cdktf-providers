@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_dedicated_cloud
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_dedicated_cloud
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VrackDedicatedCloudConfig extends cdktf.TerraformMetaArguments 
   /**
   * your dedicated cloud service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_dedicated_cloud#dedicated_cloud VrackDedicatedCloud#dedicated_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_dedicated_cloud#dedicated_cloud VrackDedicatedCloud#dedicated_cloud}
   */
   readonly dedicatedCloud: string;
   /**
   * The internal name of your vrack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_dedicated_cloud#service_name VrackDedicatedCloud#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_dedicated_cloud#service_name VrackDedicatedCloud#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_dedicated_cloud ovh_vrack_dedicated_cloud}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_dedicated_cloud ovh_vrack_dedicated_cloud}
 */
 export class VrackDedicatedCloud extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class VrackDedicatedCloud extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VrackDedicatedCloud resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrackDedicatedCloud to import
-  * @param importFromId The id of the existing VrackDedicatedCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_dedicated_cloud#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrackDedicatedCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_dedicated_cloud#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrackDedicatedCloud to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class VrackDedicatedCloud extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_dedicated_cloud ovh_vrack_dedicated_cloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_dedicated_cloud ovh_vrack_dedicated_cloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class VrackDedicatedCloud extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_vrack_dedicated_cloud',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

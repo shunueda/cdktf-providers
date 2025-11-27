@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_mitigation
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_mitigation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataOvhIpMitigationConfig extends cdktf.TerraformMetaArguments 
   /**
   * IP (v4 or v6) CIDR notation (e.g., 192.0.2.0/24)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_mitigation#ip DataOvhIpMitigation#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_mitigation#ip DataOvhIpMitigation#ip}
   */
   readonly ip: string;
   /**
   * IPv4 address (e.g., 192.0.2.0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_mitigation#ip_on_mitigation DataOvhIpMitigation#ip_on_mitigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_mitigation#ip_on_mitigation DataOvhIpMitigation#ip_on_mitigation}
   */
   readonly ipOnMitigation: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_mitigation ovh_ip_mitigation}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_mitigation ovh_ip_mitigation}
 */
 export class DataOvhIpMitigation extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataOvhIpMitigation extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhIpMitigation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhIpMitigation to import
-  * @param importFromId The id of the existing DataOvhIpMitigation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_mitigation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhIpMitigation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_mitigation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhIpMitigation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataOvhIpMitigation extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_mitigation ovh_ip_mitigation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_mitigation ovh_ip_mitigation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataOvhIpMitigation extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_ip_mitigation',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,193 +8,193 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#allow_deployments_to_no_targets Project#allow_deployments_to_no_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#allow_deployments_to_no_targets Project#allow_deployments_to_no_targets}
   */
   readonly allowDeploymentsToNoTargets?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#auto_create_release Project#auto_create_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#auto_create_release Project#auto_create_release}
   */
   readonly autoCreateRelease?: boolean | cdktf.IResolvable;
   /**
   * The ID of the project this project was cloned from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#cloned_from_project_id Project#cloned_from_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#cloned_from_project_id Project#cloned_from_project_id}
   */
   readonly clonedFromProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#default_guided_failure_mode Project#default_guided_failure_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#default_guided_failure_mode Project#default_guided_failure_mode}
   */
   readonly defaultGuidedFailureMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#default_to_skip_if_already_installed Project#default_to_skip_if_already_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#default_to_skip_if_already_installed Project#default_to_skip_if_already_installed}
   */
   readonly defaultToSkipIfAlreadyInstalled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#deployment_changes_template Project#deployment_changes_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#deployment_changes_template Project#deployment_changes_template}
   */
   readonly deploymentChangesTemplate?: string;
   /**
   * The ID of the runbook to run when deprovisioning an ephemeral environment for this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#deprovisioning_runbook_id Project#deprovisioning_runbook_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#deprovisioning_runbook_id Project#deprovisioning_runbook_id}
   */
   readonly deprovisioningRunbookId?: string;
   /**
   * The description of this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
   * Treats releases of different channels to the same environment as a separate deployment dimension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#discrete_channel_release Project#discrete_channel_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#discrete_channel_release Project#discrete_channel_release}
   */
   readonly discreteChannelRelease?: boolean | cdktf.IResolvable;
   /**
   * The list of included library variable set IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#included_library_variable_sets Project#included_library_variable_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#included_library_variable_sets Project#included_library_variable_sets}
   */
   readonly includedLibraryVariableSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#is_disabled Project#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#is_disabled Project#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Treats releases of different channels to the same environment as a separate deployment dimension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#is_discrete_channel_release Project#is_discrete_channel_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#is_discrete_channel_release Project#is_discrete_channel_release}
   */
   readonly isDiscreteChannelRelease?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#is_version_controlled Project#is_version_controlled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#is_version_controlled Project#is_version_controlled}
   */
   readonly isVersionControlled?: boolean | cdktf.IResolvable;
   /**
   * The lifecycle ID associated with this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#lifecycle_id Project#lifecycle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#lifecycle_id Project#lifecycle_id}
   */
   readonly lifecycleId: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
   * The project group ID associated with this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#project_group_id Project#project_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#project_group_id Project#project_group_id}
   */
   readonly projectGroupId: string;
   /**
   * A list of project tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#project_tags Project#project_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#project_tags Project#project_tags}
   */
   readonly projectTags?: string[];
   /**
   * The ID of the runbook to run when provisioning an ephemeral environment for this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#provisioning_runbook_id Project#provisioning_runbook_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#provisioning_runbook_id Project#provisioning_runbook_id}
   */
   readonly provisioningRunbookId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#release_notes_template Project#release_notes_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#release_notes_template Project#release_notes_template}
   */
   readonly releaseNotesTemplate?: string;
   /**
   * A human-readable, unique identifier, used to identify a project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#slug Project#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#slug Project#slug}
   */
   readonly slug?: string;
   /**
   * The space ID associated with this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#space_id Project#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#space_id Project#space_id}
   */
   readonly spaceId?: string;
   /**
   * The tenanted deployment mode of the resource. Valid account types are `Untenanted`, `TenantedOrUntenanted`, or `Tenanted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#tenanted_deployment_participation Project#tenanted_deployment_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#tenanted_deployment_participation Project#tenanted_deployment_participation}
   */
   readonly tenantedDeploymentParticipation?: string;
   /**
   * auto_deploy_release_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#auto_deploy_release_overrides Project#auto_deploy_release_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#auto_deploy_release_overrides Project#auto_deploy_release_overrides}
   */
   readonly autoDeployReleaseOverrides?: ProjectAutoDeployReleaseOverrides[] | cdktf.IResolvable;
   /**
   * connectivity_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#connectivity_policy Project#connectivity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#connectivity_policy Project#connectivity_policy}
   */
   readonly connectivityPolicy?: ProjectConnectivityPolicy[] | cdktf.IResolvable;
   /**
   * git_anonymous_persistence_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#git_anonymous_persistence_settings Project#git_anonymous_persistence_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#git_anonymous_persistence_settings Project#git_anonymous_persistence_settings}
   */
   readonly gitAnonymousPersistenceSettings?: ProjectGitAnonymousPersistenceSettings[] | cdktf.IResolvable;
   /**
   * git_library_persistence_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#git_library_persistence_settings Project#git_library_persistence_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#git_library_persistence_settings Project#git_library_persistence_settings}
   */
   readonly gitLibraryPersistenceSettings?: ProjectGitLibraryPersistenceSettings[] | cdktf.IResolvable;
   /**
   * git_username_password_persistence_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#git_username_password_persistence_settings Project#git_username_password_persistence_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#git_username_password_persistence_settings Project#git_username_password_persistence_settings}
   */
   readonly gitUsernamePasswordPersistenceSettings?: ProjectGitUsernamePasswordPersistenceSettings[] | cdktf.IResolvable;
   /**
   * jira_service_management_extension_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#jira_service_management_extension_settings Project#jira_service_management_extension_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#jira_service_management_extension_settings Project#jira_service_management_extension_settings}
   */
   readonly jiraServiceManagementExtensionSettings?: ProjectJiraServiceManagementExtensionSettings[] | cdktf.IResolvable;
   /**
   * release_creation_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#release_creation_strategy Project#release_creation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#release_creation_strategy Project#release_creation_strategy}
   */
   readonly releaseCreationStrategy?: ProjectReleaseCreationStrategy[] | cdktf.IResolvable;
   /**
   * servicenow_extension_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#servicenow_extension_settings Project#servicenow_extension_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#servicenow_extension_settings Project#servicenow_extension_settings}
   */
   readonly servicenowExtensionSettings?: ProjectServicenowExtensionSettings[] | cdktf.IResolvable;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#template Project#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#template Project#template}
   */
   readonly template?: ProjectTemplate[] | cdktf.IResolvable;
   /**
   * versioning_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#versioning_strategy Project#versioning_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#versioning_strategy Project#versioning_strategy}
   */
   readonly versioningStrategy?: ProjectVersioningStrategy[] | cdktf.IResolvable;
 }
 export interface ProjectAutoDeployReleaseOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#environment_id Project#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#environment_id Project#environment_id}
   */
   readonly environmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#release_id Project#release_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#release_id Project#release_id}
   */
   readonly releaseId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#tenant_id Project#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#tenant_id Project#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -368,19 +368,19 @@ export class ProjectAutoDeployReleaseOverridesList extends cdktf.ComplexList {
 }
 export interface ProjectConnectivityPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#allow_deployments_to_no_targets Project#allow_deployments_to_no_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#allow_deployments_to_no_targets Project#allow_deployments_to_no_targets}
   */
   readonly allowDeploymentsToNoTargets?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#exclude_unhealthy_targets Project#exclude_unhealthy_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#exclude_unhealthy_targets Project#exclude_unhealthy_targets}
   */
   readonly excludeUnhealthyTargets?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#skip_machine_behavior Project#skip_machine_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#skip_machine_behavior Project#skip_machine_behavior}
   */
   readonly skipMachineBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#target_roles Project#target_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#target_roles Project#target_roles}
   */
   readonly targetRoles?: string[];
 }
@@ -585,25 +585,25 @@ export interface ProjectGitAnonymousPersistenceSettings {
   /**
   * The base path associated with these version control settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#base_path Project#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#base_path Project#base_path}
   */
   readonly basePath?: string;
   /**
   * The default branch associated with these version control settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#default_branch Project#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#default_branch Project#default_branch}
   */
   readonly defaultBranch?: string;
   /**
   * A list of protected branch patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#protected_branches Project#protected_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#protected_branches Project#protected_branches}
   */
   readonly protectedBranches?: string[];
   /**
   * The URL associated with these version control settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#url Project#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#url Project#url}
   */
   readonly url: string;
 }
@@ -805,29 +805,29 @@ export interface ProjectGitLibraryPersistenceSettings {
   /**
   * The base path associated with these version control settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#base_path Project#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#base_path Project#base_path}
   */
   readonly basePath?: string;
   /**
   * The default branch associated with these version control settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#default_branch Project#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#default_branch Project#default_branch}
   */
   readonly defaultBranch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#git_credential_id Project#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#git_credential_id Project#git_credential_id}
   */
   readonly gitCredentialId: string;
   /**
   * A list of protected branch patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#protected_branches Project#protected_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#protected_branches Project#protected_branches}
   */
   readonly protectedBranches?: string[];
   /**
   * The URL associated with these version control settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#url Project#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#url Project#url}
   */
   readonly url: string;
 }
@@ -1055,37 +1055,37 @@ export interface ProjectGitUsernamePasswordPersistenceSettings {
   /**
   * The base path associated with these version control settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#base_path Project#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#base_path Project#base_path}
   */
   readonly basePath?: string;
   /**
   * The default branch associated with these version control settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#default_branch Project#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#default_branch Project#default_branch}
   */
   readonly defaultBranch?: string;
   /**
   * The password for the Git credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#password Project#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#password Project#password}
   */
   readonly password: string;
   /**
   * A list of protected branch patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#protected_branches Project#protected_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#protected_branches Project#protected_branches}
   */
   readonly protectedBranches?: string[];
   /**
   * The URL associated with these version control settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#url Project#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#url Project#url}
   */
   readonly url: string;
   /**
   * The username for the Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#username Project#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#username Project#username}
   */
   readonly username: string;
 }
@@ -1339,19 +1339,19 @@ export interface ProjectJiraServiceManagementExtensionSettings {
   /**
   * The connection identifier associated with the extension settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#connection_id Project#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#connection_id Project#connection_id}
   */
   readonly connectionId: string;
   /**
   * Specifies whether or not this extension is enabled for this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#is_enabled Project#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#is_enabled Project#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
   * The project name associated with this extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#service_desk_project_name Project#service_desk_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#service_desk_project_name Project#service_desk_project_name}
   */
   readonly serviceDeskProjectName: string;
 }
@@ -1516,11 +1516,11 @@ export class ProjectJiraServiceManagementExtensionSettingsList extends cdktf.Com
 }
 export interface ProjectReleaseCreationStrategyReleaseCreationPackage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#deployment_action Project#deployment_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#deployment_action Project#deployment_action}
   */
   readonly deploymentAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#package_reference Project#package_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#package_reference Project#package_reference}
   */
   readonly packageReference?: string;
 }
@@ -1665,17 +1665,17 @@ export class ProjectReleaseCreationStrategyReleaseCreationPackageList extends cd
 }
 export interface ProjectReleaseCreationStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#channel_id Project#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#channel_id Project#channel_id}
   */
   readonly channelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#release_creation_package_step_id Project#release_creation_package_step_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#release_creation_package_step_id Project#release_creation_package_step_id}
   */
   readonly releaseCreationPackageStepId?: string;
   /**
   * release_creation_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#release_creation_package Project#release_creation_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#release_creation_package Project#release_creation_package}
   */
   readonly releaseCreationPackage?: ProjectReleaseCreationStrategyReleaseCreationPackage[] | cdktf.IResolvable;
 }
@@ -1851,25 +1851,25 @@ export interface ProjectServicenowExtensionSettings {
   /**
   * The connection identifier associated with the extension settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#connection_id Project#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#connection_id Project#connection_id}
   */
   readonly connectionId: string;
   /**
   * Specifies whether or not this extension is enabled for this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#is_enabled Project#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#is_enabled Project#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
   * Specifies whether or not this extension will automatically transition the state of a deployment for this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#is_state_automatically_transitioned Project#is_state_automatically_transitioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#is_state_automatically_transitioned Project#is_state_automatically_transitioned}
   */
   readonly isStateAutomaticallyTransitioned: boolean | cdktf.IResolvable;
   /**
   * The name of the standard change template associated with this extension. If provided, deployments will create a standard change based on the provided template, otherwise a normal change will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#standard_change_template_name Project#standard_change_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#standard_change_template_name Project#standard_change_template_name}
   */
   readonly standardChangeTemplateName?: string;
 }
@@ -2065,25 +2065,25 @@ export interface ProjectTemplate {
   /**
   * A default value for the parameter, if applicable. This can be a hard-coded value or a variable reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#default_value Project#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#default_value Project#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The display settings for the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#display_settings Project#display_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#display_settings Project#display_settings}
   */
   readonly displaySettings?: { [key: string]: string };
   /**
   * The help presented alongside the parameter input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#help_text Project#help_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#help_text Project#help_text}
   */
   readonly helpText?: string;
   /**
   * The ID of the template parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#id Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#id Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2092,13 +2092,13 @@ export interface ProjectTemplate {
   /**
   * The label shown beside the parameter when presented in the deployment process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#label Project#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#label Project#label}
   */
   readonly label?: string;
   /**
   * The name of the variable set by the parameter. The name can contain letters, digits, dashes and periods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#name Project#name}
   */
   readonly name: string;
 }
@@ -2356,11 +2356,11 @@ export class ProjectTemplateList extends cdktf.ComplexList {
 }
 export interface ProjectVersioningStrategyDonorPackage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#deployment_action Project#deployment_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#deployment_action Project#deployment_action}
   */
   readonly deploymentAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#package_reference Project#package_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#package_reference Project#package_reference}
   */
   readonly packageReference?: string;
 }
@@ -2505,17 +2505,17 @@ export class ProjectVersioningStrategyDonorPackageList extends cdktf.ComplexList
 }
 export interface ProjectVersioningStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#donor_package_step_id Project#donor_package_step_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#donor_package_step_id Project#donor_package_step_id}
   */
   readonly donorPackageStepId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#template Project#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#template Project#template}
   */
   readonly template?: string;
   /**
   * donor_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#donor_package Project#donor_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#donor_package Project#donor_package}
   */
   readonly donorPackage?: ProjectVersioningStrategyDonorPackage[] | cdktf.IResolvable;
 }
@@ -2689,7 +2689,7 @@ export class ProjectVersioningStrategyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project octopusdeploy_project}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project octopusdeploy_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -2705,7 +2705,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2717,7 +2717,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project octopusdeploy_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/project octopusdeploy_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2728,8 +2728,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_project',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

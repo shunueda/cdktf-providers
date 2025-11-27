@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule
+// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CdnRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The setting allows to enable or disable a Rule. If not specified, it will be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#active CdnRule#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#active CdnRule#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#id CdnRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#id CdnRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,59 +23,59 @@ export interface CdnRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#name CdnRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#name CdnRule#name}
   */
   readonly name: string;
   /**
   * ID of the Origins Group. Use one of your Origins Group or create a new one. You can use either 'origin' parameter or 'originGroup' in the resource definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#origin_group CdnRule#origin_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#origin_group CdnRule#origin_group}
   */
   readonly originGroup?: number;
   /**
   * This option defines the protocol that will be used by CDN servers to request content from an origin source. If not specified, it will be inherit from resource. Possible values are: HTTPS, HTTP, MATCH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#origin_protocol CdnRule#origin_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#origin_protocol CdnRule#origin_protocol}
   */
   readonly originProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#resource_id CdnRule#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#resource_id CdnRule#resource_id}
   */
   readonly resourceId: number;
   /**
   * A pattern that defines when the rule is triggered. By default, we add a leading forward slash to any rule pattern. Specify a pattern without a forward slash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#rule CdnRule#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#rule CdnRule#rule}
   */
   readonly rule: string;
   /**
   * Type of rule. The rule is applied if the requested URI matches the rule pattern. It has two possible values: Type 0 — RegEx. Must start with '^/' or '/'. Type 1 — RegEx. Legacy type. Note that for this rule type we automatically add / to each rule pattern before your regular expression. Please use Type 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#rule_type CdnRule#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#rule_type CdnRule#rule_type}
   */
   readonly ruleType: number;
   /**
   * Rule weight that determines rule execution order: from the smallest (0) to the highest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#weight CdnRule#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#weight CdnRule#weight}
   */
   readonly weight?: number;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#options CdnRule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#options CdnRule#options}
   */
   readonly options?: CdnRuleOptions;
 }
 export interface CdnRuleOptionsAllowedHttpMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Available methods: GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: string[];
 }
@@ -185,13 +185,13 @@ export class CdnRuleOptionsAllowedHttpMethodsOutputReference extends cdktf.Compl
 }
 export interface CdnRuleOptionsBrotliCompression {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify the content-type for each type of content you wish to have compressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: string[];
 }
@@ -301,13 +301,13 @@ export class CdnRuleOptionsBrotliCompressionOutputReference extends cdktf.Comple
 }
 export interface CdnRuleOptionsBrowserCacheSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Use '0s' to disable caching. The value applies for a response with codes 200, 201, 204, 206, 301, 302, 303, 304, 307, 308.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value?: string;
 }
@@ -422,17 +422,17 @@ export interface CdnRuleOptionsCors {
   /**
   * Specify if the Access-Control-Allow-Origin header should be added to a response from CDN regardless of response code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#always CdnRule#always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#always CdnRule#always}
   */
   readonly always?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify a value of the Access-Control-Allow-Origin header. Possible values: '*', '$http_origin', 'example.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: string[];
 }
@@ -571,19 +571,19 @@ export class CdnRuleOptionsCorsOutputReference extends cdktf.ComplexObject {
 }
 export interface CdnRuleOptionsCountryAcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of countries according to ISO-3166-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#excepted_values CdnRule#excepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#excepted_values CdnRule#excepted_values}
   */
   readonly exceptedValues: string[];
   /**
   * Possible values: allow, deny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#policy_type CdnRule#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#policy_type CdnRule#policy_type}
   */
   readonly policyType: string;
 }
@@ -719,11 +719,11 @@ export class CdnRuleOptionsCountryAclOutputReference extends cdktf.ComplexObject
 }
 export interface CdnRuleOptionsDisableProxyForceRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -835,23 +835,23 @@ export interface CdnRuleOptionsEdgeCacheSettings {
   /**
   * Specify caching time in seconds ('0s', '600s' for example) for a response with specific response code ('304', '404' for example). Use 'any' to specify caching time for all response codes. Use '0s' to disable caching for a specific response code. These settings have a higher priority than the value field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#custom_values CdnRule#custom_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#custom_values CdnRule#custom_values}
   */
   readonly customValues?: { [key: string]: string };
   /**
   * Content will be cached according to origin cache settings. The value applies for a response with codes 200, 201, 204, 206, 301, 302, 303, 304, 307, 308, if an origin server does not have caching HTTP headers. Responses with other codes will not be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#default CdnRule#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#default CdnRule#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify caching time for the response with codes 200, 206, 301, 302. Responses with codes 4xx, 5xx will not be cached. Use '0s' to disable caching. Use custom_values field to specify a custom caching time for a response with specific codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value?: string;
 }
@@ -1024,31 +1024,31 @@ export interface CdnRuleOptionsFastedgeOnRequestBody {
   /**
   * The ID of the application in FastEdge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#app_id CdnRule#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#app_id CdnRule#app_id}
   */
   readonly appId: string;
   /**
   * Determines if the FastEdge application should be called whenever HTTP request headers are received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Determines if the request should be executed at the edge nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#execute_on_edge CdnRule#execute_on_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#execute_on_edge CdnRule#execute_on_edge}
   */
   readonly executeOnEdge?: boolean | cdktf.IResolvable;
   /**
   * Determines if the request should be executed at the shield nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#execute_on_shield CdnRule#execute_on_shield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#execute_on_shield CdnRule#execute_on_shield}
   */
   readonly executeOnShield?: boolean | cdktf.IResolvable;
   /**
   * Determines if the request execution should be interrupted when an error occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#interrupt_on_error CdnRule#interrupt_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#interrupt_on_error CdnRule#interrupt_on_error}
   */
   readonly interruptOnError?: boolean | cdktf.IResolvable;
 }
@@ -1247,31 +1247,31 @@ export interface CdnRuleOptionsFastedgeOnRequestHeaders {
   /**
   * The ID of the application in FastEdge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#app_id CdnRule#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#app_id CdnRule#app_id}
   */
   readonly appId: string;
   /**
   * Determines if the FastEdge application should be called whenever HTTP request headers are received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Determines if the request should be executed at the edge nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#execute_on_edge CdnRule#execute_on_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#execute_on_edge CdnRule#execute_on_edge}
   */
   readonly executeOnEdge?: boolean | cdktf.IResolvable;
   /**
   * Determines if the request should be executed at the shield nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#execute_on_shield CdnRule#execute_on_shield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#execute_on_shield CdnRule#execute_on_shield}
   */
   readonly executeOnShield?: boolean | cdktf.IResolvable;
   /**
   * Determines if the request execution should be interrupted when an error occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#interrupt_on_error CdnRule#interrupt_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#interrupt_on_error CdnRule#interrupt_on_error}
   */
   readonly interruptOnError?: boolean | cdktf.IResolvable;
 }
@@ -1470,31 +1470,31 @@ export interface CdnRuleOptionsFastedgeOnResponseBody {
   /**
   * The ID of the application in FastEdge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#app_id CdnRule#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#app_id CdnRule#app_id}
   */
   readonly appId: string;
   /**
   * Determines if the FastEdge application should be called whenever HTTP request headers are received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Determines if the request should be executed at the edge nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#execute_on_edge CdnRule#execute_on_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#execute_on_edge CdnRule#execute_on_edge}
   */
   readonly executeOnEdge?: boolean | cdktf.IResolvable;
   /**
   * Determines if the request should be executed at the shield nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#execute_on_shield CdnRule#execute_on_shield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#execute_on_shield CdnRule#execute_on_shield}
   */
   readonly executeOnShield?: boolean | cdktf.IResolvable;
   /**
   * Determines if the request execution should be interrupted when an error occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#interrupt_on_error CdnRule#interrupt_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#interrupt_on_error CdnRule#interrupt_on_error}
   */
   readonly interruptOnError?: boolean | cdktf.IResolvable;
 }
@@ -1693,31 +1693,31 @@ export interface CdnRuleOptionsFastedgeOnResponseHeaders {
   /**
   * The ID of the application in FastEdge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#app_id CdnRule#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#app_id CdnRule#app_id}
   */
   readonly appId: string;
   /**
   * Determines if the FastEdge application should be called whenever HTTP request headers are received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Determines if the request should be executed at the edge nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#execute_on_edge CdnRule#execute_on_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#execute_on_edge CdnRule#execute_on_edge}
   */
   readonly executeOnEdge?: boolean | cdktf.IResolvable;
   /**
   * Determines if the request should be executed at the shield nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#execute_on_shield CdnRule#execute_on_shield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#execute_on_shield CdnRule#execute_on_shield}
   */
   readonly executeOnShield?: boolean | cdktf.IResolvable;
   /**
   * Determines if the request execution should be interrupted when an error occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#interrupt_on_error CdnRule#interrupt_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#interrupt_on_error CdnRule#interrupt_on_error}
   */
   readonly interruptOnError?: boolean | cdktf.IResolvable;
 }
@@ -1914,31 +1914,31 @@ export class CdnRuleOptionsFastedgeOnResponseHeadersOutputReference extends cdkt
 }
 export interface CdnRuleOptionsFastedge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * on_request_body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#on_request_body CdnRule#on_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#on_request_body CdnRule#on_request_body}
   */
   readonly onRequestBody?: CdnRuleOptionsFastedgeOnRequestBody;
   /**
   * on_request_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#on_request_headers CdnRule#on_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#on_request_headers CdnRule#on_request_headers}
   */
   readonly onRequestHeaders?: CdnRuleOptionsFastedgeOnRequestHeaders;
   /**
   * on_response_body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#on_response_body CdnRule#on_response_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#on_response_body CdnRule#on_response_body}
   */
   readonly onResponseBody?: CdnRuleOptionsFastedgeOnResponseBody;
   /**
   * on_response_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#on_response_headers CdnRule#on_response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#on_response_headers CdnRule#on_response_headers}
   */
   readonly onResponseHeaders?: CdnRuleOptionsFastedgeOnResponseHeaders;
 }
@@ -2138,11 +2138,11 @@ export class CdnRuleOptionsFastedgeOutputReference extends cdktf.ComplexObject {
 }
 export interface CdnRuleOptionsFetchCompressed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2254,11 +2254,11 @@ export interface CdnRuleOptionsFollowOriginRedirect {
   /**
   * Specify the redirect status code that the origin server returns. Possible values: 301, 302, 303, 307, 308.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#codes CdnRule#codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#codes CdnRule#codes}
   */
   readonly codes: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2370,17 +2370,17 @@ export interface CdnRuleOptionsForceReturn {
   /**
   * Response text or URL if you're going to set up redirection. Max length = 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#body CdnRule#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#body CdnRule#body}
   */
   readonly body?: string;
   /**
   * HTTP response status code. Available codes: 100 <= value <= 599. Reserved codes: 408, 444, 477, 494, 495, 496, 497, 499
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#code CdnRule#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#code CdnRule#code}
   */
   readonly code: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2519,11 +2519,11 @@ export class CdnRuleOptionsForceReturnOutputReference extends cdktf.ComplexObjec
 }
 export interface CdnRuleOptionsForwardHostHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2633,11 +2633,11 @@ export class CdnRuleOptionsForwardHostHeaderOutputReference extends cdktf.Comple
 }
 export interface CdnRuleOptionsGzipOn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2747,11 +2747,11 @@ export class CdnRuleOptionsGzipOnOutputReference extends cdktf.ComplexObject {
 }
 export interface CdnRuleOptionsHostHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: string;
 }
@@ -2861,11 +2861,11 @@ export class CdnRuleOptionsHostHeaderOutputReference extends cdktf.ComplexObject
 }
 export interface CdnRuleOptionsIgnoreCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2975,11 +2975,11 @@ export class CdnRuleOptionsIgnoreCookieOutputReference extends cdktf.ComplexObje
 }
 export interface CdnRuleOptionsIgnoreQueryString {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -3091,29 +3091,29 @@ export interface CdnRuleOptionsImageStack {
   /**
   * If enabled, JPG and PNG images automatically convert to AVIF format when supported by the end users browser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#avif_enabled CdnRule#avif_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#avif_enabled CdnRule#avif_enabled}
   */
   readonly avifEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Represents compression without quality loss for PNG format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#png_lossless CdnRule#png_lossless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#png_lossless CdnRule#png_lossless}
   */
   readonly pngLossless?: boolean | cdktf.IResolvable;
   /**
   * Quality settings for JPG and PNG images. Specify a value from 1 to 100. The higher the value, the better the image quality and the larger the file size after conversion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#quality CdnRule#quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#quality CdnRule#quality}
   */
   readonly quality: number;
   /**
   * If enabled, JPG and PNG images automatically convert to WebP format when supported by the end users browser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#webp_enabled CdnRule#webp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#webp_enabled CdnRule#webp_enabled}
   */
   readonly webpEnabled?: boolean | cdktf.IResolvable;
 }
@@ -3310,19 +3310,19 @@ export class CdnRuleOptionsImageStackOutputReference extends cdktf.ComplexObject
 }
 export interface CdnRuleOptionsIpAddressAcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify list of IP address with a subnet mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#excepted_values CdnRule#excepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#excepted_values CdnRule#excepted_values}
   */
   readonly exceptedValues: string[];
   /**
   * Possible values: allow, deny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#policy_type CdnRule#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#policy_type CdnRule#policy_type}
   */
   readonly policyType: string;
 }
@@ -3460,23 +3460,23 @@ export interface CdnRuleOptionsLimitBandwidth {
   /**
   * Amount of downloaded data after which the user will be rate limited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#buffer CdnRule#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#buffer CdnRule#buffer}
   */
   readonly buffer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The way of controlling the download speed per each connection. Possible values are: static, dynamic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#limit_type CdnRule#limit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#limit_type CdnRule#limit_type}
   */
   readonly limitType: string;
   /**
   * Maximum download speed per connection. Must be greater than 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#speed CdnRule#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#speed CdnRule#speed}
   */
   readonly speed?: number;
 }
@@ -3644,13 +3644,13 @@ export class CdnRuleOptionsLimitBandwidthOutputReference extends cdktf.ComplexOb
 }
 export interface CdnRuleOptionsProxyCacheKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Key for caching. Should be a combination of the specified variables: $request_uri, $scheme, $uri.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: string;
 }
@@ -3760,11 +3760,11 @@ export class CdnRuleOptionsProxyCacheKeyOutputReference extends cdktf.ComplexObj
 }
 export interface CdnRuleOptionsProxyCacheMethodsSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -3874,13 +3874,13 @@ export class CdnRuleOptionsProxyCacheMethodsSetOutputReference extends cdktf.Com
 }
 export interface CdnRuleOptionsProxyConnectTimeout {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify time in seconds ('1s', '30s' for example).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: string;
 }
@@ -3990,13 +3990,13 @@ export class CdnRuleOptionsProxyConnectTimeoutOutputReference extends cdktf.Comp
 }
 export interface CdnRuleOptionsProxyReadTimeout {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify time in seconds ('1s', '30s' for example).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: string;
 }
@@ -4106,11 +4106,11 @@ export class CdnRuleOptionsProxyReadTimeoutOutputReference extends cdktf.Complex
 }
 export interface CdnRuleOptionsQueryParamsBlacklistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: string[];
 }
@@ -4220,11 +4220,11 @@ export class CdnRuleOptionsQueryParamsBlacklistStructOutputReference extends cdk
 }
 export interface CdnRuleOptionsQueryParamsWhitelistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: string[];
 }
@@ -4334,31 +4334,31 @@ export class CdnRuleOptionsQueryParamsWhitelistStructOutputReference extends cdk
 }
 export interface CdnRuleOptionsQueryStringForwarding {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify the keys that will not be forwarded from playlist files to media chunk files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#forward_except_keys CdnRule#forward_except_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#forward_except_keys CdnRule#forward_except_keys}
   */
   readonly forwardExceptKeys?: string[];
   /**
   * Specify the types of playlist files from which parameters will be extracted and forwarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#forward_from_file_types CdnRule#forward_from_file_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#forward_from_file_types CdnRule#forward_from_file_types}
   */
   readonly forwardFromFileTypes: string[];
   /**
   * Specify the keys that will be forwarded from playlist files to media chunk files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#forward_only_keys CdnRule#forward_only_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#forward_only_keys CdnRule#forward_only_keys}
   */
   readonly forwardOnlyKeys?: string[];
   /**
   * Specify the types of media chunk files to which parameters, extracted from playlist files, will be forwarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#forward_to_file_types CdnRule#forward_to_file_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#forward_to_file_types CdnRule#forward_to_file_types}
   */
   readonly forwardToFileTypes: string[];
 }
@@ -4552,11 +4552,11 @@ export class CdnRuleOptionsQueryStringForwardingOutputReference extends cdktf.Co
 }
 export interface CdnRuleOptionsRedirectHttpToHttps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -4666,11 +4666,11 @@ export class CdnRuleOptionsRedirectHttpToHttpsOutputReference extends cdktf.Comp
 }
 export interface CdnRuleOptionsRedirectHttpsToHttp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -4780,19 +4780,19 @@ export class CdnRuleOptionsRedirectHttpsToHttpOutputReference extends cdktf.Comp
 }
 export interface CdnRuleOptionsReferrerAcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify list of domain names or wildcard domains (without http:// or https://). For example, example.com or *.example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#excepted_values CdnRule#excepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#excepted_values CdnRule#excepted_values}
   */
   readonly exceptedValues: string[];
   /**
   * Possible values: allow, deny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#policy_type CdnRule#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#policy_type CdnRule#policy_type}
   */
   readonly policyType: string;
 }
@@ -4928,23 +4928,23 @@ export class CdnRuleOptionsReferrerAclOutputReference extends cdktf.ComplexObjec
 }
 export interface CdnRuleOptionsRequestLimiter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#burst CdnRule#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#burst CdnRule#burst}
   */
   readonly burst: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#delay CdnRule#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#delay CdnRule#delay}
   */
   readonly delay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#rate CdnRule#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#rate CdnRule#rate}
   */
   readonly rate: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#rate_unit CdnRule#rate_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#rate_unit CdnRule#rate_unit}
   */
   readonly rateUnit?: string;
 }
@@ -5138,19 +5138,19 @@ export class CdnRuleOptionsRequestLimiterOutputReference extends cdktf.ComplexOb
 }
 export interface CdnRuleOptionsResponseHeadersHidingPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of HTTP headers. The following required headers cannot be hidden from response: Connection, Content-Length, Content-Type, Date, Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#excepted CdnRule#excepted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#excepted CdnRule#excepted}
   */
   readonly excepted: string[];
   /**
   * Specify a mode of hiding HTTP headers from the response. Possible values are: hide, show.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#mode CdnRule#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#mode CdnRule#mode}
   */
   readonly mode: string;
 }
@@ -5288,17 +5288,17 @@ export interface CdnRuleOptionsRewrite {
   /**
   * The pattern for Rewrite. At least one group should be specified. For Example: /rewrite_from/(.*) /rewrite_to/$1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#body CdnRule#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#body CdnRule#body}
   */
   readonly body: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Define flag for the Rewrite option. Possible values: last, break, redirect, permanent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#flag CdnRule#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#flag CdnRule#flag}
   */
   readonly flag?: string;
 }
@@ -5437,19 +5437,19 @@ export class CdnRuleOptionsRewriteOutputReference extends cdktf.ComplexObject {
 }
 export interface CdnRuleOptionsSecureKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A key generated on your side that will be used for URL signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#key CdnRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#key CdnRule#key}
   */
   readonly key: string;
   /**
   * Specify the type of URL Signing. It can be either 0 or 2. Type 0 - includes end user's IP to secure token generation. Type 2 - excludes end user's IP from secure token generation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#type CdnRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#type CdnRule#type}
   */
   readonly type: number;
 }
@@ -5585,11 +5585,11 @@ export class CdnRuleOptionsSecureKeyOutputReference extends cdktf.ComplexObject 
 }
 export interface CdnRuleOptionsSlice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -5701,17 +5701,17 @@ export interface CdnRuleOptionsSni {
   /**
   * Custom SNI hostname. Required if sni_type is set to 'custom'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#custom_hostname CdnRule#custom_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#custom_hostname CdnRule#custom_hostname}
   */
   readonly customHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify SNI type. Possible values: dynamic, custom. dynamic - SNI hostname depends on the hostHeader and the forward_host_header options. custom - custom SNI hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#sni_type CdnRule#sni_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#sni_type CdnRule#sni_type}
   */
   readonly sniType?: string;
 }
@@ -5853,13 +5853,13 @@ export class CdnRuleOptionsSniOutputReference extends cdktf.ComplexObject {
 }
 export interface CdnRuleOptionsStale {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Possible values: error, http_403, http_404, http_429, http_500, http_502, http_503, http_504, invalid_header, timeout, updating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: string[];
 }
@@ -5969,13 +5969,13 @@ export class CdnRuleOptionsStaleOutputReference extends cdktf.ComplexObject {
 }
 export interface CdnRuleOptionsStaticRequestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Header name is restricted to 255 symbols and can contain latin letters (A-Z, a-z), numbers (0-9), dashes, and underscores. Header value is restricted to 512 symbols and can contain latin letters (a-z), numbers (0-9), spaces, underscores and symbols (-/.:). Space can be used only between words.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -6087,19 +6087,19 @@ export interface CdnRuleOptionsStaticResponseHeadersValue {
   /**
   * Specifies if the header will be added to a response from CDN regardless of response code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#always CdnRule#always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#always CdnRule#always}
   */
   readonly always?: boolean | cdktf.IResolvable;
   /**
   * Header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#name CdnRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#name CdnRule#name}
   */
   readonly name: string;
   /**
   * Header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: string[];
 }
@@ -6267,13 +6267,13 @@ export class CdnRuleOptionsStaticResponseHeadersValueList extends cdktf.ComplexL
 }
 export interface CdnRuleOptionsStaticResponseHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: CdnRuleOptionsStaticResponseHeadersValue[] | cdktf.IResolvable;
 }
@@ -6383,19 +6383,19 @@ export class CdnRuleOptionsStaticResponseHeadersOutputReference extends cdktf.Co
 }
 export interface CdnRuleOptionsUserAgentAcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of User-Agents. Use "" to allow/deny access when the User-Agent header is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#excepted_values CdnRule#excepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#excepted_values CdnRule#excepted_values}
   */
   readonly exceptedValues: string[];
   /**
   * Possible values: allow, deny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#policy_type CdnRule#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#policy_type CdnRule#policy_type}
   */
   readonly policyType: string;
 }
@@ -6531,11 +6531,11 @@ export class CdnRuleOptionsUserAgentAclOutputReference extends cdktf.ComplexObje
 }
 export interface CdnRuleOptionsWaap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -6645,11 +6645,11 @@ export class CdnRuleOptionsWaapOutputReference extends cdktf.ComplexObject {
 }
 export interface CdnRuleOptionsWaf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -6759,11 +6759,11 @@ export class CdnRuleOptionsWafOutputReference extends cdktf.ComplexObject {
 }
 export interface CdnRuleOptionsWebsockets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#enabled CdnRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#enabled CdnRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#value CdnRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#value CdnRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -6875,253 +6875,253 @@ export interface CdnRuleOptions {
   /**
   * allowed_http_methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#allowed_http_methods CdnRule#allowed_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#allowed_http_methods CdnRule#allowed_http_methods}
   */
   readonly allowedHttpMethods?: CdnRuleOptionsAllowedHttpMethods;
   /**
   * brotli_compression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#brotli_compression CdnRule#brotli_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#brotli_compression CdnRule#brotli_compression}
   */
   readonly brotliCompression?: CdnRuleOptionsBrotliCompression;
   /**
   * browser_cache_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#browser_cache_settings CdnRule#browser_cache_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#browser_cache_settings CdnRule#browser_cache_settings}
   */
   readonly browserCacheSettings?: CdnRuleOptionsBrowserCacheSettings;
   /**
   * cors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#cors CdnRule#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#cors CdnRule#cors}
   */
   readonly cors?: CdnRuleOptionsCors;
   /**
   * country_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#country_acl CdnRule#country_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#country_acl CdnRule#country_acl}
   */
   readonly countryAcl?: CdnRuleOptionsCountryAcl;
   /**
   * disable_proxy_force_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#disable_proxy_force_ranges CdnRule#disable_proxy_force_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#disable_proxy_force_ranges CdnRule#disable_proxy_force_ranges}
   */
   readonly disableProxyForceRanges?: CdnRuleOptionsDisableProxyForceRanges;
   /**
   * edge_cache_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#edge_cache_settings CdnRule#edge_cache_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#edge_cache_settings CdnRule#edge_cache_settings}
   */
   readonly edgeCacheSettings?: CdnRuleOptionsEdgeCacheSettings;
   /**
   * fastedge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#fastedge CdnRule#fastedge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#fastedge CdnRule#fastedge}
   */
   readonly fastedge?: CdnRuleOptionsFastedge;
   /**
   * fetch_compressed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#fetch_compressed CdnRule#fetch_compressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#fetch_compressed CdnRule#fetch_compressed}
   */
   readonly fetchCompressed?: CdnRuleOptionsFetchCompressed;
   /**
   * follow_origin_redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#follow_origin_redirect CdnRule#follow_origin_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#follow_origin_redirect CdnRule#follow_origin_redirect}
   */
   readonly followOriginRedirect?: CdnRuleOptionsFollowOriginRedirect;
   /**
   * force_return block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#force_return CdnRule#force_return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#force_return CdnRule#force_return}
   */
   readonly forceReturn?: CdnRuleOptionsForceReturn;
   /**
   * forward_host_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#forward_host_header CdnRule#forward_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#forward_host_header CdnRule#forward_host_header}
   */
   readonly forwardHostHeader?: CdnRuleOptionsForwardHostHeader;
   /**
   * gzip_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#gzip_on CdnRule#gzip_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#gzip_on CdnRule#gzip_on}
   */
   readonly gzipOn?: CdnRuleOptionsGzipOn;
   /**
   * host_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#host_header CdnRule#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#host_header CdnRule#host_header}
   */
   readonly hostHeader?: CdnRuleOptionsHostHeader;
   /**
   * ignore_cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#ignore_cookie CdnRule#ignore_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#ignore_cookie CdnRule#ignore_cookie}
   */
   readonly ignoreCookie?: CdnRuleOptionsIgnoreCookie;
   /**
   * ignore_query_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#ignore_query_string CdnRule#ignore_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#ignore_query_string CdnRule#ignore_query_string}
   */
   readonly ignoreQueryString?: CdnRuleOptionsIgnoreQueryString;
   /**
   * image_stack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#image_stack CdnRule#image_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#image_stack CdnRule#image_stack}
   */
   readonly imageStack?: CdnRuleOptionsImageStack;
   /**
   * ip_address_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#ip_address_acl CdnRule#ip_address_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#ip_address_acl CdnRule#ip_address_acl}
   */
   readonly ipAddressAcl?: CdnRuleOptionsIpAddressAcl;
   /**
   * limit_bandwidth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#limit_bandwidth CdnRule#limit_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#limit_bandwidth CdnRule#limit_bandwidth}
   */
   readonly limitBandwidth?: CdnRuleOptionsLimitBandwidth;
   /**
   * proxy_cache_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#proxy_cache_key CdnRule#proxy_cache_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#proxy_cache_key CdnRule#proxy_cache_key}
   */
   readonly proxyCacheKey?: CdnRuleOptionsProxyCacheKey;
   /**
   * proxy_cache_methods_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#proxy_cache_methods_set CdnRule#proxy_cache_methods_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#proxy_cache_methods_set CdnRule#proxy_cache_methods_set}
   */
   readonly proxyCacheMethodsSet?: CdnRuleOptionsProxyCacheMethodsSet;
   /**
   * proxy_connect_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#proxy_connect_timeout CdnRule#proxy_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#proxy_connect_timeout CdnRule#proxy_connect_timeout}
   */
   readonly proxyConnectTimeout?: CdnRuleOptionsProxyConnectTimeout;
   /**
   * proxy_read_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#proxy_read_timeout CdnRule#proxy_read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#proxy_read_timeout CdnRule#proxy_read_timeout}
   */
   readonly proxyReadTimeout?: CdnRuleOptionsProxyReadTimeout;
   /**
   * query_params_blacklist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#query_params_blacklist CdnRule#query_params_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#query_params_blacklist CdnRule#query_params_blacklist}
   */
   readonly queryParamsBlacklist?: CdnRuleOptionsQueryParamsBlacklistStruct;
   /**
   * query_params_whitelist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#query_params_whitelist CdnRule#query_params_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#query_params_whitelist CdnRule#query_params_whitelist}
   */
   readonly queryParamsWhitelist?: CdnRuleOptionsQueryParamsWhitelistStruct;
   /**
   * query_string_forwarding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#query_string_forwarding CdnRule#query_string_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#query_string_forwarding CdnRule#query_string_forwarding}
   */
   readonly queryStringForwarding?: CdnRuleOptionsQueryStringForwarding;
   /**
   * redirect_http_to_https block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#redirect_http_to_https CdnRule#redirect_http_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#redirect_http_to_https CdnRule#redirect_http_to_https}
   */
   readonly redirectHttpToHttps?: CdnRuleOptionsRedirectHttpToHttps;
   /**
   * redirect_https_to_http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#redirect_https_to_http CdnRule#redirect_https_to_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#redirect_https_to_http CdnRule#redirect_https_to_http}
   */
   readonly redirectHttpsToHttp?: CdnRuleOptionsRedirectHttpsToHttp;
   /**
   * referrer_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#referrer_acl CdnRule#referrer_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#referrer_acl CdnRule#referrer_acl}
   */
   readonly referrerAcl?: CdnRuleOptionsReferrerAcl;
   /**
   * request_limiter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#request_limiter CdnRule#request_limiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#request_limiter CdnRule#request_limiter}
   */
   readonly requestLimiter?: CdnRuleOptionsRequestLimiter;
   /**
   * response_headers_hiding_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#response_headers_hiding_policy CdnRule#response_headers_hiding_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#response_headers_hiding_policy CdnRule#response_headers_hiding_policy}
   */
   readonly responseHeadersHidingPolicy?: CdnRuleOptionsResponseHeadersHidingPolicy;
   /**
   * rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#rewrite CdnRule#rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#rewrite CdnRule#rewrite}
   */
   readonly rewrite?: CdnRuleOptionsRewrite;
   /**
   * secure_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#secure_key CdnRule#secure_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#secure_key CdnRule#secure_key}
   */
   readonly secureKey?: CdnRuleOptionsSecureKey;
   /**
   * slice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#slice CdnRule#slice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#slice CdnRule#slice}
   */
   readonly slice?: CdnRuleOptionsSlice;
   /**
   * sni block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#sni CdnRule#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#sni CdnRule#sni}
   */
   readonly sni?: CdnRuleOptionsSni;
   /**
   * stale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#stale CdnRule#stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#stale CdnRule#stale}
   */
   readonly stale?: CdnRuleOptionsStale;
   /**
   * static_request_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#static_request_headers CdnRule#static_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#static_request_headers CdnRule#static_request_headers}
   */
   readonly staticRequestHeaders?: CdnRuleOptionsStaticRequestHeaders;
   /**
   * static_response_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#static_response_headers CdnRule#static_response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#static_response_headers CdnRule#static_response_headers}
   */
   readonly staticResponseHeaders?: CdnRuleOptionsStaticResponseHeaders;
   /**
   * user_agent_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#user_agent_acl CdnRule#user_agent_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#user_agent_acl CdnRule#user_agent_acl}
   */
   readonly userAgentAcl?: CdnRuleOptionsUserAgentAcl;
   /**
   * waap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#waap CdnRule#waap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#waap CdnRule#waap}
   */
   readonly waap?: CdnRuleOptionsWaap;
   /**
   * waf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#waf CdnRule#waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#waf CdnRule#waf}
   */
   readonly waf?: CdnRuleOptionsWaf;
   /**
   * websockets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#websockets CdnRule#websockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#websockets CdnRule#websockets}
   */
   readonly websockets?: CdnRuleOptionsWebsockets;
 }
@@ -8394,7 +8394,7 @@ export class CdnRuleOptionsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule gcore_cdn_rule}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule gcore_cdn_rule}
 */
 export class CdnRule extends cdktf.TerraformResource {
 
@@ -8410,7 +8410,7 @@ export class CdnRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnRule to import
-  * @param importFromId The id of the existing CdnRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8422,7 +8422,7 @@ export class CdnRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/cdn_rule gcore_cdn_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/cdn_rule gcore_cdn_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8433,8 +8433,8 @@ export class CdnRule extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_cdn_rule',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.1',
-        providerVersionConstraint: '0.32.1'
+        providerVersion: '0.32.2',
+        providerVersionConstraint: '0.32.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

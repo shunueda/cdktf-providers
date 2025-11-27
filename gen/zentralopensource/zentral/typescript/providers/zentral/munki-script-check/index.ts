@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface MunkiScriptCheckConfig extends cdktf.TerraformMetaArguments {
   /**
   * If `true`, this Munki script check will be scheduled on Intel machines. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check#arch_amd64 MunkiScriptCheck#arch_amd64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check#arch_amd64 MunkiScriptCheck#arch_amd64}
   */
   readonly archAmd64?: boolean | cdktf.IResolvable;
   /**
   * If `true`, this Munki script check will be scheduled on Apple Silicon machines. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check#arch_arm64 MunkiScriptCheck#arch_arm64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check#arch_arm64 MunkiScriptCheck#arch_arm64}
   */
   readonly archArm64?: boolean | cdktf.IResolvable;
   /**
   * Description of the Munki script check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check#description MunkiScriptCheck#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check#description MunkiScriptCheck#description}
   */
   readonly description?: string;
   /**
   * The IDs of the tags this Munki script check is not scoped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check#excluded_tag_ids MunkiScriptCheck#excluded_tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check#excluded_tag_ids MunkiScriptCheck#excluded_tag_ids}
   */
   readonly excludedTagIds?: number[];
   /**
   * Expected result of the Munki script check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check#expected_result MunkiScriptCheck#expected_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check#expected_result MunkiScriptCheck#expected_result}
   */
   readonly expectedResult: string;
   /**
   * This Munki script check will be scheduled on machines with an OS version lower than this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check#max_os_version MunkiScriptCheck#max_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check#max_os_version MunkiScriptCheck#max_os_version}
   */
   readonly maxOsVersion?: string;
   /**
   * This Munki script check will be scheduled on machines with an OS version higher or equal to this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check#min_os_version MunkiScriptCheck#min_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check#min_os_version MunkiScriptCheck#min_os_version}
   */
   readonly minOsVersion?: string;
   /**
   * Name of the Munki script check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check#name MunkiScriptCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check#name MunkiScriptCheck#name}
   */
   readonly name: string;
   /**
   * Source of the Munki script check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check#source MunkiScriptCheck#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check#source MunkiScriptCheck#source}
   */
   readonly source: string;
   /**
   * The IDs of the tags this Munki script check is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check#tag_ids MunkiScriptCheck#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check#tag_ids MunkiScriptCheck#tag_ids}
   */
   readonly tagIds?: number[];
   /**
   * Type of the script check. Can be `ZSH_STR`, `ZSH_INT` or `ZSH_BOOL`. Defaults to `ZSH_STR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check#type MunkiScriptCheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check#type MunkiScriptCheck#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check zentral_munki_script_check}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check zentral_munki_script_check}
 */
 export class MunkiScriptCheck extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class MunkiScriptCheck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MunkiScriptCheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MunkiScriptCheck to import
-  * @param importFromId The id of the existing MunkiScriptCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MunkiScriptCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MunkiScriptCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class MunkiScriptCheck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/munki_script_check zentral_munki_script_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/munki_script_check zentral_munki_script_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class MunkiScriptCheck extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_munki_script_check',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64',
-        providerVersionConstraint: '0.1.64'
+        providerVersion: '0.1.65',
+        providerVersionConstraint: '0.1.65'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

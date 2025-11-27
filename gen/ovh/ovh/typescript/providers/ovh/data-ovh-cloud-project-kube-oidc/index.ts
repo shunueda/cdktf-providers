@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface DataOvhCloudProjectKubeOidcConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#client_id DataOvhCloudProjectKubeOidc#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#client_id DataOvhCloudProjectKubeOidc#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#id DataOvhCloudProjectKubeOidc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#id DataOvhCloudProjectKubeOidc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#issuer_url DataOvhCloudProjectKubeOidc#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#issuer_url DataOvhCloudProjectKubeOidc#issuer_url}
   */
   readonly issuerUrl?: string;
   /**
   * Kube ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#kube_id DataOvhCloudProjectKubeOidc#kube_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#kube_id DataOvhCloudProjectKubeOidc#kube_id}
   */
   readonly kubeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#oidc_ca_content DataOvhCloudProjectKubeOidc#oidc_ca_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#oidc_ca_content DataOvhCloudProjectKubeOidc#oidc_ca_content}
   */
   readonly oidcCaContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#oidc_groups_claim DataOvhCloudProjectKubeOidc#oidc_groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#oidc_groups_claim DataOvhCloudProjectKubeOidc#oidc_groups_claim}
   */
   readonly oidcGroupsClaim?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#oidc_groups_prefix DataOvhCloudProjectKubeOidc#oidc_groups_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#oidc_groups_prefix DataOvhCloudProjectKubeOidc#oidc_groups_prefix}
   */
   readonly oidcGroupsPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#oidc_required_claim DataOvhCloudProjectKubeOidc#oidc_required_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#oidc_required_claim DataOvhCloudProjectKubeOidc#oidc_required_claim}
   */
   readonly oidcRequiredClaim?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#oidc_signing_algs DataOvhCloudProjectKubeOidc#oidc_signing_algs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#oidc_signing_algs DataOvhCloudProjectKubeOidc#oidc_signing_algs}
   */
   readonly oidcSigningAlgs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#oidc_username_claim DataOvhCloudProjectKubeOidc#oidc_username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#oidc_username_claim DataOvhCloudProjectKubeOidc#oidc_username_claim}
   */
   readonly oidcUsernameClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#oidc_username_prefix DataOvhCloudProjectKubeOidc#oidc_username_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#oidc_username_prefix DataOvhCloudProjectKubeOidc#oidc_username_prefix}
   */
   readonly oidcUsernamePrefix?: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#service_name DataOvhCloudProjectKubeOidc#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#service_name DataOvhCloudProjectKubeOidc#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc ovh_cloud_project_kube_oidc}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc ovh_cloud_project_kube_oidc}
 */
 export class DataOvhCloudProjectKubeOidc extends cdktf.TerraformDataSource {
 
@@ -81,7 +81,7 @@ export class DataOvhCloudProjectKubeOidc extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhCloudProjectKubeOidc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhCloudProjectKubeOidc to import
-  * @param importFromId The id of the existing DataOvhCloudProjectKubeOidc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhCloudProjectKubeOidc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhCloudProjectKubeOidc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class DataOvhCloudProjectKubeOidc extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_kube_oidc ovh_cloud_project_kube_oidc} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_kube_oidc ovh_cloud_project_kube_oidc} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class DataOvhCloudProjectKubeOidc extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_cloud_project_kube_oidc',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

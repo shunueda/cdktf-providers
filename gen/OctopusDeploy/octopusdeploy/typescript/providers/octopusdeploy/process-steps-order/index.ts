@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/process_steps_order
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/process_steps_order
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ProcessStepsOrderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Id of the process steps belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/process_steps_order#process_id ProcessStepsOrder#process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/process_steps_order#process_id ProcessStepsOrder#process_id}
   */
   readonly processId: string;
   /**
   * The space ID associated with this process_steps_order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/process_steps_order#space_id ProcessStepsOrder#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/process_steps_order#space_id ProcessStepsOrder#space_id}
   */
   readonly spaceId?: string;
   /**
   * Steps in the order of execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/process_steps_order#steps ProcessStepsOrder#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/process_steps_order#steps ProcessStepsOrder#steps}
   */
   readonly steps: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/process_steps_order octopusdeploy_process_steps_order}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/process_steps_order octopusdeploy_process_steps_order}
 */
 export class ProcessStepsOrder extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ProcessStepsOrder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProcessStepsOrder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProcessStepsOrder to import
-  * @param importFromId The id of the existing ProcessStepsOrder that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/process_steps_order#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProcessStepsOrder that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/process_steps_order#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProcessStepsOrder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ProcessStepsOrder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/process_steps_order octopusdeploy_process_steps_order} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/process_steps_order octopusdeploy_process_steps_order} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ProcessStepsOrder extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_process_steps_order',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

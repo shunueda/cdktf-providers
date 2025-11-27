@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_role_permission_stream
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_role_permission_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DbaasLogsRolePermissionStreamConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_role_permission_stream#id DbaasLogsRolePermissionStream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_role_permission_stream#id DbaasLogsRolePermissionStream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DbaasLogsRolePermissionStreamConfig extends cdktf.TerraformMeta
   /**
   * Role ID to which the permission will be appended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_role_permission_stream#role_id DbaasLogsRolePermissionStream#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_role_permission_stream#role_id DbaasLogsRolePermissionStream#role_id}
   */
   readonly roleId: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_role_permission_stream#service_name DbaasLogsRolePermissionStream#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_role_permission_stream#service_name DbaasLogsRolePermissionStream#service_name}
   */
   readonly serviceName: string;
   /**
   * Graylog stream ID to be associated as a permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_role_permission_stream#stream_id DbaasLogsRolePermissionStream#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_role_permission_stream#stream_id DbaasLogsRolePermissionStream#stream_id}
   */
   readonly streamId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_role_permission_stream ovh_dbaas_logs_role_permission_stream}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_role_permission_stream ovh_dbaas_logs_role_permission_stream}
 */
 export class DbaasLogsRolePermissionStream extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class DbaasLogsRolePermissionStream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasLogsRolePermissionStream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasLogsRolePermissionStream to import
-  * @param importFromId The id of the existing DbaasLogsRolePermissionStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_role_permission_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasLogsRolePermissionStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_role_permission_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasLogsRolePermissionStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DbaasLogsRolePermissionStream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_role_permission_stream ovh_dbaas_logs_role_permission_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_role_permission_stream ovh_dbaas_logs_role_permission_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DbaasLogsRolePermissionStream extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_dbaas_logs_role_permission_stream',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ipv6_dhcp_server_option_sets
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_dhcp_server_option_sets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface Ipv6DhcpServerOptionSetsConfig extends cdktf.TerraformMetaArgum
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ipv6_dhcp_server_option_sets#___path___ Ipv6DhcpServerOptionSets#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_dhcp_server_option_sets#___path___ Ipv6DhcpServerOptionSets#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ipv6_dhcp_server_option_sets#comment Ipv6DhcpServerOptionSets#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_dhcp_server_option_sets#comment Ipv6DhcpServerOptionSets#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ipv6_dhcp_server_option_sets#id Ipv6DhcpServerOptionSets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_dhcp_server_option_sets#id Ipv6DhcpServerOptionSets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,19 +27,19 @@ export interface Ipv6DhcpServerOptionSetsConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of the DHCPv6 option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ipv6_dhcp_server_option_sets#name Ipv6DhcpServerOptionSets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_dhcp_server_option_sets#name Ipv6DhcpServerOptionSets#name}
   */
   readonly name: string;
   /**
   * The list of options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ipv6_dhcp_server_option_sets#options Ipv6DhcpServerOptionSets#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_dhcp_server_option_sets#options Ipv6DhcpServerOptionSets#options}
   */
   readonly options?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ipv6_dhcp_server_option_sets routeros_ipv6_dhcp_server_option_sets}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_dhcp_server_option_sets routeros_ipv6_dhcp_server_option_sets}
 */
 export class Ipv6DhcpServerOptionSets extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class Ipv6DhcpServerOptionSets extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6DhcpServerOptionSets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6DhcpServerOptionSets to import
-  * @param importFromId The id of the existing Ipv6DhcpServerOptionSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ipv6_dhcp_server_option_sets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6DhcpServerOptionSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_dhcp_server_option_sets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6DhcpServerOptionSets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class Ipv6DhcpServerOptionSets extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ipv6_dhcp_server_option_sets routeros_ipv6_dhcp_server_option_sets} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_dhcp_server_option_sets routeros_ipv6_dhcp_server_option_sets} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class Ipv6DhcpServerOptionSets extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ipv6_dhcp_server_option_sets',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

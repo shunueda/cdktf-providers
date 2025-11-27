@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface OvpnServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#___path___ OvpnServer#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#___path___ OvpnServer#___path___}
   */
   readonly path?: string;
   /**
   * Authentication methods that the server will accept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#auth OvpnServer#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#auth OvpnServer#auth}
   */
   readonly auth?: string[];
   /**
   * Name of the certificate that the OVPN server will use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#certificate OvpnServer#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#certificate OvpnServer#certificate}
   */
   readonly certificate?: string;
   /**
   * Allowed ciphers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#cipher OvpnServer#cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#cipher OvpnServer#cipher}
   */
   readonly cipher?: string[];
   /**
   * Default profile to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#default_profile OvpnServer#default_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#default_profile OvpnServer#default_profile}
   */
   readonly defaultProfile?: string;
   /**
   * Specifies if IPv6 IP tunneling mode should be possible with this OVPN server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#enable_tun_ipv6 OvpnServer#enable_tun_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#enable_tun_ipv6 OvpnServer#enable_tun_ipv6}
   */
   readonly enableTunIpv6?: boolean | cdktf.IResolvable;
   /**
   * Defines whether the OVPN server is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#enabled OvpnServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#enabled OvpnServer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#id OvpnServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#id OvpnServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,55 +59,55 @@ export interface OvpnServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Length of IPv6 prefix for IPv6 address which will be used when generating OVPN interface on the server side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#ipv6_prefix_len OvpnServer#ipv6_prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#ipv6_prefix_len OvpnServer#ipv6_prefix_len}
   */
   readonly ipv6PrefixLen?: number;
   /**
   * Defines  the time period (in seconds) after which the router is starting to send  keepalive packets every second. If no traffic and no keepalive  responses have come for that period of time (i.e. 2 *  keepalive-timeout), not responding client is proclaimed disconnected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#keepalive_timeout OvpnServer#keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#keepalive_timeout OvpnServer#keepalive_timeout}
   */
   readonly keepaliveTimeout?: string;
   /**
   * Automatically generated MAC address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#mac_address OvpnServer#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#mac_address OvpnServer#mac_address}
   */
   readonly macAddress?: string;
   /**
   * Maximum Transmission Unit. Max packet size that the OVPN interface will be able to send without packet fragmentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#max_mtu OvpnServer#max_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#max_mtu OvpnServer#max_mtu}
   */
   readonly maxMtu?: number;
   /**
   * Layer3 or layer2 tunnel mode (alternatively tun, tap)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#mode OvpnServer#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#mode OvpnServer#mode}
   */
   readonly mode?: string;
   /**
   * Subnet mask to be applied to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#netmask OvpnServer#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#netmask OvpnServer#netmask}
   */
   readonly netmask?: number;
   /**
   * Port to run the server on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#port OvpnServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#port OvpnServer#port}
   */
   readonly port?: number;
   /**
   * indicates the protocol to use when connecting with the remote endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#protocol OvpnServer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#protocol OvpnServer#protocol}
   */
   readonly protocol?: string;
   /**
   * Push routes to the VPN client (available since RouterOS 7.14).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#push_routes OvpnServer#push_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#push_routes OvpnServer#push_routes}
   */
   readonly pushRoutes?: string[];
   /**
@@ -116,37 +116,37 @@ export interface OvpnServerConfig extends cdktf.TerraformMetaArguments {
   *   * disabled - Do not send redirect-gateway flags to the OVPN client.
   *   * ipv6 - Redirect IPv6 routing into the tunnel on the client side. This works  similarly to the def1 flag, that is, more specific IPv6 routes are added  (2000::/4 and 3000::/4), covering the whole IPv6 unicast space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#redirect_gateway OvpnServer#redirect_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#redirect_gateway OvpnServer#redirect_gateway}
   */
   readonly redirectGateway?: string[];
   /**
   * Renegotiate data channel key after n seconds (default=3600).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#reneg_sec OvpnServer#reneg_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#reneg_sec OvpnServer#reneg_sec}
   */
   readonly renegSec?: number;
   /**
   * If set to yes, then the server checks whether the client's certificate belongs to the same certificate chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#require_client_certificate OvpnServer#require_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#require_client_certificate OvpnServer#require_client_certificate}
   */
   readonly requireClientCertificate?: boolean | cdktf.IResolvable;
   /**
   * Specifies which TLS versions to allow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#tls_version OvpnServer#tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#tls_version OvpnServer#tls_version}
   */
   readonly tlsVersion?: string;
   /**
   * IPv6 prefix address which will be used when generating the OVPN interface on the server side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#tun_server_ipv6 OvpnServer#tun_server_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#tun_server_ipv6 OvpnServer#tun_server_ipv6}
   */
   readonly tunServerIpv6?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server routeros_ovpn_server}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server routeros_ovpn_server}
 */
 export class OvpnServer extends cdktf.TerraformResource {
 
@@ -162,7 +162,7 @@ export class OvpnServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OvpnServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OvpnServer to import
-  * @param importFromId The id of the existing OvpnServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OvpnServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OvpnServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class OvpnServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ovpn_server routeros_ovpn_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ovpn_server routeros_ovpn_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class OvpnServer extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ovpn_server',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

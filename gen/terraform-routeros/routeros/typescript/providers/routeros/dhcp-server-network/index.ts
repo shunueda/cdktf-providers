@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,69 +10,69 @@ export interface DhcpServerNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#___path___ DhcpServerNetwork#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#___path___ DhcpServerNetwork#___path___}
   */
   readonly path?: string;
   /**
   * The network DHCP server(s) will lease addresses from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#address DhcpServerNetwork#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#address DhcpServerNetwork#address}
   */
   readonly address: string;
   /**
   * Boot filename.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#boot_file_name DhcpServerNetwork#boot_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#boot_file_name DhcpServerNetwork#boot_file_name}
   */
   readonly bootFileName?: string;
   /**
   * A list of IP addresses for one or more CAPsMAN system managers. DHCP Option 138 (capwap) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#caps_manager DhcpServerNetwork#caps_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#caps_manager DhcpServerNetwork#caps_manager}
   */
   readonly capsManager?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#comment DhcpServerNetwork#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#comment DhcpServerNetwork#comment}
   */
   readonly comment?: string;
   /**
   * Add additional DHCP options from the option list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#dhcp_option DhcpServerNetwork#dhcp_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#dhcp_option DhcpServerNetwork#dhcp_option}
   */
   readonly dhcpOption?: string[];
   /**
   * Add an additional set of DHCP options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#dhcp_option_set DhcpServerNetwork#dhcp_option_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#dhcp_option_set DhcpServerNetwork#dhcp_option_set}
   */
   readonly dhcpOptionSet?: string;
   /**
   * If set, then DHCP Server will not pass dynamic DNS servers configured on the router to the DHCP clients if no DNS Server in DNS-server is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#dns_none DhcpServerNetwork#dns_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#dns_none DhcpServerNetwork#dns_none}
   */
   readonly dnsNone?: boolean | cdktf.IResolvable;
   /**
   * The DHCP client will use these as the default DNS servers. Two DNS servers can be specified to be used by the DHCP client as primary and secondary DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#dns_server DhcpServerNetwork#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#dns_server DhcpServerNetwork#dns_server}
   */
   readonly dnsServer?: string[];
   /**
   * The DHCP client will use this as the 'DNS domain' setting for the network adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#domain DhcpServerNetwork#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#domain DhcpServerNetwork#domain}
   */
   readonly domain?: string;
   /**
   * The default gateway to be used by DHCP Client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#gateway DhcpServerNetwork#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#gateway DhcpServerNetwork#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#id DhcpServerNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#id DhcpServerNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,37 +81,37 @@ export interface DhcpServerNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The actual network mask is to be used by the DHCP client. If set to '0' - netmask from network address will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#netmask DhcpServerNetwork#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#netmask DhcpServerNetwork#netmask}
   */
   readonly netmask?: number;
   /**
   * The IP address of the next server to use in bootstrap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#next_server DhcpServerNetwork#next_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#next_server DhcpServerNetwork#next_server}
   */
   readonly nextServer?: string;
   /**
   * If set, then DHCP Server will not pass NTP servers configured on the router to the DHCP clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#ntp_none DhcpServerNetwork#ntp_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#ntp_none DhcpServerNetwork#ntp_none}
   */
   readonly ntpNone?: boolean | cdktf.IResolvable;
   /**
   * The DHCP client will use these as the default NTP servers. Two NTP servers can be specified to be used by the DHCP client as primary and secondary NTP servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#ntp_server DhcpServerNetwork#ntp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#ntp_server DhcpServerNetwork#ntp_server}
   */
   readonly ntpServer?: string[];
   /**
   * The Windows DHCP client will use these as the default WINS servers. Two WINS servers can be specified to be used by the DHCP client as primary and secondary WINS servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#wins_server DhcpServerNetwork#wins_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#wins_server DhcpServerNetwork#wins_server}
   */
   readonly winsServer?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network routeros_dhcp_server_network}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network routeros_dhcp_server_network}
 */
 export class DhcpServerNetwork extends cdktf.TerraformResource {
 
@@ -127,7 +127,7 @@ export class DhcpServerNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DhcpServerNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DhcpServerNetwork to import
-  * @param importFromId The id of the existing DhcpServerNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DhcpServerNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DhcpServerNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DhcpServerNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/dhcp_server_network routeros_dhcp_server_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/dhcp_server_network routeros_dhcp_server_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class DhcpServerNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_dhcp_server_network',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

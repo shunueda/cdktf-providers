@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_prometheus
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_prometheus
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,24 +10,24 @@ export interface DataOvhCloudProjectDatabasePrometheusConfig extends cdktf.Terra
   /**
   * Id of the database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_prometheus#cluster_id DataOvhCloudProjectDatabasePrometheus#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_prometheus#cluster_id DataOvhCloudProjectDatabasePrometheus#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Name of the engine of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_prometheus#engine DataOvhCloudProjectDatabasePrometheus#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_prometheus#engine DataOvhCloudProjectDatabasePrometheus#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_prometheus#id DataOvhCloudProjectDatabasePrometheus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_prometheus#id DataOvhCloudProjectDatabasePrometheus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_prometheus#service_name DataOvhCloudProjectDatabasePrometheus#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_prometheus#service_name DataOvhCloudProjectDatabasePrometheus#service_name}
   */
   readonly serviceName: string;
 }
@@ -113,7 +113,7 @@ export class DataOvhCloudProjectDatabasePrometheusTargetsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_prometheus ovh_cloud_project_database_prometheus}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_prometheus ovh_cloud_project_database_prometheus}
 */
 export class DataOvhCloudProjectDatabasePrometheus extends cdktf.TerraformDataSource {
 
@@ -129,7 +129,7 @@ export class DataOvhCloudProjectDatabasePrometheus extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataOvhCloudProjectDatabasePrometheus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhCloudProjectDatabasePrometheus to import
-  * @param importFromId The id of the existing DataOvhCloudProjectDatabasePrometheus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_prometheus#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhCloudProjectDatabasePrometheus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_prometheus#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhCloudProjectDatabasePrometheus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class DataOvhCloudProjectDatabasePrometheus extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_prometheus ovh_cloud_project_database_prometheus} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_prometheus ovh_cloud_project_database_prometheus} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class DataOvhCloudProjectDatabasePrometheus extends cdktf.TerraformDataSo
       terraformResourceType: 'ovh_cloud_project_database_prometheus',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

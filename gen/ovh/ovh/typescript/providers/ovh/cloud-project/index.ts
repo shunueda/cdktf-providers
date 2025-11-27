@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface CloudProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#description CloudProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#description CloudProject#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#id CloudProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#id CloudProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,37 +21,37 @@ export interface CloudProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ovh Subsidiary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#ovh_subsidiary CloudProject#ovh_subsidiary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#ovh_subsidiary CloudProject#ovh_subsidiary}
   */
   readonly ovhSubsidiary?: string;
   /**
   * Ovh payment mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#payment_mean CloudProject#payment_mean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#payment_mean CloudProject#payment_mean}
   */
   readonly paymentMean?: string;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#order CloudProject#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#order CloudProject#order}
   */
   readonly order?: CloudProjectOrder[] | cdktf.IResolvable;
   /**
   * plan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#plan CloudProject#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#plan CloudProject#plan}
   */
   readonly plan?: CloudProjectPlan;
   /**
   * plan_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#plan_option CloudProject#plan_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#plan_option CloudProject#plan_option}
   */
   readonly planOption?: CloudProjectPlanOption[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#timeouts CloudProject#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#timeouts CloudProject#timeouts}
   */
   readonly timeouts?: CloudProjectTimeouts;
 }
@@ -251,13 +251,13 @@ export interface CloudProjectPlanConfiguration {
   /**
   * Identifier of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#label CloudProject#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#label CloudProject#label}
   */
   readonly label: string;
   /**
   * Path to the resource in API.OVH.COM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#value CloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#value CloudProject#value}
   */
   readonly value: string;
 }
@@ -398,31 +398,31 @@ export interface CloudProjectPlan {
   /**
   * Catalog name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#catalog_name CloudProject#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#catalog_name CloudProject#catalog_name}
   */
   readonly catalogName?: string;
   /**
   * duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#duration CloudProject#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#duration CloudProject#duration}
   */
   readonly duration: string;
   /**
   * Plan code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#plan_code CloudProject#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#plan_code CloudProject#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing model identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#pricing_mode CloudProject#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#pricing_mode CloudProject#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#configuration CloudProject#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#configuration CloudProject#configuration}
   */
   readonly configuration?: CloudProjectPlanConfiguration[] | cdktf.IResolvable;
 }
@@ -615,13 +615,13 @@ export interface CloudProjectPlanOptionConfiguration {
   /**
   * Identifier of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#label CloudProject#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#label CloudProject#label}
   */
   readonly label: string;
   /**
   * Path to the resource in API.OVH.COM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#value CloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#value CloudProject#value}
   */
   readonly value: string;
 }
@@ -762,31 +762,31 @@ export interface CloudProjectPlanOption {
   /**
   * Catalog name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#catalog_name CloudProject#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#catalog_name CloudProject#catalog_name}
   */
   readonly catalogName?: string;
   /**
   * duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#duration CloudProject#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#duration CloudProject#duration}
   */
   readonly duration: string;
   /**
   * Plan code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#plan_code CloudProject#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#plan_code CloudProject#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing model identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#pricing_mode CloudProject#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#pricing_mode CloudProject#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#configuration CloudProject#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#configuration CloudProject#configuration}
   */
   readonly configuration?: CloudProjectPlanOptionConfiguration[] | cdktf.IResolvable;
 }
@@ -1009,7 +1009,7 @@ export class CloudProjectPlanOptionList extends cdktf.ComplexList {
 }
 export interface CloudProjectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#create CloudProject#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#create CloudProject#create}
   */
   readonly create?: string;
 }
@@ -1103,7 +1103,7 @@ export class CloudProjectTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project ovh_cloud_project}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project ovh_cloud_project}
 */
 export class CloudProject extends cdktf.TerraformResource {
 
@@ -1119,7 +1119,7 @@ export class CloudProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProject to import
-  * @param importFromId The id of the existing CloudProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1131,7 +1131,7 @@ export class CloudProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project ovh_cloud_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project ovh_cloud_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1142,8 +1142,8 @@ export class CloudProject extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

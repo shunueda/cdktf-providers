@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,89 +10,89 @@ export interface VpsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set the name displayed in Manager for your VPS (max 50 chars)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#display_name Vps#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#display_name Vps#display_name}
   */
   readonly displayName?: string;
   /**
   * Id of the image to install on the VPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#image_id Vps#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#image_id Vps#image_id}
   */
   readonly imageId?: string;
   /**
   * KVM keyboard layout on VPS Cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#keymap Vps#keymap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#keymap Vps#keymap}
   */
   readonly keymap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#memory_limit Vps#memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#memory_limit Vps#memory_limit}
   */
   readonly memoryLimit?: number;
   /**
   * A structure describing characteristics of a VPS model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#model Vps#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#model Vps#model}
   */
   readonly model?: VpsModel;
   /**
   * Ip blocks for OVH monitoring servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#monitoring_ip_blocks Vps#monitoring_ip_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#monitoring_ip_blocks Vps#monitoring_ip_blocks}
   */
   readonly monitoringIpBlocks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#name Vps#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#name Vps#name}
   */
   readonly name?: string;
   /**
   * All values a VPS netboot mode can be in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#netboot_mode Vps#netboot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#netboot_mode Vps#netboot_mode}
   */
   readonly netbootMode?: string;
   /**
   * All offers a VPS can have
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#offer_type Vps#offer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#offer_type Vps#offer_type}
   */
   readonly offerType?: string;
   /**
   * OVH subsidiaries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#ovh_subsidiary Vps#ovh_subsidiary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#ovh_subsidiary Vps#ovh_subsidiary}
   */
   readonly ovhSubsidiary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#plan Vps#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#plan Vps#plan}
   */
   readonly plan?: VpsPlan[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#plan_option Vps#plan_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#plan_option Vps#plan_option}
   */
   readonly planOption?: VpsPlanOption[] | cdktf.IResolvable;
   /**
   * Public SSH key to pre-install on your VPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#public_ssh_key Vps#public_ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#public_ssh_key Vps#public_ssh_key}
   */
   readonly publicSshKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#sla_monitoring Vps#sla_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#sla_monitoring Vps#sla_monitoring}
   */
   readonly slaMonitoring?: boolean | cdktf.IResolvable;
   /**
   * All states a VPS can be in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#state Vps#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#state Vps#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#vcore Vps#vcore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#vcore Vps#vcore}
   */
   readonly vcore?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#zone Vps#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#zone Vps#zone}
   */
   readonly zone?: string;
 }
@@ -168,41 +168,41 @@ export class VpsIamOutputReference extends cdktf.ComplexObject {
 }
 export interface VpsModel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#available_options Vps#available_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#available_options Vps#available_options}
   */
   readonly availableOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#datacenter Vps#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#datacenter Vps#datacenter}
   */
   readonly datacenter?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#disk Vps#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#disk Vps#disk}
   */
   readonly disk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#maximum_additionnal_ip Vps#maximum_additionnal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#maximum_additionnal_ip Vps#maximum_additionnal_ip}
   */
   readonly maximumAdditionnalIp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#memory Vps#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#memory Vps#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#name Vps#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#name Vps#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#offer Vps#offer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#offer Vps#offer}
   */
   readonly offer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#vcore Vps#vcore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#vcore Vps#vcore}
   */
   readonly vcore?: number;
   /**
   * All versions that VPS can have
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#version Vps#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#version Vps#version}
   */
   readonly version?: string;
 }
@@ -695,13 +695,13 @@ export interface VpsPlanConfiguration {
   /**
   * Label for your configuration item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#label Vps#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#label Vps#label}
   */
   readonly label: string;
   /**
   * Value or resource URL on API.OVH.COM of your configuration item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#value Vps#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#value Vps#value}
   */
   readonly value: string;
 }
@@ -840,37 +840,37 @@ export class VpsPlanConfigurationList extends cdktf.ComplexList {
 }
 export interface VpsPlan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#configuration Vps#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#configuration Vps#configuration}
   */
   readonly configuration?: VpsPlanConfiguration[] | cdktf.IResolvable;
   /**
   * Duration selected for the purchase of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#duration Vps#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#duration Vps#duration}
   */
   readonly duration: string;
   /**
   * Cart item to be linked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#item_id Vps#item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#item_id Vps#item_id}
   */
   readonly itemId?: number;
   /**
   * Identifier of the option offer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#plan_code Vps#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#plan_code Vps#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing mode selected for the purchase of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#pricing_mode Vps#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#pricing_mode Vps#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * Quantity of product desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#quantity Vps#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#quantity Vps#quantity}
   */
   readonly quantity?: number;
 }
@@ -1124,13 +1124,13 @@ export interface VpsPlanOptionConfiguration {
   /**
   * Label for your configuration item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#label Vps#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#label Vps#label}
   */
   readonly label: string;
   /**
   * Value or resource URL on API.OVH.COM of your configuration item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#value Vps#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#value Vps#value}
   */
   readonly value: string;
 }
@@ -1269,31 +1269,31 @@ export class VpsPlanOptionConfigurationList extends cdktf.ComplexList {
 }
 export interface VpsPlanOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#configuration Vps#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#configuration Vps#configuration}
   */
   readonly configuration?: VpsPlanOptionConfiguration[] | cdktf.IResolvable;
   /**
   * Duration selected for the purchase of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#duration Vps#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#duration Vps#duration}
   */
   readonly duration: string;
   /**
   * Identifier of the option offer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#plan_code Vps#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#plan_code Vps#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing mode selected for the purchase of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#pricing_mode Vps#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#pricing_mode Vps#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * Quantity of product desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#quantity Vps#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#quantity Vps#quantity}
   */
   readonly quantity: number;
 }
@@ -1513,7 +1513,7 @@ export class VpsPlanOptionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps ovh_vps}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps ovh_vps}
 */
 export class Vps extends cdktf.TerraformResource {
 
@@ -1529,7 +1529,7 @@ export class Vps extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vps to import
-  * @param importFromId The id of the existing Vps that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vps that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1541,7 +1541,7 @@ export class Vps extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vps ovh_vps} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vps ovh_vps} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1552,8 +1552,8 @@ export class Vps extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_vps',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

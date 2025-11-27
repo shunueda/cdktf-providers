@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CloudProjectDatabasePrometheusConfig extends cdktf.TerraformMet
   /**
   * Id of the database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus#cluster_id CloudProjectDatabasePrometheus#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus#cluster_id CloudProjectDatabasePrometheus#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Name of the engine of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus#engine CloudProjectDatabasePrometheus#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus#engine CloudProjectDatabasePrometheus#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus#id CloudProjectDatabasePrometheus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus#id CloudProjectDatabasePrometheus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,17 +29,17 @@ export interface CloudProjectDatabasePrometheusConfig extends cdktf.TerraformMet
   /**
   * Arbitrary string to change to trigger a password update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus#password_reset CloudProjectDatabasePrometheus#password_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus#password_reset CloudProjectDatabasePrometheus#password_reset}
   */
   readonly passwordReset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus#service_name CloudProjectDatabasePrometheus#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus#service_name CloudProjectDatabasePrometheus#service_name}
   */
   readonly serviceName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus#timeouts CloudProjectDatabasePrometheus#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus#timeouts CloudProjectDatabasePrometheus#timeouts}
   */
   readonly timeouts?: CloudProjectDatabasePrometheusTimeouts;
 }
@@ -125,15 +125,15 @@ export class CloudProjectDatabasePrometheusTargetsList extends cdktf.ComplexList
 }
 export interface CloudProjectDatabasePrometheusTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus#create CloudProjectDatabasePrometheus#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus#create CloudProjectDatabasePrometheus#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus#delete CloudProjectDatabasePrometheus#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus#delete CloudProjectDatabasePrometheus#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus#update CloudProjectDatabasePrometheus#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus#update CloudProjectDatabasePrometheus#update}
   */
   readonly update?: string;
 }
@@ -285,7 +285,7 @@ export class CloudProjectDatabasePrometheusTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus ovh_cloud_project_database_prometheus}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus ovh_cloud_project_database_prometheus}
 */
 export class CloudProjectDatabasePrometheus extends cdktf.TerraformResource {
 
@@ -301,7 +301,7 @@ export class CloudProjectDatabasePrometheus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectDatabasePrometheus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectDatabasePrometheus to import
-  * @param importFromId The id of the existing CloudProjectDatabasePrometheus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectDatabasePrometheus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectDatabasePrometheus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +313,7 @@ export class CloudProjectDatabasePrometheus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_prometheus ovh_cloud_project_database_prometheus} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_prometheus ovh_cloud_project_database_prometheus} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,8 +324,8 @@ export class CloudProjectDatabasePrometheus extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_database_prometheus',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface DomainNameConfig extends cdktf.TerraformMetaArguments {
   /**
   * Computed hash used to control concurrent modification requests. Here, it represents the current target specification value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#checksum DomainName#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#checksum DomainName#checksum}
   */
   readonly checksum?: string;
   /**
   * Domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#domain_name DomainName#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#domain_name DomainName#domain_name}
   */
   readonly domainName: string;
   /**
   * OVH subsidiaries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#ovh_subsidiary DomainName#ovh_subsidiary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#ovh_subsidiary DomainName#ovh_subsidiary}
   */
   readonly ovhSubsidiary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#plan DomainName#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#plan DomainName#plan}
   */
   readonly plan?: DomainNamePlan[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#plan_option DomainName#plan_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#plan_option DomainName#plan_option}
   */
   readonly planOption?: DomainNamePlanOption[] | cdktf.IResolvable;
   /**
   * Latest target specification of the domain name resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#target_spec DomainName#target_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#target_spec DomainName#target_spec}
   */
   readonly targetSpec?: DomainNameTargetSpec;
 }
@@ -624,13 +624,13 @@ export interface DomainNamePlanConfiguration {
   /**
   * Label for your configuration item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#label DomainName#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#label DomainName#label}
   */
   readonly label: string;
   /**
   * Value or resource URL on API.OVH.COM of your configuration item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#value DomainName#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#value DomainName#value}
   */
   readonly value: string;
 }
@@ -769,37 +769,37 @@ export class DomainNamePlanConfigurationList extends cdktf.ComplexList {
 }
 export interface DomainNamePlan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#configuration DomainName#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#configuration DomainName#configuration}
   */
   readonly configuration?: DomainNamePlanConfiguration[] | cdktf.IResolvable;
   /**
   * Duration selected for the purchase of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#duration DomainName#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#duration DomainName#duration}
   */
   readonly duration: string;
   /**
   * Cart item to be linked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#item_id DomainName#item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#item_id DomainName#item_id}
   */
   readonly itemId?: number;
   /**
   * Identifier of the option offer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#plan_code DomainName#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#plan_code DomainName#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing mode selected for the purchase of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#pricing_mode DomainName#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#pricing_mode DomainName#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * Quantity of product desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#quantity DomainName#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#quantity DomainName#quantity}
   */
   readonly quantity?: number;
 }
@@ -1053,13 +1053,13 @@ export interface DomainNamePlanOptionConfiguration {
   /**
   * Label for your configuration item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#label DomainName#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#label DomainName#label}
   */
   readonly label: string;
   /**
   * Value or resource URL on API.OVH.COM of your configuration item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#value DomainName#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#value DomainName#value}
   */
   readonly value: string;
 }
@@ -1198,31 +1198,31 @@ export class DomainNamePlanOptionConfigurationList extends cdktf.ComplexList {
 }
 export interface DomainNamePlanOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#configuration DomainName#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#configuration DomainName#configuration}
   */
   readonly configuration?: DomainNamePlanOptionConfiguration[] | cdktf.IResolvable;
   /**
   * Duration selected for the purchase of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#duration DomainName#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#duration DomainName#duration}
   */
   readonly duration: string;
   /**
   * Identifier of the option offer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#plan_code DomainName#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#plan_code DomainName#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing mode selected for the purchase of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#pricing_mode DomainName#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#pricing_mode DomainName#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * Quantity of product desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#quantity DomainName#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#quantity DomainName#quantity}
   */
   readonly quantity: number;
 }
@@ -1444,19 +1444,19 @@ export interface DomainNameTargetSpecDnsConfigurationNameServers {
   /**
   * The IPv4 associated to the name server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#ipv4 DomainName#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#ipv4 DomainName#ipv4}
   */
   readonly ipv4?: string;
   /**
   * The IPv6 associated to the name server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#ipv6 DomainName#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#ipv6 DomainName#ipv6}
   */
   readonly ipv6?: string;
   /**
   * The host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#name_server DomainName#name_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#name_server DomainName#name_server}
   */
   readonly nameServer?: string;
 }
@@ -1632,7 +1632,7 @@ export interface DomainNameTargetSpecDnsConfiguration {
   /**
   * The name servers to update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#name_servers DomainName#name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#name_servers DomainName#name_servers}
   */
   readonly nameServers?: DomainNameTargetSpecDnsConfigurationNameServers[] | cdktf.IResolvable;
 }
@@ -1728,7 +1728,7 @@ export interface DomainNameTargetSpec {
   /**
   * The domain DNS configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#dns_configuration DomainName#dns_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#dns_configuration DomainName#dns_configuration}
   */
   readonly dnsConfiguration?: DomainNameTargetSpecDnsConfiguration;
 }
@@ -1822,7 +1822,7 @@ export class DomainNameTargetSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name ovh_domain_name}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name ovh_domain_name}
 */
 export class DomainName extends cdktf.TerraformResource {
 
@@ -1838,7 +1838,7 @@ export class DomainName extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainName resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainName to import
-  * @param importFromId The id of the existing DomainName that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainName that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainName to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1850,7 +1850,7 @@ export class DomainName extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/domain_name ovh_domain_name} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/domain_name ovh_domain_name} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1861,8 +1861,8 @@ export class DomainName extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_domain_name',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

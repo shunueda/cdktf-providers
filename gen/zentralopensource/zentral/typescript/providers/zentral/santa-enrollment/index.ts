@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/santa_enrollment
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_enrollment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SantaEnrollmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * `ID` of the Santa configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/santa_enrollment#configuration_id SantaEnrollment#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_enrollment#configuration_id SantaEnrollment#configuration_id}
   */
   readonly configurationId: number;
   /**
   * The `ID` of the meta business unit the machine will be assigned to at enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/santa_enrollment#meta_business_unit_id SantaEnrollment#meta_business_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_enrollment#meta_business_unit_id SantaEnrollment#meta_business_unit_id}
   */
   readonly metaBusinessUnitId: number;
   /**
   * The number of time the enrollment can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/santa_enrollment#quota SantaEnrollment#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_enrollment#quota SantaEnrollment#quota}
   */
   readonly quota?: number;
   /**
   * The serial numbers the enrollment is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/santa_enrollment#serial_numbers SantaEnrollment#serial_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_enrollment#serial_numbers SantaEnrollment#serial_numbers}
   */
   readonly serialNumbers?: string[];
   /**
   * The `ID`s of the tags that the machine will get at enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/santa_enrollment#tag_ids SantaEnrollment#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_enrollment#tag_ids SantaEnrollment#tag_ids}
   */
   readonly tagIds?: number[];
   /**
   * The `UDID`s the enrollment is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/santa_enrollment#udids SantaEnrollment#udids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_enrollment#udids SantaEnrollment#udids}
   */
   readonly udids?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/santa_enrollment zentral_santa_enrollment}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_enrollment zentral_santa_enrollment}
 */
 export class SantaEnrollment extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class SantaEnrollment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SantaEnrollment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SantaEnrollment to import
-  * @param importFromId The id of the existing SantaEnrollment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/santa_enrollment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SantaEnrollment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_enrollment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SantaEnrollment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class SantaEnrollment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/santa_enrollment zentral_santa_enrollment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_enrollment zentral_santa_enrollment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class SantaEnrollment extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_santa_enrollment',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64',
-        providerVersionConstraint: '0.1.64'
+        providerVersion: '0.1.65',
+        providerVersionConstraint: '0.1.65'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

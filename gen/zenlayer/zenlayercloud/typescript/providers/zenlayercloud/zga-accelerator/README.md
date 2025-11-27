@@ -1,3 +1,3 @@
 # `zenlayercloud_zga_accelerator`
 
-Refer to the Terraform Registry for docs: [`zenlayercloud_zga_accelerator`](https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zga_accelerator).
+Refer to the Terraform Registry for docs: [`zenlayercloud_zga_accelerator`](https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zga_accelerator).

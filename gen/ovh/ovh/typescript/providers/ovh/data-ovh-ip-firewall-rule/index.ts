@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall_rule
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataOvhIpFirewallRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * IP (v4 or v6) CIDR notation (e.g., 192.0.2.0/24)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall_rule#ip DataOvhIpFirewallRule#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall_rule#ip DataOvhIpFirewallRule#ip}
   */
   readonly ip: string;
   /**
   * IPv4 address (e.g., 192.0.2.0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall_rule#ip_on_firewall DataOvhIpFirewallRule#ip_on_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall_rule#ip_on_firewall DataOvhIpFirewallRule#ip_on_firewall}
   */
   readonly ipOnFirewall: string;
   /**
   * Possible values for action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall_rule#sequence DataOvhIpFirewallRule#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall_rule#sequence DataOvhIpFirewallRule#sequence}
   */
   readonly sequence: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall_rule ovh_ip_firewall_rule}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall_rule ovh_ip_firewall_rule}
 */
 export class DataOvhIpFirewallRule extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataOvhIpFirewallRule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhIpFirewallRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhIpFirewallRule to import
-  * @param importFromId The id of the existing DataOvhIpFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhIpFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhIpFirewallRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataOvhIpFirewallRule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ip_firewall_rule ovh_ip_firewall_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ip_firewall_rule ovh_ip_firewall_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataOvhIpFirewallRule extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_ip_firewall_rule',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

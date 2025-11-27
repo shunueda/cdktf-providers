@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_networking
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_networking
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DedicatedServerNetworkingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_networking#id DedicatedServerNetworking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_networking#id DedicatedServerNetworking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DedicatedServerNetworkingConfig extends cdktf.TerraformMetaArgu
   /**
   * The internal name of your dedicated server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_networking#service_name DedicatedServerNetworking#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_networking#service_name DedicatedServerNetworking#service_name}
   */
   readonly serviceName: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_networking#interfaces DedicatedServerNetworking#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_networking#interfaces DedicatedServerNetworking#interfaces}
   */
   readonly interfaces: DedicatedServerNetworkingInterfaces[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_networking#timeouts DedicatedServerNetworking#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_networking#timeouts DedicatedServerNetworking#timeouts}
   */
   readonly timeouts?: DedicatedServerNetworkingTimeouts;
 }
@@ -37,13 +37,13 @@ export interface DedicatedServerNetworkingInterfaces {
   /**
   * Interface Mac address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_networking#macs DedicatedServerNetworking#macs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_networking#macs DedicatedServerNetworking#macs}
   */
   readonly macs: string[];
   /**
   * Interface type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_networking#type DedicatedServerNetworking#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_networking#type DedicatedServerNetworking#type}
   */
   readonly type: string;
 }
@@ -182,11 +182,11 @@ export class DedicatedServerNetworkingInterfacesList extends cdktf.ComplexList {
 }
 export interface DedicatedServerNetworkingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_networking#create DedicatedServerNetworking#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_networking#create DedicatedServerNetworking#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_networking#delete DedicatedServerNetworking#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_networking#delete DedicatedServerNetworking#delete}
   */
   readonly delete?: string;
 }
@@ -309,7 +309,7 @@ export class DedicatedServerNetworkingTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_networking ovh_dedicated_server_networking}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_networking ovh_dedicated_server_networking}
 */
 export class DedicatedServerNetworking extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class DedicatedServerNetworking extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DedicatedServerNetworking resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DedicatedServerNetworking to import
-  * @param importFromId The id of the existing DedicatedServerNetworking that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_networking#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DedicatedServerNetworking that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_networking#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DedicatedServerNetworking to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class DedicatedServerNetworking extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dedicated_server_networking ovh_dedicated_server_networking} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dedicated_server_networking ovh_dedicated_server_networking} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,8 +348,8 @@ export class DedicatedServerNetworking extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_dedicated_server_networking',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

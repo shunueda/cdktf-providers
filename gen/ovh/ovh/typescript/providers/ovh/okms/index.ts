@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface OkmsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set the name displayed in Manager for this KMS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms#display_name Okms#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms#display_name Okms#display_name}
   */
   readonly displayName?: string;
   /**
   * OVH subsidiaries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms#ovh_subsidiary Okms#ovh_subsidiary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms#ovh_subsidiary Okms#ovh_subsidiary}
   */
   readonly ovhSubsidiary: string;
   /**
   * KMS region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms#region Okms#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms#region Okms#region}
   */
   readonly region: string;
 }
@@ -98,7 +98,7 @@ export class OkmsIamOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms ovh_okms}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms ovh_okms}
 */
 export class Okms extends cdktf.TerraformResource {
 
@@ -114,7 +114,7 @@ export class Okms extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Okms resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Okms to import
-  * @param importFromId The id of the existing Okms that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Okms that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Okms to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -126,7 +126,7 @@ export class Okms extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms ovh_okms} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms ovh_okms} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,8 +137,8 @@ export class Okms extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_okms',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface AwsElasticContainerRegistryConfig extends cdktf.TerraformMetaAr
   /**
   * The AWS access key to use when authenticating against Amazon Web Services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry#access_key AwsElasticContainerRegistry#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry#access_key AwsElasticContainerRegistry#access_key}
   */
   readonly accessKey?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry#name AwsElasticContainerRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry#name AwsElasticContainerRegistry#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry#oidc_authentication AwsElasticContainerRegistry#oidc_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry#oidc_authentication AwsElasticContainerRegistry#oidc_authentication}
   */
   readonly oidcAuthentication?: AwsElasticContainerRegistryOidcAuthentication;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry#package_acquisition_location_options AwsElasticContainerRegistry#package_acquisition_location_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry#package_acquisition_location_options AwsElasticContainerRegistry#package_acquisition_location_options}
   */
   readonly packageAcquisitionLocationOptions?: string[];
   /**
   * The AWS region where the registry resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry#region AwsElasticContainerRegistry#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry#region AwsElasticContainerRegistry#region}
   */
   readonly region: string;
   /**
   * The AWS secret key to use when authenticating against Amazon Web Services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry#secret_key AwsElasticContainerRegistry#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry#secret_key AwsElasticContainerRegistry#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The space ID associated with this aws elastic container registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry#space_id AwsElasticContainerRegistry#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry#space_id AwsElasticContainerRegistry#space_id}
   */
   readonly spaceId?: string;
 }
@@ -50,25 +50,25 @@ export interface AwsElasticContainerRegistryOidcAuthentication {
   /**
   * Audience to use when authenticating against Amazon Web Services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry#audience AwsElasticContainerRegistry#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry#audience AwsElasticContainerRegistry#audience}
   */
   readonly audience?: string;
   /**
   * The Amazon Resource Name (ARN) of the role that the caller is assuming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry#role_arn AwsElasticContainerRegistry#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry#role_arn AwsElasticContainerRegistry#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Assumed role session duration (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry#session_duration AwsElasticContainerRegistry#session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry#session_duration AwsElasticContainerRegistry#session_duration}
   */
   readonly sessionDuration?: string;
   /**
   * Keys to include in a deployment or runbook. Valid options are `space`, `feed`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry#subject_keys AwsElasticContainerRegistry#subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry#subject_keys AwsElasticContainerRegistry#subject_keys}
   */
   readonly subjectKeys?: string[];
 }
@@ -249,7 +249,7 @@ export class AwsElasticContainerRegistryOidcAuthenticationOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry octopusdeploy_aws_elastic_container_registry}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry octopusdeploy_aws_elastic_container_registry}
 */
 export class AwsElasticContainerRegistry extends cdktf.TerraformResource {
 
@@ -265,7 +265,7 @@ export class AwsElasticContainerRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsElasticContainerRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsElasticContainerRegistry to import
-  * @param importFromId The id of the existing AwsElasticContainerRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsElasticContainerRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsElasticContainerRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +277,7 @@ export class AwsElasticContainerRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_elastic_container_registry octopusdeploy_aws_elastic_container_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/aws_elastic_container_registry octopusdeploy_aws_elastic_container_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +288,8 @@ export class AwsElasticContainerRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_aws_elastic_container_registry',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

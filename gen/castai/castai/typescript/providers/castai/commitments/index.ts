@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments
+// https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CommitmentsConfig extends cdktf.TerraformMetaArguments {
   /**
   * CSV file containing reservations exported from Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#azure_reservations_csv Commitments#azure_reservations_csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#azure_reservations_csv Commitments#azure_reservations_csv}
   */
   readonly azureReservationsCsv?: string;
   /**
   * JSON file containing CUDs exported from GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#gcp_cuds_json Commitments#gcp_cuds_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#gcp_cuds_json Commitments#gcp_cuds_json}
   */
   readonly gcpCudsJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#id Commitments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#id Commitments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface CommitmentsConfig extends cdktf.TerraformMetaArguments {
   /**
   * commitment_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#commitment_configs Commitments#commitment_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#commitment_configs Commitments#commitment_configs}
   */
   readonly commitmentConfigs?: CommitmentsCommitmentConfigs[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#timeouts Commitments#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#timeouts Commitments#timeouts}
   */
   readonly timeouts?: CommitmentsTimeouts;
 }
@@ -515,7 +515,7 @@ export interface CommitmentsCommitmentConfigsAssignments {
   /**
   * ID of the cluster to assign the commitment to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#cluster_id Commitments#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#cluster_id Commitments#cluster_id}
   */
   readonly clusterId: string;
 }
@@ -635,19 +635,19 @@ export interface CommitmentsCommitmentConfigsMatcher {
   /**
   * Name of the commitment to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#name Commitments#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#name Commitments#name}
   */
   readonly name: string;
   /**
   * Region of the commitment to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#region Commitments#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#region Commitments#region}
   */
   readonly region: string;
   /**
   * Type of the commitment to match. For compute resources, it's the type of the machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#type Commitments#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#type Commitments#type}
   */
   readonly type?: string;
 }
@@ -785,37 +785,37 @@ export interface CommitmentsCommitmentConfigs {
   /**
   * Allowed usage of the commitment. The value is between 0 (0%) and 1 (100%).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#allowed_usage Commitments#allowed_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#allowed_usage Commitments#allowed_usage}
   */
   readonly allowedUsage?: number;
   /**
   * If enabled, it's possible to assign priorities to the assigned clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#prioritization Commitments#prioritization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#prioritization Commitments#prioritization}
   */
   readonly prioritization?: boolean | cdktf.IResolvable;
   /**
   * Scaling strategy of the commitment in CAST AI. One of: Default, CPUBased, RamBased
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#scaling_strategy Commitments#scaling_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#scaling_strategy Commitments#scaling_strategy}
   */
   readonly scalingStrategy?: string;
   /**
   * Status of the commitment in CAST AI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#status Commitments#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#status Commitments#status}
   */
   readonly status?: string;
   /**
   * assignments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#assignments Commitments#assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#assignments Commitments#assignments}
   */
   readonly assignments?: CommitmentsCommitmentConfigsAssignments[] | cdktf.IResolvable;
   /**
   * matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#matcher Commitments#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#matcher Commitments#matcher}
   */
   readonly matcher: CommitmentsCommitmentConfigsMatcher;
 }
@@ -1073,11 +1073,11 @@ export class CommitmentsCommitmentConfigsList extends cdktf.ComplexList {
 }
 export interface CommitmentsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#create Commitments#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#create Commitments#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#update Commitments#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#update Commitments#update}
   */
   readonly update?: string;
 }
@@ -1200,7 +1200,7 @@ export class CommitmentsTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments castai_commitments}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments castai_commitments}
 */
 export class Commitments extends cdktf.TerraformResource {
 
@@ -1216,7 +1216,7 @@ export class Commitments extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Commitments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Commitments to import
-  * @param importFromId The id of the existing Commitments that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Commitments that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Commitments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1228,7 +1228,7 @@ export class Commitments extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/commitments castai_commitments} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/commitments castai_commitments} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1239,8 +1239,8 @@ export class Commitments extends cdktf.TerraformResource {
       terraformResourceType: 'castai_commitments',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.3.0',
-        providerVersionConstraint: '8.3.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

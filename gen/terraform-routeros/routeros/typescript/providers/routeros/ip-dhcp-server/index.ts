@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface IpDhcpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#___path___ IpDhcpServer#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#___path___ IpDhcpServer#___path___}
   */
   readonly path?: string;
   /**
   * Whether to add dynamic ARP entry. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#add_arp IpDhcpServer#add_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#add_arp IpDhcpServer#add_arp}
   */
   readonly addArp?: boolean | cdktf.IResolvable;
   /**
   * Address list to which address will be added if lease is bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#address_lists IpDhcpServer#address_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#address_lists IpDhcpServer#address_lists}
   */
   readonly addressLists?: string[];
   /**
   * IP pool, from which to take IP addresses for the clients. If set to static-only, then only the clients that have a static lease (added in lease submenu) will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#address_pool IpDhcpServer#address_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#address_pool IpDhcpServer#address_pool}
   */
   readonly addressPool?: string;
   /**
   * Creates a single simple queue entry for both IPv4 and IPv6 addresses, uses the MAC address and DUID for identification. Requires IPv6 DHCP Server to have this option enabled as well to work properly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#allow_dual_stack_queue IpDhcpServer#allow_dual_stack_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#allow_dual_stack_queue IpDhcpServer#allow_dual_stack_queue}
   */
   readonly allowDualStackQueue?: boolean | cdktf.IResolvable;
   /**
   * Always send replies as broadcasts even if destination IP is known.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#always_broadcast IpDhcpServer#always_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#always_broadcast IpDhcpServer#always_broadcast}
   */
   readonly alwaysBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Option changes the way how a server responds to DHCP requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#authoritative IpDhcpServer#authoritative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#authoritative IpDhcpServer#authoritative}
   */
   readonly authoritative?: string;
   /**
   * Accepts two predefined options or time value: * forever - lease never expires * lease-time - use time from lease-time parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#bootp_lease_time IpDhcpServer#bootp_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#bootp_lease_time IpDhcpServer#bootp_lease_time}
   */
   readonly bootpLeaseTime?: string;
   /**
   * Support for BOOTP clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#bootp_support IpDhcpServer#bootp_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#bootp_support IpDhcpServer#bootp_support}
   */
   readonly bootpSupport?: string;
   /**
   * Specifies whether to limit specific number of clients per single MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#client_mac_limit IpDhcpServer#client_mac_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#client_mac_limit IpDhcpServer#client_mac_limit}
   */
   readonly clientMacLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#comment IpDhcpServer#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#comment IpDhcpServer#comment}
   */
   readonly comment?: string;
   /**
   * Allows to disable/enable conflict detection. If option is enabled, then whenever server tries to assign a lease it will send ICMP and ARP messages to detect whether such address in the network already exist. If any of above get reply address is considered already used. Conflict detection must be disabled when any kind of DHCP client limitation per port or per mac is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#conflict_detection IpDhcpServer#conflict_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#conflict_detection IpDhcpServer#conflict_detection}
   */
   readonly conflictDetection?: boolean | cdktf.IResolvable;
   /**
   * If secs field in DHCP packet is smaller than delay-threshold, then this packet is ignored. If set to none - there is no threshold (all DHCP packets are processed).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#delay_threshold IpDhcpServer#delay_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#delay_threshold IpDhcpServer#delay_threshold}
   */
   readonly delayThreshold?: string;
   /**
   * Use custom set of DHCP options defined in option sets menu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#dhcp_option_set IpDhcpServer#dhcp_option_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#dhcp_option_set IpDhcpServer#dhcp_option_set}
   */
   readonly dhcpOptionSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#disabled IpDhcpServer#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#disabled IpDhcpServer#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Dynamic lease identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#dynamic_lease_identifiers IpDhcpServer#dynamic_lease_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#dynamic_lease_identifiers IpDhcpServer#dynamic_lease_identifiers}
   */
   readonly dynamicLeaseIdentifiers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#id IpDhcpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#id IpDhcpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -109,25 +109,25 @@ export interface IpDhcpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify where to place dynamic simple queue entries for static DCHP leases with rate-limit parameter set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#insert_queue_before IpDhcpServer#insert_queue_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#insert_queue_before IpDhcpServer#insert_queue_before}
   */
   readonly insertQueueBefore?: string;
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#interface IpDhcpServer#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#interface IpDhcpServer#interface}
   */
   readonly interface: string;
   /**
   * A script that will be executed after a lease is assigned or de-assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#lease_script IpDhcpServer#lease_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#lease_script IpDhcpServer#lease_script}
   */
   readonly leaseScript?: string;
   /**
   * The time that a client may use the assigned address. The client will try to renew this address after half of this time and will request a new address after the time limit expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#lease_time IpDhcpServer#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#lease_time IpDhcpServer#lease_time}
   */
   readonly leaseTime?: string;
   /**
@@ -136,53 +136,53 @@ export interface IpDhcpServerConfig extends cdktf.TerraformMetaArguments {
   * 	> Changing the name of the resource outside of a Terraform will result in a loss of control integrity for that resource!
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#name IpDhcpServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#name IpDhcpServer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#parent_queue IpDhcpServer#parent_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#parent_queue IpDhcpServer#parent_queue}
   */
   readonly parentQueue?: string;
   /**
   * The IP address of the relay this DHCP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#relay IpDhcpServer#relay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#relay IpDhcpServer#relay}
   */
   readonly relay?: string;
   /**
   * The address which the DHCP client must send requests to in order to renew an IP address lease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#src_address IpDhcpServer#src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#src_address IpDhcpServer#src_address}
   */
   readonly srcAddress?: string;
   /**
   * Support broadband TR101
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#support_broadband_tr101 IpDhcpServer#support_broadband_tr101}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#support_broadband_tr101 IpDhcpServer#support_broadband_tr101}
   */
   readonly supportBroadbandTr101?: boolean | cdktf.IResolvable;
   /**
   * Forward RADIUS Framed-Route as a DHCP Classless-Static-Route to DHCP-client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#use_framed_as_classless IpDhcpServer#use_framed_as_classless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#use_framed_as_classless IpDhcpServer#use_framed_as_classless}
   */
   readonly useFramedAsClassless?: boolean | cdktf.IResolvable;
   /**
   * Whether to use RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#use_radius IpDhcpServer#use_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#use_radius IpDhcpServer#use_radius}
   */
   readonly useRadius?: string;
   /**
   * Allow the server to send Reconfigure (forcerenew) messages to clients, prompting them to renew configuration without waiting for their lease to expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#use_reconfigure IpDhcpServer#use_reconfigure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#use_reconfigure IpDhcpServer#use_reconfigure}
   */
   readonly useReconfigure?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server routeros_ip_dhcp_server}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server routeros_ip_dhcp_server}
 */
 export class IpDhcpServer extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class IpDhcpServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpDhcpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpDhcpServer to import
-  * @param importFromId The id of the existing IpDhcpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpDhcpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpDhcpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class IpDhcpServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dhcp_server routeros_ip_dhcp_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server routeros_ip_dhcp_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class IpDhcpServer extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_dhcp_server',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

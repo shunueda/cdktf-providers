@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/ip_dhcp_server_leases
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ip_dhcp_server_leases
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataRouterosIpDhcpServerLeasesConfig extends cdktf.TerraformMet
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/ip_dhcp_server_leases#___path___ DataRouterosIpDhcpServerLeases#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ip_dhcp_server_leases#___path___ DataRouterosIpDhcpServerLeases#___path___}
   */
   readonly path?: string;
   /**
   * Additional request filtering options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/ip_dhcp_server_leases#filter DataRouterosIpDhcpServerLeases#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ip_dhcp_server_leases#filter DataRouterosIpDhcpServerLeases#filter}
   */
   readonly filter?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/ip_dhcp_server_leases#id DataRouterosIpDhcpServerLeases#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ip_dhcp_server_leases#id DataRouterosIpDhcpServerLeases#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -214,7 +214,7 @@ export class DataRouterosIpDhcpServerLeasesDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/ip_dhcp_server_leases routeros_ip_dhcp_server_leases}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ip_dhcp_server_leases routeros_ip_dhcp_server_leases}
 */
 export class DataRouterosIpDhcpServerLeases extends cdktf.TerraformDataSource {
 
@@ -230,7 +230,7 @@ export class DataRouterosIpDhcpServerLeases extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRouterosIpDhcpServerLeases resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRouterosIpDhcpServerLeases to import
-  * @param importFromId The id of the existing DataRouterosIpDhcpServerLeases that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/ip_dhcp_server_leases#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRouterosIpDhcpServerLeases that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ip_dhcp_server_leases#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRouterosIpDhcpServerLeases to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class DataRouterosIpDhcpServerLeases extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/ip_dhcp_server_leases routeros_ip_dhcp_server_leases} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ip_dhcp_server_leases routeros_ip_dhcp_server_leases} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class DataRouterosIpDhcpServerLeases extends cdktf.TerraformDataSource {
       terraformResourceType: 'routeros_ip_dhcp_server_leases',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

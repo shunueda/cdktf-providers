@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_vrack_network
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_vrack_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IploadbalancingVrackNetworkConfig extends cdktf.TerraformMetaAr
   /**
   * Human readable name for your vrack network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_vrack_network#display_name IploadbalancingVrackNetwork#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_vrack_network#display_name IploadbalancingVrackNetwork#display_name}
   */
   readonly displayName?: string;
   /**
   * This attribute is there for documentation purpose only and isnt passed to the OVH API as it may conflicts with http/tcp farms `vrack_network_id` attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_vrack_network#farm_id IploadbalancingVrackNetwork#farm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_vrack_network#farm_id IploadbalancingVrackNetwork#farm_id}
   */
   readonly farmId?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_vrack_network#id IploadbalancingVrackNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_vrack_network#id IploadbalancingVrackNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface IploadbalancingVrackNetworkConfig extends cdktf.TerraformMetaAr
   /**
   * An IP block used as a pool of IPs by this Load Balancer to connect to the servers in this private network. The blck must be in the private network and reserved for the Load Balancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_vrack_network#nat_ip IploadbalancingVrackNetwork#nat_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_vrack_network#nat_ip IploadbalancingVrackNetwork#nat_ip}
   */
   readonly natIp: string;
   /**
   * The internal name of your IPloadbalancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_vrack_network#service_name IploadbalancingVrackNetwork#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_vrack_network#service_name IploadbalancingVrackNetwork#service_name}
   */
   readonly serviceName: string;
   /**
   * IP block of the private network in the vRack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_vrack_network#subnet IploadbalancingVrackNetwork#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_vrack_network#subnet IploadbalancingVrackNetwork#subnet}
   */
   readonly subnet: string;
   /**
   * VLAN of the private network in the vRack. 0 if the private network is not in a VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_vrack_network#vlan IploadbalancingVrackNetwork#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_vrack_network#vlan IploadbalancingVrackNetwork#vlan}
   */
   readonly vlan?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_vrack_network ovh_iploadbalancing_vrack_network}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_vrack_network ovh_iploadbalancing_vrack_network}
 */
 export class IploadbalancingVrackNetwork extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class IploadbalancingVrackNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IploadbalancingVrackNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IploadbalancingVrackNetwork to import
-  * @param importFromId The id of the existing IploadbalancingVrackNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_vrack_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IploadbalancingVrackNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_vrack_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IploadbalancingVrackNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class IploadbalancingVrackNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_vrack_network ovh_iploadbalancing_vrack_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_vrack_network ovh_iploadbalancing_vrack_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class IploadbalancingVrackNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_iploadbalancing_vrack_network',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

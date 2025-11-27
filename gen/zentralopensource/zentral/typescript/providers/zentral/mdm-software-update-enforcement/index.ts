@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface MdmSoftwareUpdateEnforcementConfig extends cdktf.TerraformMetaA
   /**
   * The target build version to update the device to by the appropriate time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement#build_version MdmSoftwareUpdateEnforcement#build_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement#build_version MdmSoftwareUpdateEnforcement#build_version}
   */
   readonly buildVersion?: string;
   /**
   * Number of days after a software update release before the device force installs it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement#delay_days MdmSoftwareUpdateEnforcement#delay_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement#delay_days MdmSoftwareUpdateEnforcement#delay_days}
   */
   readonly delayDays?: number;
   /**
   * The URL of a web page that shows details that the organization provides about the enforced update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement#details_url MdmSoftwareUpdateEnforcement#details_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement#details_url MdmSoftwareUpdateEnforcement#details_url}
   */
   readonly detailsUrl?: string;
   /**
   * The local date time value that specifies when to force install the software update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement#local_datetime MdmSoftwareUpdateEnforcement#local_datetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement#local_datetime MdmSoftwareUpdateEnforcement#local_datetime}
   */
   readonly localDatetime?: string;
   /**
   * The local time value that specifies when to force install the software update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement#local_time MdmSoftwareUpdateEnforcement#local_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement#local_time MdmSoftwareUpdateEnforcement#local_time}
   */
   readonly localTime?: string;
   /**
   * The maximum (excluded) target OS version to update the device to by the appropriate time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement#max_os_version MdmSoftwareUpdateEnforcement#max_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement#max_os_version MdmSoftwareUpdateEnforcement#max_os_version}
   */
   readonly maxOsVersion?: string;
   /**
   * Name of the software update enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement#name MdmSoftwareUpdateEnforcement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement#name MdmSoftwareUpdateEnforcement#name}
   */
   readonly name: string;
   /**
   * The target OS version to update the device to by the appropriate time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement#os_version MdmSoftwareUpdateEnforcement#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement#os_version MdmSoftwareUpdateEnforcement#os_version}
   */
   readonly osVersion?: string;
   /**
   * Restrict the software update enforcement to some platforms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement#platforms MdmSoftwareUpdateEnforcement#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement#platforms MdmSoftwareUpdateEnforcement#platforms}
   */
   readonly platforms: string[];
   /**
   * The `ID`s of the tags used to scope the software update enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement#tag_ids MdmSoftwareUpdateEnforcement#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement#tag_ids MdmSoftwareUpdateEnforcement#tag_ids}
   */
   readonly tagIds?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement zentral_mdm_software_update_enforcement}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement zentral_mdm_software_update_enforcement}
 */
 export class MdmSoftwareUpdateEnforcement extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class MdmSoftwareUpdateEnforcement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmSoftwareUpdateEnforcement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmSoftwareUpdateEnforcement to import
-  * @param importFromId The id of the existing MdmSoftwareUpdateEnforcement that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmSoftwareUpdateEnforcement that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmSoftwareUpdateEnforcement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class MdmSoftwareUpdateEnforcement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/mdm_software_update_enforcement zentral_mdm_software_update_enforcement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_software_update_enforcement zentral_mdm_software_update_enforcement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class MdmSoftwareUpdateEnforcement extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_software_update_enforcement',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64',
-        providerVersionConstraint: '0.1.64'
+        providerVersion: '0.1.65',
+        providerVersionConstraint: '0.1.65'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

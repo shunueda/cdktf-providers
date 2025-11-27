@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_rancher_capabilities_plan
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_rancher_capabilities_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOvhCloudProjectRancherCapabilitiesPlanConfig extends cdktf.
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_rancher_capabilities_plan#project_id DataOvhCloudProjectRancherCapabilitiesPlan#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_rancher_capabilities_plan#project_id DataOvhCloudProjectRancherCapabilitiesPlan#project_id}
   */
   readonly projectId: string;
   /**
   * Rancher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_rancher_capabilities_plan#rancher_id DataOvhCloudProjectRancherCapabilitiesPlan#rancher_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_rancher_capabilities_plan#rancher_id DataOvhCloudProjectRancherCapabilitiesPlan#rancher_id}
   */
   readonly rancherId: string;
 }
@@ -112,7 +112,7 @@ export class DataOvhCloudProjectRancherCapabilitiesPlanPlansList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_rancher_capabilities_plan ovh_cloud_project_rancher_capabilities_plan}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_rancher_capabilities_plan ovh_cloud_project_rancher_capabilities_plan}
 */
 export class DataOvhCloudProjectRancherCapabilitiesPlan extends cdktf.TerraformDataSource {
 
@@ -128,7 +128,7 @@ export class DataOvhCloudProjectRancherCapabilitiesPlan extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOvhCloudProjectRancherCapabilitiesPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhCloudProjectRancherCapabilitiesPlan to import
-  * @param importFromId The id of the existing DataOvhCloudProjectRancherCapabilitiesPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_rancher_capabilities_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhCloudProjectRancherCapabilitiesPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_rancher_capabilities_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhCloudProjectRancherCapabilitiesPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class DataOvhCloudProjectRancherCapabilitiesPlan extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_rancher_capabilities_plan ovh_cloud_project_rancher_capabilities_plan} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_rancher_capabilities_plan ovh_cloud_project_rancher_capabilities_plan} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class DataOvhCloudProjectRancherCapabilitiesPlan extends cdktf.TerraformD
       terraformResourceType: 'ovh_cloud_project_rancher_capabilities_plan',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

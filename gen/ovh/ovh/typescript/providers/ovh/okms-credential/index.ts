@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_credential
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface OkmsCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of the certificate (ECDSA or RSA)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_credential#certificate_type OkmsCredential#certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_credential#certificate_type OkmsCredential#certificate_type}
   */
   readonly certificateType?: string;
   /**
   * Valid Certificate Signing Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_credential#csr OkmsCredential#csr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_credential#csr OkmsCredential#csr}
   */
   readonly csr?: string;
   /**
   * Description of the credential (max 200)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_credential#description OkmsCredential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_credential#description OkmsCredential#description}
   */
   readonly description?: string;
   /**
   * List of identity URNs associated with the credential (max 25)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_credential#identity_urns OkmsCredential#identity_urns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_credential#identity_urns OkmsCredential#identity_urns}
   */
   readonly identityUrns: string[];
   /**
   * Name of the credential (max 50)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_credential#name OkmsCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_credential#name OkmsCredential#name}
   */
   readonly name: string;
   /**
   * Okms ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_credential#okms_id OkmsCredential#okms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_credential#okms_id OkmsCredential#okms_id}
   */
   readonly okmsId: string;
   /**
   * Validity in days (default 365, max 365)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_credential#validity OkmsCredential#validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_credential#validity OkmsCredential#validity}
   */
   readonly validity?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_credential ovh_okms_credential}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_credential ovh_okms_credential}
 */
 export class OkmsCredential extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class OkmsCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OkmsCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OkmsCredential to import
-  * @param importFromId The id of the existing OkmsCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OkmsCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OkmsCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class OkmsCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/okms_credential ovh_okms_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/okms_credential ovh_okms_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class OkmsCredential extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_okms_credential',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

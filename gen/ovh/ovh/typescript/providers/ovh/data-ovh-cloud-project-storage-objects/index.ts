@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage_objects
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage_objects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataOvhCloudProjectStorageObjectsAConfig extends cdktf.Terrafor
   /**
   * Key to start with when listing objects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage_objects#key_marker DataOvhCloudProjectStorageObjectsA#key_marker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage_objects#key_marker DataOvhCloudProjectStorageObjectsA#key_marker}
   */
   readonly keyMarker?: string;
   /**
   * Limit the number of objects returned (1000 maximum, defaults to 1000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage_objects#limit DataOvhCloudProjectStorageObjectsA#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage_objects#limit DataOvhCloudProjectStorageObjectsA#limit}
   */
   readonly limit?: number;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage_objects#name DataOvhCloudProjectStorageObjectsA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage_objects#name DataOvhCloudProjectStorageObjectsA#name}
   */
   readonly name: string;
   /**
   * List objects whose key begins with this prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage_objects#prefix DataOvhCloudProjectStorageObjectsA#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage_objects#prefix DataOvhCloudProjectStorageObjectsA#prefix}
   */
   readonly prefix?: string;
   /**
   * Region name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage_objects#region_name DataOvhCloudProjectStorageObjectsA#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage_objects#region_name DataOvhCloudProjectStorageObjectsA#region_name}
   */
   readonly regionName: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage_objects#service_name DataOvhCloudProjectStorageObjectsA#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage_objects#service_name DataOvhCloudProjectStorageObjectsA#service_name}
   */
   readonly serviceName: string;
   /**
   * Version ID to start listing from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage_objects#version_id_marker DataOvhCloudProjectStorageObjectsA#version_id_marker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage_objects#version_id_marker DataOvhCloudProjectStorageObjectsA#version_id_marker}
   */
   readonly versionIdMarker?: string;
   /**
   * List object versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage_objects#with_versions DataOvhCloudProjectStorageObjectsA#with_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage_objects#with_versions DataOvhCloudProjectStorageObjectsA#with_versions}
   */
   readonly withVersions?: boolean | cdktf.IResolvable;
 }
@@ -168,7 +168,7 @@ export class DataOvhCloudProjectStorageObjectsObjectsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage_objects ovh_cloud_project_storage_objects}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage_objects ovh_cloud_project_storage_objects}
 */
 export class DataOvhCloudProjectStorageObjectsA extends cdktf.TerraformDataSource {
 
@@ -184,7 +184,7 @@ export class DataOvhCloudProjectStorageObjectsA extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOvhCloudProjectStorageObjectsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhCloudProjectStorageObjectsA to import
-  * @param importFromId The id of the existing DataOvhCloudProjectStorageObjectsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage_objects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhCloudProjectStorageObjectsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage_objects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhCloudProjectStorageObjectsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class DataOvhCloudProjectStorageObjectsA extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage_objects ovh_cloud_project_storage_objects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage_objects ovh_cloud_project_storage_objects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class DataOvhCloudProjectStorageObjectsA extends cdktf.TerraformDataSourc
       terraformResourceType: 'ovh_cloud_project_storage_objects',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

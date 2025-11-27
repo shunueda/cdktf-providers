@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id
+// https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GkeClusterIdConfig extends cdktf.TerraformMetaArguments {
   /**
   * Service account email in cast project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id#cast_service_account GkeClusterId#cast_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id#cast_service_account GkeClusterId#cast_service_account}
   */
   readonly castServiceAccount?: string;
   /**
   * Service account email in client project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id#client_service_account GkeClusterId#client_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id#client_service_account GkeClusterId#client_service_account}
   */
   readonly clientServiceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id#id GkeClusterId#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id#id GkeClusterId#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,39 +29,39 @@ export interface GkeClusterIdConfig extends cdktf.TerraformMetaArguments {
   /**
   * GCP cluster zone in case of zonal or region in case of regional cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id#location GkeClusterId#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id#location GkeClusterId#location}
   */
   readonly location: string;
   /**
   * GKE cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id#name GkeClusterId#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id#name GkeClusterId#name}
   */
   readonly name: string;
   /**
   * GCP project id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id#project_id GkeClusterId#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id#project_id GkeClusterId#project_id}
   */
   readonly projectId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id#timeouts GkeClusterId#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id#timeouts GkeClusterId#timeouts}
   */
   readonly timeouts?: GkeClusterIdTimeouts;
 }
 export interface GkeClusterIdTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id#create GkeClusterId#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id#create GkeClusterId#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id#delete GkeClusterId#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id#delete GkeClusterId#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id#update GkeClusterId#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id#update GkeClusterId#update}
   */
   readonly update?: string;
 }
@@ -213,7 +213,7 @@ export class GkeClusterIdTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id castai_gke_cluster_id}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id castai_gke_cluster_id}
 */
 export class GkeClusterId extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class GkeClusterId extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GkeClusterId resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GkeClusterId to import
-  * @param importFromId The id of the existing GkeClusterId that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GkeClusterId that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GkeClusterId to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class GkeClusterId extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/gke_cluster_id castai_gke_cluster_id} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/gke_cluster_id castai_gke_cluster_id} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class GkeClusterId extends cdktf.TerraformResource {
       terraformResourceType: 'castai_gke_cluster_id',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.3.0',
-        providerVersionConstraint: '8.3.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

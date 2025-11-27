@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface OctopusdeployProviderConfig {
   /**
   * The OIDC Access Token to use with the Octopus REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs#access_token OctopusdeployProvider#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs#access_token OctopusdeployProvider#access_token}
   */
   readonly accessToken?: string;
   /**
   * The endpoint of the Octopus REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs#address OctopusdeployProvider#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs#address OctopusdeployProvider#address}
   */
   readonly address?: string;
   /**
   * The API key to use with the Octopus REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs#api_key OctopusdeployProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs#api_key OctopusdeployProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * The space ID to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs#space_id OctopusdeployProvider#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs#space_id OctopusdeployProvider#space_id}
   */
   readonly spaceId?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs#alias OctopusdeployProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs#alias OctopusdeployProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs octopusdeploy}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs octopusdeploy}
 */
 export class OctopusdeployProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class OctopusdeployProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a OctopusdeployProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OctopusdeployProvider to import
-  * @param importFromId The id of the existing OctopusdeployProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OctopusdeployProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OctopusdeployProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class OctopusdeployProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs octopusdeploy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs octopusdeploy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class OctopusdeployProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'octopusdeploy',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       terraformProviderSource: 'OctopusDeploy/octopusdeploy'
     });

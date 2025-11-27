@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CloudProjectRegionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Region to add on your project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region#region CloudProjectRegion#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region#region CloudProjectRegion#region}
   */
   readonly region: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region#service_name CloudProjectRegion#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region#service_name CloudProjectRegion#service_name}
   */
   readonly serviceName: string;
 }
@@ -107,7 +107,7 @@ export class CloudProjectRegionServicesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region ovh_cloud_project_region}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region ovh_cloud_project_region}
 */
 export class CloudProjectRegion extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class CloudProjectRegion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectRegion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectRegion to import
-  * @param importFromId The id of the existing CloudProjectRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectRegion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class CloudProjectRegion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region ovh_cloud_project_region} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region ovh_cloud_project_region} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class CloudProjectRegion extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_region',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

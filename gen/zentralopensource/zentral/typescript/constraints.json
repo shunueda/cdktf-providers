@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "zentral": "0.1.64"
+    "zentral": "0.1.65"
   }
 }

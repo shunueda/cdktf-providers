@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template
+// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FastedgeTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * WebAssembly binary id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template#binary FastedgeTemplate#binary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template#binary FastedgeTemplate#binary}
   */
   readonly binary: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template#id FastedgeTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template#id FastedgeTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface FastedgeTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instruction how to configure the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template#long_descr FastedgeTemplate#long_descr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template#long_descr FastedgeTemplate#long_descr}
   */
   readonly longDescr?: string;
   /**
   * Template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template#name FastedgeTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template#name FastedgeTemplate#name}
   */
   readonly name: string;
   /**
   * Short description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template#short_descr FastedgeTemplate#short_descr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template#short_descr FastedgeTemplate#short_descr}
   */
   readonly shortDescr?: string;
   /**
   * param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template#param FastedgeTemplate#param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template#param FastedgeTemplate#param}
   */
   readonly param?: FastedgeTemplateParam[] | cdktf.IResolvable;
 }
@@ -49,25 +49,25 @@ export interface FastedgeTemplateParam {
   /**
   * Parameter description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template#descr FastedgeTemplate#descr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template#descr FastedgeTemplate#descr}
   */
   readonly descr?: string;
   /**
   * Is parameter mandatory, true/false (false by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template#mandatory FastedgeTemplate#mandatory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template#mandatory FastedgeTemplate#mandatory}
   */
   readonly mandatory?: boolean | cdktf.IResolvable;
   /**
   * Parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template#name FastedgeTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template#name FastedgeTemplate#name}
   */
   readonly name: string;
   /**
   * Parameter type. Possible values are: string, number, date, time, secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template#type FastedgeTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template#type FastedgeTemplate#type}
   */
   readonly type: string;
 }
@@ -264,7 +264,7 @@ export class FastedgeTemplateParamList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template gcore_fastedge_template}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template gcore_fastedge_template}
 */
 export class FastedgeTemplate extends cdktf.TerraformResource {
 
@@ -280,7 +280,7 @@ export class FastedgeTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FastedgeTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FastedgeTemplate to import
-  * @param importFromId The id of the existing FastedgeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FastedgeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FastedgeTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +292,7 @@ export class FastedgeTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/fastedge_template gcore_fastedge_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_template gcore_fastedge_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,8 +303,8 @@ export class FastedgeTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_fastedge_template',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.1',
-        providerVersionConstraint: '0.32.1'
+        providerVersion: '0.32.2',
+        providerVersionConstraint: '0.32.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

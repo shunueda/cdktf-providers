@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface RoutingBgpConnectionConfig extends cdktf.TerraformMetaArguments
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#___path___ RoutingBgpConnection#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#___path___ RoutingBgpConnection#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#add_path_out RoutingBgpConnection#add_path_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#add_path_out RoutingBgpConnection#add_path_out}
   */
   readonly addPathOut?: string;
   /**
   * List of address families about which this peer will exchange routing information. The remote peer must support (they usually do) BGP capabilities optional parameter to negotiate any other families than IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#address_families RoutingBgpConnection#address_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#address_families RoutingBgpConnection#address_families}
   */
   readonly addressFamilies?: string;
   /**
   * 32-bit BGP autonomous system number. Value can be entered in AS-Plain and AS-Dot formats. The parameter is also used to set up the BGP confederation, in the following format: confederation_as/as . For example, if your AS is 34 and your confederation AS is 43, then as configuration should be as =43/34.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#as RoutingBgpConnection#as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#as RoutingBgpConnection#as}
   */
   readonly as: string;
   /**
   * VPLS NLRI length format type. Used for compatibility with Cisco VPLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#cisco_vpls_nlri_len_fmt RoutingBgpConnection#cisco_vpls_nlri_len_fmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#cisco_vpls_nlri_len_fmt RoutingBgpConnection#cisco_vpls_nlri_len_fmt}
   */
   readonly ciscoVplsNlriLenFmt?: string;
   /**
   * In case this instance is a route reflector: the cluster ID of the router reflector cluster to this instance belongs. This attribute helps to recognize routing updates that come from another route reflector in this cluster and avoid routing information looping. Note that normally there is only one route reflector in a cluster; in this case, 'cluster-id' does not need to be configured and BGP router ID is used instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#cluster_id RoutingBgpConnection#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#cluster_id RoutingBgpConnection#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#comment RoutingBgpConnection#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#comment RoutingBgpConnection#comment}
   */
   readonly comment?: string;
   /**
   * Whether to allow the router to initiate the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#connect RoutingBgpConnection#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#connect RoutingBgpConnection#connect}
   */
   readonly connect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#disabled RoutingBgpConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#disabled RoutingBgpConnection#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Specifies the BGP Hold Time value to use when negotiating with peers. According to the BGP specification, if the router does not receive successive KEEPALIVE and/or UPDATE and/or NOTIFICATION messages within the period specified in the Hold Time field of the OPEN message, then the BGP connection to the peer will be closed. The minimal hold-time value of both peers will be actually used (note that the special value 0 or 'infinity' is lower than any other value) infinity - never expire the connection and never send keepalive messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#hold_time RoutingBgpConnection#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#hold_time RoutingBgpConnection#hold_time}
   */
   readonly holdTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#id RoutingBgpConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#id RoutingBgpConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,103 +71,103 @@ export interface RoutingBgpConnectionConfig extends cdktf.TerraformMetaArguments
   /**
   * Name of the instance this VPN is assigned to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#instance RoutingBgpConnection#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#instance RoutingBgpConnection#instance}
   */
   readonly instance?: string;
   /**
   * How long to keep the BGP session open after the last received 'keepalive' message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#keepalive_time RoutingBgpConnection#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#keepalive_time RoutingBgpConnection#keepalive_time}
   */
   readonly keepaliveTime?: string;
   /**
   * Whether to listen for incoming connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#listen RoutingBgpConnection#listen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#listen RoutingBgpConnection#listen}
   */
   readonly listen?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the remote peer is more than one hop away. This option affects outgoing next-hop selection as described in RFC 4271 (for EBGP only, excluding EBGP peers local to the confederation). It also affects: whether to accept connections from peers that are not in the same network (the remote address of the connection is used for this check); whether to accept incoming routes with NEXT_HOP attribute that is not in the same network as the address used to establish the connection; the target-scope of the routes installed from this peer; routes from multi-hop or IBGP peers resolve their next-hops through IGP routes by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#multihop RoutingBgpConnection#multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#multihop RoutingBgpConnection#multihop}
   */
   readonly multihop?: boolean | cdktf.IResolvable;
   /**
   * Name of the BGP connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#name RoutingBgpConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#name RoutingBgpConnection#name}
   */
   readonly name: string;
   /**
   * Affects the outgoing NEXT_HOP attribute selection. Note that next-hops set in filters always take precedence. Also note that the next-hop is not changed on route reflection, except when it's set in the filter. default - select the next-hop as described in RFC 4271 force-self - always use a local address of the interface that is used to connect to the peer as the next-hop; propagate - try to propagate further the next-hop received; i.e. if the route has BGP NEXT_HOP attribute, then use it as the next-hop, otherwise, fall back to the default case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#nexthop_choice RoutingBgpConnection#nexthop_choice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#nexthop_choice RoutingBgpConnection#nexthop_choice}
   */
   readonly nexthopChoice?: string;
   /**
   * BGP Router ID to be used. Use the ID from the /routing/router-id configuration by specifying the reference name, or set the ID directly by specifying IP. Equal router-ids are also used to group peers into one instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#router_id RoutingBgpConnection#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#router_id RoutingBgpConnection#router_id}
   */
   readonly routerId?: string;
   /**
   * Name of the routing table, to install routes in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#routing_table RoutingBgpConnection#routing_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#routing_table RoutingBgpConnection#routing_table}
   */
   readonly routingTable?: string;
   /**
   * Filename to be used to save BGP protocol-specific packet content (Exported PDU) into pcap file. This method allows much simpler peer-specific packet capturing for debugging purposes. Pcap files in this format can also be loaded to create virtual BGP peers to recreate conditions that happened at the time when packet capture was running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#save_to RoutingBgpConnection#save_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#save_to RoutingBgpConnection#save_to}
   */
   readonly saveTo?: string;
   /**
   * The key used to authenticate the connection with TCP MD5 signature as described in RFC 2385. If not specified, authentication is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#tcp_md5_key RoutingBgpConnection#tcp_md5_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#tcp_md5_key RoutingBgpConnection#tcp_md5_key}
   */
   readonly tcpMd5Key?: string;
   /**
   * List of the template names, to inherit parameters from. Useful for dynamic BGP peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#templates RoutingBgpConnection#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#templates RoutingBgpConnection#templates}
   */
   readonly templates?: string[];
   /**
   * Whether to use the BFD protocol for faster connection state detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#use_bfd RoutingBgpConnection#use_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#use_bfd RoutingBgpConnection#use_bfd}
   */
   readonly useBfd?: boolean | cdktf.IResolvable;
   /**
   * The VRF table this resource operates on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#vrf RoutingBgpConnection#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#vrf RoutingBgpConnection#vrf}
   */
   readonly vrf?: string;
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#input RoutingBgpConnection#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#input RoutingBgpConnection#input}
   */
   readonly input?: RoutingBgpConnectionInput;
   /**
   * local block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#local RoutingBgpConnection#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#local RoutingBgpConnection#local}
   */
   readonly local?: RoutingBgpConnectionLocal;
   /**
   * output block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#output RoutingBgpConnection#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#output RoutingBgpConnection#output}
   */
   readonly output?: RoutingBgpConnectionOutput;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#remote RoutingBgpConnection#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#remote RoutingBgpConnection#remote}
   */
   readonly remote?: RoutingBgpConnectionRemote;
 }
@@ -175,97 +175,97 @@ export interface RoutingBgpConnectionInput {
   /**
   * A quick way to filter incoming updates with specific communities. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as 'not active, filtered'. Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#accept_communities RoutingBgpConnection#accept_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#accept_communities RoutingBgpConnection#accept_communities}
   */
   readonly acceptCommunities?: string;
   /**
   * A quick way to filter incoming updates with specific extended communities. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as 'not active, filtered'. Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#accept_ext_communities RoutingBgpConnection#accept_ext_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#accept_ext_communities RoutingBgpConnection#accept_ext_communities}
   */
   readonly acceptExtCommunities?: string;
   /**
   * A quick way to filter incoming updates with specific large communities. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as 'not active, filtered'. Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#accept_large_communities RoutingBgpConnection#accept_large_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#accept_large_communities RoutingBgpConnection#accept_large_communities}
   */
   readonly acceptLargeCommunities?: string;
   /**
   * Name of the ipv4/6 address-list. A quick way to filter incoming updates with specific NLRIs. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as 'not active, filtered'. Changes to be applied required session restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#accept_nlri RoutingBgpConnection#accept_nlri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#accept_nlri RoutingBgpConnection#accept_nlri}
   */
   readonly acceptNlri?: string;
   /**
   * A quick way to filter incoming updates with specific 'unknown' attributes. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as 'not active, filtered'. Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#accept_unknown RoutingBgpConnection#accept_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#accept_unknown RoutingBgpConnection#accept_unknown}
   */
   readonly acceptUnknown?: string;
   /**
   * Configure input multi-core processing. Read more in Routing Protocol Multi-core Support article. alone - input and output of each session are processed in its own process, most likely the best option when there are a lot of cores and a lot of peers afi, instance, vrf, remote-as - try to run input/output of new session in process with similar parameters main - run input/output in the main process (could potentially increase performance on single-core even possibly on multi-core devices with a small amount of cores) input - run output in the same process as input (can be set only for output affinity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#affinity RoutingBgpConnection#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#affinity RoutingBgpConnection#affinity}
   */
   readonly affinity?: string;
   /**
   * Indicates how many times to allow your own AS number in AS-PATH, before discarding a prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#allow_as RoutingBgpConnection#allow_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#allow_as RoutingBgpConnection#allow_as}
   */
   readonly allowAs?: number;
   /**
   * Name of the routing filter chain to be used on input prefixes. This happens after NLRIs are processed. If the chain is not specified, then BGP by default accepts everything.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#filter RoutingBgpConnection#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#filter RoutingBgpConnection#filter}
   */
   readonly filter?: string;
   /**
   * A quick way to filter incoming updates with specific communities. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as "not active, filtered". Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#filter_communities RoutingBgpConnection#filter_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#filter_communities RoutingBgpConnection#filter_communities}
   */
   readonly filterCommunities?: string;
   /**
   * A quick way to filter incoming updates with specific extended communities. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as "not active, filtered". Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#filter_ext_communities RoutingBgpConnection#filter_ext_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#filter_ext_communities RoutingBgpConnection#filter_ext_communities}
   */
   readonly filterExtCommunities?: string;
   /**
   * A quick way to filter incoming updates with specific large communities. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as "not active, filtered". Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#filter_large_communities RoutingBgpConnection#filter_large_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#filter_large_communities RoutingBgpConnection#filter_large_communities}
   */
   readonly filterLargeCommunities?: string;
   /**
   * Name of the filter chain that will filter incoming IPv4/IPv6 NLRIs directly before they are  stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in `/routing route` table as `not active, filtered`. Changes to be applied required session restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#filter_nlri RoutingBgpConnection#filter_nlri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#filter_nlri RoutingBgpConnection#filter_nlri}
   */
   readonly filterNlri?: string;
   /**
   * A quick way to filter incoming updates with specific "unknown" attributes. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as "not active, filtered". Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#filter_unknown RoutingBgpConnection#filter_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#filter_unknown RoutingBgpConnection#filter_unknown}
   */
   readonly filterUnknown?: string;
   /**
   * Whether to ignore the AS_PATH attribute in the BGP route selection algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#ignore_as_path_len RoutingBgpConnection#ignore_as_path_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#ignore_as_path_len RoutingBgpConnection#ignore_as_path_len}
   */
   readonly ignoreAsPathLen?: boolean | cdktf.IResolvable;
   /**
   * Try to limit the amount of received IPv4 routes to the specified number. This number does not represent the exact number of routes going to be installed in the routing table by the peer. BGP session 'clear' command must be used to reset the flag if the limit is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#limit_process_routes_ipv4 RoutingBgpConnection#limit_process_routes_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#limit_process_routes_ipv4 RoutingBgpConnection#limit_process_routes_ipv4}
   */
   readonly limitProcessRoutesIpv4?: number;
   /**
   * Try to limit the amount of received IPv6 routes to the specified number. This number does not represent the exact number of routes going to be installed in the routing table by the peer. BGP session 'clear' command must be used to reset the flag if the limit is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#limit_process_routes_ipv6 RoutingBgpConnection#limit_process_routes_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#limit_process_routes_ipv6 RoutingBgpConnection#limit_process_routes_ipv6}
   */
   readonly limitProcessRoutesIpv6?: number;
 }
@@ -786,25 +786,25 @@ export interface RoutingBgpConnectionLocal {
   /**
   * Local connection IPv4/6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#address RoutingBgpConnection#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#address RoutingBgpConnection#address}
   */
   readonly address?: string;
   /**
   * Local connection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#port RoutingBgpConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#port RoutingBgpConnection#port}
   */
   readonly port?: number;
   /**
   * BGP role, in most common scenarios it should be set to iBGP or eBGP. More information on BGP roles can be found in the corresponding [RFC draft](https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-open-policy/?include_text=1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#role RoutingBgpConnection#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#role RoutingBgpConnection#role}
   */
   readonly role: string;
   /**
   * Time To Live (hop limit) that will be recorded in sent TCP packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#ttl RoutingBgpConnection#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#ttl RoutingBgpConnection#ttl}
   */
   readonly ttl?: number;
 }
@@ -979,73 +979,73 @@ export interface RoutingBgpConnectionOutput {
   /**
   * Configure output multicore processing. Read more in Routing Protocol Multi-core Support article. alone - input and output of each session is processed in its own process, the most likely best option when there are a lot of cores and a lot of peers afi, instance, vrf, remote-as - try to run input/output of new session in process with similar parameters main - run input/output in the main process (could potentially increase performance on single-core even possibly on multicore devices with small amount of cores) input - run output in the same process as input (can be set only for output affinity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#affinity RoutingBgpConnection#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#affinity RoutingBgpConnection#affinity}
   */
   readonly affinity?: string;
   /**
   * If set, then all instances of the remote peer's AS number in the BGP AS-PATH attribute are replaced with the local AS number before sending a route update to that peer. Happens before routing filters and prepending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#as_override RoutingBgpConnection#as_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#as_override RoutingBgpConnection#as_override}
   */
   readonly asOverride?: boolean | cdktf.IResolvable;
   /**
   * Specifies default route (0.0.0.0/0) distribution method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#default_originate RoutingBgpConnection#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#default_originate RoutingBgpConnection#default_originate}
   */
   readonly defaultOriginate?: string;
   /**
   * The count of AS prepended to the AS path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#default_prepend RoutingBgpConnection#default_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#default_prepend RoutingBgpConnection#default_prepend}
   */
   readonly defaultPrepend?: number;
   /**
   * Name of the routing filter chain to be used on the output prefixes. If the chain is not specified, then BGP by default accepts everything.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#filter_chain RoutingBgpConnection#filter_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#filter_chain RoutingBgpConnection#filter_chain}
   */
   readonly filterChain?: string;
   /**
   * Name of the routing select chain to be used for prefix selection. If not specified, then default selection is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#filter_select RoutingBgpConnection#filter_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#filter_select RoutingBgpConnection#filter_select}
   */
   readonly filterSelect?: string;
   /**
   * Store in memory sent prefix attributes, required for ' dump-saved-advertisements ' command to work. By default, sent-out prefixes are not stored to preserve the router's memory. An option should be enabled only for debugging purposes when necessary to see currently advertised prefixes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#keep_sent_attributes RoutingBgpConnection#keep_sent_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#keep_sent_attributes RoutingBgpConnection#keep_sent_attributes}
   */
   readonly keepSentAttributes?: boolean | cdktf.IResolvable;
   /**
   * Name of the address list used to send local networks. The network is sent only if a matching IGP route exists in the routing table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#network RoutingBgpConnection#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#network RoutingBgpConnection#network}
   */
   readonly network?: string;
   /**
   * Disable client-to-client route reflection in Route Reflector setups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#no_client_to_client_reflection RoutingBgpConnection#no_client_to_client_reflection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#no_client_to_client_reflection RoutingBgpConnection#no_client_to_client_reflection}
   */
   readonly noClientToClientReflection?: boolean | cdktf.IResolvable;
   /**
   * The early cut is the mechanism, to guess (based on default RFC behavior) what would happen with the sent NPLRI when received by the remote peer. If the algorithm determines that the NLRI is going to be dropped, a peer will not even try to send it. However such behavior may not be desired in specific scenarios, then then this option should be used to disable the early cut feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#no_early_cut RoutingBgpConnection#no_early_cut}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#no_early_cut RoutingBgpConnection#no_early_cut}
   */
   readonly noEarlyCut?: boolean | cdktf.IResolvable;
   /**
   * Enable redistribution of specified route types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#redistribute RoutingBgpConnection#redistribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#redistribute RoutingBgpConnection#redistribute}
   */
   readonly redistribute?: string;
   /**
   * If set, then the BGP AS-PATH attribute is removed before sending out route updates if the attribute contains only private AS numbers. The removal process happens before routing filters are applied and before the local, AS number is prepended to the AS path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#remove_private_as RoutingBgpConnection#remove_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#remove_private_as RoutingBgpConnection#remove_private_as}
   */
   readonly removePrivateAs?: boolean | cdktf.IResolvable;
 }
@@ -1450,31 +1450,31 @@ export interface RoutingBgpConnectionRemote {
   /**
   * Remote IPv4/6 address used to connect and/or listen to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#address RoutingBgpConnection#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#address RoutingBgpConnection#address}
   */
   readonly address?: string;
   /**
   * List of remote AS numbers that are allowed to connect. Useful for dynamic peer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#allowed_as RoutingBgpConnection#allowed_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#allowed_as RoutingBgpConnection#allowed_as}
   */
   readonly allowedAs?: string;
   /**
   * Remote AS number. If not specified BGP will determine remote AS automatically from the OPEN message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#as RoutingBgpConnection#as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#as RoutingBgpConnection#as}
   */
   readonly as?: string;
   /**
   * Local connection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#port RoutingBgpConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#port RoutingBgpConnection#port}
   */
   readonly port?: number;
   /**
   * Acceptable minimum Time To Live, the hop limit for this TCP connection. For example, if 'ttl=255' then only single-hop neighbors will be able to establish the connection. This property only affects EBGP peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#ttl RoutingBgpConnection#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#ttl RoutingBgpConnection#ttl}
   */
   readonly ttl?: number;
 }
@@ -1674,7 +1674,7 @@ export class RoutingBgpConnectionRemoteOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection routeros_routing_bgp_connection}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection routeros_routing_bgp_connection}
 */
 export class RoutingBgpConnection extends cdktf.TerraformResource {
 
@@ -1690,7 +1690,7 @@ export class RoutingBgpConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingBgpConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingBgpConnection to import
-  * @param importFromId The id of the existing RoutingBgpConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingBgpConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingBgpConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1702,7 +1702,7 @@ export class RoutingBgpConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_bgp_connection routeros_routing_bgp_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bgp_connection routeros_routing_bgp_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1713,8 +1713,8 @@ export class RoutingBgpConnection extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_routing_bgp_connection',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

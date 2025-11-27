@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_rancher_capabilities_version
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_rancher_capabilities_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOvhCloudProjectRancherCapabilitiesVersionConfig extends cdk
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_rancher_capabilities_version#project_id DataOvhCloudProjectRancherCapabilitiesVersion#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_rancher_capabilities_version#project_id DataOvhCloudProjectRancherCapabilitiesVersion#project_id}
   */
   readonly projectId: string;
   /**
   * Rancher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_rancher_capabilities_version#rancher_id DataOvhCloudProjectRancherCapabilitiesVersion#rancher_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_rancher_capabilities_version#rancher_id DataOvhCloudProjectRancherCapabilitiesVersion#rancher_id}
   */
   readonly rancherId: string;
 }
@@ -117,7 +117,7 @@ export class DataOvhCloudProjectRancherCapabilitiesVersionVersionsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_rancher_capabilities_version ovh_cloud_project_rancher_capabilities_version}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_rancher_capabilities_version ovh_cloud_project_rancher_capabilities_version}
 */
 export class DataOvhCloudProjectRancherCapabilitiesVersion extends cdktf.TerraformDataSource {
 
@@ -133,7 +133,7 @@ export class DataOvhCloudProjectRancherCapabilitiesVersion extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataOvhCloudProjectRancherCapabilitiesVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhCloudProjectRancherCapabilitiesVersion to import
-  * @param importFromId The id of the existing DataOvhCloudProjectRancherCapabilitiesVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_rancher_capabilities_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhCloudProjectRancherCapabilitiesVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_rancher_capabilities_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhCloudProjectRancherCapabilitiesVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class DataOvhCloudProjectRancherCapabilitiesVersion extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_rancher_capabilities_version ovh_cloud_project_rancher_capabilities_version} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_rancher_capabilities_version ovh_cloud_project_rancher_capabilities_version} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class DataOvhCloudProjectRancherCapabilitiesVersion extends cdktf.Terrafo
       terraformResourceType: 'ovh_cloud_project_rancher_capabilities_version',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

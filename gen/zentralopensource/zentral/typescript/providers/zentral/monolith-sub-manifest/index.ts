@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/monolith_sub_manifest
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_sub_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface MonolithSubManifestConfig extends cdktf.TerraformMetaArguments 
   /**
   * Description of the sub manifest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/monolith_sub_manifest#description MonolithSubManifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_sub_manifest#description MonolithSubManifest#description}
   */
   readonly description?: string;
   /**
   * The `ID` of the meta business unit this sub manifest is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/monolith_sub_manifest#meta_business_unit_id MonolithSubManifest#meta_business_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_sub_manifest#meta_business_unit_id MonolithSubManifest#meta_business_unit_id}
   */
   readonly metaBusinessUnitId?: number;
   /**
   * Name of the sub manifest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/monolith_sub_manifest#name MonolithSubManifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_sub_manifest#name MonolithSubManifest#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/monolith_sub_manifest zentral_monolith_sub_manifest}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_sub_manifest zentral_monolith_sub_manifest}
 */
 export class MonolithSubManifest extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class MonolithSubManifest extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonolithSubManifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonolithSubManifest to import
-  * @param importFromId The id of the existing MonolithSubManifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/monolith_sub_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonolithSubManifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_sub_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonolithSubManifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class MonolithSubManifest extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/monolith_sub_manifest zentral_monolith_sub_manifest} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_sub_manifest zentral_monolith_sub_manifest} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class MonolithSubManifest extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_monolith_sub_manifest',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64',
-        providerVersionConstraint: '0.1.64'
+        providerVersion: '0.1.65',
+        providerVersionConstraint: '0.1.65'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

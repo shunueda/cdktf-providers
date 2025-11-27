@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/omni_cluster
+// https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/omni_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface OmniClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * CAST AI cluster ID to register
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/omni_cluster#cluster_id OmniCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/omni_cluster#cluster_id OmniCluster#cluster_id}
   */
   readonly clusterId: string;
   /**
   * CAST AI organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/omni_cluster#organization_id OmniCluster#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/omni_cluster#organization_id OmniCluster#organization_id}
   */
   readonly organizationId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/omni_cluster castai_omni_cluster}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/omni_cluster castai_omni_cluster}
 */
 export class OmniCluster extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class OmniCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OmniCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OmniCluster to import
-  * @param importFromId The id of the existing OmniCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/omni_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OmniCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/omni_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OmniCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class OmniCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/omni_cluster castai_omni_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/omni_cluster castai_omni_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class OmniCluster extends cdktf.TerraformResource {
       terraformResourceType: 'castai_omni_cluster',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.3.0',
-        providerVersionConstraint: '8.3.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

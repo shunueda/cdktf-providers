@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/vmware_cloud_director_organization
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/vmware_cloud_director_organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOvhVmwareCloudDirectorOrganizationConfig extends cdktf.Terr
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/vmware_cloud_director_organization#organization_id DataOvhVmwareCloudDirectorOrganization#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/vmware_cloud_director_organization#organization_id DataOvhVmwareCloudDirectorOrganization#organization_id}
   */
   readonly organizationId: string;
 }
@@ -324,7 +324,7 @@ export class DataOvhVmwareCloudDirectorOrganizationTargetSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/vmware_cloud_director_organization ovh_vmware_cloud_director_organization}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/vmware_cloud_director_organization ovh_vmware_cloud_director_organization}
 */
 export class DataOvhVmwareCloudDirectorOrganization extends cdktf.TerraformDataSource {
 
@@ -340,7 +340,7 @@ export class DataOvhVmwareCloudDirectorOrganization extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOvhVmwareCloudDirectorOrganization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhVmwareCloudDirectorOrganization to import
-  * @param importFromId The id of the existing DataOvhVmwareCloudDirectorOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/vmware_cloud_director_organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhVmwareCloudDirectorOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/vmware_cloud_director_organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhVmwareCloudDirectorOrganization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class DataOvhVmwareCloudDirectorOrganization extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/vmware_cloud_director_organization ovh_vmware_cloud_director_organization} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/vmware_cloud_director_organization ovh_vmware_cloud_director_organization} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class DataOvhVmwareCloudDirectorOrganization extends cdktf.TerraformDataS
       terraformResourceType: 'ovh_vmware_cloud_director_organization',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

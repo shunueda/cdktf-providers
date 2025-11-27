@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_specifications_hardware
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_specifications_hardware
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOvhDedicatedServerSpecificationsHardwareConfig extends cdkt
   /**
   * The internal name of your dedicated server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_specifications_hardware#service_name DataOvhDedicatedServerSpecificationsHardware#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_specifications_hardware#service_name DataOvhDedicatedServerSpecificationsHardware#service_name}
   */
   readonly serviceName: string;
 }
@@ -524,7 +524,7 @@ export class DataOvhDedicatedServerSpecificationsHardwareUsbKeysList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_specifications_hardware ovh_dedicated_server_specifications_hardware}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_specifications_hardware ovh_dedicated_server_specifications_hardware}
 */
 export class DataOvhDedicatedServerSpecificationsHardware extends cdktf.TerraformDataSource {
 
@@ -540,7 +540,7 @@ export class DataOvhDedicatedServerSpecificationsHardware extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataOvhDedicatedServerSpecificationsHardware resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhDedicatedServerSpecificationsHardware to import
-  * @param importFromId The id of the existing DataOvhDedicatedServerSpecificationsHardware that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_specifications_hardware#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhDedicatedServerSpecificationsHardware that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_specifications_hardware#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhDedicatedServerSpecificationsHardware to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +552,7 @@ export class DataOvhDedicatedServerSpecificationsHardware extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dedicated_server_specifications_hardware ovh_dedicated_server_specifications_hardware} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dedicated_server_specifications_hardware ovh_dedicated_server_specifications_hardware} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +563,8 @@ export class DataOvhDedicatedServerSpecificationsHardware extends cdktf.Terrafor
       terraformResourceType: 'ovh_dedicated_server_specifications_hardware',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

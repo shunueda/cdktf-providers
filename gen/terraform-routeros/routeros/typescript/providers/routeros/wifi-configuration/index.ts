@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface WifiConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#___path___ WifiConfiguration#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#___path___ WifiConfiguration#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#___ts___ WifiConfiguration#___ts___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#___ts___ WifiConfiguration#___ts___}
   */
   readonly ts?: string;
   /**
   * AAA inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#aaa WifiConfiguration#aaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#aaa WifiConfiguration#aaa}
   */
   readonly aaa?: { [key: string]: string };
   /**
   * An option overrides the default antenna gain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#antenna_gain WifiConfiguration#antenna_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#antenna_gain WifiConfiguration#antenna_gain}
   */
   readonly antennaGain?: number;
   /**
   * Time interval between beacon frames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#beacon_interval WifiConfiguration#beacon_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#beacon_interval WifiConfiguration#beacon_interval}
   */
   readonly beaconInterval?: string;
   /**
   * Radio chains to use for receiving signals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#chains WifiConfiguration#chains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#chains WifiConfiguration#chains}
   */
   readonly chains?: number[];
   /**
   * Channel inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#channel WifiConfiguration#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#channel WifiConfiguration#channel}
   */
   readonly channel?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#comment WifiConfiguration#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#comment WifiConfiguration#comment}
   */
   readonly comment?: string;
   /**
   * An option determines which regulatory domain restrictions are applied to an interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#country WifiConfiguration#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#country WifiConfiguration#country}
   */
   readonly country?: string;
   /**
   * Datapath inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#datapath WifiConfiguration#datapath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#datapath WifiConfiguration#datapath}
   */
   readonly datapath?: { [key: string]: string };
   /**
   * Whether to assign lower priority to channels with a control frequency of 5720 or 5825-5885 MHz. These channels are unsupported by some client devices, making their automatic selection undesirable. Defaults to `yes` in ETSI regulatory domains, elsewhere to `no`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#deprioritize_unii_3_4 WifiConfiguration#deprioritize_unii_3_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#deprioritize_unii_3_4 WifiConfiguration#deprioritize_unii_3_4}
   */
   readonly deprioritizeUnii34?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#disabled WifiConfiguration#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#disabled WifiConfiguration#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * A period at which to transmit multicast traffic, when there are client devices in power save mode connected to the AP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#dtim_period WifiConfiguration#dtim_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#dtim_period WifiConfiguration#dtim_period}
   */
   readonly dtimPeriod?: number;
   /**
   * This property has effect only in AP mode. Setting it to yes can remove this network from the list of wireless networks that are shown by some client software. Changing this setting does not improve the security of the wireless network, because SSID is included in other frames sent by the AP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#hide_ssid WifiConfiguration#hide_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#hide_ssid WifiConfiguration#hide_ssid}
   */
   readonly hideSsid?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#id WifiConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#id WifiConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -97,73 +97,73 @@ export interface WifiConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interworking inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#interworking WifiConfiguration#interworking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#interworking WifiConfiguration#interworking}
   */
   readonly interworking?: { [key: string]: string };
   /**
   * An option to specify the remote CAP mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#manager WifiConfiguration#manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#manager WifiConfiguration#manager}
   */
   readonly manager?: string;
   /**
   * An option to specify the access point operational mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#mode WifiConfiguration#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#mode WifiConfiguration#mode}
   */
   readonly mode?: string;
   /**
   * An option to enable converting every multicast-address IP or IPv6 packet into multiple unicast-addresses frames for each connected station.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#multicast_enhance WifiConfiguration#multicast_enhance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#multicast_enhance WifiConfiguration#multicast_enhance}
   */
   readonly multicastEnhance?: string;
   /**
   * Name of the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#name WifiConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#name WifiConfiguration#name}
   */
   readonly name: string;
   /**
   * An option to specify the QoS classifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#qos_classifier WifiConfiguration#qos_classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#qos_classifier WifiConfiguration#qos_classifier}
   */
   readonly qosClassifier?: string;
   /**
   * Security inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#security WifiConfiguration#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#security WifiConfiguration#security}
   */
   readonly security?: { [key: string]: string };
   /**
   * SSID (service set identifier) is a name broadcast in the beacons that identifies wireless network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#ssid WifiConfiguration#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#ssid WifiConfiguration#ssid}
   */
   readonly ssid?: string;
   /**
   * Steering inline settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#steering WifiConfiguration#steering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#steering WifiConfiguration#steering}
   */
   readonly steering?: { [key: string]: string };
   /**
   * Radio chains to use for transmitting signals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#tx_chains WifiConfiguration#tx_chains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#tx_chains WifiConfiguration#tx_chains}
   */
   readonly txChains?: number[];
   /**
   * A limit on the transmit power (in dBm) of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#tx_power WifiConfiguration#tx_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#tx_power WifiConfiguration#tx_power}
   */
   readonly txPower?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration routeros_wifi_configuration}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration routeros_wifi_configuration}
 */
 export class WifiConfiguration extends cdktf.TerraformResource {
 
@@ -179,7 +179,7 @@ export class WifiConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WifiConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WifiConfiguration to import
-  * @param importFromId The id of the existing WifiConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WifiConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WifiConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -191,7 +191,7 @@ export class WifiConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/wifi_configuration routeros_wifi_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_configuration routeros_wifi_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -202,8 +202,8 @@ export class WifiConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_wifi_configuration',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface HostingPrivatedatabaseConfig extends cdktf.TerraformMetaArgumen
   /**
   * Name displayed in customer panel for your private database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#display_name HostingPrivatedatabase#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#display_name HostingPrivatedatabase#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#id HostingPrivatedatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#id HostingPrivatedatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface HostingPrivatedatabaseConfig extends cdktf.TerraformMetaArgumen
   /**
   * Ovh Subsidiary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#ovh_subsidiary HostingPrivatedatabase#ovh_subsidiary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#ovh_subsidiary HostingPrivatedatabase#ovh_subsidiary}
   */
   readonly ovhSubsidiary?: string;
   /**
   * Ovh payment mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#payment_mean HostingPrivatedatabase#payment_mean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#payment_mean HostingPrivatedatabase#payment_mean}
   */
   readonly paymentMean?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#service_name HostingPrivatedatabase#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#service_name HostingPrivatedatabase#service_name}
   */
   readonly serviceName?: string;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#order HostingPrivatedatabase#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#order HostingPrivatedatabase#order}
   */
   readonly order?: HostingPrivatedatabaseOrder[] | cdktf.IResolvable;
   /**
   * plan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#plan HostingPrivatedatabase#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#plan HostingPrivatedatabase#plan}
   */
   readonly plan?: HostingPrivatedatabasePlan;
   /**
   * plan_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#plan_option HostingPrivatedatabase#plan_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#plan_option HostingPrivatedatabase#plan_option}
   */
   readonly planOption?: HostingPrivatedatabasePlanOption[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#timeouts HostingPrivatedatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#timeouts HostingPrivatedatabase#timeouts}
   */
   readonly timeouts?: HostingPrivatedatabaseTimeouts;
 }
@@ -257,13 +257,13 @@ export interface HostingPrivatedatabasePlanConfiguration {
   /**
   * Identifier of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#label HostingPrivatedatabase#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#label HostingPrivatedatabase#label}
   */
   readonly label: string;
   /**
   * Path to the resource in API.OVH.COM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#value HostingPrivatedatabase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#value HostingPrivatedatabase#value}
   */
   readonly value: string;
 }
@@ -404,31 +404,31 @@ export interface HostingPrivatedatabasePlan {
   /**
   * Catalog name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#catalog_name HostingPrivatedatabase#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#catalog_name HostingPrivatedatabase#catalog_name}
   */
   readonly catalogName?: string;
   /**
   * duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#duration HostingPrivatedatabase#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#duration HostingPrivatedatabase#duration}
   */
   readonly duration: string;
   /**
   * Plan code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#plan_code HostingPrivatedatabase#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#plan_code HostingPrivatedatabase#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing model identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#pricing_mode HostingPrivatedatabase#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#pricing_mode HostingPrivatedatabase#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#configuration HostingPrivatedatabase#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#configuration HostingPrivatedatabase#configuration}
   */
   readonly configuration?: HostingPrivatedatabasePlanConfiguration[] | cdktf.IResolvable;
 }
@@ -621,13 +621,13 @@ export interface HostingPrivatedatabasePlanOptionConfiguration {
   /**
   * Identifier of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#label HostingPrivatedatabase#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#label HostingPrivatedatabase#label}
   */
   readonly label: string;
   /**
   * Path to the resource in API.OVH.COM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#value HostingPrivatedatabase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#value HostingPrivatedatabase#value}
   */
   readonly value: string;
 }
@@ -768,31 +768,31 @@ export interface HostingPrivatedatabasePlanOption {
   /**
   * Catalog name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#catalog_name HostingPrivatedatabase#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#catalog_name HostingPrivatedatabase#catalog_name}
   */
   readonly catalogName?: string;
   /**
   * duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#duration HostingPrivatedatabase#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#duration HostingPrivatedatabase#duration}
   */
   readonly duration: string;
   /**
   * Plan code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#plan_code HostingPrivatedatabase#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#plan_code HostingPrivatedatabase#plan_code}
   */
   readonly planCode: string;
   /**
   * Pricing model identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#pricing_mode HostingPrivatedatabase#pricing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#pricing_mode HostingPrivatedatabase#pricing_mode}
   */
   readonly pricingMode: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#configuration HostingPrivatedatabase#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#configuration HostingPrivatedatabase#configuration}
   */
   readonly configuration?: HostingPrivatedatabasePlanOptionConfiguration[] | cdktf.IResolvable;
 }
@@ -1015,7 +1015,7 @@ export class HostingPrivatedatabasePlanOptionList extends cdktf.ComplexList {
 }
 export interface HostingPrivatedatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#create HostingPrivatedatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#create HostingPrivatedatabase#create}
   */
   readonly create?: string;
 }
@@ -1109,7 +1109,7 @@ export class HostingPrivatedatabaseTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase ovh_hosting_privatedatabase}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase ovh_hosting_privatedatabase}
 */
 export class HostingPrivatedatabase extends cdktf.TerraformResource {
 
@@ -1125,7 +1125,7 @@ export class HostingPrivatedatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HostingPrivatedatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HostingPrivatedatabase to import
-  * @param importFromId The id of the existing HostingPrivatedatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HostingPrivatedatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HostingPrivatedatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1137,7 +1137,7 @@ export class HostingPrivatedatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/hosting_privatedatabase ovh_hosting_privatedatabase} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/hosting_privatedatabase ovh_hosting_privatedatabase} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1148,8 +1148,8 @@ export class HostingPrivatedatabase extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_hosting_privatedatabase',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/workload_scaling_policy_order
+// https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/workload_scaling_policy_order
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkloadScalingPolicyOrderConfig extends cdktf.TerraformMetaArg
   /**
   * CAST AI cluster id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/workload_scaling_policy_order#cluster_id WorkloadScalingPolicyOrder#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/workload_scaling_policy_order#cluster_id WorkloadScalingPolicyOrder#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/workload_scaling_policy_order#id WorkloadScalingPolicyOrder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/workload_scaling_policy_order#id WorkloadScalingPolicyOrder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,27 +23,27 @@ export interface WorkloadScalingPolicyOrderConfig extends cdktf.TerraformMetaArg
   /**
   * List of scaling policy IDs in the order they should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/workload_scaling_policy_order#policy_ids WorkloadScalingPolicyOrder#policy_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/workload_scaling_policy_order#policy_ids WorkloadScalingPolicyOrder#policy_ids}
   */
   readonly policyIds: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/workload_scaling_policy_order#timeouts WorkloadScalingPolicyOrder#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/workload_scaling_policy_order#timeouts WorkloadScalingPolicyOrder#timeouts}
   */
   readonly timeouts?: WorkloadScalingPolicyOrderTimeouts;
 }
 export interface WorkloadScalingPolicyOrderTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/workload_scaling_policy_order#create WorkloadScalingPolicyOrder#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/workload_scaling_policy_order#create WorkloadScalingPolicyOrder#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/workload_scaling_policy_order#delete WorkloadScalingPolicyOrder#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/workload_scaling_policy_order#delete WorkloadScalingPolicyOrder#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/workload_scaling_policy_order#update WorkloadScalingPolicyOrder#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/workload_scaling_policy_order#update WorkloadScalingPolicyOrder#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class WorkloadScalingPolicyOrderTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/workload_scaling_policy_order castai_workload_scaling_policy_order}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/workload_scaling_policy_order castai_workload_scaling_policy_order}
 */
 export class WorkloadScalingPolicyOrder extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class WorkloadScalingPolicyOrder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkloadScalingPolicyOrder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkloadScalingPolicyOrder to import
-  * @param importFromId The id of the existing WorkloadScalingPolicyOrder that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/workload_scaling_policy_order#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkloadScalingPolicyOrder that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/workload_scaling_policy_order#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkloadScalingPolicyOrder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class WorkloadScalingPolicyOrder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/workload_scaling_policy_order castai_workload_scaling_policy_order} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/workload_scaling_policy_order castai_workload_scaling_policy_order} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class WorkloadScalingPolicyOrder extends cdktf.TerraformResource {
       terraformResourceType: 'castai_workload_scaling_policy_order',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.3.0',
-        providerVersionConstraint: '8.3.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

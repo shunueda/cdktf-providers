@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_api_oauth2_clients
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_api_oauth2_clients
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOvhMeApiOauth2ClientsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_api_oauth2_clients#id DataOvhMeApiOauth2Clients#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_api_oauth2_clients#id DataOvhMeApiOauth2Clients#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataOvhMeApiOauth2ClientsConfig extends cdktf.TerraformMetaArgu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_api_oauth2_clients ovh_me_api_oauth2_clients}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_api_oauth2_clients ovh_me_api_oauth2_clients}
 */
 export class DataOvhMeApiOauth2Clients extends cdktf.TerraformDataSource {
 
@@ -33,7 +33,7 @@ export class DataOvhMeApiOauth2Clients extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhMeApiOauth2Clients resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhMeApiOauth2Clients to import
-  * @param importFromId The id of the existing DataOvhMeApiOauth2Clients that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_api_oauth2_clients#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhMeApiOauth2Clients that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_api_oauth2_clients#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhMeApiOauth2Clients to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -45,7 +45,7 @@ export class DataOvhMeApiOauth2Clients extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/me_api_oauth2_clients ovh_me_api_oauth2_clients} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/me_api_oauth2_clients ovh_me_api_oauth2_clients} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -56,8 +56,8 @@ export class DataOvhMeApiOauth2Clients extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_me_api_oauth2_clients',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

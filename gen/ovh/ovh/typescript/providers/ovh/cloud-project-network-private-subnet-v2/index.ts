@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CloudProjectNetworkPrivateSubnetV2Config extends cdktf.Terrafor
   /**
   * CIDR of subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#cidr CloudProjectNetworkPrivateSubnetV2#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#cidr CloudProjectNetworkPrivateSubnetV2#cidr}
   */
   readonly cidr: string;
   /**
   * Enable DHCP in subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#dhcp CloudProjectNetworkPrivateSubnetV2#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#dhcp CloudProjectNetworkPrivateSubnetV2#dhcp}
   */
   readonly dhcp?: boolean | cdktf.IResolvable;
   /**
   * List of DNS nameservers, default: 213.186.33.99
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#dns_nameservers CloudProjectNetworkPrivateSubnetV2#dns_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#dns_nameservers CloudProjectNetworkPrivateSubnetV2#dns_nameservers}
   */
   readonly dnsNameservers?: string[];
   /**
   * Enable gateway IP in subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#enable_gateway_ip CloudProjectNetworkPrivateSubnetV2#enable_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#enable_gateway_ip CloudProjectNetworkPrivateSubnetV2#enable_gateway_ip}
   */
   readonly enableGatewayIp?: boolean | cdktf.IResolvable;
   /**
   * Gateway IP of subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#gateway_ip CloudProjectNetworkPrivateSubnetV2#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#gateway_ip CloudProjectNetworkPrivateSubnetV2#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#id CloudProjectNetworkPrivateSubnetV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#id CloudProjectNetworkPrivateSubnetV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,53 +47,53 @@ export interface CloudProjectNetworkPrivateSubnetV2Config extends cdktf.Terrafor
   /**
   * Name of subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#name CloudProjectNetworkPrivateSubnetV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#name CloudProjectNetworkPrivateSubnetV2#name}
   */
   readonly name: string;
   /**
   * Network ID of subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#network_id CloudProjectNetworkPrivateSubnetV2#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#network_id CloudProjectNetworkPrivateSubnetV2#network_id}
   */
   readonly networkId: string;
   /**
   * Region of network/subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#region CloudProjectNetworkPrivateSubnetV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#region CloudProjectNetworkPrivateSubnetV2#region}
   */
   readonly region: string;
   /**
   * Service name of the resource representing the id of the cloud project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#service_name CloudProjectNetworkPrivateSubnetV2#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#service_name CloudProjectNetworkPrivateSubnetV2#service_name}
   */
   readonly serviceName: string;
   /**
   * Use OVH default DNS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#use_default_public_dns_resolver CloudProjectNetworkPrivateSubnetV2#use_default_public_dns_resolver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#use_default_public_dns_resolver CloudProjectNetworkPrivateSubnetV2#use_default_public_dns_resolver}
   */
   readonly useDefaultPublicDnsResolver?: boolean | cdktf.IResolvable;
   /**
   * allocation_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#allocation_pools CloudProjectNetworkPrivateSubnetV2#allocation_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#allocation_pools CloudProjectNetworkPrivateSubnetV2#allocation_pools}
   */
   readonly allocationPools?: CloudProjectNetworkPrivateSubnetV2AllocationPools[] | cdktf.IResolvable;
   /**
   * host_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#host_route CloudProjectNetworkPrivateSubnetV2#host_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#host_route CloudProjectNetworkPrivateSubnetV2#host_route}
   */
   readonly hostRoute?: CloudProjectNetworkPrivateSubnetV2HostRoute[] | cdktf.IResolvable;
 }
 export interface CloudProjectNetworkPrivateSubnetV2AllocationPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#end CloudProjectNetworkPrivateSubnetV2#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#end CloudProjectNetworkPrivateSubnetV2#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#start CloudProjectNetworkPrivateSubnetV2#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#start CloudProjectNetworkPrivateSubnetV2#start}
   */
   readonly start: string;
 }
@@ -232,11 +232,11 @@ export class CloudProjectNetworkPrivateSubnetV2AllocationPoolsList extends cdktf
 }
 export interface CloudProjectNetworkPrivateSubnetV2HostRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#destination CloudProjectNetworkPrivateSubnetV2#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#destination CloudProjectNetworkPrivateSubnetV2#destination}
   */
   readonly destination: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#nexthop CloudProjectNetworkPrivateSubnetV2#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#nexthop CloudProjectNetworkPrivateSubnetV2#nexthop}
   */
   readonly nexthop: string;
 }
@@ -375,7 +375,7 @@ export class CloudProjectNetworkPrivateSubnetV2HostRouteList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2 ovh_cloud_project_network_private_subnet_v2}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2 ovh_cloud_project_network_private_subnet_v2}
 */
 export class CloudProjectNetworkPrivateSubnetV2 extends cdktf.TerraformResource {
 
@@ -391,7 +391,7 @@ export class CloudProjectNetworkPrivateSubnetV2 extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a CloudProjectNetworkPrivateSubnetV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectNetworkPrivateSubnetV2 to import
-  * @param importFromId The id of the existing CloudProjectNetworkPrivateSubnetV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectNetworkPrivateSubnetV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectNetworkPrivateSubnetV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -403,7 +403,7 @@ export class CloudProjectNetworkPrivateSubnetV2 extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_network_private_subnet_v2 ovh_cloud_project_network_private_subnet_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_network_private_subnet_v2 ovh_cloud_project_network_private_subnet_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -414,8 +414,8 @@ export class CloudProjectNetworkPrivateSubnetV2 extends cdktf.TerraformResource 
       terraformResourceType: 'ovh_cloud_project_network_private_subnet_v2',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

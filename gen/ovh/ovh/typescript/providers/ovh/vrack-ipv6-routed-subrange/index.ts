@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6_routed_subrange
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6_routed_subrange
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface VrackIpv6RoutedSubrangeConfig extends cdktf.TerraformMetaArgume
   /**
   * Your IP v6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6_routed_subrange#block VrackIpv6RoutedSubrange#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6_routed_subrange#block VrackIpv6RoutedSubrange#block}
   */
   readonly block: string;
   /**
   * IPv6 address (e.g., 2001:41d0:1:1994::1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6_routed_subrange#nexthop VrackIpv6RoutedSubrange#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6_routed_subrange#nexthop VrackIpv6RoutedSubrange#nexthop}
   */
   readonly nexthop: string;
   /**
   * IPv6 CIDR notation (e.g., 2001:41d0::/128)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6_routed_subrange#routed_subrange VrackIpv6RoutedSubrange#routed_subrange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6_routed_subrange#routed_subrange VrackIpv6RoutedSubrange#routed_subrange}
   */
   readonly routedSubrange: string;
   /**
   * The internal name of your vrack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6_routed_subrange#service_name VrackIpv6RoutedSubrange#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6_routed_subrange#service_name VrackIpv6RoutedSubrange#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6_routed_subrange ovh_vrack_ipv6_routed_subrange}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6_routed_subrange ovh_vrack_ipv6_routed_subrange}
 */
 export class VrackIpv6RoutedSubrange extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class VrackIpv6RoutedSubrange extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VrackIpv6RoutedSubrange resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrackIpv6RoutedSubrange to import
-  * @param importFromId The id of the existing VrackIpv6RoutedSubrange that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6_routed_subrange#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrackIpv6RoutedSubrange that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6_routed_subrange#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrackIpv6RoutedSubrange to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class VrackIpv6RoutedSubrange extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/vrack_ipv6_routed_subrange ovh_vrack_ipv6_routed_subrange} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/vrack_ipv6_routed_subrange ovh_vrack_ipv6_routed_subrange} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class VrackIpv6RoutedSubrange extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_vrack_ipv6_routed_subrange',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

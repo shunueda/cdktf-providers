@@ -2,6 +2,9 @@
 Object.defineProperty(exports, 'aksCluster', { get: function () { return require('./aks-cluster'); } });
 Object.defineProperty(exports, 'allocationGroup', { get: function () { return require('./allocation-group'); } });
 Object.defineProperty(exports, 'autoscaler', { get: function () { return require('./autoscaler'); } });
+Object.defineProperty(exports, 'cacheConfiguration', { get: function () { return require('./cache-configuration'); } });
+Object.defineProperty(exports, 'cacheGroup', { get: function () { return require('./cache-group'); } });
+Object.defineProperty(exports, 'cacheRule', { get: function () { return require('./cache-rule'); } });
 Object.defineProperty(exports, 'commitments', { get: function () { return require('./commitments'); } });
 Object.defineProperty(exports, 'edgeLocation', { get: function () { return require('./edge-location'); } });
 Object.defineProperty(exports, 'eksCluster', { get: function () { return require('./eks-cluster'); } });
@@ -29,6 +32,7 @@ Object.defineProperty(exports, 'serviceAccountKey', { get: function () { return 
 Object.defineProperty(exports, 'ssoConnection', { get: function () { return require('./sso-connection'); } });
 Object.defineProperty(exports, 'workloadScalingPolicy', { get: function () { return require('./workload-scaling-policy'); } });
 Object.defineProperty(exports, 'workloadScalingPolicyOrder', { get: function () { return require('./workload-scaling-policy-order'); } });
+Object.defineProperty(exports, 'dataCastaiCacheGroup', { get: function () { return require('./data-castai-cache-group'); } });
 Object.defineProperty(exports, 'dataCastaiEksSettings', { get: function () { return require('./data-castai-eks-settings'); } });
 Object.defineProperty(exports, 'dataCastaiGkeUserPolicies', { get: function () { return require('./data-castai-gke-user-policies'); } });
 Object.defineProperty(exports, 'dataCastaiHibernationSchedule', { get: function () { return require('./data-castai-hibernation-schedule'); } });

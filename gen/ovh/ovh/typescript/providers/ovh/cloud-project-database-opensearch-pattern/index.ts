@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_pattern
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_pattern
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CloudProjectDatabaseOpensearchPatternConfig extends cdktf.Terra
   /**
   * Id of the database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_pattern#cluster_id CloudProjectDatabaseOpensearchPattern#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_pattern#cluster_id CloudProjectDatabaseOpensearchPattern#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_pattern#id CloudProjectDatabaseOpensearchPattern#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_pattern#id CloudProjectDatabaseOpensearchPattern#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,33 +23,33 @@ export interface CloudProjectDatabaseOpensearchPatternConfig extends cdktf.Terra
   /**
   * Maximum number of index for this pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_pattern#max_index_count CloudProjectDatabaseOpensearchPattern#max_index_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_pattern#max_index_count CloudProjectDatabaseOpensearchPattern#max_index_count}
   */
   readonly maxIndexCount?: number;
   /**
   * Pattern format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_pattern#pattern CloudProjectDatabaseOpensearchPattern#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_pattern#pattern CloudProjectDatabaseOpensearchPattern#pattern}
   */
   readonly pattern: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_pattern#service_name CloudProjectDatabaseOpensearchPattern#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_pattern#service_name CloudProjectDatabaseOpensearchPattern#service_name}
   */
   readonly serviceName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_pattern#timeouts CloudProjectDatabaseOpensearchPattern#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_pattern#timeouts CloudProjectDatabaseOpensearchPattern#timeouts}
   */
   readonly timeouts?: CloudProjectDatabaseOpensearchPatternTimeouts;
 }
 export interface CloudProjectDatabaseOpensearchPatternTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_pattern#create CloudProjectDatabaseOpensearchPattern#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_pattern#create CloudProjectDatabaseOpensearchPattern#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_pattern#delete CloudProjectDatabaseOpensearchPattern#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_pattern#delete CloudProjectDatabaseOpensearchPattern#delete}
   */
   readonly delete?: string;
 }
@@ -172,7 +172,7 @@ export class CloudProjectDatabaseOpensearchPatternTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_pattern ovh_cloud_project_database_opensearch_pattern}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_pattern ovh_cloud_project_database_opensearch_pattern}
 */
 export class CloudProjectDatabaseOpensearchPattern extends cdktf.TerraformResource {
 
@@ -188,7 +188,7 @@ export class CloudProjectDatabaseOpensearchPattern extends cdktf.TerraformResour
   * Generates CDKTF code for importing a CloudProjectDatabaseOpensearchPattern resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectDatabaseOpensearchPattern to import
-  * @param importFromId The id of the existing CloudProjectDatabaseOpensearchPattern that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_pattern#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectDatabaseOpensearchPattern that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_pattern#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectDatabaseOpensearchPattern to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class CloudProjectDatabaseOpensearchPattern extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database_opensearch_pattern ovh_cloud_project_database_opensearch_pattern} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database_opensearch_pattern ovh_cloud_project_database_opensearch_pattern} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,8 +211,8 @@ export class CloudProjectDatabaseOpensearchPattern extends cdktf.TerraformResour
       terraformResourceType: 'ovh_cloud_project_database_opensearch_pattern',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

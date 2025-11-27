@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_m3db_namespace
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_m3db_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataOvhCloudProjectDatabaseM3DbNamespaceConfig extends cdktf.Te
   /**
   * Cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_m3db_namespace#cluster_id DataOvhCloudProjectDatabaseM3DbNamespace#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_m3db_namespace#cluster_id DataOvhCloudProjectDatabaseM3DbNamespace#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_m3db_namespace#id DataOvhCloudProjectDatabaseM3DbNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_m3db_namespace#id DataOvhCloudProjectDatabaseM3DbNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,17 +23,17 @@ export interface DataOvhCloudProjectDatabaseM3DbNamespaceConfig extends cdktf.Te
   /**
   * Name of the namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_m3db_namespace#name DataOvhCloudProjectDatabaseM3DbNamespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_m3db_namespace#name DataOvhCloudProjectDatabaseM3DbNamespace#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_m3db_namespace#service_name DataOvhCloudProjectDatabaseM3DbNamespace#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_m3db_namespace#service_name DataOvhCloudProjectDatabaseM3DbNamespace#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_m3db_namespace ovh_cloud_project_database_m3db_namespace}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_m3db_namespace ovh_cloud_project_database_m3db_namespace}
 */
 export class DataOvhCloudProjectDatabaseM3DbNamespace extends cdktf.TerraformDataSource {
 
@@ -49,7 +49,7 @@ export class DataOvhCloudProjectDatabaseM3DbNamespace extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataOvhCloudProjectDatabaseM3DbNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhCloudProjectDatabaseM3DbNamespace to import
-  * @param importFromId The id of the existing DataOvhCloudProjectDatabaseM3DbNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_m3db_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhCloudProjectDatabaseM3DbNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_m3db_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhCloudProjectDatabaseM3DbNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class DataOvhCloudProjectDatabaseM3DbNamespace extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_database_m3db_namespace ovh_cloud_project_database_m3db_namespace} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_database_m3db_namespace ovh_cloud_project_database_m3db_namespace} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class DataOvhCloudProjectDatabaseM3DbNamespace extends cdktf.TerraformDat
       terraformResourceType: 'ovh_cloud_project_database_m3db_namespace',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

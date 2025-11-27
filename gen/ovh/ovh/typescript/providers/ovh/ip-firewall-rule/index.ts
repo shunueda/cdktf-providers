@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface IpFirewallRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Possible values for action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule#action IpFirewallRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule#action IpFirewallRule#action}
   */
   readonly action: string;
   /**
   * Destination port for your rule. Only with TCP/UDP protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule#destination_port IpFirewallRule#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule#destination_port IpFirewallRule#destination_port}
   */
   readonly destinationPort?: number;
   /**
   * Fragments option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule#fragments IpFirewallRule#fragments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule#fragments IpFirewallRule#fragments}
   */
   readonly fragments?: boolean | cdktf.IResolvable;
   /**
   * IP (v4 or v6) CIDR notation (e.g., 192.0.2.0/24)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule#ip IpFirewallRule#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule#ip IpFirewallRule#ip}
   */
   readonly ip: string;
   /**
   * IPv4 address (e.g., 192.0.2.0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule#ip_on_firewall IpFirewallRule#ip_on_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule#ip_on_firewall IpFirewallRule#ip_on_firewall}
   */
   readonly ipOnFirewall: string;
   /**
   * Possible values for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule#protocol IpFirewallRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule#protocol IpFirewallRule#protocol}
   */
   readonly protocol: string;
   /**
   * Possible values for action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule#sequence IpFirewallRule#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule#sequence IpFirewallRule#sequence}
   */
   readonly sequence: number;
   /**
   * IPv4 CIDR notation (e.g., 192.0.2.0/24)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule#source IpFirewallRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule#source IpFirewallRule#source}
   */
   readonly source?: string;
   /**
   * Source port for your rule. Only with TCP/UDP protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule#source_port IpFirewallRule#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule#source_port IpFirewallRule#source_port}
   */
   readonly sourcePort?: number;
   /**
   * TCP option on your rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule#tcp_option IpFirewallRule#tcp_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule#tcp_option IpFirewallRule#tcp_option}
   */
   readonly tcpOption?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule ovh_ip_firewall_rule}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule ovh_ip_firewall_rule}
 */
 export class IpFirewallRule extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class IpFirewallRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpFirewallRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpFirewallRule to import
-  * @param importFromId The id of the existing IpFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpFirewallRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class IpFirewallRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/ip_firewall_rule ovh_ip_firewall_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/ip_firewall_rule ovh_ip_firewall_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class IpFirewallRule extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_ip_firewall_rule',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

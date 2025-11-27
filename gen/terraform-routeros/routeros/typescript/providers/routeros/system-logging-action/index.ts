@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface SystemLoggingActionConfig extends cdktf.TerraformMetaArguments 
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#___path___ SystemLoggingAction#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#___path___ SystemLoggingAction#___path___}
   */
   readonly path?: string;
   /**
   * Whether to use bsd-syslog as defined in RFC 3164.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#bsd_syslog SystemLoggingAction#bsd_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#bsd_syslog SystemLoggingAction#bsd_syslog}
   */
   readonly bsdSyslog?: boolean | cdktf.IResolvable;
   /**
   * Option helps remote syslog to distinguish between individual events within sent batch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#cef_event_delimiter SystemLoggingAction#cef_event_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#cef_event_delimiter SystemLoggingAction#cef_event_delimiter}
   */
   readonly cefEventDelimiter?: string;
   /**
   * Specifies number of files used to store log messages, applicable only if `action=disk`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#disk_file_count SystemLoggingAction#disk_file_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#disk_file_count SystemLoggingAction#disk_file_count}
   */
   readonly diskFileCount?: number;
   /**
   * Name of the file used to store log messages, applicable only if `action=disk`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#disk_file_name SystemLoggingAction#disk_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#disk_file_name SystemLoggingAction#disk_file_name}
   */
   readonly diskFileName?: string;
   /**
   * Specifies maximum size of file in lines, applicable only if `action=disk`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#disk_lines_per_file SystemLoggingAction#disk_lines_per_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#disk_lines_per_file SystemLoggingAction#disk_lines_per_file}
   */
   readonly diskLinesPerFile?: number;
   /**
   * Whether to stop to save log messages to disk after the specified disk-lines-per-file and disk-file-count number is reached, applicable only if `action=disk`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#disk_stop_on_full SystemLoggingAction#disk_stop_on_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#disk_stop_on_full SystemLoggingAction#disk_stop_on_full}
   */
   readonly diskStopOnFull?: boolean | cdktf.IResolvable;
   /**
   * Whether to use tls when sending email, applicable only if `action=email`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#email_start_tls SystemLoggingAction#email_start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#email_start_tls SystemLoggingAction#email_start_tls}
   */
   readonly emailStartTls?: boolean | cdktf.IResolvable;
   /**
   * Email address where logs are sent, applicable only if `action=email`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#email_to SystemLoggingAction#email_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#email_to SystemLoggingAction#email_to}
   */
   readonly emailTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#id SystemLoggingAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#id SystemLoggingAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,31 +71,31 @@ export interface SystemLoggingActionConfig extends cdktf.TerraformMetaArguments 
   /**
   * Number of records in local memory buffer, applicable only if `action=memory`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#memory_lines SystemLoggingAction#memory_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#memory_lines SystemLoggingAction#memory_lines}
   */
   readonly memoryLines?: number;
   /**
   * Whether to stop to save log messages in local buffer after the specified memory-lines number is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#memory_stop_on_full SystemLoggingAction#memory_stop_on_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#memory_stop_on_full SystemLoggingAction#memory_stop_on_full}
   */
   readonly memoryStopOnFull?: boolean | cdktf.IResolvable;
   /**
   * Name of an action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#name SystemLoggingAction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#name SystemLoggingAction#name}
   */
   readonly name: string;
   /**
   * Whether to keep log messages, which have not yet been displayed in console, applicable if `action=echo`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#remember SystemLoggingAction#remember}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#remember SystemLoggingAction#remember}
   */
   readonly remember?: boolean | cdktf.IResolvable;
   /**
   * Remote logging server's IP/IPv6 address, applicable if `action=remote`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#remote SystemLoggingAction#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#remote SystemLoggingAction#remote}
   */
   readonly remote?: string;
   /**
@@ -105,61 +105,61 @@ export interface SystemLoggingActionConfig extends cdktf.TerraformMetaArguments 
   *     - **default** - logs are sent as it is;
   *     - **syslog** - logs are sent in BSD-syslog format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#remote_log_format SystemLoggingAction#remote_log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#remote_log_format SystemLoggingAction#remote_log_format}
   */
   readonly remoteLogFormat?: string;
   /**
   * Remote logging server's UDP port, applicable if `action=remote`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#remote_port SystemLoggingAction#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#remote_port SystemLoggingAction#remote_port}
   */
   readonly remotePort?: number;
   /**
   * Protocol for remote logging messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#remote_protocol SystemLoggingAction#remote_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#remote_protocol SystemLoggingAction#remote_protocol}
   */
   readonly remoteProtocol?: string;
   /**
   * Source address used when sending packets to remote server, applicable if `action=remote`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#src_address SystemLoggingAction#src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#src_address SystemLoggingAction#src_address}
   */
   readonly srcAddress?: string;
   /**
   * SYSLOG facility, applicable if `action=remote`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#syslog_facility SystemLoggingAction#syslog_facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#syslog_facility SystemLoggingAction#syslog_facility}
   */
   readonly syslogFacility?: string;
   /**
   * Severity level indicator defined in RFC 3164, applicable if `action=remote`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#syslog_severity SystemLoggingAction#syslog_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#syslog_severity SystemLoggingAction#syslog_severity}
   */
   readonly syslogSeverity?: string;
   /**
   * SYSLOG time format (`bsd-syslog` or `iso8601`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#syslog_time_format SystemLoggingAction#syslog_time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#syslog_time_format SystemLoggingAction#syslog_time_format}
   */
   readonly syslogTimeFormat?: string;
   /**
   * Storage facility or target of log messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#target SystemLoggingAction#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#target SystemLoggingAction#target}
   */
   readonly target: string;
   /**
   * The VRF table this resource operates on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#vrf SystemLoggingAction#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#vrf SystemLoggingAction#vrf}
   */
   readonly vrf?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action routeros_system_logging_action}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action routeros_system_logging_action}
 */
 export class SystemLoggingAction extends cdktf.TerraformResource {
 
@@ -175,7 +175,7 @@ export class SystemLoggingAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLoggingAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLoggingAction to import
-  * @param importFromId The id of the existing SystemLoggingAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLoggingAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLoggingAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class SystemLoggingAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_logging_action routeros_system_logging_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_logging_action routeros_system_logging_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class SystemLoggingAction extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_system_logging_action',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

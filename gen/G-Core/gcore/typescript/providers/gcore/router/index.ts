@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router
+// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface RouterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#id Router#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#id Router#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#name Router#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#name Router#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#project_id Router#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#project_id Router#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#project_name Router#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#project_name Router#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#region_id Router#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#region_id Router#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#region_name Router#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#region_name Router#region_name}
   */
   readonly regionName?: string;
   /**
   * external_gateway_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#external_gateway_info Router#external_gateway_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#external_gateway_info Router#external_gateway_info}
   */
   readonly externalGatewayInfo?: RouterExternalGatewayInfo;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#interfaces Router#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#interfaces Router#interfaces}
   */
   readonly interfaces?: RouterInterfaces[] | cdktf.IResolvable;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#routes Router#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#routes Router#routes}
   */
   readonly routes?: RouterRoutes[] | cdktf.IResolvable;
 }
@@ -135,19 +135,19 @@ export class RouterExternalGatewayInfoExternalFixedIpsList extends cdktf.Complex
 }
 export interface RouterExternalGatewayInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#enable_snat Router#enable_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#enable_snat Router#enable_snat}
   */
   readonly enableSnat?: boolean | cdktf.IResolvable;
   /**
   * Id of the external network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#network_id Router#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#network_id Router#network_id}
   */
   readonly networkId?: string;
   /**
   * Must be 'manual' or 'default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#type Router#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#type Router#type}
   */
   readonly type?: string;
 }
@@ -297,13 +297,13 @@ export interface RouterInterfaces {
   /**
   * Subnet for router interface must have a gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#subnet_id Router#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#subnet_id Router#subnet_id}
   */
   readonly subnetId: string;
   /**
   * must be 'subnet'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#type Router#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#type Router#type}
   */
   readonly type: string;
 }
@@ -462,13 +462,13 @@ export class RouterInterfacesList extends cdktf.ComplexList {
 }
 export interface RouterRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#destination Router#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#destination Router#destination}
   */
   readonly destination: string;
   /**
   * IPv4 address to forward traffic to if it's destination IP matches 'destination' CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#nexthop Router#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#nexthop Router#nexthop}
   */
   readonly nexthop: string;
 }
@@ -607,7 +607,7 @@ export class RouterRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router gcore_router}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router gcore_router}
 */
 export class Router extends cdktf.TerraformResource {
 
@@ -623,7 +623,7 @@ export class Router extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Router resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Router to import
-  * @param importFromId The id of the existing Router that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Router that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Router to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -635,7 +635,7 @@ export class Router extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.1/docs/resources/router gcore_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/router gcore_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -646,8 +646,8 @@ export class Router extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_router',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.1',
-        providerVersionConstraint: '0.32.1'
+        providerVersion: '0.32.2',
+        providerVersionConstraint: '0.32.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface InterfaceMacvlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#___path___ InterfaceMacvlan#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#___path___ InterfaceMacvlan#___path___}
   */
   readonly path?: string;
   /**
@@ -21,25 +21,25 @@ export interface InterfaceMacvlanConfig extends cdktf.TerraformMetaArguments {
   *   * proxy-arp - the router performs proxy ARP on the interface and sends replies to other interfaces
   *   * reply-only - the interface will only reply to requests originated from matching IP address/MAC address combinations which are entered as static entries in the ARP table. No dynamic entries will be automatically stored in the ARP table. Therefore for communications to be successful, a valid static entry must already exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#arp InterfaceMacvlan#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#arp InterfaceMacvlan#arp}
   */
   readonly arp?: string;
   /**
   * ARP timeout is time how long ARP record is kept in ARP table after no packets are received from IP. Value auto equals to the value of arp-timeout in IP/Settings, default is 30s. Can use postfix `ms`, `s`, `m`, `h`, `d` for milliseconds, seconds, minutes, hours or days. If no postfix is set then seconds (s) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#arp_timeout InterfaceMacvlan#arp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#arp_timeout InterfaceMacvlan#arp_timeout}
   */
   readonly arpTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#comment InterfaceMacvlan#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#comment InterfaceMacvlan#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#disabled InterfaceMacvlan#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#disabled InterfaceMacvlan#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#id InterfaceMacvlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#id InterfaceMacvlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,31 +48,31 @@ export interface InterfaceMacvlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#interface InterfaceMacvlan#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#interface InterfaceMacvlan#interface}
   */
   readonly interface: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#loop_protect InterfaceMacvlan#loop_protect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#loop_protect InterfaceMacvlan#loop_protect}
   */
   readonly loopProtect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#loop_protect_disable_time InterfaceMacvlan#loop_protect_disable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#loop_protect_disable_time InterfaceMacvlan#loop_protect_disable_time}
   */
   readonly loopProtectDisableTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#loop_protect_send_interval InterfaceMacvlan#loop_protect_send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#loop_protect_send_interval InterfaceMacvlan#loop_protect_send_interval}
   */
   readonly loopProtectSendInterval?: string;
   /**
   * Loop protect status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#loop_protect_status InterfaceMacvlan#loop_protect_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#loop_protect_status InterfaceMacvlan#loop_protect_status}
   */
   readonly loopProtectStatus?: boolean | cdktf.IResolvable;
   /**
   * Static MAC address of the interface. A randomly generated MAC address will be assigned when not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#mac_address InterfaceMacvlan#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#mac_address InterfaceMacvlan#mac_address}
   */
   readonly macAddress?: string;
   /**
@@ -80,13 +80,13 @@ export interface InterfaceMacvlanConfig extends cdktf.TerraformMetaArguments {
   *   *	private - does not allow communication between MACVLAN instances on the same parent interface.
   *   * bridge - allows communication between MACVLAN instances on the same parent interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#mode InterfaceMacvlan#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#mode InterfaceMacvlan#mode}
   */
   readonly mode?: string;
   /**
   * Layer3 Maximum transmission unit ('auto', 0 .. 65535). Look for the exact minimum value in the MikroTik documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#mtu InterfaceMacvlan#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#mtu InterfaceMacvlan#mtu}
   */
   readonly mtu?: string;
   /**
@@ -95,13 +95,13 @@ export interface InterfaceMacvlanConfig extends cdktf.TerraformMetaArguments {
   * 	> Changing the name of the resource outside of a Terraform will result in a loss of control integrity for that resource!
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#name InterfaceMacvlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#name InterfaceMacvlan#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan routeros_interface_macvlan}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan routeros_interface_macvlan}
 */
 export class InterfaceMacvlan extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class InterfaceMacvlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceMacvlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceMacvlan to import
-  * @param importFromId The id of the existing InterfaceMacvlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceMacvlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceMacvlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class InterfaceMacvlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_macvlan routeros_interface_macvlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_macvlan routeros_interface_macvlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class InterfaceMacvlan extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_macvlan',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

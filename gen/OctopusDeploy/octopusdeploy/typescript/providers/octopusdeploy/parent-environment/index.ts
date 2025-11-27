@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ParentEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatic deprovisioning rule for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment#automatic_deprovisioning_rule ParentEnvironment#automatic_deprovisioning_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment#automatic_deprovisioning_rule ParentEnvironment#automatic_deprovisioning_rule}
   */
   readonly automaticDeprovisioningRule?: ParentEnvironmentAutomaticDeprovisioningRule;
   /**
   * The description of this parent environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment#description ParentEnvironment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment#description ParentEnvironment#description}
   */
   readonly description?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment#name ParentEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment#name ParentEnvironment#name}
   */
   readonly name: string;
   /**
   * The human-readable unique identifier for the step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment#slug ParentEnvironment#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment#slug ParentEnvironment#slug}
   */
   readonly slug?: string;
   /**
   * The sort order of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment#sort_order ParentEnvironment#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment#sort_order ParentEnvironment#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * The space ID associated with this parent environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment#space_id ParentEnvironment#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment#space_id ParentEnvironment#space_id}
   */
   readonly spaceId: string;
   /**
   * Indicates whether guided failure mode is enabled for this parent environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment#use_guided_failure ParentEnvironment#use_guided_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment#use_guided_failure ParentEnvironment#use_guided_failure}
   */
   readonly useGuidedFailure?: boolean | cdktf.IResolvable;
 }
@@ -54,13 +54,13 @@ export interface ParentEnvironmentAutomaticDeprovisioningRule {
   /**
   * Number of days to wait before deprovisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment#days ParentEnvironment#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment#days ParentEnvironment#days}
   */
   readonly days?: number;
   /**
   * Number of hours to wait before deprovisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment#hours ParentEnvironment#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment#hours ParentEnvironment#hours}
   */
   readonly hours?: number;
 }
@@ -183,7 +183,7 @@ export class ParentEnvironmentAutomaticDeprovisioningRuleOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment octopusdeploy_parent_environment}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment octopusdeploy_parent_environment}
 */
 export class ParentEnvironment extends cdktf.TerraformResource {
 
@@ -199,7 +199,7 @@ export class ParentEnvironment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ParentEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ParentEnvironment to import
-  * @param importFromId The id of the existing ParentEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ParentEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ParentEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class ParentEnvironment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/parent_environment octopusdeploy_parent_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/parent_environment octopusdeploy_parent_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class ParentEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_parent_environment',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

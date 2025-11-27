@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_path
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_path
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOvhStorageEfsShareAccessPathConfig extends cdktf.TerraformM
   /**
   * Access path ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_path#id DataOvhStorageEfsShareAccessPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_path#id DataOvhStorageEfsShareAccessPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataOvhStorageEfsShareAccessPathConfig extends cdktf.TerraformM
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_path#service_name DataOvhStorageEfsShareAccessPath#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_path#service_name DataOvhStorageEfsShareAccessPath#service_name}
   */
   readonly serviceName: string;
   /**
   * Share ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_path#share_id DataOvhStorageEfsShareAccessPath#share_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_path#share_id DataOvhStorageEfsShareAccessPath#share_id}
   */
   readonly shareId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_path ovh_storage_efs_share_access_path}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_path ovh_storage_efs_share_access_path}
 */
 export class DataOvhStorageEfsShareAccessPath extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataOvhStorageEfsShareAccessPath extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOvhStorageEfsShareAccessPath resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhStorageEfsShareAccessPath to import
-  * @param importFromId The id of the existing DataOvhStorageEfsShareAccessPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_path#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhStorageEfsShareAccessPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_path#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhStorageEfsShareAccessPath to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataOvhStorageEfsShareAccessPath extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs_share_access_path ovh_storage_efs_share_access_path} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs_share_access_path ovh_storage_efs_share_access_path} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataOvhStorageEfsShareAccessPath extends cdktf.TerraformDataSource 
       terraformResourceType: 'ovh_storage_efs_share_access_path',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

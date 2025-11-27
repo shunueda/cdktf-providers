@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_ssh_key
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_ssh_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CloudProjectSshKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * SSH key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_ssh_key#name CloudProjectSshKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_ssh_key#name CloudProjectSshKey#name}
   */
   readonly name: string;
   /**
   * SSH public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_ssh_key#public_key CloudProjectSshKey#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_ssh_key#public_key CloudProjectSshKey#public_key}
   */
   readonly publicKey: string;
   /**
   * Region to create SSH key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_ssh_key#region CloudProjectSshKey#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_ssh_key#region CloudProjectSshKey#region}
   */
   readonly region?: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_ssh_key#service_name CloudProjectSshKey#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_ssh_key#service_name CloudProjectSshKey#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_ssh_key ovh_cloud_project_ssh_key}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_ssh_key ovh_cloud_project_ssh_key}
 */
 export class CloudProjectSshKey extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class CloudProjectSshKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectSshKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectSshKey to import
-  * @param importFromId The id of the existing CloudProjectSshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_ssh_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectSshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_ssh_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectSshKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class CloudProjectSshKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_ssh_key ovh_cloud_project_ssh_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_ssh_key ovh_cloud_project_ssh_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class CloudProjectSshKey extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

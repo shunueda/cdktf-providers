@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_alerting
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_alerting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CloudProjectAlertingConfig extends cdktf.TerraformMetaArguments
   /**
   * Possible values for delay between two alerts in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_alerting#delay CloudProjectAlerting#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_alerting#delay CloudProjectAlerting#delay}
   */
   readonly delay: number;
   /**
   * Email to contact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_alerting#email CloudProjectAlerting#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_alerting#email CloudProjectAlerting#email}
   */
   readonly email: string;
   /**
   * Monthly threshold for this alerting in currency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_alerting#monthly_threshold CloudProjectAlerting#monthly_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_alerting#monthly_threshold CloudProjectAlerting#monthly_threshold}
   */
   readonly monthlyThreshold: number;
   /**
   * The project id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_alerting#service_name CloudProjectAlerting#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_alerting#service_name CloudProjectAlerting#service_name}
   */
   readonly serviceName: string;
 }
@@ -98,7 +98,7 @@ export class CloudProjectAlertingFormattedMonthlyThresholdOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_alerting ovh_cloud_project_alerting}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_alerting ovh_cloud_project_alerting}
 */
 export class CloudProjectAlerting extends cdktf.TerraformResource {
 
@@ -114,7 +114,7 @@ export class CloudProjectAlerting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectAlerting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectAlerting to import
-  * @param importFromId The id of the existing CloudProjectAlerting that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_alerting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectAlerting that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_alerting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectAlerting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -126,7 +126,7 @@ export class CloudProjectAlerting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_alerting ovh_cloud_project_alerting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_alerting ovh_cloud_project_alerting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,8 +137,8 @@ export class CloudProjectAlerting extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_alerting',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

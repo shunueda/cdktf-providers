@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/osquery_file_category
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_file_category
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface OsqueryFileCategoryConfig extends cdktf.TerraformMetaArguments 
   /**
   * If `true`, FIM will include file access for this file category. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/osquery_file_category#access_monitoring OsqueryFileCategory#access_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_file_category#access_monitoring OsqueryFileCategory#access_monitoring}
   */
   readonly accessMonitoring?: boolean | cdktf.IResolvable;
   /**
   * Description of the Osquery file category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/osquery_file_category#description OsqueryFileCategory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_file_category#description OsqueryFileCategory#description}
   */
   readonly description?: string;
   /**
   * Set of paths to exclude from the Osquery file category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/osquery_file_category#exclude_paths OsqueryFileCategory#exclude_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_file_category#exclude_paths OsqueryFileCategory#exclude_paths}
   */
   readonly excludePaths?: string[];
   /**
   * Set of paths to include in the Osquery file category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/osquery_file_category#file_paths OsqueryFileCategory#file_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_file_category#file_paths OsqueryFileCategory#file_paths}
   */
   readonly filePaths?: string[];
   /**
   * Set of queries returning paths to monitor as path columns in the results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/osquery_file_category#file_paths_queries OsqueryFileCategory#file_paths_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_file_category#file_paths_queries OsqueryFileCategory#file_paths_queries}
   */
   readonly filePathsQueries?: string[];
   /**
   * Name of the Osquery file category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/osquery_file_category#name OsqueryFileCategory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_file_category#name OsqueryFileCategory#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/osquery_file_category zentral_osquery_file_category}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_file_category zentral_osquery_file_category}
 */
 export class OsqueryFileCategory extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class OsqueryFileCategory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OsqueryFileCategory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsqueryFileCategory to import
-  * @param importFromId The id of the existing OsqueryFileCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/osquery_file_category#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsqueryFileCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_file_category#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsqueryFileCategory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class OsqueryFileCategory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.64/docs/resources/osquery_file_category zentral_osquery_file_category} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_file_category zentral_osquery_file_category} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class OsqueryFileCategory extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_osquery_file_category',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64',
-        providerVersionConstraint: '0.1.64'
+        providerVersion: '0.1.65',
+        providerVersionConstraint: '0.1.65'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

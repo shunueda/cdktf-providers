@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iam_resource_tags
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iam_resource_tags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IamResourceTagsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iam_resource_tags#id IamResourceTags#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iam_resource_tags#id IamResourceTags#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface IamResourceTagsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Map of tags to apply to the resource. Keys must match ^[a-zA-Z0-9_.:/=+@-]{1,128}$ and values must match ^[a-zA-Z0-9_.:/=+@-]{0,256}$. Tags prefixed with 'ovh:' are managed by OVH and cannot be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iam_resource_tags#tags IamResourceTags#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iam_resource_tags#tags IamResourceTags#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * URN of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iam_resource_tags#urn IamResourceTags#urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iam_resource_tags#urn IamResourceTags#urn}
   */
   readonly urn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iam_resource_tags ovh_iam_resource_tags}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iam_resource_tags ovh_iam_resource_tags}
 */
 export class IamResourceTags extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class IamResourceTags extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamResourceTags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamResourceTags to import
-  * @param importFromId The id of the existing IamResourceTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iam_resource_tags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamResourceTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iam_resource_tags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamResourceTags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class IamResourceTags extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iam_resource_tags ovh_iam_resource_tags} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iam_resource_tags ovh_iam_resource_tags} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class IamResourceTags extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_iam_resource_tags',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

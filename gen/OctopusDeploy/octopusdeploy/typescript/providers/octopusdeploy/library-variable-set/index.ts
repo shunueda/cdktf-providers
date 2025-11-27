@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface LibraryVariableSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of this library variable set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set#description LibraryVariableSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set#description LibraryVariableSet#description}
   */
   readonly description?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set#name LibraryVariableSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set#name LibraryVariableSet#name}
   */
   readonly name: string;
   /**
   * The space ID associated with this library variable set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set#space_id LibraryVariableSet#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set#space_id LibraryVariableSet#space_id}
   */
   readonly spaceId?: string;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set#template LibraryVariableSet#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set#template LibraryVariableSet#template}
   */
   readonly template?: LibraryVariableSetTemplate[] | cdktf.IResolvable;
 }
@@ -36,31 +36,31 @@ export interface LibraryVariableSetTemplate {
   /**
   * A default value for the parameter, if applicable. This can be a hard-coded value or a variable reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set#default_value LibraryVariableSet#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set#default_value LibraryVariableSet#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The display settings for the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set#display_settings LibraryVariableSet#display_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set#display_settings LibraryVariableSet#display_settings}
   */
   readonly displaySettings?: { [key: string]: string };
   /**
   * The help presented alongside the parameter input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set#help_text LibraryVariableSet#help_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set#help_text LibraryVariableSet#help_text}
   */
   readonly helpText?: string;
   /**
   * The label shown beside the parameter when presented in the deployment process. Example: `Server name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set#label LibraryVariableSet#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set#label LibraryVariableSet#label}
   */
   readonly label?: string;
   /**
   * The name of the variable set by the parameter. The name can contain letters, digits, dashes and periods. Example: `ServerName`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set#name LibraryVariableSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set#name LibraryVariableSet#name}
   */
   readonly name: string;
 }
@@ -294,7 +294,7 @@ export class LibraryVariableSetTemplateList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set octopusdeploy_library_variable_set}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set octopusdeploy_library_variable_set}
 */
 export class LibraryVariableSet extends cdktf.TerraformResource {
 
@@ -310,7 +310,7 @@ export class LibraryVariableSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LibraryVariableSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LibraryVariableSet to import
-  * @param importFromId The id of the existing LibraryVariableSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LibraryVariableSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LibraryVariableSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -322,7 +322,7 @@ export class LibraryVariableSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/library_variable_set octopusdeploy_library_variable_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/library_variable_set octopusdeploy_library_variable_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -333,8 +333,8 @@ export class LibraryVariableSet extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_library_variable_set',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

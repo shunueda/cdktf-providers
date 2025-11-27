@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface CloudProjectContainerregistryOidcConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#delete_users CloudProjectContainerregistryOidc#delete_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#delete_users CloudProjectContainerregistryOidc#delete_users}
   */
   readonly deleteUsers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#id CloudProjectContainerregistryOidc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#id CloudProjectContainerregistryOidc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#oidc_admin_group CloudProjectContainerregistryOidc#oidc_admin_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#oidc_admin_group CloudProjectContainerregistryOidc#oidc_admin_group}
   */
   readonly oidcAdminGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#oidc_auto_onboard CloudProjectContainerregistryOidc#oidc_auto_onboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#oidc_auto_onboard CloudProjectContainerregistryOidc#oidc_auto_onboard}
   */
   readonly oidcAutoOnboard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#oidc_client_id CloudProjectContainerregistryOidc#oidc_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#oidc_client_id CloudProjectContainerregistryOidc#oidc_client_id}
   */
   readonly oidcClientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#oidc_client_secret CloudProjectContainerregistryOidc#oidc_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#oidc_client_secret CloudProjectContainerregistryOidc#oidc_client_secret}
   */
   readonly oidcClientSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#oidc_endpoint CloudProjectContainerregistryOidc#oidc_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#oidc_endpoint CloudProjectContainerregistryOidc#oidc_endpoint}
   */
   readonly oidcEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#oidc_groups_claim CloudProjectContainerregistryOidc#oidc_groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#oidc_groups_claim CloudProjectContainerregistryOidc#oidc_groups_claim}
   */
   readonly oidcGroupsClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#oidc_name CloudProjectContainerregistryOidc#oidc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#oidc_name CloudProjectContainerregistryOidc#oidc_name}
   */
   readonly oidcName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#oidc_scope CloudProjectContainerregistryOidc#oidc_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#oidc_scope CloudProjectContainerregistryOidc#oidc_scope}
   */
   readonly oidcScope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#oidc_user_claim CloudProjectContainerregistryOidc#oidc_user_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#oidc_user_claim CloudProjectContainerregistryOidc#oidc_user_claim}
   */
   readonly oidcUserClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#oidc_verify_cert CloudProjectContainerregistryOidc#oidc_verify_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#oidc_verify_cert CloudProjectContainerregistryOidc#oidc_verify_cert}
   */
   readonly oidcVerifyCert?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#registry_id CloudProjectContainerregistryOidc#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#registry_id CloudProjectContainerregistryOidc#registry_id}
   */
   readonly registryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#service_name CloudProjectContainerregistryOidc#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#service_name CloudProjectContainerregistryOidc#service_name}
   */
   readonly serviceName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#timeouts CloudProjectContainerregistryOidc#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#timeouts CloudProjectContainerregistryOidc#timeouts}
   */
   readonly timeouts?: CloudProjectContainerregistryOidcTimeouts;
 }
 export interface CloudProjectContainerregistryOidcTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#create CloudProjectContainerregistryOidc#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#create CloudProjectContainerregistryOidc#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#default CloudProjectContainerregistryOidc#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#default CloudProjectContainerregistryOidc#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#delete CloudProjectContainerregistryOidc#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#delete CloudProjectContainerregistryOidc#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#read CloudProjectContainerregistryOidc#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#read CloudProjectContainerregistryOidc#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#update CloudProjectContainerregistryOidc#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#update CloudProjectContainerregistryOidc#update}
   */
   readonly update?: string;
 }
@@ -301,7 +301,7 @@ export class CloudProjectContainerregistryOidcTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc ovh_cloud_project_containerregistry_oidc}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc ovh_cloud_project_containerregistry_oidc}
 */
 export class CloudProjectContainerregistryOidc extends cdktf.TerraformResource {
 
@@ -317,7 +317,7 @@ export class CloudProjectContainerregistryOidc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectContainerregistryOidc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectContainerregistryOidc to import
-  * @param importFromId The id of the existing CloudProjectContainerregistryOidc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectContainerregistryOidc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectContainerregistryOidc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -329,7 +329,7 @@ export class CloudProjectContainerregistryOidc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_containerregistry_oidc ovh_cloud_project_containerregistry_oidc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_containerregistry_oidc ovh_cloud_project_containerregistry_oidc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -340,8 +340,8 @@ export class CloudProjectContainerregistryOidc extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_containerregistry_oidc',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,45 @@ import * as cdktf from 'cdktf';
 
 export interface DataOvhCloudProjectStorageConfig extends cdktf.TerraformMetaArguments {
   /**
+  * If true, objects list will not be saved in state (useful for large buckets)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage#hide_objects DataOvhCloudProjectStorage#hide_objects}
+  */
+  readonly hideObjects?: boolean | cdktf.IResolvable;
+  /**
   * Limit the number of objects returned (1000 maximum, defaults to 1000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage#limit DataOvhCloudProjectStorage#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage#limit DataOvhCloudProjectStorage#limit}
   */
   readonly limit?: number;
   /**
   * Key to start with when listing objects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage#marker DataOvhCloudProjectStorage#marker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage#marker DataOvhCloudProjectStorage#marker}
   */
   readonly marker?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage#name DataOvhCloudProjectStorage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage#name DataOvhCloudProjectStorage#name}
   */
   readonly name: string;
   /**
   * List objects whose key begins with this prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage#prefix DataOvhCloudProjectStorage#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage#prefix DataOvhCloudProjectStorage#prefix}
   */
   readonly prefix?: string;
   /**
   * Region name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage#region_name DataOvhCloudProjectStorage#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage#region_name DataOvhCloudProjectStorage#region_name}
   */
   readonly regionName: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage#service_name DataOvhCloudProjectStorage#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage#service_name DataOvhCloudProjectStorage#service_name}
   */
   readonly serviceName: string;
 }
@@ -545,7 +551,7 @@ export class DataOvhCloudProjectStorageVersioningOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage ovh_cloud_project_storage}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage ovh_cloud_project_storage}
 */
 export class DataOvhCloudProjectStorage extends cdktf.TerraformDataSource {
 
@@ -561,7 +567,7 @@ export class DataOvhCloudProjectStorage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhCloudProjectStorage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhCloudProjectStorage to import
-  * @param importFromId The id of the existing DataOvhCloudProjectStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhCloudProjectStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhCloudProjectStorage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -573,7 +579,7 @@ export class DataOvhCloudProjectStorage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/cloud_project_storage ovh_cloud_project_storage} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/cloud_project_storage ovh_cloud_project_storage} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -584,8 +590,8 @@ export class DataOvhCloudProjectStorage extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_cloud_project_storage',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -595,6 +601,7 @@ export class DataOvhCloudProjectStorage extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._hideObjects = config.hideObjects;
     this._limit = config.limit;
     this._marker = config.marker;
     this._name = config.name;
@@ -616,6 +623,22 @@ export class DataOvhCloudProjectStorage extends cdktf.TerraformDataSource {
   private _encryption = new DataOvhCloudProjectStorageEncryptionOutputReference(this, "encryption");
   public get encryption() {
     return this._encryption;
+  }
+
+  // hide_objects - computed: false, optional: true, required: false
+  private _hideObjects?: boolean | cdktf.IResolvable; 
+  public get hideObjects() {
+    return this.getBooleanAttribute('hide_objects');
+  }
+  public set hideObjects(value: boolean | cdktf.IResolvable) {
+    this._hideObjects = value;
+  }
+  public resetHideObjects() {
+    this._hideObjects = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hideObjectsInput() {
+    return this._hideObjects;
   }
 
   // limit - computed: true, optional: true, required: false
@@ -760,6 +783,7 @@ export class DataOvhCloudProjectStorage extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      hide_objects: cdktf.booleanToTerraform(this._hideObjects),
       limit: cdktf.numberToTerraform(this._limit),
       marker: cdktf.stringToTerraform(this._marker),
       name: cdktf.stringToTerraform(this._name),
@@ -771,6 +795,12 @@ export class DataOvhCloudProjectStorage extends cdktf.TerraformDataSource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      hide_objects: {
+        value: cdktf.booleanToHclTerraform(this._hideObjects),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       limit: {
         value: cdktf.numberToHclTerraform(this._limit),
         isBlock: false,

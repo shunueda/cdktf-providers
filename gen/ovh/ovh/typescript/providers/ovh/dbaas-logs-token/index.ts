@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_token
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DbaasLogsTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_token#cluster_id DbaasLogsToken#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_token#cluster_id DbaasLogsToken#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Token name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_token#name DbaasLogsToken#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_token#name DbaasLogsToken#name}
   */
   readonly name: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_token#service_name DbaasLogsToken#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_token#service_name DbaasLogsToken#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_token ovh_dbaas_logs_token}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_token ovh_dbaas_logs_token}
 */
 export class DbaasLogsToken extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class DbaasLogsToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasLogsToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasLogsToken to import
-  * @param importFromId The id of the existing DbaasLogsToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasLogsToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasLogsToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DbaasLogsToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/dbaas_logs_token ovh_dbaas_logs_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/dbaas_logs_token ovh_dbaas_logs_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DbaasLogsToken extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_dbaas_logs_token',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

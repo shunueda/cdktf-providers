@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_datacenters
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_datacenters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOvhOvhcloudConnectDatacentersConfig extends cdktf.Terraform
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_datacenters#service_name DataOvhOvhcloudConnectDatacenters#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_datacenters#service_name DataOvhOvhcloudConnectDatacenters#service_name}
   */
   readonly serviceName: string;
 }
@@ -18,7 +18,7 @@ export interface DataOvhOvhcloudConnectDatacentersDatacenters {
   /**
   * Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_datacenters#id DataOvhOvhcloudConnectDatacenters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_datacenters#id DataOvhOvhcloudConnectDatacenters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -144,7 +144,7 @@ export class DataOvhOvhcloudConnectDatacentersDatacentersList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_datacenters ovh_ovhcloud_connect_datacenters}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_datacenters ovh_ovhcloud_connect_datacenters}
 */
 export class DataOvhOvhcloudConnectDatacenters extends cdktf.TerraformDataSource {
 
@@ -160,7 +160,7 @@ export class DataOvhOvhcloudConnectDatacenters extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataOvhOvhcloudConnectDatacenters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhOvhcloudConnectDatacenters to import
-  * @param importFromId The id of the existing DataOvhOvhcloudConnectDatacenters that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_datacenters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhOvhcloudConnectDatacenters that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_datacenters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhOvhcloudConnectDatacenters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class DataOvhOvhcloudConnectDatacenters extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/ovhcloud_connect_datacenters ovh_ovhcloud_connect_datacenters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/ovhcloud_connect_datacenters ovh_ovhcloud_connect_datacenters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class DataOvhOvhcloudConnectDatacenters extends cdktf.TerraformDataSource
       terraformResourceType: 'ovh_ovhcloud_connect_datacenters',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface CloudProjectVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Volume description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume#description CloudProjectVolume#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume#description CloudProjectVolume#description}
   */
   readonly description?: string;
   /**
   * Image ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume#image_id CloudProjectVolume#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume#image_id CloudProjectVolume#image_id}
   */
   readonly imageId?: string;
   /**
   * Instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume#instance_id CloudProjectVolume#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume#instance_id CloudProjectVolume#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Volume name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume#name CloudProjectVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume#name CloudProjectVolume#name}
   */
   readonly name?: string;
   /**
   * Region name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume#region_name CloudProjectVolume#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume#region_name CloudProjectVolume#region_name}
   */
   readonly regionName: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume#service_name CloudProjectVolume#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume#service_name CloudProjectVolume#service_name}
   */
   readonly serviceName: string;
   /**
   * Volume size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume#size CloudProjectVolume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume#size CloudProjectVolume#size}
   */
   readonly size?: number;
   /**
   * Snapshot ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume#snapshot_id CloudProjectVolume#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume#snapshot_id CloudProjectVolume#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * Type of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume#type CloudProjectVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume#type CloudProjectVolume#type}
   */
   readonly type?: string;
   /**
   * Volume ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume#volume_id CloudProjectVolume#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume#volume_id CloudProjectVolume#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -150,7 +150,7 @@ export class CloudProjectVolumeSubOperationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume ovh_cloud_project_volume}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume ovh_cloud_project_volume}
 */
 export class CloudProjectVolume extends cdktf.TerraformResource {
 
@@ -166,7 +166,7 @@ export class CloudProjectVolume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectVolume to import
-  * @param importFromId The id of the existing CloudProjectVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class CloudProjectVolume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_volume ovh_cloud_project_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_volume ovh_cloud_project_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class CloudProjectVolume extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_volume',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

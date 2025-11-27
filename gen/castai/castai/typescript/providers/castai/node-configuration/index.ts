@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration
+// https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface NodeConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * CAST AI cluster id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#cluster_id NodeConfiguration#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#cluster_id NodeConfiguration#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Optional container runtime to be used by kubelet. Applicable for EKS only.  Supported values include: `dockerd`, `containerd`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#container_runtime NodeConfiguration#container_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#container_runtime NodeConfiguration#container_runtime}
   */
   readonly containerRuntime?: string;
   /**
   * Disk to CPU ratio. Sets the number of GiBs to be added for every CPU on the node. Defaults to 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#disk_cpu_ratio NodeConfiguration#disk_cpu_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#disk_cpu_ratio NodeConfiguration#disk_cpu_ratio}
   */
   readonly diskCpuRatio?: number;
   /**
   * Optional docker daemon configuration properties in JSON format. Provide only properties that you want to override. Applicable for EKS only. [Available values](https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-configuration-file)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#docker_config NodeConfiguration#docker_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#docker_config NodeConfiguration#docker_config}
   */
   readonly dockerConfig?: string;
   /**
   * Timeout in seconds for draining the node. Defaults to 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#drain_timeout_sec NodeConfiguration#drain_timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#drain_timeout_sec NodeConfiguration#drain_timeout_sec}
   */
   readonly drainTimeoutSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#id NodeConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#id NodeConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface NodeConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image to be used while provisioning the node. If nothing is provided will be resolved to latest available image based on Image family, Kubernetes version and node architecture if possible. See Cast.ai documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#image NodeConfiguration#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#image NodeConfiguration#image}
   */
   readonly image?: string;
   /**
   * Init script to be run on your instance at launch. Should not contain any sensitive data. Value should be base64 encoded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#init_script NodeConfiguration#init_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#init_script NodeConfiguration#init_script}
   */
   readonly initScript?: string;
   /**
   * Optional kubelet configuration properties in JSON format. Provide only properties that you want to override. Applicable for EKS only. [Available values](https://kubernetes.io/docs/reference/config-api/kubelet-config.v1beta1/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#kubelet_config NodeConfiguration#kubelet_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#kubelet_config NodeConfiguration#kubelet_config}
   */
   readonly kubeletConfig?: string;
   /**
   * Minimal disk size in GiB. Defaults to 100, min 30, max 65536
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#min_disk_size NodeConfiguration#min_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#min_disk_size NodeConfiguration#min_disk_size}
   */
   readonly minDiskSize?: number;
   /**
   * Name of the node configuration. It must be unique within the cluster. In case of cluster is reonboarded to Terraform, when previously it was onboarded with CAST AI UI, and the name corresponds to previously created node configuration this resource will override existing configuration instead of creating new.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#name NodeConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#name NodeConfiguration#name}
   */
   readonly name: string;
   /**
   * SSH public key to be used for provisioned nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#ssh_public_key NodeConfiguration#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#ssh_public_key NodeConfiguration#ssh_public_key}
   */
   readonly sshPublicKey?: string;
   /**
   * Subnet ids to be used for provisioned nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#subnets NodeConfiguration#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#subnets NodeConfiguration#subnets}
   */
   readonly subnets: string[];
   /**
   * Tags to be added on cloud instances for provisioned nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#tags NodeConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#tags NodeConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * aks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#aks NodeConfiguration#aks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#aks NodeConfiguration#aks}
   */
   readonly aks?: NodeConfigurationAks;
   /**
   * eks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#eks NodeConfiguration#eks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#eks NodeConfiguration#eks}
   */
   readonly eks?: NodeConfigurationEks;
   /**
   * gke block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#gke NodeConfiguration#gke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#gke NodeConfiguration#gke}
   */
   readonly gke?: NodeConfigurationGke;
   /**
   * kops block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#kops NodeConfiguration#kops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#kops NodeConfiguration#kops}
   */
   readonly kops?: NodeConfigurationKops;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#timeouts NodeConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#timeouts NodeConfiguration#timeouts}
   */
   readonly timeouts?: NodeConfigurationTimeouts;
 }
@@ -127,13 +127,13 @@ export interface NodeConfigurationAksEphemeralOsDisk {
   /**
   * Cache type for the ephemeral OS disk. One of: ReadOnly, ReadWrite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#cache NodeConfiguration#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#cache NodeConfiguration#cache}
   */
   readonly cache?: string;
   /**
   * Placement of the ephemeral OS disk. One of: cacheDisk, resourceDisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#placement NodeConfiguration#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#placement NodeConfiguration#placement}
   */
   readonly placement: string;
 }
@@ -245,7 +245,7 @@ export interface NodeConfigurationAksLoadbalancersIpBasedBackendPools {
   /**
   * Name of the ip based backend pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#name NodeConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#name NodeConfiguration#name}
   */
   readonly name: string;
 }
@@ -360,7 +360,7 @@ export interface NodeConfigurationAksLoadbalancersNicBasedBackendPools {
   /**
   * Name of the NIC based backend pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#name NodeConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#name NodeConfiguration#name}
   */
   readonly name: string;
 }
@@ -475,7 +475,7 @@ export interface NodeConfigurationAksLoadbalancers {
   /**
   * The full ID of the load balancer in azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#id NodeConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#id NodeConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -484,19 +484,19 @@ export interface NodeConfigurationAksLoadbalancers {
   /**
   * Name of load balancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#name NodeConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#name NodeConfiguration#name}
   */
   readonly name?: string;
   /**
   * ip_based_backend_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#ip_based_backend_pools NodeConfiguration#ip_based_backend_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#ip_based_backend_pools NodeConfiguration#ip_based_backend_pools}
   */
   readonly ipBasedBackendPools?: NodeConfigurationAksLoadbalancersIpBasedBackendPools[] | cdktf.IResolvable;
   /**
   * nic_based_backend_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#nic_based_backend_pools NodeConfiguration#nic_based_backend_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#nic_based_backend_pools NodeConfiguration#nic_based_backend_pools}
   */
   readonly nicBasedBackendPools?: NodeConfigurationAksLoadbalancersNicBasedBackendPools[] | cdktf.IResolvable;
 }
@@ -701,17 +701,17 @@ export interface NodeConfigurationAksPublicIp {
   /**
   * Idle timeout in minutes for public IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#idle_timeout_in_minutes NodeConfiguration#idle_timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#idle_timeout_in_minutes NodeConfiguration#idle_timeout_in_minutes}
   */
   readonly idleTimeoutInMinutes?: number;
   /**
   * Public IP prefix to be used for provisioned nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#public_ip_prefix NodeConfiguration#public_ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#public_ip_prefix NodeConfiguration#public_ip_prefix}
   */
   readonly publicIpPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#tags NodeConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#tags NodeConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -855,55 +855,55 @@ export interface NodeConfigurationAks {
   /**
   * Image OS Family to use when provisioning node in AKS. If both image and family are provided, the system will use provided image and provisioning logic for given family. If only image family is provided, the system will attempt to resolve the latest image from that family based on kubernetes version and node architecture. If image family is omitted, a default family (based on cloud provider) will be used. See Cast.ai documentation for details. Possible values: (ubuntu,azure-linux,windows2019,windows2022)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#aks_image_family NodeConfiguration#aks_image_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#aks_image_family NodeConfiguration#aks_image_family}
   */
   readonly aksImageFamily?: string;
   /**
   * Application security groups to be used for provisioned nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#application_security_groups NodeConfiguration#application_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#application_security_groups NodeConfiguration#application_security_groups}
   */
   readonly applicationSecurityGroups?: string[];
   /**
   * Maximum number of pods that can be run on a node, which affects how many IP addresses you will need for each node. Defaults to 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#max_pods_per_node NodeConfiguration#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#max_pods_per_node NodeConfiguration#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
   * Network security group to be used for provisioned nodes, if not provided default security group from `castpool` will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#network_security_group NodeConfiguration#network_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#network_security_group NodeConfiguration#network_security_group}
   */
   readonly networkSecurityGroup?: string;
   /**
   * Type of managed os disk attached to the node. (See [disk types](https://learn.microsoft.com/en-us/azure/virtual-machines/disks-types)). One of: standard, standard-ssd, premium-ssd (ultra and premium-ssd-v2 are not supported for os disk)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#os_disk_type NodeConfiguration#os_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#os_disk_type NodeConfiguration#os_disk_type}
   */
   readonly osDiskType?: string;
   /**
   * ID of pod subnet to be used for provisioned nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#pod_subnet_id NodeConfiguration#pod_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#pod_subnet_id NodeConfiguration#pod_subnet_id}
   */
   readonly podSubnetId?: string;
   /**
   * ephemeral_os_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#ephemeral_os_disk NodeConfiguration#ephemeral_os_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#ephemeral_os_disk NodeConfiguration#ephemeral_os_disk}
   */
   readonly ephemeralOsDisk?: NodeConfigurationAksEphemeralOsDisk;
   /**
   * loadbalancers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#loadbalancers NodeConfiguration#loadbalancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#loadbalancers NodeConfiguration#loadbalancers}
   */
   readonly loadbalancers?: NodeConfigurationAksLoadbalancers[] | cdktf.IResolvable;
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#public_ip NodeConfiguration#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#public_ip NodeConfiguration#public_ip}
   */
   readonly publicIp?: NodeConfigurationAksPublicIp;
 }
@@ -1221,13 +1221,13 @@ export interface NodeConfigurationEksTargetGroup {
   /**
   * AWS target group ARN for CAST provisioned nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#arn NodeConfiguration#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#arn NodeConfiguration#arn}
   */
   readonly arn: string;
   /**
   * Port for AWS target group for CAST provisioned nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#port NodeConfiguration#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#port NodeConfiguration#port}
   */
   readonly port?: number;
 }
@@ -1371,97 +1371,97 @@ export interface NodeConfigurationEks {
   /**
   * IP address to use for DNS queries within the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#dns_cluster_ip NodeConfiguration#dns_cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#dns_cluster_ip NodeConfiguration#dns_cluster_ip}
   */
   readonly dnsClusterIp?: string;
   /**
   * Image OS Family to use when provisioning node in EKS. If both image and family are provided, the system will use provided image and provisioning logic for given family. If only image family is provided, the system will attempt to resolve the latest image from that family based on kubernetes version and node architecture. If image family is omitted, a default family (based on cloud provider) will be used. See Cast.ai documentation for details. Possible values: (al2,al2023,bottlerocket)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#eks_image_family NodeConfiguration#eks_image_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#eks_image_family NodeConfiguration#eks_image_family}
   */
   readonly eksImageFamily?: string;
   /**
   * Allow configure the IMDSv2 hop limit, the default is 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#imds_hop_limit NodeConfiguration#imds_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#imds_hop_limit NodeConfiguration#imds_hop_limit}
   */
   readonly imdsHopLimit?: number;
   /**
   * When the value is true both IMDSv1 and IMDSv2 are enabled. Setting the value to false disables permanently IMDSv1 and might affect legacy workloads running on the node created with this configuration. The default is true if the flag isn't provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#imds_v1 NodeConfiguration#imds_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#imds_v1 NodeConfiguration#imds_v1}
   */
   readonly imdsV1?: boolean | cdktf.IResolvable;
   /**
   * Cluster's instance profile ARN used for CAST provisioned nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#instance_profile_arn NodeConfiguration#instance_profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#instance_profile_arn NodeConfiguration#instance_profile_arn}
   */
   readonly instanceProfileArn: string;
   /**
   * Number of IPs per prefix to be used for calculating max pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#ips_per_prefix NodeConfiguration#ips_per_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#ips_per_prefix NodeConfiguration#ips_per_prefix}
   */
   readonly ipsPerPrefix?: number;
   /**
   * AWS key pair ID to be used for CAST provisioned nodes. Has priority over ssh_public_key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#key_pair_id NodeConfiguration#key_pair_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#key_pair_id NodeConfiguration#key_pair_id}
   */
   readonly keyPairId?: string;
   /**
   * Formula to calculate the maximum number of pods that can be run on a node. The following list of variables will be bound to a number before evaluating and can be used in the formula: NUM_MAX_NET_INTERFACES, NUM_IP_PER_INTERFACE, NUM_IP_PER_PREFIX, NUM_CPU, NUM_RAM_GB .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#max_pods_per_node_formula NodeConfiguration#max_pods_per_node_formula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#max_pods_per_node_formula NodeConfiguration#max_pods_per_node_formula}
   */
   readonly maxPodsPerNodeFormula?: string;
   /**
   * Cluster's node group ARN used for CAST provisioned node pools. Required for hibernate/resume functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#node_group_arn NodeConfiguration#node_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#node_group_arn NodeConfiguration#node_group_arn}
   */
   readonly nodeGroupArn?: string;
   /**
   * Cluster's security groups configuration for CAST provisioned nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#security_groups NodeConfiguration#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#security_groups NodeConfiguration#security_groups}
   */
   readonly securityGroups: string[];
   /**
   * Number of threads per core.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#threads_per_cpu NodeConfiguration#threads_per_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#threads_per_cpu NodeConfiguration#threads_per_cpu}
   */
   readonly threadsPerCpu?: number;
   /**
   * AWS EBS volume IOPS to be used for CAST provisioned nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#volume_iops NodeConfiguration#volume_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#volume_iops NodeConfiguration#volume_iops}
   */
   readonly volumeIops?: number;
   /**
   * AWS KMS key ARN for encrypting EBS volume attached to the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#volume_kms_key_arn NodeConfiguration#volume_kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#volume_kms_key_arn NodeConfiguration#volume_kms_key_arn}
   */
   readonly volumeKmsKeyArn?: string;
   /**
   * AWS EBS volume throughput in MiB/s to be used for CAST provisioned nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#volume_throughput NodeConfiguration#volume_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#volume_throughput NodeConfiguration#volume_throughput}
   */
   readonly volumeThroughput?: number;
   /**
   * AWS EBS volume type to be used for CAST provisioned nodes. One of: gp3, gp2, io1, io2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#volume_type NodeConfiguration#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#volume_type NodeConfiguration#volume_type}
   */
   readonly volumeType?: string;
   /**
   * target_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#target_group NodeConfiguration#target_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#target_group NodeConfiguration#target_group}
   */
   readonly targetGroup?: NodeConfigurationEksTargetGroup[] | cdktf.IResolvable;
 }
@@ -1976,7 +1976,7 @@ export interface NodeConfigurationGkeLoadbalancersTargetBackendPools {
   /**
   * Name of the target group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#name NodeConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#name NodeConfiguration#name}
   */
   readonly name: string;
 }
@@ -2091,13 +2091,13 @@ export interface NodeConfigurationGkeLoadbalancersUnmanagedInstanceGroups {
   /**
   * Name of the instance group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#name NodeConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#name NodeConfiguration#name}
   */
   readonly name: string;
   /**
   * Zone of the instance group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#zone NodeConfiguration#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#zone NodeConfiguration#zone}
   */
   readonly zone: string;
 }
@@ -2238,13 +2238,13 @@ export interface NodeConfigurationGkeLoadbalancers {
   /**
   * target_backend_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#target_backend_pools NodeConfiguration#target_backend_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#target_backend_pools NodeConfiguration#target_backend_pools}
   */
   readonly targetBackendPools?: NodeConfigurationGkeLoadbalancersTargetBackendPools[] | cdktf.IResolvable;
   /**
   * unmanaged_instance_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#unmanaged_instance_groups NodeConfiguration#unmanaged_instance_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#unmanaged_instance_groups NodeConfiguration#unmanaged_instance_groups}
   */
   readonly unmanagedInstanceGroups?: NodeConfigurationGkeLoadbalancersUnmanagedInstanceGroups[] | cdktf.IResolvable;
 }
@@ -2391,7 +2391,7 @@ export interface NodeConfigurationGkeSecondaryIpRange {
   /**
   * Name of the secondary IP range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#range_name NodeConfiguration#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#range_name NodeConfiguration#range_name}
   */
   readonly rangeName: string;
 }
@@ -2474,13 +2474,13 @@ export interface NodeConfigurationGke {
   /**
   * Type of boot disk attached to the node. (See [disk types](https://cloud.google.com/compute/docs/disks#pdspecs)). One of: pd-standard, pd-balanced, pd-ssd, pd-extreme 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#disk_type NodeConfiguration#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#disk_type NodeConfiguration#disk_type}
   */
   readonly diskType?: string;
   /**
   * Maximum number of pods that can be run on a node, which affects how many IP addresses you will need for each node. Defaults to 110
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#max_pods_per_node NodeConfiguration#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#max_pods_per_node NodeConfiguration#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
@@ -2493,43 +2493,43 @@ export interface NodeConfigurationGke {
   * If you want the smallest value between 5 times the CPUs, 5 times the RAM, or a cap of 110, your formula would be math.least(110, 5 \* NUM_CPU, 5 \* NUM_RAM_GB).
   * For a node with 8 CPUs and 16 GB RAM, this calculates to 40 (5×8), 80 (5×16), and 110, then picks the smallest value: 40 pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#max_pods_per_node_formula NodeConfiguration#max_pods_per_node_formula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#max_pods_per_node_formula NodeConfiguration#max_pods_per_node_formula}
   */
   readonly maxPodsPerNodeFormula?: string;
   /**
   * Network tags to be added on a VM. (See [network tags](https://cloud.google.com/vpc/docs/add-remove-network-tags))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#network_tags NodeConfiguration#network_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#network_tags NodeConfiguration#network_tags}
   */
   readonly networkTags?: string[];
   /**
   * Maintenance behavior of the instances. If not set, the default value for spot nodes is terminate, and for non-spot nodes, it is migrate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#on_host_maintenance NodeConfiguration#on_host_maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#on_host_maintenance NodeConfiguration#on_host_maintenance}
   */
   readonly onHostMaintenance?: string;
   /**
   * Use ephemeral storage local SSD. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#use_ephemeral_storage_local_ssd NodeConfiguration#use_ephemeral_storage_local_ssd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#use_ephemeral_storage_local_ssd NodeConfiguration#use_ephemeral_storage_local_ssd}
   */
   readonly useEphemeralStorageLocalSsd?: boolean | cdktf.IResolvable;
   /**
   * List of preferred availability zones to choose from when provisioning new nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#zones NodeConfiguration#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#zones NodeConfiguration#zones}
   */
   readonly zones?: string[];
   /**
   * loadbalancers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#loadbalancers NodeConfiguration#loadbalancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#loadbalancers NodeConfiguration#loadbalancers}
   */
   readonly loadbalancers?: NodeConfigurationGkeLoadbalancers[] | cdktf.IResolvable;
   /**
   * secondary_ip_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#secondary_ip_range NodeConfiguration#secondary_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#secondary_ip_range NodeConfiguration#secondary_ip_range}
   */
   readonly secondaryIpRange?: NodeConfigurationGkeSecondaryIpRange;
 }
@@ -2847,7 +2847,7 @@ export interface NodeConfigurationKops {
   /**
   * AWS key pair ID to be used for provisioned nodes. Has priority over sshPublicKey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#key_pair_id NodeConfiguration#key_pair_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#key_pair_id NodeConfiguration#key_pair_id}
   */
   readonly keyPairId?: string;
 }
@@ -2931,19 +2931,19 @@ export class NodeConfigurationKopsOutputReference extends cdktf.ComplexObject {
 }
 export interface NodeConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#create NodeConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#create NodeConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#delete NodeConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#delete NodeConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#read NodeConfiguration#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#read NodeConfiguration#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#update NodeConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#update NodeConfiguration#update}
   */
   readonly update?: string;
 }
@@ -3124,7 +3124,7 @@ export class NodeConfigurationTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration castai_node_configuration}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration castai_node_configuration}
 */
 export class NodeConfiguration extends cdktf.TerraformResource {
 
@@ -3140,7 +3140,7 @@ export class NodeConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NodeConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NodeConfiguration to import
-  * @param importFromId The id of the existing NodeConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NodeConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NodeConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3152,7 +3152,7 @@ export class NodeConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration castai_node_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/node_configuration castai_node_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3163,8 +3163,8 @@ export class NodeConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'castai_node_configuration',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.3.0',
-        providerVersionConstraint: '8.3.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance_snapshot
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CloudProjectInstanceSnapshotConfig extends cdktf.TerraformMetaA
   /**
   * Instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance_snapshot#instance_id CloudProjectInstanceSnapshot#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance_snapshot#instance_id CloudProjectInstanceSnapshot#instance_id}
   */
   readonly instanceId: string;
   /**
   * Image name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance_snapshot#name CloudProjectInstanceSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance_snapshot#name CloudProjectInstanceSnapshot#name}
   */
   readonly name: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance_snapshot#service_name CloudProjectInstanceSnapshot#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance_snapshot#service_name CloudProjectInstanceSnapshot#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance_snapshot ovh_cloud_project_instance_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance_snapshot ovh_cloud_project_instance_snapshot}
 */
 export class CloudProjectInstanceSnapshot extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class CloudProjectInstanceSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectInstanceSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectInstanceSnapshot to import
-  * @param importFromId The id of the existing CloudProjectInstanceSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectInstanceSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectInstanceSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class CloudProjectInstanceSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_instance_snapshot ovh_cloud_project_instance_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_instance_snapshot ovh_cloud_project_instance_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class CloudProjectInstanceSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_instance_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

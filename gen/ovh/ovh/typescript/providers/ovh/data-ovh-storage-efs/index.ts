@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOvhStorageEfsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs#service_name DataOvhStorageEfs#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs#service_name DataOvhStorageEfs#service_name}
   */
   readonly serviceName: string;
 }
@@ -86,7 +86,7 @@ export class DataOvhStorageEfsIamOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs ovh_storage_efs}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs ovh_storage_efs}
 */
 export class DataOvhStorageEfs extends cdktf.TerraformDataSource {
 
@@ -102,7 +102,7 @@ export class DataOvhStorageEfs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhStorageEfs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhStorageEfs to import
-  * @param importFromId The id of the existing DataOvhStorageEfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhStorageEfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhStorageEfs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -114,7 +114,7 @@ export class DataOvhStorageEfs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/storage_efs ovh_storage_efs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/storage_efs ovh_storage_efs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -125,8 +125,8 @@ export class DataOvhStorageEfs extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_storage_efs',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

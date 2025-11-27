@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/deployment_freeze_project
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/deployment_freeze_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DeploymentFreezeProjectConfig extends cdktf.TerraformMetaArgume
   /**
   * The deployment freeze ID associated with this freeze scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/deployment_freeze_project#deploymentfreeze_id DeploymentFreezeProject#deploymentfreeze_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/deployment_freeze_project#deploymentfreeze_id DeploymentFreezeProject#deploymentfreeze_id}
   */
   readonly deploymentfreezeId: string;
   /**
   * The environment IDs associated with this project deployment freeze scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/deployment_freeze_project#environment_ids DeploymentFreezeProject#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/deployment_freeze_project#environment_ids DeploymentFreezeProject#environment_ids}
   */
   readonly environmentIds?: string[];
   /**
   * The project ID associated with this freeze scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/deployment_freeze_project#project_id DeploymentFreezeProject#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/deployment_freeze_project#project_id DeploymentFreezeProject#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/deployment_freeze_project octopusdeploy_deployment_freeze_project}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/deployment_freeze_project octopusdeploy_deployment_freeze_project}
 */
 export class DeploymentFreezeProject extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class DeploymentFreezeProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeploymentFreezeProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeploymentFreezeProject to import
-  * @param importFromId The id of the existing DeploymentFreezeProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/deployment_freeze_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeploymentFreezeProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/deployment_freeze_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeploymentFreezeProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DeploymentFreezeProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/deployment_freeze_project octopusdeploy_deployment_freeze_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/deployment_freeze_project octopusdeploy_deployment_freeze_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DeploymentFreezeProject extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_deployment_freeze_project',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

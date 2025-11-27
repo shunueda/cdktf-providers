@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface IpHotspotProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#___path___ IpHotspotProfile#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#___path___ IpHotspotProfile#___path___}
   */
   readonly path?: string;
   /**
   * DNS name of the HotSpot server (it appears as the location of the login page). This name will automatically be added as a static DNS entry in the DNS cache. Name can affect if Hotspot is automatically detected by client device. For example, iOS devices may not detect Hotspot that has a name which includes `.local`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#dns_name IpHotspotProfile#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#dns_name IpHotspotProfile#dns_name}
   */
   readonly dnsName?: string;
   /**
   * IP address of HotSpot service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#hotspot_address IpHotspotProfile#hotspot_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#hotspot_address IpHotspotProfile#hotspot_address}
   */
   readonly hotspotAddress?: string;
   /**
   * Directory name in which HotSpot HTML pages are stored (by default hotspot directory). It is possible to specify different directory with modified HTML pages. To change HotSpot login page, connect to the router with FTP and download hotspot directory contents. v6.31 and older software builds: For devices where `flash` directory is present, hotspot html directory must be stored there and path must be typed in as follows: `/(hotspot_dir)`. This must be done in this order as hotspot sees `flash` directory as root location. v6.32 and newer software builds: full path must be typed in html-directory field, including `/flash/(hotspot_dir)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#html_directory IpHotspotProfile#html_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#html_directory IpHotspotProfile#html_directory}
   */
   readonly htmlDirectory?: string;
   /**
   * Alternative path for hotspot html files. It should be used only if customized hotspot html files are stored on external storage(attached usb, hdd, etc). If configured then hotspot will switch to this html path as soon at it becomes available and switch back to html-directory path if override path becomes non-available for some reason.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#html_directory_override IpHotspotProfile#html_directory_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#html_directory_override IpHotspotProfile#html_directory_override}
   */
   readonly htmlDirectoryOverride?: string;
   /**
   * HTTP cookie validity time, the option is related to cookie HotSpot login method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#http_cookie_lifetime IpHotspotProfile#http_cookie_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#http_cookie_lifetime IpHotspotProfile#http_cookie_lifetime}
   */
   readonly httpCookieLifetime?: string;
   /**
   * Address and port of the proxy server for HotSpot service, when default value is used all request are resolved by the local `/ip proxy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#http_proxy IpHotspotProfile#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#http_proxy IpHotspotProfile#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * Whether to redirect unauthenticated user to hotspot login page, if he is visiting a https:// url. Since certificate domain name will mismatch, often this leads to errors, so you can set this parameter to `no` and all https requests will simply be rejected and user will have to visit a http page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#https_redirect IpHotspotProfile#https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#https_redirect IpHotspotProfile#https_redirect}
   */
   readonly httpsRedirect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#id IpHotspotProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#id IpHotspotProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,121 +72,121 @@ export interface IpHotspotProfileConfig extends cdktf.TerraformMetaArguments {
   *  * mac - client is authenticated without asking login form. Client MAC-address is added to `/ip hotspot user` database, client is authenticated as soon as connected to the HotSpot
   *  * trial - client is allowed to use internet without HotSpot login for the specified amount of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#login_by IpHotspotProfile#login_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#login_by IpHotspotProfile#login_by}
   */
   readonly loginBy?: string[];
   /**
   * Allows to control User-Name and User-Password RADIUS attributes when using MAC authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#mac_auth_mode IpHotspotProfile#mac_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#mac_auth_mode IpHotspotProfile#mac_auth_mode}
   */
   readonly macAuthMode?: string;
   /**
   * Used together with MAC authentication, field used to specify password for the users to be authenticated by their MAC addresses. The following option is required, when specific RADIUS server rejects authentication for the clients with blank password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#mac_auth_password IpHotspotProfile#mac_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#mac_auth_password IpHotspotProfile#mac_auth_password}
   */
   readonly macAuthPassword?: string;
   /**
   * Descriptive name of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#name IpHotspotProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#name IpHotspotProfile#name}
   */
   readonly name: string;
   /**
   * `NAS-Port-Type` value to be sent to RADIUS server, `NAS-Port-Type` values are described in the RADIUS RFC 2865. This optional value attribute indicates the type of the physical port of the HotSpot server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#nas_port_type IpHotspotProfile#nas_port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#nas_port_type IpHotspotProfile#nas_port_type}
   */
   readonly nasPortType?: string;
   /**
   * Send RADIUS server accounting information for each user, when yes is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#radius_accounting IpHotspotProfile#radius_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#radius_accounting IpHotspotProfile#radius_accounting}
   */
   readonly radiusAccounting?: boolean | cdktf.IResolvable;
   /**
   * Default domain to use for RADIUS requests. Allows to use separate RADIUS server per `/ip hotspot profile`. If used, same domain name should be specified under `/radius domain` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#radius_default_domain IpHotspotProfile#radius_default_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#radius_default_domain IpHotspotProfile#radius_default_domain}
   */
   readonly radiusDefaultDomain?: string;
   /**
   * How often to send accounting updates . When received is set, interim-time is used from RADIUS server. 0s is the same as received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#radius_interim_update IpHotspotProfile#radius_interim_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#radius_interim_update IpHotspotProfile#radius_interim_update}
   */
   readonly radiusInterimUpdate?: string;
   /**
   * `RADIUS-Location-Id` property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#radius_location_id IpHotspotProfile#radius_location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#radius_location_id IpHotspotProfile#radius_location_id}
   */
   readonly radiusLocationId?: string;
   /**
   * `RADIUS-Location-Id` to be sent to RADIUS server. Used to identify location of the HotSpot server during the communication with RADIUS server. Value is optional and used together with RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#radius_location_name IpHotspotProfile#radius_location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#radius_location_name IpHotspotProfile#radius_location_name}
   */
   readonly radiusLocationName?: string;
   /**
   * Controls how the MAC address of the client is encoded in the `User-Name` and `User-Password` attributes when using MAC authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#radius_mac_format IpHotspotProfile#radius_mac_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#radius_mac_format IpHotspotProfile#radius_mac_format}
   */
   readonly radiusMacFormat?: string;
   /**
   * Rate limitation in form of rx-rate[/tx-rate] [rx-burst-rate[/tx-burst-rate] [rx-burst-threshold[/tx-burst-threshold] [rx-burst-time[/tx-burst-time]]]] [priority] [rx-rate-min[/tx-rate-min]] from the point of view of the router (so `rx` is client upload, and `tx` is client download). All rates should be numbers with optional 'k' (1,000s) or 'M' (1,000,000s). If tx-rate is not specified, rx-rate is as tx-rate too. Same goes for tx-burst-rate and tx-burst-threshold and tx-burst-time. If both rx-burst-threshold and tx-burst-threshold are not specified (but burst-rate is specified), rx-rate and tx-rate is used as burst thresholds. If both rx-burst-time and tx-burst-time are not specified, 1s is used as default. rx-rate-min and tx-rate min are the values of limit-at properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#rate_limit IpHotspotProfile#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#rate_limit IpHotspotProfile#rate_limit}
   */
   readonly rateLimit?: string;
   /**
   * SMTP server address to be used to redirect HotSpot users SMTP requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#smtp_server IpHotspotProfile#smtp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#smtp_server IpHotspotProfile#smtp_server}
   */
   readonly smtpServer?: string;
   /**
   * Split username from domain name when the username is given in `user@domain` or in `domain\user` format from RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#split_user_domain IpHotspotProfile#split_user_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#split_user_domain IpHotspotProfile#split_user_domain}
   */
   readonly splitUserDomain?: boolean | cdktf.IResolvable;
   /**
   * Name of the SSL certificate on the router to to use only for HTTPS authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#ssl_certificate IpHotspotProfile#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#ssl_certificate IpHotspotProfile#ssl_certificate}
   */
   readonly sslCertificate?: string;
   /**
   * Used only with trial authentication method. Time value specifies, how long trial user identified by MAC address can use access to public networks without HotSpot authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#trial_uptime_limit IpHotspotProfile#trial_uptime_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#trial_uptime_limit IpHotspotProfile#trial_uptime_limit}
   */
   readonly trialUptimeLimit?: string;
   /**
   * Used only with trial authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#trial_uptime_reset IpHotspotProfile#trial_uptime_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#trial_uptime_reset IpHotspotProfile#trial_uptime_reset}
   */
   readonly trialUptimeReset?: string;
   /**
   * Specifies hotspot user profile for trial users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#trial_user_profile IpHotspotProfile#trial_user_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#trial_user_profile IpHotspotProfile#trial_user_profile}
   */
   readonly trialUserProfile?: string;
   /**
   * Use RADIUS to authenticate HotSpot users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#use_radius IpHotspotProfile#use_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#use_radius IpHotspotProfile#use_radius}
   */
   readonly useRadius?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile routeros_ip_hotspot_profile}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile routeros_ip_hotspot_profile}
 */
 export class IpHotspotProfile extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class IpHotspotProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpHotspotProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpHotspotProfile to import
-  * @param importFromId The id of the existing IpHotspotProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpHotspotProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpHotspotProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class IpHotspotProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_hotspot_profile routeros_ip_hotspot_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_hotspot_profile routeros_ip_hotspot_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class IpHotspotProfile extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_hotspot_profile',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.92.1',
-        providerVersionConstraint: '1.92.1'
+        providerVersion: '1.93.0',
+        providerVersionConstraint: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

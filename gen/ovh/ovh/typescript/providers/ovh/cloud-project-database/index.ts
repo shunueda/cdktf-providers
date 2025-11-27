@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface CloudProjectDatabaseConfig extends cdktf.TerraformMetaArguments
   /**
   * Advanced configuration key / value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#advanced_configuration CloudProjectDatabase#advanced_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#advanced_configuration CloudProjectDatabase#advanced_configuration}
   */
   readonly advancedConfiguration?: { [key: string]: string };
   /**
   * List of region where backups are pushed. Not more than 1 regions for MongoDB. Not more than 2 regions for the other engines with one being the same as the nodes[].region field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#backup_regions CloudProjectDatabase#backup_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#backup_regions CloudProjectDatabase#backup_regions}
   */
   readonly backupRegions?: string[];
   /**
   * Time on which backups start every day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#backup_time CloudProjectDatabase#backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#backup_time CloudProjectDatabase#backup_time}
   */
   readonly backupTime?: string;
   /**
   * Enable deletion protection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#deletion_protection CloudProjectDatabase#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#deletion_protection CloudProjectDatabase#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Description of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#description CloudProjectDatabase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#description CloudProjectDatabase#description}
   */
   readonly description?: string;
   /**
   * Disk size attributes of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#disk_size CloudProjectDatabase#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#disk_size CloudProjectDatabase#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Name of the engine of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#engine CloudProjectDatabase#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#engine CloudProjectDatabase#engine}
   */
   readonly engine: string;
   /**
   * The node flavor used for this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#flavor CloudProjectDatabase#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#flavor CloudProjectDatabase#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#id CloudProjectDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#id CloudProjectDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,59 +65,59 @@ export interface CloudProjectDatabaseConfig extends cdktf.TerraformMetaArguments
   /**
   * Defines whether the REST API is enabled on a Kafka cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#kafka_rest_api CloudProjectDatabase#kafka_rest_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#kafka_rest_api CloudProjectDatabase#kafka_rest_api}
   */
   readonly kafkaRestApi?: boolean | cdktf.IResolvable;
   /**
   * Defines whether the schema registry is enabled on a Kafka cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#kafka_schema_registry CloudProjectDatabase#kafka_schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#kafka_schema_registry CloudProjectDatabase#kafka_schema_registry}
   */
   readonly kafkaSchemaRegistry?: boolean | cdktf.IResolvable;
   /**
   * Time on which maintenances can start every day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#maintenance_time CloudProjectDatabase#maintenance_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#maintenance_time CloudProjectDatabase#maintenance_time}
   */
   readonly maintenanceTime?: string;
   /**
   * Defines whether the ACLs are enabled on an Opensearch cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#opensearch_acls_enabled CloudProjectDatabase#opensearch_acls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#opensearch_acls_enabled CloudProjectDatabase#opensearch_acls_enabled}
   */
   readonly opensearchAclsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Plan of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#plan CloudProjectDatabase#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#plan CloudProjectDatabase#plan}
   */
   readonly plan: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#service_name CloudProjectDatabase#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#service_name CloudProjectDatabase#service_name}
   */
   readonly serviceName: string;
   /**
   * Version of the engine deployed on the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#version CloudProjectDatabase#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#version CloudProjectDatabase#version}
   */
   readonly version: string;
   /**
   * ip_restrictions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#ip_restrictions CloudProjectDatabase#ip_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#ip_restrictions CloudProjectDatabase#ip_restrictions}
   */
   readonly ipRestrictions?: CloudProjectDatabaseIpRestrictions[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#nodes CloudProjectDatabase#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#nodes CloudProjectDatabase#nodes}
   */
   readonly nodes: CloudProjectDatabaseNodes[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#timeouts CloudProjectDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#timeouts CloudProjectDatabase#timeouts}
   */
   readonly timeouts?: CloudProjectDatabaseTimeouts;
 }
@@ -235,13 +235,13 @@ export interface CloudProjectDatabaseIpRestrictions {
   /**
   * Description of the IP restriction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#description CloudProjectDatabase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#description CloudProjectDatabase#description}
   */
   readonly description?: string;
   /**
   * Authorized IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#ip CloudProjectDatabase#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#ip CloudProjectDatabase#ip}
   */
   readonly ip?: string;
 }
@@ -393,19 +393,19 @@ export interface CloudProjectDatabaseNodes {
   /**
   * Private network ID in which the node is. It's the regional openstackId of the private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#network_id CloudProjectDatabase#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#network_id CloudProjectDatabase#network_id}
   */
   readonly networkId?: string;
   /**
   * Region of the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#region CloudProjectDatabase#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#region CloudProjectDatabase#region}
   */
   readonly region: string;
   /**
   * Private subnet ID in which the node is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#subnet_id CloudProjectDatabase#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#subnet_id CloudProjectDatabase#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -576,15 +576,15 @@ export class CloudProjectDatabaseNodesList extends cdktf.ComplexList {
 }
 export interface CloudProjectDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#create CloudProjectDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#create CloudProjectDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#delete CloudProjectDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#delete CloudProjectDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#update CloudProjectDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#update CloudProjectDatabase#update}
   */
   readonly update?: string;
 }
@@ -736,7 +736,7 @@ export class CloudProjectDatabaseTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database ovh_cloud_project_database}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database ovh_cloud_project_database}
 */
 export class CloudProjectDatabase extends cdktf.TerraformResource {
 
@@ -752,7 +752,7 @@ export class CloudProjectDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectDatabase to import
-  * @param importFromId The id of the existing CloudProjectDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -764,7 +764,7 @@ export class CloudProjectDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_database ovh_cloud_project_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_database ovh_cloud_project_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -775,8 +775,8 @@ export class CloudProjectDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_database',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

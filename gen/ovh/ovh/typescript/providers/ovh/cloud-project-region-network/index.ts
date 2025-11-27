@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CloudProjectRegionNetworkConfig extends cdktf.TerraformMetaArgu
   /**
   * Network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#name CloudProjectRegionNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#name CloudProjectRegionNetwork#name}
   */
   readonly name: string;
   /**
   * Region name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#region_name CloudProjectRegionNetwork#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#region_name CloudProjectRegionNetwork#region_name}
   */
   readonly regionName: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#service_name CloudProjectRegionNetwork#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#service_name CloudProjectRegionNetwork#service_name}
   */
   readonly serviceName: string;
   /**
   * Parameters to create a subnet from another resource creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#subnet CloudProjectRegionNetwork#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#subnet CloudProjectRegionNetwork#subnet}
   */
   readonly subnet: CloudProjectRegionNetworkSubnet;
   /**
   * VLAN id, between 1 and 4000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#vlan_id CloudProjectRegionNetwork#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#vlan_id CloudProjectRegionNetwork#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -42,13 +42,13 @@ export interface CloudProjectRegionNetworkSubnetAllocationPools {
   /**
   * Last IP for the pool (eg: 192.168.1.24)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#end CloudProjectRegionNetwork#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#end CloudProjectRegionNetwork#end}
   */
   readonly end?: string;
   /**
   * First IP for the pool (eg: 192.168.1.12)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#start CloudProjectRegionNetwork#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#start CloudProjectRegionNetwork#start}
   */
   readonly start?: string;
 }
@@ -195,13 +195,13 @@ export interface CloudProjectRegionNetworkSubnetHostRoutes {
   /**
   * Host route destination (eg: 192.168.1.0/24)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#destination CloudProjectRegionNetwork#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#destination CloudProjectRegionNetwork#destination}
   */
   readonly destination?: string;
   /**
   * Host route next hop (eg: 192.168.1.254)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#next_hop CloudProjectRegionNetwork#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#next_hop CloudProjectRegionNetwork#next_hop}
   */
   readonly nextHop?: string;
 }
@@ -348,61 +348,61 @@ export interface CloudProjectRegionNetworkSubnet {
   /**
   * List of ip pools allocated in subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#allocation_pools CloudProjectRegionNetwork#allocation_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#allocation_pools CloudProjectRegionNetwork#allocation_pools}
   */
   readonly allocationPools?: CloudProjectRegionNetworkSubnetAllocationPools[] | cdktf.IResolvable;
   /**
   * Subnet range in CIDR notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#cidr CloudProjectRegionNetwork#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#cidr CloudProjectRegionNetwork#cidr}
   */
   readonly cidr: string;
   /**
   * DNS nameservers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#dns_name_servers CloudProjectRegionNetwork#dns_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#dns_name_servers CloudProjectRegionNetwork#dns_name_servers}
   */
   readonly dnsNameServers?: string[];
   /**
   * Enable DHCP for the subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#enable_dhcp CloudProjectRegionNetwork#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#enable_dhcp CloudProjectRegionNetwork#enable_dhcp}
   */
   readonly enableDhcp: boolean | cdktf.IResolvable;
   /**
   * Set a gateway ip for the subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#enable_gateway_ip CloudProjectRegionNetwork#enable_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#enable_gateway_ip CloudProjectRegionNetwork#enable_gateway_ip}
   */
   readonly enableGatewayIp: boolean | cdktf.IResolvable;
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#gateway_ip CloudProjectRegionNetwork#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#gateway_ip CloudProjectRegionNetwork#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Host routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#host_routes CloudProjectRegionNetwork#host_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#host_routes CloudProjectRegionNetwork#host_routes}
   */
   readonly hostRoutes?: CloudProjectRegionNetworkSubnetHostRoutes[] | cdktf.IResolvable;
   /**
   * IP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#ip_version CloudProjectRegionNetwork#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#ip_version CloudProjectRegionNetwork#ip_version}
   */
   readonly ipVersion: number;
   /**
   * Subnet name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#name CloudProjectRegionNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#name CloudProjectRegionNetwork#name}
   */
   readonly name?: string;
   /**
   * Use default DNS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#use_default_public_dnsresolver CloudProjectRegionNetwork#use_default_public_dnsresolver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#use_default_public_dnsresolver CloudProjectRegionNetwork#use_default_public_dnsresolver}
   */
   readonly useDefaultPublicDnsresolver?: boolean | cdktf.IResolvable;
 }
@@ -745,7 +745,7 @@ export class CloudProjectRegionNetworkSubnetOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network ovh_cloud_project_region_network}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network ovh_cloud_project_region_network}
 */
 export class CloudProjectRegionNetwork extends cdktf.TerraformResource {
 
@@ -761,7 +761,7 @@ export class CloudProjectRegionNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProjectRegionNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProjectRegionNetwork to import
-  * @param importFromId The id of the existing CloudProjectRegionNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProjectRegionNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProjectRegionNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -773,7 +773,7 @@ export class CloudProjectRegionNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/cloud_project_region_network ovh_cloud_project_region_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/cloud_project_region_network ovh_cloud_project_region_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -784,8 +784,8 @@ export class CloudProjectRegionNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_region_network',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

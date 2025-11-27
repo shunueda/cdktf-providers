@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_vpc_security_group_attachment
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_vpc_security_group_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ZecVpcSecurityGroupAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_vpc_security_group_attachment#id ZecVpcSecurityGroupAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_vpc_security_group_attachment#id ZecVpcSecurityGroupAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ZecVpcSecurityGroupAttachmentConfig extends cdktf.TerraformMeta
   /**
   * The ID of the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_vpc_security_group_attachment#security_group_id ZecVpcSecurityGroupAttachment#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_vpc_security_group_attachment#security_group_id ZecVpcSecurityGroupAttachment#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * The ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_vpc_security_group_attachment#vpc_id ZecVpcSecurityGroupAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_vpc_security_group_attachment#vpc_id ZecVpcSecurityGroupAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_vpc_security_group_attachment zenlayercloud_zec_vpc_security_group_attachment}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_vpc_security_group_attachment zenlayercloud_zec_vpc_security_group_attachment}
 */
 export class ZecVpcSecurityGroupAttachment extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ZecVpcSecurityGroupAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecVpcSecurityGroupAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecVpcSecurityGroupAttachment to import
-  * @param importFromId The id of the existing ZecVpcSecurityGroupAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_vpc_security_group_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecVpcSecurityGroupAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_vpc_security_group_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecVpcSecurityGroupAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ZecVpcSecurityGroupAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zec_vpc_security_group_attachment zenlayercloud_zec_vpc_security_group_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_vpc_security_group_attachment zenlayercloud_zec_vpc_security_group_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class ZecVpcSecurityGroupAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_vpc_security_group_attachment',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.11',
-        providerVersionConstraint: '0.2.11'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

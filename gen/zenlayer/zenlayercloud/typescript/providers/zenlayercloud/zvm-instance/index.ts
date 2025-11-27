@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ZvmInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of zone that the instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#availability_zone ZvmInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#availability_zone ZvmInstance#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Indicate whether to force delete the instance. Default is `false`. If set true, the instance will be permanently deleted instead of being moved into the recycle bin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#force_delete ZvmInstance#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#force_delete ZvmInstance#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#id ZvmInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#id ZvmInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,95 +29,95 @@ export interface ZvmInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The image to use for the instance. Changing `image_id` will cause the instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#image_id ZvmInstance#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#image_id ZvmInstance#image_id}
   */
   readonly imageId?: string;
   /**
   * The tenancy (time unit is month) of the prepaid instance, NOTE: it only works when instance_charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#instance_charge_prepaid_period ZvmInstance#instance_charge_prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#instance_charge_prepaid_period ZvmInstance#instance_charge_prepaid_period}
   */
   readonly instanceChargePrepaidPeriod?: number;
   /**
   * The charge type of instance. Valid values are `PREPAID`, `POSTPAID`. The default is `POSTPAID`. Note: `PREPAID` instance may not allow to delete before expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#instance_charge_type ZvmInstance#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#instance_charge_type ZvmInstance#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * The name of the instance. The max length of instance_name is 64, and default value is `Terraform-Instance`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#instance_name ZvmInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#instance_name ZvmInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * The type of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#instance_type ZvmInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#instance_type ZvmInstance#instance_type}
   */
   readonly instanceType: string;
   /**
   * Internet charge type of the instance, Valid values are `ByBandwidth`, `ByTrafficPackage`, `ByInstanceBandwidth95` and `ByClusterBandwidth95`. This value currently not support to change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#internet_charge_type ZvmInstance#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#internet_charge_type ZvmInstance#internet_charge_type}
   */
   readonly internetChargeType: string;
   /**
   * Maximum outgoing bandwidth to the public network, measured in Mbps (Mega bits per second).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#internet_max_bandwidth_out ZvmInstance#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#internet_max_bandwidth_out ZvmInstance#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * The key pair id to use for the instance. Changing `key_id` will cause the instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#key_id ZvmInstance#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#key_id ZvmInstance#key_id}
   */
   readonly keyId?: string;
   /**
   * Password for the instance. The max length of password is 16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#password ZvmInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#password ZvmInstance#password}
   */
   readonly password?: string;
   /**
   * The resource group id the instance belongs to, default to Default Resource Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#resource_group_id ZvmInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#resource_group_id ZvmInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * The ID of a VPC subnet. If you want to create instances in a VPC network, this parameter must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#subnet_id ZvmInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#subnet_id ZvmInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Size of the system disk. unit is GB. If modified, the instance may force stop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#system_disk_size ZvmInstance#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#system_disk_size ZvmInstance#system_disk_size}
   */
   readonly systemDiskSize: number;
   /**
   * Traffic package size. Only valid when the charge type of instance is `ByTrafficPackage` and the instance charge type is `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#traffic_package_size ZvmInstance#traffic_package_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#traffic_package_size ZvmInstance#traffic_package_size}
   */
   readonly trafficPackageSize?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#timeouts ZvmInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#timeouts ZvmInstance#timeouts}
   */
   readonly timeouts?: ZvmInstanceTimeouts;
 }
 export interface ZvmInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#create ZvmInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#create ZvmInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#update ZvmInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#update ZvmInstance#update}
   */
   readonly update?: string;
 }
@@ -240,7 +240,7 @@ export class ZvmInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance zenlayercloud_zvm_instance}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance zenlayercloud_zvm_instance}
 */
 export class ZvmInstance extends cdktf.TerraformResource {
 
@@ -256,7 +256,7 @@ export class ZvmInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZvmInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZvmInstance to import
-  * @param importFromId The id of the existing ZvmInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZvmInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZvmInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +268,7 @@ export class ZvmInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.11/docs/resources/zvm_instance zenlayercloud_zvm_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zvm_instance zenlayercloud_zvm_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,8 +279,8 @@ export class ZvmInstance extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zvm_instance',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.11',
-        providerVersionConstraint: '0.2.11'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

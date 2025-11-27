@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_cluster_retention
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_cluster_retention
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataOvhDbaasLogsClusterRetentionConfig extends cdktf.TerraformM
   /**
   * Cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_cluster_retention#cluster_id DataOvhDbaasLogsClusterRetention#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_cluster_retention#cluster_id DataOvhDbaasLogsClusterRetention#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Indexed duration expressed in ISO-8601 format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_cluster_retention#duration DataOvhDbaasLogsClusterRetention#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_cluster_retention#duration DataOvhDbaasLogsClusterRetention#duration}
   */
   readonly duration?: string;
   /**
   * Retention ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_cluster_retention#retention_id DataOvhDbaasLogsClusterRetention#retention_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_cluster_retention#retention_id DataOvhDbaasLogsClusterRetention#retention_id}
   */
   readonly retentionId?: string;
   /**
   * Retention type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_cluster_retention#retention_type DataOvhDbaasLogsClusterRetention#retention_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_cluster_retention#retention_type DataOvhDbaasLogsClusterRetention#retention_type}
   */
   readonly retentionType?: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_cluster_retention#service_name DataOvhDbaasLogsClusterRetention#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_cluster_retention#service_name DataOvhDbaasLogsClusterRetention#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_cluster_retention ovh_dbaas_logs_cluster_retention}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_cluster_retention ovh_dbaas_logs_cluster_retention}
 */
 export class DataOvhDbaasLogsClusterRetention extends cdktf.TerraformDataSource {
 
@@ -56,7 +56,7 @@ export class DataOvhDbaasLogsClusterRetention extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOvhDbaasLogsClusterRetention resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhDbaasLogsClusterRetention to import
-  * @param importFromId The id of the existing DataOvhDbaasLogsClusterRetention that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_cluster_retention#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhDbaasLogsClusterRetention that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_cluster_retention#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhDbaasLogsClusterRetention to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class DataOvhDbaasLogsClusterRetention extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/dbaas_logs_cluster_retention ovh_dbaas_logs_cluster_retention} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/dbaas_logs_cluster_retention ovh_dbaas_logs_cluster_retention} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class DataOvhDbaasLogsClusterRetention extends cdktf.TerraformDataSource 
       terraformResourceType: 'ovh_dbaas_logs_cluster_retention',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

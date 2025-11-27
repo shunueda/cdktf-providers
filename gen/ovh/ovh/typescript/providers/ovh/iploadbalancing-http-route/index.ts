@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IploadbalancingHttpRouteConfig extends cdktf.TerraformMetaArgum
   /**
   * Human readable name for your route, this field is for you
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route#display_name IploadbalancingHttpRoute#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route#display_name IploadbalancingHttpRoute#display_name}
   */
   readonly displayName?: string;
   /**
   * Route traffic for this frontend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route#frontend_id IploadbalancingHttpRoute#frontend_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route#frontend_id IploadbalancingHttpRoute#frontend_id}
   */
   readonly frontendId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route#id IploadbalancingHttpRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route#id IploadbalancingHttpRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface IploadbalancingHttpRouteConfig extends cdktf.TerraformMetaArgum
   /**
   * The internal name of your IP load balancing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route#service_name IploadbalancingHttpRoute#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route#service_name IploadbalancingHttpRoute#service_name}
   */
   readonly serviceName: string;
   /**
   * Route priority ([0..255]). 0 if null. Highest priority routes are evaluated last. Only the first matching route will trigger an action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route#weight IploadbalancingHttpRoute#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route#weight IploadbalancingHttpRoute#weight}
   */
   readonly weight?: number;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route#action IploadbalancingHttpRoute#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route#action IploadbalancingHttpRoute#action}
   */
   readonly action: IploadbalancingHttpRouteAction;
 }
@@ -149,19 +149,19 @@ export interface IploadbalancingHttpRouteAction {
   /**
   * HTTP status code for "redirect" and "reject" actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route#status IploadbalancingHttpRoute#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route#status IploadbalancingHttpRoute#status}
   */
   readonly status?: number;
   /**
   * Farm ID for "farm" action type or URL template for "redirect" action. You may use ${uri}, ${protocol}, ${host}, ${port} and ${path} variables in redirect target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route#target IploadbalancingHttpRoute#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route#target IploadbalancingHttpRoute#target}
   */
   readonly target?: string;
   /**
   * Action to trigger if all the rules of this route matches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route#type IploadbalancingHttpRoute#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route#type IploadbalancingHttpRoute#type}
   */
   readonly type: string;
 }
@@ -300,7 +300,7 @@ export class IploadbalancingHttpRouteActionOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route ovh_iploadbalancing_http_route}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route ovh_iploadbalancing_http_route}
 */
 export class IploadbalancingHttpRoute extends cdktf.TerraformResource {
 
@@ -316,7 +316,7 @@ export class IploadbalancingHttpRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IploadbalancingHttpRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IploadbalancingHttpRoute to import
-  * @param importFromId The id of the existing IploadbalancingHttpRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IploadbalancingHttpRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IploadbalancingHttpRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -328,7 +328,7 @@ export class IploadbalancingHttpRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/resources/iploadbalancing_http_route ovh_iploadbalancing_http_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/resources/iploadbalancing_http_route ovh_iploadbalancing_http_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -339,8 +339,8 @@ export class IploadbalancingHttpRoute extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_iploadbalancing_http_route',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

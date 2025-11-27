@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_secret
+// https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataOvhOkmsSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Include secret data (warning: if true, secret data will be saved in the terraform state)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_secret#include_data DataOvhOkmsSecret#include_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_secret#include_data DataOvhOkmsSecret#include_data}
   */
   readonly includeData?: boolean | cdktf.IResolvable;
   /**
   * Okms ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_secret#okms_id DataOvhOkmsSecret#okms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_secret#okms_id DataOvhOkmsSecret#okms_id}
   */
   readonly okmsId: string;
   /**
   * Path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_secret#path DataOvhOkmsSecret#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_secret#path DataOvhOkmsSecret#path}
   */
   readonly path: string;
   /**
   * Secret version. If not set, the latest version will be returned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_secret#version DataOvhOkmsSecret#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_secret#version DataOvhOkmsSecret#version}
   */
   readonly version?: number;
 }
@@ -194,7 +194,7 @@ export class DataOvhOkmsSecretMetadataOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_secret ovh_okms_secret}
+* Represents a {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_secret ovh_okms_secret}
 */
 export class DataOvhOkmsSecret extends cdktf.TerraformDataSource {
 
@@ -210,7 +210,7 @@ export class DataOvhOkmsSecret extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOvhOkmsSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvhOkmsSecret to import
-  * @param importFromId The id of the existing DataOvhOkmsSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvhOkmsSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvhOkmsSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class DataOvhOkmsSecret extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.9.0/docs/data-sources/okms_secret ovh_okms_secret} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovh/ovh/2.10.0/docs/data-sources/okms_secret ovh_okms_secret} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class DataOvhOkmsSecret extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_okms_secret',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0',
-        providerVersionConstraint: '2.9.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
