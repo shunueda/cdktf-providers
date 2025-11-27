@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,247 +10,247 @@ export interface DownloadClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add paused flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#add_paused DownloadClient#add_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#add_paused DownloadClient#add_paused}
   */
   readonly addPaused?: boolean | cdktf.IResolvable;
   /**
   * Add stopped flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#add_stopped DownloadClient#add_stopped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#add_stopped DownloadClient#add_stopped}
   */
   readonly addStopped?: boolean | cdktf.IResolvable;
   /**
   * Additional tags, `0` TitleSlug, `1` Quality, `2` Language, `3` ReleaseGroup, `4` Year, `5` Indexer, `6` Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#additional_tags DownloadClient#additional_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#additional_tags DownloadClient#additional_tags}
   */
   readonly additionalTags?: number[];
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#api_key DownloadClient#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#api_key DownloadClient#api_key}
   */
   readonly apiKey?: string;
   /**
   * API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#api_url DownloadClient#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#api_url DownloadClient#api_url}
   */
   readonly apiUrl?: string;
   /**
   * App ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#app_id DownloadClient#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#app_id DownloadClient#app_id}
   */
   readonly appId?: string;
   /**
   * App Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#app_token DownloadClient#app_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#app_token DownloadClient#app_token}
   */
   readonly appToken?: string;
   /**
   * List of mapped categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#categories DownloadClient#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#categories DownloadClient#categories}
   */
   readonly categories?: DownloadClientCategories[] | cdktf.IResolvable;
   /**
   * Category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#category DownloadClient#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#category DownloadClient#category}
   */
   readonly category?: string;
   /**
   * DownloadClient configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#config_contract DownloadClient#config_contract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#config_contract DownloadClient#config_contract}
   */
   readonly configContract: string;
   /**
   * Destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#destination DownloadClient#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#destination DownloadClient#destination}
   */
   readonly destination?: string;
   /**
   * Movie directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#destination_directory DownloadClient#destination_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#destination_directory DownloadClient#destination_directory}
   */
   readonly destinationDirectory?: string;
   /**
   * Directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#directory DownloadClient#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#directory DownloadClient#directory}
   */
   readonly directory?: string;
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#enable DownloadClient#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#enable DownloadClient#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Field tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#field_tags DownloadClient#field_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#field_tags DownloadClient#field_tags}
   */
   readonly fieldTags?: string[];
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#host DownloadClient#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#host DownloadClient#host}
   */
   readonly host?: string;
   /**
   * DownloadClient implementation name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#implementation DownloadClient#implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#implementation DownloadClient#implementation}
   */
   readonly implementation: string;
   /**
   * Initial state. `0` Start, `1` ForceStart, `2` Pause.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#initial_state DownloadClient#initial_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#initial_state DownloadClient#initial_state}
   */
   readonly initialState?: number;
   /**
   * Initial state, with Stop support. `0` Start, `1` ForceStart, `2` Pause, `3` Stop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#intial_state DownloadClient#intial_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#intial_state DownloadClient#intial_state}
   */
   readonly intialState?: number;
   /**
   * Priority. `0` Last, `1` First.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#item_priority DownloadClient#item_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#item_priority DownloadClient#item_priority}
   */
   readonly itemPriority?: number;
   /**
   * Magnet file extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#magnet_file_extension DownloadClient#magnet_file_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#magnet_file_extension DownloadClient#magnet_file_extension}
   */
   readonly magnetFileExtension?: string;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#name DownloadClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#name DownloadClient#name}
   */
   readonly name: string;
   /**
   * NZB folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#nzb_folder DownloadClient#nzb_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#nzb_folder DownloadClient#nzb_folder}
   */
   readonly nzbFolder?: string;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#password DownloadClient#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#password DownloadClient#password}
   */
   readonly password?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#port DownloadClient#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#port DownloadClient#port}
   */
   readonly port?: number;
   /**
   * Post import tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#post_im_tags DownloadClient#post_im_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#post_im_tags DownloadClient#post_im_tags}
   */
   readonly postImTags?: string[];
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#priority DownloadClient#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#priority DownloadClient#priority}
   */
   readonly priority?: number;
   /**
   * Protocol. Valid values are 'usenet' and 'torrent'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#protocol DownloadClient#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#protocol DownloadClient#protocol}
   */
   readonly protocol: string;
   /**
   * Read only flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#read_only DownloadClient#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#read_only DownloadClient#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RPC path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#rpc_path DownloadClient#rpc_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#rpc_path DownloadClient#rpc_path}
   */
   readonly rpcPath?: string;
   /**
   * Save magnet files flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#save_magnet_files DownloadClient#save_magnet_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#save_magnet_files DownloadClient#save_magnet_files}
   */
   readonly saveMagnetFiles?: boolean | cdktf.IResolvable;
   /**
   * Secret token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#secret_token DownloadClient#secret_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#secret_token DownloadClient#secret_token}
   */
   readonly secretToken?: string;
   /**
   * Start on add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#start_on_add DownloadClient#start_on_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#start_on_add DownloadClient#start_on_add}
   */
   readonly startOnAdd?: boolean | cdktf.IResolvable;
   /**
   * Directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#station_directory DownloadClient#station_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#station_directory DownloadClient#station_directory}
   */
   readonly stationDirectory?: string;
   /**
   * STRM folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#strm_folder DownloadClient#strm_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#strm_folder DownloadClient#strm_folder}
   */
   readonly strmFolder?: string;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#tags DownloadClient#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#tags DownloadClient#tags}
   */
   readonly tags?: number[];
   /**
   * Torrent folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#torrent_folder DownloadClient#torrent_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#torrent_folder DownloadClient#torrent_folder}
   */
   readonly torrentFolder?: string;
   /**
   * TV imported category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#tv_imported_category DownloadClient#tv_imported_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#tv_imported_category DownloadClient#tv_imported_category}
   */
   readonly tvImportedCategory?: string;
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#url_base DownloadClient#url_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#url_base DownloadClient#url_base}
   */
   readonly urlBase?: string;
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#use_ssl DownloadClient#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#use_ssl DownloadClient#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#username DownloadClient#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#username DownloadClient#username}
   */
   readonly username?: string;
 }
@@ -258,13 +258,13 @@ export interface DownloadClientCategories {
   /**
   * List of categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#categories DownloadClient#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#categories DownloadClient#categories}
   */
   readonly categories?: number[];
   /**
   * Name of client category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#name DownloadClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#name DownloadClient#name}
   */
   readonly name?: string;
 }
@@ -409,7 +409,7 @@ export class DownloadClientCategoriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client prowlarr_download_client}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client prowlarr_download_client}
 */
 export class DownloadClient extends cdktf.TerraformResource {
 
@@ -425,7 +425,7 @@ export class DownloadClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClient to import
-  * @param importFromId The id of the existing DownloadClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -437,7 +437,7 @@ export class DownloadClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client prowlarr_download_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client prowlarr_download_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -448,8 +448,8 @@ export class DownloadClient extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_download_client',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

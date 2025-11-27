@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,511 +10,511 @@ export interface NotificationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#access_token Notification#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#access_token Notification#access_token}
   */
   readonly accessToken?: string;
   /**
   * Access token secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#access_token_secret Notification#access_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#access_token_secret Notification#access_token_secret}
   */
   readonly accessTokenSecret?: string;
   /**
   * Always update flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#always_update Notification#always_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#always_update Notification#always_update}
   */
   readonly alwaysUpdate?: boolean | cdktf.IResolvable;
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#api_key Notification#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#api_key Notification#api_key}
   */
   readonly apiKey?: string;
   /**
   * App token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#app_token Notification#app_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#app_token Notification#app_token}
   */
   readonly appToken?: string;
   /**
   * Arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#arguments Notification#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#arguments Notification#arguments}
   */
   readonly arguments?: string;
   /**
   * Auth password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#auth_password Notification#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#auth_password Notification#auth_password}
   */
   readonly authPassword?: string;
   /**
   * Auth token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#auth_token Notification#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#auth_token Notification#auth_token}
   */
   readonly authToken?: string;
   /**
   * Auth user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#auth_user Notification#auth_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#auth_user Notification#auth_user}
   */
   readonly authUser?: string;
   /**
   * Auth username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#auth_username Notification#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#auth_username Notification#auth_username}
   */
   readonly authUsername?: string;
   /**
   * Author.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#author Notification#author}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#author Notification#author}
   */
   readonly author?: string;
   /**
   * Avatar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#avatar Notification#avatar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#avatar Notification#avatar}
   */
   readonly avatar?: string;
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#base_url Notification#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#base_url Notification#base_url}
   */
   readonly baseUrl?: string;
   /**
   * Bcc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#bcc Notification#bcc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#bcc Notification#bcc}
   */
   readonly bcc?: string[];
   /**
   * Bot token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#bot_token Notification#bot_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#bot_token Notification#bot_token}
   */
   readonly botToken?: string;
   /**
   * Cc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#cc Notification#cc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#cc Notification#cc}
   */
   readonly cc?: string[];
   /**
   * Channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#channel Notification#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#channel Notification#channel}
   */
   readonly channel?: string;
   /**
   * Channel tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#channel_tags Notification#channel_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#channel_tags Notification#channel_tags}
   */
   readonly channelTags?: string[];
   /**
   * Chat ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#chat_id Notification#chat_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#chat_id Notification#chat_id}
   */
   readonly chatId?: string;
   /**
   * Clean library flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#clean_library Notification#clean_library}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#clean_library Notification#clean_library}
   */
   readonly cleanLibrary?: boolean | cdktf.IResolvable;
   /**
   * Click URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#click_url Notification#click_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#click_url Notification#click_url}
   */
   readonly clickUrl?: string;
   /**
   * Notification configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#config_contract Notification#config_contract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#config_contract Notification#config_contract}
   */
   readonly configContract: string;
   /**
   * Configuration key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#configuration_key Notification#configuration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#configuration_key Notification#configuration_key}
   */
   readonly configurationKey?: string;
   /**
   * Consumer key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#consumer_key Notification#consumer_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#consumer_key Notification#consumer_key}
   */
   readonly consumerKey?: string;
   /**
   * Consumer secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#consumer_secret Notification#consumer_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#consumer_secret Notification#consumer_secret}
   */
   readonly consumerSecret?: string;
   /**
   * Device IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#device_ids Notification#device_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#device_ids Notification#device_ids}
   */
   readonly deviceIds?: number[];
   /**
   * Device names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#device_names Notification#device_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#device_names Notification#device_names}
   */
   readonly deviceNames?: string;
   /**
   * Devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#devices Notification#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#devices Notification#devices}
   */
   readonly devices?: string[];
   /**
   * Direct message flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#direct_message Notification#direct_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#direct_message Notification#direct_message}
   */
   readonly directMessage?: boolean | cdktf.IResolvable;
   /**
   * Display time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#display_time Notification#display_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#display_time Notification#display_time}
   */
   readonly displayTime?: number;
   /**
   * Event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#event Notification#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#event Notification#event}
   */
   readonly event?: string;
   /**
   * Expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#expire Notification#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#expire Notification#expire}
   */
   readonly expire?: number;
   /**
   * Expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#expires Notification#expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#expires Notification#expires}
   */
   readonly expires?: string;
   /**
   * Devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#field_tags Notification#field_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#field_tags Notification#field_tags}
   */
   readonly fieldTags?: string[];
   /**
   * From.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#from Notification#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#from Notification#from}
   */
   readonly from?: string;
   /**
   * Grab fields. `0` Overview, `1` Rating, `2` Genres, `3` Quality, `4` Group, `5` Size, `6` Links, `7` Release, `8` Poster, `9` Fanart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#grab_fields Notification#grab_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#grab_fields Notification#grab_fields}
   */
   readonly grabFields?: number[];
   /**
   * Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#host Notification#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#host Notification#host}
   */
   readonly host?: string;
   /**
   * Icon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#icon Notification#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#icon Notification#icon}
   */
   readonly icon?: string;
   /**
   * Notification implementation name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#implementation Notification#implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#implementation Notification#implementation}
   */
   readonly implementation: string;
   /**
   * Include health warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#include_health_warnings Notification#include_health_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#include_health_warnings Notification#include_health_warnings}
   */
   readonly includeHealthWarnings: boolean | cdktf.IResolvable;
   /**
   * Include manual grab flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#include_manual_grabs Notification#include_manual_grabs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#include_manual_grabs Notification#include_manual_grabs}
   */
   readonly includeManualGrabs?: boolean | cdktf.IResolvable;
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#instance_name Notification#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#instance_name Notification#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#key Notification#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#key Notification#key}
   */
   readonly key?: string;
   /**
   * Map From.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#map_from Notification#map_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#map_from Notification#map_from}
   */
   readonly mapFrom?: string;
   /**
   * Map To.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#map_to Notification#map_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#map_to Notification#map_to}
   */
   readonly mapTo?: string;
   /**
   * Mention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#mention Notification#mention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#mention Notification#mention}
   */
   readonly mention?: string;
   /**
   * Method. `1` POST, `2` PUT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#method Notification#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#method Notification#method}
   */
   readonly method?: number;
   /**
   * Notification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#name Notification#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#name Notification#name}
   */
   readonly name: string;
   /**
   * Notification type. `0` Info, `1` Success, `2` Warning, `3` Failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#notification_type Notification#notification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#notification_type Notification#notification_type}
   */
   readonly notificationType?: number;
   /**
   * Notify flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#notify Notification#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#notify Notification#notify}
   */
   readonly notify?: boolean | cdktf.IResolvable;
   /**
   * On application update flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#on_application_update Notification#on_application_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#on_application_update Notification#on_application_update}
   */
   readonly onApplicationUpdate?: boolean | cdktf.IResolvable;
   /**
   * On release grab flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#on_grab Notification#on_grab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#on_grab Notification#on_grab}
   */
   readonly onGrab?: boolean | cdktf.IResolvable;
   /**
   * On health issue flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#on_health_issue Notification#on_health_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#on_health_issue Notification#on_health_issue}
   */
   readonly onHealthIssue?: boolean | cdktf.IResolvable;
   /**
   * On health restored flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#on_health_restored Notification#on_health_restored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#on_health_restored Notification#on_health_restored}
   */
   readonly onHealthRestored?: boolean | cdktf.IResolvable;
   /**
   * password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#password Notification#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#password Notification#password}
   */
   readonly password?: string;
   /**
   * Path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#path Notification#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#path Notification#path}
   */
   readonly path?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#port Notification#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#port Notification#port}
   */
   readonly port?: number;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#priority Notification#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#priority Notification#priority}
   */
   readonly priority?: number;
   /**
   * Receiver ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#receiver_id Notification#receiver_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#receiver_id Notification#receiver_id}
   */
   readonly receiverId?: string;
   /**
   * Recipients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#recipients Notification#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#recipients Notification#recipients}
   */
   readonly recipients?: string[];
   /**
   * Refresh token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#refresh_token Notification#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#refresh_token Notification#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * Retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#retry Notification#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#retry Notification#retry}
   */
   readonly retry?: number;
   /**
   * Add silently flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#send_silently Notification#send_silently}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#send_silently Notification#send_silently}
   */
   readonly sendSilently?: boolean | cdktf.IResolvable;
   /**
   * Sender domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#sender_domain Notification#sender_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#sender_domain Notification#sender_domain}
   */
   readonly senderDomain?: string;
   /**
   * Sender ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#sender_id Notification#sender_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#sender_id Notification#sender_id}
   */
   readonly senderId?: string;
   /**
   * Sender Number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#sender_number Notification#sender_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#sender_number Notification#sender_number}
   */
   readonly senderNumber?: string;
   /**
   * server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#server Notification#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#server Notification#server}
   */
   readonly server?: string;
   /**
   * Server url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#server_url Notification#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#server_url Notification#server_url}
   */
   readonly serverUrl?: string;
   /**
   * Sign in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#sign_in Notification#sign_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#sign_in Notification#sign_in}
   */
   readonly signIn?: string;
   /**
   * Sound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#sound Notification#sound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#sound Notification#sound}
   */
   readonly sound?: string;
   /**
   * Comma separated stateless URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#stateless_urls Notification#stateless_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#stateless_urls Notification#stateless_urls}
   */
   readonly statelessUrls?: string;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#tags Notification#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#tags Notification#tags}
   */
   readonly tags?: number[];
   /**
   * To.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#to Notification#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#to Notification#to}
   */
   readonly to?: string[];
   /**
   * Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#token Notification#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#token Notification#token}
   */
   readonly token?: string;
   /**
   * Topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#topic_id Notification#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#topic_id Notification#topic_id}
   */
   readonly topicId?: string;
   /**
   * Devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#topics Notification#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#topics Notification#topics}
   */
   readonly topics?: string[];
   /**
   * Update library flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#update_library Notification#update_library}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#update_library Notification#update_library}
   */
   readonly updateLibrary?: boolean | cdktf.IResolvable;
   /**
   * URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#url Notification#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#url Notification#url}
   */
   readonly url?: string;
   /**
   * Use Encryption. `0` Preferred, `1` Always, `2` Never.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#use_encryption Notification#use_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#use_encryption Notification#use_encryption}
   */
   readonly useEncryption?: number;
   /**
   * Use EU endpoint flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#use_eu_endpoint Notification#use_eu_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#use_eu_endpoint Notification#use_eu_endpoint}
   */
   readonly useEuEndpoint?: boolean | cdktf.IResolvable;
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#use_ssl Notification#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#use_ssl Notification#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * User key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#user_key Notification#user_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#user_key Notification#user_key}
   */
   readonly userKey?: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#username Notification#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#username Notification#username}
   */
   readonly username?: string;
   /**
   * Web hook url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#web_hook_url Notification#web_hook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#web_hook_url Notification#web_hook_url}
   */
   readonly webHookUrl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification prowlarr_notification}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification prowlarr_notification}
 */
 export class Notification extends cdktf.TerraformResource {
 
@@ -530,7 +530,7 @@ export class Notification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Notification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Notification to import
-  * @param importFromId The id of the existing Notification that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Notification that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Notification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -542,7 +542,7 @@ export class Notification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification prowlarr_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification prowlarr_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -553,8 +553,8 @@ export class Notification extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_notification',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy
+// https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface RetentionPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#id RetentionPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#id RetentionPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#schedule RetentionPolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#schedule RetentionPolicy#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#scope RetentionPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#scope RetentionPolicy#scope}
   */
   readonly scope: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#rule RetentionPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#rule RetentionPolicy#rule}
   */
   readonly rule: RetentionPolicyRule[] | cdktf.IResolvable;
 }
 export interface RetentionPolicyRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#always_retain RetentionPolicy#always_retain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#always_retain RetentionPolicy#always_retain}
   */
   readonly alwaysRetain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#disabled RetentionPolicy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#disabled RetentionPolicy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#most_recently_pulled RetentionPolicy#most_recently_pulled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#most_recently_pulled RetentionPolicy#most_recently_pulled}
   */
   readonly mostRecentlyPulled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#most_recently_pushed RetentionPolicy#most_recently_pushed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#most_recently_pushed RetentionPolicy#most_recently_pushed}
   */
   readonly mostRecentlyPushed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#n_days_since_last_pull RetentionPolicy#n_days_since_last_pull}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#n_days_since_last_pull RetentionPolicy#n_days_since_last_pull}
   */
   readonly nDaysSinceLastPull?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#n_days_since_last_push RetentionPolicy#n_days_since_last_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#n_days_since_last_push RetentionPolicy#n_days_since_last_push}
   */
   readonly nDaysSinceLastPush?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#repo_excluding RetentionPolicy#repo_excluding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#repo_excluding RetentionPolicy#repo_excluding}
   */
   readonly repoExcluding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#repo_matching RetentionPolicy#repo_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#repo_matching RetentionPolicy#repo_matching}
   */
   readonly repoMatching?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#tag_excluding RetentionPolicy#tag_excluding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#tag_excluding RetentionPolicy#tag_excluding}
   */
   readonly tagExcluding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#tag_matching RetentionPolicy#tag_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#tag_matching RetentionPolicy#tag_matching}
   */
   readonly tagMatching?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#untagged_artifacts RetentionPolicy#untagged_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#untagged_artifacts RetentionPolicy#untagged_artifacts}
   */
   readonly untaggedArtifacts?: boolean | cdktf.IResolvable;
 }
@@ -477,7 +477,7 @@ export class RetentionPolicyRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy harbor_retention_policy}
+* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy harbor_retention_policy}
 */
 export class RetentionPolicy extends cdktf.TerraformResource {
 
@@ -493,7 +493,7 @@ export class RetentionPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RetentionPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RetentionPolicy to import
-  * @param importFromId The id of the existing RetentionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RetentionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RetentionPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -505,7 +505,7 @@ export class RetentionPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/retention_policy harbor_retention_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/retention_policy harbor_retention_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -516,8 +516,8 @@ export class RetentionPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'harbor_retention_policy',
       terraformGeneratorMetadata: {
         providerName: 'harbor',
-        providerVersion: '3.11.2',
-        providerVersionConstraint: '3.11.2'
+        providerVersion: '3.11.3',
+        providerVersionConstraint: '3.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

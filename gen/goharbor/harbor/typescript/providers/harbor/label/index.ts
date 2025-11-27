@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/label
+// https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/label
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface LabelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/label#color Label#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/label#color Label#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/label#description Label#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/label#description Label#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/label#id Label#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/label#id Label#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/label#name Label#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/label#name Label#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/label#project_id Label#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/label#project_id Label#project_id}
   */
   readonly projectId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/label harbor_label}
+* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/label harbor_label}
 */
 export class Label extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class Label extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Label resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Label to import
-  * @param importFromId The id of the existing Label that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/label#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Label that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/label#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Label to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class Label extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/label harbor_label} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/label harbor_label} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class Label extends cdktf.TerraformResource {
       terraformResourceType: 'harbor_label',
       terraformGeneratorMetadata: {
         providerName: 'harbor',
-        providerVersion: '3.11.2',
-        providerVersionConstraint: '3.11.2'
+        providerVersion: '3.11.3',
+        providerVersionConstraint: '3.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

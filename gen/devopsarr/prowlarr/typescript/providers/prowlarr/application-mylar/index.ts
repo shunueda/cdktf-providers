@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_mylar
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_mylar
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ApplicationMylarConfig extends cdktf.TerraformMetaArguments {
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_mylar#api_key ApplicationMylar#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_mylar#api_key ApplicationMylar#api_key}
   */
   readonly apiKey: string;
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_mylar#base_url ApplicationMylar#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_mylar#base_url ApplicationMylar#base_url}
   */
   readonly baseUrl: string;
   /**
   * Application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_mylar#name ApplicationMylar#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_mylar#name ApplicationMylar#name}
   */
   readonly name: string;
   /**
   * Prowlarr URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_mylar#prowlarr_url ApplicationMylar#prowlarr_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_mylar#prowlarr_url ApplicationMylar#prowlarr_url}
   */
   readonly prowlarrUrl: string;
   /**
   * Sync categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_mylar#sync_categories ApplicationMylar#sync_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_mylar#sync_categories ApplicationMylar#sync_categories}
   */
   readonly syncCategories?: number[];
   /**
   * Sync level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_mylar#sync_level ApplicationMylar#sync_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_mylar#sync_level ApplicationMylar#sync_level}
   */
   readonly syncLevel: string;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_mylar#tags ApplicationMylar#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_mylar#tags ApplicationMylar#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_mylar prowlarr_application_mylar}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_mylar prowlarr_application_mylar}
 */
 export class ApplicationMylar extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class ApplicationMylar extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationMylar resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationMylar to import
-  * @param importFromId The id of the existing ApplicationMylar that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_mylar#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationMylar that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_mylar#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationMylar to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class ApplicationMylar extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_mylar prowlarr_application_mylar} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_mylar prowlarr_application_mylar} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class ApplicationMylar extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_application_mylar',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

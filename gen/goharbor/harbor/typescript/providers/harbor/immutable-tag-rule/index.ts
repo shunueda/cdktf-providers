@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/immutable_tag_rule
+// https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/immutable_tag_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface ImmutableTagRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/immutable_tag_rule#disabled ImmutableTagRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/immutable_tag_rule#disabled ImmutableTagRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/immutable_tag_rule#id ImmutableTagRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/immutable_tag_rule#id ImmutableTagRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/immutable_tag_rule#project_id ImmutableTagRule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/immutable_tag_rule#project_id ImmutableTagRule#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/immutable_tag_rule#repo_excluding ImmutableTagRule#repo_excluding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/immutable_tag_rule#repo_excluding ImmutableTagRule#repo_excluding}
   */
   readonly repoExcluding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/immutable_tag_rule#repo_matching ImmutableTagRule#repo_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/immutable_tag_rule#repo_matching ImmutableTagRule#repo_matching}
   */
   readonly repoMatching?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/immutable_tag_rule#tag_excluding ImmutableTagRule#tag_excluding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/immutable_tag_rule#tag_excluding ImmutableTagRule#tag_excluding}
   */
   readonly tagExcluding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/immutable_tag_rule#tag_matching ImmutableTagRule#tag_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/immutable_tag_rule#tag_matching ImmutableTagRule#tag_matching}
   */
   readonly tagMatching?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/immutable_tag_rule harbor_immutable_tag_rule}
+* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/immutable_tag_rule harbor_immutable_tag_rule}
 */
 export class ImmutableTagRule extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ImmutableTagRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImmutableTagRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImmutableTagRule to import
-  * @param importFromId The id of the existing ImmutableTagRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/immutable_tag_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImmutableTagRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/immutable_tag_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImmutableTagRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ImmutableTagRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/immutable_tag_rule harbor_immutable_tag_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/immutable_tag_rule harbor_immutable_tag_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ImmutableTagRule extends cdktf.TerraformResource {
       terraformResourceType: 'harbor_immutable_tag_rule',
       terraformGeneratorMetadata: {
         providerName: 'harbor',
-        providerVersion: '3.11.2',
-        providerVersionConstraint: '3.11.2'
+        providerVersion: '3.11.3',
+        providerVersionConstraint: '3.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

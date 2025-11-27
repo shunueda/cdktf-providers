@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs
+// https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PortainerProviderConfig {
   /**
   * API key to authenticate with Portainer. Mutually exclusive with 'user' and 'password'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs#api_key PortainerProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs#api_key PortainerProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Password for authentication. Must be used together with 'user'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs#api_password PortainerProvider#api_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs#api_password PortainerProvider#api_password}
   */
   readonly apiPassword?: string;
   /**
   * Username for authentication. Must be used together with 'password'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs#api_user PortainerProvider#api_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs#api_user PortainerProvider#api_user}
   */
   readonly apiUser?: string;
   /**
   * URL of the Portainer instance (e.g. https://portainer.example.com). '/api' will be appended automatically if missing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs#endpoint PortainerProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs#endpoint PortainerProvider#endpoint}
   */
   readonly endpoint: string;
   /**
   * Verify the SSL/TLS certificate for the Portainer endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs#skip_ssl_verify PortainerProvider#skip_ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs#skip_ssl_verify PortainerProvider#skip_ssl_verify}
   */
   readonly skipSslVerify?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs#alias PortainerProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs#alias PortainerProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs portainer}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs portainer}
 */
 export class PortainerProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class PortainerProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a PortainerProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortainerProvider to import
-  * @param importFromId The id of the existing PortainerProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortainerProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortainerProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class PortainerProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.1/docs portainer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.18.2/docs portainer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class PortainerProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'portainer',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.18.1',
-        providerVersionConstraint: '1.18.1'
+        providerVersion: '1.18.2',
+        providerVersionConstraint: '1.18.2'
       },
       terraformProviderSource: 'portainer/portainer'
     });

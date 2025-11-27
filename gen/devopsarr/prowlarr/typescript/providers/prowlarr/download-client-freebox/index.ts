@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface DownloadClientFreeboxConfig extends cdktf.TerraformMetaArgument
   /**
   * Add paused flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#add_paused DownloadClientFreebox#add_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#add_paused DownloadClientFreebox#add_paused}
   */
   readonly addPaused?: boolean | cdktf.IResolvable;
   /**
   * API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#api_url DownloadClientFreebox#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#api_url DownloadClientFreebox#api_url}
   */
   readonly apiUrl: string;
   /**
   * App ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#app_id DownloadClientFreebox#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#app_id DownloadClientFreebox#app_id}
   */
   readonly appId: string;
   /**
   * App Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#app_token DownloadClientFreebox#app_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#app_token DownloadClientFreebox#app_token}
   */
   readonly appToken: string;
   /**
   * category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#category DownloadClientFreebox#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#category DownloadClientFreebox#category}
   */
   readonly category?: string;
   /**
   * Movie directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#destination_directory DownloadClientFreebox#destination_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#destination_directory DownloadClientFreebox#destination_directory}
   */
   readonly destinationDirectory?: string;
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#enable DownloadClientFreebox#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#enable DownloadClientFreebox#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#host DownloadClientFreebox#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#host DownloadClientFreebox#host}
   */
   readonly host: string;
   /**
   * Recent Movie priority. `0` Last, `1` First.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#item_priority DownloadClientFreebox#item_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#item_priority DownloadClientFreebox#item_priority}
   */
   readonly itemPriority?: number;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#name DownloadClientFreebox#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#name DownloadClientFreebox#name}
   */
   readonly name: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#port DownloadClientFreebox#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#port DownloadClientFreebox#port}
   */
   readonly port: number;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#priority DownloadClientFreebox#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#priority DownloadClientFreebox#priority}
   */
   readonly priority?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#tags DownloadClientFreebox#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#tags DownloadClientFreebox#tags}
   */
   readonly tags?: number[];
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#use_ssl DownloadClientFreebox#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#use_ssl DownloadClientFreebox#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
 }
@@ -96,13 +96,13 @@ export interface DownloadClientFreeboxCategories {
   /**
   * List of categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#categories DownloadClientFreebox#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#categories DownloadClientFreebox#categories}
   */
   readonly categories?: number[];
   /**
   * Name of client category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#name DownloadClientFreebox#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#name DownloadClientFreebox#name}
   */
   readonly name?: string;
 }
@@ -237,7 +237,7 @@ export class DownloadClientFreeboxCategoriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox prowlarr_download_client_freebox}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox prowlarr_download_client_freebox}
 */
 export class DownloadClientFreebox extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class DownloadClientFreebox extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientFreebox resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientFreebox to import
-  * @param importFromId The id of the existing DownloadClientFreebox that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientFreebox that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientFreebox to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class DownloadClientFreebox extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_freebox prowlarr_download_client_freebox} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_freebox prowlarr_download_client_freebox} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class DownloadClientFreebox extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_download_client_freebox',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

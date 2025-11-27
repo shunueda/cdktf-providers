@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface DataCplnWorkloadConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the associated GVC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#gvc DataCplnWorkload#gvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#gvc DataCplnWorkload#gvc}
   */
   readonly gvc: string;
   /**
   * Name of the GVC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#name DataCplnWorkload#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#name DataCplnWorkload#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#tags DataCplnWorkload#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#tags DataCplnWorkload#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#container DataCplnWorkload#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#container DataCplnWorkload#container}
   */
   readonly container?: DataCplnWorkloadContainer[] | cdktf.IResolvable;
   /**
   * firewall_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#firewall_spec DataCplnWorkload#firewall_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#firewall_spec DataCplnWorkload#firewall_spec}
   */
   readonly firewallSpec?: DataCplnWorkloadFirewallSpec[] | cdktf.IResolvable;
   /**
   * job block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#job DataCplnWorkload#job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#job DataCplnWorkload#job}
   */
   readonly job?: DataCplnWorkloadJob[] | cdktf.IResolvable;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#load_balancer DataCplnWorkload#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#load_balancer DataCplnWorkload#load_balancer}
   */
   readonly loadBalancer?: DataCplnWorkloadLoadBalancer[] | cdktf.IResolvable;
   /**
   * local_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#local_options DataCplnWorkload#local_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#local_options DataCplnWorkload#local_options}
   */
   readonly localOptions?: DataCplnWorkloadLocalOptions[] | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#options DataCplnWorkload#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#options DataCplnWorkload#options}
   */
   readonly options?: DataCplnWorkloadOptions[] | cdktf.IResolvable;
   /**
   * request_retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#request_retry_policy DataCplnWorkload#request_retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#request_retry_policy DataCplnWorkload#request_retry_policy}
   */
   readonly requestRetryPolicy?: DataCplnWorkloadRequestRetryPolicy[] | cdktf.IResolvable;
   /**
   * rollout_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#rollout_options DataCplnWorkload#rollout_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#rollout_options DataCplnWorkload#rollout_options}
   */
   readonly rolloutOptions?: DataCplnWorkloadRolloutOptions[] | cdktf.IResolvable;
   /**
   * security_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#security_options DataCplnWorkload#security_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#security_options DataCplnWorkload#security_options}
   */
   readonly securityOptions?: DataCplnWorkloadSecurityOptions[] | cdktf.IResolvable;
   /**
   * sidecar block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#sidecar DataCplnWorkload#sidecar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#sidecar DataCplnWorkload#sidecar}
   */
   readonly sidecar?: DataCplnWorkloadSidecar[] | cdktf.IResolvable;
 }
@@ -934,7 +934,7 @@ export interface DataCplnWorkloadContainerLifecyclePostStart {
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#exec DataCplnWorkload#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#exec DataCplnWorkload#exec}
   */
   readonly exec?: DataCplnWorkloadContainerLifecyclePostStartExec[] | cdktf.IResolvable;
 }
@@ -1138,7 +1138,7 @@ export interface DataCplnWorkloadContainerLifecyclePreStop {
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#exec DataCplnWorkload#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#exec DataCplnWorkload#exec}
   */
   readonly exec?: DataCplnWorkloadContainerLifecyclePreStopExec[] | cdktf.IResolvable;
 }
@@ -1256,13 +1256,13 @@ export interface DataCplnWorkloadContainerLifecycle {
   /**
   * post_start block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#post_start DataCplnWorkload#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#post_start DataCplnWorkload#post_start}
   */
   readonly postStart?: DataCplnWorkloadContainerLifecyclePostStart[] | cdktf.IResolvable;
   /**
   * pre_stop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#pre_stop DataCplnWorkload#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#pre_stop DataCplnWorkload#pre_stop}
   */
   readonly preStop?: DataCplnWorkloadContainerLifecyclePreStop[] | cdktf.IResolvable;
 }
@@ -1769,25 +1769,25 @@ export interface DataCplnWorkloadContainerLivenessProbe {
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#exec DataCplnWorkload#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#exec DataCplnWorkload#exec}
   */
   readonly exec?: DataCplnWorkloadContainerLivenessProbeExec[] | cdktf.IResolvable;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#grpc DataCplnWorkload#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#grpc DataCplnWorkload#grpc}
   */
   readonly grpc?: DataCplnWorkloadContainerLivenessProbeGrpc[] | cdktf.IResolvable;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#http_get DataCplnWorkload#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#http_get DataCplnWorkload#http_get}
   */
   readonly httpGet?: DataCplnWorkloadContainerLivenessProbeHttpGet[] | cdktf.IResolvable;
   /**
   * tcp_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#tcp_socket DataCplnWorkload#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#tcp_socket DataCplnWorkload#tcp_socket}
   */
   readonly tcpSocket?: DataCplnWorkloadContainerLivenessProbeTcpSocket[] | cdktf.IResolvable;
 }
@@ -2564,25 +2564,25 @@ export interface DataCplnWorkloadContainerReadinessProbe {
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#exec DataCplnWorkload#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#exec DataCplnWorkload#exec}
   */
   readonly exec?: DataCplnWorkloadContainerReadinessProbeExec[] | cdktf.IResolvable;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#grpc DataCplnWorkload#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#grpc DataCplnWorkload#grpc}
   */
   readonly grpc?: DataCplnWorkloadContainerReadinessProbeGrpc[] | cdktf.IResolvable;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#http_get DataCplnWorkload#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#http_get DataCplnWorkload#http_get}
   */
   readonly httpGet?: DataCplnWorkloadContainerReadinessProbeHttpGet[] | cdktf.IResolvable;
   /**
   * tcp_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#tcp_socket DataCplnWorkload#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#tcp_socket DataCplnWorkload#tcp_socket}
   */
   readonly tcpSocket?: DataCplnWorkloadContainerReadinessProbeTcpSocket[] | cdktf.IResolvable;
 }
@@ -2908,49 +2908,49 @@ export interface DataCplnWorkloadContainer {
   /**
   * gpu_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#gpu_custom DataCplnWorkload#gpu_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#gpu_custom DataCplnWorkload#gpu_custom}
   */
   readonly gpuCustom?: DataCplnWorkloadContainerGpuCustom[] | cdktf.IResolvable;
   /**
   * gpu_nvidia block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#gpu_nvidia DataCplnWorkload#gpu_nvidia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#gpu_nvidia DataCplnWorkload#gpu_nvidia}
   */
   readonly gpuNvidia?: DataCplnWorkloadContainerGpuNvidia[] | cdktf.IResolvable;
   /**
   * lifecycle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#lifecycle DataCplnWorkload#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#lifecycle DataCplnWorkload#lifecycle}
   */
   readonly lifecycle?: DataCplnWorkloadContainerLifecycle[] | cdktf.IResolvable;
   /**
   * liveness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#liveness_probe DataCplnWorkload#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#liveness_probe DataCplnWorkload#liveness_probe}
   */
   readonly livenessProbe?: DataCplnWorkloadContainerLivenessProbe[] | cdktf.IResolvable;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#metrics DataCplnWorkload#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#metrics DataCplnWorkload#metrics}
   */
   readonly metrics?: DataCplnWorkloadContainerMetrics[] | cdktf.IResolvable;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#ports DataCplnWorkload#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#ports DataCplnWorkload#ports}
   */
   readonly ports?: DataCplnWorkloadContainerPorts[] | cdktf.IResolvable;
   /**
   * readiness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#readiness_probe DataCplnWorkload#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#readiness_probe DataCplnWorkload#readiness_probe}
   */
   readonly readinessProbe?: DataCplnWorkloadContainerReadinessProbe[] | cdktf.IResolvable;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#volume DataCplnWorkload#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#volume DataCplnWorkload#volume}
   */
   readonly volume?: DataCplnWorkloadContainerVolume[] | cdktf.IResolvable;
 }
@@ -3428,7 +3428,7 @@ export interface DataCplnWorkloadFirewallSpecExternalHttp {
   /**
   * inbound_header_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#inbound_header_filter DataCplnWorkload#inbound_header_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#inbound_header_filter DataCplnWorkload#inbound_header_filter}
   */
   readonly inboundHeaderFilter?: DataCplnWorkloadFirewallSpecExternalHttpInboundHeaderFilter[] | cdktf.IResolvable;
 }
@@ -3637,13 +3637,13 @@ export interface DataCplnWorkloadFirewallSpecExternal {
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#http DataCplnWorkload#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#http DataCplnWorkload#http}
   */
   readonly http?: DataCplnWorkloadFirewallSpecExternalHttp[] | cdktf.IResolvable;
   /**
   * outbound_allow_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#outbound_allow_port DataCplnWorkload#outbound_allow_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#outbound_allow_port DataCplnWorkload#outbound_allow_port}
   */
   readonly outboundAllowPort?: DataCplnWorkloadFirewallSpecExternalOutboundAllowPort[] | cdktf.IResolvable;
 }
@@ -3906,13 +3906,13 @@ export interface DataCplnWorkloadFirewallSpec {
   /**
   * external block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#external DataCplnWorkload#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#external DataCplnWorkload#external}
   */
   readonly external?: DataCplnWorkloadFirewallSpecExternal[] | cdktf.IResolvable;
   /**
   * internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#internal DataCplnWorkload#internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#internal DataCplnWorkload#internal}
   */
   readonly internal?: DataCplnWorkloadFirewallSpecInternal[] | cdktf.IResolvable;
 }
@@ -4266,7 +4266,7 @@ export interface DataCplnWorkloadLoadBalancerDirect {
   /**
   * port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#port DataCplnWorkload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#port DataCplnWorkload#port}
   */
   readonly port?: DataCplnWorkloadLoadBalancerDirectPort[] | cdktf.IResolvable;
 }
@@ -4495,7 +4495,7 @@ export interface DataCplnWorkloadLoadBalancerGeoLocation {
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#headers DataCplnWorkload#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#headers DataCplnWorkload#headers}
   */
   readonly headers?: DataCplnWorkloadLoadBalancerGeoLocationHeaders[] | cdktf.IResolvable;
 }
@@ -4618,13 +4618,13 @@ export interface DataCplnWorkloadLoadBalancer {
   /**
   * direct block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#direct DataCplnWorkload#direct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#direct DataCplnWorkload#direct}
   */
   readonly direct?: DataCplnWorkloadLoadBalancerDirect[] | cdktf.IResolvable;
   /**
   * geo_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#geo_location DataCplnWorkload#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#geo_location DataCplnWorkload#geo_location}
   */
   readonly geoLocation?: DataCplnWorkloadLoadBalancerGeoLocation[] | cdktf.IResolvable;
 }
@@ -4877,7 +4877,7 @@ export interface DataCplnWorkloadLocalOptionsAutoscalingKedaAdvanced {
   /**
   * scaling_modifiers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#scaling_modifiers DataCplnWorkload#scaling_modifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#scaling_modifiers DataCplnWorkload#scaling_modifiers}
   */
   readonly scalingModifiers?: DataCplnWorkloadLocalOptionsAutoscalingKedaAdvancedScalingModifiers[] | cdktf.IResolvable;
 }
@@ -5081,7 +5081,7 @@ export interface DataCplnWorkloadLocalOptionsAutoscalingKedaTrigger {
   /**
   * authentication_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#authentication_ref DataCplnWorkload#authentication_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#authentication_ref DataCplnWorkload#authentication_ref}
   */
   readonly authenticationRef?: DataCplnWorkloadLocalOptionsAutoscalingKedaTriggerAuthenticationRef[] | cdktf.IResolvable;
 }
@@ -5225,13 +5225,13 @@ export interface DataCplnWorkloadLocalOptionsAutoscalingKeda {
   /**
   * advanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#advanced DataCplnWorkload#advanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#advanced DataCplnWorkload#advanced}
   */
   readonly advanced?: DataCplnWorkloadLocalOptionsAutoscalingKedaAdvanced[] | cdktf.IResolvable;
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#trigger DataCplnWorkload#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#trigger DataCplnWorkload#trigger}
   */
   readonly trigger?: DataCplnWorkloadLocalOptionsAutoscalingKedaTrigger[] | cdktf.IResolvable;
 }
@@ -5484,13 +5484,13 @@ export interface DataCplnWorkloadLocalOptionsAutoscaling {
   /**
   * keda block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#keda DataCplnWorkload#keda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#keda DataCplnWorkload#keda}
   */
   readonly keda?: DataCplnWorkloadLocalOptionsAutoscalingKeda[] | cdktf.IResolvable;
   /**
   * multi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#multi DataCplnWorkload#multi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#multi DataCplnWorkload#multi}
   */
   readonly multi?: DataCplnWorkloadLocalOptionsAutoscalingMulti[] | cdktf.IResolvable;
 }
@@ -5758,19 +5758,19 @@ export interface DataCplnWorkloadLocalOptions {
   /**
   * Valid only for `local_options`. Override options for a specific location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#location DataCplnWorkload#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#location DataCplnWorkload#location}
   */
   readonly location: string;
   /**
   * autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#autoscaling DataCplnWorkload#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#autoscaling DataCplnWorkload#autoscaling}
   */
   readonly autoscaling?: DataCplnWorkloadLocalOptionsAutoscaling[] | cdktf.IResolvable;
   /**
   * multi_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#multi_zone DataCplnWorkload#multi_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#multi_zone DataCplnWorkload#multi_zone}
   */
   readonly multiZone?: DataCplnWorkloadLocalOptionsMultiZone[] | cdktf.IResolvable;
 }
@@ -6069,7 +6069,7 @@ export interface DataCplnWorkloadOptionsAutoscalingKedaAdvanced {
   /**
   * scaling_modifiers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#scaling_modifiers DataCplnWorkload#scaling_modifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#scaling_modifiers DataCplnWorkload#scaling_modifiers}
   */
   readonly scalingModifiers?: DataCplnWorkloadOptionsAutoscalingKedaAdvancedScalingModifiers[] | cdktf.IResolvable;
 }
@@ -6273,7 +6273,7 @@ export interface DataCplnWorkloadOptionsAutoscalingKedaTrigger {
   /**
   * authentication_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#authentication_ref DataCplnWorkload#authentication_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#authentication_ref DataCplnWorkload#authentication_ref}
   */
   readonly authenticationRef?: DataCplnWorkloadOptionsAutoscalingKedaTriggerAuthenticationRef[] | cdktf.IResolvable;
 }
@@ -6417,13 +6417,13 @@ export interface DataCplnWorkloadOptionsAutoscalingKeda {
   /**
   * advanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#advanced DataCplnWorkload#advanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#advanced DataCplnWorkload#advanced}
   */
   readonly advanced?: DataCplnWorkloadOptionsAutoscalingKedaAdvanced[] | cdktf.IResolvable;
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#trigger DataCplnWorkload#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#trigger DataCplnWorkload#trigger}
   */
   readonly trigger?: DataCplnWorkloadOptionsAutoscalingKedaTrigger[] | cdktf.IResolvable;
 }
@@ -6676,13 +6676,13 @@ export interface DataCplnWorkloadOptionsAutoscaling {
   /**
   * keda block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#keda DataCplnWorkload#keda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#keda DataCplnWorkload#keda}
   */
   readonly keda?: DataCplnWorkloadOptionsAutoscalingKeda[] | cdktf.IResolvable;
   /**
   * multi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#multi DataCplnWorkload#multi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#multi DataCplnWorkload#multi}
   */
   readonly multi?: DataCplnWorkloadOptionsAutoscalingMulti[] | cdktf.IResolvable;
 }
@@ -6950,13 +6950,13 @@ export interface DataCplnWorkloadOptions {
   /**
   * autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#autoscaling DataCplnWorkload#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#autoscaling DataCplnWorkload#autoscaling}
   */
   readonly autoscaling?: DataCplnWorkloadOptionsAutoscaling[] | cdktf.IResolvable;
   /**
   * multi_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#multi_zone DataCplnWorkload#multi_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#multi_zone DataCplnWorkload#multi_zone}
   */
   readonly multiZone?: DataCplnWorkloadOptionsMultiZone[] | cdktf.IResolvable;
 }
@@ -7495,7 +7495,7 @@ export class DataCplnWorkloadSidecarList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload cpln_workload}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload cpln_workload}
 */
 export class DataCplnWorkload extends cdktf.TerraformDataSource {
 
@@ -7511,7 +7511,7 @@ export class DataCplnWorkload extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCplnWorkload resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCplnWorkload to import
-  * @param importFromId The id of the existing DataCplnWorkload that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCplnWorkload that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCplnWorkload to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7523,7 +7523,7 @@ export class DataCplnWorkload extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/data-sources/workload cpln_workload} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/workload cpln_workload} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7534,8 +7534,8 @@ export class DataCplnWorkload extends cdktf.TerraformDataSource {
       terraformResourceType: 'cpln_workload',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.16',
-        providerVersionConstraint: '1.2.16'
+        providerVersion: '1.2.17',
+        providerVersionConstraint: '1.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_socks5
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_socks5
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface IndexerProxySocks5Config extends cdktf.TerraformMetaArguments {
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_socks5#host IndexerProxySocks5#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_socks5#host IndexerProxySocks5#host}
   */
   readonly host: string;
   /**
   * Indexer Proxy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_socks5#name IndexerProxySocks5#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_socks5#name IndexerProxySocks5#name}
   */
   readonly name: string;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_socks5#password IndexerProxySocks5#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_socks5#password IndexerProxySocks5#password}
   */
   readonly password: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_socks5#port IndexerProxySocks5#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_socks5#port IndexerProxySocks5#port}
   */
   readonly port: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_socks5#tags IndexerProxySocks5#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_socks5#tags IndexerProxySocks5#tags}
   */
   readonly tags?: number[];
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_socks5#username IndexerProxySocks5#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_socks5#username IndexerProxySocks5#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_socks5 prowlarr_indexer_proxy_socks5}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_socks5 prowlarr_indexer_proxy_socks5}
 */
 export class IndexerProxySocks5 extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class IndexerProxySocks5 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IndexerProxySocks5 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IndexerProxySocks5 to import
-  * @param importFromId The id of the existing IndexerProxySocks5 that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_socks5#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IndexerProxySocks5 that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_socks5#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IndexerProxySocks5 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class IndexerProxySocks5 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_socks5 prowlarr_indexer_proxy_socks5} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_socks5 prowlarr_indexer_proxy_socks5} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class IndexerProxySocks5 extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_indexer_proxy_socks5',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

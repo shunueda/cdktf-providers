@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_radarr
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_radarr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ApplicationRadarrConfig extends cdktf.TerraformMetaArguments {
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_radarr#api_key ApplicationRadarr#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_radarr#api_key ApplicationRadarr#api_key}
   */
   readonly apiKey: string;
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_radarr#base_url ApplicationRadarr#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_radarr#base_url ApplicationRadarr#base_url}
   */
   readonly baseUrl: string;
   /**
   * Application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_radarr#name ApplicationRadarr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_radarr#name ApplicationRadarr#name}
   */
   readonly name: string;
   /**
   * Prowlarr URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_radarr#prowlarr_url ApplicationRadarr#prowlarr_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_radarr#prowlarr_url ApplicationRadarr#prowlarr_url}
   */
   readonly prowlarrUrl: string;
   /**
   * Sync categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_radarr#sync_categories ApplicationRadarr#sync_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_radarr#sync_categories ApplicationRadarr#sync_categories}
   */
   readonly syncCategories?: number[];
   /**
   * Sync level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_radarr#sync_level ApplicationRadarr#sync_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_radarr#sync_level ApplicationRadarr#sync_level}
   */
   readonly syncLevel: string;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_radarr#tags ApplicationRadarr#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_radarr#tags ApplicationRadarr#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_radarr prowlarr_application_radarr}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_radarr prowlarr_application_radarr}
 */
 export class ApplicationRadarr extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class ApplicationRadarr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationRadarr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationRadarr to import
-  * @param importFromId The id of the existing ApplicationRadarr that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_radarr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationRadarr that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_radarr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationRadarr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class ApplicationRadarr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_radarr prowlarr_application_radarr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_radarr prowlarr_application_radarr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class ApplicationRadarr extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_application_radarr',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

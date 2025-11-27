@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/group
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataChainguardGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * The exact UIDP of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/group#id DataChainguardGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/group#id DataChainguardGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataChainguardGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the group to lookup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/group#name DataChainguardGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/group#name DataChainguardGroup#name}
   */
   readonly name?: string;
   /**
   * The UIDP of the group in which to lookup the named group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/group#parent_id DataChainguardGroup#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/group#parent_id DataChainguardGroup#parent_id}
   */
   readonly parentId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/group chainguard_group}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/group chainguard_group}
 */
 export class DataChainguardGroup extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataChainguardGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataChainguardGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataChainguardGroup to import
-  * @param importFromId The id of the existing DataChainguardGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataChainguardGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataChainguardGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataChainguardGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/group chainguard_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/group chainguard_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataChainguardGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'chainguard_group',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.41',
-        providerVersionConstraint: '0.1.41'
+        providerVersion: '0.1.42',
+        providerVersionConstraint: '0.1.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

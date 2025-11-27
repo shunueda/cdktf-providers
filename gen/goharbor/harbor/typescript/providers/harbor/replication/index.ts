@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication
+// https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface ReplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#action Replication#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#action Replication#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#copy_by_chunk Replication#copy_by_chunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#copy_by_chunk Replication#copy_by_chunk}
   */
   readonly copyByChunk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#deletion Replication#deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#deletion Replication#deletion}
   */
   readonly deletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#description Replication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#description Replication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#dest_namespace Replication#dest_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#dest_namespace Replication#dest_namespace}
   */
   readonly destNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#dest_namespace_replace Replication#dest_namespace_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#dest_namespace_replace Replication#dest_namespace_replace}
   */
   readonly destNamespaceReplace?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#enabled Replication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#enabled Replication#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#execute_on_changed Replication#execute_on_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#execute_on_changed Replication#execute_on_changed}
   */
   readonly executeOnChanged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#id Replication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#id Replication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#name Replication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#name Replication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#override Replication#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#override Replication#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#registry_id Replication#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#registry_id Replication#registry_id}
   */
   readonly registryId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#schedule Replication#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#schedule Replication#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#speed Replication#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#single_active_replication Replication#single_active_replication}
+  */
+  readonly singleActiveReplication?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#speed Replication#speed}
   */
   readonly speed?: number;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#filters Replication#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#filters Replication#filters}
   */
   readonly filters?: ReplicationFilters[] | cdktf.IResolvable;
 }
 export interface ReplicationFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#decoration Replication#decoration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#decoration Replication#decoration}
   */
   readonly decoration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#labels Replication#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#labels Replication#labels}
   */
   readonly labels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#name Replication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#name Replication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#resource Replication#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#resource Replication#resource}
   */
   readonly resource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#tag Replication#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#tag Replication#tag}
   */
   readonly tag?: string;
 }
@@ -323,7 +327,7 @@ export class ReplicationFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication harbor_replication}
+* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication harbor_replication}
 */
 export class Replication extends cdktf.TerraformResource {
 
@@ -339,7 +343,7 @@ export class Replication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Replication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Replication to import
-  * @param importFromId The id of the existing Replication that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Replication that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Replication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -351,7 +355,7 @@ export class Replication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/replication harbor_replication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/replication harbor_replication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -362,8 +366,8 @@ export class Replication extends cdktf.TerraformResource {
       terraformResourceType: 'harbor_replication',
       terraformGeneratorMetadata: {
         providerName: 'harbor',
-        providerVersion: '3.11.2',
-        providerVersionConstraint: '3.11.2'
+        providerVersion: '3.11.3',
+        providerVersionConstraint: '3.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -386,6 +390,7 @@ export class Replication extends cdktf.TerraformResource {
     this._override = config.override;
     this._registryId = config.registryId;
     this._schedule = config.schedule;
+    this._singleActiveReplication = config.singleActiveReplication;
     this._speed = config.speed;
     this._filters.internalValue = config.filters;
   }
@@ -598,6 +603,22 @@ export class Replication extends cdktf.TerraformResource {
     return this._schedule;
   }
 
+  // single_active_replication - computed: false, optional: true, required: false
+  private _singleActiveReplication?: boolean | cdktf.IResolvable; 
+  public get singleActiveReplication() {
+    return this.getBooleanAttribute('single_active_replication');
+  }
+  public set singleActiveReplication(value: boolean | cdktf.IResolvable) {
+    this._singleActiveReplication = value;
+  }
+  public resetSingleActiveReplication() {
+    this._singleActiveReplication = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get singleActiveReplicationInput() {
+    return this._singleActiveReplication;
+  }
+
   // speed - computed: false, optional: true, required: false
   private _speed?: number; 
   public get speed() {
@@ -649,6 +670,7 @@ export class Replication extends cdktf.TerraformResource {
       override: cdktf.booleanToTerraform(this._override),
       registry_id: cdktf.numberToTerraform(this._registryId),
       schedule: cdktf.stringToTerraform(this._schedule),
+      single_active_replication: cdktf.booleanToTerraform(this._singleActiveReplication),
       speed: cdktf.numberToTerraform(this._speed),
       filters: cdktf.listMapper(replicationFiltersToTerraform, true)(this._filters.internalValue),
     };
@@ -733,6 +755,12 @@ export class Replication extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      single_active_replication: {
+        value: cdktf.booleanToHclTerraform(this._singleActiveReplication),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       speed: {
         value: cdktf.numberToHclTerraform(this._speed),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DownloadClientTorrentBlackholeConfig extends cdktf.TerraformMet
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole#enable DownloadClientTorrentBlackhole#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole#enable DownloadClientTorrentBlackhole#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Magnet file extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole#magnet_file_extension DownloadClientTorrentBlackhole#magnet_file_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole#magnet_file_extension DownloadClientTorrentBlackhole#magnet_file_extension}
   */
   readonly magnetFileExtension?: string;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole#name DownloadClientTorrentBlackhole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole#name DownloadClientTorrentBlackhole#name}
   */
   readonly name: string;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole#priority DownloadClientTorrentBlackhole#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole#priority DownloadClientTorrentBlackhole#priority}
   */
   readonly priority?: number;
   /**
   * Save magnet files flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole#save_magnet_files DownloadClientTorrentBlackhole#save_magnet_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole#save_magnet_files DownloadClientTorrentBlackhole#save_magnet_files}
   */
   readonly saveMagnetFiles?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole#tags DownloadClientTorrentBlackhole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole#tags DownloadClientTorrentBlackhole#tags}
   */
   readonly tags?: number[];
   /**
   * Torrent folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole#torrent_folder DownloadClientTorrentBlackhole#torrent_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole#torrent_folder DownloadClientTorrentBlackhole#torrent_folder}
   */
   readonly torrentFolder: string;
 }
@@ -54,13 +54,13 @@ export interface DownloadClientTorrentBlackholeCategories {
   /**
   * List of categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole#categories DownloadClientTorrentBlackhole#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole#categories DownloadClientTorrentBlackhole#categories}
   */
   readonly categories?: number[];
   /**
   * Name of client category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole#name DownloadClientTorrentBlackhole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole#name DownloadClientTorrentBlackhole#name}
   */
   readonly name?: string;
 }
@@ -195,7 +195,7 @@ export class DownloadClientTorrentBlackholeCategoriesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole prowlarr_download_client_torrent_blackhole}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole prowlarr_download_client_torrent_blackhole}
 */
 export class DownloadClientTorrentBlackhole extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class DownloadClientTorrentBlackhole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientTorrentBlackhole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientTorrentBlackhole to import
-  * @param importFromId The id of the existing DownloadClientTorrentBlackhole that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientTorrentBlackhole that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientTorrentBlackhole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class DownloadClientTorrentBlackhole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_torrent_blackhole prowlarr_download_client_torrent_blackhole} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_torrent_blackhole prowlarr_download_client_torrent_blackhole} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class DownloadClientTorrentBlackhole extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_download_client_torrent_blackhole',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/tag
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataProwlarrTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * Tag label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/tag#label DataProwlarrTag#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/tag#label DataProwlarrTag#label}
   */
   readonly label: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/tag prowlarr_tag}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/tag prowlarr_tag}
 */
 export class DataProwlarrTag extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataProwlarrTag extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataProwlarrTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProwlarrTag to import
-  * @param importFromId The id of the existing DataProwlarrTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProwlarrTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProwlarrTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataProwlarrTag extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/tag prowlarr_tag} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/tag prowlarr_tag} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataProwlarrTag extends cdktf.TerraformDataSource {
       terraformResourceType: 'prowlarr_tag',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

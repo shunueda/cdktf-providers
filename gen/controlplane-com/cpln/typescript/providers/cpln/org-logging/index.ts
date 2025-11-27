@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface OrgLoggingConfig extends cdktf.TerraformMetaArguments {
   /**
   * cloud_watch_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#cloud_watch_logging OrgLogging#cloud_watch_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#cloud_watch_logging OrgLogging#cloud_watch_logging}
   */
   readonly cloudWatchLogging?: OrgLoggingCloudWatchLogging[] | cdktf.IResolvable;
   /**
   * coralogix_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#coralogix_logging OrgLogging#coralogix_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#coralogix_logging OrgLogging#coralogix_logging}
   */
   readonly coralogixLogging?: OrgLoggingCoralogixLogging[] | cdktf.IResolvable;
   /**
   * datadog_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#datadog_logging OrgLogging#datadog_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#datadog_logging OrgLogging#datadog_logging}
   */
   readonly datadogLogging?: OrgLoggingDatadogLogging[] | cdktf.IResolvable;
   /**
   * elastic_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#elastic_logging OrgLogging#elastic_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#elastic_logging OrgLogging#elastic_logging}
   */
   readonly elasticLogging?: OrgLoggingElasticLogging[] | cdktf.IResolvable;
   /**
   * fluentd_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#fluentd_logging OrgLogging#fluentd_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#fluentd_logging OrgLogging#fluentd_logging}
   */
   readonly fluentdLogging?: OrgLoggingFluentdLogging[] | cdktf.IResolvable;
   /**
   * logzio_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#logzio_logging OrgLogging#logzio_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#logzio_logging OrgLogging#logzio_logging}
   */
   readonly logzioLogging?: OrgLoggingLogzioLogging[] | cdktf.IResolvable;
   /**
   * s3_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#s3_logging OrgLogging#s3_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#s3_logging OrgLogging#s3_logging}
   */
   readonly s3Logging?: OrgLoggingS3Logging[] | cdktf.IResolvable;
   /**
   * stackdriver_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#stackdriver_logging OrgLogging#stackdriver_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#stackdriver_logging OrgLogging#stackdriver_logging}
   */
   readonly stackdriverLogging?: OrgLoggingStackdriverLogging[] | cdktf.IResolvable;
   /**
   * syslog_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#syslog_logging OrgLogging#syslog_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#syslog_logging OrgLogging#syslog_logging}
   */
   readonly syslogLogging?: OrgLoggingSyslogLogging[] | cdktf.IResolvable;
 }
@@ -66,37 +66,37 @@ export interface OrgLoggingCloudWatchLogging {
   /**
   * Full Link to a secret of type `opaque`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#credentials OrgLogging#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#credentials OrgLogging#credentials}
   */
   readonly credentials: string;
   /**
   * Enable custom data extraction from log entries for enhanced querying and analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#extract_fields OrgLogging#extract_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#extract_fields OrgLogging#extract_fields}
   */
   readonly extractFields?: { [key: string]: string };
   /**
   * A container for log streams with common settings like retention. Used to categorize logs by application or service type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#group_name OrgLogging#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#group_name OrgLogging#group_name}
   */
   readonly groupName: string;
   /**
   * Valid AWS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#region OrgLogging#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#region OrgLogging#region}
   */
   readonly region: string;
   /**
   * Length, in days, for how log data is kept before it is automatically deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#retention_days OrgLogging#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#retention_days OrgLogging#retention_days}
   */
   readonly retentionDays?: number;
   /**
   * A sequence of log events from the same source within a log group. Typically represents individual instances of services or applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#stream_name OrgLogging#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#stream_name OrgLogging#stream_name}
   */
   readonly streamName: string;
 }
@@ -347,25 +347,25 @@ export interface OrgLoggingCoralogixLogging {
   /**
   * App name to be displayed in Coralogix dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#app OrgLogging#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#app OrgLogging#app}
   */
   readonly app?: string;
   /**
   * Coralogix cluster URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#cluster OrgLogging#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#cluster OrgLogging#cluster}
   */
   readonly cluster: string;
   /**
   * Full link to referenced Opaque Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#credentials OrgLogging#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#credentials OrgLogging#credentials}
   */
   readonly credentials: string;
   /**
   * Subsystem name to be displayed in Coralogix dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#subsystem OrgLogging#subsystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#subsystem OrgLogging#subsystem}
   */
   readonly subsystem?: string;
 }
@@ -564,13 +564,13 @@ export interface OrgLoggingDatadogLogging {
   /**
   * Full link to referenced Opaque Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#credentials OrgLogging#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#credentials OrgLogging#credentials}
   */
   readonly credentials: string;
   /**
   * Datadog host URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#host OrgLogging#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#host OrgLogging#host}
   */
   readonly host: string;
 }
@@ -711,37 +711,37 @@ export interface OrgLoggingElasticLoggingAws {
   /**
   * Full Link to a secret of type `aws`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#credentials OrgLogging#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#credentials OrgLogging#credentials}
   */
   readonly credentials: string;
   /**
   * A valid AWS ElasticSearch hostname (must end with es.amazonaws.com).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#host OrgLogging#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#host OrgLogging#host}
   */
   readonly host: string;
   /**
   * Logging Index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#index OrgLogging#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#index OrgLogging#index}
   */
   readonly index: string;
   /**
   * Port. Default: 443
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#port OrgLogging#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#port OrgLogging#port}
   */
   readonly port: number;
   /**
   * Valid AWS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#region OrgLogging#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#region OrgLogging#region}
   */
   readonly region: string;
   /**
   * Logging Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#type OrgLogging#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#type OrgLogging#type}
   */
   readonly type: string;
 }
@@ -986,25 +986,25 @@ export interface OrgLoggingElasticLoggingElasticCloud {
   /**
   * [Cloud ID](https://www.elastic.co/guide/en/cloud/current/ec-cloud-id.html)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#cloud_id OrgLogging#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#cloud_id OrgLogging#cloud_id}
   */
   readonly cloudId: string;
   /**
   * Full Link to a secret of type `userpass`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#credentials OrgLogging#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#credentials OrgLogging#credentials}
   */
   readonly credentials: string;
   /**
   * Logging Index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#index OrgLogging#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#index OrgLogging#index}
   */
   readonly index: string;
   /**
   * Logging Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#type OrgLogging#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#type OrgLogging#type}
   */
   readonly type: string;
 }
@@ -1197,37 +1197,37 @@ export interface OrgLoggingElasticLoggingGeneric {
   /**
   * Full Link to a secret of type `userpass`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#credentials OrgLogging#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#credentials OrgLogging#credentials}
   */
   readonly credentials: string;
   /**
   * A valid Elastic Search provider hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#host OrgLogging#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#host OrgLogging#host}
   */
   readonly host: string;
   /**
   * Logging Index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#index OrgLogging#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#index OrgLogging#index}
   */
   readonly index: string;
   /**
   * Logging path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#path OrgLogging#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#path OrgLogging#path}
   */
   readonly path: string;
   /**
   * Port. Default: 443
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#port OrgLogging#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#port OrgLogging#port}
   */
   readonly port: number;
   /**
   * Logging Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#type OrgLogging#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#type OrgLogging#type}
   */
   readonly type: string;
 }
@@ -1472,19 +1472,19 @@ export interface OrgLoggingElasticLogging {
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#aws OrgLogging#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#aws OrgLogging#aws}
   */
   readonly aws?: OrgLoggingElasticLoggingAws[] | cdktf.IResolvable;
   /**
   * elastic_cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#elastic_cloud OrgLogging#elastic_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#elastic_cloud OrgLogging#elastic_cloud}
   */
   readonly elasticCloud?: OrgLoggingElasticLoggingElasticCloud[] | cdktf.IResolvable;
   /**
   * generic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#generic OrgLogging#generic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#generic OrgLogging#generic}
   */
   readonly generic?: OrgLoggingElasticLoggingGeneric[] | cdktf.IResolvable;
 }
@@ -1660,13 +1660,13 @@ export interface OrgLoggingFluentdLogging {
   /**
   * The hostname or IP address of a remote log storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#host OrgLogging#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#host OrgLogging#host}
   */
   readonly host: string;
   /**
   * Port. Default: 24224
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#port OrgLogging#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#port OrgLogging#port}
   */
   readonly port?: number;
 }
@@ -1810,13 +1810,13 @@ export interface OrgLoggingLogzioLogging {
   /**
   * Full link to referenced Opaque Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#credentials OrgLogging#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#credentials OrgLogging#credentials}
   */
   readonly credentials: string;
   /**
   * Logzio listener host URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#listener_host OrgLogging#listener_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#listener_host OrgLogging#listener_host}
   */
   readonly listenerHost: string;
 }
@@ -1957,25 +1957,25 @@ export interface OrgLoggingS3Logging {
   /**
   * Name of S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#bucket OrgLogging#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#bucket OrgLogging#bucket}
   */
   readonly bucket: string;
   /**
   * Full link to referenced AWS Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#credentials OrgLogging#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#credentials OrgLogging#credentials}
   */
   readonly credentials: string;
   /**
   * Bucket path prefix. Default: "/".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#prefix OrgLogging#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#prefix OrgLogging#prefix}
   */
   readonly prefix?: string;
   /**
   * AWS region where bucket is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#region OrgLogging#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#region OrgLogging#region}
   */
   readonly region: string;
 }
@@ -2171,13 +2171,13 @@ export interface OrgLoggingStackdriverLogging {
   /**
   * Full Link to a secret of type `opaque`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#credentials OrgLogging#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#credentials OrgLogging#credentials}
   */
   readonly credentials: string;
   /**
   * A Google Cloud Provider region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#location OrgLogging#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#location OrgLogging#location}
   */
   readonly location: string;
 }
@@ -2318,31 +2318,31 @@ export interface OrgLoggingSyslogLogging {
   /**
   * Log Format. Valid values: RFC3164 or RFC5424.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#format OrgLogging#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#format OrgLogging#format}
   */
   readonly format?: string;
   /**
   * Hostname of Syslog Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#host OrgLogging#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#host OrgLogging#host}
   */
   readonly host: string;
   /**
   * Log Mode. Valid values: TCP, TLS, or UDP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#mode OrgLogging#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#mode OrgLogging#mode}
   */
   readonly mode?: string;
   /**
   * Port of Syslog Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#port OrgLogging#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#port OrgLogging#port}
   */
   readonly port: number;
   /**
   * Severity Level. See documentation for details. Valid values: 0 to 7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#severity OrgLogging#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#severity OrgLogging#severity}
   */
   readonly severity?: number;
 }
@@ -2568,7 +2568,7 @@ export class OrgLoggingSyslogLoggingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging cpln_org_logging}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging cpln_org_logging}
 */
 export class OrgLogging extends cdktf.TerraformResource {
 
@@ -2584,7 +2584,7 @@ export class OrgLogging extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgLogging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgLogging to import
-  * @param importFromId The id of the existing OrgLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2596,7 +2596,7 @@ export class OrgLogging extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org_logging cpln_org_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org_logging cpln_org_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2607,8 +2607,8 @@ export class OrgLogging extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_org_logging',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.16',
-        providerVersionConstraint: '1.2.16'
+        providerVersion: '1.2.17',
+        providerVersionConstraint: '1.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

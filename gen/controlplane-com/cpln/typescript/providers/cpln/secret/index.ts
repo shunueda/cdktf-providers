@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface SecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * JSON string containing the Docker secret. [Reference Page](https://docs.controlplane.com/reference/secret#azure).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#azure_sdk Secret#azure_sdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#azure_sdk Secret#azure_sdk}
   */
   readonly azureSdk?: string;
   /**
   * Description of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#description Secret#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#description Secret#description}
   */
   readonly description?: string;
   /**
   * List of unique key-value pairs. [Reference Page](https://docs.controlplane.com/reference/secret#dictionary).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#dictionary Secret#dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#dictionary Secret#dictionary}
   */
   readonly dictionary?: { [key: string]: string };
   /**
   * JSON string containing the Docker secret. [Reference Page](https://docs.controlplane.com/reference/secret#docker).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#docker Secret#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#docker Secret#docker}
   */
   readonly docker?: string;
   /**
   * JSON string containing the GCP secret. [Reference Page](https://docs.controlplane.com/reference/secret#gcp)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#gcp Secret#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#gcp Secret#gcp}
   */
   readonly gcp?: string;
   /**
   * Name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#name Secret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#name Secret#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#tags Secret#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#tags Secret#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#aws Secret#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#aws Secret#aws}
   */
   readonly aws?: SecretAws[] | cdktf.IResolvable;
   /**
   * azure_connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#azure_connector Secret#azure_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#azure_connector Secret#azure_connector}
   */
   readonly azureConnector?: SecretAzureConnector[] | cdktf.IResolvable;
   /**
   * ecr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#ecr Secret#ecr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#ecr Secret#ecr}
   */
   readonly ecr?: SecretEcr[] | cdktf.IResolvable;
   /**
   * keypair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#keypair Secret#keypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#keypair Secret#keypair}
   */
   readonly keypair?: SecretKeypair[] | cdktf.IResolvable;
   /**
   * nats_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#nats_account Secret#nats_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#nats_account Secret#nats_account}
   */
   readonly natsAccount?: SecretNatsAccount[] | cdktf.IResolvable;
   /**
   * opaque block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#opaque Secret#opaque}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#opaque Secret#opaque}
   */
   readonly opaque?: SecretOpaque[] | cdktf.IResolvable;
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#tls Secret#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#tls Secret#tls}
   */
   readonly tls?: SecretTls[] | cdktf.IResolvable;
   /**
   * userpass block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#userpass Secret#userpass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#userpass Secret#userpass}
   */
   readonly userpass?: SecretUserpass[] | cdktf.IResolvable;
 }
@@ -102,25 +102,25 @@ export interface SecretAws {
   /**
   * Access Key provided by AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#access_key Secret#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#access_key Secret#access_key}
   */
   readonly accessKey: string;
   /**
   * AWS IAM Role External ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#external_id Secret#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#external_id Secret#external_id}
   */
   readonly externalId?: string;
   /**
   * Role ARN provided by AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#role_arn Secret#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#role_arn Secret#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Secret Key provided by AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#secret_key Secret#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#secret_key Secret#secret_key}
   */
   readonly secretKey: string;
 }
@@ -319,13 +319,13 @@ export interface SecretAzureConnector {
   /**
   * Code/Key to authenticate to deployment URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#code Secret#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#code Secret#code}
   */
   readonly code: string;
   /**
   * Deployment URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#url Secret#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#url Secret#url}
   */
   readonly url: string;
 }
@@ -466,31 +466,31 @@ export interface SecretEcr {
   /**
   * Access Key provided by AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#access_key Secret#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#access_key Secret#access_key}
   */
   readonly accessKey: string;
   /**
   * AWS IAM Role External ID. Used when setting up cross-account access to your ECR repositories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#external_id Secret#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#external_id Secret#external_id}
   */
   readonly externalId?: string;
   /**
   * List of ECR repositories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#repos Secret#repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#repos Secret#repos}
   */
   readonly repos: string[];
   /**
   * Role ARN provided by AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#role_arn Secret#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#role_arn Secret#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Secret Key provided by AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#secret_key Secret#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#secret_key Secret#secret_key}
   */
   readonly secretKey: string;
 }
@@ -715,19 +715,19 @@ export interface SecretKeypair {
   /**
   * Passphrase for private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#passphrase Secret#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#passphrase Secret#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Public Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#public_key Secret#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#public_key Secret#public_key}
   */
   readonly publicKey?: string;
   /**
   * Secret/Private Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#secret_key Secret#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#secret_key Secret#secret_key}
   */
   readonly secretKey: string;
 }
@@ -900,13 +900,13 @@ export interface SecretNatsAccount {
   /**
   * Account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#account_id Secret#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#account_id Secret#account_id}
   */
   readonly accountId: string;
   /**
   * Private Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#private_key Secret#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#private_key Secret#private_key}
   */
   readonly privateKey: string;
 }
@@ -1047,13 +1047,13 @@ export interface SecretOpaque {
   /**
   * Available encodings: `plain`, `base64`. Default: `plain`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#encoding Secret#encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#encoding Secret#encoding}
   */
   readonly encoding?: string;
   /**
   * Plain text or base64 encoded string. Use `encoding` attribute to specify encoding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#payload Secret#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#payload Secret#payload}
   */
   readonly payload: string;
 }
@@ -1197,19 +1197,19 @@ export interface SecretTls {
   /**
   * Public Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#cert Secret#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#cert Secret#cert}
   */
   readonly cert: string;
   /**
   * Chain Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#chain Secret#chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#chain Secret#chain}
   */
   readonly chain?: string;
   /**
   * Private Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#key Secret#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#key Secret#key}
   */
   readonly key: string;
 }
@@ -1379,19 +1379,19 @@ export interface SecretUserpass {
   /**
   * Available encodings: `plain`, `base64`. Default: `plain`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#encoding Secret#encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#encoding Secret#encoding}
   */
   readonly encoding?: string;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#password Secret#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#password Secret#password}
   */
   readonly password: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#username Secret#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#username Secret#username}
   */
   readonly username: string;
 }
@@ -1559,7 +1559,7 @@ export class SecretUserpassList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret cpln_secret}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret cpln_secret}
 */
 export class Secret extends cdktf.TerraformResource {
 
@@ -1575,7 +1575,7 @@ export class Secret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Secret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Secret to import
-  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Secret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1587,7 +1587,7 @@ export class Secret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/secret cpln_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/secret cpln_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1598,8 +1598,8 @@ export class Secret extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_secret',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.16',
-        providerVersionConstraint: '1.2.16'
+        providerVersion: '1.2.17',
+        providerVersionConstraint: '1.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_lazy_librarian
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_lazy_librarian
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ApplicationLazyLibrarianConfig extends cdktf.TerraformMetaArgum
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_lazy_librarian#api_key ApplicationLazyLibrarian#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_lazy_librarian#api_key ApplicationLazyLibrarian#api_key}
   */
   readonly apiKey: string;
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_lazy_librarian#base_url ApplicationLazyLibrarian#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_lazy_librarian#base_url ApplicationLazyLibrarian#base_url}
   */
   readonly baseUrl: string;
   /**
   * Application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_lazy_librarian#name ApplicationLazyLibrarian#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_lazy_librarian#name ApplicationLazyLibrarian#name}
   */
   readonly name: string;
   /**
   * Prowlarr URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_lazy_librarian#prowlarr_url ApplicationLazyLibrarian#prowlarr_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_lazy_librarian#prowlarr_url ApplicationLazyLibrarian#prowlarr_url}
   */
   readonly prowlarrUrl: string;
   /**
   * Sync categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_lazy_librarian#sync_categories ApplicationLazyLibrarian#sync_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_lazy_librarian#sync_categories ApplicationLazyLibrarian#sync_categories}
   */
   readonly syncCategories?: number[];
   /**
   * Sync level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_lazy_librarian#sync_level ApplicationLazyLibrarian#sync_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_lazy_librarian#sync_level ApplicationLazyLibrarian#sync_level}
   */
   readonly syncLevel: string;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_lazy_librarian#tags ApplicationLazyLibrarian#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_lazy_librarian#tags ApplicationLazyLibrarian#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_lazy_librarian prowlarr_application_lazy_librarian}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_lazy_librarian prowlarr_application_lazy_librarian}
 */
 export class ApplicationLazyLibrarian extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class ApplicationLazyLibrarian extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationLazyLibrarian resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationLazyLibrarian to import
-  * @param importFromId The id of the existing ApplicationLazyLibrarian that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_lazy_librarian#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationLazyLibrarian that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_lazy_librarian#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationLazyLibrarian to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class ApplicationLazyLibrarian extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/application_lazy_librarian prowlarr_application_lazy_librarian} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/application_lazy_librarian prowlarr_application_lazy_librarian} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class ApplicationLazyLibrarian extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_application_lazy_librarian',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

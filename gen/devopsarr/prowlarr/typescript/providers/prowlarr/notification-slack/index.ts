@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface NotificationSlackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack#channel NotificationSlack#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack#channel NotificationSlack#channel}
   */
   readonly channel?: string;
   /**
   * Icon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack#icon NotificationSlack#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack#icon NotificationSlack#icon}
   */
   readonly icon?: string;
   /**
   * Include health warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack#include_health_warnings NotificationSlack#include_health_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack#include_health_warnings NotificationSlack#include_health_warnings}
   */
   readonly includeHealthWarnings?: boolean | cdktf.IResolvable;
   /**
   * NotificationSlack name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack#name NotificationSlack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack#name NotificationSlack#name}
   */
   readonly name: string;
   /**
   * On application update flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack#on_application_update NotificationSlack#on_application_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack#on_application_update NotificationSlack#on_application_update}
   */
   readonly onApplicationUpdate?: boolean | cdktf.IResolvable;
   /**
   * On health issue flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack#on_health_issue NotificationSlack#on_health_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack#on_health_issue NotificationSlack#on_health_issue}
   */
   readonly onHealthIssue?: boolean | cdktf.IResolvable;
   /**
   * On health restored flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack#on_health_restored NotificationSlack#on_health_restored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack#on_health_restored NotificationSlack#on_health_restored}
   */
   readonly onHealthRestored?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack#tags NotificationSlack#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack#tags NotificationSlack#tags}
   */
   readonly tags?: number[];
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack#username NotificationSlack#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack#username NotificationSlack#username}
   */
   readonly username: string;
   /**
   * URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack#web_hook_url NotificationSlack#web_hook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack#web_hook_url NotificationSlack#web_hook_url}
   */
   readonly webHookUrl: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack prowlarr_notification_slack}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack prowlarr_notification_slack}
 */
 export class NotificationSlack extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class NotificationSlack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationSlack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationSlack to import
-  * @param importFromId The id of the existing NotificationSlack that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationSlack that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationSlack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class NotificationSlack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_slack prowlarr_notification_slack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_slack prowlarr_notification_slack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class NotificationSlack extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_notification_slack',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

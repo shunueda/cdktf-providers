@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_custom_script
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_custom_script
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface NotificationCustomScriptConfig extends cdktf.TerraformMetaArgum
   /**
   * Arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_custom_script#arguments NotificationCustomScript#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_custom_script#arguments NotificationCustomScript#arguments}
   */
   readonly arguments?: string;
   /**
   * Include health warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_custom_script#include_health_warnings NotificationCustomScript#include_health_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_custom_script#include_health_warnings NotificationCustomScript#include_health_warnings}
   */
   readonly includeHealthWarnings: boolean | cdktf.IResolvable;
   /**
   * NotificationCustomScript name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_custom_script#name NotificationCustomScript#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_custom_script#name NotificationCustomScript#name}
   */
   readonly name: string;
   /**
   * On application update flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_custom_script#on_application_update NotificationCustomScript#on_application_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_custom_script#on_application_update NotificationCustomScript#on_application_update}
   */
   readonly onApplicationUpdate?: boolean | cdktf.IResolvable;
   /**
   * On health issue flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_custom_script#on_health_issue NotificationCustomScript#on_health_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_custom_script#on_health_issue NotificationCustomScript#on_health_issue}
   */
   readonly onHealthIssue?: boolean | cdktf.IResolvable;
   /**
   * On health restored flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_custom_script#on_health_restored NotificationCustomScript#on_health_restored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_custom_script#on_health_restored NotificationCustomScript#on_health_restored}
   */
   readonly onHealthRestored?: boolean | cdktf.IResolvable;
   /**
   * Path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_custom_script#path NotificationCustomScript#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_custom_script#path NotificationCustomScript#path}
   */
   readonly path: string;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_custom_script#tags NotificationCustomScript#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_custom_script#tags NotificationCustomScript#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_custom_script prowlarr_notification_custom_script}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_custom_script prowlarr_notification_custom_script}
 */
 export class NotificationCustomScript extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class NotificationCustomScript extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationCustomScript resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationCustomScript to import
-  * @param importFromId The id of the existing NotificationCustomScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_custom_script#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationCustomScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_custom_script#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationCustomScript to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class NotificationCustomScript extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_custom_script prowlarr_notification_custom_script} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_custom_script prowlarr_notification_custom_script} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class NotificationCustomScript extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_notification_custom_script',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

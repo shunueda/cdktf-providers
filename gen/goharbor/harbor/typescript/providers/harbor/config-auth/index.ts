@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth
+// https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,132 +8,132 @@ import * as cdktf from 'cdktf';
 
 export interface ConfigAuthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#auth_mode ConfigAuth#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#auth_mode ConfigAuth#auth_mode}
   */
   readonly authMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#id ConfigAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#id ConfigAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_base_dn ConfigAuth#ldap_base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_base_dn ConfigAuth#ldap_base_dn}
   */
   readonly ldapBaseDn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_filter ConfigAuth#ldap_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_filter ConfigAuth#ldap_filter}
   */
   readonly ldapFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_group_admin_dn ConfigAuth#ldap_group_admin_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_group_admin_dn ConfigAuth#ldap_group_admin_dn}
   */
   readonly ldapGroupAdminDn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_group_base_dn ConfigAuth#ldap_group_base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_group_base_dn ConfigAuth#ldap_group_base_dn}
   */
   readonly ldapGroupBaseDn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_group_filter ConfigAuth#ldap_group_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_group_filter ConfigAuth#ldap_group_filter}
   */
   readonly ldapGroupFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_group_gid ConfigAuth#ldap_group_gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_group_gid ConfigAuth#ldap_group_gid}
   */
   readonly ldapGroupGid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_group_membership ConfigAuth#ldap_group_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_group_membership ConfigAuth#ldap_group_membership}
   */
   readonly ldapGroupMembership?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_group_scope ConfigAuth#ldap_group_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_group_scope ConfigAuth#ldap_group_scope}
   */
   readonly ldapGroupScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_group_uid ConfigAuth#ldap_group_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_group_uid ConfigAuth#ldap_group_uid}
   */
   readonly ldapGroupUid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_scope ConfigAuth#ldap_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_scope ConfigAuth#ldap_scope}
   */
   readonly ldapScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_search_dn ConfigAuth#ldap_search_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_search_dn ConfigAuth#ldap_search_dn}
   */
   readonly ldapSearchDn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_search_password ConfigAuth#ldap_search_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_search_password ConfigAuth#ldap_search_password}
   */
   readonly ldapSearchPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_uid ConfigAuth#ldap_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_uid ConfigAuth#ldap_uid}
   */
   readonly ldapUid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_url ConfigAuth#ldap_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_url ConfigAuth#ldap_url}
   */
   readonly ldapUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#ldap_verify_cert ConfigAuth#ldap_verify_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#ldap_verify_cert ConfigAuth#ldap_verify_cert}
   */
   readonly ldapVerifyCert?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#oidc_admin_group ConfigAuth#oidc_admin_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#oidc_admin_group ConfigAuth#oidc_admin_group}
   */
   readonly oidcAdminGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#oidc_auto_onboard ConfigAuth#oidc_auto_onboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#oidc_auto_onboard ConfigAuth#oidc_auto_onboard}
   */
   readonly oidcAutoOnboard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#oidc_client_id ConfigAuth#oidc_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#oidc_client_id ConfigAuth#oidc_client_id}
   */
   readonly oidcClientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#oidc_client_secret ConfigAuth#oidc_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#oidc_client_secret ConfigAuth#oidc_client_secret}
   */
   readonly oidcClientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#oidc_endpoint ConfigAuth#oidc_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#oidc_endpoint ConfigAuth#oidc_endpoint}
   */
   readonly oidcEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#oidc_group_filter ConfigAuth#oidc_group_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#oidc_group_filter ConfigAuth#oidc_group_filter}
   */
   readonly oidcGroupFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#oidc_groups_claim ConfigAuth#oidc_groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#oidc_groups_claim ConfigAuth#oidc_groups_claim}
   */
   readonly oidcGroupsClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#oidc_logout ConfigAuth#oidc_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#oidc_logout ConfigAuth#oidc_logout}
   */
   readonly oidcLogout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#oidc_name ConfigAuth#oidc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#oidc_name ConfigAuth#oidc_name}
   */
   readonly oidcName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#oidc_scope ConfigAuth#oidc_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#oidc_scope ConfigAuth#oidc_scope}
   */
   readonly oidcScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#oidc_user_claim ConfigAuth#oidc_user_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#oidc_user_claim ConfigAuth#oidc_user_claim}
   */
   readonly oidcUserClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#oidc_verify_cert ConfigAuth#oidc_verify_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#oidc_verify_cert ConfigAuth#oidc_verify_cert}
   */
   readonly oidcVerifyCert?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#primary_auth_mode ConfigAuth#primary_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#primary_auth_mode ConfigAuth#primary_auth_mode}
   */
   readonly primaryAuthMode?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth harbor_config_auth}
+* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth harbor_config_auth}
 */
 export class ConfigAuth extends cdktf.TerraformResource {
 
@@ -149,7 +149,7 @@ export class ConfigAuth extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigAuth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigAuth to import
-  * @param importFromId The id of the existing ConfigAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigAuth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class ConfigAuth extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_auth harbor_config_auth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_auth harbor_config_auth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class ConfigAuth extends cdktf.TerraformResource {
       terraformResourceType: 'harbor_config_auth',
       terraformGeneratorMetadata: {
         providerName: 'harbor',
-        providerVersion: '3.11.2',
-        providerVersionConstraint: '3.11.2'
+        providerVersion: '3.11.3',
+        providerVersionConstraint: '3.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

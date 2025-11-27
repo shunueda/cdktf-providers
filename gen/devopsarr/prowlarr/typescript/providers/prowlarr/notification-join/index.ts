@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface NotificationJoinConfig extends cdktf.TerraformMetaArguments {
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join#api_key NotificationJoin#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join#api_key NotificationJoin#api_key}
   */
   readonly apiKey?: string;
   /**
   * Device names. Comma separated list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join#device_names NotificationJoin#device_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join#device_names NotificationJoin#device_names}
   */
   readonly deviceNames?: string;
   /**
   * Include health warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join#include_health_warnings NotificationJoin#include_health_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join#include_health_warnings NotificationJoin#include_health_warnings}
   */
   readonly includeHealthWarnings?: boolean | cdktf.IResolvable;
   /**
   * Include manual grab flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join#include_manual_grabs NotificationJoin#include_manual_grabs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join#include_manual_grabs NotificationJoin#include_manual_grabs}
   */
   readonly includeManualGrabs?: boolean | cdktf.IResolvable;
   /**
   * NotificationJoin name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join#name NotificationJoin#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join#name NotificationJoin#name}
   */
   readonly name: string;
   /**
   * On application update flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join#on_application_update NotificationJoin#on_application_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join#on_application_update NotificationJoin#on_application_update}
   */
   readonly onApplicationUpdate?: boolean | cdktf.IResolvable;
   /**
   * On release grab flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join#on_grab NotificationJoin#on_grab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join#on_grab NotificationJoin#on_grab}
   */
   readonly onGrab?: boolean | cdktf.IResolvable;
   /**
   * On health issue flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join#on_health_issue NotificationJoin#on_health_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join#on_health_issue NotificationJoin#on_health_issue}
   */
   readonly onHealthIssue?: boolean | cdktf.IResolvable;
   /**
   * On health restored flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join#on_health_restored NotificationJoin#on_health_restored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join#on_health_restored NotificationJoin#on_health_restored}
   */
   readonly onHealthRestored?: boolean | cdktf.IResolvable;
   /**
   * Priority. `-2` Silent, `-1` Quiet, `0` Normal, `1` High, `2` Emergency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join#priority NotificationJoin#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join#priority NotificationJoin#priority}
   */
   readonly priority?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join#tags NotificationJoin#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join#tags NotificationJoin#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join prowlarr_notification_join}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join prowlarr_notification_join}
 */
 export class NotificationJoin extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class NotificationJoin extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationJoin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationJoin to import
-  * @param importFromId The id of the existing NotificationJoin that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationJoin that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationJoin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class NotificationJoin extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_join prowlarr_notification_join} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_join prowlarr_notification_join} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class NotificationJoin extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_notification_join',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

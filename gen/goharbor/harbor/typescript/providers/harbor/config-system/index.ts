@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system
+// https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface ConfigSystemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#audit_log_forward_endpoint ConfigSystem#audit_log_forward_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#audit_log_forward_endpoint ConfigSystem#audit_log_forward_endpoint}
   */
   readonly auditLogForwardEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#id ConfigSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#id ConfigSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#project_creation_restriction ConfigSystem#project_creation_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#project_creation_restriction ConfigSystem#project_creation_restriction}
   */
   readonly projectCreationRestriction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#read_only ConfigSystem#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#read_only ConfigSystem#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#robot_name_prefix ConfigSystem#robot_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#robot_name_prefix ConfigSystem#robot_name_prefix}
   */
   readonly robotNamePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#robot_token_expiration ConfigSystem#robot_token_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#robot_token_expiration ConfigSystem#robot_token_expiration}
   */
   readonly robotTokenExpiration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#scanner_skip_update_pulltime ConfigSystem#scanner_skip_update_pulltime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#scanner_skip_update_pulltime ConfigSystem#scanner_skip_update_pulltime}
   */
   readonly scannerSkipUpdatePulltime?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#skip_audit_log_database ConfigSystem#skip_audit_log_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#skip_audit_log_database ConfigSystem#skip_audit_log_database}
   */
   readonly skipAuditLogDatabase?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#storage_per_project ConfigSystem#storage_per_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#storage_per_project ConfigSystem#storage_per_project}
   */
   readonly storagePerProject?: number;
   /**
   * banner_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#banner_message ConfigSystem#banner_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#banner_message ConfigSystem#banner_message}
   */
   readonly bannerMessage?: ConfigSystemBannerMessage;
 }
 export interface ConfigSystemBannerMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#closable ConfigSystem#closable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#closable ConfigSystem#closable}
   */
   readonly closable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#from_date ConfigSystem#from_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#from_date ConfigSystem#from_date}
   */
   readonly fromDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#message ConfigSystem#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#message ConfigSystem#message}
   */
   readonly message: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#to_date ConfigSystem#to_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#to_date ConfigSystem#to_date}
   */
   readonly toDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#type ConfigSystem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#type ConfigSystem#type}
   */
   readonly type?: string;
 }
@@ -268,7 +268,7 @@ export class ConfigSystemBannerMessageOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system harbor_config_system}
+* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system harbor_config_system}
 */
 export class ConfigSystem extends cdktf.TerraformResource {
 
@@ -284,7 +284,7 @@ export class ConfigSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigSystem to import
-  * @param importFromId The id of the existing ConfigSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +296,7 @@ export class ConfigSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/config_system harbor_config_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/config_system harbor_config_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,8 +307,8 @@ export class ConfigSystem extends cdktf.TerraformResource {
       terraformResourceType: 'harbor_config_system',
       terraformGeneratorMetadata: {
         providerName: 'harbor',
-        providerVersion: '3.11.2',
-        providerVersionConstraint: '3.11.2'
+        providerVersion: '3.11.3',
+        providerVersionConstraint: '3.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

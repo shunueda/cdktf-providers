@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/parser_lib_entry
+// https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/parser_lib_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCriblioParserLibEntryConfig extends cdktf.TerraformMetaArgu
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/parser_lib_entry#group_id DataCriblioParserLibEntry#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/parser_lib_entry#group_id DataCriblioParserLibEntry#group_id}
   */
   readonly groupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/parser_lib_entry criblio_parser_lib_entry}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/parser_lib_entry criblio_parser_lib_entry}
 */
 export class DataCriblioParserLibEntry extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataCriblioParserLibEntry extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioParserLibEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioParserLibEntry to import
-  * @param importFromId The id of the existing DataCriblioParserLibEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/parser_lib_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioParserLibEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/parser_lib_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioParserLibEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataCriblioParserLibEntry extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/parser_lib_entry criblio_parser_lib_entry} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/parser_lib_entry criblio_parser_lib_entry} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataCriblioParserLibEntry extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_parser_lib_entry',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.32',
-        providerVersionConstraint: '1.20.32'
+        providerVersion: '1.20.33',
+        providerVersionConstraint: '1.20.33'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

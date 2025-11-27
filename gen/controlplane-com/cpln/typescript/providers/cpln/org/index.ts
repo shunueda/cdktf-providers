@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface OrgConfig extends cdktf.TerraformMetaArguments {
   /**
   * The associated account ID that will be used when creating the org. Only used on org creation. The account ID can be obtained from the `Org Management & Billing` page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#account_id Org#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#account_id Org#account_id}
   */
   readonly accountId?: string;
   /**
   * Description of the Organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#description Org#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#description Org#description}
   */
   readonly description?: string;
   /**
   * When an org is created, the list of email addresses which will receive an invitation to join the org and be assigned to the `superusers` group. The user account used when creating the org will be included in this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#invitees Org#invitees}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#invitees Org#invitees}
   */
   readonly invitees?: string[];
   /**
   * The idle time (in seconds) in which the console UI will automatically sign-out the user. Default: 900 (15 minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#session_timeout_seconds Org#session_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#session_timeout_seconds Org#session_timeout_seconds}
   */
   readonly sessionTimeoutSeconds?: number;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#tags Org#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#tags Org#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#auth_config Org#auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#auth_config Org#auth_config}
   */
   readonly authConfig?: OrgAuthConfig[] | cdktf.IResolvable;
   /**
   * observability block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#observability Org#observability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#observability Org#observability}
   */
   readonly observability?: OrgObservability[] | cdktf.IResolvable;
   /**
   * security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#security Org#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#security Org#security}
   */
   readonly security?: OrgSecurity[] | cdktf.IResolvable;
 }
@@ -145,13 +145,13 @@ export interface OrgAuthConfig {
   /**
   * List of domains which will auto-provision users when authenticating using SAML.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#domain_auto_members Org#domain_auto_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#domain_auto_members Org#domain_auto_members}
   */
   readonly domainAutoMembers: string[];
   /**
   * Enforce SAML only authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#saml_only Org#saml_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#saml_only Org#saml_only}
   */
   readonly samlOnly?: boolean | cdktf.IResolvable;
 }
@@ -295,25 +295,25 @@ export interface OrgObservability {
   /**
   * These emails are configured as alert recipients in Grafana when the 'grafana-default-email' contact delivery type is 'Email'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#default_alert_emails Org#default_alert_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#default_alert_emails Org#default_alert_emails}
   */
   readonly defaultAlertEmails?: string[];
   /**
   * Log retention days. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#logs_retention_days Org#logs_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#logs_retention_days Org#logs_retention_days}
   */
   readonly logsRetentionDays?: number;
   /**
   * Metrics retention days. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#metrics_retention_days Org#metrics_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#metrics_retention_days Org#metrics_retention_days}
   */
   readonly metricsRetentionDays?: number;
   /**
   * Traces retention days. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#traces_retention_days Org#traces_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#traces_retention_days Org#traces_retention_days}
   */
   readonly tracesRetentionDays?: number;
 }
@@ -518,19 +518,19 @@ export interface OrgSecurityThreatDetectionSyslog {
   /**
   * The hostname to send syslog messages to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#host Org#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#host Org#host}
   */
   readonly host: string;
   /**
   * The port to send syslog messages to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#port Org#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#port Org#port}
   */
   readonly port: number;
   /**
   * The transport-layer protocol to send the syslog messages over. If TCP is chosen, messages will be sent with TLS. Default: `tcp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#transport Org#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#transport Org#transport}
   */
   readonly transport?: string;
 }
@@ -700,19 +700,19 @@ export interface OrgSecurityThreatDetection {
   /**
   * Indicates whether threat detection should be forwarded or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#enabled Org#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#enabled Org#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Any threats with this severity and more severe will be sent. Others will be ignored. Valid values: `warning`, `error`, or `critical`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#minimum_severity Org#minimum_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#minimum_severity Org#minimum_severity}
   */
   readonly minimumSeverity?: string;
   /**
   * syslog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#syslog Org#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#syslog Org#syslog}
   */
   readonly syslog?: OrgSecurityThreatDetectionSyslog[] | cdktf.IResolvable;
 }
@@ -885,7 +885,7 @@ export interface OrgSecurity {
   /**
   * threat_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#threat_detection Org#threat_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#threat_detection Org#threat_detection}
   */
   readonly threatDetection?: OrgSecurityThreatDetection[] | cdktf.IResolvable;
 }
@@ -1001,7 +1001,7 @@ export class OrgSecurityList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org cpln_org}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org cpln_org}
 */
 export class Org extends cdktf.TerraformResource {
 
@@ -1017,7 +1017,7 @@ export class Org extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Org resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Org to import
-  * @param importFromId The id of the existing Org that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Org that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Org to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1029,7 +1029,7 @@ export class Org extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/org cpln_org} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/org cpln_org} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1040,8 +1040,8 @@ export class Org extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_org',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.16',
-        providerVersionConstraint: '1.2.16'
+        providerVersion: '1.2.17',
+        providerVersionConstraint: '1.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

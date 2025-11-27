@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_flaresolverr
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_flaresolverr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IndexerProxyFlaresolverrConfig extends cdktf.TerraformMetaArgum
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_flaresolverr#host IndexerProxyFlaresolverr#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_flaresolverr#host IndexerProxyFlaresolverr#host}
   */
   readonly host: string;
   /**
   * Indexer Proxy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_flaresolverr#name IndexerProxyFlaresolverr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_flaresolverr#name IndexerProxyFlaresolverr#name}
   */
   readonly name: string;
   /**
   * Request timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_flaresolverr#request_timeout IndexerProxyFlaresolverr#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_flaresolverr#request_timeout IndexerProxyFlaresolverr#request_timeout}
   */
   readonly requestTimeout: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_flaresolverr#tags IndexerProxyFlaresolverr#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_flaresolverr#tags IndexerProxyFlaresolverr#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_flaresolverr prowlarr_indexer_proxy_flaresolverr}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_flaresolverr prowlarr_indexer_proxy_flaresolverr}
 */
 export class IndexerProxyFlaresolverr extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class IndexerProxyFlaresolverr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IndexerProxyFlaresolverr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IndexerProxyFlaresolverr to import
-  * @param importFromId The id of the existing IndexerProxyFlaresolverr that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_flaresolverr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IndexerProxyFlaresolverr that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_flaresolverr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IndexerProxyFlaresolverr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class IndexerProxyFlaresolverr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer_proxy_flaresolverr prowlarr_indexer_proxy_flaresolverr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer_proxy_flaresolverr prowlarr_indexer_proxy_flaresolverr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class IndexerProxyFlaresolverr extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_indexer_proxy_flaresolverr',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

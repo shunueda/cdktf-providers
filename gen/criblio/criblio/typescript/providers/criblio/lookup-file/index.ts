@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/lookup_file
+// https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lookup_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LookupFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * File content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/lookup_file#content LookupFile#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lookup_file#content LookupFile#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/lookup_file#description LookupFile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lookup_file#description LookupFile#description}
   */
   readonly description?: string;
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/lookup_file#group_id LookupFile#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lookup_file#group_id LookupFile#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to PATCH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/lookup_file#id LookupFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lookup_file#id LookupFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface LookupFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default: "memory"; must be one of ["memory", "disk"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/lookup_file#mode LookupFile#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lookup_file#mode LookupFile#mode}
   */
   readonly mode?: string;
   /**
   * One or more tags related to this lookup. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/lookup_file#tags LookupFile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lookup_file#tags LookupFile#tags}
   */
   readonly tags?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/lookup_file criblio_lookup_file}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lookup_file criblio_lookup_file}
 */
 export class LookupFile extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class LookupFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LookupFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LookupFile to import
-  * @param importFromId The id of the existing LookupFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/lookup_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LookupFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lookup_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LookupFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class LookupFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/lookup_file criblio_lookup_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/lookup_file criblio_lookup_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class LookupFile extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_lookup_file',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.32',
-        providerVersionConstraint: '1.20.32'
+        providerVersion: '1.20.33',
+        providerVersionConstraint: '1.20.33'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

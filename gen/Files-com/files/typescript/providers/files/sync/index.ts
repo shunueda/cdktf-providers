@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync
+// https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface SyncConfig extends cdktf.TerraformMetaArguments {
   /**
   * Delete empty folders after sync?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#delete_empty_folders Sync#delete_empty_folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#delete_empty_folders Sync#delete_empty_folders}
   */
   readonly deleteEmptyFolders?: boolean | cdktf.IResolvable;
   /**
   * Description for this sync job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#description Sync#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#description Sync#description}
   */
   readonly description?: string;
   /**
   * Absolute destination path for the sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#dest_path Sync#dest_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#dest_path Sync#dest_path}
   */
   readonly destPath?: string;
   /**
   * Remote server ID for the destination (if remote)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#dest_remote_server_id Sync#dest_remote_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#dest_remote_server_id Sync#dest_remote_server_id}
   */
   readonly destRemoteServerId?: number;
   /**
   * Is this sync disabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#disabled Sync#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#disabled Sync#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * If trigger is `custom_schedule`, the sync will check if there is a formal, observed holiday for the region, and if so, it will not run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#holiday_region Sync#holiday_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#holiday_region Sync#holiday_region}
   */
   readonly holidayRegion?: string;
   /**
   * If trigger is `daily`, this specifies how often to run this sync.  One of: `day`, `week`, `week_end`, `month`, `month_end`, `quarter`, `quarter_end`, `year`, `year_end`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#interval Sync#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#interval Sync#interval}
   */
   readonly interval?: string;
   /**
   * Keep files after copying?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#keep_after_copy Sync#keep_after_copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#keep_after_copy Sync#keep_after_copy}
   */
   readonly keepAfterCopy?: boolean | cdktf.IResolvable;
   /**
   * Name for this sync job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#name Sync#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#name Sync#name}
   */
   readonly name?: string;
   /**
   * If trigger type is `daily`, this specifies a day number to run in one of the supported intervals: `week`, `month`, `quarter`, `year`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#recurring_day Sync#recurring_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#recurring_day Sync#recurring_day}
   */
   readonly recurringDay?: number;
   /**
   * If trigger is `custom_schedule`, Custom schedule description for when the sync should be run. 0-based days of the week. 0 is Sunday, 1 is Monday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#schedule_days_of_week Sync#schedule_days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#schedule_days_of_week Sync#schedule_days_of_week}
   */
   readonly scheduleDaysOfWeek?: number[];
   /**
   * If trigger is `custom_schedule`, Custom schedule Time Zone for when the sync should be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#schedule_time_zone Sync#schedule_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#schedule_time_zone Sync#schedule_time_zone}
   */
   readonly scheduleTimeZone?: string;
   /**
   * If trigger is `custom_schedule`, Custom schedule description for when the sync should be run. Times of day in HH:MM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#schedule_times_of_day Sync#schedule_times_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#schedule_times_of_day Sync#schedule_times_of_day}
   */
   readonly scheduleTimesOfDay?: string[];
   /**
   * Absolute source path for the sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#src_path Sync#src_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#src_path Sync#src_path}
   */
   readonly srcPath?: string;
   /**
   * Remote server ID for the source (if remote)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#src_remote_server_id Sync#src_remote_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#src_remote_server_id Sync#src_remote_server_id}
   */
   readonly srcRemoteServerId?: number;
   /**
   * Frequency in minutes between syncs. If set, this value must be greater than or equal to the `remote_sync_interval` value for the site's plan. If left blank, the plan's `remote_sync_interval` will be used. This setting is only used if `trigger` is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#sync_interval_minutes Sync#sync_interval_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#sync_interval_minutes Sync#sync_interval_minutes}
   */
   readonly syncIntervalMinutes?: number;
   /**
   * Trigger type: daily, custom_schedule, or manual
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#trigger Sync#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#trigger Sync#trigger}
   */
   readonly trigger?: string;
   /**
   * Some MFT services request an empty file (known as a trigger file) to signal the sync is complete and they can begin further processing. If trigger_file is set, a zero-byte file will be sent at the end of the sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#trigger_file Sync#trigger_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#trigger_file Sync#trigger_file}
   */
   readonly triggerFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync files_sync}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync files_sync}
 */
 export class Sync extends cdktf.TerraformResource {
 
@@ -134,7 +134,7 @@ export class Sync extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sync resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sync to import
-  * @param importFromId The id of the existing Sync that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sync that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sync to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class Sync extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.397/docs/resources/sync files_sync} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.398/docs/resources/sync files_sync} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class Sync extends cdktf.TerraformResource {
       terraformResourceType: 'files_sync',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.397',
-        providerVersionConstraint: '0.1.397'
+        providerVersion: '0.1.398',
+        providerVersionConstraint: '0.1.398'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

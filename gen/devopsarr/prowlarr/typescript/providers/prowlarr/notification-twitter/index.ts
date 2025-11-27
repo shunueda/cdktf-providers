@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface NotificationTwitterConfig extends cdktf.TerraformMetaArguments 
   /**
   * Access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#access_token NotificationTwitter#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#access_token NotificationTwitter#access_token}
   */
   readonly accessToken: string;
   /**
   * Access token secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#access_token_secret NotificationTwitter#access_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#access_token_secret NotificationTwitter#access_token_secret}
   */
   readonly accessTokenSecret: string;
   /**
   * Consumer Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#consumer_key NotificationTwitter#consumer_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#consumer_key NotificationTwitter#consumer_key}
   */
   readonly consumerKey: string;
   /**
   * Consumer Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#consumer_secret NotificationTwitter#consumer_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#consumer_secret NotificationTwitter#consumer_secret}
   */
   readonly consumerSecret: string;
   /**
   * Direct message flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#direct_message NotificationTwitter#direct_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#direct_message NotificationTwitter#direct_message}
   */
   readonly directMessage?: boolean | cdktf.IResolvable;
   /**
   * Include health warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#include_health_warnings NotificationTwitter#include_health_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#include_health_warnings NotificationTwitter#include_health_warnings}
   */
   readonly includeHealthWarnings?: boolean | cdktf.IResolvable;
   /**
   * Include manual grab flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#include_manual_grabs NotificationTwitter#include_manual_grabs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#include_manual_grabs NotificationTwitter#include_manual_grabs}
   */
   readonly includeManualGrabs?: boolean | cdktf.IResolvable;
   /**
   * Mention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#mention NotificationTwitter#mention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#mention NotificationTwitter#mention}
   */
   readonly mention: string;
   /**
   * NotificationTwitter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#name NotificationTwitter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#name NotificationTwitter#name}
   */
   readonly name: string;
   /**
   * On application update flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#on_application_update NotificationTwitter#on_application_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#on_application_update NotificationTwitter#on_application_update}
   */
   readonly onApplicationUpdate?: boolean | cdktf.IResolvable;
   /**
   * On release grab flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#on_grab NotificationTwitter#on_grab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#on_grab NotificationTwitter#on_grab}
   */
   readonly onGrab?: boolean | cdktf.IResolvable;
   /**
   * On health issue flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#on_health_issue NotificationTwitter#on_health_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#on_health_issue NotificationTwitter#on_health_issue}
   */
   readonly onHealthIssue?: boolean | cdktf.IResolvable;
   /**
   * On health restored flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#on_health_restored NotificationTwitter#on_health_restored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#on_health_restored NotificationTwitter#on_health_restored}
   */
   readonly onHealthRestored?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#tags NotificationTwitter#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#tags NotificationTwitter#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter prowlarr_notification_twitter}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter prowlarr_notification_twitter}
 */
 export class NotificationTwitter extends cdktf.TerraformResource {
 
@@ -110,7 +110,7 @@ export class NotificationTwitter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationTwitter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationTwitter to import
-  * @param importFromId The id of the existing NotificationTwitter that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationTwitter that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationTwitter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class NotificationTwitter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/notification_twitter prowlarr_notification_twitter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/notification_twitter prowlarr_notification_twitter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class NotificationTwitter extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_notification_twitter',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

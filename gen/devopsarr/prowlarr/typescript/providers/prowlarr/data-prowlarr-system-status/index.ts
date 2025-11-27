@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/system_status
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/system_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataProwlarrSystemStatusConfig extends cdktf.TerraformMetaArgum
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/system_status prowlarr_system_status}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/system_status prowlarr_system_status}
 */
 export class DataProwlarrSystemStatus extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataProwlarrSystemStatus extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataProwlarrSystemStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProwlarrSystemStatus to import
-  * @param importFromId The id of the existing DataProwlarrSystemStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/system_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProwlarrSystemStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/system_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProwlarrSystemStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataProwlarrSystemStatus extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/system_status prowlarr_system_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/system_status prowlarr_system_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataProwlarrSystemStatus extends cdktf.TerraformDataSource {
       terraformResourceType: 'prowlarr_system_status',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

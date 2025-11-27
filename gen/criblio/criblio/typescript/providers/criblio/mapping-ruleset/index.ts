@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset
+// https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface MappingRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#active MappingRuleset#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#active MappingRuleset#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#conf MappingRuleset#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#conf MappingRuleset#conf}
   */
   readonly conf?: MappingRulesetConf;
   /**
   * The id of the mapping ruleset to get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#id MappingRuleset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#id MappingRuleset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,7 +27,7 @@ export interface MappingRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the Cribl product to create the mappings for. must be one of ["stream", "edge"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#product MappingRuleset#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#product MappingRuleset#product}
   */
   readonly product: string;
 }
@@ -35,13 +35,13 @@ export interface MappingRulesetConfFunctionsConfAdd {
   /**
   * Name of the field to add. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#name MappingRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#name MappingRuleset#name}
   */
   readonly name?: string;
   /**
   * Value to assign to the field. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#value MappingRuleset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#value MappingRuleset#value}
   */
   readonly value?: string;
 }
@@ -188,7 +188,7 @@ export interface MappingRulesetConfFunctionsConf {
   /**
   * List of fields to add to the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#add MappingRuleset#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#add MappingRuleset#add}
   */
   readonly add?: MappingRulesetConfFunctionsConfAdd[] | cdktf.IResolvable;
 }
@@ -284,43 +284,43 @@ export interface MappingRulesetConfFunctions {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#conf MappingRuleset#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#conf MappingRuleset#conf}
   */
   readonly conf?: MappingRulesetConfFunctionsConf;
   /**
   * Simple description of this step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#description MappingRuleset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#description MappingRuleset#description}
   */
   readonly description?: string;
   /**
   * If true, data will not be pushed through this function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#disabled MappingRuleset#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#disabled MappingRuleset#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Filter that selects data to be fed through this Function. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#filter MappingRuleset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#filter MappingRuleset#filter}
   */
   readonly filter?: string;
   /**
   * If enabled, stops the results of this Function from being passed to the downstream Functions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#final MappingRuleset#final}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#final MappingRuleset#final}
   */
   readonly final?: boolean | cdktf.IResolvable;
   /**
   * Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#group_id MappingRuleset#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#group_id MappingRuleset#group_id}
   */
   readonly groupId?: string;
   /**
   * Function ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#id MappingRuleset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#id MappingRuleset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -615,7 +615,7 @@ export interface MappingRulesetConf {
   /**
   * List of functions to pass data through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#functions MappingRuleset#functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#functions MappingRuleset#functions}
   */
   readonly functions?: MappingRulesetConfFunctions[] | cdktf.IResolvable;
 }
@@ -709,7 +709,7 @@ export class MappingRulesetConfOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset criblio_mapping_ruleset}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset criblio_mapping_ruleset}
 */
 export class MappingRuleset extends cdktf.TerraformResource {
 
@@ -725,7 +725,7 @@ export class MappingRuleset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MappingRuleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MappingRuleset to import
-  * @param importFromId The id of the existing MappingRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MappingRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MappingRuleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -737,7 +737,7 @@ export class MappingRuleset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/mapping_ruleset criblio_mapping_ruleset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/mapping_ruleset criblio_mapping_ruleset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -748,8 +748,8 @@ export class MappingRuleset extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_mapping_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.32',
-        providerVersionConstraint: '1.20.32'
+        providerVersion: '1.20.33',
+        providerVersionConstraint: '1.20.33'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

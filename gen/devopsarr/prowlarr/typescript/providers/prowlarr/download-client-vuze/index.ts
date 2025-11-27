@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface DownloadClientVuzeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add paused flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#add_paused DownloadClientVuze#add_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#add_paused DownloadClientVuze#add_paused}
   */
   readonly addPaused?: boolean | cdktf.IResolvable;
   /**
   * Category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#category DownloadClientVuze#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#category DownloadClientVuze#category}
   */
   readonly category?: string;
   /**
   * Directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#directory DownloadClientVuze#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#directory DownloadClientVuze#directory}
   */
   readonly directory?: string;
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#enable DownloadClientVuze#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#enable DownloadClientVuze#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#host DownloadClientVuze#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#host DownloadClientVuze#host}
   */
   readonly host?: string;
   /**
   * Older Movie priority. `0` Last, `1` First.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#item_priority DownloadClientVuze#item_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#item_priority DownloadClientVuze#item_priority}
   */
   readonly itemPriority?: number;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#name DownloadClientVuze#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#name DownloadClientVuze#name}
   */
   readonly name: string;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#password DownloadClientVuze#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#password DownloadClientVuze#password}
   */
   readonly password?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#port DownloadClientVuze#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#port DownloadClientVuze#port}
   */
   readonly port?: number;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#priority DownloadClientVuze#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#priority DownloadClientVuze#priority}
   */
   readonly priority?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#tags DownloadClientVuze#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#tags DownloadClientVuze#tags}
   */
   readonly tags?: number[];
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#url_base DownloadClientVuze#url_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#url_base DownloadClientVuze#url_base}
   */
   readonly urlBase?: string;
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#use_ssl DownloadClientVuze#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#use_ssl DownloadClientVuze#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#username DownloadClientVuze#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#username DownloadClientVuze#username}
   */
   readonly username?: string;
 }
@@ -96,13 +96,13 @@ export interface DownloadClientVuzeCategories {
   /**
   * List of categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#categories DownloadClientVuze#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#categories DownloadClientVuze#categories}
   */
   readonly categories?: number[];
   /**
   * Name of client category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#name DownloadClientVuze#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#name DownloadClientVuze#name}
   */
   readonly name?: string;
 }
@@ -237,7 +237,7 @@ export class DownloadClientVuzeCategoriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze prowlarr_download_client_vuze}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze prowlarr_download_client_vuze}
 */
 export class DownloadClientVuze extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class DownloadClientVuze extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientVuze resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientVuze to import
-  * @param importFromId The id of the existing DownloadClientVuze that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientVuze that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientVuze to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class DownloadClientVuze extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_vuze prowlarr_download_client_vuze} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_vuze prowlarr_download_client_vuze} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class DownloadClientVuze extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_download_client_vuze',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/isometry/deepmerge/1.1.1/docs
+// https://registry.terraform.io/providers/isometry/deepmerge/1.2.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DeepmergeProviderConfig {
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/isometry/deepmerge/1.1.1/docs#alias DeepmergeProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/isometry/deepmerge/1.2.0/docs#alias DeepmergeProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/isometry/deepmerge/1.1.1/docs deepmerge}
+* Represents a {@link https://registry.terraform.io/providers/isometry/deepmerge/1.2.0/docs deepmerge}
 */
 export class DeepmergeProvider extends cdktf.TerraformProvider {
 
@@ -32,7 +32,7 @@ export class DeepmergeProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a DeepmergeProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeepmergeProvider to import
-  * @param importFromId The id of the existing DeepmergeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/isometry/deepmerge/1.1.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeepmergeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/isometry/deepmerge/1.2.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeepmergeProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DeepmergeProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/isometry/deepmerge/1.1.1/docs deepmerge} Resource
+  * Create a new {@link https://registry.terraform.io/providers/isometry/deepmerge/1.2.0/docs deepmerge} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DeepmergeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'deepmerge',
       terraformGeneratorMetadata: {
         providerName: 'deepmerge',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       terraformProviderSource: 'isometry/deepmerge'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/indexer_proxies
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/indexer_proxies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -130,7 +130,7 @@ export class DataProwlarrIndexerProxiesIndexerProxiesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/indexer_proxies prowlarr_indexer_proxies}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/indexer_proxies prowlarr_indexer_proxies}
 */
 export class DataProwlarrIndexerProxies extends cdktf.TerraformDataSource {
 
@@ -146,7 +146,7 @@ export class DataProwlarrIndexerProxies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataProwlarrIndexerProxies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProwlarrIndexerProxies to import
-  * @param importFromId The id of the existing DataProwlarrIndexerProxies that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/indexer_proxies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProwlarrIndexerProxies that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/indexer_proxies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProwlarrIndexerProxies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class DataProwlarrIndexerProxies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/data-sources/indexer_proxies prowlarr_indexer_proxies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/data-sources/indexer_proxies prowlarr_indexer_proxies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class DataProwlarrIndexerProxies extends cdktf.TerraformDataSource {
       terraformResourceType: 'prowlarr_indexer_proxies',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

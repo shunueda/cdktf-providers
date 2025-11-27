@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/sync_profile
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/sync_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SyncProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable automatic search flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/sync_profile#enable_automatic_search SyncProfile#enable_automatic_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/sync_profile#enable_automatic_search SyncProfile#enable_automatic_search}
   */
   readonly enableAutomaticSearch: boolean | cdktf.IResolvable;
   /**
   * Enable interactive search flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/sync_profile#enable_interactive_search SyncProfile#enable_interactive_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/sync_profile#enable_interactive_search SyncProfile#enable_interactive_search}
   */
   readonly enableInteractiveSearch: boolean | cdktf.IResolvable;
   /**
   * Enable RSS flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/sync_profile#enable_rss SyncProfile#enable_rss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/sync_profile#enable_rss SyncProfile#enable_rss}
   */
   readonly enableRss: boolean | cdktf.IResolvable;
   /**
   * Minimum seeders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/sync_profile#minimum_seeders SyncProfile#minimum_seeders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/sync_profile#minimum_seeders SyncProfile#minimum_seeders}
   */
   readonly minimumSeeders: number;
   /**
   * Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/sync_profile#name SyncProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/sync_profile#name SyncProfile#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/sync_profile prowlarr_sync_profile}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/sync_profile prowlarr_sync_profile}
 */
 export class SyncProfile extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class SyncProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SyncProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SyncProfile to import
-  * @param importFromId The id of the existing SyncProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/sync_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SyncProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/sync_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SyncProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SyncProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/sync_profile prowlarr_sync_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/sync_profile prowlarr_sync_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SyncProfile extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_sync_profile',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

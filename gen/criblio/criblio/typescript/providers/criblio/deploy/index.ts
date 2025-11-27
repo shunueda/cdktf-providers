@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/deploy
+// https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/deploy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DeployConfig extends cdktf.TerraformMetaArguments {
   /**
   * Group ID. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/deploy#id Deploy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/deploy#id Deploy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DeployConfig extends cdktf.TerraformMetaArguments {
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/deploy#version Deploy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/deploy#version Deploy#version}
   */
   readonly version: string;
 }
@@ -154,6 +154,11 @@ export class DeployItemsOutputReference extends cdktf.ComplexObject {
     return this.getStringAttribute('id');
   }
 
+  // inherits - computed: true, optional: false, required: false
+  public get inherits() {
+    return this.getStringAttribute('inherits');
+  }
+
   // is_fleet - computed: true, optional: false, required: false
   public get isFleet() {
     return this.getBooleanAttribute('is_fleet');
@@ -220,7 +225,7 @@ export class DeployItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/deploy criblio_deploy}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/deploy criblio_deploy}
 */
 export class Deploy extends cdktf.TerraformResource {
 
@@ -236,7 +241,7 @@ export class Deploy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Deploy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Deploy to import
-  * @param importFromId The id of the existing Deploy that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/deploy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Deploy that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/deploy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Deploy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +253,7 @@ export class Deploy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/deploy criblio_deploy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/deploy criblio_deploy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +264,8 @@ export class Deploy extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_deploy',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.32',
-        providerVersionConstraint: '1.20.32'
+        providerVersion: '1.20.33',
+        providerVersionConstraint: '1.20.33'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

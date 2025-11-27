@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s_kubeconfig
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s_kubeconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface Mk8SKubeconfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the MK8s to create the Kubeconfig for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s_kubeconfig#name Mk8SKubeconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s_kubeconfig#name Mk8SKubeconfig#name}
   */
   readonly name: string;
   /**
   * Profile name to extract the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s_kubeconfig#profile Mk8SKubeconfig#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s_kubeconfig#profile Mk8SKubeconfig#profile}
   */
   readonly profile?: string;
   /**
   * A service account to add a key to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s_kubeconfig#service_account Mk8SKubeconfig#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s_kubeconfig#service_account Mk8SKubeconfig#service_account}
   */
   readonly serviceAccount?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s_kubeconfig cpln_mk8s_kubeconfig}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s_kubeconfig cpln_mk8s_kubeconfig}
 */
 export class Mk8SKubeconfig extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Mk8SKubeconfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Mk8SKubeconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Mk8SKubeconfig to import
-  * @param importFromId The id of the existing Mk8SKubeconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s_kubeconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Mk8SKubeconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s_kubeconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Mk8SKubeconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Mk8SKubeconfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s_kubeconfig cpln_mk8s_kubeconfig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s_kubeconfig cpln_mk8s_kubeconfig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Mk8SKubeconfig extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_mk8s_kubeconfig',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.16',
-        providerVersionConstraint: '1.2.16'
+        providerVersion: '1.2.17',
+        providerVersionConstraint: '1.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

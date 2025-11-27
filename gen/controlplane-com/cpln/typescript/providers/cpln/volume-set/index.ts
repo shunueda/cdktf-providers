@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface VolumeSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the volume set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#description VolumeSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#description VolumeSet#description}
   */
   readonly description?: string;
   /**
   * Each volume set has a single, immutable file system. Valid types: `xfs` or `ext4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#file_system_type VolumeSet#file_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#file_system_type VolumeSet#file_system_type}
   */
   readonly fileSystemType?: string;
   /**
   * Name of the associated GVC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#gvc VolumeSet#gvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#gvc VolumeSet#gvc}
   */
   readonly gvc: string;
   /**
   * The initial volume size in this set, specified in GB. The minimum size for the performance class `general-purpose-ssd` is `10 GB`, while `high-throughput-ssd` requires at least `200 GB`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#initial_capacity VolumeSet#initial_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#initial_capacity VolumeSet#initial_capacity}
   */
   readonly initialCapacity: number;
   /**
   * Name of the volume set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#name VolumeSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#name VolumeSet#name}
   */
   readonly name: string;
   /**
   * Each volume set has a single, immutable, performance class. Valid classes: `general-purpose-ssd` or `high-throughput-ssd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#performance_class VolumeSet#performance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#performance_class VolumeSet#performance_class}
   */
   readonly performanceClass: string;
   /**
   * For self-hosted locations only. The storage class used for volumes in this set will be {performanceClass}-{fileSystemType}-{storageClassSuffix} if it exists, otherwise it will be {performanceClass}-{fileSystemType}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#storage_class_suffix VolumeSet#storage_class_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#storage_class_suffix VolumeSet#storage_class_suffix}
   */
   readonly storageClassSuffix?: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#tags VolumeSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#tags VolumeSet#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#autoscaling VolumeSet#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#autoscaling VolumeSet#autoscaling}
   */
   readonly autoscaling?: VolumeSetAutoscaling[] | cdktf.IResolvable;
   /**
   * custom_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#custom_encryption VolumeSet#custom_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#custom_encryption VolumeSet#custom_encryption}
   */
   readonly customEncryption?: VolumeSetCustomEncryption[] | cdktf.IResolvable;
   /**
   * mount_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#mount_options VolumeSet#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#mount_options VolumeSet#mount_options}
   */
   readonly mountOptions?: VolumeSetMountOptions[] | cdktf.IResolvable;
   /**
   * snapshots block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#snapshots VolumeSet#snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#snapshots VolumeSet#snapshots}
   */
   readonly snapshots?: VolumeSetSnapshots[] | cdktf.IResolvable;
 }
@@ -179,19 +179,19 @@ export interface VolumeSetAutoscaling {
   /**
   * The maximum size in GB for a volume in this set. A volume cannot grow to be bigger than this value. Minimum value: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#max_capacity VolumeSet#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#max_capacity VolumeSet#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
   * The guaranteed free space on the volume as a percentage of the volume's total size. Control Plane will try to maintain at least that many percent free by scaling up the total size. Minimum percentage: `1`. Maximum Percentage: `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#min_free_percentage VolumeSet#min_free_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#min_free_percentage VolumeSet#min_free_percentage}
   */
   readonly minFreePercentage?: number;
   /**
   * When scaling is necessary, then `new_capacity = current_capacity * storageScalingFactor`. Minimum value: `1.1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#scaling_factor VolumeSet#scaling_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#scaling_factor VolumeSet#scaling_factor}
   */
   readonly scalingFactor?: number;
 }
@@ -365,7 +365,7 @@ export class VolumeSetAutoscalingList extends cdktf.ComplexList {
 }
 export interface VolumeSetCustomEncryptionRegions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#key_id VolumeSet#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#key_id VolumeSet#key_id}
   */
   readonly keyId: string;
 }
@@ -478,7 +478,7 @@ export interface VolumeSetCustomEncryption {
   /**
   * Map of region identifiers to encryption key configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#regions VolumeSet#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#regions VolumeSet#regions}
   */
   readonly regions: { [key: string]: VolumeSetCustomEncryptionRegions } | cdktf.IResolvable;
 }
@@ -591,19 +591,19 @@ export class VolumeSetCustomEncryptionList extends cdktf.ComplexList {
 }
 export interface VolumeSetMountOptionsResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#max_cpu VolumeSet#max_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#max_cpu VolumeSet#max_cpu}
   */
   readonly maxCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#max_memory VolumeSet#max_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#max_memory VolumeSet#max_memory}
   */
   readonly maxMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#min_cpu VolumeSet#min_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#min_cpu VolumeSet#min_cpu}
   */
   readonly minCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#min_memory VolumeSet#min_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#min_memory VolumeSet#min_memory}
   */
   readonly minMemory?: string;
 }
@@ -808,7 +808,7 @@ export interface VolumeSetMountOptions {
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#resources VolumeSet#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#resources VolumeSet#resources}
   */
   readonly resources?: VolumeSetMountOptionsResources[] | cdktf.IResolvable;
 }
@@ -926,19 +926,19 @@ export interface VolumeSetSnapshots {
   /**
   * If true, a volume snapshot will be created immediately before deletion of any volume in this set. Default: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#create_final_snapshot VolumeSet#create_final_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#create_final_snapshot VolumeSet#create_final_snapshot}
   */
   readonly createFinalSnapshot?: boolean | cdktf.IResolvable;
   /**
   * The default retention period for volume snapshots. This string should contain a floating point number followed by either d, h, or m. For example, "10d" would retain snapshots for 10 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#retention_duration VolumeSet#retention_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#retention_duration VolumeSet#retention_duration}
   */
   readonly retentionDuration?: string;
   /**
   * A standard cron schedule expression used to determine when a snapshot will be taken. (i.e., `0 * * * *` Every hour). Note: snapshots cannot be scheduled more often than once per hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#schedule VolumeSet#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#schedule VolumeSet#schedule}
   */
   readonly schedule?: string;
 }
@@ -1112,7 +1112,7 @@ export class VolumeSetSnapshotsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set cpln_volume_set}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set cpln_volume_set}
 */
 export class VolumeSet extends cdktf.TerraformResource {
 
@@ -1128,7 +1128,7 @@ export class VolumeSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VolumeSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VolumeSet to import
-  * @param importFromId The id of the existing VolumeSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VolumeSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VolumeSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1140,7 +1140,7 @@ export class VolumeSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/volume_set cpln_volume_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/volume_set cpln_volume_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1151,8 +1151,8 @@ export class VolumeSet extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_volume_set',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.16',
-        providerVersionConstraint: '1.2.16'
+        providerVersion: '1.2.17',
+        providerVersionConstraint: '1.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

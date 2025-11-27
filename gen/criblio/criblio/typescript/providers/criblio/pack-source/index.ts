@@ -240,260 +240,260 @@ export interface PackSourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * group Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#group_id PackSource#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#group_id PackSource#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to create pack source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#id PackSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#id PackSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_appscope PackSource#input_appscope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_appscope PackSource#input_appscope}
   */
   readonly inputAppscope?: PackSourceInputAppscope;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_azure_blob PackSource#input_azure_blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_azure_blob PackSource#input_azure_blob}
   */
   readonly inputAzureBlob?: PackSourceInputAzureBlob;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_collection PackSource#input_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_collection PackSource#input_collection}
   */
   readonly inputCollection?: PackSourceInputCollection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_confluent_cloud PackSource#input_confluent_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_confluent_cloud PackSource#input_confluent_cloud}
   */
   readonly inputConfluentCloud?: PackSourceInputConfluentCloud;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_cribl PackSource#input_cribl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_cribl PackSource#input_cribl}
   */
   readonly inputCribl?: PackSourceInputCribl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_cribl_http PackSource#input_cribl_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_cribl_http PackSource#input_cribl_http}
   */
   readonly inputCriblHttp?: PackSourceInputCriblHttp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_cribl_lake_http PackSource#input_cribl_lake_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_cribl_lake_http PackSource#input_cribl_lake_http}
   */
   readonly inputCriblLakeHttp?: PackSourceInputCriblLakeHttp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_cribl_tcp PackSource#input_cribl_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_cribl_tcp PackSource#input_cribl_tcp}
   */
   readonly inputCriblTcp?: PackSourceInputCriblTcp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_criblmetrics PackSource#input_criblmetrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_criblmetrics PackSource#input_criblmetrics}
   */
   readonly inputCriblmetrics?: PackSourceInputCriblmetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_crowdstrike PackSource#input_crowdstrike}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_crowdstrike PackSource#input_crowdstrike}
   */
   readonly inputCrowdstrike?: PackSourceInputCrowdstrike;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_datadog_agent PackSource#input_datadog_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_datadog_agent PackSource#input_datadog_agent}
   */
   readonly inputDatadogAgent?: PackSourceInputDatadogAgent;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_datagen PackSource#input_datagen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_datagen PackSource#input_datagen}
   */
   readonly inputDatagen?: PackSourceInputDatagen;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_edge_prometheus PackSource#input_edge_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_edge_prometheus PackSource#input_edge_prometheus}
   */
   readonly inputEdgePrometheus?: PackSourceInputEdgePrometheus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_elastic PackSource#input_elastic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_elastic PackSource#input_elastic}
   */
   readonly inputElastic?: PackSourceInputElastic;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_eventhub PackSource#input_eventhub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_eventhub PackSource#input_eventhub}
   */
   readonly inputEventhub?: PackSourceInputEventhub;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_exec PackSource#input_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_exec PackSource#input_exec}
   */
   readonly inputExec?: PackSourceInputExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_file PackSource#input_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_file PackSource#input_file}
   */
   readonly inputFile?: PackSourceInputFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_firehose PackSource#input_firehose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_firehose PackSource#input_firehose}
   */
   readonly inputFirehose?: PackSourceInputFirehose;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_google_pubsub PackSource#input_google_pubsub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_google_pubsub PackSource#input_google_pubsub}
   */
   readonly inputGooglePubsub?: PackSourceInputGooglePubsub;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_grafana PackSource#input_grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_grafana PackSource#input_grafana}
   */
   readonly inputGrafana?: PackSourceInputGrafana;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_http PackSource#input_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_http PackSource#input_http}
   */
   readonly inputHttp?: PackSourceInputHttp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_http_raw PackSource#input_http_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_http_raw PackSource#input_http_raw}
   */
   readonly inputHttpRaw?: PackSourceInputHttpRaw;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_journal_files PackSource#input_journal_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_journal_files PackSource#input_journal_files}
   */
   readonly inputJournalFiles?: PackSourceInputJournalFiles;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_kafka PackSource#input_kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_kafka PackSource#input_kafka}
   */
   readonly inputKafka?: PackSourceInputKafka;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_kinesis PackSource#input_kinesis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_kinesis PackSource#input_kinesis}
   */
   readonly inputKinesis?: PackSourceInputKinesis;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_kube_events PackSource#input_kube_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_kube_events PackSource#input_kube_events}
   */
   readonly inputKubeEvents?: PackSourceInputKubeEvents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_kube_logs PackSource#input_kube_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_kube_logs PackSource#input_kube_logs}
   */
   readonly inputKubeLogs?: PackSourceInputKubeLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_kube_metrics PackSource#input_kube_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_kube_metrics PackSource#input_kube_metrics}
   */
   readonly inputKubeMetrics?: PackSourceInputKubeMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_loki PackSource#input_loki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_loki PackSource#input_loki}
   */
   readonly inputLoki?: PackSourceInputLoki;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_metrics PackSource#input_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_metrics PackSource#input_metrics}
   */
   readonly inputMetrics?: PackSourceInputMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_model_driven_telemetry PackSource#input_model_driven_telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_model_driven_telemetry PackSource#input_model_driven_telemetry}
   */
   readonly inputModelDrivenTelemetry?: PackSourceInputModelDrivenTelemetry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_msk PackSource#input_msk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_msk PackSource#input_msk}
   */
   readonly inputMsk?: PackSourceInputMsk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_netflow PackSource#input_netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_netflow PackSource#input_netflow}
   */
   readonly inputNetflow?: PackSourceInputNetflow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_office365_mgmt PackSource#input_office365_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_office365_mgmt PackSource#input_office365_mgmt}
   */
   readonly inputOffice365Mgmt?: PackSourceInputOffice365Mgmt;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_office365_msg_trace PackSource#input_office365_msg_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_office365_msg_trace PackSource#input_office365_msg_trace}
   */
   readonly inputOffice365MsgTrace?: PackSourceInputOffice365MsgTrace;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_office365_service PackSource#input_office365_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_office365_service PackSource#input_office365_service}
   */
   readonly inputOffice365Service?: PackSourceInputOffice365Service;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_open_telemetry PackSource#input_open_telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_open_telemetry PackSource#input_open_telemetry}
   */
   readonly inputOpenTelemetry?: PackSourceInputOpenTelemetry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_prometheus PackSource#input_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_prometheus PackSource#input_prometheus}
   */
   readonly inputPrometheus?: PackSourceInputPrometheus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_prometheus_rw PackSource#input_prometheus_rw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_prometheus_rw PackSource#input_prometheus_rw}
   */
   readonly inputPrometheusRw?: PackSourceInputPrometheusRw;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_raw_udp PackSource#input_raw_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_raw_udp PackSource#input_raw_udp}
   */
   readonly inputRawUdp?: PackSourceInputRawUdp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_s3 PackSource#input_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_s3 PackSource#input_s3}
   */
   readonly inputS3?: PackSourceInputS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_s3_inventory PackSource#input_s3_inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_s3_inventory PackSource#input_s3_inventory}
   */
   readonly inputS3Inventory?: PackSourceInputS3Inventory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_security_lake PackSource#input_security_lake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_security_lake PackSource#input_security_lake}
   */
   readonly inputSecurityLake?: PackSourceInputSecurityLake;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_snmp PackSource#input_snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_snmp PackSource#input_snmp}
   */
   readonly inputSnmp?: PackSourceInputSnmp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_splunk PackSource#input_splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_splunk PackSource#input_splunk}
   */
   readonly inputSplunk?: PackSourceInputSplunk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_splunk_hec PackSource#input_splunk_hec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_splunk_hec PackSource#input_splunk_hec}
   */
   readonly inputSplunkHec?: PackSourceInputSplunkHec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_splunk_search PackSource#input_splunk_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_splunk_search PackSource#input_splunk_search}
   */
   readonly inputSplunkSearch?: PackSourceInputSplunkSearch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_sqs PackSource#input_sqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_sqs PackSource#input_sqs}
   */
   readonly inputSqs?: PackSourceInputSqs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_syslog PackSource#input_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_syslog PackSource#input_syslog}
   */
   readonly inputSyslog?: PackSourceInputSyslog;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_system_metrics PackSource#input_system_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_system_metrics PackSource#input_system_metrics}
   */
   readonly inputSystemMetrics?: PackSourceInputSystemMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_system_state PackSource#input_system_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_system_state PackSource#input_system_state}
   */
   readonly inputSystemState?: PackSourceInputSystemState;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_tcp PackSource#input_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_tcp PackSource#input_tcp}
   */
   readonly inputTcp?: PackSourceInputTcp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_tcpjson PackSource#input_tcpjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_tcpjson PackSource#input_tcpjson}
   */
   readonly inputTcpjson?: PackSourceInputTcpjson;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_wef PackSource#input_wef}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_wef PackSource#input_wef}
   */
   readonly inputWef?: PackSourceInputWef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_win_event_logs PackSource#input_win_event_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_win_event_logs PackSource#input_win_event_logs}
   */
   readonly inputWinEventLogs?: PackSourceInputWinEventLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_windows_metrics PackSource#input_windows_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_windows_metrics PackSource#input_windows_metrics}
   */
   readonly inputWindowsMetrics?: PackSourceInputWindowsMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_wiz PackSource#input_wiz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_wiz PackSource#input_wiz}
   */
   readonly inputWiz?: PackSourceInputWiz;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#input_zscaler_hec PackSource#input_zscaler_hec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#input_zscaler_hec PackSource#input_zscaler_hec}
   */
   readonly inputZscalerHec?: PackSourceInputZscalerHec;
   /**
   * pack inputs to POST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#pack PackSource#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#pack PackSource#pack}
   */
   readonly pack: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source criblio_pack_source}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source criblio_pack_source}
 */
 export class PackSource extends cdktf.TerraformResource {
 
@@ -509,7 +509,7 @@ export class PackSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackSource to import
-  * @param importFromId The id of the existing PackSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -521,7 +521,7 @@ export class PackSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_source criblio_pack_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/pack_source criblio_pack_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -532,8 +532,8 @@ export class PackSource extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_pack_source',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.32',
-        providerVersionConstraint: '1.20.32'
+        providerVersion: '1.20.33',
+        providerVersionConstraint: '1.20.33'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

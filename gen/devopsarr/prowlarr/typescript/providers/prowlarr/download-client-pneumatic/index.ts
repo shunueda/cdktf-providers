@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_pneumatic
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_pneumatic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DownloadClientPneumaticConfig extends cdktf.TerraformMetaArgume
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_pneumatic#enable DownloadClientPneumatic#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_pneumatic#enable DownloadClientPneumatic#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_pneumatic#name DownloadClientPneumatic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_pneumatic#name DownloadClientPneumatic#name}
   */
   readonly name: string;
   /**
   * NZB folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_pneumatic#nzb_folder DownloadClientPneumatic#nzb_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_pneumatic#nzb_folder DownloadClientPneumatic#nzb_folder}
   */
   readonly nzbFolder: string;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_pneumatic#priority DownloadClientPneumatic#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_pneumatic#priority DownloadClientPneumatic#priority}
   */
   readonly priority?: number;
   /**
   * STRM folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_pneumatic#strm_folder DownloadClientPneumatic#strm_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_pneumatic#strm_folder DownloadClientPneumatic#strm_folder}
   */
   readonly strmFolder: string;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_pneumatic#tags DownloadClientPneumatic#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_pneumatic#tags DownloadClientPneumatic#tags}
   */
   readonly tags?: number[];
 }
@@ -48,13 +48,13 @@ export interface DownloadClientPneumaticCategories {
   /**
   * List of categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_pneumatic#categories DownloadClientPneumatic#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_pneumatic#categories DownloadClientPneumatic#categories}
   */
   readonly categories?: number[];
   /**
   * Name of client category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_pneumatic#name DownloadClientPneumatic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_pneumatic#name DownloadClientPneumatic#name}
   */
   readonly name?: string;
 }
@@ -189,7 +189,7 @@ export class DownloadClientPneumaticCategoriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_pneumatic prowlarr_download_client_pneumatic}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_pneumatic prowlarr_download_client_pneumatic}
 */
 export class DownloadClientPneumatic extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class DownloadClientPneumatic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientPneumatic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientPneumatic to import
-  * @param importFromId The id of the existing DownloadClientPneumatic that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_pneumatic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientPneumatic that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_pneumatic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientPneumatic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class DownloadClientPneumatic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_pneumatic prowlarr_download_client_pneumatic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_pneumatic prowlarr_download_client_pneumatic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class DownloadClientPneumatic extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_download_client_pneumatic',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

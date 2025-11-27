@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface DownloadClientTransmissionConfig extends cdktf.TerraformMetaArg
   /**
   * Add paused flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#add_paused DownloadClientTransmission#add_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#add_paused DownloadClientTransmission#add_paused}
   */
   readonly addPaused?: boolean | cdktf.IResolvable;
   /**
   * List of mapped categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#categories DownloadClientTransmission#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#categories DownloadClientTransmission#categories}
   */
   readonly categories?: DownloadClientTransmissionCategories[] | cdktf.IResolvable;
   /**
   * Category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#category DownloadClientTransmission#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#category DownloadClientTransmission#category}
   */
   readonly category?: string;
   /**
   * Directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#directory DownloadClientTransmission#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#directory DownloadClientTransmission#directory}
   */
   readonly directory?: string;
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#enable DownloadClientTransmission#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#enable DownloadClientTransmission#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#host DownloadClientTransmission#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#host DownloadClientTransmission#host}
   */
   readonly host?: string;
   /**
   * Priority. `0` Last, `1` First.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#item_priority DownloadClientTransmission#item_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#item_priority DownloadClientTransmission#item_priority}
   */
   readonly itemPriority?: number;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#name DownloadClientTransmission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#name DownloadClientTransmission#name}
   */
   readonly name: string;
   /**
   * password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#password DownloadClientTransmission#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#password DownloadClientTransmission#password}
   */
   readonly password?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#port DownloadClientTransmission#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#port DownloadClientTransmission#port}
   */
   readonly port?: number;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#priority DownloadClientTransmission#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#priority DownloadClientTransmission#priority}
   */
   readonly priority?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#tags DownloadClientTransmission#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#tags DownloadClientTransmission#tags}
   */
   readonly tags?: number[];
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#url_base DownloadClientTransmission#url_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#url_base DownloadClientTransmission#url_base}
   */
   readonly urlBase?: string;
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#use_ssl DownloadClientTransmission#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#use_ssl DownloadClientTransmission#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#username DownloadClientTransmission#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#username DownloadClientTransmission#username}
   */
   readonly username?: string;
 }
@@ -102,13 +102,13 @@ export interface DownloadClientTransmissionCategories {
   /**
   * List of categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#categories DownloadClientTransmission#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#categories DownloadClientTransmission#categories}
   */
   readonly categories?: number[];
   /**
   * Name of client category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#name DownloadClientTransmission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#name DownloadClientTransmission#name}
   */
   readonly name?: string;
 }
@@ -253,7 +253,7 @@ export class DownloadClientTransmissionCategoriesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission prowlarr_download_client_transmission}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission prowlarr_download_client_transmission}
 */
 export class DownloadClientTransmission extends cdktf.TerraformResource {
 
@@ -269,7 +269,7 @@ export class DownloadClientTransmission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientTransmission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientTransmission to import
-  * @param importFromId The id of the existing DownloadClientTransmission that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientTransmission that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientTransmission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -281,7 +281,7 @@ export class DownloadClientTransmission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_transmission prowlarr_download_client_transmission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_transmission prowlarr_download_client_transmission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -292,8 +292,8 @@ export class DownloadClientTransmission extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_download_client_transmission',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

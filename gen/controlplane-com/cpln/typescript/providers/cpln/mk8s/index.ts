@@ -64,113 +64,113 @@ export interface Mk8SConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the mk8s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#description Mk8S#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#description Mk8S#description}
   */
   readonly description?: string;
   /**
   * Name of the mk8s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#name Mk8S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#name Mk8S#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#tags Mk8S#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#tags Mk8S#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#version Mk8S#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#version Mk8S#version}
   */
   readonly version: string;
   /**
   * add_ons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#add_ons Mk8S#add_ons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#add_ons Mk8S#add_ons}
   */
   readonly addOns?: Mk8SAddOns[] | cdktf.IResolvable;
   /**
   * aws_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#aws_provider Mk8S#aws_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#aws_provider Mk8S#aws_provider}
   */
   readonly awsProvider?: Mk8SAwsProvider[] | cdktf.IResolvable;
   /**
   * azure_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#azure_provider Mk8S#azure_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#azure_provider Mk8S#azure_provider}
   */
   readonly azureProvider?: Mk8SAzureProvider[] | cdktf.IResolvable;
   /**
   * digital_ocean_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#digital_ocean_provider Mk8S#digital_ocean_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#digital_ocean_provider Mk8S#digital_ocean_provider}
   */
   readonly digitalOceanProvider?: Mk8SDigitalOceanProvider[] | cdktf.IResolvable;
   /**
   * ephemeral_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#ephemeral_provider Mk8S#ephemeral_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#ephemeral_provider Mk8S#ephemeral_provider}
   */
   readonly ephemeralProvider?: Mk8SEphemeralProvider[] | cdktf.IResolvable;
   /**
   * firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#firewall Mk8S#firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#firewall Mk8S#firewall}
   */
   readonly firewall?: Mk8SFirewall[] | cdktf.IResolvable;
   /**
   * gcp_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#gcp_provider Mk8S#gcp_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#gcp_provider Mk8S#gcp_provider}
   */
   readonly gcpProvider?: Mk8SGcpProvider[] | cdktf.IResolvable;
   /**
   * generic_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#generic_provider Mk8S#generic_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#generic_provider Mk8S#generic_provider}
   */
   readonly genericProvider?: Mk8SGenericProvider[] | cdktf.IResolvable;
   /**
   * hetzner_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#hetzner_provider Mk8S#hetzner_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#hetzner_provider Mk8S#hetzner_provider}
   */
   readonly hetznerProvider?: Mk8SHetznerProvider[] | cdktf.IResolvable;
   /**
   * lambdalabs_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#lambdalabs_provider Mk8S#lambdalabs_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#lambdalabs_provider Mk8S#lambdalabs_provider}
   */
   readonly lambdalabsProvider?: Mk8SLambdalabsProvider[] | cdktf.IResolvable;
   /**
   * linode_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#linode_provider Mk8S#linode_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#linode_provider Mk8S#linode_provider}
   */
   readonly linodeProvider?: Mk8SLinodeProvider[] | cdktf.IResolvable;
   /**
   * oblivus_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#oblivus_provider Mk8S#oblivus_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#oblivus_provider Mk8S#oblivus_provider}
   */
   readonly oblivusProvider?: Mk8SOblivusProvider[] | cdktf.IResolvable;
   /**
   * paperspace_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#paperspace_provider Mk8S#paperspace_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#paperspace_provider Mk8S#paperspace_provider}
   */
   readonly paperspaceProvider?: Mk8SPaperspaceProvider[] | cdktf.IResolvable;
   /**
   * triton_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#triton_provider Mk8S#triton_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#triton_provider Mk8S#triton_provider}
   */
   readonly tritonProvider?: Mk8STritonProvider[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s cpln_mk8s}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s cpln_mk8s}
 */
 export class Mk8S extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class Mk8S extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Mk8S resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Mk8S to import
-  * @param importFromId The id of the existing Mk8S that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Mk8S that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Mk8S to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class Mk8S extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/mk8s cpln_mk8s} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s cpln_mk8s} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class Mk8S extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_mk8s',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.16',
-        providerVersionConstraint: '1.2.16'
+        providerVersion: '1.2.17',
+        providerVersionConstraint: '1.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

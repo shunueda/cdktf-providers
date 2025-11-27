@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "harbor": "3.11.2"
+    "harbor": "3.11.3"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface DownloadClientSabnzbdConfig extends cdktf.TerraformMetaArgument
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#api_key DownloadClientSabnzbd#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#api_key DownloadClientSabnzbd#api_key}
   */
   readonly apiKey?: string;
   /**
   * Category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#category DownloadClientSabnzbd#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#category DownloadClientSabnzbd#category}
   */
   readonly category?: string;
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#enable DownloadClientSabnzbd#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#enable DownloadClientSabnzbd#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#host DownloadClientSabnzbd#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#host DownloadClientSabnzbd#host}
   */
   readonly host?: string;
   /**
   * Recent Movie priority. `-100` Default, `-2` Paused, `-1` Low, `0` Normal, `1` High, `2` Force.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#item_priority DownloadClientSabnzbd#item_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#item_priority DownloadClientSabnzbd#item_priority}
   */
   readonly itemPriority?: number;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#name DownloadClientSabnzbd#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#name DownloadClientSabnzbd#name}
   */
   readonly name: string;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#password DownloadClientSabnzbd#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#password DownloadClientSabnzbd#password}
   */
   readonly password?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#port DownloadClientSabnzbd#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#port DownloadClientSabnzbd#port}
   */
   readonly port?: number;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#priority DownloadClientSabnzbd#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#priority DownloadClientSabnzbd#priority}
   */
   readonly priority?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#tags DownloadClientSabnzbd#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#tags DownloadClientSabnzbd#tags}
   */
   readonly tags?: number[];
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#url_base DownloadClientSabnzbd#url_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#url_base DownloadClientSabnzbd#url_base}
   */
   readonly urlBase?: string;
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#use_ssl DownloadClientSabnzbd#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#use_ssl DownloadClientSabnzbd#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#username DownloadClientSabnzbd#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#username DownloadClientSabnzbd#username}
   */
   readonly username?: string;
 }
@@ -90,13 +90,13 @@ export interface DownloadClientSabnzbdCategories {
   /**
   * List of categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#categories DownloadClientSabnzbd#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#categories DownloadClientSabnzbd#categories}
   */
   readonly categories?: number[];
   /**
   * Name of client category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#name DownloadClientSabnzbd#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#name DownloadClientSabnzbd#name}
   */
   readonly name?: string;
 }
@@ -231,7 +231,7 @@ export class DownloadClientSabnzbdCategoriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd prowlarr_download_client_sabnzbd}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd prowlarr_download_client_sabnzbd}
 */
 export class DownloadClientSabnzbd extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class DownloadClientSabnzbd extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientSabnzbd resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientSabnzbd to import
-  * @param importFromId The id of the existing DownloadClientSabnzbd that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientSabnzbd that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientSabnzbd to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class DownloadClientSabnzbd extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_sabnzbd prowlarr_download_client_sabnzbd} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_sabnzbd prowlarr_download_client_sabnzbd} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class DownloadClientSabnzbd extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_download_client_sabnzbd',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

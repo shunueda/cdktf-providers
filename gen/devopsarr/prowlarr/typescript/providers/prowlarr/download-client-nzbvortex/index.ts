@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DownloadClientNzbvortexConfig extends cdktf.TerraformMetaArgume
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#api_key DownloadClientNzbvortex#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#api_key DownloadClientNzbvortex#api_key}
   */
   readonly apiKey: string;
   /**
   * Category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#category DownloadClientNzbvortex#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#category DownloadClientNzbvortex#category}
   */
   readonly category?: string;
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#enable DownloadClientNzbvortex#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#enable DownloadClientNzbvortex#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#host DownloadClientNzbvortex#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#host DownloadClientNzbvortex#host}
   */
   readonly host?: string;
   /**
   * Recent Movie priority. `-1` Low, `0` Normal, `1` High.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#item_priority DownloadClientNzbvortex#item_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#item_priority DownloadClientNzbvortex#item_priority}
   */
   readonly itemPriority?: number;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#name DownloadClientNzbvortex#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#name DownloadClientNzbvortex#name}
   */
   readonly name: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#port DownloadClientNzbvortex#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#port DownloadClientNzbvortex#port}
   */
   readonly port?: number;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#priority DownloadClientNzbvortex#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#priority DownloadClientNzbvortex#priority}
   */
   readonly priority?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#tags DownloadClientNzbvortex#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#tags DownloadClientNzbvortex#tags}
   */
   readonly tags?: number[];
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#url_base DownloadClientNzbvortex#url_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#url_base DownloadClientNzbvortex#url_base}
   */
   readonly urlBase?: string;
 }
@@ -72,13 +72,13 @@ export interface DownloadClientNzbvortexCategories {
   /**
   * List of categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#categories DownloadClientNzbvortex#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#categories DownloadClientNzbvortex#categories}
   */
   readonly categories?: number[];
   /**
   * Name of client category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#name DownloadClientNzbvortex#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#name DownloadClientNzbvortex#name}
   */
   readonly name?: string;
 }
@@ -213,7 +213,7 @@ export class DownloadClientNzbvortexCategoriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex prowlarr_download_client_nzbvortex}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex prowlarr_download_client_nzbvortex}
 */
 export class DownloadClientNzbvortex extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class DownloadClientNzbvortex extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientNzbvortex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientNzbvortex to import
-  * @param importFromId The id of the existing DownloadClientNzbvortex that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientNzbvortex that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientNzbvortex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class DownloadClientNzbvortex extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_nzbvortex prowlarr_download_client_nzbvortex} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_nzbvortex prowlarr_download_client_nzbvortex} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class DownloadClientNzbvortex extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_download_client_nzbvortex',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

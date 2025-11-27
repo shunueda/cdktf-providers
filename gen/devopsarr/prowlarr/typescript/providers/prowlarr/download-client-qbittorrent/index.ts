@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface DownloadClientQbittorrentConfig extends cdktf.TerraformMetaArgu
   /**
   * Category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#category DownloadClientQbittorrent#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#category DownloadClientQbittorrent#category}
   */
   readonly category?: string;
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#enable DownloadClientQbittorrent#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#enable DownloadClientQbittorrent#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#host DownloadClientQbittorrent#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#host DownloadClientQbittorrent#host}
   */
   readonly host?: string;
   /**
   * Initial state, with Stop support. `0` Start, `1` ForceStart, `2` Pause.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#initial_state DownloadClientQbittorrent#initial_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#initial_state DownloadClientQbittorrent#initial_state}
   */
   readonly initialState?: number;
   /**
   * Older Movie priority. `0` Last, `1` First.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#item_priority DownloadClientQbittorrent#item_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#item_priority DownloadClientQbittorrent#item_priority}
   */
   readonly itemPriority?: number;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#name DownloadClientQbittorrent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#name DownloadClientQbittorrent#name}
   */
   readonly name: string;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#password DownloadClientQbittorrent#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#password DownloadClientQbittorrent#password}
   */
   readonly password?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#port DownloadClientQbittorrent#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#port DownloadClientQbittorrent#port}
   */
   readonly port?: number;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#priority DownloadClientQbittorrent#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#priority DownloadClientQbittorrent#priority}
   */
   readonly priority?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#tags DownloadClientQbittorrent#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#tags DownloadClientQbittorrent#tags}
   */
   readonly tags?: number[];
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#url_base DownloadClientQbittorrent#url_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#url_base DownloadClientQbittorrent#url_base}
   */
   readonly urlBase?: string;
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#use_ssl DownloadClientQbittorrent#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#use_ssl DownloadClientQbittorrent#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#username DownloadClientQbittorrent#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#username DownloadClientQbittorrent#username}
   */
   readonly username?: string;
 }
@@ -90,13 +90,13 @@ export interface DownloadClientQbittorrentCategories {
   /**
   * List of categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#categories DownloadClientQbittorrent#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#categories DownloadClientQbittorrent#categories}
   */
   readonly categories?: number[];
   /**
   * Name of client category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#name DownloadClientQbittorrent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#name DownloadClientQbittorrent#name}
   */
   readonly name?: string;
 }
@@ -231,7 +231,7 @@ export class DownloadClientQbittorrentCategoriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent prowlarr_download_client_qbittorrent}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent prowlarr_download_client_qbittorrent}
 */
 export class DownloadClientQbittorrent extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class DownloadClientQbittorrent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientQbittorrent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientQbittorrent to import
-  * @param importFromId The id of the existing DownloadClientQbittorrent that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientQbittorrent that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientQbittorrent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class DownloadClientQbittorrent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_qbittorrent prowlarr_download_client_qbittorrent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_qbittorrent prowlarr_download_client_qbittorrent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class DownloadClientQbittorrent extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_download_client_qbittorrent',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

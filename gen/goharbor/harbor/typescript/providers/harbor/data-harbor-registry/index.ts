@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/data-sources/registry
+// https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/data-sources/registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarborRegistryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/data-sources/registry#id DataHarborRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/data-sources/registry#id DataHarborRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/data-sources/registry#name DataHarborRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/data-sources/registry#name DataHarborRegistry#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/data-sources/registry harbor_registry}
+* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/data-sources/registry harbor_registry}
 */
 export class DataHarborRegistry extends cdktf.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataHarborRegistry extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarborRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarborRegistry to import
-  * @param importFromId The id of the existing DataHarborRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/data-sources/registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarborRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/data-sources/registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarborRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataHarborRegistry extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/data-sources/registry harbor_registry} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/data-sources/registry harbor_registry} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class DataHarborRegistry extends cdktf.TerraformDataSource {
       terraformResourceType: 'harbor_registry',
       terraformGeneratorMetadata: {
         providerName: 'harbor',
-        providerVersion: '3.11.2',
-        providerVersionConstraint: '3.11.2'
+        providerVersion: '3.11.3',
+        providerVersionConstraint: '3.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

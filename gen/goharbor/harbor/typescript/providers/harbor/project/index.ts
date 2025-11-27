@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project
+// https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#auto_sbom_generation Project#auto_sbom_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#auto_sbom_generation Project#auto_sbom_generation}
   */
   readonly autoSbomGeneration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#cve_allowlist Project#cve_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#cve_allowlist Project#cve_allowlist}
   */
   readonly cveAllowlist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#deployment_security Project#deployment_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#deployment_security Project#deployment_security}
   */
   readonly deploymentSecurity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#enable_content_trust Project#enable_content_trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#enable_content_trust Project#enable_content_trust}
   */
   readonly enableContentTrust?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#enable_content_trust_cosign Project#enable_content_trust_cosign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#enable_content_trust_cosign Project#enable_content_trust_cosign}
   */
   readonly enableContentTrustCosign?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#force_destroy Project#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#force_destroy Project#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#id Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#id Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#public Project#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#proxy_speed_kb Project#proxy_speed_kb}
+  */
+  readonly proxySpeedKb?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#public Project#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#registry_id Project#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#registry_id Project#registry_id}
   */
   readonly registryId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#storage_quota Project#storage_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#storage_quota Project#storage_quota}
   */
   readonly storageQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#vulnerability_scanning Project#vulnerability_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#vulnerability_scanning Project#vulnerability_scanning}
   */
   readonly vulnerabilityScanning?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project harbor_project}
+* Represents a {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project harbor_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -77,7 +81,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +93,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.2/docs/resources/project harbor_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/goharbor/harbor/3.11.3/docs/resources/project harbor_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +104,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'harbor_project',
       terraformGeneratorMetadata: {
         providerName: 'harbor',
-        providerVersion: '3.11.2',
-        providerVersionConstraint: '3.11.2'
+        providerVersion: '3.11.3',
+        providerVersionConstraint: '3.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -119,6 +123,7 @@ export class Project extends cdktf.TerraformResource {
     this._forceDestroy = config.forceDestroy;
     this._id = config.id;
     this._name = config.name;
+    this._proxySpeedKb = config.proxySpeedKb;
     this._public = config.public;
     this._registryId = config.registryId;
     this._storageQuota = config.storageQuota;
@@ -259,6 +264,22 @@ export class Project extends cdktf.TerraformResource {
     return this.getNumberAttribute('project_id');
   }
 
+  // proxy_speed_kb - computed: false, optional: true, required: false
+  private _proxySpeedKb?: number; 
+  public get proxySpeedKb() {
+    return this.getNumberAttribute('proxy_speed_kb');
+  }
+  public set proxySpeedKb(value: number) {
+    this._proxySpeedKb = value;
+  }
+  public resetProxySpeedKb() {
+    this._proxySpeedKb = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get proxySpeedKbInput() {
+    return this._proxySpeedKb;
+  }
+
   // public - computed: false, optional: true, required: false
   private _public?: boolean | cdktf.IResolvable; 
   public get public() {
@@ -337,6 +358,7 @@ export class Project extends cdktf.TerraformResource {
       force_destroy: cdktf.booleanToTerraform(this._forceDestroy),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      proxy_speed_kb: cdktf.numberToTerraform(this._proxySpeedKb),
       public: cdktf.booleanToTerraform(this._public),
       registry_id: cdktf.numberToTerraform(this._registryId),
       storage_quota: cdktf.numberToTerraform(this._storageQuota),
@@ -393,6 +415,12 @@ export class Project extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      proxy_speed_kb: {
+        value: cdktf.numberToHclTerraform(this._proxySpeedKb),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       public: {
         value: cdktf.booleanToHclTerraform(this._public),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,61 @@ export interface IndexerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Application profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#app_profile_id Indexer#app_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#app_profile_id Indexer#app_profile_id}
   */
   readonly appProfileId: number;
   /**
   * Indexer configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#config_contract Indexer#config_contract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#config_contract Indexer#config_contract}
   */
   readonly configContract: string;
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#enable Indexer#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#enable Indexer#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set of configuration fields. All non-empty fields must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#fields Indexer#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#fields Indexer#fields}
   */
   readonly fields: IndexerFields[] | cdktf.IResolvable;
   /**
   * Indexer implementation name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#implementation Indexer#implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#implementation Indexer#implementation}
   */
   readonly implementation: string;
   /**
   * Indexer name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#name Indexer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#name Indexer#name}
   */
   readonly name: string;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#priority Indexer#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#priority Indexer#priority}
   */
   readonly priority?: number;
   /**
   * Protocol. Valid values are 'usenet' and 'torrent'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#protocol Indexer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#protocol Indexer#protocol}
   */
   readonly protocol: string;
   /**
+  * Redirect download request from client to indexer instead of proxying via Prowlarr.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#redirect Indexer#redirect}
+  */
+  readonly redirect?: boolean | cdktf.IResolvable;
+  /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#tags Indexer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#tags Indexer#tags}
   */
   readonly tags?: number[];
 }
@@ -66,38 +72,38 @@ export interface IndexerFields {
   /**
   * Bool value. Only one value must be filled out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#bool_value Indexer#bool_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#bool_value Indexer#bool_value}
   */
   readonly boolValue?: boolean | cdktf.IResolvable;
   /**
   * Field name.
   * It must contain the whole field name comprehensive of its prefix (e.g. `baseSettings.`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#name Indexer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#name Indexer#name}
   */
   readonly name: string;
   /**
   * Number value. Only one value must be filled out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#number_value Indexer#number_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#number_value Indexer#number_value}
   */
   readonly numberValue?: number;
   /**
   * Sensitive string value. Only one value must be filled out. This must be used instead of `text_value`, for sensitive fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#sensitive_value Indexer#sensitive_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#sensitive_value Indexer#sensitive_value}
   */
   readonly sensitiveValue?: string;
   /**
   * Set value. Only one value must be filled out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#set_value Indexer#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#set_value Indexer#set_value}
   */
   readonly setValue?: number[];
   /**
   * Text value. Only one value must be filled out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#text_value Indexer#text_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#text_value Indexer#text_value}
   */
   readonly textValue?: string;
 }
@@ -355,7 +361,7 @@ export class IndexerFieldsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer prowlarr_indexer}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer prowlarr_indexer}
 */
 export class Indexer extends cdktf.TerraformResource {
 
@@ -371,7 +377,7 @@ export class Indexer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Indexer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Indexer to import
-  * @param importFromId The id of the existing Indexer that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Indexer that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Indexer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -383,7 +389,7 @@ export class Indexer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/indexer prowlarr_indexer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/indexer prowlarr_indexer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,8 +400,8 @@ export class Indexer extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_indexer',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -413,6 +419,7 @@ export class Indexer extends cdktf.TerraformResource {
     this._name = config.name;
     this._priority = config.priority;
     this._protocol = config.protocol;
+    this._redirect = config.redirect;
     this._tags = config.tags;
   }
 
@@ -545,6 +552,22 @@ export class Indexer extends cdktf.TerraformResource {
     return this._protocol;
   }
 
+  // redirect - computed: true, optional: true, required: false
+  private _redirect?: boolean | cdktf.IResolvable; 
+  public get redirect() {
+    return this.getBooleanAttribute('redirect');
+  }
+  public set redirect(value: boolean | cdktf.IResolvable) {
+    this._redirect = value;
+  }
+  public resetRedirect() {
+    this._redirect = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get redirectInput() {
+    return this._redirect;
+  }
+
   // tags - computed: true, optional: true, required: false
   private _tags?: number[]; 
   public get tags() {
@@ -575,6 +598,7 @@ export class Indexer extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       priority: cdktf.numberToTerraform(this._priority),
       protocol: cdktf.stringToTerraform(this._protocol),
+      redirect: cdktf.booleanToTerraform(this._redirect),
       tags: cdktf.listMapper(cdktf.numberToTerraform, false)(this._tags),
     };
   }
@@ -628,6 +652,12 @@ export class Indexer extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      redirect: {
+        value: cdktf.booleanToHclTerraform(this._redirect),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       tags: {
         value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(this._tags),

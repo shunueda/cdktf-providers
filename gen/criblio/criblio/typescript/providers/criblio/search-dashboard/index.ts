@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard
+// https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface SearchDashboardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#cache_ttl_seconds SearchDashboard#cache_ttl_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#cache_ttl_seconds SearchDashboard#cache_ttl_seconds}
   */
   readonly cacheTtlSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#category SearchDashboard#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#category SearchDashboard#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#created SearchDashboard#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#created SearchDashboard#created}
   */
   readonly created: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#created_by SearchDashboard#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#created_by SearchDashboard#created_by}
   */
   readonly createdBy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#description SearchDashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#description SearchDashboard#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#display_created_by SearchDashboard#display_created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#display_created_by SearchDashboard#display_created_by}
   */
   readonly displayCreatedBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#display_modified_by SearchDashboard#display_modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#display_modified_by SearchDashboard#display_modified_by}
   */
   readonly displayModifiedBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#elements SearchDashboard#elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#elements SearchDashboard#elements}
   */
   readonly elements: SearchDashboardElements[] | cdktf.IResolvable;
   /**
   * Unique ID to PATCH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#id SearchDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#id SearchDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#modified SearchDashboard#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#modified SearchDashboard#modified}
   */
   readonly modified: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#modified_by SearchDashboard#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#modified_by SearchDashboard#modified_by}
   */
   readonly modifiedBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#name SearchDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#name SearchDashboard#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#pack_id SearchDashboard#pack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#pack_id SearchDashboard#pack_id}
   */
   readonly packId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#refresh_rate SearchDashboard#refresh_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#refresh_rate SearchDashboard#refresh_rate}
   */
   readonly refreshRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#resolved_dataset_ids SearchDashboard#resolved_dataset_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#resolved_dataset_ids SearchDashboard#resolved_dataset_ids}
   */
   readonly resolvedDatasetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#schedule SearchDashboard#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#schedule SearchDashboard#schedule}
   */
   readonly schedule?: SearchDashboardSchedule;
 }
@@ -81,25 +81,25 @@ export interface SearchDashboardElementsElementLayout {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#h SearchDashboard#h}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#h SearchDashboard#h}
   */
   readonly h?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#w SearchDashboard#w}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#w SearchDashboard#w}
   */
   readonly w?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#x SearchDashboard#x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#x SearchDashboard#x}
   */
   readonly x?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#y SearchDashboard#y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#y SearchDashboard#y}
   */
   readonly y?: number;
 }
@@ -280,11 +280,11 @@ export class SearchDashboardElementsElementLayoutOutputReference extends cdktf.C
 }
 export interface SearchDashboardElementsElementSearchSearchQueryInlineEarliest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#number SearchDashboard#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#number SearchDashboard#number}
   */
   readonly number?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#str SearchDashboard#str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#str SearchDashboard#str}
   */
   readonly str?: string;
 }
@@ -407,11 +407,11 @@ export class SearchDashboardElementsElementSearchSearchQueryInlineEarliestOutput
 }
 export interface SearchDashboardElementsElementSearchSearchQueryInlineLatest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#number SearchDashboard#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#number SearchDashboard#number}
   */
   readonly number?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#str SearchDashboard#str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#str SearchDashboard#str}
   */
   readonly str?: string;
 }
@@ -534,33 +534,33 @@ export class SearchDashboardElementsElementSearchSearchQueryInlineLatestOutputRe
 }
 export interface SearchDashboardElementsElementSearchSearchQueryInline {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#earliest SearchDashboard#earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#earliest SearchDashboard#earliest}
   */
   readonly earliest?: SearchDashboardElementsElementSearchSearchQueryInlineEarliest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#latest SearchDashboard#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#latest SearchDashboard#latest}
   */
   readonly latest?: SearchDashboardElementsElementSearchSearchQueryInlineLatest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#parent_search_id SearchDashboard#parent_search_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#parent_search_id SearchDashboard#parent_search_id}
   */
   readonly parentSearchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#query SearchDashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#query SearchDashboard#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#sample_rate SearchDashboard#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#sample_rate SearchDashboard#sample_rate}
   */
   readonly sampleRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#timezone SearchDashboard#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#timezone SearchDashboard#timezone}
   */
   readonly timezone?: string;
   /**
   * Not Null; must be "inline"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#type SearchDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#type SearchDashboard#type}
   */
   readonly type?: string;
 }
@@ -828,25 +828,25 @@ export class SearchDashboardElementsElementSearchSearchQueryInlineOutputReferenc
 }
 export interface SearchDashboardElementsElementSearchSearchQuerySaved {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#query SearchDashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#query SearchDashboard#query}
   */
   readonly query?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#query_id SearchDashboard#query_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#query_id SearchDashboard#query_id}
   */
   readonly queryId?: string;
   /**
   * must be one of ["newSearch", "lastRun"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#run_mode SearchDashboard#run_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#run_mode SearchDashboard#run_mode}
   */
   readonly runMode?: string;
   /**
   * Not Null; must be "saved"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#type SearchDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#type SearchDashboard#type}
   */
   readonly type?: string;
 }
@@ -1029,13 +1029,13 @@ export interface SearchDashboardElementsElementSearchSearchQueryValues {
   /**
   * Not Null; must be "values"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#type SearchDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#type SearchDashboard#type}
   */
   readonly type?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#values SearchDashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#values SearchDashboard#values}
   */
   readonly values?: string[];
 }
@@ -1158,15 +1158,15 @@ export class SearchDashboardElementsElementSearchSearchQueryValuesOutputReferenc
 }
 export interface SearchDashboardElementsElementSearch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#search_query_inline SearchDashboard#search_query_inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#search_query_inline SearchDashboard#search_query_inline}
   */
   readonly searchQueryInline?: SearchDashboardElementsElementSearchSearchQueryInline;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#search_query_saved SearchDashboard#search_query_saved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#search_query_saved SearchDashboard#search_query_saved}
   */
   readonly searchQuerySaved?: SearchDashboardElementsElementSearchSearchQuerySaved;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#search_query_values SearchDashboard#search_query_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#search_query_values SearchDashboard#search_query_values}
   */
   readonly searchQueryValues?: SearchDashboardElementsElementSearchSearchQueryValues;
 }
@@ -1318,68 +1318,68 @@ export class SearchDashboardElementsElementSearchOutputReference extends cdktf.C
 }
 export interface SearchDashboardElementsElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#description SearchDashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#description SearchDashboard#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#empty SearchDashboard#empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#empty SearchDashboard#empty}
   */
   readonly empty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#hide_panel SearchDashboard#hide_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#hide_panel SearchDashboard#hide_panel}
   */
   readonly hidePanel?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#horizontal_chart SearchDashboard#horizontal_chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#horizontal_chart SearchDashboard#horizontal_chart}
   */
   readonly horizontalChart?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#id SearchDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#id SearchDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#index SearchDashboard#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#index SearchDashboard#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#input_id SearchDashboard#input_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#input_id SearchDashboard#input_id}
   */
   readonly inputId?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#layout SearchDashboard#layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#layout SearchDashboard#layout}
   */
   readonly layout?: SearchDashboardElementsElementLayout;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#search SearchDashboard#search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#search SearchDashboard#search}
   */
   readonly search?: SearchDashboardElementsElementSearch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#title SearchDashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#title SearchDashboard#title}
   */
   readonly title?: string;
   /**
   * Not Null; must be one of ["chart.line", "chart.column", "chart.horizontalBar", "chart.area", "chart.scatter", "chart.pie", "chart.funnel", "chart.gauge", "chart.map", "list.events", "list.table", "counter.single", "input.timerange", "input.dropdown", "input.text", "input.number"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#type SearchDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#type SearchDashboard#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#value SearchDashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#value SearchDashboard#value}
   */
   readonly value?: { [key: string]: string };
   /**
   * must be one of ["visualization", "input", "markdown"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#variant SearchDashboard#variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#variant SearchDashboard#variant}
   */
   readonly variant?: string;
 }
@@ -1823,25 +1823,25 @@ export interface SearchDashboardElementsElementMarkdownLayout {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#h SearchDashboard#h}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#h SearchDashboard#h}
   */
   readonly h?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#w SearchDashboard#w}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#w SearchDashboard#w}
   */
   readonly w?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#x SearchDashboard#x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#x SearchDashboard#x}
   */
   readonly x?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#y SearchDashboard#y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#y SearchDashboard#y}
   */
   readonly y?: number;
 }
@@ -2022,54 +2022,54 @@ export class SearchDashboardElementsElementMarkdownLayoutOutputReference extends
 }
 export interface SearchDashboardElementsElementMarkdown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#description SearchDashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#description SearchDashboard#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#empty SearchDashboard#empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#empty SearchDashboard#empty}
   */
   readonly empty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#hide_panel SearchDashboard#hide_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#hide_panel SearchDashboard#hide_panel}
   */
   readonly hidePanel?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#id SearchDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#id SearchDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#index SearchDashboard#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#index SearchDashboard#index}
   */
   readonly index?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#layout SearchDashboard#layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#layout SearchDashboard#layout}
   */
   readonly layout?: SearchDashboardElementsElementMarkdownLayout;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#title SearchDashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#title SearchDashboard#title}
   */
   readonly title?: string;
   /**
   * Not Null; must be "markdown.default"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#type SearchDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#type SearchDashboard#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#value SearchDashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#value SearchDashboard#value}
   */
   readonly value?: string;
   /**
   * Not Null; must be "markdown"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#variant SearchDashboard#variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#variant SearchDashboard#variant}
   */
   readonly variant?: string;
 }
@@ -2424,11 +2424,11 @@ export class SearchDashboardElementsElementMarkdownOutputReference extends cdktf
 }
 export interface SearchDashboardElements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#element SearchDashboard#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#element SearchDashboard#element}
   */
   readonly element?: SearchDashboardElementsElement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#element_markdown SearchDashboard#element_markdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#element_markdown SearchDashboard#element_markdown}
   */
   readonly elementMarkdown?: SearchDashboardElementsElementMarkdown;
 }
@@ -2575,7 +2575,7 @@ export interface SearchDashboardScheduleNotifications {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#disabled SearchDashboard#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#disabled SearchDashboard#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -2671,31 +2671,31 @@ export interface SearchDashboardSchedule {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#cron_schedule SearchDashboard#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#cron_schedule SearchDashboard#cron_schedule}
   */
   readonly cronSchedule?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#enabled SearchDashboard#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#enabled SearchDashboard#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#keep_last_n SearchDashboard#keep_last_n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#keep_last_n SearchDashboard#keep_last_n}
   */
   readonly keepLastN?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#notifications SearchDashboard#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#notifications SearchDashboard#notifications}
   */
   readonly notifications?: SearchDashboardScheduleNotifications;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#tz SearchDashboard#tz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#tz SearchDashboard#tz}
   */
   readonly tz?: string;
 }
@@ -2905,7 +2905,7 @@ export class SearchDashboardScheduleOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard criblio_search_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard criblio_search_dashboard}
 */
 export class SearchDashboard extends cdktf.TerraformResource {
 
@@ -2921,7 +2921,7 @@ export class SearchDashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SearchDashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SearchDashboard to import
-  * @param importFromId The id of the existing SearchDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SearchDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SearchDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2933,7 +2933,7 @@ export class SearchDashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/search_dashboard criblio_search_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/resources/search_dashboard criblio_search_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2944,8 +2944,8 @@ export class SearchDashboard extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_search_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.32',
-        providerVersionConstraint: '1.20.32'
+        providerVersion: '1.20.33',
+        providerVersionConstraint: '1.20.33'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

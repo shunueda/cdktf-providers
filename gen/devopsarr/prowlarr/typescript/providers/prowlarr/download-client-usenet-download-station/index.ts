@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station
+// https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DownloadClientUsenetDownloadStationConfig extends cdktf.Terrafo
   /**
   * Category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#category DownloadClientUsenetDownloadStation#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#category DownloadClientUsenetDownloadStation#category}
   */
   readonly category?: string;
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#enable DownloadClientUsenetDownloadStation#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#enable DownloadClientUsenetDownloadStation#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#host DownloadClientUsenetDownloadStation#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#host DownloadClientUsenetDownloadStation#host}
   */
   readonly host?: string;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#name DownloadClientUsenetDownloadStation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#name DownloadClientUsenetDownloadStation#name}
   */
   readonly name: string;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#password DownloadClientUsenetDownloadStation#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#password DownloadClientUsenetDownloadStation#password}
   */
   readonly password?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#port DownloadClientUsenetDownloadStation#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#port DownloadClientUsenetDownloadStation#port}
   */
   readonly port?: number;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#priority DownloadClientUsenetDownloadStation#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#priority DownloadClientUsenetDownloadStation#priority}
   */
   readonly priority?: number;
   /**
   * Directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#station_directory DownloadClientUsenetDownloadStation#station_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#station_directory DownloadClientUsenetDownloadStation#station_directory}
   */
   readonly stationDirectory?: string;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#tags DownloadClientUsenetDownloadStation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#tags DownloadClientUsenetDownloadStation#tags}
   */
   readonly tags?: number[];
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#use_ssl DownloadClientUsenetDownloadStation#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#use_ssl DownloadClientUsenetDownloadStation#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#username DownloadClientUsenetDownloadStation#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#username DownloadClientUsenetDownloadStation#username}
   */
   readonly username?: string;
 }
@@ -78,13 +78,13 @@ export interface DownloadClientUsenetDownloadStationCategories {
   /**
   * List of categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#categories DownloadClientUsenetDownloadStation#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#categories DownloadClientUsenetDownloadStation#categories}
   */
   readonly categories?: number[];
   /**
   * Name of client category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#name DownloadClientUsenetDownloadStation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#name DownloadClientUsenetDownloadStation#name}
   */
   readonly name?: string;
 }
@@ -219,7 +219,7 @@ export class DownloadClientUsenetDownloadStationCategoriesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station prowlarr_download_client_usenet_download_station}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station prowlarr_download_client_usenet_download_station}
 */
 export class DownloadClientUsenetDownloadStation extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class DownloadClientUsenetDownloadStation extends cdktf.TerraformResource
   * Generates CDKTF code for importing a DownloadClientUsenetDownloadStation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientUsenetDownloadStation to import
-  * @param importFromId The id of the existing DownloadClientUsenetDownloadStation that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientUsenetDownloadStation that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientUsenetDownloadStation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class DownloadClientUsenetDownloadStation extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.0.2/docs/resources/download_client_usenet_download_station prowlarr_download_client_usenet_download_station} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/prowlarr/3.1.0/docs/resources/download_client_usenet_download_station prowlarr_download_client_usenet_download_station} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class DownloadClientUsenetDownloadStation extends cdktf.TerraformResource
       terraformResourceType: 'prowlarr_download_client_usenet_download_station',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2',
-        providerVersionConstraint: '3.0.2'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

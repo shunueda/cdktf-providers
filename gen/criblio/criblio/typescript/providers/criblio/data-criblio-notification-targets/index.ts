@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/notification_targets
+// https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/notification_targets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCriblioNotificationTargetsConfig extends cdktf.TerraformMet
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/notification_targets criblio_notification_targets}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/notification_targets criblio_notification_targets}
 */
 export class DataCriblioNotificationTargets extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataCriblioNotificationTargets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioNotificationTargets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioNotificationTargets to import
-  * @param importFromId The id of the existing DataCriblioNotificationTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/notification_targets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioNotificationTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/notification_targets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioNotificationTargets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataCriblioNotificationTargets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/notification_targets criblio_notification_targets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.33/docs/data-sources/notification_targets criblio_notification_targets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataCriblioNotificationTargets extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_notification_targets',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.32',
-        providerVersionConstraint: '1.20.32'
+        providerVersion: '1.20.33',
+        providerVersionConstraint: '1.20.33'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

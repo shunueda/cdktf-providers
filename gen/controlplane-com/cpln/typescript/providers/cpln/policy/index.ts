@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#description Policy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#description Policy#description}
   */
   readonly description?: string;
   /**
   * The GVC for `identity`, `workload` and `volumeset` target kinds only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#gvc Policy#gvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#gvc Policy#gvc}
   */
   readonly gvc?: string;
   /**
   * Name of the Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#name Policy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#name Policy#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#tags Policy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#tags Policy#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Set this value of this attribute to `all` if this policy should target all objects of the given target_kind. Otherwise, do not include the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#target Policy#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#target Policy#target}
   */
   readonly target?: string;
   /**
   * The kind of resource to target (e.g., gvc, serviceaccount, etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#target_kind Policy#target_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#target_kind Policy#target_kind}
   */
   readonly targetKind: string;
   /**
   * List of the targets this policy will be applied to. Not used if `target` is set to `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#target_links Policy#target_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#target_links Policy#target_links}
   */
   readonly targetLinks?: string[];
   /**
   * binding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#binding Policy#binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#binding Policy#binding}
   */
   readonly binding?: PolicyBinding[] | cdktf.IResolvable;
   /**
   * target_query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#target_query Policy#target_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#target_query Policy#target_query}
   */
   readonly targetQuery?: PolicyTargetQuery[] | cdktf.IResolvable;
 }
@@ -66,13 +66,13 @@ export interface PolicyBinding {
   /**
   * List of permissions to allow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#permissions Policy#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#permissions Policy#permissions}
   */
   readonly permissions: string[];
   /**
   * List of the principals this binding will be applied to. Principal links format: `group/GROUP_NAME`, `user/USER_EMAIL`, `gvc/GVC_NAME/identity/IDENTITY_NAME`, `serviceaccount/SERVICE_ACCOUNT_NAME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#principal_links Policy#principal_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#principal_links Policy#principal_links}
   */
   readonly principalLinks: string[];
 }
@@ -213,31 +213,31 @@ export interface PolicyTargetQuerySpecTerms {
   /**
   * Type of query operation. Available values: `=`, `>`, `>=`, `<`, `<=`, `!=`, `exists`, `!exists`. Default: `=`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#op Policy#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#op Policy#op}
   */
   readonly op?: string;
   /**
   * Property to use for query evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#property Policy#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#property Policy#property}
   */
   readonly property?: string;
   /**
   * Relation to use for query evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#rel Policy#rel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#rel Policy#rel}
   */
   readonly rel?: string;
   /**
   * Tag key to use for query evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#tag Policy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#tag Policy#tag}
   */
   readonly tag?: string;
   /**
   * Testing value for query evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#value Policy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#value Policy#value}
   */
   readonly value?: string;
 }
@@ -471,13 +471,13 @@ export interface PolicyTargetQuerySpec {
   /**
   * Type of match. Available values: `all`, `any`, `none`. Default: `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#match Policy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#match Policy#match}
   */
   readonly match?: string;
   /**
   * terms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#terms Policy#terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#terms Policy#terms}
   */
   readonly terms?: PolicyTargetQuerySpecTerms[] | cdktf.IResolvable;
 }
@@ -624,13 +624,13 @@ export interface PolicyTargetQuery {
   /**
   * Type of fetch. Specify either: `links` or `items`. Default: `items`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#fetch Policy#fetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#fetch Policy#fetch}
   */
   readonly fetch?: string;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#spec Policy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#spec Policy#spec}
   */
   readonly spec?: PolicyTargetQuerySpec[] | cdktf.IResolvable;
 }
@@ -775,7 +775,7 @@ export class PolicyTargetQueryList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy cpln_policy}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy cpln_policy}
 */
 export class Policy extends cdktf.TerraformResource {
 
@@ -791,7 +791,7 @@ export class Policy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Policy to import
-  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -803,7 +803,7 @@ export class Policy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/policy cpln_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/policy cpln_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -814,8 +814,8 @@ export class Policy extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_policy',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.16',
-        providerVersionConstraint: '1.2.16'
+        providerVersion: '1.2.17',
+        providerVersionConstraint: '1.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

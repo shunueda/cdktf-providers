@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface GvcConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the Global Virtual Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#description Gvc#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#description Gvc#description}
   */
   readonly description?: string;
   /**
   * Custom domain name used by associated workloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#domain Gvc#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#domain Gvc#domain}
   */
   readonly domain?: string;
   /**
   * Customizes the subdomain format for the canonical workload endpoint. `legacy` leaves it as '${workloadName}-${gvcName}.cpln.app'. `org` follows the scheme '${workloadName}-${gvcName}.${orgEndpointPrefix}.cpln.app'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#endpoint_naming_format Gvc#endpoint_naming_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#endpoint_naming_format Gvc#endpoint_naming_format}
   */
   readonly endpointNamingFormat?: string;
   /**
   * Key-value array of resource environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#env Gvc#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#env Gvc#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * A list of [locations](https://docs.controlplane.com/reference/location#current) making up the Global Virtual Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#locations Gvc#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#locations Gvc#locations}
   */
   readonly locations?: string[];
   /**
   * Name of the Global Virtual Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#name Gvc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#name Gvc#name}
   */
   readonly name: string;
   /**
   * A list of [pull secret](https://docs.controlplane.com/reference/gvc#pull-secrets) names used to authenticate to any private image repository referenced by Workloads within the GVC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#pull_secrets Gvc#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#pull_secrets Gvc#pull_secrets}
   */
   readonly pullSecrets?: string[];
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#tags Gvc#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#tags Gvc#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * controlplane_tracing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#controlplane_tracing Gvc#controlplane_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#controlplane_tracing Gvc#controlplane_tracing}
   */
   readonly controlplaneTracing?: GvcControlplaneTracing[] | cdktf.IResolvable;
   /**
   * keda block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#keda Gvc#keda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#keda Gvc#keda}
   */
   readonly keda?: GvcKeda[] | cdktf.IResolvable;
   /**
   * lightstep_tracing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#lightstep_tracing Gvc#lightstep_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#lightstep_tracing Gvc#lightstep_tracing}
   */
   readonly lightstepTracing?: GvcLightstepTracing[] | cdktf.IResolvable;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#load_balancer Gvc#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#load_balancer Gvc#load_balancer}
   */
   readonly loadBalancer?: GvcLoadBalancer[] | cdktf.IResolvable;
   /**
   * otel_tracing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#otel_tracing Gvc#otel_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#otel_tracing Gvc#otel_tracing}
   */
   readonly otelTracing?: GvcOtelTracing[] | cdktf.IResolvable;
   /**
   * sidecar block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#sidecar Gvc#sidecar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#sidecar Gvc#sidecar}
   */
   readonly sidecar?: GvcSidecar[] | cdktf.IResolvable;
 }
@@ -96,13 +96,13 @@ export interface GvcControlplaneTracing {
   /**
   * Key-value map of custom tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#custom_tags Gvc#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#custom_tags Gvc#custom_tags}
   */
   readonly customTags?: { [key: string]: string };
   /**
   * Determines what percentage of requests should be traced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#sampling Gvc#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#sampling Gvc#sampling}
   */
   readonly sampling: number;
 }
@@ -246,19 +246,19 @@ export interface GvcKeda {
   /**
   * Enable KEDA for this GVC. KEDA is a Kubernetes-based event-driven autoscaler that allows you to scale workloads based on external events. When enabled, a keda operator will be deployed in the GVC and workloads in the GVC can use KEDA to scale based on external metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#enabled Gvc#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#enabled Gvc#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A link to an Identity resource that will be used for KEDA. This will allow the keda operator to access cloud and network resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#identity_link Gvc#identity_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#identity_link Gvc#identity_link}
   */
   readonly identityLink?: string;
   /**
   * A list of secrets to be used as TriggerAuthentication objects. The TriggerAuthentication object will be named after the secret and can be used by triggers on workloads in this GVC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#secrets Gvc#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#secrets Gvc#secrets}
   */
   readonly secrets?: string[];
 }
@@ -434,25 +434,25 @@ export interface GvcLightstepTracing {
   /**
   * Full link to referenced Opaque Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#credentials Gvc#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#credentials Gvc#credentials}
   */
   readonly credentials?: string;
   /**
   * Key-value map of custom tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#custom_tags Gvc#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#custom_tags Gvc#custom_tags}
   */
   readonly customTags?: { [key: string]: string };
   /**
   * Tracing Endpoint Workload. Either the canonical endpoint or internal endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#endpoint Gvc#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#endpoint Gvc#endpoint}
   */
   readonly endpoint: string;
   /**
   * Determines what percentage of requests should be traced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#sampling Gvc#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#sampling Gvc#sampling}
   */
   readonly sampling: number;
 }
@@ -649,7 +649,7 @@ export class GvcLightstepTracingList extends cdktf.ComplexList {
 }
 export interface GvcLoadBalancerMultiZone {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#enabled Gvc#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#enabled Gvc#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -767,13 +767,13 @@ export interface GvcLoadBalancerRedirectClass {
   /**
   * An optional url redirect for 401 responses. Supports envoy format strings to include request information. E.g. https://your-oauth-server/oauth2/authorize?return_to=%REQ(:path)%&client_id=your-client-id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#status_401 Gvc#status_401}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#status_401 Gvc#status_401}
   */
   readonly status401?: string;
   /**
   * Specify the redirect url for any 500 level status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#status_5xx Gvc#status_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#status_5xx Gvc#status_5xx}
   */
   readonly status5Xx?: string;
 }
@@ -920,7 +920,7 @@ export interface GvcLoadBalancerRedirect {
   /**
   * class block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#class Gvc#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#class Gvc#class}
   */
   readonly class?: GvcLoadBalancerRedirectClass[] | cdktf.IResolvable;
 }
@@ -1038,31 +1038,31 @@ export interface GvcLoadBalancer {
   /**
   * Creates a dedicated load balancer in each location and enables additional Domain features: custom ports, protocols and wildcard hostnames. Charges apply for each location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#dedicated Gvc#dedicated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#dedicated Gvc#dedicated}
   */
   readonly dedicated?: boolean | cdktf.IResolvable;
   /**
   * The link or the name of the IP Set that will be used for this load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#ipset Gvc#ipset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#ipset Gvc#ipset}
   */
   readonly ipset?: string;
   /**
   * Controls the address used for request logging and for setting the X-Envoy-External-Address header. If set to 1, then the last address in an existing X-Forwarded-For header will be used in place of the source client IP address. If set to 2, then the second to last address in an existing X-Forwarded-For header will be used in place of the source client IP address. If the XFF header does not have at least two addresses or does not exist then the source client IP address will be used instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#trusted_proxies Gvc#trusted_proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#trusted_proxies Gvc#trusted_proxies}
   */
   readonly trustedProxies?: number;
   /**
   * multi_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#multi_zone Gvc#multi_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#multi_zone Gvc#multi_zone}
   */
   readonly multiZone?: GvcLoadBalancerMultiZone[] | cdktf.IResolvable;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#redirect Gvc#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#redirect Gvc#redirect}
   */
   readonly redirect?: GvcLoadBalancerRedirect[] | cdktf.IResolvable;
 }
@@ -1296,19 +1296,19 @@ export interface GvcOtelTracing {
   /**
   * Key-value map of custom tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#custom_tags Gvc#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#custom_tags Gvc#custom_tags}
   */
   readonly customTags?: { [key: string]: string };
   /**
   * Tracing Endpoint Workload. Either the canonical endpoint or internal endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#endpoint Gvc#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#endpoint Gvc#endpoint}
   */
   readonly endpoint: string;
   /**
   * Determines what percentage of requests should be traced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#sampling Gvc#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#sampling Gvc#sampling}
   */
   readonly sampling: number;
 }
@@ -1476,7 +1476,7 @@ export class GvcOtelTracingList extends cdktf.ComplexList {
 }
 export interface GvcSidecar {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#envoy Gvc#envoy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#envoy Gvc#envoy}
   */
   readonly envoy: string;
 }
@@ -1589,7 +1589,7 @@ export class GvcSidecarList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc cpln_gvc}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc cpln_gvc}
 */
 export class Gvc extends cdktf.TerraformResource {
 
@@ -1605,7 +1605,7 @@ export class Gvc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gvc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gvc to import
-  * @param importFromId The id of the existing Gvc that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gvc that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gvc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1617,7 +1617,7 @@ export class Gvc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.16/docs/resources/gvc cpln_gvc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/gvc cpln_gvc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1628,8 +1628,8 @@ export class Gvc extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_gvc',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.16',
-        providerVersionConstraint: '1.2.16'
+        providerVersion: '1.2.17',
+        providerVersionConstraint: '1.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

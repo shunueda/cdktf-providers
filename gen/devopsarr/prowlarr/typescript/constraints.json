@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "prowlarr": "3.0.2"
+    "prowlarr": "3.1.0"
   }
 }
