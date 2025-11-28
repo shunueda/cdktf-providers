@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_hpc_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_hpc_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CvmHpcClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_hpc_cluster#id CvmHpcCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_hpc_cluster#id CvmHpcCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface CvmHpcClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of Hpc Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_hpc_cluster#name CvmHpcCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_hpc_cluster#name CvmHpcCluster#name}
   */
   readonly name: string;
   /**
   * Remark of Hpc Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_hpc_cluster#remark CvmHpcCluster#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_hpc_cluster#remark CvmHpcCluster#remark}
   */
   readonly remark?: string;
   /**
   * Available zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_hpc_cluster#zone CvmHpcCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_hpc_cluster#zone CvmHpcCluster#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_hpc_cluster tencentcloud_cvm_hpc_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_hpc_cluster tencentcloud_cvm_hpc_cluster}
 */
 export class CvmHpcCluster extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CvmHpcCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvmHpcCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvmHpcCluster to import
-  * @param importFromId The id of the existing CvmHpcCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_hpc_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvmHpcCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_hpc_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvmHpcCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CvmHpcCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_hpc_cluster tencentcloud_cvm_hpc_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_hpc_cluster tencentcloud_cvm_hpc_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class CvmHpcCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cvm_hpc_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

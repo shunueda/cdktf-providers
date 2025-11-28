@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_nat_gateway_dnats
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_nat_gateway_dnats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataZenlayercloudZecNatGatewayDnatsConfig extends cdktf.Terrafo
   /**
   * ID of the public EIP to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_nat_gateway_dnats#eip_id DataZenlayercloudZecNatGatewayDnats#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_nat_gateway_dnats#eip_id DataZenlayercloudZecNatGatewayDnats#eip_id}
   */
   readonly eipId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_nat_gateway_dnats#id DataZenlayercloudZecNatGatewayDnats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_nat_gateway_dnats#id DataZenlayercloudZecNatGatewayDnats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataZenlayercloudZecNatGatewayDnatsConfig extends cdktf.Terrafo
   /**
   * ID of the NAT gateway to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_nat_gateway_dnats#nat_gateway_id DataZenlayercloudZecNatGatewayDnats#nat_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_nat_gateway_dnats#nat_gateway_id DataZenlayercloudZecNatGatewayDnats#nat_gateway_id}
   */
   readonly natGatewayId: string;
   /**
   * The IP protocol type of the DNAT entry. Valid values: `TCP`, `UDP`, `Any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_nat_gateway_dnats#protocol DataZenlayercloudZecNatGatewayDnats#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_nat_gateway_dnats#protocol DataZenlayercloudZecNatGatewayDnats#protocol}
   */
   readonly protocol?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_nat_gateway_dnats#result_output_file DataZenlayercloudZecNatGatewayDnats#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_nat_gateway_dnats#result_output_file DataZenlayercloudZecNatGatewayDnats#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -141,7 +141,7 @@ export class DataZenlayercloudZecNatGatewayDnatsDnatsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_nat_gateway_dnats zenlayercloud_zec_nat_gateway_dnats}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_nat_gateway_dnats zenlayercloud_zec_nat_gateway_dnats}
 */
 export class DataZenlayercloudZecNatGatewayDnats extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataZenlayercloudZecNatGatewayDnats extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataZenlayercloudZecNatGatewayDnats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZecNatGatewayDnats to import
-  * @param importFromId The id of the existing DataZenlayercloudZecNatGatewayDnats that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_nat_gateway_dnats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZecNatGatewayDnats that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_nat_gateway_dnats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZecNatGatewayDnats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataZenlayercloudZecNatGatewayDnats extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_nat_gateway_dnats zenlayercloud_zec_nat_gateway_dnats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_nat_gateway_dnats zenlayercloud_zec_nat_gateway_dnats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataZenlayercloudZecNatGatewayDnats extends cdktf.TerraformDataSour
       terraformResourceType: 'zenlayercloud_zec_nat_gateway_dnats',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

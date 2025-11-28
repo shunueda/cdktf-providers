@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_attachment_v2
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_attachment_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CcnAttachmentV2Config extends cdktf.TerraformMetaArguments {
   /**
   * ID of the CCN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_attachment_v2#ccn_id CcnAttachmentV2#ccn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_attachment_v2#ccn_id CcnAttachmentV2#ccn_id}
   */
   readonly ccnId: string;
   /**
   * Uin of the ccn attached. If not set, which means the uin of this account. This parameter is used with case when attaching ccn of other account to the instance of this account. For now only support instance type `VPC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_attachment_v2#ccn_uin CcnAttachmentV2#ccn_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_attachment_v2#ccn_uin CcnAttachmentV2#ccn_uin}
   */
   readonly ccnUin?: string;
   /**
   * Remark of attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_attachment_v2#description CcnAttachmentV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_attachment_v2#description CcnAttachmentV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_attachment_v2#id CcnAttachmentV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_attachment_v2#id CcnAttachmentV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface CcnAttachmentV2Config extends cdktf.TerraformMetaArguments {
   /**
   * ID of instance is attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_attachment_v2#instance_id CcnAttachmentV2#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_attachment_v2#instance_id CcnAttachmentV2#instance_id}
   */
   readonly instanceId: string;
   /**
   * The region that the instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_attachment_v2#instance_region CcnAttachmentV2#instance_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_attachment_v2#instance_region CcnAttachmentV2#instance_region}
   */
   readonly instanceRegion: string;
   /**
   * Type of attached instance network, and available values include `VPC`, `DIRECTCONNECT`, `BMVPC` and `VPNGW`. Note: `VPNGW` type is only for whitelist customer now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_attachment_v2#instance_type CcnAttachmentV2#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_attachment_v2#instance_type CcnAttachmentV2#instance_type}
   */
   readonly instanceType: string;
   /**
   * Ccn instance route table ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_attachment_v2#route_table_id CcnAttachmentV2#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_attachment_v2#route_table_id CcnAttachmentV2#route_table_id}
   */
   readonly routeTableId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_attachment_v2 tencentcloud_ccn_attachment_v2}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_attachment_v2 tencentcloud_ccn_attachment_v2}
 */
 export class CcnAttachmentV2 extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class CcnAttachmentV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CcnAttachmentV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CcnAttachmentV2 to import
-  * @param importFromId The id of the existing CcnAttachmentV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_attachment_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CcnAttachmentV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_attachment_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CcnAttachmentV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class CcnAttachmentV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_attachment_v2 tencentcloud_ccn_attachment_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_attachment_v2 tencentcloud_ccn_attachment_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class CcnAttachmentV2 extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ccn_attachment_v2',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

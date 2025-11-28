@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tdmq_rocketmq_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tdmq_rocketmq_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudTdmqRocketmqGroupConfig extends cdktf.Terraform
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tdmq_rocketmq_group#cluster_id DataTencentcloudTdmqRocketmqGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tdmq_rocketmq_group#cluster_id DataTencentcloudTdmqRocketmqGroup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Consumer group query by consumer group name. Fuzzy query is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tdmq_rocketmq_group#filter_group DataTencentcloudTdmqRocketmqGroup#filter_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tdmq_rocketmq_group#filter_group DataTencentcloudTdmqRocketmqGroup#filter_group}
   */
   readonly filterGroup?: string;
   /**
   * Subscription group name. After it is specified, the information of only this subscription group will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tdmq_rocketmq_group#filter_one_group DataTencentcloudTdmqRocketmqGroup#filter_one_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tdmq_rocketmq_group#filter_one_group DataTencentcloudTdmqRocketmqGroup#filter_one_group}
   */
   readonly filterOneGroup?: string;
   /**
   * Topic name, which can be used to query all subscription groups under the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tdmq_rocketmq_group#filter_topic DataTencentcloudTdmqRocketmqGroup#filter_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tdmq_rocketmq_group#filter_topic DataTencentcloudTdmqRocketmqGroup#filter_topic}
   */
   readonly filterTopic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tdmq_rocketmq_group#id DataTencentcloudTdmqRocketmqGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tdmq_rocketmq_group#id DataTencentcloudTdmqRocketmqGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface DataTencentcloudTdmqRocketmqGroupConfig extends cdktf.Terraform
   /**
   * Namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tdmq_rocketmq_group#namespace_id DataTencentcloudTdmqRocketmqGroup#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tdmq_rocketmq_group#namespace_id DataTencentcloudTdmqRocketmqGroup#namespace_id}
   */
   readonly namespaceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tdmq_rocketmq_group#result_output_file DataTencentcloudTdmqRocketmqGroup#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tdmq_rocketmq_group#result_output_file DataTencentcloudTdmqRocketmqGroup#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -188,7 +188,7 @@ export class DataTencentcloudTdmqRocketmqGroupGroupsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tdmq_rocketmq_group tencentcloud_tdmq_rocketmq_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tdmq_rocketmq_group tencentcloud_tdmq_rocketmq_group}
 */
 export class DataTencentcloudTdmqRocketmqGroup extends cdktf.TerraformDataSource {
 
@@ -204,7 +204,7 @@ export class DataTencentcloudTdmqRocketmqGroup extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudTdmqRocketmqGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTdmqRocketmqGroup to import
-  * @param importFromId The id of the existing DataTencentcloudTdmqRocketmqGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tdmq_rocketmq_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTdmqRocketmqGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tdmq_rocketmq_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTdmqRocketmqGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DataTencentcloudTdmqRocketmqGroup extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tdmq_rocketmq_group tencentcloud_tdmq_rocketmq_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tdmq_rocketmq_group tencentcloud_tdmq_rocketmq_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class DataTencentcloudTdmqRocketmqGroup extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_tdmq_rocketmq_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

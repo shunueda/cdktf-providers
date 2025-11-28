@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface MariadbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatic renewal flag, 1: automatic renewal, 2: no automatic renewal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#auto_renew_flag MariadbInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#auto_renew_flag MariadbInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
   * Whether to automatically use the voucher for payment, the default is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#auto_voucher MariadbInstance#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#auto_voucher MariadbInstance#auto_voucher}
   */
   readonly autoVoucher?: boolean | cdktf.IResolvable;
   /**
   * Database engine version, currently available: 8.0.18, 10.1.9, 5.7.17. If not passed, the default is Percona 5.7.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#db_version_id MariadbInstance#db_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#db_version_id MariadbInstance#db_version_id}
   */
   readonly dbVersionId?: string;
   /**
   * DCN source instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#dcn_instance_id MariadbInstance#dcn_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#dcn_instance_id MariadbInstance#dcn_instance_id}
   */
   readonly dcnInstanceId?: string;
   /**
   * DCN source region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#dcn_region MariadbInstance#dcn_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#dcn_region MariadbInstance#dcn_region}
   */
   readonly dcnRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#id MariadbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#id MariadbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,91 +47,91 @@ export interface MariadbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance name, you can set the name of the instance independently through this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#instance_name MariadbInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#instance_name MariadbInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Whether IPv6 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#ipv6_flag MariadbInstance#ipv6_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#ipv6_flag MariadbInstance#ipv6_flag}
   */
   readonly ipv6Flag?: number;
   /**
   * Memory size, unit: GB, can be obtained by querying instance specifications through DescribeDBInstanceSpecs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#memory MariadbInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#memory MariadbInstance#memory}
   */
   readonly memory: number;
   /**
   * Number of nodes, 2 is one master and one slave, 3 is one master and two slaves.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#node_count MariadbInstance#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#node_count MariadbInstance#node_count}
   */
   readonly nodeCount: number;
   /**
   * The duration of the purchase, unit: month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#period MariadbInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#period MariadbInstance#period}
   */
   readonly period?: number;
   /**
   * Project ID, which can be obtained by viewing the project list, if not passed, it will be associated with the default project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#project_id MariadbInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#project_id MariadbInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * Security group ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#security_group_ids MariadbInstance#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#security_group_ids MariadbInstance#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Storage size, unit: GB. You can query instance specifications through DescribeDBInstanceSpecs to obtain the lower and upper limits of disk specifications corresponding to different memory sizes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#storage MariadbInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#storage MariadbInstance#storage}
   */
   readonly storage: number;
   /**
   * Virtual private network subnet ID, required when VpcId is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#subnet_id MariadbInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#subnet_id MariadbInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * tag list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#tags MariadbInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#tags MariadbInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Intranet IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#vip MariadbInstance#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#vip MariadbInstance#vip}
   */
   readonly vip?: string;
   /**
   * A list of voucher IDs. Currently, only one voucher can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#voucher_ids MariadbInstance#voucher_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#voucher_ids MariadbInstance#voucher_ids}
   */
   readonly voucherIds?: string[];
   /**
   * Virtual private network ID, if not passed, it means that it is created as a basic network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#vpc_id MariadbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#vpc_id MariadbInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * Instance node availability zone distribution, up to two availability zones can be filled. When the shard specification is one master and two slaves, two of the nodes are in the first availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#zones MariadbInstance#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#zones MariadbInstance#zones}
   */
   readonly zones: string[];
   /**
   * init_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#init_params MariadbInstance#init_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#init_params MariadbInstance#init_params}
   */
   readonly initParams?: MariadbInstanceInitParams[] | cdktf.IResolvable;
 }
@@ -139,13 +139,13 @@ export interface MariadbInstanceInitParams {
   /**
   * parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#param MariadbInstance#param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#param MariadbInstance#param}
   */
   readonly param: string;
   /**
   * parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#value MariadbInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#value MariadbInstance#value}
   */
   readonly value: string;
 }
@@ -284,7 +284,7 @@ export class MariadbInstanceInitParamsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance tencentcloud_mariadb_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance tencentcloud_mariadb_instance}
 */
 export class MariadbInstance extends cdktf.TerraformResource {
 
@@ -300,7 +300,7 @@ export class MariadbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MariadbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MariadbInstance to import
-  * @param importFromId The id of the existing MariadbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MariadbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MariadbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class MariadbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mariadb_instance tencentcloud_mariadb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_instance tencentcloud_mariadb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class MariadbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mariadb_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

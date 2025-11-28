@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface WifiInterworkingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cellular network advertisement information - country and network codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#3gpp_info WifiInterworking#3gpp_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#3gpp_info WifiInterworking#3gpp_info}
   */
   readonly 3GppInfo?: string[];
   /**
   * Cellular network advertisement information - country and network codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#3gpp_raw WifiInterworking#3gpp_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#3gpp_raw WifiInterworking#3gpp_raw}
   */
   readonly 3GppRaw?: string;
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#___path___ WifiInterworking#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#___path___ WifiInterworking#___path___}
   */
   readonly path?: string;
   /**
   * An option to enable Additional Steps Required for Access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#asra WifiInterworking#asra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#asra WifiInterworking#asra}
   */
   readonly asra?: boolean | cdktf.IResolvable;
   /**
   * A list of authentication types that is only effective when `asra` is set to yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#authentication_types WifiInterworking#authentication_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#authentication_types WifiInterworking#authentication_types}
   */
   readonly authenticationTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#comment WifiInterworking#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#comment WifiInterworking#comment}
   */
   readonly comment?: string;
   /**
   * A list to provide information about the allowed IP protocols and ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#connection_capabilities WifiInterworking#connection_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#connection_capabilities WifiInterworking#connection_capabilities}
   */
   readonly connectionCapabilities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#disabled WifiInterworking#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#disabled WifiInterworking#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * A list of fully qualified domain names (FQDN) that indicate the entity operating the Hotspot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#domain_names WifiInterworking#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#domain_names WifiInterworking#domain_names}
   */
   readonly domainNames?: string[];
   /**
   * An option to enable Emergency Services Reachability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#esr WifiInterworking#esr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#esr WifiInterworking#esr}
   */
   readonly esr?: boolean | cdktf.IResolvable;
   /**
   * Homogenous extended service set identifier (HESSID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#hessid WifiInterworking#hessid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#hessid WifiInterworking#hessid}
   */
   readonly hessid?: string;
   /**
   * An option to indicate Hotspot 2.0 capability of the Access Point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#hotspot20 WifiInterworking#hotspot20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#hotspot20 WifiInterworking#hotspot20}
   */
   readonly hotspot20?: boolean | cdktf.IResolvable;
   /**
   * An option to indicate Downstream Group-Addressed Forwarding (DGAF) capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#hotspot20_dgaf WifiInterworking#hotspot20_dgaf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#hotspot20_dgaf WifiInterworking#hotspot20_dgaf}
   */
   readonly hotspot20Dgaf?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#id WifiInterworking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#id WifiInterworking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,133 +91,133 @@ export interface WifiInterworkingConfig extends cdktf.TerraformMetaArguments {
   /**
   * An option to indicate Internet availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#internet WifiInterworking#internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#internet WifiInterworking#internet}
   */
   readonly internet?: boolean | cdktf.IResolvable;
   /**
   * An option to indicate IPv4 availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#ipv4_availability WifiInterworking#ipv4_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#ipv4_availability WifiInterworking#ipv4_availability}
   */
   readonly ipv4Availability?: string;
   /**
   * An option to indicate IPv6 availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#ipv6_availability WifiInterworking#ipv6_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#ipv6_availability WifiInterworking#ipv6_availability}
   */
   readonly ipv6Availability?: string;
   /**
   * Name of the interworking profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#name WifiInterworking#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#name WifiInterworking#name}
   */
   readonly name: string;
   /**
   * Information about network access type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#network_type WifiInterworking#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#network_type WifiInterworking#network_type}
   */
   readonly networkType?: string;
   /**
   * A list with information about other available bands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#operational_classes WifiInterworking#operational_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#operational_classes WifiInterworking#operational_classes}
   */
   readonly operationalClasses?: number[];
   /**
   * A list of colon-separated operator names and language codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#operator_names WifiInterworking#operator_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#operator_names WifiInterworking#operator_names}
   */
   readonly operatorNames?: string[];
   /**
   * A list of colon-separated realm names and EAP methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#realms WifiInterworking#realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#realms WifiInterworking#realms}
   */
   readonly realms?: string[];
   /**
   * A list of 'NAI Realm Tuple' excluding 'NAI Realm Data Field Length' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#realms_raw WifiInterworking#realms_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#realms_raw WifiInterworking#realms_raw}
   */
   readonly realmsRaw?: string[];
   /**
   * A list of Organization Identifiers (OI).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#roaming_ois WifiInterworking#roaming_ois}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#roaming_ois WifiInterworking#roaming_ois}
   */
   readonly roamingOis?: string[];
   /**
   * An option to enable Unauthenticated Emergency Service Accessibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#uesa WifiInterworking#uesa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#uesa WifiInterworking#uesa}
   */
   readonly uesa?: boolean | cdktf.IResolvable;
   /**
   * Information about the venue in which the Access Point is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#venue WifiInterworking#venue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#venue WifiInterworking#venue}
   */
   readonly venue?: string;
   /**
   * A list of colon-separated venue names and language codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#venue_names WifiInterworking#venue_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#venue_names WifiInterworking#venue_names}
   */
   readonly venueNames?: string[];
   /**
   * An option to indicate that the Access Point or the network is at its max capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#wan_at_capacity WifiInterworking#wan_at_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#wan_at_capacity WifiInterworking#wan_at_capacity}
   */
   readonly wanAtCapacity?: boolean | cdktf.IResolvable;
   /**
   * The downlink speed of the WAN connection set in kbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#wan_downlink WifiInterworking#wan_downlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#wan_downlink WifiInterworking#wan_downlink}
   */
   readonly wanDownlink?: number;
   /**
   * The downlink load of the WAN connection measured over `wan_measurement_duration`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#wan_downlink_load WifiInterworking#wan_downlink_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#wan_downlink_load WifiInterworking#wan_downlink_load}
   */
   readonly wanDownlinkLoad?: number;
   /**
   * The duration during which `wan_downlink_load` and `wan_uplink_load` are measured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#wan_measurement_duration WifiInterworking#wan_measurement_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#wan_measurement_duration WifiInterworking#wan_measurement_duration}
   */
   readonly wanMeasurementDuration?: number;
   /**
   * Information about the status of the Access Point's WAN connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#wan_status WifiInterworking#wan_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#wan_status WifiInterworking#wan_status}
   */
   readonly wanStatus?: string;
   /**
   * An option to indicate that the WAN link is symmetric (upload and download speeds are the same).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#wan_symmetric WifiInterworking#wan_symmetric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#wan_symmetric WifiInterworking#wan_symmetric}
   */
   readonly wanSymmetric?: boolean | cdktf.IResolvable;
   /**
   * The uplink speed of the WAN connection set in kbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#wan_uplink WifiInterworking#wan_uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#wan_uplink WifiInterworking#wan_uplink}
   */
   readonly wanUplink?: number;
   /**
   * The uplink load of the WAN connection measured over `wan_measurement_duration`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#wan_uplink_load WifiInterworking#wan_uplink_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#wan_uplink_load WifiInterworking#wan_uplink_load}
   */
   readonly wanUplinkLoad?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking routeros_wifi_interworking}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking routeros_wifi_interworking}
 */
 export class WifiInterworking extends cdktf.TerraformResource {
 
@@ -233,7 +233,7 @@ export class WifiInterworking extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WifiInterworking resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WifiInterworking to import
-  * @param importFromId The id of the existing WifiInterworking that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WifiInterworking that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WifiInterworking to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class WifiInterworking extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/wifi_interworking routeros_wifi_interworking} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_interworking routeros_wifi_interworking} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,8 +256,8 @@ export class WifiInterworking extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_wifi_interworking',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

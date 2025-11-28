@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "routeros": "1.93.0"
+    "routeros": "1.94.0"
   }
 }

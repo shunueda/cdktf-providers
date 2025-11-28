@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ApiGatewayServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Self-deployed cluster name, which is used to specify the self-deployed cluster where the service is to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#exclusive_set_name ApiGatewayService#exclusive_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#exclusive_set_name ApiGatewayService#exclusive_set_name}
   */
   readonly exclusiveSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#id ApiGatewayService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#id ApiGatewayService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface ApiGatewayServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Exclusive instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#instance_id ApiGatewayService#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#instance_id ApiGatewayService#instance_id}
   */
   readonly instanceId?: string;
   /**
   * IP version number. Valid values: `IPv4`, `IPv6`. Default value: `IPv4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#ip_version ApiGatewayService#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#ip_version ApiGatewayService#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * Network type list, which is used to specify the supported network types. Valid values: `INNER`, `OUTER`. `INNER` indicates access over private network, and `OUTER` indicates access over public network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#net_type ApiGatewayService#net_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#net_type ApiGatewayService#net_type}
   */
   readonly netType: string[];
   /**
   * API QPS value. Enter a positive number to limit the API query rate per second `QPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#pre_limit ApiGatewayService#pre_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#pre_limit ApiGatewayService#pre_limit}
   */
   readonly preLimit?: number;
   /**
   * Service frontend request type. Valid values: `http`, `https`, `http&https`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#protocol ApiGatewayService#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#protocol ApiGatewayService#protocol}
   */
   readonly protocol: string;
   /**
   * API QPS value. Enter a positive number to limit the API query rate per second `QPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#release_limit ApiGatewayService#release_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#release_limit ApiGatewayService#release_limit}
   */
   readonly releaseLimit?: number;
   /**
   * Custom service description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#service_desc ApiGatewayService#service_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#service_desc ApiGatewayService#service_desc}
   */
   readonly serviceDesc?: string;
   /**
   * Custom service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#service_name ApiGatewayService#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#service_name ApiGatewayService#service_name}
   */
   readonly serviceName: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#tags ApiGatewayService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#tags ApiGatewayService#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * API QPS value. Enter a positive number to limit the API query rate per second `QPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#test_limit ApiGatewayService#test_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#test_limit ApiGatewayService#test_limit}
   */
   readonly testLimit?: number;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#uniq_vpc_id ApiGatewayService#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#uniq_vpc_id ApiGatewayService#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
 }
@@ -274,7 +274,7 @@ export class ApiGatewayServiceUsagePlanListStructList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service tencentcloud_api_gateway_service}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service tencentcloud_api_gateway_service}
 */
 export class ApiGatewayService extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class ApiGatewayService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayService to import
-  * @param importFromId The id of the existing ApiGatewayService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class ApiGatewayService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_service tencentcloud_api_gateway_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_service tencentcloud_api_gateway_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class ApiGatewayService extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_api_gateway_service',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

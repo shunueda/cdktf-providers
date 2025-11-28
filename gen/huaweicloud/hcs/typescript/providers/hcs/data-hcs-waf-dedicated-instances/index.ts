@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/waf_dedicated_instances
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/waf_dedicated_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcsWafDedicatedInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/waf_dedicated_instances#enterprise_project_id DataHcsWafDedicatedInstances#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/waf_dedicated_instances#enterprise_project_id DataHcsWafDedicatedInstances#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/waf_dedicated_instances#id DataHcsWafDedicatedInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/waf_dedicated_instances#id DataHcsWafDedicatedInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/waf_dedicated_instances#name DataHcsWafDedicatedInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/waf_dedicated_instances#name DataHcsWafDedicatedInstances#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/waf_dedicated_instances#region DataHcsWafDedicatedInstances#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/waf_dedicated_instances#region DataHcsWafDedicatedInstances#region}
   */
   readonly region?: string;
 }
@@ -169,7 +169,7 @@ export class DataHcsWafDedicatedInstancesInstancesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/waf_dedicated_instances hcs_waf_dedicated_instances}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/waf_dedicated_instances hcs_waf_dedicated_instances}
 */
 export class DataHcsWafDedicatedInstances extends cdktf.TerraformDataSource {
 
@@ -185,7 +185,7 @@ export class DataHcsWafDedicatedInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsWafDedicatedInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsWafDedicatedInstances to import
-  * @param importFromId The id of the existing DataHcsWafDedicatedInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/waf_dedicated_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsWafDedicatedInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/waf_dedicated_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsWafDedicatedInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class DataHcsWafDedicatedInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/waf_dedicated_instances hcs_waf_dedicated_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/waf_dedicated_instances hcs_waf_dedicated_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class DataHcsWafDedicatedInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_waf_dedicated_instances',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

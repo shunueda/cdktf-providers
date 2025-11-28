@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,134 +8,134 @@ import * as cdktf from 'cdktf';
 
 export interface WafDedicatedDomainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#certificate_id WafDedicatedDomain#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#certificate_id WafDedicatedDomain#certificate_id}
   */
   readonly certificateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#cipher WafDedicatedDomain#cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#cipher WafDedicatedDomain#cipher}
   */
   readonly cipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#description WafDedicatedDomain#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#description WafDedicatedDomain#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#domain WafDedicatedDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#domain WafDedicatedDomain#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#enterprise_project_id WafDedicatedDomain#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#enterprise_project_id WafDedicatedDomain#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#forward_header_map WafDedicatedDomain#forward_header_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#forward_header_map WafDedicatedDomain#forward_header_map}
   */
   readonly forwardHeaderMap?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#id WafDedicatedDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#id WafDedicatedDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#keep_policy WafDedicatedDomain#keep_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#keep_policy WafDedicatedDomain#keep_policy}
   */
   readonly keepPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#pci_3ds WafDedicatedDomain#pci_3ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#pci_3ds WafDedicatedDomain#pci_3ds}
   */
   readonly pci3Ds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#pci_dss WafDedicatedDomain#pci_dss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#pci_dss WafDedicatedDomain#pci_dss}
   */
   readonly pciDss?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#policy_id WafDedicatedDomain#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#policy_id WafDedicatedDomain#policy_id}
   */
   readonly policyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#protect_status WafDedicatedDomain#protect_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#protect_status WafDedicatedDomain#protect_status}
   */
   readonly protectStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#proxy WafDedicatedDomain#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#proxy WafDedicatedDomain#proxy}
   */
   readonly proxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#redirect_url WafDedicatedDomain#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#redirect_url WafDedicatedDomain#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#region WafDedicatedDomain#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#region WafDedicatedDomain#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#tls WafDedicatedDomain#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#tls WafDedicatedDomain#tls}
   */
   readonly tls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#website_name WafDedicatedDomain#website_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#website_name WafDedicatedDomain#website_name}
   */
   readonly websiteName?: string;
   /**
   * connection_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#connection_protection WafDedicatedDomain#connection_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#connection_protection WafDedicatedDomain#connection_protection}
   */
   readonly connectionProtection?: WafDedicatedDomainConnectionProtection;
   /**
   * custom_page block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#custom_page WafDedicatedDomain#custom_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#custom_page WafDedicatedDomain#custom_page}
   */
   readonly customPage?: WafDedicatedDomainCustomPage;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#server WafDedicatedDomain#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#server WafDedicatedDomain#server}
   */
   readonly server: WafDedicatedDomainServer[] | cdktf.IResolvable;
   /**
   * timeout_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#timeout_settings WafDedicatedDomain#timeout_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#timeout_settings WafDedicatedDomain#timeout_settings}
   */
   readonly timeoutSettings?: WafDedicatedDomainTimeoutSettings;
   /**
   * traffic_mark block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#traffic_mark WafDedicatedDomain#traffic_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#traffic_mark WafDedicatedDomain#traffic_mark}
   */
   readonly trafficMark?: WafDedicatedDomainTrafficMark;
 }
 export interface WafDedicatedDomainConnectionProtection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#duration WafDedicatedDomain#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#duration WafDedicatedDomain#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#error_percentage WafDedicatedDomain#error_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#error_percentage WafDedicatedDomain#error_percentage}
   */
   readonly errorPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#error_threshold WafDedicatedDomain#error_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#error_threshold WafDedicatedDomain#error_threshold}
   */
   readonly errorThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#initial_downtime WafDedicatedDomain#initial_downtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#initial_downtime WafDedicatedDomain#initial_downtime}
   */
   readonly initialDowntime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#multiplier_for_consecutive_breakdowns WafDedicatedDomain#multiplier_for_consecutive_breakdowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#multiplier_for_consecutive_breakdowns WafDedicatedDomain#multiplier_for_consecutive_breakdowns}
   */
   readonly multiplierForConsecutiveBreakdowns?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#pending_url_request_threshold WafDedicatedDomain#pending_url_request_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#pending_url_request_threshold WafDedicatedDomain#pending_url_request_threshold}
   */
   readonly pendingUrlRequestThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#status WafDedicatedDomain#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#status WafDedicatedDomain#status}
   */
   readonly status?: boolean | cdktf.IResolvable;
 }
@@ -393,15 +393,15 @@ export class WafDedicatedDomainConnectionProtectionOutputReference extends cdktf
 }
 export interface WafDedicatedDomainCustomPage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#block_page_type WafDedicatedDomain#block_page_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#block_page_type WafDedicatedDomain#block_page_type}
   */
   readonly blockPageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#http_return_code WafDedicatedDomain#http_return_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#http_return_code WafDedicatedDomain#http_return_code}
   */
   readonly httpReturnCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#page_content WafDedicatedDomain#page_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#page_content WafDedicatedDomain#page_content}
   */
   readonly pageContent: string;
 }
@@ -534,27 +534,27 @@ export class WafDedicatedDomainCustomPageOutputReference extends cdktf.ComplexOb
 }
 export interface WafDedicatedDomainServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#address WafDedicatedDomain#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#address WafDedicatedDomain#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#client_protocol WafDedicatedDomain#client_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#client_protocol WafDedicatedDomain#client_protocol}
   */
   readonly clientProtocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#port WafDedicatedDomain#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#port WafDedicatedDomain#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#server_protocol WafDedicatedDomain#server_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#server_protocol WafDedicatedDomain#server_protocol}
   */
   readonly serverProtocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#type WafDedicatedDomain#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#type WafDedicatedDomain#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#vpc_id WafDedicatedDomain#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#vpc_id WafDedicatedDomain#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -797,15 +797,15 @@ export class WafDedicatedDomainServerList extends cdktf.ComplexList {
 }
 export interface WafDedicatedDomainTimeoutSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#connection_timeout WafDedicatedDomain#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#connection_timeout WafDedicatedDomain#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#read_timeout WafDedicatedDomain#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#read_timeout WafDedicatedDomain#read_timeout}
   */
   readonly readTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#write_timeout WafDedicatedDomain#write_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#write_timeout WafDedicatedDomain#write_timeout}
   */
   readonly writeTimeout?: number;
 }
@@ -947,15 +947,15 @@ export class WafDedicatedDomainTimeoutSettingsOutputReference extends cdktf.Comp
 }
 export interface WafDedicatedDomainTrafficMark {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#ip_tags WafDedicatedDomain#ip_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#ip_tags WafDedicatedDomain#ip_tags}
   */
   readonly ipTags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#session_tag WafDedicatedDomain#session_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#session_tag WafDedicatedDomain#session_tag}
   */
   readonly sessionTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#user_tag WafDedicatedDomain#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#user_tag WafDedicatedDomain#user_tag}
   */
   readonly userTag?: string;
 }
@@ -1097,7 +1097,7 @@ export class WafDedicatedDomainTrafficMarkOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain hcs_waf_dedicated_domain}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain hcs_waf_dedicated_domain}
 */
 export class WafDedicatedDomain extends cdktf.TerraformResource {
 
@@ -1113,7 +1113,7 @@ export class WafDedicatedDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafDedicatedDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafDedicatedDomain to import
-  * @param importFromId The id of the existing WafDedicatedDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafDedicatedDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafDedicatedDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1125,7 +1125,7 @@ export class WafDedicatedDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_domain hcs_waf_dedicated_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_dedicated_domain hcs_waf_dedicated_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1136,8 +1136,8 @@ export class WafDedicatedDomain extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_waf_dedicated_domain',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

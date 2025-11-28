@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ZecEipConfig extends cdktf.TerraformMetaArguments {
   /**
   * Bandwidth. Measured in Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip#bandwidth ZecEip#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip#bandwidth ZecEip#bandwidth}
   */
   readonly bandwidth: number;
   /**
   * Bandwidth cluster ID. Required when `internet_charge_type` is `BandwidthCluster`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip#bandwidth_cluster_id ZecEip#bandwidth_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip#bandwidth_cluster_id ZecEip#bandwidth_cluster_id}
   */
   readonly bandwidthClusterId?: string;
   /**
   * CIDR ID, the elastic ip will allocated from given CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip#cidr_id ZecEip#cidr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip#cidr_id ZecEip#cidr_id}
   */
   readonly cidrId?: string;
   /**
   * The Data transfer package. Measured in TB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip#flow_package_size ZecEip#flow_package_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip#flow_package_size ZecEip#flow_package_size}
   */
   readonly flowPackageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip#id ZecEip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip#id ZecEip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface ZecEipConfig extends cdktf.TerraformMetaArguments {
   /**
   * Network billing methods. Valid values: `ByBandwidth`, `ByTrafficPackage`, `BandwidthCluster`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip#internet_charge_type ZecEip#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip#internet_charge_type ZecEip#internet_charge_type}
   */
   readonly internetChargeType: string;
   /**
   * Network types of public IPv4. Valid values: `CN2Line`, `LocalLine`, `ChinaTelecom`, `ChinaUnicom`, `ChinaMobile`, `Cogent`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip#ip_network_type ZecEip#ip_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip#ip_network_type ZecEip#ip_network_type}
   */
   readonly ipNetworkType?: string;
   /**
   * Name of the elastic IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip#name ZecEip#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip#name ZecEip#name}
   */
   readonly name: string;
   /**
   * Remote region ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip#peer_region_id ZecEip#peer_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip#peer_region_id ZecEip#peer_region_id}
   */
   readonly peerRegionId?: string;
   /**
   * The region ID that the elastic IP locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip#region_id ZecEip#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip#region_id ZecEip#region_id}
   */
   readonly regionId: string;
   /**
   * Resource group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip#resource_group_id ZecEip#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip#resource_group_id ZecEip#resource_group_id}
   */
   readonly resourceGroupId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip zenlayercloud_zec_eip}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip zenlayercloud_zec_eip}
 */
 export class ZecEip extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class ZecEip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecEip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecEip to import
-  * @param importFromId The id of the existing ZecEip that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecEip that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecEip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class ZecEip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_eip zenlayercloud_zec_eip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip zenlayercloud_zec_eip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class ZecEip extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_eip',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

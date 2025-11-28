@@ -1,3 +1,3 @@
 # `hcloud_server`
 
-Refer to the Terraform Registry for docs: [`hcloud_server`](https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server).
+Refer to the Terraform Registry for docs: [`hcloud_server`](https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/server).

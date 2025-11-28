@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface IpDnsRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#___path___ IpDnsRecord#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#___path___ IpDnsRecord#___path___}
   */
   readonly path?: string;
   /**
   * The A record to be returend from the DNS hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#address IpDnsRecord#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#address IpDnsRecord#address}
   */
   readonly address?: string;
   /**
   * Name of the Firewall address list to which address must be dynamically added when some request matches the entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#address_list IpDnsRecord#address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#address_list IpDnsRecord#address_list}
   */
   readonly addressList?: string;
   /**
   * Alias name for a domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#cname IpDnsRecord#cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#cname IpDnsRecord#cname}
   */
   readonly cname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#comment IpDnsRecord#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#comment IpDnsRecord#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#disabled IpDnsRecord#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#disabled IpDnsRecord#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The IP address of a domain name server to which a particular DNS request must be forwarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#forward_to IpDnsRecord#forward_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#forward_to IpDnsRecord#forward_to}
   */
   readonly forwardTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#id IpDnsRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#id IpDnsRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,85 +55,85 @@ export interface IpDnsRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the record will match requests for subdomains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#match_subdomain IpDnsRecord#match_subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#match_subdomain IpDnsRecord#match_subdomain}
   */
   readonly matchSubdomain?: boolean | cdktf.IResolvable;
   /**
   * The domain name of the MX server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#mx_exchange IpDnsRecord#mx_exchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#mx_exchange IpDnsRecord#mx_exchange}
   */
   readonly mxExchange?: string;
   /**
   * Preference of the particular MX record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#mx_preference IpDnsRecord#mx_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#mx_preference IpDnsRecord#mx_preference}
   */
   readonly mxPreference?: number;
   /**
   * The name of the DNS hostname to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#name IpDnsRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#name IpDnsRecord#name}
   */
   readonly name?: string;
   /**
   * Name of the authoritative domain name server for the particular record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#ns IpDnsRecord#ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#ns IpDnsRecord#ns}
   */
   readonly ns?: string;
   /**
   * DNS regexp. Regexp entries are case sensitive, but since DNS requests are not case sensitive, RouterOS converts DNS names to lowercase, you should write regex only with lowercase letters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#regexp IpDnsRecord#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#regexp IpDnsRecord#regexp}
   */
   readonly regexp?: string;
   /**
   * The TCP or UDP port on which the service is to be found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#srv_port IpDnsRecord#srv_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#srv_port IpDnsRecord#srv_port}
   */
   readonly srvPort?: number;
   /**
   * Priority of the particular SRV record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#srv_priority IpDnsRecord#srv_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#srv_priority IpDnsRecord#srv_priority}
   */
   readonly srvPriority?: number;
   /**
   * The canonical hostname of the machine providing the service ends in a dot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#srv_target IpDnsRecord#srv_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#srv_target IpDnsRecord#srv_target}
   */
   readonly srvTarget?: string;
   /**
   * Weight of the particular SRC record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#srv_weight IpDnsRecord#srv_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#srv_weight IpDnsRecord#srv_weight}
   */
   readonly srvWeight?: string;
   /**
   * Textual information about the domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#text IpDnsRecord#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#text IpDnsRecord#text}
   */
   readonly text?: string;
   /**
   * The ttl of the DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#ttl IpDnsRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#ttl IpDnsRecord#ttl}
   */
   readonly ttl?: string;
   /**
   * Type of the DNS record. Available values are: A, AAAA, CNAME, FWD, MX, NS, NXDOMAIN, SRV, TXT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#type IpDnsRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#type IpDnsRecord#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record routeros_ip_dns_record}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record routeros_ip_dns_record}
 */
 export class IpDnsRecord extends cdktf.TerraformResource {
 
@@ -149,7 +149,7 @@ export class IpDnsRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpDnsRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpDnsRecord to import
-  * @param importFromId The id of the existing IpDnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpDnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpDnsRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class IpDnsRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dns_record routeros_ip_dns_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dns_record routeros_ip_dns_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class IpDnsRecord extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_dns_record',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

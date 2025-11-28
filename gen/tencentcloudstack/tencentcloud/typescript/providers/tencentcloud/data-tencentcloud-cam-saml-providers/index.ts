@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_saml_providers
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_saml_providers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCamSamlProvidersConfig extends cdktf.TerraformM
   /**
   * The description of the CAM SAML provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_saml_providers#description DataTencentcloudCamSamlProviders#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_saml_providers#description DataTencentcloudCamSamlProviders#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_saml_providers#id DataTencentcloudCamSamlProviders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_saml_providers#id DataTencentcloudCamSamlProviders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudCamSamlProvidersConfig extends cdktf.TerraformM
   /**
   * Name of the CAM SAML provider to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_saml_providers#name DataTencentcloudCamSamlProviders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_saml_providers#name DataTencentcloudCamSamlProviders#name}
   */
   readonly name?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_saml_providers#result_output_file DataTencentcloudCamSamlProviders#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_saml_providers#result_output_file DataTencentcloudCamSamlProviders#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -125,7 +125,7 @@ export class DataTencentcloudCamSamlProvidersProviderListStructList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_saml_providers tencentcloud_cam_saml_providers}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_saml_providers tencentcloud_cam_saml_providers}
 */
 export class DataTencentcloudCamSamlProviders extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataTencentcloudCamSamlProviders extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudCamSamlProviders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCamSamlProviders to import
-  * @param importFromId The id of the existing DataTencentcloudCamSamlProviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_saml_providers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCamSamlProviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_saml_providers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCamSamlProviders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataTencentcloudCamSamlProviders extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_saml_providers tencentcloud_cam_saml_providers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_saml_providers tencentcloud_cam_saml_providers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataTencentcloudCamSamlProviders extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_cam_saml_providers',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

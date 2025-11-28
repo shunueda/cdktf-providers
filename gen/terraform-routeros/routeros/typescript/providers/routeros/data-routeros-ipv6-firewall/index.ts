@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ipv6_firewall
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/data-sources/ipv6_firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataRouterosIpv6FirewallConfig extends cdktf.TerraformMetaArgum
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ipv6_firewall#___skip___ DataRouterosIpv6Firewall#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/data-sources/ipv6_firewall#___skip___ DataRouterosIpv6Firewall#___skip___}
   */
   readonly skip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ipv6_firewall#id DataRouterosIpv6Firewall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/data-sources/ipv6_firewall#id DataRouterosIpv6Firewall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataRouterosIpv6FirewallConfig extends cdktf.TerraformMetaArgum
   /**
   * mangle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ipv6_firewall#mangle DataRouterosIpv6Firewall#mangle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/data-sources/ipv6_firewall#mangle DataRouterosIpv6Firewall#mangle}
   */
   readonly mangle?: DataRouterosIpv6FirewallMangle[] | cdktf.IResolvable;
   /**
   * nat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ipv6_firewall#nat DataRouterosIpv6Firewall#nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/data-sources/ipv6_firewall#nat DataRouterosIpv6Firewall#nat}
   */
   readonly nat?: DataRouterosIpv6FirewallNat[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ipv6_firewall#rules DataRouterosIpv6Firewall#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/data-sources/ipv6_firewall#rules DataRouterosIpv6Firewall#rules}
   */
   readonly rules?: DataRouterosIpv6FirewallRules[] | cdktf.IResolvable;
 }
@@ -43,7 +43,7 @@ export interface DataRouterosIpv6FirewallMangle {
   /**
   * Additional request filtering options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ipv6_firewall#filter DataRouterosIpv6Firewall#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/data-sources/ipv6_firewall#filter DataRouterosIpv6Firewall#filter}
   */
   readonly filter?: { [key: string]: string };
 }
@@ -491,7 +491,7 @@ export interface DataRouterosIpv6FirewallNat {
   /**
   * Additional request filtering options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ipv6_firewall#filter DataRouterosIpv6Firewall#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/data-sources/ipv6_firewall#filter DataRouterosIpv6Firewall#filter}
   */
   readonly filter?: { [key: string]: string };
 }
@@ -894,7 +894,7 @@ export interface DataRouterosIpv6FirewallRules {
   /**
   * Additional request filtering options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ipv6_firewall#filter DataRouterosIpv6Firewall#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/data-sources/ipv6_firewall#filter DataRouterosIpv6Firewall#filter}
   */
   readonly filter?: { [key: string]: string };
 }
@@ -1295,7 +1295,7 @@ export class DataRouterosIpv6FirewallRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ipv6_firewall routeros_ipv6_firewall}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/data-sources/ipv6_firewall routeros_ipv6_firewall}
 */
 export class DataRouterosIpv6Firewall extends cdktf.TerraformDataSource {
 
@@ -1311,7 +1311,7 @@ export class DataRouterosIpv6Firewall extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRouterosIpv6Firewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRouterosIpv6Firewall to import
-  * @param importFromId The id of the existing DataRouterosIpv6Firewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ipv6_firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRouterosIpv6Firewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/data-sources/ipv6_firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRouterosIpv6Firewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1323,7 +1323,7 @@ export class DataRouterosIpv6Firewall extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/data-sources/ipv6_firewall routeros_ipv6_firewall} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/data-sources/ipv6_firewall routeros_ipv6_firewall} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1334,8 +1334,8 @@ export class DataRouterosIpv6Firewall extends cdktf.TerraformDataSource {
       terraformResourceType: 'routeros_ipv6_firewall',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

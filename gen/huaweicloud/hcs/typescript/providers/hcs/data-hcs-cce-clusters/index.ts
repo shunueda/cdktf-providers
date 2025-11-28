@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/cce_clusters
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/cce_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcsCceClustersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/cce_clusters#cluster_id DataHcsCceClusters#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/cce_clusters#cluster_id DataHcsCceClusters#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/cce_clusters#cluster_type DataHcsCceClusters#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/cce_clusters#cluster_type DataHcsCceClusters#cluster_type}
   */
   readonly clusterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/cce_clusters#enterprise_project_id DataHcsCceClusters#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/cce_clusters#enterprise_project_id DataHcsCceClusters#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/cce_clusters#id DataHcsCceClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/cce_clusters#id DataHcsCceClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/cce_clusters#name DataHcsCceClusters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/cce_clusters#name DataHcsCceClusters#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/cce_clusters#region DataHcsCceClusters#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/cce_clusters#region DataHcsCceClusters#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/cce_clusters#status DataHcsCceClusters#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/cce_clusters#status DataHcsCceClusters#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/cce_clusters#vpc_id DataHcsCceClusters#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/cce_clusters#vpc_id DataHcsCceClusters#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -559,7 +559,7 @@ export class DataHcsCceClustersClustersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/cce_clusters hcs_cce_clusters}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/cce_clusters hcs_cce_clusters}
 */
 export class DataHcsCceClusters extends cdktf.TerraformDataSource {
 
@@ -575,7 +575,7 @@ export class DataHcsCceClusters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsCceClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsCceClusters to import
-  * @param importFromId The id of the existing DataHcsCceClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/cce_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsCceClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/cce_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsCceClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -587,7 +587,7 @@ export class DataHcsCceClusters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/cce_clusters hcs_cce_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/cce_clusters hcs_cce_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -598,8 +598,8 @@ export class DataHcsCceClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_cce_clusters',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

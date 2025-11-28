@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkingSecgroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup#delete_default_rules NetworkingSecgroup#delete_default_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup#delete_default_rules NetworkingSecgroup#delete_default_rules}
   */
   readonly deleteDefaultRules?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup#description NetworkingSecgroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup#description NetworkingSecgroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup#enterprise_project_id NetworkingSecgroup#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup#enterprise_project_id NetworkingSecgroup#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup#id NetworkingSecgroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup#id NetworkingSecgroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup#name NetworkingSecgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup#name NetworkingSecgroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup#region NetworkingSecgroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup#region NetworkingSecgroup#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup#timeouts NetworkingSecgroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup#timeouts NetworkingSecgroup#timeouts}
   */
   readonly timeouts?: NetworkingSecgroupTimeouts;
 }
@@ -168,7 +168,7 @@ export class NetworkingSecgroupRulesList extends cdktf.ComplexList {
 }
 export interface NetworkingSecgroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup#delete NetworkingSecgroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup#delete NetworkingSecgroup#delete}
   */
   readonly delete?: string;
 }
@@ -262,7 +262,7 @@ export class NetworkingSecgroupTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup hcs_networking_secgroup}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup hcs_networking_secgroup}
 */
 export class NetworkingSecgroup extends cdktf.TerraformResource {
 
@@ -278,7 +278,7 @@ export class NetworkingSecgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingSecgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingSecgroup to import
-  * @param importFromId The id of the existing NetworkingSecgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingSecgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingSecgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -290,7 +290,7 @@ export class NetworkingSecgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup hcs_networking_secgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup hcs_networking_secgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -301,8 +301,8 @@ export class NetworkingSecgroup extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_networking_secgroup',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

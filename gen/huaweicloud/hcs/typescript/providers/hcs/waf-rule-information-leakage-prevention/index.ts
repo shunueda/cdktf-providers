@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WafRuleInformationLeakagePreventionConfig extends cdktf.Terrafo
   /**
   * Specifies the rule contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention#contents WafRuleInformationLeakagePrevention#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention#contents WafRuleInformationLeakagePrevention#contents}
   */
   readonly contents: string[];
   /**
   * Specifies the rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention#description WafRuleInformationLeakagePrevention#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention#description WafRuleInformationLeakagePrevention#description}
   */
   readonly description?: string;
   /**
   * Specifies the enterprise project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention#enterprise_project_id WafRuleInformationLeakagePrevention#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention#enterprise_project_id WafRuleInformationLeakagePrevention#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention#id WafRuleInformationLeakagePrevention#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention#id WafRuleInformationLeakagePrevention#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,35 +35,35 @@ export interface WafRuleInformationLeakagePreventionConfig extends cdktf.Terrafo
   /**
   * Specifies the path to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention#path WafRuleInformationLeakagePrevention#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention#path WafRuleInformationLeakagePrevention#path}
   */
   readonly path: string;
   /**
   * Specifies the policy ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention#policy_id WafRuleInformationLeakagePrevention#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention#policy_id WafRuleInformationLeakagePrevention#policy_id}
   */
   readonly policyId: string;
   /**
   * Specifies the protective action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention#protective_action WafRuleInformationLeakagePrevention#protective_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention#protective_action WafRuleInformationLeakagePrevention#protective_action}
   */
   readonly protectiveAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention#region WafRuleInformationLeakagePrevention#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention#region WafRuleInformationLeakagePrevention#region}
   */
   readonly region?: string;
   /**
   * Specifies the type of WAF information leakage prevention rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention#type WafRuleInformationLeakagePrevention#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention#type WafRuleInformationLeakagePrevention#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention hcs_waf_rule_information_leakage_prevention}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention hcs_waf_rule_information_leakage_prevention}
 */
 export class WafRuleInformationLeakagePrevention extends cdktf.TerraformResource {
 
@@ -79,7 +79,7 @@ export class WafRuleInformationLeakagePrevention extends cdktf.TerraformResource
   * Generates CDKTF code for importing a WafRuleInformationLeakagePrevention resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafRuleInformationLeakagePrevention to import
-  * @param importFromId The id of the existing WafRuleInformationLeakagePrevention that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafRuleInformationLeakagePrevention that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafRuleInformationLeakagePrevention to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class WafRuleInformationLeakagePrevention extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_information_leakage_prevention hcs_waf_rule_information_leakage_prevention} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_information_leakage_prevention hcs_waf_rule_information_leakage_prevention} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,8 +102,8 @@ export class WafRuleInformationLeakagePrevention extends cdktf.TerraformResource
       terraformResourceType: 'hcs_waf_rule_information_leakage_prevention',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

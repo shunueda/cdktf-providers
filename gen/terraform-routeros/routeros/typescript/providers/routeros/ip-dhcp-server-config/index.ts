@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_config
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IpDhcpServerConfigAConfig extends cdktf.TerraformMetaArguments 
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_config#___path___ IpDhcpServerConfigA#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_config#___path___ IpDhcpServerConfigA#___path___}
   */
   readonly path?: string;
   /**
   * An option that enables accounting for DHCP leases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_config#accounting IpDhcpServerConfigA#accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_config#accounting IpDhcpServerConfigA#accounting}
   */
   readonly accounting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_config#id IpDhcpServerConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_config#id IpDhcpServerConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface IpDhcpServerConfigAConfig extends cdktf.TerraformMetaArguments 
   /**
   * An option determining whether the DHCP server sends periodic updates to the accounting server during a lease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_config#interim_update IpDhcpServerConfigA#interim_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_config#interim_update IpDhcpServerConfigA#interim_update}
   */
   readonly interimUpdate?: string;
   /**
   * An option to set the password parameter for the RADIUS server. This option is available in RouterOS starting from version 7.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_config#radius_password IpDhcpServerConfigA#radius_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_config#radius_password IpDhcpServerConfigA#radius_password}
   */
   readonly radiusPassword?: string;
   /**
   * An option of how often the DHCP leases will be stored on disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_config#store_leases_disk IpDhcpServerConfigA#store_leases_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_config#store_leases_disk IpDhcpServerConfigA#store_leases_disk}
   */
   readonly storeLeasesDisk?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_config routeros_ip_dhcp_server_config}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_config routeros_ip_dhcp_server_config}
 */
 export class IpDhcpServerConfigA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class IpDhcpServerConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpDhcpServerConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpDhcpServerConfigA to import
-  * @param importFromId The id of the existing IpDhcpServerConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpDhcpServerConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpDhcpServerConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class IpDhcpServerConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_config routeros_ip_dhcp_server_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_config routeros_ip_dhcp_server_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class IpDhcpServerConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_dhcp_server_config',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_region_and_price
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_region_and_price
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudGaapRegionAndPriceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_region_and_price#id DataTencentcloudGaapRegionAndPrice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_region_and_price#id DataTencentcloudGaapRegionAndPrice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudGaapRegionAndPriceConfig extends cdktf.Terrafor
   /**
   * IP version. Available values: IPv4, IPv6. Default is IPv4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_region_and_price#ip_address_version DataTencentcloudGaapRegionAndPrice#ip_address_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_region_and_price#ip_address_version DataTencentcloudGaapRegionAndPrice#ip_address_version}
   */
   readonly ipAddressVersion?: string;
   /**
   * Type of channel package. `Thunder` represents standard channel group, `Accelerator` represents game accelerator channel, and `CrossBorder` represents cross-border channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_region_and_price#package_type DataTencentcloudGaapRegionAndPrice#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_region_and_price#package_type DataTencentcloudGaapRegionAndPrice#package_type}
   */
   readonly packageType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_region_and_price#result_output_file DataTencentcloudGaapRegionAndPrice#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_region_and_price#result_output_file DataTencentcloudGaapRegionAndPrice#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -301,7 +301,7 @@ export class DataTencentcloudGaapRegionAndPriceDestRegionSetList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_region_and_price tencentcloud_gaap_region_and_price}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_region_and_price tencentcloud_gaap_region_and_price}
 */
 export class DataTencentcloudGaapRegionAndPrice extends cdktf.TerraformDataSource {
 
@@ -317,7 +317,7 @@ export class DataTencentcloudGaapRegionAndPrice extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudGaapRegionAndPrice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudGaapRegionAndPrice to import
-  * @param importFromId The id of the existing DataTencentcloudGaapRegionAndPrice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_region_and_price#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudGaapRegionAndPrice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_region_and_price#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudGaapRegionAndPrice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -329,7 +329,7 @@ export class DataTencentcloudGaapRegionAndPrice extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_region_and_price tencentcloud_gaap_region_and_price} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_region_and_price tencentcloud_gaap_region_and_price} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -340,8 +340,8 @@ export class DataTencentcloudGaapRegionAndPrice extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_gaap_region_and_price',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ElasticsearchLogstashConfig extends cdktf.TerraformMetaArgument
   /**
   * whether to use voucher auto, 1 when use, else 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#auto_voucher ElasticsearchLogstash#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#auto_voucher ElasticsearchLogstash#auto_voucher}
   */
   readonly autoVoucher?: number;
   /**
   * Period when charged by months or years(unit depends on TimeUnit).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#charge_period ElasticsearchLogstash#charge_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#charge_period ElasticsearchLogstash#charge_period}
   */
   readonly chargePeriod?: number;
   /**
   * Charge type. PREPAID: charged by months or years; POSTPAID_BY_HOUR: charged by hours; default vaule: POSTPAID_BY_HOUR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#charge_type ElasticsearchLogstash#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#charge_type ElasticsearchLogstash#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Deployment mode, 0: single availability zone, 1: multiple availability zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#deploy_mode ElasticsearchLogstash#deploy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#deploy_mode ElasticsearchLogstash#deploy_mode}
   */
   readonly deployMode?: number;
   /**
   * node disk size (unit GB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#disk_size ElasticsearchLogstash#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#disk_size ElasticsearchLogstash#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Disk type. CLOUD_SSD: SSD cloud disk; CLOUD_PREMIUM: high hard energy cloud disk; default: CLOUD_SSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#disk_type ElasticsearchLogstash#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#disk_type ElasticsearchLogstash#disk_type}
   */
   readonly diskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#id ElasticsearchLogstash#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#id ElasticsearchLogstash#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,25 +53,25 @@ export interface ElasticsearchLogstashConfig extends cdktf.TerraformMetaArgument
   /**
   * Instance name (compose of 1-50 letter, number, - or _).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#instance_name ElasticsearchLogstash#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#instance_name ElasticsearchLogstash#instance_name}
   */
   readonly instanceName: string;
   /**
   * License type. oss: open source version; xpack:xpack version; default: xpack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#license_type ElasticsearchLogstash#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#license_type ElasticsearchLogstash#license_type}
   */
   readonly licenseType?: string;
   /**
   * Instance version(6.8.13, 7.10.1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#logstash_version ElasticsearchLogstash#logstash_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#logstash_version ElasticsearchLogstash#logstash_version}
   */
   readonly logstashVersion: string;
   /**
   * Node num(range 2-50).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#node_num ElasticsearchLogstash#node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#node_num ElasticsearchLogstash#node_num}
   */
   readonly nodeNum?: number;
   /**
@@ -84,61 +84,61 @@ export interface ElasticsearchLogstashConfig extends cdktf.TerraformMetaArgument
   * - LOGSTASH.S1.4XLARGE32:16 core 32G;
   * - LOGSTASH.S1.4XLARGE64:16 core 64G.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#node_type ElasticsearchLogstash#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#node_type ElasticsearchLogstash#node_type}
   */
   readonly nodeType?: string;
   /**
   * Automatic renewal flag. RENEW_FLAG_AUTO: auto renewal; RENEW_FLAG_MANUAL: do not renew automatically, users renew manually. It needs to be set when ChargeType is PREPAID. If this parameter is not passed, ordinary users will not renew automatically by default, and SVIP users will renew automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#renew_flag ElasticsearchLogstash#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#renew_flag ElasticsearchLogstash#renew_flag}
   */
   readonly renewFlag?: string;
   /**
   * Subnet id. Create multi zone instance, parameter subnet_id need input '-', details input to multi_zone_infos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#subnet_id ElasticsearchLogstash#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#subnet_id ElasticsearchLogstash#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#tags ElasticsearchLogstash#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#tags ElasticsearchLogstash#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * charge time unit(set when ChargeType is PREPAID, default value: ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#time_unit ElasticsearchLogstash#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#time_unit ElasticsearchLogstash#time_unit}
   */
   readonly timeUnit?: string;
   /**
   * Voucher list(only can use one voucher by now).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#voucher_ids ElasticsearchLogstash#voucher_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#voucher_ids ElasticsearchLogstash#voucher_ids}
   */
   readonly voucherIds?: string[];
   /**
   * VPC id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#vpc_id ElasticsearchLogstash#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#vpc_id ElasticsearchLogstash#vpc_id}
   */
   readonly vpcId: string;
   /**
   * Available zone. Create multi zone instance, parameter zone need input '-', details input to multi_zone_infos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#zone ElasticsearchLogstash#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#zone ElasticsearchLogstash#zone}
   */
   readonly zone: string;
   /**
   * multi_zone_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#multi_zone_infos ElasticsearchLogstash#multi_zone_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#multi_zone_infos ElasticsearchLogstash#multi_zone_infos}
   */
   readonly multiZoneInfos?: ElasticsearchLogstashMultiZoneInfos[] | cdktf.IResolvable;
   /**
   * operation_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#operation_duration ElasticsearchLogstash#operation_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#operation_duration ElasticsearchLogstash#operation_duration}
   */
   readonly operationDuration?: ElasticsearchLogstashOperationDuration;
 }
@@ -146,19 +146,19 @@ export interface ElasticsearchLogstashMultiZoneInfos {
   /**
   * Availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#availability_zone ElasticsearchLogstash#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#availability_zone ElasticsearchLogstash#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Whether it is a hidden availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#hidden ElasticsearchLogstash#hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#hidden ElasticsearchLogstash#hidden}
   */
   readonly hidden?: boolean | cdktf.IResolvable;
   /**
   * Subnet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#subnet_id ElasticsearchLogstash#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#subnet_id ElasticsearchLogstash#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -328,25 +328,25 @@ export interface ElasticsearchLogstashOperationDuration {
   /**
   * day of week, from Monday to Sunday, value range: [0, 6]notes: may return null when missing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#periods ElasticsearchLogstash#periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#periods ElasticsearchLogstash#periods}
   */
   readonly periods: number[];
   /**
   * operation end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#time_end ElasticsearchLogstash#time_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#time_end ElasticsearchLogstash#time_end}
   */
   readonly timeEnd: string;
   /**
   * operation start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#time_start ElasticsearchLogstash#time_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#time_start ElasticsearchLogstash#time_start}
   */
   readonly timeStart: string;
   /**
   * time zone, for example: UTC+8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#time_zone ElasticsearchLogstash#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#time_zone ElasticsearchLogstash#time_zone}
   */
   readonly timeZone: string;
 }
@@ -505,7 +505,7 @@ export class ElasticsearchLogstashOperationDurationOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash tencentcloud_elasticsearch_logstash}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash tencentcloud_elasticsearch_logstash}
 */
 export class ElasticsearchLogstash extends cdktf.TerraformResource {
 
@@ -521,7 +521,7 @@ export class ElasticsearchLogstash extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchLogstash resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchLogstash to import
-  * @param importFromId The id of the existing ElasticsearchLogstash that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchLogstash that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchLogstash to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -533,7 +533,7 @@ export class ElasticsearchLogstash extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elasticsearch_logstash tencentcloud_elasticsearch_logstash} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elasticsearch_logstash tencentcloud_elasticsearch_logstash} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -544,8 +544,8 @@ export class ElasticsearchLogstash extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_elasticsearch_logstash',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface AsConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#id AsConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#id AsConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#region AsConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#region AsConfiguration#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#scaling_configuration_name AsConfiguration#scaling_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#scaling_configuration_name AsConfiguration#scaling_configuration_name}
   */
   readonly scalingConfigurationName: string;
   /**
   * instance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#instance_config AsConfiguration#instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#instance_config AsConfiguration#instance_config}
   */
   readonly instanceConfig: AsConfigurationInstanceConfig;
 }
 export interface AsConfigurationInstanceConfigDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#disk_type AsConfiguration#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#disk_type AsConfiguration#disk_type}
   */
   readonly diskType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#kms_id AsConfiguration#kms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#kms_id AsConfiguration#kms_id}
   */
   readonly kmsId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#size AsConfiguration#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#size AsConfiguration#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#volume_type AsConfiguration#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#volume_type AsConfiguration#volume_type}
   */
   readonly volumeType: string;
 }
@@ -237,11 +237,11 @@ export class AsConfigurationInstanceConfigDiskList extends cdktf.ComplexList {
 }
 export interface AsConfigurationInstanceConfigPersonality {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#content AsConfiguration#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#content AsConfiguration#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#path AsConfiguration#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#path AsConfiguration#path}
   */
   readonly path: string;
 }
@@ -380,15 +380,15 @@ export class AsConfigurationInstanceConfigPersonalityList extends cdktf.ComplexL
 }
 export interface AsConfigurationInstanceConfigPublicIpEipBandwidth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#charging_mode AsConfiguration#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#charging_mode AsConfiguration#charging_mode}
   */
   readonly chargingMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#share_type AsConfiguration#share_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#share_type AsConfiguration#share_type}
   */
   readonly shareType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#size AsConfiguration#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#size AsConfiguration#size}
   */
   readonly size: number;
 }
@@ -521,13 +521,13 @@ export class AsConfigurationInstanceConfigPublicIpEipBandwidthOutputReference ex
 }
 export interface AsConfigurationInstanceConfigPublicIpEip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#ip_type AsConfiguration#ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#ip_type AsConfiguration#ip_type}
   */
   readonly ipType: string;
   /**
   * bandwidth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#bandwidth AsConfiguration#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#bandwidth AsConfiguration#bandwidth}
   */
   readonly bandwidth: AsConfigurationInstanceConfigPublicIpEipBandwidth;
 }
@@ -636,7 +636,7 @@ export interface AsConfigurationInstanceConfigPublicIp {
   /**
   * eip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#eip AsConfiguration#eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#eip AsConfiguration#eip}
   */
   readonly eip: AsConfigurationInstanceConfigPublicIpEip;
 }
@@ -717,63 +717,63 @@ export class AsConfigurationInstanceConfigPublicIpOutputReference extends cdktf.
 }
 export interface AsConfigurationInstanceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#charging_mode AsConfiguration#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#charging_mode AsConfiguration#charging_mode}
   */
   readonly chargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#ecs_group_id AsConfiguration#ecs_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#ecs_group_id AsConfiguration#ecs_group_id}
   */
   readonly ecsGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#flavor AsConfiguration#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#flavor AsConfiguration#flavor}
   */
   readonly flavor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#flavor_priority_policy AsConfiguration#flavor_priority_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#flavor_priority_policy AsConfiguration#flavor_priority_policy}
   */
   readonly flavorPriorityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#image AsConfiguration#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#image AsConfiguration#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#instance_id AsConfiguration#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#instance_id AsConfiguration#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#key_name AsConfiguration#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#key_name AsConfiguration#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#metadata AsConfiguration#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#metadata AsConfiguration#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#security_group_ids AsConfiguration#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#security_group_ids AsConfiguration#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#user_data AsConfiguration#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#user_data AsConfiguration#user_data}
   */
   readonly userData?: string;
   /**
   * disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#disk AsConfiguration#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#disk AsConfiguration#disk}
   */
   readonly disk?: AsConfigurationInstanceConfigDisk[] | cdktf.IResolvable;
   /**
   * personality block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#personality AsConfiguration#personality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#personality AsConfiguration#personality}
   */
   readonly personality?: AsConfigurationInstanceConfigPersonality[] | cdktf.IResolvable;
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#public_ip AsConfiguration#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#public_ip AsConfiguration#public_ip}
   */
   readonly publicIp?: AsConfigurationInstanceConfigPublicIp;
 }
@@ -1205,7 +1205,7 @@ export class AsConfigurationInstanceConfigOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration hcs_as_configuration}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration hcs_as_configuration}
 */
 export class AsConfiguration extends cdktf.TerraformResource {
 
@@ -1221,7 +1221,7 @@ export class AsConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsConfiguration to import
-  * @param importFromId The id of the existing AsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1233,7 +1233,7 @@ export class AsConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_configuration hcs_as_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_configuration hcs_as_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1244,8 +1244,8 @@ export class AsConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_as_configuration',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

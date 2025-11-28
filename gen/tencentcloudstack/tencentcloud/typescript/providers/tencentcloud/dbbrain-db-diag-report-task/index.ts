@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dbbrain_db_diag_report_task
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dbbrain_db_diag_report_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DbbrainDbDiagReportTaskConfig extends cdktf.TerraformMetaArgume
   /**
   * An array of contact group IDs to receive mail from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dbbrain_db_diag_report_task#contact_group DbbrainDbDiagReportTask#contact_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dbbrain_db_diag_report_task#contact_group DbbrainDbDiagReportTask#contact_group}
   */
   readonly contactGroup?: number[];
   /**
   * An array of contact IDs to receive emails from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dbbrain_db_diag_report_task#contact_person DbbrainDbDiagReportTask#contact_person}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dbbrain_db_diag_report_task#contact_person DbbrainDbDiagReportTask#contact_person}
   */
   readonly contactPerson?: number[];
   /**
   * End time, such as 2020-11-09T14:00:00+08:00.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dbbrain_db_diag_report_task#end_time DbbrainDbDiagReportTask#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dbbrain_db_diag_report_task#end_time DbbrainDbDiagReportTask#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dbbrain_db_diag_report_task#id DbbrainDbDiagReportTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dbbrain_db_diag_report_task#id DbbrainDbDiagReportTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DbbrainDbDiagReportTaskConfig extends cdktf.TerraformMetaArgume
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dbbrain_db_diag_report_task#instance_id DbbrainDbDiagReportTask#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dbbrain_db_diag_report_task#instance_id DbbrainDbDiagReportTask#instance_id}
   */
   readonly instanceId: string;
   /**
   * Service product type, supported values include: mysql - cloud database MySQL, cynosdb - cloud database CynosDB for MySQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dbbrain_db_diag_report_task#product DbbrainDbDiagReportTask#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dbbrain_db_diag_report_task#product DbbrainDbDiagReportTask#product}
   */
   readonly product: string;
   /**
   * Whether to send mail: 0 - no, 1 - yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dbbrain_db_diag_report_task#send_mail_flag DbbrainDbDiagReportTask#send_mail_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dbbrain_db_diag_report_task#send_mail_flag DbbrainDbDiagReportTask#send_mail_flag}
   */
   readonly sendMailFlag: number;
   /**
   * Start time, such as 2020-11-08T14:00:00+08:00.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dbbrain_db_diag_report_task#start_time DbbrainDbDiagReportTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dbbrain_db_diag_report_task#start_time DbbrainDbDiagReportTask#start_time}
   */
   readonly startTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dbbrain_db_diag_report_task tencentcloud_dbbrain_db_diag_report_task}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dbbrain_db_diag_report_task tencentcloud_dbbrain_db_diag_report_task}
 */
 export class DbbrainDbDiagReportTask extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class DbbrainDbDiagReportTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbbrainDbDiagReportTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbbrainDbDiagReportTask to import
-  * @param importFromId The id of the existing DbbrainDbDiagReportTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dbbrain_db_diag_report_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbbrainDbDiagReportTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dbbrain_db_diag_report_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbbrainDbDiagReportTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DbbrainDbDiagReportTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dbbrain_db_diag_report_task tencentcloud_dbbrain_db_diag_report_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dbbrain_db_diag_report_task tencentcloud_dbbrain_db_diag_report_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DbbrainDbDiagReportTask extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dbbrain_db_diag_report_task',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

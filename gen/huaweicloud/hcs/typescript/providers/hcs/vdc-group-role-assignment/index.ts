@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vdc_group_role_assignment
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vdc_group_role_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface VdcGroupRoleAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vdc_group_role_assignment#group_id VdcGroupRoleAssignment#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vdc_group_role_assignment#group_id VdcGroupRoleAssignment#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vdc_group_role_assignment#id VdcGroupRoleAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vdc_group_role_assignment#id VdcGroupRoleAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,25 +21,25 @@ export interface VdcGroupRoleAssignmentConfig extends cdktf.TerraformMetaArgumen
   /**
   * role_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vdc_group_role_assignment#role_assignment VdcGroupRoleAssignment#role_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vdc_group_role_assignment#role_assignment VdcGroupRoleAssignment#role_assignment}
   */
   readonly roleAssignment: VdcGroupRoleAssignmentRoleAssignment[] | cdktf.IResolvable;
 }
 export interface VdcGroupRoleAssignmentRoleAssignment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vdc_group_role_assignment#domain_id VdcGroupRoleAssignment#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vdc_group_role_assignment#domain_id VdcGroupRoleAssignment#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vdc_group_role_assignment#enterprise_project_id VdcGroupRoleAssignment#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vdc_group_role_assignment#enterprise_project_id VdcGroupRoleAssignment#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vdc_group_role_assignment#project_id VdcGroupRoleAssignment#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vdc_group_role_assignment#project_id VdcGroupRoleAssignment#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vdc_group_role_assignment#role_id VdcGroupRoleAssignment#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vdc_group_role_assignment#role_id VdcGroupRoleAssignment#role_id}
   */
   readonly roleId: string;
 }
@@ -239,7 +239,7 @@ export class VdcGroupRoleAssignmentRoleAssignmentList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vdc_group_role_assignment hcs_vdc_group_role_assignment}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vdc_group_role_assignment hcs_vdc_group_role_assignment}
 */
 export class VdcGroupRoleAssignment extends cdktf.TerraformResource {
 
@@ -255,7 +255,7 @@ export class VdcGroupRoleAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VdcGroupRoleAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VdcGroupRoleAssignment to import
-  * @param importFromId The id of the existing VdcGroupRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vdc_group_role_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VdcGroupRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vdc_group_role_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VdcGroupRoleAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class VdcGroupRoleAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vdc_group_role_assignment hcs_vdc_group_role_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vdc_group_role_assignment hcs_vdc_group_role_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class VdcGroupRoleAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_vdc_group_role_assignment',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_cloud_resource_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kms_cloud_resource_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KmsCloudResourceAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_cloud_resource_attachment#id KmsCloudResourceAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kms_cloud_resource_attachment#id KmsCloudResourceAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface KmsCloudResourceAttachmentConfig extends cdktf.TerraformMetaArg
   /**
   * CMK unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_cloud_resource_attachment#key_id KmsCloudResourceAttachment#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kms_cloud_resource_attachment#key_id KmsCloudResourceAttachment#key_id}
   */
   readonly keyId: string;
   /**
   * A unique identifier for the cloud product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_cloud_resource_attachment#product_id KmsCloudResourceAttachment#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kms_cloud_resource_attachment#product_id KmsCloudResourceAttachment#product_id}
   */
   readonly productId: string;
   /**
   * The resource/instance ID of the cloud product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_cloud_resource_attachment#resource_id KmsCloudResourceAttachment#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kms_cloud_resource_attachment#resource_id KmsCloudResourceAttachment#resource_id}
   */
   readonly resourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_cloud_resource_attachment tencentcloud_kms_cloud_resource_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kms_cloud_resource_attachment tencentcloud_kms_cloud_resource_attachment}
 */
 export class KmsCloudResourceAttachment extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class KmsCloudResourceAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsCloudResourceAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsCloudResourceAttachment to import
-  * @param importFromId The id of the existing KmsCloudResourceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_cloud_resource_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsCloudResourceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kms_cloud_resource_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsCloudResourceAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class KmsCloudResourceAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kms_cloud_resource_attachment tencentcloud_kms_cloud_resource_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kms_cloud_resource_attachment tencentcloud_kms_cloud_resource_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class KmsCloudResourceAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_kms_cloud_resource_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

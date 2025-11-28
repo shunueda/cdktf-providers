@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/init
+// https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/init
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface InitConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the created Git repository is bare or not. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/init#bare Init#bare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/init#bare Init#bare}
   */
   readonly bare?: boolean | cdktf.IResolvable;
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/init#directory Init#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/init#directory Init#directory}
   */
   readonly directory: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/init git_init}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/init git_init}
 */
 export class Init extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class Init extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Init resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Init to import
-  * @param importFromId The id of the existing Init that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/init#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Init that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/init#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Init to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class Init extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/init git_init} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/init git_init} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class Init extends cdktf.TerraformResource {
       terraformResourceType: 'git_init',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.11.21',
-        providerVersionConstraint: '2025.11.21'
+        providerVersion: '2025.11.28',
+        providerVersionConstraint: '2025.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

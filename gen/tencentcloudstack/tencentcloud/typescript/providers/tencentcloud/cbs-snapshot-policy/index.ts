@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cbs_snapshot_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cbs_snapshot_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CbsSnapshotPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cbs_snapshot_policy#id CbsSnapshotPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cbs_snapshot_policy#id CbsSnapshotPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface CbsSnapshotPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Trigger times of periodic snapshot. Valid value ranges: (0~23). The 0 means 00:00, and so on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cbs_snapshot_policy#repeat_hours CbsSnapshotPolicy#repeat_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cbs_snapshot_policy#repeat_hours CbsSnapshotPolicy#repeat_hours}
   */
   readonly repeatHours: number[];
   /**
   * Periodic snapshot is enabled. Valid values: [0, 1, 2, 3, 4, 5, 6]. 0 means Sunday, 1-6 means Monday to Saturday.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cbs_snapshot_policy#repeat_weekdays CbsSnapshotPolicy#repeat_weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cbs_snapshot_policy#repeat_weekdays CbsSnapshotPolicy#repeat_weekdays}
   */
   readonly repeatWeekdays: number[];
   /**
   * Retention days of the snapshot, and the default value is 7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cbs_snapshot_policy#retention_days CbsSnapshotPolicy#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cbs_snapshot_policy#retention_days CbsSnapshotPolicy#retention_days}
   */
   readonly retentionDays?: number;
   /**
   * Name of snapshot policy. The maximum length can not exceed 60 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cbs_snapshot_policy#snapshot_policy_name CbsSnapshotPolicy#snapshot_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cbs_snapshot_policy#snapshot_policy_name CbsSnapshotPolicy#snapshot_policy_name}
   */
   readonly snapshotPolicyName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cbs_snapshot_policy tencentcloud_cbs_snapshot_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cbs_snapshot_policy tencentcloud_cbs_snapshot_policy}
 */
 export class CbsSnapshotPolicy extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class CbsSnapshotPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CbsSnapshotPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CbsSnapshotPolicy to import
-  * @param importFromId The id of the existing CbsSnapshotPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cbs_snapshot_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CbsSnapshotPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cbs_snapshot_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CbsSnapshotPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class CbsSnapshotPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cbs_snapshot_policy tencentcloud_cbs_snapshot_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cbs_snapshot_policy tencentcloud_cbs_snapshot_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class CbsSnapshotPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cbs_snapshot_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

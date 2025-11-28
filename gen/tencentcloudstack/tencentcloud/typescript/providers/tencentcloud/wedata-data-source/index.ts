@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WedataDataSourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Data source description information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#description WedataDataSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#description WedataDataSource#description}
   */
   readonly description?: string;
   /**
   * Development environment data source configuration information, required if the project is in standard mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#dev_con_properties WedataDataSource#dev_con_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#dev_con_properties WedataDataSource#dev_con_properties}
   */
   readonly devConProperties?: string;
   /**
   * Data source display name, for visual viewing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#display_name WedataDataSource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#display_name WedataDataSource#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#id WedataDataSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#id WedataDataSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface WedataDataSourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Data source name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#name WedataDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#name WedataDataSource#name}
   */
   readonly name: string;
   /**
@@ -154,13 +154,13 @@ export interface WedataDataSourceConfig extends cdktf.TerraformMetaArguments {
   * 
   * ```.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#prod_con_properties WedataDataSource#prod_con_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#prod_con_properties WedataDataSource#prod_con_properties}
   */
   readonly prodConProperties: string;
   /**
   * Data source project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#project_id WedataDataSource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#project_id WedataDataSource#project_id}
   */
   readonly projectId: string;
   /**
@@ -223,19 +223,19 @@ export interface WedataDataSourceConfig extends cdktf.TerraformMetaArguments {
   * - TDENGINE
   * - TDSQLC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#type WedataDataSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#type WedataDataSource#type}
   */
   readonly type: string;
   /**
   * dev_file_upload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#dev_file_upload WedataDataSource#dev_file_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#dev_file_upload WedataDataSource#dev_file_upload}
   */
   readonly devFileUpload?: WedataDataSourceDevFileUpload;
   /**
   * prod_file_upload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#prod_file_upload WedataDataSource#prod_file_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#prod_file_upload WedataDataSource#prod_file_upload}
   */
   readonly prodFileUpload?: WedataDataSourceProdFileUpload;
 }
@@ -243,61 +243,61 @@ export interface WedataDataSourceDevFileUpload {
   /**
   * core-site.xml file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#core_site WedataDataSource#core_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#core_site WedataDataSource#core_site}
   */
   readonly coreSite?: string;
   /**
   * hbase-site file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#hbase_site WedataDataSource#hbase_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#hbase_site WedataDataSource#hbase_site}
   */
   readonly hbaseSite?: string;
   /**
   * hdfs-site.xml file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#hdfs_site WedataDataSource#hdfs_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#hdfs_site WedataDataSource#hdfs_site}
   */
   readonly hdfsSite?: string;
   /**
   * hive-site.xml file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#hive_site WedataDataSource#hive_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#hive_site WedataDataSource#hive_site}
   */
   readonly hiveSite?: string;
   /**
   * Keystore authentication file, default filename keystore.jks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#key_store WedataDataSource#key_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#key_store WedataDataSource#key_store}
   */
   readonly keyStore?: string;
   /**
   * keytab file, default filename [data source name].keytab.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#key_tab WedataDataSource#key_tab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#key_tab WedataDataSource#key_tab}
   */
   readonly keyTab?: string;
   /**
   * krb5.conf file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#krb5_conf WedataDataSource#krb5_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#krb5_conf WedataDataSource#krb5_conf}
   */
   readonly krb5Conf?: string;
   /**
   * Private key, default filename private_key.pem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#private_key WedataDataSource#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#private_key WedataDataSource#private_key}
   */
   readonly privateKey?: string;
   /**
   * Public key, default filename public_key.pem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#public_key WedataDataSource#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#public_key WedataDataSource#public_key}
   */
   readonly publicKey?: string;
   /**
   * Truststore authentication file, default filename truststore.jks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#trust_store WedataDataSource#trust_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#trust_store WedataDataSource#trust_store}
   */
   readonly trustStore?: string;
 }
@@ -644,61 +644,61 @@ export interface WedataDataSourceProdFileUpload {
   /**
   * core-site.xml file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#core_site WedataDataSource#core_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#core_site WedataDataSource#core_site}
   */
   readonly coreSite?: string;
   /**
   * hbase-site file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#hbase_site WedataDataSource#hbase_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#hbase_site WedataDataSource#hbase_site}
   */
   readonly hbaseSite?: string;
   /**
   * hdfs-site.xml file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#hdfs_site WedataDataSource#hdfs_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#hdfs_site WedataDataSource#hdfs_site}
   */
   readonly hdfsSite?: string;
   /**
   * hive-site.xml file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#hive_site WedataDataSource#hive_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#hive_site WedataDataSource#hive_site}
   */
   readonly hiveSite?: string;
   /**
   * Keystore authentication file, default filename keystore.jks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#key_store WedataDataSource#key_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#key_store WedataDataSource#key_store}
   */
   readonly keyStore?: string;
   /**
   * keytab file, default filename [data source name].keytab.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#key_tab WedataDataSource#key_tab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#key_tab WedataDataSource#key_tab}
   */
   readonly keyTab?: string;
   /**
   * krb5.conf file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#krb5_conf WedataDataSource#krb5_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#krb5_conf WedataDataSource#krb5_conf}
   */
   readonly krb5Conf?: string;
   /**
   * Private key, default filename private_key.pem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#private_key WedataDataSource#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#private_key WedataDataSource#private_key}
   */
   readonly privateKey?: string;
   /**
   * Public key, default filename public_key.pem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#public_key WedataDataSource#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#public_key WedataDataSource#public_key}
   */
   readonly publicKey?: string;
   /**
   * Truststore authentication file, default filename truststore.jks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#trust_store WedataDataSource#trust_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#trust_store WedataDataSource#trust_store}
   */
   readonly trustStore?: string;
 }
@@ -1043,7 +1043,7 @@ export class WedataDataSourceProdFileUploadOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source tencentcloud_wedata_data_source}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source tencentcloud_wedata_data_source}
 */
 export class WedataDataSource extends cdktf.TerraformResource {
 
@@ -1059,7 +1059,7 @@ export class WedataDataSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataDataSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataDataSource to import
-  * @param importFromId The id of the existing WedataDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1071,7 +1071,7 @@ export class WedataDataSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/wedata_data_source tencentcloud_wedata_data_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_data_source tencentcloud_wedata_data_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1082,8 +1082,8 @@ export class WedataDataSource extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_data_source',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

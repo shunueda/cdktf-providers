@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ElasticPublicIpv6Config extends cdktf.TerraformMetaArguments {
   /**
   * External network IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6#address_ip ElasticPublicIpv6#address_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6#address_ip ElasticPublicIpv6#address_ip}
   */
   readonly addressIp?: string;
   /**
   * EIP name, used to customize the personalized name of the EIP when applying for EIP. Default value: unnamed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6#address_name ElasticPublicIpv6#address_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6#address_name ElasticPublicIpv6#address_name}
   */
   readonly addressName?: string;
   /**
@@ -26,13 +26,13 @@ export interface ElasticPublicIpv6Config extends cdktf.TerraformMetaArguments {
   * Note: You need to contact the product to open a premium IPv6 white list, and only some regions support premium IPv6
   * Default value: EIPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6#address_type ElasticPublicIpv6#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6#address_type ElasticPublicIpv6#address_type}
   */
   readonly addressType?: string;
   /**
   * Bandwidth packet unique ID parameter. If this parameter is set and the InternetChargeType is BANDWIDTH_PACKAGE, it means that the EIP created is added to the BGP bandwidth packet and the bandwidth packet is charged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6#bandwidth_package_id ElasticPublicIpv6#bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6#bandwidth_package_id ElasticPublicIpv6#bandwidth_package_id}
   */
   readonly bandwidthPackageId?: string;
   /**
@@ -43,11 +43,11 @@ export interface ElasticPublicIpv6Config extends cdktf.TerraformMetaArguments {
   * Note: Network exports corresponding to different operators or resource types need to contact the product for clarification
   * Default value: CENTER_EGRESS_1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6#egress ElasticPublicIpv6#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6#egress ElasticPublicIpv6#egress}
   */
   readonly egress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6#id ElasticPublicIpv6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6#id ElasticPublicIpv6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ export interface ElasticPublicIpv6Config extends cdktf.TerraformMetaArguments {
   * 	- TRAFFIC_POSTPAID_BY_HOUR: Traffic is paid by the hour
   * Default value: TRAFFIC_POSTPAID_BY_HOUR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6#internet_charge_type ElasticPublicIpv6#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6#internet_charge_type ElasticPublicIpv6#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
@@ -69,7 +69,7 @@ export interface ElasticPublicIpv6Config extends cdktf.TerraformMetaArguments {
   * 	- TRAFFIC_POSTPAID_BY_HOUR: 1 Mbps to 100 Mbps
   * Default value: 1 Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6#internet_max_bandwidth_out ElasticPublicIpv6#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6#internet_max_bandwidth_out ElasticPublicIpv6#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
@@ -80,19 +80,19 @@ export interface ElasticPublicIpv6Config extends cdktf.TerraformMetaArguments {
   * 	- CUCC: China Unicom
   * Note: Static single-wire IP is only supported in some regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6#internet_service_provider ElasticPublicIpv6#internet_service_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6#internet_service_provider ElasticPublicIpv6#internet_service_provider}
   */
   readonly internetServiceProvider?: string;
   /**
   * Tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6#tags ElasticPublicIpv6#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6#tags ElasticPublicIpv6#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6 tencentcloud_elastic_public_ipv6}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6 tencentcloud_elastic_public_ipv6}
 */
 export class ElasticPublicIpv6 extends cdktf.TerraformResource {
 
@@ -108,7 +108,7 @@ export class ElasticPublicIpv6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticPublicIpv6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticPublicIpv6 to import
-  * @param importFromId The id of the existing ElasticPublicIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticPublicIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticPublicIpv6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -120,7 +120,7 @@ export class ElasticPublicIpv6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/elastic_public_ipv6 tencentcloud_elastic_public_ipv6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/elastic_public_ipv6 tencentcloud_elastic_public_ipv6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -131,8 +131,8 @@ export class ElasticPublicIpv6 extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_elastic_public_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

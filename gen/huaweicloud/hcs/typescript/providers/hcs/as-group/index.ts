@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,168 +8,168 @@ import * as cdktf from 'cdktf';
 
 export interface AsGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#agency_name AsGroup#agency_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#agency_name AsGroup#agency_name}
   */
   readonly agencyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#availability_zones AsGroup#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#availability_zones AsGroup#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * schema: Deprecated; use availability_zones instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#available_zones AsGroup#available_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#available_zones AsGroup#available_zones}
   */
   readonly availableZones?: string[];
   /**
   * The cooling duration, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#cool_down_time AsGroup#cool_down_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#cool_down_time AsGroup#cool_down_time}
   */
   readonly coolDownTime?: number;
   /**
   * Whether to delete instances when they are removed from the AS group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#delete_instances AsGroup#delete_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#delete_instances AsGroup#delete_instances}
   */
   readonly deleteInstances?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#delete_publicip AsGroup#delete_publicip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#delete_publicip AsGroup#delete_publicip}
   */
   readonly deletePublicip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#description AsGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#description AsGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#desire_instance_number AsGroup#desire_instance_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#desire_instance_number AsGroup#desire_instance_number}
   */
   readonly desireInstanceNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#enable AsGroup#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#enable AsGroup#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#enterprise_project_id AsGroup#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#enterprise_project_id AsGroup#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#force_delete AsGroup#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#force_delete AsGroup#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
   * The health check grace period for instances, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#health_periodic_audit_grace_period AsGroup#health_periodic_audit_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#health_periodic_audit_grace_period AsGroup#health_periodic_audit_grace_period}
   */
   readonly healthPeriodicAuditGracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#health_periodic_audit_method AsGroup#health_periodic_audit_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#health_periodic_audit_method AsGroup#health_periodic_audit_method}
   */
   readonly healthPeriodicAuditMethod?: string;
   /**
   * The health check period for instances, in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#health_periodic_audit_time AsGroup#health_periodic_audit_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#health_periodic_audit_time AsGroup#health_periodic_audit_time}
   */
   readonly healthPeriodicAuditTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#id AsGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#id AsGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#instance_terminate_policy AsGroup#instance_terminate_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#instance_terminate_policy AsGroup#instance_terminate_policy}
   */
   readonly instanceTerminatePolicy?: string;
   /**
   * The system supports the binding of up to six ELB listeners, the IDs of which are separated using a comma.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#lb_listener_id AsGroup#lb_listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#lb_listener_id AsGroup#lb_listener_id}
   */
   readonly lbListenerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#max_instance_number AsGroup#max_instance_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#max_instance_number AsGroup#max_instance_number}
   */
   readonly maxInstanceNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#min_instance_number AsGroup#min_instance_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#min_instance_number AsGroup#min_instance_number}
   */
   readonly minInstanceNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#multi_az_scaling_policy AsGroup#multi_az_scaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#multi_az_scaling_policy AsGroup#multi_az_scaling_policy}
   */
   readonly multiAzScalingPolicy?: string;
   /**
   * schema: Deprecated; The notification mode has been canceled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#notifications AsGroup#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#notifications AsGroup#notifications}
   */
   readonly notifications?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#region AsGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#region AsGroup#region}
   */
   readonly region?: string;
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#scaling_configuration_id AsGroup#scaling_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#scaling_configuration_id AsGroup#scaling_configuration_id}
   */
   readonly scalingConfigurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#scaling_group_name AsGroup#scaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#scaling_group_name AsGroup#scaling_group_name}
   */
   readonly scalingGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#tags AsGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#tags AsGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#vpc_id AsGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#vpc_id AsGroup#vpc_id}
   */
   readonly vpcId: string;
   /**
   * lbaas_listeners block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#lbaas_listeners AsGroup#lbaas_listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#lbaas_listeners AsGroup#lbaas_listeners}
   */
   readonly lbaasListeners?: AsGroupLbaasListeners[] | cdktf.IResolvable;
   /**
   * networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#networks AsGroup#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#networks AsGroup#networks}
   */
   readonly networks: AsGroupNetworks[] | cdktf.IResolvable;
   /**
   * security_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#security_groups AsGroup#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#security_groups AsGroup#security_groups}
   */
   readonly securityGroups?: AsGroupSecurityGroups[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#timeouts AsGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#timeouts AsGroup#timeouts}
   */
   readonly timeouts?: AsGroupTimeouts;
 }
 export interface AsGroupLbaasListeners {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#listener_id AsGroup#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#listener_id AsGroup#listener_id}
   */
   readonly listenerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#pool_id AsGroup#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#pool_id AsGroup#pool_id}
   */
   readonly poolId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#protocol_port AsGroup#protocol_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#protocol_port AsGroup#protocol_port}
   */
   readonly protocolPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#weight AsGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#weight AsGroup#weight}
   */
   readonly weight?: number;
 }
@@ -363,22 +363,22 @@ export class AsGroupLbaasListenersList extends cdktf.ComplexList {
 }
 export interface AsGroupNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#id AsGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#id AsGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#ipv6_bandwidth_id AsGroup#ipv6_bandwidth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#ipv6_bandwidth_id AsGroup#ipv6_bandwidth_id}
   */
   readonly ipv6BandwidthId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#ipv6_enable AsGroup#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#ipv6_enable AsGroup#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#source_dest_check AsGroup#source_dest_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#source_dest_check AsGroup#source_dest_check}
   */
   readonly sourceDestCheck?: boolean | cdktf.IResolvable;
 }
@@ -578,7 +578,7 @@ export class AsGroupNetworksList extends cdktf.ComplexList {
 }
 export interface AsGroupSecurityGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#id AsGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#id AsGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -694,11 +694,11 @@ export class AsGroupSecurityGroupsList extends cdktf.ComplexList {
 }
 export interface AsGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#create AsGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#create AsGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#delete AsGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#delete AsGroup#delete}
   */
   readonly delete?: string;
 }
@@ -821,7 +821,7 @@ export class AsGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group hcs_as_group}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group hcs_as_group}
 */
 export class AsGroup extends cdktf.TerraformResource {
 
@@ -837,7 +837,7 @@ export class AsGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsGroup to import
-  * @param importFromId The id of the existing AsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -849,7 +849,7 @@ export class AsGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_group hcs_as_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_group hcs_as_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -860,8 +860,8 @@ export class AsGroup extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_as_group',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

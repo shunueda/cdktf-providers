@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface DmsKafkaTopicConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic#aging_time DmsKafkaTopic#aging_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic#aging_time DmsKafkaTopic#aging_time}
   */
   readonly agingTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic#id DmsKafkaTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic#id DmsKafkaTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic#instance_id DmsKafkaTopic#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic#instance_id DmsKafkaTopic#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic#name DmsKafkaTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic#name DmsKafkaTopic#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic#partitions DmsKafkaTopic#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic#partitions DmsKafkaTopic#partitions}
   */
   readonly partitions: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic#region DmsKafkaTopic#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic#region DmsKafkaTopic#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic#replicas DmsKafkaTopic#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic#replicas DmsKafkaTopic#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic#sync_flushing DmsKafkaTopic#sync_flushing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic#sync_flushing DmsKafkaTopic#sync_flushing}
   */
   readonly syncFlushing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic#sync_replication DmsKafkaTopic#sync_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic#sync_replication DmsKafkaTopic#sync_replication}
   */
   readonly syncReplication?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic hcs_dms_kafka_topic}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic hcs_dms_kafka_topic}
 */
 export class DmsKafkaTopic extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class DmsKafkaTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsKafkaTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsKafkaTopic to import
-  * @param importFromId The id of the existing DmsKafkaTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsKafkaTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsKafkaTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class DmsKafkaTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_topic hcs_dms_kafka_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_kafka_topic hcs_dms_kafka_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class DmsKafkaTopic extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_dms_kafka_topic',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

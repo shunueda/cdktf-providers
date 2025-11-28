@@ -47,6 +47,10 @@ Object.defineProperty(exports, 'interfaceDot1XServer', { get: function () { retu
 Object.defineProperty(exports, 'interfaceEoip', { get: function () { return require('./interface-eoip'); } });
 Object.defineProperty(exports, 'interfaceEthernet', { get: function () { return require('./interface-ethernet'); } });
 Object.defineProperty(exports, 'interfaceEthernetSwitch', { get: function () { return require('./interface-ethernet-switch'); } });
+Object.defineProperty(exports, 'interfaceEthernetSwitchCrs', { get: function () { return require('./interface-ethernet-switch-crs'); } });
+Object.defineProperty(exports, 'interfaceEthernetSwitchCrsEgressVlanTag', { get: function () { return require('./interface-ethernet-switch-crs-egress-vlan-tag'); } });
+Object.defineProperty(exports, 'interfaceEthernetSwitchCrsEgressVlanTranslation', { get: function () { return require('./interface-ethernet-switch-crs-egress-vlan-translation'); } });
+Object.defineProperty(exports, 'interfaceEthernetSwitchCrsIngressVlanTranslation', { get: function () { return require('./interface-ethernet-switch-crs-ingress-vlan-translation'); } });
 Object.defineProperty(exports, 'interfaceEthernetSwitchHost', { get: function () { return require('./interface-ethernet-switch-host'); } });
 Object.defineProperty(exports, 'interfaceEthernetSwitchPort', { get: function () { return require('./interface-ethernet-switch-port'); } });
 Object.defineProperty(exports, 'interfaceEthernetSwitchPortIsolation', { get: function () { return require('./interface-ethernet-switch-port-isolation'); } });

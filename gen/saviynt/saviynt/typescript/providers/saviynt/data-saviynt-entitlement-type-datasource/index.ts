@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/entitlement_type_datasource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/entitlement_type_datasource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataSaviyntEntitlementTypeDatasourceConfig extends cdktf.Terraf
   /**
   * If false, do not store sensitive attributes in state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/entitlement_type_datasource#authenticate DataSaviyntEntitlementTypeDatasource#authenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/entitlement_type_datasource#authenticate DataSaviyntEntitlementTypeDatasource#authenticate}
   */
   readonly authenticate: boolean | cdktf.IResolvable;
   /**
   * The endpoint name associated with the entitlement type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/entitlement_type_datasource#endpoint_name DataSaviyntEntitlementTypeDatasource#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/entitlement_type_datasource#endpoint_name DataSaviyntEntitlementTypeDatasource#endpoint_name}
   */
   readonly endpointName?: string;
   /**
   * The name of the entitlement type to query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/entitlement_type_datasource#entitlement_name DataSaviyntEntitlementTypeDatasource#entitlement_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/entitlement_type_datasource#entitlement_name DataSaviyntEntitlementTypeDatasource#entitlement_name}
   */
   readonly entitlementName?: string;
   /**
   * Maximum number of entitlement types to retrieve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/entitlement_type_datasource#max DataSaviyntEntitlementTypeDatasource#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/entitlement_type_datasource#max DataSaviyntEntitlementTypeDatasource#max}
   */
   readonly max?: string;
   /**
   * Pagination offset for retrieving entitlement types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/entitlement_type_datasource#offset DataSaviyntEntitlementTypeDatasource#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/entitlement_type_datasource#offset DataSaviyntEntitlementTypeDatasource#offset}
   */
   readonly offset?: string;
 }
@@ -440,7 +440,7 @@ export class DataSaviyntEntitlementTypeDatasourceResultsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/entitlement_type_datasource saviynt_entitlement_type_datasource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/entitlement_type_datasource saviynt_entitlement_type_datasource}
 */
 export class DataSaviyntEntitlementTypeDatasource extends cdktf.TerraformDataSource {
 
@@ -456,7 +456,7 @@ export class DataSaviyntEntitlementTypeDatasource extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataSaviyntEntitlementTypeDatasource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSaviyntEntitlementTypeDatasource to import
-  * @param importFromId The id of the existing DataSaviyntEntitlementTypeDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/entitlement_type_datasource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSaviyntEntitlementTypeDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/entitlement_type_datasource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSaviyntEntitlementTypeDatasource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -468,7 +468,7 @@ export class DataSaviyntEntitlementTypeDatasource extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/entitlement_type_datasource saviynt_entitlement_type_datasource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/entitlement_type_datasource saviynt_entitlement_type_datasource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -479,8 +479,8 @@ export class DataSaviyntEntitlementTypeDatasource extends cdktf.TerraformDataSou
       terraformResourceType: 'saviynt_entitlement_type_datasource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

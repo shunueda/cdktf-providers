@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/datacenter
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/datacenter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataHcloudDatacenterConfig extends cdktf.TerraformMetaArguments
   /**
   * ID of the Datacenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/datacenter#id DataHcloudDatacenter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/datacenter#id DataHcloudDatacenter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataHcloudDatacenterConfig extends cdktf.TerraformMetaArguments
   /**
   * Name of the Datacenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/datacenter#name DataHcloudDatacenter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/datacenter#name DataHcloudDatacenter#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/datacenter hcloud_datacenter}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/datacenter hcloud_datacenter}
 */
 export class DataHcloudDatacenter extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataHcloudDatacenter extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcloudDatacenter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcloudDatacenter to import
-  * @param importFromId The id of the existing DataHcloudDatacenter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/datacenter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcloudDatacenter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/datacenter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcloudDatacenter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataHcloudDatacenter extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/datacenter hcloud_datacenter} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/datacenter hcloud_datacenter} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataHcloudDatacenter extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcloud_datacenter',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.56.0',
-        providerVersionConstraint: '1.56.0'
+        providerVersion: '1.57.0',
+        providerVersionConstraint: '1.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

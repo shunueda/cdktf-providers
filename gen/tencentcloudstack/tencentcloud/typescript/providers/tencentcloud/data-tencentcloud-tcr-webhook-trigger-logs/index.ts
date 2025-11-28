@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcr_webhook_trigger_logs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tcr_webhook_trigger_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudTcrWebhookTriggerLogsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcr_webhook_trigger_logs#id DataTencentcloudTcrWebhookTriggerLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tcr_webhook_trigger_logs#id DataTencentcloudTcrWebhookTriggerLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataTencentcloudTcrWebhookTriggerLogsConfig extends cdktf.Terra
   /**
   * namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcr_webhook_trigger_logs#namespace DataTencentcloudTcrWebhookTriggerLogs#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tcr_webhook_trigger_logs#namespace DataTencentcloudTcrWebhookTriggerLogs#namespace}
   */
   readonly namespace: string;
   /**
   * instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcr_webhook_trigger_logs#registry_id DataTencentcloudTcrWebhookTriggerLogs#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tcr_webhook_trigger_logs#registry_id DataTencentcloudTcrWebhookTriggerLogs#registry_id}
   */
   readonly registryId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcr_webhook_trigger_logs#result_output_file DataTencentcloudTcrWebhookTriggerLogs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tcr_webhook_trigger_logs#result_output_file DataTencentcloudTcrWebhookTriggerLogs#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcr_webhook_trigger_logs#tags DataTencentcloudTcrWebhookTriggerLogs#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tcr_webhook_trigger_logs#tags DataTencentcloudTcrWebhookTriggerLogs#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * trigger id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcr_webhook_trigger_logs#trigger_id DataTencentcloudTcrWebhookTriggerLogs#trigger_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tcr_webhook_trigger_logs#trigger_id DataTencentcloudTcrWebhookTriggerLogs#trigger_id}
   */
   readonly triggerId: number;
 }
@@ -157,7 +157,7 @@ export class DataTencentcloudTcrWebhookTriggerLogsLogsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcr_webhook_trigger_logs tencentcloud_tcr_webhook_trigger_logs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tcr_webhook_trigger_logs tencentcloud_tcr_webhook_trigger_logs}
 */
 export class DataTencentcloudTcrWebhookTriggerLogs extends cdktf.TerraformDataSource {
 
@@ -173,7 +173,7 @@ export class DataTencentcloudTcrWebhookTriggerLogs extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudTcrWebhookTriggerLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTcrWebhookTriggerLogs to import
-  * @param importFromId The id of the existing DataTencentcloudTcrWebhookTriggerLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcr_webhook_trigger_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTcrWebhookTriggerLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tcr_webhook_trigger_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTcrWebhookTriggerLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class DataTencentcloudTcrWebhookTriggerLogs extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/tcr_webhook_trigger_logs tencentcloud_tcr_webhook_trigger_logs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/tcr_webhook_trigger_logs tencentcloud_tcr_webhook_trigger_logs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class DataTencentcloudTcrWebhookTriggerLogs extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_tcr_webhook_trigger_logs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,81 +10,81 @@ export interface PppProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#___path___ PppProfile#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#___path___ PppProfile#___path___}
   */
   readonly path?: string;
   /**
   * Address list name to which ppp assigned (on server) or received (on client) address will be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#address_list PppProfile#address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#address_list PppProfile#address_list}
   */
   readonly addressList?: string;
   /**
   * Name of the bridge interface to which ppp interface will be added as a slave port. Both  tunnel endpoints (server and client) must be in bridge in order to make  this work, see more details on the BCP bridging manual.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#bridge PppProfile#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#bridge PppProfile#bridge}
   */
   readonly bridge?: string;
   /**
   * Used  split-horizon value for the dynamically created bridge port. Can be  used to prevent bridging loops and isolate traffic. Set the same value  for a group of ports, to prevent them from sending data to ports with  the same horizon value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#bridge_horizon PppProfile#bridge_horizon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#bridge_horizon PppProfile#bridge_horizon}
   */
   readonly bridgeHorizon?: number;
   /**
   * Changes MAC learning behavior on the dynamically created bridge port: yes - enables MAC learning no - disables MAC learning default - derive this value from the interface default profile; same as yes if this is the interface default profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#bridge_learning PppProfile#bridge_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#bridge_learning PppProfile#bridge_learning}
   */
   readonly bridgeLearning?: string;
   /**
   * Used  path cost for the dynamically created bridge port, used by STP/RSTP to  determine the best path, used by MSTP to determine the best path between  regions. This property has no effect when a bridge protocol-mode is set to none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#bridge_path_cost PppProfile#bridge_path_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#bridge_path_cost PppProfile#bridge_path_cost}
   */
   readonly bridgePathCost?: number;
   /**
   * Used  priority for the dynamically created bridge port, used by STP/RSTP to  determine the root port, used by MSTP to determine root port between  regions. This property has no effect when a bridge protocol-mode is set  to none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#bridge_port_priority PppProfile#bridge_port_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#bridge_port_priority PppProfile#bridge_port_priority}
   */
   readonly bridgePortPriority?: number;
   /**
   * Modifies connection MSS settings (applies only for IPv4): yes - adjust connection MSS value no - do not adjust connection MSS value default - derive this value from the interface default profile; same as no if this is the interface default profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#change_tcp_mss PppProfile#change_tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#change_tcp_mss PppProfile#change_tcp_mss}
   */
   readonly changeTcpMss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#comment PppProfile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#comment PppProfile#comment}
   */
   readonly comment?: string;
   /**
   * Lease time can be set starting from 7.20ab202, by default time is set to 1d.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#dhcpv6_lease_time PppProfile#dhcpv6_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#dhcpv6_lease_time PppProfile#dhcpv6_lease_time}
   */
   readonly dhcpv6LeaseTime?: string;
   /**
   * Name of the IPv6 pool which will be used by dynamically created DHCPv6-PD server when client connects. [Read more >>](https://wiki.mikrotik.com/wiki/Manual:IPv6_PD_over_PPP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#dhcpv6_pd_pool PppProfile#dhcpv6_pd_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#dhcpv6_pd_pool PppProfile#dhcpv6_pd_pool}
   */
   readonly dhcpv6PdPool?: string;
   /**
   * pecifies value for `use-radius` option selected for dynamically generated DHCPv6 PD servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#dhcpv6_use_radius PppProfile#dhcpv6_use_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#dhcpv6_use_radius PppProfile#dhcpv6_use_radius}
   */
   readonly dhcpv6UseRadius?: boolean | cdktf.IResolvable;
   /**
   * IP address of the DNS server that is supplied to ppp clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#dns_server PppProfile#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#dns_server PppProfile#dns_server}
   */
   readonly dnsServer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#id PppProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#id PppProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,43 +93,43 @@ export interface PppProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies  the amount of time after which the link will be terminated if there are  no activity present. Timeout is not set by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#idle_timeout PppProfile#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#idle_timeout PppProfile#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * Firewall  chain name for incoming packets. Specified chain gets control for each  packet coming from the client. The ppp chain should be manually added  and rules with action=jump jump-target=ppp should be added to other  relevant chains in order for this feature to work. For more information  look at the examples section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#incoming_filter PppProfile#incoming_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#incoming_filter PppProfile#incoming_filter}
   */
   readonly incomingFilter?: string;
   /**
   * Specify where to place dynamic simple queue entries for static DCHP leases with rate-limit parameter set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#insert_queue_before PppProfile#insert_queue_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#insert_queue_before PppProfile#insert_queue_before}
   */
   readonly insertQueueBefore?: string;
   /**
   * Interface list name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#interface_list PppProfile#interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#interface_list PppProfile#interface_list}
   */
   readonly interfaceList?: string;
   /**
   * Tunnel address or name of the pool from which address is assigned to ppp interface locally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#local_address PppProfile#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#local_address PppProfile#local_address}
   */
   readonly localAddress?: string;
   /**
   * PPP profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#name PppProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#name PppProfile#name}
   */
   readonly name: string;
   /**
   * Execute script on user logging off. See on-up for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#on_down PppProfile#on_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#on_down PppProfile#on_down}
   */
   readonly onDown?: string;
   /**
@@ -141,103 +141,103 @@ export interface PppProfileConfig extends cdktf.TerraformMetaArguments {
   *   * called-id
   *   * interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#on_up PppProfile#on_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#on_up PppProfile#on_up}
   */
   readonly onUp?: string;
   /**
   * Defines whether a user is allowed to have more than one ppp session at a time yes - a user is not allowed to have more than one ppp session at a time no - the user is allowed to have more than one ppp session at a time default - derive this value from the interface default profile; same as no if this is the interface default profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#only_one PppProfile#only_one}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#only_one PppProfile#only_one}
   */
   readonly onlyOne?: string;
   /**
   * Firewall  chain name for outgoing packets. The specified chain gets control for  each packet going to the client. The PPP chain should be manually added  and rules with action=jump jump-target=ppp should be added to other  relevant chains in order for this feature to work. For more information  look at the Examples section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#outgoing_filter PppProfile#outgoing_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#outgoing_filter PppProfile#outgoing_filter}
   */
   readonly outgoingFilter?: string;
   /**
   * Name of parent simple queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#parent_queue PppProfile#parent_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#parent_queue PppProfile#parent_queue}
   */
   readonly parentQueue?: string;
   /**
   * Queue types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#queue_type PppProfile#queue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#queue_type PppProfile#queue_type}
   */
   readonly queueType?: string;
   /**
   * Rate limitation in form of rx-rate[/tx-rate]  [rx-burst-rate[/tx-burst-rate] [rx-burst-threshold[/tx-burst-threshold]  [rx-burst-time[/tx-burst-time] [priority] [rx-rate-min[/tx-rate-min]]]] from the point of view of the router (so 'rx' is client upload, and  'tx' is client download). All rates are measured in bits per second,  unless followed by optional 'k' suffix (kilobits per second) or 'M'  suffix (megabits per second). If tx-rate is not specified, rx-rate  serves as tx-rate too. The same applies for tx-burst-rate,  tx-burst-threshold and tx-burst-time. If both rx-burst-threshold and  tx-burst-threshold are not specified (but burst-rate is specified),  rx-rate and tx-rate are used as burst thresholds. If both rx-burst-time  and tx-burst-time are not specified, 1s is used as default. Priority  takes values 1..8, where 1 implies the highest priority, but 8 - the  lowest. If rx-rate-min and tx-rate-min are not specified rx-rate and  tx-rate values are used. The rx-rate-min and tx-rate-min values can not  exceed rx-rate and tx-rate values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#rate_limit PppProfile#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#rate_limit PppProfile#rate_limit}
   */
   readonly rateLimit?: string;
   /**
   * Tunnel address or name of the pool from which address is assigned to remote ppp interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#remote_address PppProfile#remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#remote_address PppProfile#remote_address}
   */
   readonly remoteAddress?: string;
   /**
   * Assign prefix from IPv6 pool to the client and install corresponding IPv6 route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#remote_ipv6_prefix_pool PppProfile#remote_ipv6_prefix_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#remote_ipv6_prefix_pool PppProfile#remote_ipv6_prefix_pool}
   */
   readonly remoteIpv6PrefixPool?: string;
   /**
   * If `remote-ipv6-prefix-pool` is specified and includes single `/64`prefix, then prefix can be used only for a single PPP client for RADVD configuration. When this option is set to value `yes`, the same prefix can be reused between all the clients using this PPP profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#remote_ipv6_prefix_reuse PppProfile#remote_ipv6_prefix_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#remote_ipv6_prefix_reuse PppProfile#remote_ipv6_prefix_reuse}
   */
   readonly remoteIpv6PrefixReuse?: boolean | cdktf.IResolvable;
   /**
   * Maximum time the connection can stay up. By default no time limit is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#session_timeout PppProfile#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#session_timeout PppProfile#session_timeout}
   */
   readonly sessionTimeout?: string;
   /**
   * Specifies whether to use data compression or not. yes - enable data compression no - disable data compression default - derive this value from the interface default profile; same as no if this is the interface default profile This setting does not affect OVPN tunnels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#use_compression PppProfile#use_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#use_compression PppProfile#use_compression}
   */
   readonly useCompression?: string;
   /**
   * Specifies whether to use data encryption or not. yes - enable data encryption no - disable data encryption default - derive this value from the interface default profile; same as no if this is the interface default profile require - explicitly requires encryption This setting does not work on OVPN and SSTP tunnels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#use_encryption PppProfile#use_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#use_encryption PppProfile#use_encryption}
   */
   readonly useEncryption?: string;
   /**
   * Specifies whether to allow IPv6. By default is enabled if IPv6 package is installed. yes - enable IPv6 support no - disable IPv6 support default - derive this value from the interface default profile; same as no if this is the interface default profile require - explicitly requires IPv6 support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#use_ipv6 PppProfile#use_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#use_ipv6 PppProfile#use_ipv6}
   */
   readonly useIpv6?: string;
   /**
   * Specifies whether to allow MPLS over PPP. yes - enable MPLS support no - disable MPLS support default - derive this value from the interface default profile; same as no if this is the interface default profile require - explicitly requires MPLS support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#use_mpls PppProfile#use_mpls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#use_mpls PppProfile#use_mpls}
   */
   readonly useMpls?: string;
   /**
   * Specifies whether to allow UPnP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#use_upnp PppProfile#use_upnp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#use_upnp PppProfile#use_upnp}
   */
   readonly useUpnp?: string;
   /**
   * IP address of the WINS server to supply to Windows clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#wins_server PppProfile#wins_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#wins_server PppProfile#wins_server}
   */
   readonly winsServer?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile routeros_ppp_profile}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile routeros_ppp_profile}
 */
 export class PppProfile extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class PppProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PppProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PppProfile to import
-  * @param importFromId The id of the existing PppProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PppProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PppProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class PppProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_profile routeros_ppp_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_profile routeros_ppp_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class PppProfile extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ppp_profile',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

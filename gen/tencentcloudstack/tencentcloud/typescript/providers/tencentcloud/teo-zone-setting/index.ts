@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TeoZoneSettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#id TeoZoneSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#id TeoZoneSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,103 +17,103 @@ export interface TeoZoneSettingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#zone_id TeoZoneSetting#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#zone_id TeoZoneSetting#zone_id}
   */
   readonly zoneId: string;
   /**
   * cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#cache TeoZoneSetting#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#cache TeoZoneSetting#cache}
   */
   readonly cache?: TeoZoneSettingCache;
   /**
   * cache_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#cache_key TeoZoneSetting#cache_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#cache_key TeoZoneSetting#cache_key}
   */
   readonly cacheKey?: TeoZoneSettingCacheKey;
   /**
   * cache_prefresh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#cache_prefresh TeoZoneSetting#cache_prefresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#cache_prefresh TeoZoneSetting#cache_prefresh}
   */
   readonly cachePrefresh?: TeoZoneSettingCachePrefresh;
   /**
   * client_ip_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#client_ip_header TeoZoneSetting#client_ip_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#client_ip_header TeoZoneSetting#client_ip_header}
   */
   readonly clientIpHeader?: TeoZoneSettingClientIpHeader;
   /**
   * compression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#compression TeoZoneSetting#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#compression TeoZoneSetting#compression}
   */
   readonly compression?: TeoZoneSettingCompression;
   /**
   * force_redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#force_redirect TeoZoneSetting#force_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#force_redirect TeoZoneSetting#force_redirect}
   */
   readonly forceRedirect?: TeoZoneSettingForceRedirect;
   /**
   * https block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#https TeoZoneSetting#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#https TeoZoneSetting#https}
   */
   readonly https?: TeoZoneSettingHttps;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#ipv6 TeoZoneSetting#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#ipv6 TeoZoneSetting#ipv6}
   */
   readonly ipv6?: TeoZoneSettingIpv6;
   /**
   * max_age block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#max_age TeoZoneSetting#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#max_age TeoZoneSetting#max_age}
   */
   readonly maxAge?: TeoZoneSettingMaxAge;
   /**
   * offline_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#offline_cache TeoZoneSetting#offline_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#offline_cache TeoZoneSetting#offline_cache}
   */
   readonly offlineCache?: TeoZoneSettingOfflineCache;
   /**
   * origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#origin TeoZoneSetting#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#origin TeoZoneSetting#origin}
   */
   readonly origin?: TeoZoneSettingOrigin;
   /**
   * post_max_size block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#post_max_size TeoZoneSetting#post_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#post_max_size TeoZoneSetting#post_max_size}
   */
   readonly postMaxSize?: TeoZoneSettingPostMaxSize;
   /**
   * quic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#quic TeoZoneSetting#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#quic TeoZoneSetting#quic}
   */
   readonly quic?: TeoZoneSettingQuic;
   /**
   * smart_routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#smart_routing TeoZoneSetting#smart_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#smart_routing TeoZoneSetting#smart_routing}
   */
   readonly smartRouting?: TeoZoneSettingSmartRouting;
   /**
   * upstream_http2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#upstream_http2 TeoZoneSetting#upstream_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#upstream_http2 TeoZoneSetting#upstream_http2}
   */
   readonly upstreamHttp2?: TeoZoneSettingUpstreamHttp2;
   /**
   * web_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#web_socket TeoZoneSetting#web_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#web_socket TeoZoneSetting#web_socket}
   */
   readonly webSocket?: TeoZoneSettingWebSocket;
 }
@@ -122,7 +122,7 @@ export interface TeoZoneSettingCacheCache {
   * Cache expiration time settings.
   * Unit: second. The maximum value is 365 days. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#cache_time TeoZoneSetting#cache_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#cache_time TeoZoneSetting#cache_time}
   */
   readonly cacheTime?: number;
   /**
@@ -130,7 +130,7 @@ export interface TeoZoneSettingCacheCache {
   * - `on`: Enable.
   * - `off`: Disable. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch?: string;
 }
@@ -247,7 +247,7 @@ export interface TeoZoneSettingCacheFollowOrigin {
   * - `on`: Enable.
   * - `off`: Disable. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch?: string;
 }
@@ -335,7 +335,7 @@ export interface TeoZoneSettingCacheNoCache {
   * - `on`: Do not cache.
   * - `off`: Cache. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch?: string;
 }
@@ -421,19 +421,19 @@ export interface TeoZoneSettingCache {
   /**
   * cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#cache TeoZoneSetting#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#cache TeoZoneSetting#cache}
   */
   readonly cache?: TeoZoneSettingCacheCache;
   /**
   * follow_origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#follow_origin TeoZoneSetting#follow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#follow_origin TeoZoneSetting#follow_origin}
   */
   readonly followOrigin?: TeoZoneSettingCacheFollowOrigin;
   /**
   * no_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#no_cache TeoZoneSetting#no_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#no_cache TeoZoneSetting#no_cache}
   */
   readonly noCache?: TeoZoneSettingCacheNoCache;
 }
@@ -578,7 +578,7 @@ export interface TeoZoneSettingCacheKeyQueryString {
   * - `includeCustom`: Include the specified query strings.
   * - `excludeCustom`: Exclude the specified query strings. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#action TeoZoneSetting#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#action TeoZoneSetting#action}
   */
   readonly action?: string;
   /**
@@ -586,13 +586,13 @@ export interface TeoZoneSettingCacheKeyQueryString {
   * - `on`: Enable.
   * - `off`: Disable. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
   /**
   * Array of query strings used/excluded. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#value TeoZoneSetting#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#value TeoZoneSetting#value}
   */
   readonly value?: string[];
 }
@@ -735,19 +735,19 @@ export interface TeoZoneSettingCacheKey {
   * - `on`: Enable full-path cache (i.e., disable Ignore Query String).
   * - `off`: Disable full-path cache (i.e., enable Ignore Query String). Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#full_url_cache TeoZoneSetting#full_url_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#full_url_cache TeoZoneSetting#full_url_cache}
   */
   readonly fullUrlCache?: string;
   /**
   * Specifies whether the cache key is case-sensitive. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#ignore_case TeoZoneSetting#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#ignore_case TeoZoneSetting#ignore_case}
   */
   readonly ignoreCase?: string;
   /**
   * query_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#query_string TeoZoneSetting#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#query_string TeoZoneSetting#query_string}
   */
   readonly queryString?: TeoZoneSettingCacheKeyQueryString;
 }
@@ -891,7 +891,7 @@ export interface TeoZoneSettingCachePrefresh {
   /**
   * Percentage of cache time before try to prefresh. Valid value range: 1-99.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#percent TeoZoneSetting#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#percent TeoZoneSetting#percent}
   */
   readonly percent?: number;
   /**
@@ -899,7 +899,7 @@ export interface TeoZoneSettingCachePrefresh {
   * - `on`: Enable.
   * - `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
 }
@@ -1011,7 +1011,7 @@ export interface TeoZoneSettingClientIpHeader {
   /**
   * Name of the origin-pull client IP request header. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#header_name TeoZoneSetting#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#header_name TeoZoneSetting#header_name}
   */
   readonly headerName?: string;
   /**
@@ -1019,7 +1019,7 @@ export interface TeoZoneSettingClientIpHeader {
   * - `on`: Enable.
   * - `off`: Disable. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
 }
@@ -1131,7 +1131,7 @@ export interface TeoZoneSettingCompression {
   /**
   * Compression algorithms to select. Valid values: `brotli`, `gzip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#algorithms TeoZoneSetting#algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#algorithms TeoZoneSetting#algorithms}
   */
   readonly algorithms?: string[];
   /**
@@ -1139,7 +1139,7 @@ export interface TeoZoneSettingCompression {
   * - `on`: Enable.
   * - `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
 }
@@ -1253,7 +1253,7 @@ export interface TeoZoneSettingForceRedirect {
   * - 301
   * - 302 Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#redirect_status_code TeoZoneSetting#redirect_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#redirect_status_code TeoZoneSetting#redirect_status_code}
   */
   readonly redirectStatusCode?: number;
   /**
@@ -1261,7 +1261,7 @@ export interface TeoZoneSettingForceRedirect {
   * - `on`: Enable.
   * - `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
 }
@@ -1373,26 +1373,26 @@ export interface TeoZoneSettingHttpsHsts {
   /**
   * Specifies whether to include subdomain names. Valid values: `on` and `off`. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#include_sub_domains TeoZoneSetting#include_sub_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#include_sub_domains TeoZoneSetting#include_sub_domains}
   */
   readonly includeSubDomains?: string;
   /**
   * MaxAge value in seconds, should be no more than 1 day. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#max_age TeoZoneSetting#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#max_age TeoZoneSetting#max_age}
   */
   readonly maxAge?: number;
   /**
   * Specifies whether to preload. Valid values: `on` and `off`. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#preload TeoZoneSetting#preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#preload TeoZoneSetting#preload}
   */
   readonly preload?: string;
   /**
   * - `on`: Enable.
   * - `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
 }
@@ -1564,7 +1564,7 @@ export interface TeoZoneSettingHttps {
   * - `on`: Enable.
   * - `off`: Disable. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#http2 TeoZoneSetting#http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#http2 TeoZoneSetting#http2}
   */
   readonly http2?: string;
   /**
@@ -1573,20 +1573,20 @@ export interface TeoZoneSettingHttps {
   * - `off`: Disable.
   * It is disabled by default. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#ocsp_stapling TeoZoneSetting#ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#ocsp_stapling TeoZoneSetting#ocsp_stapling}
   */
   readonly ocspStapling?: string;
   /**
   * TLS version settings. Valid values: `TLSv1`, `TLSV1.1`, `TLSV1.2`, and `TLSv1.3`.
   * Only consecutive versions can be enabled at the same time. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#tls_version TeoZoneSetting#tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#tls_version TeoZoneSetting#tls_version}
   */
   readonly tlsVersion?: string[];
   /**
   * hsts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#hsts TeoZoneSetting#hsts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#hsts TeoZoneSetting#hsts}
   */
   readonly hsts?: TeoZoneSettingHttpsHsts;
 }
@@ -1760,7 +1760,7 @@ export interface TeoZoneSettingIpv6 {
   * - `on`: Enable.
   * - `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
 }
@@ -1846,13 +1846,13 @@ export interface TeoZoneSettingMaxAge {
   * - `off`: Disable.
   * If it's on, MaxAgeTime is ignored. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#follow_origin TeoZoneSetting#follow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#follow_origin TeoZoneSetting#follow_origin}
   */
   readonly followOrigin?: string;
   /**
   * Specifies the max age of the cache (in seconds). The maximum value is 365 days. Note: the value 0 means not to cache. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#max_age_time TeoZoneSetting#max_age_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#max_age_time TeoZoneSetting#max_age_time}
   */
   readonly maxAgeTime?: number;
 }
@@ -1969,7 +1969,7 @@ export interface TeoZoneSettingOfflineCache {
   * - `on`: Enable.
   * - `off`: Disable. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
 }
@@ -2052,7 +2052,7 @@ export interface TeoZoneSettingOrigin {
   /**
   * Backup origin sites list. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#backup_origins TeoZoneSetting#backup_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#backup_origins TeoZoneSetting#backup_origins}
   */
   readonly backupOrigins?: string[];
   /**
@@ -2061,13 +2061,13 @@ export interface TeoZoneSettingOrigin {
   * - `follow`: Follow the protocol of the request.
   * - `https`: Switch HTTP requests to HTTPS. This only supports port 443 on the origin server. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#origin_pull_protocol TeoZoneSetting#origin_pull_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#origin_pull_protocol TeoZoneSetting#origin_pull_protocol}
   */
   readonly originPullProtocol?: string;
   /**
   * Origin sites list. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#origins TeoZoneSetting#origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#origins TeoZoneSetting#origins}
   */
   readonly origins?: string[];
 }
@@ -2211,7 +2211,7 @@ export interface TeoZoneSettingPostMaxSize {
   /**
   * Maximum size. Value range: 1-500 MB. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#max_size TeoZoneSetting#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#max_size TeoZoneSetting#max_size}
   */
   readonly maxSize?: number;
   /**
@@ -2219,7 +2219,7 @@ export interface TeoZoneSettingPostMaxSize {
   * - `on`: Enable. You can set a custom max size.
   * - `off`: Disable. In this case, the max size defaults to 32 MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
 }
@@ -2333,7 +2333,7 @@ export interface TeoZoneSettingQuic {
   * - `on`: Enable.
   * - `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
 }
@@ -2418,7 +2418,7 @@ export interface TeoZoneSettingSmartRouting {
   * - `on`: Enable.
   * - `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
 }
@@ -2503,7 +2503,7 @@ export interface TeoZoneSettingUpstreamHttp2 {
   * - `on`: Enable.
   * - `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
 }
@@ -2586,13 +2586,13 @@ export interface TeoZoneSettingWebSocket {
   /**
   * Whether to enable custom WebSocket timeout setting. When it's off: it means to keep the default WebSocket connection timeout period, which is 15 seconds. To change the timeout period, please set it to on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#switch TeoZoneSetting#switch}
   */
   readonly switch: string;
   /**
   * Sets timeout period in seconds. Maximum value: 120.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#timeout TeoZoneSetting#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#timeout TeoZoneSetting#timeout}
   */
   readonly timeout?: number;
 }
@@ -2702,7 +2702,7 @@ export class TeoZoneSettingWebSocketOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting tencentcloud_teo_zone_setting}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting tencentcloud_teo_zone_setting}
 */
 export class TeoZoneSetting extends cdktf.TerraformResource {
 
@@ -2718,7 +2718,7 @@ export class TeoZoneSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoZoneSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoZoneSetting to import
-  * @param importFromId The id of the existing TeoZoneSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoZoneSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoZoneSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2730,7 +2730,7 @@ export class TeoZoneSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/teo_zone_setting tencentcloud_teo_zone_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/teo_zone_setting tencentcloud_teo_zone_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2741,8 +2741,8 @@ export class TeoZoneSetting extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_zone_setting',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

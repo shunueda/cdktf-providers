@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vpc_private_nat_gateway
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_private_nat_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VpcPrivateNatGatewayConfig extends cdktf.TerraformMetaArguments
   /**
   * Cloud Connect Network type The Cloud Connect Network instance ID required to be bound to the private network NAT gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vpc_private_nat_gateway#ccn_id VpcPrivateNatGateway#ccn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_private_nat_gateway#ccn_id VpcPrivateNatGateway#ccn_id}
   */
   readonly ccnId?: string;
   /**
   * Cross-domain parameters. Cross-domain binding of VPCs is supported only when the value is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vpc_private_nat_gateway#cross_domain VpcPrivateNatGateway#cross_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_private_nat_gateway#cross_domain VpcPrivateNatGateway#cross_domain}
   */
   readonly crossDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vpc_private_nat_gateway#id VpcPrivateNatGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_private_nat_gateway#id VpcPrivateNatGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface VpcPrivateNatGatewayConfig extends cdktf.TerraformMetaArguments
   /**
   * Private network gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vpc_private_nat_gateway#nat_gateway_name VpcPrivateNatGateway#nat_gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_private_nat_gateway#nat_gateway_name VpcPrivateNatGateway#nat_gateway_name}
   */
   readonly natGatewayName: string;
   /**
   * Private Cloud instance ID. This parameter is required when creating a VPC type private network NAT gateway or a private network NAT gateway of private network gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vpc_private_nat_gateway#vpc_id VpcPrivateNatGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_private_nat_gateway#vpc_id VpcPrivateNatGateway#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * VPC type private network NAT gateway. Only when the value is True will a VPC type private network NAT gateway be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vpc_private_nat_gateway#vpc_type VpcPrivateNatGateway#vpc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_private_nat_gateway#vpc_type VpcPrivateNatGateway#vpc_type}
   */
   readonly vpcType?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vpc_private_nat_gateway tencentcloud_vpc_private_nat_gateway}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_private_nat_gateway tencentcloud_vpc_private_nat_gateway}
 */
 export class VpcPrivateNatGateway extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class VpcPrivateNatGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcPrivateNatGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcPrivateNatGateway to import
-  * @param importFromId The id of the existing VpcPrivateNatGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vpc_private_nat_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcPrivateNatGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_private_nat_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcPrivateNatGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class VpcPrivateNatGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/vpc_private_nat_gateway tencentcloud_vpc_private_nat_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_private_nat_gateway tencentcloud_vpc_private_nat_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class VpcPrivateNatGateway extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpc_private_nat_gateway',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

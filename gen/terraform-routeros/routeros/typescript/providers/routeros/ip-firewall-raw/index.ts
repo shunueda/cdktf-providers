@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface IpFirewallRawConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#___path___ IpFirewallRaw#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#___path___ IpFirewallRaw#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#___skip___ IpFirewallRaw#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#___skip___ IpFirewallRaw#___skip___}
   */
   readonly skip?: string;
   /**
   * <em>A set of fields that require setting/unsetting. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#___unset___ IpFirewallRaw#___unset___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#___unset___ IpFirewallRaw#___unset___}
   */
   readonly unset?: string;
   /**
   * Action to take if a packet is matched by the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#action IpFirewallRaw#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#action IpFirewallRaw#action}
   */
   readonly action: string;
   /**
   * Name of the address list used in 'add-dst-to-address-list' and 'add-src-to-address-list' actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#address_list IpFirewallRaw#address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#address_list IpFirewallRaw#address_list}
   */
   readonly addressList?: string;
   /**
   * Time interval after which the address will be removed from the address list specified by address-list parameter. Used in conjunction with add-dst-to-address-list or add-src-to-address-list actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#address_list_timeout IpFirewallRaw#address_list_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#address_list_timeout IpFirewallRaw#address_list_timeout}
   */
   readonly addressListTimeout?: string;
   /**
   * Specifies to which chain rule will be added. If the input does not match the name of an already defined chain, a new chain will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#chain IpFirewallRaw#chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#chain IpFirewallRaw#chain}
   */
   readonly chain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#comment IpFirewallRaw#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#comment IpFirewallRaw#comment}
   */
   readonly comment?: string;
   /**
   * Match packets that contain specified text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#content IpFirewallRaw#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#content IpFirewallRaw#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#disabled IpFirewallRaw#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#disabled IpFirewallRaw#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Matches DSCP IP header field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#dscp IpFirewallRaw#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#dscp IpFirewallRaw#dscp}
   */
   readonly dscp?: number;
   /**
   * Matches packets which destination is equal to specified IP or falls into specified IP range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#dst_address IpFirewallRaw#dst_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#dst_address IpFirewallRaw#dst_address}
   */
   readonly dstAddress?: string;
   /**
   * Matches destination address of a packet against user-defined address list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#dst_address_list IpFirewallRaw#dst_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#dst_address_list IpFirewallRaw#dst_address_list}
   */
   readonly dstAddressList?: string;
   /**
   * Matches destination address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#dst_address_type IpFirewallRaw#dst_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#dst_address_type IpFirewallRaw#dst_address_type}
   */
   readonly dstAddressType?: string;
   /**
   * Matches packets until a given rate is exceeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#dst_limit IpFirewallRaw#dst_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#dst_limit IpFirewallRaw#dst_limit}
   */
   readonly dstLimit?: string;
   /**
   * List of destination port numbers or port number ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#dst_port IpFirewallRaw#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#dst_port IpFirewallRaw#dst_port}
   */
   readonly dstPort?: string;
   /**
   * Matches fragmented packets. First (starting) fragment does not count. If connection tracking is enabled there will be no fragments as system automatically assembles every packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#fragment IpFirewallRaw#fragment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#fragment IpFirewallRaw#fragment}
   */
   readonly fragment?: boolean | cdktf.IResolvable;
   /**
   * Matches packets received from HotSpot clients against various HotSpot matchers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#hotspot IpFirewallRaw#hotspot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#hotspot IpFirewallRaw#hotspot}
   */
   readonly hotspot?: string;
   /**
   * Matches ICMP type: code fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#icmp_options IpFirewallRaw#icmp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#icmp_options IpFirewallRaw#icmp_options}
   */
   readonly icmpOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#id IpFirewallRaw#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#id IpFirewallRaw#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -127,115 +127,115 @@ export interface IpFirewallRawConfig extends cdktf.TerraformMetaArguments {
   /**
   * Actual interface the packet has entered the router if the incoming interface is a bridge. Works only if use-ip-firewall is enabled in bridge settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#in_bridge_port IpFirewallRaw#in_bridge_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#in_bridge_port IpFirewallRaw#in_bridge_port}
   */
   readonly inBridgePort?: string;
   /**
   * Set of interfaces defined in interface list. Works the same as in-bridge-port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#in_bridge_port_list IpFirewallRaw#in_bridge_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#in_bridge_port_list IpFirewallRaw#in_bridge_port_list}
   */
   readonly inBridgePortList?: string;
   /**
   * Interface the packet has entered the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#in_interface IpFirewallRaw#in_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#in_interface IpFirewallRaw#in_interface}
   */
   readonly inInterface?: string;
   /**
   * Set of interfaces defined in interface list. Works the same as in-interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#in_interface_list IpFirewallRaw#in_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#in_interface_list IpFirewallRaw#in_interface_list}
   */
   readonly inInterfaceList?: string;
   /**
   * Matches the priority of an ingress packet. Priority may be derived from VLAN, WMM, DSCP, or MPLS EXP bit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#ingress_priority IpFirewallRaw#ingress_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#ingress_priority IpFirewallRaw#ingress_priority}
   */
   readonly ingressPriority?: number;
   /**
   * Matches the policy used by IPsec. Value is written in the following format: direction, policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#ipsec_policy IpFirewallRaw#ipsec_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#ipsec_policy IpFirewallRaw#ipsec_policy}
   */
   readonly ipsecPolicy?: string;
   /**
   * Matches IPv4 header options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#ipv4_options IpFirewallRaw#ipv4_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#ipv4_options IpFirewallRaw#ipv4_options}
   */
   readonly ipv4Options?: string;
   /**
   * Name of the target chain to jump to. Applicable only if action=jump.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#jump_target IpFirewallRaw#jump_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#jump_target IpFirewallRaw#jump_target}
   */
   readonly jumpTarget?: string;
   /**
   * Matches packets up to a limited rate (packet rate or bit rate). A rule using this matcher will match until this limit is reached. Parameters are written in the following format: rate[/time],burst:mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#limit IpFirewallRaw#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#limit IpFirewallRaw#limit}
   */
   readonly limit?: string;
   /**
   * Add a message to the system log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#log IpFirewallRaw#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#log IpFirewallRaw#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
   * Adds specified text at the beginning of every log message. Applicable if action=log or log=yes configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#log_prefix IpFirewallRaw#log_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#log_prefix IpFirewallRaw#log_prefix}
   */
   readonly logPrefix?: string;
   /**
   * Matches every nth packet: nth=2,1 rule will match every first packet of 2, hence, 50% of all the traffic that is matched by the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#nth IpFirewallRaw#nth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#nth IpFirewallRaw#nth}
   */
   readonly nth?: string;
   /**
   * Actual interface the packet is leaving the router if the outgoing interface is a bridge. Works only if use-ip-firewall is enabled in bridge settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#out_bridge_port IpFirewallRaw#out_bridge_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#out_bridge_port IpFirewallRaw#out_bridge_port}
   */
   readonly outBridgePort?: string;
   /**
   * Set of interfaces defined in interface list. Works the same as out-bridge-port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#out_bridge_port_list IpFirewallRaw#out_bridge_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#out_bridge_port_list IpFirewallRaw#out_bridge_port_list}
   */
   readonly outBridgePortList?: string;
   /**
   * Interface the packet is leaving the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#out_interface IpFirewallRaw#out_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#out_interface IpFirewallRaw#out_interface}
   */
   readonly outInterface?: string;
   /**
   * Set of interfaces defined in interface list. Works the same as out-interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#out_interface_list IpFirewallRaw#out_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#out_interface_list IpFirewallRaw#out_interface_list}
   */
   readonly outInterfaceList?: string;
   /**
   * Matches packets marked via mangle facility with particular packet mark. If no-mark is set, the rule will match any unmarked packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#packet_mark IpFirewallRaw#packet_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#packet_mark IpFirewallRaw#packet_mark}
   */
   readonly packetMark?: string;
   /**
   * Matches packets of specified size or size range in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#packet_size IpFirewallRaw#packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#packet_size IpFirewallRaw#packet_size}
   */
   readonly packetSize?: string;
   /**
   * PCC matcher allows dividing traffic into equal streams with the ability to keep packets with a specific set of options in one particular stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#per_connection_classifier IpFirewallRaw#per_connection_classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#per_connection_classifier IpFirewallRaw#per_connection_classifier}
   */
   readonly perConnectionClassifier?: string;
   /**
@@ -244,103 +244,103 @@ export interface IpFirewallRawConfig extends cdktf.TerraformMetaArguments {
   * 	> Best way to use in conjunction with a data source. See [example](../data-sources/ip_firewall.md#example-usage).  
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#place_before IpFirewallRaw#place_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#place_before IpFirewallRaw#place_before}
   */
   readonly placeBefore?: string;
   /**
   * Matches if any (source or destination) port matches the specified list of ports or port ranges. Applicable only if protocol is TCP or UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#port IpFirewallRaw#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#port IpFirewallRaw#port}
   */
   readonly port?: string;
   /**
   * Matches the packet's priority after a new priority has been set. Priority may be derived from VLAN, WMM, DSCP, MPLS EXP bit, or from the priority that has been set using the set-priority action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#priority IpFirewallRaw#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#priority IpFirewallRaw#priority}
   */
   readonly priority?: number;
   /**
   * Matches particular IP protocol specified by protocol name or number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#protocol IpFirewallRaw#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#protocol IpFirewallRaw#protocol}
   */
   readonly protocol?: string;
   /**
   * Attempts to detect TCP and UDP scans. Parameters are in the following format WeightThreshold, DelayThreshold, LowPortWeight, HighPortWeight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#psd IpFirewallRaw#psd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#psd IpFirewallRaw#psd}
   */
   readonly psd?: string;
   /**
   * Matches packets randomly with a given probability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#random IpFirewallRaw#random}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#random IpFirewallRaw#random}
   */
   readonly random?: number;
   /**
   * Matches packets which source is equal to specified IP or falls into a specified IP range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#src_address IpFirewallRaw#src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#src_address IpFirewallRaw#src_address}
   */
   readonly srcAddress?: string;
   /**
   * Matches source address of a packet against user-defined address list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#src_address_list IpFirewallRaw#src_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#src_address_list IpFirewallRaw#src_address_list}
   */
   readonly srcAddressList?: string;
   /**
   * Matches source address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#src_address_type IpFirewallRaw#src_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#src_address_type IpFirewallRaw#src_address_type}
   */
   readonly srcAddressType?: string;
   /**
   * Matches source MAC address of the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#src_mac_address IpFirewallRaw#src_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#src_mac_address IpFirewallRaw#src_mac_address}
   */
   readonly srcMacAddress?: string;
   /**
   * List of source ports and ranges of source ports. Applicable only if a protocol is TCP or UDP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#src_port IpFirewallRaw#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#src_port IpFirewallRaw#src_port}
   */
   readonly srcPort?: string;
   /**
   * Matches specified TCP flags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#tcp_flags IpFirewallRaw#tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#tcp_flags IpFirewallRaw#tcp_flags}
   */
   readonly tcpFlags?: string;
   /**
   * Matches TCP MSS value of an IP packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#tcp_mss IpFirewallRaw#tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#tcp_mss IpFirewallRaw#tcp_mss}
   */
   readonly tcpMss?: string;
   /**
   * Allows to create a filter based on the packets' arrival time and date or, for locally generated packets, departure time and date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#time IpFirewallRaw#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#time IpFirewallRaw#time}
   */
   readonly time?: string;
   /**
   * Allows matching HTTPS traffic based on TLS SNI hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#tls_host IpFirewallRaw#tls_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#tls_host IpFirewallRaw#tls_host}
   */
   readonly tlsHost?: string;
   /**
   * Matches packets TTL value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#ttl IpFirewallRaw#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#ttl IpFirewallRaw#ttl}
   */
   readonly ttl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw routeros_ip_firewall_raw}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw routeros_ip_firewall_raw}
 */
 export class IpFirewallRaw extends cdktf.TerraformResource {
 
@@ -356,7 +356,7 @@ export class IpFirewallRaw extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpFirewallRaw resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpFirewallRaw to import
-  * @param importFromId The id of the existing IpFirewallRaw that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpFirewallRaw that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpFirewallRaw to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -368,7 +368,7 @@ export class IpFirewallRaw extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_firewall_raw routeros_ip_firewall_raw} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_firewall_raw routeros_ip_firewall_raw} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,8 +379,8 @@ export class IpFirewallRaw extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_firewall_raw',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

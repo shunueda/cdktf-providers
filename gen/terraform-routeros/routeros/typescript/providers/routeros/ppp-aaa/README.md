@@ -1,3 +1,3 @@
 # `routeros_ppp_aaa`
 
-Refer to the Terraform Registry for docs: [`routeros_ppp_aaa`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ppp_aaa).
+Refer to the Terraform Registry for docs: [`routeros_ppp_aaa`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ppp_aaa).

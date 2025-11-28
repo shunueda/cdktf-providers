@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LtsStructuringConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#id LtsStructuringConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#id LtsStructuringConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,53 +17,53 @@ export interface LtsStructuringConfigurationConfig extends cdktf.TerraformMetaAr
   /**
   * Specifies the log group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#log_group_id LtsStructuringConfiguration#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#log_group_id LtsStructuringConfiguration#log_group_id}
   */
   readonly logGroupId: string;
   /**
   * Specifies the log stream ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#log_stream_id LtsStructuringConfiguration#log_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#log_stream_id LtsStructuringConfiguration#log_stream_id}
   */
   readonly logStreamId: string;
   /**
   * Specifies whether to enable demo_fields and tag_fields quick analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#quick_analysis LtsStructuringConfiguration#quick_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#quick_analysis LtsStructuringConfiguration#quick_analysis}
   */
   readonly quickAnalysis?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#region LtsStructuringConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#region LtsStructuringConfiguration#region}
   */
   readonly region?: string;
   /**
   * Specifies the template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#template_id LtsStructuringConfiguration#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#template_id LtsStructuringConfiguration#template_id}
   */
   readonly templateId?: string;
   /**
   * Specifies the template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#template_name LtsStructuringConfiguration#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#template_name LtsStructuringConfiguration#template_name}
   */
   readonly templateName: string;
   /**
   * Specifies the type of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#template_type LtsStructuringConfiguration#template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#template_type LtsStructuringConfiguration#template_type}
   */
   readonly templateType: string;
   /**
   * demo_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#demo_fields LtsStructuringConfiguration#demo_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#demo_fields LtsStructuringConfiguration#demo_fields}
   */
   readonly demoFields?: LtsStructuringConfigurationDemoFields[] | cdktf.IResolvable;
   /**
   * tag_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#tag_fields LtsStructuringConfiguration#tag_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#tag_fields LtsStructuringConfiguration#tag_fields}
   */
   readonly tagFields?: LtsStructuringConfigurationTagFields[] | cdktf.IResolvable;
 }
@@ -71,13 +71,13 @@ export interface LtsStructuringConfigurationDemoFields {
   /**
   * Specifies the field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#field_name LtsStructuringConfiguration#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#field_name LtsStructuringConfiguration#field_name}
   */
   readonly fieldName: string;
   /**
   * Specifies whether quick analysis is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#is_analysis LtsStructuringConfiguration#is_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#is_analysis LtsStructuringConfiguration#is_analysis}
   */
   readonly isAnalysis?: boolean | cdktf.IResolvable;
 }
@@ -221,13 +221,13 @@ export interface LtsStructuringConfigurationTagFields {
   /**
   * Specifies the field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#field_name LtsStructuringConfiguration#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#field_name LtsStructuringConfiguration#field_name}
   */
   readonly fieldName: string;
   /**
   * Specifies whether quick analysis is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#is_analysis LtsStructuringConfiguration#is_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#is_analysis LtsStructuringConfiguration#is_analysis}
   */
   readonly isAnalysis?: boolean | cdktf.IResolvable;
 }
@@ -369,7 +369,7 @@ export class LtsStructuringConfigurationTagFieldsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration hcs_lts_structuring_configuration}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration hcs_lts_structuring_configuration}
 */
 export class LtsStructuringConfiguration extends cdktf.TerraformResource {
 
@@ -385,7 +385,7 @@ export class LtsStructuringConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LtsStructuringConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LtsStructuringConfiguration to import
-  * @param importFromId The id of the existing LtsStructuringConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LtsStructuringConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LtsStructuringConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -397,7 +397,7 @@ export class LtsStructuringConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_structuring_configuration hcs_lts_structuring_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_structuring_configuration hcs_lts_structuring_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -408,8 +408,8 @@ export class LtsStructuringConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_lts_structuring_configuration',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

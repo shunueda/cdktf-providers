@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface GaussdbOpengaussParameterTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template#description GaussdbOpengaussParameterTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template#description GaussdbOpengaussParameterTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template#engine_version GaussdbOpengaussParameterTemplate#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template#engine_version GaussdbOpengaussParameterTemplate#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template#id GaussdbOpengaussParameterTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template#id GaussdbOpengaussParameterTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template#instance_mode GaussdbOpengaussParameterTemplate#instance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template#instance_mode GaussdbOpengaussParameterTemplate#instance_mode}
   */
   readonly instanceMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template#name GaussdbOpengaussParameterTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template#name GaussdbOpengaussParameterTemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template#region GaussdbOpengaussParameterTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template#region GaussdbOpengaussParameterTemplate#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template#source_configuration_id GaussdbOpengaussParameterTemplate#source_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template#source_configuration_id GaussdbOpengaussParameterTemplate#source_configuration_id}
   */
   readonly sourceConfigurationId?: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template#parameters GaussdbOpengaussParameterTemplate#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template#parameters GaussdbOpengaussParameterTemplate#parameters}
   */
   readonly parameters?: GaussdbOpengaussParameterTemplateParameters[] | cdktf.IResolvable;
 }
 export interface GaussdbOpengaussParameterTemplateParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template#name GaussdbOpengaussParameterTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template#name GaussdbOpengaussParameterTemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template#value GaussdbOpengaussParameterTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template#value GaussdbOpengaussParameterTemplate#value}
   */
   readonly value: string;
 }
@@ -215,7 +215,7 @@ export class GaussdbOpengaussParameterTemplateParametersList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template hcs_gaussdb_opengauss_parameter_template}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template hcs_gaussdb_opengauss_parameter_template}
 */
 export class GaussdbOpengaussParameterTemplate extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class GaussdbOpengaussParameterTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaussdbOpengaussParameterTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaussdbOpengaussParameterTemplate to import
-  * @param importFromId The id of the existing GaussdbOpengaussParameterTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaussdbOpengaussParameterTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaussdbOpengaussParameterTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class GaussdbOpengaussParameterTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_parameter_template hcs_gaussdb_opengauss_parameter_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_parameter_template hcs_gaussdb_opengauss_parameter_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class GaussdbOpengaussParameterTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_gaussdb_opengauss_parameter_template',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

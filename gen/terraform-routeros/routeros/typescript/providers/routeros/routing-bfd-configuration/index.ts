@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface RoutingBfdConfigurationConfig extends cdktf.TerraformMetaArgume
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration#___path___ RoutingBfdConfiguration#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration#___path___ RoutingBfdConfiguration#___path___}
   */
   readonly path?: string;
   /**
   * Name of the address list in which users IP address will be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration#address_list RoutingBfdConfiguration#address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration#address_list RoutingBfdConfiguration#address_list}
   */
   readonly addressList?: string;
   /**
   * Set of IP (v4 or v6) addresses or CIDR networks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration#addresses RoutingBfdConfiguration#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration#addresses RoutingBfdConfiguration#addresses}
   */
   readonly addresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration#disabled RoutingBfdConfiguration#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration#disabled RoutingBfdConfiguration#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration#forbid_bfd RoutingBfdConfiguration#forbid_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration#forbid_bfd RoutingBfdConfiguration#forbid_bfd}
   */
   readonly forbidBfd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration#id RoutingBfdConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration#id RoutingBfdConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,31 +43,31 @@ export interface RoutingBfdConfigurationConfig extends cdktf.TerraformMetaArgume
   /**
   * List of interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration#interfaces RoutingBfdConfiguration#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration#interfaces RoutingBfdConfiguration#interfaces}
   */
   readonly interfaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration#min_rx RoutingBfdConfiguration#min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration#min_rx RoutingBfdConfiguration#min_rx}
   */
   readonly minRx?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration#min_tx RoutingBfdConfiguration#min_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration#min_tx RoutingBfdConfiguration#min_tx}
   */
   readonly minTx?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration#multiplier RoutingBfdConfiguration#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration#multiplier RoutingBfdConfiguration#multiplier}
   */
   readonly multiplier?: number;
   /**
   * The VRF table this resource operates on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration#vrf RoutingBfdConfiguration#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration#vrf RoutingBfdConfiguration#vrf}
   */
   readonly vrf?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration routeros_routing_bfd_configuration}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration routeros_routing_bfd_configuration}
 */
 export class RoutingBfdConfiguration extends cdktf.TerraformResource {
 
@@ -83,7 +83,7 @@ export class RoutingBfdConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingBfdConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingBfdConfiguration to import
-  * @param importFromId The id of the existing RoutingBfdConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingBfdConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingBfdConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -95,7 +95,7 @@ export class RoutingBfdConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/routing_bfd_configuration routeros_routing_bfd_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bfd_configuration routeros_routing_bfd_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -106,8 +106,8 @@ export class RoutingBfdConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_routing_bfd_configuration',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

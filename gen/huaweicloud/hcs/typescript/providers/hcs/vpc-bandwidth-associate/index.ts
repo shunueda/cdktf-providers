@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth_associate
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vpc_bandwidth_associate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface VpcBandwidthAssociateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth_associate#bandwidth_id VpcBandwidthAssociate#bandwidth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vpc_bandwidth_associate#bandwidth_id VpcBandwidthAssociate#bandwidth_id}
   */
   readonly bandwidthId: string;
   /**
   * The size (Mbits/s) after removal bandwidth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth_associate#bandwidth_size VpcBandwidthAssociate#bandwidth_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vpc_bandwidth_associate#bandwidth_size VpcBandwidthAssociate#bandwidth_size}
   */
   readonly bandwidthSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth_associate#eip_id VpcBandwidthAssociate#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vpc_bandwidth_associate#eip_id VpcBandwidthAssociate#eip_id}
   */
   readonly eipId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth_associate#id VpcBandwidthAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vpc_bandwidth_associate#id VpcBandwidthAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth_associate#region VpcBandwidthAssociate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vpc_bandwidth_associate#region VpcBandwidthAssociate#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth_associate hcs_vpc_bandwidth_associate}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vpc_bandwidth_associate hcs_vpc_bandwidth_associate}
 */
 export class VpcBandwidthAssociate extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class VpcBandwidthAssociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcBandwidthAssociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcBandwidthAssociate to import
-  * @param importFromId The id of the existing VpcBandwidthAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth_associate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcBandwidthAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vpc_bandwidth_associate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcBandwidthAssociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class VpcBandwidthAssociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth_associate hcs_vpc_bandwidth_associate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/vpc_bandwidth_associate hcs_vpc_bandwidth_associate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class VpcBandwidthAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_vpc_bandwidth_associate',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

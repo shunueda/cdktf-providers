@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_renew_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/lighthouse_renew_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,11 +12,11 @@ export interface LighthouseRenewInstanceConfig extends cdktf.TerraformMetaArgume
   * - true: Automatically deduct vouchers.
   * -false:Do not automatically deduct vouchers. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_renew_instance#auto_voucher LighthouseRenewInstance#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/lighthouse_renew_instance#auto_voucher LighthouseRenewInstance#auto_voucher}
   */
   readonly autoVoucher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_renew_instance#id LighthouseRenewInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/lighthouse_renew_instance#id LighthouseRenewInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface LighthouseRenewInstanceConfig extends cdktf.TerraformMetaArgume
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_renew_instance#instance_id LighthouseRenewInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/lighthouse_renew_instance#instance_id LighthouseRenewInstance#instance_id}
   */
   readonly instanceId: string;
   /**
   * Whether to renew the data disk. Valid values:true: Indicates that the renewal instance also renews the data disk attached to it.false: Indicates that the instance will be renewed and the data disk attached to it will not be renewed at the same time.Default value: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_renew_instance#renew_data_disk LighthouseRenewInstance#renew_data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/lighthouse_renew_instance#renew_data_disk LighthouseRenewInstance#renew_data_disk}
   */
   readonly renewDataDisk?: boolean | cdktf.IResolvable;
   /**
   * instance_charge_prepaid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_renew_instance#instance_charge_prepaid LighthouseRenewInstance#instance_charge_prepaid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/lighthouse_renew_instance#instance_charge_prepaid LighthouseRenewInstance#instance_charge_prepaid}
   */
   readonly instanceChargePrepaid: LighthouseRenewInstanceInstanceChargePrepaid;
 }
@@ -45,7 +45,7 @@ export interface LighthouseRenewInstanceInstanceChargePrepaid {
   /**
   * The duration of purchasing an instance. Unit is month. Valid values are (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 24, 36, 48, 60).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_renew_instance#period LighthouseRenewInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/lighthouse_renew_instance#period LighthouseRenewInstance#period}
   */
   readonly period: number;
   /**
@@ -55,7 +55,7 @@ export interface LighthouseRenewInstanceInstanceChargePrepaid {
   * - `DISABLE_NOTIFY_AND_AUTO_RENEW`: no automatic renewal and no notification;
   * Default value: `NOTIFY_AND_MANUAL_RENEW`. If this parameter is specified as `NOTIFY_AND_AUTO_RENEW`, the instance will be automatically renewed on a monthly basis after expiration, when the account balance is sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_renew_instance#renew_flag LighthouseRenewInstance#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/lighthouse_renew_instance#renew_flag LighthouseRenewInstance#renew_flag}
   */
   readonly renewFlag?: string;
 }
@@ -165,7 +165,7 @@ export class LighthouseRenewInstanceInstanceChargePrepaidOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_renew_instance tencentcloud_lighthouse_renew_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/lighthouse_renew_instance tencentcloud_lighthouse_renew_instance}
 */
 export class LighthouseRenewInstance extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class LighthouseRenewInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LighthouseRenewInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LighthouseRenewInstance to import
-  * @param importFromId The id of the existing LighthouseRenewInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_renew_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LighthouseRenewInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/lighthouse_renew_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LighthouseRenewInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class LighthouseRenewInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/lighthouse_renew_instance tencentcloud_lighthouse_renew_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/lighthouse_renew_instance tencentcloud_lighthouse_renew_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class LighthouseRenewInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_lighthouse_renew_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

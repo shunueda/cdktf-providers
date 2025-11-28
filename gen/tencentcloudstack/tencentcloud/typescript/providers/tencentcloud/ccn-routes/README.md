@@ -1,3 +1,3 @@
 # `tencentcloud_ccn_routes`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_ccn_routes`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/ccn_routes).
+Refer to the Terraform Registry for docs: [`tencentcloud_ccn_routes`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/ccn_routes).

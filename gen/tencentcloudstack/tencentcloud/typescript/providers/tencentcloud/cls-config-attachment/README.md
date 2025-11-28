@@ -1,3 +1,3 @@
 # `tencentcloud_cls_config_attachment`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_cls_config_attachment`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cls_config_attachment).
+Refer to the Terraform Registry for docs: [`tencentcloud_cls_config_attachment`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_config_attachment).

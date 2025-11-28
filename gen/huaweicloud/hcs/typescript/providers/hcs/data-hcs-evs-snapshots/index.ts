@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_snapshots
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/evs_snapshots
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcsEvsSnapshotsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_snapshots#availability_zone DataHcsEvsSnapshots#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/evs_snapshots#availability_zone DataHcsEvsSnapshots#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_snapshots#enterprise_project_id DataHcsEvsSnapshots#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/evs_snapshots#enterprise_project_id DataHcsEvsSnapshots#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_snapshots#id DataHcsEvsSnapshots#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/evs_snapshots#id DataHcsEvsSnapshots#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_snapshots#name DataHcsEvsSnapshots#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/evs_snapshots#name DataHcsEvsSnapshots#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_snapshots#region DataHcsEvsSnapshots#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/evs_snapshots#region DataHcsEvsSnapshots#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_snapshots#snapshot_id DataHcsEvsSnapshots#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/evs_snapshots#snapshot_id DataHcsEvsSnapshots#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_snapshots#status DataHcsEvsSnapshots#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/evs_snapshots#status DataHcsEvsSnapshots#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_snapshots#volume_id DataHcsEvsSnapshots#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/evs_snapshots#volume_id DataHcsEvsSnapshots#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -161,7 +161,7 @@ export class DataHcsEvsSnapshotsSnapshotsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_snapshots hcs_evs_snapshots}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/evs_snapshots hcs_evs_snapshots}
 */
 export class DataHcsEvsSnapshots extends cdktf.TerraformDataSource {
 
@@ -177,7 +177,7 @@ export class DataHcsEvsSnapshots extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsEvsSnapshots resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsEvsSnapshots to import
-  * @param importFromId The id of the existing DataHcsEvsSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_snapshots#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsEvsSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/evs_snapshots#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsEvsSnapshots to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DataHcsEvsSnapshots extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_snapshots hcs_evs_snapshots} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/evs_snapshots hcs_evs_snapshots} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DataHcsEvsSnapshots extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_evs_snapshots',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

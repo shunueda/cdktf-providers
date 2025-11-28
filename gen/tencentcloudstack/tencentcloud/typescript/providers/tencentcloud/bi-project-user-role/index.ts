@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/bi_project_user_role
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_project_user_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BiProjectUserRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mobile area code(Note: This field may return null, indicating that no valid value can be obtained).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/bi_project_user_role#area_code BiProjectUserRole#area_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_project_user_role#area_code BiProjectUserRole#area_code}
   */
   readonly areaCode: string;
   /**
   * E-mail(Note: This field may return null, indicating that no valid value can be obtained).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/bi_project_user_role#email BiProjectUserRole#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_project_user_role#email BiProjectUserRole#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/bi_project_user_role#id BiProjectUserRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_project_user_role#id BiProjectUserRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface BiProjectUserRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Phone number(Note: This field may return null, indicating that no valid value can be obtained).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/bi_project_user_role#phone_number BiProjectUserRole#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_project_user_role#phone_number BiProjectUserRole#phone_number}
   */
   readonly phoneNumber: string;
   /**
   * Project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/bi_project_user_role#project_id BiProjectUserRole#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_project_user_role#project_id BiProjectUserRole#project_id}
   */
   readonly projectId?: number;
   /**
   * Role id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/bi_project_user_role#role_id_list BiProjectUserRole#role_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_project_user_role#role_id_list BiProjectUserRole#role_id_list}
   */
   readonly roleIdList?: number[];
   /**
   * User id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/bi_project_user_role#user_id BiProjectUserRole#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_project_user_role#user_id BiProjectUserRole#user_id}
   */
   readonly userId: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/bi_project_user_role#user_name BiProjectUserRole#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_project_user_role#user_name BiProjectUserRole#user_name}
   */
   readonly userName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/bi_project_user_role tencentcloud_bi_project_user_role}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_project_user_role tencentcloud_bi_project_user_role}
 */
 export class BiProjectUserRole extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class BiProjectUserRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BiProjectUserRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BiProjectUserRole to import
-  * @param importFromId The id of the existing BiProjectUserRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/bi_project_user_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BiProjectUserRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_project_user_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BiProjectUserRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class BiProjectUserRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/bi_project_user_role tencentcloud_bi_project_user_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_project_user_role tencentcloud_bi_project_user_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class BiProjectUserRole extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_bi_project_user_role',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

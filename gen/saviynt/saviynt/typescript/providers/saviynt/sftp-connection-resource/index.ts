@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface SftpConnectionResourceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Type of authentication (password, key, etc.). Example: "password"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#auth_credential_type SftpConnectionResource#auth_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#auth_credential_type SftpConnectionResource#auth_credential_type}
   */
   readonly authCredentialType: string;
   /**
   * Authentication credential (password or private key path).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#auth_credential_value SftpConnectionResource#auth_credential_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#auth_credential_value SftpConnectionResource#auth_credential_value}
   */
   readonly authCredentialValue?: string;
   /**
   * Authentication credential (write-only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#auth_credential_value_wo SftpConnectionResource#auth_credential_value_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#auth_credential_value_wo SftpConnectionResource#auth_credential_value_wo}
   */
   readonly authCredentialValueWo?: string;
   /**
   * Name of the connection. Example: "Active Directory_Doc"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#connection_name SftpConnectionResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#connection_name SftpConnectionResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * Default SAV roles for managing the connection. Example: "ROLE_ORG"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#defaultsavroles SftpConnectionResource#defaultsavroles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#defaultsavroles SftpConnectionResource#defaultsavroles}
   */
   readonly defaultsavroles?: string;
   /**
   * Description for the connection. Example: "ORG_AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#description SftpConnectionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#description SftpConnectionResource#description}
   */
   readonly description?: string;
   /**
   * Email template for notifications. Example: "New Account Task Creation"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#email_template SftpConnectionResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#email_template SftpConnectionResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
   * Files to download from SFTP server. Example: "*.csv"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#files_to_get SftpConnectionResource#files_to_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#files_to_get SftpConnectionResource#files_to_get}
   */
   readonly filesToGet?: string;
   /**
   * Files to upload to SFTP server. Example: "upload/*.txt"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#files_to_put SftpConnectionResource#files_to_put}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#files_to_put SftpConnectionResource#files_to_put}
   */
   readonly filesToPut?: string;
   /**
   * SFTP server hostname or IP address. Example: "sftp.example.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#host_name SftpConnectionResource#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#host_name SftpConnectionResource#host_name}
   */
   readonly hostName: string;
   /**
   * PAM configuration for SFTP connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#pam_config SftpConnectionResource#pam_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#pam_config SftpConnectionResource#pam_config}
   */
   readonly pamConfig?: string;
   /**
   * Passphrase for encrypted private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#passphrase SftpConnectionResource#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#passphrase SftpConnectionResource#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Passphrase for encrypted private key (write-only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#passphrase_wo SftpConnectionResource#passphrase_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#passphrase_wo SftpConnectionResource#passphrase_wo}
   */
   readonly passphraseWo?: string;
   /**
   * SFTP server port number. Default is 22. Example: "22"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#port_number SftpConnectionResource#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#port_number SftpConnectionResource#port_number}
   */
   readonly portNumber: string;
   /**
   * Flag indicating whether the encrypted attribute should be saved in the configured vault. Example: "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#save_in_vault SftpConnectionResource#save_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#save_in_vault SftpConnectionResource#save_in_vault}
   */
   readonly saveInVault?: string;
   /**
   * Username for SFTP authentication. Example: "sftpuser"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#username SftpConnectionResource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#username SftpConnectionResource#username}
   */
   readonly username: string;
   /**
   * JSON string specifying vault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#vault_configuration SftpConnectionResource#vault_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#vault_configuration SftpConnectionResource#vault_configuration}
   */
   readonly vaultConfiguration?: string;
   /**
   * Specifies the type of vault connection being used (e.g., 'Hashicorp'). Example: "Hashicorp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#vault_connection SftpConnectionResource#vault_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#vault_connection SftpConnectionResource#vault_connection}
   */
   readonly vaultConnection?: string;
   /**
   * Add/change the value of this attribute to update the writeonly attributes like username, password etc in connection resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#wo_version SftpConnectionResource#wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#wo_version SftpConnectionResource#wo_version}
   */
   readonly woVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource saviynt_sftp_connection_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource saviynt_sftp_connection_resource}
 */
 export class SftpConnectionResource extends cdktf.TerraformResource {
 
@@ -140,7 +140,7 @@ export class SftpConnectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SftpConnectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SftpConnectionResource to import
-  * @param importFromId The id of the existing SftpConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SftpConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SftpConnectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class SftpConnectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/sftp_connection_resource saviynt_sftp_connection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sftp_connection_resource saviynt_sftp_connection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class SftpConnectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_sftp_connection_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log
+// https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DataGitLogConfig extends cdktf.TerraformMetaArguments {
   /**
   * Pretend as if all the refs in `refs/`, along with `HEAD`, are listed. It is equivalent to running `git log --all`. If set to `true`, the `from` attribute will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log#all DataGitLog#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log#all DataGitLog#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log#directory DataGitLog#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log#directory DataGitLog#directory}
   */
   readonly directory: string;
   /**
   * Show only commits that are enough to explain how the files that match the specified paths came to be. Note that these are not Git `pathspec` but rather Go [path matchers](https://pkg.go.dev/path#Match) thus you have to add `/*` for directories yourself.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log#filter_paths DataGitLog#filter_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log#filter_paths DataGitLog#filter_paths}
   */
   readonly filterPaths?: string[];
   /**
   * When set the log will only contain commits reachable from it. If this option is not set, `HEAD` will be used as the default. Can be any [revision](https://www.git-scm.com/docs/gitrevisions) that `go-git` [supports](https://pkg.go.dev/github.com/go-git/go-git/v5#Repository.ResolveRevision).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log#from DataGitLog#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log#from DataGitLog#from}
   */
   readonly from?: string;
   /**
   * Limit the number of commits to output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log#max_count DataGitLog#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log#max_count DataGitLog#max_count}
   */
   readonly maxCount?: number;
   /**
   * The traversal algorithm to use while listing commits. Defaults to `time` which is similar to `git log`. Other values are `depth` and `breadth` for depth- or breadth-first traversal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log#order DataGitLog#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log#order DataGitLog#order}
   */
   readonly order?: string;
   /**
   * Show commits more recent than a specific date. Date must be in RFC 3339 format, e.g. by using the built-in [timestamp](https://www.terraform.io/language/functions/timestamp)/[timeadd](https://www.terraform.io/language/functions/timeadd) functions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log#since DataGitLog#since}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log#since DataGitLog#since}
   */
   readonly since?: string;
   /**
   * Skip first number of commits in output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log#skip DataGitLog#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log#skip DataGitLog#skip}
   */
   readonly skip?: number;
   /**
   * Show commits older than a specific date. Date must be in RFC 3339 format, e.g. by using the built-in [timestamp](https://www.terraform.io/language/functions/timestamp)/[timeadd](https://www.terraform.io/language/functions/timeadd) functions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log#until DataGitLog#until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log#until DataGitLog#until}
   */
   readonly until?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log git_log}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log git_log}
 */
 export class DataGitLog extends cdktf.TerraformDataSource {
 
@@ -80,7 +80,7 @@ export class DataGitLog extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGitLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGitLog to import
-  * @param importFromId The id of the existing DataGitLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGitLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGitLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class DataGitLog extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/log git_log} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/data-sources/log git_log} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class DataGitLog extends cdktf.TerraformDataSource {
       terraformResourceType: 'git_log',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.11.21',
-        providerVersionConstraint: '2025.11.21'
+        providerVersion: '2025.11.28',
+        providerVersionConstraint: '2025.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

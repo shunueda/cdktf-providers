@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface TdmqRabbitmqVipInstanceConfig extends cdktf.TerraformMetaArgume
   /**
   * Automatic renewal, the default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#auto_renew_flag TdmqRabbitmqVipInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#auto_renew_flag TdmqRabbitmqVipInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: boolean | cdktf.IResolvable;
   /**
   * cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#cluster_name TdmqRabbitmqVipInstance#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#cluster_name TdmqRabbitmqVipInstance#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Cluster version, the default is `3.8.30`, valid values: `3.8.30` and `3.11.8`.
+  * Cluster version, the default is `3.8.30`, valid values: `3.8.30`, `3.11.8` and `3.13.7`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#cluster_version TdmqRabbitmqVipInstance#cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#cluster_version TdmqRabbitmqVipInstance#cluster_version}
   */
   readonly clusterVersion?: string;
   /**
   * Mirrored queue, the default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#enable_create_default_ha_mirror_queue TdmqRabbitmqVipInstance#enable_create_default_ha_mirror_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#enable_create_default_ha_mirror_queue TdmqRabbitmqVipInstance#enable_create_default_ha_mirror_queue}
   */
   readonly enableCreateDefaultHaMirrorQueue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#id TdmqRabbitmqVipInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#id TdmqRabbitmqVipInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface TdmqRabbitmqVipInstanceConfig extends cdktf.TerraformMetaArgume
   /**
   * The number of nodes, a minimum of 3 nodes for a multi-availability zone. If not passed, the default single availability zone is 1, and the multi-availability zone is 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#node_num TdmqRabbitmqVipInstance#node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#node_num TdmqRabbitmqVipInstance#node_num}
   */
   readonly nodeNum?: number;
   /**
   * Node specifications. Valid values: rabbit-vip-basic-5 (for 2C4G), rabbit-vip-profession-2c8g (for 2C8G), rabbit-vip-basic-1 (for 4C8G), rabbit-vip-profession-4c16g (for 4C16G), rabbit-vip-basic-2 (for 8C16G), rabbit-vip-profession-8c32g (for 8C32G), rabbit-vip-basic-4 (for 16C32G), rabbit-vip-profession-16c64g (for 16C64G). The default is rabbit-vip-basic-1. NOTE: The above specifications may be sold out or removed from the shelves.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#node_spec TdmqRabbitmqVipInstance#node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#node_spec TdmqRabbitmqVipInstance#node_spec}
   */
   readonly nodeSpec?: string;
   /**
   * Payment method: 0 indicates postpaid; 1 indicates prepaid. Default: prepaid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#pay_mode TdmqRabbitmqVipInstance#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#pay_mode TdmqRabbitmqVipInstance#pay_mode}
   */
   readonly payMode?: number;
   /**
   * Single node storage specification, the default is 200G.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#storage_size TdmqRabbitmqVipInstance#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#storage_size TdmqRabbitmqVipInstance#storage_size}
   */
   readonly storageSize?: number;
   /**
   * Private network SubnetId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#subnet_id TdmqRabbitmqVipInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#subnet_id TdmqRabbitmqVipInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Purchase duration, the default is 1 (month).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#time_span TdmqRabbitmqVipInstance#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#time_span TdmqRabbitmqVipInstance#time_span}
   */
   readonly timeSpan?: number;
   /**
   * Private network VpcId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#vpc_id TdmqRabbitmqVipInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#vpc_id TdmqRabbitmqVipInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#zone_ids TdmqRabbitmqVipInstance#zone_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#zone_ids TdmqRabbitmqVipInstance#zone_ids}
   */
   readonly zoneIds: number[];
 }
@@ -179,7 +179,7 @@ export class TdmqRabbitmqVipInstanceVpcsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance tencentcloud_tdmq_rabbitmq_vip_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance tencentcloud_tdmq_rabbitmq_vip_instance}
 */
 export class TdmqRabbitmqVipInstance extends cdktf.TerraformResource {
 
@@ -195,7 +195,7 @@ export class TdmqRabbitmqVipInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqRabbitmqVipInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqRabbitmqVipInstance to import
-  * @param importFromId The id of the existing TdmqRabbitmqVipInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqRabbitmqVipInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqRabbitmqVipInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class TdmqRabbitmqVipInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rabbitmq_vip_instance tencentcloud_tdmq_rabbitmq_vip_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rabbitmq_vip_instance tencentcloud_tdmq_rabbitmq_vip_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class TdmqRabbitmqVipInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_rabbitmq_vip_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

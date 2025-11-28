@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface IpSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#___path___ IpSettings#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#___path___ IpSettings#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#___skip___ IpSettings#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#___skip___ IpSettings#___skip___}
   */
   readonly skip?: string;
   /**
   * Whether to accept ICMP redirect messages. Typically should be enabled on the host and disabled on routers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#accept_redirects IpSettings#accept_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#accept_redirects IpSettings#accept_redirects}
   */
   readonly acceptRedirects?: boolean | cdktf.IResolvable;
   /**
   * Whether to accept packets with the SRR option. Typically should be enabled on the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#accept_source_route IpSettings#accept_source_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#accept_source_route IpSettings#accept_source_route}
   */
   readonly acceptSourceRoute?: boolean | cdktf.IResolvable;
   /**
   * Allows Fast Path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#allow_fast_path IpSettings#allow_fast_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#allow_fast_path IpSettings#allow_fast_path}
   */
   readonly allowFastPath?: boolean | cdktf.IResolvable;
   /**
   * Sets Linux base_reachable_time (base_reachable_time_ms) on all interfaces that use ARP. The initial validity of the ARP entry is picked from the interval [timeout/2 - 3*timeout/2] (default from 15s to 45s) after the neighbor was found. Can use postfix ms, s, m, h, d for milliseconds, seconds, minutes, hours, or days. if no postfix is set then seconds (s) are used. The parameter means how long a valid ARP record will be considered complete if no one communicates with the specific MAC/IP during this time. The parameter does not represent a time when an ARP entry is removed from the ARP cache (see max-neighbor-entries setting).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#arp_timeout IpSettings#arp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#arp_timeout IpSettings#arp_timeout}
   */
   readonly arpTimeout?: string;
   /**
   * If enabled, the ICMP error message reply will be sent with the source address equal to primary address of the receiving interface that caused the error . This feature can be useful for complex network debugging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#icmp_errors_use_inbound_interface_address IpSettings#icmp_errors_use_inbound_interface_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#icmp_errors_use_inbound_interface_address IpSettings#icmp_errors_use_inbound_interface_address}
   */
   readonly icmpErrorsUseInboundInterfaceAddress?: boolean | cdktf.IResolvable;
   /**
   * Limit the maximum rates for sending ICMP packets whose type matches icmp-rate-mask to specific targets. `0` disables any limiting, other values indicate the minimum space between responses in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#icmp_rate_limit IpSettings#icmp_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#icmp_rate_limit IpSettings#icmp_rate_limit}
   */
   readonly icmpRateLimit?: number;
   /**
   * Mask made of ICMP types for which rates are being limited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#icmp_rate_mask IpSettings#icmp_rate_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#icmp_rate_mask IpSettings#icmp_rate_mask}
   */
   readonly icmpRateMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#id IpSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#id IpSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ export interface IpSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable/disable packet forwarding between interfaces. Resets all configuration parameters to defaults according to RFC1812 for routers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#ip_forward IpSettings#ip_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#ip_forward IpSettings#ip_forward}
   */
   readonly ipForward?: boolean | cdktf.IResolvable;
   /**
@@ -80,7 +80,7 @@ export interface IpSettingsConfig extends cdktf.TerraformMetaArguments {
   *   * l3-inner -- layer-3 hashing or inner layer-3 hashing if available
   *   * l4 -- layer-4 hashing of src IP, dst IP, IP protocol, src port, dst port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#ipv4_multipath_hash_policy IpSettings#ipv4_multipath_hash_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#ipv4_multipath_hash_policy IpSettings#ipv4_multipath_hash_policy}
   */
   readonly ipv4MultipathHashPolicy?: string;
   /**
@@ -92,13 +92,13 @@ export interface IpSettingsConfig extends cdktf.TerraformMetaArguments {
   *   *  16384 for 512 MB or higher.
   * The ARP cache stores ARP entries, and if some of these entries are incomplete, they can stay in the cache for an indefinite period of time. This will only happen if the number of entries in the cache is less than one-fourth of the maximum number allowed. The reason for this is to prevent the unnecessary running of the garbage-collector when the ARP table is not close to being full.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#max_neighbor_entries IpSettings#max_neighbor_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#max_neighbor_entries IpSettings#max_neighbor_entries}
   */
   readonly maxNeighborEntries?: number;
   /**
   * Disable or enable the Linux route cache. Note that disabling the route cache, will also disable the fast path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#route_cache IpSettings#route_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#route_cache IpSettings#route_cache}
   */
   readonly routeCache?: boolean | cdktf.IResolvable;
   /**
@@ -109,37 +109,37 @@ export interface IpSettingsConfig extends cdktf.TerraformMetaArguments {
   * The current recommended practice in RFC3704 is to enable strict mode to prevent IP spoofing from DDoS attacks. If using asymmetric routing or other complicated routing or VRRP, then the loose mode is recommended.
   * `Warning`: strict mode does not work with routing tables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#rp_filter IpSettings#rp_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#rp_filter IpSettings#rp_filter}
   */
   readonly rpFilter?: string;
   /**
   * Accept ICMP redirect messages only for gateways, listed in the default gateway list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#secure_redirects IpSettings#secure_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#secure_redirects IpSettings#secure_redirects}
   */
   readonly secureRedirects?: boolean | cdktf.IResolvable;
   /**
   * Whether to send ICMP redirects. Recommended to be enabled on routers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#send_redirects IpSettings#send_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#send_redirects IpSettings#send_redirects}
   */
   readonly sendRedirects?: boolean | cdktf.IResolvable;
   /**
   * end out syncookies when the syn backlog queue of a socket overflows. This is to prevent the common 'SYN flood attack'. syncookies seriously violate TCP protocol, and disallow the use of TCP extensions, which can result in serious degradation of some services (f.e. SMTP relaying), visible not by you, but to your clients and relays, contacting you.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#tcp_syncookies IpSettings#tcp_syncookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#tcp_syncookies IpSettings#tcp_syncookies}
   */
   readonly tcpSyncookies?: boolean | cdktf.IResolvable;
   /**
   * Parameter allows to enable/disable TCP timestamps or add random offset to TCP timestamp (default behavior). Disabling timestamps completely may help to reduce spikes of performance drops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#tcp_timestamps IpSettings#tcp_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#tcp_timestamps IpSettings#tcp_timestamps}
   */
   readonly tcpTimestamps?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings routeros_ip_settings}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings routeros_ip_settings}
 */
 export class IpSettings extends cdktf.TerraformResource {
 
@@ -155,7 +155,7 @@ export class IpSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpSettings to import
-  * @param importFromId The id of the existing IpSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -167,7 +167,7 @@ export class IpSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_settings routeros_ip_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_settings routeros_ip_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,8 +178,8 @@ export class IpSettings extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_settings',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

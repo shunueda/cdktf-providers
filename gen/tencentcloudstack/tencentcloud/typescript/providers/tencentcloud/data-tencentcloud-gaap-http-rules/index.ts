@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_http_rules
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_http_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudGaapHttpRulesConfig extends cdktf.TerraformMeta
   /**
   * Forward domain of the layer7 listener to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_http_rules#domain DataTencentcloudGaapHttpRules#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_http_rules#domain DataTencentcloudGaapHttpRules#domain}
   */
   readonly domain?: string;
   /**
   * Requested host which is forwarded to the realserver by the listener to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_http_rules#forward_host DataTencentcloudGaapHttpRules#forward_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_http_rules#forward_host DataTencentcloudGaapHttpRules#forward_host}
   */
   readonly forwardHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_http_rules#id DataTencentcloudGaapHttpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_http_rules#id DataTencentcloudGaapHttpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudGaapHttpRulesConfig extends cdktf.TerraformMeta
   /**
   * ID of the layer7 listener to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_http_rules#listener_id DataTencentcloudGaapHttpRules#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_http_rules#listener_id DataTencentcloudGaapHttpRules#listener_id}
   */
   readonly listenerId: string;
   /**
   * Path of the forward rule to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_http_rules#path DataTencentcloudGaapHttpRules#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_http_rules#path DataTencentcloudGaapHttpRules#path}
   */
   readonly path?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_http_rules#result_output_file DataTencentcloudGaapHttpRules#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_http_rules#result_output_file DataTencentcloudGaapHttpRules#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -298,7 +298,7 @@ export class DataTencentcloudGaapHttpRulesRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_http_rules tencentcloud_gaap_http_rules}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_http_rules tencentcloud_gaap_http_rules}
 */
 export class DataTencentcloudGaapHttpRules extends cdktf.TerraformDataSource {
 
@@ -314,7 +314,7 @@ export class DataTencentcloudGaapHttpRules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudGaapHttpRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudGaapHttpRules to import
-  * @param importFromId The id of the existing DataTencentcloudGaapHttpRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_http_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudGaapHttpRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_http_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudGaapHttpRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -326,7 +326,7 @@ export class DataTencentcloudGaapHttpRules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_http_rules tencentcloud_gaap_http_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_http_rules tencentcloud_gaap_http_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -337,8 +337,8 @@ export class DataTencentcloudGaapHttpRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_gaap_http_rules',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

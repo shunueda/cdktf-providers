@@ -1,3 +1,3 @@
 # `data_tencentcloud_ccn_cross_border_compliance`
 
-Refer to the Terraform Registry for docs: [`data_tencentcloud_ccn_cross_border_compliance`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/ccn_cross_border_compliance).
+Refer to the Terraform Registry for docs: [`data_tencentcloud_ccn_cross_border_compliance`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/ccn_cross_border_compliance).

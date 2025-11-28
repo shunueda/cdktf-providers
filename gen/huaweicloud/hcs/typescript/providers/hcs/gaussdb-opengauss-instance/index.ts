@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,148 +8,148 @@ import * as cdktf from 'cdktf';
 
 export interface GaussdbOpengaussInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#auto_renew GaussdbOpengaussInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#auto_renew GaussdbOpengaussInstance#auto_renew}
   */
   readonly autoRenew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#availability_zone GaussdbOpengaussInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#availability_zone GaussdbOpengaussInstance#availability_zone}
   */
   readonly availabilityZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#charging_mode GaussdbOpengaussInstance#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#charging_mode GaussdbOpengaussInstance#charging_mode}
   */
   readonly chargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#configuration_id GaussdbOpengaussInstance#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#configuration_id GaussdbOpengaussInstance#configuration_id}
   */
   readonly configurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#coordinator_num GaussdbOpengaussInstance#coordinator_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#coordinator_num GaussdbOpengaussInstance#coordinator_num}
   */
   readonly coordinatorNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#dorado_storage_pool_id GaussdbOpengaussInstance#dorado_storage_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#dorado_storage_pool_id GaussdbOpengaussInstance#dorado_storage_pool_id}
   */
   readonly doradoStoragePoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#enable_single_float_ip GaussdbOpengaussInstance#enable_single_float_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#enable_single_float_ip GaussdbOpengaussInstance#enable_single_float_ip}
   */
   readonly enableSingleFloatIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#enterprise_project_id GaussdbOpengaussInstance#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#enterprise_project_id GaussdbOpengaussInstance#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#flavor GaussdbOpengaussInstance#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#flavor GaussdbOpengaussInstance#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#force_import GaussdbOpengaussInstance#force_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#force_import GaussdbOpengaussInstance#force_import}
   */
   readonly forceImport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#id GaussdbOpengaussInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#id GaussdbOpengaussInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#kms_project_name GaussdbOpengaussInstance#kms_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#kms_project_name GaussdbOpengaussInstance#kms_project_name}
   */
   readonly kmsProjectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#kms_tde_key_id GaussdbOpengaussInstance#kms_tde_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#kms_tde_key_id GaussdbOpengaussInstance#kms_tde_key_id}
   */
   readonly kmsTdeKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#kms_tde_status GaussdbOpengaussInstance#kms_tde_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#kms_tde_status GaussdbOpengaussInstance#kms_tde_status}
   */
   readonly kmsTdeStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#name GaussdbOpengaussInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#name GaussdbOpengaussInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#os_type GaussdbOpengaussInstance#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#os_type GaussdbOpengaussInstance#os_type}
   */
   readonly osType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#password GaussdbOpengaussInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#password GaussdbOpengaussInstance#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#period GaussdbOpengaussInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#period GaussdbOpengaussInstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#period_unit GaussdbOpengaussInstance#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#period_unit GaussdbOpengaussInstance#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#port GaussdbOpengaussInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#port GaussdbOpengaussInstance#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#region GaussdbOpengaussInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#region GaussdbOpengaussInstance#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#replica_num GaussdbOpengaussInstance#replica_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#replica_num GaussdbOpengaussInstance#replica_num}
   */
   readonly replicaNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#security_group_id GaussdbOpengaussInstance#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#security_group_id GaussdbOpengaussInstance#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#sharding_num GaussdbOpengaussInstance#sharding_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#sharding_num GaussdbOpengaussInstance#sharding_num}
   */
   readonly shardingNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#solution GaussdbOpengaussInstance#solution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#solution GaussdbOpengaussInstance#solution}
   */
   readonly solution?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#subnet_id GaussdbOpengaussInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#subnet_id GaussdbOpengaussInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#time_zone GaussdbOpengaussInstance#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#time_zone GaussdbOpengaussInstance#time_zone}
   */
   readonly timeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#vpc_id GaussdbOpengaussInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#vpc_id GaussdbOpengaussInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * backup_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#backup_strategy GaussdbOpengaussInstance#backup_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#backup_strategy GaussdbOpengaussInstance#backup_strategy}
   */
   readonly backupStrategy?: GaussdbOpengaussInstanceBackupStrategy;
   /**
   * datastore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#datastore GaussdbOpengaussInstance#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#datastore GaussdbOpengaussInstance#datastore}
   */
   readonly datastore?: GaussdbOpengaussInstanceDatastore;
   /**
   * ha block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#ha GaussdbOpengaussInstance#ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#ha GaussdbOpengaussInstance#ha}
   */
   readonly ha: GaussdbOpengaussInstanceHa;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#timeouts GaussdbOpengaussInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#timeouts GaussdbOpengaussInstance#timeouts}
   */
   readonly timeouts?: GaussdbOpengaussInstanceTimeouts;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#volume GaussdbOpengaussInstance#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#volume GaussdbOpengaussInstance#volume}
   */
   readonly volume: GaussdbOpengaussInstanceVolume;
 }
@@ -275,11 +275,11 @@ export class GaussdbOpengaussInstanceNodesList extends cdktf.ComplexList {
 }
 export interface GaussdbOpengaussInstanceBackupStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#keep_days GaussdbOpengaussInstance#keep_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#keep_days GaussdbOpengaussInstance#keep_days}
   */
   readonly keepDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#start_time GaussdbOpengaussInstance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#start_time GaussdbOpengaussInstance#start_time}
   */
   readonly startTime: string;
 }
@@ -389,11 +389,11 @@ export class GaussdbOpengaussInstanceBackupStrategyOutputReference extends cdktf
 }
 export interface GaussdbOpengaussInstanceDatastore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#engine GaussdbOpengaussInstance#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#engine GaussdbOpengaussInstance#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#version GaussdbOpengaussInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#version GaussdbOpengaussInstance#version}
   */
   readonly version?: string;
 }
@@ -503,19 +503,19 @@ export class GaussdbOpengaussInstanceDatastoreOutputReference extends cdktf.Comp
 }
 export interface GaussdbOpengaussInstanceHa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#consistency GaussdbOpengaussInstance#consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#consistency GaussdbOpengaussInstance#consistency}
   */
   readonly consistency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#consistency_protocol GaussdbOpengaussInstance#consistency_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#consistency_protocol GaussdbOpengaussInstance#consistency_protocol}
   */
   readonly consistencyProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#mode GaussdbOpengaussInstance#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#mode GaussdbOpengaussInstance#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#replication_mode GaussdbOpengaussInstance#replication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#replication_mode GaussdbOpengaussInstance#replication_mode}
   */
   readonly replicationMode: string;
 }
@@ -680,15 +680,15 @@ export class GaussdbOpengaussInstanceHaOutputReference extends cdktf.ComplexObje
 }
 export interface GaussdbOpengaussInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#create GaussdbOpengaussInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#create GaussdbOpengaussInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#delete GaussdbOpengaussInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#delete GaussdbOpengaussInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#update GaussdbOpengaussInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#update GaussdbOpengaussInstance#update}
   */
   readonly update?: string;
 }
@@ -840,11 +840,11 @@ export class GaussdbOpengaussInstanceTimeoutsOutputReference extends cdktf.Compl
 }
 export interface GaussdbOpengaussInstanceVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#size GaussdbOpengaussInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#size GaussdbOpengaussInstance#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#type GaussdbOpengaussInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#type GaussdbOpengaussInstance#type}
   */
   readonly type: string;
 }
@@ -951,7 +951,7 @@ export class GaussdbOpengaussInstanceVolumeOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance hcs_gaussdb_opengauss_instance}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance hcs_gaussdb_opengauss_instance}
 */
 export class GaussdbOpengaussInstance extends cdktf.TerraformResource {
 
@@ -967,7 +967,7 @@ export class GaussdbOpengaussInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaussdbOpengaussInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaussdbOpengaussInstance to import
-  * @param importFromId The id of the existing GaussdbOpengaussInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaussdbOpengaussInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaussdbOpengaussInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -979,7 +979,7 @@ export class GaussdbOpengaussInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/gaussdb_opengauss_instance hcs_gaussdb_opengauss_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/gaussdb_opengauss_instance hcs_gaussdb_opengauss_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -990,8 +990,8 @@ export class GaussdbOpengaussInstance extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_gaussdb_opengauss_instance',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/load_balancer_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface LoadBalancerNetworkConfig extends cdktf.TerraformMetaArguments 
   /**
   * Wether the Load Balancer public interface is enabled. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network#enable_public_interface LoadBalancerNetwork#enable_public_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/load_balancer_network#enable_public_interface LoadBalancerNetwork#enable_public_interface}
   */
   readonly enablePublicInterface?: boolean | cdktf.IResolvable;
   /**
   * IP to assign to the Load Balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network#ip LoadBalancerNetwork#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/load_balancer_network#ip LoadBalancerNetwork#ip}
   */
   readonly ip?: string;
   /**
   * ID of the Load Balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network#load_balancer_id LoadBalancerNetwork#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/load_balancer_network#load_balancer_id LoadBalancerNetwork#load_balancer_id}
   */
   readonly loadBalancerId: number;
   /**
   * ID of the Network to attach the Load Balancer to. Using `subnet_id` is preferred. Required if `subnet_id` is not set. If `subnet_id` or `ip` are not set, the Load Balancer will be attached to the last subnet (ordered by `ip_range`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network#network_id LoadBalancerNetwork#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/load_balancer_network#network_id LoadBalancerNetwork#network_id}
   */
   readonly networkId?: number;
   /**
   * ID of the Subnet to attach the Load Balancer to. Required if `network_id` is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network#subnet_id LoadBalancerNetwork#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/load_balancer_network#subnet_id LoadBalancerNetwork#subnet_id}
   */
   readonly subnetId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network hcloud_load_balancer_network}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/load_balancer_network hcloud_load_balancer_network}
 */
 export class LoadBalancerNetwork extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class LoadBalancerNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancerNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancerNetwork to import
-  * @param importFromId The id of the existing LoadBalancerNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancerNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/load_balancer_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancerNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class LoadBalancerNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network hcloud_load_balancer_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/load_balancer_network hcloud_load_balancer_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class LoadBalancerNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'hcloud_load_balancer_network',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.56.0',
-        providerVersionConstraint: '1.56.0'
+        providerVersion: '1.57.0',
+        providerVersionConstraint: '1.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudWafOwaspRulesConfig extends cdktf.TerraformMeta
   /**
   * Specifies the field used to sort. valid values: RuleId, ModifyTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules#by DataTencentcloudWafOwaspRules#by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules#by DataTencentcloudWafOwaspRules#by}
   */
   readonly by?: string;
   /**
   * Domain to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules#domain DataTencentcloudWafOwaspRules#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules#domain DataTencentcloudWafOwaspRules#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules#id DataTencentcloudWafOwaspRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules#id DataTencentcloudWafOwaspRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudWafOwaspRulesConfig extends cdktf.TerraformMeta
   /**
   * Sorting method. supports asc, desc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules#order DataTencentcloudWafOwaspRules#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules#order DataTencentcloudWafOwaspRules#order}
   */
   readonly order?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules#result_output_file DataTencentcloudWafOwaspRules#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules#result_output_file DataTencentcloudWafOwaspRules#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules#filters DataTencentcloudWafOwaspRules#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules#filters DataTencentcloudWafOwaspRules#filters}
   */
   readonly filters?: DataTencentcloudWafOwaspRulesFilters[] | cdktf.IResolvable;
 }
@@ -174,20 +174,20 @@ export interface DataTencentcloudWafOwaspRulesFilters {
   /**
   * Exact search or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules#exact_match DataTencentcloudWafOwaspRules#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules#exact_match DataTencentcloudWafOwaspRules#exact_match}
   */
   readonly exactMatch: boolean | cdktf.IResolvable;
   /**
   * Field name, used for filtering
   * Filter the sub-order number (value) by DealName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules#name DataTencentcloudWafOwaspRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules#name DataTencentcloudWafOwaspRules#name}
   */
   readonly name: string;
   /**
   * Values after filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules#values DataTencentcloudWafOwaspRules#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules#values DataTencentcloudWafOwaspRules#values}
   */
   readonly values: string[];
 }
@@ -352,7 +352,7 @@ export class DataTencentcloudWafOwaspRulesFiltersList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules tencentcloud_waf_owasp_rules}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules tencentcloud_waf_owasp_rules}
 */
 export class DataTencentcloudWafOwaspRules extends cdktf.TerraformDataSource {
 
@@ -368,7 +368,7 @@ export class DataTencentcloudWafOwaspRules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudWafOwaspRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWafOwaspRules to import
-  * @param importFromId The id of the existing DataTencentcloudWafOwaspRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWafOwaspRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWafOwaspRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -380,7 +380,7 @@ export class DataTencentcloudWafOwaspRules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_owasp_rules tencentcloud_waf_owasp_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_owasp_rules tencentcloud_waf_owasp_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -391,8 +391,8 @@ export class DataTencentcloudWafOwaspRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_waf_owasp_rules',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

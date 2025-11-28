@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,30 +10,30 @@ export interface WafRuleCcProtectionConfig extends cdktf.TerraformMetaArguments 
   /**
   * Specifies whether to enable global counting. Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#all_waf_instances WafRuleCcProtection#all_waf_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#all_waf_instances WafRuleCcProtection#all_waf_instances}
   */
   readonly allWafInstances?: boolean | cdktf.IResolvable;
   /**
   * Specifies the type of the returned page.
   * The options are **application/json**, **text/html** and **text/xml**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#block_page_type WafRuleCcProtection#block_page_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#block_page_type WafRuleCcProtection#block_page_type}
   */
   readonly blockPageType?: string;
   /**
   * Specifies the description of WAF cc protection rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#description WafRuleCcProtection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#description WafRuleCcProtection#description}
   */
   readonly description?: string;
   /**
   * Specifies the enterprise project ID of WAF cc protection rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#enterprise_project_id WafRuleCcProtection#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#enterprise_project_id WafRuleCcProtection#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#id WafRuleCcProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#id WafRuleCcProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,92 +43,92 @@ export interface WafRuleCcProtectionConfig extends cdktf.TerraformMetaArguments 
   * Specifies the number of requests allowed from a web visitor in a rate limiting period.
   * The value ranges from 1 to 2,147,483,647.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#limit_num WafRuleCcProtection#limit_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#limit_num WafRuleCcProtection#limit_num}
   */
   readonly limitNum: number;
   /**
   * Specifies the rate limiting period. The value ranges from 1 to 3,600 in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#limit_period WafRuleCcProtection#limit_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#limit_period WafRuleCcProtection#limit_period}
   */
   readonly limitPeriod: number;
   /**
   * Specifies the lock time for resuming normal page access after blocking can be set.
   * The value ranges from 0 to 65,535 in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#lock_time WafRuleCcProtection#lock_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#lock_time WafRuleCcProtection#lock_time}
   */
   readonly lockTime?: number;
   /**
   * Specifies the rule name of WAF cc protection rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#name WafRuleCcProtection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#name WafRuleCcProtection#name}
   */
   readonly name: string;
   /**
   * Specifies the other user identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#other_user_identifier WafRuleCcProtection#other_user_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#other_user_identifier WafRuleCcProtection#other_user_identifier}
   */
   readonly otherUserIdentifier?: string;
   /**
   * Specifies the content of the returned page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#page_content WafRuleCcProtection#page_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#page_content WafRuleCcProtection#page_content}
   */
   readonly pageContent?: string;
   /**
   * Specifies the policy ID of WAF cc protection rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#policy_id WafRuleCcProtection#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#policy_id WafRuleCcProtection#policy_id}
   */
   readonly policyId: string;
   /**
   * Specifies the protective action taken when the number of requests reaches the upper limit.
   * The value can be **captcha**, **block**, **log** or **dynamic_block**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#protective_action WafRuleCcProtection#protective_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#protective_action WafRuleCcProtection#protective_action}
   */
   readonly protectiveAction: string;
   /**
   * Specifies the rate limit mode.
   * Valid values are **ip**, **cookie**, **header**, **other**, **policy**, **domain**, **url**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#rate_limit_mode WafRuleCcProtection#rate_limit_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#rate_limit_mode WafRuleCcProtection#rate_limit_mode}
   */
   readonly rateLimitMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#region WafRuleCcProtection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#region WafRuleCcProtection#region}
   */
   readonly region?: string;
   /**
   * Specifies whether to enable domain aggregation statistics. Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#request_aggregation WafRuleCcProtection#request_aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#request_aggregation WafRuleCcProtection#request_aggregation}
   */
   readonly requestAggregation?: boolean | cdktf.IResolvable;
   /**
   * The status of a cc protection rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#status WafRuleCcProtection#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#status WafRuleCcProtection#status}
   */
   readonly status?: number;
   /**
   * Specifies the allowable frequency. The value ranges from 0 to 2,147,483,647.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#unlock_num WafRuleCcProtection#unlock_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#unlock_num WafRuleCcProtection#unlock_num}
   */
   readonly unlockNum?: number;
   /**
   * Specifies the user identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#user_identifier WafRuleCcProtection#user_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#user_identifier WafRuleCcProtection#user_identifier}
   */
   readonly userIdentifier?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#conditions WafRuleCcProtection#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#conditions WafRuleCcProtection#conditions}
   */
   readonly conditions: WafRuleCcProtectionConditions[] | cdktf.IResolvable;
 }
@@ -136,32 +136,32 @@ export interface WafRuleCcProtectionConditions {
   /**
   * Specifies the content of the match condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#content WafRuleCcProtection#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#content WafRuleCcProtection#content}
   */
   readonly content?: string;
   /**
   * Specifies the field type.
   * The value can be **url**, **ip**, **ipv6**, **params**, **cookie**, **header** or **response_code**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#field WafRuleCcProtection#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#field WafRuleCcProtection#field}
   */
   readonly field: string;
   /**
   * Specifies the condition matching logic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#logic WafRuleCcProtection#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#logic WafRuleCcProtection#logic}
   */
   readonly logic: string;
   /**
   * Specifies the reference table id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#reference_table_id WafRuleCcProtection#reference_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#reference_table_id WafRuleCcProtection#reference_table_id}
   */
   readonly referenceTableId?: string;
   /**
   * Specifies the subfield of the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#subfield WafRuleCcProtection#subfield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#subfield WafRuleCcProtection#subfield}
   */
   readonly subfield?: string;
 }
@@ -387,7 +387,7 @@ export class WafRuleCcProtectionConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection hcs_waf_rule_cc_protection}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection hcs_waf_rule_cc_protection}
 */
 export class WafRuleCcProtection extends cdktf.TerraformResource {
 
@@ -403,7 +403,7 @@ export class WafRuleCcProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafRuleCcProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafRuleCcProtection to import
-  * @param importFromId The id of the existing WafRuleCcProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafRuleCcProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafRuleCcProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -415,7 +415,7 @@ export class WafRuleCcProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_cc_protection hcs_waf_rule_cc_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_rule_cc_protection hcs_waf_rule_cc_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -426,8 +426,8 @@ export class WafRuleCcProtection extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_waf_rule_cc_protection',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

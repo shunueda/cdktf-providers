@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "saviynt": "0.3.0"
+    "saviynt": "0.3.1"
   }
 }

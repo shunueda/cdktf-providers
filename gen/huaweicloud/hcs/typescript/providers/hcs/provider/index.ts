@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,187 +10,187 @@ export interface HcsProviderConfig {
   /**
   * The access key of the HuaweiCloudStack to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#access_key HcsProvider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#access_key HcsProvider#access_key}
   */
   readonly accessKey?: string;
   /**
   * The name of domain who created the agency (Identity v3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#agency_domain_name HcsProvider#agency_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#agency_domain_name HcsProvider#agency_domain_name}
   */
   readonly agencyDomainName?: string;
   /**
   * The name of agency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#agency_name HcsProvider#agency_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#agency_name HcsProvider#agency_name}
   */
   readonly agencyName?: string;
   /**
   * The Identity authentication URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#auth_url HcsProvider#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#auth_url HcsProvider#auth_url}
   */
   readonly authUrl?: string;
   /**
   * A Custom CA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#cacert_file HcsProvider#cacert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#cacert_file HcsProvider#cacert_file}
   */
   readonly cacertFile?: string;
   /**
   * A client certificate to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#cert HcsProvider#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#cert HcsProvider#cert}
   */
   readonly cert?: string;
   /**
   * The endpoint of cloud provider, defaults to myhuaweicloud.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#cloud HcsProvider#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#cloud HcsProvider#cloud}
   */
   readonly cloud?: string;
   /**
   * The name of delegated project (Identity v3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#delegated_project HcsProvider#delegated_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#delegated_project HcsProvider#delegated_project}
   */
   readonly delegatedProject?: string;
   /**
   * The ID of the Domain to scope to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#domain_id HcsProvider#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#domain_id HcsProvider#domain_id}
   */
   readonly domainId?: string;
   /**
   * The name of the Domain to scope to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#domain_name HcsProvider#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#domain_name HcsProvider#domain_name}
   */
   readonly domainName?: string;
   /**
   * The custom endpoints used to override the default endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#endpoints HcsProvider#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#endpoints HcsProvider#endpoints}
   */
   readonly endpoints?: { [key: string]: string };
   /**
   * enterprise project id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#enterprise_project_id HcsProvider#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#enterprise_project_id HcsProvider#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * Trust self-signed certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#insecure HcsProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#insecure HcsProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * A client private key to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#key HcsProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#key HcsProvider#key}
   */
   readonly key?: string;
   /**
   * How many times HTTP connection should be retried until giving up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#max_retries HcsProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#max_retries HcsProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Password to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#password HcsProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#password HcsProvider#password}
   */
   readonly password?: string;
   /**
   * The profile name as set in the shared config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#profile HcsProvider#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#profile HcsProvider#profile}
   */
   readonly profile?: string;
   /**
   * The ID of the project to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#project_id HcsProvider#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#project_id HcsProvider#project_id}
   */
   readonly projectId?: string;
   /**
   * The name of the project to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#project_name HcsProvider#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#project_name HcsProvider#project_name}
   */
   readonly projectName?: string;
   /**
   * The HuaweiCloudStack region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#region HcsProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#region HcsProvider#region}
   */
   readonly region?: string;
   /**
   * Whether the service endpoints are regional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#regional HcsProvider#regional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#regional HcsProvider#regional}
   */
   readonly regional?: boolean | cdktf.IResolvable;
   /**
   * The secret key of the HuaweiCloudStack to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#secret_key HcsProvider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#secret_key HcsProvider#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The security token to authenticate with a temporary security credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#security_token HcsProvider#security_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#security_token HcsProvider#security_token}
   */
   readonly securityToken?: string;
   /**
   * The path to the shared config file. If not set, the default is ~/.hcloud/config.json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#shared_config_file HcsProvider#shared_config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#shared_config_file HcsProvider#shared_config_file}
   */
   readonly sharedConfigFile?: string;
   /**
   * The ID of the Tenant (Identity v2) to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#tenant_id HcsProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#tenant_id HcsProvider#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * The name of the Tenant (Identity v2) to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#tenant_name HcsProvider#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#tenant_name HcsProvider#tenant_name}
   */
   readonly tenantName?: string;
   /**
   * Authentication token to use as an alternative to username/password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#token HcsProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#token HcsProvider#token}
   */
   readonly token?: string;
   /**
   * User ID to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#user_id HcsProvider#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#user_id HcsProvider#user_id}
   */
   readonly userId?: string;
   /**
   * Username to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#user_name HcsProvider#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#user_name HcsProvider#user_name}
   */
   readonly userName?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#alias HcsProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#alias HcsProvider#alias}
   */
   readonly alias?: string;
   /**
   * assume_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#assume_role HcsProvider#assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#assume_role HcsProvider#assume_role}
   */
   readonly assumeRole?: HcsProviderAssumeRole;
 }
@@ -198,13 +198,13 @@ export interface HcsProviderAssumeRole {
   /**
   * The name of agency for assume role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#agency_name HcsProvider#agency_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#agency_name HcsProvider#agency_name}
   */
   readonly agencyName: string;
   /**
   * The name of domain for assume role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#domain_name HcsProvider#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#domain_name HcsProvider#domain_name}
   */
   readonly domainName: string;
 }
@@ -247,7 +247,7 @@ export function hcsProviderAssumeRoleToHclTerraform(struct?: HcsProviderAssumeRo
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs hcs}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs hcs}
 */
 export class HcsProvider extends cdktf.TerraformProvider {
 
@@ -263,7 +263,7 @@ export class HcsProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a HcsProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HcsProvider to import
-  * @param importFromId The id of the existing HcsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HcsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HcsProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class HcsProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs hcs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs hcs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,8 +286,8 @@ export class HcsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'hcs',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       terraformProviderSource: 'huaweicloud/hcs'
     });

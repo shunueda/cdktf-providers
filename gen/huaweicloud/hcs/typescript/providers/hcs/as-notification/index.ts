@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_notification
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,36 +10,36 @@ export interface AsNotificationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the topic scene of AS group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_notification#events AsNotification#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_notification#events AsNotification#events}
   */
   readonly events: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_notification#id AsNotification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_notification#id AsNotification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_notification#region AsNotification#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_notification#region AsNotification#region}
   */
   readonly region?: string;
   /**
   * Specifies the AS group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_notification#scaling_group_id AsNotification#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_notification#scaling_group_id AsNotification#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
   * Specifies the unique topic URN of the SMN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_notification#topic_urn AsNotification#topic_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_notification#topic_urn AsNotification#topic_urn}
   */
   readonly topicUrn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_notification hcs_as_notification}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_notification hcs_as_notification}
 */
 export class AsNotification extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class AsNotification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsNotification to import
-  * @param importFromId The id of the existing AsNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class AsNotification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/as_notification hcs_as_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/as_notification hcs_as_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class AsNotification extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_as_notification',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

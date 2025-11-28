@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mariadb_upgrade_price
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mariadb_upgrade_price
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudMariadbUpgradePriceConfig extends cdktf.Terrafo
   /**
   * Price unit. Valid values: `* pent` (cent), `* microPent` (microcent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mariadb_upgrade_price#amount_unit DataTencentcloudMariadbUpgradePrice#amount_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mariadb_upgrade_price#amount_unit DataTencentcloudMariadbUpgradePrice#amount_unit}
   */
   readonly amountUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mariadb_upgrade_price#id DataTencentcloudMariadbUpgradePrice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mariadb_upgrade_price#id DataTencentcloudMariadbUpgradePrice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DataTencentcloudMariadbUpgradePriceConfig extends cdktf.Terrafo
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mariadb_upgrade_price#instance_id DataTencentcloudMariadbUpgradePrice#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mariadb_upgrade_price#instance_id DataTencentcloudMariadbUpgradePrice#instance_id}
   */
   readonly instanceId: string;
   /**
   * Memory size in GB, which can be obtained by querying the instance specification through the `DescribeDBInstanceSpecs` API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mariadb_upgrade_price#memory DataTencentcloudMariadbUpgradePrice#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mariadb_upgrade_price#memory DataTencentcloudMariadbUpgradePrice#memory}
   */
   readonly memory: number;
   /**
   * New instance nodes, zero means not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mariadb_upgrade_price#node_count DataTencentcloudMariadbUpgradePrice#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mariadb_upgrade_price#node_count DataTencentcloudMariadbUpgradePrice#node_count}
   */
   readonly nodeCount?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mariadb_upgrade_price#result_output_file DataTencentcloudMariadbUpgradePrice#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mariadb_upgrade_price#result_output_file DataTencentcloudMariadbUpgradePrice#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Storage capacity in GB. The maximum and minimum storage space can be obtained by querying instance specification through the `DescribeDBInstanceSpecs` API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mariadb_upgrade_price#storage DataTencentcloudMariadbUpgradePrice#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mariadb_upgrade_price#storage DataTencentcloudMariadbUpgradePrice#storage}
   */
   readonly storage: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mariadb_upgrade_price tencentcloud_mariadb_upgrade_price}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mariadb_upgrade_price tencentcloud_mariadb_upgrade_price}
 */
 export class DataTencentcloudMariadbUpgradePrice extends cdktf.TerraformDataSource {
 
@@ -69,7 +69,7 @@ export class DataTencentcloudMariadbUpgradePrice extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudMariadbUpgradePrice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMariadbUpgradePrice to import
-  * @param importFromId The id of the existing DataTencentcloudMariadbUpgradePrice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mariadb_upgrade_price#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMariadbUpgradePrice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mariadb_upgrade_price#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMariadbUpgradePrice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DataTencentcloudMariadbUpgradePrice extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mariadb_upgrade_price tencentcloud_mariadb_upgrade_price} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mariadb_upgrade_price tencentcloud_mariadb_upgrade_price} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DataTencentcloudMariadbUpgradePrice extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_mariadb_upgrade_price',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

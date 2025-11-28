@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkingSecgroupRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#action NetworkingSecgroupRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#action NetworkingSecgroupRule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#description NetworkingSecgroupRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#description NetworkingSecgroupRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#direction NetworkingSecgroupRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#direction NetworkingSecgroupRule#direction}
   */
   readonly direction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#ethertype NetworkingSecgroupRule#ethertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#ethertype NetworkingSecgroupRule#ethertype}
   */
   readonly ethertype: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#id NetworkingSecgroupRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#id NetworkingSecgroupRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#port_range_max NetworkingSecgroupRule#port_range_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#port_range_max NetworkingSecgroupRule#port_range_max}
   */
   readonly portRangeMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#port_range_min NetworkingSecgroupRule#port_range_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#port_range_min NetworkingSecgroupRule#port_range_min}
   */
   readonly portRangeMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#ports NetworkingSecgroupRule#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#ports NetworkingSecgroupRule#ports}
   */
   readonly ports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#priority NetworkingSecgroupRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#priority NetworkingSecgroupRule#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#protocol NetworkingSecgroupRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#protocol NetworkingSecgroupRule#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#region NetworkingSecgroupRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#region NetworkingSecgroupRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#remote_group_id NetworkingSecgroupRule#remote_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#remote_group_id NetworkingSecgroupRule#remote_group_id}
   */
   readonly remoteGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#remote_ip_prefix NetworkingSecgroupRule#remote_ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#remote_ip_prefix NetworkingSecgroupRule#remote_ip_prefix}
   */
   readonly remoteIpPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#security_group_id NetworkingSecgroupRule#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#security_group_id NetworkingSecgroupRule#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#timeouts NetworkingSecgroupRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#timeouts NetworkingSecgroupRule#timeouts}
   */
   readonly timeouts?: NetworkingSecgroupRuleTimeouts;
 }
 export interface NetworkingSecgroupRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#delete NetworkingSecgroupRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#delete NetworkingSecgroupRule#delete}
   */
   readonly delete?: string;
 }
@@ -169,7 +169,7 @@ export class NetworkingSecgroupRuleTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule hcs_networking_secgroup_rule}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule hcs_networking_secgroup_rule}
 */
 export class NetworkingSecgroupRule extends cdktf.TerraformResource {
 
@@ -185,7 +185,7 @@ export class NetworkingSecgroupRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingSecgroupRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingSecgroupRule to import
-  * @param importFromId The id of the existing NetworkingSecgroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingSecgroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingSecgroupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class NetworkingSecgroupRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_secgroup_rule hcs_networking_secgroup_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/networking_secgroup_rule hcs_networking_secgroup_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class NetworkingSecgroupRule extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_networking_secgroup_rule',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

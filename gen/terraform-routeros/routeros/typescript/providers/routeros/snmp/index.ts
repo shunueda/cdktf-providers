@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SnmpConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#___path___ Snmp#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#___path___ Snmp#___path___}
   */
   readonly path?: string;
   /**
   * Contact information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#contact Snmp#contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#contact Snmp#contact}
   */
   readonly contact?: string;
   /**
   * Used to disable/enable SNMP service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#enabled Snmp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#enabled Snmp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Unique identifier for an SNMPv3 engine by configuring the suffix of the engine ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#engine_id_suffix Snmp#engine_id_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#engine_id_suffix Snmp#engine_id_suffix}
   */
   readonly engineIdSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#id Snmp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#id Snmp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface SnmpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Location information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#location Snmp#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#location Snmp#location}
   */
   readonly location?: string;
   /**
   * Force the router to always use the same IP source address for all of the SNMP messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#src_address Snmp#src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#src_address Snmp#src_address}
   */
   readonly srcAddress?: string;
   /**
   * Which communities configured in community menu to use when sending out the trap. This name must be present in the community list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#trap_community Snmp#trap_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#trap_community Snmp#trap_community}
   */
   readonly trapCommunity?: string;
   /**
@@ -61,37 +61,37 @@ export interface SnmpConfig extends cdktf.TerraformMetaArguments {
   *   * interfaces - interface changes;
   *   * start-trap - snmp server starting on the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#trap_generators Snmp#trap_generators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#trap_generators Snmp#trap_generators}
   */
   readonly trapGenerators?: string;
   /**
   * List of interfaces that traps are going to be sent out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#trap_interfaces Snmp#trap_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#trap_interfaces Snmp#trap_interfaces}
   */
   readonly trapInterfaces?: string;
   /**
   * IP (IPv4 or IPv6) addresses of SNMP data collectors that have to receive the trap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#trap_target Snmp#trap_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#trap_target Snmp#trap_target}
   */
   readonly trapTarget?: string[];
   /**
   * Version of SNMP protocol to use for trap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#trap_version Snmp#trap_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#trap_version Snmp#trap_version}
   */
   readonly trapVersion?: number;
   /**
   * The VRF table this resource operates on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#vrf Snmp#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#vrf Snmp#vrf}
   */
   readonly vrf?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp routeros_snmp}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp routeros_snmp}
 */
 export class Snmp extends cdktf.TerraformResource {
 
@@ -107,7 +107,7 @@ export class Snmp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Snmp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Snmp to import
-  * @param importFromId The id of the existing Snmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Snmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Snmp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -119,7 +119,7 @@ export class Snmp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/snmp routeros_snmp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/snmp routeros_snmp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -130,8 +130,8 @@ export class Snmp extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_snmp',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

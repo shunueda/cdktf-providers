@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EniIpv6AddressConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address#id EniIpv6Address#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address#id EniIpv6Address#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface EniIpv6AddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of automatically assigned IPv6 addresses and the total number of private IP addresses cannot exceed the quota. This should be combined with the input parameter `ipv6_addresses` for quota calculation. At least one of them, either this or 'Ipv6Addresses', must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address#ipv6_address_count EniIpv6Address#ipv6_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address#ipv6_address_count EniIpv6Address#ipv6_address_count}
   */
   readonly ipv6AddressCount?: number;
   /**
   * ENI instance `ID`, in the form of `eni-m6dyj72l`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address#network_interface_id EniIpv6Address#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address#network_interface_id EniIpv6Address#network_interface_id}
   */
   readonly networkInterfaceId: string;
   /**
   * ipv6_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address#ipv6_addresses EniIpv6Address#ipv6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address#ipv6_addresses EniIpv6Address#ipv6_addresses}
   */
   readonly ipv6Addresses?: EniIpv6AddressIpv6Addresses[] | cdktf.IResolvable;
 }
@@ -37,37 +37,37 @@ export interface EniIpv6AddressIpv6Addresses {
   /**
   * `IPv6` address, in the form of: `3402:4e00:20:100:0:8cd9:2a67:71f3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address#address EniIpv6Address#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address#address EniIpv6Address#address}
   */
   readonly address: string;
   /**
   * `EIP` instance `ID`, such as:`eip-hxlqja90`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address#address_id EniIpv6Address#address_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address#address_id EniIpv6Address#address_id}
   */
   readonly addressId?: string;
   /**
   * Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address#description EniIpv6Address#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address#description EniIpv6Address#description}
   */
   readonly description?: string;
   /**
   * Whether the public network IP is blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address#is_wan_ip_blocked EniIpv6Address#is_wan_ip_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address#is_wan_ip_blocked EniIpv6Address#is_wan_ip_blocked}
   */
   readonly isWanIpBlocked?: boolean | cdktf.IResolvable;
   /**
   * Whether to master `IP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address#primary EniIpv6Address#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address#primary EniIpv6Address#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * `IPv6` address status: `PENDING`: pending, `MIGRATING`: migrating, `DELETING`: deleting, `AVAILABLE`: available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address#state EniIpv6Address#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address#state EniIpv6Address#state}
   */
   readonly state?: string;
 }
@@ -325,7 +325,7 @@ export class EniIpv6AddressIpv6AddressesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address tencentcloud_eni_ipv6_address}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address tencentcloud_eni_ipv6_address}
 */
 export class EniIpv6Address extends cdktf.TerraformResource {
 
@@ -341,7 +341,7 @@ export class EniIpv6Address extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EniIpv6Address resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EniIpv6Address to import
-  * @param importFromId The id of the existing EniIpv6Address that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EniIpv6Address that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EniIpv6Address to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -353,7 +353,7 @@ export class EniIpv6Address extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/eni_ipv6_address tencentcloud_eni_ipv6_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/eni_ipv6_address tencentcloud_eni_ipv6_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -364,8 +364,8 @@ export class EniIpv6Address extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_eni_ipv6_address',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_slow_log_time_series_stats
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_slow_log_time_series_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDbbrainSlowLogTimeSeriesStatsConfig extends cdk
   /**
   * End time, such as `2019-09-10 12:13:14`, the interval between the end time and the start time can be up to 7 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_slow_log_time_series_stats#end_time DataTencentcloudDbbrainSlowLogTimeSeriesStats#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_slow_log_time_series_stats#end_time DataTencentcloudDbbrainSlowLogTimeSeriesStats#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_slow_log_time_series_stats#id DataTencentcloudDbbrainSlowLogTimeSeriesStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_slow_log_time_series_stats#id DataTencentcloudDbbrainSlowLogTimeSeriesStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudDbbrainSlowLogTimeSeriesStatsConfig extends cdk
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_slow_log_time_series_stats#instance_id DataTencentcloudDbbrainSlowLogTimeSeriesStats#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_slow_log_time_series_stats#instance_id DataTencentcloudDbbrainSlowLogTimeSeriesStats#instance_id}
   */
   readonly instanceId: string;
   /**
   * Service product type, supported values include: `mysql` - cloud database MySQL, `cynosdb` - cloud database CynosDB for MySQL, the default is `mysql`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_slow_log_time_series_stats#product DataTencentcloudDbbrainSlowLogTimeSeriesStats#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_slow_log_time_series_stats#product DataTencentcloudDbbrainSlowLogTimeSeriesStats#product}
   */
   readonly product?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_slow_log_time_series_stats#result_output_file DataTencentcloudDbbrainSlowLogTimeSeriesStats#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_slow_log_time_series_stats#result_output_file DataTencentcloudDbbrainSlowLogTimeSeriesStats#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start time, such as `2019-09-10 12:13:14`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_slow_log_time_series_stats#start_time DataTencentcloudDbbrainSlowLogTimeSeriesStats#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_slow_log_time_series_stats#start_time DataTencentcloudDbbrainSlowLogTimeSeriesStats#start_time}
   */
   readonly startTime: string;
 }
@@ -293,7 +293,7 @@ export class DataTencentcloudDbbrainSlowLogTimeSeriesStatsTimeSeriesList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_slow_log_time_series_stats tencentcloud_dbbrain_slow_log_time_series_stats}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_slow_log_time_series_stats tencentcloud_dbbrain_slow_log_time_series_stats}
 */
 export class DataTencentcloudDbbrainSlowLogTimeSeriesStats extends cdktf.TerraformDataSource {
 
@@ -309,7 +309,7 @@ export class DataTencentcloudDbbrainSlowLogTimeSeriesStats extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataTencentcloudDbbrainSlowLogTimeSeriesStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDbbrainSlowLogTimeSeriesStats to import
-  * @param importFromId The id of the existing DataTencentcloudDbbrainSlowLogTimeSeriesStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_slow_log_time_series_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDbbrainSlowLogTimeSeriesStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_slow_log_time_series_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDbbrainSlowLogTimeSeriesStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -321,7 +321,7 @@ export class DataTencentcloudDbbrainSlowLogTimeSeriesStats extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dbbrain_slow_log_time_series_stats tencentcloud_dbbrain_slow_log_time_series_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_slow_log_time_series_stats tencentcloud_dbbrain_slow_log_time_series_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -332,8 +332,8 @@ export class DataTencentcloudDbbrainSlowLogTimeSeriesStats extends cdktf.Terrafo
       terraformResourceType: 'tencentcloud_dbbrain_slow_log_time_series_stats',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

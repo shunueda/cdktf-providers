@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,154 +8,154 @@ import * as cdktf from 'cdktf';
 
 export interface EcsComputeInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#admin_pass EcsComputeInstance#admin_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#admin_pass EcsComputeInstance#admin_pass}
   */
   readonly adminPass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#availability_zone EcsComputeInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#availability_zone EcsComputeInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#delete_disks_on_termination EcsComputeInstance#delete_disks_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#delete_disks_on_termination EcsComputeInstance#delete_disks_on_termination}
   */
   readonly deleteDisksOnTermination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#delete_eip_on_termination EcsComputeInstance#delete_eip_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#delete_eip_on_termination EcsComputeInstance#delete_eip_on_termination}
   */
   readonly deleteEipOnTermination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#description EcsComputeInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#description EcsComputeInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#eip_id EcsComputeInstance#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#eip_id EcsComputeInstance#eip_id}
   */
   readonly eipId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#eip_type EcsComputeInstance#eip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#eip_type EcsComputeInstance#eip_type}
   */
   readonly eipType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#encrypt_cipher EcsComputeInstance#encrypt_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#encrypt_cipher EcsComputeInstance#encrypt_cipher}
   */
   readonly encryptCipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#enterprise_project_id EcsComputeInstance#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#enterprise_project_id EcsComputeInstance#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#ext_boot_type EcsComputeInstance#ext_boot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#ext_boot_type EcsComputeInstance#ext_boot_type}
   */
   readonly extBootType?: string;
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#flavor_id EcsComputeInstance#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#flavor_id EcsComputeInstance#flavor_id}
   */
   readonly flavorId?: string;
   /**
   * schema: Computed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#flavor_name EcsComputeInstance#flavor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#flavor_name EcsComputeInstance#flavor_name}
   */
   readonly flavorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#id EcsComputeInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#id EcsComputeInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#image_id EcsComputeInstance#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#image_id EcsComputeInstance#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#image_name EcsComputeInstance#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#image_name EcsComputeInstance#image_name}
   */
   readonly imageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#key_pair EcsComputeInstance#key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#key_pair EcsComputeInstance#key_pair}
   */
   readonly keyPair?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#kms_key_id EcsComputeInstance#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#kms_key_id EcsComputeInstance#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#name EcsComputeInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#name EcsComputeInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#power_action EcsComputeInstance#power_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#power_action EcsComputeInstance#power_action}
   */
   readonly powerAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#private_key EcsComputeInstance#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#private_key EcsComputeInstance#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#region EcsComputeInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#region EcsComputeInstance#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#security_group_ids EcsComputeInstance#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#security_group_ids EcsComputeInstance#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * schema: Computed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#security_groups EcsComputeInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#security_groups EcsComputeInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#system_disk_size EcsComputeInstance#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#system_disk_size EcsComputeInstance#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#system_disk_type EcsComputeInstance#system_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#system_disk_type EcsComputeInstance#system_disk_type}
   */
   readonly systemDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#tags EcsComputeInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#tags EcsComputeInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#user_data EcsComputeInstance#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#user_data EcsComputeInstance#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#user_id EcsComputeInstance#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#user_id EcsComputeInstance#user_id}
   */
   readonly userId?: string;
   /**
   * bandwidth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#bandwidth EcsComputeInstance#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#bandwidth EcsComputeInstance#bandwidth}
   */
   readonly bandwidth?: EcsComputeInstanceBandwidth;
   /**
   * data_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#data_disks EcsComputeInstance#data_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#data_disks EcsComputeInstance#data_disks}
   */
   readonly dataDisks?: EcsComputeInstanceDataDisks[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#network EcsComputeInstance#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#network EcsComputeInstance#network}
   */
   readonly network: EcsComputeInstanceNetwork[] | cdktf.IResolvable;
   /**
   * scheduler_hints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#scheduler_hints EcsComputeInstance#scheduler_hints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#scheduler_hints EcsComputeInstance#scheduler_hints}
   */
   readonly schedulerHints?: EcsComputeInstanceSchedulerHints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#timeouts EcsComputeInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#timeouts EcsComputeInstance#timeouts}
   */
   readonly timeouts?: EcsComputeInstanceTimeouts;
 }
@@ -266,22 +266,22 @@ export class EcsComputeInstanceVolumeAttachedList extends cdktf.ComplexList {
 }
 export interface EcsComputeInstanceBandwidth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#charge_mode EcsComputeInstance#charge_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#charge_mode EcsComputeInstance#charge_mode}
   */
   readonly chargeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#id EcsComputeInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#id EcsComputeInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#share_type EcsComputeInstance#share_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#share_type EcsComputeInstance#share_type}
   */
   readonly shareType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#size EcsComputeInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#size EcsComputeInstance#size}
   */
   readonly size?: number;
 }
@@ -449,23 +449,23 @@ export class EcsComputeInstanceBandwidthOutputReference extends cdktf.ComplexObj
 }
 export interface EcsComputeInstanceDataDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#encrypt_cipher EcsComputeInstance#encrypt_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#encrypt_cipher EcsComputeInstance#encrypt_cipher}
   */
   readonly encryptCipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#kms_key_id EcsComputeInstance#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#kms_key_id EcsComputeInstance#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#size EcsComputeInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#size EcsComputeInstance#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#snapshot_id EcsComputeInstance#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#snapshot_id EcsComputeInstance#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#type EcsComputeInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#type EcsComputeInstance#type}
   */
   readonly type: string;
 }
@@ -691,37 +691,37 @@ export class EcsComputeInstanceDataDisksList extends cdktf.ComplexList {
 }
 export interface EcsComputeInstanceNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#access_network EcsComputeInstance#access_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#access_network EcsComputeInstance#access_network}
   */
   readonly accessNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#fixed_ip_v4 EcsComputeInstance#fixed_ip_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#fixed_ip_v4 EcsComputeInstance#fixed_ip_v4}
   */
   readonly fixedIpV4?: string;
   /**
   * schema: Computed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#fixed_ip_v6 EcsComputeInstance#fixed_ip_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#fixed_ip_v6 EcsComputeInstance#fixed_ip_v6}
   */
   readonly fixedIpV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#ipv6_enable EcsComputeInstance#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#ipv6_enable EcsComputeInstance#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
   * schema: Computed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#port EcsComputeInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#port EcsComputeInstance#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#source_dest_check EcsComputeInstance#source_dest_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#source_dest_check EcsComputeInstance#source_dest_check}
   */
   readonly sourceDestCheck?: boolean | cdktf.IResolvable;
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#uuid EcsComputeInstance#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#uuid EcsComputeInstance#uuid}
   */
   readonly uuid?: string;
 }
@@ -1016,21 +1016,21 @@ export class EcsComputeInstanceNetworkList extends cdktf.ComplexList {
 }
 export interface EcsComputeInstanceSchedulerHints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#deh_id EcsComputeInstance#deh_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#deh_id EcsComputeInstance#deh_id}
   */
   readonly dehId?: string;
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#fault_domain EcsComputeInstance#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#fault_domain EcsComputeInstance#fault_domain}
   */
   readonly faultDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#group EcsComputeInstance#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#group EcsComputeInstance#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#tenancy EcsComputeInstance#tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#tenancy EcsComputeInstance#tenancy}
   */
   readonly tenancy?: string;
 }
@@ -1233,15 +1233,15 @@ export class EcsComputeInstanceSchedulerHintsList extends cdktf.ComplexList {
 }
 export interface EcsComputeInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#create EcsComputeInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#create EcsComputeInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#delete EcsComputeInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#delete EcsComputeInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#update EcsComputeInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#update EcsComputeInstance#update}
   */
   readonly update?: string;
 }
@@ -1393,7 +1393,7 @@ export class EcsComputeInstanceTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance hcs_ecs_compute_instance}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance hcs_ecs_compute_instance}
 */
 export class EcsComputeInstance extends cdktf.TerraformResource {
 
@@ -1409,7 +1409,7 @@ export class EcsComputeInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsComputeInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsComputeInstance to import
-  * @param importFromId The id of the existing EcsComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsComputeInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1421,7 +1421,7 @@ export class EcsComputeInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance hcs_ecs_compute_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ecs_compute_instance hcs_ecs_compute_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1432,8 +1432,8 @@ export class EcsComputeInstance extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_ecs_compute_instance',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

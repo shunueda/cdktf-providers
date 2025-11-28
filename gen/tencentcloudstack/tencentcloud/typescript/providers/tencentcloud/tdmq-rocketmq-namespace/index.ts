@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_namespace
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rocketmq_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TdmqRocketmqNamespaceConfig extends cdktf.TerraformMetaArgument
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_namespace#cluster_id TdmqRocketmqNamespace#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rocketmq_namespace#cluster_id TdmqRocketmqNamespace#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_namespace#id TdmqRocketmqNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rocketmq_namespace#id TdmqRocketmqNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface TdmqRocketmqNamespaceConfig extends cdktf.TerraformMetaArgument
   /**
   * Namespace name, which can contain 3-64 letters, digits, hyphens, and underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_namespace#namespace_name TdmqRocketmqNamespace#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rocketmq_namespace#namespace_name TdmqRocketmqNamespace#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * Remarks (up to 128 characters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_namespace#remark TdmqRocketmqNamespace#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rocketmq_namespace#remark TdmqRocketmqNamespace#remark}
   */
   readonly remark?: string;
   /**
   * Retention time of persisted messages in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_namespace#retention_time TdmqRocketmqNamespace#retention_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rocketmq_namespace#retention_time TdmqRocketmqNamespace#retention_time}
   */
   readonly retentionTime?: number;
   /**
   * Retention time of unconsumed messages in milliseconds. Value range: 60 seconds-15 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_namespace#ttl TdmqRocketmqNamespace#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rocketmq_namespace#ttl TdmqRocketmqNamespace#ttl}
   */
   readonly ttl?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_namespace tencentcloud_tdmq_rocketmq_namespace}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rocketmq_namespace tencentcloud_tdmq_rocketmq_namespace}
 */
 export class TdmqRocketmqNamespace extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TdmqRocketmqNamespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqRocketmqNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqRocketmqNamespace to import
-  * @param importFromId The id of the existing TdmqRocketmqNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqRocketmqNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rocketmq_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqRocketmqNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TdmqRocketmqNamespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tdmq_rocketmq_namespace tencentcloud_tdmq_rocketmq_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tdmq_rocketmq_namespace tencentcloud_tdmq_rocketmq_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class TdmqRocketmqNamespace extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_rocketmq_namespace',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

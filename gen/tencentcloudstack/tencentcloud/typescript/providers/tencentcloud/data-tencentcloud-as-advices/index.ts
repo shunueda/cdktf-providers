@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/as_advices
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/as_advices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudAsAdvicesConfig extends cdktf.TerraformMetaArgu
   /**
   * List of scaling groups to be queried. Upper limit: 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/as_advices#auto_scaling_group_ids DataTencentcloudAsAdvices#auto_scaling_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/as_advices#auto_scaling_group_ids DataTencentcloudAsAdvices#auto_scaling_group_ids}
   */
   readonly autoScalingGroupIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/as_advices#id DataTencentcloudAsAdvices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/as_advices#id DataTencentcloudAsAdvices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudAsAdvicesConfig extends cdktf.TerraformMetaArgu
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/as_advices#result_output_file DataTencentcloudAsAdvices#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/as_advices#result_output_file DataTencentcloudAsAdvices#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -200,7 +200,7 @@ export class DataTencentcloudAsAdvicesAutoScalingAdviceSetList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/as_advices tencentcloud_as_advices}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/as_advices tencentcloud_as_advices}
 */
 export class DataTencentcloudAsAdvices extends cdktf.TerraformDataSource {
 
@@ -216,7 +216,7 @@ export class DataTencentcloudAsAdvices extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudAsAdvices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudAsAdvices to import
-  * @param importFromId The id of the existing DataTencentcloudAsAdvices that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/as_advices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudAsAdvices that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/as_advices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudAsAdvices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class DataTencentcloudAsAdvices extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/as_advices tencentcloud_as_advices} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/as_advices tencentcloud_as_advices} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class DataTencentcloudAsAdvices extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_as_advices',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

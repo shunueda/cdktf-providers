@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/bmc_images
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_images
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataZenlayercloudBmcImagesConfig extends cdktf.TerraformMetaArg
   /**
   * The catalog which the image belongs to. Valid values: 'centos', 'windows', 'ubuntu', 'debian', 'esxi'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/bmc_images#catalog DataZenlayercloudBmcImages#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_images#catalog DataZenlayercloudBmcImages#catalog}
   */
   readonly catalog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/bmc_images#id DataZenlayercloudBmcImages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_images#id DataZenlayercloudBmcImages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DataZenlayercloudBmcImagesConfig extends cdktf.TerraformMetaArg
   /**
   * ID of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/bmc_images#image_id DataZenlayercloudBmcImages#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_images#image_id DataZenlayercloudBmcImages#image_id}
   */
   readonly imageId?: string;
   /**
   * Name of the image, such as `CentOS7.4-x86_64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/bmc_images#image_name DataZenlayercloudBmcImages#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_images#image_name DataZenlayercloudBmcImages#image_name}
   */
   readonly imageName?: string;
   /**
   * The image type. Valid values: 'PUBLIC_IMAGE', 'CUSTOM_IMAGE'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/bmc_images#image_type DataZenlayercloudBmcImages#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_images#image_type DataZenlayercloudBmcImages#image_type}
   */
   readonly imageType?: string;
   /**
   * Filter images which are supported to install on specified instance type, such as `M6C`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/bmc_images#instance_type_id DataZenlayercloudBmcImages#instance_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_images#instance_type_id DataZenlayercloudBmcImages#instance_type_id}
   */
   readonly instanceTypeId?: string;
   /**
   * os type of the image. Valid values: 'windows', 'linux'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/bmc_images#os_type DataZenlayercloudBmcImages#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_images#os_type DataZenlayercloudBmcImages#os_type}
   */
   readonly osType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/bmc_images#result_output_file DataZenlayercloudBmcImages#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_images#result_output_file DataZenlayercloudBmcImages#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -154,7 +154,7 @@ export class DataZenlayercloudBmcImagesImagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/bmc_images zenlayercloud_bmc_images}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_images zenlayercloud_bmc_images}
 */
 export class DataZenlayercloudBmcImages extends cdktf.TerraformDataSource {
 
@@ -170,7 +170,7 @@ export class DataZenlayercloudBmcImages extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudBmcImages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudBmcImages to import
-  * @param importFromId The id of the existing DataZenlayercloudBmcImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/bmc_images#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudBmcImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_images#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudBmcImages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class DataZenlayercloudBmcImages extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/bmc_images zenlayercloud_bmc_images} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_images zenlayercloud_bmc_images} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class DataZenlayercloudBmcImages extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_bmc_images',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

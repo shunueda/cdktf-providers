@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_job_abort
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/pts_job_abort
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PtsJobAbortConfig extends cdktf.TerraformMetaArguments {
   /**
   * The reason for aborting the job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_job_abort#abort_reason PtsJobAbort#abort_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/pts_job_abort#abort_reason PtsJobAbort#abort_reason}
   */
   readonly abortReason?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_job_abort#id PtsJobAbort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/pts_job_abort#id PtsJobAbort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface PtsJobAbortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Job ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_job_abort#job_id PtsJobAbort#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/pts_job_abort#job_id PtsJobAbort#job_id}
   */
   readonly jobId: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_job_abort#project_id PtsJobAbort#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/pts_job_abort#project_id PtsJobAbort#project_id}
   */
   readonly projectId: string;
   /**
   * Scenario ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_job_abort#scenario_id PtsJobAbort#scenario_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/pts_job_abort#scenario_id PtsJobAbort#scenario_id}
   */
   readonly scenarioId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_job_abort tencentcloud_pts_job_abort}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/pts_job_abort tencentcloud_pts_job_abort}
 */
 export class PtsJobAbort extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class PtsJobAbort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PtsJobAbort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PtsJobAbort to import
-  * @param importFromId The id of the existing PtsJobAbort that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_job_abort#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PtsJobAbort that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/pts_job_abort#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PtsJobAbort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class PtsJobAbort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/pts_job_abort tencentcloud_pts_job_abort} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/pts_job_abort tencentcloud_pts_job_abort} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class PtsJobAbort extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_pts_job_abort',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

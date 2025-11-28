@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface InterfaceDot1XClientConfig extends cdktf.TerraformMetaArguments
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client#___path___ InterfaceDot1XClient#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client#___path___ InterfaceDot1XClient#___path___}
   */
   readonly path?: string;
   /**
   * Identity for outer layer EAP authentication. Used only with `eap-ttls` and `eap-peap` methods. If not set, the value from the identity parameter will be used for outer layer EAP authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client#anon_identity InterfaceDot1XClient#anon_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client#anon_identity InterfaceDot1XClient#anon_identity}
   */
   readonly anonIdentity?: string;
   /**
   * Name of a certificate. Required when the `eap-tls` method is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client#certificate InterfaceDot1XClient#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client#certificate InterfaceDot1XClient#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client#comment InterfaceDot1XClient#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client#comment InterfaceDot1XClient#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client#disabled InterfaceDot1XClient#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client#disabled InterfaceDot1XClient#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * A set of EAP methods used for authentication: `eap-tls`, `eap-ttls`, `eap-peap`, `eap-mschapv2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client#eap_methods InterfaceDot1XClient#eap_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client#eap_methods InterfaceDot1XClient#eap_methods}
   */
   readonly eapMethods: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client#id InterfaceDot1XClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client#id InterfaceDot1XClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,25 +49,25 @@ export interface InterfaceDot1XClientConfig extends cdktf.TerraformMetaArguments
   /**
   * The supplicant identity that is used for EAP authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client#identity InterfaceDot1XClient#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client#identity InterfaceDot1XClient#identity}
   */
   readonly identity: string;
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client#interface InterfaceDot1XClient#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client#interface InterfaceDot1XClient#interface}
   */
   readonly interface: string;
   /**
   * Cleartext password for the supplicant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client#password InterfaceDot1XClient#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client#password InterfaceDot1XClient#password}
   */
   readonly password?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client routeros_interface_dot1x_client}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client routeros_interface_dot1x_client}
 */
 export class InterfaceDot1XClient extends cdktf.TerraformResource {
 
@@ -83,7 +83,7 @@ export class InterfaceDot1XClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceDot1XClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceDot1XClient to import
-  * @param importFromId The id of the existing InterfaceDot1XClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceDot1XClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceDot1XClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -95,7 +95,7 @@ export class InterfaceDot1XClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/interface_dot1x_client routeros_interface_dot1x_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_dot1x_client routeros_interface_dot1x_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -106,8 +106,8 @@ export class InterfaceDot1XClient extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_dot1x_client',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SecmasterIncidentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the close comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#close_comment SecmasterIncident#close_comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#close_comment SecmasterIncident#close_comment}
   */
   readonly closeComment?: string;
   /**
   * Specifies the close reason.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#close_reason SecmasterIncident#close_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#close_reason SecmasterIncident#close_reason}
   */
   readonly closeReason?: string;
   /**
   * Specifies whether it's debugging data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#debugging_data SecmasterIncident#debugging_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#debugging_data SecmasterIncident#debugging_data}
   */
   readonly debuggingData?: boolean | cdktf.IResolvable;
   /**
   * Specifies the incident description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#description SecmasterIncident#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#description SecmasterIncident#description}
   */
   readonly description: string;
   /**
   * Specifies the first occurrence time of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#first_occurrence_time SecmasterIncident#first_occurrence_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#first_occurrence_time SecmasterIncident#first_occurrence_time}
   */
   readonly firstOccurrenceTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#id SecmasterIncident#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#id SecmasterIncident#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,71 +47,71 @@ export interface SecmasterIncidentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#labels SecmasterIncident#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#labels SecmasterIncident#labels}
   */
   readonly labels?: string;
   /**
   * Specifies the last occurrence time of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#last_occurrence_time SecmasterIncident#last_occurrence_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#last_occurrence_time SecmasterIncident#last_occurrence_time}
   */
   readonly lastOccurrenceTime?: string;
   /**
   * Specifies the incident level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#level SecmasterIncident#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#level SecmasterIncident#level}
   */
   readonly level: string;
   /**
   * Specifies the incident name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#name SecmasterIncident#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#name SecmasterIncident#name}
   */
   readonly name: string;
   /**
   * Specifies the user name of the owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#owner SecmasterIncident#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#owner SecmasterIncident#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#region SecmasterIncident#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#region SecmasterIncident#region}
   */
   readonly region?: string;
   /**
   * Specifies the stage of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#stage SecmasterIncident#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#stage SecmasterIncident#stage}
   */
   readonly stage?: string;
   /**
   * Specifies the incident status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#status SecmasterIncident#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#status SecmasterIncident#status}
   */
   readonly status: string;
   /**
   * Specifies the verification status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#verification_status SecmasterIncident#verification_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#verification_status SecmasterIncident#verification_status}
   */
   readonly verificationStatus?: string;
   /**
   * Specifies the ID of the workspace to which the incident belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#workspace_id SecmasterIncident#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#workspace_id SecmasterIncident#workspace_id}
   */
   readonly workspaceId: string;
   /**
   * data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#data_source SecmasterIncident#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#data_source SecmasterIncident#data_source}
   */
   readonly dataSource: SecmasterIncidentDataSource;
   /**
   * type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#type SecmasterIncident#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#type SecmasterIncident#type}
   */
   readonly type: SecmasterIncidentType;
 }
@@ -119,19 +119,19 @@ export interface SecmasterIncidentDataSource {
   /**
   * Specifies the product feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#product_feature SecmasterIncident#product_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#product_feature SecmasterIncident#product_feature}
   */
   readonly productFeature: string;
   /**
   * Specifies the product name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#product_name SecmasterIncident#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#product_name SecmasterIncident#product_name}
   */
   readonly productName: string;
   /**
   * Specifies the source type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#source_type SecmasterIncident#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#source_type SecmasterIncident#source_type}
   */
   readonly sourceType: number;
 }
@@ -266,13 +266,13 @@ export interface SecmasterIncidentType {
   /**
   * Specifies the category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#category SecmasterIncident#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#category SecmasterIncident#category}
   */
   readonly category: string;
   /**
   * Specifies the incident type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#incident_type SecmasterIncident#incident_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#incident_type SecmasterIncident#incident_type}
   */
   readonly incidentType: string;
 }
@@ -379,7 +379,7 @@ export class SecmasterIncidentTypeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident hcs_secmaster_incident}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident hcs_secmaster_incident}
 */
 export class SecmasterIncident extends cdktf.TerraformResource {
 
@@ -395,7 +395,7 @@ export class SecmasterIncident extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecmasterIncident resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecmasterIncident to import
-  * @param importFromId The id of the existing SecmasterIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecmasterIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecmasterIncident to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -407,7 +407,7 @@ export class SecmasterIncident extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_incident hcs_secmaster_incident} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_incident hcs_secmaster_incident} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,8 +418,8 @@ export class SecmasterIncident extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_secmaster_incident',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

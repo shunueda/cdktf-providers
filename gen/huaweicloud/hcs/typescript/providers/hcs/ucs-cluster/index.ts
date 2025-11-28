@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface UcsClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the name of the cluster to register.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#annotations UcsCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#annotations UcsCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Specifies the category of the cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#category UcsCluster#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#category UcsCluster#category}
   */
   readonly category: string;
   /**
   * Specifies the city name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#city UcsCluster#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#city UcsCluster#city}
   */
   readonly city?: string;
   /**
   * Specifies the cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#cluster_id UcsCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#cluster_id UcsCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Specifies the labels of the cluster to register.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#cluster_labels UcsCluster#cluster_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#cluster_labels UcsCluster#cluster_labels}
   */
   readonly clusterLabels?: { [key: string]: string };
   /**
   * Specifies the name of the cluster to register.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#cluster_name UcsCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#cluster_name UcsCluster#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Specifies the cluster project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#cluster_project_id UcsCluster#cluster_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#cluster_project_id UcsCluster#cluster_project_id}
   */
   readonly clusterProjectId?: string;
   /**
   * Specifies the cluster region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#cluster_region UcsCluster#cluster_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#cluster_region UcsCluster#cluster_region}
   */
   readonly clusterRegion?: string;
   /**
   * Specifies the cluster type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#cluster_type UcsCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#cluster_type UcsCluster#cluster_type}
   */
   readonly clusterType: string;
   /**
   * Specifies the country name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#country UcsCluster#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#country UcsCluster#country}
   */
   readonly country?: string;
   /**
   * Specifies ID of the fleet to add the cluster into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#fleet_id UcsCluster#fleet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#fleet_id UcsCluster#fleet_id}
   */
   readonly fleetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#id UcsCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#id UcsCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,13 +83,13 @@ export interface UcsClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the cloud service provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#service_provider UcsCluster#service_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#service_provider UcsCluster#service_provider}
   */
   readonly serviceProvider?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster hcs_ucs_cluster}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster hcs_ucs_cluster}
 */
 export class UcsCluster extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class UcsCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UcsCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UcsCluster to import
-  * @param importFromId The id of the existing UcsCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UcsCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UcsCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class UcsCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ucs_cluster hcs_ucs_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/ucs_cluster hcs_ucs_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class UcsCluster extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_ucs_cluster',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

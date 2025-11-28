@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_api_app
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_api_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ApiGatewayApiAppConfig extends cdktf.TerraformMetaArguments {
   /**
   * App description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_api_app#api_app_desc ApiGatewayApiApp#api_app_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_api_app#api_app_desc ApiGatewayApiApp#api_app_desc}
   */
   readonly apiAppDesc?: string;
   /**
   * Api app name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_api_app#api_app_name ApiGatewayApiApp#api_app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_api_app#api_app_name ApiGatewayApiApp#api_app_name}
   */
   readonly apiAppName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_api_app#id ApiGatewayApiApp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_api_app#id ApiGatewayApiApp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ApiGatewayApiAppConfig extends cdktf.TerraformMetaArguments {
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_api_app#tags ApiGatewayApiApp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_api_app#tags ApiGatewayApiApp#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_api_app tencentcloud_api_gateway_api_app}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_api_app tencentcloud_api_gateway_api_app}
 */
 export class ApiGatewayApiApp extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ApiGatewayApiApp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayApiApp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayApiApp to import
-  * @param importFromId The id of the existing ApiGatewayApiApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_api_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayApiApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_api_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayApiApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ApiGatewayApiApp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/api_gateway_api_app tencentcloud_api_gateway_api_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/api_gateway_api_app tencentcloud_api_gateway_api_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ApiGatewayApiApp extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_api_gateway_api_app',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

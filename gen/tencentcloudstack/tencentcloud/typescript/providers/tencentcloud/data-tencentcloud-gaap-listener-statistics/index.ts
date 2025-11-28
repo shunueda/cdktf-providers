@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_listener_statistics
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_listener_statistics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudGaapListenerStatisticsConfig extends cdktf.Terr
   /**
   * End Time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_listener_statistics#end_time DataTencentcloudGaapListenerStatistics#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_listener_statistics#end_time DataTencentcloudGaapListenerStatistics#end_time}
   */
   readonly endTime: string;
   /**
   * Monitoring granularity, currently supporting 300 3600 86400, in seconds.The query time range does not exceed 1 day and supports a minimum granularity of 300 seconds;The query interval should not exceed 7 days and support a minimum granularity of 3600 seconds;The query interval exceeds 7 days and supports a minimum granularity of 86400 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_listener_statistics#granularity DataTencentcloudGaapListenerStatistics#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_listener_statistics#granularity DataTencentcloudGaapListenerStatistics#granularity}
   */
   readonly granularity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_listener_statistics#id DataTencentcloudGaapListenerStatistics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_listener_statistics#id DataTencentcloudGaapListenerStatistics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataTencentcloudGaapListenerStatisticsConfig extends cdktf.Terr
   /**
   * Listener Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_listener_statistics#listener_id DataTencentcloudGaapListenerStatistics#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_listener_statistics#listener_id DataTencentcloudGaapListenerStatistics#listener_id}
   */
   readonly listenerId: string;
   /**
   * List of statistical indicator names. Supporting: InBandwidth, OutBandwidth, Concurrent, InPackets, OutPackets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_listener_statistics#metric_names DataTencentcloudGaapListenerStatistics#metric_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_listener_statistics#metric_names DataTencentcloudGaapListenerStatistics#metric_names}
   */
   readonly metricNames: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_listener_statistics#result_output_file DataTencentcloudGaapListenerStatistics#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_listener_statistics#result_output_file DataTencentcloudGaapListenerStatistics#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start Time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_listener_statistics#start_time DataTencentcloudGaapListenerStatistics#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_listener_statistics#start_time DataTencentcloudGaapListenerStatistics#start_time}
   */
   readonly startTime: string;
 }
@@ -214,7 +214,7 @@ export class DataTencentcloudGaapListenerStatisticsStatisticsDataList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_listener_statistics tencentcloud_gaap_listener_statistics}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_listener_statistics tencentcloud_gaap_listener_statistics}
 */
 export class DataTencentcloudGaapListenerStatistics extends cdktf.TerraformDataSource {
 
@@ -230,7 +230,7 @@ export class DataTencentcloudGaapListenerStatistics extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudGaapListenerStatistics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudGaapListenerStatistics to import
-  * @param importFromId The id of the existing DataTencentcloudGaapListenerStatistics that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_listener_statistics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudGaapListenerStatistics that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_listener_statistics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudGaapListenerStatistics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class DataTencentcloudGaapListenerStatistics extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_listener_statistics tencentcloud_gaap_listener_statistics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_listener_statistics tencentcloud_gaap_listener_statistics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class DataTencentcloudGaapListenerStatistics extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_gaap_listener_statistics',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

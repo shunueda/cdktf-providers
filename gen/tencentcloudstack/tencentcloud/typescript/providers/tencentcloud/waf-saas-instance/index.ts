@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface WafSaasInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to purchase API Security, 1: yes, 0: no. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance#api_security WafSaasInstance#api_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance#api_security WafSaasInstance#api_security}
   */
   readonly apiSecurity?: number;
   /**
   * Auto renew flag, 1: enable, 0: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance#auto_renew_flag WafSaasInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance#auto_renew_flag WafSaasInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
   * Whether to purchase Bot management, 1: yes, 0: no. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance#bot_management WafSaasInstance#bot_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance#bot_management WafSaasInstance#bot_management}
   */
   readonly botManagement?: number;
   /**
   * Is elastic billing enabled, 1: enable, 0: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance#elastic_mode WafSaasInstance#elastic_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance#elastic_mode WafSaasInstance#elastic_mode}
   */
   readonly elasticMode?: number;
   /**
   * Billing order parameters. support premium_saas, enterprise_saas, ultimate_saas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance#goods_category WafSaasInstance#goods_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance#goods_category WafSaasInstance#goods_category}
   */
   readonly goodsCategory: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance#id WafSaasInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance#id WafSaasInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface WafSaasInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Waf instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance#instance_name WafSaasInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance#instance_name WafSaasInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * QPS Limit, Minimum setting 10000. Only `elastic_mode` is 1, can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance#qps_limit WafSaasInstance#qps_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance#qps_limit WafSaasInstance#qps_limit}
   */
   readonly qpsLimit?: number;
   /**
   * region. If Region is `ap-guangzhou`, support: gz, sh, bj, cd (Means: GuangZhou, ShangHai, BeiJing, ChengDu); If Region is `ap-seoul`, support: hk, sg, th, kr, in, de, ca, use, sao, usw, jkt (Means: HongKong, Singapore, Bandkok, Seoul, Mumbai, Frankfurt, Toronto, Virginia, SaoPaulo, SiliconValley, Jakarta).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance#real_region WafSaasInstance#real_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance#real_region WafSaasInstance#real_region}
   */
   readonly realRegion?: string;
   /**
   * Time interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance#time_span WafSaasInstance#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance#time_span WafSaasInstance#time_span}
   */
   readonly timeSpan?: number;
   /**
   * Time unit, support d, m, y. d: day, m: month, y: year.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance#time_unit WafSaasInstance#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance#time_unit WafSaasInstance#time_unit}
   */
   readonly timeUnit?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance tencentcloud_waf_saas_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance tencentcloud_waf_saas_instance}
 */
 export class WafSaasInstance extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class WafSaasInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafSaasInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafSaasInstance to import
-  * @param importFromId The id of the existing WafSaasInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafSaasInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafSaasInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class WafSaasInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/waf_saas_instance tencentcloud_waf_saas_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/waf_saas_instance tencentcloud_waf_saas_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class WafSaasInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_saas_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

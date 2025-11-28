@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_config_database_ct
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_config_database_ct
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SqlserverConfigDatabaseCtConfig extends cdktf.TerraformMetaArgu
   /**
   * Retention period (in days) of change tracking information when CT is enabled. Value range: 3-30. Default value: 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_config_database_ct#change_retention_day SqlserverConfigDatabaseCt#change_retention_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_config_database_ct#change_retention_day SqlserverConfigDatabaseCt#change_retention_day}
   */
   readonly changeRetentionDay?: number;
   /**
   * database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_config_database_ct#db_name SqlserverConfigDatabaseCt#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_config_database_ct#db_name SqlserverConfigDatabaseCt#db_name}
   */
   readonly dbName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_config_database_ct#id SqlserverConfigDatabaseCt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_config_database_ct#id SqlserverConfigDatabaseCt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface SqlserverConfigDatabaseCtConfig extends cdktf.TerraformMetaArgu
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_config_database_ct#instance_id SqlserverConfigDatabaseCt#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_config_database_ct#instance_id SqlserverConfigDatabaseCt#instance_id}
   */
   readonly instanceId: string;
   /**
   * Enable or disable CT. Valid values: enable, disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_config_database_ct#modify_type SqlserverConfigDatabaseCt#modify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_config_database_ct#modify_type SqlserverConfigDatabaseCt#modify_type}
   */
   readonly modifyType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_config_database_ct tencentcloud_sqlserver_config_database_ct}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_config_database_ct tencentcloud_sqlserver_config_database_ct}
 */
 export class SqlserverConfigDatabaseCt extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SqlserverConfigDatabaseCt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverConfigDatabaseCt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverConfigDatabaseCt to import
-  * @param importFromId The id of the existing SqlserverConfigDatabaseCt that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_config_database_ct#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverConfigDatabaseCt that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_config_database_ct#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverConfigDatabaseCt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SqlserverConfigDatabaseCt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_config_database_ct tencentcloud_sqlserver_config_database_ct} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_config_database_ct tencentcloud_sqlserver_config_database_ct} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class SqlserverConfigDatabaseCt extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_config_database_ct',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

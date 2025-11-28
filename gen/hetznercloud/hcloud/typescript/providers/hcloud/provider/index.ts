@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,43 @@ export interface HcloudProviderConfig {
   /**
   * The Hetzner Cloud API endpoint, can be used to override the default API Endpoint https://api.hetzner.cloud/v1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs#endpoint HcloudProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs#endpoint HcloudProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
+  * The Hetzner API endpoint, can be used to override the default API Endpoint https://api.hetzner.com/v1.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs#endpoint_hetzner HcloudProvider#endpoint_hetzner}
+  */
+  readonly endpointHetzner?: string;
+  /**
   * The type of function to be used during the polling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs#poll_function HcloudProvider#poll_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs#poll_function HcloudProvider#poll_function}
   */
   readonly pollFunction?: string;
   /**
   * The interval at which actions are polled by the client. Default `500ms`. Increase this interval if you run into rate limiting errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs#poll_interval HcloudProvider#poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs#poll_interval HcloudProvider#poll_interval}
   */
   readonly pollInterval?: string;
   /**
   * The Hetzner Cloud API token, can also be specified with the HCLOUD_TOKEN environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs#token HcloudProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs#token HcloudProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs#alias HcloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs#alias HcloudProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs hcloud}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs hcloud}
 */
 export class HcloudProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +62,7 @@ export class HcloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a HcloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HcloudProvider to import
-  * @param importFromId The id of the existing HcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HcloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +74,7 @@ export class HcloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs hcloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs hcloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,12 +85,13 @@ export class HcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'hcloud',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.56.0',
-        providerVersionConstraint: '1.56.0'
+        providerVersion: '1.57.0',
+        providerVersionConstraint: '1.57.0'
       },
       terraformProviderSource: 'hetznercloud/hcloud'
     });
     this._endpoint = config.endpoint;
+    this._endpointHetzner = config.endpointHetzner;
     this._pollFunction = config.pollFunction;
     this._pollInterval = config.pollInterval;
     this._token = config.token;
@@ -109,6 +116,22 @@ export class HcloudProvider extends cdktf.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get endpointInput() {
     return this._endpoint;
+  }
+
+  // endpoint_hetzner - computed: false, optional: true, required: false
+  private _endpointHetzner?: string; 
+  public get endpointHetzner() {
+    return this._endpointHetzner;
+  }
+  public set endpointHetzner(value: string | undefined) {
+    this._endpointHetzner = value;
+  }
+  public resetEndpointHetzner() {
+    this._endpointHetzner = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endpointHetznerInput() {
+    return this._endpointHetzner;
   }
 
   // poll_function - computed: false, optional: true, required: false
@@ -182,6 +205,7 @@ export class HcloudProvider extends cdktf.TerraformProvider {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       endpoint: cdktf.stringToTerraform(this._endpoint),
+      endpoint_hetzner: cdktf.stringToTerraform(this._endpointHetzner),
       poll_function: cdktf.stringToTerraform(this._pollFunction),
       poll_interval: cdktf.stringToTerraform(this._pollInterval),
       token: cdktf.stringToTerraform(this._token),
@@ -193,6 +217,12 @@ export class HcloudProvider extends cdktf.TerraformProvider {
     const attrs = {
       endpoint: {
         value: cdktf.stringToHclTerraform(this._endpoint),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      endpoint_hetzner: {
+        value: cdktf.stringToHclTerraform(this._endpointHetzner),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

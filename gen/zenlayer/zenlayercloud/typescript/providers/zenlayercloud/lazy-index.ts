@@ -57,6 +57,7 @@ Object.defineProperty(exports, 'zvmSecurityGroupRule', { get: function () { retu
 Object.defineProperty(exports, 'zvmSubnet', { get: function () { return require('./zvm-subnet'); } });
 Object.defineProperty(exports, 'dataZenlayercloudBmcEips', { get: function () { return require('./data-zenlayercloud-bmc-eips'); } });
 Object.defineProperty(exports, 'dataZenlayercloudBmcImages', { get: function () { return require('./data-zenlayercloud-bmc-images'); } });
+Object.defineProperty(exports, 'dataZenlayercloudBmcInstanceHealthStatus', { get: function () { return require('./data-zenlayercloud-bmc-instance-health-status'); } });
 Object.defineProperty(exports, 'dataZenlayercloudBmcInstanceTypes', { get: function () { return require('./data-zenlayercloud-bmc-instance-types'); } });
 Object.defineProperty(exports, 'dataZenlayercloudBmcInstances', { get: function () { return require('./data-zenlayercloud-bmc-instances'); } });
 Object.defineProperty(exports, 'dataZenlayercloudBmcSubnets', { get: function () { return require('./data-zenlayercloud-bmc-subnets'); } });

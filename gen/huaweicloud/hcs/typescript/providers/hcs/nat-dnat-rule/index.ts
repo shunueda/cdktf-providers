@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface NatDnatRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the DNAT rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#description NatDnatRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#description NatDnatRule#description}
   */
   readonly description?: string;
   /**
   * The port range used by Floating IP provide services for external systems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#external_service_port NatDnatRule#external_service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#external_service_port NatDnatRule#external_service_port}
   */
   readonly externalServicePort?: number;
   /**
   * The port range used by ECSs or BMSs to provide services for external systems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#external_service_port_range NatDnatRule#external_service_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#external_service_port_range NatDnatRule#external_service_port_range}
   */
   readonly externalServicePortRange?: string;
   /**
   * The ID of the floating IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#floating_ip_id NatDnatRule#floating_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#floating_ip_id NatDnatRule#floating_ip_id}
   */
   readonly floatingIpId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#id NatDnatRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#id NatDnatRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,57 +41,57 @@ export interface NatDnatRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The port used by Floating IP provide services for external systems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#internal_service_port NatDnatRule#internal_service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#internal_service_port NatDnatRule#internal_service_port}
   */
   readonly internalServicePort?: number;
   /**
   * The port used by ECSs or BMSs to provide services for external systems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#internal_service_port_range NatDnatRule#internal_service_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#internal_service_port_range NatDnatRule#internal_service_port_range}
   */
   readonly internalServicePortRange?: string;
   /**
   * The ID of the NAT gateway to which the DNAT rule belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#nat_gateway_id NatDnatRule#nat_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#nat_gateway_id NatDnatRule#nat_gateway_id}
   */
   readonly natGatewayId: string;
   /**
   * The port ID of network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#port_id NatDnatRule#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#port_id NatDnatRule#port_id}
   */
   readonly portId?: string;
   /**
   * The private IP address of a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#private_ip NatDnatRule#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#private_ip NatDnatRule#private_ip}
   */
   readonly privateIp?: string;
   /**
   * The protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#protocol NatDnatRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#protocol NatDnatRule#protocol}
   */
   readonly protocol: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#timeouts NatDnatRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#timeouts NatDnatRule#timeouts}
   */
   readonly timeouts?: NatDnatRuleTimeouts;
 }
 export interface NatDnatRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#create NatDnatRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#create NatDnatRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#delete NatDnatRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#delete NatDnatRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#update NatDnatRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#update NatDnatRule#update}
   */
   readonly update?: string;
 }
@@ -243,7 +243,7 @@ export class NatDnatRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule hcs_nat_dnat_rule}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule hcs_nat_dnat_rule}
 */
 export class NatDnatRule extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class NatDnatRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NatDnatRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NatDnatRule to import
-  * @param importFromId The id of the existing NatDnatRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NatDnatRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NatDnatRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class NatDnatRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/nat_dnat_rule hcs_nat_dnat_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/nat_dnat_rule hcs_nat_dnat_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class NatDnatRule extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_nat_dnat_rule',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

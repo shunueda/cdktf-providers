@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cos_object_restore_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_object_restore_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CosObjectRestoreOperationConfig extends cdktf.TerraformMetaArgu
   /**
   * Bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cos_object_restore_operation#bucket CosObjectRestoreOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_object_restore_operation#bucket CosObjectRestoreOperation#bucket}
   */
   readonly bucket: string;
   /**
   * Specifies the valid duration of the restored temporary copy in days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cos_object_restore_operation#days CosObjectRestoreOperation#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_object_restore_operation#days CosObjectRestoreOperation#days}
   */
   readonly days: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cos_object_restore_operation#id CosObjectRestoreOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_object_restore_operation#id CosObjectRestoreOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface CosObjectRestoreOperationConfig extends cdktf.TerraformMetaArgu
   /**
   * Object key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cos_object_restore_operation#key CosObjectRestoreOperation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_object_restore_operation#key CosObjectRestoreOperation#key}
   */
   readonly key: string;
   /**
@@ -42,13 +42,13 @@ export interface CosObjectRestoreOperationConfig extends cdktf.TerraformMetaArgu
   * - Standard: standard retrieval mode, recovery time is 12-24 hours.
   * - Bulk: batch retrieval mode, recovery time is 24-48 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cos_object_restore_operation#tier CosObjectRestoreOperation#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_object_restore_operation#tier CosObjectRestoreOperation#tier}
   */
   readonly tier: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cos_object_restore_operation tencentcloud_cos_object_restore_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_object_restore_operation tencentcloud_cos_object_restore_operation}
 */
 export class CosObjectRestoreOperation extends cdktf.TerraformResource {
 
@@ -64,7 +64,7 @@ export class CosObjectRestoreOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CosObjectRestoreOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CosObjectRestoreOperation to import
-  * @param importFromId The id of the existing CosObjectRestoreOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cos_object_restore_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CosObjectRestoreOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_object_restore_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CosObjectRestoreOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -76,7 +76,7 @@ export class CosObjectRestoreOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cos_object_restore_operation tencentcloud_cos_object_restore_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_object_restore_operation tencentcloud_cos_object_restore_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -87,8 +87,8 @@ export class CosObjectRestoreOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cos_object_restore_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_tls_versions
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_tls_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudWafTlsVersionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_tls_versions#id DataTencentcloudWafTlsVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_tls_versions#id DataTencentcloudWafTlsVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataTencentcloudWafTlsVersionsConfig extends cdktf.TerraformMet
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_tls_versions#result_output_file DataTencentcloudWafTlsVersions#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_tls_versions#result_output_file DataTencentcloudWafTlsVersions#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -103,7 +103,7 @@ export class DataTencentcloudWafTlsVersionsTlsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_tls_versions tencentcloud_waf_tls_versions}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_tls_versions tencentcloud_waf_tls_versions}
 */
 export class DataTencentcloudWafTlsVersions extends cdktf.TerraformDataSource {
 
@@ -119,7 +119,7 @@ export class DataTencentcloudWafTlsVersions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudWafTlsVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWafTlsVersions to import
-  * @param importFromId The id of the existing DataTencentcloudWafTlsVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_tls_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWafTlsVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_tls_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWafTlsVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +131,7 @@ export class DataTencentcloudWafTlsVersions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/waf_tls_versions tencentcloud_waf_tls_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_tls_versions tencentcloud_waf_tls_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,8 +142,8 @@ export class DataTencentcloudWafTlsVersions extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_waf_tls_versions',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

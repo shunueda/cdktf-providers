@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface QueueTreeConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#___path___ QueueTree#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#___path___ QueueTree#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#___skip___ QueueTree#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#___skip___ QueueTree#___skip___}
   */
   readonly skip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#bucket_size QueueTree#bucket_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#bucket_size QueueTree#bucket_size}
   */
   readonly bucketSize?: string;
   /**
   * Maximal data rate which can be reached while the burst is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#burst_limit QueueTree#burst_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#burst_limit QueueTree#burst_limit}
   */
   readonly burstLimit?: string;
   /**
   * When average data rate is below this value - burst is allowed, as soon as average data rate reach this value - burst is denied (basically this is burst on/off switch). For optimal burst behavior this value should above `limit-at` value and below `max-limit` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#burst_threshold QueueTree#burst_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#burst_threshold QueueTree#burst_threshold}
   */
   readonly burstThreshold?: string;
   /**
   * Period of time, in seconds, over which the average data rate is calculated. This is NOT the time of actual burst.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#burst_time QueueTree#burst_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#burst_time QueueTree#burst_time}
   */
   readonly burstTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#comment QueueTree#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#comment QueueTree#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#disabled QueueTree#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#disabled QueueTree#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#id QueueTree#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#id QueueTree#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,49 +59,49 @@ export interface QueueTreeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Normal data rate that is guaranteed to a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#limit_at QueueTree#limit_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#limit_at QueueTree#limit_at}
   */
   readonly limitAt?: string;
   /**
   * Maximal data rate that is allowed for a target to reach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#max_limit QueueTree#max_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#max_limit QueueTree#max_limit}
   */
   readonly maxLimit?: string;
   /**
   * Queue tree name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#name QueueTree#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#name QueueTree#name}
   */
   readonly name: string;
   /**
   * Allows to use marked packets from `/ip firewall mangle`. Take look at this packet flow diagram. You need to make sure that packets are marked before the simple queues (before global-in HTB queue).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#packet_mark QueueTree#packet_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#packet_mark QueueTree#packet_mark}
   */
   readonly packetMark?: string[];
   /**
   * Assigns this queue as a child queue for selected target. Target queue can be HTB queue or any other previously created queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#parent QueueTree#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#parent QueueTree#parent}
   */
   readonly parent: string;
   /**
   * Prioritize one child queue over other child queue. Does not work on parent queues (if queue has at least one child). One is the highest, eight is the lowest priority. Child queue with higher priority will have chance to reach its `max-limit` before child with lower priority. Priority have nothing to do with bursts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#priority QueueTree#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#priority QueueTree#priority}
   */
   readonly priority?: number;
   /**
   * Choose the type of the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#queue QueueTree#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#queue QueueTree#queue}
   */
   readonly queue?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree routeros_queue_tree}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree routeros_queue_tree}
 */
 export class QueueTree extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class QueueTree extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QueueTree resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QueueTree to import
-  * @param importFromId The id of the existing QueueTree that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QueueTree that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QueueTree to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class QueueTree extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/queue_tree routeros_queue_tree} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/queue_tree routeros_queue_tree} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class QueueTree extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_queue_tree',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

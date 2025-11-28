@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,259 +10,259 @@ export interface WorkdaySoapConnectionResourceConfig extends cdktf.TerraformMeta
   /**
   * JSON configuration for accounts import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#accounts_import_json WorkdaySoapConnectionResource#accounts_import_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#accounts_import_json WorkdaySoapConnectionResource#accounts_import_json}
   */
   readonly accountsImportJson?: string;
   /**
   * JSON configuration for password changes. Either this or change_pass_json_wo must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#change_pass_json WorkdaySoapConnectionResource#change_pass_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#change_pass_json WorkdaySoapConnectionResource#change_pass_json}
   */
   readonly changePassJson?: string;
   /**
   * Write-only JSON configuration for password changes. Either this or change_pass_json must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#change_pass_json_wo WorkdaySoapConnectionResource#change_pass_json_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#change_pass_json_wo WorkdaySoapConnectionResource#change_pass_json_wo}
   */
   readonly changePassJsonWo?: string;
   /**
   * Combined create request configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#combined_create_request WorkdaySoapConnectionResource#combined_create_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#combined_create_request WorkdaySoapConnectionResource#combined_create_request}
   */
   readonly combinedCreateRequest?: string;
   /**
   * General connection JSON configuration. Either this or connection_json_wo must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#connection_json WorkdaySoapConnectionResource#connection_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#connection_json WorkdaySoapConnectionResource#connection_json}
   */
   readonly connectionJson?: string;
   /**
   * Write-only general connection JSON configuration. Either this or connection_json must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#connection_json_wo WorkdaySoapConnectionResource#connection_json_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#connection_json_wo WorkdaySoapConnectionResource#connection_json_wo}
   */
   readonly connectionJsonWo?: string;
   /**
   * Name of the connection. Example: "Active Directory_Doc"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#connection_name WorkdaySoapConnectionResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#connection_name WorkdaySoapConnectionResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * JSON configuration for account creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#create_account_json WorkdaySoapConnectionResource#create_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#create_account_json WorkdaySoapConnectionResource#create_account_json}
   */
   readonly createAccountJson?: string;
   /**
   * Custom configuration JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#custom_config WorkdaySoapConnectionResource#custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#custom_config WorkdaySoapConnectionResource#custom_config}
   */
   readonly customConfig?: string;
   /**
   * Specification of data types to import. Example: "Users,Accounts"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#data_to_import WorkdaySoapConnectionResource#data_to_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#data_to_import WorkdaySoapConnectionResource#data_to_import}
   */
   readonly dataToImport?: string;
   /**
   * Date format for data processing. Example: "yyyy-MM-dd"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#date_format WorkdaySoapConnectionResource#date_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#date_format WorkdaySoapConnectionResource#date_format}
   */
   readonly dateFormat?: string;
   /**
   * Default SAV roles for managing the connection. Example: "ROLE_ORG"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#defaultsavroles WorkdaySoapConnectionResource#defaultsavroles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#defaultsavroles WorkdaySoapConnectionResource#defaultsavroles}
   */
   readonly defaultsavroles?: string;
   /**
   * JSON configuration for account deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#delete_account_json WorkdaySoapConnectionResource#delete_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#delete_account_json WorkdaySoapConnectionResource#delete_account_json}
   */
   readonly deleteAccountJson?: string;
   /**
   * Description for the connection. Example: "ORG_AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#description WorkdaySoapConnectionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#description WorkdaySoapConnectionResource#description}
   */
   readonly description?: string;
   /**
   * JSON configuration for account disabling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#disable_account_json WorkdaySoapConnectionResource#disable_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#disable_account_json WorkdaySoapConnectionResource#disable_account_json}
   */
   readonly disableAccountJson?: string;
   /**
   * Email template for notifications. Example: "New Account Task Creation"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#email_template WorkdaySoapConnectionResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#email_template WorkdaySoapConnectionResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
   * JSON configuration for account enabling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#enable_account_json WorkdaySoapConnectionResource#enable_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#enable_account_json WorkdaySoapConnectionResource#enable_account_json}
   */
   readonly enableAccountJson?: string;
   /**
   * JSON configuration for granting access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#grant_access_json WorkdaySoapConnectionResource#grant_access_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#grant_access_json WorkdaySoapConnectionResource#grant_access_json}
   */
   readonly grantAccessJson?: string;
   /**
   * JSON configuration for HR data import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#hr_import_json WorkdaySoapConnectionResource#hr_import_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#hr_import_json WorkdaySoapConnectionResource#hr_import_json}
   */
   readonly hrImportJson?: string;
   /**
   * JSON configuration for modifying user data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#modify_user_data_json WorkdaySoapConnectionResource#modify_user_data_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#modify_user_data_json WorkdaySoapConnectionResource#modify_user_data_json}
   */
   readonly modifyUserDataJson?: string;
   /**
   * Number of records per page. Example: "100"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#page_size WorkdaySoapConnectionResource#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#page_size WorkdaySoapConnectionResource#page_size}
   */
   readonly pageSize?: string;
   /**
   * PAM configuration JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#pam_config WorkdaySoapConnectionResource#pam_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#pam_config WorkdaySoapConnectionResource#pam_config}
   */
   readonly pamConfig?: string;
   /**
   * Password for SOAP authentication. Either this or password_wo must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#password WorkdaySoapConnectionResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#password WorkdaySoapConnectionResource#password}
   */
   readonly password?: string;
   /**
   * Maximum password length. Example: "20"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#password_max_length WorkdaySoapConnectionResource#password_max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#password_max_length WorkdaySoapConnectionResource#password_max_length}
   */
   readonly passwordMaxLength?: string;
   /**
   * Minimum password length. Example: "8"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#password_min_length WorkdaySoapConnectionResource#password_min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#password_min_length WorkdaySoapConnectionResource#password_min_length}
   */
   readonly passwordMinLength?: string;
   /**
   * Number of capital letters required in password. Example: "1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#password_noofcapsalpha WorkdaySoapConnectionResource#password_noofcapsalpha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#password_noofcapsalpha WorkdaySoapConnectionResource#password_noofcapsalpha}
   */
   readonly passwordNoofcapsalpha?: string;
   /**
   * Number of digits required in password. Example: "1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#password_noofdigits WorkdaySoapConnectionResource#password_noofdigits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#password_noofdigits WorkdaySoapConnectionResource#password_noofdigits}
   */
   readonly passwordNoofdigits?: string;
   /**
   * Number of special characters required in password. Example: "1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#password_noofsplchars WorkdaySoapConnectionResource#password_noofsplchars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#password_noofsplchars WorkdaySoapConnectionResource#password_noofsplchars}
   */
   readonly passwordNoofsplchars?: string;
   /**
   * Type of password authentication. Example: "BASIC"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#password_type WorkdaySoapConnectionResource#password_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#password_type WorkdaySoapConnectionResource#password_type}
   */
   readonly passwordType?: string;
   /**
   * Write-only password for SOAP authentication. Either this or password must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#password_wo WorkdaySoapConnectionResource#password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#password_wo WorkdaySoapConnectionResource#password_wo}
   */
   readonly passwordWo?: string;
   /**
   * Response path for page results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#responsepath_pageresults WorkdaySoapConnectionResource#responsepath_pageresults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#responsepath_pageresults WorkdaySoapConnectionResource#responsepath_pageresults}
   */
   readonly responsepathPageresults?: string;
   /**
   * Response path for total results count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#responsepath_totalresults WorkdaySoapConnectionResource#responsepath_totalresults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#responsepath_totalresults WorkdaySoapConnectionResource#responsepath_totalresults}
   */
   readonly responsepathTotalresults?: string;
   /**
   * Response path for user list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#responsepath_userlist WorkdaySoapConnectionResource#responsepath_userlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#responsepath_userlist WorkdaySoapConnectionResource#responsepath_userlist}
   */
   readonly responsepathUserlist?: string;
   /**
   * JSON configuration for revoking access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#revoke_access_json WorkdaySoapConnectionResource#revoke_access_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#revoke_access_json WorkdaySoapConnectionResource#revoke_access_json}
   */
   readonly revokeAccessJson?: string;
   /**
   * Flag indicating whether the encrypted attribute should be saved in the configured vault. Example: "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#save_in_vault WorkdaySoapConnectionResource#save_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#save_in_vault WorkdaySoapConnectionResource#save_in_vault}
   */
   readonly saveInVault?: string;
   /**
   * SOAP endpoint URL for Workday. Example: "https://wd2-impl-services1.workday.com/ccx/service/tenant/Human_Resources/v35.0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#soap_endpoint WorkdaySoapConnectionResource#soap_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#soap_endpoint WorkdaySoapConnectionResource#soap_endpoint}
   */
   readonly soapEndpoint?: string;
   /**
   * JSON configuration for account updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#update_account_json WorkdaySoapConnectionResource#update_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#update_account_json WorkdaySoapConnectionResource#update_account_json}
   */
   readonly updateAccountJson?: string;
   /**
   * JSON configuration for user updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#update_user_json WorkdaySoapConnectionResource#update_user_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#update_user_json WorkdaySoapConnectionResource#update_user_json}
   */
   readonly updateUserJson?: string;
   /**
   * Username for SOAP authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#username WorkdaySoapConnectionResource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#username WorkdaySoapConnectionResource#username}
   */
   readonly username?: string;
   /**
   * JSON string specifying vault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#vault_configuration WorkdaySoapConnectionResource#vault_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#vault_configuration WorkdaySoapConnectionResource#vault_configuration}
   */
   readonly vaultConfiguration?: string;
   /**
   * Specifies the type of vault connection being used (e.g., 'Hashicorp'). Example: "Hashicorp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#vault_connection WorkdaySoapConnectionResource#vault_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#vault_connection WorkdaySoapConnectionResource#vault_connection}
   */
   readonly vaultConnection?: string;
   /**
   * Add/change the value of this attribute to update the writeonly attributes like username, password etc in connection resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#wo_version WorkdaySoapConnectionResource#wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#wo_version WorkdaySoapConnectionResource#wo_version}
   */
   readonly woVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource saviynt_workday_soap_connection_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource saviynt_workday_soap_connection_resource}
 */
 export class WorkdaySoapConnectionResource extends cdktf.TerraformResource {
 
@@ -278,7 +278,7 @@ export class WorkdaySoapConnectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkdaySoapConnectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkdaySoapConnectionResource to import
-  * @param importFromId The id of the existing WorkdaySoapConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkdaySoapConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkdaySoapConnectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -290,7 +290,7 @@ export class WorkdaySoapConnectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/workday_soap_connection_resource saviynt_workday_soap_connection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/workday_soap_connection_resource saviynt_workday_soap_connection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -301,8 +301,8 @@ export class WorkdaySoapConnectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_workday_soap_connection_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

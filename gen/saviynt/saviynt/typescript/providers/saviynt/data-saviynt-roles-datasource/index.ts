@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,499 +10,499 @@ export interface DataSaviyntRolesDatasourceConfig extends cdktf.TerraformMetaArg
   /**
   * Controls visibility of sensitive data in Terraform state. When 'false', role details are omitted from state to prevent sensitive data exposure. When 'true', all role details are returned in state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#authenticate DataSaviyntRolesDatasource#authenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#authenticate DataSaviyntRolesDatasource#authenticate}
   */
   readonly authenticate: boolean | cdktf.IResolvable;
   /**
   * Filter roles by confidentiality level. Valid values: 'None', 'Very Low', 'Low', 'Medium', 'High', 'Critical'. When specified, returns only roles with this confidentiality level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#confidentiality DataSaviyntRolesDatasource#confidentiality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#confidentiality DataSaviyntRolesDatasource#confidentiality}
   */
   readonly confidentiality?: string;
   /**
   * Custom property 1 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property1 DataSaviyntRolesDatasource#custom_property1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property1 DataSaviyntRolesDatasource#custom_property1}
   */
   readonly customProperty1?: string;
   /**
   * Custom property 10 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property10 DataSaviyntRolesDatasource#custom_property10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property10 DataSaviyntRolesDatasource#custom_property10}
   */
   readonly customProperty10?: string;
   /**
   * Custom property 11 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property11 DataSaviyntRolesDatasource#custom_property11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property11 DataSaviyntRolesDatasource#custom_property11}
   */
   readonly customProperty11?: string;
   /**
   * Custom property 12 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property12 DataSaviyntRolesDatasource#custom_property12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property12 DataSaviyntRolesDatasource#custom_property12}
   */
   readonly customProperty12?: string;
   /**
   * Custom property 13 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property13 DataSaviyntRolesDatasource#custom_property13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property13 DataSaviyntRolesDatasource#custom_property13}
   */
   readonly customProperty13?: string;
   /**
   * Custom property 14 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property14 DataSaviyntRolesDatasource#custom_property14}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property14 DataSaviyntRolesDatasource#custom_property14}
   */
   readonly customProperty14?: string;
   /**
   * Custom property 15 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property15 DataSaviyntRolesDatasource#custom_property15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property15 DataSaviyntRolesDatasource#custom_property15}
   */
   readonly customProperty15?: string;
   /**
   * Custom property 16 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property16 DataSaviyntRolesDatasource#custom_property16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property16 DataSaviyntRolesDatasource#custom_property16}
   */
   readonly customProperty16?: string;
   /**
   * Custom property 17 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property17 DataSaviyntRolesDatasource#custom_property17}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property17 DataSaviyntRolesDatasource#custom_property17}
   */
   readonly customProperty17?: string;
   /**
   * Custom property 18 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property18 DataSaviyntRolesDatasource#custom_property18}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property18 DataSaviyntRolesDatasource#custom_property18}
   */
   readonly customProperty18?: string;
   /**
   * Custom property 19 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property19 DataSaviyntRolesDatasource#custom_property19}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property19 DataSaviyntRolesDatasource#custom_property19}
   */
   readonly customProperty19?: string;
   /**
   * Custom property 2 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property2 DataSaviyntRolesDatasource#custom_property2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property2 DataSaviyntRolesDatasource#custom_property2}
   */
   readonly customProperty2?: string;
   /**
   * Custom property 20 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property20 DataSaviyntRolesDatasource#custom_property20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property20 DataSaviyntRolesDatasource#custom_property20}
   */
   readonly customProperty20?: string;
   /**
   * Custom property 21 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property21 DataSaviyntRolesDatasource#custom_property21}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property21 DataSaviyntRolesDatasource#custom_property21}
   */
   readonly customProperty21?: string;
   /**
   * Custom property 22 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property22 DataSaviyntRolesDatasource#custom_property22}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property22 DataSaviyntRolesDatasource#custom_property22}
   */
   readonly customProperty22?: string;
   /**
   * Custom property 23 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property23 DataSaviyntRolesDatasource#custom_property23}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property23 DataSaviyntRolesDatasource#custom_property23}
   */
   readonly customProperty23?: string;
   /**
   * Custom property 24 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property24 DataSaviyntRolesDatasource#custom_property24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property24 DataSaviyntRolesDatasource#custom_property24}
   */
   readonly customProperty24?: string;
   /**
   * Custom property 25 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property25 DataSaviyntRolesDatasource#custom_property25}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property25 DataSaviyntRolesDatasource#custom_property25}
   */
   readonly customProperty25?: string;
   /**
   * Custom property 26 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property26 DataSaviyntRolesDatasource#custom_property26}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property26 DataSaviyntRolesDatasource#custom_property26}
   */
   readonly customProperty26?: string;
   /**
   * Custom property 27 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property27 DataSaviyntRolesDatasource#custom_property27}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property27 DataSaviyntRolesDatasource#custom_property27}
   */
   readonly customProperty27?: string;
   /**
   * Custom property 28 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property28 DataSaviyntRolesDatasource#custom_property28}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property28 DataSaviyntRolesDatasource#custom_property28}
   */
   readonly customProperty28?: string;
   /**
   * Custom property 29 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property29 DataSaviyntRolesDatasource#custom_property29}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property29 DataSaviyntRolesDatasource#custom_property29}
   */
   readonly customProperty29?: string;
   /**
   * Custom property 3 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property3 DataSaviyntRolesDatasource#custom_property3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property3 DataSaviyntRolesDatasource#custom_property3}
   */
   readonly customProperty3?: string;
   /**
   * Custom property 30 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property30 DataSaviyntRolesDatasource#custom_property30}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property30 DataSaviyntRolesDatasource#custom_property30}
   */
   readonly customProperty30?: string;
   /**
   * Custom property 31 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property31 DataSaviyntRolesDatasource#custom_property31}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property31 DataSaviyntRolesDatasource#custom_property31}
   */
   readonly customProperty31?: string;
   /**
   * Custom property 32 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property32 DataSaviyntRolesDatasource#custom_property32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property32 DataSaviyntRolesDatasource#custom_property32}
   */
   readonly customProperty32?: string;
   /**
   * Custom property 33 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property33 DataSaviyntRolesDatasource#custom_property33}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property33 DataSaviyntRolesDatasource#custom_property33}
   */
   readonly customProperty33?: string;
   /**
   * Custom property 34 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property34 DataSaviyntRolesDatasource#custom_property34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property34 DataSaviyntRolesDatasource#custom_property34}
   */
   readonly customProperty34?: string;
   /**
   * Custom property 35 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property35 DataSaviyntRolesDatasource#custom_property35}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property35 DataSaviyntRolesDatasource#custom_property35}
   */
   readonly customProperty35?: string;
   /**
   * Custom property 36 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property36 DataSaviyntRolesDatasource#custom_property36}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property36 DataSaviyntRolesDatasource#custom_property36}
   */
   readonly customProperty36?: string;
   /**
   * Custom property 37 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property37 DataSaviyntRolesDatasource#custom_property37}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property37 DataSaviyntRolesDatasource#custom_property37}
   */
   readonly customProperty37?: string;
   /**
   * Custom property 38 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property38 DataSaviyntRolesDatasource#custom_property38}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property38 DataSaviyntRolesDatasource#custom_property38}
   */
   readonly customProperty38?: string;
   /**
   * Custom property 39 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property39 DataSaviyntRolesDatasource#custom_property39}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property39 DataSaviyntRolesDatasource#custom_property39}
   */
   readonly customProperty39?: string;
   /**
   * Custom property 4 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property4 DataSaviyntRolesDatasource#custom_property4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property4 DataSaviyntRolesDatasource#custom_property4}
   */
   readonly customProperty4?: string;
   /**
   * Custom property 40 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property40 DataSaviyntRolesDatasource#custom_property40}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property40 DataSaviyntRolesDatasource#custom_property40}
   */
   readonly customProperty40?: string;
   /**
   * Custom property 41 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property41 DataSaviyntRolesDatasource#custom_property41}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property41 DataSaviyntRolesDatasource#custom_property41}
   */
   readonly customProperty41?: string;
   /**
   * Custom property 42 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property42 DataSaviyntRolesDatasource#custom_property42}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property42 DataSaviyntRolesDatasource#custom_property42}
   */
   readonly customProperty42?: string;
   /**
   * Custom property 43 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property43 DataSaviyntRolesDatasource#custom_property43}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property43 DataSaviyntRolesDatasource#custom_property43}
   */
   readonly customProperty43?: string;
   /**
   * Custom property 44 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property44 DataSaviyntRolesDatasource#custom_property44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property44 DataSaviyntRolesDatasource#custom_property44}
   */
   readonly customProperty44?: string;
   /**
   * Custom property 45 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property45 DataSaviyntRolesDatasource#custom_property45}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property45 DataSaviyntRolesDatasource#custom_property45}
   */
   readonly customProperty45?: string;
   /**
   * Custom property 46 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property46 DataSaviyntRolesDatasource#custom_property46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property46 DataSaviyntRolesDatasource#custom_property46}
   */
   readonly customProperty46?: string;
   /**
   * Custom property 47 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property47 DataSaviyntRolesDatasource#custom_property47}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property47 DataSaviyntRolesDatasource#custom_property47}
   */
   readonly customProperty47?: string;
   /**
   * Custom property 48 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property48 DataSaviyntRolesDatasource#custom_property48}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property48 DataSaviyntRolesDatasource#custom_property48}
   */
   readonly customProperty48?: string;
   /**
   * Custom property 49 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property49 DataSaviyntRolesDatasource#custom_property49}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property49 DataSaviyntRolesDatasource#custom_property49}
   */
   readonly customProperty49?: string;
   /**
   * Custom property 5 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property5 DataSaviyntRolesDatasource#custom_property5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property5 DataSaviyntRolesDatasource#custom_property5}
   */
   readonly customProperty5?: string;
   /**
   * Custom property 50 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property50 DataSaviyntRolesDatasource#custom_property50}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property50 DataSaviyntRolesDatasource#custom_property50}
   */
   readonly customProperty50?: string;
   /**
   * Custom property 51 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property51 DataSaviyntRolesDatasource#custom_property51}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property51 DataSaviyntRolesDatasource#custom_property51}
   */
   readonly customProperty51?: string;
   /**
   * Custom property 52 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property52 DataSaviyntRolesDatasource#custom_property52}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property52 DataSaviyntRolesDatasource#custom_property52}
   */
   readonly customProperty52?: string;
   /**
   * Custom property 53 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property53 DataSaviyntRolesDatasource#custom_property53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property53 DataSaviyntRolesDatasource#custom_property53}
   */
   readonly customProperty53?: string;
   /**
   * Custom property 54 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property54 DataSaviyntRolesDatasource#custom_property54}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property54 DataSaviyntRolesDatasource#custom_property54}
   */
   readonly customProperty54?: string;
   /**
   * Custom property 55 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property55 DataSaviyntRolesDatasource#custom_property55}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property55 DataSaviyntRolesDatasource#custom_property55}
   */
   readonly customProperty55?: string;
   /**
   * Custom property 56 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property56 DataSaviyntRolesDatasource#custom_property56}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property56 DataSaviyntRolesDatasource#custom_property56}
   */
   readonly customProperty56?: string;
   /**
   * Custom property 57 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property57 DataSaviyntRolesDatasource#custom_property57}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property57 DataSaviyntRolesDatasource#custom_property57}
   */
   readonly customProperty57?: string;
   /**
   * Custom property 58 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property58 DataSaviyntRolesDatasource#custom_property58}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property58 DataSaviyntRolesDatasource#custom_property58}
   */
   readonly customProperty58?: string;
   /**
   * Custom property 59 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property59 DataSaviyntRolesDatasource#custom_property59}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property59 DataSaviyntRolesDatasource#custom_property59}
   */
   readonly customProperty59?: string;
   /**
   * Custom property 6 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property6 DataSaviyntRolesDatasource#custom_property6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property6 DataSaviyntRolesDatasource#custom_property6}
   */
   readonly customProperty6?: string;
   /**
   * Custom property 60 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property60 DataSaviyntRolesDatasource#custom_property60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property60 DataSaviyntRolesDatasource#custom_property60}
   */
   readonly customProperty60?: string;
   /**
   * Custom property 7 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property7 DataSaviyntRolesDatasource#custom_property7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property7 DataSaviyntRolesDatasource#custom_property7}
   */
   readonly customProperty7?: string;
   /**
   * Custom property 8 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property8 DataSaviyntRolesDatasource#custom_property8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property8 DataSaviyntRolesDatasource#custom_property8}
   */
   readonly customProperty8?: string;
   /**
   * Custom property 9 for additional metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#custom_property9 DataSaviyntRolesDatasource#custom_property9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#custom_property9 DataSaviyntRolesDatasource#custom_property9}
   */
   readonly customProperty9?: string;
   /**
   * Filter roles by description. When specified, returns only roles that match this description text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#description DataSaviyntRolesDatasource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#description DataSaviyntRolesDatasource#description}
   */
   readonly description?: string;
   /**
   * Filter roles by display name. When specified, returns only roles that match this display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#display_name DataSaviyntRolesDatasource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#display_name DataSaviyntRolesDatasource#display_name}
   */
   readonly displayName?: string;
   /**
   * Filter roles by glossary information. When specified, returns only roles that match this glossary text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#glossary DataSaviyntRolesDatasource#glossary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#glossary DataSaviyntRolesDatasource#glossary}
   */
   readonly glossary?: string;
   /**
   * Hide blank values (e.g., true or false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#hide_blank_values DataSaviyntRolesDatasource#hide_blank_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#hide_blank_values DataSaviyntRolesDatasource#hide_blank_values}
   */
   readonly hideBlankValues?: string;
   /**
   * Filter roles by hierarchy level. When specified, returns only roles with this hierarchy level in the organizational structure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#level DataSaviyntRolesDatasource#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#level DataSaviyntRolesDatasource#level}
   */
   readonly level?: string;
   /**
   * Maximum number of records to return
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#max DataSaviyntRolesDatasource#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#max DataSaviyntRolesDatasource#max}
   */
   readonly max?: string;
   /**
   * Filter roles by mining instance name. When specified, returns only roles associated with this mining instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#mining_instance DataSaviyntRolesDatasource#mining_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#mining_instance DataSaviyntRolesDatasource#mining_instance}
   */
   readonly miningInstance?: string;
   /**
   * Offset for pagination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#offset DataSaviyntRolesDatasource#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#offset DataSaviyntRolesDatasource#offset}
   */
   readonly offset?: string;
   /**
   * Filter roles by privileged criticality. Valid values: 'None', 'Very Low', 'Low', 'Medium', 'High', 'Critical'. When specified, returns only roles with this privileged criticality level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#privileged DataSaviyntRolesDatasource#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#privileged DataSaviyntRolesDatasource#privileged}
   */
   readonly privileged?: string;
   /**
   * Filter roles by requestable status. Valid values: 'true' (show only requestable roles), 'false' (show only non-requestable roles).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#requestable DataSaviyntRolesDatasource#requestable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#requestable DataSaviyntRolesDatasource#requestable}
   */
   readonly requestable?: string;
   /**
   * Request body parameter that contains users and/or entitlement_values. Use comma-separated values like 'entitlement' to specify what objects to include in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#requested_object DataSaviyntRolesDatasource#requested_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#requested_object DataSaviyntRolesDatasource#requested_object}
   */
   readonly requestedObject?: string;
   /**
   * Filter roles by risk level. Valid values: 'None', 'Very Low', 'Low', 'Medium', 'High', 'Critical'. When specified, returns only roles with this risk level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#risk DataSaviyntRolesDatasource#risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#risk DataSaviyntRolesDatasource#risk}
   */
   readonly risk?: string;
   /**
   * Filter roles by role name. When specified, returns only roles that match this exact role name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#role_name DataSaviyntRolesDatasource#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#role_name DataSaviyntRolesDatasource#role_name}
   */
   readonly roleName?: string;
   /**
   * SQL-like query to filter roles (e.g., 'r.role_name = 'Admin'')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#role_query DataSaviyntRolesDatasource#role_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#role_query DataSaviyntRolesDatasource#role_query}
   */
   readonly roleQuery?: string;
   /**
   * Filter roles by type. Valid values: 'ENABLER', 'TRANSACTIONAL', 'FIREFIGHTER', 'ENTERPRISE', 'APPLICATION', 'ENTITLEMENT'. Use the human-readable names to filter results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#role_type DataSaviyntRolesDatasource#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#role_type DataSaviyntRolesDatasource#role_type}
   */
   readonly roleType?: string;
   /**
   * Filter roles by SOX criticality. Valid values: 'None', 'Very Low', 'Low', 'Medium', 'High', 'Critical'. When specified, returns only roles with this SOX criticality level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#sox_critical DataSaviyntRolesDatasource#sox_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#sox_critical DataSaviyntRolesDatasource#sox_critical}
   */
   readonly soxCritical?: string;
   /**
   * Filter roles by status. Valid values: 'Active', 'Inactive'. Use string values to filter results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#status DataSaviyntRolesDatasource#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#status DataSaviyntRolesDatasource#status}
   */
   readonly status?: string;
   /**
   * Filter roles by SYS criticality. Valid values: 'None', 'Very Low', 'Low', 'Medium', 'High', 'Critical'. When specified, returns only roles with this SYS criticality level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#sys_critical DataSaviyntRolesDatasource#sys_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#sys_critical DataSaviyntRolesDatasource#sys_critical}
   */
   readonly sysCritical?: string;
   /**
   * Filter roles by system ID. When specified, returns only roles associated with this system identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#system_id DataSaviyntRolesDatasource#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#system_id DataSaviyntRolesDatasource#system_id}
   */
   readonly systemId?: string;
   /**
   * Filter roles by the user ID who last updated the role. When specified, returns only roles last modified by this user ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#update_user DataSaviyntRolesDatasource#update_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#update_user DataSaviyntRolesDatasource#update_user}
   */
   readonly updateUser?: string;
   /**
   * Filter roles by username. When specified, returns only roles associated with this specific user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#username DataSaviyntRolesDatasource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#username DataSaviyntRolesDatasource#username}
   */
   readonly username?: string;
 }
@@ -1256,7 +1256,7 @@ export class DataSaviyntRolesDatasourceRoledetailsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource saviynt_roles_datasource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource saviynt_roles_datasource}
 */
 export class DataSaviyntRolesDatasource extends cdktf.TerraformDataSource {
 
@@ -1272,7 +1272,7 @@ export class DataSaviyntRolesDatasource extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSaviyntRolesDatasource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSaviyntRolesDatasource to import
-  * @param importFromId The id of the existing DataSaviyntRolesDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSaviyntRolesDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSaviyntRolesDatasource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1284,7 +1284,7 @@ export class DataSaviyntRolesDatasource extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/roles_datasource saviynt_roles_datasource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/roles_datasource saviynt_roles_datasource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1295,8 +1295,8 @@ export class DataSaviyntRolesDatasource extends cdktf.TerraformDataSource {
       terraformResourceType: 'saviynt_roles_datasource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

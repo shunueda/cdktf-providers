@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CvmChcConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Out-of-band network security group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#bmc_security_group_ids CvmChcConfig#bmc_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#bmc_security_group_ids CvmChcConfig#bmc_security_group_ids}
   */
   readonly bmcSecurityGroupIds?: string[];
   /**
   * Valid characters: Letters, numbers, hyphens and underscores. Only set when update password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#bmc_user CvmChcConfig#bmc_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#bmc_user CvmChcConfig#bmc_user}
   */
   readonly bmcUser?: string;
   /**
   * CHC host ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#chc_id CvmChcConfig#chc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#chc_id CvmChcConfig#chc_id}
   */
   readonly chcId: string;
   /**
   * Deployment network security group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#deploy_security_group_ids CvmChcConfig#deploy_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#deploy_security_group_ids CvmChcConfig#deploy_security_group_ids}
   */
   readonly deploySecurityGroupIds?: string[];
   /**
   * Server type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#device_type CvmChcConfig#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#device_type CvmChcConfig#device_type}
   */
   readonly deviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#id CvmChcConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#id CvmChcConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,25 +47,25 @@ export interface CvmChcConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * CHC host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#instance_name CvmChcConfig#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#instance_name CvmChcConfig#instance_name}
   */
   readonly instanceName?: string;
   /**
   * The password can contain 8 to 16 characters, including letters, numbers and special symbols (()`~!@#$%^&amp;amp;*-+=_|{}).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#password CvmChcConfig#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#password CvmChcConfig#password}
   */
   readonly password?: string;
   /**
   * bmc_virtual_private_cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#bmc_virtual_private_cloud CvmChcConfig#bmc_virtual_private_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#bmc_virtual_private_cloud CvmChcConfig#bmc_virtual_private_cloud}
   */
   readonly bmcVirtualPrivateCloud?: CvmChcConfigBmcVirtualPrivateCloud;
   /**
   * deploy_virtual_private_cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#deploy_virtual_private_cloud CvmChcConfig#deploy_virtual_private_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#deploy_virtual_private_cloud CvmChcConfig#deploy_virtual_private_cloud}
   */
   readonly deployVirtualPrivateCloud?: CvmChcConfigDeployVirtualPrivateCloud;
 }
@@ -73,31 +73,31 @@ export interface CvmChcConfigBmcVirtualPrivateCloud {
   /**
   * Whether to use a CVM instance as a public gateway. The public gateway is only available when the instance has a public IP and resides in a VPC. Valid values:&lt;br&gt;&lt;li&gt;TRUE: yes;&lt;br&gt;&lt;li&gt;FALSE: no&lt;br&gt;&lt;br&gt;Default: FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#as_vpc_gateway CvmChcConfig#as_vpc_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#as_vpc_gateway CvmChcConfig#as_vpc_gateway}
   */
   readonly asVpcGateway?: boolean | cdktf.IResolvable;
   /**
   * Number of IPv6 addresses randomly generated for the ENI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#ipv6_address_count CvmChcConfig#ipv6_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#ipv6_address_count CvmChcConfig#ipv6_address_count}
   */
   readonly ipv6AddressCount?: number;
   /**
   * Array of VPC subnet IPs. You can use this parameter when creating instances or modifying VPC attributes of instances. Currently you can specify multiple IPs in one subnet only when creating multiple instances at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#private_ip_addresses CvmChcConfig#private_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#private_ip_addresses CvmChcConfig#private_ip_addresses}
   */
   readonly privateIpAddresses?: string[];
   /**
   * VPC subnet ID in the format subnet-xxx. To obtain valid subnet IDs, you can log in to the [console](https://console.tencentcloud.com/vpc/vpc?rid=1) or call DescribeSubnets and look for the unSubnetId fields in the response. If you specify DEFAULT for both SubnetId and VpcId when creating an instance, the default VPC will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#subnet_id CvmChcConfig#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#subnet_id CvmChcConfig#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC ID in the format of vpc-xxx. To obtain valid VPC IDs, you can log in to the [console](https://console.tencentcloud.com/vpc/vpc?rid=1) or call the DescribeVpcEx API and look for the unVpcId fields in the response. If you specify DEFAULT for both VpcId and SubnetId when creating an instance, the default VPC will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#vpc_id CvmChcConfig#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#vpc_id CvmChcConfig#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -293,31 +293,31 @@ export interface CvmChcConfigDeployVirtualPrivateCloud {
   /**
   * Whether to use a CVM instance as a public gateway. The public gateway is only available when the instance has a public IP and resides in a VPC. Valid values:&lt;br&gt;&lt;li&gt;TRUE: yes;&lt;br&gt;&lt;li&gt;FALSE: no&lt;br&gt;&lt;br&gt;Default: FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#as_vpc_gateway CvmChcConfig#as_vpc_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#as_vpc_gateway CvmChcConfig#as_vpc_gateway}
   */
   readonly asVpcGateway?: boolean | cdktf.IResolvable;
   /**
   * Number of IPv6 addresses randomly generated for the ENI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#ipv6_address_count CvmChcConfig#ipv6_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#ipv6_address_count CvmChcConfig#ipv6_address_count}
   */
   readonly ipv6AddressCount?: number;
   /**
   * Array of VPC subnet IPs. You can use this parameter when creating instances or modifying VPC attributes of instances. Currently you can specify multiple IPs in one subnet only when creating multiple instances at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#private_ip_addresses CvmChcConfig#private_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#private_ip_addresses CvmChcConfig#private_ip_addresses}
   */
   readonly privateIpAddresses?: string[];
   /**
   * VPC subnet ID in the format subnet-xxx. To obtain valid subnet IDs, you can log in to the [console](https://console.tencentcloud.com/vpc/vpc?rid=1) or call DescribeSubnets and look for the unSubnetId fields in the response. If you specify DEFAULT for both SubnetId and VpcId when creating an instance, the default VPC will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#subnet_id CvmChcConfig#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#subnet_id CvmChcConfig#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC ID in the format of vpc-xxx. To obtain valid VPC IDs, you can log in to the [console](https://console.tencentcloud.com/vpc/vpc?rid=1) or call the DescribeVpcEx API and look for the unVpcId fields in the response. If you specify DEFAULT for both VpcId and SubnetId when creating an instance, the default VPC will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#vpc_id CvmChcConfig#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#vpc_id CvmChcConfig#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -511,7 +511,7 @@ export class CvmChcConfigDeployVirtualPrivateCloudOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config tencentcloud_cvm_chc_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config tencentcloud_cvm_chc_config}
 */
 export class CvmChcConfig extends cdktf.TerraformResource {
 
@@ -527,7 +527,7 @@ export class CvmChcConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvmChcConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvmChcConfig to import
-  * @param importFromId The id of the existing CvmChcConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvmChcConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvmChcConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -539,7 +539,7 @@ export class CvmChcConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cvm_chc_config tencentcloud_cvm_chc_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_chc_config tencentcloud_cvm_chc_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -550,8 +550,8 @@ export class CvmChcConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cvm_chc_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

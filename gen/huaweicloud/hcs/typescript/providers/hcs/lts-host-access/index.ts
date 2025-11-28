@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface LtsHostAccessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#host_group_ids LtsHostAccess#host_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#host_group_ids LtsHostAccess#host_group_ids}
   */
   readonly hostGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#id LtsHostAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#id LtsHostAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#log_group_id LtsHostAccess#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#log_group_id LtsHostAccess#log_group_id}
   */
   readonly logGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#log_stream_id LtsHostAccess#log_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#log_stream_id LtsHostAccess#log_stream_id}
   */
   readonly logStreamId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#name LtsHostAccess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#name LtsHostAccess#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#region LtsHostAccess#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#region LtsHostAccess#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#tags LtsHostAccess#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#tags LtsHostAccess#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#access_config LtsHostAccess#access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#access_config LtsHostAccess#access_config}
   */
   readonly accessConfig: LtsHostAccessAccessConfig;
 }
 export interface LtsHostAccessAccessConfigMultiLogFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#mode LtsHostAccess#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#mode LtsHostAccess#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#value LtsHostAccess#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#value LtsHostAccess#value}
   */
   readonly value: string;
 }
@@ -158,11 +158,11 @@ export class LtsHostAccessAccessConfigMultiLogFormatOutputReference extends cdkt
 }
 export interface LtsHostAccessAccessConfigSingleLogFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#mode LtsHostAccess#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#mode LtsHostAccess#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#value LtsHostAccess#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#value LtsHostAccess#value}
   */
   readonly value?: string;
 }
@@ -272,19 +272,19 @@ export class LtsHostAccessAccessConfigSingleLogFormatOutputReference extends cdk
 }
 export interface LtsHostAccessAccessConfigWindowsLogInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#categorys LtsHostAccess#categorys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#categorys LtsHostAccess#categorys}
   */
   readonly categorys: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#event_level LtsHostAccess#event_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#event_level LtsHostAccess#event_level}
   */
   readonly eventLevel: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#time_offset LtsHostAccess#time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#time_offset LtsHostAccess#time_offset}
   */
   readonly timeOffset: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#time_offset_unit LtsHostAccess#time_offset_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#time_offset_unit LtsHostAccess#time_offset_unit}
   */
   readonly timeOffsetUnit: string;
 }
@@ -443,29 +443,29 @@ export class LtsHostAccessAccessConfigWindowsLogInfoOutputReference extends cdkt
 }
 export interface LtsHostAccessAccessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#black_paths LtsHostAccess#black_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#black_paths LtsHostAccess#black_paths}
   */
   readonly blackPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#paths LtsHostAccess#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#paths LtsHostAccess#paths}
   */
   readonly paths: string[];
   /**
   * multi_log_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#multi_log_format LtsHostAccess#multi_log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#multi_log_format LtsHostAccess#multi_log_format}
   */
   readonly multiLogFormat?: LtsHostAccessAccessConfigMultiLogFormat;
   /**
   * single_log_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#single_log_format LtsHostAccess#single_log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#single_log_format LtsHostAccess#single_log_format}
   */
   readonly singleLogFormat?: LtsHostAccessAccessConfigSingleLogFormat;
   /**
   * windows_log_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#windows_log_info LtsHostAccess#windows_log_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#windows_log_info LtsHostAccess#windows_log_info}
   */
   readonly windowsLogInfo?: LtsHostAccessAccessConfigWindowsLogInfo;
 }
@@ -662,7 +662,7 @@ export class LtsHostAccessAccessConfigOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access hcs_lts_host_access}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access hcs_lts_host_access}
 */
 export class LtsHostAccess extends cdktf.TerraformResource {
 
@@ -678,7 +678,7 @@ export class LtsHostAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LtsHostAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LtsHostAccess to import
-  * @param importFromId The id of the existing LtsHostAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LtsHostAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LtsHostAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -690,7 +690,7 @@ export class LtsHostAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_host_access hcs_lts_host_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_host_access hcs_lts_host_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -701,8 +701,8 @@ export class LtsHostAccess extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_lts_host_access',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

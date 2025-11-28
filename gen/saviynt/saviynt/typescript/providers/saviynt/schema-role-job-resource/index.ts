@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/schema_role_job_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/schema_role_job_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface SchemaRoleJobResourceConfig extends cdktf.TerraformMetaArgument
   /**
   * List of Schema Role Job configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/schema_role_job_resource#jobs SchemaRoleJobResource#jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/schema_role_job_resource#jobs SchemaRoleJobResource#jobs}
   */
   readonly jobs: SchemaRoleJobResourceJobs[] | cdktf.IResolvable;
 }
@@ -18,31 +18,31 @@ export interface SchemaRoleJobResourceJobs {
   /**
   * Cron expression defining the schedule for the trigger. Example: "0 0 2 * * ?"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/schema_role_job_resource#cron_exp SchemaRoleJobResource#cron_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/schema_role_job_resource#cron_exp SchemaRoleJobResource#cron_exp}
   */
   readonly cronExp: string;
   /**
   * Group classification for the trigger. Example: "GRAILS_JOBS"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/schema_role_job_resource#group SchemaRoleJobResource#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/schema_role_job_resource#group SchemaRoleJobResource#group}
   */
   readonly group: string;
   /**
   * Name of the job group associated with the trigger. Example: "utility"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/schema_role_job_resource#job_group SchemaRoleJobResource#job_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/schema_role_job_resource#job_group SchemaRoleJobResource#job_group}
   */
   readonly jobGroup: string;
   /**
   * Unique name of the trigger. Example: "MyTrigger_001"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/schema_role_job_resource#name SchemaRoleJobResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/schema_role_job_resource#name SchemaRoleJobResource#name}
   */
   readonly name: string;
   /**
   * Schema file names for the role job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/schema_role_job_resource#schema_file_names SchemaRoleJobResource#schema_file_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/schema_role_job_resource#schema_file_names SchemaRoleJobResource#schema_file_names}
   */
   readonly schemaFileNames?: string;
 }
@@ -262,7 +262,7 @@ export class SchemaRoleJobResourceJobsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/schema_role_job_resource saviynt_schema_role_job_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/schema_role_job_resource saviynt_schema_role_job_resource}
 */
 export class SchemaRoleJobResource extends cdktf.TerraformResource {
 
@@ -278,7 +278,7 @@ export class SchemaRoleJobResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaRoleJobResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaRoleJobResource to import
-  * @param importFromId The id of the existing SchemaRoleJobResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/schema_role_job_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaRoleJobResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/schema_role_job_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaRoleJobResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -290,7 +290,7 @@ export class SchemaRoleJobResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/schema_role_job_resource saviynt_schema_role_job_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/schema_role_job_resource saviynt_schema_role_job_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -301,8 +301,8 @@ export class SchemaRoleJobResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_schema_role_job_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

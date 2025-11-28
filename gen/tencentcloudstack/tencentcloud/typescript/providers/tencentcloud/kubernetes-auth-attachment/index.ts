@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface KubernetesAuthAttachmentConfig extends cdktf.TerraformMetaArgum
   /**
   * Creating ClientId of the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment#auto_create_client_id KubernetesAuthAttachment#auto_create_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment#auto_create_client_id KubernetesAuthAttachment#auto_create_client_id}
   */
   readonly autoCreateClientId?: string[];
   /**
   * If set to `true`, the rbac rule will be created automatically which allow anonymous user to access '/.well-known/openid-configuration' and '/openid/v1/jwks'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment#auto_create_discovery_anonymous_auth KubernetesAuthAttachment#auto_create_discovery_anonymous_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment#auto_create_discovery_anonymous_auth KubernetesAuthAttachment#auto_create_discovery_anonymous_auth}
   */
   readonly autoCreateDiscoveryAnonymousAuth?: boolean | cdktf.IResolvable;
   /**
   * Creating an identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment#auto_create_oidc_config KubernetesAuthAttachment#auto_create_oidc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment#auto_create_oidc_config KubernetesAuthAttachment#auto_create_oidc_config}
   */
   readonly autoCreateOidcConfig?: boolean | cdktf.IResolvable;
   /**
   * Creating the PodIdentityWebhook component. if `auto_create_oidc_config` is true, this field must set true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment#auto_install_pod_identity_webhook_addon KubernetesAuthAttachment#auto_install_pod_identity_webhook_addon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment#auto_install_pod_identity_webhook_addon KubernetesAuthAttachment#auto_install_pod_identity_webhook_addon}
   */
   readonly autoInstallPodIdentityWebhookAddon?: boolean | cdktf.IResolvable;
   /**
   * ID of clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment#cluster_id KubernetesAuthAttachment#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment#cluster_id KubernetesAuthAttachment#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment#id KubernetesAuthAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment#id KubernetesAuthAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,25 +47,25 @@ export interface KubernetesAuthAttachmentConfig extends cdktf.TerraformMetaArgum
   /**
   * Specify service-account-issuer. If use_tke_default is set to `true`, please do not set this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment#issuer KubernetesAuthAttachment#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment#issuer KubernetesAuthAttachment#issuer}
   */
   readonly issuer?: string;
   /**
   * Specify service-account-jwks-uri. If use_tke_default is set to `true`, please do not set this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment#jwks_uri KubernetesAuthAttachment#jwks_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment#jwks_uri KubernetesAuthAttachment#jwks_uri}
   */
   readonly jwksUri?: string;
   /**
   * If set to `true`, the issuer and jwks_uri will be generated automatically by tke, please do not set issuer and jwks_uri.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment#use_tke_default KubernetesAuthAttachment#use_tke_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment#use_tke_default KubernetesAuthAttachment#use_tke_default}
   */
   readonly useTkeDefault?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment tencentcloud_kubernetes_auth_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment tencentcloud_kubernetes_auth_attachment}
 */
 export class KubernetesAuthAttachment extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class KubernetesAuthAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesAuthAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesAuthAttachment to import
-  * @param importFromId The id of the existing KubernetesAuthAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesAuthAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesAuthAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class KubernetesAuthAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_auth_attachment tencentcloud_kubernetes_auth_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_auth_attachment tencentcloud_kubernetes_auth_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class KubernetesAuthAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_kubernetes_auth_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

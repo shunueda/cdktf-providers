@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface ZlbListenerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection timeout for health check. Valid values: `1` to `15`. `health_check_conn_timeout` takes effect only if `health_check_enabled` is set to true. Default is `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#health_check_conn_timeout ZlbListener#health_check_conn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#health_check_conn_timeout ZlbListener#health_check_conn_timeout}
   */
   readonly healthCheckConnTimeout?: number;
   /**
   * Interval between health checks. Measured in second. Valid values: `3` to `30`. `health_check_delay_loop` takes effect only if `health_check_enabled` is set to true. Default is `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#health_check_delay_loop ZlbListener#health_check_delay_loop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#health_check_delay_loop ZlbListener#health_check_delay_loop}
   */
   readonly healthCheckDelayLoop?: number;
   /**
   * Health check delay try time.Valid values: `1` to `15`. `health_check_delay_try` takes effect only if `health_check_enabled` is set to true. Default is `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#health_check_delay_try ZlbListener#health_check_delay_try}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#health_check_delay_try ZlbListener#health_check_delay_try}
   */
   readonly healthCheckDelayTry?: number;
   /**
   * Indicates whether health check is enabled. Default is `true`. When health check is disabled, other health check parameter can't be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#health_check_enabled ZlbListener#health_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#health_check_enabled ZlbListener#health_check_enabled}
   */
   readonly healthCheckEnabled?: boolean | cdktf.IResolvable;
   /**
   * HTTP request URL for health check. The value should start with '/', Default is `/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#health_check_http_get_url ZlbListener#health_check_http_get_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#health_check_http_get_url ZlbListener#health_check_http_get_url}
   */
   readonly healthCheckHttpGetUrl?: string;
   /**
   * HTTP status code for health check. Required when `check_type` is `HTTP_GET`. Valid values: `100` to `599`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#health_check_http_status_code ZlbListener#health_check_http_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#health_check_http_status_code ZlbListener#health_check_http_status_code}
   */
   readonly healthCheckHttpStatusCode?: number;
   /**
   * Health check port. Defaults to the backend server port. Valid values: `1` to `65535`. `health_check_port` takes effect only if `health_check_enabled` is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#health_check_port ZlbListener#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#health_check_port ZlbListener#health_check_port}
   */
   readonly healthCheckPort?: number;
   /**
   * Number of retry attempts for health check. Valid values: `1` to `5`. `health_check_retry` takes effect only if `health_check_enabled` is set to true. Default is `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#health_check_retry ZlbListener#health_check_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#health_check_retry ZlbListener#health_check_retry}
   */
   readonly healthCheckRetry?: number;
   /**
   * Health check protocols. Valid values: `PING_CHECK`, `TCP`, `HTTP_GET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#health_check_type ZlbListener#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#health_check_type ZlbListener#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#id ZlbListener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#id ZlbListener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,57 +71,57 @@ export interface ZlbListenerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Forwarding mode of the listener. Valid values: `DR`, `FNAT`. Default is `FNAT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#kind ZlbListener#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#kind ZlbListener#kind}
   */
   readonly kind?: string;
   /**
   * The name of the load balancer listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#listener_name ZlbListener#listener_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#listener_name ZlbListener#listener_name}
   */
   readonly listenerName: string;
   /**
   * The port of listener. Multiple ports are separated by commas. When the port is a range, connect with -, for example: 10000-10005.The value range of the port is 1 to 65535. Please note that the port cannot overlap with other ports of the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#port ZlbListener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#port ZlbListener#port}
   */
   readonly port: string;
   /**
   * The protocol of listener. Valid values: `TCP`, `UDP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#protocol ZlbListener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#protocol ZlbListener#protocol}
   */
   readonly protocol: string;
   /**
   * Scheduling algorithm of the listener. Valid values: `mh`, `rr`, `wrr`, `lc`, `wlc`, `sh`, `dh`. Default value: `mh`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#scheduler ZlbListener#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#scheduler ZlbListener#scheduler}
   */
   readonly scheduler?: string;
   /**
   * The ID of load balancer that the listener belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#zlb_id ZlbListener#zlb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#zlb_id ZlbListener#zlb_id}
   */
   readonly zlbId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#timeouts ZlbListener#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#timeouts ZlbListener#timeouts}
   */
   readonly timeouts?: ZlbListenerTimeouts;
 }
 export interface ZlbListenerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#create ZlbListener#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#create ZlbListener#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#delete ZlbListener#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#delete ZlbListener#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#update ZlbListener#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#update ZlbListener#update}
   */
   readonly update?: string;
 }
@@ -273,7 +273,7 @@ export class ZlbListenerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener zenlayercloud_zlb_listener}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener zenlayercloud_zlb_listener}
 */
 export class ZlbListener extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class ZlbListener extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZlbListener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZlbListener to import
-  * @param importFromId The id of the existing ZlbListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZlbListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZlbListener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class ZlbListener extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zlb_listener zenlayercloud_zlb_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zlb_listener zenlayercloud_zlb_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class ZlbListener extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zlb_listener',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

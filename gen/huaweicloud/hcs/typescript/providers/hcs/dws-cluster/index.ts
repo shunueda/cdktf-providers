@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DwsClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The availability zone in which to create the cluster instance. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#availability_zone DwsCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#availability_zone DwsCluster#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Dedicated storage pool ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#dss_pool_id DwsCluster#dss_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#dss_pool_id DwsCluster#dss_pool_id}
   */
   readonly dssPoolId?: string;
   /**
   * The enterprise project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#enterprise_project_id DwsCluster#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#enterprise_project_id DwsCluster#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#id DwsCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#id DwsCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,107 +35,107 @@ export interface DwsClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of latest manual snapshots that need to be retained when deleting the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#keep_last_manual_snapshot DwsCluster#keep_last_manual_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#keep_last_manual_snapshot DwsCluster#keep_last_manual_snapshot}
   */
   readonly keepLastManualSnapshot?: number;
   /**
   * The KMS key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#kms_key_id DwsCluster#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#kms_key_id DwsCluster#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#name DwsCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#name DwsCluster#name}
   */
   readonly name: string;
   /**
   * The subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#network_id DwsCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#network_id DwsCluster#network_id}
   */
   readonly networkId: string;
   /**
   * The flavor of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#node_type DwsCluster#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#node_type DwsCluster#node_type}
   */
   readonly nodeType: string;
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#number_of_cn DwsCluster#number_of_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#number_of_cn DwsCluster#number_of_cn}
   */
   readonly numberOfCn?: number;
   /**
   * Number of nodes in a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#number_of_node DwsCluster#number_of_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#number_of_node DwsCluster#number_of_node}
   */
   readonly numberOfNode: number;
   /**
   * Service port of a cluster (8000 to 10000). The default value is 8000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#port DwsCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#port DwsCluster#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#region DwsCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#region DwsCluster#region}
   */
   readonly region?: string;
   /**
   * The security group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#security_group_id DwsCluster#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#security_group_id DwsCluster#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * The key/value pairs to associate with the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#tags DwsCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#tags DwsCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Administrator username for logging in to a data warehouse cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#user_name DwsCluster#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#user_name DwsCluster#user_name}
   */
   readonly userName: string;
   /**
   * Administrator password for logging in to a data warehouse cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#user_pwd DwsCluster#user_pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#user_pwd DwsCluster#user_pwd}
   */
   readonly userPwd: string;
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#version DwsCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#version DwsCluster#version}
   */
   readonly version?: string;
   /**
   * The VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#vpc_id DwsCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#vpc_id DwsCluster#vpc_id}
   */
   readonly vpcId: string;
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#public_ip DwsCluster#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#public_ip DwsCluster#public_ip}
   */
   readonly publicIp?: DwsClusterPublicIp;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#timeouts DwsCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#timeouts DwsCluster#timeouts}
   */
   readonly timeouts?: DwsClusterTimeouts;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#volume DwsCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#volume DwsCluster#volume}
   */
   readonly volume?: DwsClusterVolume;
 }
@@ -388,13 +388,13 @@ export interface DwsClusterPublicIp {
   /**
   * The EIP ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#eip_id DwsCluster#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#eip_id DwsCluster#eip_id}
   */
   readonly eipId?: string;
   /**
   * The bind type of public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#public_bind_type DwsCluster#public_bind_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#public_bind_type DwsCluster#public_bind_type}
   */
   readonly publicBindType?: string;
 }
@@ -507,15 +507,15 @@ export class DwsClusterPublicIpOutputReference extends cdktf.ComplexObject {
 }
 export interface DwsClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#create DwsCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#create DwsCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#delete DwsCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#delete DwsCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#update DwsCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#update DwsCluster#update}
   */
   readonly update?: string;
 }
@@ -669,13 +669,13 @@ export interface DwsClusterVolume {
   /**
   * The capacity size, in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#capacity DwsCluster#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#capacity DwsCluster#capacity}
   */
   readonly capacity?: string;
   /**
   * The volume type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#type DwsCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#type DwsCluster#type}
   */
   readonly type?: string;
 }
@@ -788,7 +788,7 @@ export class DwsClusterVolumeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster hcs_dws_cluster}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster hcs_dws_cluster}
 */
 export class DwsCluster extends cdktf.TerraformResource {
 
@@ -804,7 +804,7 @@ export class DwsCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DwsCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DwsCluster to import
-  * @param importFromId The id of the existing DwsCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DwsCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DwsCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -816,7 +816,7 @@ export class DwsCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_cluster hcs_dws_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_cluster hcs_dws_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -827,8 +827,8 @@ export class DwsCluster extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_dws_cluster',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/disk_settings
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/disk_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DiskSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/disk_settings#___path___ DiskSettings#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/disk_settings#___path___ DiskSettings#___path___}
   */
   readonly path?: string;
   /**
   * Interface that will be used in dynamic instance for ip/media when new disk/partition item is added in '/disk'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/disk_settings#auto_media_interface DiskSettings#auto_media_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/disk_settings#auto_media_interface DiskSettings#auto_media_interface}
   */
   readonly autoMediaInterface?: string;
   /**
   * Enables media dynamically when new disk/partition item is added in '/disk'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/disk_settings#auto_media_sharing DiskSettings#auto_media_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/disk_settings#auto_media_sharing DiskSettings#auto_media_sharing}
   */
   readonly autoMediaSharing?: boolean | cdktf.IResolvable;
   /**
   * Enables dynamic SMB shares when new disk/partition item is added in '/disk'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/disk_settings#auto_smb_sharing DiskSettings#auto_smb_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/disk_settings#auto_smb_sharing DiskSettings#auto_smb_sharing}
   */
   readonly autoSmbSharing?: boolean | cdktf.IResolvable;
   /**
   * Default value for smb-sharing/smb-user setting, when new disk/partition item is added in '/disk'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/disk_settings#auto_smb_user DiskSettings#auto_smb_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/disk_settings#auto_smb_user DiskSettings#auto_smb_user}
   */
   readonly autoSmbUser?: string;
   /**
   * Sets the default mount point template for each item added in `/disk`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/disk_settings#default_mount_point_template DiskSettings#default_mount_point_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/disk_settings#default_mount_point_template DiskSettings#default_mount_point_template}
   */
   readonly defaultMountPointTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/disk_settings#id DiskSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/disk_settings#id DiskSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,7 +53,7 @@ export interface DiskSettingsConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/disk_settings routeros_disk_settings}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/disk_settings routeros_disk_settings}
 */
 export class DiskSettings extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class DiskSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DiskSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DiskSettings to import
-  * @param importFromId The id of the existing DiskSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/disk_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DiskSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/disk_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DiskSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DiskSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/disk_settings routeros_disk_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/disk_settings routeros_disk_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DiskSettings extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_disk_settings',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

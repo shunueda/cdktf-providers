@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_ddos_black_white_ip
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_ddos_black_white_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AntiddosDdosBlackWhiteIpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_ddos_black_white_ip#id AntiddosDdosBlackWhiteIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_ddos_black_white_ip#id AntiddosDdosBlackWhiteIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface AntiddosDdosBlackWhiteIpConfig extends cdktf.TerraformMetaArgum
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_ddos_black_white_ip#instance_id AntiddosDdosBlackWhiteIp#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_ddos_black_white_ip#instance_id AntiddosDdosBlackWhiteIp#instance_id}
   */
   readonly instanceId: string;
   /**
   * ip list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_ddos_black_white_ip#ip AntiddosDdosBlackWhiteIp#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_ddos_black_white_ip#ip AntiddosDdosBlackWhiteIp#ip}
   */
   readonly ip: string;
   /**
   * ip mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_ddos_black_white_ip#mask AntiddosDdosBlackWhiteIp#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_ddos_black_white_ip#mask AntiddosDdosBlackWhiteIp#mask}
   */
   readonly mask: number;
   /**
   * ip type, black: black ip list, white: white ip list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_ddos_black_white_ip#type AntiddosDdosBlackWhiteIp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_ddos_black_white_ip#type AntiddosDdosBlackWhiteIp#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_ddos_black_white_ip tencentcloud_antiddos_ddos_black_white_ip}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_ddos_black_white_ip tencentcloud_antiddos_ddos_black_white_ip}
 */
 export class AntiddosDdosBlackWhiteIp extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AntiddosDdosBlackWhiteIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AntiddosDdosBlackWhiteIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AntiddosDdosBlackWhiteIp to import
-  * @param importFromId The id of the existing AntiddosDdosBlackWhiteIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_ddos_black_white_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AntiddosDdosBlackWhiteIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_ddos_black_white_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AntiddosDdosBlackWhiteIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AntiddosDdosBlackWhiteIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/antiddos_ddos_black_white_ip tencentcloud_antiddos_ddos_black_white_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_ddos_black_white_ip tencentcloud_antiddos_ddos_black_white_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AntiddosDdosBlackWhiteIp extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_antiddos_ddos_black_white_ip',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

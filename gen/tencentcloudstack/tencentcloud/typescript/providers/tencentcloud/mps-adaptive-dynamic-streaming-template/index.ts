@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface MpsAdaptiveDynamicStreamingTemplateConfig extends cdktf.Terrafo
   /**
   * Template description information, length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#comment MpsAdaptiveDynamicStreamingTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#comment MpsAdaptiveDynamicStreamingTemplate#comment}
   */
   readonly comment?: string;
   /**
   * Whether to prohibit video from low bit rate to high bit rate, value range:0: no.1: yes.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#disable_higher_video_bitrate MpsAdaptiveDynamicStreamingTemplate#disable_higher_video_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#disable_higher_video_bitrate MpsAdaptiveDynamicStreamingTemplate#disable_higher_video_bitrate}
   */
   readonly disableHigherVideoBitrate?: number;
   /**
   * Whether to prohibit the conversion of video resolution to high resolution, value range:0: no.1: yes.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#disable_higher_video_resolution MpsAdaptiveDynamicStreamingTemplate#disable_higher_video_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#disable_higher_video_resolution MpsAdaptiveDynamicStreamingTemplate#disable_higher_video_resolution}
   */
   readonly disableHigherVideoResolution?: number;
   /**
   * Adaptive transcoding format, value range:HLS, MPEG-DASH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#format MpsAdaptiveDynamicStreamingTemplate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#format MpsAdaptiveDynamicStreamingTemplate#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#id MpsAdaptiveDynamicStreamingTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#id MpsAdaptiveDynamicStreamingTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface MpsAdaptiveDynamicStreamingTemplateConfig extends cdktf.Terrafo
   /**
   * Template name, length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#name MpsAdaptiveDynamicStreamingTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#name MpsAdaptiveDynamicStreamingTemplate#name}
   */
   readonly name?: string;
   /**
   * stream_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#stream_infos MpsAdaptiveDynamicStreamingTemplate#stream_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#stream_infos MpsAdaptiveDynamicStreamingTemplate#stream_infos}
   */
   readonly streamInfos: MpsAdaptiveDynamicStreamingTemplateStreamInfos[] | cdktf.IResolvable;
 }
@@ -55,25 +55,25 @@ export interface MpsAdaptiveDynamicStreamingTemplateStreamInfosAudio {
   /**
   * Audio channel mode, optional values:`1: single channel.2: Dual channel.6: Stereo.When the package format of the media is an audio format (flac, ogg, mp3, m4a), the number of channels is not allowed to be set to stereo.Default: 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#audio_channel MpsAdaptiveDynamicStreamingTemplate#audio_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#audio_channel MpsAdaptiveDynamicStreamingTemplate#audio_channel}
   */
   readonly audioChannel?: number;
   /**
   * Bit rate of the audio stream, value range: 0 and [26, 256], unit: kbps.When the value is 0, it means that the audio bit rate is consistent with the original audio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#bitrate MpsAdaptiveDynamicStreamingTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#bitrate MpsAdaptiveDynamicStreamingTemplate#bitrate}
   */
   readonly bitrate: number;
   /**
   * Encoding format of audio stream.When the outer parameter Container is mp3, the optional value is:libmp3lame.When the outer parameter Container is ogg or flac, the optional value is:flac.When the outer parameter Container is m4a, the optional value is:libfdk_aac.libmp3lame.ac3.When the outer parameter Container is mp4 or flv, the optional value is:libfdk_aac: more suitable for mp4.libmp3lame: more suitable for flv.When the outer parameter Container is hls, the optional value is:libfdk_aac.libmp3lame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#codec MpsAdaptiveDynamicStreamingTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#codec MpsAdaptiveDynamicStreamingTemplate#codec}
   */
   readonly codec: string;
   /**
   * Sampling rate of audio stream, optional value.32000.44100.48000.Unit: Hz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#sample_rate MpsAdaptiveDynamicStreamingTemplate#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#sample_rate MpsAdaptiveDynamicStreamingTemplate#sample_rate}
   */
   readonly sampleRate: number;
 }
@@ -237,55 +237,55 @@ export interface MpsAdaptiveDynamicStreamingTemplateStreamInfosVideo {
   /**
   * Bit rate of the video stream, value range: 0 and [128, 35000], unit: kbps.When the value is 0, it means that the video bit rate is consistent with the original video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#bitrate MpsAdaptiveDynamicStreamingTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#bitrate MpsAdaptiveDynamicStreamingTemplate#bitrate}
   */
   readonly bitrate: number;
   /**
   * Encoding format of the video stream, optional value:libx264: H.264 encoding.libx265: H.265 encoding.av1: AOMedia Video 1 encoding.Note: Currently H.265 encoding must specify a resolution, and it needs to be within 640*480.Note: av1 encoded containers currently only support mp4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#codec MpsAdaptiveDynamicStreamingTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#codec MpsAdaptiveDynamicStreamingTemplate#codec}
   */
   readonly codec: string;
   /**
   * Filling type, when the aspect ratio of the video stream configuration is inconsistent with the aspect ratio of the original video, the processing method for transcoding is filling. Optional filling type:stretch: Stretching, stretching each frame to fill the entire screen, which may cause the transcoded video to be squashed or stretched.black: Leave black, keep the video aspect ratio unchanged, and fill the rest of the edge with black.white: Leave blank, keep the aspect ratio of the video, and fill the rest of the edge with white.gauss: Gaussian blur, keep the aspect ratio of the video unchanged, and use Gaussian blur for the rest of the edge.Default value: black.Note: Adaptive stream only supports stretch, black.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#fill_type MpsAdaptiveDynamicStreamingTemplate#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#fill_type MpsAdaptiveDynamicStreamingTemplate#fill_type}
   */
   readonly fillType?: string;
   /**
   * Video frame rate, value range: [0, 100], unit: Hz.When the value is 0, it means that the frame rate is consistent with the original video.Note: The value range for adaptive code rate is [0, 60].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#fps MpsAdaptiveDynamicStreamingTemplate#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#fps MpsAdaptiveDynamicStreamingTemplate#fps}
   */
   readonly fps: number;
   /**
   * The interval between keyframe I frames, value range: 0 and [1, 100000], unit: number of frames.When filling 0 or not filling, the system will automatically set the gop length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#gop MpsAdaptiveDynamicStreamingTemplate#gop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#gop MpsAdaptiveDynamicStreamingTemplate#gop}
   */
   readonly gop?: number;
   /**
   * The maximum value of the height (or short side) of the video streaming, value range: 0 and [128, 4096], unit: px.When Width and Height are both 0, the resolution is the same.When Width is 0 and Height is not 0, Width is scaled proportionally.When Width is not 0 and Height is 0, Height is scaled proportionally.When both Width and Height are not 0, the resolution is specified by the user.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#height MpsAdaptiveDynamicStreamingTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#height MpsAdaptiveDynamicStreamingTemplate#height}
   */
   readonly height?: number;
   /**
   * Adaptive resolution, optional value:open: At this time, Width represents the long side of the video, Height represents the short side of the video.close: At this point, Width represents the width of the video, and Height represents the height of the video.Default value: open.Note: In adaptive mode, Width cannot be smaller than Height.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#resolution_adaptive MpsAdaptiveDynamicStreamingTemplate#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#resolution_adaptive MpsAdaptiveDynamicStreamingTemplate#resolution_adaptive}
   */
   readonly resolutionAdaptive?: string;
   /**
   * Video constant bit rate control factor, the value range is [1, 51].If this parameter is specified, the code rate control method of CRF will be used for transcoding (the video code rate will no longer take effect).If there is no special requirement, it is not recommended to specify this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#vcrf MpsAdaptiveDynamicStreamingTemplate#vcrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#vcrf MpsAdaptiveDynamicStreamingTemplate#vcrf}
   */
   readonly vcrf?: number;
   /**
   * The maximum value of the width (or long side) of the video streaming, value range: 0 and [128, 4096], unit: px.When Width and Height are both 0, the resolution is the same.When Width is 0 and Height is not 0, Width is scaled proportionally.When Width is not 0 and Height is 0, Height is scaled proportionally.When both Width and Height are not 0, the resolution is specified by the user.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#width MpsAdaptiveDynamicStreamingTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#width MpsAdaptiveDynamicStreamingTemplate#width}
   */
   readonly width?: number;
 }
@@ -594,25 +594,25 @@ export interface MpsAdaptiveDynamicStreamingTemplateStreamInfos {
   /**
   * Whether to remove audio stream, value:0: reserved.1: remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#remove_audio MpsAdaptiveDynamicStreamingTemplate#remove_audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#remove_audio MpsAdaptiveDynamicStreamingTemplate#remove_audio}
   */
   readonly removeAudio?: number;
   /**
   * Whether to remove video stream, value:0: reserved.1: remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#remove_video MpsAdaptiveDynamicStreamingTemplate#remove_video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#remove_video MpsAdaptiveDynamicStreamingTemplate#remove_video}
   */
   readonly removeVideo?: number;
   /**
   * audio block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#audio MpsAdaptiveDynamicStreamingTemplate#audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#audio MpsAdaptiveDynamicStreamingTemplate#audio}
   */
   readonly audio: MpsAdaptiveDynamicStreamingTemplateStreamInfosAudio;
   /**
   * video block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#video MpsAdaptiveDynamicStreamingTemplate#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#video MpsAdaptiveDynamicStreamingTemplate#video}
   */
   readonly video: MpsAdaptiveDynamicStreamingTemplateStreamInfosVideo;
 }
@@ -809,7 +809,7 @@ export class MpsAdaptiveDynamicStreamingTemplateStreamInfosList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template tencentcloud_mps_adaptive_dynamic_streaming_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template tencentcloud_mps_adaptive_dynamic_streaming_template}
 */
 export class MpsAdaptiveDynamicStreamingTemplate extends cdktf.TerraformResource {
 
@@ -825,7 +825,7 @@ export class MpsAdaptiveDynamicStreamingTemplate extends cdktf.TerraformResource
   * Generates CDKTF code for importing a MpsAdaptiveDynamicStreamingTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsAdaptiveDynamicStreamingTemplate to import
-  * @param importFromId The id of the existing MpsAdaptiveDynamicStreamingTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsAdaptiveDynamicStreamingTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsAdaptiveDynamicStreamingTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -837,7 +837,7 @@ export class MpsAdaptiveDynamicStreamingTemplate extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_adaptive_dynamic_streaming_template tencentcloud_mps_adaptive_dynamic_streaming_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_adaptive_dynamic_streaming_template tencentcloud_mps_adaptive_dynamic_streaming_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -848,8 +848,8 @@ export class MpsAdaptiveDynamicStreamingTemplate extends cdktf.TerraformResource
       terraformResourceType: 'tencentcloud_mps_adaptive_dynamic_streaming_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

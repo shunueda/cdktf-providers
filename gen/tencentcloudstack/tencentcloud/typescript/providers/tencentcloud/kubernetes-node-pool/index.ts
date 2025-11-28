@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface KubernetesNodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatically update instance tags. The default value is false. After configuration, if the scaling group tags are updated, the tags of the running instances in the scaling group will be updated synchronously (synchronous updates only support adding and modifying tags, and do not support deleting tags for the time being). Synchronous updates do not take effect immediately and there is a certain delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#auto_update_instance_tags KubernetesNodePool#auto_update_instance_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#auto_update_instance_tags KubernetesNodePool#auto_update_instance_tags}
   */
   readonly autoUpdateInstanceTags?: boolean | cdktf.IResolvable;
   /**
   * ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#cluster_id KubernetesNodePool#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#cluster_id KubernetesNodePool#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Seconds of scaling group cool down. Default value is `300`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#default_cooldown KubernetesNodePool#default_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#default_cooldown KubernetesNodePool#default_cooldown}
   */
   readonly defaultCooldown?: number;
   /**
   * Indicate to keep the CVM instance when delete the node pool. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#delete_keep_instance KubernetesNodePool#delete_keep_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#delete_keep_instance KubernetesNodePool#delete_keep_instance}
   */
   readonly deleteKeepInstance?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the node pool deletion protection is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#deletion_protection KubernetesNodePool#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#deletion_protection KubernetesNodePool#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Desired capacity of the node. If `enable_auto_scale` is set `true`, this will be a computed parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#desired_capacity KubernetesNodePool#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#desired_capacity KubernetesNodePool#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
   * Indicate whether to enable auto scaling or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#enable_auto_scale KubernetesNodePool#enable_auto_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#enable_auto_scale KubernetesNodePool#enable_auto_scale}
   */
   readonly enableAutoScale?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#id KubernetesNodePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#id KubernetesNodePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,145 +59,145 @@ export interface KubernetesNodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels of kubernetes node pool created nodes. The label key name does not exceed 63 characters, only supports English, numbers,'/','-', and does not allow beginning with ('/').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#labels KubernetesNodePool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#labels KubernetesNodePool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Maximum number of node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#max_size KubernetesNodePool#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#max_size KubernetesNodePool#max_size}
   */
   readonly maxSize: number;
   /**
   * Minimum number of node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#min_size KubernetesNodePool#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#min_size KubernetesNodePool#min_size}
   */
   readonly minSize: number;
   /**
   * Multi-availability zone/subnet policy. Valid values: PRIORITY and EQUALITY. Default value: PRIORITY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#multi_zone_subnet_policy KubernetesNodePool#multi_zone_subnet_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#multi_zone_subnet_policy KubernetesNodePool#multi_zone_subnet_policy}
   */
   readonly multiZoneSubnetPolicy?: string;
   /**
   * Name of the node pool. The name does not exceed 25 characters, and only supports Chinese, English, numbers, underscores, separators (`-`) and decimal points.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#name KubernetesNodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#name KubernetesNodePool#name}
   */
   readonly name: string;
   /**
   * Node pool operating system (enter the image ID for a custom image, and enter the OS name for a public image). If custom image, please refer to [TencentCloud Documentation](https://www.tencentcloud.com/document/product/457/46750?lang=en&pg=#list-of-public-images-supported-by-tke) for available values. Default is 'tlinux2.4x86_64'. This parameter will only affect new nodes, not including the existing nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#node_os KubernetesNodePool#node_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#node_os KubernetesNodePool#node_os}
   */
   readonly nodeOs?: string;
   /**
   * The image version of the node. Valida values are `DOCKER_CUSTOMIZE` and `GENERAL`. Default is `GENERAL`. This parameter will only affect new nodes, not including the existing nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#node_os_type KubernetesNodePool#node_os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#node_os_type KubernetesNodePool#node_os_type}
   */
   readonly nodeOsType?: string;
   /**
   * Available values for retry policies include `IMMEDIATE_RETRY` and `INCREMENTAL_INTERVALS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#retry_policy KubernetesNodePool#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#retry_policy KubernetesNodePool#retry_policy}
   */
   readonly retryPolicy?: string;
   /**
   * Control how many expectations(`desired_capacity`) can be tolerated successfully. Unit is percentage, Default is `100`. Only can be set if `wait_node_ready` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#scale_tolerance KubernetesNodePool#scale_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#scale_tolerance KubernetesNodePool#scale_tolerance}
   */
   readonly scaleTolerance?: number;
   /**
   * Name of relative scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#scaling_group_name KubernetesNodePool#scaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#scaling_group_name KubernetesNodePool#scaling_group_name}
   */
   readonly scalingGroupName?: string;
   /**
   * Project ID the scaling group belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#scaling_group_project_id KubernetesNodePool#scaling_group_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#scaling_group_project_id KubernetesNodePool#scaling_group_project_id}
   */
   readonly scalingGroupProjectId?: number;
   /**
   * Auto scaling mode. Valid values are `CLASSIC_SCALING`(scaling by create/destroy instances), `WAKE_UP_STOPPED_SCALING`(Boot priority for expansion. When expanding the capacity, the shutdown operation is given priority to the shutdown of the instance. If the number of instances is still lower than the expected number of instances after the startup, the instance will be created, and the method of destroying the instance will still be used for shrinking).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#scaling_mode KubernetesNodePool#scaling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#scaling_mode KubernetesNodePool#scaling_mode}
   */
   readonly scalingMode?: string;
   /**
   * ID list of subnet, and for VPC it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#subnet_ids KubernetesNodePool#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#subnet_ids KubernetesNodePool#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * Node pool tag specifications, will passthroughs to the scaling instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#tags KubernetesNodePool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#tags KubernetesNodePool#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Policy of scaling group termination. Available values: `["OLDEST_INSTANCE"]`, `["NEWEST_INSTANCE"]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#termination_policies KubernetesNodePool#termination_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#termination_policies KubernetesNodePool#termination_policies}
   */
   readonly terminationPolicies?: string[];
   /**
   * Sets whether the joining node participates in the schedule. Default is '0'. Participate in scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#unschedulable KubernetesNodePool#unschedulable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#unschedulable KubernetesNodePool#unschedulable}
   */
   readonly unschedulable?: number;
   /**
   * ID of VPC network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#vpc_id KubernetesNodePool#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#vpc_id KubernetesNodePool#vpc_id}
   */
   readonly vpcId: string;
   /**
   * Whether to wait for all desired nodes to be ready. Default is false. Only can be set if `enable_auto_scale` is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#wait_node_ready KubernetesNodePool#wait_node_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#wait_node_ready KubernetesNodePool#wait_node_ready}
   */
   readonly waitNodeReady?: boolean | cdktf.IResolvable;
   /**
   * List of auto scaling group available zones, for Basic network it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#zones KubernetesNodePool#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#zones KubernetesNodePool#zones}
   */
   readonly zones?: string[];
   /**
   * annotations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#annotations KubernetesNodePool#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#annotations KubernetesNodePool#annotations}
   */
   readonly annotations?: KubernetesNodePoolAnnotations[] | cdktf.IResolvable;
   /**
   * auto_scaling_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#auto_scaling_config KubernetesNodePool#auto_scaling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#auto_scaling_config KubernetesNodePool#auto_scaling_config}
   */
   readonly autoScalingConfig: KubernetesNodePoolAutoScalingConfig;
   /**
   * node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#node_config KubernetesNodePool#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#node_config KubernetesNodePool#node_config}
   */
   readonly nodeConfig?: KubernetesNodePoolNodeConfig;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#taints KubernetesNodePool#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#taints KubernetesNodePool#taints}
   */
   readonly taints?: KubernetesNodePoolTaints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#timeouts KubernetesNodePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#timeouts KubernetesNodePool#timeouts}
   */
   readonly timeouts?: KubernetesNodePoolTimeouts;
 }
@@ -205,13 +205,13 @@ export interface KubernetesNodePoolAnnotations {
   /**
   * Name in the map table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#name KubernetesNodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#name KubernetesNodePool#name}
   */
   readonly name: string;
   /**
   * Value in the map table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#value KubernetesNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#value KubernetesNodePool#value}
   */
   readonly value: string;
 }
@@ -352,37 +352,37 @@ export interface KubernetesNodePoolAutoScalingConfigDataDisk {
   /**
   * Indicates whether the disk remove after instance terminated. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#delete_with_instance KubernetesNodePool#delete_with_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#delete_with_instance KubernetesNodePool#delete_with_instance}
   */
   readonly deleteWithInstance?: boolean | cdktf.IResolvable;
   /**
   * Volume of disk in GB. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#disk_size KubernetesNodePool#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#disk_size KubernetesNodePool#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Types of disk. Valid value: `LOCAL_BASIC`, `LOCAL_SSD`, `CLOUD_BASIC`, `CLOUD_PREMIUM`, `CLOUD_SSD`, `CLOUD_HSSD`, `CLOUD_TSSD` and `CLOUD_BSSD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#disk_type KubernetesNodePool#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#disk_type KubernetesNodePool#disk_type}
   */
   readonly diskType?: string;
   /**
   * Specify whether to encrypt data disk, default: false. NOTE: Make sure the instance type is offering and the cam role `QcloudKMSAccessForCVMRole` was provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#encrypt KubernetesNodePool#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#encrypt KubernetesNodePool#encrypt}
   */
   readonly encrypt?: boolean | cdktf.IResolvable;
   /**
   * Data disk snapshot ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#snapshot_id KubernetesNodePool#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#snapshot_id KubernetesNodePool#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * Add extra performance to the data disk. Only works when disk type is `CLOUD_TSSD` or `CLOUD_HSSD` and `data_size` > 460GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#throughput_performance KubernetesNodePool#throughput_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#throughput_performance KubernetesNodePool#throughput_performance}
   */
   readonly throughputPerformance?: number;
 }
@@ -645,163 +645,163 @@ export interface KubernetesNodePoolAutoScalingConfig {
   /**
   * Backup CVM instance types if specified instance type sold out or mismatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#backup_instance_types KubernetesNodePool#backup_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#backup_instance_types KubernetesNodePool#backup_instance_types}
   */
   readonly backupInstanceTypes?: string[];
   /**
   * bandwidth package id. if user is standard user, then the bandwidth_package_id is needed, or default has bandwidth_package_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#bandwidth_package_id KubernetesNodePool#bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#bandwidth_package_id KubernetesNodePool#bandwidth_package_id}
   */
   readonly bandwidthPackageId?: string;
   /**
   * Name of cam role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#cam_role_name KubernetesNodePool#cam_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#cam_role_name KubernetesNodePool#cam_role_name}
   */
   readonly camRoleName?: string;
   /**
   * CDC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#cdc_id KubernetesNodePool#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#cdc_id KubernetesNodePool#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * To specify whether to enable cloud monitor service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#enhanced_monitor_service KubernetesNodePool#enhanced_monitor_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#enhanced_monitor_service KubernetesNodePool#enhanced_monitor_service}
   */
   readonly enhancedMonitorService?: boolean | cdktf.IResolvable;
   /**
   * To specify whether to enable cloud security service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#enhanced_security_service KubernetesNodePool#enhanced_security_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#enhanced_security_service KubernetesNodePool#enhanced_security_service}
   */
   readonly enhancedSecurityService?: boolean | cdktf.IResolvable;
   /**
   * The hostname of the cloud server, dot (.) and dash (-) cannot be used as the first and last characters of HostName and cannot be used consecutively. Windows instances are not supported. Examples of other types (Linux, etc.): The character length is [2, 40], multiple periods are allowed, and there is a paragraph between the dots, and each paragraph is allowed to consist of letters (unlimited case), numbers and dashes (-). Pure numbers are not allowed. For usage, refer to `HostNameSettings` in https://www.tencentcloud.com/document/product/377/31001.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#host_name KubernetesNodePool#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#host_name KubernetesNodePool#host_name}
   */
   readonly hostName?: string;
   /**
   * The style of the host name of the cloud server, the value range includes ORIGINAL and UNIQUE, and the default is ORIGINAL. For usage, refer to `HostNameSettings` in https://www.tencentcloud.com/document/product/377/31001.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#host_name_style KubernetesNodePool#host_name_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#host_name_style KubernetesNodePool#host_name_style}
   */
   readonly hostNameStyle?: string;
   /**
   * Charge type of instance. Valid values are `PREPAID`, `POSTPAID_BY_HOUR`, `SPOTPAID`, `CDCPAID`. The default is `POSTPAID_BY_HOUR`. NOTE: `SPOTPAID` instance must set `spot_instance_type` and `spot_max_price` at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#instance_charge_type KubernetesNodePool#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#instance_charge_type KubernetesNodePool#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * The tenancy (in month) of the prepaid instance, NOTE: it only works when instance_charge_type is set to `PREPAID`. Valid values are `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `24`, `36`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#instance_charge_type_prepaid_period KubernetesNodePool#instance_charge_type_prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#instance_charge_type_prepaid_period KubernetesNodePool#instance_charge_type_prepaid_period}
   */
   readonly instanceChargeTypePrepaidPeriod?: number;
   /**
   * Auto renewal flag. Valid values: `NOTIFY_AND_AUTO_RENEW`: notify upon expiration and renew automatically, `NOTIFY_AND_MANUAL_RENEW`: notify upon expiration but do not renew automatically, `DISABLE_NOTIFY_AND_MANUAL_RENEW`: neither notify upon expiration nor renew automatically. Default value: `NOTIFY_AND_MANUAL_RENEW`. If this parameter is specified as `NOTIFY_AND_AUTO_RENEW`, the instance will be automatically renewed on a monthly basis if the account balance is sufficient. NOTE: it only works when instance_charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#instance_charge_type_prepaid_renew_flag KubernetesNodePool#instance_charge_type_prepaid_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#instance_charge_type_prepaid_renew_flag KubernetesNodePool#instance_charge_type_prepaid_renew_flag}
   */
   readonly instanceChargeTypePrepaidRenewFlag?: string;
   /**
   * Instance name, no more than 60 characters. For usage, refer to `InstanceNameSettings` in https://www.tencentcloud.com/document/product/377/31001.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#instance_name KubernetesNodePool#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#instance_name KubernetesNodePool#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Type of CVM instance name. Valid values: `ORIGINAL` and `UNIQUE`. Default value: `ORIGINAL`. For usage, refer to `InstanceNameSettings` in https://www.tencentcloud.com/document/product/377/31001.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#instance_name_style KubernetesNodePool#instance_name_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#instance_name_style KubernetesNodePool#instance_name_style}
   */
   readonly instanceNameStyle?: string;
   /**
   * Specified types of CVM instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#instance_type KubernetesNodePool#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#instance_type KubernetesNodePool#instance_type}
   */
   readonly instanceType: string;
   /**
   * Charge types for network traffic. Valid value: `BANDWIDTH_PREPAID`, `TRAFFIC_POSTPAID_BY_HOUR` and `BANDWIDTH_PACKAGE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#internet_charge_type KubernetesNodePool#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#internet_charge_type KubernetesNodePool#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
   * Max bandwidth of Internet access in Mbps. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#internet_max_bandwidth_out KubernetesNodePool#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#internet_max_bandwidth_out KubernetesNodePool#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * Type of public IP address. WanIP: Ordinary public IP address; HighQualityEIP: High Quality EIP is supported only in Singapore and Hong Kong; AntiDDoSEIP: Anti-DDoS IP is supported only in specific regions. For details, see EIP Product Overview. Specify the type of public IPv4 address to assign a public IPv4 address to the resource. HighQualityEIP and AntiDDoSEIP features are gradually released in select regions. For usage, submit a ticket for consultation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#ipv4_address_type KubernetesNodePool#ipv4_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#ipv4_address_type KubernetesNodePool#ipv4_address_type}
   */
   readonly ipv4AddressType?: string;
   /**
   * ID list of keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#key_ids KubernetesNodePool#key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#key_ids KubernetesNodePool#key_ids}
   */
   readonly keyIds?: string[];
   /**
   * Ordered security groups to which a CVM instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#orderly_security_group_ids KubernetesNodePool#orderly_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#orderly_security_group_ids KubernetesNodePool#orderly_security_group_ids}
   */
   readonly orderlySecurityGroupIds?: string[];
   /**
   * Password to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#password KubernetesNodePool#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#password KubernetesNodePool#password}
   */
   readonly password?: string;
   /**
   * Specify whether to assign an Internet IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#public_ip_assigned KubernetesNodePool#public_ip_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#public_ip_assigned KubernetesNodePool#public_ip_assigned}
   */
   readonly publicIpAssigned?: boolean | cdktf.IResolvable;
   /**
   * Security groups to which a CVM instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#security_group_ids KubernetesNodePool#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#security_group_ids KubernetesNodePool#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Type of spot instance, only support `one-time` now. Note: it only works when instance_charge_type is set to `SPOTPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#spot_instance_type KubernetesNodePool#spot_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#spot_instance_type KubernetesNodePool#spot_instance_type}
   */
   readonly spotInstanceType?: string;
   /**
   * Max price of a spot instance, is the format of decimal string, for example "0.50". Note: it only works when instance_charge_type is set to `SPOTPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#spot_max_price KubernetesNodePool#spot_max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#spot_max_price KubernetesNodePool#spot_max_price}
   */
   readonly spotMaxPrice?: string;
   /**
   * Volume of system disk in GB. Default is `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#system_disk_size KubernetesNodePool#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#system_disk_size KubernetesNodePool#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
   * Type of a CVM disk. Valid value: `LOCAL_BASIC`, `LOCAL_SSD`, `CLOUD_BASIC`, `CLOUD_PREMIUM`, `CLOUD_SSD`, `CLOUD_HSSD`, `CLOUD_TSSD`, `CLOUD_BSSD` and `LOCAL_NVME`. Default is `CLOUD_PREMIUM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#system_disk_type KubernetesNodePool#system_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#system_disk_type KubernetesNodePool#system_disk_type}
   */
   readonly systemDiskType?: string;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#data_disk KubernetesNodePool#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#data_disk KubernetesNodePool#data_disk}
   */
   readonly dataDisk?: KubernetesNodePoolAutoScalingConfigDataDisk[] | cdktf.IResolvable;
 }
@@ -1638,37 +1638,37 @@ export interface KubernetesNodePoolNodeConfigDataDisk {
   /**
   * Indicate whether to auto format and mount or not. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#auto_format_and_mount KubernetesNodePool#auto_format_and_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#auto_format_and_mount KubernetesNodePool#auto_format_and_mount}
   */
   readonly autoFormatAndMount?: boolean | cdktf.IResolvable;
   /**
   * The name of the device or partition to mount. NOTE: this argument doesn't support setting in node pool, or will leads to mount error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#disk_partition KubernetesNodePool#disk_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#disk_partition KubernetesNodePool#disk_partition}
   */
   readonly diskPartition?: string;
   /**
   * Volume of disk in GB. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#disk_size KubernetesNodePool#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#disk_size KubernetesNodePool#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Types of disk. Valid value: `LOCAL_BASIC`, `LOCAL_SSD`, `CLOUD_BASIC`, `CLOUD_PREMIUM`, `CLOUD_SSD`, `CLOUD_HSSD`, `CLOUD_TSSD`, `CLOUD_BSSD` and `LOCAL_NVME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#disk_type KubernetesNodePool#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#disk_type KubernetesNodePool#disk_type}
   */
   readonly diskType?: string;
   /**
   * File system, e.g. `ext3/ext4/xfs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#file_system KubernetesNodePool#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#file_system KubernetesNodePool#file_system}
   */
   readonly fileSystem?: string;
   /**
   * Mount target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#mount_target KubernetesNodePool#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#mount_target KubernetesNodePool#mount_target}
   */
   readonly mountTarget?: string;
 }
@@ -1931,31 +1931,31 @@ export interface KubernetesNodePoolNodeConfigGpuArgs {
   /**
   * CUDA  version. Format like: `{ version: String, name: String }`. `version`: Version of GPU driver or CUDA; `name`: Name of GPU driver or CUDA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#cuda KubernetesNodePool#cuda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#cuda KubernetesNodePool#cuda}
   */
   readonly cuda?: { [key: string]: string };
   /**
   * cuDNN version. Format like: `{ version: String, name: String, doc_name: String, dev_name: String }`. `version`: cuDNN version; `name`: cuDNN name; `doc_name`: Doc name of cuDNN; `dev_name`: Dev name of cuDNN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#cudnn KubernetesNodePool#cudnn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#cudnn KubernetesNodePool#cudnn}
   */
   readonly cudnn?: { [key: string]: string };
   /**
   * Custom GPU driver. Format like: `{address: String}`. `address`: URL of custom GPU driver address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#custom_driver KubernetesNodePool#custom_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#custom_driver KubernetesNodePool#custom_driver}
   */
   readonly customDriver?: { [key: string]: string };
   /**
   * GPU driver version. Format like: `{ version: String, name: String }`. `version`: Version of GPU driver or CUDA; `name`: Name of GPU driver or CUDA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#driver KubernetesNodePool#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#driver KubernetesNodePool#driver}
   */
   readonly driver?: { [key: string]: string };
   /**
   * Whether to enable MIG.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#mig_enable KubernetesNodePool#mig_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#mig_enable KubernetesNodePool#mig_enable}
   */
   readonly migEnable?: boolean | cdktf.IResolvable;
 }
@@ -2157,55 +2157,55 @@ export interface KubernetesNodePoolNodeConfig {
   /**
   * Indicate to set desired pod number in node. valid when the cluster is podCIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#desired_pod_num KubernetesNodePool#desired_pod_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#desired_pod_num KubernetesNodePool#desired_pod_num}
   */
   readonly desiredPodNum?: number;
   /**
   * Docker graph path. Default is `/var/lib/docker`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#docker_graph_path KubernetesNodePool#docker_graph_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#docker_graph_path KubernetesNodePool#docker_graph_path}
   */
   readonly dockerGraphPath?: string;
   /**
   * Custom parameter information related to the node. This is a white-list parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#extra_args KubernetesNodePool#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#extra_args KubernetesNodePool#extra_args}
   */
   readonly extraArgs?: string[];
   /**
   * Indicate to schedule the adding node or not. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#is_schedule KubernetesNodePool#is_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#is_schedule KubernetesNodePool#is_schedule}
   */
   readonly isSchedule?: boolean | cdktf.IResolvable;
   /**
   * Mount target. Default is not mounting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#mount_target KubernetesNodePool#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#mount_target KubernetesNodePool#mount_target}
   */
   readonly mountTarget?: string;
   /**
   * Base64-encoded user script, executed before initializing the node, currently only effective for adding existing nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#pre_start_user_script KubernetesNodePool#pre_start_user_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#pre_start_user_script KubernetesNodePool#pre_start_user_script}
   */
   readonly preStartUserScript?: string;
   /**
   * Base64-encoded User Data text, the length limit is 16KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#user_data KubernetesNodePool#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#user_data KubernetesNodePool#user_data}
   */
   readonly userData?: string;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#data_disk KubernetesNodePool#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#data_disk KubernetesNodePool#data_disk}
   */
   readonly dataDisk?: KubernetesNodePoolNodeConfigDataDisk[] | cdktf.IResolvable;
   /**
   * gpu_args block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#gpu_args KubernetesNodePool#gpu_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#gpu_args KubernetesNodePool#gpu_args}
   */
   readonly gpuArgs?: KubernetesNodePoolNodeConfigGpuArgs;
 }
@@ -2523,19 +2523,19 @@ export interface KubernetesNodePoolTaints {
   /**
   * Effect of the taint. Valid values are: `NoSchedule`, `PreferNoSchedule`, `NoExecute`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#effect KubernetesNodePool#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#effect KubernetesNodePool#effect}
   */
   readonly effect: string;
   /**
   * Key of the taint. The taint key name does not exceed 63 characters, only supports English, numbers,'/','-', and does not allow beginning with ('/').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#key KubernetesNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#key KubernetesNodePool#key}
   */
   readonly key: string;
   /**
   * Value of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#value KubernetesNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#value KubernetesNodePool#value}
   */
   readonly value: string;
 }
@@ -2700,11 +2700,11 @@ export class KubernetesNodePoolTaintsList extends cdktf.ComplexList {
 }
 export interface KubernetesNodePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#create KubernetesNodePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#create KubernetesNodePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#update KubernetesNodePool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#update KubernetesNodePool#update}
   */
   readonly update?: string;
 }
@@ -2827,7 +2827,7 @@ export class KubernetesNodePoolTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool tencentcloud_kubernetes_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool tencentcloud_kubernetes_node_pool}
 */
 export class KubernetesNodePool extends cdktf.TerraformResource {
 
@@ -2843,7 +2843,7 @@ export class KubernetesNodePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesNodePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesNodePool to import
-  * @param importFromId The id of the existing KubernetesNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesNodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2855,7 +2855,7 @@ export class KubernetesNodePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/kubernetes_node_pool tencentcloud_kubernetes_node_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/kubernetes_node_pool tencentcloud_kubernetes_node_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2866,8 +2866,8 @@ export class KubernetesNodePool extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_kubernetes_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

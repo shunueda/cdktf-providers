@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_backup
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_general_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SqlserverGeneralBackupConfig extends cdktf.TerraformMetaArgumen
   /**
   * Backup name. If this parameter is left empty, a backup name in the format of [Instance ID]_[Backup start timestamp] will be automatically generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_backup#backup_name SqlserverGeneralBackup#backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_general_backup#backup_name SqlserverGeneralBackup#backup_name}
   */
   readonly backupName?: string;
   /**
   * List of names of databases to be backed up (required only for multi-database backup).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_backup#db_names SqlserverGeneralBackup#db_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_general_backup#db_names SqlserverGeneralBackup#db_names}
   */
   readonly dbNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_backup#id SqlserverGeneralBackup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_general_backup#id SqlserverGeneralBackup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface SqlserverGeneralBackupConfig extends cdktf.TerraformMetaArgumen
   /**
   * Instance ID in the format of mssql-i1z41iwd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_backup#instance_id SqlserverGeneralBackup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_general_backup#instance_id SqlserverGeneralBackup#instance_id}
   */
   readonly instanceId: string;
   /**
   * Backup policy (0: instance backup, 1: multi-database backup).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_backup#strategy SqlserverGeneralBackup#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_general_backup#strategy SqlserverGeneralBackup#strategy}
   */
   readonly strategy?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_backup tencentcloud_sqlserver_general_backup}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_general_backup tencentcloud_sqlserver_general_backup}
 */
 export class SqlserverGeneralBackup extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SqlserverGeneralBackup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverGeneralBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverGeneralBackup to import
-  * @param importFromId The id of the existing SqlserverGeneralBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverGeneralBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_general_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverGeneralBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SqlserverGeneralBackup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/sqlserver_general_backup tencentcloud_sqlserver_general_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_general_backup tencentcloud_sqlserver_general_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class SqlserverGeneralBackup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_general_backup',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudGaapProxyGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups#id DataTencentcloudGaapProxyGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups#id DataTencentcloudGaapProxyGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudGaapProxyGroupsConfig extends cdktf.TerraformMe
   /**
   * Project ID. Value range:-1, All projects under this user0, default projectOther values, specified items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups#project_id DataTencentcloudGaapProxyGroups#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups#project_id DataTencentcloudGaapProxyGroups#project_id}
   */
   readonly projectId: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups#result_output_file DataTencentcloudGaapProxyGroups#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups#result_output_file DataTencentcloudGaapProxyGroups#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups#filters DataTencentcloudGaapProxyGroups#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups#filters DataTencentcloudGaapProxyGroups#filters}
   */
   readonly filters?: DataTencentcloudGaapProxyGroupsFilters[] | cdktf.IResolvable;
   /**
   * tag_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups#tag_set DataTencentcloudGaapProxyGroups#tag_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups#tag_set DataTencentcloudGaapProxyGroups#tag_set}
   */
   readonly tagSet?: DataTencentcloudGaapProxyGroupsTagSet[] | cdktf.IResolvable;
 }
@@ -436,13 +436,13 @@ export interface DataTencentcloudGaapProxyGroupsFilters {
   /**
   * Filter conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups#name DataTencentcloudGaapProxyGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups#name DataTencentcloudGaapProxyGroups#name}
   */
   readonly name: string;
   /**
   * filtering value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups#values DataTencentcloudGaapProxyGroups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups#values DataTencentcloudGaapProxyGroups#values}
   */
   readonly values: string[];
 }
@@ -583,13 +583,13 @@ export interface DataTencentcloudGaapProxyGroupsTagSet {
   /**
   * Tag Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups#tag_key DataTencentcloudGaapProxyGroups#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups#tag_key DataTencentcloudGaapProxyGroups#tag_key}
   */
   readonly tagKey: string;
   /**
   * Tag Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups#tag_value DataTencentcloudGaapProxyGroups#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups#tag_value DataTencentcloudGaapProxyGroups#tag_value}
   */
   readonly tagValue: string;
 }
@@ -728,7 +728,7 @@ export class DataTencentcloudGaapProxyGroupsTagSetList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups tencentcloud_gaap_proxy_groups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups tencentcloud_gaap_proxy_groups}
 */
 export class DataTencentcloudGaapProxyGroups extends cdktf.TerraformDataSource {
 
@@ -744,7 +744,7 @@ export class DataTencentcloudGaapProxyGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudGaapProxyGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudGaapProxyGroups to import
-  * @param importFromId The id of the existing DataTencentcloudGaapProxyGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudGaapProxyGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudGaapProxyGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -756,7 +756,7 @@ export class DataTencentcloudGaapProxyGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/gaap_proxy_groups tencentcloud_gaap_proxy_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_proxy_groups tencentcloud_gaap_proxy_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -767,8 +767,8 @@ export class DataTencentcloudGaapProxyGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_gaap_proxy_groups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

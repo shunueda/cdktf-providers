@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/identity_center_role_configurations
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/identity_center_role_configurations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudIdentityCenterRoleConfigurationsConfig extends 
   /**
   * Filter criteria, which are case insensitive. Currently, only RoleConfigurationName is supported and only eq (Equals) and sw (Start With) are supported. Example: Filter = "RoleConfigurationName, only sw test" means querying all permission configurations starting with test. Filter = "RoleConfigurationName, only eq TestRoleConfiguration" means querying the permission configuration named TestRoleConfiguration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/identity_center_role_configurations#filter DataTencentcloudIdentityCenterRoleConfigurations#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/identity_center_role_configurations#filter DataTencentcloudIdentityCenterRoleConfigurations#filter}
   */
   readonly filter?: string;
   /**
   * Check whether the member account has been configured with permissions. If configured, return IsSelected: true; otherwise, return false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/identity_center_role_configurations#filter_targets DataTencentcloudIdentityCenterRoleConfigurations#filter_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/identity_center_role_configurations#filter_targets DataTencentcloudIdentityCenterRoleConfigurations#filter_targets}
   */
   readonly filterTargets?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/identity_center_role_configurations#id DataTencentcloudIdentityCenterRoleConfigurations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/identity_center_role_configurations#id DataTencentcloudIdentityCenterRoleConfigurations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudIdentityCenterRoleConfigurationsConfig extends 
   /**
   * UserId of the authorized user or GroupId of the authorized user group, which must be set together with the input parameter FilterTargets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/identity_center_role_configurations#principal_id DataTencentcloudIdentityCenterRoleConfigurations#principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/identity_center_role_configurations#principal_id DataTencentcloudIdentityCenterRoleConfigurations#principal_id}
   */
   readonly principalId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/identity_center_role_configurations#result_output_file DataTencentcloudIdentityCenterRoleConfigurations#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/identity_center_role_configurations#result_output_file DataTencentcloudIdentityCenterRoleConfigurations#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Space ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/identity_center_role_configurations#zone_id DataTencentcloudIdentityCenterRoleConfigurations#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/identity_center_role_configurations#zone_id DataTencentcloudIdentityCenterRoleConfigurations#zone_id}
   */
   readonly zoneId: string;
 }
@@ -157,7 +157,7 @@ export class DataTencentcloudIdentityCenterRoleConfigurationsRoleConfigurationsL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/identity_center_role_configurations tencentcloud_identity_center_role_configurations}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/identity_center_role_configurations tencentcloud_identity_center_role_configurations}
 */
 export class DataTencentcloudIdentityCenterRoleConfigurations extends cdktf.TerraformDataSource {
 
@@ -173,7 +173,7 @@ export class DataTencentcloudIdentityCenterRoleConfigurations extends cdktf.Terr
   * Generates CDKTF code for importing a DataTencentcloudIdentityCenterRoleConfigurations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudIdentityCenterRoleConfigurations to import
-  * @param importFromId The id of the existing DataTencentcloudIdentityCenterRoleConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/identity_center_role_configurations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudIdentityCenterRoleConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/identity_center_role_configurations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudIdentityCenterRoleConfigurations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class DataTencentcloudIdentityCenterRoleConfigurations extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/identity_center_role_configurations tencentcloud_identity_center_role_configurations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/identity_center_role_configurations tencentcloud_identity_center_role_configurations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class DataTencentcloudIdentityCenterRoleConfigurations extends cdktf.Terr
       terraformResourceType: 'tencentcloud_identity_center_role_configurations',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

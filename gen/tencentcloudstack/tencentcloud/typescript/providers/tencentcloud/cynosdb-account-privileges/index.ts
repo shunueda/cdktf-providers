@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CynosdbAccountPrivilegesConfig extends cdktf.TerraformMetaArgum
   /**
   * Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#account_name CynosdbAccountPrivileges#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#account_name CynosdbAccountPrivileges#account_name}
   */
   readonly accountName: string;
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#cluster_id CynosdbAccountPrivileges#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#cluster_id CynosdbAccountPrivileges#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Array of global permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#global_privileges CynosdbAccountPrivileges#global_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#global_privileges CynosdbAccountPrivileges#global_privileges}
   */
   readonly globalPrivileges: string[];
   /**
   * Host, default `%`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#host CynosdbAccountPrivileges#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#host CynosdbAccountPrivileges#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#id CynosdbAccountPrivileges#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#id CynosdbAccountPrivileges#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface CynosdbAccountPrivilegesConfig extends cdktf.TerraformMetaArgum
   /**
   * database_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#database_privileges CynosdbAccountPrivileges#database_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#database_privileges CynosdbAccountPrivileges#database_privileges}
   */
   readonly databasePrivileges?: CynosdbAccountPrivilegesDatabasePrivileges[] | cdktf.IResolvable;
   /**
   * table_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#table_privileges CynosdbAccountPrivileges#table_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#table_privileges CynosdbAccountPrivileges#table_privileges}
   */
   readonly tablePrivileges?: CynosdbAccountPrivilegesTablePrivileges[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface CynosdbAccountPrivilegesDatabasePrivileges {
   /**
   * Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#db CynosdbAccountPrivileges#db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#db CynosdbAccountPrivileges#db}
   */
   readonly db: string;
   /**
   * Database privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#privileges CynosdbAccountPrivileges#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#privileges CynosdbAccountPrivileges#privileges}
   */
   readonly privileges: string[];
 }
@@ -202,19 +202,19 @@ export interface CynosdbAccountPrivilegesTablePrivileges {
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#db CynosdbAccountPrivileges#db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#db CynosdbAccountPrivileges#db}
   */
   readonly db: string;
   /**
   * Table privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#privileges CynosdbAccountPrivileges#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#privileges CynosdbAccountPrivileges#privileges}
   */
   readonly privileges: string[];
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#table_name CynosdbAccountPrivileges#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#table_name CynosdbAccountPrivileges#table_name}
   */
   readonly tableName: string;
 }
@@ -379,7 +379,7 @@ export class CynosdbAccountPrivilegesTablePrivilegesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges tencentcloud_cynosdb_account_privileges}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges tencentcloud_cynosdb_account_privileges}
 */
 export class CynosdbAccountPrivileges extends cdktf.TerraformResource {
 
@@ -395,7 +395,7 @@ export class CynosdbAccountPrivileges extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbAccountPrivileges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbAccountPrivileges to import
-  * @param importFromId The id of the existing CynosdbAccountPrivileges that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbAccountPrivileges that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbAccountPrivileges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -407,7 +407,7 @@ export class CynosdbAccountPrivileges extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cynosdb_account_privileges tencentcloud_cynosdb_account_privileges} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_account_privileges tencentcloud_cynosdb_account_privileges} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,8 +418,8 @@ export class CynosdbAccountPrivileges extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_account_privileges',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

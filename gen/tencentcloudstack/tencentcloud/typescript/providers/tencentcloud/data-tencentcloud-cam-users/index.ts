@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudCamUsersConfig extends cdktf.TerraformMetaArgum
   /**
   * Indicate whether the user can login in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users#console_login DataTencentcloudCamUsers#console_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users#console_login DataTencentcloudCamUsers#console_login}
   */
   readonly consoleLogin?: boolean | cdktf.IResolvable;
   /**
   * Country code of the CAM user to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users#country_code DataTencentcloudCamUsers#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users#country_code DataTencentcloudCamUsers#country_code}
   */
   readonly countryCode?: string;
   /**
   * Email of the CAM user to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users#email DataTencentcloudCamUsers#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users#email DataTencentcloudCamUsers#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users#id DataTencentcloudCamUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users#id DataTencentcloudCamUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface DataTencentcloudCamUsersConfig extends cdktf.TerraformMetaArgum
   /**
   * Name of CAM user to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users#name DataTencentcloudCamUsers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users#name DataTencentcloudCamUsers#name}
   */
   readonly name?: string;
   /**
   * Phone num of the CAM user to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users#phone_num DataTencentcloudCamUsers#phone_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users#phone_num DataTencentcloudCamUsers#phone_num}
   */
   readonly phoneNum?: string;
   /**
   * Remark of the CAM user to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users#remark DataTencentcloudCamUsers#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users#remark DataTencentcloudCamUsers#remark}
   */
   readonly remark?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users#result_output_file DataTencentcloudCamUsers#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users#result_output_file DataTencentcloudCamUsers#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Uid of the CAM user to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users#uid DataTencentcloudCamUsers#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users#uid DataTencentcloudCamUsers#uid}
   */
   readonly uid?: number;
   /**
   * Uin of the CAM user to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users#uin DataTencentcloudCamUsers#uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users#uin DataTencentcloudCamUsers#uin}
   */
   readonly uin?: number;
 }
@@ -186,7 +186,7 @@ export class DataTencentcloudCamUsersUserListStructList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users tencentcloud_cam_users}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users tencentcloud_cam_users}
 */
 export class DataTencentcloudCamUsers extends cdktf.TerraformDataSource {
 
@@ -202,7 +202,7 @@ export class DataTencentcloudCamUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCamUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCamUsers to import
-  * @param importFromId The id of the existing DataTencentcloudCamUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCamUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCamUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class DataTencentcloudCamUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cam_users tencentcloud_cam_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_users tencentcloud_cam_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class DataTencentcloudCamUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cam_users',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

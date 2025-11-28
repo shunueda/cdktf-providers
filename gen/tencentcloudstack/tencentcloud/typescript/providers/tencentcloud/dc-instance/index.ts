@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface DcInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access point of connection.You can call `DescribeAccessPoints` to get the region ID. The selected access point must exist and be available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#access_point_id DcInstance#access_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#access_point_id DcInstance#access_point_id}
   */
   readonly accessPointId: string;
   /**
   * Connection port bandwidth in Mbps. Value range: [2,10240]. Default value: 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#bandwidth DcInstance#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#bandwidth DcInstance#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Circuit code of a connection, which is provided by the ISP or connection provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#circuit_code DcInstance#circuit_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#circuit_code DcInstance#circuit_code}
   */
   readonly circuitCode?: string;
   /**
   * User-side IP address for connection debugging, which is automatically assigned by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#customer_address DcInstance#customer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#customer_address DcInstance#customer_address}
   */
   readonly customerAddress?: string;
   /**
   * Email address of connection applicant, which is obtained from the account system by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#customer_contact_mail DcInstance#customer_contact_mail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#customer_contact_mail DcInstance#customer_contact_mail}
   */
   readonly customerContactMail?: string;
   /**
   * Contact number of connection applicant, which is obtained from the account system by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#customer_contact_number DcInstance#customer_contact_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#customer_contact_number DcInstance#customer_contact_number}
   */
   readonly customerContactNumber?: string;
   /**
   * Name of connection applicant, which is obtained from the account system by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#customer_name DcInstance#customer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#customer_name DcInstance#customer_name}
   */
   readonly customerName?: string;
   /**
   * Connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#direct_connect_name DcInstance#direct_connect_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#direct_connect_name DcInstance#direct_connect_name}
   */
   readonly directConnectName: string;
   /**
   * Fault reporting contact number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#fault_report_contact_number DcInstance#fault_report_contact_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#fault_report_contact_number DcInstance#fault_report_contact_number}
   */
   readonly faultReportContactNumber?: string;
   /**
   * Fault reporting contact person.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#fault_report_contact_person DcInstance#fault_report_contact_person}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#fault_report_contact_person DcInstance#fault_report_contact_person}
   */
   readonly faultReportContactPerson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#id DcInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#id DcInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,49 +77,49 @@ export interface DcInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * ISP that provides connections. Valid values: ChinaTelecom (China Telecom), ChinaMobile (China Mobile), ChinaUnicom (China Unicom), In-houseWiring (in-house wiring), ChinaOther (other Chinese ISPs), InternationalOperator (international ISPs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#line_operator DcInstance#line_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#line_operator DcInstance#line_operator}
   */
   readonly lineOperator: string;
   /**
   * Local IDC location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#location DcInstance#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#location DcInstance#location}
   */
   readonly location?: string;
   /**
   * Port type of connection. Valid values: 100Base-T (100-Megabit electrical Ethernet interface), 1000Base-T (1-Gigabit electrical Ethernet interface), 1000Base-LX (1-Gigabit single-module optical Ethernet interface; 10 KM), 10GBase-T (10-Gigabit electrical Ethernet interface), 10GBase-LR (10-Gigabit single-module optical Ethernet interface; 10 KM). Default value: 1000Base-LX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#port_type DcInstance#port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#port_type DcInstance#port_type}
   */
   readonly portType: string;
   /**
   * ID of redundant connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#redundant_direct_connect_id DcInstance#redundant_direct_connect_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#redundant_direct_connect_id DcInstance#redundant_direct_connect_id}
   */
   readonly redundantDirectConnectId?: string;
   /**
   * Whether the connection applicant has signed the service agreement. Default value: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#sign_law DcInstance#sign_law}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#sign_law DcInstance#sign_law}
   */
   readonly signLaw?: boolean | cdktf.IResolvable;
   /**
   * Tencent-side IP address for connection debugging, which is automatically assigned by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#tencent_address DcInstance#tencent_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#tencent_address DcInstance#tencent_address}
   */
   readonly tencentAddress?: string;
   /**
   * VLAN for connection debugging, which is enabled and automatically assigned by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#vlan DcInstance#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#vlan DcInstance#vlan}
   */
   readonly vlan?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance tencentcloud_dc_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance tencentcloud_dc_instance}
 */
 export class DcInstance extends cdktf.TerraformResource {
 
@@ -135,7 +135,7 @@ export class DcInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcInstance to import
-  * @param importFromId The id of the existing DcInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class DcInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dc_instance tencentcloud_dc_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dc_instance tencentcloud_dc_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class DcInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dc_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

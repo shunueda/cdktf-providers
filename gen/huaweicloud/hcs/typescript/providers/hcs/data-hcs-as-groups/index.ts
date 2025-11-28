@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/as_groups
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/as_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataHcsAsGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Enterprise Project id used to query group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/as_groups#enterprise_project_id DataHcsAsGroups#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/as_groups#enterprise_project_id DataHcsAsGroups#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/as_groups#id DataHcsAsGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/as_groups#id DataHcsAsGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataHcsAsGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The AS group name used to query group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/as_groups#name DataHcsAsGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/as_groups#name DataHcsAsGroups#name}
   */
   readonly name?: string;
   /**
   * The region where the AS groups are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/as_groups#region DataHcsAsGroups#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/as_groups#region DataHcsAsGroups#region}
   */
   readonly region?: string;
   /**
   * The AS group configuration id used to query group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/as_groups#scaling_configuration_id DataHcsAsGroups#scaling_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/as_groups#scaling_configuration_id DataHcsAsGroups#scaling_configuration_id}
   */
   readonly scalingConfigurationId?: string;
   /**
   * The AS group status used to query group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/as_groups#status DataHcsAsGroups#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/as_groups#status DataHcsAsGroups#status}
   */
   readonly status?: string;
 }
@@ -526,7 +526,7 @@ export class DataHcsAsGroupsGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/as_groups hcs_as_groups}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/as_groups hcs_as_groups}
 */
 export class DataHcsAsGroups extends cdktf.TerraformDataSource {
 
@@ -542,7 +542,7 @@ export class DataHcsAsGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsAsGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsAsGroups to import
-  * @param importFromId The id of the existing DataHcsAsGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/as_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsAsGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/as_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsAsGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -554,7 +554,7 @@ export class DataHcsAsGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/as_groups hcs_as_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/as_groups hcs_as_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -565,8 +565,8 @@ export class DataHcsAsGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_as_groups',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

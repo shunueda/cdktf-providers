@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/zone_rrsets
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/zone_rrsets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataHcloudZoneRrsetsConfig extends cdktf.TerraformMetaArguments
   /**
   * Filter results using a [Label Selector](https://docs.hetzner.cloud/reference/cloud#label-selector)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/zone_rrsets#with_selector DataHcloudZoneRrsets#with_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/zone_rrsets#with_selector DataHcloudZoneRrsets#with_selector}
   */
   readonly withSelector?: string;
   /**
   * ID or Name of the parent Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/zone_rrsets#zone DataHcloudZoneRrsets#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/zone_rrsets#zone DataHcloudZoneRrsets#zone}
   */
   readonly zone: string;
 }
@@ -104,7 +104,7 @@ export interface DataHcloudZoneRrsetsRrsets {
   /**
   * ID or Name of the parent Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/zone_rrsets#zone DataHcloudZoneRrsets#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/zone_rrsets#zone DataHcloudZoneRrsets#zone}
   */
   readonly zone?: string;
 }
@@ -194,7 +194,7 @@ export class DataHcloudZoneRrsetsRrsetsOutputReference extends cdktf.ComplexObje
   }
 
   // records - computed: true, optional: false, required: false
-  private _records = new DataHcloudZoneRrsetsRrsetsRecordsList(this, "records", false);
+  private _records = new DataHcloudZoneRrsetsRrsetsRecordsList(this, "records", true);
   public get records() {
     return this._records;
   }
@@ -247,7 +247,7 @@ export class DataHcloudZoneRrsetsRrsetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/zone_rrsets hcloud_zone_rrsets}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/zone_rrsets hcloud_zone_rrsets}
 */
 export class DataHcloudZoneRrsets extends cdktf.TerraformDataSource {
 
@@ -263,7 +263,7 @@ export class DataHcloudZoneRrsets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcloudZoneRrsets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcloudZoneRrsets to import
-  * @param importFromId The id of the existing DataHcloudZoneRrsets that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/zone_rrsets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcloudZoneRrsets that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/zone_rrsets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcloudZoneRrsets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class DataHcloudZoneRrsets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/zone_rrsets hcloud_zone_rrsets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/data-sources/zone_rrsets hcloud_zone_rrsets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,8 +286,8 @@ export class DataHcloudZoneRrsets extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcloud_zone_rrsets',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.56.0',
-        providerVersionConstraint: '1.56.0'
+        providerVersion: '1.57.0',
+        providerVersionConstraint: '1.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

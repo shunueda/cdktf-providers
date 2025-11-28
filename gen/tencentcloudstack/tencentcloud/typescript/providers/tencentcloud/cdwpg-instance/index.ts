@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CdwpgInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * cluster password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#admin_password CdwpgInstance#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#admin_password CdwpgInstance#admin_password}
   */
   readonly adminPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#id CdwpgInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#id CdwpgInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface CdwpgInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#instance_name CdwpgInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#instance_name CdwpgInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#product_version CdwpgInstance#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#product_version CdwpgInstance#product_version}
   */
   readonly productVersion?: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#tags CdwpgInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#tags CdwpgInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#user_subnet_id CdwpgInstance#user_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#user_subnet_id CdwpgInstance#user_subnet_id}
   */
   readonly userSubnetId: string;
   /**
   * private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#user_vpc_id CdwpgInstance#user_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#user_vpc_id CdwpgInstance#user_vpc_id}
   */
   readonly userVpcId: string;
   /**
   * Availability Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#zone CdwpgInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#zone CdwpgInstance#zone}
   */
   readonly zone: string;
   /**
   * charge_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#charge_properties CdwpgInstance#charge_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#charge_properties CdwpgInstance#charge_properties}
   */
   readonly chargeProperties: CdwpgInstanceChargeProperties;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#resources CdwpgInstance#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#resources CdwpgInstance#resources}
   */
   readonly resources: CdwpgInstanceResources[] | cdktf.IResolvable;
 }
@@ -73,25 +73,25 @@ export interface CdwpgInstanceChargeProperties {
   /**
   * Charge type, vaild values: PREPAID, POSTPAID_BY_HOUR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#charge_type CdwpgInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#charge_type CdwpgInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
   * 0-no automatic renewal,1-automatic renewalNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#renew_flag CdwpgInstance#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#renew_flag CdwpgInstance#renew_flag}
   */
   readonly renewFlag: number;
   /**
   * Time RangeNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#time_span CdwpgInstance#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#time_span CdwpgInstance#time_span}
   */
   readonly timeSpan: number;
   /**
   * Time Unit,Generally h and mNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#time_unit CdwpgInstance#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#time_unit CdwpgInstance#time_unit}
   */
   readonly timeUnit: string;
 }
@@ -255,19 +255,19 @@ export interface CdwpgInstanceResourcesDiskSpec {
   /**
   * disk count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#disk_count CdwpgInstance#disk_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#disk_count CdwpgInstance#disk_count}
   */
   readonly diskCount: number;
   /**
   * disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#disk_size CdwpgInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#disk_size CdwpgInstance#disk_size}
   */
   readonly diskSize: number;
   /**
   * disk type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#disk_type CdwpgInstance#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#disk_type CdwpgInstance#disk_type}
   */
   readonly diskType: string;
 }
@@ -402,25 +402,25 @@ export interface CdwpgInstanceResources {
   /**
   * resource count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#count CdwpgInstance#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#count CdwpgInstance#count}
   */
   readonly count: number;
   /**
   * resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#spec_name CdwpgInstance#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#spec_name CdwpgInstance#spec_name}
   */
   readonly specName: string;
   /**
   * resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#type CdwpgInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#type CdwpgInstance#type}
   */
   readonly type: string;
   /**
   * disk_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#disk_spec CdwpgInstance#disk_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#disk_spec CdwpgInstance#disk_spec}
   */
   readonly diskSpec: CdwpgInstanceResourcesDiskSpec;
 }
@@ -611,7 +611,7 @@ export class CdwpgInstanceResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance tencentcloud_cdwpg_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance tencentcloud_cdwpg_instance}
 */
 export class CdwpgInstance extends cdktf.TerraformResource {
 
@@ -627,7 +627,7 @@ export class CdwpgInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdwpgInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdwpgInstance to import
-  * @param importFromId The id of the existing CdwpgInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdwpgInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdwpgInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -639,7 +639,7 @@ export class CdwpgInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/cdwpg_instance tencentcloud_cdwpg_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cdwpg_instance tencentcloud_cdwpg_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -650,8 +650,8 @@ export class CdwpgInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cdwpg_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

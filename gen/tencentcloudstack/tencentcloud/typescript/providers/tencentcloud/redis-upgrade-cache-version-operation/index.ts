@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_cache_version_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/redis_upgrade_cache_version_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RedisUpgradeCacheVersionOperationConfig extends cdktf.Terraform
   /**
   * Current redis version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_cache_version_operation#current_redis_version RedisUpgradeCacheVersionOperation#current_redis_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/redis_upgrade_cache_version_operation#current_redis_version RedisUpgradeCacheVersionOperation#current_redis_version}
   */
   readonly currentRedisVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_cache_version_operation#id RedisUpgradeCacheVersionOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/redis_upgrade_cache_version_operation#id RedisUpgradeCacheVersionOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface RedisUpgradeCacheVersionOperationConfig extends cdktf.Terraform
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_cache_version_operation#instance_id RedisUpgradeCacheVersionOperation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/redis_upgrade_cache_version_operation#instance_id RedisUpgradeCacheVersionOperation#instance_id}
   */
   readonly instanceId: string;
   /**
   * Switch mode:1 - Upgrade now0 - Maintenance window upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_cache_version_operation#instance_type_upgrade_now RedisUpgradeCacheVersionOperation#instance_type_upgrade_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/redis_upgrade_cache_version_operation#instance_type_upgrade_now RedisUpgradeCacheVersionOperation#instance_type_upgrade_now}
   */
   readonly instanceTypeUpgradeNow: number;
   /**
   * Upgradeable redis version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_cache_version_operation#upgrade_redis_version RedisUpgradeCacheVersionOperation#upgrade_redis_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/redis_upgrade_cache_version_operation#upgrade_redis_version RedisUpgradeCacheVersionOperation#upgrade_redis_version}
   */
   readonly upgradeRedisVersion: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_cache_version_operation tencentcloud_redis_upgrade_cache_version_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/redis_upgrade_cache_version_operation tencentcloud_redis_upgrade_cache_version_operation}
 */
 export class RedisUpgradeCacheVersionOperation extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class RedisUpgradeCacheVersionOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisUpgradeCacheVersionOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisUpgradeCacheVersionOperation to import
-  * @param importFromId The id of the existing RedisUpgradeCacheVersionOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_cache_version_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisUpgradeCacheVersionOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/redis_upgrade_cache_version_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisUpgradeCacheVersionOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class RedisUpgradeCacheVersionOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/redis_upgrade_cache_version_operation tencentcloud_redis_upgrade_cache_version_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/redis_upgrade_cache_version_operation tencentcloud_redis_upgrade_cache_version_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class RedisUpgradeCacheVersionOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_redis_upgrade_cache_version_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

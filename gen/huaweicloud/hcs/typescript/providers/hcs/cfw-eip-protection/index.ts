@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CfwEipProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection#id CfwEipProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection#id CfwEipProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,23 +17,23 @@ export interface CfwEipProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The protected object ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection#object_id CfwEipProtection#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection#object_id CfwEipProtection#object_id}
   */
   readonly objectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection#region CfwEipProtection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection#region CfwEipProtection#region}
   */
   readonly region?: string;
   /**
   * protected_eip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection#protected_eip CfwEipProtection#protected_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection#protected_eip CfwEipProtection#protected_eip}
   */
   readonly protectedEip: CfwEipProtectionProtectedEip[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection#timeouts CfwEipProtection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection#timeouts CfwEipProtection#timeouts}
   */
   readonly timeouts?: CfwEipProtectionTimeouts;
 }
@@ -41,7 +41,7 @@ export interface CfwEipProtectionProtectedEip {
   /**
   * The ID of the protected EIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection#id CfwEipProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection#id CfwEipProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,13 +50,13 @@ export interface CfwEipProtectionProtectedEip {
   /**
   * The IPv4 address of the protected EIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection#public_ipv4 CfwEipProtection#public_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection#public_ipv4 CfwEipProtection#public_ipv4}
   */
   readonly publicIpv4?: string;
   /**
   * The IPv6 address of the protected EIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection#public_ipv6 CfwEipProtection#public_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection#public_ipv6 CfwEipProtection#public_ipv6}
   */
   readonly publicIpv6?: string;
 }
@@ -227,15 +227,15 @@ export class CfwEipProtectionProtectedEipList extends cdktf.ComplexList {
 }
 export interface CfwEipProtectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection#create CfwEipProtection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection#create CfwEipProtection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection#delete CfwEipProtection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection#delete CfwEipProtection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection#update CfwEipProtection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection#update CfwEipProtection#update}
   */
   readonly update?: string;
 }
@@ -387,7 +387,7 @@ export class CfwEipProtectionTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection hcs_cfw_eip_protection}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection hcs_cfw_eip_protection}
 */
 export class CfwEipProtection extends cdktf.TerraformResource {
 
@@ -403,7 +403,7 @@ export class CfwEipProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwEipProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwEipProtection to import
-  * @param importFromId The id of the existing CfwEipProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwEipProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwEipProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -415,7 +415,7 @@ export class CfwEipProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_eip_protection hcs_cfw_eip_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cfw_eip_protection hcs_cfw_eip_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -426,8 +426,8 @@ export class CfwEipProtection extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_cfw_eip_protection',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

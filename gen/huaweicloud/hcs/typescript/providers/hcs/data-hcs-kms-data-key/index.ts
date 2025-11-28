@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/kms_data_key
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/kms_data_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcsKmsDataKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/kms_data_key#datakey_length DataHcsKmsDataKey#datakey_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/kms_data_key#datakey_length DataHcsKmsDataKey#datakey_length}
   */
   readonly datakeyLength: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/kms_data_key#encryption_context DataHcsKmsDataKey#encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/kms_data_key#encryption_context DataHcsKmsDataKey#encryption_context}
   */
   readonly encryptionContext?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/kms_data_key#id DataHcsKmsDataKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/kms_data_key#id DataHcsKmsDataKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/kms_data_key#key_id DataHcsKmsDataKey#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/kms_data_key#key_id DataHcsKmsDataKey#key_id}
   */
   readonly keyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/kms_data_key#region DataHcsKmsDataKey#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/kms_data_key#region DataHcsKmsDataKey#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/kms_data_key hcs_kms_data_key}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/kms_data_key hcs_kms_data_key}
 */
 export class DataHcsKmsDataKey extends cdktf.TerraformDataSource {
 
@@ -49,7 +49,7 @@ export class DataHcsKmsDataKey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsKmsDataKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsKmsDataKey to import
-  * @param importFromId The id of the existing DataHcsKmsDataKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/kms_data_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsKmsDataKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/kms_data_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsKmsDataKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class DataHcsKmsDataKey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/kms_data_key hcs_kms_data_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/kms_data_key hcs_kms_data_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class DataHcsKmsDataKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_kms_data_key',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

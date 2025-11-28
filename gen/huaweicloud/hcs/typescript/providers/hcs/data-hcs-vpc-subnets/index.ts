@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcsVpcSubnetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets#cidr DataHcsVpcSubnets#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets#cidr DataHcsVpcSubnets#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets#gateway_ip DataHcsVpcSubnets#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets#gateway_ip DataHcsVpcSubnets#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets#id DataHcsVpcSubnets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets#id DataHcsVpcSubnets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets#name DataHcsVpcSubnets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets#name DataHcsVpcSubnets#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets#primary_dns DataHcsVpcSubnets#primary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets#primary_dns DataHcsVpcSubnets#primary_dns}
   */
   readonly primaryDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets#region DataHcsVpcSubnets#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets#region DataHcsVpcSubnets#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets#secondary_dns DataHcsVpcSubnets#secondary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets#secondary_dns DataHcsVpcSubnets#secondary_dns}
   */
   readonly secondaryDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets#status DataHcsVpcSubnets#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets#status DataHcsVpcSubnets#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets#vpc_id DataHcsVpcSubnets#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets#vpc_id DataHcsVpcSubnets#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -204,7 +204,7 @@ export class DataHcsVpcSubnetsSubnetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets hcs_vpc_subnets}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets hcs_vpc_subnets}
 */
 export class DataHcsVpcSubnets extends cdktf.TerraformDataSource {
 
@@ -220,7 +220,7 @@ export class DataHcsVpcSubnets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsVpcSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsVpcSubnets to import
-  * @param importFromId The id of the existing DataHcsVpcSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsVpcSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsVpcSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class DataHcsVpcSubnets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_subnets hcs_vpc_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/data-sources/vpc_subnets hcs_vpc_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class DataHcsVpcSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_vpc_subnets',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

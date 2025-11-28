@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/server_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ServerNetworkAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Additional IPs to assign to the Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network#alias_ips ServerNetworkA#alias_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/server_network#alias_ips ServerNetworkA#alias_ips}
   */
   readonly aliasIps?: string[];
   /**
   * IP to assign to the Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network#ip ServerNetworkA#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/server_network#ip ServerNetworkA#ip}
   */
   readonly ip?: string;
   /**
   * ID of the Network to attach the Server to. Using `subnet_id` is preferred. Required if `subnet_id` is not set. If `subnet_id` or `ip` are not set, the Server will be attached to the last subnet (ordered by `ip_range`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network#network_id ServerNetworkA#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/server_network#network_id ServerNetworkA#network_id}
   */
   readonly networkId?: number;
   /**
   * ID of the Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network#server_id ServerNetworkA#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/server_network#server_id ServerNetworkA#server_id}
   */
   readonly serverId: number;
   /**
   * ID of the Subnet to attach the Server to. Required if `network_id` is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network#subnet_id ServerNetworkA#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/server_network#subnet_id ServerNetworkA#subnet_id}
   */
   readonly subnetId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network hcloud_server_network}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/server_network hcloud_server_network}
 */
 export class ServerNetworkA extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class ServerNetworkA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerNetworkA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerNetworkA to import
-  * @param importFromId The id of the existing ServerNetworkA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerNetworkA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/server_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerNetworkA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class ServerNetworkA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network hcloud_server_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.57.0/docs/resources/server_network hcloud_server_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class ServerNetworkA extends cdktf.TerraformResource {
       terraformResourceType: 'hcloud_server_network',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.56.0',
-        providerVersionConstraint: '1.56.0'
+        providerVersion: '1.57.0',
+        providerVersionConstraint: '1.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RdsPgAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the remarks of the DB account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account#description RdsPgAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account#description RdsPgAccount#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account#id RdsPgAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account#id RdsPgAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface RdsPgAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the ID of the RDS PostgreSQL instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account#instance_id RdsPgAccount#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account#instance_id RdsPgAccount#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the username of the DB account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account#name RdsPgAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account#name RdsPgAccount#name}
   */
   readonly name: string;
   /**
   * Specifies the password of the DB account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account#password RdsPgAccount#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account#password RdsPgAccount#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account#region RdsPgAccount#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account#region RdsPgAccount#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account#timeouts RdsPgAccount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account#timeouts RdsPgAccount#timeouts}
   */
   readonly timeouts?: RdsPgAccountTimeouts;
 }
 export interface RdsPgAccountTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account#create RdsPgAccount#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account#create RdsPgAccount#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account#delete RdsPgAccount#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account#delete RdsPgAccount#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account#update RdsPgAccount#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account#update RdsPgAccount#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class RdsPgAccountTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account hcs_rds_pg_account}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account hcs_rds_pg_account}
 */
 export class RdsPgAccount extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class RdsPgAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsPgAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsPgAccount to import
-  * @param importFromId The id of the existing RdsPgAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsPgAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsPgAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class RdsPgAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_account hcs_rds_pg_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_account hcs_rds_pg_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class RdsPgAccount extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_rds_pg_account',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

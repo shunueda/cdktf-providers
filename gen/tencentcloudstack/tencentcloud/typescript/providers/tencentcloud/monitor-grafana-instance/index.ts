@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MonitorGrafanaInstanceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Whether to automatically use vouchers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance#auto_voucher MonitorGrafanaInstance#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance#auto_voucher MonitorGrafanaInstance#auto_voucher}
   */
   readonly autoVoucher?: boolean | cdktf.IResolvable;
   /**
   * Control whether grafana could be accessed by internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance#enable_internet MonitorGrafanaInstance#enable_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance#enable_internet MonitorGrafanaInstance#enable_internet}
   */
   readonly enableInternet?: boolean | cdktf.IResolvable;
   /**
   * Grafana server admin password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance#grafana_init_password MonitorGrafanaInstance#grafana_init_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance#grafana_init_password MonitorGrafanaInstance#grafana_init_password}
   */
   readonly grafanaInitPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance#id MonitorGrafanaInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance#id MonitorGrafanaInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface MonitorGrafanaInstanceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance#instance_name MonitorGrafanaInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance#instance_name MonitorGrafanaInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Whether to clean up completely, the default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance#is_destroy MonitorGrafanaInstance#is_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance#is_destroy MonitorGrafanaInstance#is_destroy}
   */
   readonly isDestroy?: boolean | cdktf.IResolvable;
   /**
   * Whether to clean up completely, the default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance#is_distroy MonitorGrafanaInstance#is_distroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance#is_distroy MonitorGrafanaInstance#is_distroy}
   */
   readonly isDistroy?: boolean | cdktf.IResolvable;
   /**
   * Subnet Id array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance#subnet_ids MonitorGrafanaInstance#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance#subnet_ids MonitorGrafanaInstance#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance#tags MonitorGrafanaInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance#tags MonitorGrafanaInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Vpc Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance#vpc_id MonitorGrafanaInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance#vpc_id MonitorGrafanaInstance#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance tencentcloud_monitor_grafana_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance tencentcloud_monitor_grafana_instance}
 */
 export class MonitorGrafanaInstance extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class MonitorGrafanaInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorGrafanaInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorGrafanaInstance to import
-  * @param importFromId The id of the existing MonitorGrafanaInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorGrafanaInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorGrafanaInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class MonitorGrafanaInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/monitor_grafana_instance tencentcloud_monitor_grafana_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_grafana_instance tencentcloud_monitor_grafana_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class MonitorGrafanaInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_grafana_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -19,6 +19,9 @@ Object.defineProperty(exports, 'server', { get: function () { return require('./
 Object.defineProperty(exports, 'serverNetwork', { get: function () { return require('./server-network'); } });
 Object.defineProperty(exports, 'snapshot', { get: function () { return require('./snapshot'); } });
 Object.defineProperty(exports, 'sshKey', { get: function () { return require('./ssh-key'); } });
+Object.defineProperty(exports, 'storageBox', { get: function () { return require('./storage-box'); } });
+Object.defineProperty(exports, 'storageBoxSnapshot', { get: function () { return require('./storage-box-snapshot'); } });
+Object.defineProperty(exports, 'storageBoxSubaccount', { get: function () { return require('./storage-box-subaccount'); } });
 Object.defineProperty(exports, 'uploadedCertificate', { get: function () { return require('./uploaded-certificate'); } });
 Object.defineProperty(exports, 'volume', { get: function () { return require('./volume'); } });
 Object.defineProperty(exports, 'volumeAttachment', { get: function () { return require('./volume-attachment'); } });
@@ -52,6 +55,14 @@ Object.defineProperty(exports, 'dataHcloudServerTypes', { get: function () { ret
 Object.defineProperty(exports, 'dataHcloudServers', { get: function () { return require('./data-hcloud-servers'); } });
 Object.defineProperty(exports, 'dataHcloudSshKey', { get: function () { return require('./data-hcloud-ssh-key'); } });
 Object.defineProperty(exports, 'dataHcloudSshKeys', { get: function () { return require('./data-hcloud-ssh-keys'); } });
+Object.defineProperty(exports, 'dataHcloudStorageBox', { get: function () { return require('./data-hcloud-storage-box'); } });
+Object.defineProperty(exports, 'dataHcloudStorageBoxSnapshot', { get: function () { return require('./data-hcloud-storage-box-snapshot'); } });
+Object.defineProperty(exports, 'dataHcloudStorageBoxSnapshots', { get: function () { return require('./data-hcloud-storage-box-snapshots'); } });
+Object.defineProperty(exports, 'dataHcloudStorageBoxSubaccount', { get: function () { return require('./data-hcloud-storage-box-subaccount'); } });
+Object.defineProperty(exports, 'dataHcloudStorageBoxSubaccounts', { get: function () { return require('./data-hcloud-storage-box-subaccounts'); } });
+Object.defineProperty(exports, 'dataHcloudStorageBoxType', { get: function () { return require('./data-hcloud-storage-box-type'); } });
+Object.defineProperty(exports, 'dataHcloudStorageBoxTypes', { get: function () { return require('./data-hcloud-storage-box-types'); } });
+Object.defineProperty(exports, 'dataHcloudStorageBoxes', { get: function () { return require('./data-hcloud-storage-boxes'); } });
 Object.defineProperty(exports, 'dataHcloudVolume', { get: function () { return require('./data-hcloud-volume'); } });
 Object.defineProperty(exports, 'dataHcloudVolumes', { get: function () { return require('./data-hcloud-volumes'); } });
 Object.defineProperty(exports, 'dataHcloudZone', { get: function () { return require('./data-hcloud-zone'); } });

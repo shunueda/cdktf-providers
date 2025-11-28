@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface Ipv6AddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address#___path___ Ipv6Address#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address#___path___ Ipv6Address#___path___}
   */
   readonly path?: string;
   /**
   * IPv6 address. Using the eui_64 and from_pool options can transform the original address! [See docs](https://wiki.mikrotik.com/wiki/Manual:IPv6/Address#Properties)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address#address Ipv6Address#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address#address Ipv6Address#address}
   */
   readonly address?: string;
   /**
   * Whether to enable stateless address configuration. The prefix of that address is automatically advertised to hosts using ICMPv6 protocol. The option is set by default for addresses with prefix length 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address#advertise Ipv6Address#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address#advertise Ipv6Address#advertise}
   */
   readonly advertise?: boolean | cdktf.IResolvable;
   /**
   * If newly created address is manual link-local address this setting allows to override dynamically created IPv6 link-local address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address#auto_link_local Ipv6Address#auto_link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address#auto_link_local Ipv6Address#auto_link_local}
   */
   readonly autoLinkLocal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address#comment Ipv6Address#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address#comment Ipv6Address#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address#disabled Ipv6Address#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address#disabled Ipv6Address#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to calculate EUI-64 address and use it as last 64 bits of the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address#eui_64 Ipv6Address#eui_64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address#eui_64 Ipv6Address#eui_64}
   */
   readonly eui64?: boolean | cdktf.IResolvable;
   /**
   * Name of the pool from which prefix will be taken to construct IPv6 address taking last part of the address from address property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address#from_pool Ipv6Address#from_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address#from_pool Ipv6Address#from_pool}
   */
   readonly fromPool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address#id Ipv6Address#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address#id Ipv6Address#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,19 +61,19 @@ export interface Ipv6AddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address#interface Ipv6Address#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address#interface Ipv6Address#interface}
   */
   readonly interface: string;
   /**
   * If set indicates that address is anycast address and Duplicate Address Detection should not be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address#no_dad Ipv6Address#no_dad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address#no_dad Ipv6Address#no_dad}
   */
   readonly noDad?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address routeros_ipv6_address}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address routeros_ipv6_address}
 */
 export class Ipv6Address extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class Ipv6Address extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6Address resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6Address to import
-  * @param importFromId The id of the existing Ipv6Address that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6Address that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6Address to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class Ipv6Address extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ipv6_address routeros_ipv6_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_address routeros_ipv6_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class Ipv6Address extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ipv6_address',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

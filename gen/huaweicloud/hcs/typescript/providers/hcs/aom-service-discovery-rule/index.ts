@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface AomServiceDiscoveryRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#detect_log_enabled AomServiceDiscoveryRule#detect_log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#detect_log_enabled AomServiceDiscoveryRule#detect_log_enabled}
   */
   readonly detectLogEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#discovery_rule_enabled AomServiceDiscoveryRule#discovery_rule_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#discovery_rule_enabled AomServiceDiscoveryRule#discovery_rule_enabled}
   */
   readonly discoveryRuleEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#id AomServiceDiscoveryRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#id AomServiceDiscoveryRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#is_default_rule AomServiceDiscoveryRule#is_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#is_default_rule AomServiceDiscoveryRule#is_default_rule}
   */
   readonly isDefaultRule?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#log_file_suffix AomServiceDiscoveryRule#log_file_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#log_file_suffix AomServiceDiscoveryRule#log_file_suffix}
   */
   readonly logFileSuffix: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#name AomServiceDiscoveryRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#name AomServiceDiscoveryRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#priority AomServiceDiscoveryRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#priority AomServiceDiscoveryRule#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#region AomServiceDiscoveryRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#region AomServiceDiscoveryRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#service_type AomServiceDiscoveryRule#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#service_type AomServiceDiscoveryRule#service_type}
   */
   readonly serviceType: string;
   /**
   * discovery_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#discovery_rules AomServiceDiscoveryRule#discovery_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#discovery_rules AomServiceDiscoveryRule#discovery_rules}
   */
   readonly discoveryRules: AomServiceDiscoveryRuleDiscoveryRules[] | cdktf.IResolvable;
   /**
   * log_path_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#log_path_rules AomServiceDiscoveryRule#log_path_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#log_path_rules AomServiceDiscoveryRule#log_path_rules}
   */
   readonly logPathRules?: AomServiceDiscoveryRuleLogPathRules[] | cdktf.IResolvable;
   /**
   * name_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#name_rules AomServiceDiscoveryRule#name_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#name_rules AomServiceDiscoveryRule#name_rules}
   */
   readonly nameRules: AomServiceDiscoveryRuleNameRules;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#timeouts AomServiceDiscoveryRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#timeouts AomServiceDiscoveryRule#timeouts}
   */
   readonly timeouts?: AomServiceDiscoveryRuleTimeouts;
 }
 export interface AomServiceDiscoveryRuleDiscoveryRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#check_content AomServiceDiscoveryRule#check_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#check_content AomServiceDiscoveryRule#check_content}
   */
   readonly checkContent: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#check_mode AomServiceDiscoveryRule#check_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#check_mode AomServiceDiscoveryRule#check_mode}
   */
   readonly checkMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#check_type AomServiceDiscoveryRule#check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#check_type AomServiceDiscoveryRule#check_type}
   */
   readonly checkType: string;
 }
@@ -246,15 +246,15 @@ export class AomServiceDiscoveryRuleDiscoveryRulesList extends cdktf.ComplexList
 }
 export interface AomServiceDiscoveryRuleLogPathRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#args AomServiceDiscoveryRule#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#args AomServiceDiscoveryRule#args}
   */
   readonly args: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#name_type AomServiceDiscoveryRule#name_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#name_type AomServiceDiscoveryRule#name_type}
   */
   readonly nameType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#value AomServiceDiscoveryRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#value AomServiceDiscoveryRule#value}
   */
   readonly value: string[];
 }
@@ -419,15 +419,15 @@ export class AomServiceDiscoveryRuleLogPathRulesList extends cdktf.ComplexList {
 }
 export interface AomServiceDiscoveryRuleNameRulesApplicationNameRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#args AomServiceDiscoveryRule#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#args AomServiceDiscoveryRule#args}
   */
   readonly args: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#name_type AomServiceDiscoveryRule#name_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#name_type AomServiceDiscoveryRule#name_type}
   */
   readonly nameType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#value AomServiceDiscoveryRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#value AomServiceDiscoveryRule#value}
   */
   readonly value?: string[];
 }
@@ -595,15 +595,15 @@ export class AomServiceDiscoveryRuleNameRulesApplicationNameRuleList extends cdk
 }
 export interface AomServiceDiscoveryRuleNameRulesServiceNameRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#args AomServiceDiscoveryRule#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#args AomServiceDiscoveryRule#args}
   */
   readonly args: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#name_type AomServiceDiscoveryRule#name_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#name_type AomServiceDiscoveryRule#name_type}
   */
   readonly nameType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#value AomServiceDiscoveryRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#value AomServiceDiscoveryRule#value}
   */
   readonly value?: string[];
 }
@@ -773,13 +773,13 @@ export interface AomServiceDiscoveryRuleNameRules {
   /**
   * application_name_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#application_name_rule AomServiceDiscoveryRule#application_name_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#application_name_rule AomServiceDiscoveryRule#application_name_rule}
   */
   readonly applicationNameRule: AomServiceDiscoveryRuleNameRulesApplicationNameRule[] | cdktf.IResolvable;
   /**
   * service_name_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#service_name_rule AomServiceDiscoveryRule#service_name_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#service_name_rule AomServiceDiscoveryRule#service_name_rule}
   */
   readonly serviceNameRule: AomServiceDiscoveryRuleNameRulesServiceNameRule[] | cdktf.IResolvable;
 }
@@ -886,15 +886,15 @@ export class AomServiceDiscoveryRuleNameRulesOutputReference extends cdktf.Compl
 }
 export interface AomServiceDiscoveryRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#create AomServiceDiscoveryRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#create AomServiceDiscoveryRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#delete AomServiceDiscoveryRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#delete AomServiceDiscoveryRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#update AomServiceDiscoveryRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#update AomServiceDiscoveryRule#update}
   */
   readonly update?: string;
 }
@@ -1046,7 +1046,7 @@ export class AomServiceDiscoveryRuleTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule hcs_aom_service_discovery_rule}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule hcs_aom_service_discovery_rule}
 */
 export class AomServiceDiscoveryRule extends cdktf.TerraformResource {
 
@@ -1062,7 +1062,7 @@ export class AomServiceDiscoveryRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AomServiceDiscoveryRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AomServiceDiscoveryRule to import
-  * @param importFromId The id of the existing AomServiceDiscoveryRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AomServiceDiscoveryRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AomServiceDiscoveryRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1074,7 +1074,7 @@ export class AomServiceDiscoveryRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_service_discovery_rule hcs_aom_service_discovery_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/aom_service_discovery_rule hcs_aom_service_discovery_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1085,8 +1085,8 @@ export class AomServiceDiscoveryRule extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_aom_service_discovery_rule',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `routeros_disk_settings`
 
-Refer to the Terraform Registry for docs: [`routeros_disk_settings`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/disk_settings).
+Refer to the Terraform Registry for docs: [`routeros_disk_settings`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/disk_settings).

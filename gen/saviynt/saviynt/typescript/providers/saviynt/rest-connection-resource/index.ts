@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,235 +10,235 @@ export interface RestConnectionResourceConfig extends cdktf.TerraformMetaArgumen
   /**
   * JSON to add access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#add_access_json RestConnectionResource#add_access_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#add_access_json RestConnectionResource#add_access_json}
   */
   readonly addAccessJson?: string;
   /**
   * JSON to add FFID access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#add_ffid_access_json RestConnectionResource#add_ffid_access_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#add_ffid_access_json RestConnectionResource#add_ffid_access_json}
   */
   readonly addFfidAccessJson?: string;
   /**
   * For CUA configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#app_type RestConnectionResource#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#app_type RestConnectionResource#app_type}
   */
   readonly appType?: string;
   /**
   * The ApplicationDiscoveryJSON attribute is specifically implemented for ServiceNow application discovery, allowing automated discovery and import of applications from ServiceNow instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#application_discovery_json RestConnectionResource#application_discovery_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#application_discovery_json RestConnectionResource#application_discovery_json}
   */
   readonly applicationDiscoveryJson?: string;
   /**
   * JSON to change a user's password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#change_pass_json RestConnectionResource#change_pass_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#change_pass_json RestConnectionResource#change_pass_json}
   */
   readonly changePassJson?: string;
   /**
   * General configuration JSON for the REST connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#config_json RestConnectionResource#config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#config_json RestConnectionResource#config_json}
   */
   readonly configJson?: string;
   /**
   * Dynamic JSON configuration for the connection. Must be a valid JSON object string. Either the connection_json field or the connection_json_wo field must be populated to set the connection_json attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#connection_json RestConnectionResource#connection_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#connection_json RestConnectionResource#connection_json}
   */
   readonly connectionJson?: string;
   /**
   * Dynamic JSON configuration for the connection (write-only). Must be a valid JSON object string. Either the connection_json field or the connection_json_wo field must be populated to set the connection_json attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#connection_json_wo RestConnectionResource#connection_json_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#connection_json_wo RestConnectionResource#connection_json_wo}
   */
   readonly connectionJsonWo?: string;
   /**
   * Name of the connection. Example: "Active Directory_Doc"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#connection_name RestConnectionResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#connection_name RestConnectionResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * JSON to create an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#create_account_json RestConnectionResource#create_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#create_account_json RestConnectionResource#create_account_json}
   */
   readonly createAccountJson?: string;
   /**
   * The three entitlement JSON attributes (Create, Update, Delete) are part of a comprehensive entitlement management system for REST connectors, with supporting constants and service classes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#create_entitlement_json RestConnectionResource#create_entitlement_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#create_entitlement_json RestConnectionResource#create_entitlement_json}
   */
   readonly createEntitlementJson?: string;
   /**
   * JSON to create a ticket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#create_ticket_json RestConnectionResource#create_ticket_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#create_ticket_json RestConnectionResource#create_ticket_json}
   */
   readonly createTicketJson?: string;
   /**
   * Default SAV roles for managing the connection. Example: "ROLE_ORG"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#defaultsavroles RestConnectionResource#defaultsavroles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#defaultsavroles RestConnectionResource#defaultsavroles}
   */
   readonly defaultsavroles?: string;
   /**
   * The three entitlement JSON attributes (Create, Update, Delete) are part of a comprehensive entitlement management system for REST connectors, with supporting constants and service classes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#delete_entitlement_json RestConnectionResource#delete_entitlement_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#delete_entitlement_json RestConnectionResource#delete_entitlement_json}
   */
   readonly deleteEntitlementJson?: string;
   /**
   * Description for the connection. Example: "ORG_AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#description RestConnectionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#description RestConnectionResource#description}
   */
   readonly description?: string;
   /**
   * JSON configuration to disable an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#disable_account_json RestConnectionResource#disable_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#disable_account_json RestConnectionResource#disable_account_json}
   */
   readonly disableAccountJson?: string;
   /**
   * Email template for notifications. Example: "New Account Task Creation"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#email_template RestConnectionResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#email_template RestConnectionResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
   * JSON configuration to enable an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#enable_account_json RestConnectionResource#enable_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#enable_account_json RestConnectionResource#enable_account_json}
   */
   readonly enableAccountJson?: string;
   /**
   * Filter criteria for endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#endpoints_filter RestConnectionResource#endpoints_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#endpoints_filter RestConnectionResource#endpoints_filter}
   */
   readonly endpointsFilter?: string;
   /**
   * JSON for importing accounts and entitlements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#import_account_ent_json RestConnectionResource#import_account_ent_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#import_account_ent_json RestConnectionResource#import_account_ent_json}
   */
   readonly importAccountEntJson?: string;
   /**
   * JSON for importing users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#import_user_json RestConnectionResource#import_user_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#import_user_json RestConnectionResource#import_user_json}
   */
   readonly importUserJson?: string;
   /**
   * JSON for modifying user data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#modify_user_data_json RestConnectionResource#modify_user_data_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#modify_user_data_json RestConnectionResource#modify_user_data_json}
   */
   readonly modifyUserDataJson?: string;
   /**
   * PAM configuration JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#pam_config RestConnectionResource#pam_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#pam_config RestConnectionResource#pam_config}
   */
   readonly pamConfig?: string;
   /**
   * JSON defining the password policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#passwd_policy_json RestConnectionResource#passwd_policy_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#passwd_policy_json RestConnectionResource#passwd_policy_json}
   */
   readonly passwdPolicyJson?: string;
   /**
   * JSON to remove access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#remove_access_json RestConnectionResource#remove_access_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#remove_access_json RestConnectionResource#remove_access_json}
   */
   readonly removeAccessJson?: string;
   /**
   * JSON to remove an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#remove_account_json RestConnectionResource#remove_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#remove_account_json RestConnectionResource#remove_account_json}
   */
   readonly removeAccountJson?: string;
   /**
   * JSON to remove FFID access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#remove_ffid_access_json RestConnectionResource#remove_ffid_access_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#remove_ffid_access_json RestConnectionResource#remove_ffid_access_json}
   */
   readonly removeFfidAccessJson?: string;
   /**
   * Flag indicating whether the encrypted attribute should be saved in the configured vault. Example: "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#save_in_vault RestConnectionResource#save_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#save_in_vault RestConnectionResource#save_in_vault}
   */
   readonly saveInVault?: string;
   /**
   * JSON to send OTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#send_otp_json RestConnectionResource#send_otp_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#send_otp_json RestConnectionResource#send_otp_json}
   */
   readonly sendOtpJson?: string;
   /**
   * JSON configuration for status thresholds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#status_threshold_config RestConnectionResource#status_threshold_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#status_threshold_config RestConnectionResource#status_threshold_config}
   */
   readonly statusThresholdConfig?: string;
   /**
   * JSON to check ticket status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#ticket_status_json RestConnectionResource#ticket_status_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#ticket_status_json RestConnectionResource#ticket_status_json}
   */
   readonly ticketStatusJson?: string;
   /**
   * JSON to update an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#update_account_json RestConnectionResource#update_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#update_account_json RestConnectionResource#update_account_json}
   */
   readonly updateAccountJson?: string;
   /**
   * The three entitlement JSON attributes (Create, Update, Delete) are part of a comprehensive entitlement management system for REST connectors, with supporting constants and service classes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#update_entitlement_json RestConnectionResource#update_entitlement_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#update_entitlement_json RestConnectionResource#update_entitlement_json}
   */
   readonly updateEntitlementJson?: string;
   /**
   * JSON to update a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#update_user_json RestConnectionResource#update_user_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#update_user_json RestConnectionResource#update_user_json}
   */
   readonly updateUserJson?: string;
   /**
   * JSON to validate OTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#validate_otp_json RestConnectionResource#validate_otp_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#validate_otp_json RestConnectionResource#validate_otp_json}
   */
   readonly validateOtpJson?: string;
   /**
   * JSON string specifying vault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#vault_configuration RestConnectionResource#vault_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#vault_configuration RestConnectionResource#vault_configuration}
   */
   readonly vaultConfiguration?: string;
   /**
   * Specifies the type of vault connection being used (e.g., 'Hashicorp'). Example: "Hashicorp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#vault_connection RestConnectionResource#vault_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#vault_connection RestConnectionResource#vault_connection}
   */
   readonly vaultConnection?: string;
   /**
   * Add/change the value of this attribute to update the writeonly attributes like username, password etc in connection resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#wo_version RestConnectionResource#wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#wo_version RestConnectionResource#wo_version}
   */
   readonly woVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource saviynt_rest_connection_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource saviynt_rest_connection_resource}
 */
 export class RestConnectionResource extends cdktf.TerraformResource {
 
@@ -254,7 +254,7 @@ export class RestConnectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RestConnectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RestConnectionResource to import
-  * @param importFromId The id of the existing RestConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RestConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RestConnectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class RestConnectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/rest_connection_resource saviynt_rest_connection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/rest_connection_resource saviynt_rest_connection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class RestConnectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_rest_connection_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

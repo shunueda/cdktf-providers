@@ -299,6 +299,7 @@ Object.defineProperty(exports, 'cwpLicenseOrder', { get: function () { return re
 Object.defineProperty(exports, 'cynosdbAccount', { get: function () { return require('./cynosdb-account'); } });
 Object.defineProperty(exports, 'cynosdbAccountPrivileges', { get: function () { return require('./cynosdb-account-privileges'); } });
 Object.defineProperty(exports, 'cynosdbAuditLogFile', { get: function () { return require('./cynosdb-audit-log-file'); } });
+Object.defineProperty(exports, 'cynosdbAuditService', { get: function () { return require('./cynosdb-audit-service'); } });
 Object.defineProperty(exports, 'cynosdbBackupConfig', { get: function () { return require('./cynosdb-backup-config'); } });
 Object.defineProperty(exports, 'cynosdbBinlogSaveDays', { get: function () { return require('./cynosdb-binlog-save-days'); } });
 Object.defineProperty(exports, 'cynosdbCluster', { get: function () { return require('./cynosdb-cluster'); } });
@@ -306,6 +307,7 @@ Object.defineProperty(exports, 'cynosdbClusterDatabases', { get: function () { r
 Object.defineProperty(exports, 'cynosdbClusterPasswordComplexity', { get: function () { return require('./cynosdb-cluster-password-complexity'); } });
 Object.defineProperty(exports, 'cynosdbClusterResourcePackagesAttachment', { get: function () { return require('./cynosdb-cluster-resource-packages-attachment'); } });
 Object.defineProperty(exports, 'cynosdbClusterSlaveZone', { get: function () { return require('./cynosdb-cluster-slave-zone'); } });
+Object.defineProperty(exports, 'cynosdbClusterTransparentEncrypt', { get: function () { return require('./cynosdb-cluster-transparent-encrypt'); } });
 Object.defineProperty(exports, 'cynosdbExportInstanceErrorLogs', { get: function () { return require('./cynosdb-export-instance-error-logs'); } });
 Object.defineProperty(exports, 'cynosdbExportInstanceSlowQueries', { get: function () { return require('./cynosdb-export-instance-slow-queries'); } });
 Object.defineProperty(exports, 'cynosdbInstanceParam', { get: function () { return require('./cynosdb-instance-param'); } });
@@ -510,6 +512,9 @@ Object.defineProperty(exports, 'identityCenterUser', { get: function () { return
 Object.defineProperty(exports, 'identityCenterUserGroupAttachment', { get: function () { return require('./identity-center-user-group-attachment'); } });
 Object.defineProperty(exports, 'identityCenterUserSyncProvisioning', { get: function () { return require('./identity-center-user-sync-provisioning'); } });
 Object.defineProperty(exports, 'igtmAddressPool', { get: function () { return require('./igtm-address-pool'); } });
+Object.defineProperty(exports, 'igtmInstance', { get: function () { return require('./igtm-instance'); } });
+Object.defineProperty(exports, 'igtmMonitor', { get: function () { return require('./igtm-monitor'); } });
+Object.defineProperty(exports, 'igtmStrategy', { get: function () { return require('./igtm-strategy'); } });
 Object.defineProperty(exports, 'image', { get: function () { return require('./image'); } });
 Object.defineProperty(exports, 'instance', { get: function () { return require('./instance'); } });
 Object.defineProperty(exports, 'instanceSet', { get: function () { return require('./instance-set'); } });
@@ -954,6 +959,7 @@ Object.defineProperty(exports, 'tdmqNamespace', { get: function () { return requ
 Object.defineProperty(exports, 'tdmqNamespaceRoleAttachment', { get: function () { return require('./tdmq-namespace-role-attachment'); } });
 Object.defineProperty(exports, 'tdmqProfessionalCluster', { get: function () { return require('./tdmq-professional-cluster'); } });
 Object.defineProperty(exports, 'tdmqRabbitmqUser', { get: function () { return require('./tdmq-rabbitmq-user'); } });
+Object.defineProperty(exports, 'tdmqRabbitmqUserPermission', { get: function () { return require('./tdmq-rabbitmq-user-permission'); } });
 Object.defineProperty(exports, 'tdmqRabbitmqVipInstance', { get: function () { return require('./tdmq-rabbitmq-vip-instance'); } });
 Object.defineProperty(exports, 'tdmqRabbitmqVirtualHost', { get: function () { return require('./tdmq-rabbitmq-virtual-host'); } });
 Object.defineProperty(exports, 'tdmqRocketmqCluster', { get: function () { return require('./tdmq-rocketmq-cluster'); } });
@@ -1532,6 +1538,12 @@ Object.defineProperty(exports, 'dataTencentcloudIdentityCenterGroups', { get: fu
 Object.defineProperty(exports, 'dataTencentcloudIdentityCenterRoleConfigurations', { get: function () { return require('./data-tencentcloud-identity-center-role-configurations'); } });
 Object.defineProperty(exports, 'dataTencentcloudIdentityCenterUsers', { get: function () { return require('./data-tencentcloud-identity-center-users'); } });
 Object.defineProperty(exports, 'dataTencentcloudIgtmAddressPoolList', { get: function () { return require('./data-tencentcloud-igtm-address-pool-list'); } });
+Object.defineProperty(exports, 'dataTencentcloudIgtmDetectTaskPackageList', { get: function () { return require('./data-tencentcloud-igtm-detect-task-package-list'); } });
+Object.defineProperty(exports, 'dataTencentcloudIgtmDetectors', { get: function () { return require('./data-tencentcloud-igtm-detectors'); } });
+Object.defineProperty(exports, 'dataTencentcloudIgtmInstanceList', { get: function () { return require('./data-tencentcloud-igtm-instance-list'); } });
+Object.defineProperty(exports, 'dataTencentcloudIgtmInstancePackageList', { get: function () { return require('./data-tencentcloud-igtm-instance-package-list'); } });
+Object.defineProperty(exports, 'dataTencentcloudIgtmMonitors', { get: function () { return require('./data-tencentcloud-igtm-monitors'); } });
+Object.defineProperty(exports, 'dataTencentcloudIgtmStrategyList', { get: function () { return require('./data-tencentcloud-igtm-strategy-list'); } });
 Object.defineProperty(exports, 'dataTencentcloudImage', { get: function () { return require('./data-tencentcloud-image'); } });
 Object.defineProperty(exports, 'dataTencentcloudImageFromFamily', { get: function () { return require('./data-tencentcloud-image-from-family'); } });
 Object.defineProperty(exports, 'dataTencentcloudImages', { get: function () { return require('./data-tencentcloud-images'); } });

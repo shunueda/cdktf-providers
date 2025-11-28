@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_address_group
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_address_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface WafAddressGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the description of the address group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_address_group#description WafAddressGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_address_group#description WafAddressGroup#description}
   */
   readonly description?: string;
   /**
   * Specifies the enterprise project ID of WAF address group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_address_group#enterprise_project_id WafAddressGroup#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_address_group#enterprise_project_id WafAddressGroup#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_address_group#id WafAddressGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_address_group#id WafAddressGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,17 +29,17 @@ export interface WafAddressGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the IP addresses or IP address ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_address_group#ip_addresses WafAddressGroup#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_address_group#ip_addresses WafAddressGroup#ip_addresses}
   */
   readonly ipAddresses: string[];
   /**
   * Specifies the name of the address group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_address_group#name WafAddressGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_address_group#name WafAddressGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_address_group#region WafAddressGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_address_group#region WafAddressGroup#region}
   */
   readonly region?: string;
 }
@@ -135,7 +135,7 @@ export class WafAddressGroupRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_address_group hcs_waf_address_group}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_address_group hcs_waf_address_group}
 */
 export class WafAddressGroup extends cdktf.TerraformResource {
 
@@ -151,7 +151,7 @@ export class WafAddressGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafAddressGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafAddressGroup to import
-  * @param importFromId The id of the existing WafAddressGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_address_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafAddressGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_address_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafAddressGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class WafAddressGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_address_group hcs_waf_address_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/waf_address_group hcs_waf_address_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class WafAddressGroup extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_waf_address_group',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

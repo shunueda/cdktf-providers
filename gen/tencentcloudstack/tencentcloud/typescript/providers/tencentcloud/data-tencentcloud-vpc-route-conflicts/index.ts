@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_route_conflicts
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_route_conflicts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudVpcRouteConflictsConfig extends cdktf.Terraform
   /**
   * List of conflicting destinations to check for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_route_conflicts#destination_cidr_blocks DataTencentcloudVpcRouteConflicts#destination_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_route_conflicts#destination_cidr_blocks DataTencentcloudVpcRouteConflicts#destination_cidr_blocks}
   */
   readonly destinationCidrBlocks: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_route_conflicts#id DataTencentcloudVpcRouteConflicts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_route_conflicts#id DataTencentcloudVpcRouteConflicts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudVpcRouteConflictsConfig extends cdktf.Terraform
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_route_conflicts#result_output_file DataTencentcloudVpcRouteConflicts#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_route_conflicts#result_output_file DataTencentcloudVpcRouteConflicts#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Routing table instance ID, for example:rtb-azd4dt1c.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_route_conflicts#route_table_id DataTencentcloudVpcRouteConflicts#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_route_conflicts#route_table_id DataTencentcloudVpcRouteConflicts#route_table_id}
   */
   readonly routeTableId: string;
 }
@@ -251,7 +251,7 @@ export class DataTencentcloudVpcRouteConflictsRouteConflictSetList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_route_conflicts tencentcloud_vpc_route_conflicts}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_route_conflicts tencentcloud_vpc_route_conflicts}
 */
 export class DataTencentcloudVpcRouteConflicts extends cdktf.TerraformDataSource {
 
@@ -267,7 +267,7 @@ export class DataTencentcloudVpcRouteConflicts extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudVpcRouteConflicts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudVpcRouteConflicts to import
-  * @param importFromId The id of the existing DataTencentcloudVpcRouteConflicts that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_route_conflicts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudVpcRouteConflicts that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_route_conflicts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudVpcRouteConflicts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class DataTencentcloudVpcRouteConflicts extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/vpc_route_conflicts tencentcloud_vpc_route_conflicts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_route_conflicts tencentcloud_vpc_route_conflicts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class DataTencentcloudVpcRouteConflicts extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_vpc_route_conflicts',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

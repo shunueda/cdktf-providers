@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_snapshot
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DwsSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the cluster for which you want to create a snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_snapshot#cluster_id DwsSnapshot#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_snapshot#cluster_id DwsSnapshot#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Snapshot description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_snapshot#description DwsSnapshot#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_snapshot#description DwsSnapshot#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_snapshot#id DwsSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_snapshot#id DwsSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,23 +29,23 @@ export interface DwsSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
   * Snapshot name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_snapshot#name DwsSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_snapshot#name DwsSnapshot#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_snapshot#region DwsSnapshot#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_snapshot#region DwsSnapshot#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_snapshot#timeouts DwsSnapshot#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_snapshot#timeouts DwsSnapshot#timeouts}
   */
   readonly timeouts?: DwsSnapshotTimeouts;
 }
 export interface DwsSnapshotTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_snapshot#create DwsSnapshot#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_snapshot#create DwsSnapshot#create}
   */
   readonly create?: string;
 }
@@ -139,7 +139,7 @@ export class DwsSnapshotTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_snapshot hcs_dws_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_snapshot hcs_dws_snapshot}
 */
 export class DwsSnapshot extends cdktf.TerraformResource {
 
@@ -155,7 +155,7 @@ export class DwsSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DwsSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DwsSnapshot to import
-  * @param importFromId The id of the existing DwsSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DwsSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DwsSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -167,7 +167,7 @@ export class DwsSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_snapshot hcs_dws_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dws_snapshot hcs_dws_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,8 +178,8 @@ export class DwsSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_dws_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

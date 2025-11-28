@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudCdwpgLogConfig extends cdktf.TerraformMetaArgum
   /**
   * Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log#database DataTencentcloudCdwpgLog#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log#database DataTencentcloudCdwpgLog#database}
   */
   readonly database?: string;
   /**
   * Filter duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log#duration DataTencentcloudCdwpgLog#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log#duration DataTencentcloudCdwpgLog#duration}
   */
   readonly duration?: number;
   /**
   * End time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log#end_time DataTencentcloudCdwpgLog#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log#end_time DataTencentcloudCdwpgLog#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log#id DataTencentcloudCdwpgLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log#id DataTencentcloudCdwpgLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DataTencentcloudCdwpgLogConfig extends cdktf.TerraformMetaArgum
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log#instance_id DataTencentcloudCdwpgLog#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log#instance_id DataTencentcloudCdwpgLog#instance_id}
   */
   readonly instanceId: string;
   /**
   * Sort by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log#order_by DataTencentcloudCdwpgLog#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log#order_by DataTencentcloudCdwpgLog#order_by}
   */
   readonly orderBy?: string;
   /**
   * Ascending/Descending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log#order_by_type DataTencentcloudCdwpgLog#order_by_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log#order_by_type DataTencentcloudCdwpgLog#order_by_type}
   */
   readonly orderByType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log#result_output_file DataTencentcloudCdwpgLog#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log#result_output_file DataTencentcloudCdwpgLog#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log#start_time DataTencentcloudCdwpgLog#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log#start_time DataTencentcloudCdwpgLog#start_time}
   */
   readonly startTime: string;
 }
@@ -396,7 +396,7 @@ export class DataTencentcloudCdwpgLogSlowLogDetailsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log tencentcloud_cdwpg_log}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log tencentcloud_cdwpg_log}
 */
 export class DataTencentcloudCdwpgLog extends cdktf.TerraformDataSource {
 
@@ -412,7 +412,7 @@ export class DataTencentcloudCdwpgLog extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCdwpgLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCdwpgLog to import
-  * @param importFromId The id of the existing DataTencentcloudCdwpgLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCdwpgLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCdwpgLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -424,7 +424,7 @@ export class DataTencentcloudCdwpgLog extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdwpg_log tencentcloud_cdwpg_log} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdwpg_log tencentcloud_cdwpg_log} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -435,8 +435,8 @@ export class DataTencentcloudCdwpgLog extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cdwpg_log',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

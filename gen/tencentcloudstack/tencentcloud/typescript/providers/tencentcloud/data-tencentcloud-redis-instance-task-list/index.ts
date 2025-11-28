@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudRedisInstanceTaskListConfig extends cdktf.Terra
   /**
   * Start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list#begin_time DataTencentcloudRedisInstanceTaskList#begin_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list#begin_time DataTencentcloudRedisInstanceTaskList#begin_time}
   */
   readonly beginTime?: string;
   /**
   * Termination time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list#end_time DataTencentcloudRedisInstanceTaskList#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list#end_time DataTencentcloudRedisInstanceTaskList#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list#id DataTencentcloudRedisInstanceTaskList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list#id DataTencentcloudRedisInstanceTaskList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface DataTencentcloudRedisInstanceTaskListConfig extends cdktf.Terra
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list#instance_id DataTencentcloudRedisInstanceTaskList#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list#instance_id DataTencentcloudRedisInstanceTaskList#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list#instance_name DataTencentcloudRedisInstanceTaskList#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list#instance_name DataTencentcloudRedisInstanceTaskList#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Operator Uin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list#operate_uin DataTencentcloudRedisInstanceTaskList#operate_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list#operate_uin DataTencentcloudRedisInstanceTaskList#operate_uin}
   */
   readonly operateUin?: string[];
   /**
   * Project Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list#project_ids DataTencentcloudRedisInstanceTaskList#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list#project_ids DataTencentcloudRedisInstanceTaskList#project_ids}
   */
   readonly projectIds?: number[];
   /**
   * Task status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list#result DataTencentcloudRedisInstanceTaskList#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list#result DataTencentcloudRedisInstanceTaskList#result}
   */
   readonly result?: number[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list#result_output_file DataTencentcloudRedisInstanceTaskList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list#result_output_file DataTencentcloudRedisInstanceTaskList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Task status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list#task_status DataTencentcloudRedisInstanceTaskList#task_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list#task_status DataTencentcloudRedisInstanceTaskList#task_status}
   */
   readonly taskStatus?: number[];
   /**
   * Task type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list#task_types DataTencentcloudRedisInstanceTaskList#task_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list#task_types DataTencentcloudRedisInstanceTaskList#task_types}
   */
   readonly taskTypes?: string[];
 }
@@ -192,7 +192,7 @@ export class DataTencentcloudRedisInstanceTaskListTasksList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list tencentcloud_redis_instance_task_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list tencentcloud_redis_instance_task_list}
 */
 export class DataTencentcloudRedisInstanceTaskList extends cdktf.TerraformDataSource {
 
@@ -208,7 +208,7 @@ export class DataTencentcloudRedisInstanceTaskList extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudRedisInstanceTaskList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudRedisInstanceTaskList to import
-  * @param importFromId The id of the existing DataTencentcloudRedisInstanceTaskList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudRedisInstanceTaskList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudRedisInstanceTaskList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class DataTencentcloudRedisInstanceTaskList extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/redis_instance_task_list tencentcloud_redis_instance_task_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/redis_instance_task_list tencentcloud_redis_instance_task_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class DataTencentcloudRedisInstanceTaskList extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_redis_instance_task_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

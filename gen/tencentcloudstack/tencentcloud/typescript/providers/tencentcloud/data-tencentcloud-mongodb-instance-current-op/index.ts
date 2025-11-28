@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudMongodbInstanceCurrentOpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op#id DataTencentcloudMongodbInstanceCurrentOp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op#id DataTencentcloudMongodbInstanceCurrentOp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface DataTencentcloudMongodbInstanceCurrentOpConfig extends cdktf.Te
   /**
   * Instance ID, the format is: cmgo-9d0p6umb.Same as the instance ID displayed in the cloud database console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op#instance_id DataTencentcloudMongodbInstanceCurrentOp#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op#instance_id DataTencentcloudMongodbInstanceCurrentOp#instance_id}
   */
   readonly instanceId: string;
   /**
   * Filter condition, the time that the operation has been executed (unit: millisecond),the result will return the operation that exceeds the set time, the default value is 0,and the value range is [0, 3600000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op#millisecond_running DataTencentcloudMongodbInstanceCurrentOp#millisecond_running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op#millisecond_running DataTencentcloudMongodbInstanceCurrentOp#millisecond_running}
   */
   readonly millisecondRunning?: number;
   /**
   * Filter condition, the namespace namespace to which the operation belongs, in the format of db.collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op#ns DataTencentcloudMongodbInstanceCurrentOp#ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op#ns DataTencentcloudMongodbInstanceCurrentOp#ns}
   */
   readonly ns?: string;
   /**
   * Filter condition, operation type, possible values: none, update, insert, query, command, getmore,remove and killcursors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op#op DataTencentcloudMongodbInstanceCurrentOp#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op#op DataTencentcloudMongodbInstanceCurrentOp#op}
   */
   readonly op?: string;
   /**
   * Returns the sorted field of the result set, currently supports: MicrosecsRunning/microsecsrunning,the default is ascending sort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op#order_by DataTencentcloudMongodbInstanceCurrentOp#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op#order_by DataTencentcloudMongodbInstanceCurrentOp#order_by}
   */
   readonly orderBy?: string;
   /**
   * Returns the sorting method of the result set, possible values: ASC/asc or DESC/desc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op#order_by_type DataTencentcloudMongodbInstanceCurrentOp#order_by_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op#order_by_type DataTencentcloudMongodbInstanceCurrentOp#order_by_type}
   */
   readonly orderByType?: string;
   /**
   * filter condition, shard name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op#replica_set_name DataTencentcloudMongodbInstanceCurrentOp#replica_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op#replica_set_name DataTencentcloudMongodbInstanceCurrentOp#replica_set_name}
   */
   readonly replicaSetName?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op#result_output_file DataTencentcloudMongodbInstanceCurrentOp#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op#result_output_file DataTencentcloudMongodbInstanceCurrentOp#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Filter condition, node status, possible value: primary, secondary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op#state DataTencentcloudMongodbInstanceCurrentOp#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op#state DataTencentcloudMongodbInstanceCurrentOp#state}
   */
   readonly state?: string;
 }
@@ -186,7 +186,7 @@ export class DataTencentcloudMongodbInstanceCurrentOpCurrentOpsList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op tencentcloud_mongodb_instance_current_op}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op tencentcloud_mongodb_instance_current_op}
 */
 export class DataTencentcloudMongodbInstanceCurrentOp extends cdktf.TerraformDataSource {
 
@@ -202,7 +202,7 @@ export class DataTencentcloudMongodbInstanceCurrentOp extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudMongodbInstanceCurrentOp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMongodbInstanceCurrentOp to import
-  * @param importFromId The id of the existing DataTencentcloudMongodbInstanceCurrentOp that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMongodbInstanceCurrentOp that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMongodbInstanceCurrentOp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class DataTencentcloudMongodbInstanceCurrentOp extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/mongodb_instance_current_op tencentcloud_mongodb_instance_current_op} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mongodb_instance_current_op tencentcloud_mongodb_instance_current_op} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class DataTencentcloudMongodbInstanceCurrentOp extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_mongodb_instance_current_op',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

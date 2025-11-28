@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_sshkeys
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_sshkeys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface SystemUserSshkeysConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_sshkeys#___path___ SystemUserSshkeys#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_sshkeys#___path___ SystemUserSshkeys#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_sshkeys#___ts___ SystemUserSshkeys#___ts___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_sshkeys#___ts___ SystemUserSshkeys#___ts___}
   */
   readonly ts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_sshkeys#comment SystemUserSshkeys#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_sshkeys#comment SystemUserSshkeys#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_sshkeys#id SystemUserSshkeys#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_sshkeys#id SystemUserSshkeys#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,19 +33,19 @@ export interface SystemUserSshkeysConfig extends cdktf.TerraformMetaArguments {
   /**
   * key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_sshkeys#key SystemUserSshkeys#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_sshkeys#key SystemUserSshkeys#key}
   */
   readonly key: string;
   /**
   * username to which the SSH key is assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_sshkeys#user SystemUserSshkeys#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_sshkeys#user SystemUserSshkeys#user}
   */
   readonly user: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_sshkeys routeros_system_user_sshkeys}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_sshkeys routeros_system_user_sshkeys}
 */
 export class SystemUserSshkeys extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class SystemUserSshkeys extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemUserSshkeys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemUserSshkeys to import
-  * @param importFromId The id of the existing SystemUserSshkeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_sshkeys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemUserSshkeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_sshkeys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemUserSshkeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class SystemUserSshkeys extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_user_sshkeys routeros_system_user_sshkeys} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_sshkeys routeros_system_user_sshkeys} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class SystemUserSshkeys extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_system_user_sshkeys',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

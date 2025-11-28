@@ -57,6 +57,7 @@ export * as zvmSecurityGroupRule from './zvm-security-group-rule';
 export * as zvmSubnet from './zvm-subnet';
 export * as dataZenlayercloudBmcEips from './data-zenlayercloud-bmc-eips';
 export * as dataZenlayercloudBmcImages from './data-zenlayercloud-bmc-images';
+export * as dataZenlayercloudBmcInstanceHealthStatus from './data-zenlayercloud-bmc-instance-health-status';
 export * as dataZenlayercloudBmcInstanceTypes from './data-zenlayercloud-bmc-instance-types';
 export * as dataZenlayercloudBmcInstances from './data-zenlayercloud-bmc-instances';
 export * as dataZenlayercloudBmcSubnets from './data-zenlayercloud-bmc-subnets';

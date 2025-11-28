@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LtsTransferConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#id LtsTransfer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#id LtsTransfer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,23 +17,23 @@ export interface LtsTransferConfig extends cdktf.TerraformMetaArguments {
   /**
   * Log group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#log_group_id LtsTransfer#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#log_group_id LtsTransfer#log_group_id}
   */
   readonly logGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#region LtsTransfer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#region LtsTransfer#region}
   */
   readonly region?: string;
   /**
   * log_streams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#log_streams LtsTransfer#log_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#log_streams LtsTransfer#log_streams}
   */
   readonly logStreams: LtsTransferLogStreams[] | cdktf.IResolvable;
   /**
   * log_transfer_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#log_transfer_info LtsTransfer#log_transfer_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#log_transfer_info LtsTransfer#log_transfer_info}
   */
   readonly logTransferInfo: LtsTransferLogTransferInfo;
 }
@@ -41,13 +41,13 @@ export interface LtsTransferLogStreams {
   /**
   * Log stream ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#log_stream_id LtsTransfer#log_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#log_stream_id LtsTransfer#log_stream_id}
   */
   readonly logStreamId: string;
   /**
   * Log stream name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#log_stream_name LtsTransfer#log_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#log_stream_name LtsTransfer#log_stream_name}
   */
   readonly logStreamName?: string;
 }
@@ -191,25 +191,25 @@ export interface LtsTransferLogTransferInfoLogAgencyTransfer {
   /**
   * Delegator account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#agency_domain_id LtsTransfer#agency_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#agency_domain_id LtsTransfer#agency_domain_id}
   */
   readonly agencyDomainId: string;
   /**
   * Delegator account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#agency_domain_name LtsTransfer#agency_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#agency_domain_name LtsTransfer#agency_domain_name}
   */
   readonly agencyDomainName: string;
   /**
   * The agency name created by the delegator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#agency_name LtsTransfer#agency_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#agency_name LtsTransfer#agency_name}
   */
   readonly agencyName: string;
   /**
   * Project ID of the delegator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#agency_project_id LtsTransfer#agency_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#agency_project_id LtsTransfer#agency_project_id}
   */
   readonly agencyProjectId: string;
 }
@@ -370,97 +370,97 @@ export interface LtsTransferLogTransferInfoLogTransferDetail {
   /**
   * The list of tag fields will be delivered when transferring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#delivery_tags LtsTransfer#delivery_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#delivery_tags LtsTransfer#delivery_tags}
   */
   readonly deliveryTags?: string[];
   /**
   * DIS stream ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#dis_id LtsTransfer#dis_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#dis_id LtsTransfer#dis_id}
   */
   readonly disId?: string;
   /**
   * DIS stream name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#dis_name LtsTransfer#dis_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#dis_name LtsTransfer#dis_name}
   */
   readonly disName?: string;
   /**
   * Kafka ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#kafka_id LtsTransfer#kafka_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#kafka_id LtsTransfer#kafka_id}
   */
   readonly kafkaId?: string;
   /**
   * Kafka topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#kafka_topic LtsTransfer#kafka_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#kafka_topic LtsTransfer#kafka_topic}
   */
   readonly kafkaTopic?: string;
   /**
   * OBS bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#obs_bucket_name LtsTransfer#obs_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#obs_bucket_name LtsTransfer#obs_bucket_name}
   */
   readonly obsBucketName?: string;
   /**
   * Custom transfer path of an OBS transfer task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#obs_dir_prefix_name LtsTransfer#obs_dir_prefix_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#obs_dir_prefix_name LtsTransfer#obs_dir_prefix_name}
   */
   readonly obsDirPrefixName?: string;
   /**
   * Whether OBS bucket encryption is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#obs_encrypted_enable LtsTransfer#obs_encrypted_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#obs_encrypted_enable LtsTransfer#obs_encrypted_enable}
   */
   readonly obsEncryptedEnable?: boolean | cdktf.IResolvable;
   /**
   * KMS key ID for an OBS transfer task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#obs_encrypted_id LtsTransfer#obs_encrypted_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#obs_encrypted_id LtsTransfer#obs_encrypted_id}
   */
   readonly obsEncryptedId?: string;
   /**
   * Enterprise project ID of an OBS transfer task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#obs_eps_id LtsTransfer#obs_eps_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#obs_eps_id LtsTransfer#obs_eps_id}
   */
   readonly obsEpsId?: string;
   /**
   * Length of the transfer interval for an OBS transfer task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#obs_period LtsTransfer#obs_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#obs_period LtsTransfer#obs_period}
   */
   readonly obsPeriod?: number;
   /**
   * Unit of the transfer interval for an OBS transfer task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#obs_period_unit LtsTransfer#obs_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#obs_period_unit LtsTransfer#obs_period_unit}
   */
   readonly obsPeriodUnit?: string;
   /**
   * Transfer file prefix of an OBS transfer task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#obs_prefix_name LtsTransfer#obs_prefix_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#obs_prefix_name LtsTransfer#obs_prefix_name}
   */
   readonly obsPrefixName?: string;
   /**
   * Time zone for an OBS transfer task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#obs_time_zone LtsTransfer#obs_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#obs_time_zone LtsTransfer#obs_time_zone}
   */
   readonly obsTimeZone?: string;
   /**
   * ID of the time zone for an OBS transfer task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#obs_time_zone_id LtsTransfer#obs_time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#obs_time_zone_id LtsTransfer#obs_time_zone_id}
   */
   readonly obsTimeZoneId?: string;
   /**
   * OBS bucket path, which is the log transfer destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#obs_transfer_path LtsTransfer#obs_transfer_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#obs_transfer_path LtsTransfer#obs_transfer_path}
   */
   readonly obsTransferPath?: string;
 }
@@ -981,37 +981,37 @@ export interface LtsTransferLogTransferInfo {
   /**
   * Log transfer format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#log_storage_format LtsTransfer#log_storage_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#log_storage_format LtsTransfer#log_storage_format}
   */
   readonly logStorageFormat: string;
   /**
   * Log transfer mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#log_transfer_mode LtsTransfer#log_transfer_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#log_transfer_mode LtsTransfer#log_transfer_mode}
   */
   readonly logTransferMode: string;
   /**
   * Log transfer status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#log_transfer_status LtsTransfer#log_transfer_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#log_transfer_status LtsTransfer#log_transfer_status}
   */
   readonly logTransferStatus: string;
   /**
   * Log transfer type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#log_transfer_type LtsTransfer#log_transfer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#log_transfer_type LtsTransfer#log_transfer_type}
   */
   readonly logTransferType: string;
   /**
   * log_agency_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#log_agency_transfer LtsTransfer#log_agency_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#log_agency_transfer LtsTransfer#log_agency_transfer}
   */
   readonly logAgencyTransfer?: LtsTransferLogTransferInfoLogAgencyTransfer;
   /**
   * log_transfer_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#log_transfer_detail LtsTransfer#log_transfer_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#log_transfer_detail LtsTransfer#log_transfer_detail}
   */
   readonly logTransferDetail: LtsTransferLogTransferInfoLogTransferDetail;
 }
@@ -1225,7 +1225,7 @@ export class LtsTransferLogTransferInfoOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer hcs_lts_transfer}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer hcs_lts_transfer}
 */
 export class LtsTransfer extends cdktf.TerraformResource {
 
@@ -1241,7 +1241,7 @@ export class LtsTransfer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LtsTransfer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LtsTransfer to import
-  * @param importFromId The id of the existing LtsTransfer that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LtsTransfer that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LtsTransfer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1253,7 +1253,7 @@ export class LtsTransfer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/lts_transfer hcs_lts_transfer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/lts_transfer hcs_lts_transfer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1264,8 +1264,8 @@ export class LtsTransfer extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_lts_transfer',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

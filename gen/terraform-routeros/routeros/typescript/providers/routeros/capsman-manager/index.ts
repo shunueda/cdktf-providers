@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_manager
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CapsmanManagerConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_manager#___path___ CapsmanManager#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_manager#___path___ CapsmanManager#___path___}
   */
   readonly path?: string;
   /**
   * Device CA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_manager#ca_certificate CapsmanManager#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_manager#ca_certificate CapsmanManager#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * Device certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_manager#certificate CapsmanManager#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_manager#certificate CapsmanManager#certificate}
   */
   readonly certificate?: string;
   /**
   * Disable or enable CAPsMAN functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_manager#enabled CapsmanManager#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_manager#enabled CapsmanManager#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_manager#id CapsmanManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_manager#id CapsmanManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface CapsmanManagerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Folder location for the RouterOS packages. For example, use '/upgrade' to specify the upgrade folder from the files section. If empty string is set, CAPsMAN can use built-in RouterOS packages, note that in this case only CAPs with the same architecture as CAPsMAN will be upgraded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_manager#package_path CapsmanManager#package_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_manager#package_path CapsmanManager#package_path}
   */
   readonly packagePath?: string;
   /**
   * Require all connecting CAPs to have a valid certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_manager#require_peer_certificate CapsmanManager#require_peer_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_manager#require_peer_certificate CapsmanManager#require_peer_certificate}
   */
   readonly requirePeerCertificate?: boolean | cdktf.IResolvable;
   /**
   * Upgrade policy options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_manager#upgrade_policy CapsmanManager#upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_manager#upgrade_policy CapsmanManager#upgrade_policy}
   */
   readonly upgradePolicy?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_manager routeros_capsman_manager}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_manager routeros_capsman_manager}
 */
 export class CapsmanManager extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class CapsmanManager extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapsmanManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapsmanManager to import
-  * @param importFromId The id of the existing CapsmanManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapsmanManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapsmanManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class CapsmanManager extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/capsman_manager routeros_capsman_manager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_manager routeros_capsman_manager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class CapsmanManager extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_capsman_manager',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

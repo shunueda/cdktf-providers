@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dlc_data_engine_network
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dlc_data_engine_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDlcDataEngineNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dlc_data_engine_network#id DataTencentcloudDlcDataEngineNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dlc_data_engine_network#id DataTencentcloudDlcDataEngineNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudDlcDataEngineNetworkConfig extends cdktf.Terraf
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dlc_data_engine_network#result_output_file DataTencentcloudDlcDataEngineNetwork#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dlc_data_engine_network#result_output_file DataTencentcloudDlcDataEngineNetwork#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Sort Field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dlc_data_engine_network#sort_by DataTencentcloudDlcDataEngineNetwork#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dlc_data_engine_network#sort_by DataTencentcloudDlcDataEngineNetwork#sort_by}
   */
   readonly sortBy?: string;
   /**
   * Sort order, asc or desc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dlc_data_engine_network#sorting DataTencentcloudDlcDataEngineNetwork#sorting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dlc_data_engine_network#sorting DataTencentcloudDlcDataEngineNetwork#sorting}
   */
   readonly sorting?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dlc_data_engine_network#filters DataTencentcloudDlcDataEngineNetwork#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dlc_data_engine_network#filters DataTencentcloudDlcDataEngineNetwork#filters}
   */
   readonly filters?: DataTencentcloudDlcDataEngineNetworkFilters[] | cdktf.IResolvable;
 }
@@ -259,13 +259,13 @@ export interface DataTencentcloudDlcDataEngineNetworkFilters {
   /**
   * Attribute name, if there are multiple filters, the relationship between filters is a logical OR relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dlc_data_engine_network#name DataTencentcloudDlcDataEngineNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dlc_data_engine_network#name DataTencentcloudDlcDataEngineNetwork#name}
   */
   readonly name: string;
   /**
   * Attribute value, if there are multiple values, the relationship between values is a logical OR relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dlc_data_engine_network#values DataTencentcloudDlcDataEngineNetwork#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dlc_data_engine_network#values DataTencentcloudDlcDataEngineNetwork#values}
   */
   readonly values: string[];
 }
@@ -404,7 +404,7 @@ export class DataTencentcloudDlcDataEngineNetworkFiltersList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dlc_data_engine_network tencentcloud_dlc_data_engine_network}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dlc_data_engine_network tencentcloud_dlc_data_engine_network}
 */
 export class DataTencentcloudDlcDataEngineNetwork extends cdktf.TerraformDataSource {
 
@@ -420,7 +420,7 @@ export class DataTencentcloudDlcDataEngineNetwork extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudDlcDataEngineNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDlcDataEngineNetwork to import
-  * @param importFromId The id of the existing DataTencentcloudDlcDataEngineNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dlc_data_engine_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDlcDataEngineNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dlc_data_engine_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDlcDataEngineNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -432,7 +432,7 @@ export class DataTencentcloudDlcDataEngineNetwork extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/dlc_data_engine_network tencentcloud_dlc_data_engine_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dlc_data_engine_network tencentcloud_dlc_data_engine_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -443,8 +443,8 @@ export class DataTencentcloudDlcDataEngineNetwork extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_dlc_data_engine_network',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

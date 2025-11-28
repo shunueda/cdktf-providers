@@ -23,7 +23,9 @@ Object.defineProperty(exports, 'cfwEipProtection', { get: function () { return r
 Object.defineProperty(exports, 'cfwProtectionRule', { get: function () { return require('./cfw-protection-rule'); } });
 Object.defineProperty(exports, 'cfwServiceGroup', { get: function () { return require('./cfw-service-group'); } });
 Object.defineProperty(exports, 'cfwServiceGroupMember', { get: function () { return require('./cfw-service-group-member'); } });
+Object.defineProperty(exports, 'codeartsPipelineGroup', { get: function () { return require('./codearts-pipeline-group'); } });
 Object.defineProperty(exports, 'codeartsProject', { get: function () { return require('./codearts-project'); } });
+Object.defineProperty(exports, 'codeartsRepository', { get: function () { return require('./codearts-repository'); } });
 Object.defineProperty(exports, 'csmsSecret', { get: function () { return require('./csms-secret'); } });
 Object.defineProperty(exports, 'dcsBackup', { get: function () { return require('./dcs-backup'); } });
 Object.defineProperty(exports, 'dcsInstance', { get: function () { return require('./dcs-instance'); } });
@@ -116,6 +118,8 @@ Object.defineProperty(exports, 'secmasterPlaybook', { get: function () { return 
 Object.defineProperty(exports, 'secmasterPlaybookAction', { get: function () { return require('./secmaster-playbook-action'); } });
 Object.defineProperty(exports, 'secmasterPlaybookRule', { get: function () { return require('./secmaster-playbook-rule'); } });
 Object.defineProperty(exports, 'secmasterPlaybookVersion', { get: function () { return require('./secmaster-playbook-version'); } });
+Object.defineProperty(exports, 'servicestageApplication', { get: function () { return require('./servicestage-application'); } });
+Object.defineProperty(exports, 'servicestageEnvironment', { get: function () { return require('./servicestage-environment'); } });
 Object.defineProperty(exports, 'sfsAccessRule', { get: function () { return require('./sfs-access-rule'); } });
 Object.defineProperty(exports, 'sfsFileSystem', { get: function () { return require('./sfs-file-system'); } });
 Object.defineProperty(exports, 'sfsTurbo', { get: function () { return require('./sfs-turbo'); } });
@@ -129,6 +133,7 @@ Object.defineProperty(exports, 'smnTopicV2', { get: function () { return require
 Object.defineProperty(exports, 'swrImageRetentionPolicy', { get: function () { return require('./swr-image-retention-policy'); } });
 Object.defineProperty(exports, 'swrImageTrigger', { get: function () { return require('./swr-image-trigger'); } });
 Object.defineProperty(exports, 'swrOrganization', { get: function () { return require('./swr-organization'); } });
+Object.defineProperty(exports, 'swrOrganizationPermissions', { get: function () { return require('./swr-organization-permissions'); } });
 Object.defineProperty(exports, 'swrRepository', { get: function () { return require('./swr-repository'); } });
 Object.defineProperty(exports, 'swrRepositorySharing', { get: function () { return require('./swr-repository-sharing'); } });
 Object.defineProperty(exports, 'ucsCluster', { get: function () { return require('./ucs-cluster'); } });
@@ -201,6 +206,7 @@ Object.defineProperty(exports, 'dataHcsDirectConnect', { get: function () { retu
 Object.defineProperty(exports, 'dataHcsDmsKafkaFlavors', { get: function () { return require('./data-hcs-dms-kafka-flavors'); } });
 Object.defineProperty(exports, 'dataHcsDmsKafkaInstances', { get: function () { return require('./data-hcs-dms-kafka-instances'); } });
 Object.defineProperty(exports, 'dataHcsDmsMaintainwindow', { get: function () { return require('./data-hcs-dms-maintainwindow'); } });
+Object.defineProperty(exports, 'dataHcsDrsAvailabilityZones', { get: function () { return require('./data-hcs-drs-availability-zones'); } });
 Object.defineProperty(exports, 'dataHcsDwsFlavors', { get: function () { return require('./data-hcs-dws-flavors'); } });
 Object.defineProperty(exports, 'dataHcsEcsComputeFlavors', { get: function () { return require('./data-hcs-ecs-compute-flavors'); } });
 Object.defineProperty(exports, 'dataHcsEcsComputeInstance', { get: function () { return require('./data-hcs-ecs-compute-instance'); } });

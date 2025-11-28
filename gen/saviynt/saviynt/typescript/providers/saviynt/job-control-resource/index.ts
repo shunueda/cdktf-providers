@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/job_control_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/job_control_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface JobControlResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of job objects to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/job_control_resource#run_jobs JobControlResource#run_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/job_control_resource#run_jobs JobControlResource#run_jobs}
   */
   readonly runJobs?: JobControlResourceRunJobs[] | cdktf.IResolvable;
 }
@@ -18,25 +18,25 @@ export interface JobControlResourceRunJobs {
   /**
   * Job group for the job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/job_control_resource#job_group JobControlResource#job_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/job_control_resource#job_group JobControlResource#job_group}
   */
   readonly jobGroup: string;
   /**
   * Name of the job to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/job_control_resource#job_name JobControlResource#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/job_control_resource#job_name JobControlResource#job_name}
   */
   readonly jobName: string;
   /**
   * Version identifier to trigger job run. Change this value to trigger re-run of the job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/job_control_resource#run_job_version JobControlResource#run_job_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/job_control_resource#run_job_version JobControlResource#run_job_version}
   */
   readonly runJobVersion?: string;
   /**
   * Trigger name for the job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/job_control_resource#trigger_name JobControlResource#trigger_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/job_control_resource#trigger_name JobControlResource#trigger_name}
   */
   readonly triggerName: string;
 }
@@ -230,7 +230,7 @@ export class JobControlResourceRunJobsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/job_control_resource saviynt_job_control_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/job_control_resource saviynt_job_control_resource}
 */
 export class JobControlResource extends cdktf.TerraformResource {
 
@@ -246,7 +246,7 @@ export class JobControlResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JobControlResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JobControlResource to import
-  * @param importFromId The id of the existing JobControlResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/job_control_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JobControlResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/job_control_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JobControlResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -258,7 +258,7 @@ export class JobControlResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/job_control_resource saviynt_job_control_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/job_control_resource saviynt_job_control_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -269,8 +269,8 @@ export class JobControlResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_job_control_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

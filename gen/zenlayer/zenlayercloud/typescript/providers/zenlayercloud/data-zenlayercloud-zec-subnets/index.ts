@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_subnets
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZenlayercloudZecSubnetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_subnets#id DataZenlayercloudZecSubnets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_subnets#id DataZenlayercloudZecSubnets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataZenlayercloudZecSubnetsConfig extends cdktf.TerraformMetaAr
   /**
   * ID of the subnets to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_subnets#ids DataZenlayercloudZecSubnets#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_subnets#ids DataZenlayercloudZecSubnets#ids}
   */
   readonly ids?: string[];
   /**
   * A regex string to apply to the subnet list returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_subnets#name_regex DataZenlayercloudZecSubnets#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_subnets#name_regex DataZenlayercloudZecSubnets#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * The region that the subnet locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_subnets#region_id DataZenlayercloudZecSubnets#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_subnets#region_id DataZenlayercloudZecSubnets#region_id}
   */
   readonly regionId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_subnets#result_output_file DataZenlayercloudZecSubnets#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_subnets#result_output_file DataZenlayercloudZecSubnets#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -161,7 +161,7 @@ export class DataZenlayercloudZecSubnetsResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_subnets zenlayercloud_zec_subnets}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_subnets zenlayercloud_zec_subnets}
 */
 export class DataZenlayercloudZecSubnets extends cdktf.TerraformDataSource {
 
@@ -177,7 +177,7 @@ export class DataZenlayercloudZecSubnets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudZecSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZecSubnets to import
-  * @param importFromId The id of the existing DataZenlayercloudZecSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZecSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZecSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DataZenlayercloudZecSubnets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zec_subnets zenlayercloud_zec_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_subnets zenlayercloud_zec_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DataZenlayercloudZecSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zec_subnets',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

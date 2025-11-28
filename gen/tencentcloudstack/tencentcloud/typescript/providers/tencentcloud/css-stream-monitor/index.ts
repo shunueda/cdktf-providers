@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface CssStreamMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * AI asr input index list.(first input index is 1.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#ai_asr_input_index_list CssStreamMonitor#ai_asr_input_index_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#ai_asr_input_index_list CssStreamMonitor#ai_asr_input_index_list}
   */
   readonly aiAsrInputIndexList?: number[];
   /**
   * If enable format diagnose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#ai_format_diagnose CssStreamMonitor#ai_format_diagnose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#ai_format_diagnose CssStreamMonitor#ai_format_diagnose}
   */
   readonly aiFormatDiagnose?: number;
   /**
   * Ai ocr input index list(first input index is 1.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#ai_ocr_input_index_list CssStreamMonitor#ai_ocr_input_index_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#ai_ocr_input_index_list CssStreamMonitor#ai_ocr_input_index_list}
   */
   readonly aiOcrInputIndexList?: number[];
   /**
   * If store monitor event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#allow_monitor_report CssStreamMonitor#allow_monitor_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#allow_monitor_report CssStreamMonitor#allow_monitor_report}
   */
   readonly allowMonitorReport?: number;
   /**
   * Asr language.0: close.1: Chinese2: English3: Japanese4: Korean.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#asr_language CssStreamMonitor#asr_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#asr_language CssStreamMonitor#asr_language}
   */
   readonly asrLanguage?: number;
   /**
   * If enable stream broken check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#check_stream_broken CssStreamMonitor#check_stream_broken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#check_stream_broken CssStreamMonitor#check_stream_broken}
   */
   readonly checkStreamBroken?: number;
   /**
   * If enable low frame rate check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#check_stream_low_frame_rate CssStreamMonitor#check_stream_low_frame_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#check_stream_low_frame_rate CssStreamMonitor#check_stream_low_frame_rate}
   */
   readonly checkStreamLowFrameRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#id CssStreamMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#id CssStreamMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,31 +59,31 @@ export interface CssStreamMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Monitor task name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#monitor_name CssStreamMonitor#monitor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#monitor_name CssStreamMonitor#monitor_name}
   */
   readonly monitorName?: string;
   /**
   * Intelligent text recognition language settings: ocr language.0: close.1. Chinese,English.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#ocr_language CssStreamMonitor#ocr_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#ocr_language CssStreamMonitor#ocr_language}
   */
   readonly ocrLanguage?: number;
   /**
   * input_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#input_list CssStreamMonitor#input_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#input_list CssStreamMonitor#input_list}
   */
   readonly inputList: CssStreamMonitorInputListStruct[] | cdktf.IResolvable;
   /**
   * notify_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#notify_policy CssStreamMonitor#notify_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#notify_policy CssStreamMonitor#notify_policy}
   */
   readonly notifyPolicy?: CssStreamMonitorNotifyPolicy;
   /**
   * output_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#output_info CssStreamMonitor#output_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#output_info CssStreamMonitor#output_info}
   */
   readonly outputInfo: CssStreamMonitorOutputInfo;
 }
@@ -91,31 +91,31 @@ export interface CssStreamMonitorInputListStruct {
   /**
   * Description content.limit 256 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#description CssStreamMonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#description CssStreamMonitor#description}
   */
   readonly description?: string;
   /**
   * Wait monitor input push path.limit 32 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#input_app CssStreamMonitor#input_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#input_app CssStreamMonitor#input_app}
   */
   readonly inputApp?: string;
   /**
   * Wait monitor input push domain.limit 128 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#input_domain CssStreamMonitor#input_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#input_domain CssStreamMonitor#input_domain}
   */
   readonly inputDomain?: string;
   /**
   * Wait monitor input stream name.limit 256 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#input_stream_name CssStreamMonitor#input_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#input_stream_name CssStreamMonitor#input_stream_name}
   */
   readonly inputStreamName: string;
   /**
   * Wait monitor input stream push url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#input_url CssStreamMonitor#input_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#input_url CssStreamMonitor#input_url}
   */
   readonly inputUrl?: string;
 }
@@ -346,13 +346,13 @@ export interface CssStreamMonitorNotifyPolicy {
   /**
   * Callback url.limit [0,512].only http or https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#callback_url CssStreamMonitor#callback_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#callback_url CssStreamMonitor#callback_url}
   */
   readonly callbackUrl?: string;
   /**
   * Notify policy type.0: not notify.1: use global policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#notify_policy_type CssStreamMonitor#notify_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#notify_policy_type CssStreamMonitor#notify_policy_type}
   */
   readonly notifyPolicyType?: number;
 }
@@ -467,31 +467,31 @@ export interface CssStreamMonitorOutputInfo {
   /**
   * Monitor task play path.limit 32 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#output_app CssStreamMonitor#output_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#output_app CssStreamMonitor#output_app}
   */
   readonly outputApp?: string;
   /**
   * Monitor task output play domain.limit 128 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#output_domain CssStreamMonitor#output_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#output_domain CssStreamMonitor#output_domain}
   */
   readonly outputDomain?: string;
   /**
   * Monitor task output height, limit[1, 1080].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#output_stream_height CssStreamMonitor#output_stream_height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#output_stream_height CssStreamMonitor#output_stream_height}
   */
   readonly outputStreamHeight: number;
   /**
   * Monitor task output stream name.limit 256 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#output_stream_name CssStreamMonitor#output_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#output_stream_name CssStreamMonitor#output_stream_name}
   */
   readonly outputStreamName?: string;
   /**
   * Output stream width, limit[1, 1920].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#output_stream_width CssStreamMonitor#output_stream_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#output_stream_width CssStreamMonitor#output_stream_width}
   */
   readonly outputStreamWidth: number;
 }
@@ -685,7 +685,7 @@ export class CssStreamMonitorOutputInfoOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor tencentcloud_css_stream_monitor}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor tencentcloud_css_stream_monitor}
 */
 export class CssStreamMonitor extends cdktf.TerraformResource {
 
@@ -701,7 +701,7 @@ export class CssStreamMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssStreamMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssStreamMonitor to import
-  * @param importFromId The id of the existing CssStreamMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssStreamMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssStreamMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -713,7 +713,7 @@ export class CssStreamMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/css_stream_monitor tencentcloud_css_stream_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/css_stream_monitor tencentcloud_css_stream_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -724,8 +724,8 @@ export class CssStreamMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_stream_monitor',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

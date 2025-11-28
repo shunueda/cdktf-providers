@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_routerboard_button_reset
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_button_reset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SystemRouterboardButtonResetConfig extends cdktf.TerraformMetaA
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_routerboard_button_reset#___path___ SystemRouterboardButtonReset#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_button_reset#___path___ SystemRouterboardButtonReset#___path___}
   */
   readonly path?: string;
   /**
   * An option to enable the operation of the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_routerboard_button_reset#enabled SystemRouterboardButtonReset#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_button_reset#enabled SystemRouterboardButtonReset#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * An option to define the period within which the button should be pressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_routerboard_button_reset#hold_time SystemRouterboardButtonReset#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_button_reset#hold_time SystemRouterboardButtonReset#hold_time}
   */
   readonly holdTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_routerboard_button_reset#id SystemRouterboardButtonReset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_button_reset#id SystemRouterboardButtonReset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface SystemRouterboardButtonResetConfig extends cdktf.TerraformMetaA
   /**
   * An option to set the script that will be run upon pressing the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_routerboard_button_reset#on_event SystemRouterboardButtonReset#on_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_button_reset#on_event SystemRouterboardButtonReset#on_event}
   */
   readonly onEvent?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_routerboard_button_reset routeros_system_routerboard_button_reset}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_button_reset routeros_system_routerboard_button_reset}
 */
 export class SystemRouterboardButtonReset extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SystemRouterboardButtonReset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemRouterboardButtonReset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemRouterboardButtonReset to import
-  * @param importFromId The id of the existing SystemRouterboardButtonReset that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_routerboard_button_reset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemRouterboardButtonReset that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_button_reset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemRouterboardButtonReset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SystemRouterboardButtonReset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/system_routerboard_button_reset routeros_system_routerboard_button_reset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_button_reset routeros_system_routerboard_button_reset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class SystemRouterboardButtonReset extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_system_routerboard_button_reset',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

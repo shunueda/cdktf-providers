@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,849 +10,849 @@ export interface EndpointResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify the query to filter the access and display of the endpoint to specific users. If you do not define a query, the endpoint is displayed for all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#access_query EndpointResource#access_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#access_query EndpointResource#access_query}
   */
   readonly accessQuery?: string;
   /**
   * Account Custom Property label 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_10_label EndpointResource#account_custom_property_10_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_10_label EndpointResource#account_custom_property_10_label}
   */
   readonly accountCustomProperty10Label?: string;
   /**
   * Account Custom Property label 11.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_11_label EndpointResource#account_custom_property_11_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_11_label EndpointResource#account_custom_property_11_label}
   */
   readonly accountCustomProperty11Label?: string;
   /**
   * Account Custom Property label 12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_12_label EndpointResource#account_custom_property_12_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_12_label EndpointResource#account_custom_property_12_label}
   */
   readonly accountCustomProperty12Label?: string;
   /**
   * Account Custom Property label 13.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_13_label EndpointResource#account_custom_property_13_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_13_label EndpointResource#account_custom_property_13_label}
   */
   readonly accountCustomProperty13Label?: string;
   /**
   * Account Custom Property label 14.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_14_label EndpointResource#account_custom_property_14_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_14_label EndpointResource#account_custom_property_14_label}
   */
   readonly accountCustomProperty14Label?: string;
   /**
   * Account Custom Property label 15.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_15_label EndpointResource#account_custom_property_15_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_15_label EndpointResource#account_custom_property_15_label}
   */
   readonly accountCustomProperty15Label?: string;
   /**
   * Account Custom Property label 16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_16_label EndpointResource#account_custom_property_16_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_16_label EndpointResource#account_custom_property_16_label}
   */
   readonly accountCustomProperty16Label?: string;
   /**
   * Account Custom Property label 17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_17_label EndpointResource#account_custom_property_17_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_17_label EndpointResource#account_custom_property_17_label}
   */
   readonly accountCustomProperty17Label?: string;
   /**
   * Account Custom Property label 18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_18_label EndpointResource#account_custom_property_18_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_18_label EndpointResource#account_custom_property_18_label}
   */
   readonly accountCustomProperty18Label?: string;
   /**
   * Account Custom Property label 19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_19_label EndpointResource#account_custom_property_19_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_19_label EndpointResource#account_custom_property_19_label}
   */
   readonly accountCustomProperty19Label?: string;
   /**
   * Account Custom Property label 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_1_label EndpointResource#account_custom_property_1_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_1_label EndpointResource#account_custom_property_1_label}
   */
   readonly accountCustomProperty1Label?: string;
   /**
   * Account Custom Property label 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_20_label EndpointResource#account_custom_property_20_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_20_label EndpointResource#account_custom_property_20_label}
   */
   readonly accountCustomProperty20Label?: string;
   /**
   * Account Custom Property label 21.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_21_label EndpointResource#account_custom_property_21_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_21_label EndpointResource#account_custom_property_21_label}
   */
   readonly accountCustomProperty21Label?: string;
   /**
   * Account Custom Property label 22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_22_label EndpointResource#account_custom_property_22_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_22_label EndpointResource#account_custom_property_22_label}
   */
   readonly accountCustomProperty22Label?: string;
   /**
   * Account Custom Property label 23.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_23_label EndpointResource#account_custom_property_23_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_23_label EndpointResource#account_custom_property_23_label}
   */
   readonly accountCustomProperty23Label?: string;
   /**
   * Account Custom Property label 24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_24_label EndpointResource#account_custom_property_24_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_24_label EndpointResource#account_custom_property_24_label}
   */
   readonly accountCustomProperty24Label?: string;
   /**
   * Account Custom Property label 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_25_label EndpointResource#account_custom_property_25_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_25_label EndpointResource#account_custom_property_25_label}
   */
   readonly accountCustomProperty25Label?: string;
   /**
   * Account Custom Property label 26.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_26_label EndpointResource#account_custom_property_26_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_26_label EndpointResource#account_custom_property_26_label}
   */
   readonly accountCustomProperty26Label?: string;
   /**
   * Account Custom Property label 27.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_27_label EndpointResource#account_custom_property_27_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_27_label EndpointResource#account_custom_property_27_label}
   */
   readonly accountCustomProperty27Label?: string;
   /**
   * Account Custom Property label 28.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_28_label EndpointResource#account_custom_property_28_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_28_label EndpointResource#account_custom_property_28_label}
   */
   readonly accountCustomProperty28Label?: string;
   /**
   * Account Custom Property label 29.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_29_label EndpointResource#account_custom_property_29_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_29_label EndpointResource#account_custom_property_29_label}
   */
   readonly accountCustomProperty29Label?: string;
   /**
   * Account Custom Property label 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_2_label EndpointResource#account_custom_property_2_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_2_label EndpointResource#account_custom_property_2_label}
   */
   readonly accountCustomProperty2Label?: string;
   /**
   * Account Custom Property label 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_30_label EndpointResource#account_custom_property_30_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_30_label EndpointResource#account_custom_property_30_label}
   */
   readonly accountCustomProperty30Label?: string;
   /**
   * Account Custom Property label 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_3_label EndpointResource#account_custom_property_3_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_3_label EndpointResource#account_custom_property_3_label}
   */
   readonly accountCustomProperty3Label?: string;
   /**
   * Account Custom Property label 4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_4_label EndpointResource#account_custom_property_4_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_4_label EndpointResource#account_custom_property_4_label}
   */
   readonly accountCustomProperty4Label?: string;
   /**
   * Account Custom Property label 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_5_label EndpointResource#account_custom_property_5_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_5_label EndpointResource#account_custom_property_5_label}
   */
   readonly accountCustomProperty5Label?: string;
   /**
   * Account Custom Property label 6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_6_label EndpointResource#account_custom_property_6_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_6_label EndpointResource#account_custom_property_6_label}
   */
   readonly accountCustomProperty6Label?: string;
   /**
   * Account Custom Property label 7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_7_label EndpointResource#account_custom_property_7_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_7_label EndpointResource#account_custom_property_7_label}
   */
   readonly accountCustomProperty7Label?: string;
   /**
   * Account Custom Property label 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_8_label EndpointResource#account_custom_property_8_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_8_label EndpointResource#account_custom_property_8_label}
   */
   readonly accountCustomProperty8Label?: string;
   /**
   * Account Custom Property label 9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_custom_property_9_label EndpointResource#account_custom_property_9_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_custom_property_9_label EndpointResource#account_custom_property_9_label}
   */
   readonly accountCustomProperty9Label?: string;
   /**
   * Specify rule to generate an account name for this endpoint while creating a new account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_name_rule EndpointResource#account_name_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_name_rule EndpointResource#account_name_rule}
   */
   readonly accountNameRule?: string;
   /**
   * Specify the regular expression which will be used to validate the account name either generated by the rule or provided manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_name_validator_regex EndpointResource#account_name_validator_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_name_validator_regex EndpointResource#account_name_validator_regex}
   */
   readonly accountNameValidatorRegex?: string;
   /**
   * Account type no password change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#account_type_no_password_change EndpointResource#account_type_no_password_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#account_type_no_password_change EndpointResource#account_type_no_password_change}
   */
   readonly accountTypeNoPasswordChange?: string;
   /**
   * SQL query to configure the accounts for which you can change passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#allow_change_password_sql_query EndpointResource#allow_change_password_sql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#allow_change_password_sql_query EndpointResource#allow_change_password_sql_query}
   */
   readonly allowChangePasswordSqlQuery?: string;
   /**
   * Specify true to displays the Remove All Roles option in the Request page that can be used to remove all the roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#allow_remove_all_role_on_request EndpointResource#allow_remove_all_role_on_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#allow_remove_all_role_on_request EndpointResource#allow_remove_all_role_on_request}
   */
   readonly allowRemoveAllRoleOnRequest?: boolean | cdktf.IResolvable;
   /**
   * Specify true to prevent users from raising duplicate requests for the same applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#block_inflight_request EndpointResource#block_inflight_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#block_inflight_request EndpointResource#block_inflight_request}
   */
   readonly blockInflightRequest?: string;
   /**
   * Specify query to restrict the access for changing the account password of the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#change_password_access_query EndpointResource#change_password_access_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#change_password_access_query EndpointResource#change_password_access_query}
   */
   readonly changePasswordAccessQuery?: string;
   /**
   * Use this configuration for processing the add access tasks and remove access tasks for AD and LDAP Connectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#connection_config EndpointResource#connection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#connection_config EndpointResource#connection_config}
   */
   readonly connectionConfig?: string;
   /**
   * If this is set to true, remove Access tasks will be created for entitlements (account entitlements and their dependent entitlements) when a user requests for removing an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#create_ent_task_for_remove_acc EndpointResource#create_ent_task_for_remove_acc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#create_ent_task_for_remove_acc EndpointResource#create_ent_task_for_remove_acc}
   */
   readonly createEntTaskForRemoveAcc?: string;
   /**
   * Custom Property 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property1 EndpointResource#custom_property1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property1 EndpointResource#custom_property1}
   */
   readonly customProperty1?: string;
   /**
   * Custom Property 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property10 EndpointResource#custom_property10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property10 EndpointResource#custom_property10}
   */
   readonly customProperty10?: string;
   /**
   * Custom Property 11.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property11 EndpointResource#custom_property11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property11 EndpointResource#custom_property11}
   */
   readonly customProperty11?: string;
   /**
   * Custom Property 12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property12 EndpointResource#custom_property12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property12 EndpointResource#custom_property12}
   */
   readonly customProperty12?: string;
   /**
   * Custom Property 13.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property13 EndpointResource#custom_property13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property13 EndpointResource#custom_property13}
   */
   readonly customProperty13?: string;
   /**
   * Custom Property 14.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property14 EndpointResource#custom_property14}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property14 EndpointResource#custom_property14}
   */
   readonly customProperty14?: string;
   /**
   * Custom Property 15.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property15 EndpointResource#custom_property15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property15 EndpointResource#custom_property15}
   */
   readonly customProperty15?: string;
   /**
   * Custom Property 16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property16 EndpointResource#custom_property16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property16 EndpointResource#custom_property16}
   */
   readonly customProperty16?: string;
   /**
   * Custom Property 17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property17 EndpointResource#custom_property17}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property17 EndpointResource#custom_property17}
   */
   readonly customProperty17?: string;
   /**
   * Custom Property 18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property18 EndpointResource#custom_property18}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property18 EndpointResource#custom_property18}
   */
   readonly customProperty18?: string;
   /**
   * Custom Property 19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property19 EndpointResource#custom_property19}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property19 EndpointResource#custom_property19}
   */
   readonly customProperty19?: string;
   /**
   * Custom Property 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property2 EndpointResource#custom_property2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property2 EndpointResource#custom_property2}
   */
   readonly customProperty2?: string;
   /**
   * Custom Property 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property20 EndpointResource#custom_property20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property20 EndpointResource#custom_property20}
   */
   readonly customProperty20?: string;
   /**
   * Custom Property 21.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property21 EndpointResource#custom_property21}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property21 EndpointResource#custom_property21}
   */
   readonly customProperty21?: string;
   /**
   * Custom Property 22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property22 EndpointResource#custom_property22}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property22 EndpointResource#custom_property22}
   */
   readonly customProperty22?: string;
   /**
   * Custom Property 23.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property23 EndpointResource#custom_property23}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property23 EndpointResource#custom_property23}
   */
   readonly customProperty23?: string;
   /**
   * Custom Property 24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property24 EndpointResource#custom_property24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property24 EndpointResource#custom_property24}
   */
   readonly customProperty24?: string;
   /**
   * Custom Property 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property25 EndpointResource#custom_property25}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property25 EndpointResource#custom_property25}
   */
   readonly customProperty25?: string;
   /**
   * Custom Property 26.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property26 EndpointResource#custom_property26}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property26 EndpointResource#custom_property26}
   */
   readonly customProperty26?: string;
   /**
   * Custom Property 27.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property27 EndpointResource#custom_property27}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property27 EndpointResource#custom_property27}
   */
   readonly customProperty27?: string;
   /**
   * Custom Property 28.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property28 EndpointResource#custom_property28}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property28 EndpointResource#custom_property28}
   */
   readonly customProperty28?: string;
   /**
   * Custom Property 29.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property29 EndpointResource#custom_property29}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property29 EndpointResource#custom_property29}
   */
   readonly customProperty29?: string;
   /**
   * Custom Property 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property3 EndpointResource#custom_property3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property3 EndpointResource#custom_property3}
   */
   readonly customProperty3?: string;
   /**
   * Custom Property 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property30 EndpointResource#custom_property30}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property30 EndpointResource#custom_property30}
   */
   readonly customProperty30?: string;
   /**
   * Custom Property 31.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property31 EndpointResource#custom_property31}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property31 EndpointResource#custom_property31}
   */
   readonly customProperty31?: string;
   /**
   * Label for the custom property 31 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property31_label EndpointResource#custom_property31_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property31_label EndpointResource#custom_property31_label}
   */
   readonly customProperty31Label?: string;
   /**
   * Custom Property 32.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property32 EndpointResource#custom_property32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property32 EndpointResource#custom_property32}
   */
   readonly customProperty32?: string;
   /**
   * Label for the custom property 32 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property32_label EndpointResource#custom_property32_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property32_label EndpointResource#custom_property32_label}
   */
   readonly customProperty32Label?: string;
   /**
   * Custom Property 33.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property33 EndpointResource#custom_property33}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property33 EndpointResource#custom_property33}
   */
   readonly customProperty33?: string;
   /**
   * Label for the custom property 33 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property33_label EndpointResource#custom_property33_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property33_label EndpointResource#custom_property33_label}
   */
   readonly customProperty33Label?: string;
   /**
   * Custom Property 34.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property34 EndpointResource#custom_property34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property34 EndpointResource#custom_property34}
   */
   readonly customProperty34?: string;
   /**
   * Label for the custom property 34 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property34_label EndpointResource#custom_property34_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property34_label EndpointResource#custom_property34_label}
   */
   readonly customProperty34Label?: string;
   /**
   * Custom Property 35.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property35 EndpointResource#custom_property35}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property35 EndpointResource#custom_property35}
   */
   readonly customProperty35?: string;
   /**
   * Label for the custom property 35 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property35_label EndpointResource#custom_property35_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property35_label EndpointResource#custom_property35_label}
   */
   readonly customProperty35Label?: string;
   /**
   * Custom Property 36.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property36 EndpointResource#custom_property36}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property36 EndpointResource#custom_property36}
   */
   readonly customProperty36?: string;
   /**
   * Label for the custom property 36 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property36_label EndpointResource#custom_property36_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property36_label EndpointResource#custom_property36_label}
   */
   readonly customProperty36Label?: string;
   /**
   * Custom Property 37.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property37 EndpointResource#custom_property37}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property37 EndpointResource#custom_property37}
   */
   readonly customProperty37?: string;
   /**
   * Label for the custom property 37 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property37_label EndpointResource#custom_property37_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property37_label EndpointResource#custom_property37_label}
   */
   readonly customProperty37Label?: string;
   /**
   * Custom Property 38.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property38 EndpointResource#custom_property38}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property38 EndpointResource#custom_property38}
   */
   readonly customProperty38?: string;
   /**
   * Label for the custom property 38 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property38_label EndpointResource#custom_property38_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property38_label EndpointResource#custom_property38_label}
   */
   readonly customProperty38Label?: string;
   /**
   * Custom Property 39.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property39 EndpointResource#custom_property39}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property39 EndpointResource#custom_property39}
   */
   readonly customProperty39?: string;
   /**
   * Label for the custom property 39 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property39_label EndpointResource#custom_property39_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property39_label EndpointResource#custom_property39_label}
   */
   readonly customProperty39Label?: string;
   /**
   * Custom Property 4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property4 EndpointResource#custom_property4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property4 EndpointResource#custom_property4}
   */
   readonly customProperty4?: string;
   /**
   * Custom Property 40.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property40 EndpointResource#custom_property40}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property40 EndpointResource#custom_property40}
   */
   readonly customProperty40?: string;
   /**
   * Label for the custom property 40 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property40_label EndpointResource#custom_property40_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property40_label EndpointResource#custom_property40_label}
   */
   readonly customProperty40Label?: string;
   /**
   * Custom Property 41.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property41 EndpointResource#custom_property41}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property41 EndpointResource#custom_property41}
   */
   readonly customProperty41?: string;
   /**
   * Label for the custom property 41 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property41_label EndpointResource#custom_property41_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property41_label EndpointResource#custom_property41_label}
   */
   readonly customProperty41Label?: string;
   /**
   * Custom Property 42.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property42 EndpointResource#custom_property42}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property42 EndpointResource#custom_property42}
   */
   readonly customProperty42?: string;
   /**
   * Label for the custom property 42 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property42_label EndpointResource#custom_property42_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property42_label EndpointResource#custom_property42_label}
   */
   readonly customProperty42Label?: string;
   /**
   * Custom Property 43.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property43 EndpointResource#custom_property43}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property43 EndpointResource#custom_property43}
   */
   readonly customProperty43?: string;
   /**
   * Label for the custom property 43 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property43_label EndpointResource#custom_property43_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property43_label EndpointResource#custom_property43_label}
   */
   readonly customProperty43Label?: string;
   /**
   * Custom Property 44.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property44 EndpointResource#custom_property44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property44 EndpointResource#custom_property44}
   */
   readonly customProperty44?: string;
   /**
   * Label for the custom property 44 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property44_label EndpointResource#custom_property44_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property44_label EndpointResource#custom_property44_label}
   */
   readonly customProperty44Label?: string;
   /**
   * Custom Property 45.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property45 EndpointResource#custom_property45}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property45 EndpointResource#custom_property45}
   */
   readonly customProperty45?: string;
   /**
   * Label for the custom property 45 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property45_label EndpointResource#custom_property45_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property45_label EndpointResource#custom_property45_label}
   */
   readonly customProperty45Label?: string;
   /**
   * Label for the custom property 46 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property46_label EndpointResource#custom_property46_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property46_label EndpointResource#custom_property46_label}
   */
   readonly customProperty46Label?: string;
   /**
   * Label for the custom property 47 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property47_label EndpointResource#custom_property47_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property47_label EndpointResource#custom_property47_label}
   */
   readonly customProperty47Label?: string;
   /**
   * Label for the custom property 48 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property48_label EndpointResource#custom_property48_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property48_label EndpointResource#custom_property48_label}
   */
   readonly customProperty48Label?: string;
   /**
   * Label for the custom property 49 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property49_label EndpointResource#custom_property49_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property49_label EndpointResource#custom_property49_label}
   */
   readonly customProperty49Label?: string;
   /**
   * Custom Property 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property5 EndpointResource#custom_property5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property5 EndpointResource#custom_property5}
   */
   readonly customProperty5?: string;
   /**
   * Label for the custom property 50 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property50_label EndpointResource#custom_property50_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property50_label EndpointResource#custom_property50_label}
   */
   readonly customProperty50Label?: string;
   /**
   * Label for the custom property 51 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property51_label EndpointResource#custom_property51_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property51_label EndpointResource#custom_property51_label}
   */
   readonly customProperty51Label?: string;
   /**
   * Label for the custom property 52 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property52_label EndpointResource#custom_property52_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property52_label EndpointResource#custom_property52_label}
   */
   readonly customProperty52Label?: string;
   /**
   * Label for the custom property 53 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property53_label EndpointResource#custom_property53_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property53_label EndpointResource#custom_property53_label}
   */
   readonly customProperty53Label?: string;
   /**
   * Label for the custom property 54 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property54_label EndpointResource#custom_property54_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property54_label EndpointResource#custom_property54_label}
   */
   readonly customProperty54Label?: string;
   /**
   * Label for the custom property 55 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property55_label EndpointResource#custom_property55_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property55_label EndpointResource#custom_property55_label}
   */
   readonly customProperty55Label?: string;
   /**
   * Label for the custom property 56 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property56_label EndpointResource#custom_property56_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property56_label EndpointResource#custom_property56_label}
   */
   readonly customProperty56Label?: string;
   /**
   * Label for the custom property 57 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property57_label EndpointResource#custom_property57_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property57_label EndpointResource#custom_property57_label}
   */
   readonly customProperty57Label?: string;
   /**
   * Label for the custom property 58 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property58_label EndpointResource#custom_property58_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property58_label EndpointResource#custom_property58_label}
   */
   readonly customProperty58Label?: string;
   /**
   * Label for the custom property 59 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property59_label EndpointResource#custom_property59_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property59_label EndpointResource#custom_property59_label}
   */
   readonly customProperty59Label?: string;
   /**
   * Custom Property 6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property6 EndpointResource#custom_property6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property6 EndpointResource#custom_property6}
   */
   readonly customProperty6?: string;
   /**
   * Label for the custom property 60 of accounts of this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property60_label EndpointResource#custom_property60_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property60_label EndpointResource#custom_property60_label}
   */
   readonly customProperty60Label?: string;
   /**
   * Custom Property 7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property7 EndpointResource#custom_property7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property7 EndpointResource#custom_property7}
   */
   readonly customProperty7?: string;
   /**
   * Custom Property 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property8 EndpointResource#custom_property8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property8 EndpointResource#custom_property8}
   */
   readonly customProperty8?: string;
   /**
   * Custom Property 9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#custom_property9 EndpointResource#custom_property9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#custom_property9 EndpointResource#custom_property9}
   */
   readonly customProperty9?: string;
   /**
   * Specify a description for the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#description EndpointResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#description EndpointResource#description}
   */
   readonly description?: string;
   /**
   * Specify true to disable users from modifying their application accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#disable_modify_account EndpointResource#disable_modify_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#disable_modify_account EndpointResource#disable_modify_account}
   */
   readonly disableModifyAccount?: string;
   /**
   * Specify true to disable users from requesting additional accounts on applications where they already have active accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#disable_new_account_request_if_account_exists EndpointResource#disable_new_account_request_if_account_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#disable_new_account_request_if_account_exists EndpointResource#disable_new_account_request_if_account_exists}
   */
   readonly disableNewAccountRequestIfAccountExists?: string;
   /**
   * Specify true to disable users from removing their existing application accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#disable_remove_account EndpointResource#disable_remove_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#disable_remove_account EndpointResource#disable_remove_account}
   */
   readonly disableRemoveAccount?: string;
   /**
   * Enter a user-friendly display name for the endpoint that will be displayed in the user interface. Display Name can be different from Endpoint Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#display_name EndpointResource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#display_name EndpointResource#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#email_templates EndpointResource#email_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#email_templates EndpointResource#email_templates}
   */
   readonly emailTemplates?: EndpointResourceEmailTemplates[] | cdktf.IResolvable;
   /**
   * Specify true to display the Copy Access from User option in the Request pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#enable_copy_access EndpointResource#enable_copy_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#enable_copy_access EndpointResource#enable_copy_access}
   */
   readonly enableCopyAccess?: string;
   /**
   * Option to copy data in Step 3 of the service account request will be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#endpoint_config EndpointResource#endpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#endpoint_config EndpointResource#endpoint_config}
   */
   readonly endpointConfig?: string;
   /**
   * Specify a name for the endpoint. Provide a logical name that will help you easily identify it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#endpoint_name EndpointResource#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#endpoint_name EndpointResource#endpoint_name}
   */
   readonly endpointName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#mapped_endpoints EndpointResource#mapped_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#mapped_endpoints EndpointResource#mapped_endpoints}
   */
   readonly mappedEndpoints?: EndpointResourceMappedEndpoints[] | cdktf.IResolvable;
   /**
   * Use this parameter to determine if you need to remove the accesses which were granted outside Saviynt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#out_of_band_action EndpointResource#out_of_band_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#out_of_band_action EndpointResource#out_of_band_action}
   */
   readonly outOfBandAction?: string;
   /**
   * Specify the owner of the endpoint. If the ownerType is User, then specify the username of the owner, and If it is is Usergroup then specify the name of the user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#owner EndpointResource#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#owner EndpointResource#owner}
   */
   readonly owner?: string;
   /**
   * Specify the owner type for the endpoint. An endpoint can be owned by a User or Usergroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#owner_type EndpointResource#owner_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#owner_type EndpointResource#owner_type}
   */
   readonly ownerType?: string;
   /**
   * Specify the parent and child relationship for the Active Directory endpoint. The specified value is used to filter the parent and child objects in the Request Access tile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#parent_account_pattern EndpointResource#parent_account_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#parent_account_pattern EndpointResource#parent_account_pattern}
   */
   readonly parentAccountPattern?: string;
   /**
   * The Plugin Configuration drives the functionality of the Saviynt SmartAssist (Browserplugin).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#plugin_configs EndpointResource#plugin_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#plugin_configs EndpointResource#plugin_configs}
   */
   readonly pluginConfigs?: string;
   /**
   * Type of primary account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#primary_account_type EndpointResource#primary_account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#primary_account_type EndpointResource#primary_account_type}
   */
   readonly primaryAccountType?: string;
   /**
   * Is this endpoint requestable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#requestable EndpointResource#requestable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#requestable EndpointResource#requestable}
   */
   readonly requestable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#requestable_role_types EndpointResource#requestable_role_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#requestable_role_types EndpointResource#requestable_role_types}
   */
   readonly requestableRoleTypes?: EndpointResourceRequestableRoleTypes[] | cdktf.IResolvable;
   /**
   * Specify the resource owner of the endpoint. If the resourceOwnerType is User, then specify the username of the owner and If it is Usergroup, specify the name of the user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#resource_owner EndpointResource#resource_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#resource_owner EndpointResource#resource_owner}
   */
   readonly resourceOwner?: string;
   /**
   * Specify the resource owner type for the endpoint. An endpoint can be owned by a User or Usergroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#resource_owner_type EndpointResource#resource_owner_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#resource_owner_type EndpointResource#resource_owner_type}
   */
   readonly resourceOwnerType?: string;
   /**
   * Specify the Security system for which you want to create an endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#security_system EndpointResource#security_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#security_system EndpointResource#security_system}
   */
   readonly securitySystem: string;
   /**
   * Specify the query to filter the access and display of the endpoint for specific users while managing service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#service_account_access_query EndpointResource#service_account_access_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#service_account_access_query EndpointResource#service_account_access_query}
   */
   readonly serviceAccountAccessQuery?: string;
   /**
   * Rule to generate a name for this endpoint while creating a new service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#service_account_name_rule EndpointResource#service_account_name_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#service_account_name_rule EndpointResource#service_account_name_rule}
   */
   readonly serviceAccountNameRule?: string;
   /**
   * Enable the State and Status options (Enable, Disable, Lock, Unlock) that would be available to request for a user and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#status_config EndpointResource#status_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#status_config EndpointResource#status_config}
   */
   readonly statusConfig?: string;
   /**
   * Specify rule to map users in EIC with the accounts during account import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#user_account_correlation_rule EndpointResource#user_account_correlation_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#user_account_correlation_rule EndpointResource#user_account_correlation_rule}
   */
   readonly userAccountCorrelationRule?: string;
 }
 export interface EndpointResourceEmailTemplates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#email_template EndpointResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#email_template EndpointResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#email_template_type EndpointResource#email_template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#email_template_type EndpointResource#email_template_type}
   */
   readonly emailTemplateType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#task_type EndpointResource#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#task_type EndpointResource#task_type}
   */
   readonly taskType?: string;
 }
@@ -1026,19 +1026,19 @@ export class EndpointResourceEmailTemplatesList extends cdktf.ComplexList {
 }
 export interface EndpointResourceMappedEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#endpoint EndpointResource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#endpoint EndpointResource#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#operation EndpointResource#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#operation EndpointResource#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#requestable EndpointResource#requestable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#requestable EndpointResource#requestable}
   */
   readonly requestable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#security_system EndpointResource#security_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#security_system EndpointResource#security_system}
   */
   readonly securitySystem?: string;
 }
@@ -1241,27 +1241,27 @@ export class EndpointResourceMappedEndpointsList extends cdktf.ComplexList {
 }
 export interface EndpointResourceRequestableRoleTypes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#request_option EndpointResource#request_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#request_option EndpointResource#request_option}
   */
   readonly requestOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#requested_query EndpointResource#requested_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#requested_query EndpointResource#requested_query}
   */
   readonly requestedQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#required EndpointResource#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#required EndpointResource#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#role_type EndpointResource#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#role_type EndpointResource#role_type}
   */
   readonly roleType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#selected_query EndpointResource#selected_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#selected_query EndpointResource#selected_query}
   */
   readonly selectedQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#show_on EndpointResource#show_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#show_on EndpointResource#show_on}
   */
   readonly showOn?: string;
 }
@@ -1522,7 +1522,7 @@ export class EndpointResourceRequestableRoleTypesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource saviynt_endpoint_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource saviynt_endpoint_resource}
 */
 export class EndpointResource extends cdktf.TerraformResource {
 
@@ -1538,7 +1538,7 @@ export class EndpointResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EndpointResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EndpointResource to import
-  * @param importFromId The id of the existing EndpointResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EndpointResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EndpointResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1550,7 +1550,7 @@ export class EndpointResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/endpoint_resource saviynt_endpoint_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/endpoint_resource saviynt_endpoint_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1561,8 +1561,8 @@ export class EndpointResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_endpoint_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

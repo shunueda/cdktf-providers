@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MpsAiAnalysisTemplateConfig extends cdktf.TerraformMetaArgument
   /**
   * Ai analysis template description information, length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template#comment MpsAiAnalysisTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template#comment MpsAiAnalysisTemplate#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template#id MpsAiAnalysisTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template#id MpsAiAnalysisTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface MpsAiAnalysisTemplateConfig extends cdktf.TerraformMetaArgument
   /**
   * Ai analysis template name, length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template#name MpsAiAnalysisTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template#name MpsAiAnalysisTemplate#name}
   */
   readonly name?: string;
   /**
   * classification_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template#classification_configure MpsAiAnalysisTemplate#classification_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template#classification_configure MpsAiAnalysisTemplate#classification_configure}
   */
   readonly classificationConfigure?: MpsAiAnalysisTemplateClassificationConfigure;
   /**
   * cover_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template#cover_configure MpsAiAnalysisTemplate#cover_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template#cover_configure MpsAiAnalysisTemplate#cover_configure}
   */
   readonly coverConfigure?: MpsAiAnalysisTemplateCoverConfigure;
   /**
   * frame_tag_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template#frame_tag_configure MpsAiAnalysisTemplate#frame_tag_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template#frame_tag_configure MpsAiAnalysisTemplate#frame_tag_configure}
   */
   readonly frameTagConfigure?: MpsAiAnalysisTemplateFrameTagConfigure;
   /**
   * tag_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template#tag_configure MpsAiAnalysisTemplate#tag_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template#tag_configure MpsAiAnalysisTemplate#tag_configure}
   */
   readonly tagConfigure?: MpsAiAnalysisTemplateTagConfigure;
 }
@@ -55,7 +55,7 @@ export interface MpsAiAnalysisTemplateClassificationConfigure {
   /**
   * Ai classification task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template#switch MpsAiAnalysisTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template#switch MpsAiAnalysisTemplate#switch}
   */
   readonly switch: string;
 }
@@ -138,7 +138,7 @@ export interface MpsAiAnalysisTemplateCoverConfigure {
   /**
   * Ai cover task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template#switch MpsAiAnalysisTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template#switch MpsAiAnalysisTemplate#switch}
   */
   readonly switch: string;
 }
@@ -221,7 +221,7 @@ export interface MpsAiAnalysisTemplateFrameTagConfigure {
   /**
   * Ai frame tag task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template#switch MpsAiAnalysisTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template#switch MpsAiAnalysisTemplate#switch}
   */
   readonly switch: string;
 }
@@ -304,7 +304,7 @@ export interface MpsAiAnalysisTemplateTagConfigure {
   /**
   * Ai tag task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template#switch MpsAiAnalysisTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template#switch MpsAiAnalysisTemplate#switch}
   */
   readonly switch: string;
 }
@@ -385,7 +385,7 @@ export class MpsAiAnalysisTemplateTagConfigureOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template tencentcloud_mps_ai_analysis_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template tencentcloud_mps_ai_analysis_template}
 */
 export class MpsAiAnalysisTemplate extends cdktf.TerraformResource {
 
@@ -401,7 +401,7 @@ export class MpsAiAnalysisTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsAiAnalysisTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsAiAnalysisTemplate to import
-  * @param importFromId The id of the existing MpsAiAnalysisTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsAiAnalysisTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsAiAnalysisTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -413,7 +413,7 @@ export class MpsAiAnalysisTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/mps_ai_analysis_template tencentcloud_mps_ai_analysis_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_ai_analysis_template tencentcloud_mps_ai_analysis_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -424,8 +424,8 @@ export class MpsAiAnalysisTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_ai_analysis_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

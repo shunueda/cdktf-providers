@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_listeners
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_listeners
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudClbListenersConfig extends cdktf.TerraformMetaA
   /**
   * Id of the CLB to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_listeners#clb_id DataTencentcloudClbListeners#clb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_listeners#clb_id DataTencentcloudClbListeners#clb_id}
   */
   readonly clbId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_listeners#id DataTencentcloudClbListeners#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_listeners#id DataTencentcloudClbListeners#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudClbListenersConfig extends cdktf.TerraformMetaA
   /**
   * Id of the listener to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_listeners#listener_id DataTencentcloudClbListeners#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_listeners#listener_id DataTencentcloudClbListeners#listener_id}
   */
   readonly listenerId?: string;
   /**
   * Port of the CLB listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_listeners#port DataTencentcloudClbListeners#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_listeners#port DataTencentcloudClbListeners#port}
   */
   readonly port?: number;
   /**
   * Type of protocol within the listener, and available values are `TCP`, `UDP`, `HTTP`, `HTTPS` and `TCP_SSL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_listeners#protocol DataTencentcloudClbListeners#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_listeners#protocol DataTencentcloudClbListeners#protocol}
   */
   readonly protocol?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_listeners#result_output_file DataTencentcloudClbListeners#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_listeners#result_output_file DataTencentcloudClbListeners#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -247,7 +247,7 @@ export class DataTencentcloudClbListenersListenerListStructList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_listeners tencentcloud_clb_listeners}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_listeners tencentcloud_clb_listeners}
 */
 export class DataTencentcloudClbListeners extends cdktf.TerraformDataSource {
 
@@ -263,7 +263,7 @@ export class DataTencentcloudClbListeners extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudClbListeners resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudClbListeners to import
-  * @param importFromId The id of the existing DataTencentcloudClbListeners that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_listeners#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudClbListeners that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_listeners#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudClbListeners to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class DataTencentcloudClbListeners extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/clb_listeners tencentcloud_clb_listeners} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_listeners tencentcloud_clb_listeners} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,8 +286,8 @@ export class DataTencentcloudClbListeners extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_clb_listeners',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

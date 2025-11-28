@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SecmasterAlertRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the custom information of the alert rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#custom_information SecmasterAlertRule#custom_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#custom_information SecmasterAlertRule#custom_information}
   */
   readonly customInformation?: { [key: string]: string };
   /**
   * Specifies whether to generate debugging alarms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#debugging_alarm SecmasterAlertRule#debugging_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#debugging_alarm SecmasterAlertRule#debugging_alarm}
   */
   readonly debuggingAlarm?: boolean | cdktf.IResolvable;
   /**
   * Specifies the description of the alert rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#description SecmasterAlertRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#description SecmasterAlertRule#description}
   */
   readonly description: string;
   /**
   * Specifies whether to put events in a group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#event_grouping SecmasterAlertRule#event_grouping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#event_grouping SecmasterAlertRule#event_grouping}
   */
   readonly eventGrouping?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#id SecmasterAlertRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#id SecmasterAlertRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,71 +41,71 @@ export interface SecmasterAlertRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the alert rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#name SecmasterAlertRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#name SecmasterAlertRule#name}
   */
   readonly name: string;
   /**
   * Specifies the pipeline ID of the alert rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#pipeline_id SecmasterAlertRule#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#pipeline_id SecmasterAlertRule#pipeline_id}
   */
   readonly pipelineId: string;
   /**
   * Specifies the query rule of the alert rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#query_rule SecmasterAlertRule#query_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#query_rule SecmasterAlertRule#query_rule}
   */
   readonly queryRule: string;
   /**
   * Specifies the query type of the alert rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#query_type SecmasterAlertRule#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#query_type SecmasterAlertRule#query_type}
   */
   readonly queryType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#region SecmasterAlertRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#region SecmasterAlertRule#region}
   */
   readonly region?: string;
   /**
   * Specifies the severity of the alert rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#severity SecmasterAlertRule#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#severity SecmasterAlertRule#severity}
   */
   readonly severity: string;
   /**
   * Specifies the status of the alert rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#status SecmasterAlertRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#status SecmasterAlertRule#status}
   */
   readonly status: string;
   /**
   * Specifies whether to stop the query when an alarm is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#suppression SecmasterAlertRule#suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#suppression SecmasterAlertRule#suppression}
   */
   readonly suppression?: boolean | cdktf.IResolvable;
   /**
   * Specifies the type of the alert rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#type SecmasterAlertRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#type SecmasterAlertRule#type}
   */
   readonly type: { [key: string]: string };
   /**
   * Specifies the ID of the workspace to which the alert rule belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#workspace_id SecmasterAlertRule#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#workspace_id SecmasterAlertRule#workspace_id}
   */
   readonly workspaceId: string;
   /**
   * query_plan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#query_plan SecmasterAlertRule#query_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#query_plan SecmasterAlertRule#query_plan}
   */
   readonly queryPlan: SecmasterAlertRuleQueryPlan;
   /**
   * triggers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#triggers SecmasterAlertRule#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#triggers SecmasterAlertRule#triggers}
   */
   readonly triggers: SecmasterAlertRuleTriggers[] | cdktf.IResolvable;
 }
@@ -113,37 +113,37 @@ export interface SecmasterAlertRuleQueryPlan {
   /**
   * Specifies the execution delay in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#execution_delay SecmasterAlertRule#execution_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#execution_delay SecmasterAlertRule#execution_delay}
   */
   readonly executionDelay?: number;
   /**
   * Specifies the overtime interval in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#overtime_interval SecmasterAlertRule#overtime_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#overtime_interval SecmasterAlertRule#overtime_interval}
   */
   readonly overtimeInterval?: number;
   /**
   * Specifies the query interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#query_interval SecmasterAlertRule#query_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#query_interval SecmasterAlertRule#query_interval}
   */
   readonly queryInterval: number;
   /**
   * Specifies the query interval unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#query_interval_unit SecmasterAlertRule#query_interval_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#query_interval_unit SecmasterAlertRule#query_interval_unit}
   */
   readonly queryIntervalUnit: string;
   /**
   * Specifies the time window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#time_window SecmasterAlertRule#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#time_window SecmasterAlertRule#time_window}
   */
   readonly timeWindow: number;
   /**
   * Specifies the time window unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#time_window_unit SecmasterAlertRule#time_window_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#time_window_unit SecmasterAlertRule#time_window_unit}
   */
   readonly timeWindowUnit: string;
 }
@@ -362,31 +362,31 @@ export interface SecmasterAlertRuleTriggers {
   /**
   * Specifies the accumulated times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#accumulated_times SecmasterAlertRule#accumulated_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#accumulated_times SecmasterAlertRule#accumulated_times}
   */
   readonly accumulatedTimes: number;
   /**
   * Specifies the expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#expression SecmasterAlertRule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#expression SecmasterAlertRule#expression}
   */
   readonly expression: string;
   /**
   * Specifies the trigger mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#mode SecmasterAlertRule#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#mode SecmasterAlertRule#mode}
   */
   readonly mode: string;
   /**
   * Specifies the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#operator SecmasterAlertRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#operator SecmasterAlertRule#operator}
   */
   readonly operator: string;
   /**
   * Specifies the severity of the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#severity SecmasterAlertRule#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#severity SecmasterAlertRule#severity}
   */
   readonly severity: string;
 }
@@ -603,7 +603,7 @@ export class SecmasterAlertRuleTriggersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule hcs_secmaster_alert_rule}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule hcs_secmaster_alert_rule}
 */
 export class SecmasterAlertRule extends cdktf.TerraformResource {
 
@@ -619,7 +619,7 @@ export class SecmasterAlertRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecmasterAlertRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecmasterAlertRule to import
-  * @param importFromId The id of the existing SecmasterAlertRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecmasterAlertRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecmasterAlertRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -631,7 +631,7 @@ export class SecmasterAlertRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_alert_rule hcs_secmaster_alert_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/secmaster_alert_rule hcs_secmaster_alert_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -642,8 +642,8 @@ export class SecmasterAlertRule extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_secmaster_alert_rule',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

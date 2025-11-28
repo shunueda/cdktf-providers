@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_switch_db_instance_ha_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dcdb_switch_db_instance_ha_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DcdbSwitchDbInstanceHaOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_switch_db_instance_ha_operation#id DcdbSwitchDbInstanceHaOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dcdb_switch_db_instance_ha_operation#id DcdbSwitchDbInstanceHaOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DcdbSwitchDbInstanceHaOperationConfig extends cdktf.TerraformMe
   /**
   * Instance ID in the format of tdsqlshard-ow728lmc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_switch_db_instance_ha_operation#instance_id DcdbSwitchDbInstanceHaOperation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dcdb_switch_db_instance_ha_operation#instance_id DcdbSwitchDbInstanceHaOperation#instance_id}
   */
   readonly instanceId: string;
   /**
   * Target AZ. The node with the lowest delay in the target AZ will be automatically promoted to primary node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_switch_db_instance_ha_operation#zone DcdbSwitchDbInstanceHaOperation#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dcdb_switch_db_instance_ha_operation#zone DcdbSwitchDbInstanceHaOperation#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_switch_db_instance_ha_operation tencentcloud_dcdb_switch_db_instance_ha_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dcdb_switch_db_instance_ha_operation tencentcloud_dcdb_switch_db_instance_ha_operation}
 */
 export class DcdbSwitchDbInstanceHaOperation extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DcdbSwitchDbInstanceHaOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcdbSwitchDbInstanceHaOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcdbSwitchDbInstanceHaOperation to import
-  * @param importFromId The id of the existing DcdbSwitchDbInstanceHaOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_switch_db_instance_ha_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcdbSwitchDbInstanceHaOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dcdb_switch_db_instance_ha_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcdbSwitchDbInstanceHaOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DcdbSwitchDbInstanceHaOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dcdb_switch_db_instance_ha_operation tencentcloud_dcdb_switch_db_instance_ha_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dcdb_switch_db_instance_ha_operation tencentcloud_dcdb_switch_db_instance_ha_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DcdbSwitchDbInstanceHaOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dcdb_switch_db_instance_ha_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

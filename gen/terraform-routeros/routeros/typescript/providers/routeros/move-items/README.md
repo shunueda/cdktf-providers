@@ -1,3 +1,3 @@
 # `routeros_move_items`
 
-Refer to the Terraform Registry for docs: [`routeros_move_items`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/move_items).
+Refer to the Terraform Registry for docs: [`routeros_move_items`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/move_items).

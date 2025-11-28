@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcaplus_idl
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcaplus_idl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface TcaplusIdlConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the TcaplusDB cluster to which the table group belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcaplus_idl#cluster_id TcaplusIdl#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcaplus_idl#cluster_id TcaplusIdl#cluster_id}
   */
   readonly clusterId: string;
   /**
   * IDL file content of the TcaplusDB table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcaplus_idl#file_content TcaplusIdl#file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcaplus_idl#file_content TcaplusIdl#file_content}
   */
   readonly fileContent: string;
   /**
   * File ext type of the IDL file. If `file_type` is `PROTO`, `file_ext_type` must be 'proto'; If `file_type` is `TDR`, `file_ext_type` must be 'xml'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcaplus_idl#file_ext_type TcaplusIdl#file_ext_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcaplus_idl#file_ext_type TcaplusIdl#file_ext_type}
   */
   readonly fileExtType: string;
   /**
   * Name of the IDL file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcaplus_idl#file_name TcaplusIdl#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcaplus_idl#file_name TcaplusIdl#file_name}
   */
   readonly fileName: string;
   /**
   * Type of the IDL file. Valid values are PROTO and TDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcaplus_idl#file_type TcaplusIdl#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcaplus_idl#file_type TcaplusIdl#file_type}
   */
   readonly fileType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcaplus_idl#id TcaplusIdl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcaplus_idl#id TcaplusIdl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ export interface TcaplusIdlConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the table group to which the IDL file belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcaplus_idl#tablegroup_id TcaplusIdl#tablegroup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcaplus_idl#tablegroup_id TcaplusIdl#tablegroup_id}
   */
   readonly tablegroupId: string;
 }
@@ -158,7 +158,7 @@ export class TcaplusIdlTableInfosList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcaplus_idl tencentcloud_tcaplus_idl}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcaplus_idl tencentcloud_tcaplus_idl}
 */
 export class TcaplusIdl extends cdktf.TerraformResource {
 
@@ -174,7 +174,7 @@ export class TcaplusIdl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcaplusIdl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcaplusIdl to import
-  * @param importFromId The id of the existing TcaplusIdl that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcaplus_idl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcaplusIdl that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcaplus_idl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcaplusIdl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class TcaplusIdl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/tcaplus_idl tencentcloud_tcaplus_idl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcaplus_idl tencentcloud_tcaplus_idl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class TcaplusIdl extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcaplus_idl',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

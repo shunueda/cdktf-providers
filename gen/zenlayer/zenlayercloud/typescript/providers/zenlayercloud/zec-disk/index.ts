@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_disk
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ZecDiskConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of zone that the disk locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_disk#availability_zone ZecDisk#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk#availability_zone ZecDisk#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * The category of disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_disk#disk_category ZecDisk#disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk#disk_category ZecDisk#disk_category}
   */
   readonly diskCategory?: string;
   /**
   * The name of the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_disk#disk_name ZecDisk#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk#disk_name ZecDisk#disk_name}
   */
   readonly diskName?: string;
   /**
   * The size of disk. Unit: GiB. The minimum value is 20 GiB. When resize the disk, the new size must be greater than the former value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_disk#disk_size ZecDisk#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk#disk_size ZecDisk#disk_size}
   */
   readonly diskSize: number;
   /**
   * Indicate whether to force delete the data disk. Default is `false`. If set true, the disk will be permanently deleted instead of being moved into the recycle bin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_disk#force_delete ZecDisk#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk#force_delete ZecDisk#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_disk#id ZecDisk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk#id ZecDisk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,13 +47,13 @@ export interface ZecDiskConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource group id the disk belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_disk#resource_group_id ZecDisk#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk#resource_group_id ZecDisk#resource_group_id}
   */
   readonly resourceGroupId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_disk zenlayercloud_zec_disk}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk zenlayercloud_zec_disk}
 */
 export class ZecDisk extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ZecDisk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecDisk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecDisk to import
-  * @param importFromId The id of the existing ZecDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecDisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ZecDisk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/zec_disk zenlayercloud_zec_disk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk zenlayercloud_zec_disk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ZecDisk extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_disk',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

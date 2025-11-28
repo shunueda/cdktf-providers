@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface IpDhcpServerLeaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#___path___ IpDhcpServerLease#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#___path___ IpDhcpServerLease#___path___}
   */
   readonly path?: string;
   /**
   * The IP address of the DHCP lease to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#address IpDhcpServerLease#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#address IpDhcpServerLease#address}
   */
   readonly address: string;
   /**
   * Address list to which address will be added if lease is bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#address_lists IpDhcpServerLease#address_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#address_lists IpDhcpServerLease#address_lists}
   */
   readonly addressLists?: string;
   /**
   * Creates a single simple queue entry for both IPv4 and IPv6 addresses, uses the MAC address and DUID for identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#allow_dual_stack_queue IpDhcpServerLease#allow_dual_stack_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#allow_dual_stack_queue IpDhcpServerLease#allow_dual_stack_queue}
   */
   readonly allowDualStackQueue?: boolean | cdktf.IResolvable;
   /**
   * Send all replies as broadcasts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#always_broadcast IpDhcpServerLease#always_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#always_broadcast IpDhcpServerLease#always_broadcast}
   */
   readonly alwaysBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Whether to block access for this DHCP client (true|false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#block_access IpDhcpServerLease#block_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#block_access IpDhcpServerLease#block_access}
   */
   readonly blockAccess?: boolean | cdktf.IResolvable;
   /**
   * If specified, must match DHCP 'client identifier' option of the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#client_id IpDhcpServerLease#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#client_id IpDhcpServerLease#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#comment IpDhcpServerLease#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#comment IpDhcpServerLease#comment}
   */
   readonly comment?: string;
   /**
   * Add additional DHCP options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#dhcp_option IpDhcpServerLease#dhcp_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#dhcp_option IpDhcpServerLease#dhcp_option}
   */
   readonly dhcpOption?: string;
   /**
   * Add additional set of DHCP options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#dhcp_option_set IpDhcpServerLease#dhcp_option_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#dhcp_option_set IpDhcpServerLease#dhcp_option_set}
   */
   readonly dhcpOptionSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#disabled IpDhcpServerLease#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#disabled IpDhcpServerLease#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#id IpDhcpServerLease#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#id IpDhcpServerLease#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,43 +79,43 @@ export interface IpDhcpServerLeaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify where to place dynamic simple queue entries for static DCHP leases with rate-limit parameter set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#insert_queue_before IpDhcpServerLease#insert_queue_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#insert_queue_before IpDhcpServerLease#insert_queue_before}
   */
   readonly insertQueueBefore?: string;
   /**
   * Time that the client may use the address. If set to 0s lease will never expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#lease_time IpDhcpServerLease#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#lease_time IpDhcpServerLease#lease_time}
   */
   readonly leaseTime?: string;
   /**
   * The MAC addreess of the DHCP lease to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#mac_address IpDhcpServerLease#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#mac_address IpDhcpServerLease#mac_address}
   */
   readonly macAddress: string;
   /**
   * Adds a dynamic simple queue to limit IP's bandwidth to a specified rate. Requires the lease to be static.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#rate_limit IpDhcpServerLease#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#rate_limit IpDhcpServerLease#rate_limit}
   */
   readonly rateLimit?: string;
   /**
   * Server name which serves this client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#server IpDhcpServerLease#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#server IpDhcpServerLease#server}
   */
   readonly server?: string;
   /**
   * When this option is set server uses source MAC address instead of received CHADDR to assign address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#use_src_mac IpDhcpServerLease#use_src_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#use_src_mac IpDhcpServerLease#use_src_mac}
   */
   readonly useSrcMac?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease routeros_ip_dhcp_server_lease}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease routeros_ip_dhcp_server_lease}
 */
 export class IpDhcpServerLease extends cdktf.TerraformResource {
 
@@ -131,7 +131,7 @@ export class IpDhcpServerLease extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpDhcpServerLease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpDhcpServerLease to import
-  * @param importFromId The id of the existing IpDhcpServerLease that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpDhcpServerLease that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpDhcpServerLease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +143,7 @@ export class IpDhcpServerLease extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.93.0/docs/resources/ip_dhcp_server_lease routeros_ip_dhcp_server_lease} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_dhcp_server_lease routeros_ip_dhcp_server_lease} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,8 +154,8 @@ export class IpDhcpServerLease extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_dhcp_server_lease',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.93.0',
-        providerVersionConstraint: '1.93.0'
+        providerVersion: '1.94.0',
+        providerVersionConstraint: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zvm_instance_types
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zvm_instance_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataZenlayercloudZvmInstanceTypesConfig extends cdktf.Terraform
   /**
   * The available zone that the instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zvm_instance_types#availability_zone DataZenlayercloudZvmInstanceTypes#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zvm_instance_types#availability_zone DataZenlayercloudZvmInstanceTypes#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The number of CPU cores of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zvm_instance_types#cpu_count DataZenlayercloudZvmInstanceTypes#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zvm_instance_types#cpu_count DataZenlayercloudZvmInstanceTypes#cpu_count}
   */
   readonly cpuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zvm_instance_types#id DataZenlayercloudZvmInstanceTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zvm_instance_types#id DataZenlayercloudZvmInstanceTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataZenlayercloudZvmInstanceTypesConfig extends cdktf.Terraform
   /**
   * The charge type of instance. Valid values are `POSTPAID`, `PREPAID`. The default is `POSTPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zvm_instance_types#instance_charge_type DataZenlayercloudZvmInstanceTypes#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zvm_instance_types#instance_charge_type DataZenlayercloudZvmInstanceTypes#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * The instance type of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zvm_instance_types#instance_type DataZenlayercloudZvmInstanceTypes#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zvm_instance_types#instance_type DataZenlayercloudZvmInstanceTypes#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Instance memory capacity, unit in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zvm_instance_types#memory DataZenlayercloudZvmInstanceTypes#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zvm_instance_types#memory DataZenlayercloudZvmInstanceTypes#memory}
   */
   readonly memory?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zvm_instance_types#result_output_file DataZenlayercloudZvmInstanceTypes#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zvm_instance_types#result_output_file DataZenlayercloudZvmInstanceTypes#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -153,7 +153,7 @@ export class DataZenlayercloudZvmInstanceTypesInstanceTypeQuotasList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zvm_instance_types zenlayercloud_zvm_instance_types}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zvm_instance_types zenlayercloud_zvm_instance_types}
 */
 export class DataZenlayercloudZvmInstanceTypes extends cdktf.TerraformDataSource {
 
@@ -169,7 +169,7 @@ export class DataZenlayercloudZvmInstanceTypes extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataZenlayercloudZvmInstanceTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZvmInstanceTypes to import
-  * @param importFromId The id of the existing DataZenlayercloudZvmInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zvm_instance_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZvmInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zvm_instance_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZvmInstanceTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class DataZenlayercloudZvmInstanceTypes extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/data-sources/zvm_instance_types zenlayercloud_zvm_instance_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zvm_instance_types zenlayercloud_zvm_instance_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class DataZenlayercloudZvmInstanceTypes extends cdktf.TerraformDataSource
       terraformResourceType: 'zenlayercloud_zvm_instance_types',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

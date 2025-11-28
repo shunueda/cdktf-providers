@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdn_domains
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdn_domains
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudCdnDomainsConfig extends cdktf.TerraformMetaArg
   /**
   * Acceleration domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdn_domains#domain DataTencentcloudCdnDomains#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdn_domains#domain DataTencentcloudCdnDomains#domain}
   */
   readonly domain?: string;
   /**
   * Whether to enable full-path cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdn_domains#full_url_cache DataTencentcloudCdnDomains#full_url_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdn_domains#full_url_cache DataTencentcloudCdnDomains#full_url_cache}
   */
   readonly fullUrlCache?: boolean | cdktf.IResolvable;
   /**
   * HTTPS configuration. Valid values: `on`, `off` and `processing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdn_domains#https_switch DataTencentcloudCdnDomains#https_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdn_domains#https_switch DataTencentcloudCdnDomains#https_switch}
   */
   readonly httpsSwitch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdn_domains#id DataTencentcloudCdnDomains#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdn_domains#id DataTencentcloudCdnDomains#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DataTencentcloudCdnDomainsConfig extends cdktf.TerraformMetaArg
   /**
   * Origin-pull protocol configuration. Valid values: `http`, `https` and `follow`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdn_domains#origin_pull_protocol DataTencentcloudCdnDomains#origin_pull_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdn_domains#origin_pull_protocol DataTencentcloudCdnDomains#origin_pull_protocol}
   */
   readonly originPullProtocol?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdn_domains#result_output_file DataTencentcloudCdnDomains#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdn_domains#result_output_file DataTencentcloudCdnDomains#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Service type of acceleration domain name. The available value include `web`, `download` and `media`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdn_domains#service_type DataTencentcloudCdnDomains#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdn_domains#service_type DataTencentcloudCdnDomains#service_type}
   */
   readonly serviceType?: string;
 }
@@ -709,7 +709,7 @@ export class DataTencentcloudCdnDomainsDomainListStructList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdn_domains tencentcloud_cdn_domains}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdn_domains tencentcloud_cdn_domains}
 */
 export class DataTencentcloudCdnDomains extends cdktf.TerraformDataSource {
 
@@ -725,7 +725,7 @@ export class DataTencentcloudCdnDomains extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCdnDomains resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCdnDomains to import
-  * @param importFromId The id of the existing DataTencentcloudCdnDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdn_domains#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCdnDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdn_domains#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCdnDomains to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -737,7 +737,7 @@ export class DataTencentcloudCdnDomains extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/cdn_domains tencentcloud_cdn_domains} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cdn_domains tencentcloud_cdn_domains} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -748,8 +748,8 @@ export class DataTencentcloudCdnDomains extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cdn_domains',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

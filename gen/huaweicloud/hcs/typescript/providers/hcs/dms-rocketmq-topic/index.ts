@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DmsRocketmqTopicConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic#id DmsRocketmqTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic#id DmsRocketmqTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface DmsRocketmqTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the rocketMQ instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic#instance_id DmsRocketmqTopic#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic#instance_id DmsRocketmqTopic#instance_id}
   */
   readonly instanceId: string;
   /**
   * The message type of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic#message_type DmsRocketmqTopic#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic#message_type DmsRocketmqTopic#message_type}
   */
   readonly messageType?: string;
   /**
   * The name of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic#name DmsRocketmqTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic#name DmsRocketmqTopic#name}
   */
   readonly name: string;
   /**
   * The permissions of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic#permission DmsRocketmqTopic#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic#permission DmsRocketmqTopic#permission}
   */
   readonly permission?: string;
   /**
   * The number of queues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic#queue_num DmsRocketmqTopic#queue_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic#queue_num DmsRocketmqTopic#queue_num}
   */
   readonly queueNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic#region DmsRocketmqTopic#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic#region DmsRocketmqTopic#region}
   */
   readonly region?: string;
   /**
   * queues block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic#queues DmsRocketmqTopic#queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic#queues DmsRocketmqTopic#queues}
   */
   readonly queues?: DmsRocketmqTopicQueues[] | cdktf.IResolvable;
 }
@@ -144,13 +144,13 @@ export interface DmsRocketmqTopicQueues {
   /**
   * The associated broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic#broker DmsRocketmqTopic#broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic#broker DmsRocketmqTopic#broker}
   */
   readonly broker?: string;
   /**
   * The number of the queues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic#queue_num DmsRocketmqTopic#queue_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic#queue_num DmsRocketmqTopic#queue_num}
   */
   readonly queueNum?: number;
 }
@@ -295,7 +295,7 @@ export class DmsRocketmqTopicQueuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic hcs_dms_rocketmq_topic}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic hcs_dms_rocketmq_topic}
 */
 export class DmsRocketmqTopic extends cdktf.TerraformResource {
 
@@ -311,7 +311,7 @@ export class DmsRocketmqTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsRocketmqTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsRocketmqTopic to import
-  * @param importFromId The id of the existing DmsRocketmqTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsRocketmqTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsRocketmqTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -323,7 +323,7 @@ export class DmsRocketmqTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_rocketmq_topic hcs_dms_rocketmq_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/dms_rocketmq_topic hcs_dms_rocketmq_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -334,8 +334,8 @@ export class DmsRocketmqTopic extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_dms_rocketmq_topic',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

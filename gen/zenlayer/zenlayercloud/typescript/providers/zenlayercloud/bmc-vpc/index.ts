@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_vpc
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_vpc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface BmcVpcConfig extends cdktf.TerraformMetaArguments {
   /**
   * A network address block which should be a subnet of the three internal network segments (10.0.0.0/16, 172.16.0.0/12 and 192.168.0.0/16).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_vpc#cidr_block BmcVpc#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_vpc#cidr_block BmcVpc#cidr_block}
   */
   readonly cidrBlock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_vpc#id BmcVpc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_vpc#id BmcVpc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface BmcVpcConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the vpc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_vpc#name BmcVpc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_vpc#name BmcVpc#name}
   */
   readonly name?: string;
   /**
   * The ID of region that the vpc locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_vpc#region BmcVpc#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_vpc#region BmcVpc#region}
   */
   readonly region: string;
   /**
   * The resource group id the vpc belongs to, default to ID of Default Resource Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_vpc#resource_group_id BmcVpc#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_vpc#resource_group_id BmcVpc#resource_group_id}
   */
   readonly resourceGroupId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_vpc zenlayercloud_bmc_vpc}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_vpc zenlayercloud_bmc_vpc}
 */
 export class BmcVpc extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class BmcVpc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BmcVpc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BmcVpc to import
-  * @param importFromId The id of the existing BmcVpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_vpc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BmcVpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_vpc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BmcVpc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class BmcVpc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_vpc zenlayercloud_bmc_vpc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_vpc zenlayercloud_bmc_vpc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class BmcVpc extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_bmc_vpc',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

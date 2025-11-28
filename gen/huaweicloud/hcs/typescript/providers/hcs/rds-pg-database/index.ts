@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RdsPgDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the database character set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#character_set RdsPgDatabase#character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#character_set RdsPgDatabase#character_set}
   */
   readonly characterSet?: string;
   /**
   * Specifies the database description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#description RdsPgDatabase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#description RdsPgDatabase#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#id RdsPgDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#id RdsPgDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,67 +29,67 @@ export interface RdsPgDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the ID of the RDS PostgreSQL instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#instance_id RdsPgDatabase#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#instance_id RdsPgDatabase#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies whether to revoke the PUBLIC CREATE permission of the public schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#is_revoke_public_privilege RdsPgDatabase#is_revoke_public_privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#is_revoke_public_privilege RdsPgDatabase#is_revoke_public_privilege}
   */
   readonly isRevokePublicPrivilege?: boolean | cdktf.IResolvable;
   /**
   * Specifies the database collocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#lc_collate RdsPgDatabase#lc_collate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#lc_collate RdsPgDatabase#lc_collate}
   */
   readonly lcCollate?: string;
   /**
   * Specifies the database classification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#lc_ctype RdsPgDatabase#lc_ctype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#lc_ctype RdsPgDatabase#lc_ctype}
   */
   readonly lcCtype?: string;
   /**
   * Specifies the database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#name RdsPgDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#name RdsPgDatabase#name}
   */
   readonly name: string;
   /**
   * Specifies the database user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#owner RdsPgDatabase#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#owner RdsPgDatabase#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#region RdsPgDatabase#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#region RdsPgDatabase#region}
   */
   readonly region?: string;
   /**
   * Specifies the name of the database template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#template RdsPgDatabase#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#template RdsPgDatabase#template}
   */
   readonly template?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#timeouts RdsPgDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#timeouts RdsPgDatabase#timeouts}
   */
   readonly timeouts?: RdsPgDatabaseTimeouts;
 }
 export interface RdsPgDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#create RdsPgDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#create RdsPgDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#delete RdsPgDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#delete RdsPgDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#update RdsPgDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#update RdsPgDatabase#update}
   */
   readonly update?: string;
 }
@@ -241,7 +241,7 @@ export class RdsPgDatabaseTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database hcs_rds_pg_database}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database hcs_rds_pg_database}
 */
 export class RdsPgDatabase extends cdktf.TerraformResource {
 
@@ -257,7 +257,7 @@ export class RdsPgDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsPgDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsPgDatabase to import
-  * @param importFromId The id of the existing RdsPgDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsPgDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsPgDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -269,7 +269,7 @@ export class RdsPgDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/rds_pg_database hcs_rds_pg_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/rds_pg_database hcs_rds_pg_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,8 +280,8 @@ export class RdsPgDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_rds_pg_database',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

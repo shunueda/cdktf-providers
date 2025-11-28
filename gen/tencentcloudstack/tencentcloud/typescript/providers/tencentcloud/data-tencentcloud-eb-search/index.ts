@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudEbSearchConfig extends cdktf.TerraformMetaArgum
   /**
   * end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#end_time DataTencentcloudEbSearch#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#end_time DataTencentcloudEbSearch#end_time}
   */
   readonly endTime: number;
   /**
   * event bus Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#event_bus_id DataTencentcloudEbSearch#event_bus_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#event_bus_id DataTencentcloudEbSearch#event_bus_id}
   */
   readonly eventBusId: string;
   /**
   * aggregate field, When querying the log index dimension value, you must enter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#group_field DataTencentcloudEbSearch#group_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#group_field DataTencentcloudEbSearch#group_field}
   */
   readonly groupField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#id DataTencentcloudEbSearch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#id DataTencentcloudEbSearch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DataTencentcloudEbSearchConfig extends cdktf.TerraformMetaArgum
   /**
   * Sort by, asc from old to new, desc from new to old, take effect when the log is retrieved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#order_by DataTencentcloudEbSearch#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#order_by DataTencentcloudEbSearch#order_by}
   */
   readonly orderBy?: string;
   /**
   * sort array, take effect when the log is retrieved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#order_fields DataTencentcloudEbSearch#order_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#order_fields DataTencentcloudEbSearch#order_fields}
   */
   readonly orderFields?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#result_output_file DataTencentcloudEbSearch#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#result_output_file DataTencentcloudEbSearch#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#start_time DataTencentcloudEbSearch#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#start_time DataTencentcloudEbSearch#start_time}
   */
   readonly startTime: number;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#filter DataTencentcloudEbSearch#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#filter DataTencentcloudEbSearch#filter}
   */
   readonly filter?: DataTencentcloudEbSearchFilter[] | cdktf.IResolvable;
 }
@@ -177,19 +177,19 @@ export interface DataTencentcloudEbSearchFilterFilters {
   /**
   * filter field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#key DataTencentcloudEbSearch#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#key DataTencentcloudEbSearch#key}
   */
   readonly key: string;
   /**
   * operator, congruent eq, not equal neq, similar like, exclude similar not like, less than lt, less than and equal to lte, greater than gt, greater than and equal to gte, within range range, not within range norange.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#operator DataTencentcloudEbSearch#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#operator DataTencentcloudEbSearch#operator}
   */
   readonly operator: string;
   /**
   * Filter values, range operations need to enter two values at the same time, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#value DataTencentcloudEbSearch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#value DataTencentcloudEbSearch#value}
   */
   readonly value: string;
 }
@@ -356,31 +356,31 @@ export interface DataTencentcloudEbSearchFilter {
   /**
   * filter field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#key DataTencentcloudEbSearch#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#key DataTencentcloudEbSearch#key}
   */
   readonly key?: string;
   /**
   * operator, congruent eq, not equal neq, similar like, exclude similar not like, less than lt, less than and equal to lte, greater than gt, greater than and equal to gte, in range range, not in range norange.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#operator DataTencentcloudEbSearch#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#operator DataTencentcloudEbSearch#operator}
   */
   readonly operator?: string;
   /**
   * The logical relationship of the level filters, the value AND or OR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#type DataTencentcloudEbSearch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#type DataTencentcloudEbSearch#type}
   */
   readonly type?: string;
   /**
   * Filter value, range operation needs to enter two values at the same time, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#value DataTencentcloudEbSearch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#value DataTencentcloudEbSearch#value}
   */
   readonly value?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#filters DataTencentcloudEbSearch#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#filters DataTencentcloudEbSearch#filters}
   */
   readonly filters?: DataTencentcloudEbSearchFilterFilters[] | cdktf.IResolvable;
 }
@@ -612,7 +612,7 @@ export class DataTencentcloudEbSearchFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search tencentcloud_eb_search}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search tencentcloud_eb_search}
 */
 export class DataTencentcloudEbSearch extends cdktf.TerraformDataSource {
 
@@ -628,7 +628,7 @@ export class DataTencentcloudEbSearch extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudEbSearch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudEbSearch to import
-  * @param importFromId The id of the existing DataTencentcloudEbSearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudEbSearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudEbSearch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -640,7 +640,7 @@ export class DataTencentcloudEbSearch extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/data-sources/eb_search tencentcloud_eb_search} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eb_search tencentcloud_eb_search} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -651,8 +651,8 @@ export class DataTencentcloudEbSearch extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_eb_search',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

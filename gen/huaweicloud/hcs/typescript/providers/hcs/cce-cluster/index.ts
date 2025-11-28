@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,236 +8,236 @@ import * as cdktf from 'cdktf';
 
 export interface CceClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#alias CceCluster#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#alias CceCluster#alias}
   */
   readonly alias?: string;
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#annotations CceCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#annotations CceCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#authenticating_proxy_ca CceCluster#authenticating_proxy_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#authenticating_proxy_ca CceCluster#authenticating_proxy_ca}
   */
   readonly authenticatingProxyCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#authenticating_proxy_cert CceCluster#authenticating_proxy_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#authenticating_proxy_cert CceCluster#authenticating_proxy_cert}
   */
   readonly authenticatingProxyCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#authenticating_proxy_private_key CceCluster#authenticating_proxy_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#authenticating_proxy_private_key CceCluster#authenticating_proxy_private_key}
   */
   readonly authenticatingProxyPrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#authentication_mode CceCluster#authentication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#authentication_mode CceCluster#authentication_mode}
   */
   readonly authenticationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#auto_pay CceCluster#auto_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#auto_pay CceCluster#auto_pay}
   */
   readonly autoPay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#auto_renew CceCluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#auto_renew CceCluster#auto_renew}
   */
   readonly autoRenew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#billing_mode CceCluster#billing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#billing_mode CceCluster#billing_mode}
   */
   readonly billingMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#charging_mode CceCluster#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#charging_mode CceCluster#charging_mode}
   */
   readonly chargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#cluster_type CceCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#cluster_type CceCluster#cluster_type}
   */
   readonly clusterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#cluster_version CceCluster#cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#cluster_version CceCluster#cluster_version}
   */
   readonly clusterVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#container_network_cidr CceCluster#container_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#container_network_cidr CceCluster#container_network_cidr}
   */
   readonly containerNetworkCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#container_network_type CceCluster#container_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#container_network_type CceCluster#container_network_type}
   */
   readonly containerNetworkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#custom_san CceCluster#custom_san}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#custom_san CceCluster#custom_san}
   */
   readonly customSan?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#delete_all CceCluster#delete_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#delete_all CceCluster#delete_all}
   */
   readonly deleteAll?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#delete_efs CceCluster#delete_efs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#delete_efs CceCluster#delete_efs}
   */
   readonly deleteEfs?: string;
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#delete_eni CceCluster#delete_eni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#delete_eni CceCluster#delete_eni}
   */
   readonly deleteEni?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#delete_evs CceCluster#delete_evs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#delete_evs CceCluster#delete_evs}
   */
   readonly deleteEvs?: string;
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#delete_net CceCluster#delete_net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#delete_net CceCluster#delete_net}
   */
   readonly deleteNet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#delete_obs CceCluster#delete_obs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#delete_obs CceCluster#delete_obs}
   */
   readonly deleteObs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#delete_sfs CceCluster#delete_sfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#delete_sfs CceCluster#delete_sfs}
   */
   readonly deleteSfs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#description CceCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#description CceCluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#eip CceCluster#eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#eip CceCluster#eip}
   */
   readonly eip?: string;
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#enable_distribute_management CceCluster#enable_distribute_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#enable_distribute_management CceCluster#enable_distribute_management}
   */
   readonly enableDistributeManagement?: boolean | cdktf.IResolvable;
   /**
   * schema: Computed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#eni_subnet_cidr CceCluster#eni_subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#eni_subnet_cidr CceCluster#eni_subnet_cidr}
   */
   readonly eniSubnetCidr?: string;
   /**
   * the IPv4 subnet ID of the subnet where the ENI resides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#eni_subnet_id CceCluster#eni_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#eni_subnet_id CceCluster#eni_subnet_id}
   */
   readonly eniSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#enterprise_project_id CceCluster#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#enterprise_project_id CceCluster#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#extend_param CceCluster#extend_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#extend_param CceCluster#extend_param}
   */
   readonly extendParam?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#flavor_id CceCluster#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#flavor_id CceCluster#flavor_id}
   */
   readonly flavorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#hibernate CceCluster#hibernate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#hibernate CceCluster#hibernate}
   */
   readonly hibernate?: boolean | cdktf.IResolvable;
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#highway_subnet_id CceCluster#highway_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#highway_subnet_id CceCluster#highway_subnet_id}
   */
   readonly highwaySubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#id CceCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#id CceCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#ipv6_enable CceCluster#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#ipv6_enable CceCluster#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#kube_proxy_mode CceCluster#kube_proxy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#kube_proxy_mode CceCluster#kube_proxy_mode}
   */
   readonly kubeProxyMode?: string;
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#labels CceCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#labels CceCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#multi_az CceCluster#multi_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#multi_az CceCluster#multi_az}
   */
   readonly multiAz?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#name CceCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#name CceCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#period CceCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#period CceCluster#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#period_unit CceCluster#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#period_unit CceCluster#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#region CceCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#region CceCluster#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#security_group_id CceCluster#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#security_group_id CceCluster#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#service_network_cidr CceCluster#service_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#service_network_cidr CceCluster#service_network_cidr}
   */
   readonly serviceNetworkCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#subnet_id CceCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#subnet_id CceCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#support_istio CceCluster#support_istio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#support_istio CceCluster#support_istio}
   */
   readonly supportIstio?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#tags CceCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#tags CceCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#vpc_id CceCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#vpc_id CceCluster#vpc_id}
   */
   readonly vpcId: string;
   /**
   * component_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#component_configurations CceCluster#component_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#component_configurations CceCluster#component_configurations}
   */
   readonly componentConfigurations?: CceClusterComponentConfigurations[] | cdktf.IResolvable;
   /**
   * extend_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#extend_params CceCluster#extend_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#extend_params CceCluster#extend_params}
   */
   readonly extendParams?: CceClusterExtendParams[] | cdktf.IResolvable;
   /**
   * masters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#masters CceCluster#masters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#masters CceCluster#masters}
   */
   readonly masters?: CceClusterMasters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#timeouts CceCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#timeouts CceCluster#timeouts}
   */
   readonly timeouts?: CceClusterTimeouts;
 }
@@ -413,11 +413,11 @@ export class CceClusterCertificateUsersList extends cdktf.ComplexList {
 }
 export interface CceClusterComponentConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#configurations CceCluster#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#configurations CceCluster#configurations}
   */
   readonly configurations?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#name CceCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#name CceCluster#name}
   */
   readonly name: string;
 }
@@ -559,27 +559,27 @@ export class CceClusterComponentConfigurationsList extends cdktf.ComplexList {
 }
 export interface CceClusterExtendParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#cluster_az CceCluster#cluster_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#cluster_az CceCluster#cluster_az}
   */
   readonly clusterAz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#cpu_manager_policy CceCluster#cpu_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#cpu_manager_policy CceCluster#cpu_manager_policy}
   */
   readonly cpuManagerPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#dec_master_flavor CceCluster#dec_master_flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#dec_master_flavor CceCluster#dec_master_flavor}
   */
   readonly decMasterFlavor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#docker_umask_mode CceCluster#docker_umask_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#docker_umask_mode CceCluster#docker_umask_mode}
   */
   readonly dockerUmaskMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#dss_master_volumes CceCluster#dss_master_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#dss_master_volumes CceCluster#dss_master_volumes}
   */
   readonly dssMasterVolumes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#fix_pool_mask CceCluster#fix_pool_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#fix_pool_mask CceCluster#fix_pool_mask}
   */
   readonly fixPoolMask?: string;
 }
@@ -840,7 +840,7 @@ export class CceClusterExtendParamsList extends cdktf.ComplexList {
 }
 export interface CceClusterMasters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#availability_zone CceCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#availability_zone CceCluster#availability_zone}
   */
   readonly availabilityZone?: string;
 }
@@ -956,15 +956,15 @@ export class CceClusterMastersList extends cdktf.ComplexList {
 }
 export interface CceClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#create CceCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#create CceCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#delete CceCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#delete CceCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#update CceCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#update CceCluster#update}
   */
   readonly update?: string;
 }
@@ -1116,7 +1116,7 @@ export class CceClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster hcs_cce_cluster}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster hcs_cce_cluster}
 */
 export class CceCluster extends cdktf.TerraformResource {
 
@@ -1132,7 +1132,7 @@ export class CceCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CceCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CceCluster to import
-  * @param importFromId The id of the existing CceCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CceCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CceCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1144,7 +1144,7 @@ export class CceCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cce_cluster hcs_cce_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.21/docs/resources/cce_cluster hcs_cce_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1155,8 +1155,8 @@ export class CceCluster extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_cce_cluster',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.20',
-        providerVersionConstraint: '2.4.20'
+        providerVersion: '2.4.21',
+        providerVersionConstraint: '2.4.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

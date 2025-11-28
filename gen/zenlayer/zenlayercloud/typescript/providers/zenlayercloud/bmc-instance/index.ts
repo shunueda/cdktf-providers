@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface BmcInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of zone that the bmc instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#availability_zone BmcInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#availability_zone BmcInstance#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Indicate whether to force delete the instance. Default is `false`. If set true, the instance will be permanently deleted instead of being moved into the recycle bin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#force_delete BmcInstance#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#force_delete BmcInstance#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
   * The hostname of the instance. The name should be a combination of 2 to 64 characters comprised of letters (case insensitive), numbers, hyphens (-) and Period (.), and the name must be start with letter. The default value is `Terraform-Instance`. Modifying will cause the instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#hostname BmcInstance#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#hostname BmcInstance#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#id BmcInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#id BmcInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,127 +35,127 @@ export interface BmcInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The image to use for the instance. Changing `image_id` will cause the instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#image_id BmcInstance#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#image_id BmcInstance#image_id}
   */
   readonly imageId?: string;
   /**
   * The tenancy (time unit is month) of the prepaid instance, NOTE: it only works when instance_charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#instance_charge_prepaid_period BmcInstance#instance_charge_prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#instance_charge_prepaid_period BmcInstance#instance_charge_prepaid_period}
   */
   readonly instanceChargePrepaidPeriod?: number;
   /**
   * The charge type of instance. Valid values are `PREPAID`, `POSTPAID`. The default is `POSTPAID`. Note: `PREPAID` instance may not allow to delete before expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#instance_charge_type BmcInstance#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#instance_charge_type BmcInstance#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * The name of the instance. The max length of instance_name is 64, and default value is `Terraform-Instance`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#instance_name BmcInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#instance_name BmcInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * The type of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#instance_type_id BmcInstance#instance_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#instance_type_id BmcInstance#instance_type_id}
   */
   readonly instanceTypeId: string;
   /**
   * Internet charge type of the instance, Valid values are `ByBandwidth`, `ByTrafficPackage`, `ByInstanceBandwidth95` and `ByClusterBandwidth95`. This value currently not support to change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#internet_charge_type BmcInstance#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#internet_charge_type BmcInstance#internet_charge_type}
   */
   readonly internetChargeType: string;
   /**
   * Maximum outgoing bandwidth to the public network, measured in Mbps (Mega bits per second).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#internet_max_bandwidth_out BmcInstance#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#internet_max_bandwidth_out BmcInstance#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * The ssh key pair id to use for the instance. Modifications may cause the instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#key_id BmcInstance#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#key_id BmcInstance#key_id}
   */
   readonly keyId?: string;
   /**
   * The lan name of the nic. The lan name should be a combination of 4 to 10 characters comprised of letters (case insensitive), numbers. The lan name must start with letter. Modifying will cause the instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#nic_lan_name BmcInstance#nic_lan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#nic_lan_name BmcInstance#nic_lan_name}
   */
   readonly nicLanName?: string;
   /**
   * The wan name of the nic. The wan name should be a combination of 4 to 10 characters comprised of letters (case insensitive), numbers. The wan name must start with letter. Modifying will cause the instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#nic_wan_name BmcInstance#nic_wan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#nic_wan_name BmcInstance#nic_wan_name}
   */
   readonly nicWanName?: string;
   /**
   * Password for the instance. The max length of password is 16. Modifying will cause the instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#password BmcInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#password BmcInstance#password}
   */
   readonly password?: string;
   /**
   * Simple config for instance raid. Modifying will cause the instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#raid_config_type BmcInstance#raid_config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#raid_config_type BmcInstance#raid_config_type}
   */
   readonly raidConfigType?: string;
   /**
   * Whether to reinstall the instance when modifying field including `user_data`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#reinstall BmcInstance#reinstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#reinstall BmcInstance#reinstall}
   */
   readonly reinstall?: boolean | cdktf.IResolvable;
   /**
   * The resource group id the instance belongs to, default to Default Resource Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#resource_group_id BmcInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#resource_group_id BmcInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * The ssh keys to use for the instance. The max number of ssh keys is 5. Modifying will cause the instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#ssh_keys BmcInstance#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#ssh_keys BmcInstance#ssh_keys}
   */
   readonly sshKeys?: string[];
   /**
   * The ID of a VPC subnet. If you want to create instances in a VPC network, this parameter must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#subnet_id BmcInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#subnet_id BmcInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Traffic package size. Only valid when the charge type of instance is `ByTrafficPackage` and the instance charge type is `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#traffic_package_size BmcInstance#traffic_package_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#traffic_package_size BmcInstance#traffic_package_size}
   */
   readonly trafficPackageSize?: number;
   /**
   * A string of the user data to be injected into this instance. If `reinstall` is set to `true`, updates to this field will trigger the instance reset instead of recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#user_data BmcInstance#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#user_data BmcInstance#user_data}
   */
   readonly userData?: string;
   /**
   * partitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#partitions BmcInstance#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#partitions BmcInstance#partitions}
   */
   readonly partitions?: BmcInstancePartitions[] | cdktf.IResolvable;
   /**
   * raid_config_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#raid_config_custom BmcInstance#raid_config_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#raid_config_custom BmcInstance#raid_config_custom}
   */
   readonly raidConfigCustom?: BmcInstanceRaidConfigCustom[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#timeouts BmcInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#timeouts BmcInstance#timeouts}
   */
   readonly timeouts?: BmcInstanceTimeouts;
 }
@@ -163,19 +163,19 @@ export interface BmcInstancePartitions {
   /**
   * The drive letter(windows) or device name(linux) for the partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#fs_path BmcInstance#fs_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#fs_path BmcInstance#fs_path}
   */
   readonly fsPath: string;
   /**
   * The type of the partitioned file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#fs_type BmcInstance#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#fs_type BmcInstance#fs_type}
   */
   readonly fsType: string;
   /**
   * The size of the partitioned disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#size BmcInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#size BmcInstance#size}
   */
   readonly size: number;
 }
@@ -342,13 +342,13 @@ export interface BmcInstanceRaidConfigCustom {
   /**
   * The sequence of disk to make raid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#disk_sequence BmcInstance#disk_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#disk_sequence BmcInstance#disk_sequence}
   */
   readonly diskSequence: number[];
   /**
   * Simple config for raid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#raid_type BmcInstance#raid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#raid_type BmcInstance#raid_type}
   */
   readonly raidType: string;
 }
@@ -487,11 +487,11 @@ export class BmcInstanceRaidConfigCustomList extends cdktf.ComplexList {
 }
 export interface BmcInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#create BmcInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#create BmcInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#update BmcInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#update BmcInstance#update}
   */
   readonly update?: string;
 }
@@ -614,7 +614,7 @@ export class BmcInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance zenlayercloud_bmc_instance}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance zenlayercloud_bmc_instance}
 */
 export class BmcInstance extends cdktf.TerraformResource {
 
@@ -630,7 +630,7 @@ export class BmcInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BmcInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BmcInstance to import
-  * @param importFromId The id of the existing BmcInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BmcInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BmcInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -642,7 +642,7 @@ export class BmcInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.12/docs/resources/bmc_instance zenlayercloud_bmc_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_instance zenlayercloud_bmc_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -653,8 +653,8 @@ export class BmcInstance extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_bmc_instance',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

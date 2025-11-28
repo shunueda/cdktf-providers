@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DayuCcPolicyV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Business of resource instance. bgpip indicates anti-anti-ip ip; bgp means exclusive package; bgp-multip means shared packet; net indicates anti-anti-ip pro version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#business DayuCcPolicyV2#business}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#business DayuCcPolicyV2#business}
   */
   readonly business: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#id DayuCcPolicyV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#id DayuCcPolicyV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DayuCcPolicyV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the resource instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#resource_id DayuCcPolicyV2#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#resource_id DayuCcPolicyV2#resource_id}
   */
   readonly resourceId: string;
   /**
   * cc_black_white_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#cc_black_white_ips DayuCcPolicyV2#cc_black_white_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#cc_black_white_ips DayuCcPolicyV2#cc_black_white_ips}
   */
   readonly ccBlackWhiteIps?: DayuCcPolicyV2CcBlackWhiteIps[] | cdktf.IResolvable;
   /**
   * cc_geo_ip_policys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#cc_geo_ip_policys DayuCcPolicyV2#cc_geo_ip_policys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#cc_geo_ip_policys DayuCcPolicyV2#cc_geo_ip_policys}
   */
   readonly ccGeoIpPolicys?: DayuCcPolicyV2CcGeoIpPolicys[] | cdktf.IResolvable;
   /**
   * cc_precision_policys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#cc_precision_policys DayuCcPolicyV2#cc_precision_policys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#cc_precision_policys DayuCcPolicyV2#cc_precision_policys}
   */
   readonly ccPrecisionPolicys?: DayuCcPolicyV2CcPrecisionPolicys[] | cdktf.IResolvable;
   /**
   * cc_precision_req_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#cc_precision_req_limits DayuCcPolicyV2#cc_precision_req_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#cc_precision_req_limits DayuCcPolicyV2#cc_precision_req_limits}
   */
   readonly ccPrecisionReqLimits?: DayuCcPolicyV2CcPrecisionReqLimits[] | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#thresholds DayuCcPolicyV2#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#thresholds DayuCcPolicyV2#thresholds}
   */
   readonly thresholds?: DayuCcPolicyV2Thresholds[] | cdktf.IResolvable;
 }
@@ -61,37 +61,37 @@ export interface DayuCcPolicyV2CcBlackWhiteIps {
   /**
   * Blacklist and whitelist IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#black_white_ip DayuCcPolicyV2#black_white_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#black_white_ip DayuCcPolicyV2#black_white_ip}
   */
   readonly blackWhiteIp: string;
   /**
   * Create time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#create_time DayuCcPolicyV2#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#create_time DayuCcPolicyV2#create_time}
   */
   readonly createTime?: string;
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#domain DayuCcPolicyV2#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#domain DayuCcPolicyV2#domain}
   */
   readonly domain: string;
   /**
   * Modify time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#modify_time DayuCcPolicyV2#modify_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#modify_time DayuCcPolicyV2#modify_time}
   */
   readonly modifyTime?: string;
   /**
   * Protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#protocol DayuCcPolicyV2#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#protocol DayuCcPolicyV2#protocol}
   */
   readonly protocol: string;
   /**
   * IP type, value [black(blacklist IP), white (whitelist IP)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#type DayuCcPolicyV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#type DayuCcPolicyV2#type}
   */
   readonly type: string;
 }
@@ -342,43 +342,43 @@ export interface DayuCcPolicyV2CcGeoIpPolicys {
   /**
   * User action, drop or arg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#action DayuCcPolicyV2#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#action DayuCcPolicyV2#action}
   */
   readonly action: string;
   /**
   * The list of region IDs that the user selects to block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#area_list DayuCcPolicyV2#area_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#area_list DayuCcPolicyV2#area_list}
   */
   readonly areaList?: number[];
   /**
   * Create time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#create_time DayuCcPolicyV2#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#create_time DayuCcPolicyV2#create_time}
   */
   readonly createTime?: string;
   /**
   * domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#domain DayuCcPolicyV2#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#domain DayuCcPolicyV2#domain}
   */
   readonly domain: string;
   /**
   * Modify time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#modify_time DayuCcPolicyV2#modify_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#modify_time DayuCcPolicyV2#modify_time}
   */
   readonly modifyTime?: string;
   /**
   * Protocol, preferably HTTP, HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#protocol DayuCcPolicyV2#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#protocol DayuCcPolicyV2#protocol}
   */
   readonly protocol: string;
   /**
   * Regional types, divided into china, oversea and customized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#region_type DayuCcPolicyV2#region_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#region_type DayuCcPolicyV2#region_type}
   */
   readonly regionType: string;
 }
@@ -658,25 +658,25 @@ export interface DayuCcPolicyV2CcPrecisionPolicysPolicys {
   /**
   * Configuration item types, currently only support value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#field_name DayuCcPolicyV2#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#field_name DayuCcPolicyV2#field_name}
   */
   readonly fieldName: string;
   /**
   * Configuration fields with the desirable values cgi, ua, cookie, referer, accept, srcip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#field_type DayuCcPolicyV2#field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#field_type DayuCcPolicyV2#field_type}
   */
   readonly fieldType: string;
   /**
   * Configure the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#value DayuCcPolicyV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#value DayuCcPolicyV2#value}
   */
   readonly value: string;
   /**
   * Configure the item-value comparison mode, which can be taken as the value of evaluate, not_equal, include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#value_operator DayuCcPolicyV2#value_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#value_operator DayuCcPolicyV2#value_operator}
   */
   readonly valueOperator: string;
 }
@@ -869,31 +869,31 @@ export interface DayuCcPolicyV2CcPrecisionPolicys {
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#domain DayuCcPolicyV2#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#domain DayuCcPolicyV2#domain}
   */
   readonly domain: string;
   /**
   * Ip address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#ip DayuCcPolicyV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#ip DayuCcPolicyV2#ip}
   */
   readonly ip: string;
   /**
   * Policy mode (discard or captcha).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#policy_action DayuCcPolicyV2#policy_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#policy_action DayuCcPolicyV2#policy_action}
   */
   readonly policyAction: string;
   /**
   * Protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#protocol DayuCcPolicyV2#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#protocol DayuCcPolicyV2#protocol}
   */
   readonly protocol: string;
   /**
   * policys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#policys DayuCcPolicyV2#policys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#policys DayuCcPolicyV2#policys}
   */
   readonly policys: DayuCcPolicyV2CcPrecisionPolicysPolicys[] | cdktf.IResolvable;
 }
@@ -1117,49 +1117,49 @@ export interface DayuCcPolicyV2CcPrecisionReqLimitsPolicys {
   /**
   * The frequency limit policy mode, the optional value of arg indicates the verification code, and drop indicates the discard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#action DayuCcPolicyV2#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#action DayuCcPolicyV2#action}
   */
   readonly action: string;
   /**
   * Cookies, one of the three policy entries can only be filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#cookie DayuCcPolicyV2#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#cookie DayuCcPolicyV2#cookie}
   */
   readonly cookie?: string;
   /**
   * The duration of the frequency limit policy can be taken from 1 to 86400 per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#execute_duration DayuCcPolicyV2#execute_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#execute_duration DayuCcPolicyV2#execute_duration}
   */
   readonly executeDuration: number;
   /**
   * The policy item is compared, and the optional value include indicates inclusion, and equal means equal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#mode DayuCcPolicyV2#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#mode DayuCcPolicyV2#mode}
   */
   readonly mode: string;
   /**
   * Statistical period, take values 1, 10, 30, 60, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#period DayuCcPolicyV2#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#period DayuCcPolicyV2#period}
   */
   readonly period: number;
   /**
   * The number of requests, the value is 1 to 20000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#request_num DayuCcPolicyV2#request_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#request_num DayuCcPolicyV2#request_num}
   */
   readonly requestNum: number;
   /**
   * Uri, one of the three policy entries can only be filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#uri DayuCcPolicyV2#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#uri DayuCcPolicyV2#uri}
   */
   readonly uri?: string;
   /**
   * User-Agent, only one of the three policy entries can be filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#user_agent DayuCcPolicyV2#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#user_agent DayuCcPolicyV2#user_agent}
   */
   readonly userAgent?: string;
 }
@@ -1465,25 +1465,25 @@ export interface DayuCcPolicyV2CcPrecisionReqLimits {
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#domain DayuCcPolicyV2#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#domain DayuCcPolicyV2#domain}
   */
   readonly domain: string;
   /**
   * Protection rating, the optional value of default means default policy, loose means loose, and strict means strict.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#level DayuCcPolicyV2#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#level DayuCcPolicyV2#level}
   */
   readonly level: string;
   /**
   * Protocol, preferably HTTP, HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#protocol DayuCcPolicyV2#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#protocol DayuCcPolicyV2#protocol}
   */
   readonly protocol: string;
   /**
   * policys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#policys DayuCcPolicyV2#policys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#policys DayuCcPolicyV2#policys}
   */
   readonly policys: DayuCcPolicyV2CcPrecisionReqLimitsPolicys[] | cdktf.IResolvable;
 }
@@ -1686,13 +1686,13 @@ export interface DayuCcPolicyV2Thresholds {
   /**
   * domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#domain DayuCcPolicyV2#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#domain DayuCcPolicyV2#domain}
   */
   readonly domain: string;
   /**
   * Cleaning threshold, -1 indicates that the `default` mode is turned on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#threshold DayuCcPolicyV2#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#threshold DayuCcPolicyV2#threshold}
   */
   readonly threshold: number;
 }
@@ -1831,7 +1831,7 @@ export class DayuCcPolicyV2ThresholdsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2 tencentcloud_dayu_cc_policy_v2}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2 tencentcloud_dayu_cc_policy_v2}
 */
 export class DayuCcPolicyV2 extends cdktf.TerraformResource {
 
@@ -1847,7 +1847,7 @@ export class DayuCcPolicyV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DayuCcPolicyV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DayuCcPolicyV2 to import
-  * @param importFromId The id of the existing DayuCcPolicyV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DayuCcPolicyV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DayuCcPolicyV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1859,7 +1859,7 @@ export class DayuCcPolicyV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.38/docs/resources/dayu_cc_policy_v2 tencentcloud_dayu_cc_policy_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_cc_policy_v2 tencentcloud_dayu_cc_policy_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1870,8 +1870,8 @@ export class DayuCcPolicyV2 extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dayu_cc_policy_v2',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.38',
-        providerVersionConstraint: '1.82.38'
+        providerVersion: '1.82.39',
+        providerVersionConstraint: '1.82.39'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
